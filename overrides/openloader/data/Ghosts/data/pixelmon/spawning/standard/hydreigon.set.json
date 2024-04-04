@@ -1,0 +1,63 @@
+{
+  "id": "Hydreigon",
+  "spawnInfos": [
+    {
+      "spec": "species:Hydreigon",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": "species:Hydreigon",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Hydreigon palette:ashen",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDDAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

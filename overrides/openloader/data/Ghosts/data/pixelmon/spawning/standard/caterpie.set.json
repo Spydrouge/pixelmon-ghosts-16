@@ -1,0 +1,117 @@
+{
+  "id": "Caterpie",
+  "spawnInfos": [
+    {
+     "spec": "species:Caterpie palette:pink",
+     "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+     "spec": "species:Caterpie palette:valencian",
+     "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Caterpie",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent",
+        "Tree Top",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "birches",
+          "flowery",
+          "jungles",
+          "byg:crag_gardens",
+          "magical"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Caterpie palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "birches",
+          "flowery",
+          "byg:crag_gardens",
+          "magical"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Caterpie palette:valencian",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Shiinotic",
+  "spawnInfos": [
+    {
+      "spec": "species:Shiinotic",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 24,
+      "maxLevel": 45,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Shiinotic",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY",
+          "DAWN"
+        ],
+        "stringBiomes": [
+          "birches",
+          "mushroom",
+          "taigas",
+          "redwoods",
+          "magical"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+Master Chest (pixelmon:master_chest) has a BlockEntity
+Full block state: Block{pixelmon:master_chest}[facing=south]
+Hardness: -1.0000, Explosion resistance: 6000000.0000, Material: GLASS
+Block class: com.pixelmonmod.pixelmon.blocks.PokeChestBlock
+BlockState properties:
+DirectionProperty{name=facing, clazz=class net.minecraft.util.Direction, values=[north, south, west, east]}: south
+BlockEntity class: com.pixelmonmod.pixelmon.blocks.tileentity.PokeChestTileEntity
+
+BlockEntity NBT (from BlockEntity::write()):
+[TAG_Compound (14 values)] 
+{
+    [TAG_Compound (0 values)] "ForgeData"
+    {
+    }
+    [TAG_Int_Array (4 entries)] "Owner"
+    [
+          0: 0x00000000 (   0)
+          1: 0x00000000 (   0)
+          2: 0x00000000 (   0)
+          3: 0x00000000 (   0)
+    ]
+    [TAG_Byte] "chestOneTime": 1
+    [TAG_Byte] "customDrop": 1
+    [TAG_List (1 values of type TAG_Compound)] "customDrops"
+    [
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_String] "id": "pixelmon:poke_ball"
+            [TAG_Compound (1 values)] "tag"
+            {
+                [TAG_String] "PokeBallID": "master_ball"
+            }
+        }
+    ]
+    [TAG_Byte] "dropOneTime": 1
+    [TAG_Byte] "grotto": 0
+    [TAG_String] "id": "pixelmon:poke_chest"
+    [TAG_Byte] "specialEvent": 0
+    [TAG_Byte] "timeEnabled": 0
+    [TAG_Short] "visibility": 0
+    [TAG_Int] "x": 61
+    [TAG_Int] "y": 79
+    [TAG_Int] "z": 11
+}

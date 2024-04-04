@@ -1,0 +1,42 @@
+{
+  "id": "Escavalier",
+  "spawnInfos": [
+    {
+      "spec": "species:Escavalier palette:spirit",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Escavalier",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 2.0
+    }
+  ]
+}

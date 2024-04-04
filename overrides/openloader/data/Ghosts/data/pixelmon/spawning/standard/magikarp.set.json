@@ -1,0 +1,295 @@
+{
+  "id": "Magikarp",
+  "spawnInfos": [
+    {
+      "spec": "species:Magikarp palette:roasted",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+     {
+      "spec": "species:Magikarp palette:drowned",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Magikarp palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },  
+    
+    {
+      "spec": "species:Magikarp palette:skelly",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "minY": 0,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:black_mask",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:brown_tiger",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:violet_raindrops",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:pink_orca",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:blue_saucy",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:valencian",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Magikarp palette:orange_mask",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 256,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches",
+          "swamps",
+          "minecraft:river",
+          "jungles",
+          "all forests",
+          "mountainous",
+          "freezing",
+          "savannas",
+          "plains",
+          "magical",
+          "lakes",
+          "byg:polluted_lake",
+          "byg:crag_gardens"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Magikarp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "anticondition": {
+        "stringBiomes": [
+          "drowned",
+          "ultra space"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Magikarp palette:valencian",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Magikarp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}

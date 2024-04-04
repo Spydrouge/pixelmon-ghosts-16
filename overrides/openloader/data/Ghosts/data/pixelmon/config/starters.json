@@ -1,0 +1,45 @@
+{
+  "starters": [
+    {
+      "spec": "Drifloon",
+      "chanceSpecs": [],
+      "page": 0,
+      "x": 1,
+      "y": 0,
+      "scale": 3
+    },
+  ],
+  "chanceSpecs": [
+    {
+      "spec": "level:2",
+      "rate": 1
+    },
+    {
+      "spec": "ribbon:destiny",
+      "rate": 1
+    },
+    {
+      "spec": "shiny",
+      "rate": 1
+    }
+  ],
+  "options": [
+
+  ],
+  "pageColors": [
+    {
+      "page": 0,
+      "color": {
+        "r": 180,
+        "g": 0,
+        "b": 140,
+        "a": 255
+      }
+    }
+  ],
+  "loop": true,
+  "text": [
+    "gui.starter.trademark4",
+    "gui.starter.trademark5"
+  ]
+}

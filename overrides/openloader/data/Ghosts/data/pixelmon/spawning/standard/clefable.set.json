@@ -1,0 +1,123 @@
+{
+  "id": "Clefable",
+  "spawnInfos": [
+    {
+      "spec": "species:Clefable",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 50
+        },
+        {
+          "itemID": "contenttweaker:platinum_dust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "minY": 224
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Clefable",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 50
+        },
+        {
+          "itemID": "contenttweaker:platinum_dust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ],
+        "minY": 70
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Clefable",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Clefable",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 50
+        },
+        {
+          "itemID": "contenttweaker:platinum_dust",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "minY": 70
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish" 
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

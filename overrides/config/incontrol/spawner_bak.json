@@ -1,0 +1,16 @@
+[
+	{
+		"dimension":"minecraft:the_nether",
+		"block": ["minecraft:grass", "minecraft:dirt", "minecraft:leaves", "minecraft:soul_sand", "biomesoplenty:flesh", "minecraft:bone_block", "biomesoplenty:ash_block"],
+		"biome": ["minecraft:hell", "biomesoplenty:visceral_heap", "Fungi Forest", "biomesoplenty:corrupted_sands", "biomesoplenty:phantasmagoric_inferno"], 
+		"mobs": [
+		  {
+			"mob": "minecraft:zombie_villager",
+			"weight": 5,
+			"groupcountmin": 2,
+			"groupcountmax": 5
+		  }
+		]
+	}
+
+]

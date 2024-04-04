@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "ceramics:block/porcelain_bricks",
+    "front": "ceramics:block/smeltery/controller/porcelain_heater_active",
+    "side": "ceramics:block/porcelain_bricks"
+  }
+}

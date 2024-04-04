@@ -1,0 +1,40 @@
+{
+  "id": "Snubbull",
+  "spawnInfos": [
+    {
+      "spec": "species:Snubbull",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Snubbull",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 128,
+        "minY": 96
+      },
+      "rarity": 60.0
+    }
+  ]
+}

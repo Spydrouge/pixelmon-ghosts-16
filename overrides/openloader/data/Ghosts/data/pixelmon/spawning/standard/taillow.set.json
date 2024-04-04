@@ -1,0 +1,69 @@
+{
+  "id": "Taillow",
+  "spawnInfos": [
+    {
+      "spec": "species:Taillow",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Taillow",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "forests",
+          "roofed"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Taillow",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "forests",
+          "roofed"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}

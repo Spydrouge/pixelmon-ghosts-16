@@ -1,0 +1,58 @@
+{
+  "id": "Porygon",
+  "spawnInfos": [
+    {
+      "spec": "species:Porygon palette:alter",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:pc"
+            ]
+          }
+        }
+      ],
+      "rarity": 40
+    },
+    {
+      "spec": "species:Porygon palette:alter",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:pc"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

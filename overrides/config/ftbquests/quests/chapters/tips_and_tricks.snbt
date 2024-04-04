@@ -1,0 +1,656 @@
+{
+	id: "51A84FDA6DD9F1DE"
+	group: "44341255860549FC"
+	order_index: 0
+	filename: "tips_and_tricks"
+	title: "Tips and Tricks"
+	icon: "ftbquests:book"
+	subtitle: ["For when you aren't quite sure how the game mechanics work."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Void"
+			icon: "pixelmon:reaper_cloth"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "The Ghosts will try to help you survive this dangerous place"
+			description: [
+				"A &5Ghostly Force&r will attempt to rescue you if you fall into the void. However, it will send you to the height limit, a fall you will only survive if you are healthy. Ensure KeepInventory is set to true for the best in-game experience."
+				""
+				"If you or the Pokemon you are fighting fall into the void &cmid-battle&r, you will both survive until the battle is over. Don't run away from a Pokemon you want to catch in these situations."
+				""
+				"When throwing Pokeballs out of battle, remember this: Even if a &cPokeball&r successfully hits a Pokemon, if it falls into the void afterwards, it will be destroyed. The &5Ghostly Force&r will try to rescue these doomed pokemon by sneaking them back into your shadow, but this is not always successful."
+			]
+			dependencies: [
+				"1183D242FD8FAF87"
+				"1DFDB168215732BB"
+			]
+			hide: true
+			id: "002A10074C8DB848"
+			tasks: [{
+				id: "498D8BDFAEB3F0C4"
+				type: "checkmark"
+				title: "Pokemon and the Void"
+			}]
+			rewards: [{
+				id: "092710901F0C227C"
+				type: "item"
+				item: "pixelmon:revival_herb"
+			}]
+		}
+		{
+			title: "Tips and Tricks"
+			icon: "ftbquests:book"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Mechanics and More"
+			description: ["This chapter of your quest book contains tips, tricks, hints, and information about the modpack. This is to help you from making common mistakes, as interactions between Pixelmon and the void are not always obvious."]
+			size: 2.0d
+			id: "1183D242FD8FAF87"
+			tasks: [{
+				id: "3A20E8EB38CB4346"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "036C7A79DBE02555"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "Help, I didn't get a Starter!"
+			icon: "pixelmon:oaks_parcel"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "I demand to speak to the regional Professor!"
+			description: [
+				"You are &4not given&r a starter in Ghosts. There are no Professors, and you are alone and insignificant."
+				""
+				"Instead, you will need to find a level 2 Pokemon and throw a Pokeball at it out of combat."
+				""
+				"Where will you get a Pokeball? Perhaps the main questline can help."
+			]
+			dependencies: ["1183D242FD8FAF87"]
+			hide: true
+			id: "5998CB1BDA3E4109"
+			tasks: [{
+				id: "6438E35F574B0478"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4BE1844CAAAE1207"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "Early Battling Advice"
+			icon: {
+				id: "pixelmon:pixelmon_sprite"
+				Count: 1b
+				tag: {
+					ndex: 204s
+					palette: "none"
+					form: -1b
+					gender: 0b
+					Shiny: 0b
+				}
+			}
+			x: 1.0d
+			y: 1.5d
+			subtitle: "What Can you Kill at Level 2?"
+			description: [
+				"Drifloon is very vulnerable; at only level 2, it is as fragile as a youngster's rattata. You have to pick your battles wisely."
+				""
+				"With two &5immunities&r, to &lnormal&r and &6ground&r type moves, Drifloon can outmanuver many enemy pokemon. &2Pineco&r can't hit it with self destruct, and does not learn Bug Bite until level 9. &2Burmy&r cannot hit it with tackle. However, both Pokemon will seek to stall out Drifloon's PP using Protect. Choose targets carefully, and level up to learn new moves with more PP."
+				""
+				"&5Phantump&r yields more wood logs than Pineco, but will put up a fight with branch poke, astonish, and leech seed. You may not be able to defeat it. &2Shedinja&r is very slow but very powerful; since it has only one HP, and all your moves are super effective, the fight will come down to who moves first."
+			]
+			dependencies: [
+				"509830B8EDE46BCD"
+				"1183D242FD8FAF87"
+			]
+			id: "20A8CEB3C05E359C"
+			tasks: [{
+				id: "6A7F2E6AAD7B7886"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "51325F5EB50DDD16"
+				type: "item"
+				item: "pixelmon:energy_powder"
+			}]
+		}
+		{
+			icon: {
+				id: "pixelmon:pixelmon_sprite"
+				Count: 1b
+				tag: {
+					ndex: 524s
+					palette: "none"
+					form: -1b
+					gender: 0b
+					Shiny: 0b
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			subtitle: "They all have rock throw!"
+			description: [
+				"How will you defeat Geodude, Roggenrola, and the occasional Nacli?"
+				""
+				"Geodude has little special defense, but resists gust; Drifloon will need to learn &5Hex&r to have any chance of taking it down, and will benefit from outleveling it. It learns &6Rollout&r at level 10 and &6Rock Throw&r at level 16. &6Smockdown&r comes at level 18. The more rock moves Geodude has, the more dangerous it is against &bflying&r type Drifloon. However, Geodude is the only source of &8flint&r."
+				""
+				"Roggenrola lacks a move that can hit Drifloon until level 16. It is rarer, but safer to farm. Roggenrola is strongly attracted to &cJuke boxes&r."
+				""
+				"Nacli learns two rock moves especially early, but will lose Rock Throw at level 16 when it learns Headbutt. Nacli tend to form on natural sandstone and quartz."
+				""
+			]
+			dependencies: [
+				"6BCA2C177694D5E9"
+				"20A8CEB3C05E359C"
+			]
+			hide: true
+			id: "4D1266898E6101BC"
+			tasks: [{
+				id: "3814FD4F63ED5B87"
+				type: "checkmark"
+				title: "Ground Pokemon Battling Advice"
+			}]
+			rewards: [{
+				id: "5F18C56721507DB8"
+				type: "item"
+				title: "While you're thinking up battle strategies, Drifloon brings you a present"
+				item: "pixelmon:ghost_gem"
+			}]
+		}
+		{
+			icon: "pixelmon:dragon_skull"
+			x: 2.5d
+			y: 3.0d
+			subtitle: "They just need a little push..."
+			description: [
+				"Because there is a spawn cap per area, you may find yourself surrounded in Pokemon too powerful, or irrelevant to your current farming strategy."
+				""
+				"To make room for much-needed Pokemon, sometimes you need to give the unwelcome visitors a little push into the void, or find another way to dispose of them. Wither roses can also do the trick."
+				""
+				"In death there is life, and in life, death."
+			]
+			dependencies: ["20A8CEB3C05E359C"]
+			hide: true
+			id: "6D2E37EFD10FB7B2"
+			tasks: [{
+				id: "6D5571FDF3759A1A"
+				type: "checkmark"
+				title: "The Pokemon I Need Aren't Spawning"
+			}]
+			rewards: [{
+				id: "4C87FB0DE39067C1"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Laws of Attraction"
+			description: [
+				"Pokemon are attracted to a variety of different conditions. The y-level of a location, the presence or lack of water, the presense or lack of a roof, the presence of sand, whether a structure is manmade or natural, whether there are trees; all these are important variables to consider. Typically, a unique set of Pokemon spawn in unique locations."
+				""
+				"Pokemon do not spawn on some manmade structures such as wool or wood slabs, making them excellent tools for building narrow paths or other structures you dont' want cluttered with wild Pokemon."
+				""
+				"The Pokemon Nacli is attracted to natural sandstone and quartz blocks, uncut. You can sometimes harvest sandstone from Roggenrola."
+			]
+			dependencies: [
+				"338E4769A408F738"
+				"73F61B9DC6B043DA"
+			]
+			hide: true
+			id: "7F8E0B072E55E538"
+			tasks: [{
+				id: "6600F953E3324B54"
+				type: "questsadditions:place"
+				title: "Place Sandstone"
+				block_type: 0
+				block: "biomesoplenty:orange_sandstone"
+				value: 1L
+				replaced: "minecraft:air"
+				replace: false
+			}]
+			rewards: [{
+				id: "3DCC7D2A5EBF214C"
+				type: "item"
+				item: "byg:white_sandstone"
+			}]
+		}
+		{
+			title: "The Perils of Placing Spawners"
+			icon: "pixelmon:pixelmon_spawner"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Be Very Careful..."
+			description: [
+				"Spawners given to you by Arceus can be placed down, but cannot be moved. Ever. Therefore, it is very important to pick a location you are happy with from the start. All spawners provided by Arceus must be fed a pulsing redstone signal, such as produced by a redstone clock or hovering hourglass."
+				""
+				"(If you are playing with cheats enabled, you should avoid editing the spawner for gameplay related reasons.)"
+				""
+				"If you somehow lose your hovering hourglass, you can use a button crafted from wood, or a lever using red_rock from a Boldore, and toggle it rapidly to make redstone pulses."
+			]
+			dependencies: [
+				"1183D242FD8FAF87"
+				"1F4867DAC3F9EBB4"
+			]
+			hide: true
+			id: "11D7E67ED0EFE75A"
+			tasks: [{
+				id: "5CDE334708CF7FDF"
+				type: "checkmark"
+				title: "Spawners"
+			}]
+			rewards: [
+				{
+					id: "3E799E9432F5A8EA"
+					type: "item"
+					item: "minecraft:brain_coral_fan"
+				}
+				{
+					id: "75D1A87911D25DC2"
+					type: "item"
+					item: "pixelmon:revival_herb"
+				}
+			]
+		}
+		{
+			title: "Spawnable Terrain"
+			icon: "minecraft:glass"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Pokemon Approved Places"
+			description: [
+				"When filling in your island, it is important to understand what types of blocks are valid for Pokemon spawns, and what, if anything, spawns on them. Assuming it is enabled on your server, /checkspawns is a valuable tool for double-checking parts of your island."
+				""
+				"Wool, carpet and glass are non-spawnable surfaces. "
+				""
+				"Every type of slab and stair is a non-spawnable surface."
+				""
+				"This should allow you to successfully build non-spawning walkways and rooftops for various structures, as well as any indoor 'house space' you don't want attracting Pokemon."
+			]
+			dependencies: [
+				"1183D242FD8FAF87"
+				"509830B8EDE46BCD"
+			]
+			hide: true
+			id: "73F61B9DC6B043DA"
+			tasks: [{
+				id: "27D614C962E8DEFD"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "7E4DB038C12B798D"
+					type: "item"
+					item: "minecraft:black_stained_glass"
+				}
+				{
+					id: "6C98DBEC514E556D"
+					type: "item"
+					item: "pixelmon:purple_rug"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			secret: true
+			id: "5063C10459F24517"
+			tasks: [{
+				id: "0C80991A66802AA6"
+				type: "checkmark"
+				title: "Holding onto Badges"
+			}]
+			rewards: [
+				{
+					id: "172F5A8E5DAF65CA"
+					type: "item"
+					item: "pixelmon:ghost_badge"
+				}
+				{
+					id: "701399326E309B9B"
+					type: "item"
+					item: "pixelmon:relic_badge"
+				}
+				{
+					id: "3D1ADADFD133608C"
+					type: "item"
+					item: "pixelmon:kurai_badge"
+				}
+				{
+					id: "428E588CB8225D89"
+					type: "item"
+					item: "pixelmon:seishin_badge"
+				}
+				{
+					id: "706E1A65C4A567C2"
+					type: "item"
+					item: "pixelmon:dark_badge"
+				}
+				{
+					id: "2565D2D05B058941"
+					type: "item"
+					item: "pixelmon:fairy_badge_galar"
+				}
+				{
+					id: "7C3B4AD1B10719E3"
+					type: "item"
+					item: "pixelmon:fairy_badge"
+				}
+				{
+					id: "4472B7A7F0E96803"
+					type: "item"
+					item: "pixelmon:bug_badge"
+				}
+				{
+					id: "491C7E7C5B254B89"
+					type: "item"
+					item: "pixelmon:insect_badge"
+				}
+				{
+					id: "0E07EF0797A40108"
+					type: "item"
+					item: "pixelmon:yosei_badge"
+				}
+			]
+		}
+		{
+			title: "Tier One Materials"
+			icon: {
+				id: "tconstruct:part_builder"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"What kinds of materials can you tinker with?"
+				""
+				"Before any other resources become available, you have access to &lbone&r, &dnecrotic bone&r, &6wood&r, and &lstring&r. "
+				""
+				"&6Wood&r still makes for a strong tool handle with good durability. It's property &6Cultivated&r increases the rate at which the tool can be repaired."
+				""
+				"&lBone&r tools have higher durability than &7Flint&r ones, but do not mine as fast. &dNecrotic Bone&r lasts even longer, but mines even slower."
+				""
+				"Since foraging for bone is tedious, it might make sense to make Tool Binding out of &lString&r. This gives a tool the \"Stringy\" modifier, meaning it can be repaired with String."
+				""
+				"&7Flint&r, &lBone&r, and &dNecrotic Bone&r all have combat modifiers, not utilitarian ones"
+			]
+			dependencies: [
+				"1183D242FD8FAF87"
+				"5D08023C4FCB517A"
+			]
+			hide: true
+			id: "63B75A8B18C8967C"
+			tasks: [{
+				id: "1F6DBAE585B281A4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "13A57A047D78E429"
+				type: "item"
+				item: "pixelmon:curry_bone"
+			}]
+		}
+		{
+			icon: "minecraft:granite"
+			x: 1.0d
+			y: -3.5d
+			description: [
+				"Regular &7Stone&r tools can be made out of &cGranite&r or &7Andesite&r. Stone tools make inferior weapons and superior tools."
+				""
+				"You can &eUpgrade&r old tools with new parts by putting the old tool and the new part into a Tinker's Station."
+			]
+			dependencies: [
+				"63B75A8B18C8967C"
+				"3FB66E0318A36E57"
+			]
+			hide: true
+			id: "6EBB89B0423DF224"
+			tasks: [{
+				id: "0076BD0ECE843D2D"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6D4EE016840B1148"
+					type: "item"
+					item: "byg:green_apple"
+				}
+				{
+					id: "069AFFE46D6FD7BB"
+					type: "item"
+					item: "pixelmon:red_rug"
+				}
+			]
+		}
+		{
+			title: "Repairing Tools"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Tools can only be repaired in one of the following ways:"
+				""
+				"1. Placing the tool in the tinker station with the same raw material which the tool head way made from."
+				""
+				"2. Creating and carrying around \"Repair Kits\" from the same material the tool head is made from, and combining the repair kits with the tool. This does not require the Tinker's station to work- It's 'Repair on the Go.'"
+				""
+				"3. Using a material or adding a modifier, such as \"Stringy\" from String, which will allow the tool to be repaired with a different material, or in a different manner."
+				""
+				"This means Rotten Flesh Repair kits are useless except for making casts with, or submitting for quests."
+			]
+			dependencies: ["63B75A8B18C8967C"]
+			hide: true
+			id: "7AC346897A2972C7"
+			tasks: [{
+				id: "3D3E526489614F73"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:rotten_flesh"
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4F098669B0DCC7DC"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bone"
+						}
+					}
+				}
+				{
+					id: "1BACF1DFBB6D7CCD"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+			]
+		}
+		{
+			icon: "minecraft:cobblestone"
+			x: 1.0d
+			y: 4.5d
+			subtitle: "Who thought cobblestone would be hard to find?"
+			description: [
+				"Boldore and Gigalith drop the cobblestone variant \"Red Rock\" and are attracted to music. You can try and encourage more to spawn by placing a &cJuke box&r between Y levels 32 and 64, if you have one"
+				""
+				"Of course, defeating Boldore with a Drifloon is another manner entirely. Perhaps there is a different Pokemon you can hunt?"
+				""
+				"If you manage to blunder into a pokemon that drops &credstone&r, placing a little bit on the ground anywhere Geodude spawns will instead attract Alolan Geodude. One in ten Alolan Geodudes drops Cobbled Dacite."
+				""
+				"There are many kinds of cobblestone deeper in the earth. If you head downwards, you will discover &bAron&r and Onix underground below Y = 32, and they drop Soapstone and Dacite. You will also gain access to Pokemon that supply Andesite in some habitats. Andesite can be mixed with Roggenrola's Basalt to make Scoria, which if placed and mined becomes a cobblestone variant."
+				""
+			]
+			dependencies: [
+				"4D1266898E6101BC"
+				"7E8B9D29D34E8D2C"
+			]
+			hide: true
+			id: "5E9D14F96349F6FC"
+			tasks: [{
+				id: "5EF195D68E391BC7"
+				type: "checkmark"
+				title: "Finding Cobblestone and Similar Rock"
+			}]
+			rewards: [{
+				id: "2A04BDF6A5B05566"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: [
+				"&7Flint&r, &lBone&r, and &dNecrotic Bone&r are all first tier &acombat materials.&r"
+				""
+				"Necrotic bone deals the most damage, and heals you a portion of damage dealt with its \"Necrotic\" modifier."
+				""
+				"Bone deals as much as flint, but has the piercing modifier, which nullifies some armor."
+				""
+				"Flint has the jagged modifier which deals more damage as the tool's durability decreases."
+			]
+			dependencies: [
+				"63B75A8B18C8967C"
+				"223712476666DABC"
+			]
+			hide: true
+			id: "002E1A7D5328CC82"
+			tasks: [{
+				id: "3EB4D7F690DAF20D"
+				type: "checkmark"
+				icon: {
+					id: "tconstruct:sword"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 1.1f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.84f
+							"tconstruct:mining_speed": 1.0f
+							"tconstruct:attack_damage": 4.5f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 89.1f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:necrotic"
+								level: 3s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:necrotic_bone"
+							"tconstruct:necrotic_bone"
+							"tconstruct:necrotic_bone"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "62BF2F6AC446D7D3"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "59DF38AAA74E4A31"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			description: ["If you create a \"Materials and You\" book, you can look up materials for yourself to understand their strengths and weaknesses."]
+			dependencies: [
+				"64E523E4B319CEFB"
+				"5D08023C4FCB517A"
+			]
+			hide: true
+			id: "2D371D41E27A8496"
+			tasks: [{
+				id: "26D3621E45574550"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "Guides"
+			x: -5.5d
+			y: 0.5d
+			description: ["These might be useful for making guidebooks..."]
+			hide: true
+			secret: true
+			id: "64E523E4B319CEFB"
+			tasks: [{
+				id: "6BAAF432843F707B"
+				type: "item"
+				item: "minecraft:book"
+			}]
+			rewards: [{
+				id: "61FFBEFE7BD05B88"
+				type: "item"
+				item: "byg:green_apple"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["64E523E4B319CEFB"]
+			hide: true
+			id: "0172B33E66286350"
+			tasks: [{
+				id: "3E7C71730C7405AE"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["64E523E4B319CEFB"]
+			hide: true
+			id: "18C6CF463C4DB90A"
+			tasks: [{
+				id: "00904035B20BCB33"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+	]
+}

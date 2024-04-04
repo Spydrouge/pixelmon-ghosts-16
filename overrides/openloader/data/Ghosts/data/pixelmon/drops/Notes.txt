@@ -1,0 +1,35 @@
+It's frustrating that the 1.16.5 Pixelmon information plugin doesn't work correctly, because then players can't see what pokemon drop what materials, and I have to keep track of it and inform them manually. What could be a simple JEI search is a whole ordeal.
+
+https://forums.minecraftforge.net/topic/96105-a-modern-jei-plugin-tutorial/
+
+FIXED WITH PIXELTWEAKS
+
+One of the biggest weaknesses of this pack is it's strength: Everything comes from Pokemon. However, when Pokemon drop rates aren't high, and spawn rates also aren't high, this can lead to a lot of grinding for even the most basic materials.
+
+One of the problems is that pokemon drop quantities can't be impacted by anything like 'fortune.' I don't want to completely prevent some pokemon from spawning naturally, limiting the natural variety available, and to make unique rarity multiplliers for all of them so that they can be farmed. 
+
+So what can be done? Well, there are two additional kinds of drops included with Pixelmon.
+
+1. Raid drops, which are hard to control, and only divided by Raid rank and Pokemon Type, not species
+
+2. Bosses, which all pull, regardless of type, from the same pool of items. This is obviously not ideal either.
+
+Lastly, there is a slightly tedious but important technique worth mentioning:
+Palettes. Different palettes of Pokemon can be used to change drop rates. Furthermore, these palettes can use the same exact skins as the original Pokemon.
+
+For instance, you can make a diglette palette:forunatei, and this diglette can look like every other diglette, but only comes out when a block called a 'fortune amplifier' is placed. Other diglette are repelled by this block (its an anticondition for them), and fortunate diglette spawn in their place. Fortunate diglette, when killed, drop many times the normal amount of dirt.
+
+When caught, Fortunatte dilette will retain their weird palette name, but will otherwise be identical to normal diglette.
+
+(Of course this is also an excuse to make Palettes for Pokemon one plans on grinding.)
+
+
+
+Single Use Items
+- Throat Spray (Loudred)
+- Absorb Bulb (Ferrothorn)
+- Air Balloon (Drifloon)
+- Adrenaline Orb (No source)
+- Psychic/Electric/Etc Seeds
+- Snowball Vanilluxe, Darmanitan
+- Red card (Passiman)

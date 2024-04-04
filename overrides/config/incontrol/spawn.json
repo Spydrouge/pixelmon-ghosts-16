@@ -1,0 +1,65 @@
+[
+	{
+        "mob":"minecraft:zombie_villager",
+        "mincount": {
+            "amount": 15,
+            "perchunk":true,
+            "mob":"pixelmon:npc_questgiver"
+        },
+        "result":"deny"
+    },
+	{
+        "mob":"minecraft:zombie_villager",
+        "mincount": {
+            "amount": 15,
+            "perchunk":true,
+            "mob":"minecraft:zombie_villager"
+        },
+        "result":"deny"
+    },
+	{
+        "mob":"minecraft:zombified_piglin",
+        "mincount": {
+            "amount": 20,
+            "perchunk":true,
+            "mob":"minecraft:zombified_piglin"
+        },
+        "result":"deny"
+    },
+	{
+		"mob":[
+			"minecraft:zombie_villager", 
+			"minecraft:zombified_piglin"
+		],
+		"dimension":"minecraft:the_nether",
+		"result":"allow"
+	},
+	{
+		"passive":false,
+		"result":"deny"
+	},
+	{
+		"mob":[
+			"minecraft:sheep", 
+			"minecraft:cow",
+			"minecraft:chicken",
+			"minecraft:rabbit",
+			"minecraft:donkey",
+			"minecraft:horse",
+			"minecraft:parrot",
+			"minecraft:wolf",
+			"minecraft:ocelot",
+			"minecraft:polar_bear",
+			"minecraft:bat",
+			"minecraft:llama",
+			"minecraft:squid"
+		],
+		"passive":"true",
+		"result":"deny"
+	},
+	{
+		"passive":"true",
+		"result":"allow"
+	}
+
+]

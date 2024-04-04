@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"values": [
+        
+        "minecraft:diamond_block",            
+        "minecraft:emerald_block",
+
+        "pixelmon:sapphire_block",
+        "pixelmon:ruby_block",
+
+
+        "pixelmon:crystal_block",
+        "pixelmon:amethyst_block",
+
+        "botania:dragonstone_block",
+
+        "byg:ametrine_block"
+	]
+  }

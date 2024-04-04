@@ -1,0 +1,64 @@
+{
+  "id": "Flapple",
+  "spawnInfos": [
+    {
+      "spec": "species:Flapple",
+      "stringLocationTypes": [
+        "air"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tart_apple",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Flapple",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Flapple",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "Sableye",
+  "spawnInfos": [
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:crystal",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "maxY": 32,
+        "minY": 0,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Sableye palette:zombie",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:crystal",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Sableye palette:drowned",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:crystal",
+          "percentChance": 25
+        }
+      ],
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block"
+            ]
+          }
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 60
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Sableye palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "drowned"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

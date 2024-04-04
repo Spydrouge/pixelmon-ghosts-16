@@ -1,0 +1,523 @@
+{
+	id: "481252446A9E5735"
+	group: "4A96B64D5627EDC5"
+	order_index: 2
+	filename: "starting_a_smithy"
+	title: "Starting a Smithy"
+	icon: "minecraft:anvil"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Starting a Smithy"
+			icon: "minecraft:anvil"
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"You want to develop a workspace where you can tinker around, restoring and reinventing technology. Some of these things should help your farm!"
+				""
+				"There are probably multiple ways to meet your goals, but you have a good feeling about the role of clay in jumpstarting your progress."
+			]
+			hide: true
+			size: 3.0d
+			id: "11F689A8DC3A4BE2"
+			tasks: [{
+				id: "6684D3CE8F9D7F6D"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3FFD59A400421118"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+				{
+					id: "464F5F7DDD00489C"
+					type: "item"
+					item: "minecraft:beef"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 3.0d
+			y: 1.0d
+			description: [
+				"Beetroots are well and good to a starving person, but most good food needs to be cooked. You also want to make charcoal for torches."
+				""
+				"Furnaces can only be made of loose, cobble-like stone, not Granite, Andesite, or Basalt. The only Pokemon you've seen drop appropriate stone is &cBoldore&r, the evolution of Roggenrola, who drops &cRed Rock&r."
+				""
+				"You have some other ideas for how you might find Cobblestone, and you'll write them down elsewhere in this Diary, under \"Tips and Tricks.\""
+			]
+			dependencies: ["6C469BB6BA15D1D0"]
+			hide: true
+			id: "7F7463C59707BD7D"
+			tasks: [{
+				id: "2E61A79D36688D22"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "7721998B8822BF8C"
+					type: "item"
+					item: "pixelmon:spelon_berry"
+				}
+				{
+					id: "63D58C5801371274"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+				}
+			]
+		}
+		{
+			icon: "minecraft:clay"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Ceramics"
+			description: [
+				"You have noticed that relics of a time long past are spawning deep below the earth, and you believe it might be possible to find &bBaltoy&r that were released during the cataclysm."
+				""
+				"Baltoy should provide a source of clay."
+				""
+				"To attract it, build an indoor enclosure with a man-made floor between Y levels 32 and 64."
+			]
+			dependencies: ["11F689A8DC3A4BE2"]
+			hide: true
+			id: "3A753621525EF420"
+			tasks: [{
+				id: "34E934578830597E"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "410C6B19589BECE0"
+					type: "item"
+					title: "Drifloon is helping!"
+					item: "ceramics:unfired_clay_plate"
+				}
+				{
+					id: "587A73ACB457E3DE"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"You believe you can shape the clay into a water-tight bucket. After that, you must fire it in a furnace."
+				""
+				"Then no more silly pouring out glass bottles of water!"
+				""
+				"Clay buckets can be used to hold molten liquids a single time before they break. Use wisely."
+			]
+			dependencies: ["6C469BB6BA15D1D0"]
+			hide: true
+			id: "16152BC14792C0A4"
+			tasks: [{
+				id: "6328EEA8D8606323"
+				type: "item"
+				item: "ceramics:clay_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: [
+				"Terracotta faucets and channels can be used to move around cold liquids, like water. This can help move water from rain tanks to a water storage system, such as stacked cisterns."
+				""
+				"Hot fluids will damage all terracotta materials, including cisterns, buckets, faucets, channels, etc."
+			]
+			dependencies: ["16152BC14792C0A4"]
+			hide: true
+			id: "00392C564BCFD851"
+			tasks: [
+				{
+					id: "7DE42C00197DF2AD"
+					type: "item"
+					item: "ceramics:terracotta_faucet"
+				}
+				{
+					id: "3CBE6694C01F639C"
+					type: "item"
+					item: "ceramics:terracotta_channel"
+				}
+			]
+			rewards: [{
+				id: "3E4A9EE001C09AF9"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			description: [
+				"Will not be damaged by hot liquids"
+				""
+				"The faucet is compatable with the Tinker's Melter, and this is one way to get leftover or incompatable hot fluids out of a Melter and store it."
+			]
+			dependencies: [
+				"3AFB997D5FE6B69D"
+				"00392C564BCFD851"
+			]
+			hide: true
+			id: "24BAE17756224AA7"
+			tasks: [
+				{
+					id: "5EBC81A4E9D440DC"
+					type: "item"
+					item: "ceramics:porcelain_faucet"
+				}
+				{
+					id: "35E8355307BB31FC"
+					type: "item"
+					item: "ceramics:porcelain_channel"
+				}
+			]
+			rewards: [{
+				id: "6FB81F44BEB83B88"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["Will not be damaged by hot liquids. Must be fired prior to use."]
+			dependencies: [
+				"3AFB997D5FE6B69D"
+				"50DDA487FBD2C527"
+			]
+			hide: true
+			id: "5BF93EF7BC21FB7B"
+			tasks: [{
+				id: "59362A906CBA64FA"
+				type: "item"
+				title: "Any #ceramics:porcelain_cisterns"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ceramics:porcelain_cisterns"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2773D3E38801DD6A"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Dye the cistern, if desired, and fire it."]
+			dependencies: ["031AF55B0EBAC28C"]
+			hide: true
+			id: "50DDA487FBD2C527"
+			tasks: [{
+				id: "0FCA25EE9D3DE5E8"
+				type: "item"
+				title: "Any #ceramics:terracotta_cisterns"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ceramics:terracotta_cisterns"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "648CAF226D91693C"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "334CC2072A19FB0B"
+					type: "item"
+					item: "ceramics:clay_plate"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["Create one or more clay cisterns. Note that they cannot yet be used to hold water."]
+			dependencies: ["6C469BB6BA15D1D0"]
+			hide: true
+			id: "031AF55B0EBAC28C"
+			tasks: [{
+				id: "0A674D0DA5AC289F"
+				type: "item"
+				item: "ceramics:clay_cistern"
+			}]
+			rewards: [{
+				id: "45D6EC8BE20F61F4"
+				type: "item"
+				item: "ceramics:unfired_clay_plate"
+				count: 4
+			}]
+		}
+		{
+			icon: "ceramics:unfired_porcelain_block"
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Mildly Useful"
+			description: [
+				"Porcelain is a mildly valuable material you can make from bonemeal and clay. Unlike in previous times, there is no such thing as a Porcelain \"Melter.\" "
+				""
+				"Porcelain can still be used to create cisterns, faucets, and channels which can move hot liquids around without damaging them. "
+				""
+			]
+			hide: true
+			id: "3AFB997D5FE6B69D"
+			tasks: [{
+				id: "48E23DFCEC099492"
+				type: "item"
+				item: "ceramics:unfired_porcelain"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "7EF48721F553A738"
+					type: "item"
+					item: "pixelmon:curry_bone"
+				}
+				{
+					id: "3E366E029D5859B7"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Smelting options..."
+			description: [
+				"Although the vital parts of a smeltery must be constructed with seared bricks, porcelain bricks can be substituted for the floors and walls."
+				""
+				"You aren't yet at the point where you think you can build a smeltery, but it's good to know your options."
+			]
+			dependencies: ["3AFB997D5FE6B69D"]
+			hide: true
+			id: "2D737EA3F674A9EF"
+			tasks: [{
+				id: "7DAA20B8C52712E7"
+				type: "item"
+				item: "ceramics:porcelain_bricks"
+			}]
+			rewards: [{
+				id: "516EED95F8A13493"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: [
+				"Campfires are the lowest level of technology for cooking food and processing some very simple materials. They dont' require fuel."
+				""
+				"Normal campfires require a peice of goal, but soul camp fires can be built with a piece of &bsoul sand&r, which you have in larger numbers."
+			]
+			dependencies: ["11F689A8DC3A4BE2"]
+			hide: true
+			id: "06B1652DD9218BA9"
+			tasks: [{
+				id: "7E4B85126E8EE911"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+			rewards: [
+				{
+					id: "79649FBAFB78B452"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "122C69AF4F7B09B0"
+					type: "item"
+					item: "byg:joshua_fruit"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Bricks do not have to be of especialy high quality. You can get away with hardening clay on a camp fire rather than cooking it in a kiln. "
+				""
+				"This type of terracotta will be weak and not waterproof. "
+			]
+			dependencies: [
+				"06B1652DD9218BA9"
+				"3A753621525EF420"
+			]
+			hide: true
+			id: "0472B9420814A15E"
+			tasks: [{
+				id: "300C6C64F8BC288E"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+			rewards: [
+				{
+					id: "6BCD6DEC9EFA3D52"
+					type: "item"
+					item: "ceramics:clay_plate"
+				}
+				{
+					id: "7F4F4A0C515F1256"
+					type: "item"
+					item: "byg:joshua_fruit"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Let's get cookin'!"
+			description: ["The kiln is similar to a furnace. It is used for processing clay, porcelain, and sand. It can be used to make charcoal."]
+			dependencies: ["0472B9420814A15E"]
+			hide: true
+			id: "6C469BB6BA15D1D0"
+			tasks: [{
+				id: "29C4F1B0163F2716"
+				type: "item"
+				item: "ceramics:kiln"
+			}]
+			rewards: [
+				{
+					id: "5E0FAF01355E35B3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "1CF6FC17348184BC"
+					type: "item"
+					item: "byg:joshua_fruit"
+				}
+				{
+					id: "07F307D9DE518CE8"
+					type: "item"
+					item: "pixelmon:curry_seasoned"
+				}
+			]
+		}
+		{
+			title: "Porcelain to Seared"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Wait, what just happened?!"
+			description: [
+				"Drifloon decided to steal and play keep-away with your Porcelain brick! you tried to get it back, but they flung it into your kiln. When you pulled the brick out..."
+				""
+				"...it was seared! Is this a new way to make seared bricks? Putting them in the &6kiln&r to bake them a second time?"
+			]
+			hide: true
+			secret: true
+			id: "316A28329E36A103"
+			tasks: [{
+				id: "40F90E799506C5AB"
+				type: "item"
+				item: "ceramics:porcelain_brick"
+			}]
+			rewards: [
+				{
+					id: "4613FFE766FE1CCD"
+					type: "command"
+					title: "Drifloon stole this..."
+					icon: "ceramics:porcelain_brick"
+					auto: "enabled"
+					command: "/clear @p ceramics:porcelain_brick 1"
+					player_command: false
+				}
+				{
+					id: "47704CADA3CA8BAB"
+					type: "item"
+					title: "And you got back this!"
+					item: "tconstruct:seared_brick"
+				}
+				{
+					id: "6B0C073B19A15AD5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 24
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			subtitle: "Is there an easier way?"
+			description: [
+				"The traditional way of making seared bricks is to combine clay, sand, and gravel into grout, and then cook it in a kiln. "
+				""
+				"You wonder if there might be a cheaper solution."
+			]
+			hide: true
+			secret: true
+			id: "385D6D83BC1D388F"
+			tasks: [{
+				id: "12967AC6AC1D2A7C"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+			rewards: [{
+				id: "7436936098876CED"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: [
+				"The seared heater requires seared bricks and a piece of glass, which may be soul glass. &bSoul glass&r can be produced in a kiln."
+				""
+				"The heater can be fueld with solid fuels like charcoal."
+			]
+			dependencies: [
+				"385D6D83BC1D388F"
+				"316A28329E36A103"
+			]
+			dependency_requirement: "one_completed"
+			id: "78CE77D6BCD1ABD3"
+			tasks: [{
+				id: "182C4E7D5541D6C6"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: ["The melter is an entry-level tier smeltery. It's the first step on your road to melting things down into usable forms!"]
+			dependencies: [
+				"385D6D83BC1D388F"
+				"316A28329E36A103"
+			]
+			dependency_requirement: "one_completed"
+			id: "5BFB2D642FAFCDE2"
+			tasks: [{
+				id: "17221758DF5951F0"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+		}
+	]
+}

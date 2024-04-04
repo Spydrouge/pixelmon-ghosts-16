@@ -1,0 +1,48 @@
+{
+  "id": "Grubbin",
+  "spawnInfos": [
+     {
+      "spec": "species:Grubbin",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Grubbin",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Forage"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "jungles"
+        ]
+      },
+      "rarity": 300.0
+    }
+  ]
+}

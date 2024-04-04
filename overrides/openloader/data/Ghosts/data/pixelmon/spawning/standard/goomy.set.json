@@ -1,0 +1,111 @@
+{
+  "id": "Goomy",
+  "spawnInfos": [
+    {
+      "spec": "species:Goomy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+          "maxY":128,
+        "minY":96,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+           "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Goomy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+          "maxY":128,
+        "minY":96,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers":[
+            "STORM",
+            "RAIN"
+        ]
+      },
+      "rarity": 15.0
+    },
+      {
+      "spec": "species:Goomy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

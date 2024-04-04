@@ -1,0 +1,39 @@
+{
+  "id": "Archeops",
+  "spawnInfos": [
+    {
+      "spec": "species:Archeops",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 5.0
+    },
+     {
+      "spec": "species:Archeops",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

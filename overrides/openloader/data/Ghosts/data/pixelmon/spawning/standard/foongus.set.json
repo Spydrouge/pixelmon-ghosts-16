@@ -1,0 +1,60 @@
+{
+  "id": "Foongus",
+  "spawnInfos": [
+    {
+      "spec": "species:Foongus",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 4,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Foongus",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "mushroom"
+        ]
+      },
+      "rarity": 170.0
+    }
+  ]
+}

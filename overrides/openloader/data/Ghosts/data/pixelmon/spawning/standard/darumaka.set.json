@@ -1,0 +1,117 @@
+{
+  "id": "Darumaka",
+  "spawnInfos": [
+    {
+      "spec": "species:Darumaka form:galarian",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Darumaka",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 5.0
+    },
+     {
+      "spec": "species:Darumaka",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 5.0
+    },
+     {
+      "spec": "species:Darumaka form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing mountains"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Darumaka",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills",
+          "biomesoplenty:lush_desert",
+          "byg:dunes",
+          "byg:mojave_desert",
+          "byg:red_desert_dunes"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Darumaka form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing mountains"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

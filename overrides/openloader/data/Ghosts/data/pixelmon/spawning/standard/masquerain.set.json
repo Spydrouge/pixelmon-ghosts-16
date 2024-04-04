@@ -1,0 +1,59 @@
+{
+  "id": "Masquerain",
+  "spawnInfos": [
+    {
+      "spec": "species:Masquerain",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers": [
+          "CLEAR"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Masquerain",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:river",
+          "swamps",
+          "lakes",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

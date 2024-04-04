@@ -1,0 +1,150 @@
+{
+  "id": "Electrode",
+  "spawnInfos": [
+    {
+      "spec": "species:Electrode",
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 196,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+         {
+          "multiplier": 6,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:redstone_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 4.0
+    },
+     {
+      "spec": "species:Electrode form:hisuian",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+         {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:redstone_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Electrode",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Electrode",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Electrode form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Electrode form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 10.0
+    },
+   
+    {
+      "spec": "species:Electrode palette:summer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

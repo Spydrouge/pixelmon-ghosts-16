@@ -1,0 +1,99 @@
+{
+  "id": "Shuppet",
+  "spawnInfos": [
+    {
+      "spec": "species:Shuppet",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 8,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+               "DUSK",
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Shuppet",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "plains",
+          "evil"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
+        }
+      ],
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Shuppet",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "Cursola",
+  "spawnInfos": [
+     {
+      "spec": "species:Cursola",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Cursola",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Cursola",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:dead_sea"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

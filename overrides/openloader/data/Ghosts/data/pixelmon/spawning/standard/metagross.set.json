@@ -1,0 +1,160 @@
+{
+  "id": "Metagross",
+  "spawnInfos": [
+     {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:70}",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 32
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:70}",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ],
+        "minY": 90
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:70}",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:ice_spikes"
+        ],
+        "minY": 90
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:70}",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_highlands",
+          "minecraft:end_barrens"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:70}",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:land_chalice"
+        ],
+        "times": [
+          "MIDDAY"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

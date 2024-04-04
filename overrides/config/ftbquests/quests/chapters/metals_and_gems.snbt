@@ -1,0 +1,982 @@
+{
+	id: "2A8EAA6D4AB88D9B"
+	group: "5CC2B36466F88246"
+	order_index: 0
+	filename: "metals_and_gems"
+	title: "Metals and Gems"
+	icon: "minecraft:iron_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:iron_block"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"You've decided to use this part of your dictionary to keep track of your observations regarding where certain materials can be found, such as iron, and silicon."
+				""
+				"Additionally, because iron is rare, and most Appricorn colors are not avialable, you are keeping detailed notes on what types of Pokeball are available."
+			]
+			size: 3.0d
+			id: "542EFBDFBABB8B13"
+			tasks: [{
+				id: "69BEA6ED3AD8E301"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: [
+				"(There is almost no iron available in the early game, which of course means it is almost impossible to make Pokeballs. You will need to play around this by strategically pursuing the right eggs.)"
+				""
+				"There are many Pokemon who drop iron nuggets, and all of them do so unreliably, or spawn rarely. The easiest source is Aron, which can be attracted to pieces of iron ore or minecart rails and lives underground in the Deep Dark Layer below Y = 32."
+				""
+				"Ferroseed, if it can be found, is another source."
+			]
+			hide: true
+			id: "16AECF01A7853FED"
+			tasks: [{
+				id: "64879197CEC2468C"
+				type: "item"
+				item: "minecraft:iron_nugget"
+			}]
+			rewards: [{
+				id: "42EF2F45D23F87FB"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			description: [
+				"As far as you can tell, the best way to gather gold is to attract Yamask with sandstone on the Stone layer, between Y levels 32 and 64. Yamask who carry gold masks will spawn indoors and underground, whereas those who drop more sandstone will spawn above ground and on manmade structures."
+				""
+				"Yamask spawn very rarely without sandstone, so, once some are found, it is a good idea to produce sandstone habitats for them."
+			]
+			hide: true
+			id: "50C9B6E52D3A52C0"
+			tasks: [{
+				id: "13C3C676F8F9CE12"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "485BABD70487017A"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			description: ["Weak Steel Lures can be used to increase the percentage of steel type Pokemon who spawn in an area. Keep in mind that not all Steel type Pokemon drop iron. Some drop brass, bronze, copper, tin, aluminum, or even cobalt."]
+			dependencies: ["16AECF01A7853FED"]
+			id: "41859A5500F6CA6A"
+			tasks: [{
+				id: "1325FC0DA9701722"
+				type: "item"
+				item: {
+					id: "pixelmon:lure_steel_weak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "755DC234BFD4130E"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "462CAE4210993250"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			description: [
+				"A lightning rod is the ultimate attractor for the Magnemite family. Building one is no small endeavor, but doing so will allow you to comfortably farm iron in the lightning rod's vicinity forever after. Effects are increased in stormy weather."
+				""
+				"Keep in mind that Magnemite only spawn at high altitudes, in the Air layer and above."
+			]
+			id: "7DCF1327564FBB72"
+			tasks: [{
+				id: "4E033C21F42301C3"
+				type: "observation"
+				icon: "immersiveengineering:lightning_rod"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:lightning_rod"
+			}]
+			rewards: [
+				{
+					id: "48C5D4705C064E54"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 8
+				}
+				{
+					id: "40F26ECF65410469"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 4
+				}
+				{
+					id: "5D05742F5C6BE43D"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			id: "4203001176409324"
+			tasks: [{
+				id: "7612EFED619DAA7C"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [{
+				id: "6176F83843646527"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			description: ["Silicon is dropped by members of the Porygon family. These spawn indoors and on manmade structures in the Soil layer, your starting layer, between Y = 64 and 96."]
+			hide: true
+			id: "7B959659C05288FA"
+			tasks: [{
+				id: "3DD747DD43EF7D5A"
+				type: "item"
+				item: "pixelmon:silicon"
+			}]
+			rewards: [{
+				id: "2BF3F674A28665C1"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			description: [
+				"The easiest way to harvest aluminum nuggets is to summon the rain with Rain Dance and to head indoors or underground between Y levels 64 and 182."
+				""
+				"Burmy hate the rain, which makes them hide under whatever roof is available. They lose their plant cloaks and adopt a trash cloak, and this trash is almost always made of aluminum."
+				""
+				"Klefki, which also spawns indoors between Y levels of 64 and 96, drops much larger amounts of aluminum, but is more difficult to defeat."
+			]
+			hide: true
+			id: "01E96079B026844C"
+			tasks: [{
+				id: "305AE310E535EDC0"
+				type: "item"
+				item: "pixelmon:aluminium_ingot"
+			}]
+			rewards: [{
+				id: "207C5396D338769A"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			description: [
+				"The best and most reliable source of redstone is Rotom. Rotom primarily spawns in the Murky Layers between Y 96 and Y 128."
+				""
+				"However it can also be found underground lighting up manmade structures in the Stone layer, between Y levels 32 and 64."
+				""
+				"Redstone dust can be placed anywhere Geodudes spawn to lure out Alolan Geodudes."
+			]
+			hide: true
+			id: "1ED0AD37F130CB69"
+			tasks: [{
+				id: "2CC00D6BDAF9A10F"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "6556D6764257D178"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: [
+				"The best sources of glowstone dust are the few ominous and disturbing electric Pokemon who have survived the cataclysm, such as Tynamo, which lives in the Soil layer, your starting layer, between Y levels 64 and 96, in underground water."
+				""
+				"You can also choose to pursue Chinchou, which can be found in water open to the sky, under Y = 32 in the Deep Dark layer of the abyss. "
+			]
+			hide: true
+			id: "54DE70CE9E377408"
+			tasks: [{
+				id: "7A24D45745D2895E"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [{
+				id: "1C2AB5B95E1AE6A7"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			description: [
+				"Rotom spawns can be increased by placing objects associated with their form in the area they spawn. For instance, placing a mower near where Rotom Mow spawns will increase Rotom Mow spawns."
+				""
+				"The spawning of regular Rotom can be increased by placing a redstone block."
+				""
+				"Redstone blocks also attract other Pokemon, like Voltorb. Hisuan Voltorb can be found in the Deep Dark Layer below Y = 32, on outdoor manmade structures. Other voltorb can be found on and in Manmade structures in the Air Layer, between Y levels 160 and 192."
+			]
+			dependencies: ["1ED0AD37F130CB69"]
+			id: "477AC959503B3459"
+			tasks: [{
+				id: "6D25E1EF8F3A68B0"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+			rewards: [{
+				id: "204BD4A2914EE40F"
+				type: "item"
+				item: "pixelmon:red_shard"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["54DE70CE9E377408"]
+			id: "1B9ABC129FBE8E40"
+			tasks: [{
+				id: "707C10EB051C816B"
+				type: "item"
+				item: "minecraft:glowstone"
+			}]
+			rewards: [{
+				id: "66DA51163E574DC4"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			description: [
+				"One technique for farming iron is to identify where the Honedge family is likely to gather, and to construct an anvil in the vinicity. You have discovered a lot of archeological Pokemon in the Stone layer, between Y levels 32 and 64. Placing an anvil there might reveal the ghostly Honedge."
+				""
+				"Obviously, this technique requires iron to make iron; it is a way to sustain iron production, rather than start it."
+			]
+			id: "44C692A5614BC9EB"
+			tasks: [{
+				id: "650D4C2A206209B5"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			rewards: [
+				{
+					id: "62876CBAE12923C3"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 4
+				}
+				{
+					id: "237EFF9A81712D03"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			dependencies: ["4203001176409324"]
+			id: "6BEEF5E81B9C7145"
+			tasks: [{
+				id: "4F8A1E9D471CF4EE"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+			rewards: [{
+				id: "283663850842D33C"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			description: ["Boldore can drop Rubies, and one is guarenteed to drop from a Staryu, but Zombie Sableye which spawn in the Underground of the Murk layer between Y levels 96 and 128 might be a more reliable source."]
+			hide_dependency_lines: true
+			id: "6095475F53EEF706"
+			tasks: [{
+				id: "6B8949E726102281"
+				type: "item"
+				item: "pixelmon:ruby"
+			}]
+			rewards: [{
+				id: "16A1992443DA20FF"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.5d
+			description: [
+				"Sapphire is rarer and less reliable than Ruby. It can occasionally be harvested from Sableye or Carbink, but it is meant to be harvested from Dratini, which is very rare. "
+				""
+				"If Dratini is to be found, it will probably be found in underground water, in close proximity to Tynamo, which you believe may spawn in the Soil layer, your starting layer, between T levels 32 and 64."
+			]
+			hide_dependency_lines: true
+			id: "08720DF91D5D70AB"
+			tasks: [{
+				id: "18C991BFB1C137BE"
+				type: "item"
+				item: "pixelmon:sapphire"
+			}]
+			rewards: [{
+				id: "4D51310F7C055F18"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			description: [
+				"The most reliable source of crystal will come from Carbink, which is deep, deep under the earth below Y = 32. Carbink are primarily made of this crystal."
+				""
+				"Sableye hunts and consumes Carbink. Placing a block of crystal on the ground anywhere Sableye spawns will increase the amount of wild Sableye."
+			]
+			hide: true
+			id: "18099FEDCF7E7FE6"
+			tasks: [{
+				id: "3BAC04FFBA391C9D"
+				type: "item"
+				item: "pixelmon:crystal"
+			}]
+			rewards: [{
+				id: "32BC3AA001CCBC3C"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			description: ["Amethyst can be harvested in plenty from regular Sableye, which hunts Carbink at the bottom of the Deep Dark Level below Y = 32."]
+			hide: true
+			id: "024E0BCA3669401C"
+			tasks: [{
+				id: "28332E46C11CE3A6"
+				type: "item"
+				item: "pixelmon:amethyst"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			description: ["Lapis can only be found from wild Azurill, which will only spawn on beaches on the Dazzling layer between Y levels 128 and 160, in the same general area where most of the other surviving Fairies live."]
+			hide: true
+			id: "31C76F598C6BD89A"
+			tasks: [{
+				id: "16610F46FB545209"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "041AF3106E4D1C90"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			description: ["Diamond is a very rare drop from regular purple Sableye. Sableye can be found alongside Carbink, whom they hunt."]
+			hide: true
+			id: "355FFDA4A746822F"
+			tasks: [{
+				id: "2EFFF47A384B4414"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "2AB5651D9E443AD0"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			description: [
+				"Emeralds can be harvested from Drowned Sableye, who live in the Soil layer, your starting layer, between Y levels 64 and 96.  Drowned Sableye spawn in underground water."
+				""
+				"Additionally, they can be harvested from Pupitar, if you can find one. Given the number of shelled bug-type Pokemon that survived, perhaps Pupitar did also."
+			]
+			hide: true
+			id: "7146D75995349370"
+			tasks: [{
+				id: "7C13529B0718E0C2"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [{
+				id: "2106310F0C216CFD"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: [
+				"Most Pokemon who are able to find more sand are those who prefer to live upon sand to begin with, such as Sandygast. "
+				""
+				"In the deepest levels of the abyss, below Y level 32, you may find Dunsparse underground. "
+				""
+				"Once you have sand, you should endeavor to create deserts (away from water) and beaches (close to water) to attract more Pokemon of a sandy persuasion. They will often carry additional sand, which you can collect from them."
+			]
+			hide: true
+			id: "55E3A0A953258FC9"
+			tasks: [
+				{
+					id: "6C2E1E266C610515"
+					type: "item"
+					item: "minecraft:glass"
+				}
+				{
+					id: "1062E688B7821503"
+					type: "item"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "15ED3D4720AE6CF8"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			description: [
+				"A wide variety of seemingly unrelated Pokemon drop silver ore, nuggets, or ingots"
+				""
+				"The most immediately available is Klefki."
+				""
+				"Be on the lookout for Nosepass Between Y levels of 32 and 64, Alolan Sandshrew as Y levels increase."
+			]
+			hide: true
+			id: "058F909B68C1C5F9"
+			tasks: [{
+				id: "6123B225CD2AC2AD"
+				type: "item"
+				item: "pixelmon:silver_ingot"
+			}]
+			rewards: [{
+				id: "55B124BF78D4A368"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 10.5d
+			description: [
+				"Platinum is incredibly rare, and used for making the highest level Pokeballs."
+				""
+				"You are not sure where you will get it from, but be on the look out for Clefairy."
+			]
+			hide: true
+			id: "63F3FF1C30FD35E1"
+			tasks: [{
+				id: "3BEA9BDCB9A817C6"
+				type: "item"
+				item: "pixelmon:platinum_ingot"
+			}]
+			rewards: [
+				{
+					id: "74CEC4A1E0B26A46"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "4A616205B90038FE"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			description: [
+				"Consider spending your first iron Ingot on a Stone Cutter. Stone Cutters will allow you to smooth out Tumblestones, which in turn can be paired with Silver Ingots to make Ancient Great Ball Lids. These will be more reliable Pokeballs than Love and Heal Balls"
+				""
+				"Alternatively, you can choose to invest your first iron ingot in a low voltage copper coil. These coils are the first of many blocks that can attract Magnemite at high (above Y = 192) altitudes."
+			]
+			id: "2C5C3611DAD86CAA"
+			tasks: [{
+				id: "1170B2F159C277B6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "017455A745F5BBED"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "27D29F6C608B9B02"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			description: [
+				"Requires three Aluminum ingots and yields five balls, these are the easiest Pokeball to grind for and produce."
+				""
+				"Pokemon caught in a heal ball can be used immediately without resting. They do not have an enhanced catch rate."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "3631D571D5538616"
+			tasks: [{
+				id: "46672C62867799F6"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "heal_ball"
+					}
+				}
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "5FCBE587DE50C727"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "78FED22434ED3F6C"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "7E80E20A32B6EF4A"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: [
+				"Requires three silver ingots and yields five balls. These Pokeballs are the first balls with an enhanced catch rate."
+				""
+				"Love balls have a 2x catch rate on Pokemon of the opposite gender, which increases to a 8x catch rate if the pokemon are of the same species."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "7714EF806C30B7C6"
+			tasks: [{
+				id: "7D86B471A19F43FE"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "love_ball"
+					}
+				}
+				count: 5L
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "5E97B2E3C043EE92"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "0EDC0B185DD80787"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"The recipe for an Ancient Great Ball requires two silver ingots and three tumblestones, and yields three balls."
+				""
+				"These have a 1.5x catch rate."
+			]
+			dependencies: ["674F6AEDA331784C"]
+			hide: true
+			id: "5AF0C36E42A5FFB3"
+			tasks: [{
+				id: "615179001EB1B8B0"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_great_ball"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "1DD6A8BA5624BA63"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "009494F7F1DE93E3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "2A7BE7A6BE9A5BF0"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."]
+			dependencies: ["3449AF12CF6DC77F"]
+			hide: true
+			id: "61156024E1329533"
+			tasks: [{
+				id: "13B71FFF09170179"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "leaden_ball"
+					}
+				}
+				count: 5L
+			}]
+			rewards: [{
+				id: "22BE7691BD66E8FB"
+				type: "item"
+				item: "pixelmon:black_shard"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: [
+				"Feather Balls do not have an enhanced catch rate, and still require the two silver ingots of the Ancient Great Ball. However, they produce 5 balls instead of 3, making them cheaper than Love Balls."
+				""
+				"They require Sky Tumblestone."
+			]
+			dependencies: ["3A2FACB03E05F4A2"]
+			hide: true
+			id: "0825C5137B2FE74B"
+			tasks: [{
+				id: "4E7F8BCB1219A725"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "feather_ball"
+					}
+				}
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "2ACC267E4B6B73EE"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "4E0091027771479C"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "23E3EC0D4D07AD38"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: [
+				"Dropped directly from Hisuan Voltorb, these are prohibitively expensive to craft because they require iron."
+				""
+				"Voltorb of all varieties can be attracted with Redstone blocks."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "7CBDF7E8D2130FCC"
+			tasks: [{
+				id: "55597CDB95A76F51"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_poke_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "670F5F8810C00C39"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "47CD0DF9663EC2B0"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			description: [
+				"Dropped by Voltorb, these are impossible to craft from scratch because of the lack of Red Apricorns."
+				""
+				"Voltorbs of all varieties can be attracted by Redstone Blocks."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "63B3833538CE6484"
+			tasks: [{
+				id: "2EBA9DAE28FC4BBC"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "poke_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A0B88A23AD12771"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "0EA0433C0E91E926"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: [
+				"This is the most common type of Tumblestone. It can be attained by fighting a number of Pokemon, including Geodude and Magikarp."
+				""
+				"To polish a tumblestone, one requires a stone cutter, and a stone cutter requires a single iron ingot."
+				""
+				"While red tumblestones are commonly thought of as the tumblestone used for producing Ancient Pokeballs, they are actually of more use to you in producing ancient great balls. This is because iron is prohibitively expensive."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "674F6AEDA331784C"
+			tasks: [{
+				id: "3317E8E3C9029C54"
+				type: "item"
+				item: "pixelmon:raw_tumblestone"
+			}]
+			rewards: [
+				{
+					id: "34C32CF695AD2FB6"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "40028DBC3904CDDC"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["Sky tumblestone are primarily available from Pokemon from very high Y levels."]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "3A2FACB03E05F4A2"
+			tasks: [{
+				id: "2C27405BA30A7C00"
+				type: "item"
+				item: "pixelmon:raw_sky_tumblestone"
+			}]
+			rewards: [
+				{
+					id: "38F6C99071CFF6A6"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "56080F49CF55CD5E"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"Black tumblestone is traditionally rarer than red tumblestone, and also more valuable. The balls it crafts do not travel as far, but tend to have a higher catch rate."
+				""
+				"Most of the Pokemon who drop black tumblestone are found deep beneath the earth, but a Sableye variant that drops both black and regular tumblestone can be found in the murk layer, just above Y level 96, in underground habitats."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "3449AF12CF6DC77F"
+			tasks: [{
+				id: "2B42CC2F7365E4F6"
+				type: "item"
+				item: "pixelmon:raw_black_tumblestone"
+			}]
+			rewards: [
+				{
+					id: "185C2E4FE19A9161"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "5F399014F3207ECB"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			description: ["Copper is a fairly common drop. In the past you could harvest it from Cufant, but in the present you will have to look to Pokemon like Bronzor, Beldum, and Klink."]
+			id: "3592ED1650D172B7"
+			tasks: [{
+				id: "7792E3475B2A07AA"
+				type: "item"
+				title: "Any #forge:ingots/copper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/copper"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C63BB964A404C05"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			description: ["Tin is less plentiful than copper, but can be harvested from Klink. It is an uncommon drop from Baltoy, Bergemite, Nickit, and Cryogonal."]
+			id: "2256A2C44A963EC5"
+			tasks: [{
+				id: "3918F59AAEDF5A13"
+				type: "item"
+				item: "thermal:tin_ingot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -12.0d
+			id: "0D248812DE33472B"
+			tasks: [{
+				id: "044AD350874C5B79"
+				type: "item"
+				item: "contenttweaker:brass_ingot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			id: "4744A42F4A75A1ED"
+			tasks: [{
+				id: "74C3A56F245B2BD4"
+				type: "item"
+				item: "thermal:bronze_ingot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -13.0d
+			id: "0631AB4AA36EE20E"
+			tasks: [{
+				id: "0B8D3135B1DB1D09"
+				type: "item"
+				item: "tconstruct:cobalt_ingot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -11.0d
+			id: "6F2DD5CDB657D547"
+			tasks: [{
+				id: "16C5C3B50FE617E7"
+				type: "item"
+				item: "contenttweaker:zinc_ingot"
+			}]
+		}
+	]
+}

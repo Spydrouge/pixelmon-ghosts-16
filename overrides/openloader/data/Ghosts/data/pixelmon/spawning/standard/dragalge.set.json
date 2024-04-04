@@ -1,0 +1,67 @@
+{
+  "id": "Dragalge",
+  "spawnInfos": [
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Water"
+      ],
+      "minLevel": 48,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 48,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 40
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 48,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:water_chalice"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

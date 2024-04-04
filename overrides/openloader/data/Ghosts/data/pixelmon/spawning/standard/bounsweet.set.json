@@ -1,0 +1,51 @@
+{
+  "id": "Bounsweet",
+  "spawnInfos": [
+    {
+     "spec": "species:Bounsweet",
+     "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Bounsweet",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grassy_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

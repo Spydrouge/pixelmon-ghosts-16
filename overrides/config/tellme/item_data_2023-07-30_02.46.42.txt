@@ -1,0 +1,47 @@
+Master Chest (pixelmon:master_chest - id: 4148) has NBT data
+
+{BlockEntityTag:{chestOneTime:1b,Owner:[I;0,0,0,0],customDrop:1b,ForgeData:{},specialEvent:0b,visibility:0s,dropOneTime:1b,timeEnabled:0b,grotto:0b,id:"pixelmon:poke_chest",customDrops:[{id:"pixelmon:poke_ball",Count:1b,tag:{PokeBallID:"master_ball"}}]},display:{Lore:['"(+NBT)"']}}
+
+[TAG_Compound (2 values)] 
+{
+    [TAG_Compound (11 values)] "BlockEntityTag"
+    {
+        [TAG_Compound (0 values)] "ForgeData"
+        {
+        }
+        [TAG_Int_Array (4 entries)] "Owner"
+        [
+              0: 0x00000000 (   0)
+              1: 0x00000000 (   0)
+              2: 0x00000000 (   0)
+              3: 0x00000000 (   0)
+        ]
+        [TAG_Byte] "chestOneTime": 1
+        [TAG_Byte] "customDrop": 1
+        [TAG_List (1 values of type TAG_Compound)] "customDrops"
+        [
+            [TAG_Compound (3 values)] 
+            {
+                [TAG_Byte] "Count": 1
+                [TAG_String] "id": "pixelmon:poke_ball"
+                [TAG_Compound (1 values)] "tag"
+                {
+                    [TAG_String] "PokeBallID": "master_ball"
+                }
+            }
+        ]
+        [TAG_Byte] "dropOneTime": 1
+        [TAG_Byte] "grotto": 0
+        [TAG_String] "id": "pixelmon:poke_chest"
+        [TAG_Byte] "specialEvent": 0
+        [TAG_Byte] "timeEnabled": 0
+        [TAG_Short] "visibility": 0
+    }
+    [TAG_Compound (1 values)] "display"
+    {
+        [TAG_List (1 values of type TAG_String)] "Lore"
+        [
+            [TAG_String] : ""(+NBT)""
+        ]
+    }
+}

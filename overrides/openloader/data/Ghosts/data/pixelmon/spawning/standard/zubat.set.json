@@ -1,0 +1,158 @@
+{
+  "id": "Zubat",
+  "spawnInfos": [
+     {
+      "spec": "species:Zubat palette:strike",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 120
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+    "anticondition":{
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 120
+    },
+    
+     {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 90
+    },
+    {
+      "spec": "species:Zubat palette:strike",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 90
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "swamps",
+          "mountainous",
+          "plains",
+          "flowery",
+          "evil",
+          "jungles"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Zubat palette:strike",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "swamps",
+          "mountainous",
+          "plains",
+          "flowery",
+          "evil",
+          "jungles"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

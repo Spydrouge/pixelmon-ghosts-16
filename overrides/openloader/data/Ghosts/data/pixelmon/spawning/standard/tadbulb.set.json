@@ -1,0 +1,40 @@
+{
+  "id": "Tadbulb",
+  "spawnInfos": [
+    {
+      "spec": "species:Tadbulb",
+      "stringLocationTypes": [
+        "Water",
+        "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Tadbulb",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:river",
+          "lakes",
+          "swamps"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

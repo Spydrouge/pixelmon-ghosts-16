@@ -1,0 +1,64 @@
+{
+  "id": "Natu",
+  "spawnInfos": [
+    {
+      "spec": "species:Natu",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Natu",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "jungles",
+          "mesas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Natu",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "jungles",
+          "mesas"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

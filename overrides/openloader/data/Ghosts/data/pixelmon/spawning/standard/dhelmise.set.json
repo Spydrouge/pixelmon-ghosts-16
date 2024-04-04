@@ -1,0 +1,75 @@
+{
+  "id": "Dhelmise",
+  "spawnInfos": [
+     {
+      "spec": "species:Dhelmise",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Dhelmise",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Dhelmise",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:dead_sea"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Dhelmise",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:water_chalice"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

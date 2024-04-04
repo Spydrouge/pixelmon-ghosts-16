@@ -1,0 +1,53 @@
+{
+  "id": "Squirtle",
+  "spawnInfos": [
+    {
+      "spec": "species:Squirtle palette:zombie",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Squirtle",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:beach",
+          "biomesoplenty:tropic_beach",
+          "byg:rainbow_beach",
+          "byg:white_beach",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 10.0
+    }
+  ]
+}

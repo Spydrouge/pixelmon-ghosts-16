@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "detection_logic": "simple",
+  "replaced_mobs": [
+    "minecraft:zombie_villager"
+  ],
+  "replacement_logic": "villager"
+}

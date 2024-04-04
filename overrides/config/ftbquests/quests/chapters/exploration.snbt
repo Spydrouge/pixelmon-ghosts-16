@@ -1,0 +1,321 @@
+{
+	id: "691A8B05A09AC93A"
+	group: "5CC2B36466F88246"
+	order_index: 1
+	filename: "exploration"
+	title: "Exploration"
+	icon: {
+		id: "minecraft:elytra"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"It appears that your world is evenly divided into layers, each of which spans 32 blocks vertically. Each appears to hve different Pokemon, thus giving you access to different resources. You'll need to explore them all!"
+				""
+				"You haven't visited all the layers yet, but you've assigned them named based on what you anticipate will be in them, based on what little you know of Pokemon habitats."
+				""
+				"The layers are..."
+				""
+				"Space Layer: 224 - 256"
+				"Ice Layer: 192 - 224"
+				"Air Layer: 160 - 192"
+				"Dazzle Layer: 128 - 160"
+				"Murk Layer: 96 - 128"
+				"Soil Layer: 64 - 96 <-- You are here"
+				"Stone Layer: 32 - 64"
+				"Deep Dark Layer: 0 - 32"
+			]
+			size: 2.0d
+			id: "30EB23683E1A1D4C"
+			tasks: [{
+				id: "46E4ECB753C50C95"
+				type: "checkmark"
+				title: "Exploraiton"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "444A90F376AD5CFA"
+			tasks: [{
+				id: "5B5A8C77395782D6"
+				type: "questsadditions:interaction"
+				title: "Right Click Pineco"
+				icon: {
+					id: "pixelmon:pixelmon_sprite"
+					Count: 1b
+					tag: {
+						ndex: 204s
+						palette: "none"
+						form: -1b
+						gender: 0b
+						Shiny: 0b
+					}
+				}
+				entity: "pixelmon:pixelmon"
+				nbt: {
+					ndex: 204
+				}
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Into the depths..."
+			description: ["Head below Y = 32."]
+			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
+			id: "71F569F2FA23FEBD"
+			tasks: [{
+				id: "75857DD7C99A38F8"
+				type: "location"
+				title: "Travel down below Y = 32"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					16
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [
+				{
+					id: "643F7A9FE78E4846"
+					type: "item"
+					item: "pixelmon:spelon_berry"
+				}
+				{
+					id: "10459C0A5E8808CB"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+				}
+			]
+		}
+		{
+			title: "The Stone Layer"
+			x: 0.0d
+			y: 2.0d
+			description: ["Head between Y Levels 32 and 64"]
+			dependencies: ["30EB23683E1A1D4C"]
+			id: "4D61D20EF0182AE0"
+			tasks: [{
+				id: "628EFE53BD2A853B"
+				type: "location"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					48
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [{
+				id: "67E61C9146C12EB5"
+				type: "item"
+				item: "byg:lament_vine"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["30EB23683E1A1D4C"]
+			id: "07738E3566B31309"
+			tasks: [{
+				id: "0822C3E88FF87E75"
+				type: "location"
+				title: "The Murk Layer"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					112
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [
+				{
+					id: "2633D6BA3286EE27"
+					type: "item"
+					item: "pixelmon:magost_berry"
+				}
+				{
+					id: "75B240103571FBDF"
+					type: "item"
+					item: "byg:poison_ivy"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["07738E3566B31309"]
+			id: "68656D2ECD70A4C9"
+			tasks: [{
+				id: "33F4FAE8430C8799"
+				type: "location"
+				title: "The Dazzle Layer"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					144
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [
+				{
+					id: "251544199179D70A"
+					type: "item"
+					item: "pixelmon:watmel_berry"
+				}
+				{
+					id: "0E1AAC1BC7CF70C5"
+					type: "item"
+					item: "byg:whaling_vine"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["68656D2ECD70A4C9"]
+			id: "0BD06157B3F599CB"
+			tasks: [{
+				id: "7CA3EF6B2154A01B"
+				type: "location"
+				title: "The Air Layer"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					176
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [
+				{
+					id: "1C68AC4F589CED9E"
+					type: "item"
+					item: "pixelmon:magost_berry"
+				}
+				{
+					id: "5948BF78D8A19CE2"
+					type: "item"
+					item: "biomesoplenty:willow_vine"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["0BD06157B3F599CB"]
+			id: "7EEAD69FE49927AB"
+			tasks: [{
+				id: "0CF017BC3D2994FA"
+				type: "location"
+				title: "The Ice Layer"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					208
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [
+				{
+					id: "2F59C4D0EA0D54FB"
+					type: "item"
+					item: "pixelmon:watmel_berry"
+				}
+				{
+					id: "684869929587AB77"
+					type: "item"
+					item: "biomesoplenty:spanish_moss"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "3632E0C47BD3B5DE"
+			tasks: [{
+				id: "0D4D3F22EAF8A659"
+				type: "location"
+				title: "The Space Layer"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					-1073741823
+					240
+					-1073741823
+				]
+				size: [I;
+					2147483647
+					16
+					2147483647
+				]
+			}]
+			rewards: [
+				{
+					id: "4A380574ADB7F26B"
+					type: "item"
+					item: "pixelmon:magost_berry"
+				}
+				{
+					id: "232142245D915885"
+					type: "item"
+					item: "minecraft:vine"
+				}
+			]
+		}
+	]
+}

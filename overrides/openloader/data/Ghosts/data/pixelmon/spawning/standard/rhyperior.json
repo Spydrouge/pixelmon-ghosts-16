@@ -1,0 +1,99 @@
+{
+  "id": "Rhyperior",
+  "spawnInfos": [
+     {
+      "spec": "species:Rhyperior growth:small",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:protector",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 0.05
+    },
+     {
+      "spec": "species:Rhyperior palette:pink growth:microscopic",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:protector",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Rhyperior",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:protector",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:badlands",
+          "savannas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Rhyperior palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:protector",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:badlands",
+          "savannas"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

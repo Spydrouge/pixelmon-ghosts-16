@@ -1,0 +1,53 @@
+{
+  "id": "Snover",
+  "spawnInfos": [
+     {
+      "spec": "species:Snover palette:christmas",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+          "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+            ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Snover",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 35,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "freezing forests",
+          "freezing mountains",
+          "pixelmon:mount_lanakila"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

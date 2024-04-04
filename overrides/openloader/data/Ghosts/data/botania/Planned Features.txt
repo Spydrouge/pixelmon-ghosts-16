@@ -1,0 +1,52 @@
+
+Getting started
+
+- All Mystic flowers must be crafted
+	- Shimmering Mushrooms must be made in the Petal Apothecary, not the Crafting Table.
+	- To get  Dyes, Player must locate Pokemon who drop colored flowers.
+	- Mystical Flower Petals can be Created from throwing non-magical Colored Flowers from vanilla or an installed mode into a mana pool.
+		- Petals can be buried and bonemealed into tall flowers
+		- This means a generating flora must be made using only mushrooms
+	
+- First functional flower, Pure daisy, made with bonemeal white and a mushroom harvested from Shroomish/Paras/etc
+
+- Finding Flowers is Not Trivial
+	- Brown Flowers are very rare and need to be added to Pokemon Drop Tables (reeds and cocoa), making Endoflames difficult to create
+		- In normal Pixelmon, cocoa beans are dropped by monkeys, which did not survive into the Ghosts universe (they most likely symbolize the old cliche that monkeys throw poop)
+		
+	- For hydroangeas, Blue flowers can be found from Metapod and Blue Flabebe, or blue dye can be created from lapis. They require building up, but they are not impossible to get. A cyan flower must be added, since cactuses are likely to take awhile
+		- Alternatively the recipe can be changed to use light blue,which is a simple mixture of blue and white.
+		- This is also fitting because Kakuna and Metapod drop Lily of the Valley and Cornflower.
+		
+		- Hydroangeas should have its mana rate increased because water is not infinite.
+		
+- Sources of Water for Pre-Rune setup using Hydroangeas
+	- Rain Tank (fill quite quickly and can hold 8 buckets a piece, only ingredient is wood, i might include some rope.)
+	- Harvesting Surskit, Dewpider
+	- Lightwell - requires Aquamarine from drowned sableye and snow or ice to melt
+	+ Add a recipe for leaves to produce a small amount of water in the lightwell
+	
+	
+- Flabebe!
+	- Flabebe drops Blue, White, Red, Orange, and Yellow Flowers
+		- This is not enough to make a Endoflame because of the absense of brown
+		
+- First tier Ruines, Second Tier Flowers
+	- We cannot make the Rosa Arcana with just Flabebe and Metapod; lime is required
+		- Lime can be made from sea pickles, which pyukumuku drops
+		- Ender pearls can be harvested from psychic mobs
+	- The Thermalily is useless pre-nether
+	
+- Sin Runes
+	- Sin runes all require diamonds which the player is very unlikely to get in numbers they are willing to 'waste', but it can be farmed from certain sableye and the crystal onix/steelix.
+		
+
+	
+	
+- Miltank!
+	- Although Miltank can be milked, there is nothing about this interaction in its species data, so I can't imitate it to make, for example, a milkable surskit
+	
+	The code for this is in this class: 
+	Pixelmon-1.16.5-9.1.10-universal.jar\com\pixelmonmod\pixelmon\entities\pixelmon\interactions\custom\MiltankInteraction.class
+	
+		

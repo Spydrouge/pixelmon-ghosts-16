@@ -1,0 +1,130 @@
+{
+  "id": "Sneasel",
+  "spawnInfos": [
+    {
+      "spec": "species:Sneasel palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers":[
+           "STORM"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Sneasel form:hisuian palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers":[
+           "STORM"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Sneasel",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Sneasel form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Sneasel palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "Ninetales",
+  "spawnInfos": [
+    {
+      "spec": "species:Ninetales",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "minecraft:fire_charge",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition": {
+        "weathers":[
+            "STORM"
+        ]
+      },
+     "groupSpawnSettings": [
+        {
+          "spec": "Vulpix palette:strike",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 20
+    },
+    
+    {
+      "spec": "species:Ninetales form:alolan",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition": {
+        "weathers":[
+            "STORM"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+            ]
+      },
+    "groupSpawnSettings": [
+        {
+          "spec": "Vulpix form:alolan",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      
+      "rarity": 20
+    },
+    {
+      "spec": "species:Ninetales form:alolan palette:christmas",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+            ]
+      },
+      "anticondition": {
+        "weathers":[
+            "STORM"
+        ]
+      },
+    "groupSpawnSettings": [
+        {
+          "spec": "Vulpix form:alolan palette:christmas",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      
+      "rarity": 20
+    },
+    {
+      "spec": "species:Ninetales palette:strike",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "minecraft:fire_charge",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers":[
+            "STORM"
+        ]
+      },
+    "groupSpawnSettings": [
+        {
+          "spec": "Vulpix palette:strike",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 20
+    },
+    {
+      "spec": "species:Ninetales form:alolan palette:strike",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers":[
+            "STORM"
+        ]
+      },
+    "groupSpawnSettings": [
+        {
+          "spec": "Vulpix form:alolan palette:strike",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 20
+    },
+    {
+      "spec": "species:Ninetales",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "minecraft:fire_charge",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "redwoods",
+          "biomesoplenty:seasonal_forest",
+          "byg:seasonal_forest",
+          "byg:seasonal_forest_hills",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Ninetales",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "minecraft:fire_charge",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Ninetales form:alolan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "freezing forests",
+          "pixelmon:mount_lanakila"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Ninetales form:base palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

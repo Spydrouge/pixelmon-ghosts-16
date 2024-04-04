@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "detection_logic": "simple",
+  "replaced_mobs": [
+    "minecraft:villager",
+    "minecraft:wandering_trader"
+  ],
+  "replacement_logic": "villager"
+}

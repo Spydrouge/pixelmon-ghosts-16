@@ -1,0 +1,115 @@
+{
+  "id": "Sandshrew",
+  "spawnInfos": [
+    {
+      "spec": "species:Sandshrew form:alolan",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+    "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+          "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+            ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Sandshrew form:alolan palette:christmas",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+    "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+          "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+            ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Sandshrew",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 12,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Sandshrew form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 12,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing mountains",
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "biomesoplenty:cold_desert",
+          "byg:shattered_glacier",
+          "pixelmon:mount_lanakila"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

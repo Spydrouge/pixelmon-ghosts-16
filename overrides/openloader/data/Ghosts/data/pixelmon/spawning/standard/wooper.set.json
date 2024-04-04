@@ -1,0 +1,113 @@
+{
+  "id": "Wooper",
+  "spawnInfos": [
+    {
+      "spec": "species:Wooper form:paldean",
+      "stringLocationTypes": [
+        "Land",
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":128,
+        "minY":96,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+           "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 20.0
+    }
+    {
+      "spec": "species:Wooper",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Wooper form:paldean",
+      "stringLocationTypes": [
+        "Land",
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DAWN"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 150.0
+    }
+  ]
+}

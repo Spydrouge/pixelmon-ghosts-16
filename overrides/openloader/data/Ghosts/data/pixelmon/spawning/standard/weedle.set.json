@@ -1,0 +1,79 @@
+{
+  "id": "Weedle",
+  "spawnInfos": [
+    {
+     "spec": "species:Weedle palette:pink",
+     "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":128,
+        "minY":96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Weedle",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "forests",
+          "roofed",
+          "taigas",
+          "redwoods",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Weedle palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "forests",
+          "roofed",
+          "taigas",
+          "redwoods",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

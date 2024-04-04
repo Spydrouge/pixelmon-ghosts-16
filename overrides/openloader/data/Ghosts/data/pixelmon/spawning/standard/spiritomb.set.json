@@ -1,0 +1,113 @@
+{
+  "id": "Spiritomb",
+  "spawnInfos": [
+     {
+      "spec": "species:Spiritomb",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+       "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 32
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:chiseled_sandstone"
+            ]
+          }
+        }
+      ],
+      "rarity": 40
+    },
+    {
+      "spec": "species:Spiritomb",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Spiritomb",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Spiritomb boss:haunted",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "Munna",
+  "spawnInfos": [
+     {
+      "spec": "species:Munna",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Munna",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Munna",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "pixelmon:empty_pokeball",
+    "location": {
+      "position": {
+        "y": {
+          "max": 5,
+          "min":-100
+        }
+      }
+    }
+  }
+}

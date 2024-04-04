@@ -1,0 +1,72 @@
+{
+  "id": "Larvitar",
+  "spawnInfos": [
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 80,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:emerald_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+      
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ]
+      },
+      "rarity": 70.0
+    },
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 55
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

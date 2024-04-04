@@ -1,0 +1,136 @@
+{
+  "id": "Naclstack",
+  "spawnInfos": [
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mountainous",
+          "mesas",
+          "minecraft:stone_shore",
+          "biomesoplenty:gravel_beach",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Underground",
+        "Indoors"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand",
+             
+          "minecraft:sandstone",
+          "minecraft:red_sandstone",
+          "biomesoplenty:white_sandstone",
+          "biomesoplenty:orange_sandstone",
+          "biomesoplenty:black_sandstone",
+          "byg:white_sandstone",
+          "byg:blue_sandstone",
+          "byg:purple_sandstone",
+          "byg:pink_sandstone",
+          
+          "minecraft:quartz_block",
+          "botania:mana_quartz",
+          "botania:red_quartz",
+          "botania:lavendar_quartz",
+          "botania:sunny_quartz",
+          "botania:dark_quartz",
+        
+          "biomesoplenty:dried_salt",
+          "thermal:niter_block",
+          "thermal:sulfur_block"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish", 
+          "end"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+          }
+        }
+      ],
+      "rarity": 15.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Chingling",
+  "spawnInfos": [
+     {
+      "spec": "species:Chingling",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

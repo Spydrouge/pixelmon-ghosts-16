@@ -1,0 +1,91 @@
+{
+  "id": "Tyranitar",
+  "spawnInfos": [
+    {
+      "spec": "species:Tyranitar",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 30,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:weakness_policy",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:smooth_rock",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Tyranitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:weakness_policy",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:smooth_rock",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Tyranitar",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:weakness_policy",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:smooth_rock",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish"
+        ]
+      },
+      "rarity": 0.2
+    }
+  ]
+}

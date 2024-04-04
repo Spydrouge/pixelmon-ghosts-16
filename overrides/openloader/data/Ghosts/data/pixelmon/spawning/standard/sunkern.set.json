@@ -1,0 +1,50 @@
+{
+  "id": "Sunkern",
+  "spawnInfos": [
+    {
+      "spec": "species:Sunkern",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "flowery"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Sunkern",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+	  "pixelmon:black_shard",
+        "pixelmon:green_shard",
+        "pixelmon:red_shard",
+        "pixelmon:blue_shard",
+        "pixelmon:yellow_shard",
+        "pixelmon:white_shard"
+     
+        
+	]
+  }

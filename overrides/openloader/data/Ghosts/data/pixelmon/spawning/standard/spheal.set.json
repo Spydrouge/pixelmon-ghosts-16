@@ -1,0 +1,100 @@
+{
+  "id": "Spheal",
+  "spawnInfos": [
+     {
+      "spec": "species:Spheal palette:loveball",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+      {
+      "spec": "species:Spheal palette:friendball",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+     {
+      "spec": "species:Spheal palette:moonball",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+     {
+      "spec": "species:Spheal palette:premierball",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Spheal",
+      "stringLocationTypes": [
+        "Water",
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_beach",
+          "byg:snowy_rocky_black_beach",
+          "byg:snowy_black_beach",
+          "byg:frozen_lake",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

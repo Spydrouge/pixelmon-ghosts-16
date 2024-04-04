@@ -1,0 +1,54 @@
+{
+  "id": "Nincada",
+  "spawnInfos": [
+    {
+      "spec": "species:Nincada",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Nincada",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

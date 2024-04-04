@@ -1,0 +1,83 @@
+{
+  "id": "Coalossal",
+  "spawnInfos": [
+    {
+      "spec": "species:Coalossal",
+      "stringLocationTypes": [
+        "Manmade",
+        "Underground"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:coal_ore"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:rail"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Coalossal",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau",
+          "mesas",
+          "mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:coal_ore"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    }
+  ]
+}

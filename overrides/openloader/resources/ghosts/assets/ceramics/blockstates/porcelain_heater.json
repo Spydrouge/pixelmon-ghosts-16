@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "active=false,facing=north": { "model": "ceramics:block/smeltery/controller/porcelain_heater_inactive" },
+    "active=false,facing=south": { "model": "ceramics:block/smeltery/controller/porcelain_heater_inactive", "uvlock": true, "y": 180 },
+    "active=false,facing=west":  { "model": "ceramics:block/smeltery/controller/porcelain_heater_inactive", "uvlock": true, "y": 270 },
+    "active=false,facing=east":  { "model": "ceramics:block/smeltery/controller/porcelain_heater_inactive", "uvlock": true, "y": 90 },
+    "active=true,facing=north":  { "model": "ceramics:block/smeltery/controller/porcelain_heater_active" },
+    "active=true,facing=south":  { "model": "ceramics:block/smeltery/controller/porcelain_heater_active", "uvlock": true, "y": 180 },
+    "active=true,facing=west":   { "model": "ceramics:block/smeltery/controller/porcelain_heater_active", "uvlock": true, "y": 270 },
+    "active=true,facing=east":   { "model": "ceramics:block/smeltery/controller/porcelain_heater_active", "uvlock": true, "y": 90 }
+  }
+}

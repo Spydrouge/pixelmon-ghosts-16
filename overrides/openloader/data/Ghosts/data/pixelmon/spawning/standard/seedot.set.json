@@ -1,0 +1,67 @@
+{
+  "id": "Seedot",
+  "spawnInfos": [
+    {
+      "spec": "species:Seedot",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:power_herb",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:yago_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "redwoods",
+          "taigas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Seedot",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:power_herb",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:yago_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "times": [
+          "NIGHT",
+          "DUSK",
+          "DAWN"
+        ],
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "Shuckle",
+  "spawnInfos": [
+    {
+      "spec": "species:Shuckle",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 5,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:berry_juice",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Shuckle",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 5,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:berry_juice",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:stone_shore",
+          "pixelmon:ultra_deep_sea",
+          "biomesoplenty:gravel_beach",
+          "byg:basalt_barrera",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Shuckle",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:berry_juice",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "maxY": 60
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish",
+          "end"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

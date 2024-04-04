@@ -1,0 +1,33 @@
+{
+  "id": "Slurpuff",
+  "spawnInfos": [
+    {
+      "spec": "species:Slurpuff",
+      "stringLocationTypes": [
+        "Manmade",
+        "Sweet Scent"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "minY":128,
+        "maxY":160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 9.0
+    }
+  ]
+}

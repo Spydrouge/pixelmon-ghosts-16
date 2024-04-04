@@ -1,0 +1,64 @@
+{
+  "id": "Skrelp",
+  "spawnInfos": [
+     {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 40
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Skrelp",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:water_chalice"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

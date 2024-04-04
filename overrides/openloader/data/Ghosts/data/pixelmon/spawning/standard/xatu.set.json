@@ -1,0 +1,62 @@
+{
+  "id": "Xatu",
+  "spawnInfos": [
+    {
+      "spec": "species:Xatu",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Xatu",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "jungles",
+          "mesas"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Xatu",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

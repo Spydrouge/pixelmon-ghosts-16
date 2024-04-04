@@ -1,0 +1,56 @@
+{
+  "id": "Shiftry",
+  "spawnInfos": [
+    {
+      "spec": "species:Shiftry",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:power_herb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "redwoods",
+          "taigas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Shiftry",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:power_herb",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

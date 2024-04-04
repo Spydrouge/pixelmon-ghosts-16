@@ -1,0 +1,105 @@
+{
+  "id": "Carkol",
+  "spawnInfos": [
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Manmade",
+        "Underground"
+      ],
+      "minLevel": 18,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:rail"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:coal_ore"
+            ]
+          }
+        }
+      ],
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 18,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau",
+          "mesas",
+          "mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Carkol",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 18,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "savannas",
+          "mesas",
+          "mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ],
+        "maxY": 70
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:coal_ore"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    }
+  ]
+}

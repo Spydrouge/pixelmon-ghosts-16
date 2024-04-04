@@ -1,0 +1,61 @@
+{
+  "id": "Blipbug",
+  "spawnInfos": [
+    {
+      "spec": "species:Blipbug",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Blipbug",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 9,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Blipbug",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 9,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

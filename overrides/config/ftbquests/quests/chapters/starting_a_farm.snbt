@@ -1,0 +1,878 @@
+{
+	id: "4BBB224E88B3F750"
+	group: "4A96B64D5627EDC5"
+	order_index: 1
+	filename: "starting_a_farm"
+	title: "Starting a Farm"
+	icon: "thermal:beetroot_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Starting a Farm"
+			icon: "thermal:beetroot_block"
+			x: -1.0d
+			y: -8.5d
+			subtitle: "There's Very Much to Do"
+			description: [
+				"You don't just want to survive, you want to thrive!"
+				""
+				"To do that, you're going to have to get some resources straight. You need a reliable source of dirt and water, and then you need more crops to plant, and pokemon to tend!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			size: 2.0d
+			id: "7E8B9D29D34E8D2C"
+			tasks: [{
+				id: "2EB596229243BC5A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2DCC62F823FFE2A9"
+				type: "item"
+				item: "inspirations:heartbeet"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			subtitle: "In lieu of buckets..."
+			description: [
+				"Water is useful for many things in a Skyblock. It seems this world does not have infinite water, so you'll need as much as you can gather."
+				""
+				"You can use it for crops, fishing, descending downward, spawning new Pokemon, or fueling some types of alchemy and magic."
+				""
+				"You have &7no way&r to make &6buckets&r, so instead you are going to try and gather &bglass bottles&r. You seem to remember &bCastform&r drops these bottles, and, as luck would have it, Arceus gifted you with a spawner for those. "
+				""
+				"(Check Tips and Tricks for how to power Spawners)"
+			]
+			dependencies: ["7E8B9D29D34E8D2C"]
+			hide: true
+			id: "4CCDFB9994946597"
+			tasks: [{
+				id: "36EAB642336D5520"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "6FE357BBCCEC7A9C"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+				}
+				{
+					id: "49009792A51F577F"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			subtitle: "Pay attention: It's COARSE dirt."
+			description: [
+				"In a better world, you could have used diglett, bunnelby, and drillbur to produce dirt as they processed rock and stone. But unfortunately, none of those pokemon could float, and all were too delicate to survive the cataclysm."
+				""
+				"But given the variety of bug Pokemon popping up all over your little island, you think you have a candidate for dirt: &aGrubbin&r. Grubbin is a beetle larva that develops below the earth and has strong jaws for digging. It should be able to create dirt from the ruins."
+				""
+				"To lure out Grubbin, you can try &dplanting trees&r so deep in the earth that their leaves don't rise above Y=64. You may have to prune a tree to reduce its height to achieve this, or, you can try descending &dlower&r into the void..."
+				""
+				"Of course, to plant a tree, you will first need to move a piece of dirt down there. Be careful, you only have so many peices to spare."
+				""
+			]
+			dependencies: ["7E8B9D29D34E8D2C"]
+			hide: true
+			id: "4E447ED10E1729B1"
+			tasks: [{
+				id: "30A37D7B77B527E0"
+				type: "item"
+				item: "minecraft:coarse_dirt"
+				count: 16L
+			}]
+			rewards: [{
+				id: "73E2C74A902E3C8F"
+				type: "item"
+				item: "pixelmon:spelon_berry"
+			}]
+		}
+		{
+			title: "Beginner's water"
+			x: -2.0d
+			y: -6.0d
+			subtitle: "Help from the clouds..."
+			description: [
+				"Fill all three bottles with water by right clicking with them on a rain tank."
+				""
+				"If your rain tank has not filled yet, you can either wait around for it to rain, or you can take matters into your own hands: Get access to a Pokemon that can learn &9Rain Dance&r, and use 'Rain Dance' outside of battle, the same way you use 'Forage.'"
+				""
+				"Drifloon can learn Rain Dance, but it might be a waste of a move slot on your primary battling Pokemon. If you've found a Pokeball, you might be able to catch a Castform, which can learn both Rain Dance and Sunny Day."
+			]
+			dependencies: ["4CCDFB9994946597"]
+			hide: true
+			id: "02D3224F5FF97681"
+			tasks: [{
+				id: "652CFD36E8296966"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "3D68820F42A45448"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "7A665DBF6C8AAFAF"
+					type: "item"
+					item: "pixelmon:watmel_berry"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/misc/underwater.png"
+				}
+			}
+			x: -3.0d
+			y: -6.0d
+			subtitle: "Making the best of things..."
+			description: [
+				"For lack of any sophisticated machinery or working wooden buckets... you are going to dump all three bottles of water on the ground at the same time. That's right! Pour it on the ground."
+				""
+				"This quest is repeatable. Every usage takes three bottles of water. If you are standing in a completely empty block, a water source will be created where you are standing."
+				""
+				"Many things can interrupt this process, such as grass blocks, or blocks that aren't a full meter tall, like various muds. If you're sinking into something, don't use this quest there!"
+			]
+			dependencies: ["02D3224F5FF97681"]
+			hide: true
+			repeatable: true
+			id: "2969784F7689149A"
+			tasks: [{
+				id: "6F579E7D812D68E2"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0F61F1178F4F44E6"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3
+				}
+				{
+					id: "718E783A5ADFE95E"
+					type: "command"
+					title: "Will attempt to produce a water source block."
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/misc/underwater.png"
+						}
+					}
+					command: "/setblock ~ ~ ~ water keep"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Odd Wheat"
+			description: [
+				"Getting wheat will require the following steps:"
+				""
+				"1. Create regular dirt using coarse dirt and a hoe."
+				"2. Place dirt near a grass block and allow the grass to spread."
+				"3. Use bonemeal on the grass to produce tall grass and flowers."
+				"4. Break the tall grass for a chance to spawn a wheat seed"
+				"5. Plant and grow the wheat, preferably with irrigation."
+				""
+				"Note: You have observed that leaving some \"regular length\" grass uncut near your starting area causes &aOddish&r to spawn nearby.  Oddish also drops wheat seeds."
+			]
+			dependencies: [
+				"1C8AF2B80EA46940"
+				"02D3224F5FF97681"
+			]
+			hide: true
+			id: "4037E692772EC7FE"
+			tasks: [{
+				id: "02677F67948AA0D2"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+			rewards: [
+				{
+					id: "103AA1A10596CA39"
+					type: "item"
+					title: "Drifloon is helping!"
+					item: "minecraft:grass"
+					count: 4
+				}
+				{
+					id: "4F9B1803AFBB22D3"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "When the OG is still better..."
+			description: [
+				"In order to turn coarse dirt into regular dirt, you will need a hoe. A &amattock will not work&r. Since wood tools have no durability in this universe and stone is expensive, flint may be the best type to create."
+				""
+				"Place the coarse dirt on the ground and hoe it once to make regular dirt"
+			]
+			dependencies: ["4E447ED10E1729B1"]
+			hide: true
+			id: "1C8AF2B80EA46940"
+			tasks: [{
+				id: "2E7CB1276DF97DFD"
+				type: "item"
+				item: {
+					id: "fiow:flint_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [
+				{
+					id: "67B382DC5007A87B"
+					type: "item"
+					title: "Drifloon brings a very timely present."
+					item: "minecraft:grass_block"
+				}
+				{
+					id: "2CA5F5F28A4B38A1"
+					type: "item"
+					item: "pixelmon:dish_curry_leek"
+				}
+			]
+		}
+		{
+			title: "Animal Husbandry"
+			icon: "byg:aspen_fence"
+			x: -5.0d
+			y: -1.5d
+			description: [
+				"You want to create good habitats for Pokemon to breed on, so you can harvest drops like feathers, wool, and eggs."
+				""
+				"To do this, you may have to travel up and down and all over the world in which you find yourself!"
+				""
+				"&d(Some of these quests require you to climb to altitudes you have not reached yet. It is recommended you do them 'as needed' while following other major quest lines.)&r"
+			]
+			dependencies: ["4037E692772EC7FE"]
+			id: "187AE09D3D927F05"
+			tasks: [{
+				id: "3F73563D69AE0263"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Crops Plan"
+			icon: "minecraft:farmland"
+			x: 3.0d
+			y: -1.5d
+			description: [
+				"Now that you have access to water and basic food like bread and beetroot stew, you are filled with determination."
+				""
+				"You want to find every possible crop you could be growing, no matter how high you must climb, or how deep into the abyss you must plunge!"
+				""
+				"&d(Some of these quests require you to climb to altitudes you have not reached yet. It is recommended you do them 'as needed' while following other major quest lines.)&r"
+			]
+			dependencies: ["4037E692772EC7FE"]
+			id: "2D3AE7D61C1C477F"
+			tasks: [{
+				id: "34FECAD854FDC19E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["You believe if you can find Clefairy, you will find Sugarcane. Clefairy is a Pokemon from the stars; you suspect you will only find it at the very highest altitudes, as close to Outer space as you can get."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "71C1170463DA45D0"
+			tasks: [{
+				id: "048671FA6F917D2A"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+			rewards: [{
+				id: "0FE19EF212D35F4A"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: [
+				"Carrots may be difficult, but you've noticed strange Pokemon possessed by eldrich energies are occasionally spawning in underground water. Perhaps if you get lucky, some layer of this abyss will have an eldrich reanimated horse of some kind."
+				""
+				"Additionally, goats are known to be very good at keeping their feet in dangerous circumstances. Perhaps, like all the rock Pokemon, you will eventually find a goat or two frolicking about. If so, you suspect it will be at a high altitude."
+			]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "182732C4C2AC010F"
+			tasks: [{
+				id: "731CB1B1AD98A69A"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [
+				{
+					id: "460B64AE20462820"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "48686CE388642904"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			description: ["The Chorus fruit is well loved by faries, but the flower necessary to grow the fruit may be easier to find among plant-like creatures."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "71DE3A0D7F74C5D9"
+			tasks: [
+				{
+					id: "2A27490C7AADAC51"
+					type: "item"
+					item: "minecraft:chorus_fruit"
+				}
+				{
+					id: "5EEA6429F1F09AC1"
+					type: "item"
+					item: "minecraft:chorus_flower"
+				}
+			]
+			rewards: [
+				{
+					id: "0F252D7C91D82504"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "1AA72B8B2E125A2F"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "63335CEF4021A430"
+			tasks: [{
+				id: "01BBB0EF7F9DEF28"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+			}]
+			rewards: [{
+				id: "7C6A2FE7E8AFF77D"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Watermelon seeds may be tough to track down, but you have an idea: Ladybug Pokemon are very good at protecting plants like Watermelon from pests. Ledyba seems too fragile to have survived, but Orbeetle has the robust Dottler as it's middle stage. You expect to find such alien-like bug Pokemon at high altitudes, as close to outer space as possible."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "308D5B2AFBAF06BA"
+			tasks: [{
+				id: "4B7CCB9ED3CA90DF"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+			rewards: [
+				{
+					id: "103445AE69893929"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "17C873D352000480"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"Applin seems very much Burmy or any of the other bug Pokemon you see climbing out of each and every tree you plant. You suspect you might find them eventually, in the tree tops of some layer, but you aren't sure how high you must climb..."
+				""
+				"Alternatively, if you can gather enough dark oak saplings from the surrounding Phantump, you might be able to plant and harvest dark oak trees. These occasionally drop apples."
+			]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "1C9A8E55C1A7B7FF"
+			tasks: [{
+				id: "50486D28E8D41BEF"
+				type: "item"
+				item: "minecraft:apple"
+				count: 5L
+			}]
+			rewards: [{
+				id: "48E6EB966A98B44F"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "1509B72088529641"
+			tasks: [{
+				id: "2A6677F754414F68"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [{
+				id: "48154A528F1A32EF"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			description: ["Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "3D6F4BFB4F7C7A4A"
+			tasks: [{
+				id: "371974AD7AC88E85"
+				type: "item"
+				item: "byg:blueberries"
+			}]
+			rewards: [{
+				id: "4F68BB4BE696D34E"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			description: ["Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "6AD7ED0B6B968B66"
+			tasks: [{
+				id: "64CB43EBCFCBF875"
+				type: "item"
+				item: "byg:crimson_berries"
+			}]
+			rewards: [{
+				id: "0828C77F388761A8"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "516B913EB8DF470E"
+			tasks: [{
+				id: "2C4159B38F89774B"
+				type: "item"
+				item: "pixelmon:pecha_berry"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: ["516B913EB8DF470E"]
+			id: "25AA921A80A10032"
+			tasks: [{
+				id: "61D8B134E055A973"
+				type: "item"
+				item: "pixelmon:chesto_berry"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["25AA921A80A10032"]
+			id: "62D63BEF9A0A406D"
+			tasks: [{
+				id: "68413DDBCDC77EFD"
+				type: "item"
+				item: "pixelmon:rawst_berry"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["62D63BEF9A0A406D"]
+			id: "5909A3FCAD9DC6B8"
+			tasks: [{
+				id: "0C0038AF423904A9"
+				type: "item"
+				item: "pixelmon:persim_berry"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["187AE09D3D927F05"]
+			id: "54DE0DB62DC59A44"
+			tasks: [{
+				id: "38A8F0B48EDB3B11"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["187AE09D3D927F05"]
+			id: "0F702567FDC67CAF"
+			tasks: [{
+				id: "08569F6354813104"
+				type: "item"
+				item: "minecraft:feather"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["187AE09D3D927F05"]
+			id: "73C28BA13E211B96"
+			tasks: [{
+				id: "64581A350A41CE56"
+				type: "item"
+				item: "minecraft:pink_wool"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["187AE09D3D927F05"]
+			id: "42CCCD30BE23B892"
+			tasks: [{
+				id: "79845D0AE1736730"
+				type: "item"
+				item: "ceramics:milk_clay_bucket"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["187AE09D3D927F05"]
+			id: "5F3673265B3B4394"
+			tasks: [{
+				id: "1910F83C24915468"
+				type: "item"
+				item: "minecraft:shulker_shell"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["187AE09D3D927F05"]
+			id: "3C54F8C72B0083A1"
+			tasks: [{
+				id: "4DDD6A390184F2B1"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			dependencies: ["187AE09D3D927F05"]
+			id: "3297F01E3E8E6A03"
+			tasks: [{
+				id: "5A4A084F68FE7A6C"
+				type: "item"
+				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: ["187AE09D3D927F05"]
+			id: "4F9EEB74BBC32438"
+			tasks: [{
+				id: "3B2FB74611662940"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			dependencies: ["187AE09D3D927F05"]
+			id: "7B9D7ABCC4AC4243"
+			tasks: [{
+				id: "1CE8EF04AA08E6A2"
+				type: "item"
+				item: "minecraft:salmon"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.5d
+			dependencies: ["7B9D7ABCC4AC4243"]
+			id: "384484786387AEB7"
+			tasks: [{
+				id: "2E9D7408F4329A77"
+				type: "item"
+				item: "minecraft:porkchop"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.5d
+			dependencies: ["384484786387AEB7"]
+			id: "2DC584B87FD79330"
+			tasks: [{
+				id: "215E348817A8F8FD"
+				type: "item"
+				item: "minecraft:rabbit"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.5d
+			dependencies: ["2DC584B87FD79330"]
+			id: "3C032892477EC615"
+			tasks: [{
+				id: "6018DE69C4AEE98D"
+				type: "item"
+				item: "minecraft:chicken"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			id: "3E6CD2FDC4525CDD"
+			tasks: [{
+				id: "49915D8530FCBAC1"
+				type: "item"
+				item: "pixelmon:kelpsy_berry"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			id: "2E6BDAFFD74ED7DA"
+			tasks: [{
+				id: "25BC2F346C5C1815"
+				type: "item"
+				item: "pixelmon:qualot_berry"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			id: "3D33E885F79A75DF"
+			tasks: [{
+				id: "7E33456C6E881C8E"
+				type: "item"
+				item: "pixelmon:hondew_berry"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			id: "3FC2FF88212BCE51"
+			tasks: [{
+				id: "1B6C903F2AD9B700"
+				type: "item"
+				item: "pixelmon:grepa_berry"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			id: "2BF86EE787EF7DC0"
+			tasks: [{
+				id: "1831440C07A7DACF"
+				type: "item"
+				item: "pixelmon:tamato_berry"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			id: "2358F538B703DE01"
+			tasks: [{
+				id: "5E5C2991D1A2425F"
+				type: "item"
+				item: "pixelmon:pomeg_berry"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			id: "766C87B8A498A80B"
+			tasks: [{
+				id: "1DF46D94386D6456"
+				type: "item"
+				item: "pixelmon:babiri_berry"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			id: "75271B50DEF66CB5"
+			tasks: [{
+				id: "77A148C52C7A42CC"
+				type: "item"
+				item: "pixelmon:wacan_berry"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			id: "1878E237C64487B3"
+			tasks: [{
+				id: "29BEBF09D58D4A9A"
+				type: "item"
+				item: "pixelmon:coba_berry"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			id: "4A7CC21DD159D4DB"
+			tasks: [{
+				id: "6C96392ECEA0FFA7"
+				type: "item"
+				item: "pixelmon:occa_berry"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			id: "4106B5F70B55A664"
+			tasks: [{
+				id: "3AB743950C74EDC6"
+				type: "item"
+				item: "pixelmon:berry_bag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			id: "6A2594F545CC7418"
+			tasks: [{
+				id: "0AC4CD2F1ADC6FE3"
+				type: "item"
+				item: "pixelmon:figy_berry"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			id: "55279A4FDAB9CDB1"
+			tasks: [{
+				id: "5E1781EBA2E0917D"
+				type: "item"
+				item: "pixelmon:aguav_berry"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			id: "566E555757E59CEB"
+			tasks: [{
+				id: "694A16AEBB4E7F6C"
+				type: "item"
+				item: "pixelmon:iapapa_berry"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			id: "4D5A49F5CA3C3879"
+			tasks: [{
+				id: "4FEAF44730B78930"
+				type: "item"
+				item: "pixelmon:mago_berry"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			id: "229C1C2629490B05"
+			tasks: [{
+				id: "104710255CA09961"
+				type: "item"
+				item: "pixelmon:wiki_berry"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			id: "0E1C05D12668E9A7"
+			tasks: [{
+				id: "237B0F2A1727A2B8"
+				type: "item"
+				item: "pixelmon:sitrus_berry"
+			}]
+		}
+		{
+			title: "Spice of Life"
+			x: -1.0d
+			y: -7.0d
+			subtitle: "Nutritional Balance"
+			description: [
+				"In order to stay a happy, healthy twelve-year-old, you are going to have to try and eat a &6balanced diet&r. That's a difficult thing to do!"
+				""
+				"Failing to eat well can result in you slowing down and &dfeeling weaker&r, which can make navigating this island a chore and leave you vulnerable to sudden attack!"
+				""
+				"Eating exceptionally well will keep you spry, healthy, and virtually immortal, like &aAsh Ketchum&r!"
+			]
+			dependencies: ["7E8B9D29D34E8D2C"]
+			hide: true
+			id: "1455941647C48282"
+			tasks: [{
+				id: "1BD7EE01776B3AFB"
+				type: "checkmark"
+				icon: "pixelmon:curry_fried_food"
+			}]
+			rewards: [{
+				id: "01DF8904426F0C9B"
+				type: "item"
+				item: "minecraft:cooked_chicken"
+			}]
+		}
+	]
+}

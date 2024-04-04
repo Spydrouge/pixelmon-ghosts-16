@@ -1,0 +1,382 @@
+{
+  "id": "Steelix",
+  "spawnInfos": [
+    {
+      "spec": "species:Steelix",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:platinum_ore",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:silver_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "immersiveengineering:ore_uranium",
+          "percentChance": 15
+        },
+        {
+          "itemID": "minecraft:iron_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "immersiveengineering:ore_nickel",
+          "percentChance": 50
+        }
+
+      ],
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:boulder",
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Steelix palette:crystal",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "minecraft:diamond_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "minecraft:lapis_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:sapphire_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "astralsorcery:starmetal_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "thermal:apatite_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "astralsorcery:aquamarine_sand_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:crystal_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "immersiveengineering:ore_nickel",
+          "percentChance": 10
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts",
+          "end"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block",
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Steelix",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:platinum_ore",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:silver_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "immersiveengineering:ore_uranium",
+          "percentChance": 15
+        },
+        {
+          "itemID": "minecraft:iron_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "immersiveengineering:ore_nickel",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ],
+        "maxY": 90
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:boulder",
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Steelix",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:platinum_ore",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:silver_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "immersiveengineering:ore_uranium",
+          "percentChance": 15
+        },
+        {
+          "itemID": "minecraft:iron_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "immersiveengineering:ore_nickel",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish",
+          "end"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:boulder",
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Steelix palette:crystal",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "minecraft:diamond_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "minecraft:lapis_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:sapphire_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "astralsorcery:starmetal_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "thermal:apatite_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "astralsorcery:aquamarine_sand_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:crystal_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "immersiveengineering:ore_nickel",
+          "percentChance": 10
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "freezing_mountains",
+          "minecraft:ice_spikes"
+        ],
+        "minY": 90
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block",
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Steelix palette:crystal",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "minecraft:diamond_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "minecraft:lapis_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:sapphire_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "astralsorcery:starmetal_ore",
+          "percentChance": 20
+        },
+        {
+          "itemID": "thermal:apatite_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "astralsorcery:aquamarine_sand_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:crystal_ore",
+          "percentChance": 10
+        },
+        {
+          "itemID": "immersiveengineering:ore_nickel",
+          "percentChance": 10
+        }
+      ],
+      "condition": {
+        "minY": 90
+      },
+     "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish",
+          "end"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:crystal_block",
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Steelix",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

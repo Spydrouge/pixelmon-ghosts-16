@@ -1,0 +1,72 @@
+{
+  "id": "Lumineon",
+  "spawnInfos": [
+    {
+      "spec": "species:Lumineon",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 32,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Lumineon palette:drowned",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 32,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Lumineon",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 32,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Lumineon palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 32,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "drowned"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "Shellder",
+  "spawnInfos": [
+  {
+      "spec": "species:Shellder",
+      "stringLocationTypes": [
+        "Land",
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Shellder",
+      "stringLocationTypes": [
+        "Land",
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "baseBlocks": [
+          "beach"
+        ],
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Shellder palette:valencian",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

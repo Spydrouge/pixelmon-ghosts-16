@@ -1,0 +1,76 @@
+{
+  "id": "Drampa",
+  "spawnInfos": [
+    {
+      "spec": "species:Drampa palette:christmas",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ],
+          "neededNearbyBlocks": [
+              "minecraft:dark_oak_leaves"
+            ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Drampa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:persim_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "mushroom",
+          "pixelmon:mount_lanakila"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Drampa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:persim_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_highlands",
+          "minecraft:small_end_islands",
+          "byg:ethereal_islands",
+          "byg:bulbis_gardens",
+          "byg:bulbis_gardens_edge"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Trubbish",
+  "spawnInfos": [
+       {
+      "spec": "species:Trubbish",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silk_scarf",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY":128,
+        "minY":96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Trubbish",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silk_scarf",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "evil"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

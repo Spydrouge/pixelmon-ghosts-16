@@ -1,0 +1,33 @@
+{
+  "id": "Aromatisse",
+  "spawnInfos": [
+    {
+      "spec": "species:Aromatisse",
+      "stringLocationTypes": [
+        "Manmade",
+        "Sweet Scent"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sachet",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "minY":128,
+        "maxY":160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 9.0
+    }
+  ]
+}

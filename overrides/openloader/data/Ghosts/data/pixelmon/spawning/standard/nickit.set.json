@@ -1,0 +1,44 @@
+{
+  "id": "Nickit",
+  "spawnInfos": [
+    {
+      "spec": "species:Nickit",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60
+    },
+    {
+      "spec": "species:Nickit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests",
+          "roofed",
+          "taigas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

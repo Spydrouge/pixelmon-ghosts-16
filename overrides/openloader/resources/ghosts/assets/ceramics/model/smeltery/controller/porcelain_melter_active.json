@@ -1,0 +1,6 @@
+{
+  "parent": "ceramics:block/smeltery/controller/porcelain_melter",
+  "textures": {
+    "front": "ceramics:block/smeltery/controller/porcelain_melter_active"
+  }
+}

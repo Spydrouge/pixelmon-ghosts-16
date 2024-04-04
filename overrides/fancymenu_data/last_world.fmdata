@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Gaming Imperatrix/curseforge/minecraft/Instances/16 Pixelmon Ghosts/saves/You Need To Start Over, Okay_
+}
+

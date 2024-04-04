@@ -1,0 +1,99 @@
+{
+  "id": "Cleffa",
+  "spawnInfos": [
+    {
+      "spec": "species:Cleffa",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "contenttweaker:platinum_dust",
+          "percentChance": 1
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "minY":224
+      },
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Cleffa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Cleffa",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ],
+        "minY": 100
+      },
+      "rarity": 20
+    },
+    {
+      "spec": "species:Cleffa",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 20
+    }
+  ]
+}

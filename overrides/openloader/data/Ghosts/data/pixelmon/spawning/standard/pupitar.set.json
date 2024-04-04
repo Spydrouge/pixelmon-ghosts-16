@@ -1,0 +1,71 @@
+{
+  "id": "Pupitar",
+  "spawnInfos": [
+      {
+      "spec": "species:Pupitar",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+     "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:emerald_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 10
+    },
+    {
+      "spec": "species:Pupitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Pupitar",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

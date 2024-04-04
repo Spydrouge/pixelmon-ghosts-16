@@ -1,0 +1,46 @@
+{
+  "id": "Vikavolt",
+  "spawnInfos": [
+     {
+      "spec": "species:Vikavolt",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": "species:Vikavolt",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "jungles"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "Kakuna",
+  "spawnInfos": [
+    {
+      "spec": "species:Kakuna palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 6,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 92,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Kakuna",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "forests",
+          "roofed",
+          "taigas",
+          "redwoods",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Kakuna palette:pink",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "forests",
+          "roofed",
+          "taigas",
+          "redwoods",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

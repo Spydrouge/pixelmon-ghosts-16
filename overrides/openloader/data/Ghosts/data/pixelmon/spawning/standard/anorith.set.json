@@ -1,0 +1,71 @@
+{
+  "id": "Anorith",
+  "spawnInfos": [
+    {
+      "spec": "species:Anorith",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 50.0
+    },
+     {
+      "spec": "species:Anorith",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Anorith",
+      "stringLocationTypes": [
+          "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

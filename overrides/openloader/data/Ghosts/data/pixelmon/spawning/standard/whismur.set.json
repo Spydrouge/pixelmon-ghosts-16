@@ -1,0 +1,115 @@
+{
+  "id": "Whismur",
+  "spawnInfos": [
+     {
+      "spec": "species:Whismur",
+      "stringLocationTypes": [
+        "Underground",
+        "Sweet Scent"
+      ],
+      "minLevel": 10,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "minY":128,
+        "maxY":160
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        },
+         {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Whismur",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarityMultipliers": [
+       {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        },
+         {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Whismur",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "condition": {
+        "maxY": 70
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish" 
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        },
+         {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      ],
+      "typeID": "pokemon",
+      "rarity": 40.0
+    }
+  ]
+}

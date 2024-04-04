@@ -1,0 +1,80 @@
+{
+  "id": "Gourgeist",
+  "spawnInfos": [
+    {
+      "spec": "species:Gourgeist",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:pumpkin_seeds"
+            ]
+          }
+        }
+      ],
+      "rarity": 2.0
+    },
+
+    {
+      "spec": "species:Gourgeist",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

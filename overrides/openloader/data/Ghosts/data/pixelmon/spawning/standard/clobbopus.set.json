@@ -1,0 +1,122 @@
+{
+  "id": "Clobbopus",
+  "spawnInfos": [
+    {
+      "spec": "species:Clobbopus",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_punch",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "beaches",
+          "minecraft:ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "minecraft:frozen_ocean"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Clobbopus palette:Red_ringed",
+      "stringLocationTypes": [
+          "Water",
+          "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_punch",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Clobbopus palette:Yellow_ringed",
+      "stringLocationTypes": [
+          "Water",
+          "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_punch",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Clobbopus palette:alien",
+      "stringLocationTypes": [
+          "Water",
+          "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_punch",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minY": 225,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Clobbopus palette:martian",
+      "stringLocationTypes": [
+          "Water",
+          "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_punch",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minY": 225,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

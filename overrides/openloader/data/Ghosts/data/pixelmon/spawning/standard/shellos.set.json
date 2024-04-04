@@ -1,0 +1,83 @@
+{
+  "id": "Shellos",
+  "spawnInfos": [
+    {
+      "spec": "species:Shellos palette:sun",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times":[
+            "DAY"
+        ],
+        "minY": 224
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Shellos palette:moon",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times":[
+            "NIGHT",
+            "DUSK",
+            "DAWN"
+        ],
+        "minY": 224
+      },
+      "rarity": 90.0
+    },
+
+    {
+      "spec": "species:Shellos",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Shellos",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

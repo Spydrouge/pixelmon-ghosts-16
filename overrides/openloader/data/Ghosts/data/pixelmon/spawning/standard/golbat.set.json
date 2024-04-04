@@ -1,0 +1,155 @@
+{
+  "id": "Golbat",
+  "spawnInfos": [
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 40.0
+    },
+      {
+      "spec": "species:Golbat palette:strike",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "maxY": 192,
+      "minY": 160,
+      "typeID": "pokemon",
+       "condition": {
+        "maxY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 40
+    },
+     {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 40.0
+    },
+      {
+      "spec": "species:Golbat palette:strike",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+       "condition": {
+        "maxY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 40
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "swamps",
+          "mountainous",
+          "plains",
+          "flowery",
+          "evil",
+          "jungles"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Golbat palette:strike",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "swamps",
+          "mountainous",
+          "plains",
+          "flowery",
+          "evil",
+          "jungles"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Gigalith",
+  "spawnInfos": [
+    {
+      "spec": "species:Gigalith",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+          "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:75}",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:blue_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 10
+        }
+          
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      ],
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarity": 4
+    },
+    {
+      "spec": "species:Gigalith",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:75}",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:blue_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 10
+        }
+          
+      ],
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end" 
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    }
+  ]
+}

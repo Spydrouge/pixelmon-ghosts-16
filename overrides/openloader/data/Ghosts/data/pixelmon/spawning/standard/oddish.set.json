@@ -1,0 +1,217 @@
+{
+  "id": "Oddish",
+  "spawnInfos": [
+    {
+      "spec": "species:Oddish growth:pygmy",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:grassy_seed",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:grass"
+        ]
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:tall_grass"
+            ]
+          }
+        }
+      ],
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Oddish palette:pink growth:pygmy",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:grass"
+        ]
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:beetroot_seeds"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:tall_grass"
+            ]
+          }
+        }
+      ],
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Oddish",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "jungles",
+          "roofed"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Oddish palette:valencian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Oddish palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "roofed"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

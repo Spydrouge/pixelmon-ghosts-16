@@ -1,0 +1,127 @@
+{
+  "id": "Lampent",
+  "spawnInfos": [
+    {
+      "spec": "species:Lampent",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 41,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+      {
+        "conditions": 
+        [
+          {
+            "neededNearbyBlocks": [
+              "pixelmon:street_light"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "minecraft:lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "minecraft:soul_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "immersiveengineering:lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "immersiveengineering:electric_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "byg:glowstone_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "byg:therium_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "tconstruct:seared_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "tconstruct:scorched_lantern"
+            ]
+          }
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": "species:Lampent",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 41,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:torch"
+            ]
+          }
+        }
+      ],
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Lampent",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 41,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

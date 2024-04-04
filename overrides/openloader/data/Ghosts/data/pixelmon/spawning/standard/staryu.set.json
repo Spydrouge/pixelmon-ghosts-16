@@ -1,0 +1,90 @@
+{
+  "id": "Staryu",
+  "spawnInfos": [
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Forage"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+          "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "neededNearbyBlocks":
+          [
+              "minecraft:water"
+          ],
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+          "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ],
+      },
+      "rarity": 90.0
+    }
+  ]
+}

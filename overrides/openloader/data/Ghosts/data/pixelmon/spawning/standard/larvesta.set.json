@@ -1,0 +1,66 @@
+{
+  "id": "Larvesta",
+  "spawnInfos": [
+    {
+      "spec": "species:Larvesta",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Larvesta",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Larvesta",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "Klink",
+  "spawnInfos": [
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:snowy_mountains",
+          "minecraft:gravelly_mountains"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Klink",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 70,
+        "minY": 32
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "hellish",
+          "end"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

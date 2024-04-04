@@ -1,0 +1,68 @@
+{
+  "id": "Fennekin",
+  "spawnInfos": [
+    {
+      "spec": "species:Fennekin palette:zombie",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Fennekin",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:dead_bush"
+            ]
+          }
+        }
+      ],
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Fennekin",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

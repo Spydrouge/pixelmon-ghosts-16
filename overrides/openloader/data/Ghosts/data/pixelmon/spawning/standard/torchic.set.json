@@ -1,0 +1,42 @@
+{
+  "id": "Torchic",
+  "spawnInfos": [
+    {
+      "spec": "species:Torchic palette:zombie",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Torchic",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

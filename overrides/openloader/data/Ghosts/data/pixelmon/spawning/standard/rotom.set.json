@@ -1,0 +1,203 @@
+{
+  "id": "Rotom",
+  "spawnInfos": [
+    {
+      "spec": "species:Rotom form:frost",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:fridge"
+            ]
+          }
+        }
+      ],
+      "rarity": 30
+    },
+    {
+      "spec": "species:Rotom form:heat",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times": [
+            "DUSK",
+            "NIGHT"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:furnace"
+            ]
+          }
+        }
+      ],
+      "rarity": 30
+    },
+    {
+      "spec": "species:Rotom form:fan",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times": [
+            "DAWN",
+            "DAY"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:fan"
+            ]
+          }
+        }
+      ],
+      "rarity": 30
+    },
+    {
+      "spec": "species:Rotom form:wash",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:washing_machine"
+            ]
+          }
+        }
+      ],
+      "rarity": 30
+    },
+    {
+      "spec": "species:Rotom form:mow",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electric_seed",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 128,
+        "minY": 96,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:mower"
+            ]
+          }
+        }
+      ],
+      "rarity": 30
+    },
+    {
+      "spec": "species:Rotom form:base",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:redstone_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 30
+    },
+    {
+      "spec": "species:Rotom",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 13,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

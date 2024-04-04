@@ -1,0 +1,40 @@
+{
+  "id": "Granbull",
+  "spawnInfos": [
+    {
+      "spec": "species:Granbull",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Granbull",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 23,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 128,
+        "minY": 96
+      },
+      "rarity": 10.0
+    }
+  ]
+}

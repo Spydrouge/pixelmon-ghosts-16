@@ -1,0 +1,106 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398354%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398354%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_options_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=398354%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504354%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=3983061%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=5043061%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 106
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_options_button
+  x = 106
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = element
+  orientation_element = vanillabtn:398354
+  x = 0
+  action = movebutton
+  y = 0
+}
+

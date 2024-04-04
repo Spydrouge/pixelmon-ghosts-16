@@ -1,0 +1,86 @@
+{
+  "id": "Phantump",
+  "spawnInfos": [
+    {
+      "spec": "species:Phantump",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 96,
+        "minY": 64
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:logs"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Phantump",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "evil",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 110.0
+    },
+    {
+      "spec": "species:Phantump",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

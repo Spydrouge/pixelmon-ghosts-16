@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "sts",
+    "lll"
+  ],
+  "key": {
+    "s": {
+      "tag": "forge:rods"
+    },
+    "t": {
+      "item": "minecraft:soul_torch"
+    },
+    "l": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_campfire",
+    "count": 1
+  }
+}

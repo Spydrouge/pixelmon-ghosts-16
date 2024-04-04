@@ -1,0 +1,7 @@
+{
+  "block.tconstruct.porcelain_melter": "Porcelain Melter",
+  "block.tconstruct.porcelain_melter.tooltip": "First Smeltery.\nPlace above a tank or heater to fuel.",
+
+  "block.tconstruct.porcelain_heater": "Porcelain Heater",
+  "block.tconstruct.porcelain_heater.tooltip": "Solid fuel source for the Melter.",
+}

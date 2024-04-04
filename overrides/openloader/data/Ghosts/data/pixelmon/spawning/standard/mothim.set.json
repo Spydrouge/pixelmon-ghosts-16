@@ -1,0 +1,91 @@
+{
+  "id": "Mothim",
+  "spawnInfos": [
+    {
+      "spec": "species:Mothim",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 182,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+        "weathers": [
+          "CLEAR"
+        ]
+      },
+      "rarity": 20
+    },
+    {
+      "spec": "species:Mothim",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "anticondition":{
+          "weathers": [
+            "CLEAR"
+          ]
+        },
+        "maxY": 182,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 20
+    },
+    {
+      "spec": "species:Mothim",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

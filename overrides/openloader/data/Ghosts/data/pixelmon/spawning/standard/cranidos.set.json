@@ -1,0 +1,39 @@
+{
+  "id": "Cranidos",
+  "spawnInfos": [
+    {
+      "spec": "species:Cranidos",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Cranidos",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

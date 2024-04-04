@@ -1,0 +1,58 @@
+{
+  "id": "Clamperl",
+  "spawnInfos": [
+     {
+      "spec": "species:Clamperl",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 7,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Clamperl",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

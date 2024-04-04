@@ -1,0 +1,77 @@
+{
+  "id": "Sandaconda",
+  "spawnInfos": [
+    {
+    "spec": "species:Sandaconda",
+     "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Sandaconda",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Sandaconda",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

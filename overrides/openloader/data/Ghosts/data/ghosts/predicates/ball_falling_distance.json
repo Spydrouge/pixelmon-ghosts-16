@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "pixelmon:empty_pokeball",
+    "distance": {
+      "y": {
+        "min": 30,
+        "max": 1000
+      }
+    }
+  }
+}

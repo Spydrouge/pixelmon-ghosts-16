@@ -1,0 +1,131 @@
+{
+  "id": "Mareanie",
+  "spawnInfos": [
+    {
+      "spec": "species:Mareanie palette:spirit",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Water"
+      ],
+      "minLevel": 6,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Mareanie",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Water"
+      ],
+      "minLevel": 6,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Mareanie",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Mareanie",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Mareanie palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

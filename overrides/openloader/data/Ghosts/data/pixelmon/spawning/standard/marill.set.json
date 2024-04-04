@@ -1,0 +1,92 @@
+{
+  "id": "Marill",
+  "spawnInfos": [
+    {
+      "spec": "species:Marill palette:alter",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+            "pixelmon:ultra_desert_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Marill",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand",
+          "biomesoplenty:white_sand",
+          "byg:white_sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Marill palette:alter",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand",
+          "biomesoplenty:white_sand",
+          "byg:white_sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ceramics:porcelain_bricks",
+    "ceramics:monochrome_bricks",
+    "ceramics:golden_bricks",
+    "ceramics:marine_bricks",
+    "ceramics:rainbow_bricks"
+  ]
+}

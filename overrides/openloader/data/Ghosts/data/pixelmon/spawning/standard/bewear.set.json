@@ -1,0 +1,37 @@
+{
+  "id": "Bewear",
+  "spawnInfos": [
+    {
+      "spec": "species:Bewear",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 27,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hills"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Bewear",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 27,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 128,
+        "minY": 96
+      },
+      "rarity": 10.0
+    }
+  ]
+}

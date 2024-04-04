@@ -1,0 +1,51 @@
+{
+  "id": "Swadloon",
+  "spawnInfos": [
+      {
+      "spec": "species:Swadloon",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 92,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Swadloon",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mental_herb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "forests",
+          "flowery"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

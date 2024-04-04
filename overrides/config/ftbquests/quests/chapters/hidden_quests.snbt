@@ -1,0 +1,27 @@
+{
+	id: "5E4475FD3D81C12D"
+	group: "44341255860549FC"
+	order_index: 2
+	filename: "hidden_quests"
+	title: "Hidden Quests"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "3EC2C40138D33F79"
+		tasks: [{
+			id: "3D9AC861B28D9A71"
+			type: "item"
+			item: "tconstruct:seared_brick"
+		}]
+		rewards: [{
+			id: "6E0F7398E1EA821A"
+			type: "command"
+			auto: "no_toast"
+			command: "/function ghosts:fortell_invasion_wave_1"
+			player_command: false
+		}]
+	}]
+}

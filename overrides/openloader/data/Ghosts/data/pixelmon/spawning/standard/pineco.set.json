@@ -1,0 +1,69 @@
+{
+  "id": "Pineco",
+  "spawnInfos": [
+    {
+      "spec": "species:Pineco",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },  
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:logs"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Pineco",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "mountainous forests"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+	id: "42B9D91363702B45"
+	group: "44341255860549FC"
+	order_index: 1
+	filename: "island_emergencies"
+	title: "Island Emergencies"
+	icon: "biomesoplenty:palm_sapling"
+	subtitle: ["For when you have done a dumb, or the game glitched."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "I, Um, Lost My Dirt"
+			icon: "minecraft:dirt"
+			x: 0.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "It was dumb, and I know it was dumb."
+			description: ["Make an offering to Arceus, and plead for a single piece of dirt. He may restore it in one of the four original locations where dirt could be found on your island."]
+			id: "79E4FAF7659C5BC7"
+			tasks: [{
+				id: "403F5ADF73F9046D"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:skeleton_skull"
+								Count: 1b
+							}
+							{
+								id: "minecraft:wither_skeleton_skull"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5AE96B6EEE260646"
+				type: "command"
+				title: "Arceus will restore one piece of dirt."
+				icon: "minecraft:coarse_dirt"
+				command: "/function ghosts:fix_dirt_block"
+				player_command: false
+			}]
+		}
+		{
+			title: "I Ruined My Only Grass Block"
+			icon: "minecraft:grass_block"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "It was dumb, and I know it was dumb."
+			description: [
+				"What happened? Did you plant a sapling on it? Did you till it? Whatever you did, there may be a way to get it back. Place a dirt or coarse dirt block down exactly in the location it used to be, make an offering to Arceus, and pray he helps."
+				""
+				"Make sure you have correctly identified the block, which is 3x and -1y from your bedrock starting block. Otherwise, your offering will be speant, but nothing will change."
+			]
+			id: "2BD28C1F9B29B1E0"
+			tasks: [{
+				id: "1E6EC4EBEAA4BCAC"
+				type: "item"
+				item: "minecraft:bone"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "302E824F5216AB49"
+				type: "command"
+				title: "Any dirt block, or coarse dirt block, if placed in the original grass block position, will turn into a grass block."
+				icon: "minecraft:grass_block"
+				command: "/function ghosts:fix_grass_block"
+				player_command: false
+			}]
+		}
+		{
+			title: "I lost the Master Ball"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Um."
+			description: [
+				"Accepting this quest will delete any Master Ball or Pokemon, and give you a second chance to pray at the Altar."
+				""
+				"As soon as you click the check-box, you can &dreturn to the Altar and Pray again&r."
+			]
+			dependencies: ["5D9EA1EF7ABE5136"]
+			repeatable: true
+			incompatible: ["7F1A3BFA894EDED6"]
+			id: "7CE34C093CEE720B"
+			tasks: [{
+				id: "010CC25A13E2A85F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0771E495115D8C65"
+					type: "command"
+					title: "Destroy all Masterballs and Pokemon so you can Redo the Pray Quest"
+					auto: "enabled"
+					command: "/function ghosts:fix_masterball"
+					player_command: false
+				}
+				{
+					id: "7670A7C6F991611D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5D9EA1EF7ABE5136"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "You have caught a Pokemon!"
+			description: ["As a result, you cannot tell Arceus you 'lost' your Master Ball in the hopes of recieving another."]
+			hide_text_until_complete: true
+			secret: true
+			id: "7F1A3BFA894EDED6"
+			tasks: [{
+				id: "61F9848032715C29"
+				type: "advancement"
+				secret: true
+				advancement: "pixelmon:types/capture_type_trigger"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6CDB11F171B34873"
+					type: "command"
+					auto: "enabled"
+					command: "ftbquests change_progress @p complete 3F42095ED0007728"
+					player_command: false
+				}
+				{
+					id: "4F77ED6DE7A05631"
+					type: "command"
+					auto: "enabled"
+					command: "ftbquests change_progress @p complete 5D9EA1EF7ABE5136"
+					player_command: false
+				}
+			]
+		}
+	]
+}

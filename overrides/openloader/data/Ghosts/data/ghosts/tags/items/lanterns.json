@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+	  "minecraft:lantern",
+	  "minecraft:soul_lantern",
+	  "immersiveengineering:lantern",
+	  "immersiveengineering:electric_lantern",
+	  "byg:glowstone_lantern",
+	  "byg:therium_lantern",
+	  "tconstruct:seared_lantern",
+	  "tconstruct:scorched_lantern",
+	  "pixelmon:street_light"
+	]
+  }

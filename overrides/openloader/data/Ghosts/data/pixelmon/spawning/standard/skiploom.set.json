@@ -1,0 +1,47 @@
+{
+  "id": "Skiploom",
+  "spawnInfos": [
+    {
+      "spec": "species:Skiploom",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 18,
+      "maxLevel": 26,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:yache_berry",
+          "percentChance": 50
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "flowery",
+          "plains"
+        ]
+      },
+      "rarity": 40.0
+    },
+     {
+      "spec": "species:Skiploom",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 18,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

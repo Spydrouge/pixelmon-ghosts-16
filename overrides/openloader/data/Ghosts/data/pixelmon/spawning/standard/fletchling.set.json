@@ -1,0 +1,169 @@
+{
+  "id": "Fletchling",
+  "spawnInfos": [
+    {
+      "spec": "species:Fletchling palette:ashen",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+	  "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 120.0
+    },
+      {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+	  "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 100.0
+    },
+      
+      {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "freezing forests",
+          "taigas"
+        ]
+      },
+	  "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 300.0
+    },
+    {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "freezing forests",
+          "taigas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 200.0
+    }
+  ]
+}
