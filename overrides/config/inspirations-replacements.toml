@@ -1,20 +1,19 @@
+#Makes iron bars climbable if a rope is below them.
+climbableBars = true
+#Replace the cauldron block to allow it to hold other liquids and perform extended recipes.
+cauldron = true
+#Replace carpet blocks, allowing them to fit to stairs below them.
+fittedCarpets = true
+#Replace hopper blocks, allowing them to be waterlogged.
+waterlogHoppers = true
 
-# Configure the options below to one of the following: disabled, enabled, onShift, onDebug or onShiftAndDebug
-[tooltip_options]
-	# Configure tooltip for burn time.
-	burnTimeTooltipMode = "disabled"
-	# Configure tooltip for registry name. E.g. minecraft:stone
-	registryNameTooltipMode = "disabled"
-	# Configure tooltip for NBT data.
-	nbtTooltipMode = "disabled"
-	# Configure tooltip for translation key. E.g. block.minecraft.stone
-	translationKeyTooltipMode = "disabled"
-	# Configure tooltip for max stack size.
-	maxStackSizeTooltipMode = "disabled"
-	# Configure tooltip for tags. E.g. forge:ingot, minecraft:planks
-	tagsTooltipMode = "disabled"
-	# Configure tooltip for durability.
-	durabilityTooltipMode = "onShift"
-	# Configure tooltip for hunger and saturation.
-	foodTooltipMode = "onShift"
+[enchantments]
+	#If true, axes can receive available weapon enchantments at the enchantment table
+	axeTable = true
+	#If true, shields can now be enchanted with enchantments such as protection, fire aspect, knockback, and thorns. This requires replacing these enchantments.
+	moreShield = true
+	#If true, shields can be enchanted in an enchantment table. Does not support modded shields as it requires a registry substitution
+	shieldTable = true
+	#If true, axes will be able to be enchanted with weapon enchants such as looting, fire aspect, and knockback
+	axeWeapon = true
 

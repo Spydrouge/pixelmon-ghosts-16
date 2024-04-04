@@ -1,0 +1,29 @@
+{
+	id: "2E29A1745321A614"
+	order_index: 11
+	title: "Random Mammoth"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Recieve a Phanpy Egg!"
+			icon: "minecraft:turtle_egg"
+			command: "/pokegive @p phanpy egg ball:cherish_ball iv_atk:31 iv_def:31 iv_spatk:0 iv_spdef:31 iv_spd:31 g:female n:jolly ab:pickup untradable"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Recieve a Cufant Egg!"
+			icon: "minecraft:turtle_egg"
+			command: "/pokegive @p cufant egg ball:cherish_ball iv_atk:31 iv_def:31 iv_spdef:31 iv_spd:0 g:female n:adamant ab:heavy_metal untradable"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Recieve a Swinub Egg"
+			icon: "minecraft:turtle_egg"
+			command: "/pokegive @p swinub egg ball:cherish_ball iv_atk:31 iv_def:31 iv_spdef:31 g:female n:adamant ab:thick_fat untradable"
+			player_command: false
+			type: "command"
+		}
+	]
+}

@@ -1,6 +1,11 @@
 
-[Configs]
-	#Set to true to have the zoom centered on your mouse position
-	#instead of the center of the screen.
-	mouse_zoom = false
+[tooltips]
+	#If true, will integrate with item tooltips.
+	enableTooltipIntegration = true
+	#If true, will only show tooltip information when advanced tooltip enabled.
+	tooltipsRestrictToAdvanced = false
+	#If true, will only show tooltip information when crouch key pressed.
+	tooltipsUseCrouchKey = true
+	#If true, will show the hold crouch key for more information.
+	tooltipsShowCrouchKeyInfo = true
 

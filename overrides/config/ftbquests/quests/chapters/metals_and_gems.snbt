@@ -604,6 +604,16 @@
 					type: "item"
 					item: "pixelmon:white_shard"
 				}
+				{
+					id: "71220E0C850C65FA"
+					type: "item"
+					item: "pixelmon:health_feather"
+				}
+				{
+					id: "048FDF00EFA47FDA"
+					type: "item"
+					item: "pixelmon:full_heal"
+				}
 			]
 		}
 		{
@@ -642,6 +652,22 @@
 					type: "item"
 					item: "pixelmon:white_shard"
 					count: 2
+				}
+				{
+					id: "165868EA374C875D"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+				{
+					id: "3A5044DF43208292"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 36
+						}
+					}
 				}
 			]
 		}
@@ -685,6 +711,18 @@
 					type: "item"
 					item: "pixelmon:yellow_shard"
 				}
+				{
+					id: "349FCCC1542113FB"
+					type: "command"
+					title: "Every Pokemon in your party will spontaneously attempt to learn Ancient Power, even if they cannot legally learn it."
+					icon: {
+						id: "botania:cosmetic_questgiver_mark"
+						Count: 1b
+						tag: { }
+					}
+					command: "/function ghosts:ancient_power_all"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -707,12 +745,25 @@
 				count: 5L
 				match_nbt: true
 			}]
-			rewards: [{
-				id: "22BE7691BD66E8FB"
-				type: "item"
-				item: "pixelmon:black_shard"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "22BE7691BD66E8FB"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 2
+				}
+				{
+					id: "442DFE9BE34F88C5"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 52
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -753,6 +804,17 @@
 					id: "23E3EC0D4D07AD38"
 					type: "item"
 					item: "pixelmon:green_shard"
+				}
+				{
+					id: "76D911F052AAF6E5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
 				}
 			]
 		}
@@ -799,6 +861,8 @@
 				"Dropped by Voltorb, these are impossible to craft from scratch because of the lack of Red Apricorns."
 				""
 				"Voltorbs of all varieties can be attracted by Redstone Blocks."
+				""
+				"Consider using your first Pokeball to create an Old Rod with."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true

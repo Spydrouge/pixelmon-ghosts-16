@@ -14,6 +14,10 @@
         {
           "itemID": "pixelmon:magnet",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:petaya_berry",
+          "percentChance": 25
         }
       ],
 

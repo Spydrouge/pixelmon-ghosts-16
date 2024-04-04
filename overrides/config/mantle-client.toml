@@ -1,17 +1,4 @@
-
-#General Settings
-[general]
-	#Show the nutrient button in the player inventory screen. (default:true)
-	nutrient_button_enabled = true
-	#Show a Toast notification when player nutrition status changes. (default:true)
-	show_threshold_toast = true
-
-	#Nutrient Button Location
-	[general.button]
-		#X Offset of nutrition button relative to the upper left corner of the player inventory screen. (default:131)
-		#Range: 0 ~ 512
-		nutrient_button_x = 131
-		#Y Offset of nutrition button relative to the upper left corner of the player inventory screen. (default:61)
-		#Range: 0 ~ 512
-		nutrient_button_y = 61
+#If true, enables the Mantle heart renderer, which stacks hearts by changing the color instead of vertically stacking them.
+#Mod authors: this config is not meant for compatibility with your heart renderer, cancel the RenderGameOverlayEvent.Pre event and our logic won't run
+extraHeartRenderer = true
 

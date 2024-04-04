@@ -1,0 +1,291 @@
+{
+	id: "222E4CF0E17B4936"
+	group: "5FC8A49184E12989"
+	order_index: 1
+	filename: "legendaries"
+	title: "Legendary"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "pixelmon:textures/pokemon/491_darkrai/all/base/none/sprite.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["5416D5487B9A64EE"]
+			hide: true
+			repeatable: true
+			id: "11C71ABC37BE78FD"
+			tasks: [{
+				id: "5DC02185571C8D74"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:darkrai"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "4911441C56F99F60"
+				type: "command"
+				title: "Recieve a Pokemon Egg...?"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p darkrai egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			hide: true
+			secret: true
+			id: "5416D5487B9A64EE"
+			tasks: [{
+				id: "27B45918B395CCA4"
+				type: "item"
+				item: "pixelmon:relic_vase"
+			}]
+			rewards: [
+				{
+					id: "075A9A7722CE3E46"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "55F7853BB0895397"
+					type: "item"
+					item: "pixelmon:super_potion"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			secret: true
+			id: "3AB868505E770726"
+			tasks: [{
+				id: "317885B1DC5B056E"
+				type: "item"
+				item: "pixelmon:relic_statue"
+			}]
+			rewards: [
+				{
+					id: "0ACC8198A82655BB"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "3512D3382084DFD3"
+					type: "item"
+					item: "pixelmon:hyper_potion"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			secret: true
+			id: "267F6D9673FBD7CA"
+			tasks: [{
+				id: "17772DA1D548C388"
+				type: "item"
+				item: "pixelmon:relic_crown"
+			}]
+			rewards: [
+				{
+					id: "7446D531E7A74FE0"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "3D9B9963D6FC58B6"
+					type: "item"
+					item: "pixelmon:max_potion"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			secret: true
+			id: "77BC1579747BAB59"
+			tasks: [{
+				id: "416CB78E41E9A107"
+				type: "item"
+				item: "pixelmon:relic_band"
+			}]
+			rewards: [
+				{
+					id: "71759DEB27B11A3F"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "4ADCE628004AA8DD"
+					type: "item"
+					item: "pixelmon:potion"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["3AB868505E770726"]
+			id: "6B9BCFAC5AE87068"
+			tasks: [{
+				id: "4DA33346CD040767"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:marshadow"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "311CF2A7CFF7B91E"
+				type: "command"
+				title: "Recieve a Pokemon Egg."
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p marshadow egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["267F6D9673FBD7CA"]
+			id: "50C26BF3F172183D"
+			tasks: [{
+				id: "1DFF196FF586655E"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:spectrier"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "60469A6AAD8C8CA5"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p spectrier egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["77BC1579747BAB59"]
+			id: "37BCB26E57584CEB"
+			tasks: [{
+				id: "7785F1822B8E7420"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:yveltal"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "6E9993B3AD249C45"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p yveltal egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: [
+				"What would happen if..."
+				""
+				"You had a Carbink that knew fairy and rock type moves... "
+				""
+				"You maximized its friendship..."
+				""
+				"... and you presented it with an entire block of mana diamond, just like an evolutionary stone...?"
+			]
+			secret: true
+			id: "1CD239123DE32885"
+			tasks: [
+				{
+					id: "25A6AED732CB9F0B"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "species:carbink"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "5356967D74B63FFF"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+			]
+			rewards: [{
+				id: "442A4D3E5E96E180"
+				type: "item"
+				title: "Penny for your thoughts..."
+				item: "pixelmon:relic_copper"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			subtitle: "Drifloon brought celebratory decorations!"
+			description: ["Beautiful."]
+			dependencies: ["1CD239123DE32885"]
+			secret: true
+			id: "22BBB64E12FD3300"
+			tasks: [{
+				id: "3282B6542D67173E"
+				type: "pixelmon:evolve_pokemon"
+				pokemon: "species:diancie"
+				count: 1
+				invert: false
+				evolution_type: 0b
+			}]
+			rewards: [
+				{
+					id: "6ED20B73D750AC7D"
+					type: "item"
+					item: "byg:glowcelium_block"
+				}
+				{
+					id: "75984DBB299EAFB9"
+					type: "item"
+					item: "byg:pink_glowcane"
+				}
+				{
+					id: "3E44E4A63930421E"
+					type: "item"
+					item: "byg:purple_glowshroom"
+				}
+			]
+		}
+	]
+}

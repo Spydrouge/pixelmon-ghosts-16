@@ -1,0 +1,6 @@
+Grass Block (minecraft:grass_block) no BlockEntity
+Full block state: Block{minecraft:grass_block}[snowy=false]
+Hardness: 0.6000, Explosion resistance: 0.6000, Material: ORGANIC
+Block class: net.minecraft.block.GrassBlock
+BlockState properties:
+BooleanProperty{name=snowy, clazz=class java.lang.Boolean, values=[true, false]}: false

@@ -13,7 +13,15 @@
       "heldItems": [
         {
           "itemID": "pixelmon:charcoal",
-          "percentChance": 5
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:passho_berry",
+          "percentChance": 65
+        },
+        {
+          "itemID": "pixelmon:weakness_policy",
+          "percentChance": 10
         }
       ],
       "condition": {

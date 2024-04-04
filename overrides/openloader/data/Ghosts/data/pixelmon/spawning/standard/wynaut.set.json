@@ -1,0 +1,51 @@
+{
+  "id": "Wynaut",
+  "spawnInfos": [
+    {
+      "spec": "species:Wynaut",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_sash",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ganlon_berry",
+          "percentChance": 20
+        },
+        {
+          "itemID": "pixelmon:apicot_berry",
+          "percentChance": 20
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "minY":128,
+        "maxY":160
+      },
+      "rarity": 40
+    },
+    {
+      "spec": "species:Wynaut",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 0.5
+    }  
+  ]
+}

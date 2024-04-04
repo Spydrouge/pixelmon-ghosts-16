@@ -9,6 +9,12 @@
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:yache_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "maxY": 192,
         "minY": 160,
@@ -34,6 +40,12 @@
           "ghosts"
         ]
       },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:yache_berry",
+          "percentChance": 100
+        }
+      ],
       "rarity": 40
     },      
       {

@@ -300,69 +300,6 @@
 			]
 		}
 		{
-			x: -10.0d
-			y: 0.0d
-			secret: true
-			id: "5063C10459F24517"
-			tasks: [{
-				id: "0C80991A66802AA6"
-				type: "checkmark"
-				title: "Holding onto Badges"
-			}]
-			rewards: [
-				{
-					id: "172F5A8E5DAF65CA"
-					type: "item"
-					item: "pixelmon:ghost_badge"
-				}
-				{
-					id: "701399326E309B9B"
-					type: "item"
-					item: "pixelmon:relic_badge"
-				}
-				{
-					id: "3D1ADADFD133608C"
-					type: "item"
-					item: "pixelmon:kurai_badge"
-				}
-				{
-					id: "428E588CB8225D89"
-					type: "item"
-					item: "pixelmon:seishin_badge"
-				}
-				{
-					id: "706E1A65C4A567C2"
-					type: "item"
-					item: "pixelmon:dark_badge"
-				}
-				{
-					id: "2565D2D05B058941"
-					type: "item"
-					item: "pixelmon:fairy_badge_galar"
-				}
-				{
-					id: "7C3B4AD1B10719E3"
-					type: "item"
-					item: "pixelmon:fairy_badge"
-				}
-				{
-					id: "4472B7A7F0E96803"
-					type: "item"
-					item: "pixelmon:bug_badge"
-				}
-				{
-					id: "491C7E7C5B254B89"
-					type: "item"
-					item: "pixelmon:insect_badge"
-				}
-				{
-					id: "0E07EF0797A40108"
-					type: "item"
-					item: "pixelmon:yosei_badge"
-				}
-			]
-		}
-		{
 			title: "Tier One Materials"
 			icon: {
 				id: "tconstruct:part_builder"

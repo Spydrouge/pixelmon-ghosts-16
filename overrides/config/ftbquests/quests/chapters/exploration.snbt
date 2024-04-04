@@ -1,7 +1,7 @@
 {
 	id: "691A8B05A09AC93A"
 	group: "5CC2B36466F88246"
-	order_index: 1
+	order_index: 2
 	filename: "exploration"
 	title: "Exploration"
 	icon: {
@@ -46,33 +46,6 @@
 				id: "46E4ECB753C50C95"
 				type: "checkmark"
 				title: "Exploraiton"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 3.0d
-			id: "444A90F376AD5CFA"
-			tasks: [{
-				id: "5B5A8C77395782D6"
-				type: "questsadditions:interaction"
-				title: "Right Click Pineco"
-				icon: {
-					id: "pixelmon:pixelmon_sprite"
-					Count: 1b
-					tag: {
-						ndex: 204s
-						palette: "none"
-						form: -1b
-						gender: 0b
-						Shiny: 0b
-					}
-				}
-				entity: "pixelmon:pixelmon"
-				nbt: {
-					ndex: 204
-				}
-				value: 1L
-				checkItem: false
 			}]
 		}
 		{
@@ -166,14 +139,14 @@
 			}]
 			rewards: [
 				{
-					id: "2633D6BA3286EE27"
-					type: "item"
-					item: "pixelmon:magost_berry"
-				}
-				{
 					id: "75B240103571FBDF"
 					type: "item"
 					item: "byg:poison_ivy"
+				}
+				{
+					id: "735777E1D4579534"
+					type: "item"
+					item: "pixelmon:durin_berry"
 				}
 			]
 		}
@@ -203,7 +176,7 @@
 				{
 					id: "251544199179D70A"
 					type: "item"
-					item: "pixelmon:watmel_berry"
+					item: "pixelmon:cornn_berry"
 				}
 				{
 					id: "0E1AAC1BC7CF70C5"
@@ -271,14 +244,14 @@
 			}]
 			rewards: [
 				{
-					id: "2F59C4D0EA0D54FB"
-					type: "item"
-					item: "pixelmon:watmel_berry"
-				}
-				{
 					id: "684869929587AB77"
 					type: "item"
 					item: "biomesoplenty:spanish_moss"
+				}
+				{
+					id: "27D701003EC549A7"
+					type: "item"
+					item: "pixelmon:belue_berry"
 				}
 			]
 		}
@@ -304,18 +277,11 @@
 					2147483647
 				]
 			}]
-			rewards: [
-				{
-					id: "4A380574ADB7F26B"
-					type: "item"
-					item: "pixelmon:magost_berry"
-				}
-				{
-					id: "232142245D915885"
-					type: "item"
-					item: "minecraft:vine"
-				}
-			]
+			rewards: [{
+				id: "232142245D915885"
+				type: "item"
+				item: "minecraft:vine"
+			}]
 		}
 		{
 			title: "Land Habitat on the Soil Layer"

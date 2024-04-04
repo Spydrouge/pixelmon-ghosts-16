@@ -14,6 +14,10 @@
         {
           "itemID": "pixelmon:whipped_dream",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:sitrus_berry",
+          "percentChance": 25
         }
       ],
       "condition": {

@@ -269,6 +269,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:shed_shell"
 			x: -0.5d
 			y: 1.5d
 			subtitle: "Pray to find another egg in a Shed Shell"
@@ -278,12 +279,19 @@
 			optional: true
 			repeatable: true
 			id: "52BF4D33946465A1"
-			tasks: [{
-				id: "56F4AFFF256B0C8B"
-				type: "item"
-				item: "pixelmon:shed_shell"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "56F4AFFF256B0C8B"
+					type: "item"
+					item: "pixelmon:shed_shell"
+					consume_items: true
+				}
+				{
+					id: "124A0D3FC61724F5"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+			]
 			rewards: [{
 				id: "56A16271BBCFF973"
 				type: "command"
@@ -415,7 +423,8 @@
 				id: "11F849832730FCAE"
 				type: "item"
 				icon: "pixelmon:power_herb"
-				item: "pixelmon:iron_ball"
+				item: "pixelmon:power_herb"
+				count: 5
 			}]
 		}
 		{
@@ -450,6 +459,7 @@
 				id: "2862F13C0E40E1FF"
 				type: "item"
 				item: "pixelmon:mental_herb"
+				count: 5
 			}]
 		}
 		{
@@ -480,6 +490,7 @@
 				id: "36941BD158596D9F"
 				type: "item"
 				item: "pixelmon:white_herb"
+				count: 5
 			}]
 		}
 		{
@@ -516,6 +527,7 @@
 				id: "667870C00C932A95"
 				type: "item"
 				item: "pixelmon:cell_battery"
+				count: 5
 			}]
 		}
 		{
@@ -567,16 +579,24 @@
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
 			id: "0AF21B88AE2D144A"
-			tasks: [{
-				id: "548E846C697D360D"
-				type: "item"
-				item: "pixelmon:green_shard"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "548E846C697D360D"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "7A18D8EE2C31311D"
+					type: "item"
+					item: "biomesoplenty:spanish_moss"
+				}
+			]
 			rewards: [{
 				id: "3F9EB215358BF6AA"
 				type: "item"
 				item: "pixelmon:luminous_moss"
+				count: 5
 			}]
 		}
 		{
@@ -616,8 +636,8 @@
 			rewards: [{
 				id: "461481DA6BC45C8C"
 				type: "item"
-				icon: "pixelmon:weakness_policy"
-				item: "pixelmon:iron_ball"
+				item: "pixelmon:weakness_policy"
+				count: 5
 			}]
 		}
 		{
@@ -660,6 +680,7 @@
 				id: "5C062CB68E1810AD"
 				type: "item"
 				item: "pixelmon:focus_sash"
+				count: 5
 			}]
 		}
 		{
@@ -700,6 +721,7 @@
 				id: "27B1627B4DEC015D"
 				type: "item"
 				item: "pixelmon:blunder_policy"
+				count: 5
 			}]
 		}
 		{
@@ -1484,6 +1506,7 @@
 				id: "4A403112B85C0B88"
 				type: "item"
 				item: "pixelmon:mint"
+				count: 5
 			}]
 		}
 		{
@@ -1645,14 +1668,14 @@
 			secret: true
 			id: "7678A17A7714A3FD"
 			tasks: [{
-				id: "2C5ACB1926CFE24F"
+				id: "0264CCC07E03EEFF"
 				type: "item"
-				title: "Any #pixelmon:cleaned_fossils"
+				title: "Any #pixelmon:uncleaned_fossils"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "pixelmon:cleaned_fossils"
+						value: "pixelmon:uncleaned_fossils"
 					}
 				}
 			}]
@@ -1668,12 +1691,20 @@
 			optional: true
 			repeatable: true
 			id: "70AD061C93BCFB0C"
-			tasks: [{
-				id: "38E798C6F2C46D11"
-				type: "item"
-				item: "pixelmon:helix_fossil"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "38E798C6F2C46D11"
+					type: "item"
+					item: "pixelmon:helix_fossil"
+					consume_items: true
+				}
+				{
+					id: "1F0C5E2887F38D4E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "21621732FA498D6D"
 				type: "command"
@@ -1693,12 +1724,20 @@
 			optional: true
 			repeatable: true
 			id: "51BB87F0D1276FB2"
-			tasks: [{
-				id: "1BF9F409A1D03876"
-				type: "item"
-				item: "pixelmon:dome_fossil"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "1BF9F409A1D03876"
+					type: "item"
+					item: "pixelmon:dome_fossil"
+					consume_items: true
+				}
+				{
+					id: "0E93CDEB7DFD2A37"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "105B71804A41BAF8"
 				type: "command"
@@ -1752,12 +1791,20 @@
 			optional: true
 			repeatable: true
 			id: "171FD7B198CC67F3"
-			tasks: [{
-				id: "2970D7E0022CF869"
-				type: "item"
-				item: "pixelmon:claw_fossil"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "2970D7E0022CF869"
+					type: "item"
+					item: "pixelmon:claw_fossil"
+					consume_items: true
+				}
+				{
+					id: "44EA2EC87AC35B4F"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "6D2B76A7CD5D7150"
 				type: "command"
@@ -1777,12 +1824,20 @@
 			optional: true
 			repeatable: true
 			id: "73D8900C4160C3C0"
-			tasks: [{
-				id: "15583D113D539B9E"
-				type: "item"
-				item: "pixelmon:armor_fossil"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "15583D113D539B9E"
+					type: "item"
+					item: "pixelmon:armor_fossil"
+					consume_items: true
+				}
+				{
+					id: "6D4DF0097832E6F9"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "74DFC047EC020CF4"
 				type: "command"
@@ -1802,12 +1857,20 @@
 			optional: true
 			repeatable: true
 			id: "0E89FEA9F32757D5"
-			tasks: [{
-				id: "74084C3A08A0C6D4"
-				type: "item"
-				item: "pixelmon:skull_fossil"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "74084C3A08A0C6D4"
+					type: "item"
+					item: "pixelmon:skull_fossil"
+					consume_items: true
+				}
+				{
+					id: "1415F903BD8B1352"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "0E4A881D54F98365"
 				type: "command"
@@ -1827,12 +1890,20 @@
 			optional: true
 			repeatable: true
 			id: "7C0629A9CDD649B5"
-			tasks: [{
-				id: "1DA33A3416C0F37F"
-				type: "item"
-				item: "pixelmon:cover_fossil"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "1DA33A3416C0F37F"
+					type: "item"
+					item: "pixelmon:cover_fossil"
+					consume_items: true
+				}
+				{
+					id: "52B18E70A7115805"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "282182C925397924"
 				type: "command"
@@ -1954,12 +2025,20 @@
 			optional: true
 			repeatable: true
 			id: "5116C863A2A52304"
-			tasks: [{
-				id: "47BA5A9C782661A8"
-				type: "item"
-				item: "pixelmon:old_amber"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "47BA5A9C782661A8"
+					type: "item"
+					item: "pixelmon:old_amber"
+					consume_items: true
+				}
+				{
+					id: "282972559234164A"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
 			rewards: [{
 				id: "5EF0E654E5935BA7"
 				type: "command"
@@ -1994,6 +2073,12 @@
 					id: "40492B6ADAB4DAD8"
 					type: "item"
 					item: "pixelmon:dino_fossil"
+					consume_items: true
+				}
+				{
+					id: "143C0E936C25E229"
+					type: "item"
+					item: "minecraft:ghast_tear"
 					consume_items: true
 				}
 			]
@@ -2033,6 +2118,12 @@
 					item: "pixelmon:drake_fossil"
 					consume_items: true
 				}
+				{
+					id: "568A030EF31EDB95"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
 			]
 			rewards: [{
 				id: "5BB2F357D004DEAF"
@@ -2068,6 +2159,12 @@
 					id: "4E8A2642DB4F7154"
 					type: "item"
 					item: "pixelmon:drake_fossil"
+					consume_items: true
+				}
+				{
+					id: "5C686FE9782CCBDD"
+					type: "item"
+					item: "minecraft:ghast_tear"
 					consume_items: true
 				}
 			]
@@ -2107,6 +2204,12 @@
 					item: "pixelmon:dino_fossil"
 					consume_items: true
 				}
+				{
+					id: "4B9B565D5968C73E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
 			]
 			rewards: [{
 				id: "441E2A7454E5C1FA"
@@ -2119,8 +2222,8 @@
 		}
 		{
 			icon: "pixelmon:lens_silver"
-			x: 9.0d
-			y: -6.0d
+			x: 9.25d
+			y: -5.5d
 			subtitle: "To get a closer look..."
 			description: [
 				"Lenses can be used to study the properties of a Pokemon before committing to catching them."
@@ -2771,6 +2874,7 @@
 				id: "1D1AAEB625E46E5B"
 				type: "item"
 				item: "pixelmon:red_card"
+				count: 5
 			}]
 		}
 		{
@@ -2785,12 +2889,19 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			id: "776B5EF4F3B1FCCD"
-			tasks: [{
-				id: "444AFBE0A8B36F54"
-				type: "item"
-				item: "pixelmon:green_shard"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "444AFBE0A8B36F54"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "5D3771C1758096A2"
+					type: "item"
+					item: "biomesoplenty:willow_vine"
+				}
+			]
 			rewards: [{
 				id: "157DB7998E48EB35"
 				type: "item"
@@ -2877,6 +2988,7 @@
 				id: "60B1A4356F6EE013"
 				type: "item"
 				item: "pixelmon:throat_spray"
+				count: 5
 			}]
 		}
 		{
@@ -2895,16 +3007,24 @@
 			optional: true
 			repeatable: true
 			id: "104D9C4DDAA537AB"
-			tasks: [{
-				id: "2760863B094EBDFC"
-				type: "item"
-				item: "pixelmon:yellow_shard"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "2760863B094EBDFC"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "36B0870EE66F489E"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+				}
+			]
 			rewards: [{
 				id: "00DB2536254A5133"
 				type: "item"
 				item: "pixelmon:electric_seed"
+				count: 5
 			}]
 		}
 		{
@@ -2923,16 +3043,24 @@
 			optional: true
 			repeatable: true
 			id: "263C894C59DEAC91"
-			tasks: [{
-				id: "6068E1F5C1FEA9A1"
-				type: "item"
-				item: "pixelmon:green_shard"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "6068E1F5C1FEA9A1"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "4AD19907DCBDBD1F"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+			]
 			rewards: [{
 				id: "7ECF57E83893A5D9"
 				type: "item"
 				item: "pixelmon:grassy_seed"
+				count: 5
 			}]
 		}
 		{
@@ -2947,16 +3075,24 @@
 			optional: true
 			repeatable: true
 			id: "6B0436F9848E01A3"
-			tasks: [{
-				id: "32296DC3578F3F28"
-				type: "item"
-				item: "pixelmon:blue_shard"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "32296DC3578F3F28"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "696D9D09C226FD1C"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+				}
+			]
 			rewards: [{
 				id: "3BDC14E79A4EEFA5"
 				type: "item"
 				item: "pixelmon:misty_seed"
+				count: 5
 			}]
 		}
 		{
@@ -2971,16 +3107,24 @@
 			optional: true
 			repeatable: true
 			id: "013FAE5D2D9EF71C"
-			tasks: [{
-				id: "43832BC3CD564C43"
-				type: "item"
-				item: "pixelmon:red_shard"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "43832BC3CD564C43"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "1F8AFD3233893129"
+					type: "item"
+					item: "minecraft:melon_seeds"
+				}
+			]
 			rewards: [{
 				id: "77285D2BD210BC87"
 				type: "item"
 				item: "pixelmon:psychic_seed"
+				count: 5
 			}]
 		}
 		{
@@ -3071,6 +3215,7 @@
 				""
 				"&d(This repeatable quest gives you temporary access to the PC network. Make sure you do everything you need to before closing the PC, as you will need to make another offering to access the digital space again.)"
 			]
+			hide_dependency_lines: true
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
 			optional: true
@@ -3081,16 +3226,19 @@
 					id: "7F2DB350E64DB9D3"
 					type: "item"
 					item: "minecraft:ghast_tear"
+					consume_items: true
 				}
 				{
 					id: "132CABFC0EE9F575"
 					type: "item"
 					item: "minecraft:rotten_flesh"
+					consume_items: true
 				}
 				{
 					id: "2988460B22F9EFE4"
 					type: "item"
 					item: "inspirations:heartbeet"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3106,6 +3254,37 @@
 				}
 				command: "/pc"
 				player_command: false
+			}]
+		}
+		{
+			title: "Unusual Fossil"
+			icon: "pixelmon:fossil"
+			x: 5.0d
+			y: -3.0d
+			description: ["That's odd... This fossil seems to be from a more... mammalian period of history. It's not any of the fossil types you remember learning about in school..."]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4187329CB0D31669"
+			tasks: [
+				{
+					id: "51F1B701CE26FA75"
+					type: "item"
+					item: "pixelmon:fossil"
+					consume_items: true
+				}
+				{
+					id: "60605B6FA0191A27"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0DFF3FFBB88444C4"
+				type: "random"
+				table_id: 3326367320772814356L
 			}]
 		}
 	]

@@ -1,0 +1,48 @@
+{
+  "id": "Spectrier",
+  "spawnInfos": [
+    {
+      "spec": "species:Spectrier level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Spectrier level:100",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks":[
+          "pixelmon:relic_crown"  
+        ]
+      },
+      "rarity": 4
+    }
+  ]
+}

@@ -343,12 +343,6 @@
             {
               "type": "ROCK",
               "evoConditionType": "moveType"
-            },
-            {
-              "biomes": [
-                "ghosts"
-              ],
-              "evoConditionType": "biome"
             }
           ],
           "item": {
@@ -358,7 +352,7 @@
           "moves": [
             "Dazzling Gleam"
           ]
-        },
+        }
       ],
       "evYields": {
         "defense": 1,

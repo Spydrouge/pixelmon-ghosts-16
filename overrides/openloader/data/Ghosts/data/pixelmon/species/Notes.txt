@@ -7,6 +7,8 @@ Drifloon and Drifblim are to add more moves
 
 Escavalier and Shelmet are to add a new form
 Carbink can evolve into Diancie
+Edits to Pokemon evolutions require a reload to take effect
+
 
 Made to fly:
 Castiform 
@@ -14,3 +16,4 @@ Vikavolt
 Shedinja
 
 Using Mantyke as a reference, both Shelmet and Karrablast were changed to evolve when leveled up with eachother in the party.
+

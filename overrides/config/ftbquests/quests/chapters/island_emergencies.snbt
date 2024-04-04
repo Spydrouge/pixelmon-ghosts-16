@@ -143,5 +143,17 @@
 				}
 			]
 		}
+		{
+			x: 4.5d
+			y: 3.0d
+			id: "0D4FBB4A128DC783"
+			tasks: [{
+				id: "0F4ED2004516B109"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:dirt"
+			}]
+		}
 	]
 }

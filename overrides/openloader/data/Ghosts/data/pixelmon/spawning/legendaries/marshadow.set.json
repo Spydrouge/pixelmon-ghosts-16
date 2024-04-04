@@ -1,0 +1,62 @@
+{
+  "id": "Marshadow",
+  "spawnInfos": [
+    {
+      "spec": "species:Marshadow level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:badlands_plateau",
+          "hellish"
+        ]
+      },
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Marshadow level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks":[
+          "pixelmon:relic_statue"  
+        ]
+      },
+       "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "times": [
+              "NIGHT",
+              "DUSK"
+            ]
+          }
+        }
+      ],
+      "rarity": 3
+    }
+  ]
+}

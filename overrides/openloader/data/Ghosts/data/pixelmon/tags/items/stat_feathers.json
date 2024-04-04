@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:health_feather",
+    "pixelmon:muscle_feather",
+    "pixelmon:resist_feather",
+    "pixelmon:genius_feather",
+    "pixelmon:clever_feather",
+    "pixelmon:swift_feather"
+  ]
+}

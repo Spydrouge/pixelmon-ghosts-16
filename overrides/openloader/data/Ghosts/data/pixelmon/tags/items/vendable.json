@@ -1,0 +1,33 @@
+{
+  "replace": true,
+  "values": [
+    "pixelmon:fresh_water",
+	"pixelmon:soda_pop",
+	"pixelmon:rare_soda",
+	"pixelmon:ultra_rare_soda",
+	"pixelmon:lemonade",
+	"pixelmon:moomoo_milk",
+	"pixelmon:berry_juice",
+	"pixelmon:soda_pop",
+	"pixelmon:curry_coconut",
+	"pixelmon:curry_cream",
+	"pixelmon:curry_toast",
+    "pixelmon:curry_pasta",
+    "pixelmon:curry_instant_noodle",
+    "pixelmon:curry_burger",
+    "pixelmon:curry_sausage",
+    "pixelmon:curry_beans",
+    "pixelmon:curry_mushroom",
+    "pixelmon:curry_salad",
+    "pixelmon:curry_seasoned",
+    "pixelmon:curry_juicy",
+    "pixelmon:curry_rich",
+    "pixelmon:curry_bone",
+    "pixelmon:curry_herb",
+    "pixelmon:curry_decorative",
+    "pixelmon:curry_smoke_poke",
+    "pixelmon:curry_boiled_egg",
+    "pixelmon:curry_tropical",
+    "pixelmon:curry_cheese"
+  ]
+}

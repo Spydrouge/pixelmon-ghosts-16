@@ -405,6 +405,11 @@
                         "maxY": 50,
                         "seesSky": false
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "item": {
                         "itemID": "pixelmon:nugget",
                         "quantity": 1
@@ -419,6 +424,11 @@
                     "condition": {
                         "maxY": 50,
                         "seesSky": false
+                    },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
                     },
                     "item": {
                         "itemID": "pixelmon:big_nugget",
@@ -435,6 +445,11 @@
                         "itemID": "pixelmon:amethyst",
                         "quantity": 1
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "typeID": "item",
                     "rarity": 30
                 },
@@ -445,6 +460,11 @@
                     "item": {
                         "itemID": "pixelmon:sapphire",
                         "quantity": 1
+                    },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
                     },
                     "typeID": "item",
                     "rarity": 30
@@ -457,6 +477,11 @@
                         "itemID": "pixelmon:crystal",
                         "quantity": 1
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "typeID": "item",
                     "rarity": 30
                 },
@@ -468,6 +493,11 @@
                         "itemID": "pixelmon:ruby",
                         "quantity": 1
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "typeID": "item",
                     "rarity": 30
                 },
@@ -478,6 +508,11 @@
                     "item": {
                         "itemID": "pixelmon:silicon",
                         "quantity": 1
+                    },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
                     },
                     "typeID": "item",
                     "rarity": 30
@@ -577,6 +612,11 @@
                     "stringLocationTypes": [
                         "Rock Smash"
                     ],
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "item": {
                         "itemID": "pixelmon:float_stone",
                         "quantity": 1
@@ -619,6 +659,11 @@
                     "condition": {
                         "seesSky": true
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "item": {
                         "itemID": "pixelmon:wishing_piece",
                         "quantity": 1
@@ -635,7 +680,8 @@
                     },
                     "anticondition": {
                         "stringBiomes": [
-                            "ultra space"
+                            "ultra space",
+                            "ghosts"
                         ]
                     },
                     "item": {
@@ -671,7 +717,8 @@
                     },
                     "anticondition": {
                         "stringBiomes": [
-                            "ultra space"
+                            "ultra space",
+                            "ghosts"
                         ]
                     },
                     "item": {
@@ -707,7 +754,8 @@
                     },
                     "anticondition": {
                         "stringBiomes": [
-                            "ultra space"
+                            "ultra space",
+                            "ghosts"
                         ]
                     },
                     "item": {
@@ -743,7 +791,8 @@
                     },
                     "anticondition": {
                         "stringBiomes": [
-                            "ultra space"
+                            "ultra space",
+                            "ghosts"
                         ]
                     },
                     "item": {
@@ -779,7 +828,8 @@
                     },
                     "anticondition": {
                         "stringBiomes": [
-                            "ultra space"
+                            "ultra space",
+                            "ghosts"
                         ]
                     },
                     "item": {
@@ -815,7 +865,8 @@
                     },
                     "anticondition": {
                         "stringBiomes": [
-                            "ultra space"
+                            "ultra space",
+                            "ghosts"
                         ]
                     },
                     "item": {
@@ -849,6 +900,11 @@
                     "condition": {
                         "seesSky": true
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "item": {
                         "itemID": "pixelmon:tumblestone",
                         "quantity": 1
@@ -863,6 +919,11 @@
                     "condition": {
                         "seesSky": true
                     },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
                     "item": {
                         "itemID": "pixelmon:sky_tumblestone",
                         "quantity": 1
@@ -876,6 +937,11 @@
                     ],
                     "condition": {
                         "seesSky": true
+                    },
+                    "anticondition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
                     },
                     "item": {
                         "itemID": "pixelmon:black_tumblestone",
@@ -936,7 +1002,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -954,7 +1020,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 30
+                    "rarity": 300
                 },
                 {
                     "stringLocationTypes": [
@@ -972,7 +1038,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 10
+                    "rarity": 100
                 },
                 {
                     "stringLocationTypes": [
@@ -990,7 +1056,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 30
+                    "rarity": 300
                 },
                 {
                     "stringLocationTypes": [
@@ -1008,7 +1074,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 10
+                    "rarity": 100
                 },
                 {
                     "stringLocationTypes": [
@@ -1026,7 +1092,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 30
+                    "rarity": 300
                 },
                 {
                     "stringLocationTypes": [
@@ -1044,7 +1110,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 10
+                    "rarity": 100
                 },
                 {
                     "stringLocationTypes": [
@@ -1062,7 +1128,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 30
+                    "rarity": 300
                 },
                 {
                     "stringLocationTypes": [
@@ -1080,7 +1146,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 10
+                    "rarity": 100
                 },
                 {
                     "stringLocationTypes": [
@@ -1098,7 +1164,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 20
+                    "rarity": 200
                 },
                 {
                     "stringLocationTypes": [
@@ -1116,7 +1182,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 20
+                    "rarity": 200
                 },
                 {
                     "stringLocationTypes": [
@@ -1134,7 +1200,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 20
+                    "rarity": 200
                 },
                 {
                     "stringLocationTypes": [
@@ -1152,7 +1218,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 30
+                    "rarity": 300
                 },
                 {
                     "stringLocationTypes": [
@@ -1170,7 +1236,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 10
+                    "rarity": 100
                 },
                 {
                     "stringLocationTypes": [
@@ -1188,7 +1254,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 20
+                    "rarity": 200
                 },
                 {
                     "stringLocationTypes": [
@@ -1206,7 +1272,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 20
+                    "rarity": 200
                 },
                 {
                     "stringLocationTypes": [
@@ -1223,7 +1289,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 40
+                    "rarity": 400
                 },
                 {
                     "stringLocationTypes": [
@@ -1264,7 +1330,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 70
+                    "rarity": 700
                 },
                 {
                     "stringLocationTypes": [
@@ -1305,7 +1371,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 40
+                    "rarity": 400
                 },
                 {
                     "stringLocationTypes": [
@@ -1323,7 +1389,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 5
+                    "rarity": 75
                 },
                 {
                     "stringLocationTypes": [
@@ -1334,708 +1400,10 @@
                             "ghosts"
                         ],
                         "maxY": 256,
-                        "minY": 224
+                        "minY": 192
                     },
                     "item": {
                         "itemID": "pixelmon:stardust",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 20
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 160,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "pixelmon:rare_bone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 30
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 192
-                    },
-                    "item": {
-                        "itemID": "pixelmon:rare_bone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 20
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 160
-                    },
-                    "item": {
-                        "itemID": "pixelmon:nugget",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 30
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 160,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "pixelmon:big_nugget",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 10
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 128,
-                        "minY": 64
-                    },
-                    "item": {
-                        "itemID": "pixelmon:damp_rock",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 40
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 192
-                    },
-                    "item": {
-                        "itemID": "pixelmon:heat_rock",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 40
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 192
-                    },
-                    "item": {
-                        "itemID": "pixelmon:icy_rock",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 40
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 192,
-                        "minY": 128
-                    },
-                    "item": {
-                        "itemID": "pixelmon:smooth_rock",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 40
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 256,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "pixelmon:light_clay",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 50
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 160
-                    },
-                    "item": {
-                        "itemID": "pixelmon:float_stone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 50
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 256,
-                        "minY": 224
-                    },
-                    "item": {
-                        "itemID": "pixelmon:float_stone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 50
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ]
-                    },
-                    "item": {
-                        "itemID": "pixelmon:hard_stone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 20
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 64,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "pixelmon:thick_club",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 30
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 192
-                    },
-                    "item": {
-                        "itemID": "pixelmon:thick_club",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 30
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 256,
-                        "minY": 224
-                    },
-                    "item": {
-                        "itemID": "pixelmon:wishing_piece",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 30
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 160,
-                        "minY": 64
-                    },
-                    "item": {
-                        "itemID": "pixelmon:tumblestone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 256,
-                        "minY": 160
-                    },
-                    "item": {
-                        "itemID": "pixelmon:sky_tumblestone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 80
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 64,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "pixelmon:black_tumblestone",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 80
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ]
-                    },
-                    "item": {
-                        "itemID": "pixelmon:black_augurite",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 10
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 128,
-                        "minY": 96
-                    },
-                    "item": {
-                        "itemID": "thermal:slag",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 128,
-                        "minY": 96
-                    },
-                    "item": {
-                        "itemID": "thermal:rich_slag",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 40
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 96,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "thermal:basalz_rod",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 192,
-                        "minY": 128
-                    },
-                    "item": {
-                        "itemID": "thermal:blitz_rod",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 256,
-                        "minY": 192
-                    },
-                    "item": {
-                        "itemID": "thermal:blizz_rod",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 192
-                    },
-                    "item": {
-                        "itemID": "thermal:apatite",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 192,
-                        "minY": 160
-                    },
-                    "item": {
-                        "itemID": "thermal:niter",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 192,
-                        "minY": 160
-                    },
-                    "item": {
-                        "itemID": "thermal:cinnabar",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 160,
-                        "minY": 128
-                    },
-                    "item": {
-                        "itemID": "thermal:sulfur",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 128,
-                        "minY": 96
-                    },
-                    "item": {
-                        "itemID": "thermal:niter",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 96,
-                        "minY": 164
-                    },
-                    "item": {
-                        "itemID": "thermal:cinnabar",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 64,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "thermal:sulfur",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 128,
-                        "minY": 96
-                    },
-                    "item": {
-                        "itemID": "thermal:tar",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 224,
-                        "minY": 196
-                    },
-                    "item": {
-                        "itemID": "thermal:tar",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 64,
-                        "minY": 32
-                    },
-                    "item": {
-                        "itemID": "thermal:tar",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 32,
-                        "minY": 0
-                    },
-                    "item": {
-                        "itemID": "thermal:bitumen",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 96,
-                        "minY": 64
-                    },
-                    "item": {
-                        "itemID": "thermal:bitumen",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 160,
-                        "minY": 128
-                    },
-                    "item": {
-                        "itemID": "thermal:bitumen",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 192,
-                        "minY": 160
-                    },
-                    "item": {
-                        "itemID": "thermal:rosin",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 120
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 256,
-                        "minY": 224
-                    },
-                    "item": {
-                        "itemID": "astralsorcery:aquamarine",
                         "quantity": 1
                     },
                     "typeID": "item",
@@ -2053,11 +1421,11 @@
                         "minY": 224
                     },
                     "item": {
-                        "itemID": "astralsorcery:aquamarine_shale",
+                        "itemID": "pixelmon:star_piece",
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 40
+                    "rarity": 125
                 },
                 {
                     "stringLocationTypes": [
@@ -2067,33 +1435,15 @@
                         "stringBiomes": [
                             "ghosts"
                         ],
-                        "maxY": 256,
-                        "minY": 224
-                    },
-                    "item": {
-                        "itemID": "astralsorcery:starmetal_ore",
-                        "quantity": 1
-                    },
-                    "typeID": "item",
-                    "rarity": 20
-                },
-                {
-                    "stringLocationTypes": [
-                        "Rock Smash"
-                    ],
-                    "condition": {
-                        "stringBiomes": [
-                            "ghosts"
-                        ],
-                        "maxY": 32,
+                        "maxY": 160,
                         "minY": 0
                     },
                     "item": {
-                        "itemID": "astralsorcery:rock_crystal_ore",
+                        "itemID": "pixelmon:rare_bone",
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 40
+                    "rarity": 100
                 },
                 {
                     "stringLocationTypes": [
@@ -2107,7 +1457,7 @@
                         "minY": 192
                     },
                     "item": {
-                        "itemID": "minecraft:ice",
+                        "itemID": "pixelmon:rare_bone",
                         "quantity": 1
                     },
                     "typeID": "item",
@@ -2125,11 +1475,119 @@
                         "minY": 160
                     },
                     "item": {
-                        "itemID": "tinkersarchery:tantalum_nugget",
+                        "itemID": "pixelmon:nugget",
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 40
+                    "rarity": 125
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 160,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "pixelmon:big_nugget",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 150
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 64
+                    },
+                    "item": {
+                        "itemID": "pixelmon:damp_rock",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "pixelmon:heat_rock",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "pixelmon:icy_rock",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 160,
+                        "minY": 128
+                    },
+                    "item": {
+                        "itemID": "pixelmon:smooth_rock",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "pixelmon:light_clay",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 500
                 },
                 {
                     "stringLocationTypes": [
@@ -2143,11 +1601,333 @@
                         "minY": 160
                     },
                     "item": {
-                        "itemID": "byg:subzero_crystal_shard",
+                        "itemID": "pixelmon:float_stone",
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 120
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 224
+                    },
+                    "item": {
+                        "itemID": "pixelmon:float_stone",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 500
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
+                    "item": {
+                        "itemID": "pixelmon:hard_stone",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 64,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "pixelmon:thick_club",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 300
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "pixelmon:thick_club",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 300
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 224
+                    },
+                    "item": {
+                        "itemID": "pixelmon:wishing_piece",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 300
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 160,
+                        "minY": 64
+                    },
+                    "item": {
+                        "itemID": "pixelmon:raw_tumblestone",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 160
+                    },
+                    "item": {
+                        "itemID": "pixelmon:raw_sky_tumblestone",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 800
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 64,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "pixelmon:raw_black_tumblestone",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 800
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 64,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "pixelmon:black_augurite",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 100
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 96
+                    },
+                    "item": {
+                        "itemID": "thermal:slag",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 96
+                    },
+                    "item": {
+                        "itemID": "thermal:rich_slag",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 96,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "thermal:basalz_rod",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 192,
+                        "minY": 128
+                    },
+                    "item": {
+                        "itemID": "thermal:blitz_rod",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "thermal:blizz_rod",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "thermal:apatite",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 192,
+                        "minY": 160
+                    },
+                    "item": {
+                        "itemID": "thermal:niter",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 160,
+                        "minY": 128
+                    },
+                    "item": {
+                        "itemID": "thermal:cinnabar",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 96
+                    },
+                    "item": {
+                        "itemID": "thermal:sulfur",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
                 },
                 {
                     "stringLocationTypes": [
@@ -2161,11 +1941,317 @@
                         "minY": 64
                     },
                     "item": {
-                        "itemID": "tconstruct:slime_crystal",
+                        "itemID": "thermal:niter",
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 120
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 64,
+                        "minY": 32
+                    },
+                    "item": {
+                        "itemID": "thermal:cinnabar",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 32,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "thermal:sulfur",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 96
+                    },
+                    "item": {
+                        "itemID": "thermal:tar",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 196
+                    },
+                    "item": {
+                        "itemID": "thermal:tar",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 64,
+                        "minY": 32
+                    },
+                    "item": {
+                        "itemID": "thermal:tar",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 32,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "thermal:bitumen",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 96,
+                        "minY": 64
+                    },
+                    "item": {
+                        "itemID": "thermal:bitumen",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 160,
+                        "minY": 128
+                    },
+                    "item": {
+                        "itemID": "thermal:bitumen",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 192,
+                        "minY": 160
+                    },
+                    "item": {
+                        "itemID": "thermal:rosin",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 224
+                    },
+                    "item": {
+                        "itemID": "astralsorcery:aquamarine",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 2000
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 224
+                    },
+                    "item": {
+                        "itemID": "astralsorcery:aquamarine_shale",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 224
+                    },
+                    "item": {
+                        "itemID": "astralsorcery:starmetal_ore",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 32,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "astralsorcery:rock_crystal_ore",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "minecraft:ice",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 160
+                    },
+                    "item": {
+                        "itemID": "tinkersarchery:tantalum_nugget",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 400
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "byg:subzero_crystal_shard",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 96,
+                        "minY": 64
+                    },
+                    "item": {
+                        "itemID": "tconstruct:earth_slime_crystal",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1200
                 },
                 {
                     "stringLocationTypes": [
@@ -2184,7 +2270,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 120
+                    "rarity": 1200
                 },
                 {
                     "stringLocationTypes": [
@@ -2220,7 +2306,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 120
+                    "rarity": 1200
                 },
                 {
                     "stringLocationTypes": [
@@ -2238,7 +2324,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2256,7 +2342,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2274,7 +2360,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2292,7 +2378,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2310,7 +2396,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2328,7 +2414,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 120
+                    "rarity": 1200
                 },
                 {
                     "stringLocationTypes": [
@@ -2346,7 +2432,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 120
+                    "rarity": 1200
                 },
                 {
                     "stringLocationTypes": [
@@ -2364,7 +2450,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2382,7 +2468,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2400,7 +2486,7 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
                 },
                 {
                     "stringLocationTypes": [
@@ -2418,11 +2504,155 @@
                         "quantity": 1
                     },
                     "typeID": "item",
-                    "rarity": 60
+                    "rarity": 600
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 160,
+                        "minY": 128
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_crown",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 1
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 32,
+                        "minY": 0
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_vase",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 5
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 96,
+                        "minY": 64
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_statue",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 2
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 96
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_band",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 3
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 128,
+                        "minY": 96
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_band",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 3
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 192,
+                        "minY": 160
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_copper",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 100
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 224,
+                        "minY": 192
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_silver",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 50
+                },
+                {
+                    "stringLocationTypes": [
+                        "Rock Smash"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ],
+                        "maxY": 256,
+                        "minY": 224
+                    },
+                    "item": {
+                        "itemID": "pixelmon:relic_gold",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 10
                 }
             ],
-            "requiredSpace": 2,
-            "percentage": 15
+            "requiredSpace": 1,
+            "percentage": 100
         }
     ]
 }

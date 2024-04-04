@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixelmon:sitrus_berry",
+    "pixelmon:liechi_berry",
+    "pixelmon:ganlon_berry",
+    "pixelmon:petaya_berry",
+    "pixelmon:apicot_berry",
+    "pixelmon:salac_berry"
+  ]
+}

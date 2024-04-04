@@ -13,7 +13,11 @@
       "heldItems": [
         {
           "itemID": "pixelmon:metal_coat",
-          "percentChance": 5
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:petaya_berry",
+          "percentChance": 50
         }
       ],
       "condition": {

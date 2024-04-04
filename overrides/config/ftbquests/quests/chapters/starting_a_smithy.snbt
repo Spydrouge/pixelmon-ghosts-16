@@ -126,21 +126,14 @@
 			}]
 			rewards: [
 				{
-					id: "444986960BD2758F"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:water"
-						}
-					}
-					count: 3
-				}
-				{
 					id: "4B9F032D81704E50"
 					type: "item"
 					item: "pixelmon:watmel_berry"
+				}
+				{
+					id: "53A63882450D7938"
+					type: "item"
+					item: "pixelmon:fresh_water"
 				}
 			]
 		}
@@ -167,11 +160,18 @@
 					item: "ceramics:terracotta_channel"
 				}
 			]
-			rewards: [{
-				id: "3E4A9EE001C09AF9"
-				type: "item"
-				item: "pixelmon:yellow_shard"
-			}]
+			rewards: [
+				{
+					id: "3E4A9EE001C09AF9"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "7AA988FEB93A94BC"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -199,11 +199,18 @@
 					item: "ceramics:porcelain_channel"
 				}
 			]
-			rewards: [{
-				id: "6FB81F44BEB83B88"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "6FB81F44BEB83B88"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "42373E47FA2D2BCD"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -227,11 +234,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2773D3E38801DD6A"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "2773D3E38801DD6A"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "3765B7B6166DB1A7"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -342,11 +356,23 @@
 				type: "item"
 				item: "ceramics:porcelain_bricks"
 			}]
-			rewards: [{
-				id: "516EED95F8A13493"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "516EED95F8A13493"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2F9C040344826E77"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "3BF56CDAF774A357"
+					type: "item"
+					item: "pixelmon:fresh_water"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -371,9 +397,15 @@
 					item: "pixelmon:blue_shard"
 				}
 				{
-					id: "122C69AF4F7B09B0"
+					id: "0F759AF321484453"
 					type: "item"
-					item: "byg:joshua_fruit"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 13
+						}
+					}
 				}
 			]
 		}
@@ -427,11 +459,6 @@
 					id: "5E0FAF01355E35B3"
 					type: "item"
 					item: "pixelmon:red_shard"
-				}
-				{
-					id: "1CF6FC17348184BC"
-					type: "item"
-					item: "byg:joshua_fruit"
 				}
 				{
 					id: "07F307D9DE518CE8"
@@ -504,11 +531,18 @@
 				type: "item"
 				item: "tconstruct:grout"
 			}]
-			rewards: [{
-				id: "7436936098876CED"
-				type: "item"
-				item: "pixelmon:blue_shard"
-			}]
+			rewards: [
+				{
+					id: "7436936098876CED"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "123E52450D484E6B"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -531,6 +565,18 @@
 				type: "item"
 				item: "tconstruct:seared_melter"
 			}]
+			rewards: [
+				{
+					id: "0F8876A36BBAD90A"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "3A5B5CD146D6F59A"
+					type: "choice"
+					table_id: 6737182399749106212L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -553,6 +599,18 @@
 				type: "item"
 				item: "tconstruct:seared_heater"
 			}]
+			rewards: [
+				{
+					id: "06D4EFD71524D247"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+				{
+					id: "3793002D80A9A703"
+					type: "choice"
+					table_id: 4887553477010900837L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -576,6 +634,23 @@
 				type: "item"
 				item: "tconstruct:seared_table"
 			}]
+			rewards: [
+				{
+					id: "725560AB2ED47D83"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "142AE7D009D25317"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "0368EB31F1D24B5D"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			title: "Composite Materials"
@@ -712,6 +787,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "14AC979B89BE3CFE"
+					type: "item"
+					title: "Drifloon wanted to make one, too!"
+					item: "tconstruct:tool_binding_sand_cast"
+				}
+				{
+					id: "30487DC8981BE370"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -731,11 +819,18 @@
 				type: "item"
 				item: "tconstruct:blood_slime_ball"
 			}]
-			rewards: [{
-				id: "1531719F54B665F9"
-				type: "item"
-				item: "tconstruct:blood_cake"
-			}]
+			rewards: [
+				{
+					id: "1531719F54B665F9"
+					type: "item"
+					item: "tconstruct:blood_cake"
+				}
+				{
+					id: "2F4B8CAA8051B401"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -762,6 +857,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "71259CEC60546218"
+					type: "item"
+					item: "ceramics:unfired_clay_plate"
+					count: 2
+				}
+				{
+					id: "305D09CA28EC3D5F"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 	]
 }

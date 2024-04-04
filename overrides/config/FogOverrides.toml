@@ -1,29 +1,54 @@
 
-#Configuration for Forgiving Void
-[common]
-	#Set to false to make Forgiving Void not trigger in the overworld void (dimension 0).
-	triggerInOverworld = true
-	#Set to true if players are rubber-banding while falling through the void. If you're hosting a public server, you should only do this if you have proper anti-cheat installed.
-	disableVanillaAntiCheatWhileFalling = true
-	#The height from which the player will be falling after falling through the void.
-	#Range: 256 ~ 4096
-	fallingHeight = 300
-	#Set to false to make Forgiving Void not trigger in the end void (dimension 1).
-	triggerInEnd = true
-	#Set to true if you want the dimensionBlacklist to be treated as a whitelist instead. Options triggerInOverworld etc. still take priority.
-	dimensionBlacklistIsWhitelist = false
-	#Prevent death on void fall (limits damage to leave at least 0.5 hearts)
-	preventDeath = true
-	#The amount of damage applied to the player when they land.
-	#Range: > 0
-	damageOnFall = 3
-	#Set to false to make Forgiving Void not trigger in the nether void (dimension -1).
-	triggerInNether = true
-	#The y level at which Forgiving Void should forgive the player and send them towards the sky.
-	#Range: -64 ~ 0
-	triggerAtY = -32
-	#For integration with the Game Stages mod, set this to the game stage that needs to be unlocked in order for Forgiving Void to be enabled.
-	requiredGameStage = ""
-	#List of additional dimension ids to be blacklisted from Forgiving Void. Options triggerInOverworld etc. take priority.
-	dimensionBlacklist = []
+[general]
+	#Overrides are dependent on potion effects
+	"Potion Active" = true
+	#Disable the water overlay when you're in water
+	"Disable Water Overlay" = false
+	#Offset the fire overlay, negative values means down and positive is up.
+	#Range: -1.0 ~ 1.0
+	"Fire Overlay Offset" = -0.25
+	#Disable the fire overlay when you're burning
+	"Disable Fire Overlay" = false
+	#Creative Mode Always Removes Fog
+	"Creative Overrides" = true
+
+[overworld]
+	#At what Y-level should the fog active on
+	#Range: 0 ~ 255
+	"Y-Level Activation" = 255
+	#Disable Overworld Fog?
+	"Disable Overworld Fog" = false
+	#If the player is in a skylight level of 8, the fog disappears
+	"Void scared of sky" = false
+	#This is so you can adjust the density of the fog
+	#Range: 0.001 ~ 0.5
+	"Void Fog Density" = 0.05
+	#Overworld Fog Density
+	#Range: 0.001 ~ 0.5
+	"Overworld Fog Density" = 0.05
+	#Readds the void particles that was removed in 1.8
+	"Enable Void Particles" = false
+	#Readds the void fog that was removed in 1.8
+	"Enable Void Fog" = false
+
+[nether]
+	#Nether Fog Density
+	#Range: 0.001 ~ 0.5
+	"Nether Fog Density" = 0.01
+	#Disable Nether Fog?
+	"Disable Nether Fog" = false
+
+[lava]
+	#Disable Lava Fog?
+	"Disable Lava Fog" = false
+	#Lava Fog Density
+	#Range: 0.001 ~ 0.5
+	"Lava Fog Density" = 0.03
+
+[water]
+	#Water Fog Density
+	#Range: 0.001 ~ 0.5
+	"Water Fog Density" = 0.01
+	#Disable Water Fog?
+	"Disable Water Fog" = false
 

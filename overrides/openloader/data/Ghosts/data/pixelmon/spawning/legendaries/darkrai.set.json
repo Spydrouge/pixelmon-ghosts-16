@@ -1,0 +1,68 @@
+{
+  "id": "Darkrai",
+  "spawnInfos": [
+    {
+      "spec": "species:Darkrai level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:dark_forest_hills"
+        ],
+        "moonPhase": 4
+      },
+      "rarity": 0.3
+    },
+    {
+      "spec": "species:Darkrai level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks":[
+          "pixelmon:relic_vase"  
+        ]
+      },
+       "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "NIGHT",
+              "DUSK"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "moonPhase": 4
+          }
+        }
+      ],
+      "rarity": 2
+    }
+  ]
+}

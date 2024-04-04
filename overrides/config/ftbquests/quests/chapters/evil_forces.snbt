@@ -12,6 +12,7 @@
 			title: "Something Bad is Going to Happen!"
 			x: 0.0d
 			y: -1.5d
+			shape: "diamond"
 			subtitle: "Something is stirring in the abyss...!"
 			description: [
 				"Make a sword!"
@@ -305,6 +306,7 @@
 			title: "Second Invasion"
 			x: 0.0d
 			y: -9.0d
+			shape: "diamond"
 			description: [
 				"Are you ready!?"
 				""

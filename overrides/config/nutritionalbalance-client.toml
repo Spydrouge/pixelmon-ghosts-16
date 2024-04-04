@@ -1,11 +1,17 @@
 
-[tooltips]
-	#If true, will integrate with item tooltips.
-	enableTooltipIntegration = true
-	#If true, will only show tooltip information when advanced tooltip enabled.
-	tooltipsRestrictToAdvanced = false
-	#If true, will only show tooltip information when crouch key pressed.
-	tooltipsUseCrouchKey = true
-	#If true, will show the hold crouch key for more information.
-	tooltipsShowCrouchKeyInfo = true
+#General Settings
+[general]
+	#Show the nutrient button in the player inventory screen. (default:true)
+	nutrient_button_enabled = true
+	#Show a Toast notification when player nutrition status changes. (default:true)
+	show_threshold_toast = true
+
+	#Nutrient Button Location
+	[general.button]
+		#X Offset of nutrition button relative to the upper left corner of the player inventory screen. (default:131)
+		#Range: 0 ~ 512
+		nutrient_button_x = 131
+		#Y Offset of nutrition button relative to the upper left corner of the player inventory screen. (default:61)
+		#Range: 0 ~ 512
+		nutrient_button_y = 61
 

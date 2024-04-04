@@ -1192,7 +1192,7 @@
         "min":1,
         "max":1,
         "chance":0.5
-      }
+      },
       {
         "item":"pixelmon:moon_stone_shard",
         "min":1,
@@ -5823,10 +5823,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:spruce_leaves",
+        "item":"pixelmon:liechi_berry",
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:raw_black_tumblestone",
@@ -5896,7 +5896,7 @@
         "item":"pixelmon:yache_berry",
         "min":1,
         "max":1,
-        "chance":0.01
+        "chance":0.1
       },
       {
         "item":"byg:horseweed",
@@ -6950,14 +6950,14 @@
       {
         "item":"pixelmon:apicot_berry",
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:ganlon_berry",
         "min":1,
-        "max":2,
-        "chance":0.3
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -9299,7 +9299,7 @@
         "item":"pixelmon:kelpsy_berry",
         "min":1,
         "max":1,
-        "chance":0.05
+        "chance":0.01
       },
       {
         "item":"minecraft:potato",
@@ -9317,12 +9317,6 @@
         "min":1,
         "max":3,
         "chance":1.0
-      },
-      {
-        "item":"minecraft:spider_eye",
-        "min":1,
-        "max":2,
-        "chance":0.5
       },
       {
         "item":"pixelmon:bug_gem",
@@ -9355,6 +9349,12 @@
       },
       {
         "item":"pixelmon:shed_shell",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:paper",
         "min":1,
         "max":1,
         "chance":0.5
@@ -9509,10 +9509,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:gravel",
+        "item":"pixelmon:pataya_berry",
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":1,
+        "chance":0.01
       },
       {
         "item":"pixelmon:silver_ore",
@@ -10209,7 +10209,7 @@
       {
         "item":"minecraft:porkchop",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
@@ -12997,7 +12997,7 @@
         "item":"pixelmon:health_feather",
         "min":1,
         "max":1,
-        "chance":0.3
+        "chance":0.5
       },
       {
         "item":"pixelmon:shiny_stone",
@@ -13190,10 +13190,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:oak_leaves",
+        "item":"pixelmon:liechi_berry",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.1
       },
       {
         "item":"pixelmon:raw_black_tumblestone",
@@ -14146,6 +14146,12 @@
         "min":2,
         "max":4,
         "chance":1.0
+      },
+      {
+        "item":"pixelmon:pataya_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:platinum_ore",
@@ -20098,7 +20104,7 @@
         "item":"pixelmon:sitrus_berry",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.01
       }
     ]
   },
@@ -22296,7 +22302,7 @@
         "item":"minecraft:white_wool",
         "min":1,
         "max":3,
-        "chance":1,0
+        "chance":1.0
       },
       {
         "item":"minecraft:pink_wool",
@@ -24942,6 +24948,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:passho_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -24965,6 +24977,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:passho_berry",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -24994,6 +25012,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:passho_berry",
+        "min":1,
+        "max":1,
+        "chance":0.5
       }
     ]
   },
@@ -25502,6 +25526,18 @@
         "min":1,
         "max":2,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:leather_helmet",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"botania:manaweave_helmet",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -25513,6 +25549,18 @@
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:leather_helmet",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"botania:manaweave_helmet",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"minecraft:chorus_fruit",
@@ -25535,6 +25583,12 @@
         "item":"minecraft:ender_pearl",
         "min":2,
         "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"botania:manaweave_helmet",
+        "min":1,
+        "max":1,
         "chance":1.0
       },
       {

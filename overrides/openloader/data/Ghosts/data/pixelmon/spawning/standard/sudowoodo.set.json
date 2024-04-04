@@ -9,6 +9,12 @@
       "minLevel": 20,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:liechi_berry",
+          "percentChance": 50
+        }
+      ],
       "condition": {
         "maxY": 64,
         "minY": 32,

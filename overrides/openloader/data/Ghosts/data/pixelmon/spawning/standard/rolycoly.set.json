@@ -18,6 +18,12 @@
           "ghosts"
         ]
       },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:passho_berry",
+          "percentChance": 50
+        }
+      ],
       "rarityMultipliers": [
         {
           "multiplier": 1.5,
