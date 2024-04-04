@@ -11,12 +11,10 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAY"
-        ],
+          "minY":160,
+          "maxY":192,
         "stringBiomes": [
-          "flowery",
-          "magical"
+          "ghosts"
         ]
       },
         "rarity":10

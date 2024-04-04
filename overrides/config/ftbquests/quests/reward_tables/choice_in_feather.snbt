@@ -1,0 +1,14 @@
+{
+	id: "596BF2EAD3228943"
+	order_index: 7
+	title: "Choice in Feather"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:health_feather" }
+		{ item: "pixelmon:muscle_feather" }
+		{ item: "pixelmon:resist_feather" }
+		{ item: "pixelmon:genius_feather" }
+		{ item: "pixelmon:clever_feather" }
+		{ item: "pixelmon:swift_feather" }
+	]
+}

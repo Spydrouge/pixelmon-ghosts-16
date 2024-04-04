@@ -1,0 +1,62 @@
+{
+  "id": "Swablu",
+  "spawnInfos": [
+    {
+      "spec": "species:Swablu",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "magical",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Swablu",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Swablu",
+      "stringLocationTypes": [
+        "Treetop"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":224,
+        "minY":192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

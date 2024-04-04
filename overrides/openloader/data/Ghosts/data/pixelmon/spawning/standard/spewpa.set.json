@@ -13,7 +13,7 @@
       "typeID": "pokemon",
       "condition": {
         "maxY": 160,
-        "minY": 92,
+        "minY": 128,
         "stringBiomes": [
           "ghosts"
         ]
@@ -40,6 +40,11 @@
           "magical"
         ]
       },
+      "anticondition":{
+          "stringBiomes":[
+              "ghosts"
+          ]
+      }
       "rarity": 40.0
     }
   ]

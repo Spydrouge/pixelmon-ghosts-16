@@ -18,6 +18,7 @@
 				""
 				"There are probably multiple ways to meet your goals, but you have a good feeling about the role of clay in jumpstarting your progress."
 			]
+			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
 			size: 3.0d
 			id: "11F689A8DC3A4BE2"
@@ -123,6 +124,25 @@
 				type: "item"
 				item: "ceramics:clay_bucket"
 			}]
+			rewards: [
+				{
+					id: "444986960BD2758F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4B9F032D81704E50"
+					type: "item"
+					item: "pixelmon:watmel_berry"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -258,12 +278,19 @@
 				type: "item"
 				item: "ceramics:clay_cistern"
 			}]
-			rewards: [{
-				id: "45D6EC8BE20F61F4"
-				type: "item"
-				item: "ceramics:unfired_clay_plate"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "45D6EC8BE20F61F4"
+					type: "item"
+					item: "ceramics:unfired_clay_plate"
+					count: 4
+				}
+				{
+					id: "16A1C67DD43D0495"
+					type: "item"
+					item: "pixelmon:watmel_berry"
+				}
+			]
 		}
 		{
 			icon: "ceramics:unfired_porcelain_block"
@@ -486,15 +513,17 @@
 		{
 			x: 3.0d
 			y: -2.5d
+			subtitle: "Takes charcoal, if coal is scarce."
 			description: [
 				"The seared heater requires seared bricks and a piece of glass, which may be soul glass. &bSoul glass&r can be produced in a kiln."
 				""
-				"The heater can be fueld with solid fuels like charcoal."
+				"The heater can be fueld with solid fuels like charcoal.  It does not burn as hot as liquid fuels like lava."
 			]
 			dependencies: [
 				"385D6D83BC1D388F"
 				"316A28329E36A103"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "78CE77D6BCD1ABD3"
 			tasks: [{
@@ -506,17 +535,232 @@
 		{
 			x: 3.0d
 			y: -3.5d
-			description: ["The melter is an entry-level tier smeltery. It's the first step on your road to melting things down into usable forms!"]
+			subtitle: "It's a baby smeltery!"
+			description: [
+				"The melter is an entry-level tier smeltery. It's the first step on your road to melting things down into usable forms!"
+				""
+				"Melters can only hold one type of fluid at a time, which means they cannot be used to mix alloys."
+			]
 			dependencies: [
 				"385D6D83BC1D388F"
 				"316A28329E36A103"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "5BFB2D642FAFCDE2"
 			tasks: [{
 				id: "17221758DF5951F0"
 				type: "item"
 				item: "tconstruct:seared_heater"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Time to watch a tutorial video?"
+			description: [
+				"To get started with your new meltery, you will need to place down the heater and put the melter on top of it. The heater can be fueled by solid fuels such as coal, charcoal, and logs."
+				""
+				"Melters turn solid items into fluids. You can then extract that fluid with a faucet into a casting basin to cast different kinds of items. "
+				""
+				"There are multiple techniques for creating items using a melter."
+			]
+			dependencies: [
+				"78CE77D6BCD1ABD3"
+				"5BFB2D642FAFCDE2"
+			]
+			hide: true
+			id: "15FA67EAB413D40A"
+			tasks: [{
+				id: "2EEC8CBA3DDBBEB3"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+		}
+		{
+			title: "Composite Materials"
+			x: 5.5d
+			y: -2.0d
+			subtitle: "Create a Composite Tool Part"
+			description: [
+				"&dComposite materials&r are made without molds. To make a composite, you pour one special material onto items made of another, equally special material."
+				""
+				"Take the composite material &cBloodbone&r. To make items out of Bloodbone, you must first create the desired item out of bone. Place the item on a casting basin, and pour blood over top of it."
+				""
+				"If space in your melter is getting tight and you want to save out some Blood Bone to use later, you can pour it directly onto unshaped bones. These can't be melted a second time, but they can be crafted directly at a Part Builder the way bone and necrotic bone can."
+				""
+				"Bloodbone isn't the only Tier 2 Composite. There's also &dWhitestone&r, which is Aluminum poured over stone tools."
+			]
+			dependencies: ["15FA67EAB413D40A"]
+			id: "53C0B6C163A69032"
+			tasks: [{
+				id: "2C5860E7BC39FDE9"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:bloodbone"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bloodbone"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bloodbone"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bloodbone"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bloodbone"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bloodbone"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:whitestone"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:whitestone"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:whitestone"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:whitestone"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:whitestone"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FEDAC19AE221B19"
+				type: "choice"
+				table_id: 4979549037345271657L
+			}]
+		}
+		{
+			title: "Your First Cast"
+			x: 5.5d
+			y: -4.0d
+			description: [
+				"Most metals can be cast directly into different tool shapes. In the future, you will be able to create reusable gold casts, but for right now, you will need to make due with sand."
+				""
+				"To create a single-use sand cast, first go to the part builder and create the part you desire out of some expendible material, like wood. In this example, craft a wood pickaxe head."
+				""
+				"Take the wood pickaxe head to the crafting table, and right click to place it down. Then hold some sand in your main hand, and right click with the sand on the crafting table."
+				""
+				"Remove the wood pickaxe head. You can now pour metal directly into the mold."
+			]
+			dependencies: ["15FA67EAB413D40A"]
+			id: "5F26B40670405B8D"
+			tasks: [{
+				id: "341EA681917E3635"
+				type: "item"
+				title: "Any #tconstruct:casts/single_use/pickaxe_head"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/single_use/pickaxe_head"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: [
+				"With the establishment of your Melter, you've unlocked &dTier 2&r of Tinkering materials. Diary items have been created in the Tips and Tricks section of the Quest Book."
+				""
+				"One of the weirder but already easily available materials you'll end up working with is &4Blood&r. You can get &4Blood&r from harvesting many blood-sucking Pokemon, such as Zubat, Gastly, and Spinerak, and Dewpider."
+				""
+				"&dZubat&r spawns in the air at Y levels 64 and below, day and night. Dewpider will spawn at your starting layer, in water. Spinerak also spawns at your starting layer, in treetops. Gastly will spawn anywhere, so long as the light levels are absolute 0. "
+				""
+			]
+			dependencies: ["15FA67EAB413D40A"]
+			id: "282F2F422CD9FBD5"
+			tasks: [{
+				id: "2D07FED503F9D52F"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+			}]
+			rewards: [{
+				id: "1531719F54B665F9"
+				type: "item"
+				item: "tconstruct:blood_cake"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Create each half independently."
+			description: [
+				"You can think of a few functions for ceramic shears. First and most importantly, they may help you create 'treetops' habitats that are flat and easy to navigate, by allowing you to pick up leaves and place them in alternative configurations with logs."
+				""
+				"Additionally, some recipes rely on being able to collect types of grasses or vines."
+				""
+				"Lastly, unwanted leaves can be fed to a composter to produce bonemeal."
+			]
+			dependencies: ["6C469BB6BA15D1D0"]
+			hide: true
+			id: "404CD42121B0EFD8"
+			tasks: [{
+				id: "7C2A4A2FCB665E25"
+				type: "item"
+				item: {
+					id: "ceramicshears:ceramic_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

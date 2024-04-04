@@ -1,0 +1,11 @@
+{
+	id: "5D7F47B28C0F2A24"
+	order_index: 5
+	title: "Choice in Shard"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:blue_shard" }
+		{ item: "pixelmon:green_shard" }
+		{ item: "pixelmon:black_shard" }
+	]
+}

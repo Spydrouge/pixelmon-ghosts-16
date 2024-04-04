@@ -40,6 +40,8 @@
         }
       ],
       "condition": {
+        "maxY":192,
+        "minY":160,
         "stringBiomes": [
           "ghosts"
         ],

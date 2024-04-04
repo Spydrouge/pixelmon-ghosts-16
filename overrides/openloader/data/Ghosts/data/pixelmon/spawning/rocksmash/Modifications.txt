@@ -1,0 +1,3 @@
+Only the loot has been modified, not anything else.
+
+There is currently some kind of bug. None of the additional loot is being included. Only 'Silicon' ever spawns (its set to have no conditions in the original) and then only rarely.

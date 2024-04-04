@@ -1,0 +1,3 @@
+I had hoped getting some plants to match all the tags associated with other bonemealable flowers would make them bonemealable. This was not the case, and the experiment was a failure.
+
+One workaround is to let players directly combine bonemeal with reeds in a crafting grid to produce more. Alternatively, they may simply need to grind the few reeds/horsetail weeds they need

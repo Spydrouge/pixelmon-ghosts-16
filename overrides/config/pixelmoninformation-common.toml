@@ -1,85 +1,49 @@
 
-[waila]
-	#If true, will only show information when crouching.
-	wailaUseCrouchKey = false
+#Dimensional shard ore generation
+[worldgen]
 
-	[waila.blocks]
-		#If true, will show the block information in Waila.
-		wailaShowBlockInformation = true
-		#If true, will show the block tooltip in Waila.
-		wailaBlocksShowTooltip = true
-		#If true, will show the block information in Waila.
-		wailaBlocksShowInformation = true
+	#Overworld
+	[worldgen.nether]
+		#Number of times to try generate the ore (set to 0 to disable)
+		#Range: 0 ~ 256
+		oreChances = 8
+		#Max height
+		#Range: 0 ~ 256
+		oreMax = 40
+		#Max size of veins
+		#Range: 1 ~ 256
+		oreVeinsize = 8
+		#Min height
+		#Range: 0 ~ 256
+		oreMin = 2
 
-	[waila.entities]
-		#If true, will show the entity information in Waila.
-		wailaShowEntityInformation = true
-		#If true, will show the description of the pokÃ©mon.
-		wailaEntityShowPokemonDescription = false
-		#If true, will show the owner's name of the pokÃ©mon.
-		wailaEntityShowPokemonOwner = true
-		#If true, will show the level of the pokÃ©mon.
-		wailaEntityShowPokemonLevel = true
-		#If true, will show the PokÃ©dex Number of the pokÃ©mon.
-		wailaEntityShowPokemonPokedexNumber = false
-		#If true, will show the Generation of the pokÃ©mon.
-		wailaEntityShowPokemonGeneration = false
-		#If true, will show the EV (effort value) yield of the pokÃ©mon.
-		wailaEntityShowPokemonEVYield = true
-		#If true, will show the type information of the pokÃ©mon.
-		wailaEntityShowPokemonTypeInformation = true
-		#If true, will show the nature information of the pokÃ©mon.
-		wailaEntityShowPokemonNatureInformation = false
-		#If true, will show the growth information of the pokÃ©mon.
-		wailaEntityShowPokemonGrowthInformation = false
-		#If true, will show the EV (effort value) stats of the pokÃ©mon.
-		wailaEntityShowPokemonEVs = true
-		#If true, will show the IV (individual values) stats of the pokÃ©mon.
-		wailaEntityShowPokemonIVs = false
-		#If true, will show the type match-up information of the pokÃ©mon.
-		wailaEntityShowPokemonTypeMatchupInformation = false
-		#If true, will show if the pokÃ©mon has been caught.
-		wailaEntityShowPokemonCaught = true
+	#End
+	[worldgen.end]
+		#Number of times to try generate the ore (set to 0 to disable)
+		#Range: 0 ~ 256
+		oreChances = 8
+		#Max height
+		#Range: 0 ~ 256
+		oreMax = 80
+		#Max size of veins
+		#Range: 1 ~ 256
+		oreVeinsize = 10
+		#Min height
+		#Range: 0 ~ 256
+		oreMin = 2
 
-[theoneprobe]
-	#If true, will only show information when crouching.
-	topUseCrouchKey = true
-
-	[theoneprobe.blocks]
-		#If true, will show the block information in The One Probe.
-		topShowBlockInformation = true
-		#If true, will show the block tooltip in The One Probe.
-		topBlocksShowTooltip = true
-		#If true, will show the block information in The One Probe.
-		topBlocksShowInformation = true
-
-	[theoneprobe.entities]
-		#If true, will show the entity information in The One Probe.
-		topShowEntityInformation = true
-		#If true, will show the description of the pokÃ©mon.
-		topEntityShowPokemonDescription = false
-		#If true, will show the owner's name of the pokÃ©mon.
-		topEntityShowPokemonOwner = true
-		#If true, will show the level of the pokÃ©mon.
-		topEntityShowPokemonLevel = true
-		#If true, will show the PokÃ©dex Number of the pokÃ©mon.
-		topEntityShowPokemonPokedexNumber = false
-		#If true, will show the Generation of the pokÃ©mon.
-		topEntityShowPokemonGeneration = false
-		#If true, will show the EV (effort value) yield of the pokÃ©mon.
-		topEntityShowPokemonEVYield = false
-		#If true, will show the type information of the pokÃ©mon.
-		topEntityShowPokemonTypeInformation = true
-		#If true, will show the nature information of the pokÃ©mon.
-		topEntityShowPokemonNatureInformation = false
-		#If true, will show the growth information of the pokÃ©mon.
-		topEntityShowPokemonGrowthInformation = true
-		#If true, will show the EV (effort value) stats of the pokÃ©mon.
-		topEntityShowPokemonEVs = true
-		#If true, will show the IV (individual values) stats of the pokÃ©mon.
-		topEntityShowPokemonIVs = false
-		#If true, will show the type match-up information of the pokÃ©mon.
-		topEntityShowPokemonTypeMatchupInformation = false
-		#If true, will show if the pokÃ©mon has been caught.
-		topEntityShowPokemonCaught = true
+	#Overworld
+	[worldgen.overworld]
+		#Number of times to try generate the ore (set to 0 to disable)
+		#Range: 0 ~ 256
+		oreChances = 2
+		#Max height
+		#Range: 0 ~ 256
+		oreMax = 40
+		#Max size of veins
+		#Range: 1 ~ 256
+		oreVeinsize = 5
+		#Min height
+		#Range: 0 ~ 256
+		oreMin = 2
 

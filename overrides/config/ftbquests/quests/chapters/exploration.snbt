@@ -317,5 +317,72 @@
 				}
 			]
 		}
+		{
+			title: "Land Habitat on the Soil Layer"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Build a Suitable Habitat!"
+			description: ["You've seen Phantump and Pineco both spawn on open land in the Soil Layer, but did you know &cPumpkaboo&r and &aOddish&r spawn as well? Oddish is attracted to uncut tall grass, and Pumpkaboo is (as one might expect) attracted to pumpkins."]
+			dependencies: ["30EB23683E1A1D4C"]
+			id: "636FC9D9B5FAFAC2"
+			tasks: [
+				{
+					id: "58968E26433E160F"
+					type: "questsadditions:interaction"
+					title: "Right Click a Pumpkaboo"
+					icon: {
+						id: "pixelmon:pixelmon_sprite"
+						Count: 1b
+						tag: {
+							ndex: 710s
+							palette: "none"
+							form: -1b
+							gender: 0b
+							Shiny: 0b
+						}
+					}
+					entity: "pixelmon:pixelmon"
+					nbt: {
+						ndex: 710
+					}
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "496AC9D66DB100A6"
+					type: "questsadditions:interaction"
+					title: "Right click an Oddish."
+					icon: {
+						id: "pixelmon:pixelmon_sprite"
+						Count: 1b
+						tag: {
+							ndex: 43s
+							palette: "none"
+							form: -1b
+							gender: 0b
+							Shiny: 0b
+						}
+					}
+					entity: "pixelmon:pixelmon"
+					nbt: {
+						ndex: 43
+					}
+					value: 1L
+					checkItem: false
+				}
+			]
+			rewards: [
+				{
+					id: "76682B0723EEC1CA"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "69F84C1D02446DE4"
+					type: "item"
+					item: "botania:grass_seeds"
+				}
+			]
+		}
 	]
 }

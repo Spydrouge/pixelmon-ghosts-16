@@ -10,6 +10,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+          "minY":160,
+          "maxY":192,
         "stringBiomes": [
           "ghosts"
         ]
@@ -25,6 +27,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+          "minY":160,
+          "maxY":192,
         "stringBiomes": [
           "ghosts"
         ]
@@ -40,6 +44,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+          "minY":160,
+          "maxY":192,
         "stringBiomes": [
           "ghosts"
         ]
@@ -55,6 +61,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+          "minY":160,
+          "maxY":192,
         "stringBiomes": [
           "ghosts"
         ]
@@ -70,6 +78,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+        "minY":160,
+          "maxY":192,
         "stringBiomes": [
           "ghosts"
         ]

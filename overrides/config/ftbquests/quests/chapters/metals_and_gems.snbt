@@ -17,6 +17,8 @@
 				""
 				"Additionally, because iron is rare, and most Appricorn colors are not avialable, you are keeping detailed notes on what types of Pokeball are available."
 			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
 			size: 3.0d
 			id: "542EFBDFBABB8B13"
 			tasks: [{
@@ -584,6 +586,7 @@
 					}
 				}
 				count: 5L
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -626,6 +629,7 @@
 				}
 				count: 5L
 				only_from_crafting: false
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -663,6 +667,7 @@
 					}
 				}
 				count: 3L
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -700,6 +705,7 @@
 					}
 				}
 				count: 5L
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "22BE7691BD66E8FB"
@@ -730,6 +736,7 @@
 					}
 				}
 				count: 5L
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -770,6 +777,7 @@
 						PokeBallID: "ancient_poke_ball"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -805,6 +813,7 @@
 						PokeBallID: "poke_ball"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{

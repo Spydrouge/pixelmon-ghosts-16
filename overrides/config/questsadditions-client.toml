@@ -1,6 +1,10 @@
-
-[Configs]
-	#Set to true to have the zoom centered on your mouse position
-	#instead of the center of the screen.
-	mouse_zoom = false
+#Maximum health of the common blob
+#Range: > 0
+commonBlobMaxHealth = 30
+#Maximum health of the rare blob
+#Range: > 0
+rareBlobMaxHealth = 250
+#Maximum health of the legendary blob
+#Range: > 0
+legendaryBlobMaxHealth = 5000
 

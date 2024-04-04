@@ -1255,6 +1255,7 @@
 				""
 				"Plan out your ball usage carefully, so you do not waste it with nothing to show for your efforts."
 			]
+			hide_dependency_lines: true
 			secret: true
 			id: "2C9C36AE9630F192"
 			tasks: [{
@@ -1267,6 +1268,7 @@
 						PokeBallID: "love_ball"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{

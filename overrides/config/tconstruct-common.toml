@@ -1,128 +1,96 @@
 
-#Everything to do with gameplay
-[gameplay]
-	#If true, anvils will show all metal variants. If false, shows only a variant with the default texture
-	showAllAnvilVariants = true
-	#If true, tables such as the part builder and tinker station will show all variants. If false shows only a variant with a default texture.
-	showAllTableVariants = true
-	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = false
-	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
-	#If empty, all materials will show
-	showOnlyToolMaterial = ""
-	#If non-empty, only material will be shown on parts in creative and JEI (or the first valid material if this is invalid for the part).
-	#If empty, all materials will show
-	showOnlyPartMaterial = ""
+#No comment
+[rain_collection]
 
-#Options related to recipes, limited options as a datapack allows most recipes to be modified
+	#Wooden Rain Tank
+	[rain_collection.wooden_rain_tank]
+		#The capacity in mB for the Wooden Rain Tank.
+		#Range: 1000 ~ 1024000
+		woodenRainTankCapacity = 8000
+		#The fillrate in mB/second for the Wooden Rain Tank.
+		#Range: 1 ~ 8000
+		woodenRainTankFillrate = 10
+
+	#Multiblock Rain Collector
+	[rain_collection.multiblock_rain_collector]
+		#Turn this to false to disable JEI description for the Wooden Rain Tank.
+		woodenRainTankDescription = true
+		#Turn this to false to disable JEI description for the Rain Collector Multiblock.
+		rainCollectorDescription = true
+		#Search radius of the Rain Collector Controller.
+		#Range: 0 ~ 7
+		rainCollectorRange = 2
+		#Amount of water per second per connected block.
+		#Range: 1 ~ 8000
+		rainCollectorFillrate = 20
+		#Turn this to false to disable JEI description for the Wrench.
+		wrenchDescription = true
+		#The capacity in mB for the Rain Collector Multiblock.
+		#Range: 8000 ~ 1024000
+		rainCollectorCapacity = 32000
+
+#No comment
+[groundwater_pump]
+	#Pump energy capacity in forge energy units.
+	#Range: 8000 ~ 1024000
+	groundwaterPumpEnergyCapacity = 16000
+	#Pump energy input rate in forge energy units.
+	#Range: 20 ~ 1024000
+	groundwaterPumpEnergyInput = 500
+	#Additional to base usage. Each used pipe will multiplied with this value.
+	#Range: 0 ~ 1024000
+	groundwaterPumpEnergyPipeMultiplier = 20
+	#Energy used to place a pipe.
+	#Range: 0 ~ 1024000
+	groundwaterPumpEnergyPipePlacement = 2500
+	#Should the Groundwater Pump spawn a slab to close the hole?
+	groundwaterPumpSafety = true
+	#Turn this to false to disable JEI description for the Groundwater Pump.
+	groundwaterPumpDescription = true
+	#Pump energy base usage in forge energy units. Needed for each pump operation.
+	#Range: 20 ~ 1024000
+	groundwaterPumpEnergyBaseUsage = 1600
+	#Turn this to false if your world does not generate Bedrock. (Skyblock)
+	groundwaterPumpCheckBedrock = true
+	#The fillrate in mB/second for the Groundwater Pump.
+	#Range: 1 ~ 8000
+	groundwaterPumpFillrate = 500
+	#The capacity in mB for the Groundwater Pump.
+	#Range: 8000 ~ 1024000
+	groundwaterPumpCapacity = 32000
+
+#No comment
+[rockets]
+	#Rain duration with x1 multiplier.
+	#Range: 1 ~ 12000
+	rainDuration = 3000
+	#Clear sky duration with x1 multiplier.
+	#Range: 100 ~ 6000
+	clearSkyDuration = 4000
+	#Turn this to false to disable JEI recipe information for the Rockets.
+	fireworkRocketsJEIRecipes = true
+	#JEI: Adds a small description for firework star.
+	fireworkChargeDescription = true
+	#Maximum days of clear sky that will added to the calculated time.
+	#Range: 0 ~ 7
+	clearSkyMaxRandomAdditionalDays = 3
+	#Maximum clear sky multiplier.
+	#Range: 1 ~ 36
+	clearSkyMaxMultiplier = 12
+	#Maximum rain multiplier.
+	#Range: 1 ~ 24
+	rainMaxMultiplier = 8
+	#JEI: Adds a small description for fireworks.
+	fireworksDescription = true
+	#Turn this to false to disable JEI description for the Rockets.
+	fireworkRocketsDescription = true
+	#Enable Dispenser compatibility for weather rockets
+	rocketDispenserCompatibility = true
+
+#No comment
 [recipes]
-	#Makes wither skeletons drop necrotic bones
-	witherBoneDrop = true
-	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
-	#Range: 1 ~ 45
-	smelteryNuggetsPerOre = 12
-	#Makes the recipe to alloy netherite in the smeltery only cost 2 gold per netherite ingot. If false uses the vanilla rate of 4 gold per ingot. Disable if there are crafting duplications.
-	cheaperNetheriteAlloy = true
-	#Add a recipe that allows you to craft a piece of flint using 3 gravel
-	addGravelToFlintRecipe = true
-	#Fixes clear glass not being usable in vanilla recipes that require glass. Config option exists to disable easily in case this fix is redundant to another mod
-	glassRecipeFix = true
-	#Number of nuggets produced when an ore block is melted in the foundry. 9 nuggets would give 1 ingot
-	#Range: 1 ~ 45
-	foundryNuggetsPerOre = 12
-	#Allows converting wither bones to regular bones
-	witherBoneConversion = false
-	#Slimealls not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
-	slimeRecipeFix = true
-	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
-	#Range: 1 ~ 45
-	melterNuggetsPerOre = 12
-
-	#Entity head drops when killed by a charged creeper
-	[recipes.heads]
-		stray = true
-		husk = true
-		zombified_piglin = true
-		blaze = true
-		piglin = true
-		cave_spider = true
-		piglin_brute = true
-		drowned = true
-		spider = true
-		enderman = true
-
-#Options related to loot table injections. Note some of the changes are done via global loot managers, these only control injecting loot into loot pools
-#If your modpack makes extensive loot table changes, many of these may be automatically disabled. You can also manually set up tables for more control.
-[loot]
-	#Weight of blazing blood in the piglin bartering tables. Set to 0 to disable
-	#Range: 0 ~ 100
-	barter_blazing_blood = 20
-	#Adds slimy saplings and seeds into various loot chests. Helps for worlds without slime islands
-	slimy_loot = true
-	#If true, ender dragons will drop scales when damaged by explosions
-	drop_dragon_Scales = true
-	#Weight of tinker tools in the vanilla spawn bonus chest, randomly replacing the vanilla axe or shovel. Tool will have a random tier 1 head and binding, plus a wooden handle. Set to 0 to disable.
-	#For comparison, vanilla wooden axes and pickaxes have a weight of 3, and stone axes/pickaxes have a weight of 1
-	#Range: 0 ~ 25
-	tinker_tool_bonus_chest = 2
-
-#Everything to do with world generation
-[worldgen]
-	#Generate Cobalt
-	generateCobalt = true
-	#Generate Copper
-	generateCopper = true
-	#Approx Ores per Chunk
-	veinCountCobalt = 8
-	#Approx Ores per Chunk
-	veinCountCopper = 20
-
-	#Options related to slime islands
-	[worldgen.slime_islands]
-
-		#Settings for sky slime islands in the overworld sky
-		[worldgen.slime_islands.sky]
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			separation = 30
-			#If true, this island generates
-			generate = false
-
-		#Options related to earth slime islands spawning in the oceans
-		[worldgen.slime_islands.earth]
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			separation = 25
-			#If true, this island generates
-			generate = true
-
-		#Settings for end slime islands in the outer end islands
-		[worldgen.slime_islands.end]
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			separation = 25
-			#If true, this island generates
-			generate = true
-
-		#Settings for blood islands in the nether lava ocean
-		[worldgen.slime_islands.blood]
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			separation = 13
-			#If true, this island generates
-			generate = true
-
-		#Settings for clay islands in the overworld sky
-		[worldgen.slime_islands.clay]
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			separation = 100
-			#If true, this island generates
-			generate = false
-
-#Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
-[debug]
-	#If true, forces integration materials to be enabled, even if the relevant metal is missing. Useful for testing material balance.
-	#Does not provide recipes for any of them, they will only be available to cheat in creative.
-	forceIntegrationMaterials = false
+	#If true, the Rain Rocket has a recipe.
+	recipeRainRocket = false
+	#If true, the Anti Rain Rocket has a recipe.
+	recipeAntiRainRocket = false
 

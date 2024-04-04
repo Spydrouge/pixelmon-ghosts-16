@@ -1,8 +1,8 @@
-//Distance in blocks for obtain lightingbolt of around X Z
-//1.4E-45 3.4028235E38
-//
-SizeXZ= {16.0};
-//Distance in blocks for obtain lightingbolt of around Y
-//1.4E-45 3.4028235E38
-//
-SizeY= {64.0};
+RMBTweak=1
+LMBTweakWithItem=1
+LMBTweakWithoutItem=1
+WheelTweak=1
+WheelSearchOrder=1
+WheelScrollDirection=0
+ScrollItemScaling=0
+Debug=0

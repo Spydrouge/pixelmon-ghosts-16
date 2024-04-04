@@ -198,7 +198,7 @@
 		}
 		{
 			x: -1.0d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "Odd Wheat"
 			description: [
 				"Getting wheat will require the following steps:"
@@ -206,7 +206,7 @@
 				"1. Create regular dirt using coarse dirt and a hoe."
 				"2. Place dirt near a grass block and allow the grass to spread."
 				"3. Use bonemeal on the grass to produce tall grass and flowers."
-				"4. Break the tall grass for a chance to spawn a wheat seed"
+				"4. Break the tall grass for a chance to spawn a wheat seed. Use a knife so you can also harvest straw."
 				"5. Plant and grow the wheat, preferably with irrigation."
 				""
 				"Note: You have observed that leaving some \"regular length\" grass uncut near your starting area causes &aOddish&r to spawn nearby.  Oddish also drops wheat seeds."
@@ -214,26 +214,34 @@
 			dependencies: [
 				"1C8AF2B80EA46940"
 				"02D3224F5FF97681"
+				"393758787D61BE1D"
+				"30EB23683E1A1D4C"
+				"5AE3A8615EDE4B47"
 			]
 			hide: true
 			id: "4037E692772EC7FE"
-			tasks: [{
-				id: "02677F67948AA0D2"
-				type: "item"
-				item: "minecraft:wheat"
-			}]
-			rewards: [
+			tasks: [
 				{
-					id: "103AA1A10596CA39"
+					id: "02677F67948AA0D2"
 					type: "item"
-					title: "Drifloon is helping!"
-					item: "minecraft:grass"
-					count: 4
+					item: "minecraft:wheat"
 				}
+				{
+					id: "0FF70C4351206CC0"
+					type: "item"
+					item: "farmersdelight:straw"
+				}
+			]
+			rewards: [
 				{
 					id: "4F9B1803AFBB22D3"
 					type: "item"
 					item: "pixelmon:green_shard"
+				}
+				{
+					id: "12FE18751C835CD1"
+					type: "item"
+					item: "pixelmon:dish_curry_leek"
 				}
 			]
 		}
@@ -269,9 +277,9 @@
 					item: "minecraft:grass_block"
 				}
 				{
-					id: "2CA5F5F28A4B38A1"
+					id: "3484EF323956F4A3"
 					type: "item"
-					item: "pixelmon:dish_curry_leek"
+					item: "pixelmon:watmel_berry"
 				}
 			]
 		}
@@ -287,7 +295,7 @@
 				""
 				"&d(Some of these quests require you to climb to altitudes you have not reached yet. It is recommended you do them 'as needed' while following other major quest lines.)&r"
 			]
-			dependencies: ["4037E692772EC7FE"]
+			dependencies: ["1455941647C48282"]
 			id: "187AE09D3D927F05"
 			tasks: [{
 				id: "3F73563D69AE0263"
@@ -306,7 +314,7 @@
 				""
 				"&d(Some of these quests require you to climb to altitudes you have not reached yet. It is recommended you do them 'as needed' while following other major quest lines.)&r"
 			]
-			dependencies: ["4037E692772EC7FE"]
+			dependencies: ["1455941647C48282"]
 			id: "2D3AE7D61C1C477F"
 			tasks: [{
 				id: "34FECAD854FDC19E"
@@ -314,8 +322,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Sugar and Spice and all that..."
 			description: ["You believe if you can find Clefairy, you will find Sugarcane. Clefairy is a Pokemon from the stars; you suspect you will only find it at the very highest altitudes, as close to Outer space as you can get."]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "71C1170463DA45D0"
@@ -332,11 +341,12 @@
 		}
 		{
 			x: 4.0d
-			y: 0.5d
+			y: 3.0d
+			subtitle: "Dry it out for a Pungent Root Curry!"
 			description: [
-				"Carrots may be difficult, but you've noticed strange Pokemon possessed by eldrich energies are occasionally spawning in underground water. Perhaps if you get lucky, some layer of this abyss will have an eldrich reanimated horse of some kind."
+				"Carrots may be difficult to find because they are usually carried by goats, deer, or horses, few of which look to have survived. You've noticed strange Pokemon possessed by eldrich energies are occasionally spawning in underground water. Perhaps if you get lucky, some layer of this abyss will have an eldrich reanimated horse of some kind. Perhaps on the Ice Layer?"
 				""
-				"Additionally, goats are known to be very good at keeping their feet in dangerous circumstances. Perhaps, like all the rock Pokemon, you will eventually find a goat or two frolicking about. If so, you suspect it will be at a high altitude."
+				"Additionally, goats are known to be very good at keeping their feet in dangerous circumstances. Perhaps, like all the rock Pokemon, you will eventually find a goat or two frolicking about. If so, you suspect it will be at an equally high altitude."
 			]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "182732C4C2AC010F"
@@ -361,7 +371,12 @@
 		{
 			x: 5.0d
 			y: -0.5d
-			description: ["The Chorus fruit is well loved by faries, but the flower necessary to grow the fruit may be easier to find among plant-like creatures."]
+			subtitle: "The Same Pokemon who have the Ender Pearls"
+			description: [
+				"The Chorus fruit is well loved by faires you expect to see plenty of on the Dazzle Layer, but the flower necessary to grow the fruit may be easier to find among plant like creatures like Gloom. If not, you can always try recreating the flower using raw materials."
+				""
+				"Chorus fruit is extremely versatile, and almost immediately usable in other recipes."
+			]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "71DE3A0D7F74C5D9"
 			tasks: [
@@ -391,13 +406,15 @@
 		}
 		{
 			x: 4.0d
-			y: 3.0d
+			y: 0.5d
+			subtitle: "Underground Wheat"
+			description: ["If you find enough Grubbin or Nincada, both burrowing insects, you know you will eventually find one holding a potato. But an easier treck might be up to a cold and icy altitude where the sturdy Ferroseed is likely to have survived. They are the very definition of an armored potato. "]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "63335CEF4021A430"
 			tasks: [{
 				id: "01BBB0EF7F9DEF28"
 				type: "item"
-				item: "minecraft:brown_mushroom"
+				item: "minecraft:potato"
 			}]
 			rewards: [{
 				id: "7C6A2FE7E8AFF77D"
@@ -408,7 +425,8 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["Watermelon seeds may be tough to track down, but you have an idea: Ladybug Pokemon are very good at protecting plants like Watermelon from pests. Ledyba seems too fragile to have survived, but Orbeetle has the robust Dottler as it's middle stage. You expect to find such alien-like bug Pokemon at high altitudes, as close to outer space as possible."]
+			subtitle: "Speak Friend and Enter"
+			description: ["Watermelon seeds may be tough to track down, but you have an idea: Ladybug Pokemon are very good at protecting plants like Watermelon from pests. Ledyba seems too fragile to have survived, but Orbeetle has the robust Dottler as it's middle stage. You expect to find such alien-looking bug Pokemon at high altitudes, as close to outer space as possible."]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "308D5B2AFBAF06BA"
 			tasks: [{
@@ -431,9 +449,10 @@
 		}
 		{
 			x: 6.0d
-			y: 1.0d
+			y: -1.5d
+			subtitle: "Apples with the Worm Still In: Extra Protein"
 			description: [
-				"Applin seems very much Burmy or any of the other bug Pokemon you see climbing out of each and every tree you plant. You suspect you might find them eventually, in the tree tops of some layer, but you aren't sure how high you must climb..."
+				"Applin seems very similar to the other bug Pokemon you see climbing out of each and every tree you plant. You suspect you might find them eventually, in the tree tops of some layer, but you aren't sure how high you must climb... Perhaps all the way to the Ice Layer?"
 				""
 				"Alternatively, if you can gather enough dark oak saplings from the surrounding Phantump, you might be able to plant and harvest dark oak trees. These occasionally drop apples."
 			]
@@ -454,52 +473,81 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			description: ["Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."]
+			subtitle: "Blooming Onions!"
+			description: ["Your cook book is calling for onion in its recipes. You think you should be able to get an onion from Hoppip, but you might have to check more than one. Skiploom or Jumpluff would be more likely to yield one. You should investigate the Air Layer."]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "1509B72088529641"
 			tasks: [{
 				id: "2A6677F754414F68"
 				type: "item"
-				item: "minecraft:sweet_berries"
+				item: "farmersdelight:onion"
 			}]
-			rewards: [{
-				id: "48154A528F1A32EF"
-				type: "item"
-				item: "pixelmon:red_shard"
-			}]
+			rewards: [
+				{
+					id: "24F9AE96D28C571C"
+					type: "choice"
+					table_id: 8717960779849246681L
+				}
+				{
+					id: "22CED8EE6C57B8B3"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 6.0d
-			y: -1.5d
-			description: ["Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."]
+			y: 1.0d
+			description: [
+				"Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."
+				""
+				"Perhaps in the Ice Layer?"
+			]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "3D6F4BFB4F7C7A4A"
-			tasks: [{
-				id: "371974AD7AC88E85"
-				type: "item"
-				item: "byg:blueberries"
-			}]
+			tasks: [
+				{
+					id: "371974AD7AC88E85"
+					type: "item"
+					item: "byg:blueberries"
+				}
+				{
+					id: "6DC6EF43DBE404F0"
+					type: "item"
+					item: "minecraft:sweet_berries"
+				}
+				{
+					id: "0AF86AA0E8A9C44D"
+					type: "item"
+					item: "byg:crimson_berries"
+				}
+			]
 			rewards: [{
-				id: "4F68BB4BE696D34E"
-				type: "item"
-				item: "pixelmon:blue_shard"
+				id: "35C2AEF3D3BD6A05"
+				type: "choice"
+				table_id: 4524191137701651332L
 			}]
 		}
 		{
-			x: 8.0d
-			y: -1.0d
-			description: ["Berries are often carried by fox Pokemon, and fox Pokemon are known to have a strong relationship with the spirit world. Perhaps as you begin to explore other levels of this abyss, you will stumble upon some..."]
+			x: 3.0d
+			y: 1.5d
+			subtitle: "The Poor Man's Healthy Food"
+			description: [
+				"Cabbage... Cabbage... Most of the Pokemon you'd think might drop a cabbage have not survived."
+				""
+				"Try finding Swadloon. It's a durable middle-stage pokemon, and you've seen that Pokemon with at least one very sturdy defensive stage seem to have survived. Look in the Murk layer."
+			]
 			dependencies: ["2D3AE7D61C1C477F"]
 			id: "6AD7ED0B6B968B66"
 			tasks: [{
 				id: "64CB43EBCFCBF875"
 				type: "item"
-				item: "byg:crimson_berries"
+				item: "farmersdelight:cabbage"
 			}]
 			rewards: [{
-				id: "0828C77F388761A8"
+				id: "60C133E93A47767C"
 				type: "item"
-				item: "pixelmon:yellow_shard"
+				item: "pixelmon:green_shard"
 			}]
 		}
 		{
@@ -549,6 +597,12 @@
 		{
 			x: -6.0d
 			y: 0.5d
+			subtitle: "Like a Big Leather Bellows..."
+			description: [
+				"You suspect you will need to track down a Pokemon very much like Drifloon in that they are both called the \"Balloon Pokemon\" - Jigglypuff. You will look for it on the Dazzle layer. "
+				""
+				"However, you may also be able to composite it from smaller hide fragments dropped by Spoink, if it's survived. Spoink is a lightweight pig Pokemon; if any are to be found, they will be in the Murk Layer."
+			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "54DE0DB62DC59A44"
 			tasks: [{
@@ -560,6 +614,7 @@
 		{
 			x: -7.0d
 			y: -0.5d
+			description: ["Most flying Pokemon have a chance at dropping at least one good feather for fletching purposes. The best feathers come from the feather-dancing Pokemon Oricorio. Since there is a ghost-type Oricorio, you suspect it might be found in the Air Layer. But for now, Murkrow and Vullaby will have to do."]
 			dependencies: ["187AE09D3D927F05"]
 			id: "0F702567FDC67CAF"
 			tasks: [{
@@ -567,21 +622,61 @@
 				type: "item"
 				item: "minecraft:feather"
 			}]
+			rewards: [
+				{
+					id: "57BBE6CD4D02C61C"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "5AD237CCA3861FD3"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
 			y: 1.5d
+			subtitle: "Time to Shave some Bats?"
+			description: [
+				"It's all well and good to make wool out of string, but it is a little tedious. It would be nice to harvest wool directly."
+				""
+				"There is a Pokemon called Stufful you expect to find indoors in the Murk Layer, where humans used to live."
+				""
+				"In addition, Woobat, which spawns in complete darkness, is always guarenteed to have some wool for you to harvest."
+				""
+				"If you climb even higher, you might find Swablu among the Ice Layer, in Treetops."
+			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "73C28BA13E211B96"
-			tasks: [{
-				id: "64581A350A41CE56"
-				type: "item"
-				item: "minecraft:pink_wool"
+			tasks: [
+				{
+					id: "64581A350A41CE56"
+					type: "item"
+					item: "minecraft:pink_wool"
+				}
+				{
+					id: "213B1C7930DA5743"
+					type: "item"
+					item: "minecraft:light_blue_wool"
+				}
+			]
+			rewards: [{
+				id: "1CAFCDCD4DAB25FA"
+				type: "choice"
+				table_id: 6775360253834921576L
 			}]
 		}
 		{
 			x: -8.0d
 			y: -1.5d
+			description: [
+				"You don't expect to find the only milkable Pokemon, Miltank, has survived this cataclysm. However, there is always Milcery, a lightweight fluid Pokemon that may have settled up in the Dazzle Layer."
+				""
+				"Milcery can't be milked with a bucket, but if it drops any milk, that might be convertable to a bucket form. Sinistea may also rarely drop milk."
+				""
+			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "42CCCD30BE23B892"
 			tasks: [{
@@ -589,10 +684,20 @@
 				type: "item"
 				item: "ceramics:milk_clay_bucket"
 			}]
+			rewards: [{
+				id: "46C76F9AFBEAA1F9"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
 		}
 		{
 			x: -6.0d
 			y: 3.0d
+			description: [
+				"These type of shells are very useful for building portable storage. The most common way to find them is through fighting Shuckle, which seems to spawn in underground areas on your starting layer."
+				""
+				"You might also find it from Clamperl in underground water on the Stone layer."
+			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "5F3673265B3B4394"
 			tasks: [{
@@ -600,10 +705,23 @@
 				type: "item"
 				item: "minecraft:shulker_shell"
 			}]
+			rewards: [
+				{
+					id: "0C4C073944EA2BDE"
+					type: "choice"
+					table_id: 6775360253834921576L
+				}
+				{
+					id: "39A320F809E6BC3D"
+					type: "item"
+					item: "pixelmon:purple_umbrella"
+				}
+			]
 		}
 		{
 			x: -7.0d
 			y: 2.0d
+			description: ["You suspect many things on the Murk layer can drop some form of slime. "]
 			dependencies: ["187AE09D3D927F05"]
 			id: "3C54F8C72B0083A1"
 			tasks: [{
@@ -611,10 +729,20 @@
 				type: "item"
 				item: "minecraft:slime_ball"
 			}]
+			rewards: [{
+				id: "55D5514CB0CDB6C4"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
 		}
 		{
 			x: -8.0d
 			y: 1.0d
+			description: [
+				"The flying Pokemon that once could have dropped eggs are now rare. You have a choice of the crow Pokemon Murkrow, the vulture Pokemon Mandibuzz, or you can climb up to the Air Layer and look at what might be there."
+				""
+				"Higher evolution Pokemon will have a higher chance of eggs. Baby Pokemon like Vullaby have no chance of eggs. Hoot Hoot is one of the best low-leveled egg-layers. You expect to find it on the Air Layer."
+			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "3297F01E3E8E6A03"
 			tasks: [{
@@ -622,10 +750,29 @@
 				type: "item"
 				item: "minecraft:egg"
 			}]
+			rewards: [
+				{
+					id: "015F24F51A70F8F2"
+					type: "choice"
+					table_id: 7252355757410882407L
+				}
+				{
+					id: "54D840E8933BE0B4"
+					type: "item"
+					item: "pixelmon:curry_boiled_egg"
+				}
+				{
+					id: "674C5295A805A7AD"
+					type: "item"
+					item: "farmersdelight:fried_egg"
+				}
+			]
 		}
 		{
 			x: -9.0d
 			y: 0.0d
+			subtitle: "Gone in a Flash!"
+			description: ["Psychic Pokemon tend to drop Ender Pearls. These may be up in the Murk or Dazzle Layers, or all the way up near Outer Space."]
 			dependencies: ["187AE09D3D927F05"]
 			id: "4F9EEB74BBC32438"
 			tasks: [{
@@ -633,16 +780,33 @@
 				type: "item"
 				item: "minecraft:ender_pearl"
 			}]
+			rewards: [{
+				id: "328A7D062DB2B045"
+				type: "choice"
+				table_id: 6737182399749106212L
+			}]
 		}
 		{
 			x: -9.0d
 			y: -2.5d
+			description: [
+				"The most reliable source of protein is going to be fish. This is because it can be obtained from any water source by fishing for and defeating water Pokemon."
+				""
+				"If you can't afford to build a proper Old Rod just yet, then use a vanilla fishing rod. Roughly 10% of the time, you will have a chance of \"hooking\" a Pokemon."
+			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "7B9D7ABCC4AC4243"
 			tasks: [{
-				id: "1CE8EF04AA08E6A2"
+				id: "70FED845C333E234"
 				type: "item"
-				item: "minecraft:salmon"
+				title: "Any #forge:foods/fish/raw"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:foods/fish/raw"
+					}
+				}
 			}]
 		}
 		{
@@ -670,6 +834,12 @@
 		{
 			x: -13.5d
 			y: -2.5d
+			description: [
+				"Not all Pokemon taste equally good. Some produce meat that's just like chicken. Some... not so much. The best 'chicken' will come in the form of pidgeon pie. It'll come from Pidove, up in the Air Layer."
+				""
+				""
+				"How did Pidove survive the cataclysm? Well, they survived a great flood... why not this, too?"
+			]
 			dependencies: ["2DC584B87FD79330"]
 			id: "3C032892477EC615"
 			tasks: [{
@@ -851,28 +1021,611 @@
 		{
 			title: "Spice of Life"
 			x: -1.0d
-			y: -7.0d
+			y: -3.0d
 			subtitle: "Nutritional Balance"
 			description: [
 				"In order to stay a happy, healthy twelve-year-old, you are going to have to try and eat a &6balanced diet&r. That's a difficult thing to do!"
 				""
 				"Failing to eat well can result in you slowing down and &dfeeling weaker&r, which can make navigating this island a chore and leave you vulnerable to sudden attack!"
 				""
-				"Eating exceptionally well will keep you spry, healthy, and virtually immortal, like &aAsh Ketchum&r!"
+				"Eating exceptionally well will keep you spry, healthy, and virtually immortal, just like &aAsh Ketchum&r!"
 			]
-			dependencies: ["7E8B9D29D34E8D2C"]
+			dependencies: ["4037E692772EC7FE"]
 			hide: true
 			id: "1455941647C48282"
-			tasks: [{
-				id: "1BD7EE01776B3AFB"
-				type: "checkmark"
-				icon: "pixelmon:curry_fried_food"
-			}]
+			tasks: [
+				{
+					id: "772913C1EA4718D4"
+					type: "item"
+					item: "minecraft:beetroot_soup"
+				}
+				{
+					id: "30E80A428EA8D293"
+					type: "item"
+					item: "farmersdelight:pumpkin_slice"
+				}
+				{
+					id: "4F3CADC922B48B57"
+					type: "item"
+					item: "minecraft:bread"
+				}
+				{
+					id: "1B049B7B806AC7C7"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+			]
 			rewards: [{
 				id: "01DF8904426F0C9B"
 				type: "item"
 				item: "minecraft:cooked_chicken"
 			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			subtitle: "Only Counts if Crafted"
+			description: [
+				"Coarse dirt can be created by crafting two blocks of normal Dirt with two blocks of Gravel. This allows you to effectively turn gravel into dirt."
+				""
+				"Arceus left a Rock Pokemon Spawner inside the granite boulder. If you were to discover this spawner's location and power it with a source of redstone pulses such as a hovering hourglass, it would reliably produce new Geodudes."
+				""
+				"Geodude have sturdy, and Grubbin does not; but Geodudes from a spawner will appear quicker than Grubbin will."
+			]
+			dependencies: ["1C8AF2B80EA46940"]
+			hide: true
+			optional: true
+			id: "3EBBCBE73E115B38"
+			tasks: [{
+				id: "2DDB3AD7C9E71AB1"
+				type: "item"
+				item: "minecraft:coarse_dirt"
+				count: 32L
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "5191C3E309B091E0"
+					type: "item"
+					item: "pixelmon:spelon_berry"
+				}
+				{
+					id: "5EEC2BF3AFAC50FE"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			subtitle: "Chop chop!"
+			description: ["Knives can be used to process various foods on a cutting board, a primitive way of doubling them. You can also break tall grass or farm crops with them, and there is a chance the grass will drop straw in addition to wheat seeds."]
+			dependencies: ["7E8B9D29D34E8D2C"]
+			hide: true
+			id: "393758787D61BE1D"
+			tasks: [
+				{
+					id: "6380DF36EF0B5EB5"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "525418AE706141A1"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"Organic compost, once mixed, needs to be left alone in the world for awhile so that it can slowly turn into rich soil. This rich soil will be trample resistant and grows crops faster than regular dirt."
+				""
+			]
+			id: "7E633685856802A3"
+			tasks: [{
+				id: "59F898DF2989150C"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: [
+				"Farmers can use this cooking pot to prepare more complex and nutrient rich foods, many of which give benefits like regeneration. Of course, you will need to collect more ingredients to make these recipes possible."
+				""
+				"Once you create a farmer's cooking pot, you will need to place it over a heat source, such as a campirefire, or a furnace which is currently burning something."
+			]
+			id: "0946764F167E6329"
+			tasks: [{
+				id: "48C941A7C17034F5"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "3F887F3FFD2ACC85"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			subtitle: "Smells slightly Spicy, like Cinnamon."
+			description: [
+				"Wait a minute! What is this thing Drifloon's brought you? A cake made of... &cblood&r? Or of some kind of slime that merely looks like blood? It- it really smells delicious."
+				""
+				"You don't remember any stories about blood, exactly, but you do recall Tinkerers were very interested in different kinds of &aslime&r."
+				""
+				"Perhaps if you embue some beetroot seeds with blood using the casting basin, you might make something interesting..."
+			]
+			dependencies: ["7E8B9D29D34E8D2C"]
+			hide: true
+			secret: true
+			id: "1609DE2F423052F2"
+			tasks: [{
+				id: "7D70692CBF43F2A6"
+				type: "item"
+				item: "tconstruct:blood_cake"
+			}]
+			rewards: [{
+				id: "4E658199CEDA708A"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.5d
+			subtitle: "Figure out how to make them!"
+			description: [
+				"You've made some red slimy seeds! These types of seeds should be placed away from the dirt you normally grow grass on. When you plant the seeds on a piece of dirt, it will turn into a single block of &cnylium&r. This nylium can be spread to other dirt blocks by bonemealing it."
+				""
+				"In addition to spreading, bonemealing the nylium will spawn grass to shear and, if you're lucky and do it often enough, an elusive and very special type of mushroom will spawn. Stock up on bonemeal! Find that mushroom!"
+			]
+			dependencies: ["1609DE2F423052F2"]
+			hide: true
+			hide_text_until_complete: true
+			id: "09EA3E3879D92F55"
+			tasks: [{
+				id: "2A3EA0B8831CE9A3"
+				type: "item"
+				item: "tconstruct:blood_slime_grass_seeds"
+			}]
+			rewards: [{
+				id: "433084FE58878A69"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.5d
+			subtitle: "Now you need Glowstone and an Egg..."
+			description: ["Using shears, you can collect large amounts of tall slimy grass. This grass is a necessary ingredient of that cake!"]
+			dependencies: [
+				"09EA3E3879D92F55"
+				"404CD42121B0EFD8"
+			]
+			hide: true
+			id: "5F4F72FBCEB01161"
+			tasks: [{
+				id: "0C10B5E2106F58C8"
+				type: "item"
+				item: "tconstruct:blood_slime_tall_grass"
+			}]
+			rewards: [
+				{
+					id: "62285842F00BA506"
+					type: "item"
+					item: "byg:green_apple"
+				}
+				{
+					id: "545921C3A1488359"
+					type: "item"
+					item: "pixelmon:red_clock"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -8.5d
+			subtitle: "Find the mushroom to reveal the text!"
+			description: [
+				"You've done it! You've found the rare slimy mushroom called the \"Bloodshroom\"! You now need to plant it back on the nylium and bonemeal it until it grows. Like with a tree, this might take multiple tries. Make sure there is nothing too close to it that might prevent its growth."
+				""
+			]
+			dependencies: ["09EA3E3879D92F55"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3E6611CCDD36C0D1"
+			tasks: [{
+				id: "6E50CEF22BD25EE2"
+				type: "item"
+				item: "tconstruct:blood_slime_sapling"
+			}]
+			rewards: [
+				{
+					id: "1412DDC0B3BD09E5"
+					type: "item"
+					item: "minecraft:shroomlight"
+				}
+				{
+					id: "7B273390952C78A3"
+					type: "item"
+					item: "pixelmon:curry_fried_food"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -8.5d
+			description: [
+				"You've done it! You've done... something!"
+				""
+				"This strange mushroom you've created looks like it has a variety of useful properties. The wart blocks act like leaves, but can be moved without shears. The 'wood' of the mushroom can be used as a tinkering ingredient to produce overslimed tools. And the ichor... what can you do with the ichor?"
+			]
+			dependencies: ["3E6611CCDD36C0D1"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7E197FCD844FF182"
+			tasks: [
+				{
+					id: "499BC8D252612B4D"
+					type: "item"
+					item: "tconstruct:bloodshroom_log"
+				}
+				{
+					id: "4F32ADFE1B5B2177"
+					type: "item"
+					item: "tconstruct:ichor_slime_ball"
+				}
+				{
+					id: "73C4CC827D1ABF60"
+					type: "item"
+					item: "tconstruct:blood_slime_leaves"
+				}
+			]
+			rewards: [
+				{
+					id: "6A3898687CB40985"
+					type: "item"
+					item: "pixelmon:orange_umbrella"
+				}
+				{
+					id: "3B3C19C8466C9917"
+					type: "item"
+					item: "byg:red_spruce_sapling"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -8.5d
+			subtitle: "More than a push"
+			description: [
+				"This tool can be used to yeet Pokemon. Very useful for when the wrong Pokemon are overtaking a habitat: Just charge it up, point it at them, release, and off they go!"
+				""
+				"There's enough rubble floating around this abyss, they'll find someplace reasonable to reside until you're ready for them."
+			]
+			dependencies: ["7E197FCD844FF182"]
+			hide: true
+			id: "3C1A4FC9A80E076B"
+			tasks: [{
+				id: "020A12A83C3AF8F1"
+				type: "item"
+				item: {
+					id: "tconstruct:ichor_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "645FF062AE651995"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+					count: 3
+				}
+				{
+					id: "3EEFB28E47CB629E"
+					type: "item"
+					item: "byg:orange_spruce_sapling"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -9.5d
+			subtitle: "Boing! Boing! Boing!"
+			description: ["Every time you bump into these blocks, it sends you flying in the opposite direction! Very nice for jumping on, and the ichor one also gives off a small amount of light."]
+			dependencies: ["7E197FCD844FF182"]
+			hide: true
+			id: "1B33709ACD196577"
+			tasks: [
+				{
+					id: "26F797B6AA1D91B2"
+					type: "item"
+					item: "tconstruct:ichor_congealed_slime"
+				}
+				{
+					id: "6CCEB73B62A39F87"
+					type: "item"
+					item: "tconstruct:blood_congealed_slime"
+				}
+			]
+			rewards: [
+				{
+					id: "67375E746DD3D132"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "68061D9E9BEE0936"
+					type: "item"
+					item: "byg:yellow_spruce_sapling"
+				}
+			]
+		}
+		{
+			title: "Slimewood tools"
+			x: -10.5d
+			y: -7.5d
+			subtitle: "Yummy?"
+			description: [
+				"Slimewood tool rods or extras grant objects a second durability bar, which is consumed before the main durability is.  This durability bar is called the tool's \"Overslime.\""
+				""
+				"Overslime can be recharged with Slime Crystals. This gives you a renewable way to repair tools regardless of Pickaxe Head type!"
+				""
+				"Slimewood tool rods (not extras) also increase durability, but its at a slight hit to mining and attack speed."
+			]
+			dependencies: ["7E197FCD844FF182"]
+			hide: true
+			id: "2C25AE5D7E72F34A"
+			tasks: [{
+				id: "1DCA98263A08E06C"
+				type: "item"
+				title: "Slimewood tool rod or extra"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10CCC75F13D5C727"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "3F3F9B3BDCEC2EE3"
+					type: "item"
+					item: "byg:blue_spruce_sapling"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -10.5d
+			subtitle: "Must be Crafted"
+			description: ["You need egg, glowstone, blood slime, and the slimy grass you previously collected in order to make this kind of cake. But oh what a cake it is! Packed with protein and able to heal you up!"]
+			dependencies: ["5F4F72FBCEB01161"]
+			hide: true
+			id: "330426CA27EEECFA"
+			tasks: [{
+				id: "6927E64C2C54A061"
+				type: "item"
+				item: "tconstruct:blood_cake"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "100C2E7FD4CC5B6C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+				{
+					id: "77F3CCD9DD60ACCB"
+					type: "item"
+					item: "pixelmon:super_potion"
+				}
+				{
+					id: "4DB372D701F883B9"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "In Almost Everything!"
+			description: ["You have no idea how you're going to get your hands on a tomato. Perhaps something in one of the other parts of the Diary can help."]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "147AE8C6B4DBD9F5"
+			tasks: [{
+				id: "3A5CC4E072F44431"
+				type: "item"
+				item: "farmersdelight:tomato"
+			}]
+			rewards: [{
+				id: "0F657C0C422882BC"
+				type: "choice"
+				table_id: 7937607534361159376L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -13.5d
+			description: [
+				"Juices are made by combining two berries of the same color in an infuser."
+				""
+				"Some berries are much stronger than others."
+				""
+				"If both berries are from the same species, the juice will be weak. But if the berries are from different species, their potency will be doubled."
+				""
+				"Right now, you can only make two juices: Double-Oran-Berry Blue Juice, and Double-Leppa-Berry Red Juice. Both will produce the weakest juices. The Juices will increase Pokemon EVs by 4"
+				""
+				"The Blue Juice will increase special attack. The Red Juice will increase attack."
+			]
+			dependencies: ["538F287C91F715DC"]
+			id: "0B1D06F00CFDA75B"
+			tasks: [
+				{
+					id: "4D7A58EFE44E3CE3"
+					type: "item"
+					item: "pixelmon:blue_juice"
+				}
+				{
+					id: "6A08532CD51298DC"
+					type: "item"
+					item: "pixelmon:red_juice"
+				}
+			]
+			rewards: [{
+				id: "608EF25A518AB476"
+				type: "choice"
+				table_id: 6775360253834921576L
+			}]
+		}
+		{
+			title: "Learning About your Infuser"
+			x: -1.0d
+			y: -12.0d
+			subtitle: "Juice"
+			description: [
+				"When you were first given the Infuser, you understood it to be for creating incenses. But that's actually only one of an infusers many uses!"
+				""
+				"Infusers can also be used to make a variety of juices. These can heal a Pokemon, or increase its stats."
+				""
+				"To get started, you first need to make sure you've successfully foraged both starting berries, as there is no other way to get them."
+			]
+			id: "0B84552613E68300"
+			tasks: [
+				{
+					id: "4ACE92A47982E144"
+					type: "observation"
+					title: "Go to your Infuser and Observe it for a Moment"
+					icon: "pixelmon:infuser"
+					timer: 60L
+					observe_type: 0
+					to_observe: "pixelmon:infuser"
+				}
+				{
+					id: "5FBB8EA0D317C4C8"
+					type: "item"
+					item: "pixelmon:oran_berry"
+				}
+				{
+					id: "74E7B21B151B3A8D"
+					type: "item"
+					item: "pixelmon:leppa_berry"
+				}
+			]
+			rewards: [
+				{
+					id: "4B05310B8E6E31F0"
+					type: "item"
+					item: "pixelmon:berry_juice"
+				}
+				{
+					id: "5B70127FC2191F48"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -15.0d
+			description: ["Did you have the foresight to plant the Rabuta and Nomel berries you got in the first chapter? If so, you will have the ingredients necessary for Green and Yellow Juice."]
+			id: "4492876C80C88C34"
+			tasks: [
+				{
+					id: "730D446DB208E21F"
+					type: "item"
+					item: "pixelmon:green_juice"
+				}
+				{
+					id: "5A1229A402CA6440"
+					type: "item"
+					item: "pixelmon:yellow_juice"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -15.0d
+			description: [
+				"In this Chapter, you will collect the Magost and Watmel berries (both pink), as well as the Spelon berry (red). "
+				""
+				"You can create +8 EV boosting juices by combining a Spelon and Leppa Berry, and a Watmel and Magost."
+			]
+			id: "26E83CE97A250CD2"
+			tasks: [
+				{
+					id: "6B372961C37EE22C"
+					type: "item"
+					title: "+8 Red Juice"
+					item: {
+						id: "pixelmon:red_juice"
+						Count: 1b
+						tag: {
+							Stats_Boost: 8
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "651E23A3C4D3FB4F"
+					type: "item"
+					title: "+8 Pink Juice"
+					item: {
+						id: "pixelmon:pink_juice"
+						Count: 1b
+						tag: {
+							Stats_Boost: 8
+						}
+					}
+					only_from_crafting: true
+				}
+			]
 		}
 	]
 }

@@ -2808,6 +2808,9 @@
 				"They can also be used in a day care to transfer egg moves. If a Pokemon holding a mirror herb with an empty move slot is placed in a day care with a Pokemon who already knows that egg move, the pokemon holding the Mirror Herb will learn that egg move."
 			]
 			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
 			id: "076ED3510C570AE2"
 			tasks: [
 				{
@@ -2987,6 +2990,10 @@
 			y: -10.0d
 			subtitle: "For Weaving a Family Tapestry..."
 			description: ["Destiny Knots are useful items that look no different from a ball of red yarn a kitten might play with. They can be held to mirror infatuation moves, and also during breeding to ensure more of a parent's IVs pass on to offspring."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
 			id: "0B48AF763B9B6AAF"
 			tasks: [
 				{

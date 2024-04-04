@@ -7,21 +7,40 @@
 	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "3EC2C40138D33F79"
-		tasks: [{
-			id: "3D9AC861B28D9A71"
-			type: "item"
-			item: "tconstruct:seared_brick"
-		}]
-		rewards: [{
-			id: "6E0F7398E1EA821A"
-			type: "command"
-			auto: "no_toast"
-			command: "/function ghosts:fortell_invasion_wave_1"
-			player_command: false
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "3EC2C40138D33F79"
+			tasks: [{
+				id: "3D9AC861B28D9A71"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "6E0F7398E1EA821A"
+				type: "command"
+				auto: "no_toast"
+				command: "/function ghosts:fortell_invasion_wave_1"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			secret: true
+			id: "36FD8B74304A58EA"
+			tasks: [{
+				id: "58071F733283D6EC"
+				type: "item"
+				item: {
+					id: "constructsarmory:mail"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:wood"
+					}
+				}
+			}]
+		}
+	]
 }

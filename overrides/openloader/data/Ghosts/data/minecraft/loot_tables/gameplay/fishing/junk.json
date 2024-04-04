@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.0
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:necrotic_bone",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:stray_head",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_head",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:husk_head",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:drowned_head",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_head",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:rotten_tomato",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "biomesoplenty:flesh",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "byg:cattail",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "byg:reeds",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "byg:hanging_bones",
+          "weight": 10
+        },
+        {
+           "type": "minecraft:item",
+          "name": "pixelmon:trash_can",
+          "weight": 10 
+        },
+        {
+           "type": "minecraft:item",
+          "name": "tconstruct:spider_head",
+          "weight": 10 
+        }
+       
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/junk"
+}

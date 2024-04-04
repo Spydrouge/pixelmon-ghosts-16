@@ -266,6 +266,12 @@
 						}
 					}
 				}
+				{
+					id: "20A2D6124B51788A"
+					type: "item"
+					item: "minecraft:black_glazed_terracotta"
+					count: 9
+				}
 			]
 		}
 		{
@@ -305,6 +311,7 @@
 				"You'll need to kill 3 out of 5!"
 			]
 			dependencies: ["3EC2C40138D33F79"]
+			hide: true
 			size: 3.0d
 			id: "65550A21575C805E"
 			tasks: [{
@@ -329,9 +336,11 @@
 			}]
 		}
 		{
+			icon: "tconstruct:husk_head"
 			x: 0.0d
 			y: -11.0d
 			dependencies: ["65550A21575C805E"]
+			hide: true
 			id: "1B6F5CF88BB9E7CC"
 			tasks: [
 				{
@@ -415,6 +424,100 @@
 					type: "item"
 					item: "pixelmon:temple_pillar"
 					count: 6
+				}
+				{
+					id: "15B6127BCA05AE1F"
+					type: "item"
+					item: "pixelmon:spelon_berry"
+				}
+			]
+		}
+		{
+			title: "Armor Up Better!"
+			icon: "pixelmon:eye_of_lugia"
+			x: 0.0d
+			y: -12.5d
+			description: [
+				"You've dealt with another invasion, and this clay armor isn't going to cut it."
+				""
+				"You're going to need to tinker your armor, the same as you've been tinkering your tools!"
+			]
+			dependencies: ["65550A21575C805E"]
+			hide: true
+			id: "5D91DB3381AE6B0A"
+			tasks: [{
+				id: "6559B2AA7DCF6A21"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Construct's Armory"
+			x: 0.0d
+			y: -13.5d
+			description: ["Create a full set of Tinker's Construct armor. This may be expensive to produce, so choose cheaper materials if necessary. Tips and tricks discussing the best materials should be elsewhere in this Diary."]
+			dependencies: ["5D91DB3381AE6B0A"]
+			hide: true
+			id: "03565E7A4412F853"
+			tasks: [
+				{
+					id: "7104D01B5F76417E"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/chestplate"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/chestplate"
+						}
+					}
+				}
+				{
+					id: "050778F1A9EDF7F2"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/helmets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/helmets"
+						}
+					}
+				}
+				{
+					id: "4FD6DB3718C448B7"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/boots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/boots"
+						}
+					}
+				}
+				{
+					id: "63A51C2EFFEA5FE2"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/leggings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/leggings"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1BF001B14747DC65"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "4008EA21D3303D51"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
 				}
 			]
 		}

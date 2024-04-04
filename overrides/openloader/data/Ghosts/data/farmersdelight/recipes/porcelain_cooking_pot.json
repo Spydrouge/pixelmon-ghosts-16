@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "ibi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "tconstruct:seared_brick"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "b": {
+      "item": "ceramics:clay_bucket"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:cooking_pot"
+  }
+}

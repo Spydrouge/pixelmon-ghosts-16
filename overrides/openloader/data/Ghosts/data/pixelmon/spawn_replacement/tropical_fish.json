@@ -6,9 +6,9 @@
   ],
   "replacement_logic": "simple",
   "specs": [
-    "bruxish",
-    "finneon",
-    "goldeen",
+    "finneon palette:drowned",
+    "magikarp palette:valencian",
+    "magikarp palette:drowned",
     "luvdisc"
   ]
 }

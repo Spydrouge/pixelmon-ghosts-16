@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": {
+    "type": "pixelmon:pixelmon"
+  },
+  "result": {
+    "fluid": "tconstruct:blood",
+    "amount": 20
+  },
+  "damage": 2
+}

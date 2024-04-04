@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "minecraft:skeleton_skull"
+  },
+  "value": 2,
+  "needed": 1,
+  "material": "tconstruct:bone"
+}

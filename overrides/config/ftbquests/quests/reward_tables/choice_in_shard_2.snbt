@@ -1,0 +1,10 @@
+{
+	id: "6E280BFF4C0FA6D0"
+	order_index: 2
+	title: "Choice in Shard"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:green_shard" }
+		{ item: "pixelmon:red_shard" }
+	]
+}

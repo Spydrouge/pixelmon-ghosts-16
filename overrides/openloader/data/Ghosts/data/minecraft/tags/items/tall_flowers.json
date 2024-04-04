@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "biomesoplenty:cattail",
+    "biomesoplenty:reed",
+    "biomesoplenty:barley",
+    "byg:cattail",
+    "byg:reeds",
+    "byg:horseweed"
+
+  ]
+}

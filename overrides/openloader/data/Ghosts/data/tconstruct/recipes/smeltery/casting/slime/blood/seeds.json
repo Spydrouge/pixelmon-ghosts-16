@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:beetroot_seeds"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:blood",
+    "amount": 2250
+  },
+  "result": "tconstruct:blood_slime_grass_seeds",
+  "cooling_time": 94
+}

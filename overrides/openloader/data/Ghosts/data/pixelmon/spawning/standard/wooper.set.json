@@ -47,7 +47,75 @@
         }
       ],
       "rarity": 20.0
-    }
+    },
+    {
+      "spec": "species:Wooper form:paldean",
+      "stringLocationTypes": [
+        "Land",
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":128,
+        "minY":96,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+           "biomesoplenty:mud",
+            "byg:mud_block"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.2,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Wooper form:paldean",
+      "stringLocationTypes": [
+        "Land",
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+           "biomesoplenty:mud",
+            "byg:mud_block"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 20.0
+    },
     {
       "spec": "species:Wooper",
       "stringLocationTypes": [

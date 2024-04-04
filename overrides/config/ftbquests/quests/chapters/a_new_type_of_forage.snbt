@@ -1,0 +1,387 @@
+{
+	id: "063C46B4F62D89D3"
+	group: "4A96B64D5627EDC5"
+	order_index: 4
+	filename: "a_new_type_of_forage"
+	title: "A New Type of Forage"
+	icon: {
+		id: "minecraft:fishing_rod"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Some Time Alone with the Fish"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"You've never seen a \"Vanilla\" fishing rod before, but they seem simple enough to make. It most probably can't catch Pokemon, but you might be able to fish up some useful junk."
+				""
+				"Additionally, the fishing pole is one of the few items that can move Pixelmon, and-more importantly-other people, around. This is true even with people who normally cannot be pushed, like villagers!"
+				""
+				"Foraging takes a lot of your time, and being able to fish while external moves are on cooldown should at least help keep you busy."
+			]
+			dependencies: ["02D3224F5FF97681"]
+			hide: true
+			size: 2.0d
+			id: "5C031B33E5E01602"
+			tasks: [{
+				id: "58F758ED2F6854F0"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61680C71E0A89103"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 5
+						}
+					}
+				}
+				{
+					id: "1F74C97194951EE4"
+					type: "item"
+					item: "pixelmon:purple_water_float"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["The water is filled with dead and crumbling things. You can supplement your Pokemon's forage by fishing for many of the same materials."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "13E59C447B347A7C"
+			tasks: [
+				{
+					id: "05770124759815F3"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "081DD61DA49AEA1D"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "184A7A01884052F7"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+				}
+				{
+					id: "6E03AA04F38B6524"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "6AF32731A0DCF07F"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+			]
+			rewards: [
+				{
+					id: "1D3EC4E1EDA435C2"
+					type: "item"
+					item: "minecraft:bowl"
+				}
+				{
+					id: "74CBFA7B43D54A06"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "For the other type of \"Boo!\""
+			description: [
+				"If you fish up a rotten tomato, resist the temptation to throw it! This is the only way you can get tomato seeds, which will boost the number of recipes available to you."
+				""
+				"Carefully craft the rotten tomato into tomato seeds and plant on farmland near water."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "0EA8B5C7A1DAFFF3"
+			tasks: [{
+				id: "7E38397731DE99BE"
+				type: "item"
+				item: "farmersdelight:rotten_tomato"
+			}]
+			rewards: [
+				{
+					id: "421A084931D6E624"
+					type: "item"
+					item: "farmersdelight:rotten_tomato"
+					count: 3
+				}
+				{
+					id: "43029E3DAAE02BB6"
+					type: "item"
+					item: "farmersdelight:tomato_sauce"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Reverse Engineering"
+			description: ["It's definitely not the best way to farm leather, but you can craft damaged leather boots together to get undamaged books, and then tear them apart on a cutting board with a knife or shears."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "7C554F2E38E01DD7"
+			tasks: [{
+				id: "6DA677A317F705DE"
+				type: "item"
+				item: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5A0814EB7939FC73"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "6074513F4098E156"
+					type: "item"
+					item: {
+						id: "constructsarmory:mail"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:leather"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Skull Collection"
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"There's quite a lot of other dead stuff in this water as well. Every skull can be placed in a melter to render it into a liquid. The Drowned skull, for instance, is a source of water."
+				""
+				"You believe there is a way to transform these skulls into specialized helmets or emblems that grant unique abilities, but you haven't discovered the ingredients for doing so just yet."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "0967CC03963F4642"
+			tasks: [
+				{
+					id: "04E7BAC264331B40"
+					type: "item"
+					item: "tconstruct:stray_head"
+				}
+				{
+					id: "620BA6BE416380B4"
+					type: "item"
+					item: "minecraft:zombie_head"
+				}
+				{
+					id: "1997514E188C85F7"
+					type: "item"
+					item: "tconstruct:husk_head"
+				}
+				{
+					id: "21F23BF50583A0BD"
+					type: "item"
+					item: "tconstruct:drowned_head"
+				}
+			]
+			rewards: [
+				{
+					id: "102EE9E7524BF78D"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "4AEABBEE883719EA"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "7EFD3E5144EF08A3"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "AH!"
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "199EF29352C78C68"
+			tasks: [{
+				id: "6DC0A28080049E4B"
+				type: "item"
+				item: "minecraft:creeper_head"
+			}]
+			rewards: [
+				{
+					id: "510FAB98D7590DC8"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "61AC18CCFAE7843C"
+					type: "item"
+					title: "Drifloon, that is NOT helping!"
+					item: "minecraft:tnt"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: [
+				"Well this seems mostly useless. You suppose you can cook it into bricks and use it for building manmade structures. "
+				""
+				"Unless! Perhaps a certain skull-and-crossbones themed salamander might possibly have eggs hidden inside this mud?"
+				""
+				"You should find out. If Wooper were going to spawn anywhere, it would be on the Murk Layers, between Y levels 96 and 128. You should collect mud, and build a habitat there near water, in the hopes of luring it out."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "3499FE59C4B4FC1F"
+			tasks: [{
+				id: "27BF5175A14272E2"
+				type: "item"
+				item: "biomesoplenty:mud_ball"
+			}]
+			rewards: [{
+				id: "536066A450768D7E"
+				type: "item"
+				item: "biomesoplenty:mud"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			subtitle: "???"
+			description: [
+				"That wasn't a ball of mud."
+				""
+				"That was a Pokemon Egg."
+			]
+			dependencies: ["3499FE59C4B4FC1F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "28A996E1F73821FD"
+			tasks: [
+				{
+					id: "1D4680AAC85BA63F"
+					type: "item"
+					item: "biomesoplenty:mud"
+					count: 16L
+				}
+				{
+					id: "031E147841F7DBFC"
+					type: "item"
+					item: "biomesoplenty:mud_ball"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6F9C32D2D91E94B8"
+				type: "command"
+				title: "Unknown"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+				}
+				command: "/pokegive @p Wooper form:paldean untradeable egg ball:cherish_ball ab:unaware iv_hp:31 iv_spdef:31 iv_def:31 g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["It appears this can be made into brown dye. That would make it the only source of brown dye you know of. This may be useful for some application reliant on color."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "1FC5941FD186854D"
+			tasks: [{
+				id: "4D4DA1DB6EAAD1A0"
+				type: "item"
+				item: "byg:reeds"
+			}]
+			rewards: [
+				{
+					id: "7947FD66B9DBE35F"
+					type: "item"
+					item: "botania:livingwood_twig"
+				}
+				{
+					id: "310A9CE50927A07B"
+					type: "item"
+					item: "pixelmon:brown_umbrella"
+				}
+				{
+					id: "37B88960406AF733"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Completionism"
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "1E0087DD805B425B"
+			tasks: [
+				{
+					id: "42897EE26A410FCD"
+					type: "item"
+					item: "minecraft:lily_pad"
+				}
+				{
+					id: "09281F86C10FDDA9"
+					type: "item"
+					item: "byg:hanging_bones"
+				}
+				{
+					id: "1AC7E2855DA594D0"
+					type: "item"
+					item: "tconstruct:spider_head"
+				}
+				{
+					id: "2778DE87DC734DEA"
+					type: "item"
+					item: "pixelmon:trash_can"
+				}
+			]
+			rewards: [{
+				id: "492795502742C54B"
+				type: "choice"
+				table_id: 4524191137701651332L
+			}]
+		}
+	]
+}

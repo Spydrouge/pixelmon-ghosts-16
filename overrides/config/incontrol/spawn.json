@@ -52,7 +52,11 @@
 			"minecraft:polar_bear",
 			"minecraft:bat",
 			"minecraft:llama",
-			"minecraft:squid"
+			"minecraft:squid",
+            "minecraft:pig",
+            "minecraft:llama",
+            "minecraft:trader_llama",
+            "minecraft:wandering_trader"
 		],
 		"passive":"true",
 		"result":"deny"

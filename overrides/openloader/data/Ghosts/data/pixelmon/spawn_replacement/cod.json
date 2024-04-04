@@ -6,8 +6,9 @@
   ],
   "replacement_logic": "simple",
   "specs": [
-    "magikarp",
-    "wishiwashi",
-    "remoraid"
+    "magikarp palette:brown_stripes",
+    "magikarp palette:apricot_tiger",
+    "magikarp palette:roasted",
+    "basculin form:white"
   ]
 }

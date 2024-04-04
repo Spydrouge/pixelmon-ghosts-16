@@ -1,0 +1,12 @@
+Obviously it would be ideal if we could break this up by pixelmon species, but we can't.
+
+Craft tweaker and datapacks are both able to add entity melting recipes. The problem is that it can only target entities based on their entity name or entity type tag. No nbt data or runtime tags allowed. You can make your own entity type tags, but unfortunately you also can't specify nbt data in those tags.
+
+This means all pokemon will 'melt' the same fluid. This would be a fantastic time to have them melt to Pokefennium, but although Materialis SAYS it includes Pokefennium, for 1.16.5, it does not.
+
+
+
+Take the composite material &cBloodbone&r. To make items out of Bloodbone, you must first create the desired item out of bone. Place the item on a casting basin, and pour blood over top of it.
+
+
+This method may be ideal, because of the Pokemon spawner Arceus left inside the granite boulder. If you were to discover this spawner's location and power it with a source of redstone pulses such as a hovering hourglass, it would reliably produce new Geodudes. Geodudes are of course an imperfect Pokemon to farm. They often have sturdy, giving them a chance to hit your Pokemon. But it's more reliable than other spawning methods in the early game.

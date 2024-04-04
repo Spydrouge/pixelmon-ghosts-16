@@ -1153,9 +1153,9 @@
     "pokemon":"Jigglypuff",
     "items":[
       {
-        "item":"minecraft:sugar_cane",
+        "item":"minecraft:leather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
@@ -1163,6 +1163,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:note_block",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -1170,7 +1176,7 @@
     "pokemon":"Wigglytuff",
     "items":[
       {
-        "item":"minecraft:sugar_cane",
+        "item":"minecraft:leather",
         "min":1,
         "max":3,
         "chance":1.0
@@ -1181,6 +1187,12 @@
         "max":2,
         "chance":0.5
       },
+      {
+        "item":"minecraft:note_block",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      }
       {
         "item":"pixelmon:moon_stone_shard",
         "min":1,
@@ -1236,19 +1248,25 @@
         "item":"minecraft:beetroot",
         "min":1,
         "max":1,
-        "chance":1.0
+        "chance":0.9
       },
       {
-        "item":"minecraft:grass",
+        "item":"minecraft:fern",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"minecraft:wheat_seeds",
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:absorb_bulb",
@@ -1278,6 +1296,12 @@
         "min":1,
         "max":1,
         "chance":1.0
+      },
+      {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":1,
+        "chance":0.2
       },
       {
         "item":"minecraft:chorus_flower",
@@ -1325,6 +1349,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":1,
+        "chance":0.3
       },
       {
         "item":"pixelmon:absorb_bulb",
@@ -2859,6 +2889,12 @@
         "chance":1.0
       },
       {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
+      {
         "item":"minecraft:soul_sand",
         "min":1,
         "max":1,
@@ -2874,6 +2910,12 @@
         "min":1,
         "max":2,
         "chance":1.0
+      },
+      {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":2,
+        "chance":0.5
       },
       {
         "item":"minecraft:soul_sand",
@@ -4945,11 +4987,17 @@
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
         "item":"minecraft:egg",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:chicken",
         "min":1,
         "max":1,
         "chance":0.5
@@ -4974,7 +5022,13 @@
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":3,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:egg",
+        "min":3,
+        "max":4,
         "chance":1.0
       },
       {
@@ -5214,7 +5268,7 @@
     "pokemon":"Igglybuff",
     "items":[
       {
-        "item":"minecraft:leather",
+        "item":"minecraft:rabbit_hide",
         "min":1,
         "max":2,
         "chance":1.0
@@ -5273,20 +5327,26 @@
       {
         "item":"minecraft:chicken",
         "min":1,
-        "max":2,
-        "chance":1.0
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":0.5
       },
       {
         "item":"minecraft:ender_pearl",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.5
       },
       {
         "item":"pixelmon:clever_feather",
@@ -5302,6 +5362,12 @@
       {
         "item":"minecraft:chicken",
         "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:egg",
+        "min":2,
         "max":3,
         "chance":1.0
       },
@@ -5803,15 +5869,27 @@
     "pokemon":"Hoppip",
     "items":[
       {
-        "item":"minecraft:dandelion",
+        "item":"minecraft:beetroot",
         "min":1,
-        "max":2,
-        "chance":1.0
+        "max":1,
+        "chance":0.9
       },
       {
-        "item":"minecraft:wheat_seeds",
+        "item":"farmersdelight:onion",
         "min":1,
-        "max":2,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"minecraft:dandelion",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:fern",
+        "min":1,
+        "max":1,
         "chance":0.5
       },
       {
@@ -5834,26 +5912,26 @@
       {
         "item":"minecraft:dandelion",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"minecraft:wheat_seeds",
+        "item":"farmersdelight:onion",
         "min":1,
-        "max":3,
-        "chance":0.5
+        "max":1,
+        "chance":0.9
+      },
+      {
+        "item":"pixelmon:pungent_root",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:yache_berry",
         "min":1,
         "max":1,
         "chance":0.1
-      },
-      {
-        "item":"byg:horseweed",
-        "min":1,
-        "max":1,
-        "chance":0.3
       }
     
     ]
@@ -5864,26 +5942,26 @@
       {
         "item":"minecraft:dandelion",
         "min":1,
-        "max":3,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"minecraft:cornflower",
+        "item":"farmersdelight:onion",
+        "min":1,
+        "max":1,
+        "chance":0.7
+      },
+      {
+        "item":"minecraft:wool",
         "min":1,
         "max":3,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"pixelmon:yache_berry",
         "min":1,
         "max":2,
         "chance":0.3
-      },
-      {
-        "item":"byg:horseweed",
-        "min":1,
-        "max":1,
-        "chance":0.5
       }
     ]
   },
@@ -6106,14 +6184,20 @@
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
         "item":"minecraft:chicken",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.1
+      },
+      {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:shiny_stone_shard",
@@ -7118,6 +7202,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"byg:pink_glowcane",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":{
@@ -9210,6 +9300,12 @@
         "min":1,
         "max":1,
         "chance":0.05
+      },
+      {
+        "item":"minecraft:potato",
+        "min":1,
+        "max":1,
+        "chance":0.01
       }
     ]
   },
@@ -10117,10 +10213,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:leather",
+        "item":"minecraft:rabbit_hide",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"minecraft:ender_pearl",
@@ -10625,6 +10721,12 @@
         "chance":0.5
       },
       {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"pixelmon:leaf_stone_shard",
         "min":1,
         "max":1,
@@ -10646,6 +10748,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":4,
+        "max":12,
+        "chance":1.0
       },
       {
         "item":"pixelmon:leaf_stone_shard",
@@ -12868,6 +12976,18 @@
         "chance":1.0
       },
       {
+        "item":"minecraft:chicken",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"minecraft:egg",
+        "min":2,
+        "max":3,
+        "chance":1.0
+      },
+      {
         "item":"pixelmon:shiny_stone_shard",
         "min":1,
         "max":2,
@@ -13027,7 +13147,7 @@
         "item":"immersiveengineering:nugget_uranium",
         "min":1,
         "max":1,
-        "chance":0.05
+        "chance":0.1
       }
     ]
   },
@@ -15331,29 +15451,35 @@
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"pixelmon:galarica_twig",
+        "item":"minecraft:egg",
         "min":1,
-        "max":2,
-        "chance":0.1
+        "max":1,
+        "chance":0.3
       },
       {
         "item":"minecraft:chicken",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"pixelmon:resist_feather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":0.1
       },
       {
         "item":"pixelmon:pomeg_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"pixelmon:galarica_twig",
         "min":1,
         "max":1,
         "chance":0.1
@@ -15371,15 +15497,15 @@
       },
       {
         "item":"minecraft:egg",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "min":2,
+        "max":3,
+        "chance":1.0
       },
       {
         "item":"minecraft:chicken",
         "min":1,
-        "max":2,
-        "chance":0.3
+        "max":1,
+        "chance":1.0
       },
       {
         "item":"pixelmon:resist_feather",
@@ -15883,9 +16009,9 @@
     "pokemon":"Swadloon",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"farmersdelight:cabbage",
         "min":1,
-        "max":3,
+        "max":1,
         "chance":1.0
       },
       {
@@ -16496,7 +16622,7 @@
         "item":"minecraft:soul_sand",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"minecraft:phantom_membrane",
@@ -17393,9 +17519,9 @@
     "pokemon":"Ferroseed",
     "items":[
       {
-        "item":"minecraft:wheat_seeds",
+        "item":"minecraft:potato",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
@@ -17422,7 +17548,7 @@
     "pokemon":"Ferrothorn",
     "items":[
       {
-        "item":"minecraft:wheat_seeds",
+        "item":"minecraft:potato",
         "min":2,
         "max":4,
         "chance":1.0
@@ -17620,6 +17746,12 @@
         "chance":1.0
       },
       {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"minecraft:ender_pearl",
         "min":1,
         "max":1,
@@ -17636,6 +17768,12 @@
         "max":4,
         "chance":1.0
       },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":4,
+        "max":8,
+        "chance":1.0
+      },    
       {
         "item":"minecraft:ender_pearl",
         "min":1,
@@ -18281,7 +18419,7 @@
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":3,
+        "max":1,
         "chance":1.0
       },
       {
@@ -18289,6 +18427,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:skeleton_skull",
+        "min":1,
+        "max":1,
+        "chance":1.0
       },
       {
         "item":"pixelmon:resist_feather",
@@ -18306,6 +18450,12 @@
         "min":2,
         "max":4,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":3,
+        "chance":0.5
       },
       {
         "item":"minecraft:bone",
@@ -19047,8 +19197,14 @@
       {
         "item":"minecraft:feather",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"minecraft:chicken",
@@ -19078,6 +19234,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:egg",
+        "min":2,
+        "max":3,
+        "chance":0.3
       },
       {
         "item":"minecraft:blaze_powder",
@@ -19898,6 +20060,12 @@
         "chance":1.0
       },
       {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
         "item":"pixelmon:kebia_berry",
         "min":1,
         "max":2,
@@ -19919,6 +20087,12 @@
         "min":1,
         "max":2,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"pixelmon:sitrus_berry",
@@ -21359,6 +21533,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:potato",
+        "min":1,
+        "max":1,
+        "chance":0.01
       }
     ]
   },
@@ -21516,9 +21696,21 @@
     "items":[
       {
         "item":"minecraft:feather",
-        "min":1,
-        "max":2,
+        "min":3,
+        "max":4,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:egg",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"minecraft:chicken",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"minecraft:allium",
@@ -22072,7 +22264,13 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:leather",
+        "item":"minecraft:white_wool",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:pink_wool",
         "min":1,
         "max":1,
         "chance":0.5
@@ -22093,6 +22291,18 @@
         "min":1,
         "max":3,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:white_wool",
+        "min":1,
+        "max":3,
+        "chance":1,0
+      },
+      {
+        "item":"minecraft:pink_wool",
+        "min":1,
+        "max":3,
+        "chance":1.0
       },
       {
         "item":"minecraft:honey_bottle",
@@ -22347,7 +22557,7 @@
         "item":"minecraft:soul_sand",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.5
       }
     ]
   },
@@ -22355,7 +22565,7 @@
     "pokemon":"Palossand",
     "items":[
       {
-        "item":"minecraft:sand",
+        "item":"minecraft:red_sand",
         "min":2,
         "max":4,
         "chance":1.0
@@ -22364,7 +22574,7 @@
         "item":"minecraft:soul_sand",
         "min":1,
         "max":3,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"minecraft:ghast_tear",
@@ -25172,6 +25382,12 @@
         "chance":0.5
       },
       {
+        "item":"farmersdelight:milk_bottle",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"minecraft:light_blue_glazed_terracotta",
         "min":1,
         "max":1,
@@ -25554,8 +25770,20 @@
       {
         "item":"minecraft:sugar",
         "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"farmersdelight:milk_bottle",
+        "min":1,
         "max":2,
         "chance":1.0
+      },
+      {
+        "item":"pixelmon:moomoo_milk",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"minecraft:cookie",
@@ -25592,22 +25820,28 @@
     "pokemon":"Falinks",
     "items":[
       {
-        "item":"minecraft:brick",
+        "item":"contenttweaker:brass_nugget",
         "min":1,
-        "max":2,
-        "chance":1.0
+        "max":1,
+        "chance":0.5
       },
       {
-        "item":"pixelmon:pokemail_brick",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "item":"thermal:bronze_nugget",
+        "min":2,
+        "max":4,
+        "chance":1.0
       },
       {
         "item":"minecraft:shield",
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"minecraft:black_terracotta",
+        "min":1,
+        "max":3,
+        "chance":1.0
       },
       {
         "item":"pixelmon:rocky_helmet",
@@ -25654,6 +25888,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:potato",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
