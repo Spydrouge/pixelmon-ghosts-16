@@ -61,6 +61,58 @@
             "Forage"
           ],
           "item": {
+            "itemID": "minecraft:ghast_tear",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "ghosts"
+            ]
+          },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "minecraft:soul_soil"
+                        ]   
+                  }
+              }
+          ],
+          "rarity": 30
+        },
+        {   
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:rotten_flesh",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "ghosts"
+            ]
+          },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "biomesoplenty:flesh"
+                        ]   
+                  }
+              }
+          ],
+          "rarity": 30
+        },
+        {   
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
             "itemID": "minecraft:wither_rose",
             "quantity": 1
           },
@@ -102,6 +154,17 @@
               "ghosts"
             ]
           },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 0.1,
+                  "condition":{
+                      "baseBlocks": [
+                            "biomesoplenty:flesh",
+                            "minecraft:soul_soil"
+                        ]   
+                  }
+              }
+          ],
           "rarity": 300
         },
         {
@@ -118,7 +181,17 @@
               "ghosts"
             ]
           },
-          "rarity": 60
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "minecraft:soul_sand"
+                        ]   
+                  }
+              }
+          ],
+          "rarity": 6
         },
          {
           "stringLocationTypes": [
@@ -290,7 +363,17 @@
               "ghosts"
             ]
           },
-          "rarity": 30
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "minecraft:soul_sand"
+                        ]   
+                  }
+              }
+          ],
+          "rarity": 3
         },
          {
           "stringLocationTypes": [

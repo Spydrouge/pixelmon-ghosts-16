@@ -117,16 +117,6 @@
 			}]
 			rewards: [
 				{
-					id: "23EFF4E92F920AC1"
-					type: "item"
-					item: "minecraft:soul_sand"
-				}
-				{
-					id: "524CE78E7F445045"
-					type: "item"
-					item: "minecraft:ghast_tear"
-				}
-				{
 					id: "625D8C32D9A652C5"
 					type: "command"
 					title: "Get some help from the hereafter"
@@ -134,6 +124,16 @@
 					auto: "invisible"
 					command: "/function ghosts:destroy_antispawner"
 					player_command: false
+				}
+				{
+					id: "56E9914C37A40B1D"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "31AA94C1CBF3853C"
+					type: "item"
+					item: "minecraft:ghast_tear"
 				}
 			]
 		}
@@ -160,7 +160,7 @@
 				""
 				"Hmm. You have a plan. It's called &aForage&r and it's an external move any pokemon can use. Send them out with 'R', press 'G' to forage, and be mindful of the cooldown."
 				""
-				"(If you forage on a floor only 1 block thick, your items will &5fall straight into the void&r. Instead, put some soul sand in a secure area to block forage from coming out any side of the block other than the top. Forage from it, or from blocks higher up, so you can catch the forage as it falls.)"
+				"All blocks can be foraged from. Some, like Soul Sand, drop a few more interesting things than others. To prevent drops from &cfalling into the void&r place the soul sand securely in the center of your little island, where Drifloon used to be."
 			]
 			dependencies: ["3F42095ED0007728"]
 			hide: true
@@ -318,7 +318,7 @@
 			y: 4.5d
 			subtitle: "No Life, Only Death"
 			description: [
-				"The &5Wither Rose&r grows in this haunted biome instead of &cPoppies&r or &eDandelions&r. Wither Roses have been used in mourning incenses and for communing with the dead. One can also be used for painless euthanasia. Perhaps you will find a use for them."
+				"The &dWither Rose&r grows in this haunted biome instead of &cPoppies&r or &eDandelions&r. Wither Roses have been used in mourning incenses and for communing with the dead. One can also be used for painless euthanasia. Perhaps you will find a use for them."
 				""
 				"Be careful not to let Drifloon touch one!"
 			]
@@ -352,11 +352,11 @@
 			y: 5.5d
 			subtitle: "Not Food, Do Not Drink"
 			description: [
-				"Maybe with some of the &5creepy&r things you've been foraging, you can make primitive &6incense&r for Arceus? You have no way of burning it, but you could use sticks to diffuse an aromatic liquid of some kind."
+				"Maybe with some of the &dcreepy&r things you've been foraging, you can make primitive &6incense&r for Arceus? You have no way of burning it, but you could use sticks to diffuse an aromatic liquid of some kind."
 				""
-				"You are going to soak a few &asticks&r in some &5ghast tears&r with a &5wither rose&r as the base scent. You will need a container to combine them in; a &5skull&r will have to do."
+				"You are going to soak a few &asticks&r in some &dghast tears&r with a &dwither rose&r as the base scent. You will need a container to combine them in; a &dskull&r will have to do."
 				""
-				"(Only claim reward on your own island)"
+				"(ONLY COMPLETE ON  YOUR OWN ISLAND)"
 			]
 			dependencies: ["14D0D614F8195BEE"]
 			hide: true
@@ -367,10 +367,12 @@
 					type: "item"
 					item: "minecraft:stick"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "732C5CCEDC9FF778"
 					type: "item"
+					title: "Any Skeleton Skull"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -391,23 +393,27 @@
 							]
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "0ADD6654AA104A13"
 					type: "item"
 					item: "minecraft:ghast_tear"
+					consume_items: true
 				}
 				{
 					id: "667A19EC17788F41"
 					type: "item"
 					item: "minecraft:wither_rose"
+					consume_items: true
 				}
 			]
 			rewards: [{
 				id: "2D0063404D5D95DF"
 				type: "command"
-				title: "ONLY CLAIM AT YOUR OWN ISLAND!"
-				icon: "biomesoplenty:palm_sapling"
+				title: "Something Interesting May Happen..."
+				icon: "pixelmon:timespace_altar"
+				auto: "enabled"
 				command: "/function ghosts:spawn_incense_island"
 				player_command: false
 			}]
@@ -932,6 +938,8 @@
 				"There are no Pokecenters in this void, but you think you can heal by tucking yourself and your Pokemon in at night with the help of a bed."
 				""
 				"You can obtain the material for the bed by gathering string from bug Pokemon, and weaving it into wool blocks"
+				""
+				"(ONLY SLEEP AT YOUR OWN ISLAND)"
 			]
 			dependencies: ["1461900BEAD0C38E"]
 			hide: true
@@ -1112,7 +1120,11 @@
 			x: -1.5d
 			y: 15.5d
 			subtitle: "Ex Morte Alternative"
-			description: ["Tools created through &6tinkering&r are less expensive and can be repaired, and gain abilities like &6cultivated&r, typically making them superior to regular tools. However, if you are struggling to get enough wood for the tinkering workbenches, you may decide to built an old-fashioned flint hatchet as a temporary lumbering tool."]
+			description: [
+				"Tools created through &6tinkering&r are less expensive and can be repaired, and gain abilities like &6cultivated&r, typically making them superior to regular tools."
+				""
+				"However, if you rushed this quest-line and used rope to decend, it could be because you're struggling to get started with wood. A flint hatchet might help you out. Or perhaps you just want to flex you survived in a No Tree Punching situation."
+			]
 			dependencies: ["3FB66E0318A36E57"]
 			hide: true
 			optional: true
@@ -1213,7 +1225,7 @@
 				""
 				"But suddenly Bug and Ghost Pokemon are spawning all over your island! If you pick and choose your battles carefully, you should be able to harvest materials from them, like wood and string!"
 				""
-				"But... you have no way of making &bpotions&r, no healing center, no Chansey... You are going to have to plan this very carefully. Perhaps you should write down your &btactcal notes&r somewhere else in this book."
+				"But... you have no way of making &bpotions&r, no healing center, no Chansey... You are going to have to plan this very carefully. Perhaps you should write down your &btactical notes&r somewhere else in this book."
 				""
 				"You don't know how long this phenomenon will last, but based on the new structures you see on your island, you may be able to power them with redstone if whatever mystical force keeping them going suddenly stops."
 			]
@@ -1247,11 +1259,16 @@
 					command: "/advancement grant @p only minecraft:adventure/root"
 					player_command: false
 				}
+				{
+					id: "7D930D037ABADC23"
+					type: "item"
+					item: "minecraft:dirt"
+				}
 			]
 		}
 		{
-			x: 2.5d
-			y: 6.5d
+			x: 4.0d
+			y: 4.5d
 			subtitle: "Another Pokeball!"
 			description: [
 				"You have found or crafted a &dLove Ball&r. This is the first Pokeball you have access too, outside of the &5Master Ball&r, and you will have to decide what to capture with it."
@@ -1325,29 +1342,32 @@
 						id: "pixelmon:pixelmon_spawner"
 						Count: 1b
 						tag: {
-							RepairCost: 0
 							BlockEntityTag: {
-								spawnLocation: 6s
-								rarity0: 100s
-								spawnRandom: 0b
+								spawnLocation: 0s
 								fireOnTick: 0b
 								maxSpawns: 1s
-								numPokemon: 1s
 								aggression: 0s
-								bossRatio: 100s
+								bossRatio: 100.0f
+								unbattleable: 0b
+								levelMax: 19s
 								specs: [{
 									pokemon: {
-										SpecificationData: "Castform"
+										SpecificationData: "Castform g:male"
 									}
 									rarity: 1
 								}]
-								levelMax: 19s
-								spawnRadius: 8s
+								gmaxRatio: 512.0f
+								shinyRatio: 2000.0f
+								spawnRadius: 3s
+								uncatchable: 0b
 								id: "pixelmon:pixelmon_spawner"
 								spawnTick: 200
 								levelMin: 16s
+								unbreedable: 0b
 							}
-							display: { }
+							display: {
+								Name: "[{\"text\":\"Castform Spawner(Redstone Pulse)\",\"italic\":false}]"
+							}
 						}
 					}
 				}
@@ -1414,7 +1434,7 @@
 		{
 			title: "Water Collection"
 			x: -2.0d
-			y: 13.0d
+			y: 14.0d
 			subtitle: "In Case of Rain"
 			description: [
 				"One thing you remember your Skyblocks relatives telling you about was the precious value of water. If you don't have water, you can't irrigate crops, fish, or- in some cases- build downward!"
@@ -1423,7 +1443,7 @@
 				""
 				"Instead, try to build a Rain Tank out of wood and leave it off to the side, in the hopes that if it does rain, you can collect it."
 			]
-			dependencies: ["1F4867DAC3F9EBB4"]
+			dependencies: ["46259252D19CEC1A"]
 			hide: true
 			id: "245F1B866EC2F06A"
 			tasks: [{
@@ -1447,9 +1467,13 @@
 		{
 			title: "Bone Preserver"
 			x: 2.0d
-			y: 13.0d
+			y: 14.0d
 			subtitle: "Waste Not"
-			description: ["Now that bones are valuable for building and repairing tools, you have an incentive not to turn all your hard-foraged bones into bonemeal. A composter is an alternative way to produce bonemeal."]
+			description: [
+				"Now that bones are valuable for building and repairing tools, you have an incentive not to turn all your hard-foraged bones into bonemeal. A composter is an alternative way to produce bonemeal."
+				""
+				"Perhaps this is a good way to get rid of all those pesky leaves..."
+			]
 			dependencies: ["44446E756EF1D1FE"]
 			hide: true
 			id: "335D1FD2C27C3103"
@@ -1481,7 +1505,7 @@
 			x: 0.5d
 			y: 10.0d
 			subtitle: "Full Blocks Only!"
-			description: ["Uh oh. You've noticed Pokemon don't seem to like your slabs as habitats. You'll have to use slabs only for pathways you want to keep clear, and full planks for places you want Pokemon to spawn."]
+			description: ["Uh oh. You've noticed Pokemon &ddon't seem to like your slabs&r as habitats. You'll have to use slabs only for pathways you want to keep clear, and full planks for places you want Pokemon to spawn."]
 			dependencies: ["1461900BEAD0C38E"]
 			id: "2A74E261C694215C"
 			tasks: [{
@@ -1514,6 +1538,7 @@
 			title: "Organization: Phase 1!"
 			x: -0.5d
 			y: 10.0d
+			subtitle: "\"Useful Gifts\""
 			description: ["Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory! You need to build some chests so you can organize this all!"]
 			dependencies: ["1461900BEAD0C38E"]
 			id: "02AB152380DFC150"
@@ -1521,6 +1546,141 @@
 				id: "6E23B12896C0BB9D"
 				type: "item"
 				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "73792A5C19B7FC2B"
+				type: "item"
+				item: "pixelmon:box"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 15.5d
+			subtitle: "Proper Tools"
+			description: [
+				"While there aren't currently many stone blocks to break, you might want to be able to &cdrop&r problematic Geodudes out &cthrough the floor&r of the boulder."
+				""
+				"You should probably have a look around for where the rock Pokemon spawner is, in case it starts needing a redstone signal in the future."
+			]
+			dependencies: ["3FB66E0318A36E57"]
+			id: "596F5F74C790C571"
+			tasks: [{
+				id: "136B04E458E5464A"
+				type: "item"
+				title: "Any Tinkers Pickaxe"
+				icon: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 2.5f
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 100.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 1s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:stringy"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:bone"
+							"tconstruct:wood"
+							"tconstruct:string"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:modifiable/harvest/stone"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5579A3D190F4F6CB"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "5306289DC7A251C0"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 13.0d
+			subtitle: "With Great Power..."
+			description: [
+				"Where did this come from!? Did Arceus just give you a &aPokemon Spawner&r!? Okay! Okay! You need to be very careful- you only have &cone shot to get this right&r."
+				""
+				"You're going to write down some notes about Spawners elsewhere in your Diary!"
+				""
+				"Let's see... It... It looks like a Castform Spawner. What is Castform known for? Weather! Weather! Calling rain, sun, and snow! But what do you need that for?"
+				""
+				"... Water?"
+				""
+				"Arceus must have seen you were having trouble even noticing the Castform flying by, much less fighting one!"
+			]
+			dependencies: ["1F4867DAC3F9EBB4"]
+			id: "46259252D19CEC1A"
+			tasks: [{
+				id: "7C3005D464207BC6"
+				type: "item"
+				item: "pixelmon:pixelmon_spawner"
+			}]
+			rewards: [{
+				id: "2EB83607E9135693"
+				type: "item"
+				item: "byg:blueberry_pie"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			subtitle: "???"
+			description: ["... W-Wait a Minute, This thing is Alive!!!"]
+			hide_dependency_lines: true
+			dependencies: ["32135E257A5EC812"]
+			hide: true
+			hide_text_until_complete: true
+			id: "61D6EDCFA99AB6CC"
+			tasks: [{
+				id: "7EFCB04FDB135EB1"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5403DC23A71B2CB1"
+				type: "command"
+				title: "A Skull Joins the Party?"
+				icon: "minecraft:skeleton_skull"
+				auto: "enabled"
+				command: "/pokegive @p duskull lvl:2 ability:frisk ivspd:0 ivatk:0 ivspatk:0 ivhp:31 ivdef:31 ivspdef:31 ribbon:best_friends g:male nature:bold"
+				player_command: false
 			}]
 		}
 	]

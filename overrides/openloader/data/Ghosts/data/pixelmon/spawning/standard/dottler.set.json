@@ -11,7 +11,7 @@
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:psychic_seed"
+          "itemID": "pixelmon:psychic_seed",
           "percentChance": 5
         }
       ],

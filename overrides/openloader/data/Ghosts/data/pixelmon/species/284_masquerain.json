@@ -311,21 +311,10 @@
       },
       "movement": {
         "rideable": false,
-        "canFly": true,
+        "canFly": false,
         "canSurf": false,
-        "canRideShoulder": false,
-        "flyingParameters": {
-          "flyHeightMin": 5,
-          "flyHeightMax": 15,
-          "flySpeedModifier": 1.0,
-          "flyRefreshRateY": 100,
-          "flyRefreshRateXZ": 100,
-          "flyRefreshRateSpeed": 100,
-          "flightTimeMin": 0,
-          "flightTimeMax": 20,
-          "flapRate": 5,
-          "landingMaterials": "LEAVES_AND_GRASS"
-        },
+        "canRideShoulder": false
+      },
       "aggression": {
         "timid": 80,
         "passive": 0,
@@ -346,8 +335,7 @@
         "spawnLevel": 25,
         "spawnLevelRange": 10,
         "spawnLocations": [
-          "LAND",
-          "AIR"
+          "LAND"
         ]
       },
       "possibleGenders": [

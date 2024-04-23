@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "botania:mushroom",
+  "ingredients": [
+    [
+      {
+        "item": "habitat:fairy_ring_mushroom"
+      }
+    ],
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "botania:white_mushroom"
+  }
+}

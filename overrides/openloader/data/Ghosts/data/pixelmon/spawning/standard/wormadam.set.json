@@ -13,6 +13,10 @@
         {
           "itemID": "pixelmon:silver_powder",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:rabuta_berry",
+          "percentChance": 50
         }
       ],
       "condition": {

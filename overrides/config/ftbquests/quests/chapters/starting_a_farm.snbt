@@ -1287,6 +1287,8 @@
 				"Organic compost, once mixed, needs to be left alone in the world for awhile so that it can slowly turn into rich soil. This rich soil will be trample resistant and grows crops faster than regular dirt."
 				""
 			]
+			dependencies: ["1455941647C48282"]
+			hide: true
 			id: "7E633685856802A3"
 			tasks: [{
 				id: "59F898DF2989150C"
@@ -1302,6 +1304,8 @@
 				""
 				"Once you create a farmer's cooking pot, you will need to place it over a heat source, such as a campirefire, or a furnace which is currently burning something."
 			]
+			dependencies: ["1455941647C48282"]
+			hide: true
 			id: "0946764F167E6329"
 			tasks: [{
 				id: "48C941A7C17034F5"
@@ -1725,6 +1729,11 @@
 				""
 				"To get started, you first need to make sure you've successfully foraged both starting berries, as there is no other way to get them."
 			]
+			dependencies: [
+				"4C30FCAF127E4F95"
+				"7E8B9D29D34E8D2C"
+			]
+			hide: true
 			id: "0B84552613E68300"
 			tasks: [{
 				id: "4ACE92A47982E144"
@@ -2711,6 +2720,11 @@
 				type: "item"
 				item: "pixelmon:fresh_water"
 			}]
+			rewards: [{
+				id: "450F99B5F4F8C23C"
+				type: "item"
+				item: "pixelmon:fresh_water"
+			}]
 		}
 		{
 			x: 0.5d
@@ -2727,6 +2741,18 @@
 				type: "item"
 				item: "pixelmon:moomoo_milk"
 			}]
+			rewards: [
+				{
+					id: "6B58E2103823AACC"
+					type: "item"
+					item: "pixelmon:curry_coconut"
+				}
+				{
+					id: "685BBACA3D4E1159"
+					type: "item"
+					item: "farmersdelight:hot_cocoa"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -3254,6 +3280,108 @@
 				id: "32616245F9D9DB47"
 				type: "item"
 				item: "pixelmon:skitty_smoothie"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/355_duskull/all/base/shiny/sprite.png"
+				}
+			}
+			x: -7.5d
+			y: -11.5d
+			subtitle: "Vampyric Consequences..."
+			description: [
+				"It seems Duskull would like this cake you've baked... You're not sure that's the best idea..."
+				""
+				"(&dWARNING&r If you complete this quest, you will lose all level progression with Duskull. It will jump back to level 2, and lose any TMs, TRs, ability or nature changes, Evs, etc. It will be effectively a brand new Pokemon. In return, it will recieve Max Attack IVs and the moves Shadow Bone, and Strength Sap.)"
+				""
+				"Choose Wisely."
+			]
+			dependencies: ["330426CA27EEECFA"]
+			hide: true
+			optional: true
+			id: "4076E8DAF8366006"
+			tasks: [
+				{
+					id: "1403360047580E89"
+					type: "item"
+					item: "tconstruct:blood_cake"
+					consume_items: true
+				}
+				{
+					id: "5BB9FB3AA795FB76"
+					type: "pixelmon:submit_pokemon"
+					title: "Let Duskull Eat the Cake"
+					disable_toast: true
+					pokemon: "duskull ribbon:best_friends"
+					count: 1
+					invert: false
+					party: 0b
+				}
+			]
+			rewards: [{
+				id: "3AD76631E6B8FE3E"
+				type: "pixelmon:pokemon"
+				title: "He's Red! And not feeling so good..."
+				auto: "enabled"
+				spec: "duskull lvl:2 ability:frisk ivspd:0 ivatk:31 ivspatk:0 ivhp:31 ivdef:31 ivspdef:31 ribbon:best_friends nature:bold g:male shiny move:shadow_bone move:strength_sap"
+				count: 1
+				shinyChance: 4096s
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			description: [
+				"Blaze Powder is rare in this cold world, but you can think of a fire-type ghost: &cLitwik&r. Litwik should spawn on the layer you started on, the Soil layer, and it should spawn indoors on man-made floors, and be attracted to torches."
+				""
+				"If you have lanterns or street lights, those may help lure out Lampent and Chandelure."
+			]
+			dependencies: ["187AE09D3D927F05"]
+			hide: true
+			id: "586FF3143FB34F46"
+			tasks: [{
+				id: "38C71793DA4D6EDC"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+			rewards: [
+				{
+					id: "1B7C2336D0ABC53D"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "1C43F5EA48290293"
+					type: "item"
+					title: "Drifloon is Helping!"
+					item: "minecraft:torch"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -1.0d
+			description: [
+				"Ghast tears are common drops from many types of ghosts. "
+				""
+				"Gastly, who also drop soul sand, spawn only in conditions where there is no light at all. Drifloon spawn in the air and pass the island; with practice, you can get better at throwing out your own Pokemon to challenge them."
+			]
+			dependencies: ["187AE09D3D927F05"]
+			id: "76DAECB0A6A18DEF"
+			tasks: [{
+				id: "0D65253ADE37001A"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1585916F9866628B"
+				type: "item"
+				item: "pixelmon:white_shard"
 			}]
 		}
 	]

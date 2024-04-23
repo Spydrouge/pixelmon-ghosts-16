@@ -38,6 +38,61 @@
     {
       "spec": "species:Duskull",
       "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+    "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+               "DUSK",
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
         "Indoors",
         "Land"
       ],

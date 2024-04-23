@@ -10,6 +10,12 @@
       "minLevel": 5,
       "maxLevel": 20,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rabuta_berry",
+          "percentChance": 10
+        }
+      ],
       "condition": {
         "baseBlocks": [
           "minecraft:sand",

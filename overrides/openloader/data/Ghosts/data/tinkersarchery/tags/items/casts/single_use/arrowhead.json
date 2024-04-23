@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "tinkersarchery:arrowhead_black_sand_cast",
-    "tinkersarchery:arrowhead_soul_sand_cast",
-    "tinkersarchery:arrowhead_orange_sand_cast",
-    "tinkersarchery:arrowhead_white_sand_cast",
-    "tinkersarchery:arrowhead_blue_sand_cast",
-    "tinkersarchery:arrowhead_pink_sand_cast",
-    "tinkersarchery:arrowhead_purple_sand_cast"
+    "contenttweaker:arrowhead_black_sand_cast",
+    "contenttweaker:arrowhead_soul_sand_cast",
+    "contenttweaker:arrowhead_orange_sand_cast",
+    "contenttweaker:arrowhead_white_sand_cast",
+    "contenttweaker:arrowhead_blue_sand_cast",
+    "contenttweaker:arrowhead_pink_sand_cast",
+    "contenttweaker:arrowhead_purple_sand_cast"
   ]
 }

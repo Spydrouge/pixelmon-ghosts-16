@@ -60,6 +60,104 @@
     {
       "spec": "species:Misdreavus",
       "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 8,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+              "DAWN",
+              "DAY"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Misdreavus palette:pink",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+              "NOON",
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Misdreavus",
+      "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 10,

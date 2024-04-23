@@ -84,6 +84,16 @@
           "ghosts"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cornflower"
+            ]
+          }
+        }
+      ],
       "rarity": 1
     },
     {
@@ -264,6 +274,7 @@
           "magical"
         ]
       },
+    
       "groupSpawnSettings": [
         {
           "spec": "Floette palette:blue",

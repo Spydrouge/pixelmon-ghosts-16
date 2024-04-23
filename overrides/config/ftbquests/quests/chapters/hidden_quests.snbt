@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: true
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: -3.0d
 			id: "3EC2C40138D33F79"
 			tasks: [{
 				id: "3D9AC861B28D9A71"
@@ -26,8 +26,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 0.5d
+			y: -3.0d
 			secret: true
 			id: "36FD8B74304A58EA"
 			tasks: [{
@@ -43,8 +43,9 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			icon: "pixelmon:fog_badge"
+			x: -7.5d
+			y: 2.5d
 			secret: true
 			id: "5063C10459F24517"
 			tasks: [{
@@ -106,8 +107,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 0.0d
+			x: -8.5d
+			y: 2.5d
 			id: "444A90F376AD5CFA"
 			tasks: [{
 				id: "5B5A8C77395782D6"
@@ -240,12 +241,124 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.0d
-			id: "17AA2ECDEA847DA4"
+			icon: "pixelmon:pixelmon_spawner"
+			x: -8.5d
+			y: 0.5d
+			description: ["Gives Tester a pixelmon spawner to test at the beginning, without creative mode, to see if it can be 'carried on' or moved with special wands"]
+			id: "3F6CF60E3FD71B80"
 			tasks: [{
-				id: "27F381C8B6A48AC5"
+				id: "0D71B617E3A28A27"
 				type: "checkmark"
+				title: "DEBUGGING"
+			}]
+			rewards: [{
+				id: "7087BD9EA007A42B"
+				type: "item"
+				item: {
+					id: "pixelmon:pixelmon_spawner"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							spawnLocation: 0s
+							fireOnTick: 0b
+							maxSpawns: 1s
+							aggression: 0s
+							bossRatio: 100.0f
+							unbattleable: 0b
+							levelMax: 19s
+							specs: [{
+								pokemon: {
+									SpecificationData: "Castform g:male"
+								}
+								rarity: 1
+							}]
+							gmaxRatio: 512.0f
+							shinyRatio: 2000.0f
+							spawnRadius: 3s
+							uncatchable: 0b
+							id: "pixelmon:pixelmon_spawner"
+							spawnTick: 200
+							levelMin: 16s
+							unbreedable: 0b
+						}
+						display: {
+							Name: "[{\"text\":\"Castform Spawner(Redstone Pulse)\",\"italic\":false}]"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: ["Helps get the Duskull quest going"]
+			dependencies: ["391C3D6A40B4349B"]
+			id: "32135E257A5EC812"
+			tasks: [{
+				id: "70D9EB02D003F239"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			title: "FAIL Detecting Pixelmon"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/355_duskull/all/base/shiny/sprite.png"
+				}
+			}
+			x: -8.5d
+			y: 4.0d
+			description: [
+				"It was not possible to execute a command only if Duskull was the first pokemon in the party. The followign command does check whether it's in the first position, and outputs a message, but always stores 1 and therefore cannot be chained."
+				""
+				"/execute store success score @p DuskullCheck run poketest 1 duskull"
+				""
+				"/scoreboard players get VampireKyn DuskullCheck"
+			]
+			id: "469C3F49D936E927"
+			tasks: [{
+				id: "7A99D4E1584E12AC"
+				type: "checkmark"
+				title: "It was not possible to execute commands only if duskull is the first pokemon in the party. "
+			}]
+		}
+		{
+			title: "FAIL Moving Blocks"
+			x: -7.5d
+			y: 4.0d
+			description: ["Much to my surprise, it is not possible to break pixelmon spawners by any means, not by any command, so that the player can pick them up again. I was going to make a reusable quest for that."]
+			id: "1A64EA7A856D9426"
+			tasks: [
+				{
+					id: "4AAAF59349B257A6"
+					type: "item"
+					item: "pixelmon:incense_burner"
+				}
+				{
+					id: "2849925F9521A98C"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+				}
+				{
+					id: "60556CECD5EDB299"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+			]
+			rewards: [{
+				id: "1A7235456182BAB4"
+				type: "command"
+				command: "/say Hi, @p!"
+				player_command: false
 			}]
 		}
 	]

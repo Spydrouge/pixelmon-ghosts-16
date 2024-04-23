@@ -38,6 +38,61 @@
     {
       "spec": "species:Dusclops",
       "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 38,
+      "maxLevel": 51,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+    "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+               "DUSK",
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 3.0
+    },
+    {
+      "spec": "species:Dusclops",
+      "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 38,

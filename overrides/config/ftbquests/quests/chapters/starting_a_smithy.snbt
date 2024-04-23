@@ -668,6 +668,7 @@
 				"Bloodbone isn't the only Tier 2 Composite. There's also &dWhitestone&r, which is Aluminum poured over stone tools."
 			]
 			dependencies: ["15FA67EAB413D40A"]
+			hide: true
 			id: "53C0B6C163A69032"
 			tasks: [{
 				id: "2C5860E7BC39FDE9"
@@ -754,6 +755,7 @@
 						]
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "2FEDAC19AE221B19"
@@ -768,23 +770,30 @@
 			description: [
 				"Most metals can be cast directly into different tool shapes. In the future, you will be able to create reusable gold casts, but for right now, you will need to make due with sand."
 				""
-				"To create a single-use sand cast, first go to the part builder and create the part you desire out of some expendible material, like wood. In this example, craft a wood pickaxe head."
+				"To create a single-use cast, the first step is to place any type of sand into a crafting grid, to produce four blank sand cast molds."
 				""
-				"Take the wood pickaxe head to the crafting table, and right click to place it down. Then hold some sand in your main hand, and right click with the sand on the crafting table."
+				"Then go to the part builder and create the part you desire out of some expendible material, like wood. In this example, craft a pickaxe head"
 				""
-				"Remove the wood pickaxe head. You can now pour metal directly into the mold."
+				"Go to the casting table, and place down your sand mold. Then right click on the sand mold with the wood pickaxe head. Afterwards, you can remove the pickaxe head, but the correctly shaped mold remains."
+				""
+				"You can now pour metal directly into the mold to cast a shape."
+				""
+				"If you decide you've picked the wrong piece to cast, you can pick the mold up out of the casting table, and it will revert to a blank mold again."
+				""
+				"Most likely, the best shape for you to cast will be a copper tool rod."
 			]
 			dependencies: ["15FA67EAB413D40A"]
+			hide: true
 			id: "5F26B40670405B8D"
 			tasks: [{
-				id: "341EA681917E3635"
+				id: "03EAE1C6901B4FDD"
 				type: "item"
-				title: "Any #tconstruct:casts/single_use/pickaxe_head"
+				title: "Any #tconstruct:casts/single_use/blank"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "tconstruct:casts/single_use/pickaxe_head"
+						value: "tconstruct:casts/single_use/blank"
 					}
 				}
 			}]
@@ -814,6 +823,7 @@
 				""
 			]
 			dependencies: ["15FA67EAB413D40A"]
+			hide: true
 			id: "282F2F422CD9FBD5"
 			tasks: [{
 				id: "2D07FED503F9D52F"
@@ -871,6 +881,454 @@
 					table_id: 6443510782262151491L
 				}
 			]
+		}
+		{
+			icon: "minecraft:magma_cream"
+			x: 6.5d
+			y: -3.0d
+			description: [
+				"Normally, this would be the time any tinkerer would start planning out their smeltery, but you have a problem: Your world is cold. It has no lava. And smelteries run exclusively on liquid fuel."
+				""
+				"But this whole experience has been filled with out of the box thinking, and you have a plan. But first: You need Magma Cream."
+				""
+				"Magma cream can be created by combining &cblaze powder&r and &aslime&r. Slime can come from blood drops or from slime on the Murk level. Blaze powder... well, you'll need a whole Diary Entry elsewhere for that one."
+			]
+			dependencies: [
+				"282F2F422CD9FBD5"
+				"5F26B40670405B8D"
+				"53C0B6C163A69032"
+			]
+			hide: true
+			id: "084C140BB2C5E955"
+			tasks: [
+				{
+					id: "0CF71C95E1020A51"
+					type: "item"
+					item: "minecraft:magma_cream"
+				}
+				{
+					id: "1ED054E1B4FCE42A"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
+			rewards: [{
+				id: "284AE2A8CFA16EFA"
+				type: "choice"
+				table_id: 1689588629867739314L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			description: [
+				"Nether Grout requires magma cream, gravel, and soul sand. Gastly is an excellent source of soul sand, and will spawn anywhere indoors where there is absolutely no light."
+				""
+				"Additionally, both forms of Yamask spawn on sandstone structures in the Stone Layer."
+			]
+			dependencies: ["084C140BB2C5E955"]
+			hide: true
+			id: "03826F688724B878"
+			tasks: [
+				{
+					id: "403E58C92C0365F1"
+					type: "item"
+					item: "tconstruct:nether_grout"
+				}
+				{
+					id: "256DEF0E23CC0D43"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+			rewards: [{
+				id: "61EB90725B633EE3"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			description: [
+				"It is time to assemble the thing you spent so long creating."
+				""
+				"Alloyers must be placed above a heater, just like Melters are. You can place tanks of fluid adjacent to the alloyer on any other side."
+				""
+				"If the fluids represent a valid recipe, and there's enough of them, the alloyer will fire up, take in the liquids, and combine them into an alloy."
+				""
+				"The easiest alloy to test this on is bronze."
+			]
+			dependencies: ["7608BEF97C66E0B9"]
+			hide: true
+			id: "47107D60FD080A18"
+			tasks: [{
+				id: "6A38A2904D705F16"
+				type: "item"
+				item: "tconstruct:scorched_alloyer"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["The normal way to produce scortched bricks is to smelt nether grout in a kiln, but there is another method: By melting magma cream and pouring it over a flint in a casting basin. "]
+			dependencies: ["084C140BB2C5E955"]
+			hide: true
+			id: "3E56672B40BDA1AD"
+			tasks: [{
+				id: "07787BA0D6AA041A"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+			}]
+			rewards: [{
+				id: "1BF031E007280B52"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: [
+				"In order to get the nether quartz, you will have to fight wild Drifloon. It might be time to fire up some of those old spawners from the Balloons islands. Drifloon aren't easy to fight; you have to aim your throw just right..."
+				""
+				"Alternatively, you can search for Zombie Sableye, who may be attracted to underground habitats on the Murk Layer."
+			]
+			dependencies: [
+				"3E56672B40BDA1AD"
+				"03826F688724B878"
+			]
+			hide: true
+			id: "7608BEF97C66E0B9"
+			tasks: [
+				{
+					id: "5B5AB75856D88393"
+					type: "item"
+					title: "Either Scortched Gauge"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:scorched_fuel_gauge"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_ingot_gauge"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "69C574DB5242B765"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+			]
+		}
+		{
+			title: "Bronze"
+			x: 10.5d
+			y: -3.0d
+			subtitle: "Welcome to Tier 3 Crafting!"
+			description: [
+				"&6Bronze&r is the most practical material you will work with in this Tier. It is relatively easy to obtain copper and tin in large quantities, and is an all-around dependable material, better described in the Tips and Tricks section."
+				""
+				"Tinker's Bronze, also known as Silicon Bronze, can be made similarly, but with copper and sand."
+			]
+			dependencies: ["47107D60FD080A18"]
+			hide: true
+			id: "0D5FC9DDE6C34DAE"
+			tasks: [{
+				id: "0DD345808FB3F06B"
+				type: "item"
+				title: "Make One of the Following with Bronze or Tinker's Bronze"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:bronze_ingot"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:tinkers_bronze_ingot"
+								Count: 1b
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:tinkers_bronze"
+								}
+							}
+						]
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			description: [
+				"Necronium is a powerful but dangerous composite material. It is created by applying Uranium to a Necrotic bone. "
+				""
+				"In both armor and blade form, it gives the devestating ability to apply wither to an enemy. But at a cost. 25% of the time, it will apply wither to you."
+				""
+				"Working with Necronium means carrying wither protection. This can be done by either carrying bottles of milk, or perhaps you will find a magical means of protecting yourself..."
+			]
+			dependencies: ["47107D60FD080A18"]
+			hide: true
+			id: "0B2DCA29834297A6"
+			tasks: [{
+				id: "60CEE1A4601AA987"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:necronium_bone"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "395ADC37BACE91E0"
+				type: "item"
+				item: "byg:death_cap"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			description: ["Brass is a useful material made from combining Zinc and "]
+			dependencies: [
+				"47107D60FD080A18"
+				"7E197FCD844FF182"
+			]
+			id: "118E457BED64D29F"
+			tasks: [{
+				id: "43EBBCFC4AEB2320"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EFF6A59F20F2894"
+				type: "item"
+				item: "tconstruct:earth_slime_sapling"
+			}]
 		}
 	]
 }

@@ -1107,6 +1107,7 @@
 		{
 			x: 0.0d
 			y: -11.5d
+			subtitle: "Catch a Castform or 'Waste' a move slot on Drifloon?"
 			description: [
 				"You've brought the rain! Summoning the rain is a great way to replenish water storage, although it's not advisable to try and let it rain forever."
 				""
@@ -1114,6 +1115,9 @@
 				""
 				"On the other hand, so few Pokemon survived the apolcaypse that the competition isn't fierce, and some Pokemon like Sunflora, which would ordinarily never come out in anything other than sunny weather, now drink their fill of the rain."
 			]
+			dependencies: ["4CCDFB9994946597"]
+			hide: true
+			hide_text_until_complete: true
 			id: "7A14B86EECDF05E4"
 			tasks: [{
 				id: "782E13DD4D4A88E7"
@@ -1123,12 +1127,25 @@
 				invert: false
 				move: "rain_dance"
 			}]
-			rewards: [{
-				id: "6179B3C18BBB31F9"
-				type: "item"
-				item: "pixelmon:fresh_water"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "6179B3C18BBB31F9"
+					type: "item"
+					item: "pixelmon:fresh_water"
+					count: 5
+				}
+				{
+					id: "1322CF92196C54E9"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1230,6 +1247,87 @@
 					id: "5912B9E23E52D02E"
 					type: "item"
 					item: "minecraft:ancient_debris"
+				}
+			]
+		}
+		{
+			title: "Use a Low Level Water Move"
+			x: 0.0d
+			y: -10.5d
+			description: ["In a world where water is scarce, it's worth noting that using water moves in battle produces collectable water."]
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			repeatable: true
+			min_required_tasks: 1
+			id: "6C0D9782EAD424C9"
+			tasks: [
+				{
+					id: "39BF2FE772915521"
+					type: "pixelmon:battle_move"
+					title: "Use Water Gun, Bubble, "
+					disable_toast: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "water_gun"
+					moveType: 0b
+				}
+				{
+					id: "5D71FD7F64EF0E16"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "bubble"
+					moveType: 0b
+				}
+				{
+					id: "621F0A16460684A1"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "aqua_jet"
+					moveType: 0b
+				}
+				{
+					id: "7AD04429A58519CC"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "chilling_water"
+					moveType: 0b
+				}
+			]
+			rewards: [
+				{
+					id: "18E45348A87A7256"
+					type: "command"
+					title: "Fills one Glass Bottle with Water in Inventory"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					auto: "no_toast"
+					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run give @s minecraft:potion{Potion:\"minecraft:water\"} 1"
+					player_command: false
+				}
+				{
+					id: "22E022BCC408328C"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run clear @s minecraft:glass_bottle 1"
+					player_command: false
 				}
 			]
 		}

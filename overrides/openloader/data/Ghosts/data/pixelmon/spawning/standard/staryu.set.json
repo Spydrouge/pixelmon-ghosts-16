@@ -65,7 +65,7 @@
         "neededNearbyBlocks":
           [
               "minecraft:water"
-          ],
+          ]
       },
       "rarity": 60.0
     },

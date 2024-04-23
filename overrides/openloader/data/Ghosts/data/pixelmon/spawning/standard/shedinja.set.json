@@ -4,7 +4,7 @@
     {
       "spec": "species:Shedinja",
       "stringLocationTypes": [
-        "AIR",
+        "Air",
         "Tree Top"
       ],
       "minLevel": 12,
@@ -17,6 +17,85 @@
           "ghosts"
         ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Nincada",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 120
+    },
+    {
+      "spec": "species:Shedinja",
+      "stringLocationTypes": [
+        "Air",
+        "Tree Top"
+      ],
+      "minLevel": 12,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "groupSpawnSettings": [
+        {
+          "spec": "Nincada",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
       "rarity": 120
     },
     {

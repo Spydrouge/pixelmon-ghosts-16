@@ -27,7 +27,34 @@
           "ghosts"
         ]
       },
-      "rarity": 60.0
+      "rarity": 50.0
+    },
+     {
+      "spec": "species:Shroomish",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+        "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 2,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
     },
     {
       "spec": "species:Shroomish",

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "botania:metamorphic_apothecary",
+  "pattern": [
+    "SPS",
+    " C ",
+    "CCC"
+  ],
+  "key": {
+    "P": {
+      "tag": "botania:petals"
+    },
+    "S": {
+      "item": "botania:metamorphic_fungal_cobblestone_slab"
+    },
+    "C": {
+      "tag": "botania:metamorphic_fungal_cobblestone"
+    }
+  },
+  "result": {
+    "item": "botania:apothecary_fungal"
+  }
+}

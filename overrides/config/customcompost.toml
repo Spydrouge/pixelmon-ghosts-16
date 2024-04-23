@@ -1,0 +1,11 @@
+
+["The percentage shown is the chance the for the item to add a layer to the composter"]
+
+	["The percentage shown is the chance the for the item to add a layer to the composter"." The percentages in this list are the same as vanilla"]
+		"30% Items" = []
+		"50% Items" = []
+		"65% Items" = []
+		"85% Items" = []
+		"100% Items" = []
+		Drops = ["minecraft:bone_meal"]
+

@@ -72,7 +72,7 @@
         "neededNearbyBlocks":
           [
               "minecraft:water"
-          ],
+          ]
       },
       "rarity": 120.0
     },
@@ -109,7 +109,7 @@
         "neededNearbyBlocks":
           [
               "minecraft:water"
-          ],
+          ]
       },
       "rarity": 120.0
     },

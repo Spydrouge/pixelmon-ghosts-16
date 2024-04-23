@@ -286,7 +286,7 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:chorus_flower",
+        "item":"biomesoplenty:pink_daffodil",
         "min":1,
         "max":1,
         "chance":0.3
@@ -2203,8 +2203,8 @@
       },
       {
         "item":"thermal:nickle_nugget",
-        "min":1,
-        "max":1,
+        "min":2,
+        "max":4,
         "chance":0.3
       },
       {
@@ -2254,10 +2254,16 @@
         "chance":1.0
       },
       {
-        "item":"immersiveengineering:dust_iron",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "item":"minecraft:iron_nugget",
+        "min":2,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"thermal:nickle_nugget",
+        "min":4,
+        "max":12,
+        "chance":0.3
       },
       {
         "item":"byg:dacite_cobblestone",
@@ -2307,9 +2313,15 @@
       },
       {
         "item":"immersiveengineering:dust_iron",
-        "min":2,
-        "max":3,
+        "min":1,
+        "max":1,
         "chance":0.5
+      },
+      {
+        "item":"thermal:nickle_dust",
+        "min":1,
+        "max":2,
+        "chance":1.0
       },
       {
         "item":"byg:dacite_cobblestone",
@@ -2774,6 +2786,18 @@
         "chance":1.0
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":1,
+        "max":2,
+        "chance":0.3
+      },
+      {
         "item":"minecraft:slime_block",
         "min":1,
         "max":1,
@@ -2814,6 +2838,18 @@
         "chance":1.0
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":3,
+        "max":4,
+        "chance":0.7
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:slime_block",
         "min":1,
         "max":2,
@@ -2835,6 +2871,12 @@
         "min":1,
         "max":2,
         "chance":1.0
+      },
+      {
+        "item":"contenttweaker:zinc_nugget",
+        "min":2,
+        "max":3,
+        "chance":0.5
       },
       {
         "item":"minecraft:sand",
@@ -2866,6 +2908,12 @@
         "chance":0.5
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":4,
+        "max":12,
+        "chance":1.0
+      },
+      {
         "item":"pixelmon:shell_bell",
         "min":1,
         "max":1,
@@ -2886,7 +2934,7 @@
         "item":"minecraft:ghast_tear",
         "min":1,
         "max":1,
-        "chance":1.0
+        "chance":0.5
       },
       {
         "item":"tconstruct:blood_slime_ball",
@@ -2897,8 +2945,8 @@
       {
         "item":"minecraft:soul_sand",
         "min":1,
-        "max":1,
-        "chance":0.5
+        "max":2,
+        "chance":1.0
       }
     ]
   },
@@ -3533,10 +3581,28 @@
     "pokemon":"Koffing",
     "items":[
       {
-        "item":"minecraft:slime_ball",
+        "item":"thermal:sulfur_dust",
         "min":1,
         "max":2,
-        "chance":1.0
+        "chance":0.5
+      },
+      {
+        "item":"thermal:niter_dust",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"botania:smoky_quartz",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:gunpowder",
+        "min":1,
+        "max":1,
+        "chance":0.3
       },
       {
         "item":"pixelmon:smoke_ball",
@@ -3550,16 +3616,28 @@
     "pokemon":"Weezing form:base",
     "items":[
       {
-        "item":"minecraft:slime_ball",
+        "item":"minecraft:gunpowder",
         "min":1,
         "max":3,
         "chance":1.0
       },
       {
-        "item":"minecraft:gunpowder",
-        "min":1,
+        "item":"thermal:sulfur_dust",
+        "min":2,
         "max":3,
         "chance":0.5
+      },
+      {
+        "item":"thermal:niter_dust",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
+        "item":"botania:smoky_quartz",
+        "min":1,
+        "max":2,
+        "chance":0.7
       },
       {
         "item":"pixelmon:toxic_orb",
@@ -5875,7 +5953,7 @@
         "chance":0.9
       },
       {
-        "item":"farmersdelight:onion",
+        "item":"farmersdelight:wild_onions",
         "min":1,
         "max":1,
         "chance":0.1
@@ -5916,7 +5994,7 @@
         "chance":1.0
       },
       {
-        "item":"farmersdelight:onion",
+        "item":"farmersdelight:wild_onions",
         "min":1,
         "max":1,
         "chance":0.9
@@ -5946,7 +6024,7 @@
         "chance":1.0
       },
       {
-        "item":"farmersdelight:onion",
+        "item":"farmersdelight:wild_onions",
         "min":1,
         "max":1,
         "chance":0.7
@@ -6999,22 +7077,29 @@
         "max":1,
         "chance":0.5
       }
+      ,
+      {
+        "item":"minecraft:spruce_leaves",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      }
     ]
   },
   {
     "pokemon":"Forretress",
     "items":[
       {
-        "item":"minecraft:string",
-        "min":1,
-        "max":3,
+        "item":"thermal:lead_ingot",
+        "min":2,
+        "max":4,
         "chance":1.0
       },
       {
-        "item":"minecraft:spruce_log",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "item":"thermal:constantan_nugget",
+        "min":4,
+        "max":12,
+        "chance":1.0
       },
       {
         "item":"minecraft:shulker_shell",
@@ -7211,7 +7296,7 @@
       },
       {
         "item":{
-          "id":"pixelmon:poke_ball_lid",
+          "id":"pixelmon:poke_ball",
           "Count":1,
           "tag":{
             "PokeBallID":"love_ball"
@@ -7239,6 +7324,12 @@
         "chance":0.5
       },
       {
+        "item":"byg:pink_glowcane",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
         "item":{
           "id":"pixelmon:poke_ball",
           "Count":1,
@@ -7248,7 +7339,7 @@
         },
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.5
       }
     ]
   },
@@ -9145,16 +9236,10 @@
     "pokemon":"Shroomish",
     "items":[
       {
-        "item":"minecraft:nether_wart",
+        "item":"minecraft:brown_mushroom",
         "min":1,
         "max":1,
         "chance":0.5
-      },
-      {
-        "item":"pixelmon:balm_mushroom",
-        "min":1,
-        "max":1,
-        "chance":0.3
       },
       {
         "item":"pixelmon:big_mushroom",
@@ -9170,6 +9255,35 @@
       },
       {
         "item":"minecraft:warped_fungus",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"byg:green_mushroom",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Shroomish palette:spirit",
+    "items":[
+      {
+        "item":"byg:soul_shroom",
+        "min":1,
+        "max":1,
+        "chance":0.9
+      },
+      {
+        "item":"minecraft:nether_wart",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"botania:metamorphic_fungal_stone",
         "min":1,
         "max":2,
         "chance":0.5
@@ -9211,6 +9325,12 @@
       },
       {
         "item":"minecraft:warped_roots",
+        "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"botania:metamorphic_fungal_stone",
         "min":1,
         "max":2,
         "chance":1.0
@@ -9700,22 +9820,28 @@
     "pokemon":"Aron",
     "items":[
       {
+        "item":"byg:soapstone",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
         "item":"minecraft:iron_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.9
+      },
+      {
+        "item":"thermal:nickel_nugget",
         "min":1,
         "max":2,
         "chance":1.0
       },
       {
-        "item":"immersiveengineering:nugget_nickel",
-        "min":1,
-        "max":2,
-        "chance":0.1
-      },
-      {
-        "item":"byg:soapstone",
+        "item":"immersiveengineering:nugget_steel",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.1
       },
       {
         "item":"minecraft:skeleton_skull",
@@ -9729,31 +9855,31 @@
     "pokemon":"Lairon",
     "items":[
       {
-        "item":"minecraft:iron_nugget",
-        "min":8,
-        "max":12,
-        "chance":1.0
-      },
-      {
         "item":"byg:soapstone",
         "min":2,
         "max":4,
         "chance":1.0
       },
       {
-        "item":"immersiveengineering:nugget_nickel",
+        "item":"minecraft:iron_nugget",
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":3,
+        "chance":1.0
       },
       {
         "item":"immersiveengineering:nugget_steel",
         "min":1,
-        "max":2,
-        "chance":0.1
+        "max":3,
+        "chance":1.0
       },
       {
-        "item":"pixelmon:rare_fossil",
+        "item":"thermal:nickel_nugget",
+        "min":3,
+        "max":9,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:rare_bone",
         "min":1,
         "max":1,
         "chance":0.2
@@ -9764,37 +9890,25 @@
     "pokemon":"Aggron",
     "items":[
       {
-        "item":"minecraft:iron_ingot",
-        "min":1,
-        "max":1,
-        "chance":1.0
-      },
-      {
-        "item":"minecraft:iron_ingot",
-        "min":2,
-        "max":2,
-        "chance":0.5
-      },
-      {
         "item":"byg:soapstone",
         "min":4,
         "max":8,
         "chance":1.0
       },
       {
-        "item":"immersiveengineering:ingot_nickel",
-        "min":1,
-        "max":1,
-        "chance":1.0
-      },
-      {
-        "item":"immersiveengineering:steel_ingot",
+        "item":"immersiveengineering:ingot_steel",
         "min":1,
         "max":2,
         "chance":1.0
       },
       {
-        "item":"pixelmon:rare_fossil",
+        "item":"thermal:nickel_ingot",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:rare_bone",
         "min":1,
         "max":2,
         "chance":0.5
@@ -10012,6 +10126,18 @@
         "chance":1.0
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":1,
+        "max":2,
+        "chance":0.3
+      },
+      {
         "item":"minecraft:beetroot",
         "min":1,
         "max":2,
@@ -10027,6 +10153,18 @@
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"contenttweaker:zinc_nugget",
+        "min":2,
+        "max":3,
+        "chance":0.7
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":2,
+        "max":3,
+        "chance":0.5
       },
       {
         "item":"minecraft:beetroot",
@@ -10722,9 +10860,9 @@
       },
       {
         "item":"immersiveengineering:nugget_uranium",
-        "min":1,
-        "max":1,
-        "chance":0.1
+        "min":2,
+        "max":4,
+        "chance":1.0
       },
       {
         "item":"pixelmon:leaf_stone_shard",
@@ -11291,6 +11429,12 @@
         "chance":1.0
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:prismarine_shard",
         "min":1,
         "max":2,
@@ -11320,6 +11464,12 @@
         "chance":1.0
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":4,
+        "max":12,
+        "chance":1.0
+      },
+      {
         "item":"minecraft:prismarine_shard",
         "min":1,
         "max":2,
@@ -11346,6 +11496,12 @@
         "item":"minecraft:cod",
         "min":1,
         "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"contenttweaker:zinc_nugget",
+        "min":4,
+        "max":12,
         "chance":1.0
       },
       {
@@ -12323,16 +12479,16 @@
     "pokemon":"Cranidos",
     "items":[
       {
-        "item":"minecraft:andesite",
+        "item":"minecraft:blackstone",
         "min":1,
         "max":2,
         "chance":1.0
       },
       {
-        "item":"minecraft:diorite",
-        "min":1,
-        "max":1,
-        "chance":0.5
+        "item":"thermal:lead_nugget",
+        "min":2,
+        "max":4,
+        "chance":1.0
       },
       {
         "item":"pixelmon:raw_black_tumblestone",
@@ -12352,16 +12508,16 @@
     "pokemon":"Rampardos",
     "items":[
       {
-        "item":"minecraft:andesite",
-        "min":1,
+        "item":"minecraft:blackstone",
+        "min":2,
         "max":3,
         "chance":1.0
       },
       {
-        "item":"minecraft:diorite",
-        "min":1,
-        "max":3,
-        "chance":0.5
+        "item":"thermal:lead_nugget",
+        "min":4,
+        "max":12,
+        "chance":1.0
       },
       {
         "item":"pixelmon:raw_black_tumblestone",
@@ -12445,9 +12601,15 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:oak_leaves",
-        "min":1,
-        "max":1,
+        "item":"minecraft:dark_oak_leaves",
+        "min":2,
+        "max":4,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:spruce_leaves",
+        "min":2,
+        "max":4,
         "chance":0.5
       }
     ]
@@ -12709,6 +12871,12 @@
         "chance":1.0
       },
       {
+        "item":"biomesoplenty:pink_daffodil",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
         "item":"biomesoplenty:pink_cherry_leaves",
         "min":1,
         "max":1,
@@ -12841,7 +13009,6 @@
         "max":2,
         "chance":1.0
       },
-      
       {
         "item":"pixelmon:float_stone",
         "min":1,
@@ -12849,7 +13016,7 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:nether_quartz",
+        "item":"minecraft:quartz",
         "min":1,
         "max":1,
         "chance":0.3
@@ -12872,10 +13039,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:nether_quartz",
+        "item":"minecraft:quartz",
         "min":1,
-        "max":1,
-        "chance":0.5
+        "max":2,
+        "chance":1.0
       },
       {
         "item":"pixelmon:float_stone",
@@ -16700,10 +16867,16 @@
     "pokemon":"Archen",
     "items":[
       {
-        "item":"minecraft:diorite",
+        "item":"byg:scoria_stone",
         "min":1,
         "max":2,
         "chance":1.0
+      },
+      {
+        "item":"minecraft:sandstone",
+        "min":1,
+        "max":2,
+        "chance":0.5
       },
       {
         "item":"minecraft:feather",
@@ -16717,9 +16890,15 @@
     "pokemon":"Archeops",
     "items":[
       {
-        "item":"minecraft:diorite",
-        "min":1,
+        "item":"byg:scoria_stone",
+        "min":2,
         "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:sandstone",
+        "min":1,
+        "max":2,
         "chance":1.0
       },
       {
@@ -16746,6 +16925,18 @@
         "chance":1.0
       },
       {
+        "item":"contenttweaker:zinc_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":1,
+        "max":2,
+        "chance":0.3
+      },
+      {
         "item":"minecraft:slime_ball",
         "min":1,
         "max":1,
@@ -16767,6 +16958,18 @@
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"contenttweaker:zinc_nugget",
+        "min":2,
+        "max":3,
+        "chance":0.7
+      },
+      {
+        "item":"immersiveengineering:nugget_uranium",
+        "min":2,
+        "max":3,
+        "chance":0.5
       },
       {
         "item":"minecraft:slime_ball",
@@ -17010,6 +17213,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:rune_mana",
+        "min":1,
+        "max":1,
+        "chance":1.0
       }
     ]
   },
@@ -17340,12 +17549,6 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:brown_mushroom",
-        "min":1,
-        "max":1,
-        "chance":0.5
-      },
-      {
         "item":"minecraft:crimson_roots",
         "min":1,
         "max":1,
@@ -17563,7 +17766,7 @@
         "item":"minecraft:iron_ingot",
         "min":1,
         "max":3,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"pixelmon:absorb_bulb",
@@ -19662,7 +19865,7 @@
     "pokemon":"Florges palette:red",
     "items":[
       {
-        "item":"minecraft:poppy",
+        "item":"minecraft:rose_bush",
         "min":2,
         "max":4,
         "chance":1.0
@@ -19691,7 +19894,7 @@
     "pokemon":"Florges palette:yellow",
     "items":[
       {
-        "item":"minecraft:dandelion",
+        "item":"biomesoplenty:goldenrod",
         "min":2,
         "max":4,
         "chance":1.0
@@ -19720,7 +19923,7 @@
     "pokemon":"Florges palette:orange",
     "items":[
       {
-        "item":"minecraft:orange_tulip",
+        "item":"biomesoplenty:barley",
         "min":2,
         "max":4,
         "chance":1.0
@@ -19749,16 +19952,22 @@
     "pokemon":"Florges palette:blue",
     "items":[
       {
-        "item":"minecraft:cornflower",
-        "min":2,
-        "max":4,
+        "item":"biomesoplenty:blue_hydrangea",
+        "min":1,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"minecraft:bone_meal",
+        "item":"byg:azalea",
         "min":1,
-        "max":3,
-        "chance":0.5
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"byg:foxglove",
+        "min":1,
+        "max":1,
+        "chance":1.0
       },
       {
         "item":"pixelmon:kebia_berry",
@@ -19778,7 +19987,7 @@
     "pokemon":"Florges palette:white",
     "items":[
       {
-        "item":"minecraft:oxeye_daisy",
+        "item":"minecraft:peony",
         "min":2,
         "max":4,
         "chance":1.0
@@ -20187,9 +20396,15 @@
     "pokemon":"Binacle",
     "items":[
       {
-        "item":"minecraft:cobblestone",
+        "item":"byg:dacite",
         "min":1,
         "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"contenttweaker:zinc_nugget",
+        "min":3,
+        "max":6,
         "chance":1.0
       },
       {
@@ -20204,9 +20419,15 @@
     "pokemon":"Barbaracle",
     "items":[
       {
-        "item":"minecraft:cobblestone",
+        "item":"byg:dacite",
         "min":2,
         "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"contenttweaker:zinc_nugget",
+        "min":9,
+        "max":24,
         "chance":1.0
       },
       {
@@ -20737,15 +20958,15 @@
       },
       {
         "item":"byg:ebony_leaves",
-        "min":1,
-        "max":1,
-        "chance":0.05
+        "min":3,
+        "max":6,
+        "chance":0.5
       },
       {
-        "item":"byg:nightshade_leaves",
-        "min":1,
-        "max":1,
-        "chance":0.05
+        "item":"minecraft:dark_oak_leaves",
+        "min":3,
+        "max":6,
+        "chance":0.5
       },
       {
         "item":"byg:ebony_log",
@@ -20779,14 +21000,14 @@
       },
       {
         "item":"byg:ebony_leaves",
-        "min":2,
-        "max":3,
+        "min":6,
+        "max":12,
         "chance":0.5
       },
       {
-        "item":"byg:nightshade_leaves",
-        "min":2,
-        "max":3,
+        "item":"minecraft:dark_oak_leaves",
+        "min":6,
+        "max":12,
         "chance":0.5
       },
       {
@@ -20801,25 +21022,19 @@
     "pokemon":"Pumpkaboo",
     "items":[
       {
-        "item":"minecraft:pumpkin_seeds",
-        "min":1,
-        "max":2,
-        "chance":1.0
-      },
-      {
         "item":"minecraft:pumpkin",
         "min":1,
         "max":1,
+        "chance":0.9
+      },
+      {
+        "item":"byg:nightshade_leaves",
+        "min":3,
+        "max":5,
         "chance":0.5
       },
       {
         "item":"pixelmon:pumkin_berry",
-        "min":1,
-        "max":1,
-        "chance":0.1
-      },
-      {
-        "item":"minecraft:carved_pumpkin",
         "min":1,
         "max":1,
         "chance":0.1
@@ -20830,28 +21045,22 @@
     "pokemon":"Gourgeist",
     "items":[
       {
-        "item":"minecraft:pumpkin_seeds",
-        "min":2,
-        "max":3,
+        "item":"minecraft:pumpkin",
+        "min":1,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"minecraft:pumpkin",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "item":"byg:nightshade_leaves",
+        "min":3,
+        "max":5,
+        "chance":1.0
       },
       {
         "item":"pixelmon:pumkin_berry",
         "min":1,
         "max":1,
         "chance":0.5
-      },
-      {
-        "item":"minecraft:jack_o_lantern",
-        "min":1,
-        "max":2,
-        "chance":0.3
       },
       {
         "item":"pixelmon:big_root",
@@ -22136,25 +22345,13 @@
         "chance":1.0
       },
       {
-        "item":"botania:white_mushroom",
-        "min":1,
-        "max":1,
-        "chance":0.5
-      },
-      {
-        "item":"botania:purple_mushroom",
+        "item":"byg:purple_glowshroom",
         "min":1,
         "max":1,
         "chance":0.1
       },
       {
-        "item":"habitat:fairy_ring_mushroom",
-        "min":1,
-        "max":1,
-        "chance":0.5
-      },
-      {
-        "item":"minecraft:shroomlight",
+        "item":"byg:blue_glowshroom",
         "min":1,
         "max":1,
         "chance":0.1
@@ -22165,15 +22362,15 @@
     "pokemon":"Shiinotic",
     "items":[
       {
-        "item":"botania:white_mushroom",
-        "min":1,
-        "max":1,
-        "chance":1.0
-      },
-      {
         "item":"habitat:fairy_ring_mushroom",
         "min":1,
         "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"botania:purple_mushroom",
+        "min":1,
+        "max":1,
         "chance":1.0
       },
       {
@@ -22187,12 +22384,6 @@
         "min":1,
         "max":1,
         "chance":0.1
-      },
-      {
-        "item":"botania:purple_mushroom",
-        "min":1,
-        "max":1,
-        "chance":0.3
       },
       {
         "item":"botania:lime_mushroom",
@@ -22421,22 +22612,28 @@
     "pokemon":"Comfey",
     "items":[
       {
-        "item":"minecraft:poppy",
+        "item":"minecraft:red_tulip",
         "min":1,
         "max":2,
         "chance":1.0
       },
       {
-        "item":"minecraft:dandelion",
-        "min":1,
+        "item":"byg:yellow_tulip",
+         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":1.0
       },
       {
-        "item":"minecraft:lily_of_the_valley",
-        "min":1,
-        "max":1,
-        "chance":0.1
+        "item":"minecraft:white_tulip",
+         "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"byg:magenta_tulip",
+         "min":1,
+        "max":2,
+        "chance":1.0
       }
     ]
   },
@@ -25602,6 +25799,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:rune_mana",
+        "min":1,
+        "max":1,
+        "chance":1.0
       }
     ]
   },
@@ -27445,7 +27648,7 @@
         "item":"minecraft:diorite",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":2.0
       },
       {
         "item":"thermal:niter",

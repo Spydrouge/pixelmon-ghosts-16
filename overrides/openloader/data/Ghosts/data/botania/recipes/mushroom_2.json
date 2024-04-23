@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "botania:mushroom",
+  "ingredients": [
+    [
+      {
+        "item": "byg:purple_glowshroom"
+      }
+    ],
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "item": "botania:magenta_mushroom"
+  }
+}

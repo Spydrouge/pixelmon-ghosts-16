@@ -1,0 +1,682 @@
+{
+	id: "175C8A7E0A781096"
+	group: "4A96B64D5627EDC5"
+	order_index: 4
+	filename: "druidism"
+	title: "Druidism"
+	icon: "minecraft:wither_rose"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Getting a little Botanical..."
+			description: ["You believe you can imbue a fairy mushroom with even more earthly power by mixing it with white dye made from bone meal."]
+			dependencies: ["15A2DD50687E0F42"]
+			hide: true
+			id: "6B7C16ACD3317EE8"
+			tasks: [{
+				id: "70646225ED948400"
+				type: "item"
+				item: "botania:white_mushroom"
+			}]
+			rewards: [{
+				id: "1D0F3996775D4CC7"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The easiest mushroom to grow without podzol, mycelium, or any other special soil is the fairy mushroom."
+				""
+				"You can plant it on any grass, tap it with a bonemeal, and it will turn into a colony that can be harvested for two fairy mushrooms."
+				""
+				"To find it, you must track down Morelull. You need to build an underground habitat on the Dazzle layer, and then wait until nightfall. While you wait for night, gather up mushrooms from Shroomish."
+			]
+			dependencies: ["3FF8AA83BB349B3E"]
+			hide: true
+			id: "15A2DD50687E0F42"
+			tasks: [{
+				id: "4E683A32DD4AE4A7"
+				type: "item"
+				item: "habitat:fairy_ring_mushroom"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1830FD585FFB516A"
+					type: "item"
+					item: "habitat:fairylight"
+				}
+				{
+					id: "24B096C26E0ABC3B"
+					type: "item"
+					item: "pixelmon:dish_curry_mushroom"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"You've been thinking. Everyone knows that mushrooms only grow big on Mycelium. No Mycelium = Waiting a million years for mushrooms to spread in the dark."
+				""
+				"But that's not entirely true. There's another special soil mushrooms can be planted on, bonemealed, and grown to enormous sizes: &ePodzol&r."
+				""
+				"You can't craft podzol, and, once it's placed, you can't pick it up. But you can cause it to come into being."
+				""
+				"You need four &aspruce saplings&r, all Vanilla, uncolored, and to plant them in a 2x2 plot of dirt, surrounded by grass. Do this, bonemeal them, and a Giant Spruce Tree will grow."
+				""
+				"Around this massive tree, all surrounding dirt will be converted to Podzol. Once you trop the tree down, the Podzol can be used for growing giant mushrooms."
+				""
+				"But how to get a spruce sapling? Well, a quest might lead you to one, but who knows when that could happen?"
+				""
+				"&aPineco&r drops a few leaves which can be broken in a hunt for saplings. Maybe you should power up the old spawner Arceus left under the bedrock block?"
+			]
+			dependencies: ["3FF8AA83BB349B3E"]
+			hide: true
+			id: "6B5F64F39E24B922"
+			tasks: [
+				{
+					id: "414B0178FBFEA61A"
+					type: "observation"
+					title: "Observe a Podzol Block"
+					icon: "minecraft:podzol"
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:podzol"
+				}
+				{
+					id: "43D884B64996D710"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "4A480F01EF27CC4F"
+				type: "item"
+				item: "botania:podzol_seeds"
+			}]
+		}
+		{
+			icon: "minecraft:wither_rose"
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"Arceus may not be the only force out here, trying to help. You feel the earth calling to you, filled with magic. But every time it tries to form into something useful, all it makes is Wither Roses..."
+				""
+				"But there's another plant that comes from death. Maybe you can make something from that."
+				""
+				"You need to collect the ingredients for breeding &dmushrooms&r."
+			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			size: 2.0d
+			id: "3FF8AA83BB349B3E"
+			tasks: [{
+				id: "16E0821CC198E496"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "29209AB8D6F109C0"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "2A8852AC0FB691F1"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"If you have access to rich soil, you can plant mushrooms underground in darkness and they will mature into colonies. They must be irrigated with water for this to work."
+				""
+				"To get a red or brown mushroom necessary to start the colony, you will have to find a normal Shroomish underground on the Dazzle Layer, or a Foongus underground on the Murk layer."
+				""
+				"Any normal red or brown mushroom will work."
+			]
+			dependencies: ["3FF8AA83BB349B3E"]
+			hide: true
+			min_required_tasks: 2
+			id: "1C53CA6D2E5EA3F7"
+			tasks: [
+				{
+					id: "6EFC954C22521C4E"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+				}
+				{
+					id: "43A27F5460771EE1"
+					type: "item"
+					item: "farmersdelight:brown_mushroom_colony"
+				}
+				{
+					id: "600D428FAAA9F5C3"
+					type: "item"
+					item: "farmersdelight:red_mushroom_colony"
+				}
+			]
+			rewards: [
+				{
+					id: "53A3D4F587AC47D7"
+					type: "item"
+					item: "minecraft:mushroom_stew"
+				}
+				{
+					id: "6C64CBDC19D883B1"
+					type: "item"
+					item: "biomesoplenty:dead_sapling"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: ["While messing around with mushrooms, you might as well collect them all. "]
+			dependencies: ["15A2DD50687E0F42"]
+			hide: true
+			id: "1923094B4D5CEFA2"
+			tasks: [{
+				id: "1CCD77662F7DA9A2"
+				type: "item"
+				item: "byg:blue_glowshroom"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["While messing around with mushrooms, you might as well collect them all. "]
+			dependencies: ["15A2DD50687E0F42"]
+			hide: true
+			id: "30A87DEFFE2EF0EA"
+			tasks: [{
+				id: "0FC6EA1C0B4B35B5"
+				type: "item"
+				item: "byg:soul_shroom"
+			}]
+			rewards: [{
+				id: "0DE3338664F1252E"
+				type: "item"
+				item: "byg:nylium_soul_sand"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["While messing around with mushrooms, you might as well collect them all. "]
+			dependencies: ["15A2DD50687E0F42"]
+			hide: true
+			id: "73DBE01FE44C545D"
+			tasks: [{
+				id: "757095BD2C5BFBF3"
+				type: "item"
+				item: "byg:purple_glowshroom"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["While messing around with mushrooms, you might as well collect them all. "]
+			dependencies: ["15A2DD50687E0F42"]
+			hide: true
+			id: "2DC0EE34C70294A3"
+			tasks: [{
+				id: "776602A77D3AF43F"
+				type: "item"
+				item: "byg:green_mushroom"
+			}]
+		}
+		{
+			title: "A Petal Apothecary"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Pick One!"
+			description: [
+				"You can make a Petal Apothecary with a form of cobblestone, or with fungal stone harvested from Spirit Shroomish."
+				""
+				"Instead of a Petal, you can use a Shimmering Mushroom."
+			]
+			dependencies: ["6B7C16ACD3317EE8"]
+			hide: true
+			min_required_tasks: 1
+			id: "69A977EA20F89AE0"
+			tasks: [
+				{
+					id: "45E87AF05814B6F7"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "3FAA7224E0A8E8C6"
+					type: "item"
+					item: "botania:apothecary_fungal"
+				}
+			]
+			rewards: [
+				{
+					id: "127614125A64EE54"
+					type: "item"
+					item: "botania:metamorphic_fungal_stone"
+				}
+				{
+					id: "4CF9B6612ECBCCA0"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["The pure daisy can be made with four shimmering white mushrooms instead of four white petals."]
+			dependencies: ["69A977EA20F89AE0"]
+			hide: true
+			id: "6749D2C85113CC62"
+			tasks: [{
+				id: "5AD0A24B75E19A3E"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "19B614462E0A1245"
+				type: "item"
+				item: "minecraft:bone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"You now have a new material for making tools with!"
+				""
+				"More importantly, you now think you have the basic tools to get started with botanical magic. If you haven't, you should probably make the guidebook."
+				""
+				"The road ahead wont be easy. You're &dmissing most of the dyes&r you need to make assorted mushrooms."
+				""
+				"But you think you can make the Hydroangeus. Maybe. In a world with limited water, it won't be easy keeping it powered."
+			]
+			dependencies: ["6749D2C85113CC62"]
+			hide: true
+			id: "26A6A79BFBF8DD1B"
+			tasks: [
+				{
+					id: "6466D73803D37376"
+					type: "item"
+					item: "botania:livingwood"
+				}
+				{
+					id: "300E15F89B0BC9B8"
+					type: "item"
+					item: "botania:livingrock"
+				}
+			]
+			rewards: [{
+				id: "3C4BC4980B5266AD"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_handle"
+					Count: 1b
+					tag: {
+						Material: "materialis:livingwood"
+					}
+				}
+			}]
+		}
+		{
+			title: "The Hydroangeas Plan"
+			icon: "biomesoplenty:blue_hydrangea"
+			x: 0.0d
+			y: 6.0d
+			description: [
+				"To create a \"Hydro-angeas\" you first need to find it's less magical cousin, the Hydrangea flower."
+				""
+				"But how? You don't think they exist. The lack of flowers was the whole reason you're working with mushrooms."
+				""
+				"Unless. You need to find a floral fairy Pokemon. You need to find... Blue Florges."
+				""
+			]
+			dependencies: ["26A6A79BFBF8DD1B"]
+			hide: true
+			size: 1.5d
+			id: "41F74CF67282E9CC"
+			tasks: [{
+				id: "03446F2E4F7AEB45"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			description: [
+				"You have a plan to lure out Blue Florges. They are typically attracted to blue flowers, which means you need to obtain a blue flower. "
+				""
+				"The easiest way to do that will be to make a habitat for Flabebe outdoors on the Dazzle layer, and wait until Blue Flabebe spawns. Take its cornflower and plant it."
+			]
+			dependencies: ["41F74CF67282E9CC"]
+			hide: true
+			id: "48B94E0FB02946EC"
+			tasks: [
+				{
+					id: "2181B44BFD431295"
+					type: "item"
+					item: "minecraft:cornflower"
+				}
+				{
+					id: "19C5E5FACE626CDE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "flabebe palette:Blue"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "749CEBAC666A3F6E"
+					type: "item"
+					item: "pixelmon:blue_umbrella"
+				}
+				{
+					id: "1315CA70C846F4FB"
+					type: "item"
+					item: "pixelmon:blue_rug"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: [
+				"It will only take one Florges to supply you with everything you need to create your first generative flora. But even with the cornflower, Florges is rare. Set up to wait, and give unwanted visitors a gentle push to a lower layer."
+				""
+				"Ensure that at least one cornflower is set out, and that no other colors are present, as they may attract the wrong Florges."
+				""
+				"Most flowers that are two units tall, but not all, can be bonemealed to produce duplicates. Make sure not to use up all your flowers, or you will have to wait for another Florges."
+			]
+			dependencies: ["48B94E0FB02946EC"]
+			hide: true
+			id: "08B38BEB5FF4573E"
+			tasks: [
+				{
+					id: "537C45A6512D4C31"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "florges palette:blue"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "78F95BD07EB3B388"
+					type: "item"
+					item: "byg:foxglove"
+				}
+				{
+					id: "77FFC8BEAEDC449E"
+					type: "item"
+					item: "biomesoplenty:blue_hydrangea"
+				}
+				{
+					id: "3A85577C6A84471B"
+					type: "item"
+					item: "byg:azalea"
+				}
+			]
+			rewards: [
+				{
+					id: "34193CFE1DC6883D"
+					type: "item"
+					item: "minecraft:blue_dye"
+				}
+				{
+					id: "677B3C097FA75E76"
+					type: "item"
+					item: "minecraft:cyan_dye"
+				}
+				{
+					id: "325DF6910527987D"
+					type: "item"
+					item: "minecraft:light_blue_dye"
+				}
+			]
+		}
+		{
+			title: "Endoflame"
+			icon: "botania:endoflame"
+			x: -1.5d
+			y: 6.0d
+			description: [
+				"At present, it does not seem possible to create an Endoflame. You rack your mind, but can't think up a source of brown dye."
+				""
+				"There is no coca beans in this world; all the jungle monkeys and pretty birds who might have carried cocoa pods perished just like all the people."
+				""
+				"Unless..."
+			]
+			dependencies: ["26A6A79BFBF8DD1B"]
+			hide: true
+			id: "6B44A4C7330D9188"
+			tasks: [{
+				id: "71BFB005A8FF6CAC"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			description: [
+				"A Botania Pro would normally skip the Hydroangeas and head straight for an Endoflame, but beware: Brown dye sources may prove elusive."
+				""
+				"Once you've found one, you will have no means of growing it, as there are no jungle saplings, and reeds cannot be grown."
+				""
+				"If you find a source for brown dye, you already have everything else you could need to make light gray and red dyes."
+			]
+			dependencies: ["6B44A4C7330D9188"]
+			hide: true
+			id: "20126D4A94D1ACE1"
+			tasks: [
+				{
+					id: "26DF2D01B0E3AC43"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "1BA6C848ECAE0B67"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+				{
+					id: "287B3BAFF8133598"
+					type: "item"
+					item: "minecraft:beetroot"
+				}
+				{
+					id: "18C794CCE57C01FB"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:cocoa_beans"
+									Count: 1b
+								}
+								{
+									id: "byg:reeds"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31EFD963C6054620"
+				type: "item"
+				item: "byg:brown_zelkova_sapling"
+			}]
+		}
+		{
+			icon: "botania:rosa_arcana"
+			x: 1.5d
+			y: 6.0d
+			description: [
+				"The Rosa Arcana isn't limited by it's colors. It's limited by its mana rune. You can't make them because you need a rune, and the rune requires an absurd amount of manasteel. With iron as rare as it is, you can't afford to spend it on somethign so frivolous."
+				""
+				"Unless, of course, you can find something that drops a Mana Rune?"
+			]
+			dependencies: ["26A6A79BFBF8DD1B"]
+			hide: true
+			id: "31B78B4248EB4B90"
+			tasks: [{
+				id: "010B89D0B54ADA14"
+				type: "checkmark"
+				title: "Rosa Arcana"
+			}]
+		}
+		{
+			title: "Mana Rune"
+			x: 1.5d
+			y: 7.5d
+			description: ["Get a Mana Rune from either Hatterene or Gothitelle. "]
+			dependencies: ["31B78B4248EB4B90"]
+			hide: true
+			min_required_tasks: 1
+			id: "789512B9322A3F2D"
+			tasks: [
+				{
+					id: "39B4B5B6BD31A165"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "hatterene"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6E1B79F22C199420"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothitelle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "360469E451434BBC"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "0198BAD0C52B51C9"
+				type: "item"
+				item: "byg:lament_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			description: ["The Hydroangeas will consume water to produce mana. This does mean you must continuously supply it with fresh water to keep it working."]
+			dependencies: ["08B38BEB5FF4573E"]
+			hide: true
+			id: "104ADF28642F7637"
+			tasks: [{
+				id: "0EC5FA37897D72D4"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "3D13D5591BD3A965"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			description: ["The endoflame requires charcoal or other burnables to work. Be careful dropping saplings to the ground in its vicinity, as it will gobble them up."]
+			dependencies: ["20126D4A94D1ACE1"]
+			hide: true
+			id: "5C36AA7A30CA6209"
+			tasks: [{
+				id: "0312594AA4E2C105"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "0BF548E4D8EE2F39"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			description: [
+				"You will need to either find a source of purple dye directly, or mix blue dye with red."
+				""
+				"Beetroot is a good source of red dye. Lapis Lazuli, a source of blue, can be farmed from Azuril on beaches on the Dazzle Layer."
+				""
+				"The easiest way to get Lime dye is to farm Pyukumuku. which spawns in water and underground water on the soil layer. It can also be made from wild onions harvested straight form the hoppip line, or rarely drops directly from Shinnotic."
+				""
+				"Pink can be made from mixing beetroot red with bonemeal white."
+			]
+			dependencies: ["789512B9322A3F2D"]
+			hide: true
+			id: "2CC6E126932433AD"
+			tasks: [
+				{
+					id: "17ED44AB10D415CC"
+					type: "item"
+					item: "minecraft:purple_dye"
+				}
+				{
+					id: "69A591D3E9D56AD4"
+					type: "item"
+					item: "minecraft:lime_dye"
+				}
+				{
+					id: "67F40B3A62ECCE02"
+					type: "item"
+					item: "minecraft:pink_dye"
+				}
+			]
+			rewards: [{
+				id: "74B9825F19050C00"
+				type: "item"
+				title: "... How did this get here?"
+				item: "pixelmon:purple_couch"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			description: ["The Rosa Arcana translates a typically useless metric, your XP, into mana."]
+			dependencies: ["2CC6E126932433AD"]
+			hide: true
+			id: "6F10ADDBC73438E9"
+			tasks: [{
+				id: "093FD986321B42CD"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "439D16D0D9A4EE79"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+	]
+}

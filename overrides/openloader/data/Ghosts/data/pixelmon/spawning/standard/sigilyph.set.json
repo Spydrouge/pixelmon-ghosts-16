@@ -30,13 +30,13 @@
           "byg:nylium_soul_sand",
           "byg:quartzite_sand",
           "byg:end_sand"
-        ],
+        ]
       },
      "anticondition":{
         "neededNearbyBlocks":
           [
               "minecraft:water"
-          ],
+          ]
       },
       "rarity": 60.0
     },

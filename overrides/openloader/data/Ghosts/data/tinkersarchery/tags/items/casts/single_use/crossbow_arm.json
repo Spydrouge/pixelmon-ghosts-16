@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-      "tinkersarchery:crossbow_arm_black_sand_cast",
-    "tinkersarchery:crossbow_arm_soul_sand_cast",
-    "tinkersarchery:crossbow_arm_orange_sand_cast",
-    "tinkersarchery:crossbow_arm_white_sand_cast",
-    "tinkersarchery:crossbow_arm_blue_sand_cast",
-    "tinkersarchery:crossbow_arm_pink_sand_cast",
-    "tinkersarchery:crossbow_arm_purple_sand_cast"
+      "contenttweaker:crossbow_arm_black_sand_cast",
+    "contenttweaker:crossbow_arm_soul_sand_cast",
+    "contenttweaker:crossbow_arm_orange_sand_cast",
+    "contenttweaker:crossbow_arm_white_sand_cast",
+    "contenttweaker:crossbow_arm_blue_sand_cast",
+    "contenttweaker:crossbow_arm_pink_sand_cast",
+    "contenttweaker:crossbow_arm_purple_sand_cast"
 
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone_slab",
+    "minecraft:mossy_cobblestone_slab",
+    "byg:dacite_cobblestone_slab",
+    "byg:red_rock_slab",
+    "byg:scoria_cobblestone_slab",
+    "byg:soapstone_cobblestone_slab",
+    "byg:cobbled_ether_stone_slab"
+      
+  ]
+}

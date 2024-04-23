@@ -11,7 +11,7 @@
 		{
 			icon: "minecraft:iron_block"
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 			description: [
 				"You've decided to use this part of your dictionary to keep track of your observations regarding where certain materials can be found, such as iron, and silicon."
 				""
@@ -27,8 +27,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 0.0d
+			x: -5.0d
+			y: 1.5d
 			description: [
 				"(There is almost no iron available in the early game, which of course means it is almost impossible to make Pokeballs. You will need to play around this by strategically pursuing the right eggs.)"
 				""
@@ -36,6 +36,7 @@
 				""
 				"Ferroseed, if it can be found, is another source."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "16AECF01A7853FED"
 			tasks: [{
@@ -50,13 +51,14 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -1.0d
+			x: -5.0d
+			y: 0.5d
 			description: [
 				"As far as you can tell, the best way to gather gold is to attract Yamask with sandstone on the Stone layer, between Y levels 32 and 64. Yamask who carry gold masks will spawn indoors and underground, whereas those who drop more sandstone will spawn above ground and on manmade structures."
 				""
 				"Yamask spawn very rarely without sandstone, so, once some are found, it is a good idea to produce sandstone habitats for them."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "50C9B6E52D3A52C0"
 			tasks: [{
@@ -71,10 +73,11 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 0.0d
+			x: -6.0d
+			y: 1.5d
 			description: ["Weak Steel Lures can be used to increase the percentage of steel type Pokemon who spawn in an area. Keep in mind that not all Steel type Pokemon drop iron. Some drop brass, bronze, copper, tin, aluminum, or even cobalt."]
 			dependencies: ["16AECF01A7853FED"]
+			hide: true
 			id: "41859A5500F6CA6A"
 			tasks: [{
 				id: "1325FC0DA9701722"
@@ -101,13 +104,15 @@
 			]
 		}
 		{
-			x: -10.0d
-			y: 0.0d
+			x: -9.0d
+			y: 1.5d
 			description: [
 				"A lightning rod is the ultimate attractor for the Magnemite family. Building one is no small endeavor, but doing so will allow you to comfortably farm iron in the lightning rod's vicinity forever after. Effects are increased in stormy weather."
 				""
 				"Keep in mind that Magnemite only spawn at high altitudes, in the Air layer and above."
 			]
+			dependencies: ["44C692A5614BC9EB"]
+			hide: true
 			id: "7DCF1327564FBB72"
 			tasks: [{
 				id: "4E033C21F42301C3"
@@ -139,9 +144,10 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 1.0d
-			hide_dependency_lines: true
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "4203001176409324"
 			tasks: [{
 				id: "7612EFED619DAA7C"
@@ -155,9 +161,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.5d
+			x: 3.5d
+			y: 4.5d
 			description: ["Silicon is dropped by members of the Porygon family. These spawn indoors and on manmade structures in the Soil layer, your starting layer, between Y = 64 and 96."]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "7B959659C05288FA"
 			tasks: [{
@@ -172,7 +179,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -1.5d
 			y: 4.5d
 			description: [
 				"The easiest way to harvest aluminum nuggets is to summon the rain with Rain Dance and to head indoors or underground between Y levels 64 and 182."
@@ -181,6 +188,7 @@
 				""
 				"Klefki, which also spawns indoors between Y levels of 64 and 96, drops much larger amounts of aluminum, but is more difficult to defeat."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "01E96079B026844C"
 			tasks: [{
@@ -195,8 +203,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
+			x: -5.0d
+			y: -0.5d
 			description: [
 				"The best and most reliable source of redstone is Rotom. Rotom primarily spawns in the Murky Layers between Y 96 and Y 128."
 				""
@@ -204,6 +212,7 @@
 				""
 				"Redstone dust can be placed anywhere Geodudes spawn to lure out Alolan Geodudes."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "1ED0AD37F130CB69"
 			tasks: [{
@@ -218,13 +227,14 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
+			x: -5.0d
+			y: -1.5d
 			description: [
 				"The best sources of glowstone dust are the few ominous and disturbing electric Pokemon who have survived the cataclysm, such as Tynamo, which lives in the Soil layer, your starting layer, between Y levels 64 and 96, in underground water."
 				""
 				"You can also choose to pursue Chinchou, which can be found in water open to the sky, under Y = 32 in the Deep Dark layer of the abyss. "
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "54DE70CE9E377408"
 			tasks: [{
@@ -239,8 +249,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -2.5d
+			x: -6.5d
+			y: -0.5d
 			description: [
 				"Rotom spawns can be increased by placing objects associated with their form in the area they spawn. For instance, placing a mower near where Rotom Mow spawns will increase Rotom Mow spawns."
 				""
@@ -249,6 +259,7 @@
 				"Redstone blocks also attract other Pokemon, like Voltorb. Hisuan Voltorb can be found in the Deep Dark Layer below Y = 32, on outdoor manmade structures. Other voltorb can be found on and in Manmade structures in the Air Layer, between Y levels 160 and 192."
 			]
 			dependencies: ["1ED0AD37F130CB69"]
+			hide: true
 			id: "477AC959503B3459"
 			tasks: [{
 				id: "6D25E1EF8F3A68B0"
@@ -263,9 +274,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -3.5d
+			x: -6.5d
+			y: -1.5d
 			dependencies: ["54DE70CE9E377408"]
+			hide: true
 			id: "1B9ABC129FBE8E40"
 			tasks: [{
 				id: "707C10EB051C816B"
@@ -279,13 +291,15 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 0.0d
+			x: -8.0d
+			y: 1.5d
 			description: [
 				"One technique for farming iron is to identify where the Honedge family is likely to gather, and to construct an anvil in the vinicity. You have discovered a lot of archeological Pokemon in the Stone layer, between Y levels 32 and 64. Placing an anvil there might reveal the ghostly Honedge."
 				""
 				"Obviously, this technique requires iron to make iron; it is a way to sustain iron production, rather than start it."
 			]
+			dependencies: ["2C5C3611DAD86CAA"]
+			hide: true
 			id: "44C692A5614BC9EB"
 			tasks: [{
 				id: "650D4C2A206209B5"
@@ -308,9 +322,10 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 1.0d
+			x: -6.0d
+			y: 2.5d
 			dependencies: ["4203001176409324"]
+			hide: true
 			id: "6BEEF5E81B9C7145"
 			tasks: [{
 				id: "4F8A1E9D471CF4EE"
@@ -324,10 +339,11 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 7.5d
+			x: 1.5d
+			y: 4.5d
 			description: ["Boldore can drop Rubies, and one is guarenteed to drop from a Staryu, but Zombie Sableye which spawn in the Underground of the Murk layer between Y levels 96 and 128 might be a more reliable source."]
-			hide_dependency_lines: true
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "6095475F53EEF706"
 			tasks: [{
 				id: "6B8949E726102281"
@@ -341,14 +357,15 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 8.5d
+			x: 2.5d
+			y: 4.5d
 			description: [
 				"Sapphire is rarer and less reliable than Ruby. It can occasionally be harvested from Sableye or Carbink, but it is meant to be harvested from Dratini, which is very rare. "
 				""
 				"If Dratini is to be found, it will probably be found in underground water, in close proximity to Tynamo, which you believe may spawn in the Soil layer, your starting layer, between T levels 32 and 64."
 			]
-			hide_dependency_lines: true
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "08720DF91D5D70AB"
 			tasks: [{
 				id: "18C991BFB1C137BE"
@@ -362,13 +379,14 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 5.5d
+			x: -0.5d
+			y: 4.5d
 			description: [
 				"The most reliable source of crystal will come from Carbink, which is deep, deep under the earth below Y = 32. Carbink are primarily made of this crystal."
 				""
 				"Sableye hunts and consumes Carbink. Placing a block of crystal on the ground anywhere Sableye spawns will increase the amount of wild Sableye."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "18099FEDCF7E7FE6"
 			tasks: [{
@@ -383,9 +401,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 6.5d
+			x: 0.5d
+			y: 4.5d
 			description: ["Amethyst can be harvested in plenty from regular Sableye, which hunts Carbink at the bottom of the Deep Dark Level below Y = 32."]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "024E0BCA3669401C"
 			tasks: [{
@@ -395,9 +414,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -4.5d
+			x: -5.0d
+			y: -3.5d
 			description: ["Lapis can only be found from wild Azurill, which will only spawn on beaches on the Dazzling layer between Y levels 128 and 160, in the same general area where most of the other surviving Fairies live."]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "31C76F598C6BD89A"
 			tasks: [{
@@ -412,9 +432,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -5.5d
+			x: -5.0d
+			y: -4.5d
 			description: ["Diamond is a very rare drop from regular purple Sableye. Sableye can be found alongside Carbink, whom they hunt."]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "355FFDA4A746822F"
 			tasks: [{
@@ -429,13 +450,14 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -6.5d
+			x: -5.0d
+			y: -5.5d
 			description: [
 				"Emeralds can be harvested from Drowned Sableye, who live in the Soil layer, your starting layer, between Y levels 64 and 96.  Drowned Sableye spawn in underground water."
 				""
 				"Additionally, they can be harvested from Pupitar, if you can find one. Given the number of shelled bug-type Pokemon that survived, perhaps Pupitar did also."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "7146D75995349370"
 			tasks: [{
@@ -451,14 +473,15 @@
 		}
 		{
 			x: -6.0d
-			y: 2.0d
+			y: 3.5d
 			description: [
-				"Most Pokemon who are able to find more sand are those who prefer to live upon sand to begin with, such as Sandygast. "
+				"Most Pokemon who are able to find more sand are those who prefer to live upon sand to begin with, such as Sandygast.  However, Soul Sand is often valid for enticing these Pokemon."
 				""
 				"In the deepest levels of the abyss, below Y level 32, you may find Dunsparse underground. "
 				""
 				"Once you have sand, you should endeavor to create deserts (away from water) and beaches (close to water) to attract more Pokemon of a sandy persuasion. They will often carry additional sand, which you can collect from them."
 			]
+			dependencies: ["235A1662F6418DC0"]
 			hide: true
 			id: "55E3A0A953258FC9"
 			tasks: [
@@ -487,8 +510,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 9.5d
+			x: -2.5d
+			y: 4.5d
 			description: [
 				"A wide variety of seemingly unrelated Pokemon drop silver ore, nuggets, or ingots"
 				""
@@ -496,6 +519,7 @@
 				""
 				"Be on the lookout for Nosepass Between Y levels of 32 and 64, Alolan Sandshrew as Y levels increase."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "058F909B68C1C5F9"
 			tasks: [{
@@ -510,13 +534,14 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 10.5d
+			x: -3.5d
+			y: 4.5d
 			description: [
 				"Platinum is incredibly rare, and used for making the highest level Pokeballs."
 				""
 				"You are not sure where you will get it from, but be on the look out for Clefairy."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "63F3FF1C30FD35E1"
 			tasks: [{
@@ -538,13 +563,15 @@
 			]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
+			x: -7.0d
+			y: 1.5d
 			description: [
 				"Consider spending your first iron Ingot on a Stone Cutter. Stone Cutters will allow you to smooth out Tumblestones, which in turn can be paired with Silver Ingots to make Ancient Great Ball Lids. These will be more reliable Pokeballs than Love and Heal Balls"
 				""
 				"Alternatively, you can choose to invest your first iron ingot in a low voltage copper coil. These coils are the first of many blocks that can attract Magnemite at high (above Y = 192) altitudes."
 			]
+			dependencies: ["41859A5500F6CA6A"]
+			hide: true
 			id: "2C5C3611DAD86CAA"
 			tasks: [{
 				id: "1170B2F159C277B6"
@@ -978,9 +1005,16 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -8.0d
-			description: ["Copper is a fairly common drop. In the past you could harvest it from Cufant, but in the present you will have to look to Pokemon like Bronzor, Beldum, and Klink."]
+			title: "Copper"
+			x: -3.5d
+			y: -6.0d
+			description: [
+				"Copper is a fairly common drop. In the past you could harvest it from Cufant, but in the present you will have to look to Pokemon like Bronzor, Beldum, and Klink. "
+				""
+				"Klink can be attracted to manmade open-air habitats on the Stone Layer. Beldum and Bronzor can be attracted to indoor, manmade habitats on the Deep Dark Layer."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "3592ED1650D172B7"
 			tasks: [{
 				id: "7792E3475B2A07AA"
@@ -995,25 +1029,45 @@
 				}
 			}]
 			rewards: [{
-				id: "1C63BB964A404C05"
+				id: "7760E6D8C0A9310B"
 				type: "item"
-				item: "pixelmon:yellow_shard"
+				item: "pixelmon:red_shard"
 			}]
 		}
 		{
-			x: -6.0d
-			y: -9.0d
-			description: ["Tin is less plentiful than copper, but can be harvested from Klink. It is an uncommon drop from Baltoy, Bergemite, Nickit, and Cryogonal."]
+			x: -2.5d
+			y: -6.0d
+			description: [
+				"Tin is less plentiful than copper, but can be harvested from Klink who can be attracted to open-air manmade habitats on the Stone layer. Also on the stone layer, it can be dropped infrequently by Baloty, which spawns in manmade but indoor habitats."
+				""
+				"It can be dropped on the Ice Layer by Bergemite, Nickit, and Cryogonal."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "2256A2C44A963EC5"
 			tasks: [{
 				id: "3918F59AAEDF5A13"
 				type: "item"
 				item: "thermal:tin_ingot"
 			}]
+			rewards: [{
+				id: "6F11734429227345"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
 		}
 		{
-			x: -6.0d
-			y: -12.0d
+			x: 2.5d
+			y: -6.0d
+			description: [
+				"Brass can be alloyed from Zinc and Copper."
+				""
+				"It will sometimes drop from Falinks, which is attracted to underground habitats on the Soil Layer."
+				""
+				"Alternatively, it can be harvested directly from Chingling, which can be attracted to numerous habitats in the Space layer."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "0D248812DE33472B"
 			tasks: [{
 				id: "044AD350874C5B79"
@@ -1022,33 +1076,436 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -10.0d
+			x: -3.0d
+			y: -7.0d
+			description: [
+				"Bronze can be alloyed from tin and copper, but it can also be harvested directly from Bronzor and Bronzong. "
+				""
+				"Up on the soil layer, where you started, Bronze drops frequently from Falinks, which spawns in undergroun habitats."
+			]
+			hide_dependency_lines: true
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "4744A42F4A75A1ED"
 			tasks: [{
 				id: "74C3A56F245B2BD4"
 				type: "item"
 				item: "thermal:bronze_ingot"
 			}]
+			rewards: [{
+				id: "22448813980089F5"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
 		}
 		{
-			x: -6.0d
-			y: -13.0d
+			x: 3.5d
+			y: -6.0d
+			description: [
+				"Cobalt is typically located in the nether, if you remember correctly."
+				""
+				"It is rare, and hard to get, but Beldum will occasionally drop a small amount. Beldum can be found indoors on the Deep Dark layer, but is very uncommon."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "0631AB4AA36EE20E"
 			tasks: [{
 				id: "0B8D3135B1DB1D09"
 				type: "item"
 				item: "tconstruct:cobalt_ingot"
 			}]
+			rewards: [{
+				id: "5ECA1A4033287910"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
 		}
 		{
-			x: -6.0d
-			y: -11.0d
+			x: 1.5d
+			y: -6.0d
+			subtitle: "Green Metal"
+			description: [
+				"Zinc is common in shellfish Pokemon. "
+				""
+				"It is dropped most frequently by Binacle, which spawns on beaches on the Stone Layer."
+				""
+				"It can be dropped by Clamperl, who are attracted to underground habitats in the Stone layer, and Shellder, which can be found on beaches and in water on the Ice Layer."
+				""
+				"It is dropped in much smaller amounts by some Pokemon attracted to habitats on the Murk layer, such as Trubbish, Alolan Grimer, and Gulpin"
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "6F2DD5CDB657D547"
 			tasks: [{
 				id: "16C5C3B50FE617E7"
 				type: "item"
 				item: "contenttweaker:zinc_ingot"
+			}]
+			rewards: [
+				{
+					id: "4702294F42573578"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "2D442CAD9A2392A4"
+					type: "item"
+					item: "pixelmon:zinc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."]
+			dependencies: ["61156024E1329533"]
+			hide: true
+			id: "6ADA80A32DE8B4B4"
+			tasks: [{
+				id: "45014ADB2F2B4C89"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "gigaton_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0253AEDF929970FC"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 74
+						}
+					}
+				}
+				{
+					id: "42B5A47347512403"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: [
+				"Ancient Ultra balls are no cheap thing to make, requiring two platinum ingots for a recipe that only produces a single ball."
+				""
+				"They have a 2x catch rate."
+			]
+			dependencies: ["5AF0C36E42A5FFB3"]
+			hide: true
+			id: "239207D5068640A8"
+			tasks: [{
+				id: "05B700ABE1D00121"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_ultra_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71C1FDBD7710A14A"
+					type: "command"
+					title: "Every pokemon in your party will attempt to learn Ancient Power, even if normally they cannot legally learn it."
+					icon: {
+						id: "botania:cosmetic_questgiver_mark"
+						Count: 1b
+						tag: { }
+					}
+					command: "/function ghosts:ancient_power_all"
+					player_command: false
+				}
+				{
+					id: "48A0E1EF80783266"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 2
+				}
+				{
+					id: "0DBE67A7C138D434"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: ["Jet Balls are the least valuable of the ancient, high-end, platinum demanding balls. Their catch rate is only 1.5x, which is the same as a Great Ball, and the only benefit of using them, their ability to travel very far and potentially hit flying Pokemon, is difficult to pull off in a void. As long as it does not fly too far, Drifloon will attempt to catch it if it misses the Pokemon. But to use one safely, you will only ever want to fire straight up on a fairly large platform."]
+			dependencies: ["0825C5137B2FE74B"]
+			hide: true
+			id: "0C4615C77474AEBD"
+			tasks: [{
+				id: "7BAF62BD33F37D57"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "jet_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36B93F2FE16E3CAA"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 89
+						}
+					}
+				}
+				{
+					id: "3F252865D2A3FDEE"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "11C36B63E6C6D046"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "41B33E98604CE085"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "purple Metal"
+			description: [
+				"Lead appears to be dropped by exceptionally slow steel-type Pokemon. Look for Shellmet and Escavelier on the Soil Layer on open-air man-made habitats."
+				""
+				"Forretress, if you can find it, might be primarily made of lead."
+				""
+				"Cranidos has some lead in its head bump. Cranidos can be attracted to habitats built in the Deep Dark Layer, on open land."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "315C1FDD60FC635A"
+			tasks: [{
+				id: "24E03D91FD56A1AA"
+				type: "item"
+				item: "thermal:lead_ingot"
+			}]
+			rewards: [
+				{
+					id: "2F67E64A0F25F886"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "291CBA67C1625F51"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "3BE1A8510BC26017"
+					type: "item"
+					title: "Drifloon seems to have found a flower that can clean up lead from soil"
+					item: "biomesoplenty:lavender"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			description: [
+				"The first type of sand available to you is soul sand. The first type of glass is soul glass. Both can be used in a fair number of applications. Soul sand works as sand to attract desert Pokemon. It can also be used to make smeltery molds."
+				""
+				"Soul sand is most easily farmed from Gastly, which will spawn only in pitch blackness indoors or underground, and which is attracted to habitats that already contain soul sand. "
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			id: "235A1662F6418DC0"
+			tasks: [
+				{
+					id: "289FFA8EC76881FE"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "3FB8A20126A3E76B"
+					type: "item"
+					item: "tconstruct:soul_glass"
+				}
+			]
+			rewards: [{
+				id: "4A291E9F94BFD651"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			description: [
+				"Uranium is a very important ingredient for creating Necronium. "
+				""
+				"It is dropped by Lileep and Cradily, who spawn overground on land in the Deep Dark Layer."
+				""
+				"It is dropped in much smaller amounts by some Pokemon attracted to habitats on the Murk layer, such as Trubbish, Alolan Grimer, and Gulpin"
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "5AA83F235FA5EFE5"
+			tasks: [{
+				id: "07ECD901BF91856F"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+			}]
+			rewards: [{
+				id: "42340AEA7B1D49D2"
+				type: "item"
+				item: "minecraft:lilac"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			description: [
+				"Gunpowder, sulfur, and niter can all be harvested from the Koffing family, which can be found floating around the Murk Layer and attracked to open-air manmade structures."
+				""
+				"Sulfur can also be found in the company of certain Sableye, which live underground on the same Layer."
+				""
+				"Niter can be found from Nacli, which you have already discovered on the Stone layer. Nacli is attracted to water and sandstone."
+				""
+				"Although you don't foresee a need to blow up anything- you're typically attempt to do the very opposite- gunpowder is valuable in brewing."
+			]
+			id: "6E571FA937A9F129"
+			tasks: [
+				{
+					id: "71751BEFC730FF40"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "42801DE9B9B8391D"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "thermal:sulfur"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:dust_sulfur"
+									Count: 1b
+								}
+								{
+									id: "thermal:sulfur_dust"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3D17AFD2AD4E6019"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "thermal:niter"
+									Count: 1b
+								}
+								{
+									id: "thermal:niter_dust"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "50D41EF494094191"
+				type: "choice"
+				table_id: 7252355757410882407L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["6E571FA937A9F129"]
+			hide: true
+			id: "0CD3279AD9EDC1DB"
+			tasks: [
+				{
+					id: "1CD80150B22671D8"
+					type: "item"
+					item: "thermal:gunpowder_block"
+				}
+				{
+					id: "7813F7BD57F0F964"
+					type: "item"
+					title: "Any #forge:storage_blocks/sulfur"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/sulfur"
+						}
+					}
+				}
+				{
+					id: "35923BC2F934D871"
+					type: "item"
+					title: "Any #forge:storage_blocks/niter"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/niter"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2EFFC50D5F7670CD"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen7"
+					Count: 1b
+					tag: {
+						tm: 64
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			description: ["Nickle is usually found in close proximity to Iron. You can attract out Alolan Geodude by placing down redstone where Geodude naturally spawn, and they will often drop more nickle than iron."]
+			id: "47607815AA13CD41"
+			tasks: [{
+				id: "1317117F78CBECFD"
+				type: "item"
+				item: "thermal:nickel_ingot"
 			}]
 		}
 	]

@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-      "tinkersarchery:bowshaft_black_sand_cast",
-    "tinkersarchery:bowshaft_soul_sand_cast",
-    "tinkersarchery:bowshaft_orange_sand_cast",
-    "tinkersarchery:bowshaft_white_sand_cast",
-    "tinkersarchery:bowshaft_blue_sand_cast",
-    "tinkersarchery:bowshaft_pink_sand_cast",
-    "tinkersarchery:bowshaft_purple_sand_cast"
+      "contenttweaker:bowshaft_black_sand_cast",
+    "contenttweaker:bowshaft_soul_sand_cast",
+    "contenttweaker:bowshaft_orange_sand_cast",
+    "contenttweaker:bowshaft_white_sand_cast",
+    "contenttweaker:bowshaft_blue_sand_cast",
+    "contenttweaker:bowshaft_pink_sand_cast",
+    "contenttweaker:bowshaft_purple_sand_cast"
 
   ]
 }

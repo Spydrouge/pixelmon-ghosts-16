@@ -19,12 +19,22 @@
       "rarityMultipliers": [
         {
           "multiplier": 10,
-          "condition": {
-            "neededNearbyBlocks": [
-              "minecraft:torch"
+          "compositeCondition":
+          {
+            "conditions": 
+            [
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:torch"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:soul_torch"
+                ]
+              }
             ]
           }
-        }
       ],
       "rarity": 14
     },

@@ -19,6 +19,75 @@
         "maxY": 96,
         "minY": 64
       },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:nomel_berry",
+          "percentChance": 50
+        }
+      ],
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+      "rarity": 2.5
+    },
+    {
+      "spec": "species:Trevenant",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:logs"
+        ],
+        "maxY": 96,
+        "minY": 64
+      },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:nomel_berry",
+          "percentChance": 50
+        }
+      ],
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
       "anticondition":{
          "baseBlocks": [
           "minecraft:sand",

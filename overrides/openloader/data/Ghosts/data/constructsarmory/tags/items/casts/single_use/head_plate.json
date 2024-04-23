@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-      "constructsarmor:head_plate_black_sand_cast",
-    "constructsarmor:head_plate_soul_sand_cast",
-    "constructsarmor:head_plate_orange_sand_cast",
-    "constructsarmor:head_plate_white_sand_cast",
-    "constructsarmor:head_plate_blue_sand_cast",
-    "constructsarmor:head_plate_pink_sand_cast",
-    "constructsarmor:head_plate_purple_sand_cast"
+      "contenttweaker:head_plate_black_sand_cast",
+    "contenttweaker:head_plate_soul_sand_cast",
+    "contenttweaker:head_plate_orange_sand_cast",
+    "contenttweaker:head_plate_white_sand_cast",
+    "contenttweaker:head_plate_blue_sand_cast",
+    "contenttweaker:head_plate_pink_sand_cast",
+    "contenttweaker:head_plate_purple_sand_cast"
 
   ]
 }

@@ -28,6 +28,7 @@
 				"1DFDB168215732BB"
 			]
 			hide: true
+			secret: true
 			id: "002A10074C8DB848"
 			tasks: [{
 				id: "62EC197C8CA25E51"
@@ -39,6 +40,7 @@
 			rewards: [{
 				id: "092710901F0C227C"
 				type: "item"
+				title: "Some of Nana's bitter medicine was in your pocket. Yuck!"
 				item: "pixelmon:revival_herb"
 			}]
 		}
@@ -58,7 +60,8 @@
 			rewards: [{
 				id: "036C7A79DBE02555"
 				type: "item"
-				item: "minecraft:apple"
+				title: "Find an apple on the ground. It looks a little old"
+				item: "byg:green_apple"
 			}]
 		}
 		{
@@ -77,6 +80,7 @@
 			]
 			dependencies: ["1183D242FD8FAF87"]
 			hide: true
+			secret: true
 			id: "5998CB1BDA3E4109"
 			tasks: [{
 				id: "62642408469C787E"
@@ -88,6 +92,7 @@
 			rewards: [{
 				id: "4BE1844CAAAE1207"
 				type: "item"
+				title: "You check your pockets for food..."
 				item: "minecraft:apple"
 			}]
 		}
@@ -119,7 +124,7 @@
 				"1183D242FD8FAF87"
 			]
 			hide: true
-			hide_text_until_complete: true
+			secret: true
 			id: "20A8CEB3C05E359C"
 			tasks: [{
 				id: "40B353CE1A7C7BE4"
@@ -131,6 +136,7 @@
 			rewards: [{
 				id: "51325F5EB50DDD16"
 				type: "item"
+				title: "Drifloon brought you this. You wonder if it knows how yucky it tastes."
 				item: "pixelmon:energy_powder"
 			}]
 		}
@@ -147,7 +153,7 @@
 					Shiny: 0b
 				}
 			}
-			x: 1.0d
+			x: 2.5d
 			y: 3.0d
 			subtitle: "They all have rock throw!"
 			description: [
@@ -165,7 +171,7 @@
 				"20A8CEB3C05E359C"
 			]
 			hide: true
-			hide_text_until_complete: true
+			secret: true
 			id: "4D1266898E6101BC"
 			tasks: [{
 				id: "13C7B41A2328CF27"
@@ -185,7 +191,7 @@
 			title: "Culling the Weak"
 			icon: "pixelmon:dragon_skull"
 			x: 2.5d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "They just need a little push..."
 			description: [
 				"Because there is a spawn cap per area, you may find yourself surrounded in Pokemon too powerful, or irrelevant to your current farming strategy."
@@ -196,7 +202,7 @@
 			]
 			dependencies: ["20A8CEB3C05E359C"]
 			hide: true
-			hide_text_until_complete: true
+			secret: true
 			id: "6D2E37EFD10FB7B2"
 			tasks: [{
 				id: "644A2B320F3407D7"
@@ -251,17 +257,21 @@
 			y: -1.5d
 			subtitle: "Be Very Careful..."
 			description: [
-				"Spawners given to you by Arceus can be placed down, &cbut cannot be moved. Ever.&r Therefore, it is very important to pick a location you are happy with from the start. All spawners provided by Arceus must be fed a pulsing redstone signal, such as produced by a redstone clock or hovering hourglass."
+				"Spawners given to you by Arceus must be handled carefully, as they &cannot be moved or broken once placed down&r"
 				""
-				"(If you are playing with cheats enabled, you should avoid editing the spawner for gameplay related reasons.)"
+				"All spawners provided by Arceus must be fed a pulsing redstone signal, such as produced by a redstone clock or hovering hourglass. Make sure the hour glass has a single peice of sand so it begins turning. If you lose all other redstone, a button or rapidly flickering lever will do."
 				""
-				"If you somehow lose your hovering hourglass, you can use a button crafted from wood, or a lever using red_rock from a Boldore, and toggle it rapidly to make redstone pulses."
+				"One of the first Spawner you get access to is for Castform, which is able to fly and will likely leap off your platform. Therefore, it might be ideal to place it somewhere uncluttered where you can supervise its spawning and be ready to jump quickly into combat with it. "
+				""
+				"(If you are playing with cheats enabled, you should avoid editing the spawner for game-play related reasons.)"
 			]
 			dependencies: [
 				"1183D242FD8FAF87"
 				"1F4867DAC3F9EBB4"
 			]
 			hide: true
+			hide_text_until_complete: true
+			secret: true
 			id: "11D7E67ED0EFE75A"
 			tasks: [{
 				id: "1F7F60E09CCBC6A0"
@@ -310,6 +320,8 @@
 				"509830B8EDE46BCD"
 			]
 			hide: true
+			hide_text_until_complete: true
+			secret: true
 			id: "73F61B9DC6B043DA"
 			tasks: [{
 				id: "043D8E2B6EF2CD4A"
@@ -360,7 +372,7 @@
 				"5D08023C4FCB517A"
 			]
 			hide: true
-			hide_text_until_complete: true
+			secret: true
 			id: "63B75A8B18C8967C"
 			tasks: [{
 				id: "412730A3015D89CE"
@@ -427,7 +439,7 @@
 				"3FB66E0318A36E57"
 			]
 			hide: true
-			hide_text_until_complete: true
+			secret: true
 			id: "6EBB89B0423DF224"
 			tasks: [{
 				id: "7D3DF814A38B6381"
@@ -502,7 +514,7 @@
 		{
 			title: "Finding Cobble-Like Stone"
 			icon: "minecraft:cobblestone"
-			x: 1.0d
+			x: 4.0d
 			y: 4.5d
 			subtitle: "Who thought cobblestone would be hard to find?"
 			description: [
@@ -520,7 +532,7 @@
 				"7E8B9D29D34E8D2C"
 			]
 			hide: true
-			hide_text_until_complete: true
+			secret: true
 			id: "5E9D14F96349F6FC"
 			tasks: [{
 				id: "70867A306FD7FBB3"
@@ -593,6 +605,7 @@
 				"223712476666DABC"
 			]
 			hide: true
+			secret: true
 			id: "002E1A7D5328CC82"
 			tasks: [{
 				id: "78894C2AE49FA313"
@@ -735,9 +748,9 @@
 				""
 				"It's effect, &cRaging&r increases damage the lower your health is."
 				""
-				"Seared stone appears better on paper, but in reality only performs well in hot areas. You are in a very cold place."
+				"Seared stone appears better on paper, but in reality only performs well in hot areas. The temperature where you're at is a brisk 0.6 Minecraft Degrees."
 				""
-				"&bSilver&r is a more durable upgrade to Bloodblone, although its damage is only enhanced against undead."
+				"&bSilver&r is a more durable upgrade to Bloodblone, although its damage is only enhanced against undead. Furthermore, you likely want to save Silver for Pokeballs."
 				""
 				"&cScortched Stone&r is even less durable than Bloodblone, but deals more damage, especially when an enemy is on fire."
 			]
@@ -746,6 +759,7 @@
 				"15FA67EAB413D40A"
 			]
 			hide: true
+			secret: true
 			id: "0E957FBBF405A7FE"
 			tasks: [{
 				id: "68B03BC0E5E6C2F1"
@@ -842,6 +856,7 @@
 			]
 			dependencies: ["6EBB89B0423DF224"]
 			hide: true
+			secret: true
 			id: "22C7ED520D4599DA"
 			tasks: [{
 				id: "3747D0C54D9E14EF"
@@ -881,6 +896,7 @@
 			]
 			hide: true
 			dependency_requirement: "one_completed"
+			secret: true
 			id: "6AD9170E479489F7"
 			tasks: [{
 				id: "4714452B6AB2E747"
@@ -951,6 +967,7 @@
 			]
 			dependencies: ["6AD9170E479489F7"]
 			hide: true
+			secret: true
 			id: "28CBD4E5CF14B743"
 			tasks: [{
 				id: "3128462EE0110EE6"
@@ -1019,6 +1036,7 @@
 				"15FA67EAB413D40A"
 			]
 			hide: true
+			secret: true
 			id: "320555DD3CC09417"
 			tasks: [{
 				id: "4C2AC3C43827E350"
@@ -1026,6 +1044,403 @@
 				disable_toast: true
 				secret: true
 				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "Fighting Wild Drifloon"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/425_drifloon/all/base/none/sprite.png"
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			description: [
+				"&dDrifloon&r are a valuable source of &dghast tears&r and &anether quartz&r, but they are also difficult to fight. To begin with, you have to stand on your platform and wait for one to be traveling close enough. Then you have to use 'R' to throw your own Drifloon's pokeball at them. Hitting them will start the battle."
+				""
+				"They a much higher level than the bug Pokemon, and have moves that are super-effective against you. Some have the ability 'Aftermath' which will cause them to deal damage back to you when they are defeated. Try not to fight Drifloon unless it is evening and you can quickly take a rest if things go wrong."
+			]
+			dependencies: [
+				"20A8CEB3C05E359C"
+				"6BCA2C177694D5E9"
+			]
+			hide: true
+			secret: true
+			id: "30B3EA7772DBDF0D"
+			tasks: [{
+				id: "104A964792A3C971"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "7A7A231BEBE010C6"
+				type: "item"
+				title: "Where is Drifloon finding all this soul sand?"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			title: "Musings on Duskull"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/355_duskull/all/base/none/sprite.png"
+				}
+			}
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Poor Little Guy..."
+			description: [
+				"Duskull is not the fighter Drifloon is. It's speed, attack, and special attack are all rock bottom, and as you watch it float around and struggling with even the lightest of weights, you feel these stats might be low even among other members of its species."
+				""
+				"Most pokemon will move faster than it and hit harder than it. You will have to be very careful training it, or else you might reserve it entirely for help with foraging."
+				""
+				"It's still cute, though. Looking at it, you see it has its hidden ability Frisk. This might be helpful later on, for revealing when wild Pokemon are carrying items."
+			]
+			dependencies: ["5998CB1BDA3E4109"]
+			hide: true
+			secret: true
+			id: "31B361CF85A33D2D"
+			tasks: [{
+				id: "0DCE77C1D721E9BA"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "5341833D6B0E587D"
+				type: "item"
+				title: "Drifloon seemed to feel you were sad at losing the skull, and thoughtfully went to find you another."
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			title: "Tier 3 Armor"
+			icon: {
+				id: "constructsarmory:material_armor_chestplate"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:armor_toughness": 2.0f
+						"tconstruct:knockback_resistance": 0.05f
+						"tconstruct:durability": 498.0f
+						"tconstruct:armor": 4.0f
+						"constructsarmory:movement_speed": 0.060374998f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [{
+						name: "constructsarmory:immaculate_2"
+						level: 2s
+					}]
+					tic_materials: [
+						"tconstruct:bronze"
+						"tconstruct:bronze"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:durability": 498
+					}
+					tic_persistent_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 1
+					}
+				}
+			}
+			x: 5.0d
+			y: -6.5d
+			subtitle: "So many to choose from...!"
+			description: [
+				"You have a lot of equally good options for making your Tier 3 armor, all with different strong suites, weaknesses, and abilities. Each material has to be tracked down to a specific Layer, Habitat, and Pokemon. "
+				""
+				"&6Bronze&r is a sensible material to make both plate and mail from. It is easy to farm for. It has very high durability, decent armor and toughness, and high movement speed. It's ability, &6Immaculate&r, also gives bonus movement speed at high durability."
+				""
+				"&aNecronium&r is for when you want to maximize armor and toughness. However, it's not a 'set it and forget it' armor. Its ability, Decay, requires wither management. It has low durability."
+				""
+				"&3(Brass) Plated Slimewood&r is the only material that shares Necronium's toughness, and has high durability thanks to Overslime, but it has much lower armor."
+			]
+			dependencies: [
+				"320555DD3CC09417"
+				"47107D60FD080A18"
+			]
+			hide: true
+			secret: true
+			id: "1E2A0F78B8E98FF6"
+			tasks: [{
+				id: "7FCA76751E79FD2B"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [
+				{
+					id: "075AF4C9D0991CAE"
+					type: "item"
+					item: "thermal:copper_nugget"
+					count: 3
+				}
+				{
+					id: "4845AA4702E716B6"
+					type: "item"
+					item: "thermal:tin_nugget"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 8.625f
+						"tconstruct:attack_damage": 1.75f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 641.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+						{
+							name: "tconstruct:temperate"
+							level: 3s
+						}
+					]
+					tic_materials: [
+						"tconstruct:constantan"
+						"tconstruct:constantan"
+						"tconstruct:constantan"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 1.0d
+			y: -6.5d
+			description: [
+				"There is no one right material for mining. &6Bronze&r is practical, easy to get, durable, and has a good mining speed. It's ability increases mining speed as long as durability is kept high. "
+				""
+				"&cConstantan&r edges out Bronze on raw mining speed, but only gains a bonus to mining speed in hot areas like the Nether. &3(Brass) Plated Slimewood&r is highly durable but slow."
+				""
+				"&cRuby&r is ridiculously durable, but also slow. Furthermore, it has a negative ability: Any time you 'miss' a block or enemy with your tool, you will deal damage to yourself."
+				""
+			]
+			dependencies: [
+				"22C7ED520D4599DA"
+				"47107D60FD080A18"
+			]
+			hide: true
+			secret: true
+			id: "640F6CA5C5525685"
+			tasks: [{
+				id: "41CDEB2442A0E20A"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "624759A829E1F464"
+				type: "item"
+				item: "immersiveengineering:nugget_constantan"
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:sword"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.5f
+						"tconstruct:durability": 1.1f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.84f
+						"tconstruct:mining_speed": 2.0f
+						"tconstruct:attack_damage": 6.3250003f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 313.5f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:decay"
+							level: 3s
+						}
+						{
+							name: "tconstruct:silky_shears"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"tconstruct:necronium"
+						"tconstruct:necronium"
+						"tconstruct:necronium"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 3.0d
+			y: -6.5d
+			description: [
+				"The deadliest material for a sword is also the most dangerous, &aNecronium&r. A single strike of a Necronium sword, and the Wither III damage will kill a full-health Zombie.  However, 25% of the time, it will inflict you with that same effect. To use this blade safely, it must be managed with milk, regeneration from a Heartbeat, or some kind of wither protection."
+				""
+				"The best alternative to Necronium is &eBrass&r. Brass can be collected directly from Chingling, somewhere in the higher layers, or produced using copper and zinc, which is common among shellfish. Brass's ability &ePolished&r increases its damage at high durability."
+			]
+			dependencies: [
+				"47107D60FD080A18"
+				"0E957FBBF405A7FE"
+			]
+			hide: true
+			secret: true
+			id: "64DB6F1671B5192E"
+			tasks: [{
+				id: "61217E9B19A9DA38"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "55AEF7819C7AC4ED"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+			}]
+		}
+		{
+			icon: "tconstruct:rose_gold_ingot"
+			x: 2.0d
+			y: -7.5d
+			description: [
+				"&dFairy&r, &cRose Gold&r, and &eElectrum&r are seldom ideal as plate, tool heads, or sword blades, because they have low durability, low mining levels, low damage, and nonexistant toughness."
+				""
+				"However, they have absurdly high mining speeds, movement speeds, and attack speeds. This may make them great for certain applications, or as supplemental materials. Their modifiers are also worth mentioning."
+				""
+				"Rose Gold gives an &cadditional modifer&r and Electrum &eenhances XP&r drops. &dFairy&r cannot be used in armor; in weapons, it increases damage dealt at low health, similar to Bloodbone&r."
+			]
+			dependencies: ["47107D60FD080A18"]
+			hide: true
+			secret: true
+			id: "4676884115CF5411"
+			tasks: [{
+				id: "7541FADE09CBF356"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [
+				{
+					id: "55E2145192644A7C"
+					type: "item"
+					item: "tconstruct:rose_gold_nugget"
+				}
+				{
+					id: "716C89D179BAABE7"
+					type: "item"
+					item: "thermal:electrum_nugget"
+				}
+				{
+					id: "02927C27D3495737"
+					type: "item"
+					item: "materialis:fairy_nugget"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: [
+				"Sometimes, different features, such as torches, can attract different kinds of Pokemon. Litwik, who hides in indoor manmade habitats on the Soil layer, is attracted to torches- regular and soul torches. Lampent and Chandelure are attracted to any kind of street lamp or lantern. "
+				""
+				"However, some other ghost pokemon are also attracted to soul torches, camp fires, and lanterns. Therefore, if you are specifically targeting the Litwik line, it may pay to use regular torches, and regular lanterns, to weed out the other ghost Pokemon."
+				""
+				"The Pokemon who also like soul torches appear to include Misdreavus, Duskull, Shuppet, Froslass, Mimikyu, and Phantump."
+			]
+			dependencies: ["7F8E0B072E55E538"]
+			hide: true
+			id: "5AA5BA4D758C3D9D"
+			tasks: [
+				{
+					id: "79EB0D0A5A1DB758"
+					type: "item"
+					item: "minecraft:soul_torch"
+				}
+				{
+					id: "7C204B1C0E12A50C"
+					type: "item"
+					item: "minecraft:torch"
+				}
+			]
+			rewards: [{
+				id: "3DE54FCFD348BAF2"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: [
+				"\"Oh the Biomes You'll Go\" Colored Spruces are all high-altitude plants that will only grow above Y level 72. Don't waste bone meal on them below that level!"
+				""
+				"Additionally, they are not useful for growing Podzol."
+			]
+			id: "69C2D29AE902B96F"
+			tasks: [{
+				id: "26F9B449D2273129"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "byg:orange_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:red_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:blue_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:yellow_spruce_sapling"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "140E8100DA664EE8"
+				type: "item"
+				item: "minecraft:spruce_sapling"
 			}]
 		}
 	]

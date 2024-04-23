@@ -40,6 +40,7 @@
 				"Stone Layer: 32 - 64"
 				"Deep Dark Layer: 0 - 32"
 			]
+			hide: true
 			size: 2.0d
 			id: "30EB23683E1A1D4C"
 			tasks: [{
@@ -92,6 +93,7 @@
 			y: 2.0d
 			description: ["Head between Y Levels 32 and 64"]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "4D61D20EF0182AE0"
 			tasks: [{
 				id: "628EFE53BD2A853B"
@@ -119,6 +121,7 @@
 			x: 0.0d
 			y: -2.0d
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "07738E3566B31309"
 			tasks: [{
 				id: "0822C3E88FF87E75"
@@ -154,6 +157,7 @@
 			x: 0.0d
 			y: -3.5d
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "68656D2ECD70A4C9"
 			tasks: [{
 				id: "33F4FAE8430C8799"
@@ -189,6 +193,7 @@
 			x: 0.0d
 			y: -5.0d
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "0BD06157B3F599CB"
 			tasks: [{
 				id: "7CA3EF6B2154A01B"
@@ -224,6 +229,7 @@
 			x: 0.0d
 			y: -6.5d
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "7EEAD69FE49927AB"
 			tasks: [{
 				id: "0CF017BC3D2994FA"
@@ -259,6 +265,7 @@
 			x: 0.0d
 			y: -8.0d
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "3632E0C47BD3B5DE"
 			tasks: [{
 				id: "0D4D3F22EAF8A659"
@@ -290,6 +297,7 @@
 			subtitle: "Build a Suitable Habitat!"
 			description: ["You've seen Phantump and Pineco both spawn on open land in the Soil Layer, but did you know &cPumpkaboo&r and &aOddish&r spawn as well? Oddish is attracted to uncut tall grass, and Pumpkaboo is (as one might expect) attracted to pumpkins."]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "636FC9D9B5FAFAC2"
 			tasks: [
 				{
