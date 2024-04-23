@@ -815,6 +815,8 @@
 				"The recipe for an Ancient Great Ball requires two silver ingots and three tumblestones, and yields three balls."
 				""
 				"These have a 1.5x catch rate."
+				""
+				"[&dCAUTION&r: As soon as you create the balls, exit the Crafting Table GUI. Do not open any GUI for 60 seconds, and you will recieve an additional reward.]"
 			]
 			dependencies: ["674F6AEDA331784C"]
 			hide: true
@@ -851,13 +853,14 @@
 				{
 					id: "349FCCC1542113FB"
 					type: "command"
-					title: "Every Pokemon in your party will spontaneously attempt to learn Ancient Power, even if they cannot legally learn it."
+					title: "One minute after crafting the balls, if no GUI is open, every Pokemon in your party will spontaneously learn Ancient Power, even if normally they would be unable to."
 					icon: {
 						id: "botania:cosmetic_questgiver_mark"
 						Count: 1b
 						tag: { }
 					}
-					command: "/function ghosts:ancient_power_all"
+					auto: "enabled"
+					command: "/say Open no GUIs for one minute!"
 					player_command: false
 				}
 			]
@@ -1371,6 +1374,8 @@
 				"Ancient Ultra balls are no cheap thing to make, requiring two platinum ingots for a recipe that only produces a single ball."
 				""
 				"They have a 2x catch rate."
+				""
+				"[&dCAUTION&r: As soon as you create the balls, exit the Crafting Table GUI. Do not open any GUI for 60 seconds, and you will recieve an additional reward.]"
 			]
 			dependencies: ["5AF0C36E42A5FFB3"]
 			hide: true
@@ -1390,13 +1395,14 @@
 				{
 					id: "71C1FDBD7710A14A"
 					type: "command"
-					title: "Every pokemon in your party will attempt to learn Ancient Power, even if normally they cannot legally learn it."
+					title: "One minute after crafting the balls, if no GUI is open, every Pokemon in your party will spontaneously learn Ancient Power, even if normally they would be unable to."
 					icon: {
 						id: "botania:cosmetic_questgiver_mark"
 						Count: 1b
 						tag: { }
 					}
-					command: "/function ghosts:ancient_power_all"
+					auto: "enabled"
+					command: "/say Open no GUIs for one minute!"
 					player_command: false
 				}
 				{
@@ -1803,6 +1809,7 @@
 						PokeBallID: "wing_ball"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -1839,6 +1846,7 @@
 						PokeBallID: "ancient_heavy_ball"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{

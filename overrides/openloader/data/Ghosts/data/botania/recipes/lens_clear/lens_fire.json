@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:lens_fire"
+    }
+  ],
+  "result": {
+    "item": "botania:lens_normal"
+  }
+}

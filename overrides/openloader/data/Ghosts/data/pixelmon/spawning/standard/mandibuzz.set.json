@@ -9,6 +9,12 @@
       "minLevel": 55,
       "maxLevel": 63,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 75
+        }
+      ],
       "condition": {
         "maxY": 192,
         "minY": 64,

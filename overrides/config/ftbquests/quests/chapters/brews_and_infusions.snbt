@@ -384,11 +384,16 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "4360A39CDE156F72"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
 			x: -3.5d
 			y: 6.5d
-			description: ["Sitrus Berries are also useful for healing 25% of a Pokemon's maximum health when HP falls below 50%. You can also use them to heal Pokemon outside of battle. They are a strict upgrade to an Oran berry in this capacity."]
+			description: ["Sitrus Berries are also useful for healing 25% of a Pokemon's maximum health when HP falls below 50%. You can also use them to heal Pokemon outside of battle. They are a strict upgrade to an Oran berry and Figy/Wiki/Mago/etc berries in this capacity."]
 			dependencies: ["618F85FA2EB9D03D"]
 			id: "103B370CC63D40EE"
 			tasks: [{
@@ -461,6 +466,11 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "2F46634F8541877A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
 			x: -1.5d
@@ -487,6 +497,11 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "79594ABDD9F8C12F"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
 			x: -1.5d
@@ -566,6 +581,11 @@
 					match_nbt: false
 				}
 			]
+			rewards: [{
+				id: "06058EDA184972E2"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
 			x: 0.5d
@@ -592,6 +612,11 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "5B08CD646E218BFF"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
 			x: 0.5d
@@ -646,6 +671,11 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "0BCD17740B6C5278"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
 			x: 1.5d
@@ -1092,14 +1122,14 @@
 			}]
 		}
 		{
-			icon: "pixelmon:passho_berry"
+			icon: "pixelmon:eggant_berry"
 			x: -3.0d
 			y: -2.5d
 			subtitle: "All around the Mulberry Bush..."
 			description: [
-				"The Oran berry is the only low-leveled Blue Juice berry!"
+				"The Oran berry is the only low-leveled Blue Juice berry! Or is it? The Eggant Berry, which protects from Infatuation... Well, it's not on the official list of blue berries YOU know, but you could give it a try!"
 				""
-				"While that's unfortunate, there is a way to produce a +2 Blue Juice to match your other colored juices. You'll need to find a middle tier Blue berry, and mix it with itself. To do this, you need to track down a Pokemon likely to carry a Yache, Coba, or Passho Berry."
+				"If not, there is another way to produce a +2 Blue Juice to match your other colored juices. You'll need to find a middle tier Blue berry, and mix it with itself. To do this, you need to track down a Pokemon likely to carry a Yache, Coba, or Passho Berry."
 				""
 				"All three berries protect Pokemon from different types of super effective hit. You can fight enough Pokemon that they finally drop one, or speed up the process by using Thief to steal one. About half of all Roly Coly carry one as a \"Held Item\" in battle."
 			]

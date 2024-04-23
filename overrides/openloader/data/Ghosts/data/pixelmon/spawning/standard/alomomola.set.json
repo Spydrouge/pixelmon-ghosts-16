@@ -10,6 +10,10 @@
         {
           "itemID": "pixelmon:tamato_berry",
           "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 50
         }
       ],
       "minLevel": 18,
@@ -32,6 +36,10 @@
       "heldItems": [
         {
           "itemID": "pixelmon:tamato_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
           "percentChance": 50
         }
       ],

@@ -3683,6 +3683,12 @@
         "chance":1.0
       },
       {
+        "item":"minecraft:skeleton_skull",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
         "item":"minecraft:coarse_dirt",
         "min":1,
         "max":3,
@@ -3693,12 +3699,6 @@
         "min":1,
         "max":2,
         "chance":0.3
-      },
-      {
-        "item":"minecraft:skeleton_skull",
-        "min":1,
-        "max":1,
-        "chance":0.1
       }
     ]
   },
@@ -4749,6 +4749,12 @@
         "item":"minecraft:cookie",
         "min":1,
         "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"pixelmon:durin_berry",
+        "min":4,
+        "max":8,
         "chance":0.5
       },
       {
@@ -6635,6 +6641,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:lens_phantom",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -9227,7 +9239,7 @@
         "chance":1.0
       },
       {
-        "item":"byg:white_anemone",
+        "item":"byg:pink_anemone",
         "min":1,
         "max":2,
         "chance":0.5
@@ -9262,7 +9274,7 @@
         "chance":1.0
       },
       {
-        "item":"byg:white_anemone",
+        "item":"byg:pink_anemone",
         "min":2,
         "max":4,
         "chance":1.0
@@ -9445,7 +9457,13 @@
         "item":"pixelmon:yago_berry",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.05
+      },
+      {
+        "item":"pixelmon:nutpea_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -9465,13 +9483,19 @@
         "chance":1.0
       },
       {
+        "item":"pixelmon:power_herb",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"pixelmon:yago_berry",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.1
       },
       {
-        "item":"pixelmon:power_herb",
+        "item":"pixelmon:nutpea_berry",
         "min":1,
         "max":1,
         "chance":0.1
@@ -9502,7 +9526,13 @@
       {
         "item":"pixelmon:yago_berry",
         "min":1,
-        "max":2,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"pixelmon:nutpea_berry",
+        "min":1,
+        "max":1,
         "chance":0.5
       },
       {
@@ -9940,7 +9970,7 @@
         "chance":0.01
       },
       {
-        "item":"minecraft:potato",
+        "item":"farmersdelight:wild_potatoes",
         "min":1,
         "max":1,
         "chance":0.01
@@ -10315,16 +10345,46 @@
     "pokemon":"Mawile",
     "items":[
       {
-        "item":"minecraft:iron_ingot",
+        "item":{
+          "id":"immersiveengineering:sword_steel",
+          "Count":1,
+          "tag":{
+            "Damage":900
+          }
+        },
         "min":1,
-        "max":2,
-        "chance":1.0
+        "max":1,
+        "chance":0.7
       },
       {
-        "item":"pixelmon:shuca_berry",
+        "item":"thermal:nickel_nugget",
+        "min":2,
+        "max":4,
+        "chance":0.7
+      },
+      {
+        "item":"immersiveengineering:hemp_fiber",
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":{
+          "id":"botania:manasteel",
+          "Count":1,
+          "tag":{
+            "Damage":250
+          }
+        },
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"thermal:iron_nugget",
+        "min":2,
+        "max":3,
+        "chance":0.2
       },
       {
         "item":"pixelmon:fairy_gem",
@@ -10593,6 +10653,18 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:red_cornflower",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:begonia",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
         "item":"byg:glowstone_lantern",
         "min":1,
         "max":1,
@@ -10639,28 +10711,46 @@
     "pokemon":"Roselia",
     "items":[
       {
-        "item":"minecraft:rose_bush",
+        "item":"byg:cyan_rose",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"pixelmon:payapa_berry",
-        "min":1,
-        "max":2,
-        "chance":0.5
-      },
-      {
-        "item":"minecraft:wither_rose",
+        "item":"biomesoplenty:rose",
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"inspirations:rose",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"byg:rose",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"minecraft:rose_bush",
+        "min":1,
+        "max":2,
+        "chance":0.1
       },
       {
         "item":"pixelmon:sticky_barb",
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:roseli_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -11713,6 +11803,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:lens_phantom",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -11742,6 +11838,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:lens_phantom",
+        "min":1,
+        "max":1,
+        "chance":0.2
       }
     ]
   },
@@ -11803,6 +11905,12 @@
       },
       {
         "item":"tconstruct:silky_cloth",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"botania:lens_phantom",
         "min":1,
         "max":1,
         "chance":0.1
@@ -12184,6 +12292,12 @@
         "chance":0.1
       },
       {
+        "item":"pixelmon:eggant_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"pixelmon:tamato_berry",
         "min":1,
         "max":1,
@@ -12286,6 +12400,12 @@
         "min":1,
         "max":3,
         "chance":0.5
+      },
+      {
+        "item":"botania:manasteel_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.3
       }
     ]
   },
@@ -12315,6 +12435,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:manasteel_nugget",
+        "min":2,
+        "max":4,
+        "chance":0.5
       }
     ]
   },
@@ -12350,6 +12476,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:manasteel_nugget",
+        "min":4,
+        "max":8,
+        "chance":1.0
       }
     ]
   },
@@ -13395,9 +13527,9 @@
     "pokemon":"Combee",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"byg:begonia",
         "min":1,
-        "max":2,
+        "max":3,
         "chance":1.0
       },
       {
@@ -13412,7 +13544,7 @@
     "pokemon":"Vespiquen",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"byg:begonia",
         "min":1,
         "max":3,
         "chance":1.0
@@ -13832,6 +13964,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"botania:lens_phantom",
+        "min":1,
+        "max":1,
+        "chance":0.5
       }
     ]
   },
@@ -14010,7 +14148,13 @@
         "item":"thermal:bronze_nugget",
         "min":1,
         "max":2,
-        "chance":0.2
+        "chance":0.5
+      },
+      {
+        "item":"botania:manasteel_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.3
       },
        {
         "item":"immersiveengineering:nugget_uranium",
@@ -14025,8 +14169,8 @@
     "items":[
       {
         "item":"tconstruct:copper_ingot",
-        "min":2,
-        "max":3,
+        "min":6,
+        "max":12,
         "chance":1.0
       },
       {
@@ -14034,6 +14178,12 @@
         "min":1,
         "max":1,
         "chance":0.75
+      },
+      {
+        "item":"botania:manasteel_nugget",
+        "min":2,
+        "max":4,
+        "chance":0.3
       },
       {
         "item":"pixelmon:soothe_bell",
@@ -14237,10 +14387,16 @@
         "chance":1.0
       },
       {
+        "item":"pixelmon:durin_berry",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:leftovers",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.1
       }
     ]
   },
@@ -15079,6 +15235,12 @@
         "item":"minecraft:soul_lantern",
         "min":1,
         "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"botania:lens_phantom",
+        "min":1,
+        "max":1,
         "chance":0.5
       },
       {
@@ -16944,7 +17106,7 @@
     "pokemon":"Swadloon",
     "items":[
       {
-        "item":"farmersdelight:cabbage",
+        "item":"farmersdelight:wild_cabbages",
         "min":1,
         "max":1,
         "chance":1.0
@@ -16967,8 +17129,8 @@
     "pokemon":"Leavanny",
     "items":[
       {
-        "item":"minecraft:string",
-        "min":1,
+        "item":"farmersdelight:wild_cabbages",
+        "min":2,
         "max":3,
         "chance":1.0
       },
@@ -18487,6 +18649,12 @@
         "chance":0.5
       },
       {
+        "item":"pixelmon:eggant_berry",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
         "item":"pixelmon:tamato_berry",
         "min":1,
         "max":1,
@@ -19109,6 +19277,18 @@
         "chance":0.5
       },
       {
+        "item":"contenttweaker:tin_nugget",
+        "min":2,
+        "max":4,
+        "chance":0.3
+      },
+      {
+        "item":"byg:cyan_rose",
+        "min":2,
+        "max":4,
+        "chance":0.3
+      },
+      {
         "item":"pixelmon:ice_gem",
         "min":1,
         "max":1,
@@ -19119,12 +19299,6 @@
         "min":1,
         "max":1,
         "chance":0.1
-      },
-      {
-        "item":"contenttweaker:tin_nugget",
-        "min":2,
-        "max":4,
-        "chance":0.3
       }
     
     ]
@@ -19524,6 +19698,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:eggant_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -19559,6 +19739,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:eggant_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -20493,6 +20679,217 @@
     ]
   },
   {
+    "pokemon":"Vivillon palette:elegant",
+    "items":[
+      {
+        "item":"byg:iris",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:violet_leather_flower",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:crocus",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:purple_amaranth",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },   
+      {
+        "item":"byg:alpine_bellflower",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"pixelmon:figy_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Vivillon palette:meadow",
+    "items":[
+      {
+        "item":"byg:protea_flower",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:magenta_amaranth",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:amaranth",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:osiria_rose",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"byg:bistort",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"byg:peach_leather_flower",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"pixelmon:figy_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Vivillon palette:tundra",
+    "items":[
+      {
+        "item":"byg:delphinium",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:winter_scilla",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:cyan_amaranth",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:cyan_rose",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"byg:winter_cyclamen",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"pixelmon:figy_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+   {
+    "pokemon":"Vivillon palette:icy_snow",
+    "items":[
+      {
+        "item":"byg:delphinium",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"biomesoplenty:glowflower",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:white_anemone",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      },
+      {
+        "item":"byg:winter_rose",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"byg:white_sage",
+        "min":2,
+        "max":4,
+        "chance":0.2
+      }, 
+      {
+        "item":"pixelmon:figy_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+   {
+    "pokemon":"Vivillon palette:polar",
+    "items":[
+      {
+        "item":"astralsorcery:stardust",
+        "min":1,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"byg:black_rose",
+        "min":2,
+        "max":4,
+        "chance":0.3
+      },
+      {
+        "item":"byg:richea",
+        "min":2,
+        "max":4,
+        "chance":0.3
+      },
+      {
+        "item":"astralsorcery:glow_flower",
+        "min":2,
+        "max":4,
+        "chance":0.3
+      },
+      {
+        "item":"byg:purple_tulip",
+        "min":2,
+        "max":4,
+        "chance":0.1
+      }, 
+      {
+        "item":"pixelmon:figy_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
     "pokemon":"Litleo",
     "items":[
       {
@@ -20980,6 +21377,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"farmersdelight:wild_carrots",
+        "min":1,
+        "max":2,
+        "chance":0.5
       }
     ]
   },
@@ -20988,6 +21391,12 @@
     "items":[
       {
         "item":"minecraft:mutton",
+        "min":2,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"farmersdelight:wild_carrots",
         "min":2,
         "max":3,
         "chance":1.0
@@ -21953,6 +22362,12 @@
         "chance":0.5
       },
       {
+        "item":"botania:manasteel_nugget",
+        "min":1,
+        "max":3,
+        "chance":0.3
+      },
+      {
         "item":"immersiveengineering:iron_nugget",
         "min":1,
         "max":3,
@@ -22794,7 +23209,7 @@
         "chance":0.05
       },
       {
-        "item":"minecraft:potato",
+        "item":"farmersdelight:wild_potatoes",
         "min":1,
         "max":1,
         "chance":0.02
@@ -23717,10 +24132,34 @@
         "chance":0.5
       },
       {
-        "item":"byg:pink_tulip",
+        "item":"minecraft:pink_tulip",
          "min":1,
         "max":2,
-        "chance":0.5
+        "chance":0.05
+      },
+      {
+        "item":"minecraft:orange_tulip",
+         "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
+        "item":"byg:purple_tulip",
+         "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
+        "item":"byg:cyan_tulip",
+         "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
+        "item":"byg:green_tulip",
+         "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -25260,7 +25699,7 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:watermelon_seeds",
+        "item":"minecraft:melon_seeds",
         "min":1,
         "max":1,
         "chance":0.3
@@ -25301,7 +25740,7 @@
         "chance":0.1
       },
       {
-        "item":"minecraft:watermelon_seeds",
+        "item":"minecraft:melon_seeds",
         "min":1,
         "max":2,
         "chance":0.5
@@ -25318,7 +25757,7 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:watermelon_seeds",
+        "item":"minecraft:melon_seeds",
         "min":3,
         "max":4,
         "chance":1.0
@@ -27308,7 +27747,7 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:potato",
+        "item":"farmersdelight:wild_potatoes",
         "min":1,
         "max":1,
         "chance":0.05
@@ -29306,6 +29745,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"byg:lazarus_bellflower",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -29317,6 +29762,12 @@
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"byg:lazarus_bellflower",
+        "min":2,
+        "max":3,
+        "chance":0.7
       },
 	  {
         "item":"minecraft:soul_soil",

@@ -27,7 +27,7 @@
           "multiplier": 2,
           "condition": {
             "neededNearbyBlocks": [
-              "minecraft:soul_sand"
+              "tconstruct:soul_glass"
             ]
           }
         }

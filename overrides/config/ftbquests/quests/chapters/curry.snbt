@@ -82,6 +82,11 @@
 				type: "item"
 				item: "pixelmon:dish_curry_plain"
 			}]
+			rewards: [{
+				id: "264268697476DE91"
+				type: "item"
+				item: "pixelmon:durin_berry"
+			}]
 		}
 		{
 			x: -0.5d
@@ -109,9 +114,14 @@
 					id: "5DB9FC512358BED0"
 					type: "item"
 					item: "pixelmon:curry_bone"
-					count: 4L
 				}
 			]
+			rewards: [{
+				id: "7DF1C01121463378"
+				type: "item"
+				item: "pixelmon:curry_bone"
+				count: 3
+			}]
 		}
 		{
 			x: -0.5d
@@ -141,6 +151,12 @@
 					item: "pixelmon:curry_toast"
 				}
 			]
+			rewards: [{
+				id: "23F463685C21347D"
+				type: "item"
+				item: "pixelmon:curry_toast"
+				count: 3
+			}]
 		}
 		{
 			x: 1.0d
@@ -498,6 +514,12 @@
 					item: "pixelmon:curry_potato"
 				}
 			]
+			rewards: [{
+				id: "76150F943B273D44"
+				type: "item"
+				item: "pixelmon:curry_potato"
+				count: 3
+			}]
 		}
 		{
 			x: 2.5d
@@ -529,6 +551,12 @@
 					item: "pixelmon:curry_herb"
 				}
 			]
+			rewards: [{
+				id: "10D911CE846343D5"
+				type: "item"
+				item: "pixelmon:curry_herb"
+				count: 3
+			}]
 		}
 		{
 			x: 4.0d
@@ -575,7 +603,6 @@
 				id: "15ED1AF94F5CF118"
 				type: "item"
 				item: "pixelmon:curry_salad"
-				count: 3
 			}]
 		}
 		{
@@ -612,7 +639,6 @@
 				id: "49D5EF30B612AA2D"
 				type: "item"
 				item: "pixelmon:curry_seasoned"
-				count: 3
 			}]
 		}
 		{
@@ -681,6 +707,11 @@
 					item: "pixelmon:curry_coconut"
 				}
 			]
+			rewards: [{
+				id: "67B5A19EDBC43E91"
+				type: "item"
+				item: "pixelmon:curry_coconut"
+			}]
 		}
 		{
 			x: 4.0d
@@ -712,6 +743,11 @@
 					item: "pixelmon:curry_cream"
 				}
 			]
+			rewards: [{
+				id: "3BF5629CFF8F2FB2"
+				type: "item"
+				item: "pixelmon:curry_cream"
+			}]
 		}
 		{
 			x: 4.0d
@@ -744,6 +780,11 @@
 					item: "pixelmon:curry_tropical"
 				}
 			]
+			rewards: [{
+				id: "03BA8D1772D02044"
+				type: "item"
+				item: "pixelmon:curry_tropical"
+			}]
 		}
 		{
 			x: 5.5d
@@ -785,6 +826,11 @@
 					item: "pixelmon:curry_seasoned"
 				}
 			]
+			rewards: [{
+				id: "4E5B5CD7EA364461"
+				type: "item"
+				item: "pixelmon:curry_decorative"
+			}]
 		}
 		{
 			x: 5.5d
@@ -812,6 +858,11 @@
 					item: "pixelmon:curry_beans"
 				}
 			]
+			rewards: [{
+				id: "307946ADFCEC94FD"
+				type: "item"
+				item: "pixelmon:curry_beans"
+			}]
 		}
 		{
 			x: 6.5d
@@ -845,6 +896,11 @@
 					item: "farmersdelight:beef_patty"
 				}
 			]
+			rewards: [{
+				id: "6071994CD79D23B6"
+				type: "item"
+				item: "pixelmon:curry_burger"
+			}]
 		}
 		{
 			x: 7.0d
@@ -862,6 +918,18 @@
 				type: "item"
 				item: "pixelmon:dish_curry_cheese"
 			}]
+			rewards: [
+				{
+					id: "3AA4FC4723F41DAA"
+					type: "item"
+					item: "pixelmon:curry_cheese"
+				}
+				{
+					id: "2EB39AC02A963932"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cheesecake"
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -886,6 +954,11 @@
 					item: "pixelmon:curry_leek"
 				}
 			]
+			rewards: [{
+				id: "612634D84805F541"
+				type: "item"
+				item: "pixelmon:curry_leek"
+			}]
 		}
 		{
 			x: 7.0d
@@ -913,6 +986,24 @@
 					id: "70F6C7D75F9625F9"
 					type: "item"
 					item: "pixelmon:slowpoke_tail"
+				}
+			]
+			rewards: [
+				{
+					id: "7B3C6ED08279788F"
+					type: "item"
+					item: "pixelmon:slowpoke_tail"
+				}
+				{
+					id: "6979005AF29AB820"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
 				}
 			]
 		}

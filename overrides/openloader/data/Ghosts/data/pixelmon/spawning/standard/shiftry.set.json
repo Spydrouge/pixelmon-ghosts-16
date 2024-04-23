@@ -12,7 +12,15 @@
       "heldItems": [
         {
           "itemID": "pixelmon:power_herb",
-          "percentChance": 5
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:yago_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:nutpea_berry",
+          "percentChance": 25
         }
       ],
       "condition": {

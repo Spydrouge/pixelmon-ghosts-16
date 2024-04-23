@@ -319,15 +319,26 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			description: ["The pure daisy can be made with four shimmering white mushrooms instead of four white petals."]
+			description: [
+				"The pure daisy can be made with four shimmering white mushrooms instead of four white petals."
+				""
+				"You will also need an Oxeye Daisy, but this can be aquired from White Flabebe."
+			]
 			dependencies: ["69A977EA20F89AE0"]
 			hide: true
 			id: "6749D2C85113CC62"
-			tasks: [{
-				id: "5AD0A24B75E19A3E"
-				type: "item"
-				item: "botania:pure_daisy"
-			}]
+			tasks: [
+				{
+					id: "5AD0A24B75E19A3E"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "0B8F1A4AD689879C"
+					type: "item"
+					item: "minecraft:oxeye_daisy"
+				}
+			]
 			rewards: [
 				{
 					id: "19B614462E0A1245"
@@ -537,7 +548,7 @@
 				""
 				"Once you've found one, you will have no means of growing it, as there are no jungle saplings, and reeds cannot be grown."
 				""
-				"If you find a source for brown dye, you already have everything else you could need to make light gray and red dyes."
+				"If you find a source for brown dye, you already have everything else you could need to make light gray and red dyes. And you only need one Endoflame to run a tree farm in the background."
 			]
 			dependencies: ["6B44A4C7330D9188"]
 			hide: true
@@ -579,11 +590,18 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "31EFD963C6054620"
-				type: "item"
-				item: "byg:brown_zelkova_sapling"
-			}]
+			rewards: [
+				{
+					id: "31EFD963C6054620"
+					type: "item"
+					item: "byg:brown_zelkova_sapling"
+				}
+				{
+					id: "03E318DFBED8750B"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 		{
 			icon: "botania:rosa_arcana"
@@ -648,12 +666,23 @@
 					type: "item"
 					item: "biomesoplenty:magic_sapling"
 				}
+				{
+					id: "5C4CA51C85B74ACA"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
 			]
 		}
 		{
 			x: 0.0d
 			y: 11.5d
-			description: ["The Hydroangeas will consume water to produce mana. This does mean you must continuously supply it with fresh water to keep it working."]
+			description: [
+				"The Hydroangeas will consume water to produce mana. This does mean you must continuously supply it with fresh water to keep it working."
+				""
+				"The Hydroangeas, regrettably, doesn't look strong enough to survive the wither of this place. Each one has a limited durability, and will wither away into a dead bush."
+				""
+				"This happens regardless of whether the Hydroangeas is even working, so keep it hydrated! And remember: The flower works twice as hard in the rain."
+			]
 			dependencies: ["44AC031C5D34292E"]
 			hide: true
 			id: "104ADF28642F7637"
@@ -858,12 +887,35 @@
 					type: "item"
 					item: "byg:shulkren_fungus"
 				}
+				{
+					id: "2A4936180654600E"
+					type: "item"
+					item: "byg:fungal_imparius"
+				}
 			]
-			rewards: [{
-				id: "702AA03627AB598E"
-				type: "item"
-				item: "byg:imparius_mushroom"
-			}]
+			rewards: [
+				{
+					id: "702AA03627AB598E"
+					type: "item"
+					item: "byg:imparius_mushroom"
+				}
+				{
+					id: "69465E9F32997C76"
+					type: "item"
+					item: "botania:piston_relay"
+				}
+				{
+					id: "327DADC39626AC4C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 48
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1159,14 +1211,15 @@
 			]
 			rewards: [
 				{
-					id: "4C26E7D4FA4D8C5D"
-					type: "item"
-					item: "botania:manasteel_ingot"
-				}
-				{
 					id: "764CE8C73BDAE64B"
 					type: "random"
 					table_id: 7555106132649824680L
+				}
+				{
+					id: "768B3CCC8671598D"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 9
 				}
 			]
 		}
@@ -1351,11 +1404,24 @@
 					item: "botania:manaweave_cloth"
 				}
 			]
-			rewards: [{
-				id: "3E152B811C06AEE3"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
+			rewards: [
+				{
+					id: "3630A12FBBC49488"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 9
+				}
+				{
+					id: "65558D8B0F921DAC"
+					type: "choice"
+					table_id: 7555106132649824680L
+				}
+				{
+					id: "253A3875A49B0315"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -1417,7 +1483,7 @@
 			]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -4.0d
 			description: [
 				"The Rod of the Depths also requires runes to make, but it can be used to summon cobblestone in exchange for Mana."
@@ -1456,10 +1522,13 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -4.0d
+			x: 7.5d
+			y: -5.0d
 			description: ["A Rod of the Seas can create water from nothing, at the cost of some mana. Because you have access to rain water, this is less important than other creation rods. However, it is still more convenient than juggling many different buckets of water."]
-			dependencies: ["157B8D287148120C"]
+			dependencies: [
+				"157B8D287148120C"
+				"58F9F7B403DB35AC"
+			]
 			hide: true
 			id: "72FEBD0617AEE57D"
 			tasks: [{
@@ -1501,6 +1570,8 @@
 				"You can make grass seeds, boreal seeds- which produce Podzol -and infestation spores, which create mycelium. "
 				""
 				"If you managed to skip past Podzol and Mycelium earlier, then this might be a way to complete those quests in a different way."
+				""
+				"To get the dead bush for the Boreal Seeds, you may need to find Bramblin, which will be attracted to desert habitats on the Air layer."
 			]
 			hide: true
 			id: "56EC762B367A5628"
@@ -1521,12 +1592,20 @@
 					item: "botania:grass_seeds"
 				}
 			]
-			rewards: [{
-				id: "63E9054CA6AA75BC"
-				type: "item"
-				item: "pixelmon:leaf_stone_shard"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "63E9054CA6AA75BC"
+					type: "item"
+					item: "pixelmon:leaf_stone_shard"
+					count: 3
+				}
+				{
+					id: "10DB6E15CEC09689"
+					type: "item"
+					item: "pixelmon:mint"
+					count: 3
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1628,9 +1707,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -7.0d
-			description: ["If you're tired of looking at the same old boring grass color everywhere, or dark purple just isn't your color, you can also use cosmetic grass seeds to create green, red, or blue grass."]
+			x: 4.5d
+			y: -8.0d
+			description: ["If you're tired of looking at the same old boring grass color everywhere, you can also use cosmetic grass seeds to create green, red, or blue grass."]
 			dependencies: ["56EC762B367A5628"]
 			hide: true
 			id: "5D06B947D0908B71"
@@ -1684,6 +1763,1160 @@
 					icon: "minecraft:turtle_egg"
 					command: "/pokegive @p ferroseed g:female ivdef:31 ivspdef:31 ivspd:0 ivatk:31 ivspatk:0 ivhp:31 ab:anticipation egg"
 					player_command: false
+				}
+				{
+					id: "3F31F68D0AA05AD7"
+					type: "item"
+					item: "pixelmon:mint"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			description: [
+				"the Sojourner's Sash increases movement speed, jump height, and fall damage resistance. It also allows you to walk up blocks as steps."
+				""
+				"The most expensive part of the Sojourner's Sash at present is the Manasteel ingot, seeing as both runes can be obtained from Pokemon."
+			]
+			dependencies: [
+				"6C44EC48FE059DA0"
+				"5AE35114536AEF17"
+			]
+			dependency_requirement: "one_completed"
+			id: "12D96D33689FC651"
+			tasks: [{
+				id: "4DCCE7F2F3C9495B"
+				type: "item"
+				item: {
+					id: "botania:travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "49CE00FE1AFD8FD6"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 4
+				}
+				{
+					id: "4135C5026A0EF6E2"
+					type: "item"
+					item: "byg:travertine"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			description: [
+				"Another item of clothing worth mentioning is the Invisibility Cloak. While worn, and at the cost of mana, the Invisibility Cloak will make the player invisible. This will not prevent mobs from noticing players directly beside them, but can be useful when sneaking into and out of difficult situations."
+				""
+				"The most difficult to obtain part of the Invisibility Cloak is the prismarine crystals. Clampearl, which spawns under water on the stone layer, is guarenteed to drop them."
+				""
+			]
+			dependencies: ["348BABEF613D8EFE"]
+			hide: true
+			id: "76CCF23138C78AD3"
+			tasks: [{
+				id: "5F2FFC6FD1A28B14"
+				type: "item"
+				item: {
+					id: "botania:invisibility_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "74BEA4EC780DC2AC"
+					type: "item"
+					item: "botania:phantom_ink"
+				}
+				{
+					id: "0D1A3770F00210D1"
+					type: "item"
+					item: "minecraft:sea_lantern"
+				}
+				{
+					id: "6490C9E7D52F95AC"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "3C3C3AE236686BA3"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 32
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			description: [
+				"A fun toy for base and elevator building is the abstruse platform. It is only solid to mobs and players standing on top of it, and only if they are not sneaking. Since mobs don't usually sneak, this makes it impenetrable to monsters. "
+				""
+				"It can be camoflaged as another block by right clicking on it with another block."
+			]
+			dependencies: ["56EC762B367A5628"]
+			hide: true
+			id: "2C18AA5B3A164110"
+			tasks: [{
+				id: "1CD2A24BF7959C4C"
+				type: "item"
+				item: "botania:abstruse_platform"
+			}]
+			rewards: [
+				{
+					id: "186D2F4778CE9836"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 4
+				}
+				{
+					id: "5764DFF0D0E41D74"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: [
+				"Spellbinding cloth is for when you find an item that has the complete wrong enchantment on it, or worse, a curse."
+				""
+				"It can be used to remove enchantments from items. It does not store these enchantments for later use."
+				""
+				"This makes it more powerful than the Grindstone, which can only remove beneficial enchantments."
+			]
+			dependencies: ["348BABEF613D8EFE"]
+			hide: true
+			id: "539149B43B3F1547"
+			tasks: [{
+				id: "4F003E0CFE2B2B2E"
+				type: "item"
+				item: {
+					id: "botania:spell_cloth"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "765E9B45B151E857"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 4
+				}
+				{
+					id: "0AA2D02A05094F9D"
+					type: "item"
+					item: "pixelmon:mint"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			description: [
+				"The biscuit of Totality is an unnecessarily expensive item that completely fills the player's saturation meter."
+				""
+				"Mana in a Bottle inflicts random effects on the player, some of which can be quite dangerous. You certainly don't want to drink from one while anywhere near a ledge, as one of their dozen possible effects is to cause you to drop every item in your inventory! Byebye expensive tools!"
+				""
+				"One of the possible effects of the Mana in a Bottle is to give the player 20 absorbtion hearts for 120 seconds. Because of this tremendous buff, some people are patient enough to carefully sip the bottle one pull at a time, clean up after any negative effects, and keep drinking in the hope of getting lucky."
+				""
+				"But, mostly, it's a funny item."
+			]
+			dependencies: ["2C18AA5B3A164110"]
+			hide: true
+			id: "4D93B39FD29F6D81"
+			tasks: [
+				{
+					id: "19FA8506C9C4436C"
+					type: "item"
+					item: "botania:mana_cookie"
+				}
+				{
+					id: "0B89433B3077FC65"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "318461B809F3D046"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 9
+				}
+				{
+					id: "30EF4525F637EA35"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_groucho_glasses"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: [
+				"Okay. Based on everything you have so far... you think there's a chance you could set up a tree farm."
+				""
+				"It's not going to be easy, because Botanical magic requires thinking one's way around a problem. There's no popping a sapling into a one-block machine and switching it on."
+				""
+				"to get started you need to carefully select your sapling. Birch would be some of the best saplings: They grow straight with no side branches, and they don't get very tall. However, any tree that can have its height limited to stay small will do. For instance, the Umbran tree's only branched versions are its tallest. It can be kept small."
+			]
+			hide_dependency_lines: true
+			dependencies: ["58C8937CFE8894DA"]
+			hide: true
+			size: 2.0d
+			id: "19A56E61087AB1C3"
+			tasks: [{
+				id: "106AD35889EB94FF"
+				type: "item"
+				item: "biomesoplenty:umbran_sapling"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 13.5d
+			description: [
+				"In this strange Skyblock Void in which you find yourself, it seems water source blocks will run straight into any holes nearby, without spreading out in all directions. This can be used to pack Hydroangeas together around two source blocks."
+				""
+				"However, you could plant even more flowers on the same plot of land if you used floating flowers, which cannot be swept away by water at all. This is definitely the safer option as, whenever you're working with fluids, one wrong move could wash all your non-floating flowers straight off the island!"
+			]
+			dependencies: ["104ADF28642F7637"]
+			hide: true
+			id: "62D938C4042F67E3"
+			tasks: [{
+				id: "7CFD238579FFE2D6"
+				type: "item"
+				item: "botania:floating_hydroangeas"
+			}]
+			rewards: [
+				{
+					id: "39DC0586304FBD2D"
+					type: "item"
+					item: "botania:floating_hydroangeas"
+				}
+				{
+					id: "27F0055DFAE983AF"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
+		}
+		{
+			title: "It's not a Bug, it's a Feature! Right?"
+			x: 0.0d
+			y: 12.5d
+			description: [
+				"You've found a glitch in the Matrix! You have found a renewable source of water for your Hydroangeas!"
+				""
+				"After much experimentation, you've realized that as long as two source blocks of water exist, side-by-side, the Hydroangeas will never be able to deplete the water."
+				""
+				"You can use this information to save yourself from bringing them bucket after bucket of water."
+			]
+			dependencies: ["104ADF28642F7637"]
+			hide: true
+			id: "093F3D887499C200"
+			tasks: [{
+				id: "5CEAC06498ADFFA5"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "minecraft:water"
+					}
+				}
+				count: 2L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "7ED760868E79A7E6"
+					type: "item"
+					item: "pixelmon:fresh_water"
+				}
+				{
+					id: "1E510330BE7E77F4"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			subtitle: "Sadly, if you already have a Force Relay, you Still Need 2 Pistons"
+			description: [
+				"The next thing you will need is two pistons, one for the Bore Lense, and the other for a Force Relay."
+				""
+				"Fortunately, the most common material to make pistons with is aluminum alloys, not Iron. Bronze or Brass have lower melting points, but these aren't meant for high performancing racing Revavroom, so both metals should also work."
+			]
+			dependencies: ["19A56E61087AB1C3"]
+			min_required_tasks: 1
+			id: "6CC5461BA674F00C"
+			tasks: [{
+				id: "7CC6597EBE028F8A"
+				type: "item"
+				item: "minecraft:piston"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "3853E255FCB5F47D"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+				}
+				{
+					id: "0ECB0AA8B0B236CD"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			description: [
+				"You will need to find or craft a Mana Lens."
+				""
+				"The Mana Lens is the most difficult component, because metals are so scarce in this world."
+				""
+				"A couple Pokemon are known to carry Phantom Lesnses, or other lens variants. These can be converted back into normal mana lenses. Finding (or crafting) any of the above lenses will do."
+				""
+				"Mana lenses are also a rare but possible drop of repeatedly using the move Self-Destruct but... Given that you might need to use it fifty types, and must revive the Pokemon after each use, it is not excatly reliable."
+			]
+			dependencies: ["19A56E61087AB1C3"]
+			min_required_tasks: 1
+			id: "5B854B4290F6DE3C"
+			tasks: [
+				{
+					id: "5690EB580521D487"
+					type: "item"
+					item: {
+						id: "botania:lens_normal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5835D08C3FBF4312"
+					type: "item"
+					item: {
+						id: "botania:lens_phantom"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "482F2D3431AAAF7B"
+					type: "item"
+					item: {
+						id: "botania:lens_explosive"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4BCC5CA57B95F1D4"
+					type: "item"
+					item: {
+						id: "botania:lens_fire"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "428D9B820B6854C7"
+					type: "item"
+					item: "pixelmon:raw_sky_tumblestone"
+				}
+				{
+					id: "4F40CE8CAD0A4672"
+					type: "item"
+					item: {
+						id: "pixelmon:lens_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: ["It's time to create the bore lens and the force relay."]
+			dependencies: [
+				"5B854B4290F6DE3C"
+				"6CC5461BA674F00C"
+			]
+			id: "0820675DF3ACFD6D"
+			tasks: [
+				{
+					id: "557548697EF8C98A"
+					type: "item"
+					item: {
+						id: "botania:lens_mine"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "244E96821E02C84F"
+					type: "item"
+					item: "botania:piston_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "6753E5FA79CA32D9"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+				{
+					id: "0129356E068AA7DF"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "5A21027B7F079592"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			description: [
+				"You will need to create the Rannucarpus flower, which is able to plant any saplings it finds dropped on the ground."
+				""
+				"It's most expensive component is an earth rune, but quests elsewhere in this Diary chapter describes how to find those without spending Manasteel."
+				""
+				"The Orange Cosmos it requires can be found from Kakuna, which can be found plentifully on the Murk Layer."
+			]
+			dependencies: ["19A56E61087AB1C3"]
+			id: "583A00B319F47DCF"
+			tasks: [{
+				id: "5510D45B1BF0C632"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [
+				{
+					id: "4944CEC963909898"
+					type: "item"
+					item: "pixelmon:raw_tumblestone"
+				}
+				{
+					id: "64B434F78F96BD18"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			description: [
+				"The Hopper Hock is a flower you should get used to using regardless, first because it's capable of a primitive form of sorting, and second because it doesn't require five iron ingots like an actual hopper."
+				""
+				"It's most expensive component is an air rune, but quests elsewhere in this Diary chapter describes how to find those without spending Manasteel."
+				""
+				"All of its gray and light gray mushrooms can be made with various combinations of black and white dye."
+				""
+				"Technically, you should be using a Hollyhock to make the Hopperhock, but the closest relative you have is the Durin berry. If you don't already have a Durin tree, it may be because you spent Durin berries brought to you by Drifloon in an unwise manner, and you may not be able to proceed."
+				""
+				"Hopperhocks pick up drops and put them in adjacent containers. You can control which drops they put where by putting item frames on containers, labeling each container with whatever item should be sorted into it."
+			]
+			dependencies: ["19A56E61087AB1C3"]
+			id: "21946EC36480B44A"
+			tasks: [
+				{
+					id: "542FA0AFF1EEFA17"
+					type: "item"
+					item: "botania:hopperhock"
+				}
+				{
+					id: "21A5CCEC7ED3C7D1"
+					type: "item"
+					item: "minecraft:item_frame"
+				}
+			]
+			rewards: [
+				{
+					id: "7E1BE61B69C919CE"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+				}
+				{
+					id: "5C0A4CA77F77B7CF"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			subtitle: "Maybe Watch a Tutorial?"
+			description: [
+				"You slap the Bore Lens on the Pulse Mana Spreader, direct it to fire straight upwards at a force relay, and link the force relay to whatever dirt block your saplings will be planted on."
+				""
+				"It might be best to use coarse dirt as your sapling planting surface. You see, whatever type of dirt the Rannucarpus is planted on, it will try and plant any saplings it finds on any identical types of dirt. It's good to study how far it can reach and plan ahead!"
+				""
+				"You're using the bore lens to break the tree blocks. You're using the relay to avoid breaking the block the tree is planted on... You're using the Rannucarpus to plant new saplings..."
+				""
+				"You're using the Hopperhock and item frames to pick up drops..."
+				""
+				"Lastly, you have one extra mana pool. This mana pool is meant to be placed many blocks above the sapling, to 'catch' whatever mana is left from the original mana pulse, and recycle it in the system."
+				""
+				"This extra mana pool will also help limit the height of the tree, which is very useful if a tree has multiple variants, and the taller versions are not perfectly straight."
+			]
+			dependencies: [
+				"0820675DF3ACFD6D"
+				"13CB64100C63C861"
+			]
+			id: "632A099041D13A82"
+			tasks: [{
+				id: "4D268D7E3DDFFD72"
+				type: "item"
+				item: "botania:mana_pool"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "6C049B44CE6C7A8F"
+					type: "item"
+					item: "biomesoplenty:umbran_log"
+					count: 32
+				}
+				{
+					id: "17BA4715D1ECA8E0"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			description: ["You'll want a special type of mana spreader called a Pulse Mana Spreader so you can control it with redstone."]
+			dependencies: ["21946EC36480B44A"]
+			id: "13CB64100C63C861"
+			tasks: [{
+				id: "3A41AD08C12168CF"
+				type: "item"
+				item: "botania:redstone_spreader"
+			}]
+			rewards: [
+				{
+					id: "4FDD24BD8504ACA3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "2BD354DEB3D9DB8C"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: [
+				"Whenever the tree is grown, you're going to want to fire a special mana burst to break it. But how will you detect when the tree is grown?"
+				""
+				"Well, you can go the lazy way and use a hovering hourglass. It won't 'detect' the tree, but it can fire every minute or so. If the tree hasn't grown and it only breaks a sapling, the Rannucarpus will simply replant it."
+				""
+				"But a smarter way would be to place an observer one block off the ground and use it to detect the tree trunk."
+			]
+			dependencies: ["583A00B319F47DCF"]
+			id: "4087528C341F08C4"
+			tasks: [{
+				id: "6F96631E7D66EE46"
+				type: "item"
+				item: "minecraft:observer"
+			}]
+			rewards: [
+				{
+					id: "2BB33AD8699B2BAA"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "66E89477C2F0BBE1"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "25FD74A93BF3C450"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			description: [
+				"If you find yourself building tree farms or cooking a lot of charcoal, you might decide to use an Exoflame to power your Furnaces."
+				""
+				"This can help you automate the process of turning logs into charcola for your Endoflames. Charcoal can be extracted from a Furnace using another Wooden Hopper."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"461C6899678F5F17"
+				"6C44EC48FE059DA0"
+				"632A099041D13A82"
+			]
+			hide: true
+			id: "5D9540190EA484BC"
+			tasks: [{
+				id: "20CECBD36BEFBBA2"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [
+				{
+					id: "0B9874BDC397375C"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "26F1F386599B77C6"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 12.5d
+			description: [
+				"You have two options for how you can drip-feed logs or charcoal to your Exoflame."
+				""
+				"The dropper has its own inventory and can be supplied by a Hopperhock. It can then drop items like logs or charcoal based on a redstone signal."
+				""
+				"An Open Crate can also be used, but it requires a hopper-- or a wooden hopper, which is much cheaper-- to supply it with items. Unlike the dropper, which drops items on a redstone pulse, the hopper-open crate system must be locked by a redstone pulse, which requires more complex redstone than just one hovering hourglass."
+			]
+			dependencies: ["5C36AA7A30CA6209"]
+			hide: true
+			id: "461C6899678F5F17"
+			tasks: [
+				{
+					id: "73B8DC9F640C6AED"
+					type: "item"
+					item: "minecraft:dropper"
+				}
+				{
+					id: "153B262115ADB23D"
+					type: "item"
+					item: "botania:open_crate"
+				}
+			]
+			rewards: [
+				{
+					id: "710AA5EF2D516BEB"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+				{
+					id: "7F869239ED4EFD12"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "4536292CD264F4CA"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			description: [
+				"To create the Rune of Summer requires you to plumb the Stone layer for Runerigus for Earth Runes, travels to the Space Layer for Dottler's Melons and Siglyph's Air Runes, and mess around on the Murk Layer for slime. "
+				""
+				"However, it opens up a number of significant opportunities. "
+				""
+				"It is used in the creation of the Gourmarylis, which can create mana from food. It also makes it possible to create Exoflames, which can power your fournaces. "
+			]
+			dependencies: [
+				"6C44EC48FE059DA0"
+				"5AE35114536AEF17"
+				"58F9F7B403DB35AC"
+				"157B8D287148120C"
+				"2CD5260731F941D8"
+				"49513B4A84704CE1"
+			]
+			id: "7D6D8D32D5F2DA1C"
+			tasks: [{
+				id: "7F399F35576225DF"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+			rewards: [
+				{
+					id: "63D5E04A9ED9DB8E"
+					type: "choice"
+					table_id: 2569163684363635098L
+				}
+				{
+					id: "56DC151DA7582E48"
+					type: "choice"
+					table_id: 5049487531122833275L
+				}
+				{
+					id: "5DA284883045F7E5"
+					type: "choice"
+					table_id: 2357067282096749785L
+				}
+				{
+					id: "485B8C2539C7935D"
+					type: "item"
+					item: "pixelmon:fossil"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			description: [
+				"The Rune of Spring can be created with the Fire and Water runes you just discovered."
+				""
+				"It is primarily valuable for its role in creating the Agricarnation, which can increase the rate plants grow at."
+			]
+			dependencies: [
+				"157B8D287148120C"
+				"72FEBD0617AEE57D"
+			]
+			id: "5C31D9BDA3B13E9D"
+			tasks: [{
+				id: "47BC231508BA57DF"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+			rewards: [
+				{
+					id: "1452052D58D4F69F"
+					type: "item"
+					item: "pixelmon:miracle_seed"
+				}
+				{
+					id: "61273EEBD2D4198F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 55
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			description: ["The Rune of Winter has few uses."]
+			id: "58F9F7B403DB35AC"
+			tasks: [{
+				id: "6F712EB16FB9B634"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+			rewards: [
+				{
+					id: "2BA4D80571A72529"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 51
+						}
+					}
+				}
+				{
+					id: "088FE1EEEED0B442"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			description: ["The Rune of Autumn has few uses. However, it can be used to create the Tigers Eye flower, which can protect an area from Creepers. Given that waves of monsters seem to be getting warped to your base, having one of these wherever you tend to do combat might be prudent."]
+			dependencies: ["157B8D287148120C"]
+			id: "49A645741741B096"
+			tasks: [{
+				id: "41CC3564E96E46FB"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+			rewards: [{
+				id: "3389D50E850FB484"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 84
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			description: [
+				"The agricarnation is a valuable part of any tree farm because it accelerates the growth of nearby plants, including both crops and saplings."
+				""
+				"The nutpea berry, which provides the nutpea leaves necessary for one of the Agricarnation recipes, can be found from Seedot, which lives in Treetop habitats of the Space Layer with Sunkern."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5C31D9BDA3B13E9D"
+				"632A099041D13A82"
+			]
+			hide: true
+			id: "67C92F11B21B2BDF"
+			tasks: [{
+				id: "5C693FBD34428AF4"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [
+				{
+					id: "4C84478B8BF3AE85"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "6BE1510DCEE1C958"
+					type: "item"
+					item: "pixelmon:mint"
+					count: 4
+				}
+				{
+					id: "4A5366D8395B4F49"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 48
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 12.5d
+			description: ["You can think of a few ways to store experience for later, but the easiest is the XP tome. By using the XP tome, you can make sure that any unfortunate deaths don't impact the amount of XP you can bring back for the Rosa Arcana."]
+			dependencies: ["6F10ADDBC73438E9"]
+			id: "6C0EF5DDCE6F8761"
+			tasks: [{
+				id: "28C636B0C6949067"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "18FDAE7A18D7D6AF"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 3
+				}
+				{
+					id: "40C6AF8F75FDB231"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			description: ["The Pyroclast Pendant can protect you from taking fire damage. However, it is not incredibly powerful, and cannot protect you if you're standing directly in fire or submerged in lava."]
+			dependencies: [
+				"7D6D8D32D5F2DA1C"
+				"2CD5260731F941D8"
+				"49513B4A84704CE1"
+			]
+			id: "07C99EA96F4CA854"
+			tasks: [{
+				id: "105B1564E3408332"
+				type: "item"
+				item: {
+					id: "botania:lava_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7E3762C52ABD3365"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "473001623DE293D5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 92
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "WAIT A MINUTE!"
+			icon: "minecraft:dead_bush"
+			x: -0.5d
+			y: 13.5d
+			subtitle: "It's the Motif version, not the Regular version!"
+			description: [
+				"Hydroangeas has a limited lifespan, but you just discovered something new! It's lifespan can be restored by turning it into its non-generative motif form, and then turning it back into a functional flower again!"
+				""
+				"Pure daisies can do this automatically, if planted beside them!"
+				""
+				"However, the trade-off is that the plant will spend half of it's life in a non-functional state, reducing its efficiency. Remember also: Pure daisies will convert water to snow, which will force you to rethink your Hydroangeas layout."
+				""
+				"[&dWARNING&r If you are playing on a server, play responsibly. The creator of Botania forced Hydroangeas to decay because of complaints he got that people were creating giant Hydroangeas farms that lagged servers. Even the largest Hydroangeas farms are inferior to automated tree farms with Endoflames. Don't create a billion Hydroangeas.]"
+				""
+				"[&dWARNING&r Hydroangeas is the only flower that can be revived from its motif form. Do not expect other flowers to be de-motif-able.]"
+			]
+			dependencies: ["104ADF28642F7637"]
+			hide: true
+			id: "31B6B95534F793C0"
+			tasks: [{
+				id: "1B48A3BE737B8036"
+				type: "item"
+				item: "botania:hydroangeas_motif"
+			}]
+			rewards: [
+				{
+					id: "0C7163C666F49BE0"
+					type: "item"
+					item: "botania:hydroangeas_motif"
+				}
+				{
+					id: "04768BEB05F03C63"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			description: [
+				"Having traversed the world up and down, you now have a fairly good idea for how to get materials for the Gourmaryllis."
+				""
+				"The Yellow Daffodil is the easiest route, because it is dropped by Flabebe on the Dazzle Layer."
+				""
+				"Gourmaryllis eats food dropped near it, and exchanges it for mana. But watch out! It will overeat and produce no additional mana if you drop food beside it when it is not hungry! Timing is everything; use a dropper for best results."
+				""
+				"Gourmaryllis produces mana for an amount of time based on the hunger 'shanks' that food would refill, but produces more mana per tick if the saturation is higher."
+				""
+				"Gourmaryllis cannot eat cake, or other 'placed foods.'"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7D6D8D32D5F2DA1C"]
+			hide: true
+			size: 2.0d
+			id: "69C2B4CDD7BC8095"
+			tasks: [{
+				id: "43441F881418ACF3"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [
+				{
+					id: "0666C4E9F2ABFE12"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin"
+				}
+				{
+					id: "3E9E50C7C690F1F7"
+					type: "item"
+					item: "byg:green_apple_pie"
+				}
+				{
+					id: "35476B78563C3D08"
+					type: "item"
+					item: "pixelmon:leftovers"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			description: [
+				"The narslimmus has no use case. It is meant to kill and consume green slimes, and for that reason is usually planted on slime chunks."
+				""
+				"But you have never seen a \"Green Slime Monster\" and you aren't sure you'd get much mana out of it if you did."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7D6D8D32D5F2DA1C"]
+			hide: true
+			id: "15016EB56527C48F"
+			tasks: [{
+				id: "6E946B3F8FD43742"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [
+				{
+					id: "67DF37F155EBF9AF"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 73
+						}
+					}
+				}
+				{
+					id: "3380492EAF21CA31"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 21
+						}
+					}
+				}
+				{
+					id: "75AE5AB89904D34D"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			description: [
+				"The Jaded Amaranthus will be a difficult flower to pull off."
+				""
+				"To produce one, you will first need to create a Rainbow Flower, which requires you to combine one of every color of mushroom with a Chorus Flower."
+				""
+				"You must then combine the Rainbow Flower with each one of the five colors of Amaranth, many of which can only be found on Vivillion of different color types on the highest layers, and lastly, you will need a Rune of Spring."
+				""
+				"This will be a tremendous achievement. Succesfully planting a Jaded Amaranth will finally allow you to bring Mystical Flowers back into the world."
+				""
+				"The petals of Mystical Flowers can be planted and bonemealed to propagate them. They are much more convenient than Mushrooms."
+				""
+				"Additionally, you will now be able to craft Floral Fertilizer."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5C31D9BDA3B13E9D"]
+			hide: true
+			size: 2.0d
+			id: "7EB91C3AF2D17EFB"
+			tasks: [
+				{
+					id: "201EF46B8714DBB5"
+					type: "item"
+					item: "botania:jaded_amaranthus"
+				}
+				{
+					id: "301CDD7190FD2FC2"
+					type: "item"
+					item: "pixelmon:rainbow_flower"
+				}
+			]
+			rewards: [{
+				id: "0A5D2ECF674F027D"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			description: ["You can't see the use in this flower right now, but something tells you it may one day save your life."]
+			hide_dependency_lines: true
+			dependencies: ["49A645741741B096"]
+			hide: true
+			id: "0742BC818BC183BA"
+			tasks: [{
+				id: "1BF30670F1505675"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [
+				{
+					id: "63B50B028C640726"
+					type: "item"
+					item: "minecraft:creeper_spawn_egg"
+				}
+				{
+					id: "477B3418B5A3D4D1"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_cat_ears"
+						Count: 1b
+						tag: { }
+					}
 				}
 			]
 		}

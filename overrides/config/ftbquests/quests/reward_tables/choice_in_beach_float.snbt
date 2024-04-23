@@ -1,0 +1,24 @@
+{
+	id: "46136227FE57377B"
+	order_index: 20
+	title: "Choice in Beach Float"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:magenta_water_float" }
+		{ item: "pixelmon:light_blue_water_float" }
+		{ item: "pixelmon:lime_water_float" }
+		{ item: "pixelmon:light_gray_water_float" }
+		{ item: "pixelmon:blue_water_float" }
+		{ item: "pixelmon:red_water_float" }
+		{ item: "pixelmon:green_water_float" }
+		{ item: "pixelmon:orange_water_float" }
+		{ item: "pixelmon:pink_water_float" }
+		{ item: "pixelmon:purple_water_float" }
+		{ item: "pixelmon:yellow_water_float" }
+		{ item: "pixelmon:white_water_float" }
+		{ item: "pixelmon:brown_water_float" }
+		{ item: "pixelmon:black_water_float" }
+		{ item: "pixelmon:gray_water_float" }
+		{ item: "pixelmon:cyan_water_float" }
+	]
+}

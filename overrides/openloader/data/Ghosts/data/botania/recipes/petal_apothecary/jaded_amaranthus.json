@@ -1,0 +1,29 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:jaded_amaranthus"
+  },
+  "ingredients": [
+    {
+      "item": "pixelmon:rainbow_flower"
+    },
+    {
+      "tag": "botania:runes/spring"
+    },
+    {
+      "item": "byg:amaranth"
+    },
+    {
+      "item": "byg:cyan_amaranth"
+    },
+    {
+      "item": "byg:magenta_amaranth"
+    },
+    {
+      "item": "byg:orange_amaranth"
+    },
+    {
+      "item": "byg:purple_amaranth"
+    }
+  ]
+}

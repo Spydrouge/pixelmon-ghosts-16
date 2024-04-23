@@ -1,0 +1,32 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:gourmaryllis"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:petals/light_gray"
+    },
+    {
+      "tag": "botania:petals/light_gray"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "tag": "botania:petals/red"
+    },
+    {
+      "tag": "botania:runes/fire"
+    },
+    {
+      "item": "byg:snowdrops"
+    },
+    {
+      "tag": "botania:runes/summer"
+    }
+  ]
+}

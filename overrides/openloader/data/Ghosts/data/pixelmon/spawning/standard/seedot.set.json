@@ -19,6 +19,10 @@
         {
           "itemID": "pixelmon:yago_berry",
           "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:nutpea_berry",
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -46,6 +50,10 @@
         },
         {
           "itemID": "pixelmon:yago_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:nutpea_berry",
           "percentChance": 25
         }
       ],

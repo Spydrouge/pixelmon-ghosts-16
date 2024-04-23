@@ -1,7 +1,8 @@
 {
   "type": "botania:petal_apothecary",
   "output": {
-    "item": "botania:hydroangeas"
+    "item": "botania:hydroangeas",
+    "nbt": "{BlockEntityTag:{cooldown:0,passiveDecayTicks:-80000}}"
   },
   "ingredients": [
     {

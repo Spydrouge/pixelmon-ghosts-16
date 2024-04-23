@@ -1,0 +1,206 @@
+Entity: Delphox [registry name: pixelmon:pixelmon] (entityId: 988559)
+Entity class: com.pixelmonmod.pixelmon.entities.pixelmon.PixelmonEntity
+
+
+[TAG_Compound (78 values)] 
+{
+    [TAG_String] "Ability": "Blaze"
+    [TAG_Float] "AbsorptionAmount": 0.0
+    [TAG_Int] "Age": 0
+    [TAG_Byte] "Aggression": 2
+    [TAG_Short] "Air": 300
+    [TAG_List (4 values of type TAG_Float)] "ArmorDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (4 values of type TAG_Compound)] "ArmorItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_List (6 values of type TAG_Compound)] "Attributes"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.08
+            [TAG_String] "Name": "forge:entity_gravity"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 5.0
+            [TAG_String] "Name": "forge:swim_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.49557522123893805
+            [TAG_String] "Name": "minecraft:generic.movement_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.knockback_resistance"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.8649318532003788
+            [TAG_String] "Name": "minecraft:horse.jump_strength"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 139.0
+            [TAG_String] "Name": "minecraft:generic.max_health"
+        }
+    ]
+    [TAG_String] "BossTier": "notboss"
+    [TAG_Compound (1 values)] "Brain"
+    {
+        [TAG_Compound (0 values)] "memories"
+        {
+        }
+    }
+    [TAG_Byte] "Bred": 0
+    [TAG_Byte] "CanPickUpLoot": 0
+    [TAG_Byte] "CanUpdate": 1
+    [TAG_String] "CaughtBall": "poke_ball"
+    [TAG_Short] "DeathTime": 0
+    [TAG_Byte] "DoesLevel": 1
+    [TAG_Int] "DynamaxLevel": 0
+    [TAG_Short] "EVAttack": 0
+    [TAG_Short] "EVDefense": 0
+    [TAG_Short] "EVHP": 0
+    [TAG_Short] "EVSpecialAttack": 0
+    [TAG_Short] "EVSpecialDefense": 0
+    [TAG_Short] "EVSpeed": 0
+    [TAG_Int] "EXP": 0
+    [TAG_Byte] "EatingHaystack": 0
+    [TAG_Float] "FallDistance": 0.0
+    [TAG_Byte] "FallFlying": 0
+    [TAG_Short] "Fire": -1
+    [TAG_Int] "ForcedAge": 0
+    [TAG_Compound (0 values)] "ForgeCaps"
+    {
+    }
+    [TAG_Short] "Friendship": 0
+    [TAG_Byte] "Gender": 0
+    [TAG_Byte] "GigantamaxFactor": 0
+    [TAG_Byte] "Growth": 2
+    [TAG_List (2 values of type TAG_Float)] "HandDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (2 values of type TAG_Compound)] "HandItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_Int] "Health": 139
+    [TAG_Int] "HurtByTimestamp": 0
+    [TAG_Short] "HurtTime": 0
+    [TAG_Byte] "IVAttack": 12
+    [TAG_Byte] "IVDefense": 16
+    [TAG_Byte] "IVHP": 9
+    [TAG_Byte] "IVSpAtt": 29
+    [TAG_Byte] "IVSpDef": 21
+    [TAG_Byte] "IVSpeed": 8
+    [TAG_Int] "InLove": 0
+    [TAG_Byte] "Invulnerable": 0
+    [TAG_Byte] "LeftHanded": 0
+    [TAG_Int] "Level": 50
+    [TAG_List (3 values of type TAG_Double)] "Motion"
+    [
+        [TAG_Double] : 0.0
+        [TAG_Double] : -0.0784000015258789
+        [TAG_Double] : 0.0
+    ]
+    [TAG_List (4 values of type TAG_Compound)] "Moveset"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Lucky Chant"
+            [TAG_Byte] "MovePP": 30
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Light Screen"
+            [TAG_Byte] "MovePP": 30
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Psyshock"
+            [TAG_Byte] "MovePP": 10
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Flamethrower"
+            [TAG_Byte] "MovePP": 15
+        }
+    ]
+    [TAG_Byte] "NBT_VERSION": 2
+    [TAG_Byte] "Nature": 12
+    [TAG_Byte] "OnGround": 1
+    [TAG_Int] "PAbilitySlot": 0
+    [TAG_Byte] "PHiddenAbility": 0
+    [TAG_Byte] "PersistenceRequired": 0
+    [TAG_Compound (0 values)] "PersistentData"
+    {
+    }
+    [TAG_Int] "PortalCooldown": 0
+    [TAG_List (3 values of type TAG_Double)] "Pos"
+    [
+        [TAG_Double] : 19.877499967813492
+        [TAG_Double] : 67.0
+        [TAG_Double] : 5.492998855734199
+    ]
+    [TAG_List (0 values of type ?)] "RelrnMoves"
+    [
+    ]
+    [TAG_List (2 values of type TAG_Float)] "Rotation"
+    [
+        [TAG_Float] : 89.70883
+        [TAG_Float] : 0.0
+    ]
+    [TAG_List (0 values of type ?)] "SpecFlags"
+    [
+    ]
+    [TAG_Short] "StatsAttack": 80
+    [TAG_Short] "StatsDefense": 93
+    [TAG_Short] "StatsHP": 139
+    [TAG_Short] "StatsSpecialAttack": 133
+    [TAG_Short] "StatsSpecialDefense": 103
+    [TAG_Short] "StatsSpeed": 113
+    [TAG_Byte] "Tame": 0
+    [TAG_Int] "Temper": 0
+    [TAG_Int_Array (4 entries)] "UUID"
+    [
+          0: 0x4B4A9695 (1263179413)
+          1: 0x1FBC488C (532433036)
+          2: 0xABA91F06 (-1414979834)
+          3: 0x4C2008F2 (1277167858)
+    ]
+    [TAG_String] "Variant": ""
+    [TAG_Int] "eggCycles": -1
+    [TAG_Int] "ndex": 655
+    [TAG_String] "palette": "none"
+    [TAG_Byte] "pixelmonType": 0
+    [TAG_List (0 values of type ?)] "ribbons2"
+    [
+    ]
+}

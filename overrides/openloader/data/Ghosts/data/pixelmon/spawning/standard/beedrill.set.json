@@ -5,11 +5,71 @@
       "spec": "species:Beedrill",
       "stringLocationTypes": [
         "Air",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 36,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+     "compositeCondition":
+          {
+            "conditions": 
+            [
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:bee_nest"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:beehive"
+                ]
+              }
+            ]
+          },
+      "groupSpawnSettings": [
+        {
+          "spec": "Kakuna",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 120
+    },
+    {
+      "spec": "species:Beedrill",
+      "stringLocationTypes": [
+        "Air",
         "Sweet Scent"
       ],
       "minLevel": 10,
       "maxLevel": 12,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
       "condition": {
         "maxY":128,
         "minY":96,

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:honeycomb"
+  },
+  "result": {
+    "fluid": "inspirations:honey",
+    "amount": 144
+  },
+  "temperature": 36,
+  "time": 30
+}

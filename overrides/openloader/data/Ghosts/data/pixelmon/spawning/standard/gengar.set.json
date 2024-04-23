@@ -1,6 +1,39 @@
 {
   "id": "Gengar",
   "spawnInfos": [
+     {
+      "spec": "species:Gengar",
+      "stringLocationTypes": [
+        "Underground",
+        "Indoors"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 30,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tconstruct:soul_glass"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    },
     {
       "spec": "species:Gengar",
       "stringLocationTypes": [
@@ -20,6 +53,16 @@
           "minecraft:soul_sand_valley"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tconstruct:soul_glass"
+            ]
+          }
+        }
+      ],
       "rarity": 0.1
     },
     {
@@ -44,6 +87,16 @@
           "pixelmon:ultra_forest"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tconstruct:soul_glass"
+            ]
+          }
+        }
+      ],
       "rarity": 0.5
     },
     {
@@ -72,6 +125,16 @@
           "roofed"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tconstruct:soul_glass"
+            ]
+          }
+        }
+      ],
       "rarity": 1.0
     },
     {
@@ -100,6 +163,16 @@
           "roofed"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tconstruct:soul_glass"
+            ]
+          }
+        }
+      ],
       "rarity": 1.0
     }
   ]

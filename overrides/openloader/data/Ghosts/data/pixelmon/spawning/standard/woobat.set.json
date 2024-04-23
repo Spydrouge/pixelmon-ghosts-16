@@ -4,6 +4,32 @@
     {
       "spec": "species:Woobat",
       "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0,
+        "stringBiomes": [
+            "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Woobat",
+      "stringLocationTypes": [
         "Air"
       ],
       "minLevel": 15,
@@ -25,6 +51,16 @@
           "taigas"
         ]
       },
+       "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 130.0
     },
     {
@@ -40,9 +76,20 @@
       },
       "anticondition": {
         "stringBiomes": [
-          "ultra space"
+          "ultra space",
+        "ghosts"
         ]
       },
+       "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 130.0
     }
   ]

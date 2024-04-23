@@ -56,7 +56,8 @@
             "minecraft:pig",
             "minecraft:llama",
             "minecraft:trader_llama",
-            "minecraft:wandering_trader"
+            "minecraft:wandering_trader",
+            "minecraft:villager"
 		],
 		"passive":"true",
 		"result":"deny"

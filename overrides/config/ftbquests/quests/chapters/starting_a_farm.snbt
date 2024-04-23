@@ -357,6 +357,17 @@
 					type: "item"
 					item: "inspirations:sugar_cane_seeds"
 				}
+				{
+					id: "0EC7739208E01F74"
+					type: "item"
+					item: "astralsorcery:parchment"
+					count: 4
+				}
+				{
+					id: "2BD8318585F49E96"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -390,6 +401,22 @@
 					id: "48686CE388642904"
 					type: "item"
 					item: "pixelmon:green_shard"
+				}
+				{
+					id: "5D2098DB2E70FC25"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 94
+						}
+					}
+				}
+				{
+					id: "17C57A3B96A28B37"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -469,11 +496,28 @@
 				item: "minecraft:potato"
 				count: 16L
 			}]
-			rewards: [{
-				id: "7C6A2FE7E8AFF77D"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "7C6A2FE7E8AFF77D"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "7614B7D6B7277575"
+					type: "item"
+					item: "botania:tiny_potato"
+				}
+				{
+					id: "09D99043244F3178"
+					type: "item"
+					item: "farmersdelight:stuffed_potato"
+				}
+				{
+					id: "3870E331C20F4CD9"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -502,6 +546,22 @@
 					id: "17C873D352000480"
 					type: "item"
 					item: "pixelmon:red_shard"
+				}
+				{
+					id: "7A80835BDC565207"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 55
+						}
+					}
+				}
+				{
+					id: "31494AF9D4EE1157"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -540,6 +600,11 @@
 					type: "choice"
 					table_id: 3802547001370842731L
 				}
+				{
+					id: "743661DE37486628"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -569,6 +634,17 @@
 					id: "22CED8EE6C57B8B3"
 					type: "choice"
 					table_id: 6443510782262151491L
+				}
+				{
+					id: "0029B0F293B9B079"
+					type: "item"
+					item: "pixelmon:energy_root"
+					count: 4
+				}
+				{
+					id: "28251BD524CA51C0"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -607,11 +683,23 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "35C2AEF3D3BD6A05"
-				type: "choice"
-				table_id: 4524191137701651332L
-			}]
+			rewards: [
+				{
+					id: "35C2AEF3D3BD6A05"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "1EC6FAA749E432D0"
+					type: "item"
+					item: "byg:holly_sapling"
+				}
+				{
+					id: "0F531A1446810BD0"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -634,11 +722,29 @@
 				item: "farmersdelight:cabbage"
 				count: 16L
 			}]
-			rewards: [{
-				id: "60C133E93A47767C"
-				type: "item"
-				item: "pixelmon:green_shard"
-			}]
+			rewards: [
+				{
+					id: "60C133E93A47767C"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "2995C1E87305E830"
+					type: "item"
+					item: "farmersdelight:cabbage_rolls"
+				}
+				{
+					id: "60EFD18D44D1A87B"
+					type: "item"
+					item: "pixelmon:leaf_stone_shard"
+					count: 3
+				}
+				{
+					id: "68681042C2C44881"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -656,10 +762,29 @@
 				type: "item"
 				item: "pixelmon:pecha_berry"
 			}]
+			rewards: [
+				{
+					id: "69CD2F55291A232B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 25
+						}
+					}
+				}
+				{
+					id: "58D9AB00ED2C8B85"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -2.5d
+			description: ["The Chesto can be stolen from Mimikyu, which prowls habitats on the Murk layer."]
 			dependencies: ["516B913EB8DF470E"]
 			hide: true
 			id: "25AA921A80A10032"
@@ -668,10 +793,29 @@
 				type: "item"
 				item: "pixelmon:chesto_berry"
 			}]
+			rewards: [
+				{
+					id: "7351FE0775083A09"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 24
+						}
+					}
+				}
+				{
+					id: "5E489339B3B35E1C"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -2.5d
+			description: ["The Rawst Berry can be found in the possession of Alolan Vulpixes, which you expect to be attracted to some type of habitat on the Ice layer."]
 			dependencies: ["516B913EB8DF470E"]
 			hide: true
 			id: "62D63BEF9A0A406D"
@@ -680,11 +824,28 @@
 				type: "item"
 				item: "pixelmon:rawst_berry"
 			}]
+			rewards: [
+				{
+					id: "20A67FD7484924F1"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 7
+						}
+					}
+				}
+				{
+					id: "7373E654601AFDE3"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
 		}
 		{
-			x: 11.0d
-			y: -2.5d
-			dependencies: ["516B913EB8DF470E"]
+			x: 0.0d
+			y: 7.0d
 			hide: true
 			id: "5909A3FCAD9DC6B8"
 			tasks: [{
@@ -742,6 +903,11 @@
 					type: "item"
 					item: "pixelmon:moomoo_milk"
 				}
+				{
+					id: "12091F708671168A"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -767,6 +933,11 @@
 					id: "6148CC65E3C2FB77"
 					type: "choice"
 					table_id: 9093306389108564916L
+				}
+				{
+					id: "779B03853EB11E15"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -814,6 +985,11 @@
 					type: "choice"
 					table_id: 5642343139233413577L
 				}
+				{
+					id: "77C5B6A94D999C4D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -854,6 +1030,11 @@
 					type: "item"
 					item: "pixelmon:moomoo_milk"
 				}
+				{
+					id: "33F0AA9E240F7BFF"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -889,6 +1070,11 @@
 					type: "item"
 					item: "minecraft:end_portal_frame"
 				}
+				{
+					id: "415E2D14775692D0"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -907,11 +1093,18 @@
 				item: "minecraft:slime_ball"
 				count: 16L
 			}]
-			rewards: [{
-				id: "55D5514CB0CDB6C4"
-				type: "item"
-				item: "pixelmon:green_shard"
-			}]
+			rewards: [
+				{
+					id: "55D5514CB0CDB6C4"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "748298F1F744752F"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -946,6 +1139,11 @@
 					type: "item"
 					item: "farmersdelight:fried_egg"
 				}
+				{
+					id: "4DE97577DF701079"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -976,6 +1174,11 @@
 					type: "item"
 					item: "minecraft:end_portal_frame"
 				}
+				{
+					id: "2FCA7F028D30078C"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -1003,11 +1206,29 @@
 				}
 				count: 16L
 			}]
-			rewards: [{
-				id: "0926FCAA083A7F25"
-				type: "choice"
-				table_id: 4524191137701651332L
-			}]
+			rewards: [
+				{
+					id: "7A46BDE6D873C20F"
+					type: "item"
+					item: "farmersdelight:baked_cod_stew"
+				}
+				{
+					id: "720202FAF644CD3D"
+					type: "item"
+					item: "farmersdelight:squid_ink_pasta"
+				}
+				{
+					id: "75A736CD21B9CAA2"
+					type: "item"
+					item: "farmersdelight:grilled_salmon"
+				}
+				{
+					id: "2CC1EC036E1A7059"
+					type: "item"
+					item: "pixelmon:water_stone_shard"
+					count: 3
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -1025,6 +1246,23 @@
 				item: "minecraft:porkchop"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "2D972443086DDF2A"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+				}
+				{
+					id: "35EF2C2D772435C6"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "5D02C3515B6BA7A5"
+					type: "item"
+					item: "farmersdelight:ham"
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -1042,6 +1280,33 @@
 				item: "minecraft:rabbit"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "07FE6D2ADE2FD407"
+					type: "item"
+					item: {
+						id: "botania:lens_bounce"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "29607E86138529A5"
+					type: "item"
+					item: "minecraft:rabbit_stew"
+				}
+				{
+					id: "3B02B7CA19515C7A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -1063,6 +1328,23 @@
 				item: "minecraft:chicken"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "5B2859016F554B70"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+				}
+				{
+					id: "19E6F6740DD9A017"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "24808CA6FA3EA94C"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -1338,6 +1620,11 @@
 					type: "item"
 					item: "pixelmon:durin_berry"
 				}
+				{
+					id: "1A68E8A7DA401900"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
 			]
 		}
 		{
@@ -1366,6 +1653,11 @@
 					id: "38980D47D86AA416"
 					type: "item"
 					item: "pixelmon:durin_berry"
+				}
+				{
+					id: "65BBE9856B664EA0"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
 				}
 			]
 		}
@@ -1732,11 +2024,29 @@
 				item: "farmersdelight:tomato"
 				count: 16L
 			}]
-			rewards: [{
-				id: "0F657C0C422882BC"
-				type: "choice"
-				table_id: 7937607534361159376L
-			}]
+			rewards: [
+				{
+					id: "0F657C0C422882BC"
+					type: "choice"
+					table_id: 7937607534361159376L
+				}
+				{
+					id: "36C7C7E70EF2E927"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "269E87EFC07D87C3"
+					type: "item"
+					item: {
+						id: "pixelmon:good_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -13.0d
@@ -1754,10 +2064,28 @@
 				item: "minecraft:mutton"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "0A77E49B7473710E"
+					type: "item"
+					item: "farmersdelight:roasted_mutton_chops"
+				}
+				{
+					id: "12EC84ECB369A4A8"
+					type: "choice"
+					table_id: 5642343139233413577L
+				}
+				{
+					id: "666E7CF842E281B7"
+					type: "choice"
+					table_id: 6737182399749106212L
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -2.5d
+			description: ["The Cheri berry drops from Cherubi, which is found on Treetops in the Soil layer."]
 			dependencies: ["516B913EB8DF470E"]
 			hide: true
 			id: "020F0E8E6FEF8F50"
@@ -1766,6 +2094,24 @@
 				type: "item"
 				item: "pixelmon:cheri_berry"
 			}]
+			rewards: [
+				{
+					id: "3E87080959DFF259"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 8
+						}
+					}
+				}
+				{
+					id: "79F8467325BE0F96"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
 		}
 		{
 			icon: {
@@ -1844,6 +2190,11 @@
 					type: "item"
 					item: "minecraft:lantern"
 				}
+				{
+					id: "059EF55ED62CC26C"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
 			]
 		}
 		{
@@ -1852,7 +2203,7 @@
 			description: [
 				"Ghast tears are common drops from many types of ghosts. "
 				""
-				"Gastly, who also drop soul sand, spawn only in conditions where there is no light at all. Drifloon spawn in the air and pass the island; with practice, you can get better at throwing out your own Pokemon to challenge them."
+				"Gastly, who also drop soul sand and are attracted to soulglass, spawn only in conditions where there is no light at all. Drifloon spawn in the air and pass the island; with practice, you can get better at throwing out your own Pokemon to challenge them."
 			]
 			dependencies: ["187AE09D3D927F05"]
 			id: "76DAECB0A6A18DEF"
@@ -1873,6 +2224,11 @@
 					type: "item"
 					item: "minecraft:soul_sand"
 					count: 16
+				}
+				{
+					id: "58F27B1DA77C1E25"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -1910,6 +2266,11 @@
 					type: "choice"
 					table_id: 6737182399749106212L
 				}
+				{
+					id: "16523EB672C59991"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
 			]
 		}
 		{
@@ -1927,6 +2288,7 @@
 				id: "56A76B83028F0056"
 				type: "item"
 				item: "minecraft:phantom_membrane"
+				count: 16L
 			}]
 			rewards: [
 				{
@@ -1938,6 +2300,11 @@
 					id: "1FD9CF8E9CD72758"
 					type: "choice"
 					table_id: 6443510782262151491L
+				}
+				{
+					id: "1BBEA638170A6B37"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -1956,6 +2323,29 @@
 				type: "item"
 				item: "farmersdelight:rice"
 			}]
+			rewards: [
+				{
+					id: "3B9A66493BBDF50F"
+					type: "item"
+					item: "ends_delight:stuffed_rice_cake"
+				}
+				{
+					id: "6B629B66784F23BB"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "17624C92C816097E"
+					type: "item"
+					item: "pixelmon:water_stone_shard"
+					count: 3
+				}
+				{
+					id: "205E7858C2A3DD7C"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -2620,6 +3010,73 @@
 					id: "72F042DB281889ED"
 					type: "item"
 					item: "byg:indigo_jacaranda_sapling"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: [
+				"Cooking pots open up the world of curry; Curry can help heal your Pokemon, nourish them, and help them to grow!"
+				""
+				"However, to cook a curry, you will need a flint and steel, and no other method for initiating the cooking process will work."
+				""
+				"You can still create the pot and set it aside to remind yourself: A Flint and Steel might seem a \"Waste\" of an iron ingot, or it might seem like an excellent way to level up and nourish your Pokemon."
+			]
+			dependencies: ["1455941647C48282"]
+			id: "60B52B00C9D932FC"
+			tasks: [{
+				id: "46283680D001E2E8"
+				type: "item"
+				item: "pixelmon:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "46A492A574E1CC97"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "49DD62707D455C02"
+					type: "item"
+					item: "pixelmon:durin_berry"
+				}
+				{
+					id: "1638FA687DC19F1E"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			description: ["The Aspear Berry can be found in the possession of fire element Vulpixes, which you expect to be attracted to some type of habitat on the Ice layer. Probably indoors."]
+			hide_dependency_lines: true
+			dependencies: ["516B913EB8DF470E"]
+			hide: true
+			id: "0B4EC16A21612E29"
+			tasks: [{
+				id: "26594F27BB8A76EB"
+				type: "item"
+				item: "pixelmon:aspear_berry"
+			}]
+			rewards: [
+				{
+					id: "519FC0B80B0A6B3A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 67
+						}
+					}
+				}
+				{
+					id: "3E4805AEE8208B8A"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
 				}
 			]
 		}

@@ -526,5 +526,142 @@
 				}
 			]
 		}
+		{
+			title: "Countdown Till Next Invasion: Spiders"
+			x: 3.0d
+			y: -1.5d
+			description: ["You have a bad feeling that won't be the only wave of invaders..."]
+			dependencies: ["2CD5260731F941D8"]
+			incompatible: ["65550A21575C805E"]
+			id: "49513B4A84704CE1"
+			tasks: [{
+				id: "260D20657EBD9A5E"
+				type: "questsadditions:time"
+				elapsedTime: 1800L
+			}]
+			rewards: [{
+				id: "57DF175CBC4D74EB"
+				type: "command"
+				title: "One Minute Warning"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/daycare/hourglass/gold.png"
+					}
+				}
+				auto: "enabled"
+				command: "/function ghosts:fortell_invasion_wave_1"
+				player_command: false
+			}]
+		}
+		{
+			title: "One Minute Warning: Spiders"
+			x: 5.0d
+			y: -1.5d
+			description: ["Something is incoming!"]
+			dependencies: ["49513B4A84704CE1"]
+			repeatable: true
+			id: "65744C5BC023C19A"
+			tasks: [{
+				id: "74E7A122E07EE63D"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [
+				{
+					id: "772173B9EE8D0F2B"
+					type: "command"
+					title: "Something Attacks!"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/entity_icon/spider/spider.png"
+						}
+					}
+					auto: "enabled"
+					command: "/function ghosts:spawn_invasion_wave_1"
+					player_command: false
+				}
+				{
+					id: "43D4BEDC5DDAA4D4"
+					type: "command"
+					title: "Countdown Until Next Invasion Begins Again"
+					icon: "pixelmon:gold_hourglass"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 49513B4A84704CE1"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Countdown Until Next Invasion: Husks"
+			x: 3.0d
+			y: -9.0d
+			description: ["Based on how things were with the spiders, there will be an invasion of Husks every 30 minutes."]
+			dependencies: ["65550A21575C805E"]
+			id: "2D594738DAC1DECF"
+			tasks: [{
+				id: "56FC594047D7C870"
+				type: "questsadditions:time"
+				elapsedTime: 1800L
+			}]
+			rewards: [{
+				id: "77A75836981A3CF0"
+				type: "command"
+				title: "One Minute Warning"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/daycare/hourglass/gold.png"
+					}
+				}
+				auto: "enabled"
+				command: "/function ghosts:fortell_invasion_wave_1"
+				player_command: false
+			}]
+		}
+		{
+			title: "One Minute Warning: Husks"
+			x: 5.0d
+			y: -9.0d
+			description: ["Something is incoming!"]
+			dependencies: ["2D594738DAC1DECF"]
+			repeatable: true
+			id: "66A33F4B931C2068"
+			tasks: [{
+				id: "138C24216FFA6D99"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [
+				{
+					id: "54C2D48E6BCEA3BE"
+					type: "command"
+					title: "Something is Incoming!"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/entity_icon/zombie/husk.png"
+						}
+					}
+					auto: "enabled"
+					command: "/function ghosts:spawn_invasion_wave_2"
+					player_command: false
+				}
+				{
+					id: "56310BB43EC1D63B"
+					type: "command"
+					title: "Countdown Until Next Invasion Begins Again"
+					icon: "pixelmon:gold_hourglass"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 2D594738DAC1DECF"
+					player_command: false
+				}
+			]
+		}
 	]
 }

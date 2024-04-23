@@ -13,6 +13,12 @@
           "flowery"
         ]
       },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end"
+        ]
+      },
       "rarityMultipliers": [
         {
           "multiplier": 0.2,
@@ -626,6 +632,13 @@
           "beaches"
         ]
       },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
+        ]
+      },
       "rarityMultipliers": [
         {
           "multiplier": 0.3,
@@ -647,6 +660,13 @@
       "condition": {
         "stringBiomes": [
           "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
         ]
       },
       "rarityMultipliers": [
@@ -673,6 +693,13 @@
           "savannas"
         ]
       },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
+        ]
+      },
       "rarityMultipliers": [
         {
           "multiplier": 0.3,
@@ -695,6 +722,13 @@
         "stringBiomes": [
           "mountainous",
           "mesas"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
         ]
       },
       "rarityMultipliers": [
@@ -721,7 +755,8 @@
       "anticondition": {
         "stringBiomes": [
           "ghosts",
-          "end"
+          "end",
+          "hellish"
         ]
       },
       "rarityMultipliers": [
@@ -745,6 +780,13 @@
       "condition": {
         "stringBiomes": [
           "mountainous"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
         ]
       },
       "rarityMultipliers": [
@@ -771,6 +813,13 @@
           "all forests"
         ]
       },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
+        ]
+      },
       "rarityMultipliers": [
         {
           "multiplier": 0.3,
@@ -794,6 +843,13 @@
           "mountainous",
           "mesas",
           "arid"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "end",
+          "hellish"
         ]
       },
       "rarityMultipliers": [

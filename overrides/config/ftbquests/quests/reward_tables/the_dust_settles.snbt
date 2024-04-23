@@ -1,0 +1,62 @@
+{
+	id: "1459BB4BD118B9D2"
+	order_index: 19
+	title: "The Dust Settles..."
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tm_gen8"
+				Count: 1b
+				tag: {
+					tm: 20
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:lens_explosive"
+				Count: 1b
+				tag: { }
+			}
+			weight: 25
+		}
+		{ item: "minecraft:tnt", weight: 25 }
+		{ item: "minecraft:gunpowder", count: 2, weight: 100 }
+		{ item: "pixelmon:sacredash", weight: 5 }
+		{ item: "astralsorcery:colored_lens_fire", weight: 25 }
+		{
+			item: {
+				id: "botania:lens_fire"
+				Count: 1b
+				tag: { }
+			}
+			weight: 25
+		}
+		{ item: "immersiveengineering:dust_sulfur", count: 2, weight: 200 }
+		{ item: "thermal:niter_dust", count: 2, weight: 200 }
+		{ item: "immersiveengineering:dust_wood", count: 10, weight: 50 }
+		{ item: "minecraft:redstone", weight: 5 }
+		{
+			item: {
+				id: "pixelmon:tm_gen7"
+				Count: 1b
+				tag: {
+					tm: 64
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 15
+				}
+			}
+		}
+		{ item: "minecraft:creeper_head", weight: 5 }
+		{ item: "minecraft:creeper_spawn_egg" }
+	]
+}

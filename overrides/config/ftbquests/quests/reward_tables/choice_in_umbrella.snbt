@@ -1,0 +1,24 @@
+{
+	id: "20B5FC346D127CD9"
+	order_index: 21
+	title: "Choice in Umbrella"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:magenta_umbrella" }
+		{ item: "pixelmon:light_blue_umbrella" }
+		{ item: "pixelmon:lime_umbrella" }
+		{ item: "pixelmon:light_gray_umbrella" }
+		{ item: "pixelmon:blue_umbrella" }
+		{ item: "pixelmon:red_umbrella" }
+		{ item: "pixelmon:green_umbrella" }
+		{ item: "pixelmon:orange_umbrella" }
+		{ item: "pixelmon:pink_umbrella" }
+		{ item: "pixelmon:purple_umbrella" }
+		{ item: "pixelmon:yellow_umbrella" }
+		{ item: "pixelmon:white_umbrella" }
+		{ item: "pixelmon:brown_umbrella" }
+		{ item: "pixelmon:black_umbrella" }
+		{ item: "pixelmon:gray_umbrella" }
+		{ item: "pixelmon:cyan_umbrella" }
+	]
+}

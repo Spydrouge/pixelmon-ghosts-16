@@ -702,5 +702,39 @@
 				}
 			]
 		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["5AF0C36E42A5FFB3"]
+			id: "6D21C5C41517388D"
+			tasks: [{
+				id: "169C16199127D427"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [{
+				id: "1B10FACF56DD71D6"
+				type: "command"
+				command: "/function ghosts:ancient_power_all"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["239207D5068640A8"]
+			id: "337A559DA2425B31"
+			tasks: [{
+				id: "1BEDDD69F71B85A9"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [{
+				id: "127D1D8E8A6FAB59"
+				type: "command"
+				command: "/function ghosts:ancient_power_all"
+				player_command: false
+			}]
+		}
 	]
 }

@@ -2326,7 +2326,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -3.0d
 			y: -11.5d
 			description: [
 				"Tired of begging for lenses to determine a Pokemon's stats before you try to catch it? You need analyze. Analyze can be used by any Pokemon that knows Mind Reader or Foresight."
@@ -2694,6 +2694,35 @@
 				type: "item"
 				title: "Drifloon is helping!"
 				item: "immersiveengineering:stick_aluminum"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.5d
+			description: [
+				"Um. Hmm."
+				""
+				"Is it unethical if it's exactly what the Pokemon would do in the wild? The move has more PP than one for a reason."
+				""
+				"Both Pokemon who know \"Self-Destruct\" and \"Explosion\" can use the skill \"Explode\" out of battle."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "57A4AC900945E4DC"
+			tasks: [{
+				id: "429BA403ED63A08A"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "explode"
+			}]
+			rewards: [{
+				id: "3876C45E6D1F7E05"
+				type: "random"
+				auto: "enabled"
+				table_id: 1466409087990806994L
 			}]
 		}
 	]

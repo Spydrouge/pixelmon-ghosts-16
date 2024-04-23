@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "botania:floating_hydroangeas_motif"
+  },
+  "output": {
+    "name": "botania:floating_hydroangeas"
+  }
+}

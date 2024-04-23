@@ -14,6 +14,10 @@
         {
           "itemID": "pixelmon:heart_scale",
           "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 25
         }
       ],
       "minLevel": 2,
@@ -41,6 +45,10 @@
         {
           "itemID": "pixelmon:heart_scale",
           "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 25
         }
       ],
       "minLevel": 15,

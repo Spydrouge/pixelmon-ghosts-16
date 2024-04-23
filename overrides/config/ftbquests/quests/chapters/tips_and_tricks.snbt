@@ -1914,11 +1914,18 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "4CE57068717E0F2E"
-				type: "item"
-				item: "tconstruct:earth_slime_crystal"
-			}]
+			rewards: [
+				{
+					id: "4CE57068717E0F2E"
+					type: "item"
+					item: "tconstruct:earth_slime_crystal"
+				}
+				{
+					id: "298DD0DCB9E6EE74"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+			]
 		}
 		{
 			title: "Luck"
@@ -2152,6 +2159,57 @@
 				type: "item"
 				item: "tconstruct:stray_head"
 			}]
+		}
+		{
+			title: "Experienced I"
+			x: 8.5d
+			y: 1.5d
+			description: ["Three Bottles o' Enchanting can be added to a tool or weapon in order to increase experience drops when using it. This can be useful if you are using a Rosa Arcana to produce mana."]
+			dependencies: ["02CA5502E9034C59"]
+			secret: true
+			id: "25CDE20B77BAEF26"
+			tasks: [{
+				id: "1D344A57E5E8FE9A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
+			rewards: [{
+				id: "1A785801FC5EA6C0"
+				type: "item"
+				item: "pixelmon:mint"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: [
+				"The Pure Daisy is capable of a few interesting recipes, almost all of which are worth looking up in the JEI."
+				""
+				"Most importantly, it can turn Soul Sand into Sand."
+				""
+				"It can increase the density of different types of Ice. Ice becomes Packed Ice, which becomes Blue Ice. It can also create Snow from Water."
+				""
+				"If you were to discover a large amount of Netherrack, it could turn this into cobblestone."
+			]
+			dependencies: ["6749D2C85113CC62"]
+			id: "3B386C27821837FA"
+			tasks: [{
+				id: "0014FC014B18FAFD"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "38BF6C4907B16865"
+					type: "item"
+					item: "minecraft:oxeye_daisy"
+				}
+				{
+					id: "3E3E3888C92886F3"
+					type: "item"
+					item: "botania:manasteel_nugget"
+				}
+			]
 		}
 	]
 }

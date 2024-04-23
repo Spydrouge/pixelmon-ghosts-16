@@ -1,0 +1,14 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "biomesoplenty:rainbow_birch_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "pixelmon:rainbow_flower"
+    },
+    {
+      "item": "minecraft:birch_sapling"
+    }
+  ]
+}

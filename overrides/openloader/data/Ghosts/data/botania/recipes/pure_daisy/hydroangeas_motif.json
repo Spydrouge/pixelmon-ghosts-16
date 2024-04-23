@@ -1,0 +1,11 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "botania:hydroangeas_motif"
+  },
+  "output": {
+    "name": "botania:hydroangeas",
+    "nbt": "{cooldown:0,passiveDecayTicks:-80000}"
+  }
+}
