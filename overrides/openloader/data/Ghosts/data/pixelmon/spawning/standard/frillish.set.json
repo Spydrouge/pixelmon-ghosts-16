@@ -5,7 +5,8 @@
       "spec": "species:Frillish",
       "stringLocationTypes": [
         "Water",
-        "Seafloor"
+        "Seafloor",
+        "Surface Water"
       ],
       "minLevel": 2,
       "maxLevel": 6,

@@ -1,0 +1,170 @@
+{
+  "id": "Luvdisc Fishing",
+  "spawnInfos": [
+     {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 25
+        }
+      ],
+         
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 256,
+        "minY": 224
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 256,
+        "minY": 224
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 256,
+        "minY": 224
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 11,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

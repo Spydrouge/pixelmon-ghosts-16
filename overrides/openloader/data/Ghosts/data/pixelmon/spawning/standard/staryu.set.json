@@ -39,6 +39,16 @@
       ],
       "minLevel": 2,
       "maxLevel": 6,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
       "typeID": "pokemon",
       "condition": {
         "maxY": 256,
@@ -76,6 +86,16 @@
       ],
       "minLevel": 2,
       "maxLevel": 6,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
       "typeID": "pokemon",
       "condition": {
         "maxY": 256,

@@ -10,6 +10,12 @@
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "maxY": 224,
         "minY": 192,
@@ -27,6 +33,12 @@
       "minLevel": 19,
       "maxLevel": 31,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "times": [
           "DAY"
@@ -69,6 +81,12 @@
       "minLevel": 19,
       "maxLevel": 31,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "times": [
           "DAY"

@@ -1407,46 +1407,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 9.5d
-			id: "766C87B8A498A80B"
-			tasks: [{
-				id: "1DF46D94386D6456"
-				type: "item"
-				item: "pixelmon:babiri_berry"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 9.5d
-			id: "75271B50DEF66CB5"
-			tasks: [{
-				id: "77A148C52C7A42CC"
-				type: "item"
-				item: "pixelmon:wacan_berry"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 9.5d
-			id: "1878E237C64487B3"
-			tasks: [{
-				id: "29BEBF09D58D4A9A"
-				type: "item"
-				item: "pixelmon:coba_berry"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 9.5d
-			id: "4A7CC21DD159D4DB"
-			tasks: [{
-				id: "6C96392ECEA0FFA7"
-				type: "item"
-				item: "pixelmon:occa_berry"
-			}]
-		}
-		{
 			x: -1.0d
 			y: 7.0d
 			id: "4106B5F70B55A664"

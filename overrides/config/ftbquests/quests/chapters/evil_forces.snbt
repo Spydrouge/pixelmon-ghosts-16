@@ -24,6 +24,7 @@
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
 			size: 3.0d
+			incompatible: ["3418656E436AEEAD"]
 			id: "2CD5260731F941D8"
 			tasks: [{
 				id: "100C587F5D941C66"
@@ -318,6 +319,7 @@
 			dependencies: ["3EC2C40138D33F79"]
 			hide: true
 			size: 3.0d
+			incompatible: ["3418656E436AEEAD"]
 			id: "65550A21575C805E"
 			tasks: [{
 				id: "5E43E73A6C4797FA"
@@ -532,7 +534,10 @@
 			y: -1.5d
 			description: ["You have a bad feeling that won't be the only wave of invaders..."]
 			dependencies: ["2CD5260731F941D8"]
-			incompatible: ["65550A21575C805E"]
+			incompatible: [
+				"65550A21575C805E"
+				"3418656E436AEEAD"
+			]
 			id: "49513B4A84704CE1"
 			tasks: [{
 				id: "260D20657EBD9A5E"
@@ -601,6 +606,7 @@
 			y: -9.0d
 			description: ["Based on how things were with the spiders, there will be an invasion of Husks every 30 minutes."]
 			dependencies: ["65550A21575C805E"]
+			incompatible: ["3418656E436AEEAD"]
 			id: "2D594738DAC1DECF"
 			tasks: [{
 				id: "56FC594047D7C870"

@@ -1,0 +1,173 @@
+{
+  "id": "Shellos Line Fishing",
+  "spawnInfos": [
+        {
+      "spec": "species:Shellos palette:sun",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times":[
+            "DAY"
+        ],
+        "minY": 224
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Shellos palette:moon",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times":[
+            "NIGHT",
+            "DUSK",
+            "DAWN"
+        ],
+        "minY": 224
+      },
+      "rarity": 90.0
+    },
+        {
+      "spec": "species:Shellos palette:sun",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times":[
+            "DAY"
+        ],
+        "minY": 224
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Shellos palette:moon",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times":[
+            "NIGHT",
+            "DUSK",
+            "DAWN"
+        ],
+        "minY": 224
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Shellos",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Shellos",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Gastrodon",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "beaches",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Gastrodon",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

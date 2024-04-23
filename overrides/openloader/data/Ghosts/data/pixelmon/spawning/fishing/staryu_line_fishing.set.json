@@ -1,0 +1,201 @@
+{
+  "id": "Staryu Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+     "minLevel": 2,
+      "maxLevel": 16,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 16,
+      "maxLevel": 24,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+     "minLevel": 24,
+      "maxLevel": 36,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Starmie",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+     "minLevel": 36,
+      "maxLevel": 50,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ],
+        "times": [
+          "NIGHT"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Staryu",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ],
+        "times": [
+          "NIGHT"
+        ]
+      },
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Starmie",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:stardust",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches",
+          "pixelmon:ultra_desert"
+        ],
+        "times": [
+          "NIGHT"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

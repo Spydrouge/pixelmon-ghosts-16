@@ -931,6 +931,12 @@
         "min":1,
         "max":1,
         "chance":0.05
+      },
+      {
+        "item":"pixelmon:chople_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -980,6 +986,12 @@
       },
       {
         "item":"pixelmon:occa_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"pixelmon:chople_berry",
         "min":1,
         "max":1,
         "chance":0.1
@@ -3224,6 +3236,12 @@
         "chance":0.3
       },
       {
+        "item":"pixelmon:colbur_berry",
+        "min":2,
+        "max":4,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:reaper_cloth",
         "min":1,
         "max":1,
@@ -4152,9 +4170,15 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:tropical_fish",
+        "item":"minecraft:prismarine_shard",
+        "min":3,
+        "max":5,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:prismarine_crystals",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":0.5
       },
       {
@@ -4175,10 +4199,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:tropical_fish",
-        "min":1,
-        "max":3,
-        "chance":0.5
+        "item":"minecraft:prismarine_shard",
+        "min":5,
+        "max":10,
+        "chance":1.0
       },
       {
         "item":"minecraft:sea_lantern",
@@ -10428,7 +10452,7 @@
         "chance":0.1
       },
       {
-        "item":"pixelmon:shuca_bery",
+        "item":"pixelmon:shuca_berry",
         "min":1,
         "max":1,
         "chance":0.05
@@ -10469,7 +10493,7 @@
         "chance":0.2
       },
       {
-        "item":"pixelmon:shuca_bery",
+        "item":"pixelmon:shuca_berry",
         "min":1,
         "max":1,
         "chance":0.3
@@ -10504,7 +10528,7 @@
         "chance":0.5
       },
       {
-        "item":"pixelmon:shuca_bery",
+        "item":"pixelmon:shuca_berry",
         "min":2,
         "max":3,
         "chance":1.0
@@ -10701,6 +10725,12 @@
       },
       {
         "item":"byg:purple_glowcane",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"astralsorcery:illumination_powder",
         "min":1,
         "max":1,
         "chance":0.1
@@ -12146,28 +12176,34 @@
     "pokemon":"Clamperl",
     "items":[
       {
-        "item":"minecraft:prismarine_crystals",
-        "min":1,
-        "max":2,
-        "chance":1.0
-      },
-      {
         "item":"contenttweaker:zinc_nugget",
         "min":2,
         "max":3,
         "chance":0.5
       },
       {
-        "item":"minecraft:prismarine_shard",
+        "item":"pixelmon:pearl",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":0.5
       },
       {
-        "item":"pixelmon:shoal_salt",
+        "item":"minecraft:mana_pearl",
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"minecraft:ender_pearl",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"pixelmon:shoal_shell",
+        "min":1,
+        "max":1,
+        "chance":0.2
       },
       {
         "item":"minecraft:shulker_shell",
@@ -12181,7 +12217,7 @@
     "pokemon":"Huntail",
     "items":[
       {
-        "item":"minecraft:cod",
+        "item":"minecraft:tropical_fish",
         "min":1,
         "max":3,
         "chance":1.0
@@ -12216,7 +12252,7 @@
     "pokemon":"Gorebyss",
     "items":[
       {
-        "item":"minecraft:cod",
+        "item":"minecraft:tropical_fish",
         "min":1,
         "max":3,
         "chance":1.0
@@ -14647,10 +14683,22 @@
         "chance":1.0
       },
       {
+        "item":"minecraft:prismarine_crystals",
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
+      {
         "item":"minecraft:prismarine_shard",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":0.3
+      },
+      {
+        "item":"astralsorcery:illumination_powder",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -14667,13 +14715,19 @@
         "item":"minecraft:sea_lantern",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.7
       },
       {
         "item":"pixelmon:sea_incense",
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"astralsorcery:illumination_powder",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -18735,11 +18789,23 @@
         "max":1,
         "chance":1.0
       },
+        {
+        "item":"thermal:nickel_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
       {
         "item":"minecraft:iron_nugget",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":0.9
+      },
+      {
+        "item":"tconstruct:cobalt_nugget",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:sticky_barb",
@@ -18777,10 +18843,22 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:iron_ingot",
+        "item":"immersiveengineering:plate_nickel",
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
+      {
+        "item":"immersiveengineering:plate_iron",
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"tconstruct:cobalt_nugget",
+        "min":3,
+        "max":4,
+        "chance":0.3
       },
       {
         "item":"pixelmon:absorb_bulb",
@@ -21383,6 +21461,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:tanga_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -22200,15 +22284,15 @@
         "chance":0.5
       },
       {
-        "item":"pixelmon:babiri_berry",
-        "min":1,
-        "max":1,
-        "chance":0.1
-      },
-      {
         "item":"pixelmon:sapphire",
         "min":1,
         "max":3,
+        "chance":0.05
+      },
+        {
+        "item":"pixelmon:babiri_berry",
+        "min":1,
+        "max":1,
         "chance":0.05
       }
     ]
@@ -24231,7 +24315,7 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:prismarine_crystals",
+        "item":"minecraft:prismarine_shards",
         "min":1,
         "max":2,
         "chance":0.5
@@ -24632,7 +24716,19 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:iron_ingot",
+        "item":{
+          "id":"immersiveengineering:pickaxe_steel",
+          "Count":1,
+          "tag":{
+            "Damage":900
+          }
+        },
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"thermal:nugget_lead",
         "min":1,
         "max":2,
         "chance":0.5
@@ -24642,12 +24738,6 @@
         "min":1,
         "max":2,
         "chance":0.3
-      },
-      {
-        "item":"pixelmon:aluminium_ingot",
-        "min":1,
-        "max":2,
-        "chance":0.1
       }
     ]
   },
@@ -26791,10 +26881,16 @@
         "chance":0.5
       },
       {
-        "item":"pixelmon:curry_appl",
+        "item":"pixelmon:curry_apple",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:golden_apple",
+        "min":1,
+        "max":1,
+        "chance":0.02
       }
     ]
   },
@@ -26823,7 +26919,7 @@
         "item":"minecraft:golden_apple",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.3
       }
     ]
   },
@@ -26852,7 +26948,7 @@
         "item":"minecraft:golden_apple",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.2
       }
     ]
   },
@@ -29232,6 +29328,12 @@
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"pixelmon:shoal_salt",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -29248,7 +29350,13 @@
         "item":"minecraft:diorite",
         "min":1,
         "max":2,
-        "chance":2.0
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:shoal_salt",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"thermal:niter",
@@ -29271,6 +29379,12 @@
         "item":"biomesoplenty:dried_salt",
         "min":2,
         "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:shoal_salt",
+        "min":2,
+        "max":3,
         "chance":1.0
       },
       {

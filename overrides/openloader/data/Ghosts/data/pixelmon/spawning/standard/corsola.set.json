@@ -41,6 +41,10 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:float_stone",
+          "percentChance": 25
+        },
+        {
           "itemID": "pixelmon:luminous_moss",
           "percentChance": 25
         }
@@ -98,6 +102,10 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:float_stone",
+          "percentChance": 25
+        },
+        {
           "itemID": "pixelmon:luminous_moss",
           "percentChance": 25
         }
@@ -122,6 +130,10 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
+        {
+          "itemID": "pixelmon:float_stone",
+          "percentChance": 25
+        },
         {
           "itemID": "pixelmon:luminous_moss",
           "percentChance": 25

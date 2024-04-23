@@ -3,7 +3,7 @@
 	group: "1BA668D58784F46A"
 	order_index: 0
 	filename: "brews_and_infusions"
-	title: "Infusions"
+	title: "Infusions and Lures"
 	icon: "pixelmon:infuser"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -2233,6 +2233,631 @@
 					}
 				}
 			]
+		}
+		{
+			icon: "pixelmon:lure_casing_weak"
+			x: -1.0d
+			y: 12.0d
+			description: [
+				"Lures are a powerful tool for influencing what Pokemon are attracted to what Habitat. By using a lure, you can increase the spawns of certain type of Pokemon by 50% for 15 minutes."
+				""
+				"To make a lure, you will need to have access to iron bars. You can craft two iron bars with seven iron nuggets."
+				""
+				"You will also need access to sapphire, the location of which is noted on the Metals and Gems chapter of this Diary."
+			]
+			size: 2.0d
+			id: "2F84D1124BABCD33"
+			tasks: [
+				{
+					id: "7561631F505C06B7"
+					type: "item"
+					item: "pixelmon:lure_casing_weak"
+				}
+				{
+					id: "2BFDE0F535B0BB01"
+					type: "item"
+					item: "minecraft:iron_bars"
+				}
+			]
+			rewards: [{
+				id: "40CD61FE2BC6339B"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "lure_ball"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 12.0d
+			description: [
+				"Without a doubt, one of the most important lures you can make is the Steel lure. Metal is so rare in this void! Steel lures can help coax out everything from Aron to Bronzor."
+				""
+				"To make a weak steel lure, you will need the Babiri berry, which protects Pokemon from super effective steel type moves."
+				""
+				"Like with almost all berries, the easiest way to obtain one is to steal it, and the most plentiful Pokemon to steal it from is Carbink, who is attracted to Underground habitats on the Deep Dark layer."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "766C87B8A498A80B"
+			tasks: [{
+				id: "1DF46D94386D6456"
+				type: "item"
+				item: "pixelmon:babiri_berry"
+			}]
+			rewards: [{
+				id: "26B46CF4A2A31B06"
+				type: "item"
+				item: "pixelmon:steel_gem"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 12.0d
+			description: [
+				"Electrical Pokemon are also quite rare. You expect the Wacan berry to be held by a Pokemon especially vulnerable to electrical attack. You will either need to find a Mantine or Gyarados on the Air layer."
+				""
+				"This lure may help you lure out Rotom, Tynamo, Voltorb, and Chinchou. While most of these are valuable for Glowstone or Redstone dust, Voltorb can drop Pokeballs, which are extremely rare in this blasted abyss."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "75271B50DEF66CB5"
+			tasks: [{
+				id: "77A148C52C7A42CC"
+				type: "item"
+				item: "pixelmon:wacan_berry"
+			}]
+			rewards: [{
+				id: "05EDCE17711E268E"
+				type: "item"
+				item: "pixelmon:electric_gem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 12.0d
+			description: [
+				"There are a lot of Flying Type pokemon who spawn overhead and quickly disappear into the void. It's already hard to get into a battle with these Pokemon, so increasing their spawn rate can be beneficial."
+				""
+				"You expect to find this berry in the possession of the Sewaddle family, because they have a 4x Weakness to flying moves. This family will hopefully be found on the Murk layer."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "1878E237C64487B3"
+			tasks: [{
+				id: "29BEBF09D58D4A9A"
+				type: "item"
+				item: "pixelmon:coba_berry"
+			}]
+			rewards: [{
+				id: "3D45DC6F8EC3D6A0"
+				type: "item"
+				item: "pixelmon:flying_gem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 12.0d
+			description: [
+				"Fire Pokemon are very few and far between in this void, which is why the ability to attract them at a +50% rate is so important!"
+				""
+				"To create a Fire Lure, you will need the Occa Berry, which protects Pokemon from super effective fire movies."
+				""
+				"All Pokemon you can steal this berry from will be attracted to habitats on the Ice Layer."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "4A7CC21DD159D4DB"
+			tasks: [{
+				id: "6C96392ECEA0FFA7"
+				type: "item"
+				item: "pixelmon:occa_berry"
+			}]
+			rewards: [{
+				id: "5F262AFA42722A68"
+				type: "item"
+				item: "pixelmon:fire_gem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			description: [
+				"The Colbur berry can be used to make the Dark lure, and also protect Pokemon from super-effective dark damage. The easiest Pokemon to steel it from will likely be Gastly, which will spawn at any layer only in pitch black darkness, and is attracted to Soul Glass."
+				""
+				"Because Sableye is Dark type, and Sableye is responsible for hoarding many gems, this lure can be valuable when gem hunting."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "3237D6D578620244"
+			tasks: [{
+				id: "3394FA12BB172B32"
+				type: "item"
+				item: "pixelmon:colbur_berry"
+			}]
+			rewards: [{
+				id: "50925AA5D2F91CD2"
+				type: "item"
+				item: "pixelmon:dark_gem"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 12.0d
+			description: [
+				"The Kasib berry is used to make Ghost lures. While ordinarily you have plenty of ghosts, there are some situations in which you might want to coax out the only ghost Pokemon in an area, such as Cursola in the Underground water of the Stone Layer, or Mimikyu, Rotom, or Palossand on the Murk Layer."
+				""
+				"To get a Kasib berry, you will need to travel all the way up to the Space Layer, create a habitat suitable for Elgyem, and steal one."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "25D0EB8788460245"
+			tasks: [{
+				id: "53561F11D2F9CCD1"
+				type: "item"
+				item: "pixelmon:kasib_berry"
+			}]
+			rewards: [{
+				id: "65C02F4D7EBBB2D9"
+				type: "item"
+				item: "pixelmon:ghost_gem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			description: [
+				"Dragons are rare in any world, but they are especially rare in this one. With the exception of Dreepy, and maybe Pupitar, almost all other Dragon Pokemon hunts will benefit greatly from lures."
+				""
+				"The Haban berry can be stolen from Dreepy, which carries it to ward off super effective Dragon attacks."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "1E29592C69AC0A89"
+			tasks: [{
+				id: "0C5026B3C4ADA278"
+				type: "item"
+				item: "pixelmon:haban_berry"
+			}]
+			rewards: [{
+				id: "08C58D9F70B0A0ED"
+				type: "item"
+				item: "pixelmon:dragon_gem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 12.0d
+			description: [
+				"Rock lures are less important than some other types, but can be used, for instance, to lure out Corsola, Aron, or Crystal Onix."
+				""
+				"To get the Charti berry, you will need to travel to the Ice layer and hunt down Larvesta, from which it can be stolen."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "46EFF05C7C8A9FE1"
+			tasks: [{
+				id: "7FFE042B9DF7E924"
+				type: "item"
+				item: "pixelmon:charti_berry"
+			}]
+			rewards: [{
+				id: "16DC06E66387EA36"
+				type: "item"
+				item: "pixelmon:rock_gem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 12.0d
+			description: [
+				"The Chilan berry protects Pokemon from normal types attacks. It is also used to make the Normal Lure. Normal Pokemon don't seem to have survived the Apocalypse very well, but a small number like Azurill, Stufful, Pidove, Tailow, Hoot Hoot, and Jigglypuff are still effected. The latter might be important when looking for leather."
+				""
+				"Chilan berries are carried by the sleeping Pokemon Munna, which attempts to ignore reality for the sake of its dreams. It is attracted to indoor habitats on the Dazzle Layer."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "0C9E0F151B7614EE"
+			tasks: [{
+				id: "5D4239CAB51BDEB5"
+				type: "item"
+				item: "pixelmon:chilan_berry"
+			}]
+			rewards: [{
+				id: "6BB5979EB042676E"
+				type: "item"
+				item: "pixelmon:normal_gem"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 12.0d
+			description: [
+				"To the best of your knowledge, the only Fighting Pokemon who might have survived this disaster is Stufful,along with other Pokemon representing abandoned shreds of civilization. You should try building an indoor habitat on the Murk Layer if you want to attract Stufful."
+				""
+				"Other than that, making a Fighting Lure seems useless. But you can still find it, and perhaps use it to protect Pokemon against special effective fighting moves."
+				""
+				"To find it, you will need to track down an Alolan Sandshrew, which you hope will have been hardy enough to survive this devestation somewhere up in the Ice Layer."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "7CFF467AF8BFF24B"
+			tasks: [{
+				id: "5D207647A8CDAEB8"
+				type: "item"
+				item: "pixelmon:chople_berry"
+			}]
+			rewards: [{
+				id: "1A90418C5D7EA352"
+				type: "item"
+				item: "pixelmon:fighting_gem"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 12.0d
+			description: [
+				"The Kebia berry may have some situational uses, such as when looking for rare Pokemon like Mareanie or the Oddish family."
+				""
+				"You will have to steal it from the Flabebe line, which carries it to ward off super effective attacks."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "5D6E6D378E54B5E1"
+			tasks: [{
+				id: "594BDE05FA4025C5"
+				type: "item"
+				item: "pixelmon:kebia_berry"
+			}]
+			rewards: [{
+				id: "4C8178361EAF36C5"
+				type: "item"
+				item: "pixelmon:poison_gem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 12.0d
+			description: [
+				"The Passho berry isn't the most useful, if only because the only times you are looking for Water Pokemon, you are usually looking in areas where many different species coexist."
+				""
+				"However, if you didn't set up your water habitats far enough from your land ones, or if you are looking for Water-Type beach Pokemon, a Water Lure will shine. This could help you lure out Azurill, for Lapis, or Shellder."
+				""
+				"You will be able to steal these berries from Roly Coly, who uses them to decrease the effectiveness of super-effective water attacks."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "03EEBF70C7FB47C9"
+			tasks: [{
+				id: "5627B998DC1B1044"
+				type: "item"
+				item: "pixelmon:passho_berry"
+			}]
+			rewards: [{
+				id: "641C52C3C456AAAC"
+				type: "item"
+				item: "pixelmon:water_gem"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 12.0d
+			description: [
+				"The Payapa berry can be used to lure out Psychic Pokemon. This won't help you differentiate between Bronzor and Metang any more than a Steel Lure would, but it will allow you to pick out a large number of key Pokemon from other levels. Whether you're looking for Lunatone and Solrock, Baltoy or Inkay, or just trying to get Pork from Munna and Spoink. It can be used to lure out Chingling for Brass, Woobat for Pretty Wings, or Siglyph for Air Runes."
+				""
+				"That said, the Payapa berry is difficult to get. You've noticed a bunch of tadpole Pokemon have seemingly survived in the blasted sediment of this world, and will gather in Water on the Dazzle layer. Perhaps there you'll find a Croagunk."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "3C48F565B177A9F1"
+			tasks: [{
+				id: "70BEC5B476C27AC2"
+				type: "item"
+				item: "pixelmon:payapa_berry"
+			}]
+			rewards: [{
+				id: "288DC351220539A3"
+				type: "item"
+				item: "pixelmon:psychic_gem"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			description: [
+				"The Rindo berry is useful for luring out Grass Pokemon, and nowhere is this more valuable than in convincing Ferroseed to come out without also increasing the odds of spawning Sandshrew. Ferrothorn is a source of iron."
+				""
+				"It can lure out Lileep in the deep dark for Zinc and Uranium, or Dhelmise for steel."
+				""
+				"It must be stolen from a wild Corsola."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "6B88F7CA7876C1E9"
+			tasks: [{
+				id: "31B61B1BBF20F1A0"
+				type: "item"
+				item: "pixelmon:rindo_berry"
+			}]
+			rewards: [{
+				id: "79AEB6590CA0399D"
+				type: "item"
+				item: "pixelmon:grass_gem"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 12.0d
+			description: [
+				"The Roseli berry has some neice uses; it attracts Fairy Pokemon. It can be used to lure out more Hatenna when farming Manaweave."
+				""
+				"It is extremely difficult to get because it must be stolen from Deino, which spawns very rarely on open-air Land habitats on the Stone Layer. You most likely will want to use a Dark or Dragon lure to lure them out, and then be sure to rely on thieving, rather than combat drops, to increase the chance of getting the berry."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "6CD1296F8AE3BDF4"
+			tasks: [{
+				id: "4F98A993B7F14032"
+				type: "item"
+				item: "pixelmon:roseli_berry"
+			}]
+			rewards: [{
+				id: "6670204D822BFAEE"
+				type: "item"
+				item: "pixelmon:fairy_gem"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 12.0d
+			description: [
+				"The Shuca berry can be stolen from wild Aron."
+				""
+				"Because most earth Pokemon are clustered together on the Stone Layer, it has limited uses, but can be used to draw out Sandygast for sand, Nincada for potatoes, Toedscool for mycelium, Crystal Onix, and Trapinch."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "775E7B24F32534AE"
+			tasks: [{
+				id: "5344EB3BE733F1CA"
+				type: "item"
+				item: "pixelmon:shuca_berry"
+			}]
+			rewards: [{
+				id: "32FC42065B81DFF2"
+				type: "item"
+				item: "pixelmon:ground_gem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 12.0d
+			description: [
+				"The Tanga berry isn't incredibly important for drawing out rare Pokemon, aside from perhaps Wimpod, they can be used to focus spawns on bug spawns when looking for specific drops."
+				""
+				"It can be found at the top and bottom of the world carried by Inkay, or in the Ice Layer by Skiddo."
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			id: "1CB2DF1B60DA962E"
+			tasks: [{
+				id: "712A70C828693DAF"
+				type: "item"
+				item: "pixelmon:tanga_berry"
+			}]
+			rewards: [{
+				id: "3EBD3FAA91893F40"
+				type: "item"
+				item: "pixelmon:bug_gem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["4A7CC21DD159D4DB"]
+			id: "0CD1CE66BE7F72DC"
+			tasks: [{
+				id: "0337A3E11A3F2267"
+				type: "item"
+				item: "pixelmon:fire_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["75271B50DEF66CB5"]
+			id: "37C2966FBFFA78D4"
+			tasks: [{
+				id: "216D026129EE36B1"
+				type: "item"
+				item: "pixelmon:electric_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["6B88F7CA7876C1E9"]
+			id: "3C407A002D0E6A81"
+			tasks: [{
+				id: "4CE0557A0BF241B2"
+				type: "item"
+				item: "pixelmon:grass_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["1878E237C64487B3"]
+			id: "0CAF398523A3A8C1"
+			tasks: [{
+				id: "5E1A0B787B63A795"
+				type: "item"
+				item: "pixelmon:flying_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["775E7B24F32534AE"]
+			id: "6EFBA6E193AFB621"
+			tasks: [{
+				id: "286A9057A86F61A2"
+				type: "item"
+				item: "pixelmon:ground_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["46EFF05C7C8A9FE1"]
+			id: "17D76D99578CA7D0"
+			tasks: [{
+				id: "568BC3ECCB0E3307"
+				type: "item"
+				item: "pixelmon:rock_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["1CB2DF1B60DA962E"]
+			id: "2E2867B2E13A32D4"
+			tasks: [{
+				id: "0678E4E39E2D4312"
+				type: "item"
+				item: "pixelmon:bug_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["03EEBF70C7FB47C9"]
+			id: "56AC7328DBA5D059"
+			tasks: [{
+				id: "03CAB4D2E21FE695"
+				type: "item"
+				item: "pixelmon:water_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["0C9E0F151B7614EE"]
+			id: "116DD1D658D05A89"
+			tasks: [{
+				id: "0589518256E9BD3C"
+				type: "item"
+				item: "pixelmon:normal_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["766C87B8A498A80B"]
+			id: "3029BFE6C734E301"
+			tasks: [{
+				id: "5D8C3A1AC583EE38"
+				type: "item"
+				item: "pixelmon:steel_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["3237D6D578620244"]
+			id: "13A4E7BF0BABB703"
+			tasks: [{
+				id: "39E1FEBBB8B724CF"
+				type: "item"
+				item: "pixelmon:dark_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["1E29592C69AC0A89"]
+			id: "0C3717745A04A27D"
+			tasks: [{
+				id: "4D87742AF528731C"
+				type: "item"
+				item: "pixelmon:dragon_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["3C48F565B177A9F1"]
+			id: "60010CD21D026A85"
+			tasks: [{
+				id: "5E9F96FABEEF9BC1"
+				type: "item"
+				item: "pixelmon:psychic_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["25D0EB8788460245"]
+			id: "51242926F9B7E541"
+			tasks: [{
+				id: "160AD1EDB3C34D51"
+				type: "item"
+				item: "pixelmon:ghost_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["6CD1296F8AE3BDF4"]
+			id: "1321ACF67C9D39B8"
+			tasks: [{
+				id: "21B0632700D1DCE7"
+				type: "item"
+				item: "pixelmon:fairy_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["5D6E6D378E54B5E1"]
+			id: "361823CCF77533C8"
+			tasks: [{
+				id: "6AEAE728E1126197"
+				type: "item"
+				item: "pixelmon:poison_gem"
+				count: 10L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.5d
+			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
+			dependencies: ["7CFF467AF8BFF24B"]
+			id: "3E8270910A8A04C2"
+			tasks: [{
+				id: "612BA14779A35632"
+				type: "item"
+				item: "pixelmon:fighting_gem"
+				count: 10L
+			}]
 		}
 	]
 }

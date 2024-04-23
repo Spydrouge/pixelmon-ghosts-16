@@ -4,7 +4,8 @@
     {
       "spec": "species:Dewpider",
       "stringLocationTypes": [
-        "Seafloor"
+        "Surface Water",
+        "Water"
       ],
       "minLevel": 9,
       "maxLevel": 21,

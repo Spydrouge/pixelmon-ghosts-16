@@ -27,7 +27,7 @@
       "rarity": 100.0
     },
     {
-      "spec": "species:Clobbopus palette:Red_ringed",
+      "spec": "species:Clobbopus palette:red_ringed",
       "stringLocationTypes": [
           "Water",
           "Seafloor"
@@ -50,7 +50,7 @@
       "rarity": 50.0
     },
     {
-      "spec": "species:Clobbopus palette:Yellow_ringed",
+      "spec": "species:Clobbopus palette:yellow_ringed",
       "stringLocationTypes": [
           "Water",
           "Seafloor"

@@ -1,0 +1,917 @@
+{
+	id: "3B988F27D43099A1"
+	group: "4A96B64D5627EDC5"
+	order_index: 4
+	filename: "a_sinking_feeling"
+	title: "A Sinking Feeling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Sinking Feeling..."
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"You've looked high and low for any sign that anybody but you survived the End of the World."
+				""
+				"You've found so many Pokemon, hatched so many eggs, and brought so much life back to the world!"
+				""
+				"But you're still lonely. And after a great deal of contemplation, you've had an idea."
+				""
+				"You might know where everyone's gone. You're going to try and reach the Nether."
+			]
+			size: 2.0d
+			id: "46CDAE65E15099AC"
+			tasks: [{
+				id: "03C325A6707C99F0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0920BFFB2962104F"
+				type: "item"
+				item: "pixelmon:fire_stone_shard"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"You've thought about this long and hard, and you keep coming back to the same problem: There's no Lava."
+				""
+				"No lava to run your smeltery. No lava to create obsidian. No lava means no Nether, right?"
+				""
+				"Wrong. There's one thing that can save you, one overlooked interaction that was never important until now: &cTools made of Fire Stones&r can turn &bWater&r into &dObsidian&r."
+				""
+				"To get fire stone shards, you will have to decide where you want to farm: Although the ice layer has both Vulpix and Duramaka, both are very rare, and you will likely be better off harassing Litwik, which you can lure out with Weak Lures and light sources."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			id: "4BC87BF4CE26F9AC"
+			tasks: [{
+				id: "60D9052C04ED21D7"
+				type: "item"
+				item: "pixelmon:fire_stone"
+			}]
+			rewards: [
+				{
+					id: "5EC4A2F10A0ED4BF"
+					type: "item"
+					item: "pixelmon:fire_gem"
+				}
+				{
+					id: "6BE5CF0F0D6E64A7"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Any Fire Stone Tool"
+			x: 0.0d
+			y: -5.5d
+			description: [
+				"Any tool made of fire stone should do the trick. Obviously there is more utility to a fire stone pickaxe than a shovel, but the former will take much longer to obtain, and you probably have a good Tinkeirng pickaxe anyway!"
+				""
+				"[&dBUG ALERT&r: The fire-tools-water interaction is Vanilla Pixelmon, but is currently bugged. To get around that, we've introduced a similar interaction, where the tools can turn &bIce&r and &bSnow&r to obsidian.]"
+			]
+			dependencies: ["4BC87BF4CE26F9AC"]
+			hide: true
+			id: "1C9B797225BDD9D5"
+			tasks: [{
+				id: "5D441824982B94F3"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:fire_stone_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_hoe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_shovel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17952865CB021183"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "7A96FCB6A600708F"
+					type: "choice"
+					table_id: 1689588629867739314L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: [
+				"Your tool can present turn both snow and ice into Obsidian by right clicking on either. "
+				""
+				"Ice is at risk of melting, and since you have no way of re-freezing it, snow might be the smarter option."
+				""
+				"You can obtain snow from Pokemon on the Ice layer, or you can create it yourself by placing a pure daisy near water. "
+			]
+			dependencies: ["1C9B797225BDD9D5"]
+			hide: true
+			min_required_tasks: 1
+			id: "43A58C1AE7891B53"
+			tasks: [
+				{
+					id: "460C5EE9D7E46047"
+					type: "observation"
+					icon: "minecraft:snow_block"
+					timer: 1L
+					observe_type: 0
+					to_observe: "minecraft:snow_block"
+				}
+				{
+					id: "70C24E3D051366E4"
+					type: "observation"
+					icon: "minecraft:ice"
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:ice"
+				}
+			]
+			rewards: [
+				{
+					id: "3D270A84858A750B"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2B6BB064110C2E42"
+					type: "item"
+					item: "minecraft:snow_block"
+				}
+				{
+					id: "01C52F8FFE82BA75"
+					type: "item"
+					item: "minecraft:ice"
+				}
+				{
+					id: "51685BFD97C267CE"
+					type: "item"
+					item: "pixelmon:ice_stone_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: ["Set up your snow into the shape of a Nether Portal frame, and get to work right cilcking!"]
+			dependencies: ["43A58C1AE7891B53"]
+			hide: true
+			id: "30E49862081FA059"
+			tasks: [{
+				id: "1207B356061DBBFB"
+				type: "observation"
+				icon: "minecraft:obsidian"
+				timer: 1L
+				observe_type: 0
+				to_observe: "minecraft:obsidian"
+			}]
+			rewards: [
+				{
+					id: "740AC6F0A565E2E3"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "0605C7416D1BFA74"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			description: [
+				"It's time to get brewing. First make sure your cauldron is over a fire, and filled with water."
+				""
+				"You will need to throw Nether Wart into boiling water to make an Awkward Potion. After it has brewed, you will need to add Magma Cream."
+				""
+				"Lastly, add in Redstone to increase duration."
+			]
+			dependencies: ["23B01C3A73733282"]
+			hide: true
+			id: "19C0F6AFD3E7D54A"
+			tasks: [{
+				id: "748B663BEECA50A8"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "49620A7CCAE768BA"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			icon: "minecraft:cauldron"
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"Before this plan gets off the ground, you need to do some prep work."
+				""
+				"Most importantly, you need a source of Fire Resistance. And the best fire resistance you can get? Can be brewed in a cauldron"
+			]
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			id: "25991FF1BD725FC2"
+			tasks: [{
+				id: "2FB2280D2F9520B7"
+				type: "observation"
+				icon: "minecraft:cauldron"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:cauldron"
+			}]
+			rewards: [{
+				id: "622CE34DA82118A8"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: [
+				"Make sure you have all the ingredients you need to make long-lasting fire resistance potions. If you fall into lava, one could save your life."
+				""
+				"Anyone under the effect of a fire resistence potion can simply swim through lava."
+				""
+				"You will need Nether Wart, Magma Cream- which you can make with Slime and Blaze Powder- and Redstone."
+				""
+				"Lastly, add in Redstone to increase duration."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			id: "23B01C3A73733282"
+			tasks: [
+				{
+					id: "4FC1C7BAC7A5AC4F"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "3474BE04595F49E9"
+					type: "item"
+					item: "minecraft:magma_cream"
+				}
+				{
+					id: "1A234CC8FFDFEF28"
+					type: "item"
+					title: "Any #forge:slimeballs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:slimeballs"
+						}
+					}
+				}
+				{
+					id: "318EE4770E371010"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "5FE9E8630C977792"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "55091868F776B689"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "770E1B74BDA6009B"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: [
+				"You're heading into the Nether in search of people, but those people might not be as you remember them."
+				""
+				"You need to prepare for the fact the Nether may have changed them."
+				""
+				"Golden Apples are expensive, there's no doubt about that. Cofagrigus, the evolved form of Yamask, is guarenteed to drop an ingot, and one in ten will drop a block. Add that to the nugget from Yamask, and you'll eventually have your apple."
+				""
+				"Alternatively, you can try your hand at harassing Applin while keeping an eye to the sky for any Flapple, on the Ice layer. One in three Flapple is guaranteed to drop the apple."
+			]
+			dependencies: ["233A4CA77468B5E7"]
+			hide: true
+			id: "516D659D933811A7"
+			tasks: [{
+				id: "6DD4764EC0768E29"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+			rewards: [
+				{
+					id: "1BE220E069AD6A68"
+					type: "item"
+					item: "pixelmon:full_restore"
+				}
+				{
+					id: "5A8BF2EB8EEB5CC9"
+					type: "item"
+					title: "Your team saw how hard you were working, and made another one for you!"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			description: ["Heat up a full cauldron of water over a fire. Add the fermented spider eye. When it is finished brewing, add the gunpowder."]
+			dependencies: ["2A453BBCB7F09F0E"]
+			hide: true
+			id: "233A4CA77468B5E7"
+			tasks: [{
+				id: "635B1AEEAB758300"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B8630FEC69FD9F1"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: [
+				"You're heading into the Nether in search of people, but those people might not be as you remember them."
+				""
+				"You need to prepare for the fact the Nether may have changed them."
+				""
+				"The first thing you'll need to do to prepar is create a Splash Potion of Weakness. The ingredients are simple. Spinerak is attracted to Tree Tops on the soil layer and Dewpider to water. Sugar will require ascending to the Dazzle Layer, or even higher, to the Space layer, to confront some Clefairy."
+				""
+				"Gunpowder drops form Koffing and Weezing on the Murk layer, and can be crafted from Sulfur and Niter, if available."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			id: "2A453BBCB7F09F0E"
+			tasks: [
+				{
+					id: "5BC09A34CB0BB96D"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+				}
+				{
+					id: "27D23842A95CE23E"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "79CDC60BB6F21623"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "6D7A6FC071D09D21"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: ["A full set of Fire Stone armor can also provide Fire Protection III, but you would be silly to farm so many fire shards here while on the verge of entering the Nether. Presumably, fire shards will be more common in the Nether."]
+			hide_dependency_lines: true
+			dependencies: [
+				"19C0F6AFD3E7D54A"
+				"46CDAE65E15099AC"
+				"4BC87BF4CE26F9AC"
+			]
+			hide: true
+			optional: true
+			id: "4A6BA8093D9ACC9A"
+			tasks: [
+				{
+					id: "4241F4D3CC4D289D"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5268E81D5B1859A6"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_plate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6663FDD332220CF5"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2590563861442115"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3AE45D307F03FC07"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen4"
+					Count: 1b
+					tag: {
+						tm: 50
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			description: [
+				"You are expecting the Nether to be hostile. Whatever's down there, your life in the world of Pokemon has not entirely prepared you for it."
+				""
+				"You need to suit up and arm yourself."
+			]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			id: "069CD564264B33E5"
+			tasks: [
+				{
+					id: "53861AC517B409E0"
+					type: "item"
+					title: "Any #tconstruct:modifiable/melee/primary"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/melee/primary"
+						}
+					}
+				}
+				{
+					id: "2F4F3F490D05DFEF"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/chestplate"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/chestplate"
+						}
+					}
+				}
+				{
+					id: "7669D70260F41814"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/helmets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/helmets"
+						}
+					}
+				}
+				{
+					id: "1BC30EC2FD465B07"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/leggings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/leggings"
+						}
+					}
+				}
+				{
+					id: "0A29AD300B22FCD7"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/boots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/boots"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "18B0C7B77D5B2518"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 48
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			description: ["Take a deep breath. You don't know what's waiting on the other side."]
+			dependencies: ["276006B5AE6F0F6B"]
+			hide: true
+			size: 3.0d
+			id: "5742DF95648CAE94"
+			tasks: [{
+				id: "41D7C7E913B4763E"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			icon: "minecraft:stone_bricks"
+			x: -1.0d
+			y: -6.5d
+			description: [
+				"You aren't sure what kind of horrors the nether might bring, but basic Nether safety includes bringing some blocks to protect the portal.  You should arm yourself with stone or stone bricks, and maybe a door."
+				""
+				"[TIP: You can do either the bricks or the stone; you do not need to do both]"
+			]
+			dependencies: ["6CDE3DAD436F65E8"]
+			hide: true
+			min_required_tasks: 2
+			id: "05975C437BC372C2"
+			tasks: [
+				{
+					id: "225AEB96CC29A496"
+					type: "item"
+					title: "Any #minecraft:stone_bricks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:stone_bricks"
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "7BFE3CFCECEB5E38"
+					type: "item"
+					title: "Any #tconstruct:stoneshields"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:stoneshields"
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "71340F92252FB4C4"
+					type: "item"
+					title: "Any #minecraft:doors"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:doors"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4DD685001FB561D8"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["You will need some way of lighting the portal. If you choose to go with the fire charge, make sure you bring enough that you can re-light the portal if it, for any reason, goes out."]
+			dependencies: ["30E49862081FA059"]
+			hide: true
+			id: "20DFFD70A562A237"
+			tasks: [
+				{
+					id: "4C863D40985FFD19"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0114CE65B3CDBEAB"
+					type: "item"
+					item: {
+						id: "tconstruct:flint_and_bronze"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 100.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:fiery"
+									level: 1s
+								}
+								{
+									name: "tconstruct:firestarter_hidden"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "329BF3390649CE7C"
+					type: "item"
+					item: "minecraft:fire_charge"
+				}
+				{
+					id: "69888F5332BBD2F0"
+					type: "pixelmon:external_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					move: "ignite"
+				}
+			]
+			rewards: [{
+				id: "110D27F656D5A489"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 117
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: [
+				"You may want to create a Sojourner's sash, or use a Tinker's Station to apply Leaping to your Leggings (not Boots, Leggings) with five rabbit feet."
+				""
+				"Leaping requires no maintance, but even at maximum strength it will only allow you to jump 1.5 blocks, requiring the usage of slabs. The sojourner's sash consumes mana, but will allow you to jump a full two blocks. "
+				""
+				"If the two are combined, you can jump a total of three blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "52A5DDF00D4AB41B"
+			tasks: [
+				{
+					id: "309EE559D1C9D73D"
+					type: "item"
+					item: {
+						id: "botania:travel_belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6AA282B831A25F7E"
+					type: "item"
+					item: "minecraft:rabbit_foot"
+					count: 5L
+				}
+				{
+					id: "4A2E8EBBB442F4FD"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1AD8674E70EC2107"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 29
+						}
+					}
+				}
+				{
+					id: "0160EA8C4F49200A"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			description: [
+				"Villagers can't be punched, pushed, boated, mine-carted, or even killed. They will burn in lava eternally without taking damage. The only way to get rid of one is to drop them into the void."
+				""
+				"Worse: They &dcannot be taken through Nether Portals.&r If you want to bring people back to your island, you must do while they are still Zombies."
+				""
+				"At this point it's vital to review the tools you do have for moving around villagers. "
+				""
+				"You can push them with an ichor slingshot, pull them with a fishing rod, and send them flying with a well positioned movement plate."
+				""
+				"Plan things out so you don't end up swarmed in villagers you can't use."
+			]
+			dependencies: ["516D659D933811A7"]
+			hide: true
+			id: "30BACF8D1458565E"
+			tasks: [
+				{
+					id: "5211ADAD7D284A70"
+					type: "item"
+					item: {
+						id: "tconstruct:ichor_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "089220A6A6E6C9FB"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "765251E7A60A1627"
+					type: "item"
+					item: "pixelmon:movement_plate"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			description: [
+				"Have you checked you have everything? Torches? Food? Pokeballs? Potions of speed or regeneration? Perhaps with protection?"
+				""
+			]
+			dependencies: ["20DFFD70A562A237"]
+			hide: true
+			id: "276006B5AE6F0F6B"
+			tasks: [{
+				id: "0E0995EFC3EFBE5C"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["Although you're mostly in the Nether looking for people, you suspect you might also find Pokemon. Pokemon of the fiery persuasion. You should probably ensure you have some form of healing for burns."]
+			dependencies: ["19C0F6AFD3E7D54A"]
+			hide: true
+			id: "6CDE3DAD436F65E8"
+			tasks: [
+				{
+					id: "68EB5190848A9D56"
+					type: "item"
+					item: "pixelmon:burn_heal"
+					count: 3L
+				}
+				{
+					id: "20B93A62F08717EE"
+					type: "item"
+					item: "pixelmon:rawst_berry"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "07C594799E16A2C6"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+	]
+}

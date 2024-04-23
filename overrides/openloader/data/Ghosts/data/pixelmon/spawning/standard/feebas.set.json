@@ -12,7 +12,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:prism_scale",
-          "percentChance": 1
+          "percentChance": 5
         }
       ],
       "condition": {
@@ -35,7 +35,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:prism_scale",
-          "percentChance": 1
+          "percentChance": 5
         }
       ],
       "condition": {
@@ -61,7 +61,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:prism_scale",
-          "percentChance": 1
+          "percentChance": 5
         }
       ],
       "anticondition": {

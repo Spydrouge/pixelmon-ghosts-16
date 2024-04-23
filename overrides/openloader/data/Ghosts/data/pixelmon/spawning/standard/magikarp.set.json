@@ -4,7 +4,8 @@
     {
       "spec": "species:Magikarp palette:roasted",
       "stringLocationTypes": [
-        "Water"
+        "Water",
+        "Old Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -19,7 +20,8 @@
      {
       "spec": "species:Magikarp palette:drowned",
       "stringLocationTypes": [
-        "Underground Water"
+        "Underground Water",
+        "Old Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -31,27 +33,14 @@
       },
       "rarity": 30.0
     },
-    {
-      "spec": "species:Magikarp palette:drowned",
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 2,
-      "maxLevel": 6,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 10.0
-    },  
     
     {
       "spec": "species:Magikarp palette:skelly",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -69,7 +58,9 @@
       "spec": "species:Magikarp palette:black_mask",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -87,7 +78,9 @@
       "spec": "species:Magikarp palette:brown_tiger",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -105,7 +98,9 @@
       "spec": "species:Magikarp palette:violet_raindrops",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -123,7 +118,9 @@
       "spec": "species:Magikarp palette:pink_orca",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -141,7 +138,9 @@
       "spec": "species:Magikarp palette:blue_saucy",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -159,7 +158,9 @@
       "spec": "species:Magikarp palette:valencian",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -177,7 +178,9 @@
       "spec": "species:Magikarp palette:orange_mask",
       "stringLocationTypes": [
         "Water",
-        "Underground Water"
+        "Underground Water",
+        "Good Rod",
+        "Super Rod"
       ],
       "minLevel": 2,
       "maxLevel": 6,

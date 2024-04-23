@@ -459,7 +459,7 @@
 			title: "Catch (or Hatch) a Pokemon who Knows Rock Smash"
 			x: 0.0d
 			y: -6.5d
-			subtitle: "Use Carefully!"
+			subtitle: "Use Carefully, and never on Ores! Try on Cobblstone, first!"
 			description: [
 				"&c[WARNING]&r Rock Smash is bugged. It will not work as described on the Pixelmon Wiki. All Blocks 'mined' by RockSmash will be DESTROYED. &c[Warning]&r"
 				""
@@ -1439,7 +1439,7 @@
 		{
 			title: "Steal an Item!"
 			x: 0.0d
-			y: 4.0d
+			y: 5.0d
 			description: [
 				"Thief, Covet, and Switcheroo are three moves that can be used to take items from wild Pokemon."
 				""
@@ -1453,6 +1453,7 @@
 				"44C10B51CAAF3718"
 			]
 			hide: true
+			size: 2.0d
 			min_required_tasks: 1
 			id: "2C0BD8E345FD832F"
 			tasks: [
@@ -1512,7 +1513,7 @@
 		{
 			title: "Covet"
 			x: 1.0d
-			y: 5.0d
+			y: 6.5d
 			description: [
 				"Covet is the easiest move to find among the Pokemon you still have. It is common among baby Pokemon."
 				""
@@ -1649,7 +1650,7 @@
 		{
 			title: "Thief"
 			x: -1.0d
-			y: 5.0d
+			y: 6.5d
 			description: [
 				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
 				""
@@ -1815,7 +1816,7 @@
 		{
 			title: "Switcheroo"
 			x: 0.0d
-			y: 5.0d
+			y: 6.5d
 			description: ["Catch a Pokemon that can naturally learn Switcheroo."]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
@@ -1942,7 +1943,7 @@
 			description: [
 				"Sweet Scent starts an encounter. This move pulls from a different encounter table than usual, and has the ability to bring in more flying type Pokemon. Watch out! You have no idea what the level of the enemy  Pokemon will be!"
 				""
-				"It is leanred by Oddish, Surskit, Milcery, Gossifleur, and Illumise at fairly low levels. Spritzee starts with it. Bounsweet, Comfay, and Foongus learns it much later on."
+				"It is learned by Oddish, Surskit, Milcery, Gossifleur, and Illumise at fairly low levels. Spritzee starts with it. Bounsweet, Comfey, and Foongus learn it much later on."
 				""
 				"The only Pokemon you can hatch, which can learn it, is Budew, and only if it evovles to Roselia in time for level 25."
 			]
@@ -2049,8 +2050,9 @@
 		{
 			x: -8.5d
 			y: -2.0d
-			description: ["What you've seen in the deep dark, falling out of the trees there, is a little disturbing."]
+			description: ["What you've seen in the deep dark, falling out of the trees there, is a little disturbing. These are definitely not normal eggs."]
 			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
 			id: "736534A8DE471CD8"
 			tasks: [
 				{
@@ -2081,14 +2083,25 @@
 			]
 			rewards: [
 				{
-					id: "3495BA6F8CF3D416"
+					id: "15526DAFEF04C642"
 					type: "item"
-					item: "minecraft:saddle"
+					item: "minecraft:leather_horse_armor"
 				}
 				{
-					id: "3B5B121326CC17D0"
+					id: "49C2D7BE3D37F33A"
 					type: "item"
-					item: "ceramics:milk_clay_bucket"
+					item: "pixelmon:max_revive"
+				}
+				{
+					id: "226806E470FDAB96"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 81
+						}
+					}
 				}
 			]
 		}
@@ -2723,6 +2736,422 @@
 				type: "random"
 				auto: "enabled"
 				table_id: 1466409087990806994L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			description: [
+				"These appear to be the skeletons of Mareep and Wooloo. They have an unhealthy interest in rotten flesh and mutton. You aren't entirely sure what to do with them. Can they perhaps produce shearable meat from all that rotten flesh?"
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+				""
+				"You are unnerved by the possibility you might be able to use raw mutton to breed it."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "61A7538CF5AE1DB9"
+			tasks: [{
+				id: "3B1105D4F667496B"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_sheep"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "636B03AC5A9C814C"
+				type: "item"
+				item: "pixelmon:protein"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.0d
+			description: [
+				"You cannot think up any use for this undead Tauros at all. It doesn't give milk. It has no leather. It can't be used for beef. It's just bones."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+				""
+				"You are unnerved by the possibility you might be able to use raw beef to breed it."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "388726E0128C6160"
+			tasks: [{
+				id: "7F2BFC0474D31D44"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_cow"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "46AA77AE82BBB8BE"
+				type: "item"
+				item: "pixelmon:calcium"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			description: [
+				"This Undead Oinkologne can be ridden, although it shows no interest in carrots on a stick. A porkchop on a stick might be more usable. You can't see any reason this is better than riding a normal Pokemon."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "60C936E55BED6199"
+			tasks: [{
+				id: "210C681359BB61B7"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_pig"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "50F76351C9A49273"
+				type: "item"
+				item: "pixelmon:carbos"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			description: [
+				"This skeletal bird Pokemon may be the most useful of the bunch. It appears to be capable of producing a small number of drops in very low quantities, like normal birds produce eggs. You might be able to feed it \"Chicken.\""
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "11E65E41A6500FEB"
+			tasks: [{
+				id: "5E6C3DAA87A0C286"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_chicken"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "00768CCFF69AE306"
+				type: "item"
+				item: "pixelmon:zinc"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -0.5d
+			description: [
+				"This skeleton horse can be ridden with a saddle. It's not necessarily better than a normal Pokemon mount, but at least you won't be unsaddled if your Pokemon enters a battle."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+			]
+			secret: true
+			id: "3AFB107F4EC7CD1C"
+			tasks: [{
+				id: "0113879F6A46BDEF"
+				type: "questsadditions:interaction"
+				entity: "minecraft:skeleton_horse"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "3FC918647EF08363"
+				type: "item"
+				item: "pixelmon:iron"
+				count: 5
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.5d
+			description: [
+				"Wait wait wait wait wait. Can you actually milk the milktank... tauros... whatever it is?"
+				""
+				"Make sure you are holding only one bucket, and that the bucket doesn't have anything in it. Otherwise, you'll throw out whatever liquid's already inside."
+			]
+			dependencies: ["388726E0128C6160"]
+			hide: true
+			repeatable: true
+			id: "00F4512AFD3C5F79"
+			tasks: [{
+				id: "3711C466F8FBD72F"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_cow"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: "ceramics:clay_bucket"
+			}]
+			rewards: [{
+				id: "6B47BF6955D95BD0"
+				type: "command"
+				title: "Uh. This isn't milk. Is this... bone?"
+				icon: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:calcium"
+					}
+				}
+				auto: "enabled"
+				command: "/execute as @p if entity @s[nbt={SelectedItem:{id:\"ceramics:clay_bucket\",Count:1b}}] run replaceitem entity @s weapon.mainhand ceramics:clay_bucket{fluid:\"contenttweaker:calcium\"}"
+				player_command: false
+			}]
+		}
+		{
+			x: -13.0d
+			y: -3.5d
+			subtitle: "This currently wont run because i need to duplicate these quests, one for first time completion, another for repetitive completion."
+			description: [
+				"Well. This. Isn't milk. But. There might be something you can do with it? Create bonemeal, or something?"
+				""
+				"It's not clear where the \"milk\" is coming from, and you are pretty sure something magical is afoot."
+				""
+				"It looks like no matter how many cows you have, you can only get milk once every minute or so."
+			]
+			dependencies: ["00F4512AFD3C5F79"]
+			hide: true
+			id: "6A2AAAD6DE72A578"
+			tasks: [{
+				id: "49B9D5EFC8D7B72A"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:calcium"
+					}
+				}
+			}]
+		}
+		{
+			title: "Feed a Skeleton Pig a bucket of protein"
+			x: -12.0d
+			y: -4.5d
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead pig a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["60C936E55BED6199"]
+			hide: true
+			repeatable: true
+			id: "248069926DB4A9E8"
+			tasks: [{
+				id: "48945815BB7A9067"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_pig"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2174F06EF76D7A3F"
+				type: "command"
+				title: "This will cause a lightning strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/pig/pig.png"
+					}
+				}
+				auto: "enabled"
+				command: "/execute as @p at @p run function ghosts:skeleton_to_pig_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton Sheep a bucket of protein"
+			x: -12.0d
+			y: -5.5d
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead sheep a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["61A7538CF5AE1DB9"]
+			hide: true
+			repeatable: true
+			id: "4912933741A31D90"
+			tasks: [{
+				id: "0EEB681C9094D98C"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_sheep"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06DBB92A3713CD39"
+				type: "command"
+				title: "This will cause a lightning strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/sheep/sheep.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_sheep_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton Cow a bucket of protein"
+			x: -12.0d
+			y: -2.5d
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead cow a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["388726E0128C6160"]
+			hide: true
+			repeatable: true
+			id: "5737D7EE8C0DCD88"
+			tasks: [{
+				id: "76DCA56542725F36"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_cow"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "12179DA3656C0477"
+				type: "command"
+				title: "Will summon a lightning bolt."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/cow/cow.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_cow_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton chicken a bucket of protein"
+			x: -12.0d
+			y: -1.5d
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead chicken a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["11E65E41A6500FEB"]
+			hide: true
+			repeatable: true
+			id: "11F15A3165B25C0B"
+			tasks: [{
+				id: "4BDA2EA29E88753C"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_chicken"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "49B8E4F333D0E050"
+				type: "command"
+				title: "Lightning will strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/chicken.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_chicken_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton Horse a bucket of protein"
+			x: -12.0d
+			y: -0.5d
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead horse a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["3AFB107F4EC7CD1C"]
+			hide: true
+			repeatable: true
+			id: "166DCA7B3269A9FB"
+			tasks: [{
+				id: "57FC114AD438DD16"
+				type: "questsadditions:interaction"
+				entity: "minecraft:skeleton_horse"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "471117139E50FE2E"
+				type: "command"
+				title: "Lightning will strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/horse/horse_brown.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_horse_ceramic"
+				player_command: false
 			}]
 		}
 	]

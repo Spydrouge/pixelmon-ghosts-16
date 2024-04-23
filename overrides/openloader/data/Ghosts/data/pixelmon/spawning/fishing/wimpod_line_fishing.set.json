@@ -1,0 +1,120 @@
+{
+  "id": "Wimpod Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Wimpod",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":256,
+        "minY":224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 15.0
+    },
+      {
+      "spec": "species:Wimpod",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 16,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":256,
+        "minY":224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Wimpod",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":256,
+        "minY":224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    
+    {
+      "spec": "species:Wimpod",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Wimpod",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Golisopod",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

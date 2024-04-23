@@ -1579,7 +1579,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 1.0d
 			description: [
 				"The Stonecutter can be used to turn rough tumblestones into a smoothed form, which will allow you to make Ancient Pokeballs. It is one of several good ways to spend your first Iron Ingot."
@@ -1592,6 +1592,7 @@
 				"16AECF01A7853FED"
 			]
 			hide: true
+			size: 2.0d
 			id: "19BADF27DFCC9EFB"
 			tasks: [{
 				id: "2E8A8E3B15A4BC9B"
@@ -1697,6 +1698,87 @@
 							tm: 30
 						}
 					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["Take 3 Raw Tumblestones and smooth them out at the Stone Cutter. These can then be used for an Ancient Pokeball, Great Ball, or Ultra Ball lid."]
+			dependencies: ["19BADF27DFCC9EFB"]
+			hide: true
+			id: "6E57812FB9F705D1"
+			tasks: [{
+				id: "3CB7BC96C530D2B8"
+				type: "item"
+				item: "pixelmon:tumblestone"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0DBF7206CFED723D"
+					type: "item"
+					item: "pixelmon:raw_tumblestone"
+				}
+				{
+					id: "17160F92E495BEB3"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["Take 3 Raw Sky Tumblestones and smooth them out at the Stone Cutter. These can then be used for a Wing Ball, Feather Ball, or Jet Ball Lid."]
+			dependencies: ["19BADF27DFCC9EFB"]
+			hide: true
+			id: "16E81B10CDA96C01"
+			tasks: [{
+				id: "7EBC8135ECD48E55"
+				type: "item"
+				item: "pixelmon:sky_tumblestone"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0AD826A6CEB80CAB"
+					type: "item"
+					item: "pixelmon:raw_sky_tumblestone"
+				}
+				{
+					id: "5DB7E1904CB73B10"
+					type: "item"
+					item: "thermal:tin_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			description: ["Take 3 Raw Black Tumblestones and smooth them out at the Stone Cutter. These can then be used for an Ancient Heavy Ball, Leaden Ball, or Gigaton Ball lid."]
+			dependencies: ["19BADF27DFCC9EFB"]
+			hide: true
+			id: "01836F40611CC4EF"
+			tasks: [{
+				id: "5CF9E2CD51DD1898"
+				type: "item"
+				item: "pixelmon:black_tumblestone"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "30CDF64780274FE1"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+				}
+				{
+					id: "14C311BBEC249669"
+					type: "item"
+					item: "immersiveengineering:nugget_steel"
+					count: 3
 				}
 			]
 		}

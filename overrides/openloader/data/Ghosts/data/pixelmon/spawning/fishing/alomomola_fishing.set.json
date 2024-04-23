@@ -1,0 +1,77 @@
+{
+  "id": "Alomomola Line Fishing",
+  "spawnInfos": [
+     {
+      "spec": "species:Alomomola",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 9.0
+    },
+      {
+      "spec": "species:Alomomola",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:eggant_berry",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Alomomola",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean"
+        ]
+      },
+      "rarity": 7.0
+    }
+  ]
+}

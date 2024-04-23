@@ -707,6 +707,8 @@
 				"Requires three Aluminum ingots and yields five balls, these are the easiest Pokeball to grind for and produce."
 				""
 				"Pokemon caught in a heal ball can be used immediately without resting. They do not have an enhanced catch rate."
+				""
+				"Consider using your first Pokeball to create an Old Rod with."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -759,6 +761,8 @@
 				"Requires three silver ingots and yields five balls. These Pokeballs are the first balls with an enhanced catch rate."
 				""
 				"Love balls have a 2x catch rate on Pokemon of the opposite gender, which increases to a 8x catch rate if the pokemon are of the same species."
+				""
+				"You can also sometimes recover Love Balls from surviving Snubble, which, tragically, appear to carry around their old Pokeballs."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1929,7 +1933,7 @@
 		{
 			x: -5.0d
 			y: 4.5d
-			description: ["Quartz will drop from Drifloon, Carbink, and the red Sableeye attracted to habitats on the Murk Layer."]
+			description: ["Quartz will drop from Drifloon, Carbink, and the red Sableye attracted to habitats on the Murk Layer."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "5B1B503068626524"
@@ -1947,6 +1951,7 @@
 		{
 			x: -5.0d
 			y: -6.5d
+			description: ["Prismarine shards and crystals are not exactly rare. The easiest way to obtain them is to find Staryu on the Space Layer and Finneon on the Air layer."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "50C7C2EAC78A4B4A"

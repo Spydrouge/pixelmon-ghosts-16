@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:entity_melting",
+  "entity": [
+    {
+      "type": "bones:skeleton_cow"
+    },
+    {
+      "type": "bones:skeleton_pig"
+    },
+    {
+      "type": "bones:skeleton_sheep"
+    },
+    {
+      "type": "bones:skeleton_chicken"
+    }
+  ],
+  "result": {
+    "fluid": "contenttweaker:calcium",
+    "amount": 48
+  },
+  "damage": 2
+}

@@ -1,0 +1,59 @@
+{
+  "id": "Croagunk",
+  "spawnInfos": [
+    {
+      "spec": "species:Croagunk",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "heldItems": [
+           {
+          "itemID": "pixelmon:payapa_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 20.0
+    },
+     {
+      "spec": "species:Croagunk",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "heldItems": [
+           {
+          "itemID": "pixelmon:payapa_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

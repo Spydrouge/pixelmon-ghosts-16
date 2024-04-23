@@ -5,6 +5,7 @@
       "spec": "species:Surskit",
       "stringLocationTypes": [
         "Surface Water"
+        "Water"
       ],
       "minLevel": 5,
       "maxLevel": 20,

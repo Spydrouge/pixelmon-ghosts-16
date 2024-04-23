@@ -736,5 +736,41 @@
 				player_command: false
 			}]
 		}
+		{
+			title: "In the Overworld"
+			x: -1.0d
+			y: 2.0d
+			id: "6CD40EBE7040B1A1"
+			tasks: [{
+				id: "3A496E3F5D2647C8"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "4FBE2FDE723963B0"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+				player_command: false
+			}]
+		}
+		{
+			title: "In the Nether"
+			x: 0.0d
+			y: 2.0d
+			id: "3418656E436AEEAD"
+			tasks: [{
+				id: "118FCE632D2A5687"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "4AB68FF762328C81"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+				player_command: false
+			}]
+		}
 	]
 }
