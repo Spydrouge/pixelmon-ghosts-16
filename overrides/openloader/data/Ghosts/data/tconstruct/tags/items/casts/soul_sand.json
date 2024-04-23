@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "crafttweaker:blank_soul_sand_cast",
+    "crafttweaker:ingot_soul_sand_cast",
+    "crafttweaker:nugget_soul_sand_cast",
+    "crafttweaker:gem_soul_sand_cast",
+    "crafttweaker:rod_soul_sand_cast",
+    "crafttweaker:repair_kit_soul_sand_cast",
+    "crafttweaker:plate_soul_sand_cast",
+    "crafttweaker:gear_soul_sand_cast",
+    "crafttweaker:coin_soul_sand_cast",
+    "crafttweaker:wire_soul_sand_cast",
+    "crafttweaker:pickaxe_head_soul_sand_cast",
+    "crafttweaker:small_axe_head_soul_sand_cast",
+    "crafttweaker:small_blade_soul_sand_cast",
+    "crafttweaker:hammer_head_soul_sand_cast",
+    "crafttweaker:broad_axe_head_soul_sand_cast",
+    "crafttweaker:broad_blade_soul_sand_cast",
+    "crafttweaker:tool_binding_soul_sand_cast",
+    "crafttweaker:large_plate_soul_sand_cast",
+    "crafttweaker:tool_handle_soul_sand_cast",
+    "crafttweaker:tough_handle_soul_sand_cast",
+      
+      "crafttweaker:bowshaft_soul_sand_cast",
+    "crafttweaker:bowguide_soul_sand_cast",
+    "crafttweaker:crossbow_arm_soul_sand_cast",
+    "crafttweaker:large_bowshaft_soul_sand_cast",
+    "crafttweaker:arrowhead_soul_sand_cast",
+    "crafttweaker:arrow_shaft_soul_sand_cast",
+    
+    "crafttweaker:head_plate_soul_sand_cast",
+    "crafttweaker:body_plate_soul_sand_cast",
+    "crafttweaker:legs_plate_soul_sand_cast",
+    "crafttweaker:feet_plate_soul_sand_cast",
+    "crafttweaker:mail_soul_sand_cast"
+  ]
+}

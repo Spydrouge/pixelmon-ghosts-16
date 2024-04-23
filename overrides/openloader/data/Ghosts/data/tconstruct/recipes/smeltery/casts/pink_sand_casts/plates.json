@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:molding_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:plates",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "material": {
+    "item": "contenttweaker:pink_sand_cast/blank_pink_sand_cast"
+  },
+  "pattern": {
+    "tag": "forge:plates"
+  },
+  "result": "contenttweaker:pink_sand_cast/plate_pink_sand_cast"
+}

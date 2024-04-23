@@ -5,7 +5,7 @@ hidden-ability-rate: 50.0
 ultra-space-hidden-ability-multiplier: 0.5
 legendary-spawn-ticks: 25000
 legendary-spawn-chance: 0.30000001192092896
-spawn-ticks-player-multiplier: 0.009999999776482582
+spawn-ticks-player-multiplier: 0.1
 spawn-levels-closer-to-player-levels: false
 spawn-levels-increase-in-caves: false
 cave-max-multiplier: 0
@@ -47,10 +47,10 @@ level-distance:
     max-level-by-distance: 0
     distance-per-level: 30
 wild-spawning:
-    entities-per-player: 30
+    entities-per-player: 50
     spawns-per-pass: 2
-    spawn-frequency: 60.0
-    minimum-distance-between-spawns: 5.0
+    spawn-frequency: 120.0
+    minimum-distance-between-spawns: 4.0
     minimum-distance-from-centre: 16
     maximum-distance-from-centre: 64
     horizontal-track-factor: 0.0

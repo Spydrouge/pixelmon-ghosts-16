@@ -31,6 +31,18 @@
 				type: "item"
 				item: "pixelmon:incense_burner"
 			}]
+			rewards: [
+				{
+					id: "7F336FF08F7CCAB8"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "1D66C958A1F55C1D"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+			]
 		}
 		{
 			icon: "pixelmon:magost_berry"
@@ -329,6 +341,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "554466710E92DA37"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "6CA796698147D65B"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+			]
 		}
 		{
 			icon: "pixelmon:dusk_stone"
@@ -1679,6 +1703,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1DD48A167214D167"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+				{
+					id: "547128CCDFE05C8B"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+			]
 		}
 		{
 			title: "Lord Helix"

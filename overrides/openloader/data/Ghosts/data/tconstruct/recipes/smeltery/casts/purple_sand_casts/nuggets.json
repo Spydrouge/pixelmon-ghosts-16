@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "contenttweaker:purple_sand_cast/blank_purple_sand_cast"
+  },
+  "pattern": {
+    "tag": "forge:nuggets"
+  },
+  "result": "contenttweaker:purple_sand_cast/nugget_purple_sand_cast"
+}

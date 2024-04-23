@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:blue_sand"
+    }
+  ],
+  "result": {
+    "item": "contenttweaker:blue_sand_cast/blank_blue_sand_cast",
+    "count": 4
+  }
+}

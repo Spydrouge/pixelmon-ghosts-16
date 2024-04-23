@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "contenttweaker:blue_sand_cast/blank_blue_sand_cast"
+  },
+  "pattern": {
+    "item": "tinkersarchery:crossbow_arm",
+    "type": "tconstruct:material"
+  },
+  "result": "contenttweaker:blue_sand_cast/crossbow_arm_blue_sand_cast"
+}

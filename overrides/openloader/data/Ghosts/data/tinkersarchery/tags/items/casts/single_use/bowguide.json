@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+      "tinkersarchery:bowguide_black_sand_cast",
+    "tinkersarchery:bowguide_soul_sand_cast",
+    "tinkersarchery:bowguide_orange_sand_cast",
+    "tinkersarchery:bowguide_white_sand_cast",
+    "tinkersarchery:bowguide_blue_sand_cast",
+    "tinkersarchery:bowguide_pink_sand_cast",
+    "tinkersarchery:bowguide_purple_sand_cast"
+  ]
+}

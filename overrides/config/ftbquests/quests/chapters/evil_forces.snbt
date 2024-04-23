@@ -67,8 +67,11 @@
 			size: 2.0d
 			id: "223712476666DABC"
 			tasks: [{
-				id: "5C481EB28F57463C"
-				type: "checkmark"
+				id: "2D6716BC686DB8D9"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
 			}]
 		}
 		{

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+      "constructsarmor:legs_plate_black_sand_cast",
+    "constructsarmor:legs_plate_soul_sand_cast",
+    "constructsarmor:legs_plate_orange_sand_cast",
+    "constructsarmor:legs_plate_white_sand_cast",
+    "constructsarmor:legs_plate_blue_sand_cast",
+    "constructsarmor:legs_plate_pink_sand_cast",
+    "constructsarmor:legs_plate_purple_sand_cast"
+
+  ]
+}

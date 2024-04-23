@@ -1,0 +1,6 @@
+{
+  "parent" : "item/generated",
+  "textures" :
+  {"layer0" : "contenttweaker:item/pink_sand_cast/wire_pink_sand_cast"
+  }
+}

@@ -2730,8 +2730,9 @@
 		}
 		{
 			x: 2.0d
-			y: -17.5d
+			y: -18.5d
 			dependencies: ["20D9322E15B7FE49"]
+			hide: true
 			id: "5A5446F1D07D80A2"
 			tasks: [{
 				id: "2343B7A57D24BEE8"
@@ -2754,6 +2755,7 @@
 				"But you hold out hope. You've heard of a variant of Sinistea that only comes out at Christmas Time. Perhaps if you ascend to the chilly Ice Layer and grow a spruce tree indoors, you might find something..."
 			]
 			dependencies: ["4EA1300F45B9FA6E"]
+			hide: true
 			id: "1FD26D1C68E9C804"
 			tasks: [{
 				id: "5EF7C55ED8DD7AAB"
@@ -3240,6 +3242,18 @@
 					}
 				}
 				match_nbt: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: -16.5d
+			dependencies: ["20D9322E15B7FE49"]
+			hide: true
+			id: "10FDF176DA08CFEE"
+			tasks: [{
+				id: "32616245F9D9DB47"
+				type: "item"
+				item: "pixelmon:skitty_smoothie"
 			}]
 		}
 	]

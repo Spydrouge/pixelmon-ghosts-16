@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "tag": "tconstruct:casts/soul_sand"
+  },
+  "result": "contenttweaker:soul_sand_cast/blank_soul_sand_cast"
+}

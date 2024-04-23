@@ -81,11 +81,11 @@ This modpack tries to give you the feeling you're rebuilding the world from noth
 
 ### Mods Not in the Pack
 #### Mods that Tempted Me
-- Blood Magic (Too dark)
+- Blood Magic (Too dark, too hard to integrate)
 - Ars Nouveau (Would have to reskin all the magical servents)
 - Create (Pixelmon Factory already did Create integration very well. It's also steampunky more than ghosty, and so not on theme)
 - If COFH ever releases Thaumcraft 7, that's it, I'm doomed, I have to rewrite the whole damn modpack
-- Productive Bees (Changing Models is very hard, so it's not trivial to get the Productive Bees to use a Combee model)
+- Productive Bees (Changing models is much harder than changing textures, especially when you can't guarentee Optifine's installed. It's not trivial to get the Bees to use a Combee model)
 - Chicken Ores (Same Problem as with Productive Bees; replacing the chickens with Pokemon models is non-trivial)
 - Pam's Harvestcraft (There's not enough ways to use such a variety in food to meaningfully impact or interact with Pokemon, and the integration we could do would be a choooorree. Farmer's Delight was used instead to reward finding and farming all the vanilla crops.)
 

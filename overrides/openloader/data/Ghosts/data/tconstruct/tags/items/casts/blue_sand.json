@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "crafttweaker:blank_blue_sand_cast",
+    "crafttweaker:ingot_blue_sand_cast",
+    "crafttweaker:nugget_blue_sand_cast",
+    "crafttweaker:gem_blue_sand_cast",
+    "crafttweaker:rod_blue_sand_cast",
+    "crafttweaker:repair_kit_blue_sand_cast",
+    "crafttweaker:plate_blue_sand_cast",
+    "crafttweaker:gear_blue_sand_cast",
+    "crafttweaker:coin_blue_sand_cast",
+    "crafttweaker:wire_blue_sand_cast",
+    "crafttweaker:pickaxe_head_blue_sand_cast",
+    "crafttweaker:small_axe_head_blue_sand_cast",
+    "crafttweaker:small_blade_blue_sand_cast",
+    "crafttweaker:hammer_head_blue_sand_cast",
+    "crafttweaker:broad_axe_head_blue_sand_cast",
+    "crafttweaker:broad_blade_blue_sand_cast",
+    "crafttweaker:tool_binding_blue_sand_cast",
+    "crafttweaker:large_plate_blue_sand_cast",
+    "crafttweaker:tool_handle_blue_sand_cast",
+    "crafttweaker:tough_handle_blue_sand_cast",
+      
+      "crafttweaker:bowshaft_blue_sand_cast",
+    "crafttweaker:bowguide_blue_sand_cast",
+    "crafttweaker:crossbow_arm_blue_sand_cast",
+    "crafttweaker:large_bowshaft_blue_sand_cast",
+    "crafttweaker:arrowhead_blue_sand_cast",
+    "crafttweaker:arrow_shaft_blue_sand_cast",
+    
+    "crafttweaker:head_plate_blue_sand_cast",
+    "crafttweaker:body_plate_blue_sand_cast",
+    "crafttweaker:legs_plate_blue_sand_cast",
+    "crafttweaker:feet_plate_blue_sand_cast",
+    "crafttweaker:mail_blue_sand_cast"
+  ]
+}

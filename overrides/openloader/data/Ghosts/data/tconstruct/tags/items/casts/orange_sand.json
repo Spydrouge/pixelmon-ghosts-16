@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    "crafttweaker:blank_orange_sand_cast",
+    "crafttweaker:ingot_orange_sand_cast",
+    "crafttweaker:nugget_orange_sand_cast",
+    "crafttweaker:gem_orange_sand_cast",
+    "crafttweaker:rod_orange_sand_cast",
+    "crafttweaker:repair_kit_orange_sand_cast",
+    "crafttweaker:plate_orange_sand_cast",
+    "crafttweaker:gear_orange_sand_cast",
+    "crafttweaker:coin_orange_sand_cast",
+    "crafttweaker:wire_orange_sand_cast",
+    "crafttweaker:pickaxe_head_orange_sand_cast",
+    "crafttweaker:small_axe_head_orange_sand_cast",
+    "crafttweaker:small_blade_orange_sand_cast",
+    "crafttweaker:hammer_head_orange_sand_cast",
+    "crafttweaker:broad_axe_head_orange_sand_cast",
+    "crafttweaker:broad_blade_orange_sand_cast",
+    "crafttweaker:tool_binding_orange_sand_cast",
+    "crafttweaker:large_plate_orange_sand_cast",
+    "crafttweaker:tool_handle_orange_sand_cast",
+    "crafttweaker:tough_handle_orange_sand_cast",
+      
+      "crafttweaker:bowshaft_orange_sand_cast",
+    "crafttweaker:bowguide_orange_sand_cast",
+    "crafttweaker:crossbow_arm_orange_sand_cast",
+    "crafttweaker:large_bowshaft_orange_sand_cast",
+    "crafttweaker:arrowhead_orange_sand_cast",
+    "crafttweaker:arrow_shaft_orange_sand_cast",
+    
+    "crafttweaker:head_plate_orange_sand_cast",
+    "crafttweaker:body_plate_orange_sand_cast",
+    "crafttweaker:legs_plate_orange_sand_cast",
+    "crafttweaker:feet_plate_orange_sand_cast",
+    "crafttweaker:mail_orange_sand_cast"
+  ]
+}

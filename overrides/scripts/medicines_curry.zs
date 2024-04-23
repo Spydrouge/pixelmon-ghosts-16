@@ -20,9 +20,6 @@ craftingTable.addShapeless("clay_bucket_from_coconut",<item:ceramics:milk_clay_b
 craftingTable.addShapeless("clay_bucket_from_moomoo_milk",<item:ceramics:milk_clay_bucket>, [<item:ceramics:clay_bucket>,<item:pixelmon:moomoo_milk>]);
 
 
-//Heartbeet
-craftingTable.addShaped("heartbeet", <item:inspirations:heartbeet>, [[<item:minecraft:air>, <item:minecraft:beetroot>, <item:minecraft:air>],[<item:minecraft:beetroot>, <item:minecraft:ghast_tear>, <item:minecraft:beetroot>], [<item:minecraft:air>, <item:minecraft:beetroot>, <item:minecraft:air>]]);
-
 
 //Drinks
 craftingTable.addShaped("lemonade", <item:pixelmon:lemonade>, [[<item:pixelmon:fresh_water>, <item:minecraft:sugar>, <item:minecraft:air>],[<item:minecraft:yellow_dye>, <item:minecraft:air>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);

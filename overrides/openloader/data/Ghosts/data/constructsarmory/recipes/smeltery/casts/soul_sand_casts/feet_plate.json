@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "contenttweaker:soul_sand_cast/blank_soul_sand_cast"
+  },
+  "pattern": {
+    "item": "constructsarmory:feet_plate",
+    "type": "tconstruct:material"
+  },
+  "result": "contenttweaker:soul_sand_cast/feet_plate_soul_sand_cast"
+}

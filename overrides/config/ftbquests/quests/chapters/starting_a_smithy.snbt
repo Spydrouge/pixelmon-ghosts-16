@@ -317,6 +317,7 @@
 				"Porcelain can still be used to create cisterns, faucets, and channels which can move hot liquids around without damaging them. "
 				""
 			]
+			dependencies: ["6C469BB6BA15D1D0"]
 			hide: true
 			id: "3AFB997D5FE6B69D"
 			tasks: [{

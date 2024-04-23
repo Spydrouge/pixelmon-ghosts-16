@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "contenttweaker:soul_sand_cast/pickaxe_head_soul_sand_cast",
+    "contenttweaker:black_sand_cast/pickaxe_head_black_sand_cast",
+    "contenttweaker:white_sand_cast/pickaxe_head_white_sand_cast",
+    "contenttweaker:orange_sand_cast/pickaxe_head_orange_sand_cast",
+    "contenttweaker:blue_sand_cast/pickaxe_head_blue_sand_cast",
+    "contenttweaker:pink_sand_cast/pickaxe_head_pink_sand_cast",
+    "contenttweaker:purple_sand_cast/pickaxe_head_purple_sand_cast"
+  ]
+}

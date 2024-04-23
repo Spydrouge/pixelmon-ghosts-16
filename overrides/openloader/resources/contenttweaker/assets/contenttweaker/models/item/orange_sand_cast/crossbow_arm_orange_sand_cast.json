@@ -1,0 +1,6 @@
+{
+  "parent" : "item/generated",
+  "textures" :
+  {"layer0" : "contenttweaker:item/orange_sand_cast/crossbow_arm_orange_sand_cast"
+  }
+}

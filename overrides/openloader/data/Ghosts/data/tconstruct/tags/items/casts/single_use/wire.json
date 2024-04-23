@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "contenttweaker:soul_sand_cast/wire_soul_sand_cast",
+    "contenttweaker:black_sand_cast/wire_black_sand_cast",
+    "contenttweaker:white_sand_cast/wire_white_sand_cast",
+    "contenttweaker:orange_sand_cast/wire_orange_sand_cast",
+    "contenttweaker:blue_sand_cast/wire_blue_sand_cast",
+    "contenttweaker:pink_sand_cast/wire_pink_sand_cast",
+    "contenttweaker:purple_sand_cast/wire_purple_sand_cast"
+  ]
+}

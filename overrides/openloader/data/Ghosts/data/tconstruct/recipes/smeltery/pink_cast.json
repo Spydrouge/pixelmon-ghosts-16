@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:pink_sand"
+    }
+  ],
+  "result": {
+    "item": "contenttweaker:pink_sand_cast/blank_pink_sand_cast",
+    "count": 4
+  }
+}

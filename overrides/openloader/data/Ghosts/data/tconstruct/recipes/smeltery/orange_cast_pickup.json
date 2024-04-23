@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "tag": "tconstruct:casts/orange_sand"
+  },
+  "result": "contenttweaker:orange_sand_cast/blank_orange_sand_cast"
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+      "constructsarmor:mail_black_sand_cast",
+    "constructsarmor:mail_soul_sand_cast",
+    "constructsarmor:mail_orange_sand_cast",
+    "constructsarmor:mail_white_sand_cast",
+    "constructsarmor:mail_blue_sand_cast",
+    "constructsarmor:mail_pink_sand_cast",
+    "constructsarmor:mail_purple_sand_cast"
+
+  ]
+}

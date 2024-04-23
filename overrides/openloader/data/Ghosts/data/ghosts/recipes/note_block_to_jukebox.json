@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "brb",
+    "bbb"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstonet"
+    },
+    "n": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:jukebox",
+    "count": 1
+  }
+}

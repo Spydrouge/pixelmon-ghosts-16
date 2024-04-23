@@ -239,5 +239,14 @@
 				player_command: false
 			}]
 		}
+		{
+			x: -6.5d
+			y: 1.0d
+			id: "17AA2ECDEA847DA4"
+			tasks: [{
+				id: "27F381C8B6A48AC5"
+				type: "checkmark"
+			}]
+		}
 	]
 }

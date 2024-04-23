@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:molding_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:wires",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "material": {
+    "item": "contenttweaker:pink_sand_cast/blank_pink_sand_cast"
+  },
+  "pattern": {
+    "tag": "forge:wires"
+  },
+  "result": "contenttweaker:pink_sand_cast/wire_pink_sand_cast"
+}

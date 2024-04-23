@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "tconstruct:soul_sand_cast/blank_soul_sand_cast"
+  },
+  "pattern": {
+    "item": "tconstruct:tool_binding",
+    "type": "tconstruct:material"
+  },
+  "result": "tconstruct:soul_sand_cast/tool_binding_soul_sand_cast"
+}

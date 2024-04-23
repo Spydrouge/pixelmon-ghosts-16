@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:purple_sand"
+    }
+  ],
+  "result": {
+    "item": "contenttweaker:purple_sand_cast/blank_purple_sand_cast",
+    "count": 4
+  }
+}

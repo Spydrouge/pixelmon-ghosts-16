@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "contenttweaker:orange_sand_cast/blank_red_orange_sand_cast"
+  },
+  "pattern": {
+    "tag": "forge:rods"
+  },
+  "result": "contenttweaker:orange_sand_cast/rod_red_orange_sand_cast"
+}

@@ -1,3 +1,4 @@
+
 //Salvage
 
 craftingTable.addShapeless("salvage_leather_boots", <item:minecraft:rabbit_hide>, [<item:minecraft:leather_boots>]);

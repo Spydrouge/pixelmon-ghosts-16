@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "tag": "tconstruct:casts/purple_sand"
+  },
+  "result": "contenttweaker:purple_sand_cast/blank_purple_sand_cast"
+}

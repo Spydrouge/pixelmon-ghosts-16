@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "contenttweaker:pink_sand_cast/blank_pink_sand_cast"
+  },
+  "pattern": {
+    "item": "tconstruct:hammer_head",
+    "type": "tconstruct:material"
+  },
+  "result": "contenttweaker:pink_sand_cast/hammer_head_pink_sand_cast"
+}

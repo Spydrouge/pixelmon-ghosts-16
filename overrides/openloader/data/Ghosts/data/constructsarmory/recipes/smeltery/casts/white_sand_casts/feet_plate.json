@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "item": "contenttweaker:white_sand_cast/blank_white_sand_cast"
+  },
+  "pattern": {
+    "item": "constructsarmory:feet_plate",
+    "type": "tconstruct:material"
+  },
+  "result": "contenttweaker:white_sand_cast/feet_plate_white_sand_cast"
+}

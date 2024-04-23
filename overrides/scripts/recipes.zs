@@ -14,5 +14,5 @@
 
 
 
-craftingTable.addShaped("escape_rope_from_rope", <item:pixelmon:escape_rope>, [[<item:minecraft:air>, <item:inspirations:rope>, <item:minecraft:air>],[<item:inspirations:rope>, <item:minecraft:air>, <item:inspirations:rope>], [<item:minecraft:air>, <item:inspirations:rope>, <item:minecraft:air>]]);
+
 //File End

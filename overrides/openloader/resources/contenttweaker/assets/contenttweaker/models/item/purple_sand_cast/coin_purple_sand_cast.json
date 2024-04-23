@@ -1,0 +1,6 @@
+{
+  "parent" : "item/generated",
+  "textures" :
+  {"layer0" : "contenttweaker:item/purple_sand_cast/coin_purple_sand_cast"
+  }
+}

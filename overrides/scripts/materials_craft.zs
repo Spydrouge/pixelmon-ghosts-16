@@ -27,11 +27,11 @@ var pokeMetals =
 ];
 
 //needs dust, plates, nuggets
-val forestryMetals = 
-[
-	"tin",
-	"bronze"
-];
+//val forestryMetals = 
+//[
+//	"tin",
+//	"bronze"
+//];
 
 //needs gears, dust, plates
 var tinkersMetals = 
@@ -66,6 +66,7 @@ val allDusts = new stdlib.List<string>();
 val allPlates = new stdlib.List<string>();
 val allIngots = new stdlib.List<string>();
 val allBlocks = new stdlib.List<string>();
+val allMetals = new stdlib.List<string>();
 
 for i in newMetals{
 	allNuggets.add(i);
@@ -74,9 +75,13 @@ for i in newMetals{
 	allPlates.add(i);
 	allIngots.add(i);
 	allBlocks.add(i);
+	
+	allMetals.add(i);
 }
 for i in vanillaMetals{
 	allGears.add(i);
+	
+	allMetals.add(i);
 }
 
 for i in pokeMetals{
@@ -84,18 +89,25 @@ for i in pokeMetals{
 	allGears.add(i);
 	allDusts.add(i);
 	allPlates.add(i);
+	
+	allMetals.add(i);
 }
-for i in forestryMetals{
-	allNuggets.add(i);
-	allDusts.add(i);
-	allPlates.add(i);
-}
+//for i in forestryMetals{
+//	allNuggets.add(i);
+//	allDusts.add(i);
+//	allPlates.add(i);
+//	
+//	allMetals.add(i);
+//}
 
 for i in tinkersMetals{
 	allGears.add(i);
 	allDusts.add(i);
 	allPlates.add(i);
+	
+	allMetals.add(i);
 }
+
 
 
 //this also works
@@ -111,12 +123,12 @@ val forgePlates = <tag:items:forge:plates>;
 val forgeBlocks = <tag:items:forge:storage_blocks>;
 
 
-val forestryMinerBag = <tag:items:forestry:backpack/allow/miner>;
+//val forestryMinerBag = <tag:items:forestry:backpack/allow/miner>;
 for i in allNuggets{
 
 	//oredict tags
 	forgeNuggets.add(<item:contenttweaker:${i}_nugget>);
-	forestryMinerBag.add(<item:contenttweaker:${i}_nugget>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_nugget>);
 
 	loc = "forge:nuggets/"+i;
 	
@@ -149,7 +161,7 @@ for i in allNuggets{
 for i in allBlocks{
 	//oredict tags
 	forgeBlocks.add(<block:contenttweaker:${i}_block>.asItem());
-	forestryMinerBag.add(<block:contenttweaker:${i}_block>.asItem());
+	//forestryMinerBag.add(<block:contenttweaker:${i}_block>.asItem());
 
 	loc = "forge:storage_blocks/"+i;
 	
@@ -179,7 +191,7 @@ for i in allBlocks{
 for i in allGears{
 	//oredict tags
 	forgeGears.add(<item:contenttweaker:${i}_gear>);
-	forestryMinerBag.add(<item:contenttweaker:${i}_gear>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_gear>);
 	
 	loc = "forge:gears/"+i;
 	
@@ -212,7 +224,7 @@ for i in allGears{
 for i in allPlates{
 	//oredict tags
 	forgePlates.add(<item:contenttweaker:${i}_plate>);
-	forestryMinerBag.add(<item:contenttweaker:${i}_plate>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_plate>);
 	
 	loc = "forge:plates/"+i;
 	
@@ -244,8 +256,8 @@ for i in allPlates{
 
 for i in allIngots{
 	//oredict tags
-	forgeIngots.add(<item:contenttweaker:${i}_ingot>);
-	forestryMinerBag.add(<item:contenttweaker:${i}_ingot>);
+	//forgeIngots.add(<item:contenttweaker:${i}_ingot>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_ingot>);
 	
 	loc = "forge:ingots/"+i;
 
@@ -276,10 +288,15 @@ for i in allIngots{
 	//<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_ingot_sand_cast", <item:tconstruct:ingot_sand_cast>, molt, <item:contenttweaker:${i}_ingot>, 60, true, false);
 }
 
+for i in allMetals{
+	
+}
+
 
 //ALLOYS
 
-<recipetype:tconstruct:alloying>.addRecipe("invar_alloy", [<fluid:tconstruct:molten_nickel>, <fluid:tconstruct:molten_iron>*2], <fluid:tconstruct:molten_invar>*3, 500);
+//Thermal included
+//<recipetype:tconstruct:alloying>.addRecipe("invar_alloy", [<fluid:tconstruct:molten_nickel>, <fluid:tconstruct:molten_iron>*2], <fluid:tconstruct:molten_invar>*3, 500);
 
 
 
