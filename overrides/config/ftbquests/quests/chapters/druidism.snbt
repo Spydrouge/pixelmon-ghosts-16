@@ -182,15 +182,26 @@
 		{
 			x: -1.0d
 			y: 0.5d
-			description: ["While messing around with mushrooms, you might as well collect them all. "]
+			description: [
+				"While messing around with mushrooms, you might as well collect them all. "
+				""
+				"The Deathcap is poisonous, but also sprouts into convenient shapes for creating pools and fountains."
+			]
 			dependencies: ["15A2DD50687E0F42"]
 			hide: true
 			id: "1923094B4D5CEFA2"
-			tasks: [{
-				id: "1CCD77662F7DA9A2"
-				type: "item"
-				item: "byg:blue_glowshroom"
-			}]
+			tasks: [
+				{
+					id: "25CD69D5389C8F8B"
+					type: "item"
+					item: "byg:death_cap"
+				}
+				{
+					id: "732431246DAD234A"
+					type: "item"
+					item: "byg:weeping_milkcap"
+				}
+			]
 			rewards: [{
 				id: "1594E68A1FF6661A"
 				type: "item"
@@ -222,11 +233,18 @@
 			dependencies: ["15A2DD50687E0F42"]
 			hide: true
 			id: "73DBE01FE44C545D"
-			tasks: [{
-				id: "757095BD2C5BFBF3"
-				type: "item"
-				item: "byg:purple_glowshroom"
-			}]
+			tasks: [
+				{
+					id: "757095BD2C5BFBF3"
+					type: "item"
+					item: "byg:purple_glowshroom"
+				}
+				{
+					id: "2AF1AE812480176B"
+					type: "item"
+					item: "byg:blue_glowshroom"
+				}
+			]
 			rewards: [{
 				id: "15C09ADD28AF33F5"
 				type: "choice"
@@ -604,11 +622,18 @@
 					item: "botania:rune_mana"
 				}
 			]
-			rewards: [{
-				id: "0198BAD0C52B51C9"
-				type: "item"
-				item: "byg:lament_sapling"
-			}]
+			rewards: [
+				{
+					id: "0198BAD0C52B51C9"
+					type: "item"
+					item: "byg:lament_sapling"
+				}
+				{
+					id: "6CE8EE4BEB57EAE0"
+					type: "item"
+					item: "biomesoplenty:magic_sapling"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -622,11 +647,18 @@
 				type: "item"
 				item: "botania:hydroangeas"
 			}]
-			rewards: [{
-				id: "3D13D5591BD3A965"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
+			rewards: [
+				{
+					id: "3D13D5591BD3A965"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "05FF45F1FE0E56DB"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -640,11 +672,18 @@
 				type: "item"
 				item: "botania:endoflame"
 			}]
-			rewards: [{
-				id: "0BF548E4D8EE2F39"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
+			rewards: [
+				{
+					id: "0BF548E4D8EE2F39"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "6D328FDBFC0990CE"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -678,12 +717,26 @@
 					item: "minecraft:pink_dye"
 				}
 			]
-			rewards: [{
-				id: "74B9825F19050C00"
-				type: "item"
-				title: "... How did this get here?"
-				item: "pixelmon:purple_couch"
-			}]
+			rewards: [
+				{
+					id: "74B9825F19050C00"
+					type: "item"
+					title: "... How did this get here?"
+					item: "pixelmon:purple_couch"
+				}
+				{
+					id: "75CDA36913D6298F"
+					type: "item"
+					title: "No, Seriously, Who Carried all this Furniture?"
+					item: "pixelmon:pink_couch"
+				}
+				{
+					id: "1D21F5EC5833CCF0"
+					type: "item"
+					title: "Maybe it just Landed Here When you weren't Looking?"
+					item: "pixelmon:lime_chair"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -697,16 +750,23 @@
 				type: "item"
 				item: "botania:rosa_arcana"
 			}]
-			rewards: [{
-				id: "439D16D0D9A4EE79"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
+			rewards: [
+				{
+					id: "439D16D0D9A4EE79"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "277DA311BDF072BA"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
 		}
 		{
 			icon: "byg:imparius_mushroom"
-			x: 0.0d
-			y: 12.0d
+			x: 1.5d
+			y: 2.25d
 			description: ["What is this that Drifloon's brought you? You can almost feel it trembling with energy. Uh. Maybe you ought to put it somewhere with... a very, very, very large amount of empty space..."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -886,6 +946,8 @@
 				"Crimson Fungus will only drop from Paras, which is hiding somewhere among the Foongus on the Murk Layer."
 				""
 				"Warped Fungus can be found along with regular colored Shroomish on the Dazzle Layer"
+				""
+				"Shulkren fungus is a rare drop of Morelull. Sythian Fungus will only drop from the elusive Toedscool, which is exclusively attracted to Podzol and Mycelium habitats."
 			]
 			dependencies: ["15A2DD50687E0F42"]
 			id: "41797216F1C28C91"
@@ -911,11 +973,358 @@
 					item: "byg:sythian_fungus"
 				}
 			]
-			rewards: [{
-				id: "2F99C1941CC9CA35"
-				type: "item"
-				item: "nethers_delight:rich_soul_soil"
+			rewards: [
+				{
+					id: "2F99C1941CC9CA35"
+					type: "item"
+					item: "nethers_delight:rich_soul_soil"
+				}
+				{
+					id: "75C249E83B341880"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"Create these colonies in the same way as you'd create red and brown mushroom colonies. Just like those colonies, it must be placed on a special kind of soil. Since these are nether fungi, you will want to use rich soul soil."
+				""
+				"Your patience with mushrooms may eventually be rewarded."
+			]
+			dependencies: ["1C53CA6D2E5EA3F7"]
+			hide: true
+			id: "07BB8B6F1A9897CF"
+			tasks: [
+				{
+					id: "7E746C6BFDEA174F"
+					type: "item"
+					item: "nethers_delight:crimson_fungus_colony_item"
+				}
+				{
+					id: "1087E4F8E3C55A19"
+					type: "item"
+					item: "nethers_delight:warped_fungus_colony_item"
+				}
+			]
+			rewards: [
+				{
+					id: "66AF64D7D5E07061"
+					type: "item"
+					item: "byg:fungal_imparius"
+				}
+				{
+					id: "3354077F2A4CA62C"
+					type: "item"
+					item: "minecraft:crimson_nylium"
+				}
+				{
+					id: "25FD03AA1DE20152"
+					type: "item"
+					item: "minecraft:warped_nylium"
+				}
+				{
+					id: "67779D433056FB63"
+					type: "item"
+					item: "byg:sythian_nylium"
+				}
+			]
+		}
+		{
+			icon: "pixelmon:max_mushroom"
+			x: 1.5d
+			y: 3.5d
+			description: [
+				"While you were admiring your newest fungus, Drifloon brought you something.... BIG."
+				""
+				"This latest mushroom, the Max mushroom, has no special cultivation method. It can only be placed on Mycelium... and it will only spread extremely slowly, by random chance. It cannot be bonemealed."
+				""
+				"It'll take some time for these to propagate, so you might as well plant them now and check back on them later."
+				""
+				"A limited amount of Max Mushrooms will spawn within a certain range of one another. For that reason, you will want to spread out multiple mushrooms over a large space."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"07BB8B6F1A9897CF"
+				"1C6F0424C0A4973F"
+				"346D5BD076319F19"
+			]
+			hide: true
+			id: "0BD6FC749599EE34"
+			tasks: [{
+				id: "036992C1EAF55F6D"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
 			}]
+			rewards: [{
+				id: "41B36FA0A10FC80B"
+				type: "item"
+				item: "pixelmon:max_mushroom"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["The Pokemon Toedscool will spawn only on podzol and mycelium. It rarely carries mycelium, which is another valuable resource for your mushrooms, and can spread slowly on dirt blocks."]
+			dependencies: ["6B5F64F39E24B922"]
+			hide: true
+			id: "346D5BD076319F19"
+			tasks: [{
+				id: "27DF18EE82424E4D"
+				type: "item"
+				item: "minecraft:mycelium"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: [
+				"While working on flowers to accumulate mana, you need to also gather the materials necessary to move that mana around."
+				""
+				"Create a &amana pool&r to hold the mana, and a &amana spreader&r to move the mana from the flowers to the pool"
+				""
+				"A &dWand of the Forest&r will be necessary to aim the spreader at the pool. You can make these wands using Mystical Mushrooms and Livingwood."
+			]
+			dependencies: ["3FF8AA83BB349B3E"]
+			hide: true
+			id: "58C8937CFE8894DA"
+			tasks: [
+				{
+					id: "16105BF13ED1C1F2"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "49AB8DDB760F8094"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "78C972F615984718"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4C26E7D4FA4D8C5D"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "764CE8C73BDAE64B"
+					type: "random"
+					table_id: 7555106132649824680L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			description: [
+				"If you want to use mana in your day-to-day tasks, you will need to create a mana tablet, which requires a mana pearl."
+				""
+			]
+			dependencies: ["58C8937CFE8894DA"]
+			hide: true
+			id: "697DF4960F628C73"
+			tasks: [
+				{
+					id: "129BA78469FEECA0"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "707A71C329DC99CF"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "58BF4DBEC130C3C3"
+				type: "item"
+				item: "botania:manaweave_cloth"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			description: ["To make more complex types of Generative Flora, you will need to create a Runic Altar."]
+			dependencies: ["58C8937CFE8894DA"]
+			hide: true
+			id: "19A192D7A2A157A8"
+			tasks: [
+				{
+					id: "09D634942D0EEA3F"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "493DCA38DFDFE596"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+			]
+			rewards: [{
+				id: "2866AD15AFB7257D"
+				type: "item"
+				item: "botania:manaweave_cloth"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"At this point in your journey, no item could be more valuable than the &cRod of the Lands&r. "
+				""
+				"For a small amount of mana, the Rod of the Lands will create &cdirt from nothing&r, and place it in the world."
+				""
+				"To create the Rod of the Lands, you will need to create &aEarth Runes&r. The Creation of Earth Runes necessitates spending a Manasteel."
+				""
+				"Or does it? The Pokemon &dRunerigus&r, which spawns in the Stone Layer and is attracted to red sandstone, just like its Yamask, will drop Earth Runes if defeated."
+			]
+			dependencies: [
+				"697DF4960F628C73"
+				"19A192D7A2A157A8"
+			]
+			hide: true
+			size: 2.0d
+			id: "6C44EC48FE059DA0"
+			tasks: [
+				{
+					id: "2FAF2D1CA27DD5FA"
+					type: "item"
+					item: "botania:dirt_rod"
+				}
+				{
+					id: "3CA69876DBF1EBC2"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+			]
+			rewards: [{
+				id: "15E804EFEBAD3ED1"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 16
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: [
+				"Manaweave cloth is tedious to create, as it requires soeaking up a large amount of mana with string and weaving the string into cloth."
+				""
+				"However, it greatly &dreduces the mana cost&r of all rods and tools."
+				""
+				"This means your Rod of the Earth or Rod of the Depths will be able to create many more blocks on the same amount of mana."
+				""
+				"To speed up your process of creating Manaweave gear, you can harass Hatenna on the Dazzle Layer until one drops the Manaweave Hood. The Duskull line will also occasionally drop Mana Infused String."
+			]
+			dependencies: ["697DF4960F628C73"]
+			hide: true
+			id: "348BABEF613D8EFE"
+			tasks: [
+				{
+					id: "646D3C6654E53628"
+					type: "item"
+					item: {
+						id: "botania:manaweave_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C41256A73C92CE4"
+					type: "item"
+					item: {
+						id: "botania:manaweave_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "178EDEB355227F01"
+					type: "item"
+					item: {
+						id: "botania:manaweave_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DB400E4304A6CC0"
+					type: "item"
+					item: {
+						id: "botania:manaweave_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D498B9F51426F67"
+					type: "item"
+					item: "botania:mana_string"
+				}
+				{
+					id: "3628D9134D0677F5"
+					type: "item"
+					item: "botania:manaweave_cloth"
+				}
+			]
+			rewards: [{
+				id: "3E152B811C06AEE3"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			description: ["The Rod of the Skies is as valuable as it is dangerous. You will want to pair it with Slime Boots or, if you can afford it, an Elytra."]
+			dependencies: ["19A192D7A2A157A8"]
+			hide: true
+			id: "5AE35114536AEF17"
+			tasks: [
+				{
+					id: "2F79A746D0CFCB42"
+					type: "item"
+					item: {
+						id: "botania:tornado_rod"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1A4E296670BC5E61"
+					type: "item"
+					item: "botania:rune_air"
+				}
+			]
 		}
 	]
 }

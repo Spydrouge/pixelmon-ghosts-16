@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pbp",
+    "pap",
+    "pfp"
+  ],
+  "key": {
+    "b": {
+      "item": "pixelmon:bug_gem"
+    },
+    "p": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "f": {
+      "item": "pixelmon:flying_gem"
+    },
+    "a": {
+      "tag": "forge:rods/aluminum"
+    }
+
+    
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

@@ -234,13 +234,53 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:cobweb",
+        "item":"minecraft:allium",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Caterpie palette:pink",
+    "items":[
+      {
+        "item":"minecraft:string",
+        "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"biomesoplenty:pink_daffodil",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"byg:pink_allium",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Caterpie palette:valencian",
+    "items":[
+      {
+        "item":"minecraft:string",
+        "min":1,
+        "max":2,
+        "chance":1.0
       },
      {
-        "item":"minecraft:cornflower",
+        "item":"biomesoplenty:violet",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"minecraft:allium",
         "min":1,
         "max":1,
         "chance":0.1
@@ -257,7 +297,71 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:cornflower",
+        "item":"minecraft:allium",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"byg:pink_allium",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"pixelmon:shed_shell",
+        "min":1,
+        "max":1,
+        "chance":0.2
+      }
+    ]
+  },
+  {
+    "pokemon":"Metapod palette:pink",
+    "items":[
+      {
+        "item":"minecraft:string",
+        "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"biomesoplenty:pink_daffodil",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"byg:allium_flower_bush",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"pixelmon:shed_shell",
+        "min":1,
+        "max":1,
+        "chance":0.2
+      }
+    ]
+  },
+  {
+    "pokemon":"Metapod",
+    "items":[
+      {
+        "item":"minecraft:string",
+        "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"biomesoplenty:violet",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"byg:pink_allium_flower_bush",
         "min":1,
         "max":1,
         "chance":0.3
@@ -280,16 +384,74 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:cornflower",
+        "item":"biomesoplenty:violet",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":0.7
       },
       {
         "item":"biomesoplenty:pink_daffodil",
         "min":1,
         "max":1,
-        "chance":0.3
+        "chance":0.5
+      },
+      {
+        "item":"pixelmon:silver_powder",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Butterfree palette:pink",
+    "items":[
+      {
+        "item":"minecraft:string",
+        "min":1,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"byg:tall_pink_allium",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"biomesoplenty:pink_daffodil",
+        "min":3,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:silver_powder",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Butterfree palette:valencian",
+    "items":[
+      {
+        "item":"minecraft:string",
+        "min":1,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"biomesoplenty:violet",
+        "min":3,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"byg:tall_allium",
+        "min":1,
+        "max":1,
+        "chance":1.0
       },
       {
         "item":"pixelmon:silver_powder",
@@ -315,7 +477,7 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:lily_of_the_valley",
+        "item":"biomesoplenty:orange_cosmos",
         "min":1,
         "max":1,
         "chance":0.1
@@ -332,7 +494,7 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:lily_of_the_valley",
+        "item":"biomesoplenty:orange_cosmos",
         "min":1,
         "max":1,
         "chance":0.3
@@ -355,13 +517,19 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:lily_of_the_valley",
+        "item":"minecraft:honey_bottle",
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":1,
+        "chance":1.0
       },
       {
-        "item":"minecraft:honey_bottle",
+        "item":"biomesoplenty:orange_cosmos",
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
+      {
+        "item":"byg:orange_amaranth",
         "min":1,
         "max":1,
         "chance":0.3
@@ -983,6 +1151,7 @@
         "max":1,
         "chance":0.1
       },
+      
       {
         "item":"pixelmon:metronome",
         "min":1,
@@ -1004,7 +1173,7 @@
         "item":"materialis:fairy_nugget",
         "min":2,
         "max":4,
-        "chance":0.5
+        "chance":0.7
       },
       {
         "item":"pixelmon:moon_stone_shard",
@@ -1155,17 +1324,17 @@
       {
         "item":"minecraft:leather",
         "min":1,
-        "max":1,
+        "max":3,
         "chance":1.0
       },
       {
-        "item":"minecraft:sugar",
+        "item":"materialis:fairy_nugget",
         "min":1,
         "max":1,
         "chance":0.5
       },
       {
-        "item":"materialis:fairy_nugget",
+        "item":"pixelmon:platinum_nugget",
         "min":1,
         "max":1,
         "chance":0.5
@@ -1183,8 +1352,8 @@
     "items":[
       {
         "item":"minecraft:leather",
-        "min":1,
-        "max":3,
+        "min":3,
+        "max":6,
         "chance":1.0
       },
       {
@@ -1203,13 +1372,13 @@
         "item":"materialis:fairy_nugget",
         "min":2,
         "max":4,
-        "chance":0.5
+        "chance":0.7
       },
       {
-        "item":"pixelmon:moon_stone_shard",
-        "min":1,
-        "max":2,
-        "chance":0.1
+        "item":"pixelmon:platinum_nugget",
+        "min":2,
+        "max":3,
+        "chance":0.5
       }
     ]
   },
@@ -5387,6 +5556,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:platinum_nugget",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -6419,6 +6594,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_a",
         "min":1,
         "max":1,
@@ -6440,6 +6621,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_b",
@@ -6465,6 +6652,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_c",
         "min":1,
         "max":1,
@@ -6486,6 +6679,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_d",
@@ -6511,6 +6710,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_e",
         "min":1,
         "max":1,
@@ -6532,6 +6737,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_f",
@@ -6557,6 +6768,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_g",
         "min":1,
         "max":1,
@@ -6578,6 +6795,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_h",
@@ -6603,6 +6826,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_i",
         "min":1,
         "max":1,
@@ -6624,6 +6853,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_j",
@@ -6649,6 +6884,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_k",
         "min":1,
         "max":1,
@@ -6670,6 +6911,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_l",
@@ -6695,6 +6942,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_m",
         "min":1,
         "max":1,
@@ -6716,6 +6969,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_n",
@@ -6741,6 +7000,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_o",
         "min":1,
         "max":1,
@@ -6762,6 +7027,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_p",
@@ -6787,6 +7058,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_q",
         "min":1,
         "max":1,
@@ -6808,6 +7085,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_r",
@@ -6833,6 +7116,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_s",
         "min":1,
         "max":1,
@@ -6854,6 +7143,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_t",
@@ -6879,6 +7174,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_u",
         "min":1,
         "max":1,
@@ -6900,6 +7201,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_v",
@@ -6925,6 +7232,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_w",
         "min":1,
         "max":1,
@@ -6946,6 +7259,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_x",
@@ -6971,6 +7290,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+      {
         "item":"pixelmon:unown_block_y",
         "min":1,
         "max":1,
@@ -6992,6 +7317,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":0.05
       },
       {
         "item":"pixelmon:unown_block_z",
@@ -7017,6 +7348,12 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
         "item":"pixelmon:unown_block_question",
         "min":1,
         "max":1,
@@ -7038,6 +7375,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:rune_air",
+        "min":1,
+        "max":1,
+        "chance":1.0
       },
       {
         "item":"pixelmon:unown_block_exclaim",
@@ -8805,6 +9148,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:wiki_berry",
+        "min":1,
+        "max":1,
+        "chance":0.02
       }
     ]
   },
@@ -8818,6 +9167,12 @@
         "chance":1.0
       },
       {
+        "item":"byg:white_anemone",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:cobweb",
         "min":1,
         "max":2,
@@ -8828,6 +9183,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:wiki_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -8841,10 +9202,16 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:fermented_spider_eye",
+        "item":"byg:white_anemone",
+        "min":2,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:wiki_berry",
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:silver_powder",
@@ -8870,10 +9237,22 @@
         "chance":0.5
       },
       {
+        "item":"minecraft:lilac",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:shed_shell",
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"pixelmon:wiki_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -8881,9 +9260,9 @@
     "pokemon":"Dustox",
     "items":[
       {
-        "item":"minecraft:string",
-        "min":1,
-        "max":3,
+        "item":"minecraft:lilac",
+        "min":2,
+        "max":4,
         "chance":1.0
       },
       {
@@ -8891,6 +9270,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:wiki_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
       },
       {
         "item":"pixelmon:silver_powder",
@@ -9245,39 +9630,57 @@
     "pokemon":"Surskit",
     "items":[
       {
-        "item":"minecraft:string",
-        "min":1,
-        "max":2,
-        "chance":1.0
-      },
-      {
-        "item":"minecraft:spider_eye",
+        "item":"minecraft:honey_bottle",
         "min":1,
         "max":1,
         "chance":0.5
       },
-    {
+      {
         "item":"pixelmon:fresh_water",
         "min":1,
         "max":1,
         "chance":0.3
-      }
+      },
+      {
+          "item":"farmersdelight:rice",
+          "min":1,
+          "max":1,
+          "chance":0.1
+        },
+        {
+          "item":{
+            "id":"pixelmon:tm_gen2",
+            "Count":1,
+            "tag":{
+              "tm":12
+            }
+          },
+          "min":1,
+          "max":1,
+          "chance":0.05
+        }
     ]
   },
   {
     "pokemon":"Masquerain",
     "items":[
       {
-        "item":"minecraft:string",
-        "min":1,
-        "max":3,
-        "chance":1.0
-      },
+          "item":"farmersdelight:rice",
+          "min":1,
+          "max":1,
+          "chance":1.0
+        },
+        {
+          "item":"byg:red_maple_leaves",
+          "min":2,
+          "max":4,
+          "chance":1.0
+        },
       {
         "item":"pixelmon:fresh_water",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":1.0
       },
       {
         "item":"pixelmon:silver_powder",
@@ -10193,7 +10596,7 @@
         "chance":0.3
       },
       {
-        "item":"minecraft:beetroot",
+        "item":"farmersdelight:rice",
         "min":1,
         "max":2,
         "chance":0.5
@@ -10222,7 +10625,7 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:beetroot",
+        "item":"farmersdelight:rice",
         "min":1,
         "max":3,
         "chance":0.5
@@ -10485,6 +10888,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:mago_berry",
+        "min":1,
+        "max":1,
+        "chance":0.01
       }
     ]
   },
@@ -10505,6 +10914,12 @@
       },
       {
         "item":"pixelmon:yache_berry",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"pixelmon:mago_berry",
         "min":1,
         "max":1,
         "chance":0.1
@@ -10530,6 +10945,12 @@
         "item":"pixelmon:yache_berry",
         "min":1,
         "max":2,
+        "chance":0.3
+      },
+      {
+        "item":"pixelmon:mago_berry",
+        "min":1,
+        "max":1,
         "chance":0.3
       },
       {
@@ -11229,6 +11650,12 @@
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"botania:mana_string",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -11249,6 +11676,12 @@
       },
       {
         "item":"minecraft:soul_lantern",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"botania:mana_string",
         "min":1,
         "max":1,
         "chance":0.3
@@ -14474,6 +14907,12 @@
         "chance":0.5
       },
       {
+        "item":"botania:manaweave_cloth",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:soul_lantern",
         "min":1,
         "max":2,
@@ -16289,10 +16728,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:oak_leaves",
-        "min":1,
-        "max":1,
-        "chance":0.5
+        "item":"byg:witch_hazel_leaves",
+        "min":2,
+        "max":4,
+        "chance":1.0
       }
     ]
   },
@@ -16306,10 +16745,10 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:oak_leaves",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "item":"byg:witch_hazel_leaves",
+        "min":4,
+        "max":8,
+        "chance":1.0
       },
       {
         "item":"pixelmon:coba_berry",
@@ -16329,9 +16768,9 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:oak_leaves",
-        "min":1,
-        "max":2,
+        "item":"byg:witch_hazel_leaves",
+        "min":8,
+        "max":16,
         "chance":0.5
       },
       {
@@ -16891,6 +17330,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"botania:rune_earth",
+        "min":1,
+        "max":1,
+        "chance":0.02
       }
     ]
   },
@@ -17273,6 +17718,18 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:lily_of_the_valley",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:wither_rose",
+        "min":1,
+        "max":1,
+        "chance":0.5
       }
     ]
   },
@@ -17283,6 +17740,18 @@
         "item":"minecraft:ender_pearl",
         "min":1,
         "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:lily_of_the_valley",
+        "min":1,
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:wither_rose",
+        "min":1,
+        "max":2,
         "chance":1.0
       },
       {
@@ -17306,6 +17775,18 @@
         "item":"minecraft:ender_pearl",
         "min":2,
         "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:lily_of_the_valley",
+        "min":2,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:wither_rose",
+        "min":2,
+        "max":4,
         "chance":1.0
       },
       {
@@ -17661,6 +18142,18 @@
         "chance":1.0
       },
       {
+        "item":"byg:death_cap",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"byg:milk_cap",
+        "min":1,
+        "max":2,
+        "chance":0.1
+      },
+      {
         "item":"minecraft:crimson_roots",
         "min":1,
         "max":1,
@@ -17684,7 +18177,7 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:brown_mushroom",
+        "item":"byg:death_cap",
         "min":1,
         "max":2,
         "chance":0.5
@@ -18606,10 +19099,10 @@
         "chance":1.0
       },
       {
-        "item":"pixelmon:aluminium_ingot",
-        "min":1,
-        "max":2,
-        "chance":0.5
+        "item":"immersiveengineering:nugget_constantan",
+        "min":2,
+        "max":4,
+        "chance":1.0
       }
     ]
   },
@@ -18617,16 +19110,28 @@
     "pokemon":"Bisharp",
     "items":[
       {
-        "item":"minecraft:iron_ingot",
-        "min":2,
-        "max":4,
+        "item":"immersiveengineering:nugget_steel",
+        "min":4,
+        "max":8,
         "chance":1.0
       },
       {
-        "item":"pixelmon:aluminium_ingot",
+        "item":{
+          "id":"minecraft:iron_sword",
+          "Count":1,
+          "tag":{
+            "Damage":200
+          }
+        },
         "min":1,
-        "max":3,
-        "chance":0.5
+        "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"immersiveengineering:nugget_constantan",
+        "min":8,
+        "max":16,
+        "chance":1.0
       },
       {
         "item":"pixelmon:metal_coat",
@@ -19627,10 +20132,16 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:spider_eye",
+        "item":"byg:white_sage",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"pixelmon:figy_berry",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.02
       }
     ]
   },
@@ -19638,13 +20149,13 @@
     "pokemon":"Spewpa",
     "items":[
       {
-        "item":"minecraft:feather",
-        "min":1,
-        "max":3,
+        "item":"minecraft:string",
+        "min":4,
+        "max":6,
         "chance":1.0
       },
       {
-        "item":"minecraft:chicken",
+        "item":"minecraft:feather",
         "min":1,
         "max":2,
         "chance":0.5
@@ -19654,6 +20165,18 @@
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"byg:white_sage",
+        "min":2,
+        "max":4,
+        "chance":0.7
+      },
+      {
+        "item":"pixelmon:figy_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -19674,6 +20197,12 @@
       },
       {
         "item":"pixelmon:silver_powder",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"pixelmon:figy_berry",
         "min":1,
         "max":1,
         "chance":0.1
@@ -19759,7 +20288,7 @@
     "pokemon":"Flabebe palette:yellow",
     "items":[
       {
-        "item":"minecraft:dandelion",
+        "item":"byg:yellow_daffodil",
         "min":1,
         "max":1,
         "chance":1.0
@@ -19782,7 +20311,7 @@
     "pokemon":"Flabebe palette:orange",
     "items":[
       {
-        "item":"minecraft:orange_tulip",
+        "item":"byg:orange_daisy",
         "min":1,
         "max":1,
         "chance":1.0
@@ -19834,6 +20363,12 @@
         "chance":1.0
       },
       {
+        "item":"minecraft:osiria_rose",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:bone_meal",
         "min":1,
         "max":1,
@@ -19853,8 +20388,8 @@
       {
         "item":"byg:red_orchid",
         "min":1,
-        "max":1,
-        "chance":0.5
+        "max":3,
+        "chance":1.0
       },
       {
         "item":"minecraft:bone_meal",
@@ -19874,7 +20409,7 @@
     "pokemon":"Floette palette:yellow",
     "items":[
       {
-        "item":"minecraft:dandelion",
+        "item":"byg:lolipop_flower",
         "min":1,
         "max":3,
         "chance":1.0
@@ -19897,7 +20432,7 @@
     "pokemon":"Floette palette:orange",
     "items":[
       {
-        "item":"minecraft:orange_tulip",
+        "item":"byg:inca_lily",
         "min":1,
         "max":3,
         "chance":1.0
@@ -19943,10 +20478,22 @@
     "pokemon":"Floette palette:white",
     "items":[
       {
-        "item":"minecraft:oxeye_daisy",
+        "item":"byg:angelica",
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"byg:pink_orchid",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"byg:japanese_orchid",
+        "min":1,
+        "max":1,
+        "chance":0.3
       },
       {
         "item":"minecraft:bone_meal",
@@ -20047,9 +20594,9 @@
     "pokemon":"Florges palette:orange",
     "items":[
       {
-        "item":"biomesoplenty:barley",
-        "min":2,
-        "max":4,
+        "item":"byg:california_poppy",
+        "min":4,
+        "max":8,
         "chance":1.0
       },
       {
@@ -20398,6 +20945,24 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:sachet",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
+        "item":{
+          "id":"pixelmon:tm_gen2",
+          "Count":1,
+          "tag":{
+            "tm":12
+          }
+        },
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -20423,6 +20988,12 @@
         "chance":0.5
       },
       {
+        "item":"pixelmon:sachet",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:aguav_berry",
         "min":1,
         "max":1,
@@ -20435,7 +21006,13 @@
         "chance":0.5
       },
       {
-        "item":"pixelmon:sachet",
+        "item":{
+          "id":"pixelmon:tm_gen2",
+          "Count":1,
+          "tag":{
+            "tm":12
+          }
+        },
         "min":1,
         "max":1,
         "chance":0.1
@@ -20462,6 +21039,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"pixelmon:whipped_dream",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -20490,7 +21073,7 @@
         "item":"pixelmon:whipped_dream",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.5
       }
     ]
   },
@@ -22070,6 +22653,18 @@
         "chance":1.0
       },
       {
+        "item":"byg:purple_orchid",
+        "min":1,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"byg:purple_sage",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:egg",
         "min":1,
         "max":1,
@@ -22080,13 +22675,8 @@
         "min":1,
         "max":1,
         "chance":0.1
-      },
-      {
-        "item":"minecraft:allium",
-        "min":1,
-        "max":3,
-        "chance":0.5
       }
+      
     ]
   },
   {
@@ -22637,6 +23227,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:honey_bottle",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -22799,7 +23395,13 @@
         "item":"byg:magenta_tulip",
          "min":1,
         "max":2,
-        "chance":1.0
+        "chance":0.5
+      },
+      {
+        "item":"byg:pink_tulip",
+         "min":1,
+        "max":2,
+        "chance":0.5
       }
     ]
   },
@@ -22865,6 +23467,12 @@
         "chance":1.0
       },
       {
+        "item":"byg:guzmania",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
         "item":"minecraft:prismarine_crystals",
         "min":1,
         "max":2,
@@ -22882,7 +23490,7 @@
     "pokemon":"Golisopod",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"byg:guzmania",
         "min":2,
         "max":4,
         "chance":1.0
@@ -24321,6 +24929,12 @@
         "chance":0.3
       },
       {
+        "item":"biomesoplenty:lavender",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:glowstone",
         "min":1,
         "max":1,
@@ -24332,9 +24946,9 @@
     "pokemon":"Dottler",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"biomesoplenty:lavender",
         "min":1,
-        "max":3,
+        "max":1,
         "chance":1.0
       },
       {
@@ -24361,8 +24975,14 @@
     "pokemon":"Orbeetle",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"biomesoplenty:lavender",
         "min":2,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:watermelon_seeds",
+        "min":3,
         "max":4,
         "chance":1.0
       },
@@ -24383,12 +25003,6 @@
         "min":1,
         "max":1,
         "chance":0.1
-      },
-      {
-        "item":"minecraft:watermelon_seeds",
-        "min":3,
-        "max":4,
-        "chance":1.0
       }
     ]
   },
@@ -24484,16 +25098,22 @@
     "pokemon":"Gossifleur",
     "items":[
       {
-        "item":"minecraft:dandelion",
+        "item":"byg:incan_lily",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
-        "item":"minecraft:allium",
+        "item":"habitat:red_ball_cactus_flower",
         "min":1,
         "max":1,
-        "chance":0.5
+        "chance":0.02
+      },
+      {
+        "item":"habitat:yellow_ball_cactus_flower",
+        "min":1,
+        "max":1,
+        "chance":0.03
       }
     ]
   },
@@ -25375,7 +25995,7 @@
         "item":"pixelmon:rock_gem",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.3
       },
       {
         "item":"pixelmon:passho_berry",
@@ -25476,6 +26096,12 @@
         "chance":0.5
       },
       {
+        "item":"contenttweaker:platinum_nugget",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:shed_shell",
         "min":1,
         "max":1,
@@ -25496,7 +26122,13 @@
         "item":"pixelmon:silicon",
         "min":1,
         "max":3,
-        "chance":0.5
+        "chance":1.0
+      },
+      {
+        "item":"contenttweaker:platinum_nugget",
+        "min":2,
+        "max":3,
+        "chance":1.0
       },
       {
         "item":"pixelmon:shed_shell",
@@ -26169,6 +26801,12 @@
         "chance":1.0
       },
       {
+        "item":"botania:rune_earth",
+        "min":2,
+        "max":3,
+        "chance":1.0
+      },
+      {
         "item":"minecraft:chiseled_red_sandstone",
         "min":1,
         "max":2,
@@ -26181,7 +26819,7 @@
         "chance":0.3
       },
       {
-        "item":"minecraft:iron_block",
+        "item":"botania:rune_gluttony",
         "min":1,
         "max":1,
         "chance":0.1
@@ -26191,12 +26829,6 @@
   {
     "pokemon":"Milcery",
     "items":[
-      {
-        "item":"minecraft:sugar",
-        "min":1,
-        "max":1,
-        "chance":0.5
-      },
       {
         "item":"farmersdelight:milk_bottle",
         "min":1,
@@ -26210,10 +26842,10 @@
         "chance":0.1
       },
       {
-        "item":"minecraft:cookie",
+        "item":"pixelmon:curry_cream",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.05
       }
     ]
   },
@@ -26221,10 +26853,16 @@
     "pokemon":"Alcremie",
     "items":[
       {
+        "item":"minecraft:cake",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
         "item":"minecraft:sugar",
         "min":1,
         "max":3,
-        "chance":1.0
+        "chance":0.5
       },
       {
         "item":"minecraft:cookie",
@@ -26233,11 +26871,12 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:cake",
+        "item":"pixelmon:curry_cream",
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.3
       }
+      
     ]
   },
   {
@@ -26302,15 +26941,15 @@
     "pokemon":"Snom",
     "items":[
       {
-        "item":"minecraft:string",
+        "item":"minecraft:snowball",
         "min":1,
         "max":2,
         "chance":1.0
       },
       {
-        "item":"minecraft:snowball",
+        "item":"byg:winter_rose",
         "min":1,
-        "max":1,
+        "max":2,
         "chance":0.5
       },
       {
@@ -26325,22 +26964,22 @@
     "pokemon":"Frosmoth",
     "items":[
       {
-        "item":"minecraft:string",
-        "min":1,
-        "max":3,
-        "chance":1.0
-      },
-      {
         "item":"minecraft:snow_block",
         "min":1,
         "max":2,
+        "chance":1.0
+      },
+      {
+        "item":"byg:snowdrops",
+        "min":1,
+        "max":4,
         "chance":0.5
       },
       {
-        "item":"minecraft:fermented_spider_eye",
+        "item":"byg:winter_rose",
         "min":1,
-        "max":2,
-        "chance":0.3
+        "max":4,
+        "chance":0.5
       },
       {
         "item":"pixelmon:silver_powder",
@@ -28127,6 +28766,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"habitat:orange_ball_cactus_flower",
+        "min":1,
+        "max":1,
+        "chance":0.05
       }
     ]
   },
@@ -28150,6 +28795,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"habitat:pink_ball_cactus_flower",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },

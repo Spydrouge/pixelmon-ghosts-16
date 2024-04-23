@@ -261,14 +261,21 @@
 				item: "pixelmon:shed_shell"
 				consume_items: false
 			}]
-			rewards: [{
-				id: "058D5B85F3257D2C"
-				type: "command"
-				title: "Recieve a Pokemon Egg"
-				icon: "minecraft:turtle_egg"
-				command: "/pokegive @p Nincada egg ball:premier_ball"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "058D5B85F3257D2C"
+					type: "command"
+					title: "Recieve a Pokemon Egg"
+					icon: "minecraft:turtle_egg"
+					command: "/pokegive @p Nincada egg ball:premier_ball"
+					player_command: false
+				}
+				{
+					id: "0EB3D3B6A8B3BE13"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+			]
 		}
 		{
 			title: "Teapot"
@@ -304,14 +311,21 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2D2F2E92B0928666"
-				type: "command"
-				title: "Recieve a Pokemon Egg"
-				icon: "minecraft:turtle_egg"
-				command: "/pokegive @p Sinistea egg ball:premier_ball"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "2D2F2E92B0928666"
+					type: "command"
+					title: "Recieve a Pokemon Egg"
+					icon: "minecraft:turtle_egg"
+					command: "/pokegive @p Sinistea egg ball:premier_ball"
+					player_command: false
+				}
+				{
+					id: "44AFED8D0DF8A877"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+			]
 		}
 		{
 			x: -1.0d

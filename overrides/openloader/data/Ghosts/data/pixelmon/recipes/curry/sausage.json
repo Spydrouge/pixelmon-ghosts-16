@@ -1,0 +1,13 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_bacon"
+    }
+    
+  ],
+  "result": {
+    "item": "pixelmon:curry_sausage",
+    "count": 1
+  }
+}

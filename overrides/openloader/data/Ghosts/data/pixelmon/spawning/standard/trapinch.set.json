@@ -14,6 +14,10 @@
         {
           "itemID": "pixelmon:soft_sand",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:mago_berry",
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -37,6 +41,10 @@
         {
           "itemID": "pixelmon:soft_sand",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:mago_berry",
+          "percentChance": 25
         }
       ],
       "condition": {

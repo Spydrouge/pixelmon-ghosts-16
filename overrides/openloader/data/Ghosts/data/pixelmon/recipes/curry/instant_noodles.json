@@ -1,0 +1,18 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:curry_instant_noodle",
+    "count": 1
+  }
+}

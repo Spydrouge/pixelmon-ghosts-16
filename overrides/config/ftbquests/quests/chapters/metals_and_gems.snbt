@@ -27,6 +27,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:iron_ingot"
 			x: -5.0d
 			y: 1.5d
 			description: [
@@ -44,11 +45,18 @@
 				type: "item"
 				item: "minecraft:iron_nugget"
 			}]
-			rewards: [{
-				id: "42EF2F45D23F87FB"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "42EF2F45D23F87FB"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "78947CD98D8575AB"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -66,11 +74,18 @@
 				type: "item"
 				item: "minecraft:gold_ingot"
 			}]
-			rewards: [{
-				id: "485BABD70487017A"
-				type: "item"
-				item: "pixelmon:yellow_shard"
-			}]
+			rewards: [
+				{
+					id: "485BABD70487017A"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "36FC2504E7D204BB"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -154,15 +169,22 @@
 				type: "item"
 				item: "minecraft:coal"
 			}]
-			rewards: [{
-				id: "6176F83843646527"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "6176F83843646527"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "3F527E0FBC200B93"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 3.5d
-			y: 4.5d
+			y: 5.0d
 			description: ["Silicon is dropped by members of the Porygon family. These spawn indoors and on manmade structures in the Soil layer, your starting layer, between Y = 64 and 96."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -172,15 +194,22 @@
 				type: "item"
 				item: "pixelmon:silicon"
 			}]
-			rewards: [{
-				id: "2BF3F674A28665C1"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "2BF3F674A28665C1"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "45840D3B18A36F0C"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -1.5d
-			y: 4.5d
+			y: 5.0d
 			description: [
 				"The easiest way to harvest aluminum nuggets is to summon the rain with Rain Dance and to head indoors or underground between Y levels 64 and 182."
 				""
@@ -220,11 +249,18 @@
 				type: "item"
 				item: "minecraft:redstone"
 			}]
-			rewards: [{
-				id: "6556D6764257D178"
-				type: "item"
-				item: "pixelmon:red_shard"
-			}]
+			rewards: [
+				{
+					id: "6556D6764257D178"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "6EB73BD85E592DD1"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -242,14 +278,21 @@
 				type: "item"
 				item: "minecraft:glowstone_dust"
 			}]
-			rewards: [{
-				id: "1C2AB5B95E1AE6A7"
-				type: "item"
-				item: "pixelmon:yellow_shard"
-			}]
+			rewards: [
+				{
+					id: "1C2AB5B95E1AE6A7"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "2A0219FCA7514EBF"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: -0.5d
 			description: [
 				"Rotom spawns can be increased by placing objects associated with their form in the area they spawn. For instance, placing a mower near where Rotom Mow spawns will increase Rotom Mow spawns."
@@ -274,7 +317,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: -1.5d
 			dependencies: ["54DE70CE9E377408"]
 			hide: true
@@ -340,7 +383,7 @@
 		}
 		{
 			x: 1.5d
-			y: 4.5d
+			y: 5.0d
 			description: ["Boldore can drop Rubies, and one is guarenteed to drop from a Staryu, but Zombie Sableye which spawn in the Underground of the Murk layer between Y levels 96 and 128 might be a more reliable source."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -350,15 +393,22 @@
 				type: "item"
 				item: "pixelmon:ruby"
 			}]
-			rewards: [{
-				id: "16A1992443DA20FF"
-				type: "item"
-				item: "pixelmon:red_shard"
-			}]
+			rewards: [
+				{
+					id: "16A1992443DA20FF"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "552157B45702836B"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 2.5d
-			y: 4.5d
+			y: 5.0d
 			description: [
 				"Sapphire is rarer and less reliable than Ruby. It can occasionally be harvested from Sableye or Carbink, but it is meant to be harvested from Dratini, which is very rare. "
 				""
@@ -372,15 +422,22 @@
 				type: "item"
 				item: "pixelmon:sapphire"
 			}]
-			rewards: [{
-				id: "4D51310F7C055F18"
-				type: "item"
-				item: "pixelmon:blue_shard"
-			}]
+			rewards: [
+				{
+					id: "4D51310F7C055F18"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "3BA8201A56084E44"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -0.5d
-			y: 4.5d
+			y: 5.0d
 			description: [
 				"The most reliable source of crystal will come from Carbink, which is deep, deep under the earth below Y = 32. Carbink are primarily made of this crystal."
 				""
@@ -394,15 +451,22 @@
 				type: "item"
 				item: "pixelmon:crystal"
 			}]
-			rewards: [{
-				id: "32BC3AA001CCBC3C"
-				type: "item"
-				item: "pixelmon:blue_shard"
-			}]
+			rewards: [
+				{
+					id: "32BC3AA001CCBC3C"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "3E7EEAE0F58E6625"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 0.5d
-			y: 4.5d
+			y: 5.0d
 			description: ["Amethyst can be harvested in plenty from regular Sableye, which hunts Carbink at the bottom of the Deep Dark Level below Y = 32."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -412,6 +476,18 @@
 				type: "item"
 				item: "pixelmon:amethyst"
 			}]
+			rewards: [
+				{
+					id: "4783A9A0A1718A28"
+					type: "choice"
+					table_id: 6775360253834921576L
+				}
+				{
+					id: "21B2B884BC7E7C7A"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -425,11 +501,18 @@
 				type: "item"
 				item: "minecraft:lapis_lazuli"
 			}]
-			rewards: [{
-				id: "041AF3106E4D1C90"
-				type: "item"
-				item: "pixelmon:blue_shard"
-			}]
+			rewards: [
+				{
+					id: "041AF3106E4D1C90"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "3F697EC5CA190DE0"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -443,11 +526,18 @@
 				type: "item"
 				item: "minecraft:diamond"
 			}]
-			rewards: [{
-				id: "2AB5651D9E443AD0"
-				type: "item"
-				item: "pixelmon:blue_shard"
-			}]
+			rewards: [
+				{
+					id: "2AB5651D9E443AD0"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "4FA3E0910953BB2A"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -465,11 +555,18 @@
 				type: "item"
 				item: "minecraft:emerald"
 			}]
-			rewards: [{
-				id: "2106310F0C216CFD"
-				type: "item"
-				item: "pixelmon:green_shard"
-			}]
+			rewards: [
+				{
+					id: "2106310F0C216CFD"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "0302705C850AD468"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -511,7 +608,7 @@
 		}
 		{
 			x: -2.5d
-			y: 4.5d
+			y: 5.0d
 			description: [
 				"A wide variety of seemingly unrelated Pokemon drop silver ore, nuggets, or ingots"
 				""
@@ -527,15 +624,22 @@
 				type: "item"
 				item: "pixelmon:silver_ingot"
 			}]
-			rewards: [{
-				id: "55B124BF78D4A368"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "55B124BF78D4A368"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "7D592F7AECEA8BAD"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -3.5d
-			y: 4.5d
+			y: 5.0d
 			description: [
 				"Platinum is incredibly rare, and used for making the highest level Pokeballs."
 				""
@@ -559,6 +663,11 @@
 					id: "4A616205B90038FE"
 					type: "item"
 					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "3CD77ED660429874"
+					type: "random"
+					table_id: 6443510782262151491L
 				}
 			]
 		}
@@ -684,6 +793,7 @@
 					id: "165868EA374C875D"
 					type: "item"
 					item: "pixelmon:sweet_heart"
+					count: 3
 				}
 				{
 					id: "3A5044DF43208292"
@@ -755,7 +865,11 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."]
+			description: [
+				"This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."
+				""
+				"Additionally, while the regular recipe calls for Silver, you believe you can substitute in Lead Ingots."
+			]
 			dependencies: ["3449AF12CF6DC77F"]
 			hide: true
 			id: "61156024E1329533"
@@ -818,21 +932,6 @@
 			}]
 			rewards: [
 				{
-					id: "2ACC267E4B6B73EE"
-					type: "item"
-					item: "pixelmon:blue_shard"
-				}
-				{
-					id: "4E0091027771479C"
-					type: "item"
-					item: "pixelmon:white_shard"
-				}
-				{
-					id: "23E3EC0D4D07AD38"
-					type: "item"
-					item: "pixelmon:green_shard"
-				}
-				{
 					id: "76D911F052AAF6E5"
 					type: "item"
 					item: {
@@ -842,6 +941,11 @@
 							tm: 39
 						}
 					}
+				}
+				{
+					id: "246A2BDC72CC1669"
+					type: "random"
+					table_id: 9093306389108564916L
 				}
 			]
 		}
@@ -1006,8 +1110,8 @@
 		}
 		{
 			title: "Copper"
-			x: -3.5d
-			y: -6.0d
+			x: -2.5d
+			y: -7.0d
 			description: [
 				"Copper is a fairly common drop. In the past you could harvest it from Cufant, but in the present you will have to look to Pokemon like Bronzor, Beldum, and Klink. "
 				""
@@ -1028,15 +1132,22 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7760E6D8C0A9310B"
-				type: "item"
-				item: "pixelmon:red_shard"
-			}]
+			rewards: [
+				{
+					id: "7760E6D8C0A9310B"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "42F0A54681E54E19"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
-			x: -2.5d
-			y: -6.0d
+			x: -3.5d
+			y: -7.0d
 			description: [
 				"Tin is less plentiful than copper, but can be harvested from Klink who can be attracted to open-air manmade habitats on the Stone layer. Also on the stone layer, it can be dropped infrequently by Baloty, which spawns in manmade but indoor habitats."
 				""
@@ -1050,15 +1161,22 @@
 				type: "item"
 				item: "thermal:tin_ingot"
 			}]
-			rewards: [{
-				id: "6F11734429227345"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "6F11734429227345"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "6838F994AA9D49C4"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
-			x: 2.5d
-			y: -6.0d
+			x: 1.5d
+			y: -8.0d
 			description: [
 				"Brass can be alloyed from Zinc and Copper."
 				""
@@ -1066,6 +1184,7 @@
 				""
 				"Alternatively, it can be harvested directly from Chingling, which can be attracted to numerous habitats in the Space layer."
 			]
+			hide_dependency_lines: true
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "0D248812DE33472B"
@@ -1074,10 +1193,22 @@
 				type: "item"
 				item: "contenttweaker:brass_ingot"
 			}]
+			rewards: [
+				{
+					id: "28A27AC8BB60242E"
+					type: "choice"
+					table_id: 8717960779849246681L
+				}
+				{
+					id: "1F566BFE6D36B858"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
 		}
 		{
 			x: -3.0d
-			y: -7.0d
+			y: -8.0d
 			description: [
 				"Bronze can be alloyed from tin and copper, but it can also be harvested directly from Bronzor and Bronzong. "
 				""
@@ -1092,15 +1223,22 @@
 				type: "item"
 				item: "thermal:bronze_ingot"
 			}]
-			rewards: [{
-				id: "22448813980089F5"
-				type: "item"
-				item: "pixelmon:yellow_shard"
-			}]
+			rewards: [
+				{
+					id: "0E20036BDBDE23AF"
+					type: "choice"
+					table_id: 1689588629867739314L
+				}
+				{
+					id: "713A415BBFF35EFE"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
 		}
 		{
 			x: 3.5d
-			y: -6.0d
+			y: -7.0d
 			description: [
 				"Cobalt is typically located in the nether, if you remember correctly."
 				""
@@ -1114,15 +1252,28 @@
 				type: "item"
 				item: "tconstruct:cobalt_ingot"
 			}]
-			rewards: [{
-				id: "5ECA1A4033287910"
-				type: "item"
-				item: "pixelmon:blue_shard"
-			}]
+			rewards: [
+				{
+					id: "5ECA1A4033287910"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "1A9088F667461E2F"
+					type: "item"
+					item: "byg:blue_sand"
+					count: 32
+				}
+				{
+					id: "64948299AB37106C"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 1.5d
-			y: -6.0d
+			y: -7.0d
 			subtitle: "Green Metal"
 			description: [
 				"Zinc is common in shellfish Pokemon. "
@@ -1153,12 +1304,21 @@
 					item: "pixelmon:zinc"
 					count: 5
 				}
+				{
+					id: "762A7DDA1D415B0C"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
 			]
 		}
 		{
 			x: 7.0d
 			y: 0.0d
-			description: ["Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."]
+			description: [
+				"Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."
+				""
+				"Additionally, Gigaton Balls can be made with Lead Plates as an alternative to Platinum."
+			]
 			dependencies: ["61156024E1329533"]
 			hide: true
 			id: "6ADA80A32DE8B4B4"
@@ -1190,6 +1350,17 @@
 					type: "item"
 					item: "pixelmon:black_shard"
 					count: 3
+				}
+				{
+					id: "03AF90C5E3F5BD67"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 79
+						}
+					}
 				}
 			]
 		}
@@ -1272,25 +1443,15 @@
 					}
 				}
 				{
-					id: "3F252865D2A3FDEE"
-					type: "item"
-					item: "pixelmon:blue_shard"
-				}
-				{
-					id: "11C36B63E6C6D046"
-					type: "item"
-					item: "pixelmon:green_shard"
-				}
-				{
-					id: "41B33E98604CE085"
-					type: "item"
-					item: "pixelmon:white_shard"
+					id: "34BFA6C43F13411D"
+					type: "random"
+					table_id: 9093306389108564916L
 				}
 			]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
+			x: -0.5d
+			y: -7.0d
 			subtitle: "purple Metal"
 			description: [
 				"Lead appears to be dropped by exceptionally slow steel-type Pokemon. Look for Shellmet and Escavelier on the Soil Layer on open-air man-made habitats."
@@ -1298,6 +1459,8 @@
 				"Forretress, if you can find it, might be primarily made of lead."
 				""
 				"Cranidos has some lead in its head bump. Cranidos can be attracted to habitats built in the Deep Dark Layer, on open land."
+				""
+				"Lead has the unique ability to be used in place of iron, aluminum, silver, and platinum in the recipes of Ancient Heavy, Leaden, and Gigaton balls."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1324,6 +1487,17 @@
 					title: "Drifloon seems to have found a flower that can clean up lead from soil"
 					item: "biomesoplenty:lavender"
 				}
+				{
+					id: "11CDD8C55F54D772"
+					type: "item"
+					item: "byg:purple_sand"
+					count: 16
+				}
+				{
+					id: "7C436F97B4F07B77"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
 			]
 		}
 		{
@@ -1348,15 +1522,22 @@
 					item: "tconstruct:soul_glass"
 				}
 			]
-			rewards: [{
-				id: "4A291E9F94BFD651"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "4A291E9F94BFD651"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "394A112614E02189"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 0.5d
-			y: -6.0d
+			y: -7.0d
 			description: [
 				"Uranium is a very important ingredient for creating Necronium. "
 				""
@@ -1372,11 +1553,29 @@
 				type: "item"
 				item: "immersiveengineering:ingot_uranium"
 			}]
-			rewards: [{
-				id: "42340AEA7B1D49D2"
-				type: "item"
-				item: "minecraft:lilac"
-			}]
+			rewards: [
+				{
+					id: "42340AEA7B1D49D2"
+					type: "item"
+					item: "minecraft:lilac"
+				}
+				{
+					id: "308B5FD835078E9E"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "4A48249869859DAE"
+					type: "item"
+					item: "biomesoplenty:black_sand"
+					count: 16
+				}
+				{
+					id: "7DBC0F344EF7E849"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -1442,14 +1641,21 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "50D41EF494094191"
-				type: "choice"
-				table_id: 7252355757410882407L
-			}]
+			rewards: [
+				{
+					id: "50D41EF494094191"
+					type: "choice"
+					table_id: 7252355757410882407L
+				}
+				{
+					id: "4C556B92E55BC12F"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: -2.5d
 			dependencies: ["6E571FA937A9F129"]
 			hide: true
@@ -1498,8 +1704,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -6.0d
+			x: -1.5d
+			y: -7.0d
 			description: ["Nickle is usually found in close proximity to Iron. You can attract out Alolan Geodude by placing down redstone where Geodude naturally spawn, and they will often drop more nickle than iron."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1509,20 +1715,245 @@
 				type: "item"
 				item: "thermal:nickel_ingot"
 			}]
+			rewards: [
+				{
+					id: "1A27DC9B2BFAA359"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "44F78BA3712BB8E8"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -2.5d
-			y: 5.5d
+			y: 6.0d
 			description: [
-				"Electrum can be alloyed from gold and silver. It also drops in small quantities from certain Pokemon."
+				"Electrum can be alloyed from gold and silver. It also drops in small quantities from certain Pokemon, like Tynamo, which spawns in Underground water on the Soil Layer."
 				""
+				"Electrum has the unique ability to be used in place of Iron, Aluminum, Silver, and Platinum in Wing, Feather, and Jet Ball Lids."
 			]
+			hide_dependency_lines: true
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "0C025DDF5CAA04EF"
 			tasks: [{
 				id: "1CB9792831725E75"
 				type: "item"
 				item: "thermal:electrum_ingot"
 			}]
+			rewards: [
+				{
+					id: "6367BF1CAB219F42"
+					type: "choice"
+					table_id: 7252355757410882407L
+				}
+				{
+					id: "6CD71D60FD63D992"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			description: [
+				"Invar is formed from a mixture of iron and nickle. Because iron is rare, you might want to abstain from alloying it yourself."
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "10FA5D943BCB7467"
+			tasks: [{
+				id: "1019B2B002C703F7"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
+			rewards: [
+				{
+					id: "39B5F9119B5028A6"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "0057880BBFDB92DE"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			description: ["While making the Wing Ball according to its usual recipe would be a massive waste of resources, you think you can create a Wing Ball lid using Electrum Wire."]
+			dependencies: ["0C4615C77474AEBD"]
+			id: "1FE3287A37C5C2BD"
+			tasks: [{
+				id: "7E90DA467DD653CB"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "wing_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A011C605820655B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 159
+						}
+					}
+				}
+				{
+					id: "5F405C40F0C6FCE9"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["While making an Ancient Heavy Ball by the usual recipe would be a waste of iron, you believe you can substitute Lead Wire for the Iron Ingots in the recipe."]
+			dependencies: ["6ADA80A32DE8B4B4"]
+			id: "5D21B396FE5D7D44"
+			tasks: [{
+				id: "5E967A599C10977C"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_heavy_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "283C73271C2B0690"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 120
+						}
+					}
+				}
+				{
+					id: "2E84961BF0EE3250"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			description: [
+				"\"Fairy\" is the name given to an exotic metal made from combining wither-related liquid soul with the healing power of milk and alloying the result to gold. "
+				""
+				"While it is possible to create Fairy yourself, it is also likely that pink Fairy Pokemon such as Snubble, Clefairy, and Jigglypuff have collected a few nuggets, and will drop them if pressed. Some of these will be attracted to habitats on the Dazzle Layer."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "1E5435A0743B46EF"
+			tasks: [{
+				id: "473BC64BBFC67238"
+				type: "item"
+				item: "materialis:fairy_ingot"
+			}]
+			rewards: [
+				{
+					id: "69C4FD15F734F487"
+					type: "item"
+					item: "byg:pink_sand"
+					count: 16
+				}
+				{
+					id: "2A115FC7ED3F03DF"
+					type: "choice"
+					table_id: 4979549037345271657L
+				}
+				{
+					id: "38F4704B9A611236"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			description: ["Constantan is an alloy of Copper and Nickle that has an affinity for heat, and works well in the nether."]
+			id: "433F2B694D1B6F35"
+			tasks: [{
+				id: "2B35D443AC5FA23D"
+				type: "item"
+				item: "immersiveengineering:ingot_constantan"
+			}]
+			rewards: [
+				{
+					id: "04092A91BE52CD96"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "0F8B9EE70EBD060E"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			description: ["Quartz will drop from Drifloon, Carbink, and the red Sableeye attracted to habitats on the Murk Layer."]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "5B1B503068626524"
+			tasks: [{
+				id: "7684639E91409365"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+			rewards: [{
+				id: "7705C0B5A240BF90"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "50C7C2EAC78A4B4A"
+			tasks: [
+				{
+					id: "33CFEFE20F9E8CB1"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+				}
+				{
+					id: "26D633ADDAB3648E"
+					type: "item"
+					item: "minecraft:prismarine_crystals"
+				}
+			]
 		}
 	]
 }

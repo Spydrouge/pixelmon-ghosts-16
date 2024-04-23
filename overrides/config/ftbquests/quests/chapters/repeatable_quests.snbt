@@ -504,10 +504,9 @@
 					consume_items: true
 				}
 				{
-					id: "019F929F64A2D8F3"
+					id: "364203A2B937FBFA"
 					type: "item"
-					item: "botania:white_petal"
-					consume_items: true
+					item: "minecraft:white_dye"
 				}
 			]
 			rewards: [{
@@ -2705,6 +2704,11 @@
 					}
 					consume_items: true
 				}
+				{
+					id: "3EC25B0B01309F1E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
 			]
 			rewards: [{
 				id: "443C8F7F66BB68DE"
@@ -3054,6 +3058,7 @@
 					id: "36B0870EE66F489E"
 					type: "item"
 					item: "minecraft:pumpkin_seeds"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3090,6 +3095,7 @@
 					id: "4AD19907DCBDBD1F"
 					type: "item"
 					item: "minecraft:wheat_seeds"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3122,6 +3128,7 @@
 					id: "696D9D09C226FD1C"
 					type: "item"
 					item: "farmersdelight:tomato_seeds"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3154,6 +3161,7 @@
 					id: "1F8AFD3233893129"
 					type: "item"
 					item: "minecraft:melon_seeds"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3244,7 +3252,7 @@
 			title: "PC Access"
 			icon: "pixelmon:red_pc"
 			x: -0.5d
-			y: 3.5d
+			y: 4.5d
 			subtitle: "Please God, Can I Use the Internet?"
 			description: [
 				"You... really need to organize your eggs. Some of these Pokemon are more helpful to you than others, and you may have taken on more than you can handle."
@@ -3254,6 +3262,7 @@
 			hide_dependency_lines: true
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
+			size: 3.0d
 			optional: true
 			repeatable: true
 			id: "2CCEEA76B9CF481A"
@@ -3321,6 +3330,973 @@
 				id: "0DFF3FFBB88444C4"
 				type: "random"
 				table_id: 3326367320772814356L
+			}]
+		}
+		{
+			title: "Offerings for Building Blocks"
+			disable_toast: true
+			x: -16.5d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide_dependency_lines: true
+			dependency_requirement: "one_started"
+			secret: true
+			id: "43BCB30C316A703D"
+			tasks: [{
+				id: "735DBD75174F422D"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:black_glazed_terracotta"
+			x: -16.5d
+			y: -4.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "17B1956876B42718"
+			tasks: [{
+				id: "73A9EE88C425C699"
+				type: "item"
+				item: "pixelmon:black_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "566048154683F560"
+				type: "item"
+				item: "minecraft:black_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:white_glazed_terracotta"
+			x: -16.5d
+			y: -10.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "533C9C5ED846238B"
+			tasks: [{
+				id: "78FEB95F511384CC"
+				type: "item"
+				item: "pixelmon:white_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78F7DBC66695BC1A"
+				type: "item"
+				item: "minecraft:white_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:yellow_glazed_terracotta"
+			x: -15.5d
+			y: -5.0d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "66F19FAE2E33C91F"
+			tasks: [{
+				id: "733B192A5BDC9AB8"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "476DD94AB152BDC9"
+				type: "item"
+				item: "minecraft:yellow_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:green_glazed_terracotta"
+			x: -17.5d
+			y: -10.0d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "132D9D464D801765"
+			tasks: [{
+				id: "0D10104F387B1BC5"
+				type: "item"
+				item: "pixelmon:green_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F0DCA14F5C5E26B"
+				type: "item"
+				item: "minecraft:green_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:red_glazed_terracotta"
+			x: -15.5d
+			y: -10.0d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "381FFBF57151688E"
+			tasks: [{
+				id: "3ABF801FC74786F3"
+				type: "item"
+				item: "pixelmon:red_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "69C40C9A52AA770F"
+				type: "item"
+				item: "minecraft:red_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:blue_glazed_terracotta"
+			x: -17.5d
+			y: -5.0d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "56A89927BE8ED376"
+			tasks: [{
+				id: "28EB43BD43E0DCD2"
+				type: "item"
+				item: "pixelmon:blue_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4D9E74527BEE1F15"
+				type: "item"
+				item: "minecraft:blue_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:light_blue_glazed_terracotta"
+			x: -19.0d
+			y: -6.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "410B539BDFEABDCF"
+			tasks: [
+				{
+					id: "010894E83EF4F8D1"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "037D8BC94E93F951"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "73D41FC4D259CC9A"
+				type: "item"
+				item: "minecraft:light_blue_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:cyan_glazed_terracotta"
+			x: -18.5d
+			y: -5.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "22E4A622A41F978D"
+			tasks: [
+				{
+					id: "01DB4BE4DD804FCC"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "7507D27EE7B225B5"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "375BB0AA8D17F88D"
+				type: "item"
+				item: "minecraft:cyan_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:pink_glazed_terracotta"
+			x: -14.5d
+			y: -9.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3B40BA8E558CB1CA"
+			tasks: [
+				{
+					id: "54D683C86C63D0DD"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "6F3624F994636F85"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "028F65C683D36AE0"
+				type: "item"
+				item: "minecraft:pink_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:light_gray_glazed_terracotta"
+			x: -19.0d
+			y: -8.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "340AF5002442E7DD"
+			tasks: [
+				{
+					id: "74D14E3E74631719"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "0F676C7A05FF83E5"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6780D90261FD958B"
+				type: "item"
+				item: "minecraft:light_gray_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:gray_glazed_terracotta"
+			x: -19.5d
+			y: -7.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "651074A877AD0BE5"
+			tasks: [
+				{
+					id: "0FA39F332DE11CF8"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "4F5246B80D36AAB6"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "46E8CD7211736D83"
+				type: "item"
+				item: "minecraft:gray_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:brown_glazed_terracotta"
+			x: -14.0d
+			y: -6.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5A27BABB86151FF3"
+			tasks: [
+				{
+					id: "5DEF78D40B298ACC"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "1611935B6E725984"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "454B2569A1DB27E7"
+				type: "item"
+				item: "minecraft:brown_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:orange_glazed_terracotta"
+			x: -14.5d
+			y: -5.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5DC58A10A4F214F9"
+			tasks: [
+				{
+					id: "6258DEAF4FD00F28"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "3225E3AE35306DE3"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6ABA79D09C1B8CCD"
+				type: "item"
+				item: "minecraft:orange_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:magenta_glazed_terracotta"
+			x: -14.0d
+			y: -8.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "66DE2D1F9C988943"
+			tasks: [
+				{
+					id: "2D671456EBD24606"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "5E4482F98613A8F1"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "062C638918E26DD3"
+				type: "item"
+				item: "minecraft:magenta_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:purple_glazed_terracotta"
+			x: -13.5d
+			y: -7.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6502D06AB79B858A"
+			tasks: [
+				{
+					id: "19C299CABD369DB2"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "248E99E60583D9EF"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "520164775210BC85"
+				type: "item"
+				item: "minecraft:purple_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:lime_glazed_terracotta"
+			x: -18.5d
+			y: -9.5d
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7706D44DC78EFE11"
+			tasks: [
+				{
+					id: "0CD3A03C45096CAD"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "254A8F4A423DEDC7"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4881FEDFCF401976"
+				type: "item"
+				item: "minecraft:lime_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			title: "Offerings for Building Blocks"
+			disable_toast: true
+			x: 15.0d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide_dependency_lines: true
+			secret: true
+			id: "72EFF20CBF4AB83F"
+			tasks: [{
+				id: "219110AA8961E615"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:white_concrete"
+			x: 15.0d
+			y: -10.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5ACD17FB3638B7BC"
+			tasks: [{
+				id: "0A93C8F462D6CB2B"
+				type: "item"
+				item: "pixelmon:white_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "561B5BADDF6EB5E3"
+				type: "item"
+				item: "minecraft:white_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:black_concrete"
+			x: 15.0d
+			y: -4.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "069CC2C89DAD4D5C"
+			tasks: [{
+				id: "0DEBC897870C969E"
+				type: "item"
+				item: "pixelmon:black_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15AEDAAC8D7B37DF"
+				type: "item"
+				item: "minecraft:black_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:blue_concrete"
+			x: 14.0d
+			y: -5.0d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2A0B45B0415D6EFE"
+			tasks: [{
+				id: "16C6B9522D7E32A3"
+				type: "item"
+				item: "pixelmon:blue_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "55DE7876972940E8"
+				type: "item"
+				item: "minecraft:blue_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:yellow_concrete"
+			x: 16.0d
+			y: -5.0d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7DF029EA70D0B57D"
+			tasks: [{
+				id: "51AE3B9D30141FA5"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "011E9F0739756B84"
+				type: "item"
+				item: "minecraft:yellow_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:green_concrete"
+			x: 14.0d
+			y: -10.0d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "056FA5810D432D9B"
+			tasks: [{
+				id: "28039762D15D65AB"
+				type: "item"
+				item: "pixelmon:green_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "734EEEE1E079EB50"
+				type: "item"
+				item: "minecraft:green_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:red_concrete"
+			x: 16.0d
+			y: -10.0d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "147FE028C13C7C80"
+			tasks: [{
+				id: "6203F1C16E2470FB"
+				type: "item"
+				item: "pixelmon:red_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1DE7B903D35051FB"
+				type: "item"
+				item: "minecraft:red_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:pink_concrete"
+			x: 17.0d
+			y: -9.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4437BFBB287FC76E"
+			tasks: [
+				{
+					id: "4B8E099E651BEE36"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "1AF579A6A5C7BCAF"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "00DF63A854E1366F"
+				type: "item"
+				item: "minecraft:pink_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:magenta_concrete"
+			x: 17.5d
+			y: -8.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "23C85A1B43906640"
+			tasks: [
+				{
+					id: "235214016F2D474F"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "124663205D5D368A"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4E8CB689FE5A75E8"
+				type: "item"
+				item: "minecraft:magenta_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:purple_concrete"
+			x: 18.0d
+			y: -7.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2C5F977F0ABE442A"
+			tasks: [
+				{
+					id: "2B8B71D977142E1B"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "23030264EBCA826F"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40F8FA62BC51CBF2"
+				type: "item"
+				item: "minecraft:purple_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:brown_concrete"
+			x: 17.5d
+			y: -6.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "55EFD8B4ED3619B2"
+			tasks: [
+				{
+					id: "4BFD832A073205C1"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "40366995DFE32197"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "264D675D1F7CB1E6"
+				type: "item"
+				item: "minecraft:brown_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:orange_concrete"
+			x: 17.0d
+			y: -5.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2AE33876942A5BF0"
+			tasks: [
+				{
+					id: "4754B052EDBA01C0"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "60E5763DBC8A2835"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "06FF34CA5732A481"
+				type: "item"
+				item: "minecraft:orange_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:lime_concrete"
+			x: 13.0d
+			y: -9.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6208BA83DA5A9237"
+			tasks: [
+				{
+					id: "27FE80F0146A0A4A"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "0FCD81DE4764729B"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "65F55491D8A1BFA5"
+				type: "item"
+				item: "minecraft:lime_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:light_gray_concrete"
+			x: 12.5d
+			y: -8.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0B3920A31C3C61BE"
+			tasks: [
+				{
+					id: "614055AFB27E0054"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "5201FCB86B638520"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "66BC85FACC8D7734"
+				type: "item"
+				item: "minecraft:light_gray_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:gray_concrete"
+			x: 12.0d
+			y: -7.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "586AB8C9E085DA55"
+			tasks: [
+				{
+					id: "22410BF76C988F05"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "348E6608D3FE3979"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "08CDFA1B89B1E8A5"
+				type: "item"
+				item: "minecraft:gray_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:light_blue_concrete"
+			x: 12.5d
+			y: -6.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "30B51998B87E469C"
+			tasks: [
+				{
+					id: "1033BF350B8027D9"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "23558EA2BC0A29B2"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "72D8211BDA5160E0"
+				type: "item"
+				item: "minecraft:light_blue_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:cyan_concrete"
+			x: 13.0d
+			y: -5.5d
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "1C017B33434405F6"
+			tasks: [
+				{
+					id: "7F403BFC742FEA67"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "610437D07677F397"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "41C981E9388D05C2"
+				type: "item"
+				item: "minecraft:cyan_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			x: -0.5d
+			y: 6.5d
+			description: [
+				"This prayer is for when you've placed down and end portal frame in an inadvisable location."
+				""
+				"Stand on the offending end portal frame block,  make this offering, and the block will be returned to your inventory."
+				""
+				"Because end portal frames are a full block tall with an eye in them, and only a partial block tall without an eye in them, this function will deal with end portal frames at ~ ~ ~ and ~ ~-1 ~ simultaneously, and refund you for each frame block it finds."
+			]
+			dependencies: ["42EC53C495F34D33"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "760FB813BC88486B"
+			tasks: [
+				{
+					id: "4B4D0884E175C9D1"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "5884AD8B98DEDC09"
+					type: "item"
+					item: "ends_delight:chorus_flower_pie"
+				}
+				{
+					id: "0786AD3F8C93862F"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+			]
+			rewards: [{
+				id: "4ECF8F160F355BD6"
+				type: "command"
+				title: "Will Remove End Portal Frames at ~ ~ ~ and ~ -1 ~ and refund them"
+				icon: "minecraft:end_portal_frame"
+				command: "/function ghosts:remove_end_portal_frame"
+				player_command: false
 			}]
 		}
 	]

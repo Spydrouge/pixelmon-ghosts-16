@@ -7,6 +7,16 @@
         "Air",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:figy_berry",
+          "percentChance": 75
+        },
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 10,
       "maxLevel": 12,
       "typeID": "pokemon",
@@ -24,6 +34,16 @@
       "stringLocationTypes": [
         "Air",
         "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:figy_berry",
+          "percentChance": 75
+        },
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
       ],
       "minLevel": 10,
       "maxLevel": 12,
@@ -43,6 +63,16 @@
         "Air",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:figy_berry",
+          "percentChance": 75
+        },
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 10,
       "maxLevel": 12,
       "typeID": "pokemon",
@@ -61,6 +91,16 @@
         "Air",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:figy_berry",
+          "percentChance": 75
+        },
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 10,
       "maxLevel": 12,
       "typeID": "pokemon",
@@ -78,6 +118,16 @@
       "stringLocationTypes": [
         "Air",
         "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:figy_berry",
+          "percentChance": 75
+        },
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
       ],
       "minLevel": 10,
       "maxLevel": 12,

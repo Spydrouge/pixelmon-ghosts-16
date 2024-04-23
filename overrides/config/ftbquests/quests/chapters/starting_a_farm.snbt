@@ -346,11 +346,18 @@
 				item: "minecraft:sugar_cane"
 				count: 16L
 			}]
-			rewards: [{
-				id: "0FE19EF212D35F4A"
-				type: "item"
-				item: "pixelmon:green_shard"
-			}]
+			rewards: [
+				{
+					id: "0FE19EF212D35F4A"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "4BBE46C4E610DFA5"
+					type: "item"
+					item: "inspirations:sugar_cane_seeds"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -422,14 +429,29 @@
 			]
 			rewards: [
 				{
-					id: "0F252D7C91D82504"
-					type: "item"
-					item: "pixelmon:red_shard"
+					id: "6B80B9C95AFE7607"
+					type: "choice"
+					table_id: 6775360253834921576L
 				}
 				{
-					id: "1AA72B8B2E125A2F"
+					id: "3FC5C591CD4ECAF8"
+					type: "choice"
+					table_id: 304043313987503645L
+				}
+				{
+					id: "593112CCF88FEAC0"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "5AE28DB91C134CDA"
 					type: "item"
-					item: "pixelmon:blue_shard"
+					item: "byg:purple_bulbis_anomaly"
+				}
+				{
+					id: "3C9B1D11BD2FEFCD"
+					type: "item"
+					item: "minecraft:end_portal_frame"
 				}
 			]
 		}
@@ -512,6 +534,11 @@
 					type: "pixelmon:pokedollars"
 					title: "Drifloon found some spare change!"
 					count: 1000
+				}
+				{
+					id: "15F07CF731852636"
+					type: "choice"
+					table_id: 3802547001370842731L
 				}
 			]
 		}
@@ -687,6 +714,35 @@
 				item: "minecraft:leather"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "6BCD64FF6A09C253"
+					type: "item"
+					item: "minecraft:leather"
+					count: 8
+				}
+				{
+					id: "09AF34E4E1741FC3"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "3A026B3217E9C10E"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 94
+						}
+					}
+				}
+				{
+					id: "7FF5FEE11181F1B6"
+					type: "item"
+					item: "pixelmon:moomoo_milk"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -708,9 +764,9 @@
 					item: "pixelmon:white_shard"
 				}
 				{
-					id: "5AD237CCA3861FD3"
+					id: "6148CC65E3C2FB77"
 					type: "choice"
-					table_id: 6443510782262151491L
+					table_id: 9093306389108564916L
 				}
 			]
 		}
@@ -747,11 +803,18 @@
 					count: 8L
 				}
 			]
-			rewards: [{
-				id: "1CAFCDCD4DAB25FA"
-				type: "choice"
-				table_id: 6775360253834921576L
-			}]
+			rewards: [
+				{
+					id: "1CAFCDCD4DAB25FA"
+					type: "choice"
+					table_id: 6775360253834921576L
+				}
+				{
+					id: "0ED687BE76D450CC"
+					type: "choice"
+					table_id: 5642343139233413577L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -786,6 +849,11 @@
 					title: "Drifloon found some spare change!"
 					count: 1000
 				}
+				{
+					id: "2D719D69EBA3363E"
+					type: "item"
+					item: "pixelmon:moomoo_milk"
+				}
 			]
 		}
 		{
@@ -812,9 +880,14 @@
 					table_id: 6775360253834921576L
 				}
 				{
-					id: "39A320F809E6BC3D"
+					id: "723978B3B4377A77"
 					type: "item"
-					item: "pixelmon:purple_umbrella"
+					item: "pixelmon:shell_bell"
+				}
+				{
+					id: "01007ADC145B85E1"
+					type: "item"
+					item: "minecraft:end_portal_frame"
 				}
 			]
 		}
@@ -892,11 +965,18 @@
 				item: "minecraft:ender_pearl"
 				count: 16L
 			}]
-			rewards: [{
-				id: "328A7D062DB2B045"
-				type: "choice"
-				table_id: 6737182399749106212L
-			}]
+			rewards: [
+				{
+					id: "328A7D062DB2B045"
+					type: "choice"
+					table_id: 6737182399749106212L
+				}
+				{
+					id: "00CA6D12F00BF816"
+					type: "item"
+					item: "minecraft:end_portal_frame"
+				}
+			]
 		}
 		{
 			title: "Fresh Fish"
@@ -1095,66 +1175,6 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 7.0d
-			id: "6A2594F545CC7418"
-			tasks: [{
-				id: "0AC4CD2F1ADC6FE3"
-				type: "item"
-				item: "pixelmon:figy_berry"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 7.0d
-			id: "55279A4FDAB9CDB1"
-			tasks: [{
-				id: "5E1781EBA2E0917D"
-				type: "item"
-				item: "pixelmon:aguav_berry"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 7.0d
-			id: "566E555757E59CEB"
-			tasks: [{
-				id: "694A16AEBB4E7F6C"
-				type: "item"
-				item: "pixelmon:iapapa_berry"
-			}]
-		}
-		{
-			x: 6.0d
-			y: 7.0d
-			id: "4D5A49F5CA3C3879"
-			tasks: [{
-				id: "4FEAF44730B78930"
-				type: "item"
-				item: "pixelmon:mago_berry"
-			}]
-		}
-		{
-			x: 7.0d
-			y: 7.0d
-			id: "229C1C2629490B05"
-			tasks: [{
-				id: "104710255CA09961"
-				type: "item"
-				item: "pixelmon:wiki_berry"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 7.0d
-			id: "0E1C05D12668E9A7"
-			tasks: [{
-				id: "237B0F2A1727A2B8"
-				type: "item"
-				item: "pixelmon:sitrus_berry"
-			}]
-		}
-		{
 			title: "Spice of Life"
 			x: -1.0d
 			y: -3.0d
@@ -1290,11 +1310,30 @@
 			dependencies: ["1455941647C48282"]
 			hide: true
 			id: "7E633685856802A3"
-			tasks: [{
-				id: "59F898DF2989150C"
-				type: "item"
-				item: "farmersdelight:organic_compost"
-			}]
+			tasks: [
+				{
+					id: "59F898DF2989150C"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+				}
+				{
+					id: "599B7DBB5E5E2A09"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+				}
+			]
+			rewards: [
+				{
+					id: "359C798525CC72E9"
+					type: "choice"
+					table_id: 8717960779849246681L
+				}
+				{
+					id: "46B4A76551FBB2A7"
+					type: "item"
+					item: "pixelmon:durin_berry"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -1302,7 +1341,7 @@
 			description: [
 				"Farmers can use this cooking pot to prepare more complex and nutrient rich foods, many of which give benefits like regeneration. Of course, you will need to collect more ingredients to make these recipes possible."
 				""
-				"Once you create a farmer's cooking pot, you will need to place it over a heat source, such as a campirefire, or a furnace which is currently burning something."
+				"Once you create a farmer's cooking pot, you will need to place it over a heat source, such as a campirefire, or over a lit furnace."
 			]
 			dependencies: ["1455941647C48282"]
 			hide: true
@@ -1312,11 +1351,18 @@
 				type: "item"
 				item: "farmersdelight:cooking_pot"
 			}]
-			rewards: [{
-				id: "3F887F3FFD2ACC85"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "3F887F3FFD2ACC85"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "38980D47D86AA416"
+					type: "item"
+					item: "pixelmon:durin_berry"
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -1329,6 +1375,7 @@
 				""
 				"Perhaps if you embue some beetroot seeds with blood using the casting basin, you might make something interesting..."
 			]
+			hide_dependency_lines: true
 			dependencies: ["7E8B9D29D34E8D2C"]
 			hide: true
 			secret: true
@@ -1775,10 +1822,9 @@
 					item: "pixelmon:red_shard"
 				}
 				{
-					id: "1C43F5EA48290293"
+					id: "0E383F0584DC14D3"
 					type: "item"
-					title: "Drifloon is Helping!"
-					item: "minecraft:torch"
+					item: "minecraft:lantern"
 				}
 			]
 		}
@@ -1798,10 +1844,136 @@
 				item: "minecraft:ghast_tear"
 				count: 16L
 			}]
-			rewards: [{
-				id: "1585916F9866628B"
+			rewards: [
+				{
+					id: "1585916F9866628B"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "5C20A01510D736F8"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: [
+				"You have also heard of a type of rich soil called \"Rich soul soil.\" You believe this should be very good for growing some nether crops, such as nether fungi."
+				""
+				"The warped roots you need to craft this soil can most probably be harvested from Lileep on the Deep Dark Layer."
+			]
+			dependencies: ["7E633685856802A3"]
+			hide: true
+			id: "0940C009E9B6F828"
+			tasks: [
+				{
+					id: "0AA1950EE49305B8"
+					type: "item"
+					item: "nethers_delight:soul_compost"
+				}
+				{
+					id: "5BAFBF390F75C828"
+					type: "item"
+					item: "nethers_delight:rich_soul_soil"
+				}
+			]
+			rewards: [
+				{
+					id: "7D02F565469BD299"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "2A2555CA331101B5"
+					type: "choice"
+					table_id: 6737182399749106212L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			description: [
+				"Phantom membranes can be used to create an elytra, in conjunction with other materials."
+				""
+				"They are dropped by a variety of ghosts, espcially those who wrap themselves in some form of fabric. Dreepy is the easiest source, as it spawns on the Soil Layer."
+			]
+			dependencies: ["187AE09D3D927F05"]
+			hide: true
+			id: "4BF23871613540D1"
+			tasks: [{
+				id: "56A76B83028F0056"
 				type: "item"
-				item: "pixelmon:white_shard"
+				item: "minecraft:phantom_membrane"
+			}]
+			rewards: [
+				{
+					id: "69ED30592A0E0E53"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "1FD9CF8E9CD72758"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: [
+				"Rice is a staple food that can only be planted on dirt submerged in one block of water."
+				""
+				"You expect to find it associated with marshes and water Pokemon... Perhaps Surskit will drop it, or Gulpin."
+			]
+			dependencies: ["2D3AE7D61C1C477F"]
+			id: "044BF012AA474471"
+			tasks: [{
+				id: "35CD70B7D83937C1"
+				type: "item"
+				item: "farmersdelight:rice"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			description: ["You can create slimy seeds the same way you created blood slime seeds: By infusing beetroots with slime."]
+			hide_dependency_lines: true
+			dependencies: [
+				"09EA3E3879D92F55"
+				"3C54F8C72B0083A1"
+			]
+			hide: true
+			id: "66D07BD04AFB9EB5"
+			tasks: [{
+				id: "532AB790ADFEA1B5"
+				type: "item"
+				item: "tconstruct:earth_slime_grass_seeds"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			description: [
+				"Greenheart saplings, a renewable source of slime and slime wood, can be found as a very rare drop from breaking green slimy grass."
+				""
+				"The chance of getting a sapling is increased with the fortune enchantment."
+			]
+			id: "5D4448D6E029643C"
+			tasks: [{
+				id: "5A20F9C7A0F2C16D"
+				type: "item"
+				item: "tconstruct:earth_slime_sapling"
+			}]
+			rewards: [{
+				id: "6AF8C5E635BB5CF3"
+				type: "item"
+				item: "pixelmon:green_shard"
 			}]
 		}
 	]

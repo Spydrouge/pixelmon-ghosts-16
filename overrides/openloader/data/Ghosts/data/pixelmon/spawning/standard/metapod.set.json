@@ -8,6 +8,12 @@
         "Headbutt",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "biomesoplenty:violet",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 6,
       "maxLevel": 11,
       "typeID": "pokemon",
@@ -26,6 +32,12 @@
         "Land",
         "Headbutt",
         "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "biomesoplenty:violet",
+          "percentChance": 25
+        }
       ],
       "minLevel": 6,
       "maxLevel": 11,

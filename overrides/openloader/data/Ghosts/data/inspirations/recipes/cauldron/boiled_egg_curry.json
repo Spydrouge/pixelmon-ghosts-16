@@ -1,0 +1,34 @@
+{
+  "type": "inspirations:cauldron",
+  "conditions": [
+    {
+      "prop": "recipes_module",
+      "type": "inspirations:config"
+    },
+    {
+      "prop": "cauldron_fluids",
+      "type": "inspirations:config"
+    }
+  ],
+  "input": {
+    "item": {
+      "item": "minecraft:egg"
+    },
+    "contents": {
+      "type": "inspirations:potion",
+      "name": "minecraft:water"
+    },
+    "level": {
+      "min": 4,
+      "max": 12
+    }
+  },
+  "output": {
+    "item": {
+      "item": "pixelmon:curry_boiled_egg"
+    },
+    "level": {
+      "add": -4
+    }
+  }
+}

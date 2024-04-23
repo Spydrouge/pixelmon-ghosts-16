@@ -456,7 +456,7 @@
 			]
 		}
 		{
-			title: "Catch a Pokemon who Knows Rock Smash"
+			title: "Catch (or Hatch) a Pokemon who Knows Rock Smash"
 			x: 0.0d
 			y: -6.5d
 			subtitle: "Use Carefully!"
@@ -1186,7 +1186,7 @@
 		{
 			x: 2.5d
 			y: -7.0d
-			description: ["Relic Artifacts, when placed on the ground, attract Legendary Pokemon. These Legendary Pokemon cannot be caught, and are very difficult to defeat. If you defeat them, they will be transformed into an egg, and given to you."]
+			description: ["Relic Artifacts, when placed on the ground, attract Legendary Pokemon. These Legendary Pokemon cannot be caught, and are very difficult to defeat. If you defeat them, they will be transformed into an egg, and given to you to hatch."]
 			dependencies: ["578714F5CA6ED6D0"]
 			id: "0FFB4F2F31FCCCC3"
 			tasks: [

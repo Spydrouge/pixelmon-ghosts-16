@@ -6,6 +6,16 @@
       "stringLocationTypes": [
         "Underground Water"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:mago_berry",
+          "percentChance": 75
+        }
+      ],
       "minLevel": 45,
       "maxLevel": 55,
       "typeID": "pokemon",

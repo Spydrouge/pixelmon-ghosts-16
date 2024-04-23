@@ -1,0 +1,18 @@
+{
+	id: "68D920FFBCF7D1A8"
+	order_index: 14
+	title: "Choice in Evolutionary Shard"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:fire_stone_shard" }
+		{ item: "pixelmon:water_stone_shard" }
+		{ item: "pixelmon:moon_stone_shard" }
+		{ item: "pixelmon:thunder_stone_shard" }
+		{ item: "pixelmon:leaf_stone_shard" }
+		{ item: "pixelmon:sun_stone_shard" }
+		{ item: "pixelmon:dawn_stone_shard" }
+		{ item: "pixelmon:dusk_stone_shard" }
+		{ item: "pixelmon:ice_stone_shard" }
+		{ item: "pixelmon:shiny_stone_shard" }
+	]
+}

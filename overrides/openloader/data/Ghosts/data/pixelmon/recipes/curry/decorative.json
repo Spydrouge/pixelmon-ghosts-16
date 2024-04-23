@@ -1,0 +1,17 @@
+{
+    
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "pixelmon:curry_seasoned"
+    }
+    
+  ],
+  "result": {
+    "item": "pixelmon:curry_decorative",
+    "count": 1
+  }
+}

@@ -8,6 +8,12 @@
         "Headbutt",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:figy_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 10,
       "maxLevel": 11,
       "typeID": "pokemon",

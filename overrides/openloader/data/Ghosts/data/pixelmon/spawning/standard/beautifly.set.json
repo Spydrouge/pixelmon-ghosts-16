@@ -7,6 +7,16 @@
         "Air",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wiki_berry",
+          "percentChance": 75
+        },
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 10,
       "maxLevel": 12,
       "typeID": "pokemon",

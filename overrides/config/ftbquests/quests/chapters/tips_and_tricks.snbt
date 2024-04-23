@@ -133,12 +133,19 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "51325F5EB50DDD16"
-				type: "item"
-				title: "Drifloon brought you this. You wonder if it knows how yucky it tastes."
-				item: "pixelmon:energy_powder"
-			}]
+			rewards: [
+				{
+					id: "51325F5EB50DDD16"
+					type: "item"
+					title: "Drifloon brought you this. You wonder if it knows how yucky it tastes."
+					item: "pixelmon:energy_powder"
+				}
+				{
+					id: "38D37B7FC87A28B6"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+			]
 		}
 		{
 			title: "How to Defeat Rock Pokemon?"
@@ -211,11 +218,18 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "4C87FB0DE39067C1"
-				type: "item"
-				item: "tconstruct:necrotic_bone"
-			}]
+			rewards: [
+				{
+					id: "4C87FB0DE39067C1"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+				{
+					id: "564A9A7FCF74B53D"
+					type: "item"
+					item: "byg:green_apple"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -381,11 +395,18 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "13A57A047D78E429"
-				type: "item"
-				item: "pixelmon:curry_bone"
-			}]
+			rewards: [
+				{
+					id: "13A57A047D78E429"
+					type: "item"
+					item: "pixelmon:curry_bone"
+				}
+				{
+					id: "42A48D2E7B035050"
+					type: "item"
+					item: "minecraft:beetroot_soup"
+				}
+			]
 		}
 		{
 			title: "Tier 1 Tools"
@@ -426,7 +447,7 @@
 				}
 			}
 			x: 1.0d
-			y: -3.5d
+			y: -3.0d
 			description: [
 				"Regular &7Stone&r tools can be made out of &cGranite&r or &7Andesite&r. Stone tools make inferior weapons and superior tools."
 				""
@@ -505,9 +526,9 @@
 					}
 				}
 				{
-					id: "1BACF1DFBB6D7CCD"
+					id: "02F780008A386F31"
 					type: "item"
-					item: "pixelmon:curry_burger"
+					item: "farmersdelight:minced_beef"
 				}
 			]
 		}
@@ -590,7 +611,7 @@
 				}
 			}
 			x: 3.0d
-			y: -3.5d
+			y: -3.0d
 			subtitle: "Welcome to Tinker's Weaponry!"
 			description: [
 				"&7Flint&r, &lBone&r, and &dNecrotic Bone&r are all first tier &acombat materials.&r"
@@ -629,7 +650,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: 0.0d
 			subtitle: "Do your own research"
 			description: [
@@ -657,9 +678,10 @@
 		}
 		{
 			title: "Guides"
-			x: -4.0d
+			x: -5.0d
 			y: 0.0d
 			description: ["These might be useful for making guidebooks..."]
+			dependencies: ["1183D242FD8FAF87"]
 			hide: true
 			secret: true
 			id: "64E523E4B319CEFB"
@@ -675,8 +697,9 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: 1.0d
+			description: ["This book may be valuable for understanding the ins and outs of botanical magic. You will probably want to make one around the same time you begin fiddling around with mushrooms."]
 			dependencies: ["64E523E4B319CEFB"]
 			hide: true
 			id: "0172B33E66286350"
@@ -689,10 +712,20 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5AFF7349B1557D9C"
+				type: "item"
+				item: "byg:withering_oak_sapling"
+			}]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: -1.0d
+			description: [
+				"It seems like it would be difficult to get started with Engineering. It requires so much iron!"
+				""
+				"Even just the hammer alone takes two ingots. It's not like all the metal you need is just going to fall out of the sky!"
+			]
 			dependencies: ["64E523E4B319CEFB"]
 			hide: true
 			id: "18C6CF463C4DB90A"
@@ -700,6 +733,18 @@
 				id: "00904035B20BCB33"
 				type: "item"
 				item: "immersiveengineering:manual"
+			}]
+			rewards: [{
+				id: "1E773894CA4AEA67"
+				type: "item"
+				title: "You're not sure if Drifloon just has great comic timing, or if this actually is just a coincidence."
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -743,7 +788,7 @@
 				}
 			}
 			x: 3.0d
-			y: -5.0d
+			y: -4.5d
 			description: [
 				"Given your resources on your starting layer, &cBloodbone&r is one of the most accessible materials to build tools with. It is also one of the best Tier 2 materials, especially for combat."
 				""
@@ -784,7 +829,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -7.0d
 			y: 0.0d
 			description: ["Perhaps you should create the manual for Tier 2 tools so you can look up the materials yourself?"]
 			dependencies: ["2D371D41E27A8496"]
@@ -847,7 +892,7 @@
 				}
 			}
 			x: 1.0d
-			y: -5.0d
+			y: -4.5d
 			description: [
 				"Suddenly you have access to so many new materials! But which ones are easy to get early on? &bWhitestone&r, a composite made from pouring aluminum on stone tool pieces, is a solid start. See the Metals and Gems chapter for how to easily get Aluminum."
 				""
@@ -894,6 +939,7 @@
 			dependencies: [
 				"5D91DB3381AE6B0A"
 				"36FD8B74304A58EA"
+				"7AC346897A2972C7"
 			]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -952,7 +998,7 @@
 				}
 			}
 			x: 5.0d
-			y: -3.5d
+			y: -3.0d
 			description: [
 				"You've observed the following traits with regards to armor:"
 				""
@@ -1022,7 +1068,7 @@
 				}
 			}
 			x: 5.0d
-			y: -5.0d
+			y: -4.5d
 			description: [
 				"Most upgrades to Witherbone are mild, and round out its weaknesses or promote different stats. Bloodbone, for instance, gives a thorns effect that scales with damage dealt. It has very slightly less armor, equal toughness, a boost to speed, and does not drop durability as much as Witherbone when used as Mail."
 				""
@@ -1045,6 +1091,12 @@
 				disable_toast: true
 				secret: true
 				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "1E2630F66B26A228"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+				count: 4
 			}]
 		}
 		{
@@ -1077,12 +1129,19 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "7A7A231BEBE010C6"
-				type: "item"
-				title: "Where is Drifloon finding all this soul sand?"
-				item: "minecraft:soul_sand"
-			}]
+			rewards: [
+				{
+					id: "7A7A231BEBE010C6"
+					type: "item"
+					title: "Where is Drifloon finding all this soul sand?"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "690F9AF5C57F75E0"
+					type: "item"
+					item: "minecraft:beetroot_soup"
+				}
+			]
 		}
 		{
 			title: "Musings on Duskull"
@@ -1157,7 +1216,7 @@
 				}
 			}
 			x: 5.0d
-			y: -6.5d
+			y: -6.0d
 			subtitle: "So many to choose from...!"
 			description: [
 				"You have a lot of equally good options for making your Tier 3 armor, all with different strong suites, weaknesses, and abilities. Each material has to be tracked down to a specific Layer, Habitat, and Pokemon. "
@@ -1234,7 +1293,7 @@
 				}
 			}
 			x: 1.0d
-			y: -6.5d
+			y: -6.0d
 			description: [
 				"There is no one right material for mining. &6Bronze&r is practical, easy to get, durable, and has a good mining speed. It's ability increases mining speed as long as durability is kept high. "
 				""
@@ -1304,7 +1363,7 @@
 				}
 			}
 			x: 3.0d
-			y: -6.5d
+			y: -6.0d
 			description: [
 				"The deadliest material for a sword is also the most dangerous, &aNecronium&r. A single strike of a Necronium sword, and the Wither III damage will kill a full-health Zombie.  However, 25% of the time, it will inflict you with that same effect. To use this blade safely, it must be managed with milk, regeneration from a Heartbeat, or some kind of wither protection."
 				""
@@ -1324,16 +1383,24 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "55AEF7819C7AC4ED"
-				type: "item"
-				item: "tconstruct:necrotic_bone"
-			}]
+			rewards: [
+				{
+					id: "55AEF7819C7AC4ED"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+				{
+					id: "20512101434E704E"
+					type: "item"
+					item: "immersiveengineering:nugget_uranium"
+					count: 3
+				}
+			]
 		}
 		{
 			icon: "tconstruct:rose_gold_ingot"
 			x: 2.0d
-			y: -7.5d
+			y: -7.0d
 			description: [
 				"&dFairy&r, &cRose Gold&r, and &eElectrum&r are seldom ideal as plate, tool heads, or sword blades, because they have low durability, low mining levels, low damage, and nonexistant toughness."
 				""
@@ -1498,6 +1565,259 @@
 				id: "54209475064FBDEE"
 				type: "item"
 				item: "byg:brim_powder"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			description: [
+				"An End Portal Frame block? You... might be able to do something with this. If you can collect twelve of these blocks, you might be able to lay out an End Portal Frame, fill it with Eyes of Ender, and travel to the End. "
+				""
+				"The End is of course a bleak and lifeless place, but it has blocks, and you can never have enough building materials."
+				""
+				"Will the End be filled with monsters? Will you have to fight the Dragon? You don't know."
+				""
+				"These blocks can be rotated with a wrench, if you accidentally set them down facing in the incorrect direction. Do not put the eyes of ender in until all of the blocks are facing inward (They only have 2 orientations; if it looks like it might be facing inward, it is facing inward)"
+				""
+				"If you place one down in the incorrect location, or place in all the eyes of ender before they're rotated correctly, you will have to use a prayer to pick them up again. Consult the \"Offerings to Arceus\" chapter."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1183D242FD8FAF87"]
+			secret: true
+			id: "42EC53C495F34D33"
+			tasks: [{
+				id: "0616EA3401CEFBBA"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+			rewards: [{
+				id: "6094DEC0674352F4"
+				type: "item"
+				item: "tconstruct:ender_slime_crystal"
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "pixelmon:purple_berry_wood_planks"
+				}
+			}
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"From the very beginning, there are modifiers-- \"Upgrades\" --you can apply to your weapons and tools which will enhance their functioning."
+				""
+				"Tinkers' gear can only accept so many modifiers. Since modifiers can greatly improve survivability and quality of life, you may want to apply plenty to your early gear, and then switch gear entirely as better modifiers unlock."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7AC346897A2972C7"]
+			hide: true
+			size: 2.0d
+			id: "02CA5502E9034C59"
+			tasks: [{
+				id: "0C55731FF53C9433"
+				type: "checkmark"
+				title: "Upgrades and Modifiers"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["The first modifier easily avaiable to you is the cobweb. Find a bug pokemon who drops them, and apply five to a weapon. The weapon will now apply the Slowness debuff."]
+			dependencies: ["02CA5502E9034C59"]
+			hide: true
+			id: "1883213DBF5AD0CA"
+			tasks: [{
+				id: "10E45968B177BEE3"
+				type: "item"
+				item: "minecraft:cobweb"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "5EF6631D9557195E"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "6A76A8B7C07BCEA6"
+					type: "item"
+					item: "minecraft:cobweb"
+					count: 5
+				}
+				{
+					id: "3BF7590909F33D70"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			description: ["There are three possible ways to complete this Quest's objective. The Quartz can be used to add Sharpness. The fermented Spider's Eye can be used to grant Bane of Arthropods (which will also work against Creepers, if ever needed). The Glistering Melon will add Smite."]
+			dependencies: ["1883213DBF5AD0CA"]
+			hide: true
+			min_required_tasks: 1
+			id: "109C1F4BD9D64F69"
+			tasks: [
+				{
+					id: "1168C5B8170D9E5F"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 36L
+				}
+				{
+					id: "06E3B73D8FCFFC2D"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+					count: 15L
+				}
+				{
+					id: "48A529512EA18CC2"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "7935DA95E64FAC56"
+					type: "item"
+					item: "tconstruct:silky_cloth"
+				}
+				{
+					id: "45B05373CBB7322E"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 18
+				}
+				{
+					id: "0D77AA69A55DAD70"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+					count: 5
+				}
+				{
+					id: "5AC54695852B9F56"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			description: [
+				"The necrotic effect was great on your Necrotic Bone weapons, but it's time to upgrade. If you'd like to keep the Necrotic effect, which &dheals you part of the damage dealt&r, you can apply a ghast tear, wither rose, and congealed blood to a weapon in the Tinker's Station"
+				""
+				"Observe that the Tinker's station can only apply modifiers with three or fewer ingredients. More complicated modifiers will require a Tinker's Anvil."
+			]
+			dependencies: [
+				"15FA67EAB413D40A"
+				"109C1F4BD9D64F69"
+			]
+			hide: true
+			id: "271828D9C21D5D23"
+			tasks: [
+				{
+					id: "2368E496E6BC9712"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "4DE227B99DB5A78A"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "342D709092705734"
+					type: "item"
+					item: "tconstruct:blood_congealed_slime"
+				}
+			]
+			rewards: [
+				{
+					id: "69D9337F97E5D35F"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+				{
+					id: "685062B13C61B4D2"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "0F5872AD3A625E93"
+					type: "item"
+					item: "tconstruct:blood_slime_ball"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			description: [
+				"Five blocks of redstone can be used to apply the \"haste\" upgrade to any tool."
+				""
+				"Redstone can also be added to armor to improve overall movement speed."
+			]
+			dependencies: ["02CA5502E9034C59"]
+			id: "7855FCEB224EF4FC"
+			tasks: [{
+				id: "74C8A466E6A9C03B"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 5L
+			}]
+			rewards: [{
+				id: "646400AA7D3EEFB3"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 3
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			description: ["Glowstone can be added to a tool to increase its speed in high light levels."]
+			dependencies: ["7855FCEB224EF4FC"]
+			id: "386DC378F6FBDC05"
+			tasks: [{
+				id: "529315E6C7BE2EE6"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "57E9B523AEF270FB"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 8
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			description: ["The prismarine can be added to increase tool speed under water or in the rain. And you can control the rain."]
+			dependencies: ["7855FCEB224EF4FC"]
+			id: "5032CCCB02D74B1E"
+			tasks: [{
+				id: "0F13F991A186577B"
+				type: "item"
+				item: "minecraft:prismarine"
+				count: 9L
+			}]
+			rewards: [{
+				id: "4C65DDB0A47CB278"
+				type: "item"
+				item: "minecraft:prismarine"
+				count: 4
 			}]
 		}
 	]

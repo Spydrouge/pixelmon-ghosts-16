@@ -380,5 +380,95 @@
 				}
 			]
 		}
+		{
+			x: 2.5d
+			y: -3.0d
+			id: "564F4DBFD169B8E3"
+			tasks: [{
+				id: "05F52863065DB18E"
+				type: "item"
+				title: "Any #pixelmon:vending_machines"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "pixelmon:vending_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			id: "0C1950B46A377106"
+			tasks: [{
+				id: "7BA60BAC506B4E0A"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			min_required_tasks: 1
+			id: "2C5AC123096B6545"
+			tasks: [
+				{
+					id: "38B174F67441020A"
+					type: "item"
+					item: "pixelmon:slowpoke_tail"
+				}
+				{
+					id: "303B5EF934B4E6A0"
+					type: "item"
+					item: "pixelmon:curry_smoke_poke"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			min_required_tasks: 1
+			id: "431B048A4AFEE200"
+			tasks: [
+				{
+					id: "60A18A18CD7808C3"
+					type: "item"
+					title: "Any #forge:cooked_beef"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cooked_beef"
+						}
+					}
+				}
+				{
+					id: "01F7E5CCF064A586"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			id: "5A28C07FACF26220"
+			tasks: [{
+				id: "09379A601C53F3B9"
+				type: "item"
+				item: "pixelmon:curry_cheese"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			id: "1E270CD382538720"
+			tasks: [{
+				id: "2056AED952728301"
+				type: "item"
+				item: "pixelmon:curry_leek"
+			}]
+		}
 	]
 }

@@ -108,7 +108,7 @@
 		}
 		{
 			x: -1.0d
-			y: 2.0d
+			y: 3.0d
 			description: [
 				"You believe you can shape the clay into a water-tight bucket. After that, you must fire it in a furnace."
 				""
@@ -139,7 +139,7 @@
 		}
 		{
 			x: -1.0d
-			y: 3.0d
+			y: 4.0d
 			description: [
 				"Terracotta faucets and channels can be used to move around cold liquids, like water. This can help move water from rain tanks to a water storage system, such as stacked cisterns."
 				""
@@ -175,7 +175,7 @@
 		}
 		{
 			x: -1.0d
-			y: 5.0d
+			y: 6.0d
 			description: [
 				"Will not be damaged by hot liquids"
 				""
@@ -214,7 +214,7 @@
 		}
 		{
 			x: 1.0d
-			y: 5.0d
+			y: 6.0d
 			description: ["Will not be damaged by hot liquids. Must be fired prior to use."]
 			dependencies: [
 				"3AFB997D5FE6B69D"
@@ -249,7 +249,7 @@
 		}
 		{
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 			description: ["Dye the cistern, if desired, and fire it."]
 			dependencies: ["031AF55B0EBAC28C"]
 			hide: true
@@ -282,7 +282,7 @@
 		}
 		{
 			x: 1.0d
-			y: 2.0d
+			y: 3.0d
 			description: ["Create one or more clay cisterns. Note that they cannot yet be used to hold water."]
 			dependencies: ["6C469BB6BA15D1D0"]
 			hide: true
@@ -309,7 +309,7 @@
 		{
 			icon: "ceramics:unfired_porcelain_block"
 			x: 0.0d
-			y: 4.5d
+			y: 5.5d
 			subtitle: "Mildly Useful"
 			description: [
 				"Porcelain is a mildly valuable material you can make from bonemeal and clay. Unlike in previous times, there is no such thing as a Porcelain \"Melter.\" "
@@ -342,7 +342,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.5d
+			y: 6.5d
 			subtitle: "Smelting options..."
 			description: [
 				"Although the vital parts of a smeltery must be constructed with seared bricks, porcelain bricks can be substituted for the floors and walls."
@@ -845,7 +845,7 @@
 		}
 		{
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 			subtitle: "Create each half independently."
 			description: [
 				"You can think of a few functions for ceramic shears. First and most importantly, they may help you create 'treetops' habitats that are flat and easy to navigate, by allowing you to pick up leaves and place them in alternative configurations with logs."
@@ -1362,6 +1362,35 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"The smoker is a variant of the furnace that specializes in quickly cooking food. It loses the ability to smelt regular items"
+				""
+				"It is also the only way to produce smoked ham, should that ever become an important thing to do."
+			]
+			dependencies: ["7F7463C59707BD7D"]
+			hide: true
+			id: "0742C43B10EC76B5"
+			tasks: [{
+				id: "5E6707BC32BE91A1"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [
+				{
+					id: "7C56587238AA96AB"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "6E17E0C7CEB1B391"
+					type: "item"
+					item: "farmersdelight:ham"
+				}
+			]
 		}
 	]
 }

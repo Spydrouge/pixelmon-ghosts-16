@@ -285,6 +285,21 @@
 					type: "item"
 					item: "byg:purple_glowshroom"
 				}
+				{
+					id: "74280604C8DA1D1D"
+					type: "item"
+					item: "biomesoplenty:pink_cherry_sapling"
+				}
+				{
+					id: "27AEC72EB39D592C"
+					type: "item"
+					item: "byg:pink_cherry_sapling"
+				}
+				{
+					id: "52A0887DE5C46643"
+					type: "item"
+					item: "byg:pink_orchid"
+				}
 			]
 		}
 	]

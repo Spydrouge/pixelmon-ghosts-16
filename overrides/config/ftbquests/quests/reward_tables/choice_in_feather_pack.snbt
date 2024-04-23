@@ -1,0 +1,14 @@
+{
+	id: "7E31E9FB849B23B4"
+	order_index: 15
+	title: "Choice in Feather Pack"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:health_feather", count: 5 }
+		{ item: "pixelmon:muscle_feather", count: 5 }
+		{ item: "pixelmon:resist_feather", count: 5 }
+		{ item: "pixelmon:genius_feather", count: 5 }
+		{ item: "pixelmon:clever_feather", count: 5 }
+		{ item: "pixelmon:swift_feather", count: 5 }
+	]
+}

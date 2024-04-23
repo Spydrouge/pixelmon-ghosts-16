@@ -28,15 +28,9 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "6A06168C4C8035C4"
+				id: "462CCB7609FDD747"
 				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
+				item: "byg:green_apple"
 			}]
 		}
 		{
@@ -55,12 +49,19 @@
 				type: "item"
 				item: "minecraft:cauldron"
 			}]
-			rewards: [{
-				id: "5D79283637C7E49A"
-				type: "item"
-				title: "Drifloon is helping! Late, but helping."
-				item: "minecraft:black_terracotta"
-			}]
+			rewards: [
+				{
+					id: "5D79283637C7E49A"
+					type: "item"
+					title: "Drifloon is helping! Late, but helping."
+					item: "minecraft:black_terracotta"
+				}
+				{
+					id: "5698CBE2F6E1012D"
+					type: "pixelmon:pokedollars"
+					count: 100
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -104,6 +105,18 @@
 					item: "pixelmon:oran_berry"
 				}
 			]
+			rewards: [
+				{
+					id: "05021575AD8DA652"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "69AD58CAA2749653"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -124,17 +137,24 @@
 				item: "pixelmon:potion"
 				count: 3L
 			}]
-			rewards: [{
-				id: "44CBCF397937A866"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
+			rewards: [
+				{
+					id: "44CBCF397937A866"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
 					}
 				}
-			}]
+				{
+					id: "203B293E24AFB24C"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -164,6 +184,12 @@
 					item: "pixelmon:leppa_berry"
 				}
 			]
+			rewards: [{
+				id: "45AD2AD20E550BA3"
+				type: "item"
+				item: "pixelmon:ether"
+				count: 3
+			}]
 		}
 		{
 			x: 1.5d
@@ -183,6 +209,11 @@
 				id: "7784D514B259D42A"
 				type: "item"
 				item: "minecraft:nether_wart"
+			}]
+			rewards: [{
+				id: "7410CC9DCDF2C0EF"
+				type: "item"
+				item: "pixelmon:red_shard"
 			}]
 		}
 		{
@@ -211,6 +242,11 @@
 					}
 				}
 				count: 3L
+			}]
+			rewards: [{
+				id: "6D20AA93C6CE62CD"
+				type: "item"
+				item: "pixelmon:blue_shard"
 			}]
 		}
 		{
@@ -260,6 +296,24 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "3AF4F482D572D761"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+				{
+					id: "52AF93256675773E"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -293,6 +347,18 @@
 					item: "minecraft:redstone"
 				}
 			]
+			rewards: [
+				{
+					id: "7937B8B6C5F41354"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "608AA34E86383A7B"
+					type: "item"
+					item: "byg:red_glowcane"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -323,6 +389,18 @@
 					id: "702B5E45D278216A"
 					type: "item"
 					item: "minecraft:glowstone_dust"
+				}
+			]
+			rewards: [
+				{
+					id: "6BA3351244647598"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "1FF8A7982386D2E3"
+					type: "item"
+					item: "byg:red_glowcane"
 				}
 			]
 		}
@@ -380,6 +458,11 @@
 					item: "minecraft:gunpowder"
 				}
 			]
+			rewards: [{
+				id: "77D177D4669250DD"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
 		}
 		{
 			x: 1.0d
@@ -409,6 +492,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6F87314756BAF300"
+				type: "choice"
+				table_id: 6443510782262151491L
+			}]
 		}
 		{
 			x: 9.0d
@@ -432,6 +520,11 @@
 					}
 				}
 				count: 3L
+			}]
+			rewards: [{
+				id: "3A36814D3B279839"
+				type: "item"
+				item: "pixelmon:white_shard"
 			}]
 		}
 		{
@@ -487,6 +580,18 @@
 					item: "minecraft:wither_rose"
 				}
 			]
+			rewards: [
+				{
+					id: "4F9F5465856A4F69"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "56F75524647B06C9"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -501,6 +606,18 @@
 				item: "minecraft:wither_skeleton_skull"
 				count: 3L
 			}]
+			rewards: [
+				{
+					id: "1FA9BC2FE19FA23A"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "1943A4179A05FEBC"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -518,6 +635,11 @@
 				type: "item"
 				item: "tconstruct:necrotic_bone"
 				count: 6L
+			}]
+			rewards: [{
+				id: "7C47F87D13E44AA2"
+				type: "item"
+				item: "pixelmon:black_shard"
 			}]
 		}
 		{
@@ -541,16 +663,38 @@
 				item: "pixelmon:super_potion"
 				count: 2L
 			}]
+			rewards: [
+				{
+					id: "3D340B15A4EDFDFC"
+					type: "item"
+					item: "pixelmon:super_potion"
+					count: 2
+				}
+				{
+					id: "113412173B48F866"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
 			x: 1.0d
 			y: 6.5d
-			description: ["You don't know how you're going to get a Sitrus Berry. Perhaps you should come back to this quest after you've collected all the 12.5% healing berries? "]
+			description: [
+				"You don't know how you're going to get a Sitrus Berry. Perhaps you should come back to this quest after you've collected all the 12.5% healing berries? "
+				""
+				"You will make some notes about how to find each type of Berry."
+			]
 			dependencies: ["655994A2C4C684F2"]
 			hide: true
 			id: "0107FFA0A8947E4C"
 			tasks: [{
 				id: "37F6726F8CEE8827"
+				type: "item"
+				item: "pixelmon:sitrus_berry"
+			}]
+			rewards: [{
+				id: "1D250F9C6BCF38BC"
 				type: "item"
 				item: "pixelmon:sitrus_berry"
 			}]
@@ -571,6 +715,18 @@
 				type: "item"
 				item: "pixelmon:hyper_potion"
 			}]
+			rewards: [
+				{
+					id: "4225FC14F55FA153"
+					type: "pixelmon:pokedollars"
+					count: 2000
+				}
+				{
+					id: "75A8AA887070B6D3"
+					type: "item"
+					item: "pixelmon:hyper_potion"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -596,6 +752,25 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "0F60D29E32C28742"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 4
+				}
+				{
+					id: "217AF9A37D0E71F2"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					count: 4
+				}
+				{
+					id: "03886E8246A32493"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -619,6 +794,229 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "08A0607E880BCBB7"
+					type: "item"
+					item: "thermal:potato_block"
+				}
+				{
+					id: "1B2D901701B6B70A"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			description: [
+				"The Aguav berry has a wonderful smell. It will likely be found carried by Spritzee, which you can attract to habitats on the Dazzle layer. "
+				""
+				"Stealing a berry may prove more efficient than waiting for one to drop."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "55279A4FDAB9CDB1"
+			tasks: [{
+				id: "5E1781EBA2E0917D"
+				type: "item"
+				item: "pixelmon:aguav_berry"
+			}]
+			rewards: [
+				{
+					id: "656FABDA09607F13"
+					type: "item"
+					item: "pixelmon:aguav_berry"
+				}
+				{
+					id: "59CA3FC2A5F208B6"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "1EBEE80BDCDF721C"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			description: [
+				"The Figy berry might be found carried by the Scatterbug family. As usual, stealing berries tends to be faster than waitng for them to drop."
+				""
+				"The Scatterbug family will likely be attracted to habitats in the treetops in the Dazzle layer."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "6A2594F545CC7418"
+			tasks: [{
+				id: "0AC4CD2F1ADC6FE3"
+				type: "item"
+				item: "pixelmon:figy_berry"
+			}]
+			rewards: [
+				{
+					id: "66FED23EA74812C4"
+					type: "item"
+					item: "pixelmon:figy_berry"
+				}
+				{
+					id: "341BF53DF72A9770"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "507CB3A587251780"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			description: [
+				"You believe the Iapapa berry can be found carried by the Swirlix family. You can hopefully attract Swirlix to habitats on the Dazzle Layer."
+				""
+				"As with all such berries, it is likely faster to steal one than to wait for one to drop naturally."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "566E555757E59CEB"
+			tasks: [{
+				id: "694A16AEBB4E7F6C"
+				type: "item"
+				item: "pixelmon:iapapa_berry"
+			}]
+			rewards: [
+				{
+					id: "4A2FCE27B08EAEF4"
+					type: "item"
+					item: "pixelmon:iapapa_berry"
+				}
+				{
+					id: "6803D2746DE17DC3"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "2D10718D109A4A0D"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 9.0d
+			description: [
+				"The Mago berry will be a tough one to track down. "
+				""
+				"You suspect you can find it carried by Trapinch. A few, encased in soil and stone, may have survived. You suspect, if so, you will be able to attract them to Desert habitats on the Air Layer. Deserts have sand but no water."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "4D5A49F5CA3C3879"
+			tasks: [{
+				id: "4FEAF44730B78930"
+				type: "item"
+				item: "pixelmon:mago_berry"
+			}]
+			rewards: [
+				{
+					id: "49E0D1A96D483B39"
+					type: "item"
+					item: "pixelmon:mago_berry"
+				}
+				{
+					id: "11035D376C35794A"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "34B6A8B297691570"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			description: ["The Wiki berry will likely be found carried by Wurmple. Wurmple and its cocoon forms may be attracted to treetop habitats on the Dazzle Layer."]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "229C1C2629490B05"
+			tasks: [{
+				id: "104710255CA09961"
+				type: "item"
+				item: "pixelmon:wiki_berry"
+			}]
+			rewards: [
+				{
+					id: "69C970C434CBD93C"
+					type: "item"
+					item: "pixelmon:wiki_berry"
+				}
+				{
+					id: "0722E88E3679D207"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "48AF14D0E3909CC8"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			icon: "pixelmon:sitrus_berry"
+			x: 0.0d
+			y: 10.0d
+			description: [
+				"Drifloon noticed you were collecting berries of certain type and decided to help. "
+				""
+				"What Drifloon didn't realize was just how rare Sitrus berries are, now...! This might be the last Sitrus berry on (what's left of) the planet! You'll need to cultivate it to save it from extinction."
+				""
+				"Sitrus berries are a vital ingredient in brewing Hyper Potions."
+			]
+			dependencies: [
+				"55279A4FDAB9CDB1"
+				"6A2594F545CC7418"
+				"566E555757E59CEB"
+				"4D5A49F5CA3C3879"
+				"229C1C2629490B05"
+			]
+			hide: true
+			id: "0E1C05D12668E9A7"
+			tasks: [{
+				id: "2E5148C6049159CB"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [
+				{
+					id: "4BBF9E2819EA7D00"
+					type: "item"
+					item: "pixelmon:sitrus_berry"
+				}
+				{
+					id: "6881F1332BE301AD"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 	]
 }

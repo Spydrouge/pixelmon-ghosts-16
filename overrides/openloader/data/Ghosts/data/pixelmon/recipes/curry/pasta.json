@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:curry_pasta",
+    "count": 1
+  }
+}

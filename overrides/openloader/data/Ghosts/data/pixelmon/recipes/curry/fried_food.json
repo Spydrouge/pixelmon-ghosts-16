@@ -1,0 +1,13 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:foods/lunch/fried"
+    }
+    
+  ],
+  "result": {
+    "item": "pixelmon:curry_fried_food",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:nanab_berry"
+    },
+    {
+      "item": "pixelmon:pinap_berry"
+    },
+    {
+      "item": "pixelmon:durin_berry"
+    },
+    {
+      "item": "pixelmon:petaya_berry"
+    },
+    {
+      "item": "pixelmon:liechi_berry"
+    },
+    {
+      "item": "pixelmon:payapa_berry"
+    },
+    {
+      "item": "pixelmon:mago_berry"
+    },
+    {
+      "item": "pixelmon:apicot_berry"
+    },
+    {
+      "item": "pixelmon:aguav_berry"
+    }
+  ],
+  "result": {
+    "item": "pixelmon:curry_tropical",
+    "count": 1
+  }
+}

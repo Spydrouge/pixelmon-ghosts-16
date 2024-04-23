@@ -24,6 +24,10 @@
           "maxY":128,
         "stringBiomes": [
           "ghosts"
+        ],
+        "baseBlocks": [
+          "minecraft:podzol",
+          "minecraft:mycelium"
         ]
       },
       "rarity": 60.0

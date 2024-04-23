@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "fff",
+    "asw",
+    "gtg"
+  ],
+  "key": {
+    "f": {
+      "tag": "ghosts:fern"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "s": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "w": {
+      "item": "minecraft:wither_rose"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "t": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "pixelmon:revival_herb",
+    "count": 1
+  }
+}

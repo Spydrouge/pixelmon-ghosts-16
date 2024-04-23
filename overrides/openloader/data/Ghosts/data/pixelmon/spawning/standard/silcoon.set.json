@@ -8,6 +8,12 @@
         "Headbutt",
         "Sweet Scent"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wiki_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 6,
       "maxLevel": 11,
       "typeID": "pokemon",

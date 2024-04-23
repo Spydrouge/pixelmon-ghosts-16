@@ -1,0 +1,14 @@
+{
+	id: "34C55C59DA6F966B"
+	order_index: 16
+	title: "Choice in Apple"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:tart_apple" }
+		{ item: "pixelmon:sweet_apple" }
+		{ item: "pixelmon:curry_apple" }
+		{ item: "byg:green_apple" }
+		{ item: "minecraft:apple" }
+		{ item: "minecraft:golden_apple" }
+	]
+}
