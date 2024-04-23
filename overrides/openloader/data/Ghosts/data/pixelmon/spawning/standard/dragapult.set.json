@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Underground"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:haban_berry",
+          "percentChance": 75
+        }
+      ],
       "minLevel": 60,
       "maxLevel": 75,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Dragapult",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:haban_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 60,
       "maxLevel": 75,
@@ -41,6 +53,12 @@
       "spec": "species:Dragapult palette:spirit",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:haban_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 60,
       "maxLevel": 75,

@@ -6,6 +6,12 @@
       "stringLocationTypes": [
           "Underground Water"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 18,
       "maxLevel": 35,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Alomomola",
       "stringLocationTypes": [
         "Water"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 18,
       "maxLevel": 35,

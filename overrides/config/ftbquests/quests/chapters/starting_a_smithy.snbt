@@ -666,6 +666,8 @@
 				"If space in your melter is getting tight and you want to save out some Blood Bone to use later, you can pour it directly onto unshaped bones. These can't be melted a second time, but they can be crafted directly at a Part Builder the way bone and necrotic bone can."
 				""
 				"Bloodbone isn't the only Tier 2 Composite. There's also &dWhitestone&r, which is Aluminum poured over stone tools."
+				""
+				"Make one tool or weapon peice using either of the composites above."
 			]
 			dependencies: ["15FA67EAB413D40A"]
 			hide: true
@@ -779,8 +781,6 @@
 				"You can now pour metal directly into the mold to cast a shape."
 				""
 				"If you decide you've picked the wrong piece to cast, you can pick the mold up out of the casting table, and it will revert to a blank mold again."
-				""
-				"Most likely, the best shape for you to cast will be a copper tool rod."
 			]
 			dependencies: ["15FA67EAB413D40A"]
 			hide: true
@@ -967,6 +967,11 @@
 				type: "item"
 				item: "tconstruct:scorched_alloyer"
 			}]
+			rewards: [{
+				id: "3F61FA5BD878D53E"
+				type: "item"
+				item: "tconstruct:scorched_ingot_gauge"
+			}]
 		}
 		{
 			x: 7.5d
@@ -1030,10 +1035,22 @@
 					item: "minecraft:quartz"
 				}
 			]
+			rewards: [
+				{
+					id: "477F2A486D14D5DB"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "71ACC6197AF8898B"
+					type: "item"
+					item: "minecraft:quartz_block"
+				}
+			]
 		}
 		{
 			title: "Bronze"
-			x: 10.5d
+			x: 11.0d
 			y: -3.0d
 			subtitle: "Welcome to Tier 3 Crafting!"
 			description: [
@@ -1164,6 +1181,30 @@
 				}
 				match_nbt: true
 			}]
+			rewards: [
+				{
+					id: "46EF4356449765AD"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1F2261F300A791C6"
+					type: "item"
+					item: "pixelmon:hp_up"
+					count: 3
+				}
+				{
+					id: "7AEED4E25E8B2713"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1174,6 +1215,8 @@
 				"In both armor and blade form, it gives the devestating ability to apply wither to an enemy. But at a cost. 25% of the time, it will apply wither to you."
 				""
 				"Working with Necronium means carrying wither protection. This can be done by either carrying bottles of milk, or perhaps you will find a magical means of protecting yourself..."
+				""
+				"(Necronium will still effect you even if it is the modifier on an arrow. Somehow.)"
 			]
 			dependencies: ["47107D60FD080A18"]
 			hide: true
@@ -1243,19 +1286,49 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "395ADC37BACE91E0"
-				type: "item"
-				item: "byg:death_cap"
-			}]
+			rewards: [
+				{
+					id: "23DA072F88D8E7D2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 90
+						}
+					}
+				}
+				{
+					id: "3213781A65C0E02B"
+					type: "item"
+					item: "tconstruct:necronium_bone"
+				}
+				{
+					id: "6C61D6C07EDB6368"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+				}
+			]
 		}
 		{
+			title: "(Brass) Plated Slimewood"
 			x: 10.5d
 			y: -4.0d
-			description: ["Brass is a useful material made from combining Zinc and "]
+			description: [
+				"Brass is a useful material made from combining Zinc and copper. Alone, Brass is not exceptionally good for armor, but it can be poured over slime wood to produce a composite called \"Plated Slimewood.\""
+				""
+				"Plated Slimewood is a decent armor with an ability, Overworked, that increases the rate at which things replenish Overslime. This means it pairs well with regular Slimewood Mail."
+			]
 			dependencies: [
 				"47107D60FD080A18"
 				"7E197FCD844FF182"
+				"5F2C866ED23D2A45"
 			]
 			id: "118E457BED64D29F"
 			tasks: [{
@@ -1326,11 +1399,29 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0EFF6A59F20F2894"
-				type: "item"
-				item: "tconstruct:earth_slime_sapling"
-			}]
+			rewards: [
+				{
+					id: "50822A7ABA8FDDF5"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 74
+						}
+					}
+				}
+				{
+					id: "70B980DD970F37A9"
+					type: "item"
+					item: "contenttweaker:brass_dust"
+				}
+				{
+					id: "023AE495569E5423"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1389,6 +1480,223 @@
 					id: "6E17E0C7CEB1B391"
 					type: "item"
 					item: "farmersdelight:ham"
+				}
+			]
+		}
+		{
+			title: "Tinker's Anvil"
+			x: 12.0d
+			y: -3.0d
+			description: [
+				"Now that you have alloys, the very last thing you can accomplish without lava is creating a Tinker's Anvil."
+				""
+				"These Anvils do not necesarily require iron in their composition, which is the only reason making one feels feasible."
+				""
+				"The easiest material to obtain multiple blocks of might be Bronze, Silicon Bronze, or Rose Gold. All three blocks must be of the same metal."
+				""
+				"Tinkers Anvils are used to build large tools, and to add more complex modifiers to tools. This includes Looting and Luck enchantment."
+			]
+			dependencies: ["47107D60FD080A18"]
+			hide: true
+			id: "07BA46FEA87A826E"
+			tasks: [{
+				id: "574EDF18DCA43047"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "materialis:fairy_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:tinkers_bronze_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:bronze_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:electrum_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "immersiveengineering:storage_constantan"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:rose_gold_block"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B4F0DD7F99B6FFD"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 79
+						}
+					}
+				}
+				{
+					id: "23C7E4F7CFD5E0DD"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 74
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: [
+				"The Stonecutter can be used to turn rough tumblestones into a smoothed form, which will allow you to make Ancient Pokeballs. It is one of several good ways to spend your first Iron Ingot."
+				""
+				"Additionally, Drifloon might think you are trying to cut wood, and bring you a very useful HM. But that's just hoping."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"11F689A8DC3A4BE2"
+				"16AECF01A7853FED"
+			]
+			hide: true
+			id: "19BADF27DFCC9EFB"
+			tasks: [{
+				id: "2E8A8E3B15A4BC9B"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [{
+				id: "0787CE11C4ED1AD0"
+				type: "item"
+				item: "pixelmon:hm1"
+			}]
+		}
+		{
+			title: "Any Large, Two-Handed Weapon."
+			icon: {
+				id: "tconstruct:broad_axe"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 4.25f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.66f
+						"tconstruct:mining_speed": 1.35f
+						"tconstruct:attack_damage": 11.41875f
+						"tconstruct:harvest_level": 2.0f
+						"tconstruct:durability": 667.25f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:raging"
+							level: 4s
+						}
+						{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"tconstruct:bloodbone"
+						"tconstruct:bloodbone"
+						"tconstruct:bloodbone"
+						"tconstruct:bloodbone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 13.0d
+			y: -3.0d
+			description: [
+				"Now that you have an anvil, you can make heavy, two-handed tools."
+				""
+				"The most practical is probably the broad axe, as you break wood blocks more than any other type. Next might be a Scythe."
+				""
+				"A cleaver, for severing, may also be a useful tool for dealing final blows when dealing with enemies from the Evil Forces Diary Chapter."
+			]
+			dependencies: ["07BA46FEA87A826E"]
+			hide: true
+			id: "06F74E9CF06D6D49"
+			tasks: [{
+				id: "25A14CE1932A333F"
+				type: "item"
+				title: "Any #tconstruct:modifiable/two_handed"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:modifiable/two_handed"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01AA81AFF9B06E68"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 129
+						}
+					}
+				}
+				{
+					id: "6BD413742C59B360"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 30
+						}
+					}
 				}
 			]
 		}

@@ -1,0 +1,920 @@
+{
+	id: "35BA4629B13FEB3C"
+	group: "1BA668D58784F46A"
+	order_index: 3
+	filename: "curry"
+	title: "Cooking"
+	icon: "pixelmon:cooking_pot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: [
+				"1B5AF5481A4684D3"
+				"0BD6FC749599EE34"
+			]
+			hide: true
+			id: "0B44F84E080E8ABA"
+			tasks: [{
+				id: "214BBA9B486F2615"
+				type: "item"
+				item: "pixelmon:dish_curry_gigantamix"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: [
+				"The Pokemon Cooking Pot is specifically for creating curry. The pot has a built-in fireplace, and can be made of terracotta, bronze, or other materials."
+				""
+				"However, it cannot be lit by anything other than a flint-and-steel. Fire charges will not suffice. Since iron is hard to aquire, you may decide to skip curry for now."
+				""
+				"Low level curries have fewer effects than high level ones. Curry that is at least Milcery class will fully heal a Pokemon, and curry of the Copperaja class will restore all Move PP. Curries also provide XP and happiness, and can be a great way to level up weak Pokemon."
+			]
+			dependencies: ["0946764F167E6329"]
+			hide: true
+			size: 2.0d
+			id: "1B5AF5481A4684D3"
+			tasks: [
+				{
+					id: "5C29D827D759493E"
+					type: "item"
+					item: "pixelmon:cooking_pot"
+				}
+				{
+					id: "590A791CC2C66CBA"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Plain Curry"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"Making curry is quite complex, but you can start off making weak curries with whatever materials you can find."
+				""
+				"Every curry requires ten berries, which influence the flavor and quality. Alone, this will make \"Plain Curry.\" If you add a curry-specific item, you will make a specific type of curry."
+				""
+				"After these items are placed in the pot, the cookign pot fire must be ignited with a flint and steel. You will know you are successful when you see the spoon in the pot."
+				""
+				"The flames must be fanned (by right-clicking), not too hot and not to cold. When that is done, the pot must be stirred, not too fast and not too slow. In the end, a curry is produced."
+			]
+			dependencies: [
+				"1B5AF5481A4684D3"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "0D7973DAAE816F4E"
+			tasks: [{
+				id: "75EC4E5763924797"
+				type: "item"
+				item: "pixelmon:dish_curry_plain"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"This curry ingredient is easy to make. Simply cook some bones."
+				""
+				"Brittle bones adds +8 to the Quality of a curry."
+			]
+			dependencies: [
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "3E4652A93CB60F1E"
+			tasks: [
+				{
+					id: "56E300C86F3E4E7F"
+					type: "item"
+					item: "pixelmon:dish_curry_bone"
+				}
+				{
+					id: "5DB9FC512358BED0"
+					type: "item"
+					item: "pixelmon:curry_bone"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: [
+				"This curry is easy to make. Simply cook some bread."
+				""
+				"Toast adds +2 to the Quality of a curry."
+			]
+			dependencies: [
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "1377511F277D65DF"
+			tasks: [
+				{
+					id: "7270DCA95B0064AD"
+					type: "item"
+					item: "pixelmon:dish_curry_toast"
+				}
+				{
+					id: "12E6842FEFBB8C99"
+					type: "item"
+					item: "pixelmon:curry_toast"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["Instant Noodle Curry is just like Pasta curry, but involves chopsticks"]
+			dependencies: [
+				"1377511F277D65DF"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "68EBFCCBDD8026E2"
+			tasks: [
+				{
+					id: "5CFDA0DA6CFCB4C4"
+					type: "item"
+					item: "pixelmon:dish_curry_instant_noodle"
+				}
+				{
+					id: "3C5E87883A70A360"
+					type: "item"
+					item: "pixelmon:curry_instant_noodle"
+				}
+				{
+					id: "7D09857A7EE88D37"
+					type: "item"
+					item: "farmersdelight:raw_pasta"
+				}
+				{
+					id: "70E8B5483B9A913C"
+					type: "item"
+					item: "minecraft:stick"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "101E9376CC51F502"
+				type: "item"
+				item: "pixelmon:curry_instant_noodle"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: [
+				"Pasta curry is on the same level as toast curry. It can be made from Farmer's Delight pasta."
+				""
+				"It adds +2 Quality to curry."
+			]
+			dependencies: [
+				"1377511F277D65DF"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "3B86D30E84126456"
+			tasks: [
+				{
+					id: "4F9EBB21D3433402"
+					type: "item"
+					item: "pixelmon:dish_curry_pasta"
+				}
+				{
+					id: "515EFAA610E83CDA"
+					type: "item"
+					item: "pixelmon:curry_pasta"
+				}
+				{
+					id: "1284682DE4547C6D"
+					type: "item"
+					item: "farmersdelight:raw_pasta"
+				}
+			]
+			rewards: [{
+				id: "0F63F123BC6EF8F6"
+				type: "item"
+				item: "pixelmon:curry_pasta"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			description: [
+				"Once you gain access to an egg, you can throw it in a cauldron of boiling water to produce a boiled egg curry ingredient."
+				""
+				"It adds +12 Quality to curry."
+			]
+			dependencies: [
+				"3E4652A93CB60F1E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "0C1D28BCFC7FF1DA"
+			tasks: [
+				{
+					id: "17EEA3D655FF53A3"
+					type: "item"
+					item: "pixelmon:dish_curry_boiled_egg"
+				}
+				{
+					id: "65B1F6BF71A8C852"
+					type: "item"
+					item: "pixelmon:curry_boiled_egg"
+				}
+				{
+					id: "1BA6F6565B2E583B"
+					type: "item"
+					item: "minecraft:egg"
+				}
+			]
+			rewards: [{
+				id: "62BBE21F175F54CE"
+				type: "item"
+				item: "pixelmon:curry_boiled_egg"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"Fried Food curry can be made with fried eggs or rice."
+				""
+				"It adds +2 to the Quality of a curry."
+			]
+			dependencies: [
+				"3E4652A93CB60F1E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "4AEA3A96EA9BB070"
+			tasks: [
+				{
+					id: "7498376DD29B8E06"
+					type: "item"
+					item: "pixelmon:dish_curry_fried_food"
+				}
+				{
+					id: "4D09B582B7B0D852"
+					type: "item"
+					item: "pixelmon:curry_fried_food"
+				}
+			]
+			rewards: [{
+				id: "07FC8B65F4612A50"
+				type: "item"
+				item: "pixelmon:curry_fried_food"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"Rich curry can be made with fish, specifically, with Cod."
+				""
+				"It gives +8 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7B9D7ABCC4AC4243"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "0DBA0FEE8932180E"
+			tasks: [
+				{
+					id: "06833D7B333AEB30"
+					type: "item"
+					item: "pixelmon:dish_curry_rich"
+				}
+				{
+					id: "26CB56453478ADCD"
+					type: "item"
+					item: "pixelmon:curry_rich"
+				}
+				{
+					id: "21AED75B0914A3A9"
+					type: "item"
+					item: "farmersdelight:cooked_cod_slice"
+				}
+			]
+			rewards: [{
+				id: "37734D693340A227"
+				type: "item"
+				item: "pixelmon:curry_rich"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"What if you just use bacon and pretend it's sausage?"
+				""
+				"It adds +5 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"384484786387AEB7"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "16BF6ABC8E875BC7"
+			tasks: [
+				{
+					id: "7FD466BB321585A5"
+					type: "item"
+					item: "pixelmon:dish_curry_sausage"
+				}
+				{
+					id: "35B1D3593E58004F"
+					type: "item"
+					item: "pixelmon:curry_sausage"
+				}
+				{
+					id: "6CE29FF3C1EBC4B5"
+					type: "item"
+					item: "farmersdelight:cooked_bacon"
+				}
+			]
+			rewards: [{
+				id: "06DFAB6650E63CCB"
+				type: "item"
+				item: "pixelmon:curry_sausage"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			description: [
+				"Juicy curry is primarily made with tomatos, and a bit of onion for flavoring."
+				""
+				"It adds +8 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"147AE8C6B4DBD9F5"
+				"1509B72088529641"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "083F654E38D3E4CD"
+			tasks: [
+				{
+					id: "4691EDAB6BF3815B"
+					type: "item"
+					item: "pixelmon:dish_curry_juicy"
+				}
+				{
+					id: "28479C325535A300"
+					type: "item"
+					item: "pixelmon:curry_juicy"
+				}
+				{
+					id: "1B3496A3787C3403"
+					type: "item"
+					item: "farmersdelight:tomato"
+				}
+				{
+					id: "0EBD3E5409645316"
+					type: "item"
+					item: "farmersdelight:onion"
+				}
+			]
+			rewards: [{
+				id: "0A0B6895FDE66593"
+				type: "item"
+				item: "pixelmon:curry_juicy"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: [
+				"To make this curry with any regularity, you will have to obtain a variety of mushrooms."
+				""
+				"It adds +5 quality to curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"15A2DD50687E0F42"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "24702E858267C949"
+			tasks: [
+				{
+					id: "3633D37572AEE97C"
+					type: "item"
+					item: "pixelmon:dish_curry_mushroom"
+				}
+				{
+					id: "68095535AFFF98A7"
+					type: "item"
+					item: "pixelmon:curry_mushroom"
+				}
+			]
+			rewards: [{
+				id: "5159C7B2B1C6C846"
+				type: "item"
+				item: "pixelmon:curry_mushroom"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: [
+				"To make this curry, you will need to make a potato farm after securing a potato from Grubbin, Ferroseed, or a similar Pokemon."
+				""
+				"It adds +5 Quality to curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"63335CEF4021A430"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "3742792476488E8A"
+			tasks: [
+				{
+					id: "10164FCC6314350C"
+					type: "item"
+					item: "pixelmon:dish_curry_potato"
+				}
+				{
+					id: "6AEDFB96CAC58DD3"
+					type: "item"
+					item: "pixelmon:curry_potato"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: [
+				"This curry can be made once you have discovered a deer or horse Pokemon carrying a carrot."
+				""
+				"It add +8 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"182732C4C2AC010F"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "602C80C53B57BDCF"
+			tasks: [
+				{
+					id: "77D0EA489AB2D1AC"
+					type: "item"
+					item: "pixelmon:dish_curry_herb"
+				}
+				{
+					id: "291639817A97E46B"
+					type: "item"
+					item: "pixelmon:curry_herb"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: [
+				"Salads require a lot of ingredients, but once you can make one, salad curries are easy."
+				""
+				"They add +5 to the Quality of a curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "4A9196098945C4C9"
+			tasks: [
+				{
+					id: "0769B1D3BA014B69"
+					type: "item"
+					item: "pixelmon:dish_curry_salad"
+				}
+				{
+					id: "58CB00D324EE83CE"
+					type: "item"
+					title: "Any #forge:foods/lunch/salad"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:foods/lunch/salad"
+						}
+					}
+				}
+				{
+					id: "7050196B0256ECF5"
+					type: "item"
+					item: "pixelmon:curry_salad"
+				}
+			]
+			rewards: [{
+				id: "15ED1AF94F5CF118"
+				type: "item"
+				item: "pixelmon:curry_salad"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"To make this curry with any regularity, you will have to obtain the necessary spices from Spritzee."
+				""
+				"It adds +5 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "64902947E0BFADA8"
+			tasks: [
+				{
+					id: "3B67D6BB8B1F4CB0"
+					type: "item"
+					item: "pixelmon:dish_curry_seasoned"
+				}
+				{
+					id: "2B5CC8FF06B7DABF"
+					type: "item"
+					item: "pixelmon:curry_seasoned"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "49D5EF30B612AA2D"
+				type: "item"
+				item: "pixelmon:curry_seasoned"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: [
+				"The same Pokemon who drops Apples will occasionally drop an apple appropriate for curry."
+				""
+				"It adds +12 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1C9A8E55C1A7B7FF"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "7823C53B5652E18C"
+			tasks: [
+				{
+					id: "758294BA90093649"
+					type: "item"
+					item: "pixelmon:dish_curry_apple"
+				}
+				{
+					id: "1D13C4087F7D4961"
+					type: "item"
+					item: "pixelmon:curry_apple"
+				}
+			]
+			rewards: [{
+				id: "387DB278335C3EDA"
+				type: "choice"
+				table_id: 3802547001370842731L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: [
+				"This curry requires acces to a vending machine."
+				""
+				"It adds +8 to the Quality of Curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"564F4DBFD169B8E3"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "41C2FE6AC1D02EF5"
+			tasks: [
+				{
+					id: "7536991697095CCE"
+					type: "item"
+					item: "pixelmon:dish_curry_coconut"
+				}
+				{
+					id: "15D45DA51AD62362"
+					type: "item"
+					item: "pixelmon:curry_coconut"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: [
+				"This curry requires access to a vending machine"
+				""
+				"It adds +8 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"564F4DBFD169B8E3"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "0CFC98EA4E46596A"
+			tasks: [
+				{
+					id: "40067F6D6DF0103C"
+					type: "item"
+					item: "pixelmon:dish_curry_cream"
+				}
+				{
+					id: "573EDC9691A1370F"
+					type: "item"
+					item: "pixelmon:curry_cream"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: [
+				"Tropical Curry can be made only from nine assorted and difficult-to-find berries."
+				""
+				"It adds +12 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"55279A4FDAB9CDB1"
+				"4D5A49F5CA3C3879"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "2406A128E29D2F0F"
+			tasks: [
+				{
+					id: "3FFEC5C3FD55E89F"
+					type: "item"
+					item: "pixelmon:dish_curry_tropical"
+				}
+				{
+					id: "0EC0F26306FEFA27"
+					type: "item"
+					item: "pixelmon:curry_tropical"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			description: [
+				"Decorative, or \"Packaged\" Curry can be made from spiced Curry and some \"Tumeric\" (Yellow Dye)."
+				""
+				"It adds +12 to the Quality of curry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"64902947E0BFADA8"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "3C3057E72B483A9C"
+			tasks: [
+				{
+					id: "24AD86CC79D57C1A"
+					type: "item"
+					item: "pixelmon:dish_curry_decorative"
+				}
+				{
+					id: "639B458E257DBA4B"
+					type: "item"
+					item: "pixelmon:curry_decorative"
+				}
+				{
+					id: "2B4EE443B25A9A39"
+					type: "item"
+					item: "minecraft:yellow_dye"
+				}
+				{
+					id: "27DA699FC4C31DA2"
+					type: "item"
+					item: "pixelmon:curry_seasoned"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			description: ["Um. Well. You might be able to make something involving beans, alright, but it's not going to be a traditional recipe, that's for sure."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C1950B46A377106"
+				"0D7973DAAE816F4E"
+				"1C6F0424C0A4973F"
+				"07BB8B6F1A9897CF"
+				"1C53CA6D2E5EA3F7"
+			]
+			hide: true
+			id: "175CD1523A496465"
+			tasks: [
+				{
+					id: "10FF2AF83A219241"
+					type: "item"
+					item: "pixelmon:dish_curry_beans"
+				}
+				{
+					id: "42C21CCFB258B38E"
+					type: "item"
+					item: "pixelmon:curry_beans"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: [
+				"If only it was worth more than a measly +2 Quality..."
+				""
+				"You can't think of any Pokemon that might drop Beef. This recipe might have to wait until later."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"431B048A4AFEE200"
+				"0D7973DAAE816F4E"
+			]
+			hide: true
+			id: "4488332395185465"
+			tasks: [
+				{
+					id: "60F9F1258F654690"
+					type: "item"
+					item: "pixelmon:dish_curry_burger"
+				}
+				{
+					id: "629BE7903C611E17"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+				{
+					id: "50BAF5C2F99EBA70"
+					type: "item"
+					item: "farmersdelight:beef_patty"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			description: ["Unfortunately, even if you could get Moo Moo milk, you do not know how to make cheese..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5A28C07FACF26220"
+				"0D7973DAAE816F4E"
+			]
+			hide: true
+			id: "28AE07100FFF53EC"
+			tasks: [{
+				id: "60ACEAB85CD6395C"
+				type: "item"
+				item: "pixelmon:dish_curry_cheese"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["Giant leeks are associated with Farfetch'd, and you don't think any have survived this apocalypse. You doubt you'll find one any time soon."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1E270CD382538720"
+				"0D7973DAAE816F4E"
+			]
+			hide: true
+			id: "6F4719482B055030"
+			tasks: [
+				{
+					id: "28056CA8FB5CD70A"
+					type: "item"
+					item: "pixelmon:dish_curry_leek"
+				}
+				{
+					id: "2204B72F985BB746"
+					type: "item"
+					item: "pixelmon:curry_leek"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: ["You don't have access to Slow Pokes, so you don't think you'll be able to get a Smoke-Poke Tail any time soon. If you did, they add +12 to the quality of a curry."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2C5AC123096B6545"
+				"0D7973DAAE816F4E"
+			]
+			hide: true
+			id: "32A5D83DE52760AC"
+			tasks: [
+				{
+					id: "5FA4CD4ADD76C18A"
+					type: "item"
+					item: "pixelmon:dish_curry_smoke_poke"
+				}
+				{
+					id: "32123226CA63DEEE"
+					type: "item"
+					item: "pixelmon:curry_smoke_poke"
+				}
+				{
+					id: "70F6C7D75F9625F9"
+					type: "item"
+					item: "pixelmon:slowpoke_tail"
+				}
+			]
+		}
+	]
+}

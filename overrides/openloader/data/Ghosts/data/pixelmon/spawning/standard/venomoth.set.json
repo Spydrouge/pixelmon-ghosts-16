@@ -1,0 +1,135 @@
+{
+  "id": "Venomoth",
+  "spawnInfos": [
+    {
+      "spec": "species:Venomoth",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 31,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "maxY": 128,
+        "minY": 92,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "compositeCondition":
+          {
+            "conditions": 
+            [
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:torch"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:lantern"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:campfire"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "groupSpawnSettings": [
+        {
+          "spec": "Venonat",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ], 
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Venomoth",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 31,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Venomoth palette:pink",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 31,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

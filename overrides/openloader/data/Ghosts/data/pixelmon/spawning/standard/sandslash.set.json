@@ -12,7 +12,11 @@
     "heldItems": [
         {
           "itemID": "pixelmon:grip_claw",
-          "percentChance": 5
+          "percentChance": 25
+        },
+         {
+          "itemID": "pixelmon:chople_berry",
+          "percentChance": 50
         }
       ],
       "condition": {
@@ -40,7 +44,11 @@
     "heldItems": [
         {
           "itemID": "pixelmon:grip_claw",
-          "percentChance": 5
+          "percentChance": 25
+        },
+         {
+          "itemID": "pixelmon:chople_berry",
+          "percentChance": 50
         }
       ],
       "condition": {
@@ -93,7 +101,11 @@
       "heldItems": [
         {
           "itemID": "pixelmon:grip_claw",
-          "percentChance": 5
+          "percentChance": 25
+        },
+         {
+          "itemID": "pixelmon:chople_berry",
+          "percentChance": 50
         }
       ],
       "condition": {

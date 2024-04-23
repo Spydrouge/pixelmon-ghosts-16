@@ -7,6 +7,17 @@
         "Air",
         "Headbutt"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 25
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 75
+        }
+
+      ],
       "minLevel": 35,
       "maxLevel": 55,
       "typeID": "pokemon",
@@ -24,6 +35,17 @@
       "stringLocationTypes": [
         "Land",
         "Headbutt"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 25
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 75
+        }
+
       ],
       "minLevel": 35,
       "maxLevel": 55,

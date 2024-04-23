@@ -9,6 +9,12 @@
       "minLevel": 19,
       "maxLevel": 30,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:salac_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "maxY": 32,
         "stringBiomes": [
@@ -25,6 +31,12 @@
       "minLevel": 5,
       "maxLevel": 35,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:salac_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "times": [
           "DAY"

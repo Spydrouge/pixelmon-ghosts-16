@@ -9,6 +9,12 @@
       "minLevel": 18,
       "maxLevel": 29,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "times": [
           "AFTERNOON"
@@ -29,6 +35,12 @@
       "stringLocationTypes": [
         "Tree Top"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 5,
       "maxLevel": 16,
       "typeID": "pokemon",
@@ -44,6 +56,12 @@
       "spec": "species:Inkay",
       "stringLocationTypes": [
           "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 5,
       "maxLevel": 16,
@@ -80,6 +98,12 @@
       "spec": "species:Inkay",
       "stringLocationTypes": [
           "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tanga_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 5,
       "maxLevel": 16,

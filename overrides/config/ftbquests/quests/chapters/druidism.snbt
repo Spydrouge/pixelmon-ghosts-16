@@ -97,11 +97,19 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "4A480F01EF27CC4F"
-				type: "item"
-				item: "botania:podzol_seeds"
-			}]
+			rewards: [
+				{
+					id: "4A480F01EF27CC4F"
+					type: "item"
+					item: "botania:podzol_seeds"
+				}
+				{
+					id: "0CFD010CB2157BC3"
+					type: "item"
+					item: "minecraft:fern"
+					count: 6
+				}
+			]
 		}
 		{
 			icon: "minecraft:wither_rose"
@@ -203,9 +211,9 @@
 				}
 			]
 			rewards: [{
-				id: "1594E68A1FF6661A"
+				id: "486E42AD4DA66D25"
 				type: "item"
-				item: "pixelmon:blue_shard"
+				item: "pixelmon:yellow_shard"
 			}]
 		}
 		{
@@ -320,11 +328,18 @@
 				type: "item"
 				item: "botania:pure_daisy"
 			}]
-			rewards: [{
-				id: "19B614462E0A1245"
-				type: "item"
-				item: "minecraft:bone"
-			}]
+			rewards: [
+				{
+					id: "19B614462E0A1245"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "64A55BFD613CED9C"
+					type: "item"
+					item: "pixelmon:nomel_berry"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -637,9 +652,9 @@
 		}
 		{
 			x: 0.0d
-			y: 10.5d
+			y: 11.5d
 			description: ["The Hydroangeas will consume water to produce mana. This does mean you must continuously supply it with fresh water to keep it working."]
-			dependencies: ["08B38BEB5FF4573E"]
+			dependencies: ["44AC031C5D34292E"]
 			hide: true
 			id: "104ADF28642F7637"
 			tasks: [{
@@ -658,13 +673,18 @@
 					type: "item"
 					item: "botania:black_lotus"
 				}
+				{
+					id: "1F55BDEDBCE522AC"
+					type: "item"
+					item: "pixelmon:rabuta_berry"
+				}
 			]
 		}
 		{
 			x: -1.5d
-			y: 10.5d
+			y: 11.5d
 			description: ["The endoflame requires charcoal or other burnables to work. Be careful dropping saplings to the ground in its vicinity, as it will gobble them up."]
-			dependencies: ["3DA6DA49C7364841"]
+			dependencies: ["51CBAD64B5AA2533"]
 			hide: true
 			id: "5C36AA7A30CA6209"
 			tasks: [{
@@ -740,9 +760,9 @@
 		}
 		{
 			x: 1.5d
-			y: 10.5d
+			y: 11.5d
 			description: ["The Rosa Arcana translates a typically useless metric, your XP, into mana."]
-			dependencies: ["2CC6E126932433AD"]
+			dependencies: ["5710F074C9ADC693"]
 			hide: true
 			id: "6F10ADDBC73438E9"
 			tasks: [{
@@ -1078,6 +1098,24 @@
 				type: "item"
 				item: "minecraft:mycelium"
 			}]
+			rewards: [
+				{
+					id: "384306FCC02C2C4A"
+					type: "item"
+					item: "botania:mycelium_seeds"
+				}
+				{
+					id: "0BF51AACC989050E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 83
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -1089,7 +1127,10 @@
 				""
 				"A &dWand of the Forest&r will be necessary to aim the spreader at the pool. You can make these wands using Mystical Mushrooms and Livingwood."
 			]
-			dependencies: ["3FF8AA83BB349B3E"]
+			dependencies: [
+				"3FF8AA83BB349B3E"
+				"56EC762B367A5628"
+			]
 			hide: true
 			id: "58C8937CFE8894DA"
 			tasks: [
@@ -1218,24 +1259,38 @@
 					item: "botania:rune_earth"
 				}
 			]
-			rewards: [{
-				id: "15E804EFEBAD3ED1"
-				type: "item"
-				item: "minecraft:dirt"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "15E804EFEBAD3ED1"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 32
+				}
+				{
+					id: "5DE345BB66AE3389"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "4D954A1C68A15264"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -2.0d
 			description: [
-				"Manaweave cloth is tedious to create, as it requires soeaking up a large amount of mana with string and weaving the string into cloth."
+				"Manaweave cloth is tedious to create, as it requires soaking up a large amount of mana with string and weaving the string into cloth."
 				""
 				"However, it greatly &dreduces the mana cost&r of all rods and tools."
 				""
 				"This means your Rod of the Earth or Rod of the Depths will be able to create many more blocks on the same amount of mana."
 				""
-				"To speed up your process of creating Manaweave gear, you can harass Hatenna on the Dazzle Layer until one drops the Manaweave Hood. The Duskull line will also occasionally drop Mana Infused String."
+				"To speed up your process of creating Manaweave gear, you can harass Hatenna on the Dazzle Layer until one drops the Manaweave Hood. Excess Manaweave Hoods can be sheared into Manaweave cloth at a cutting block."
+				""
+				"The Duskull line will also occasionally drop Mana Infused String."
 			]
 			dependencies: ["697DF4960F628C73"]
 			hide: true
@@ -1305,7 +1360,13 @@
 		{
 			x: 4.5d
 			y: -6.0d
-			description: ["The Rod of the Skies is as valuable as it is dangerous. You will want to pair it with Slime Boots or, if you can afford it, an Elytra."]
+			description: [
+				"The Rod of the Skies is as valuable as it is dangerous. You will want to carry a water bucket with you. Alternatively, if you already have a Tinker's Anvil, you can add the Bouncy modifier to boots. Or, if you can afford it, you can construct an Elytra."
+				""
+				"Flinging yourself violently into the air with mana is a decent way to ascend quickly to different habitats."
+				""
+				"Air runes can be found in the possession of the mysterious &bSiglyph&r, which will only spawn in deserts on the Space layer."
+			]
 			dependencies: ["19A192D7A2A157A8"]
 			hide: true
 			id: "5AE35114536AEF17"
@@ -1323,6 +1384,306 @@
 					id: "1A4E296670BC5E61"
 					type: "item"
 					item: "botania:rune_air"
+				}
+			]
+			rewards: [
+				{
+					id: "13BE63106B35314E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+				{
+					id: "048FBA58975BE908"
+					type: "item"
+					item: "minecraft:rabbit_foot"
+				}
+				{
+					id: "0E1148F487D9A7C5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 52
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			description: [
+				"The Rod of the Depths also requires runes to make, but it can be used to summon cobblestone in exchange for Mana."
+				""
+				"Water runes can be made form the scales of the mighty living fossil, &bRelicanth&r."
+				""
+				"You've seen strange green reanimated Relicanth are attracted to underground water habitats on the Soil layer, but that normal Relicanth are much more numerous in Underground Water in the deep dark layer, which is presumably its natural habitat."
+				""
+				"The fire rune may be harder to find. You think you can track one down to &cAlolan Marowak&r, which might be attracted to open-air manmade habitats on the Ice layer."
+			]
+			dependencies: ["6C44EC48FE059DA0"]
+			hide: true
+			id: "157B8D287148120C"
+			tasks: [{
+				id: "14A5BF33656660D8"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [
+				{
+					id: "5CFC59F951C456E0"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+				{
+					id: "0D53354E6441A4C6"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "77DC7FDD62E3F71F"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			description: ["A Rod of the Seas can create water from nothing, at the cost of some mana. Because you have access to rain water, this is less important than other creation rods. However, it is still more convenient than juggling many different buckets of water."]
+			dependencies: ["157B8D287148120C"]
+			hide: true
+			id: "72FEBD0617AEE57D"
+			tasks: [{
+				id: "15B22AEE12DDEEF5"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [
+				{
+					id: "3BEAB0562A2C04BB"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 10
+						}
+					}
+				}
+				{
+					id: "599E047DE80883E4"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 3
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			description: [
+				"Now that you have a mana pool, it's worth taking a look at the small selection of recipes you can perform using mana infusion that don't require some kind of catalyst."
+				""
+				"You can make grass seeds, boreal seeds- which produce Podzol -and infestation spores, which create mycelium. "
+				""
+				"If you managed to skip past Podzol and Mycelium earlier, then this might be a way to complete those quests in a different way."
+			]
+			hide: true
+			id: "56EC762B367A5628"
+			tasks: [
+				{
+					id: "56405DB2BE7FAEBC"
+					type: "item"
+					item: "botania:podzol_seeds"
+				}
+				{
+					id: "0937F1A22AE3CB9E"
+					type: "item"
+					item: "botania:mycelium_seeds"
+				}
+				{
+					id: "79F815C34219F261"
+					type: "item"
+					item: "botania:grass_seeds"
+				}
+			]
+			rewards: [{
+				id: "63E9054CA6AA75BC"
+				type: "item"
+				item: "pixelmon:leaf_stone_shard"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			description: [
+				"In order to create the two shimmering mushrooms, you will need the pigments you gathered from Florges. You will want to apply them to mushrooms that already have strong blue and cyan hues. "
+				""
+				"If you haven't collected them yet, you should head back to where you were previously hunting for mushrooms and do so. Check the Cyan and Blue mushrooms above to see what non-magical mushrooms they will accept as part of their recipe."
+			]
+			dependencies: ["08B38BEB5FF4573E"]
+			hide: true
+			id: "44AC031C5D34292E"
+			tasks: [
+				{
+					id: "7E2FD00747EEED9B"
+					type: "item"
+					item: "botania:cyan_mushroom"
+				}
+				{
+					id: "778C23F3B615A244"
+					type: "item"
+					item: "botania:blue_mushroom"
+				}
+			]
+			rewards: [
+				{
+					id: "6BC56920670019E3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0319BFAE4C2CE90F"
+					type: "item"
+					item: "pixelmon:blue_letter_box"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			description: [
+				"you will need to create the above mushrooms by creating the pigments and applying them to the correct non-magical mushroom species."
+				""
+				"Check each color of mushroom above to see what non-magical mushrooms will work in their recipes."
+			]
+			dependencies: ["3DA6DA49C7364841"]
+			hide: true
+			id: "51CBAD64B5AA2533"
+			tasks: [
+				{
+					id: "677CDF69CC964769"
+					type: "item"
+					item: "botania:red_mushroom"
+				}
+				{
+					id: "280B7720E3DB5726"
+					type: "item"
+					item: "botania:brown_mushroom"
+				}
+				{
+					id: "1C454829D28BFB04"
+					type: "item"
+					item: "botania:light_gray_mushroom"
+				}
+			]
+			rewards: [{
+				id: "54D4A84C1C195220"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			description: ["Each shimmering mushroom must be made using pigment and a mushroom that is already similarly colored. Check the recipes for all the above mushrooms to see what non-magical mushrooms work for which recipes."]
+			dependencies: ["2CC6E126932433AD"]
+			id: "5710F074C9ADC693"
+			tasks: [
+				{
+					id: "6599491242DE82AD"
+					type: "item"
+					item: "botania:purple_mushroom"
+				}
+				{
+					id: "258764D54AF3716D"
+					type: "item"
+					item: "botania:lime_mushroom"
+				}
+				{
+					id: "2E3C2B92CD5688F2"
+					type: "item"
+					item: "botania:pink_mushroom"
+				}
+			]
+			rewards: [{
+				id: "5F1743F8B8B7C57E"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			description: ["If you're tired of looking at the same old boring grass color everywhere, or dark purple just isn't your color, you can also use cosmetic grass seeds to create green, red, or blue grass."]
+			dependencies: ["56EC762B367A5628"]
+			hide: true
+			id: "5D06B947D0908B71"
+			tasks: [
+				{
+					id: "5247711DF7B2A266"
+					type: "item"
+					item: "botania:dry_seeds"
+				}
+				{
+					id: "4964F708ECB95546"
+					type: "item"
+					item: "botania:golden_seeds"
+				}
+				{
+					id: "659E4C8F7518BAA5"
+					type: "item"
+					item: "botania:vivid_seeds"
+				}
+				{
+					id: "536966DDF2F5A6DA"
+					type: "item"
+					item: "botania:scorched_seeds"
+				}
+				{
+					id: "48A01F35DF4F457E"
+					type: "item"
+					item: "botania:infused_seeds"
+				}
+				{
+					id: "09A9D88CA8D1A8A6"
+					type: "item"
+					item: "botania:mutated_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "107C9CDDD24C18C7"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "72EBE4A66A64839E"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "7E7FBAF5949456A3"
+					type: "command"
+					title: "Wait a Minute... One of these seeds isn't a seed!"
+					icon: "minecraft:turtle_egg"
+					command: "/pokegive @p ferroseed g:female ivdef:31 ivspdef:31 ivspd:0 ivatk:31 ivspatk:0 ivhp:31 ab:anticipation egg"
+					player_command: false
 				}
 			]
 		}

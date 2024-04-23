@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Manmade"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lansat_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 50,
       "typeID": "pokemon",
@@ -21,6 +27,12 @@
       "spec": "species:Absol",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lansat_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 5,
       "maxLevel": 50,
@@ -39,6 +51,12 @@
       "spec": "species:Absol",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lansat_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 5,
       "maxLevel": 50,

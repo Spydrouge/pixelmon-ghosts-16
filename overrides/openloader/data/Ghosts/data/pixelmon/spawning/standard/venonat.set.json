@@ -17,12 +17,38 @@
           "NIGHT",
           "DUSK"
         ],
-        "maxY": 92,
-        "minY": 64,
+        "maxY": 128,
+        "minY": 92,
         "stringBiomes": [
           "ghosts"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "compositeCondition":
+          {
+            "conditions": 
+            [
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:torch"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:lantern"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:campfire"
+                ]
+              }
+            ]
+          }
+        }
+      ],
       "rarity": 60.0
     },
     {
@@ -37,30 +63,37 @@
         "times": [
           "DAY"
         ],
-         "maxY": 92,
-        "minY": 64,
+         "maxY": 128,
+        "minY": 92,
         "stringBiomes": [
           "ghosts"
-        ]
+        ],
+          
       },
-      "groupSpawnSettings": [
+      "rarityMultipliers": [
         {
-          "spec": "Venonat",
-          "amount": {
-            "min_value": 3,
-            "max_value": 4
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 1.0
+          "multiplier": 2,
+          "compositeCondition":
+          {
+            "conditions": 
+            [
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:torch"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:lantern"
+                ]
+              },
+              {
+                "neededNearbyBlocks": [
+                  "minecraft:campfire"
+                ]
+              }
+            ]
+          }
         }
       ],
       "rarity": 60.0

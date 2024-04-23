@@ -7,6 +7,12 @@
         "Mandmade",
         "Indoors"
       ],
+      "heldItems": [
+         {
+          "itemID": "pixelmon:pomeg_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 22,
       "maxLevel": 31,
       "typeID": "pokemon",
@@ -27,6 +33,12 @@
       "stringLocationTypes": [
         "Air",
         "Headbutt"
+      ],
+      "heldItems": [
+         {
+          "itemID": "pixelmon:pomeg_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 22,
       "maxLevel": 31,

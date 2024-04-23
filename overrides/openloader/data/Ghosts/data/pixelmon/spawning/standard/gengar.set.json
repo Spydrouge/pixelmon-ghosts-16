@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Land"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 75
+        }
+      ],
       "minLevel": 30,
       "maxLevel": 50,
       "typeID": "pokemon",
@@ -20,6 +26,12 @@
       "spec": "species:Gengar palette:ashen",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 30,
       "maxLevel": 50,
@@ -39,6 +51,12 @@
       "stringLocationTypes": [
         "Indoors",
         "Land"
+      ],
+     "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 30,
       "maxLevel": 50,
@@ -61,6 +79,12 @@
       "stringLocationTypes": [
         "Indoors",
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 30,
       "maxLevel": 50,

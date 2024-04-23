@@ -11,8 +11,12 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 75
+        },
+        {
           "itemID": "pixelmon:silver_powder",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -34,8 +38,12 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 75
+        },
+        {
           "itemID": "pixelmon:silver_powder",
-          "percentChance": 100
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -60,11 +68,15 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 75
+        },
+        {
           "itemID": "pixelmon:silver_powder",
-          "percentChance": 100
+          "percentChance": 25
         }
       ],
-      "condition": {
+        "condition": {
         "times": [
           "DAY"
         ],
@@ -84,8 +96,12 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 75
+        },
+        {
           "itemID": "pixelmon:silver_powder",
-          "percentChance": 100
+          "percentChance": 25
         }
       ],
       "condition": {

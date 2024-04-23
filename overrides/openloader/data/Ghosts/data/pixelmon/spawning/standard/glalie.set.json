@@ -16,6 +16,12 @@
           "ghosts"
         ]
       },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:starf_berry",
+          "percentChance": 50
+        }
+      ],
       "groupSpawnSettings": [
         {
           "spec": "Snorunt",

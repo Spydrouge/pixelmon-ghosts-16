@@ -11,6 +11,12 @@
       "minLevel": 6,
       "maxLevel": 34,
       "typeID": "pokemon",
+      "heldItems": [
+           {
+          "itemID": "pixelmon:rindo_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "baseBlocks": [
           "minecraft:sand",
@@ -47,6 +53,12 @@
       "minLevel": 22,
       "maxLevel": 38,
       "typeID": "pokemon",
+      "heldItems": [
+           {
+          "itemID": "pixelmon:rindo_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
         "times": [
           "DAY"

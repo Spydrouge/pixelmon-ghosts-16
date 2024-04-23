@@ -13,6 +13,10 @@
         {
           "itemID": "pixelmon:smoke_ball",
           "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 5
         }
       ],
       "condition": {

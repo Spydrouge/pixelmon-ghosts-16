@@ -4,8 +4,17 @@
     {
       "spec": "species:Shedinja",
       "stringLocationTypes": [
-        "Air",
-        "Tree Top"
+        "Air"
+      ],
+      "heldItems": [
+        {
+          "itemID": "botania:black_lotus",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:kelpsy_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 12,
       "maxLevel": 21,
@@ -44,6 +53,16 @@
       "stringLocationTypes": [
         "Air",
         "Tree Top"
+      ],
+      "heldItems": [
+        {
+          "itemID": "botania:black_lotus",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:kelpsy_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 12,
       "maxLevel": 21,
@@ -103,6 +122,16 @@
       "stringLocationTypes": [
         "Land"
       ],
+      "heldItems": [
+        {
+          "itemID": "botania:black_lotus",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:kelpsy_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 20,
       "maxLevel": 40,
       "typeID": "pokemon",
@@ -123,6 +152,10 @@
         "Land"
       ],
       "heldItems": [
+        {
+          "itemID": "botania:black_lotus",
+          "percentChance": 5
+        },
         {
           "itemID": "pixelmon:kelpsy_berry",
           "percentChance": 50
@@ -150,8 +183,12 @@
       ],
       "heldItems": [
         {
+          "itemID": "botania:black_lotus",
+          "percentChance": 5
+        },
+        {
           "itemID": "pixelmon:kelpsy_berry",
-          "percentChance": 100
+          "percentChance": 50
         }
       ],
       "minLevel": 20,

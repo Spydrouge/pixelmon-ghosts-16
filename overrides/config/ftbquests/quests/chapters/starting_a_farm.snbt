@@ -1186,7 +1186,12 @@
 				""
 				"Eating exceptionally well will keep you spry, healthy, and virtually immortal, just like &aAsh Ketchum&r!"
 			]
-			dependencies: ["4037E692772EC7FE"]
+			dependencies: [
+				"4037E692772EC7FE"
+				"4EE5504B5C31D047"
+				"16D13FBB3BBF2133"
+				"44C10B51CAAF3718"
+			]
 			hide: true
 			id: "1455941647C48282"
 			tasks: [
@@ -1365,8 +1370,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -8.5d
+			x: -2.0d
+			y: -10.5d
 			subtitle: "Smells slightly Spicy, like Cinnamon."
 			description: [
 				"Wait a minute! What is this thing Drifloon's brought you? A cake made of... &cblood&r? Or of some kind of slime that merely looks like blood? It- it really smells delicious."
@@ -1392,8 +1397,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -8.5d
+			x: -2.0d
+			y: -11.5d
 			subtitle: "Figure out how to make them!"
 			description: [
 				"You've made some red slimy seeds! These types of seeds should be placed away from the dirt you normally grow grass on. When you plant the seeds on a piece of dirt, it will turn into a single block of &cnylium&r. This nylium can be spread to other dirt blocks by bonemealing it."
@@ -1416,8 +1421,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -9.5d
+			x: -2.0d
+			y: -12.5d
 			subtitle: "Now you need Glowstone and an Egg..."
 			description: ["Using shears, you can collect large amounts of tall slimy grass. This grass is a necessary ingredient of that cake!"]
 			dependencies: [
@@ -1433,11 +1438,6 @@
 			}]
 			rewards: [
 				{
-					id: "62285842F00BA506"
-					type: "item"
-					item: "byg:green_apple"
-				}
-				{
 					id: "545921C3A1488359"
 					type: "item"
 					item: "pixelmon:red_clock"
@@ -1448,11 +1448,16 @@
 					title: "Drifloon found some spare change!"
 					count: 200
 				}
+				{
+					id: "1F2E3A3488238268"
+					type: "item"
+					item: "pixelmon:curry_apple"
+				}
 			]
 		}
 		{
-			x: -8.5d
-			y: -8.5d
+			x: -3.0d
+			y: -11.5d
 			subtitle: "Find the mushroom to reveal the text!"
 			description: [
 				"You've done it! You've found the rare slimy mushroom called the \"Bloodshroom\"! You now need to plant it back on the nylium and bonemeal it until it grows. Like with a tree, this might take multiple tries. Make sure there is nothing too close to it that might prevent its growth."
@@ -1474,15 +1479,15 @@
 					item: "minecraft:shroomlight"
 				}
 				{
-					id: "7B273390952C78A3"
+					id: "41F8F29DFC71D42B"
 					type: "item"
-					item: "pixelmon:curry_fried_food"
+					item: "pixelmon:curry_mushroom"
 				}
 			]
 		}
 		{
-			x: -9.5d
-			y: -8.5d
+			x: -4.0d
+			y: -11.5d
 			description: [
 				"You've done it! You've done... something!"
 				""
@@ -1523,8 +1528,8 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: -8.5d
+			x: -5.0d
+			y: -11.5d
 			subtitle: "More than a push"
 			description: [
 				"This tool can be used to yeet Pokemon. Very useful for when the wrong Pokemon are overtaking a habitat: Just charge it up, point it at them, release, and off they go!"
@@ -1565,12 +1570,17 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: -9.5d
+			x: -4.5d
+			y: -12.5d
 			subtitle: "Boing! Boing! Boing!"
-			description: ["Every time you bump into these blocks, it sends you flying in the opposite direction! Very nice for jumping on, and the ichor one also gives off a small amount of light."]
+			description: [
+				"Every time you bump into congealed blocks, it sends you flying in the opposite direction! Very nice for jumping on, and the ichor one also gives off a small amount of light."
+				""
+				"The blood block is similar to a slime block, but is only bouncy, not sticky."
+			]
 			dependencies: ["7E197FCD844FF182"]
 			hide: true
+			dependency_requirement: "one_completed"
 			id: "1B33709ACD196577"
 			tasks: [
 				{
@@ -1582,6 +1592,11 @@
 					id: "6CCEB73B62A39F87"
 					type: "item"
 					item: "tconstruct:blood_congealed_slime"
+				}
+				{
+					id: "5FC7EDDA78811AA6"
+					type: "item"
+					item: "tconstruct:blood_slime"
 				}
 			]
 			rewards: [
@@ -1604,18 +1619,21 @@
 		}
 		{
 			title: "Slimewood tools"
-			x: -10.5d
-			y: -7.5d
+			x: -4.5d
+			y: -10.5d
 			subtitle: "Yummy?"
 			description: [
 				"Slimewood tool rods or extras grant objects a second durability bar, which is consumed before the main durability is.  This durability bar is called the tool's \"Overslime.\""
 				""
-				"Overslime can be recharged with Slime Crystals. This gives you a renewable way to repair tools regardless of Pickaxe Head type!"
+				"If you add Overslime to a normal tool, it decreases that tool's effectiveness. But when tools are naturally slimy, they suffer no penalties. Slimewood tools second ability, Overgrowth, causes Overslime to regenerate with time."
 				""
-				"Slimewood tool rods (not extras) also increase durability, but its at a slight hit to mining and attack speed."
+				"This interaction is a budget '&dmending&r' enchantment. It can also be used on tools that function better at lower durabilities to keep them at lower durabilities without repairing them."
+				""
+				"Typically, the best part of a tool to make of Slimewood is the binding. This is because the tool rod decreases tool speed at the cost of durability."
 			]
 			dependencies: ["7E197FCD844FF182"]
 			hide: true
+			dependency_requirement: "one_completed"
 			id: "2C25AE5D7E72F34A"
 			tasks: [{
 				id: "1DCA98263A08E06C"
@@ -1663,8 +1681,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -10.5d
+			x: -2.0d
+			y: -13.5d
 			subtitle: "Must be Crafted"
 			description: ["You need egg, glowstone, blood slime, and the slimy grass you previously collected in order to make this kind of cake. But oh what a cake it is! Packed with protein and able to heal you up!"]
 			dependencies: ["5F4F72FBCEB01161"]
@@ -1757,8 +1775,8 @@
 					Icon: "pixelmon:textures/pokemon/355_duskull/all/base/shiny/sprite.png"
 				}
 			}
-			x: -7.5d
-			y: -11.5d
+			x: -2.0d
+			y: -14.5d
 			subtitle: "Vampyric Consequences..."
 			description: [
 				"It seems Duskull would like this cake you've baked... You're not sure that's the best idea..."
@@ -1940,8 +1958,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -8.5d
+			x: 0.0d
+			y: -11.5d
 			description: ["You can create slimy seeds the same way you created blood slime seeds: By infusing beetroots with slime."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1955,26 +1973,655 @@
 				type: "item"
 				item: "tconstruct:earth_slime_grass_seeds"
 			}]
+			rewards: [{
+				id: "445A18E0817EAE66"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
 		}
 		{
-			x: 4.0d
-			y: -8.5d
+			x: 1.0d
+			y: -11.5d
 			description: [
 				"Greenheart saplings, a renewable source of slime and slime wood, can be found as a very rare drop from breaking green slimy grass."
 				""
 				"The chance of getting a sapling is increased with the fortune enchantment."
 			]
+			dependencies: ["66D07BD04AFB9EB5"]
+			hide: true
 			id: "5D4448D6E029643C"
 			tasks: [{
 				id: "5A20F9C7A0F2C16D"
 				type: "item"
 				item: "tconstruct:earth_slime_sapling"
 			}]
-			rewards: [{
-				id: "6AF8C5E635BB5CF3"
+			rewards: [
+				{
+					id: "406FCF7AEC0E4296"
+					type: "item"
+					item: "pixelmon:curry_fried_food"
+				}
+				{
+					id: "5A9C09B4AB8AB420"
+					type: "item"
+					item: "pixelmon:sticky_barb"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -11.5d
+			dependencies: ["5D4448D6E029643C"]
+			hide: true
+			id: "772CDFA5C215FF82"
+			tasks: [{
+				id: "7F706BA600534E53"
 				type: "item"
-				item: "pixelmon:green_shard"
+				item: "tconstruct:greenheart_log"
 			}]
+			rewards: [
+				{
+					id: "3FB1DD3D4C5A14BD"
+					type: "item"
+					item: "pixelmon:cornn_berry"
+				}
+				{
+					id: "2BBC334AEF79A2BF"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.5d
+			description: ["Using bonemeal you can produce tall slimy grass, and using shears you can collect the grass for use in cake recipes."]
+			dependencies: ["66D07BD04AFB9EB5"]
+			hide: true
+			id: "0AFC5CFCC609E0F4"
+			tasks: [{
+				id: "1D8F99268E9EE422"
+				type: "item"
+				item: "tconstruct:earth_slime_tall_grass"
+			}]
+			rewards: [
+				{
+					id: "7D30B7EA8B02DCB5"
+					type: "item"
+					item: "byg:green_apple"
+				}
+				{
+					id: "54BFC3976E41FFD3"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+				{
+					id: "36861C98DCBD50DC"
+					type: "item"
+					item: "pixelmon:green_clock"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -13.5d
+			description: [
+				"You need an egg and sugar to complete this recipe, as well as multiple buckets of molten slime."
+				""
+				"Sugar and eggs drop from a large number of Pokemon, but you can get both from Spritzee and Swirlix on the Dazzle layer if you haven't found an alternative source."
+			]
+			dependencies: ["0AFC5CFCC609E0F4"]
+			hide: true
+			id: "1090DB05C86E19B5"
+			tasks: [{
+				id: "2692D806CD79E789"
+				type: "item"
+				item: "tconstruct:earth_cake"
+			}]
+			rewards: [
+				{
+					id: "5604397AE254EFC0"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "1B5B901D8590DE04"
+					type: "item"
+					item: "pixelmon:nanab_berry"
+				}
+				{
+					id: "546D9B5127FB00BE"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/200_misdreavus/all/base/shiny/sprite.png"
+				}
+			}
+			x: 0.0d
+			y: -14.5d
+			description: [
+				"You may choose to feed this cake to a captured Misdreavus."
+				""
+				"If you do not have a Misdreavus, you should not attempt to fulfill this quest. A pink misdreavous can also be submitted, but will not retain its pinkness."
+				""
+				"If you do not have a Misdreavus, you should not attempt to fulfill this quest. If you allow Misdreavus to eat the cake, it will effectively be replaced with an entirely new Misdreavus, at level 2, with completely different traits."
+				""
+				"This new Misdreavus must be evolved with a Dawn Stone, not a Dusk Stone, if you want to reap the full effects of the cake."
+			]
+			dependencies: ["1090DB05C86E19B5"]
+			hide: true
+			id: "2A889BBA72FC67A3"
+			tasks: [
+				{
+					id: "5535ACE97F1814EB"
+					type: "pixelmon:submit_pokemon"
+					pokemon: "species:misdreavus"
+					count: 1
+					invert: false
+					party: 0b
+				}
+				{
+					id: "1142AEEC29E9615E"
+					type: "item"
+					item: "tconstruct:earth_cake"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4F40C7B28D6AAC42"
+				type: "choice"
+				title: "Wait, what gender was your Misdreavus, again?"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/200_misdreavus/all/base/shiny/sprite.png"
+					}
+				}
+				table_id: 2709534979221670714L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -14.5d
+			description: ["Something is funny about your newly green-ified Misdreavus. You should try using a Dawn Stone on it one day, instead of a Dusk Stone."]
+			dependencies: ["2A889BBA72FC67A3"]
+			hide: true
+			id: "74F80ECECEE49B65"
+			tasks: [
+				{
+					id: "5FC92A669442FF1C"
+					type: "item"
+					item: "pixelmon:dawn_stone"
+				}
+				{
+					id: "666AB3E57CED75BF"
+					type: "pixelmon:evolve_pokemon"
+					title: "Evolve Green Misdreavus"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/gui/quests/question_mark.png"
+						}
+					}
+					pokemon: "Fluttermane"
+					count: 1
+					invert: false
+					evolution_type: 0b
+				}
+			]
+			rewards: [{
+				id: "63042D4E65623D6E"
+				type: "item"
+				item: "pixelmon:booster_energy"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -11.5d
+			description: [
+				"This sling works very different from the orange ichor sling. Instead of throwing Pokemon and other mobs away from you, this sling is pointed out the ground, fired, and hurls you violently into the air."
+				""
+				"You'd better keep a water bucket with you, or an Elytra, or perhaps find a way to put 'Bouncy' on some boots. "
+			]
+			dependencies: [
+				"772CDFA5C215FF82"
+				"6C44EC48FE059DA0"
+			]
+			hide: true
+			id: "720F713ED2463204"
+			tasks: [{
+				id: "6E7E9736C9F12368"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E8CFF2E41690128"
+					type: "item"
+					item: "pixelmon:cornn_berry"
+				}
+				{
+					id: "54E7D1AF65C3273A"
+					type: "item"
+					item: "byg:green_enchanted_sapling"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -16.0d
+			description: [
+				"Now that you've successfully worked with two different types of Slime, you're left to wonder: Are there other slimes out there?"
+				""
+				"You remember your Skyblock ancestors telling you a story of tinkering, and of Sky slime, and Ender slime. Maybe you can find one of these exotic slimes by attracting Sun and Moon Shellos to appropriate habitats in the Space layr. You think they should be attacted to Underground Water."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7E197FCD844FF182"
+				"772CDFA5C215FF82"
+			]
+			hide: true
+			id: "4028440A42C84E8F"
+			tasks: [{
+				id: "5D036CC825D8AA43"
+				type: "item"
+				item: "tconstruct:sky_slime_ball"
+			}]
+			rewards: [{
+				id: "15C9071A4A668B3F"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -17.0d
+			description: ["As soon as any new variety of slime is discovered, it's of course prudent to create slimy seeds!"]
+			dependencies: ["4028440A42C84E8F"]
+			hide: true
+			id: "7F1C5EBDC342B0C2"
+			tasks: [{
+				id: "5B575AC46751932E"
+				type: "item"
+				item: "tconstruct:sky_slime_grass_seeds"
+			}]
+			rewards: [{
+				id: "61F5C985B4AD43EC"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			title: "Slimewood Armor"
+			x: 2.5d
+			y: -10.5d
+			description: [
+				"Slime wood armor can be created using the materials harvested from giant Bloodshrooms or Greenheart slimy saplings. While they grant less armor than necrotic bone or blood bone, Plated Slimewood has equal toughness and much higher durability and knockback resistance."
+				""
+				"Gear made from slime typically has the ability \"Overslime\" which is like a shield of extra durability points that protect the tool. Overslime is typically replenished by using slime crystals on the tool. However, Slimewood's ability \"Overgrowth\" will replenish Overslime over time. "
+				""
+				"This interaction is a budget '&dmending&r' enchantment. It can also be used on tools that function better at lower durabilities to keep them at lower durabilities without repairing them."
+				""
+				"This is especially good as a component of Armor, because so far you've needed Armor very rarely."
+			]
+			dependencies: [
+				"5F2C866ED23D2A45"
+				"772CDFA5C215FF82"
+			]
+			hide: true
+			id: "7A82734BD0579ED0"
+			tasks: [{
+				id: "14009BDE99DDC339"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimewood"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C18204E17040369"
+					type: "item"
+					item: "pixelmon:cornn_berry"
+				}
+				{
+					id: "0DA61651EDA5992D"
+					type: "item"
+					item: "tconstruct:earth_slime_crystal"
+					count: 4
+				}
+				{
+					id: "5B507A9C66905025"
+					type: "item"
+					item: "byg:willow_sapling"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -12.5d
+			description: ["There are two different types of blocks made from slime. One, the traditional slime block, is best used with pistons and redstone machinery. The second, the congealed slime block, is bouncier, and you can easily scale two meter high surfaces with it."]
+			dependencies: ["772CDFA5C215FF82"]
+			hide: true
+			id: "7B37CC7081EF2253"
+			tasks: [
+				{
+					id: "414342E4C837D66C"
+					type: "item"
+					item: "minecraft:slime_block"
+				}
+				{
+					id: "2B93E46CF18EFB5C"
+					type: "item"
+					item: "tconstruct:earth_congealed_slime"
+				}
+			]
+			rewards: [
+				{
+					id: "35D6A6AFD1B97E43"
+					type: "item"
+					item: "pixelmon:cornn_berry"
+				}
+				{
+					id: "5EF434C064029076"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "5C6D1FF1602552DE"
+					type: "item"
+					item: "biomesoplenty:willow_sapling"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -18.0d
+			dependencies: ["7F1C5EBDC342B0C2"]
+			hide: true
+			id: "331908869ED04609"
+			tasks: [{
+				id: "072B66DBB07F84AD"
+				type: "item"
+				item: "tconstruct:sky_slime_tall_grass"
+			}]
+			rewards: [
+				{
+					id: "3984B859ECE7E1A5"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+				{
+					id: "1930CFFAC84F3A2E"
+					type: "item"
+					item: "pixelmon:cyan_clock"
+				}
+				{
+					id: "26F3825FBBA1ABD1"
+					type: "item"
+					item: "tconstruct:jeweled_apple"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -19.0d
+			dependencies: ["331908869ED04609"]
+			hide: true
+			id: "50FA68002AEA8792"
+			tasks: [{
+				id: "0D215AFE672FE51D"
+				type: "item"
+				item: "tconstruct:sky_cake"
+			}]
+			rewards: [
+				{
+					id: "60A492CE1B6E46C5"
+					type: "choice"
+					table_id: 2569163684363635098L
+				}
+				{
+					id: "2FD282BD10A6C01A"
+					type: "item"
+					item: "pixelmon:pinap_berry"
+				}
+				{
+					id: "3C0D14BE657A69D0"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "advancedpotions:strong_levitation"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -16.0d
+			dependencies: ["4028440A42C84E8F"]
+			hide: true
+			id: "1732CAC1B14B01F6"
+			tasks: [{
+				id: "5460A92765E09B5D"
+				type: "item"
+				item: "tconstruct:sky_slime_sapling"
+			}]
+			rewards: [
+				{
+					id: "3834608ACEBB5C20"
+					type: "item"
+					item: "pixelmon:raw_sky_tumblestone"
+				}
+				{
+					id: "1184158975C1C418"
+					type: "item"
+					item: "pixelmon:curry_cheese"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -16.0d
+			description: ["Skyroot logs have the same properties as Bloodshroom stems and Greenheart logs. They can all be used to make slimewood tools, weapons, and armor."]
+			dependencies: ["1732CAC1B14B01F6"]
+			hide: true
+			id: "357163CAC553523E"
+			tasks: [{
+				id: "475909D19847260C"
+				type: "item"
+				item: "tconstruct:skyroot_log"
+			}]
+			rewards: [
+				{
+					id: "73403E307CFA1FCC"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+				{
+					id: "5C12159B0E215ED7"
+					type: "item"
+					item: "pixelmon:cyan_cushion_chair"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -16.0d
+			description: [
+				"This slimesling is slightly easier to control, in that you face the direction you want to be flung in while pulling it back and releasing. It's much easier to aim than the regular slime sling."
+				""
+				"However, it's also much less powerful."
+			]
+			dependencies: ["357163CAC553523E"]
+			hide: true
+			id: "4265E3B649CD0E54"
+			tasks: [{
+				id: "4A423A9CE1200D31"
+				type: "item"
+				item: {
+					id: "tconstruct:sky_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "154CCD58CABD09CC"
+					type: "item"
+					item: "byg:ether_sapling"
+				}
+				{
+					id: "24B1DE0334738E79"
+					type: "item"
+					item: "tconstruct:slimesteel_reinforcement"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -15.0d
+			description: [
+				"Slimesteel requires iron to make, and make not be practical as a metal for tools, weapons, and armor at the moment."
+				""
+				"However, given that silmesteel has properties similar to regular steel, you might decide that getting two slimesteel ingots per iron ingot is a good way to 'stretch out' your iron."
+			]
+			dependencies: ["357163CAC553523E"]
+			hide: true
+			id: "3C967DE130D49A81"
+			tasks: [{
+				id: "09FB5A7EFC7D8C2C"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "3497C13DDDFC1F43"
+					type: "item"
+					title: "Your Pokemon made an art project while your back was turned."
+					item: "tconstruct:slimesteel_reinforcement"
+					count: 16
+				}
+				{
+					id: "058ABF922C9C9546"
+					type: "item"
+					item: "byg:skyris_sapling"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -17.0d
+			description: ["Like previous slimes, congealed slimes are incredibly bouncy. The Skyslime block sticks to both slime and honey, making it useful in redstone contraptions."]
+			dependencies: ["357163CAC553523E"]
+			hide: true
+			id: "5D4C997CD1931EAA"
+			tasks: [
+				{
+					id: "51FD559478097593"
+					type: "item"
+					item: "tconstruct:sky_congealed_slime"
+				}
+				{
+					id: "2F501EFAC78C6506"
+					type: "item"
+					item: "tconstruct:sky_slime"
+				}
+			]
+			rewards: [
+				{
+					id: "6969CF7FB32E170C"
+					type: "item"
+					title: "Your Pokemon made an art project while your back was turned"
+					item: "tconstruct:slimesteel_reinforcement"
+					count: 16
+				}
+				{
+					id: "72F042DB281889ED"
+					type: "item"
+					item: "byg:indigo_jacaranda_sapling"
+				}
+			]
 		}
 	]
 }

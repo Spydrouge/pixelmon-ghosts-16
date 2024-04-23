@@ -2,13 +2,19 @@
   "id": "Mantine",
   "spawnInfos": [
     {
-      "spec": "species:Gyarados palette:zombie",
+      "spec": "species:Mantine",
       "stringLocationTypes": [
         "Water"
       ],
       "minLevel": 30,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wacan_berry",
+          "percentChance": 50
+        }
+      ],
       "condition": {
         "maxY": 192,
         "minY": 160,

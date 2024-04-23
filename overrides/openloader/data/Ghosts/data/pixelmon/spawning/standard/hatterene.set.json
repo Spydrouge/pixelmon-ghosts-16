@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Indoors"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hondew_berry",
+          "percentChance": 75
+        }
+      ],
       "minLevel": 42,
       "maxLevel": 55,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Hatterene",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hondew_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 42,
       "maxLevel": 55,
@@ -44,6 +56,12 @@
         "Indoors",
         "Manmade"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hondew_berry",
+          "percentChance": 75
+        }
+      ],
       "minLevel": 42,
       "maxLevel": 55,
       "typeID": "pokemon",
@@ -61,6 +79,12 @@
       "spec": "species:Hatterene",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hondew_berry",
+          "percentChance": 75
+        }
       ],
       "minLevel": 42,
       "maxLevel": 55,

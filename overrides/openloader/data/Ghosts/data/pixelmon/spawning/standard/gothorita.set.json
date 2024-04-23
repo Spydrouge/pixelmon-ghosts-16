@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Indoors"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grepa_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 33,
       "maxLevel": 40,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Gothorita",
       "stringLocationTypes": [
         "Land"
+      ],
+       "heldItems": [
+        {
+          "itemID": "pixelmon:grepa_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 33,
       "maxLevel": 40,
@@ -45,6 +57,12 @@
         "Indoors",
         "Manmade"
       ],
+       "heldItems": [
+        {
+          "itemID": "pixelmon:grepa_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 33,
       "maxLevel": 40,
       "typeID": "pokemon",
@@ -62,6 +80,12 @@
       "spec": "species:Gothorita",
       "stringLocationTypes": [
         "Land"
+      ],
+       "heldItems": [
+        {
+          "itemID": "pixelmon:grepa_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 33,
       "maxLevel": 40,

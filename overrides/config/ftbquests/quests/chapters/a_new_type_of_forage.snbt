@@ -1251,85 +1251,1450 @@
 			]
 		}
 		{
-			title: "Use a Low Level Water Move"
 			x: 0.0d
 			y: -10.5d
-			description: ["In a world where water is scarce, it's worth noting that using water moves in battle produces collectable water."]
+			description: ["If you have a Pokemon that has Ember, Incinerate, Inferno, or Burn Up, these moves can be use to power a Furnace without coal. Higher power moves will cause items in the furnace to smelt instantaneously. "]
+			hide_dependency_lines: true
 			dependencies: ["7A14B86EECDF05E4"]
 			hide: true
-			repeatable: true
+			size: 0.5d
+			id: "00E707243834C44B"
+			tasks: [{
+				id: "5B4E933320BD1F24"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "smelt"
+			}]
+			rewards: [
+				{
+					id: "2C6D9EBCEF1673C6"
+					type: "item"
+					item: "thermal:coal_coke"
+					count: 16
+				}
+				{
+					id: "415509BDD838B618"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen6"
+						Count: 1b
+						tag: {
+							tm: 59
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			description: [
+				"Cut can, as the name suggests, be used to break wood blocks. But did you know that it breaks more wood blocks than one? Cut can take down whole trees- if the Pokemon using it is strong enough."
+				""
+				"Practice using cut on a variety of Pokemon, and a variety of tree sizes"
+				""
+				"Keep your best cutters away from any wood houses!"
+				""
+				"(Baobab saplings, like some other BYG saplings, will only grow above Y = 72)"
+			]
+			hide: true
+			id: "139888ADA26C5124"
+			tasks: [{
+				id: "27244B534E72CD42"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "cut"
+			}]
+			rewards: [
+				{
+					id: "0DC9B336D3001763"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
+					}
+				}
+				{
+					id: "6D5B953CB6F0E54F"
+					type: "item"
+					item: "biomesoplenty:redwood_sapling"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -12.5d
+			description: ["Gather saplings and plant your next redwood in a 2x2 to increase the tree size."]
+			dependencies: ["139888ADA26C5124"]
+			hide: true
+			id: "2F65123D8C4EA748"
+			tasks: [{
+				id: "1C95952A9480A8BC"
+				type: "item"
+				item: "biomesoplenty:redwood_log"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "13CD852EDD563F4C"
+					type: "item"
+					item: "byg:redwood_sapling"
+				}
+				{
+					id: "271CB46325139E28"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -13.5d
+			description: ["Uh oh. This is already bigger than the other redwood species as a 1x21 What happens if you plant a 2x2?"]
+			dependencies: ["2F65123D8C4EA748"]
+			hide: true
+			id: "28099EE648CD4FA4"
+			tasks: [{
+				id: "400EBF6D52A8AAEA"
+				type: "item"
+				item: "byg:redwood_log"
+			}]
+			rewards: [
+				{
+					id: "0409E6215CC76EBF"
+					type: "item"
+					item: "byg:baobab_sapling"
+					count: 4
+				}
+				{
+					id: "59AC2DE2F82B7188"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 69
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -14.5d
+			description: ["The Baobab tree, like many other (but not all!) Biomes-You'll-Go trees, will only grow above Y = 72. It also will only grow in a 2x2 configuration."]
+			dependencies: ["28099EE648CD4FA4"]
+			hide: true
+			id: "6981A63436A0C904"
+			tasks: [{
+				id: "77785E473FEB29D8"
+				type: "item"
+				item: "byg:baobab_log"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "728493466DCC05EA"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 56
+						}
+					}
+				}
+				{
+					id: "4B0AF3ED574A885A"
+					type: "item"
+					item: "byg:baobab_fruit"
+					count: 16
+				}
+				{
+					id: "4D581040CDDF2A79"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Steal an Item!"
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"Thief, Covet, and Switcheroo are three moves that can be used to take items from wild Pokemon."
+				""
+				"Wild Pokemon often hold berries, and some can hold other materials such as power enhancing items."
+				""
+				"In general, if a Pokemon drops a berry, it is much easier to obtain that berry with Thief than to wait for it to drop. Pokemon with a 5% drop chance of a berry may have a 25% chance to hold it."
+			]
+			dependencies: [
+				"4EE5504B5C31D047"
+				"16D13FBB3BBF2133"
+				"44C10B51CAAF3718"
+			]
+			hide: true
 			min_required_tasks: 1
-			id: "6C0D9782EAD424C9"
+			id: "2C0BD8E345FD832F"
 			tasks: [
 				{
-					id: "39BF2FE772915521"
+					id: "39182446E0D67BE2"
 					type: "pixelmon:battle_move"
-					title: "Use Water Gun, Bubble, "
-					disable_toast: true
 					pokemon: ""
 					count: 1
 					invert: false
-					attack: "water_gun"
+					attack: "thief"
 					moveType: 0b
 				}
 				{
-					id: "5D71FD7F64EF0E16"
+					id: "5627FF1D22B1FC63"
 					type: "pixelmon:battle_move"
-					disable_toast: true
-					secret: true
 					pokemon: ""
 					count: 1
 					invert: false
-					attack: "bubble"
+					attack: "covet"
 					moveType: 0b
 				}
 				{
-					id: "621F0A16460684A1"
+					id: "2259B9EF2B839CEF"
 					type: "pixelmon:battle_move"
-					disable_toast: true
-					secret: true
 					pokemon: ""
 					count: 1
 					invert: false
-					attack: "aqua_jet"
-					moveType: 0b
-				}
-				{
-					id: "7AD04429A58519CC"
-					type: "pixelmon:battle_move"
-					disable_toast: true
-					secret: true
-					pokemon: ""
-					count: 1
-					invert: false
-					attack: "chilling_water"
+					attack: "switcheroo"
 					moveType: 0b
 				}
 			]
 			rewards: [
 				{
-					id: "18E45348A87A7256"
-					type: "command"
-					title: "Fills one Glass Bottle with Water in Inventory"
-					icon: {
-						id: "minecraft:potion"
+					id: "75C22E172382B25F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
 						Count: 1b
 						tag: {
-							Potion: "minecraft:water"
+							tm: 68
 						}
 					}
-					auto: "no_toast"
-					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run give @s minecraft:potion{Potion:\"minecraft:water\"} 1"
-					player_command: false
 				}
 				{
-					id: "22E022BCC408328C"
-					type: "command"
-					auto: "invisible"
-					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run clear @s minecraft:glass_bottle 1"
-					player_command: false
+					id: "34EFED2D1F6DABF2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
 				}
 			]
+		}
+		{
+			title: "Covet"
+			x: 1.0d
+			y: 5.0d
+			description: [
+				"Covet is the easiest move to find among the Pokemon you still have. It is common among baby Pokemon."
+				""
+				"Happiny and Munchlax will all learn it naturally if they don't evolve too early. Smoochum will learn it whether she evolves or not."
+				""
+				"Igglybuff must evolve before or at level 8, when Jigglypuff learns Covet, or else must wait all the way till level 24 without evolving to pick it up."
+				""
+				"Some Pokemon, like Skitty and Illumise, can learn it, but they learn it much later, at levels 34 and 47 respectively."
+				""
+				"Eevee can learn it, but only at level 1, making it important not to catch a high-level Eevee."
+			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			min_required_tasks: 1
+			id: "44C10B51CAAF3718"
+			tasks: [
+				{
+					id: "53B7CE7E63D945EF"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Happiny"
+					count: 1
+					invert: false
+				}
+				{
+					id: "511B1194259955AD"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Smoochum"
+					count: 1
+					invert: false
+				}
+				{
+					id: "44178B8B9E277C3E"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Skitty"
+					count: 1
+					invert: false
+				}
+				{
+					id: "3DC90A57D768EBD2"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Igglybuff"
+					count: 1
+					invert: false
+				}
+				{
+					id: "5D5FDED0D50D5B9D"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "zigzagoon"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4CD9118193ECCCCD"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "slakoth"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "0B213D4A89D9668E"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "espurr"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "24637686509AF91A"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "skwovet"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "6958BE61D8288465"
+					type: "pixelmon:hatch_egg"
+					pokemon: "munchlax"
+					count: 1
+					invert: false
+				}
+				{
+					id: "69CE9C47154B4231"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "teddiursa"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "02B8FAD08D3D4993"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "eevee"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2489E73275FEF7F9"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "mankey"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "3F4BCE298852627E"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "jigglypuff"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [{
+				id: "268B3ADE5B37E6AF"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 1
+					}
+				}
+			}]
+		}
+		{
+			title: "Thief"
+			x: -1.0d
+			y: 5.0d
+			description: [
+				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
+				""
+				"If you haven't already found a TM for Thief, Nikkit is the only Pokemon you can think of that might have survived this apocalypse that has access to Thief on evolving. Foxes are always more in tune with the spirit world."
+			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			min_required_tasks: 1
+			id: "4EE5504B5C31D047"
+			tasks: [
+				{
+					id: "6ED28FC523BD0077"
+					type: "item"
+					title: "Obtain a Thief TM"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
+				}
+				{
+					id: "1620238EBF4BD7E4"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+				{
+					id: "1105AE26E3350BD2"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "399709C1734BB903"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen6"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "58E1D76A73693CED"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen5"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "135A7372BA2D20E7"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1444693643CEF9A8"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen3"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1EA359516E2E9D10"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1D1BDC66B343D221"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "nickit"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "61115DE236752A08"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "thievul"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "1C46FAAD55CB1B9C"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "poochyena"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "79A8695E0ED5CD76"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "mightyena"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2089444ABEBADA3A"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "kecleon"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [{
+				id: "58A285E3E2A8D900"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen4"
+					Count: 1b
+					tag: {
+						tm: 49
+					}
+				}
+			}]
+		}
+		{
+			title: "Switcheroo"
+			x: 0.0d
+			y: 5.0d
+			description: ["Catch a Pokemon that can naturally learn Switcheroo."]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			min_required_tasks: 1
+			id: "16D13FBB3BBF2133"
+			tasks: [
+				{
+					id: "446F26AD7B313657"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "inkay"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "5575B9DB10404442"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "malamar"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2D7606C3470DD08D"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "persian"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "341E957F969D36B9"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "minun"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "037B2CD7C701EEB1"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "cutiefly"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "7F8E8B66DB778DE7"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "ribombee"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "6A8AEC1517E1DDE6"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "dhelmise"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [{
+				id: "504245E9E6748F7B"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: [
+				"Headbutt isn't the most important move, but you might still want to hatch or find a Pokemon who can naturally learn Headbutt."
+				""
+				"You can hatch a few Pokemon capable of learning Headbut. Cranidos learns it immediately. Mantyke learns it at level 28."
+				""
+				"Castform, if you caught one to use rain Dance, learns it at level 15. There are many other options."
+				""
+				"Headbutt is used on trees and can either start an encounter or drop an item."
+				""
+				"It's item pool is not as diverse as Rock Smash's."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 2.0d
+			id: "402AAEEB3DE48E6F"
+			tasks: [{
+				id: "1EE593EAAED1C585"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "headbutt"
+			}]
+			rewards: [{
+				id: "1B2DE7E2296D0F2F"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 69
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			description: [
+				"Sweet Scent starts an encounter. This move pulls from a different encounter table than usual, and has the ability to bring in more flying type Pokemon. Watch out! You have no idea what the level of the enemy  Pokemon will be!"
+				""
+				"It is leanred by Oddish, Surskit, Milcery, Gossifleur, and Illumise at fairly low levels. Spritzee starts with it. Bounsweet, Comfay, and Foongus learns it much later on."
+				""
+				"The only Pokemon you can hatch, which can learn it, is Budew, and only if it evovles to Roselia in time for level 25."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "0142505D0FCC05E1"
+			tasks: [{
+				id: "333A7E0D5A1CABBF"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "sweet_scent"
+			}]
+			rewards: [
+				{
+					id: "57B81E8B94656CE2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+				{
+					id: "2F610E44779223E7"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 91
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			description: [
+				"Ummm.... Wait. What?"
+				""
+				"This is not a normal egg. It's not a Pokemon egg, either."
+			]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			secret: true
+			id: "69351F58AC8A6A4B"
+			tasks: [{
+				id: "61EA746490FD4253"
+				type: "item"
+				item: "minecraft:slime_spawn_egg"
+			}]
+			rewards: [{
+				id: "7584D8DCAD17AF25"
+				type: "item"
+				item: "pixelmon:lucky_egg"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			description: [
+				"Huh."
+				""
+				"These seem more common in the Space and Ice layers, where they aren't competing as heavily with normal eggs."
+			]
+			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
+			id: "5FEF15A09D699E2E"
+			tasks: [{
+				id: "1CCB390270449F91"
+				type: "item"
+				item: "tconstruct:sky_slime_spawn_egg"
+			}]
+			rewards: [
+				{
+					id: "43CE369C94852AEF"
+					type: "item"
+					item: "tconstruct:sky_slime_ball"
+				}
+				{
+					id: "7D66D1FB3D77B966"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "6065C4377F8F0B8E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 37
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			description: ["What you've seen in the deep dark, falling out of the trees there, is a little disturbing."]
+			dependencies: ["69351F58AC8A6A4B"]
+			id: "736534A8DE471CD8"
+			tasks: [
+				{
+					id: "6B12C640C7D74812"
+					type: "item"
+					item: "bones:skeleton_chicken_spawn_egg"
+				}
+				{
+					id: "6FD4956DB93169CD"
+					type: "item"
+					item: "bones:skeleton_cow_spawn_egg"
+				}
+				{
+					id: "2C91CF61D5B88FD5"
+					type: "item"
+					item: "bones:skeleton_pig_spawn_egg"
+				}
+				{
+					id: "43D4B5C830F65AF8"
+					type: "item"
+					item: "bones:skeleton_sheep_spawn_egg"
+				}
+				{
+					id: "56527F89F609F234"
+					type: "item"
+					item: "minecraft:skeleton_horse_spawn_egg"
+				}
+			]
+			rewards: [
+				{
+					id: "3495BA6F8CF3D416"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "3B5B121326CC17D0"
+					type: "item"
+					item: "ceramics:milk_clay_bucket"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			description: ["Headbutting trees can yield eggs and feathers, although the rate of eggs improves on the Air layer."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			id: "72A9F96F7914AF72"
+			tasks: [
+				{
+					id: "1684EF63DA43E299"
+					type: "item"
+					item: "minecraft:egg"
+				}
+				{
+					id: "579A615C7E37322D"
+					type: "item"
+					item: "minecraft:feather"
+				}
+			]
+			rewards: [{
+				id: "48A01F96959B1708"
+				type: "item"
+				item: "pixelmon:eggant_berry"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			description: ["Something strange is raining out of trees on the Stone Layer."]
+			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
+			id: "3BFE02F0A2B6E15A"
+			tasks: [{
+				id: "3C2BFB1D3B7AA25B"
+				type: "item"
+				item: "minecraft:stray_spawn_egg"
+			}]
+			rewards: [{
+				id: "2ADA875F83445D2B"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["You might find a rare new sapling."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			id: "3D41A2C5F71DC468"
+			tasks: [
+				{
+					id: "56753FB49DE731AF"
+					type: "item"
+					item: "byg:lament_sapling"
+				}
+				{
+					id: "1960B85B2F74CCEE"
+					type: "item"
+					item: "byg:ebony_sapling"
+				}
+			]
+			rewards: [{
+				id: "5A7E11A299AAB744"
+				type: "item"
+				item: "byg:holly_sapling"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			description: ["An ecclectic assortment of items can be found this way."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			min_required_tasks: 1
+			id: "035AA7EA40AFEAAF"
+			tasks: [
+				{
+					id: "27AA9B9E13FCD6F5"
+					type: "item"
+					item: "pixelmon:leek"
+				}
+				{
+					id: "0176B26E2EFA7CEC"
+					type: "item"
+					item: "pixelmon:sharp_beak"
+				}
+				{
+					id: "2A6109C9965163D1"
+					type: "item"
+					item: "pixelmon:big_root"
+				}
+			]
+			rewards: [{
+				id: "3213E8FDD13BF3B8"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen1"
+					Count: 1b
+					tag: {
+						tm: 39
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			description: ["Pretty Feathers, as well as Health, Muscle, Etc feathers, can occasionally drop from headbutting a tree."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			id: "1419BDF64C61DE5F"
+			tasks: [{
+				id: "5D2B48DF650B123D"
+				type: "item"
+				item: "pixelmon:pretty_feather"
+			}]
+			rewards: [{
+				id: "6BF7B3C1640FDB3C"
+				type: "choice"
+				table_id: 6443510782262151491L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			description: [
+				"Getting the TM Headbutt... from using Headbutt?"
+				""
+				"Well, the more the merrier."
+			]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			id: "17600F77E1AE6E27"
+			tasks: [{
+				id: "790C97FFC1233B75"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen2"
+					Count: 1b
+					tag: {
+						tm: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "127B2D2C20D2D08C"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 58
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			description: [
+				"You appear to have found an, eh-heh, Easter Egg."
+				""
+				"It is possible you've found this before you should have access to Ender Slime. If so, Enjoy."
+			]
+			hide: true
+			secret: true
+			id: "07E139B36C92A3D5"
+			tasks: [{
+				id: "715FFCF7FCB80905"
+				type: "item"
+				item: "tconstruct:ender_slime_spawn_egg"
+			}]
+			rewards: [{
+				id: "42FAA3A111AD7894"
+				type: "item"
+				item: "tconstruct:ender_slime_ball"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			description: [
+				"A Pokemon who knows Ember, Fire Spin, Flame Burst, Flame Wheel, Heat Wave, or Will-O-Wisp can use the External move Ignite."
+				""
+				"Ignite starts a fire, like with Flint and Steel. Sadly, it cannot be used to cook Curry."
+				""
+				"Some Pokemon with more powerful fire moves can ignite more blocks. These include Fire Blast, Incinerate, Inferno, and Sacred Fire."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "1643FE18CF6D0466"
+			tasks: [{
+				id: "3AB9C5978A5D8D13"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "ignite"
+			}]
+			rewards: [
+				{
+					id: "3513818B8EC55018"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 15
+						}
+					}
+				}
+				{
+					id: "18CE6A3E3BF96AF8"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -11.5d
+			description: [
+				"Tired of begging for lenses to determine a Pokemon's stats before you try to catch it? You need analyze. Analyze can be used by any Pokemon that knows Mind Reader or Foresight."
+				""
+				"Mind Reader is learned fairly late by Nincada, Ninjask, and Shedinja. Foresight is one of Venonat's starting moves. Skitty learns Foresight at Level 4."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "6E369A23A37D1561"
+			tasks: [{
+				id: "2D123F56C7DD27A6"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "analyse_pokemon"
+			}]
+			rewards: [
+				{
+					id: "3DA5915F1501B35E"
+					type: "item"
+					item: {
+						id: "pixelmon:lens_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5821A263138743A4"
+					type: "item"
+					item: "pixelmon:ability_capsule"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -10.5d
+			description: [
+				"Ground Birds can help you initiate combat with air Pokemon before they leave your island and head off into the void."
+				""
+				"The only two moves that allow you to learn Ground Birds are Smack Down and Gravity. If you replace Smack Down with a better rock move, you will learn access to it."
+				""
+				"The only Pokemon you can hatch to get access to Smack Down are some of the fossil Pokemon, like Tirouga and Anorith. If you want to hatch these Pokemon, you must go the Rock Smash route and grind out fossils. To get access to Gravity, you must hatch a Cleffa and evolve it into Clefairy in time to learn Gravity."
+				""
+				"Carbink, Geodude, Rolycoly, Roggenrola, and Dweble all gain access to Smackdown. Some Pokemon like Siglyph and Stonejourner have Gravity, but you must catch them at the righ levels. Rhyhorn has Smackdown, but may be difficult to catch without better balls."
+				""
+				"Neither move can be taught with TMs."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "3AE65172A39A66D0"
+			tasks: [{
+				id: "3BABC38EB4FAB874"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "ground"
+			}]
+			rewards: [
+				{
+					id: "442743638DA6FD34"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+				{
+					id: "05CA928C08D573A2"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 76
+						}
+					}
+				}
+				{
+					id: "25DB87173D87F609"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 75
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			description: [
+				"You aren't sure if this will ever be useful, exactly, but Pokemon who know certain electric moves can call down Lightning. These moves are Spark, Discharge, Thunder, Thunder Shock, and Thunderbolt."
+				""
+				"If you want to use lightning bolt, the fastest way is to hatch an Elekid."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "7622C8175BC28B3D"
+			tasks: [{
+				id: "5C83AF918E4BAC72"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "lightning_bolt"
+			}]
+			rewards: [
+				{
+					id: "448F2D0C234A72E2"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 9
+						}
+					}
+				}
+				{
+					id: "6CF95122FC65AF25"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 8
+						}
+					}
+				}
+				{
+					id: "552618A8AA57F6F9"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 81
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			description: [
+				"Dig is fairly useless to you. It can only harvest certain, soft blocks that you could already mine by hand. It does mine a wide 3x3, 5x5 or 7x7 area, depending on the attack state of the user."
+				""
+				"Unlike with rock smash, no unique items can be found this way."
+				""
+				"The fastest way for you to gain acess to Dig is to level up Nincada to level 40 prior to evolving it. If that is undesirable, Trapiinch naturally learns it at level 24, Silcobra at 30, and Grubbin at level 40. If you were lucky enough to gain acces to Cufant, it learns it at level 30."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "54F4EB9852C40527"
+			tasks: [{
+				id: "11CFFA0173155CDB"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "dig"
+			}]
+			rewards: [
+				{
+					id: "24D69646C9E9327E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 54
+						}
+					}
+				}
+				{
+					id: "3C9E2B3A7CADB62B"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 87
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			description: ["To use fly (or teleport) you must first have a healer. If you do not have a healer, you will not be able to use the external move. Fly (and teleport) return you to the last healer you used."]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "4ACCFABA278B9A50"
+			tasks: [{
+				id: "3E74601307FE5910"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "fly"
+			}]
+			rewards: [{
+				id: "2F4510F724D6E967"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen7"
+					Count: 1b
+					tag: {
+						tm: 58
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.5d
+			description: [
+				"Did you level up Happiny? If you now have a Chansey at level 44, you may have learned the move Soft-Boiled. You then have access to the Heal move outside of battle."
+				""
+				"In battle, Softboiled heals the user. But out of battle, Softboiled transfers health from Chansy to the target Pokemon. It transfers 20% of Chansey's Maximum health, and she can faint from overdoing it."
+				""
+				"Chansey can heal you; however, most of the healing effect will be wasted, as you have far fewer hitpoints than 20% of her maximum health."
+				""
+				"The TM Softboiled is fairly useless; it can only be used on Chansey."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3C1A4FC9A80E076B"
+				"2C25AE5D7E72F34A"
+				"1B33709ACD196577"
+				"7A14B86EECDF05E4"
+			]
+			hide: true
+			id: "6DB65486837DB39E"
+			tasks: [{
+				id: "707F57B0162EC181"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "heal_other"
+			}]
+			rewards: [
+				{
+					id: "75DB94F45751DFFC"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
+				}
+				{
+					id: "02A11A3EDC827D63"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 18
+						}
+					}
+				}
+				{
+					id: "73F009AB108C6446"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 96
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.5d
+			description: ["You can turn the rain off. Can you turn it back on?"]
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "580376CDC47FC099"
+			tasks: [{
+				id: "0A104638A44D5B8C"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "sunny_day"
+			}]
+			rewards: [
+				{
+					id: "24CAB09CE289C166"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 48
+						}
+					}
+				}
+				{
+					id: "5CD785768CDFAA5B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 167
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"If you do manage to find an appropriate Pokeball, you might want to try creating an Old Rod."
+				""
+				"Old Rods facilitate a type of fishing you're much more comfortable with! Although the item pool might not be the same..."
+				""
+				"And you do kinda want those tomatos..."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			id: "326E4AC1B60897F6"
+			tasks: [{
+				id: "7EEC0E8546847155"
+				type: "item"
+				item: {
+					id: "pixelmon:old_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "118E5FD69618A106"
+				type: "item"
+				title: "Drifloon is helping!"
+				item: "immersiveengineering:stick_aluminum"
+			}]
 		}
 	]
 }

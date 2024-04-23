@@ -2,7 +2,7 @@
   "id": "Butterfree",
   "spawnInfos": [
     {
-      "spec": "species:Butterfree",
+      "spec": "species:Butterfree palette:pink",
       "stringLocationTypes": [
         "Air",
         "Sweet Scent"
@@ -14,7 +14,7 @@
         }
       ],
       "minLevel": 10,
-      "maxLevel": 12,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
         "maxY":160,
@@ -23,7 +23,31 @@
           "ghosts"
         ]
       },
-      "rarity": 60.0
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Butterfree palette:valencian",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 25
+        }
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 30.0
     },
     {
       "spec": "species:Butterfree",

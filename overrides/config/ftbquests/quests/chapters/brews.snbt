@@ -3,8 +3,8 @@
 	group: "1BA668D58784F46A"
 	order_index: 2
 	filename: "brews"
-	title: "Brewing"
-	icon: "minecraft:cauldron"
+	title: "Witchcraft"
+	icon: "pixelmon:potion"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -26,11 +26,6 @@
 			tasks: [{
 				id: "5B8D4CA25BD15DAC"
 				type: "checkmark"
-			}]
-			rewards: [{
-				id: "462CCB7609FDD747"
-				type: "item"
-				item: "byg:green_apple"
 			}]
 		}
 		{
@@ -502,7 +497,7 @@
 			x: 9.0d
 			y: 0.0d
 			description: [
-				"Now and then, you prick yourself on a wither rose, and the experience is always unplesant. Given the amount of wither-related objects, including bones and skulls, you think you should arm yourself with a &dwither protection&r potion."
+				"Now and then, you prick yourself on a wither rose, and the experience is always unplesant. Given the amount of wither-related objects around you, including bones and skulls, you think you should arm yourself with a &dwither protection&r potion."
 				""
 				"To make a wither protection potion, you must have a cauldron filled with Awkward Potion, and throw in a Wither Skull."
 			]
@@ -636,11 +631,18 @@
 				item: "tconstruct:necrotic_bone"
 				count: 6L
 			}]
-			rewards: [{
-				id: "7C47F87D13E44AA2"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "7C47F87D13E44AA2"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "530837ACD2F9F30B"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -1017,6 +1019,172 @@
 					item: "pixelmon:black_shard"
 				}
 			]
+		}
+		{
+			x: 4.0d
+			y: 4.25d
+			description: [
+				"The easiest recipe for energy powder involves preserving dried oran berries. You can do this with ghast tears. The mixture can then be packaged neatly in paper."
+				""
+				"If you don't have access to sugar cane, paper can be made with tree bark, aquired using a Farmer's Delight knife."
+				""
+				"Energy powder heals 60 HP, so you are doubling the power of the oran berries. Very effective when one needs to heal quickly mid-battle."
+			]
+			dependencies: ["19743D05D2F4C171"]
+			hide: true
+			id: "641E39C60B8A7077"
+			tasks: [{
+				id: "1AB4D9AB80811925"
+				type: "item"
+				item: "pixelmon:energy_powder"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "77E0667C06EE4AAC"
+					type: "item"
+					item: "pixelmon:energy_powder"
+				}
+				{
+					id: "71761554C1D2C8CD"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+				{
+					id: "50D2EAD3DB5B1EDB"
+					type: "item"
+					item: "pixelmon:belue_berry"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.25d
+			description: [
+				"Heal power is a panacea: It can heal any status condition. For this reason, it needs to contain elements of each kind of status-healing berry."
+				""
+				"It is convenient to carry around heal powder instead of individual berries because it does not clutter you inventory the same way."
+			]
+			dependencies: ["19743D05D2F4C171"]
+			hide: true
+			id: "3E0DB5B1ED9D0BCD"
+			tasks: [{
+				id: "1D67835DD371D64E"
+				type: "item"
+				item: "pixelmon:heal_powder"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "63CD806DB9A28427"
+					type: "item"
+					item: "pixelmon:heal_powder"
+				}
+				{
+					id: "11F30BA0E8917492"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+				{
+					id: "45178B7D12924056"
+					type: "item"
+					item: "pixelmon:belue_berry"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.25d
+			description: [
+				"Energy roots require a more powerful preservation agent than ghast tears, but still easy for you to find: Wither roses. You need to preserve more powerful healing berries, and season a Heartbeet or Pungent Root with them."
+				""
+				"Energy roots heal 120 HP."
+			]
+			dependencies: ["641E39C60B8A7077"]
+			hide: true
+			id: "1A8919833C3C65CA"
+			tasks: [{
+				id: "4AB7556EE9388961"
+				type: "item"
+				item: "pixelmon:energy_root"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "46CDAC6AAD522465"
+					type: "item"
+					item: "pixelmon:energy_root"
+				}
+				{
+					id: "749FFC35F989094F"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+				{
+					id: "5526FB26F76C3113"
+					type: "item"
+					item: "pixelmon:belue_berry"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.25d
+			description: [
+				"Revival herbs must be made with ferns, but you are not in a biome that naturally grows ferns."
+				""
+				"If you obtain a fern, you will need to be careful in growing it. Perhaps by planting it, bonemealing it, and harvesting it with shears, you can produce more ferns."
+				""
+				"If you eventually learn to create slimy grass, it may produce ferns of its own for you to collect."
+			]
+			dependencies: ["19743D05D2F4C171"]
+			hide: true
+			id: "791FAE19E0D7677F"
+			tasks: [{
+				id: "48F95E7EFF29EF32"
+				type: "item"
+				item: "pixelmon:revival_herb"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "44346D3B02A9135D"
+					type: "item"
+					item: "pixelmon:revival_herb"
+				}
+				{
+					id: "0256B0EA360655E7"
+					type: "pixelmon:pokedollars"
+					count: 2000
+				}
+				{
+					id: "77BB504FD46EFBC3"
+					type: "item"
+					item: "pixelmon:belue_berry"
+				}
+			]
+		}
+		{
+			icon: "minecraft:fern"
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"Your Nana taught you how to make some very bitter medicines called \"Herbal Medicines.\" "
+				""
+				"Pokemon do not like the taste of them, but they are very powerful compared to all other healing tools you have available at the moment, and they are relatively easy to make with dessicating and aromatic agents like ghast tears and wither roses."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"11A73D9EAEEDF61B"
+				"16852DE798C53DB4"
+			]
+			hide: true
+			size: 1.5d
+			id: "19743D05D2F4C171"
+			tasks: [{
+				id: "5CD47E15B1632D58"
+				type: "checkmark"
+			}]
 		}
 	]
 }

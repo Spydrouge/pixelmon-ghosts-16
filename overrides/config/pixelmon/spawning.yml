@@ -35,7 +35,7 @@ allow-legendary-spawn: true
 legendary-despawn-ticks: 6000
 display-legendary-global-message: true
 do-legendary-raid-event: true
-use-recent-level-moves: false
+use-recent-level-moves: true
 despawn-on-flee-or-loss: false
 bell-success-chance: 0.01
 bell-inclusion-range: 10

@@ -12,7 +12,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:aspear_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "minecraft:fire_charge",
@@ -69,7 +69,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:rawst_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "pixelmon:snowball",
@@ -129,7 +129,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:rawst_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "pixelmon:snowball",
@@ -189,7 +189,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:aspear_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "minecraft:fire_charge",
@@ -243,7 +243,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:rawst_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "pixelmon:snowball",
@@ -297,7 +297,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:aspear_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "minecraft:fire_charge",
@@ -336,7 +336,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:aspear_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "minecraft:fire_charge",
@@ -368,7 +368,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:rawst_berry",
-          "percentChance": 25
+          "percentChance": 50
         },
         {
           "itemID": "pixelmon:snowball",
@@ -398,6 +398,20 @@
       "minLevel": 20,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:fire_charge",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
       "condition": {
         "times": [
           "NIGHT"

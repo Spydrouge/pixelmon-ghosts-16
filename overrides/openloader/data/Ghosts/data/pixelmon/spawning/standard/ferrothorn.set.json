@@ -12,7 +12,11 @@
     "heldItems": [
         {
           "itemID": "pixelmon:sticky_barb",
-          "percentChance": 5
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:occa_berry",
+          "percentChance": 75
         }
       ],
       "condition": {
@@ -32,10 +36,14 @@
       "minLevel": 41,
       "maxLevel": 53,
       "typeID": "pokemon",
-      "heldItems": [
+       "heldItems": [
         {
           "itemID": "pixelmon:sticky_barb",
-          "percentChance": 5
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:occa_berry",
+          "percentChance": 75
         }
       ],
       "condition": {
@@ -57,10 +65,14 @@
       "minLevel": 41,
       "maxLevel": 53,
       "typeID": "pokemon",
-      "heldItems": [
+       "heldItems": [
         {
           "itemID": "pixelmon:sticky_barb",
-          "percentChance": 5
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:occa_berry",
+          "percentChance": 75
         }
       ],
       "condition": {

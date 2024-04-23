@@ -13,6 +13,10 @@
         {
           "itemID": "pixelmon:grip_claw",
           "percentChance": 5
+        },
+         {
+          "itemID": "pixelmon:chople_berry",
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -41,6 +45,10 @@
         {
           "itemID": "pixelmon:grip_claw",
           "percentChance": 5
+        },
+         {
+          "itemID": "pixelmon:chople_berry",
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -94,6 +102,10 @@
         {
           "itemID": "pixelmon:grip_claw",
           "percentChance": 5
+        },
+         {
+          "itemID": "pixelmon:chople_berry",
+          "percentChance": 25
         }
       ],
       "condition": {

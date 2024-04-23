@@ -1717,6 +1717,7 @@
 		}
 		{
 			title: "Lord Helix"
+			icon: "pixelmon:helix_fossil"
 			x: 7.5d
 			y: -3.0d
 			subtitle: "When all you have is bones..."
@@ -1750,6 +1751,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:dome_fossil"
 			x: 7.5d
 			y: 3.5d
 			subtitle: "When all you have is bones..."
@@ -1817,6 +1819,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:claw_fossil"
 			x: 8.5d
 			y: -2.5d
 			subtitle: "When all you have is bones..."
@@ -1850,6 +1853,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:armor_fossil"
 			x: 5.0d
 			y: -0.5d
 			subtitle: "When all you have is bones..."
@@ -1883,6 +1887,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:skull_fossil"
 			x: 10.0d
 			y: -0.5d
 			subtitle: "When all you have is bones..."
@@ -1916,6 +1921,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:cover_fossil"
 			x: 5.5d
 			y: 0.5d
 			subtitle: "When all you have is bones..."
@@ -2051,6 +2057,7 @@
 			}]
 		}
 		{
+			icon: "pixelmon:old_amber"
 			x: 10.0d
 			y: -3.0d
 			subtitle: "When all you have is bones..."

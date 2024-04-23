@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " w ",
+    "bbb",
+    " h "
+  ],
+  "key": {
+    "b": {
+      "tag": "pixelmon:berries/hyper_potion_berry"
+    },
+    "h": {
+      "item": "inspirations:heartbeet"
+    },
+    "w": {
+      "item": "minecraft:wither_rose"
+    }
+  },
+  "result": {
+    "item": "pixelmon:energy_root",
+    "count": 1
+  }
+}

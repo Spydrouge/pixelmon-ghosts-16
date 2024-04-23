@@ -4,6 +4,31 @@
     {
       "spec": "species:Spinarak",
       "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "minecraft:cobweb",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60
+    },
+    {
+      "spec": "species:Spinarak",
+      "stringLocationTypes": [
         "Land",
         "Headbutt"
       ],

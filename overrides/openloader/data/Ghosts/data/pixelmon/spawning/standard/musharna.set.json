@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Indoors"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 20,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Musharna",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 22,
       "maxLevel": 35,
@@ -50,6 +62,12 @@
       "spec": "species:Musharna",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 22,
       "maxLevel": 35,

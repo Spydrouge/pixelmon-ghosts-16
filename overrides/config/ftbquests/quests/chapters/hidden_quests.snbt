@@ -470,5 +470,237 @@
 				item: "pixelmon:curry_leek"
 			}]
 		}
+		{
+			x: 4.5d
+			y: -3.0d
+			id: "5F2C866ED23D2A45"
+			tasks: [{
+				id: "2FECFA0A28E4C6B0"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:bloodshroom_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_bloodshroom_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_bloodshroom_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:bloodshroom_planks"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:bloodshroom_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:greenheart_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:greenheart_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_greenheart_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_greenheart_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:greenheart_planks"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:skyroot_planks"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_skyroot_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:skyroot_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_skyroot_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:skyroot_wood"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			id: "6E27F5F8086AC949"
+			tasks: [{
+				id: "7C0812C0585A5D7B"
+				type: "item"
+				title: "Any #forge:slimeballs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:slimeballs"
+					}
+				}
+			}]
+		}
+		{
+			title: "Use a Low Level Water Move"
+			x: -6.5d
+			y: 4.0d
+			description: ["In a world where water is scarce, it's worth noting that using some water moves in battle produces collectable water."]
+			dependencies: [
+				"7A14B86EECDF05E4"
+				"5063C10459F24517"
+			]
+			hide: true
+			repeatable: true
+			min_required_tasks: 1
+			id: "6C0D9782EAD424C9"
+			tasks: [
+				{
+					id: "39BF2FE772915521"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "water_gun"
+					moveType: 0b
+				}
+				{
+					id: "5D71FD7F64EF0E16"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "bubble"
+					moveType: 0b
+				}
+				{
+					id: "621F0A16460684A1"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "aqua_jet"
+					moveType: 0b
+				}
+				{
+					id: "7AD04429A58519CC"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "chilling_water"
+					moveType: 0b
+				}
+				{
+					id: "7F3658DCD39343A2"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "hydro_pump"
+					moveType: 0b
+				}
+				{
+					id: "051754EE6B479363"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "life_dew"
+					moveType: 0b
+				}
+				{
+					id: "1913E49C542FCC39"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "aqua_ring"
+					moveType: 0b
+				}
+			]
+			rewards: [
+				{
+					id: "18E45348A87A7256"
+					type: "command"
+					title: "Fills one Glass Bottle with Water in Inventory"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					auto: "no_toast"
+					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run give @s minecraft:potion{Potion:\"minecraft:water\"} 1"
+					player_command: false
+				}
+				{
+					id: "22E022BCC408328C"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run clear @s minecraft:glass_bottle 1"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: [
+				"00E707243834C44B"
+				"11F689A8DC3A4BE2"
+				"16AECF01A7853FED"
+			]
+			min_required_tasks: 1
+			id: "47D35EBDBFD8A938"
+			tasks: [
+				{
+					id: "0C1B981541F6E75C"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "type:fire"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "683030B43EBBFE1D"
+					type: "pixelmon:hatch_egg"
+					pokemon: "type:fire"
+					count: 1
+					invert: false
+				}
+			]
+		}
 	]
 }

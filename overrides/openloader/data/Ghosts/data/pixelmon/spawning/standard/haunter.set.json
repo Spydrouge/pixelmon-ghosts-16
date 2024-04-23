@@ -7,6 +7,12 @@
         "Underground",
         "Indoors"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 25,
       "maxLevel": 50,
       "typeID": "pokemon",
@@ -33,6 +39,12 @@
       "stringLocationTypes": [
         "Land"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 25,
       "maxLevel": 50,
       "typeID": "pokemon",
@@ -53,6 +65,12 @@
       "stringLocationTypes": [
         "Land"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 25,
       "maxLevel": 50,
       "typeID": "pokemon",
@@ -67,6 +85,12 @@
       "spec": "species:Haunter",
       "stringLocationTypes": [
         "Underground"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 25,
       "maxLevel": 50,
@@ -97,6 +121,12 @@
       "stringLocationTypes": [
         "Indoors",
         "Land"
+      ],
+     "heldItems": [
+        {
+          "itemID": "pixelmon:colbur_berry",
+          "percentChance": 50
+        }
       ],
       "minLevel": 25,
       "maxLevel": 50,

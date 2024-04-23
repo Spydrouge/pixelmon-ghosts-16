@@ -12,7 +12,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -35,7 +35,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -58,7 +58,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -102,7 +102,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -146,7 +146,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -173,7 +173,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -198,7 +198,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -226,7 +226,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -253,7 +253,7 @@
       "heldItems": [
         {
           "itemID": "pixelmon:chesto_berry",
-          "percentChance": 5
+          "percentChance": 25
         }
       ],
       "condition": {

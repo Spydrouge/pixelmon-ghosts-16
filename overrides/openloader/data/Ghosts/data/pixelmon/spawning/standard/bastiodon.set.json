@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Land"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:salac_berry",
+          "percentChance": 75
+        }
+      ],
       "minLevel": 30,
       "maxLevel": 45,
       "typeID": "pokemon",
@@ -25,6 +31,12 @@
       "minLevel": 40,
       "maxLevel": 55,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:salac_berry",
+          "percentChance": 75
+        }
+      ],
       "condition": {
         "times": [
           "DAY"

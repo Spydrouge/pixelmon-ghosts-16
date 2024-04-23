@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Indoors"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 20,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Munna",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 6,
       "maxLevel": 17,
@@ -40,6 +52,12 @@
       "spec": "species:Munna",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chilan_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 6,
       "maxLevel": 17,

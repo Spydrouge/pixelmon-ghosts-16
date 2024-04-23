@@ -9,6 +9,12 @@
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
+       "heldItems": [
+        {
+          "itemID": "pixelmon:wacan_berry",
+          "percentChance": 25
+        }
+      ],
       "condition": {
          "maxY": 192,
         "minY": 160,

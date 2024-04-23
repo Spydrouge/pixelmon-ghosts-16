@@ -7,6 +7,12 @@
         "Land",
         "Underground"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:roseli_berry",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
@@ -52,6 +58,12 @@
       "stringLocationTypes": [
         "Land"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:roseli_berry",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 40,
       "maxLevel": 49,
       "typeID": "pokemon",
@@ -71,6 +83,12 @@
       "spec": "species:Deino",
       "stringLocationTypes": [
         "Underground"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:roseli_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 40,
       "maxLevel": 49,

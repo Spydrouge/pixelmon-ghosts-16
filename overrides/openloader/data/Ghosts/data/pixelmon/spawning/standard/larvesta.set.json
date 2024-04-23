@@ -13,8 +13,8 @@
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:snowball",
-          "percentChance": 5
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -30,6 +30,12 @@
       "spec": "species:Larvesta",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 5,
       "maxLevel": 30,
@@ -48,6 +54,12 @@
       "spec": "species:Larvesta",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 5,
       "maxLevel": 30,

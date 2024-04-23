@@ -16,7 +16,7 @@
     },
     "contents": {
       "type": "inspirations:fluid",
-      "name": "contenttweaker:pixelmon_potion"
+      "name": "contenttweaker:pixelmon_super_potion"
     },
     "level": {
       "min": 4
@@ -24,7 +24,7 @@
   },
   "output": {
     "item": {
-      "item": "pixelmon:potion"
+      "item": "pixelmon:super_potion"
     },
     "level": {
       "add": -4

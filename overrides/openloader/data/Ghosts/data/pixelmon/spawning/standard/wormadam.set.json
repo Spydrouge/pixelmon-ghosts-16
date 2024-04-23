@@ -11,11 +11,15 @@
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:silver_powder",
+          "itemID": "pixelmon:soft_sand",
           "percentChance": 5
         },
         {
           "itemID": "pixelmon:rabuta_berry",
+          "percentChance": 45
+        },
+        {
+          "itemID": "pixelmon:charti_berry",
           "percentChance": 50
         }
       ],
@@ -61,8 +65,16 @@
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:silver_powder",
+          "itemID": "pixelmon:metal_coat",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:rabuta_berry",
+          "percentChance": 45
+        },
+        {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 50
         }
       ],
        "condition": {
@@ -93,6 +105,14 @@
         {
           "itemID": "pixelmon:silver_powder",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:rabuta_berry",
+          "percentChance": 45
+        },
+        {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 50
         }
       ],
       "condition": {

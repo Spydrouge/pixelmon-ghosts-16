@@ -453,7 +453,7 @@
 				""
 				"You can &eUpgrade&r old tools with new parts by putting the old tool and the new part into a Tinker's Station."
 				""
-				"Remember that stone does not make for a good tool rod, and you should still probably use wood. String, for the Stringy modifier, may remain the best possible tool binding or extra."
+				"Remember that stone does not make for a good tool rod, and you should still probably use wood. &aString&r, for the Stringy modifier, may remain the best possible tool binding or extra."
 			]
 			dependencies: [
 				"63B75A8B18C8967C"
@@ -484,7 +484,7 @@
 		}
 		{
 			title: "Repairing Tools"
-			x: 3.0d
+			x: 2.5d
 			y: -1.5d
 			description: [
 				"Tools can only be repaired in one of the following ways:"
@@ -535,8 +535,8 @@
 		{
 			title: "Finding Cobble-Like Stone"
 			icon: "minecraft:cobblestone"
-			x: -5.0d
-			y: 4.5d
+			x: 4.0d
+			y: 3.0d
 			subtitle: "Who thought cobblestone would be hard to find?"
 			description: [
 				"Boldore and Gigalith drop the cobblestone variant \"Red Rock\" and are attracted to music. You can try and encourage more to spawn by placing a &cJuke box&r between Y levels 32 and 64, if you have one"
@@ -610,7 +610,7 @@
 					}
 				}
 			}
-			x: 3.0d
+			x: 2.5d
 			y: -3.0d
 			subtitle: "Welcome to Tinker's Weaponry!"
 			description: [
@@ -650,7 +650,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -3.5d
 			y: 0.0d
 			subtitle: "Do your own research"
 			description: [
@@ -678,7 +678,7 @@
 		}
 		{
 			title: "Guides"
-			x: -5.0d
+			x: -2.0d
 			y: 0.0d
 			description: ["These might be useful for making guidebooks..."]
 			dependencies: ["1183D242FD8FAF87"]
@@ -697,8 +697,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 1.0d
+			x: -3.5d
+			y: 1.5d
 			description: ["This book may be valuable for understanding the ins and outs of botanical magic. You will probably want to make one around the same time you begin fiddling around with mushrooms."]
 			dependencies: ["64E523E4B319CEFB"]
 			hide: true
@@ -719,14 +719,17 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -1.0d
+			x: -3.5d
+			y: -1.5d
 			description: [
 				"It seems like it would be difficult to get started with Engineering. It requires so much iron!"
 				""
 				"Even just the hammer alone takes two ingots. It's not like all the metal you need is just going to fall out of the sky!"
 			]
-			dependencies: ["64E523E4B319CEFB"]
+			dependencies: [
+				"64E523E4B319CEFB"
+				"6C469BB6BA15D1D0"
+			]
 			hide: true
 			id: "18C6CF463C4DB90A"
 			tasks: [{
@@ -787,7 +790,7 @@
 					}
 				}
 			}
-			x: 3.0d
+			x: 2.5d
 			y: -4.5d
 			description: [
 				"Given your resources on your starting layer, &cBloodbone&r is one of the most accessible materials to build tools with. It is also one of the best Tier 2 materials, especially for combat."
@@ -829,7 +832,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -5.0d
 			y: 0.0d
 			description: ["Perhaps you should create the manual for Tier 2 tools so you can look up the materials yourself?"]
 			dependencies: ["2D371D41E27A8496"]
@@ -927,7 +930,7 @@
 		{
 			title: "Tinker's Armor"
 			icon: "minecraft:armor_stand"
-			x: 5.0d
+			x: 4.0d
 			y: -1.5d
 			description: [
 				"'Tinkering with armor' hasn't been done in a very long time. There are no books or manuals to show you the way. You will have to succeed through trial and error, and jot your notes down in this Diary."
@@ -997,7 +1000,7 @@
 					}
 				}
 			}
-			x: 5.0d
+			x: 4.0d
 			y: -3.0d
 			description: [
 				"You've observed the following traits with regards to armor:"
@@ -1067,7 +1070,7 @@
 					}
 				}
 			}
-			x: 5.0d
+			x: 4.0d
 			y: -4.5d
 			description: [
 				"Most upgrades to Witherbone are mild, and round out its weaknesses or promote different stats. Bloodbone, for instance, gives a thorns effect that scales with damage dealt. It has very slightly less armor, equal toughness, a boost to speed, and does not drop durability as much as Witherbone when used as Mail."
@@ -1076,7 +1079,7 @@
 				""
 				"Other Tier 2 materials sacrifice toughness, either for more armor and knockback resistance (seared stone), or speed boosts (copper)."
 				""
-				"All Tier 2 materials have more durability than Withebone, in some cases by as much as 2x."
+				"All Tier 2 materials have more durability than Witherbone, in some cases by as much as 2x."
 			]
 			dependencies: [
 				"28CBD4E5CF14B743"
@@ -1215,7 +1218,7 @@
 					}
 				}
 			}
-			x: 5.0d
+			x: 4.0d
 			y: -6.0d
 			subtitle: "So many to choose from...!"
 			description: [
@@ -1226,6 +1229,8 @@
 				"&aNecronium&r is for when you want to maximize armor and toughness. However, it's not a 'set it and forget it' armor. Its ability, Decay, requires wither management. It has low durability."
 				""
 				"&3(Brass) Plated Slimewood&r is the only material that shares Necronium's toughness, and has high durability thanks to Overslime, but it has much lower armor."
+				""
+				"&dLead&r Armor can reduce the duration of negative effects. Four peices of pure lead armor can halve any incoming debuff, including self-inflicted wither."
 			]
 			dependencies: [
 				"320555DD3CC09417"
@@ -1362,7 +1367,7 @@
 					}
 				}
 			}
-			x: 3.0d
+			x: 2.5d
 			y: -6.0d
 			description: [
 				"The deadliest material for a sword is also the most dangerous, &aNecronium&r. A single strike of a Necronium sword, and the Wither III damage will kill a full-health Zombie.  However, 25% of the time, it will inflict you with that same effect. To use this blade safely, it must be managed with milk, regeneration from a Heartbeat, or some kind of wither protection."
@@ -1399,8 +1404,8 @@
 		}
 		{
 			icon: "tconstruct:rose_gold_ingot"
-			x: 2.0d
-			y: -7.0d
+			x: 5.5d
+			y: -6.0d
 			description: [
 				"&dFairy&r, &cRose Gold&r, and &eElectrum&r are seldom ideal as plate, tool heads, or sword blades, because they have low durability, low mining levels, low damage, and nonexistant toughness."
 				""
@@ -1443,7 +1448,7 @@
 			description: [
 				"Sometimes, different features, such as torches, can attract different kinds of Pokemon. Litwik, who hides in indoor manmade habitats on the Soil layer, is attracted to torches- regular and soul torches. Lampent and Chandelure are attracted to any kind of street lamp or lantern. "
 				""
-				"However, some other ghost pokemon are also attracted to soul torches, camp fires, and lanterns. Therefore, if you are specifically targeting the Litwik line, it may pay to use regular torches, and regular lanterns, to weed out the other ghost Pokemon."
+				"However, some other ghost pokemon are also attracted to soul torches, soul camp fires, and soul lanterns. Therefore, if you are specifically targeting the Litwik line, it may pay to use regular torches, and regular lanterns, to weed out the other ghost Pokemon."
 				""
 				"The Pokemon who also like soul torches appear to include Misdreavus, Duskull, Shuppet, Froslass, Mimikyu, and Phantump."
 			]
@@ -1469,12 +1474,12 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.5d
 			description: [
 				"\"Oh the Biomes You'll Go\" Colored Spruces are all high-altitude plants that will only grow above Y level 72. Don't waste bone meal on them below that level!"
 				""
-				"Additionally, they are not useful for growing Podzol."
+				"Additionally, they are not useful for growing Podzol. Their large forms (2x2) are nevertheless quite beautiful"
 			]
 			hide: true
 			id: "69C2D29AE902B96F"
@@ -1521,8 +1526,8 @@
 					Potion: "advancedpotions:witherprotection"
 				}
 			}
-			x: -6.5d
-			y: 4.5d
+			x: 2.5d
+			y: 0.0d
 			description: [
 				"Why is it some of the brewing recipes appear to be missing from the JEI? If you click on \"Wither potion\" or \"Super potion\", no recipe shows!"
 				""
@@ -1532,7 +1537,10 @@
 				""
 				"For cauldron recipes, make sure you click on the fluid associated with the recipe, not the potion bottle which you hope to extract at the end."
 			]
-			dependencies: ["74A102B9D49CA801"]
+			dependencies: [
+				"74A102B9D49CA801"
+				"2EAA59A9E636DCC9"
+			]
 			id: "4DD0A5350E8E3A25"
 			tasks: [{
 				id: "2DE1DD448669E788"
@@ -1546,15 +1554,21 @@
 			}]
 		}
 		{
+			title: "Cauldron Limitations"
 			icon: "minecraft:cauldron"
-			x: -6.5d
-			y: 3.0d
+			x: 1.0d
+			y: 0.0d
 			description: [
 				"Unfortunately, the tools from ceramics and tinker's construct which are used to dispense liquids and pipe them around do not work with brewing cauldrons."
 				""
 				"This means if you are left with a smidgen of liquid in the bottom of the cauldron, too little to bottle up, and you want the cauldron clean so you can use it again... you might be forced to break it and replace it, losing the fluid in the process. Try to plan out your recipes to conserve whatever is important."
 			]
-			dependencies: ["6A6226031EF48604"]
+			dependencies: [
+				"6A6226031EF48604"
+				"1183D242FD8FAF87"
+				"70AD5D85FAE25285"
+			]
+			hide: true
 			id: "2EAA59A9E636DCC9"
 			tasks: [{
 				id: "0418FBDFF138F4E2"
@@ -1568,8 +1582,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 3.0d
+			x: -0.5d
+			y: -3.0d
 			description: [
 				"An End Portal Frame block? You... might be able to do something with this. If you can collect twelve of these blocks, you might be able to lay out an End Portal Frame, fill it with Eyes of Ender, and travel to the End. "
 				""
@@ -1581,8 +1595,8 @@
 				""
 				"If you place one down in the incorrect location, or place in all the eyes of ender before they're rotated correctly, you will have to use a prayer to pick them up again. Consult the \"Offerings to Arceus\" chapter."
 			]
-			hide_dependency_lines: true
-			dependencies: ["1183D242FD8FAF87"]
+			dependencies: ["11D7E67ED0EFE75A"]
+			hide: true
 			secret: true
 			id: "42EC53C495F34D33"
 			tasks: [{
@@ -1685,11 +1699,6 @@
 			]
 			rewards: [
 				{
-					id: "7935DA95E64FAC56"
-					type: "item"
-					item: "tconstruct:silky_cloth"
-				}
-				{
 					id: "45B05373CBB7322E"
 					type: "item"
 					item: "minecraft:quartz"
@@ -1768,6 +1777,7 @@
 				"Redstone can also be added to armor to improve overall movement speed."
 			]
 			dependencies: ["02CA5502E9034C59"]
+			hide: true
 			id: "7855FCEB224EF4FC"
 			tasks: [{
 				id: "74C8A466E6A9C03B"
@@ -1785,8 +1795,9 @@
 		{
 			x: 12.5d
 			y: 0.5d
-			description: ["Glowstone can be added to a tool to increase its speed in high light levels."]
+			description: ["Glowstone can be added to a tool to increase its speed in high light levels. Since you often sleep through the night to heal your Pokemon, and are often working above ground, this may work to your advantage."]
 			dependencies: ["7855FCEB224EF4FC"]
+			hide: true
 			id: "386DC378F6FBDC05"
 			tasks: [{
 				id: "529315E6C7BE2EE6"
@@ -1804,8 +1815,9 @@
 		{
 			x: 12.5d
 			y: -0.5d
-			description: ["The prismarine can be added to increase tool speed under water or in the rain. And you can control the rain."]
+			description: ["The prismarine can be added to increase tool speed under water or in the rain. Given that Pokemon can control the rain, this can be used to your advantage."]
 			dependencies: ["7855FCEB224EF4FC"]
+			hide: true
 			id: "5032CCCB02D74B1E"
 			tasks: [{
 				id: "0F13F991A186577B"
@@ -1818,6 +1830,327 @@
 				type: "item"
 				item: "minecraft:prismarine"
 				count: 4
+			}]
+		}
+		{
+			title: "Luck?"
+			icon: "minecraft:lapis_lazuli"
+			x: 10.0d
+			y: -1.5d
+			description: [
+				"You remember that your ancestors who tinkered used to add \"Fortune\" and \"Looting\" to their equipment through Lapis... But it doesn't seem to be that easy in your generation."
+				""
+				"You will need to look up the \"Luck\" modifier in the JEI.  It is a complex recipe that requires a Tinkers Anvil to apply. A Tinker Anvil does not necessarily require iron, but it does require blocks of metal- usually alloys. You should come back to this quest later, once you actually have one."
+				""
+				"Fortune (\"Luck\") is good when attempting to increase plant drops. This is true of apples, saplings from low-sapling trees like Dark Oak, crops like wheat, melon slices, mushrooms from giant mushroom blocks, and seeds and saplings gained from breaking grass."
+				""
+				"Since Luck acts as both a Looting and Fortune enchantment, you may find that you prefer to add it to an axe first, as axes can benefit from both effects."
+			]
+			dependencies: [
+				"02CA5502E9034C59"
+				"0F4025F78AA75F66"
+			]
+			hide: true
+			id: "309C9E0D285FDCEA"
+			tasks: [{
+				id: "07A19E043937CFCA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Wither Control"
+			icon: "minecraft:wither_rose"
+			x: -0.5d
+			y: 3.0d
+			description: [
+				"With everything from Wither Roses to Necronium items set to afflict you with the Wither enchantment, it might be good to reflect on good ways to protect yourself."
+				""
+				"The simplest answer is Milk, although you don't necessarily have that yet. But milk will strip you of all positive and negative effects."
+				""
+				"&dLead&r is one of the easier to obtain metals in the void, as it is dropped in large quantities by Shelmet and Escavalier at the Soil Layer. Four pieces of pure Lead armor give enough \"Shielding\" to halve a 10 second Wither III debuff and turn a death sentence into an inconvenience."
+				""
+				"However you would much prefer explicit &dwither-protection&r. You believe it might be possible to brew a wither-protection potion. You should pursue brewing in your diary as soon as you have the materials."
+			]
+			id: "0A0274831030F74A"
+			tasks: [{
+				id: "10B3937604875A3D"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "5927D7BAF3B70F70"
+				type: "item"
+				icon: "minecraft:wither_rose"
+			}]
+		}
+		{
+			title: "Overslime"
+			icon: "minecraft:slime_ball"
+			x: 8.5d
+			y: 0.0d
+			description: [
+				"Would you like budget \"Mending\" on one of your tools? Don't want to waste a part slot to add Stringy? You need Overslime!"
+				""
+				"Overslime is a rechargable shield of extra durability points that takes damage for the tool. When it runs out, the tool goes back to losing durability like normal."
+				""
+				"You can replenish overslime using Slime Crystals. You can also add Oversilme to a non-slimy tool by modifying the non-slimy tool with a Slime Crystal in the Tinker's Station."
+				""
+				"Overslime added to a tool with slime crystals does &dnot&r take up a modifier slot. However, it reduces the effectiveness of tools that do not naturally have any slimy parts."
+				""
+				"Certain tools, like Slimewood tools, will regenerate Overslime over time. This is a great reason to use slimewood for an extra, like the tool binding: The final result practically has &amending&r! It can also be used to keep tool heads that function better at low durabilities at those low durabilities."
+			]
+			dependencies: [
+				"02CA5502E9034C59"
+				"6E27F5F8086AC949"
+			]
+			hide: true
+			id: "4E453F95546794B1"
+			tasks: [{
+				id: "65D701BEF68DB2AC"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "4CE57068717E0F2E"
+				type: "item"
+				item: "tconstruct:earth_slime_crystal"
+			}]
+		}
+		{
+			title: "Luck"
+			x: 10.0d
+			y: -2.5d
+			description: ["\"Luck\" is equivalent to a Fortune I and Looting I enchantment."]
+			dependencies: [
+				"4128065F8EDEFB33"
+				"07BA46FEA87A826E"
+			]
+			id: "0F4025F78AA75F66"
+			tasks: [
+				{
+					id: "4C2CCCCC24592895"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 2L
+				}
+				{
+					id: "4235DFFF9FF296DF"
+					type: "item"
+					item: "thermal:copper_ingot"
+					count: 2L
+				}
+				{
+					id: "52263BF215FB53F5"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:cornflower"
+									Count: 1b
+								}
+								{
+									id: "minecraft:blue_orchid"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1E04DF5DB9F37462"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "611265AC23C18948"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Luckier"
+			x: 10.0d
+			y: -3.5d
+			description: ["The Luckier modifier must be applied after the Luck Modifier. It does not take an additional modifier slot. It is equivalent to Fortune II and Looting II"]
+			dependencies: ["32E1BDB0DBBAE1E4"]
+			id: "4128065F8EDEFB33"
+			tasks: [
+				{
+					id: "71BC39EA6C18DF23"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2L
+				}
+				{
+					id: "4931BB019749AE8F"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2L
+				}
+				{
+					id: "394C2361E1466543"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+			rewards: [
+				{
+					id: "2A3200E6436EB192"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "52CE7E9D3B66DD88"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Luckiest"
+			x: 10.0d
+			y: -4.5d
+			description: [
+				"Luckiest must be applied after Luckier. It is the equivalent of a Fortune III and Looting III enchantment."
+				""
+				"The Name Tag will be the most difficult to acquire. You can either create one, using an Alchemic Catalyst--But those are expensive, and require iron and blaze rods-- or you can harass enough Stufful and Bewear until one finally drops."
+			]
+			id: "32E1BDB0DBBAE1E4"
+			tasks: [
+				{
+					id: "2FD1969EF230457B"
+					type: "item"
+					item: "tconstruct:rose_gold_ingot"
+					count: 2L
+				}
+				{
+					id: "7B34882F4EB70C4A"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "36BEC7AC874213FF"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "2C4EE0690432EB92"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+			]
+			rewards: [
+				{
+					id: "320EBC45D8606931"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "2FDE81BB077A56B2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			description: [
+				"The severing enchantment can be used to increase the chance of mobs dropping body parts, primarily heads."
+				""
+				"This is useful as a precursor to Luck, and can be used to collect heads from the Evil Forces Diary chapter."
+			]
+			dependencies: [
+				"309C9E0D285FDCEA"
+				"07BA46FEA87A826E"
+			]
+			hide: true
+			id: "7A836FC9C08F1802"
+			tasks: [
+				{
+					id: "09AE4E24D045A557"
+					type: "item"
+					item: "minecraft:tnt"
+				}
+				{
+					id: "1A3809AA9420E805"
+					type: "item"
+					item: "tconstruct:necronium_bone"
+				}
+				{
+					id: "4DAD1019FDF2B394"
+					type: "item"
+					item: "tconstruct:bloodbone"
+				}
+			]
+			rewards: [{
+				id: "6E7C6C1143781E26"
+				type: "item"
+				item: "tconstruct:stray_head"
 			}]
 		}
 	]

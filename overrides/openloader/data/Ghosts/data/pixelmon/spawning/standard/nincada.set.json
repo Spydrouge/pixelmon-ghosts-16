@@ -13,6 +13,10 @@
         {
           "itemID": "pixelmon:soft_sand",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:kelpsy_berry",
+          "percentChance": 25
         }
       ],
       "condition": {

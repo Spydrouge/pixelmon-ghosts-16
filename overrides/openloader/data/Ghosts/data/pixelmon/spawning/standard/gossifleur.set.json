@@ -15,6 +15,9 @@
         "minY": 128,
         "stringBiomes": [
           "ghosts"
+        ],
+          "times": [
+          "DAY"
         ]
       },
       "rarity": 10.0

@@ -6,6 +6,16 @@
       "stringLocationTypes": [
           "Underground Water"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 50,
       "typeID": "pokemon",
@@ -24,6 +34,10 @@
         "Water"
       ],
       "heldItems": [
+        {
+          "itemID": "pixelmon:tamato_berry",
+          "percentChance": 25
+        },
         {
           "itemID": "pixelmon:heart_scale",
           "percentChance": 50

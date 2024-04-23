@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "input": [
+    {
+      "item": "byg:sythian_fungus"
+    },
+    {
+      "item": "byg:shulkren_fungus"
+    }
+  ],
+  "output": {
+    "item": "botania:mycelium_seeds"
+  },
+  "mana": 6500
+}

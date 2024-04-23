@@ -1,0 +1,30 @@
+{
+  "perStat": {
+    "constructsarmory:mail": [
+      {
+        "name": "constructsarmory:overcast",
+        "level": 1
+      },
+        {
+          "name": "tconstruct:overslime",
+          "level": 1
+        }
+    ],
+    "constructsarmory:plate": [
+          {
+            "name": "constructsarmory:overcast",
+            "level": 1
+          },
+        {
+          "name": "tconstruct:overslime",
+          "level": 1
+        }
+    ],
+    "constructsarmory:feet_plate": [
+          {
+            "name": "tconstruct:bouncy",
+            "level": 1
+          }
+    ]
+  }
+}

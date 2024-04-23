@@ -11,6 +11,10 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 50
+        },
+        {
           "itemID": "pixelmon:silver_powder",
           "percentChance": 5
         }
@@ -41,6 +45,10 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 50
+        },
+        {
           "itemID": "pixelmon:silver_powder",
           "percentChance": 5
         }
@@ -70,6 +78,10 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
+        {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 50
+        },
         {
           "itemID": "pixelmon:silver_powder",
           "percentChance": 5

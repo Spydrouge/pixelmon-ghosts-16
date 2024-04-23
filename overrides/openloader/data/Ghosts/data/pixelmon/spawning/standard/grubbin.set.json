@@ -8,6 +8,17 @@
         "Headbutt",
         "Forage"
       ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 25
+        }
+
+      ],
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
@@ -26,6 +37,17 @@
         "Land",
         "Headbutt",
         "Forage"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 25
+        }
+
       ],
       "minLevel": 5,
       "maxLevel": 19,

@@ -4,6 +4,35 @@
     {
       "spec": "species:Ariados",
       "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top",
+        "Sweet Scent"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "minecraft:cobweb",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:bug_gem",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60
+    },
+    {
+      "spec": "species:Ariados",
+      "stringLocationTypes": [
         "Land",
         "Headbutt"
       ],

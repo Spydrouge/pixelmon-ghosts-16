@@ -6,6 +6,12 @@
       "stringLocationTypes": [
         "Underground"
       ],
+        "heldItems": [
+        {
+          "itemID": "pixelmon:haban_berry",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
@@ -22,6 +28,12 @@
       "spec": "species:Dreepy",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:haban_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 25,
       "maxLevel": 45,
@@ -41,6 +53,12 @@
       "spec": "species:Dreepy palette:spirit",
       "stringLocationTypes": [
         "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:haban_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 25,
       "maxLevel": 45,

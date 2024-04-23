@@ -7,6 +7,16 @@
         "Water",
         "Seafloor"
       ],
+      "heldItems": [
+           {
+          "itemID": "pixelmon:payapa_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
       "minLevel": 2,
       "maxLevel": 6,
       "typeID": "pokemon",
@@ -24,15 +34,19 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 25,
-      "maxLevel": 36,
-      "typeID": "pokemon",
       "heldItems": [
+           {
+          "itemID": "pixelmon:payapa_berry",
+          "percentChance": 25
+        },
         {
           "itemID": "pixelmon:black_sludge",
           "percentChance": 5
         }
       ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
       "condition": {
         "times": [
           "AFTERNOON",

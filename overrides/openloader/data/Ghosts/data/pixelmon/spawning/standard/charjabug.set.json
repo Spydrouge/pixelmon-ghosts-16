@@ -13,8 +13,13 @@
       "heldItems": [
         {
           "itemID": "pixelmon:cell_battery",
-          "percentChance": 5
+          "percentChance": 10
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 50
         }
+
       ],
       "condition": {
         "maxY": 64,
@@ -37,8 +42,13 @@
       "heldItems": [
         {
           "itemID": "pixelmon:cell_battery",
-          "percentChance": 5
+          "percentChance": 10
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 50
         }
+
       ],
       "condition": {
         "times": [

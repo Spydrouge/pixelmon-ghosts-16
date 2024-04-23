@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "constructsarmory:mail": [
+      {
+        "name": "constructsarmory:overworked",
+        "level": 1
+      },
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    }
+    ],
+    "constructsarmory:plate": [
+      {
+        "name": "constructsarmory:overworked",
+        "level": 1
+      },
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    }
+    ]
+  }
+}

@@ -141,18 +141,11 @@
 					2147483647
 				]
 			}]
-			rewards: [
-				{
-					id: "75B240103571FBDF"
-					type: "item"
-					item: "byg:poison_ivy"
-				}
-				{
-					id: "735777E1D4579534"
-					type: "item"
-					item: "pixelmon:durin_berry"
-				}
-			]
+			rewards: [{
+				id: "75B240103571FBDF"
+				type: "item"
+				item: "byg:poison_ivy"
+			}]
 		}
 		{
 			x: 0.0d
@@ -177,18 +170,11 @@
 					2147483647
 				]
 			}]
-			rewards: [
-				{
-					id: "251544199179D70A"
-					type: "item"
-					item: "pixelmon:cornn_berry"
-				}
-				{
-					id: "0E1AAC1BC7CF70C5"
-					type: "item"
-					item: "byg:whaling_vine"
-				}
-			]
+			rewards: [{
+				id: "0E1AAC1BC7CF70C5"
+				type: "item"
+				item: "byg:whaling_vine"
+			}]
 		}
 		{
 			x: 0.0d
@@ -213,18 +199,11 @@
 					2147483647
 				]
 			}]
-			rewards: [
-				{
-					id: "1C68AC4F589CED9E"
-					type: "item"
-					item: "pixelmon:magost_berry"
-				}
-				{
-					id: "5948BF78D8A19CE2"
-					type: "item"
-					item: "biomesoplenty:willow_vine"
-				}
-			]
+			rewards: [{
+				id: "5948BF78D8A19CE2"
+				type: "item"
+				item: "biomesoplenty:willow_vine"
+			}]
 		}
 		{
 			x: 0.0d
@@ -249,18 +228,11 @@
 					2147483647
 				]
 			}]
-			rewards: [
-				{
-					id: "684869929587AB77"
-					type: "item"
-					item: "biomesoplenty:spanish_moss"
-				}
-				{
-					id: "27D701003EC549A7"
-					type: "item"
-					item: "pixelmon:belue_berry"
-				}
-			]
+			rewards: [{
+				id: "684869929587AB77"
+				type: "item"
+				item: "biomesoplenty:spanish_moss"
+			}]
 		}
 		{
 			x: 0.0d

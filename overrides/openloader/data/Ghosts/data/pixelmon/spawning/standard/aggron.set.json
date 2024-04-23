@@ -13,6 +13,10 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:shuca_berry",
+          "percentChance": 10
+        },
+        {
           "itemID": "pixelmon:protecter",
           "percentChance": 50
         },
@@ -143,6 +147,10 @@
       "typeID": "pokemon",
       "heldItems": [
         {
+          "itemID": "pixelmon:shuca_berry",
+          "percentChance": 10
+        },
+        {
           "itemID": "pixelmon:protecter",
           "percentChance": 50
         },
@@ -172,6 +180,10 @@
       "maxLevel": 70,
       "typeID": "pokemon",
       "heldItems": [
+        {
+          "itemID": "pixelmon:shuca_berry",
+          "percentChance": 10
+        },
         {
           "itemID": "pixelmon:protecter",
           "percentChance": 50

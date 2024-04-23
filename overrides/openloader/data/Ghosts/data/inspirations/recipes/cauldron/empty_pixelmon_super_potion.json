@@ -12,11 +12,11 @@
   ],
   "input": {
     "item": {
-      "item": "pixelmon:potion"
+      "item": "pixelmon:super_potion"
     },
     "contents": {
       "type": "inspirations:fluid",
-      "name": "contenttweaker:pixelmon_potion"
+      "name": "contenttweaker:pixelmon_super_potion"
     },
     "level": {
       "max": 8
@@ -31,7 +31,7 @@
     },
     "contents": {
       "type": "inspirations:fluid",
-      "name": "contenttweaker:pixelmon_potion"
+      "name": "contenttweaker:pixelmon_super_potion"
     },
     "level": {
       "add": 4

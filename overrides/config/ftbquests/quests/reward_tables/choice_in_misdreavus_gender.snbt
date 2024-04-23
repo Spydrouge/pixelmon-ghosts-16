@@ -1,0 +1,22 @@
+{
+	id: "259A33B53700CB3A"
+	order_index: 18
+	title: "Choice in Misdreavus Gender"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Male"
+			spec: "misdreavus g:male lvl:2 form:retrograde shiny ribbon:best_friends ivspd:31 ivspatk:31 nature:timid"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			title: "Female"
+			spec: "misdreavus g:female lvl:2 form:retrograde shiny ribbon:best_friends ivspd:31 ivspatk:31 nature:timid"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+	]
+}

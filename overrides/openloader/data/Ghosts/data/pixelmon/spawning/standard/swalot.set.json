@@ -1,0 +1,75 @@
+{
+  "id": "Swalot",
+  "spawnInfos": [
+    {
+      "spec": "species:Gulpin",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:qualot_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 45
+        },
+        {
+          "itemID": "pixelmon:leftovers",
+          "percentChance": 5
+        }
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 128,
+        "minY": 92,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Swalot",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sitrus_berry",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 6.0
+    }
+  ]
+}

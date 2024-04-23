@@ -7,6 +7,12 @@
         "Mandmade",
         "Indoors"
       ],
+      "heldItems": [
+         {
+          "itemID": "pixelmon:pomeg_berry",
+          "percentChance": 25
+        }
+      ],
       "minLevel": 6,
       "maxLevel": 18,
       "typeID": "pokemon",
@@ -27,6 +33,12 @@
       "stringLocationTypes": [
         "Headbutt",
         "Tree Top"
+      ],
+      "heldItems": [
+         {
+          "itemID": "pixelmon:pomeg_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 6,
       "maxLevel": 18,
@@ -76,6 +88,12 @@
       "spec": "species:Pidove",
       "stringLocationTypes": [
         "Air"
+      ],
+      "heldItems": [
+         {
+          "itemID": "pixelmon:pomeg_berry",
+          "percentChance": 25
+        }
       ],
       "minLevel": 6,
       "maxLevel": 18,
