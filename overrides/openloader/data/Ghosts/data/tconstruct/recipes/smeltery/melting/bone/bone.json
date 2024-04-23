@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": {
+    "fluid": "contenttweaker:calcium",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 30
+}

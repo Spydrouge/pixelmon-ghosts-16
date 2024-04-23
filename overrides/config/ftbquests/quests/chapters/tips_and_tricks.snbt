@@ -514,7 +514,7 @@
 		{
 			title: "Finding Cobble-Like Stone"
 			icon: "minecraft:cobblestone"
-			x: 4.0d
+			x: -5.0d
 			y: 4.5d
 			subtitle: "Who thought cobblestone would be hard to find?"
 			description: [
@@ -527,6 +527,7 @@
 				"There are many kinds of cobblestone deeper in the earth. If you head downwards, you will discover &bAron&r and Onix underground below Y = 32, and they drop Soapstone and Dacite. You will also gain access to Pokemon that supply Andesite in some habitats. Andesite can be mixed with Roggenrola's Basalt to make Scoria, which if placed and mined becomes a cobblestone variant."
 				""
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"4D1266898E6101BC"
 				"7E8B9D29D34E8D2C"
@@ -1408,6 +1409,7 @@
 				""
 				"Additionally, they are not useful for growing Podzol."
 			]
+			hide: true
 			id: "69C2D29AE902B96F"
 			tasks: [{
 				id: "26F9B449D2273129"
@@ -1441,6 +1443,61 @@
 				id: "140E8100DA664EE8"
 				type: "item"
 				item: "minecraft:spruce_sapling"
+			}]
+		}
+		{
+			title: "Potion Recipes"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "advancedpotions:witherprotection"
+				}
+			}
+			x: -6.5d
+			y: 4.5d
+			description: [
+				"Why is it some of the brewing recipes appear to be missing from the JEI? If you click on \"Wither potion\" or \"Super potion\", no recipe shows!"
+				""
+				"This is a bug. It's present even in the official 1.16.5 Pixelmon pack, and it's a bug with other mods, too."
+				""
+				"For this reason, key recipes will be mentioned in the Diary, so you can reference back to them. You can brows all brewing stand or cauldron recipes by right clicking the brewing stand in the JEI, but there are 90 pages of recipes and the pixelmon ones are somewhere in the middle. Correctly guessing the right reagant, and right clicking on it, will also show the recipes for that reagent."
+				""
+				"For cauldron recipes, make sure you click on the fluid associated with the recipe, not the potion bottle which you hope to extract at the end."
+			]
+			dependencies: ["74A102B9D49CA801"]
+			id: "4DD0A5350E8E3A25"
+			tasks: [{
+				id: "2DE1DD448669E788"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "53929E8714380362"
+				type: "item"
+				item: "byg:brim_powder"
+			}]
+		}
+		{
+			icon: "minecraft:cauldron"
+			x: -6.5d
+			y: 3.0d
+			description: [
+				"Unfortunately, the tools from ceramics and tinker's construct which are used to dispense liquids and pipe them around do not work with brewing cauldrons."
+				""
+				"This means if you are left with a smidgen of liquid in the bottom of the cauldron, too little to bottle up, and you want the cauldron clean so you can use it again... you might be forced to break it and replace it, losing the fluid in the process. Try to plan out your recipes to conserve whatever is important."
+			]
+			dependencies: ["6A6226031EF48604"]
+			id: "2EAA59A9E636DCC9"
+			tasks: [{
+				id: "0418FBDFF138F4E2"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "54209475064FBDEE"
+				type: "item"
+				item: "byg:brim_powder"
 			}]
 		}
 	]

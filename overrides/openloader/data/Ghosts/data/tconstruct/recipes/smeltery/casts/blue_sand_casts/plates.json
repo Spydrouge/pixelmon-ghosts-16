@@ -10,10 +10,10 @@
     }
   ],
   "material": {
-    "item": "contenttweaker:blue_sand_cast/blank_soul_blue_sand_cast"
+    "item": "contenttweaker:blue_sand_cast/blank_blue_sand_cast"
   },
   "pattern": {
     "tag": "forge:plates"
   },
-  "result": "contenttweaker:blue_sand_cast/plate_soul_blue_sand_cast"
+  "result": "contenttweaker:blue_sand_cast/plate_blue_sand_cast"
 }

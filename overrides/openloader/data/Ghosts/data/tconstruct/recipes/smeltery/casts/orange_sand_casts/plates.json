@@ -10,10 +10,10 @@
     }
   ],
   "material": {
-    "item": "contenttweaker:orange_sand_cast/blank_red_orange_sand_cast"
+    "item": "contenttweaker:orange_sand_cast/blank_orange_sand_cast"
   },
   "pattern": {
     "tag": "forge:plates"
   },
-  "result": "contenttweaker:orange_sand_cast/plate_red_orange_sand_cast"
+  "result": "contenttweaker:orange_sand_cast/plate_orange_sand_cast"
 }

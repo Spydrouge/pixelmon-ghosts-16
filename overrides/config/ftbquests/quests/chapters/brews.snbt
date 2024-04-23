@@ -1,0 +1,624 @@
+{
+	id: "308E5AB447360DE2"
+	group: "1BA668D58784F46A"
+	order_index: 2
+	filename: "brews"
+	title: "Brewing"
+	icon: "minecraft:cauldron"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "pixelmon:potion"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Your Nana taught you how to make an assortment of medicines for your Pokemon. You have to remember how it's done! You don't have convenient access to a Pokemon Center, and oran berries aren't strong enough to keep your Pokemon in fighting shape!"
+				""
+				"You hope that one day Arceus will give you access to a Blissy, or a similar Pokemon who's abilities can heal party members. But for now, making medicine is up to you."
+				""
+				"Some medicines can be made dry. Others... you will have to get inventive with."
+			]
+			dependencies: ["16152BC14792C0A4"]
+			hide: true
+			size: 2.0d
+			id: "16852DE798C53DB4"
+			tasks: [{
+				id: "5B8D4CA25BD15DAC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6A06168C4C8035C4"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Looking around, you don't see easy access to blaze rods. But that's not going to stop you! And neither is the lack of iron!"
+				""
+				"Skip the brewing stand: You need to build a cauldron! You can use terracotta or a variety of other materials. Some of the best pots are ceramic pots; your Nana taught you that!"
+			]
+			dependencies: ["16852DE798C53DB4"]
+			hide: true
+			id: "70AD5D85FAE25285"
+			tasks: [{
+				id: "634793D1E52DBB4A"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+			rewards: [{
+				id: "5D79283637C7E49A"
+				type: "item"
+				title: "Drifloon is helping! Late, but helping."
+				item: "minecraft:black_terracotta"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"To complete your Nana's recipe, you'll need the following additional ingredients:"
+				""
+				"1. One Campfire of any variety (you can use your soul camp fire from earlier, just take a good look at it to plan everything out!)"
+				"2. Glass bottles for water and which you can afford to turn into potions (you will not get them back!)"
+				"3. One Oran Berry"
+				""
+			]
+			dependencies: ["70AD5D85FAE25285"]
+			hide: true
+			id: "6B6BE8FD2C652342"
+			tasks: [
+				{
+					id: "4EBC85BD3D07C4F4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "5B984781CD93FD1B"
+					type: "observation"
+					title: "Observe any type of Campfire"
+					icon: "minecraft:campfire"
+					timer: 0L
+					observe_type: 1
+					to_observe: "minecraft:campfires"
+				}
+				{
+					id: "48B4A9690A465102"
+					type: "item"
+					item: "pixelmon:oran_berry"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"Place the cauldron over top of the campfire. Fill the cauldron with the three bottles of water. The cauldron should be filled to the brim, and you should see the surface bubbling."
+				""
+				"Throw in an oran berry, and watch the liquid turn purple! This is liquid potion, and can be scooped up again with glass bottles."
+				""
+				"And just like that, one 10HP Oran Berry has been turned into three 20HP Potions!"
+			]
+			dependencies: ["6B6BE8FD2C652342"]
+			hide: true
+			id: "74A102B9D49CA801"
+			tasks: [{
+				id: "1CF5FAEA0721C5F2"
+				type: "item"
+				item: "pixelmon:potion"
+				count: 3L
+			}]
+			rewards: [{
+				id: "44CBCF397937A866"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			description: [
+				"Potions aren't the only thing Nana taught you to brew! You can craft Super Potions, Hyper Potions, Ethers, and so on!"
+				""
+				"The recipes are available in the JEI. Look for the fluid named \"Ether\", not the item. Pay attention to the input and output levels for each recipe. "
+				""
+				"Potions and Ethers both have easy recipes- almost identical to how they're made in a brewing stand! Each makes three full potions/ethers as a result."
+				""
+				"[&cObserve&r: This recipe (and the corresponding brewing stand recipe) is changed from vanilla Pixelmon. Ethers are not craftable in vanilla Pixelmon.]"
+			]
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "59F2E04423FDAA83"
+			tasks: [
+				{
+					id: "0ECDDEC54EE2E6DA"
+					type: "item"
+					item: "pixelmon:ether"
+					count: 3L
+				}
+				{
+					id: "399545BDD44A3E5D"
+					type: "item"
+					item: "pixelmon:leppa_berry"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"You've brewed potions for Pokemon, but what about for yourself? "
+				""
+				"To get started brewing potions for yourself, you're going to need a nether wart. These mushrooms usually can't be found outside the Nether, but you think you can attract them to the proper habitat. Mold is so very difficult to kill, after all!"
+				""
+				"Most likely, you will need to create a habitat for a Paras underground on the Murk layer, or a Spirit Shroomish underground on the Dazzle Layer."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "55BD626B615A6641"
+			tasks: [{
+				id: "7784D514B259D42A"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"After cultivating a few Nether Wart, throw one into a full cauldron of water over a campfire."
+				""
+				"You will notice the potion swirling, and eventually green particle stars will appear on its surface. This is because the potion starts off fermented and needs to cook."
+				""
+				"Once the effect has stopped, you can scoop it out in glass bottles. Of course, it has no use at this stage. Once you've admired your potions, place them back in the cauldron for the next step."
+				""
+				"[&cWARNING&r: Falling into a cauldron with a potion in it will apply the effect to you and waste the potion. The same will happen to any entity who falls in, including Pokemon.]"
+			]
+			dependencies: ["55BD626B615A6641"]
+			hide: true
+			id: "1E37B4E4A6C9CBDD"
+			tasks: [{
+				id: "1A5F528995F2876F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:awkward"
+					}
+				}
+				count: 3L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"One of the easiest potions you can think of is the Regeneration Potion. It will help keep you alive in a fight, and can be used to counteract the effect of Wither."
+				""
+				"There are two easy ways to make a regeneration potion, based on the ingredients you have available. One involves dropping in a ghast tear, which you can get from many species of Ghost Pokemon."
+				""
+				"The other involves throwing in a &cHeart Beet&r. Because Heart Beets are renewable through farming, you might find you like this method more."
+			]
+			dependencies: ["1E37B4E4A6C9CBDD"]
+			hide: true
+			id: "1D946E2567FDEF8B"
+			tasks: [
+				{
+					id: "164384ECEFC99285"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "2205DF7D98579578"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:ghast_tear"
+									Count: 1b
+								}
+								{
+									id: "inspirations:heartbeet"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: [
+				"Many times, having a regeneration potion that works slowly over a longer period of time is totally sufficient for your needs."
+				""
+				"To extend a Regeneration potion, you need to toss in a peice of redstone once it has finished brewing."
+				""
+				"If you extend a potion with redstone, you cannot upgrade its strength with glowstone."
+			]
+			dependencies: ["1D946E2567FDEF8B"]
+			hide: true
+			id: "55C4D86049A848CB"
+			tasks: [
+				{
+					id: "10044BA86B970C86"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "2852CF93AE8329E6"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: [
+				"Sometimes, the rate of a normal regeneration potion is not strong enough. Regeneration II potions last a very short period of time, but restore health much more rapidly. This can counteract heavy damage, bad poison, or higher-leveled Wither."
+				""
+				"To strengthen the potency of a Regeneration I potion and make it a level II potion, you must throw in a piece of glowstone."
+				""
+				"If you upgrade a potion with glowstone, you cannot extend its duration with redstone."
+			]
+			dependencies: ["1D946E2567FDEF8B"]
+			hide: true
+			id: "18232D249893C1E7"
+			tasks: [
+				{
+					id: "3FD58E22B3EF9059"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+				{
+					id: "702B5E45D278216A"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"All Regeneration potions can be upgraded to splash potions by throwing in gunpowder."
+				""
+				"Splash potions can be applied to both yourself and your Pokemon, getting a sort of 'two-for-one' deal. however, keep in mind that your Pokemon has many, many, many more hit points than you do. If you regenerate 10hp, that is five complete hearts of damage; but if Drifloon regenerates 10HP, that is the same healing as an Oran Berry."
+				""
+				"Since splash potions are the only type of potion that breaks the glass bottle, this might be less economical than more traditional healing methods."
+			]
+			dependencies: ["1D946E2567FDEF8B"]
+			hide: true
+			id: "5B87F848128D7817"
+			tasks: [
+				{
+					id: "3B0405D04FD3BB90"
+					type: "item"
+					title: "Any splash potion of regeneration."
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:splash_potion"
+									Count: 1b
+									tag: {
+										Potion: "minecraft:regeneration"
+									}
+								}
+								{
+									id: "minecraft:splash_potion"
+									Count: 1b
+									tag: {
+										Potion: "minecraft:long_regeneration"
+									}
+								}
+								{
+									id: "minecraft:splash_potion"
+									Count: 1b
+									tag: {
+										Potion: "minecraft:strong_regeneration"
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "766CBAC8B0645E09"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: [
+				"You need to find the second tier of healing berry if you want to make super potions. These are berries that heals around an eigth of a Pokemon's maximum health, but risks confusing them if they are of the wrong nature."
+				""
+				"Try looking for the Pokemon Swirlix and Spritzee on the Dazzle Layer. Swirlix loves the smell of the Aguav berry, and Swirlix loves the flavor of the Iapapa berry."
+				""
+				"As usual, when it comes to these rare berries, you expect it might be easier to steal the berries than to wait for one to drop."
+				""
+				"[&cObserve&r: This recipe (and the corresponding brewing stand recipe) is changed from vanilla Pixelmon. The berries required have changed.]"
+				""
+			]
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "70B5E5BCBD88C42D"
+			tasks: [{
+				id: "30B3B97E6C7C5D21"
+				type: "item"
+				title: "Any 12.5% Healing Berry"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "pixelmon:berries/hyper_potion_berry"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: [
+				"Now and then, you prick yourself on a wither rose, and the experience is always unplesant. Given the amount of wither-related objects, including bones and skulls, you think you should arm yourself with a &dwither protection&r potion."
+				""
+				"To make a wither protection potion, you must have a cauldron filled with Awkward Potion, and throw in a Wither Skull."
+			]
+			dependencies: ["72CC747E385575A6"]
+			hide: true
+			id: "137CE13D6E207BE6"
+			tasks: [{
+				id: "124E59E3C2108D29"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "advancedpotions:witherprotection"
+					}
+				}
+				count: 3L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: [
+				"Wither Skulls are rare and tedious to forage for. Thankfully, you have an idea for how to make them from easier-to-obtain materials. "
+				""
+				"First, you will need to harvest regular skulls from Duskull and Vullaby. Both should be available in some habitat or another on the Soil Layer, your starting layer."
+			]
+			dependencies: ["6F3BFE4C00F60E85"]
+			hide: true
+			id: "738F29AF65CF0281"
+			tasks: [{
+				id: "7B1D77CBC99DDF57"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+				count: 3L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"When given no other outlet, the natural magic of this place tends to manifest as wither."
+				""
+				"Because wither is so dangerous, but also potentially helpful, you need to learn to harness it. "
+				""
+				"To make a Potion of Wither, first create a full cauldron of Awkward Potion (using Nether Wart). After that, throw in a Wither Rose."
+				""
+				"Scoop up the potion to avoid falling in to it!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1D946E2567FDEF8B"]
+			hide: true
+			id: "6F3BFE4C00F60E85"
+			tasks: [
+				{
+					id: "27E40347FF4642DA"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "advancedpotions:wither"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "48DAF5D057DAC4B6"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["Now that you have ordinary skulls, you can fill up your cauldron with your wither potion once more. Each time you throw a skull into the wither potion, it will consume one level of potion and produce one wither skull."]
+			dependencies: ["738F29AF65CF0281"]
+			hide: true
+			id: "72CC747E385575A6"
+			tasks: [{
+				id: "5FD8EA5D980906F7"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: [
+				"The same recipe works for wither bones, with one caveat: Each bone consumes only half of a wither potion, allowing you to make twice as many wither bones as skulls."
+				""
+				"If you end up with more wither potion than you can use, you might have to pipe it to a cistern."
+			]
+			dependencies: ["72CC747E385575A6"]
+			hide: true
+			id: "6A6226031EF48604"
+			tasks: [{
+				id: "0BEB6920BDC2B221"
+				type: "item"
+				item: "tconstruct:necrotic_bone"
+				count: 6L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: [
+				"Higher level medicines don't brew as well in a cauldron. You'll typically get fewer potions per ingredient. "
+				""
+				"First, go through the steps of creating a cauldron full of normal Pokemon healing Potions."
+				""
+				"Then remove one bottle's worth of Potion. Toss in your 12.5% healing berry, and you will create two super potions!"
+				""
+				"[&cObserve&r: This recipe has changed from Vanilla Pixelmon, and is also different at the brewing stand.]"
+			]
+			dependencies: ["70B5E5BCBD88C42D"]
+			hide: true
+			id: "655994A2C4C684F2"
+			tasks: [{
+				id: "59C973C5D125D3A3"
+				type: "item"
+				item: "pixelmon:super_potion"
+				count: 2L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			description: ["You don't know how you're going to get a Sitrus Berry. Perhaps you should come back to this quest after you've collected all the 12.5% healing berries? "]
+			dependencies: ["655994A2C4C684F2"]
+			hide: true
+			id: "0107FFA0A8947E4C"
+			tasks: [{
+				id: "37F6726F8CEE8827"
+				type: "item"
+				item: "pixelmon:sitrus_berry"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			description: [
+				"Hyper potions can only be brewed one at a time in a cauldron. First, you want to put in one water bottle's worth of super potion. Then you toss in a Sitrus berry. "
+				""
+				"The same recipe, if made at a brewing standing, can produce three hyper potions. However, cauldron's require no blaze rods or blaze powder, and hyper potions are usually much more powerful than sitrus berries."
+			]
+			dependencies: ["0107FFA0A8947E4C"]
+			hide: true
+			id: "5080AE390AFC9BEF"
+			tasks: [{
+				id: "2AC11FB42CACC7B5"
+				type: "item"
+				item: "pixelmon:hyper_potion"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"Potions aren't the only thing you can brew in a cauldron; you can also make a few recipes, including mushroom and beetroot stew."
+				""
+				"Throw four mushrooms into a boiling cauldron of water in order to make mushroom soup."
+				""
+				"The cauldron recipe is more efficient than producing mushroom soup bowels by hand, and will hold on to your spare soup."
+			]
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "7819362CA84830C6"
+			tasks: [{
+				id: "0BE6E7AF0574CE3A"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "inspirations:mushroom_stew"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: [
+				"If you throw four baked potatoes into a boiling cauldron of mushroom soup, you will get potato soup, which is an improved version of mushroom soup."
+				""
+				"Like mushroom soup, potato soup must be portioned out in bowels to be eaten."
+			]
+			dependencies: ["7819362CA84830C6"]
+			hide: true
+			id: "29DC51E41C089D63"
+			tasks: [{
+				id: "56732341416EFD00"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "inspirations:potato_soup"
+					}
+				}
+			}]
+		}
+	]
+}

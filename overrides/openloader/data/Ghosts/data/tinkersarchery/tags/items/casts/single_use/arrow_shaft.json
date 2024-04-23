@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "contenttweaker:arrow_shaft_black_sand_cast",
-    "contenttweaker:arrow_shaft_soul_sand_cast",
-    "contenttweaker:arrow_shaft_orange_sand_cast",
-    "contenttweaker:arrow_shaft_white_sand_cast",
-    "contenttweaker:arrow_shaft_blue_sand_cast",
-    "contenttweaker:arrow_shaft_pink_sand_cast",
-    "contenttweaker:arrow_shaft_purple_sand_cast"
+    "contenttweaker:black_sand_cast/arrow_shaft_black_sand_cast",
+    "contenttweaker:soul_sand_cast/arrow_shaft_soul_sand_cast",
+    "contenttweaker:orange_sand_cast/arrow_shaft_orange_sand_cast",
+    "contenttweaker:white_sand_cast/arrow_shaft_white_sand_cast",
+    "contenttweaker:blue_sand_cast/arrow_shaft_blue_sand_cast",
+    "contenttweaker:pink_sand_cast/arrow_shaft_pink_sand_cast",
+    "contenttweaker:purple_sand_cast/arrow_shaft_purple_sand_cast"
     
   ]
 }

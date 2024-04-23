@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "isi",
+    "iii",
+    " C "
+  ],
+  "key": {
+    "i": {
+      "item": "tconstruct:seared_brick"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "tag": "minecraft:campfires"
+    }
+  },
+  "result": {
+    "item": "pixelmon:cooking_pot",
+    "count": 1
+  }
+}

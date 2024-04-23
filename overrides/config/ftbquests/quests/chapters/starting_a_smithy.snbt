@@ -41,7 +41,7 @@
 		}
 		{
 			disable_toast: true
-			x: 3.0d
+			x: 2.0d
 			y: 1.0d
 			description: [
 				"Beetroots are well and good to a starving person, but most good food needs to be cooked. You also want to make charcoal for torches."
@@ -990,6 +990,8 @@
 			x: 8.5d
 			y: -3.0d
 			description: [
+				"Ceramic &acisterns&r are all well and good for holding excess fluid you want out of your melter, but &atanks&r are portable and &agauges&r and retain fluids after breaking. You need a gague for the alloyer."
+				""
 				"In order to get the nether quartz, you will have to fight wild Drifloon. It might be time to fire up some of those old spawners from the Balloons islands. Drifloon aren't easy to fight; you have to aim your throw just right..."
 				""
 				"Alternatively, you can search for Zombie Sableye, who may be attracted to underground habitats on the Murk Layer."
@@ -1328,6 +1330,37 @@
 				id: "0EFF6A59F20F2894"
 				type: "item"
 				item: "tconstruct:earth_slime_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["Prior to any plans of starting a proper smeltery, you need to secure your first bucket of lava."]
+			dependencies: ["11F689A8DC3A4BE2"]
+			hide: true
+			id: "376885B025D67158"
+			tasks: [{
+				id: "44A7AF40068F2776"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ceramics:cracked_clay_bucket"
+								Count: 1b
+								tag: {
+									fluid: "minecraft:lava"
+								}
+							}
+							{
+								id: "minecraft:lava_bucket"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 		}
 	]

@@ -3,7 +3,7 @@
 	group: "5FC8A49184E12989"
 	order_index: 1
 	filename: "legendaries"
-	title: "Legendary"
+	title: "Legendary Encounters"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b

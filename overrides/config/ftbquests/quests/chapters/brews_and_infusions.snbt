@@ -1,0 +1,1954 @@
+{
+	id: "03CE3CAE425B3F7C"
+	group: "1BA668D58784F46A"
+	order_index: 0
+	filename: "brews_and_infusions"
+	title: "Infusions"
+	icon: "pixelmon:infuser"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"Fresh Water can be obtained from fighting Surskit and Dewpider, both of which will spawn in water at your starting layer, the Soil Layer."
+				""
+				"It's an ingredient in some infuser recipes, and can be used like a potion to heal Pokemon."
+			]
+			dependencies: ["0B84552613E68300"]
+			id: "4EA1300F45B9FA6E"
+			tasks: [{
+				id: "15B3DA939CEFA594"
+				type: "item"
+				item: "pixelmon:fresh_water"
+			}]
+			rewards: [{
+				id: "450F99B5F4F8C23C"
+				type: "item"
+				item: "pixelmon:fresh_water"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: [
+				"To make Roserade Tea, you won't need a Rabuta Berry, as the name implies. Rather, you will need a Razz Berry. A &cRazz Berry&r and some Fresh Water."
+				""
+				"Razz Berries are exclusively associated with Skwovet, which doesn't appear to have survived to the End Times. That means if you manage to get your hands on a Razz Berry, you need to plant it to &asave it from extinction&r!"
+				""
+				"Fresh Water can be obtained from fighting Surskit and Dewpider, both of which will spawn in water at your starting layer, the Soil Layer."
+				""
+				"Fresh waters are, themselves, little healing potions for Pokemon. Combining them with a Razz Berry upgrades them."
+			]
+			dependencies: ["4EA1300F45B9FA6E"]
+			hide: true
+			id: "17BA0A2AD81B9580"
+			tasks: [{
+				id: "5BBF768211008522"
+				type: "item"
+				item: "pixelmon:roserade_tea"
+			}]
+			rewards: [
+				{
+					id: "1B0E5246F48AD21A"
+					type: "item"
+					item: "ends_delight:bubble_tea"
+				}
+				{
+					id: "4054DFE97D2F7C9A"
+					type: "item"
+					item: "pixelmon:chipped_pot"
+				}
+				{
+					id: "787918D23E6A6D9B"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 500
+				}
+			]
+		}
+		{
+			title: "Learning About your Infuser"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Juice"
+			description: [
+				"When you were first given the Infuser, you understood it to be for creating incenses. But that's actually only one of an infusers many uses!"
+				""
+				"Infusers can also be used to make a variety of juices. These can heal a Pokemon, or increase its stats."
+				""
+				"To get started, you first need to make sure you've successfully foraged both starting berries, as there is no other way to get them."
+			]
+			dependencies: [
+				"4C30FCAF127E4F95"
+				"11A73D9EAEEDF61B"
+			]
+			hide: true
+			size: 2.0d
+			id: "0B84552613E68300"
+			tasks: [{
+				id: "4ACE92A47982E144"
+				type: "observation"
+				title: "Go to your Infuser and Observe it for a Moment"
+				icon: "pixelmon:infuser"
+				timer: 60L
+				observe_type: 0
+				to_observe: "pixelmon:infuser"
+			}]
+			rewards: [{
+				id: "4B05310B8E6E31F0"
+				type: "item"
+				item: "pixelmon:berry_juice"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			description: [
+				"Like with Pinap Juice, you are concerned that most plants of a jungle origins might be lost to you. The Monkeys and exotic birds responsible for carrying them have been lost."
+				""
+				"But you hold out hope. You've heard of a variant of Sinistea that only comes out at Christmas Time. Perhaps if you ascend to the chilly Ice Layer and grow a spruce tree indoors, you might find something..."
+			]
+			dependencies: ["4EA1300F45B9FA6E"]
+			hide: true
+			id: "1FD26D1C68E9C804"
+			tasks: [{
+				id: "5EF7C55ED8DD7AAB"
+				type: "item"
+				item: "pixelmon:komala_coffee"
+			}]
+			rewards: [
+				{
+					id: "2D63944326B1BC84"
+					type: "item"
+					title: "There is no way Drifloon could carry this. But a Drifblim might have, and the things are everywhere."
+					item: "pixelmon:brown_vending_machine"
+				}
+				{
+					id: "5D871C6764EC43BE"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 2000
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: [
+				"Pinap Juice is identical to Roserade Tea, but made with a different berry. Both improve the healing abilities of Fresh Water. Pinap Juice requires Pinap berries, which are are concerned may now be extinct."
+				""
+				"You can still be on the lookout for one, the way you are with Razz berries."
+			]
+			dependencies: ["4EA1300F45B9FA6E"]
+			hide: true
+			id: "53B57712CC9C5F6A"
+			tasks: [{
+				id: "07A57AD8B49B9209"
+				type: "item"
+				item: "pixelmon:pinap_juice"
+			}]
+			rewards: [{
+				id: "70E7D4648CD4CB0E"
+				type: "pixelmon:pokedollars"
+				title: "Drifloon found some spare change!"
+				count: 1000
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"To get started with EV-Enhancing Juices, you first need to make sure you've successfully foraged both starting berries, as there is no other way to get them."
+				""
+				"EV-Enhancing Juices are made by combining two berries of the &bsame color&r in an infuser."
+				""
+				"Some berries are much stronger than others."
+				""
+				"If both berries are from the same species, the juice will be weak. But if the berries are from different species, their potency will be &bdoubled&r."
+				""
+				"Remember: Each Pokemon can only gain 512 EVs total, which equals to about two maxed-out stats. Pick which stats you want to develop wisely, and remember Drifloon has already gained an unknown amount of EVs from other sources, like fighting wild Pokemon!"
+			]
+			dependencies: [
+				"538F287C91F715DC"
+				"0B84552613E68300"
+			]
+			id: "0B1D06F00CFDA75B"
+			tasks: [
+				{
+					id: "4D7A58EFE44E3CE3"
+					type: "item"
+					item: "pixelmon:leppa_berry"
+				}
+				{
+					id: "6A08532CD51298DC"
+					type: "item"
+					item: "pixelmon:oran_berry"
+				}
+			]
+			rewards: [
+				{
+					id: "0871869C42A15C62"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+				{
+					id: "27ABD274CE75B07A"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"You doubt Miltank has survived in this, but the sweet cream Pokemon Milcery may have. Milcery can drop Milk, and may occasionally drop Moomoo Milk"
+				""
+				"Perhaps there are more notes under 'Finding Milk.'"
+			]
+			dependencies: ["0B84552613E68300"]
+			id: "20D9322E15B7FE49"
+			tasks: [{
+				id: "6CF25870A2A8DB68"
+				type: "item"
+				item: "pixelmon:moomoo_milk"
+			}]
+			rewards: [
+				{
+					id: "6B58E2103823AACC"
+					type: "item"
+					item: "pixelmon:curry_coconut"
+				}
+				{
+					id: "685BBACA3D4E1159"
+					type: "item"
+					item: "farmersdelight:hot_cocoa"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["20D9322E15B7FE49"]
+			hide: true
+			id: "5A5446F1D07D80A2"
+			tasks: [{
+				id: "2343B7A57D24BEE8"
+				type: "item"
+				item: "pixelmon:tapu_cocoa"
+			}]
+			rewards: [{
+				id: "376CFA85E4F28D96"
+				type: "pixelmon:pokedollars"
+				title: "Drifloon found some spare change!"
+				count: 4000
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["20D9322E15B7FE49"]
+			hide: true
+			id: "10FDF176DA08CFEE"
+			tasks: [{
+				id: "32616245F9D9DB47"
+				type: "item"
+				item: "pixelmon:skitty_smoothie"
+			}]
+		}
+		{
+			title: "A Stat-Enhancing Feather"
+			x: -1.0d
+			y: 3.5d
+			description: ["To get started making Vitamins, you first need to make sure you have a \"Feather\" of the correct type, and ten of the corresponding berry. Vitamins are more powerful than juices, but also take more work to produce."]
+			dependencies: ["0B84552613E68300"]
+			hide: true
+			id: "62634A1255C7250F"
+			tasks: [
+				{
+					id: "4A3EF2CB178EC8EF"
+					type: "item"
+					title: "Any Stat-Enhancing Feather"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "pixelmon:stat_feathers"
+						}
+					}
+				}
+				{
+					id: "4D4F306B2F29F00E"
+					type: "item"
+					title: "Any #pixelmon:berries/vitamin_berry"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "pixelmon:berries/vitamin_berry"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23A00B8B34DF99DA"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+				{
+					id: "7D40214A7E705D4D"
+					type: "item"
+					item: "byg:green_apple"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			description: [
+				"To create an HP UP requires you to infuse a Health Feather with 10 Sitrus Berries."
+				""
+				"While normal Pokemon who carried the Sitrus berry, like Rattata, did not survive the Apocalypse, the sweet candy pokemon Swirlix, found in the Dazzle Layer at Night on open-air Manmade structures, might have some."
+				""
+				"Like with many Pokemon, the berry can be stolen with Thief to speed up the process of obtaining it."
+				""
+				"Health Feathers drop rarely from Mukrow and Uncommonly from Honchkrow, which spawn in the air from your starting Soil Layer up to the Dazzle Layer, and then spawn on both open-air Manmade and Land habitats on the Air Layer."
+			]
+			dependencies: ["62634A1255C7250F"]
+			hide: true
+			id: "618F85FA2EB9D03D"
+			tasks: [
+				{
+					id: "4D6CA56F52E16FF3"
+					type: "item"
+					item: "pixelmon:health_feather"
+				}
+				{
+					id: "32DD468E1504C66D"
+					type: "item"
+					item: "pixelmon:sitrus_berry"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			description: ["Sitrus Berries are also useful for healing 25% of a Pokemon's maximum health when HP falls below 50%. You can also use them to heal Pokemon outside of battle. They are a strict upgrade to an Oran berry in this capacity."]
+			dependencies: ["618F85FA2EB9D03D"]
+			id: "103B370CC63D40EE"
+			tasks: [{
+				id: "5E05527807F71340"
+				type: "item"
+				item: "pixelmon:hp_up"
+			}]
+			rewards: [
+				{
+					id: "5AA5242A2C83453C"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "68CD2B6B8CE298D4"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			description: ["If held, Liechi berries will boost a Pokemon's attack by one stage if their HP is below 25% of their maximum."]
+			dependencies: ["0776C2ED03F7AAC9"]
+			hide: true
+			id: "2D3578990BAF1D2C"
+			tasks: [{
+				id: "1F6F90075A24974F"
+				type: "item"
+				item: "pixelmon:protein"
+			}]
+			rewards: [
+				{
+					id: "43D091FE64C00C72"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "326501D069FB58C8"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			description: [
+				"To create a Protein requires you to infuse a Muscle Feather with 10 Leichi Berries."
+				""
+				"Liechi Berries are dangerous on Pokemon with sturdy. You can find them being held by wild Bonsly and Sudowoodo, and stealing them will speed up the process of obtaining one."
+				""
+				"Muscle Wings were typically held by big strong birds like Braviary and Sir Fetch'D, none of which you see. You might find them on Tailow, which is a bird that seldom lands. They might be attracted to roost in a Tree top habitat in the Air Layer."
+			]
+			dependencies: ["62634A1255C7250F"]
+			id: "0776C2ED03F7AAC9"
+			tasks: [
+				{
+					id: "7FAD8A1C33B09CCB"
+					type: "item"
+					item: "pixelmon:muscle_feather"
+				}
+				{
+					id: "4EA6C62FDDFC9121"
+					type: "item"
+					item: "pixelmon:liechi_berry"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			description: [
+				"To create an Iron requires you to infuse a Resist Feather with 10 Ganlon Berries."
+				""
+				"Ganlon Berries can be found held by the same Pokemon as Apicot Berries: Wobbuffet. If Wobbuffet will be attracted to any habitat, it will be an underground habitat on the Dazzle Layer."
+				""
+				"Resist Feathers will drop from the Pidove line, if you can find it. You suspect you should build habitats in the Air Layer."
+			]
+			dependencies: ["62634A1255C7250F"]
+			id: "6133A97EB1F81BF1"
+			tasks: [
+				{
+					id: "5923C741F1052B16"
+					type: "item"
+					item: "pixelmon:resist_feather"
+				}
+				{
+					id: "4AA59AD417861602"
+					type: "item"
+					item: "pixelmon:ganlon_berry"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			description: ["If held, Ganlon berries will boost a Pokemon's defense by one stage if their HP is below 25% of their maximum."]
+			dependencies: ["6133A97EB1F81BF1"]
+			hide: true
+			id: "332BD88FD8CD4D6C"
+			tasks: [{
+				id: "52753DC65C2BA90A"
+				type: "item"
+				item: "pixelmon:iron"
+			}]
+			rewards: [
+				{
+					id: "0C5883DB0633CCF8"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "4E1C0D6169318716"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			description: ["If held, Petaya berries will boost a Pokemon's special attack by one stage if their HP is below 25% of their maximum."]
+			dependencies: ["59A5CFA35EC63BA6"]
+			hide: true
+			id: "16389EDFCCB86FB7"
+			tasks: [{
+				id: "4002EE8D8056FF7D"
+				type: "item"
+				item: "pixelmon:calcium"
+			}]
+			rewards: [
+				{
+					id: "5FF6638D880A0FB3"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "582EA65433710CFB"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			description: [
+				"To create a Calcium requires you to infuse a Genius Feather with 10 Petaya Berries."
+				""
+				"Genius feathers should drop from the Hoot Hoot line, which must be somewwhere around here if you're also seeing Murkrow. Perhaps climb to the Air layer and build an assortment of habitats. Hoot Hoot like to dwell inside as well as out."
+				""
+				"Petaya Berries are primarily of value to Pokemon with reasonable Special Attack and the Sturdy Ability. Expect to see them carried by the Nosepass and Magnemite Lines, of which the Nosepass Line is much easier to find, on Manmade open-air structures in the Stone Layer."
+			]
+			dependencies: ["62634A1255C7250F"]
+			id: "59A5CFA35EC63BA6"
+			tasks: [
+				{
+					id: "46D3A061D7FD0D3B"
+					type: "item"
+					item: "pixelmon:genius_feather"
+				}
+				{
+					id: "68F5556B9CE995A7"
+					type: "item"
+					item: "pixelmon:petaya_berry"
+					count: 10L
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			description: [
+				"To create a Zinc requires you to infuse a Clever Feather with 10 Apicot Berries."
+				""
+				"Apicot Berries are carried by the same dangerous Pokemon as Ganlon berries: Wobbuffet. Stealing the berries will speed up the process of obtaining one."
+				""
+				"Clever feathers are dropped by the Natu line. To find it, you expect to have to build habitats up in the Air Layer."
+			]
+			dependencies: ["62634A1255C7250F"]
+			id: "51A639010A1F0BE3"
+			tasks: [
+				{
+					id: "4A4739ABA28BECC8"
+					type: "item"
+					item: "pixelmon:clever_feather"
+				}
+				{
+					id: "430964FAE305B4AE"
+					type: "item"
+					item: "pixelmon:apicot_berry"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			description: ["If held, Apicot berries will boost a Pokemon's special defense by one stage if their HP is below 25% of their maximum."]
+			dependencies: ["51A639010A1F0BE3"]
+			hide: true
+			id: "4485A73185254DC2"
+			tasks: [{
+				id: "74B88A9FF2A2D99C"
+				type: "item"
+				item: "pixelmon:zinc"
+			}]
+			rewards: [
+				{
+					id: "314DDE83E3F58372"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2A7FF41E34F82AE2"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: [
+				"To create a Carbos requires you to infuse a Swift Feather with 10 Salac Berries."
+				""
+				"Salac Berries are traditionally held by Yanma, which unfortunately does not have a durable middle evolution; the possibility it survived is very slim."
+				""
+				"Keep your eyes peeled for an Alolan Sandshrew, perhaps one will be attracted to a habitat on the Ice Layer."
+				""
+				"Swift Feathers will drop from the Phoenix-like Pokemon Fletching, which appears against all odds to be capable of rising from the ashes again. It should be attracted to habitats on the Air Layer."
+			]
+			dependencies: ["62634A1255C7250F"]
+			id: "4C72D52A00E2D0DC"
+			tasks: [
+				{
+					id: "51736AC6BFEB79A3"
+					type: "item"
+					item: "pixelmon:swift_feather"
+				}
+				{
+					id: "74C8C20BC2775FDC"
+					type: "item"
+					item: "pixelmon:salac_berry"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			description: ["If held, Salac berries will boost a Pokemon's speed by one stage if their HP is below 25% of their maximum."]
+			dependencies: ["4C72D52A00E2D0DC"]
+			hide: true
+			id: "634E0F40995F30D9"
+			tasks: [{
+				id: "7A7D22B8D94F4F88"
+				type: "item"
+				item: "pixelmon:carbos"
+			}]
+			rewards: [
+				{
+					id: "25B8F12273A32FD8"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "12561B084142A8A9"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 1000
+				}
+			]
+		}
+		{
+			title: "For All Your Hard Work"
+			icon: "pixelmon:custap_berry"
+			x: -1.0d
+			y: 8.0d
+			subtitle: "Congradulations"
+			description: [
+				"Drifloon found something while you were hard at work!"
+				""
+				"The Custap berry will be consumed by it's holder once they're below 25% health and ensure the Pokemon moves first in its priority bracket."
+				""
+				"This can be useful when trying to hit boss Pokemon with specific moves, and is more renewable than a Focus Sash."
+			]
+			dependencies: [
+				"103B370CC63D40EE"
+				"2D3578990BAF1D2C"
+				"332BD88FD8CD4D6C"
+				"16389EDFCCB86FB7"
+				"4485A73185254DC2"
+				"634E0F40995F30D9"
+			]
+			hide: true
+			id: "7D0CA5E6C2344278"
+			tasks: [{
+				id: "3E561B696402C4C4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "12A562161E083F96"
+					type: "item"
+					item: "pixelmon:custap_berry"
+				}
+				{
+					id: "3BF2C69E29E55F11"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 6000
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Roses are Red, Violets are... Blue?"
+			description: [
+				"Starting off, the first two juices you can make are: Double-Oran-Berry Blue Juice, and Double-Leppa-Berry Red Juice. Both will produce the weakest juices. The Juices will increase Pokemon EVs by 4"
+				""
+				"The Blue Juice will increase special attack Evs. The Red Juice will increase attack EVs."
+			]
+			dependencies: ["0B1D06F00CFDA75B"]
+			hide: true
+			id: "7FDB18007DEE914A"
+			tasks: [
+				{
+					id: "48D2B6A4C6454FA1"
+					type: "item"
+					item: "pixelmon:red_juice"
+				}
+				{
+					id: "0603F383115A08AC"
+					type: "item"
+					item: "pixelmon:blue_juice"
+				}
+			]
+			rewards: [
+				{
+					id: "16E921047D113EE5"
+					type: "choice"
+					table_id: 6775360253834921576L
+				}
+				{
+					id: "780314C6375F0391"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 200
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "One Eyed One Horn Flying Purple People Eater"
+			description: [
+				"Purple Juice is for raising a Pokemon's Health EV scores!"
+				""
+				"To make this juice, you'll need to gain access to one of the purple berries, like the infamous Bluk berry (your papa used to say 'Bitter is Better' but you never believed him)."
+				""
+				"Perhaps this Diary Chapter will grant you access to a purple berry, or perhaps you will find one held by wild Pokemon!"
+			]
+			dependencies: ["0B1D06F00CFDA75B"]
+			hide: true
+			id: "216EDF884C2DB630"
+			tasks: [{
+				id: "348913D0B919BAD2"
+				type: "item"
+				item: "pixelmon:purple_juice"
+			}]
+			rewards: [
+				{
+					id: "14FD3E40DE3E3E5F"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "602C97AE5BA07545"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Rainbow Juice"
+			description: [
+				"Colorful Shakes are &dfriendship-enhancing&r tools that work similarly to juices. Simply combine any two berries of a different color to produce a shake."
+				""
+				"The maximum happiness of any Pokemon is 256. Since Colorful shakes always get the bonuses associated with combining berries of differnt species, they can be a quick and effective way to maximize friendship!"
+			]
+			dependencies: ["0B1D06F00CFDA75B"]
+			hide: true
+			id: "5510662B569F7DEA"
+			tasks: [{
+				id: "523544F56ADBBE0B"
+				type: "item"
+				item: "pixelmon:colorful_shake"
+			}]
+			rewards: [
+				{
+					id: "06D17CC969586314"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "friend_ball"
+						}
+					}
+				}
+				{
+					id: "114DA0C4530EB0FF"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Green Machine"
+			description: [
+				"Did you have the foresight to plant the Rabuta and Nomel berries you got in the first chapter? If so, you will have the ingredients necessary for Green and Yellow Juice."
+				""
+				"Green is for Special Defense, and Yellow is for Defense."
+			]
+			dependencies: ["0B1D06F00CFDA75B"]
+			hide: true
+			id: "4492876C80C88C34"
+			tasks: [
+				{
+					id: "730D446DB208E21F"
+					type: "item"
+					item: "pixelmon:green_juice"
+				}
+				{
+					id: "5A1229A402CA6440"
+					type: "item"
+					item: "pixelmon:yellow_juice"
+				}
+			]
+			rewards: [
+				{
+					id: "2EEE67A2948A257D"
+					type: "choice"
+					table_id: 8717960779849246681L
+				}
+				{
+					id: "3E6D91C17F97AAD1"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 200
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Pretty in Pink!"
+			description: [
+				"Looking ahead, you definitely fortell Drifloon bringing you a pink berry or two as a gift while you're hard at work on your farm."
+				""
+				"The Watmel berry, your first likely pink berry, can be planted, harvested, and turned into a Pink Juice- for boosting Speed EVs!"
+			]
+			dependencies: ["0B1D06F00CFDA75B"]
+			hide: true
+			id: "69BD6244A4610582"
+			tasks: [{
+				id: "435DE19E8364B9AB"
+				type: "item"
+				item: "pixelmon:pink_juice"
+			}]
+			rewards: [
+				{
+					id: "2FFDE7909441FA7B"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "7DED7458EED59D9D"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["69BD6244A4610582"]
+			hide: true
+			id: "1864DC88662D4020"
+			tasks: [{
+				id: "219A29C94B41A277"
+				type: "item"
+				title: "+2 Pink Juice"
+				item: {
+					id: "pixelmon:pink_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 2
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["4492876C80C88C34"]
+			hide: true
+			id: "06937DDF5D4CF692"
+			tasks: [{
+				id: "4F1071F6EE4C769F"
+				type: "item"
+				title: "+2 Yellow Juice"
+				item: {
+					id: "pixelmon:yellow_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 2
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			icon: "pixelmon:durin_berry"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Double Green"
+			description: [
+				"In this chapter, you get access to the Durin berry (green). If you also had the foresight to plant and harvest both it and the Rabuta berry, you can now make +2 Green Juice!"
+				""
+				"If you missed out on planting the Rabuta Berries and spent them instead, you'll have to be on the lookout for another green berry..."
+			]
+			dependencies: ["4492876C80C88C34"]
+			hide: true
+			id: "1911767C16186147"
+			tasks: [{
+				id: "67C73426D6D90CE4"
+				type: "item"
+				title: "+2 Green Juice"
+				item: {
+					id: "pixelmon:green_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 2
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5C497577F5679D5A"
+					type: "item"
+					item: "pixelmon:bluk_berry"
+				}
+				{
+					id: "7FC5D1134ABAA86E"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: ["Combine one medium tier berry with a low tier berry of a different color"]
+			dependencies: ["5510662B569F7DEA"]
+			hide: true
+			id: "350171B959644255"
+			tasks: [{
+				id: "751C1CB18C594719"
+				type: "item"
+				title: "+4 Colorful Shake"
+				item: {
+					id: "pixelmon:colorful_shake"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+			}]
+			rewards: [{
+				id: "40A56A605DA2A6AE"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "friend_ball"
+					}
+				}
+			}]
+		}
+		{
+			icon: "pixelmon:spelon_berry"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Red is the Rose"
+			description: ["In this Chapter, you will collect the Spelon berry (red). If you combine this with Leppa berries, you can make a +8 Red Juice!"]
+			dependencies: ["7FDB18007DEE914A"]
+			hide: true
+			id: "26E83CE97A250CD2"
+			tasks: [{
+				id: "6B372961C37EE22C"
+				type: "item"
+				title: "+2 Red Juice"
+				item: {
+					id: "pixelmon:red_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 2
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "25FCC8BBDE5DA30E"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			icon: "pixelmon:passho_berry"
+			x: -3.0d
+			y: -2.5d
+			subtitle: "All around the Mulberry Bush..."
+			description: [
+				"The Oran berry is the only low-leveled Blue Juice berry!"
+				""
+				"While that's unfortunate, there is a way to produce a +2 Blue Juice to match your other colored juices. You'll need to find a middle tier Blue berry, and mix it with itself. To do this, you need to track down a Pokemon likely to carry a Yache, Coba, or Passho Berry."
+				""
+				"All three berries protect Pokemon from different types of super effective hit. You can fight enough Pokemon that they finally drop one, or speed up the process by using Thief to steal one. About half of all Roly Coly carry one as a \"Held Item\" in battle."
+			]
+			dependencies: ["7FDB18007DEE914A"]
+			hide: true
+			id: "5911CB0787FF81DF"
+			tasks: [{
+				id: "2813ABB874E67CAE"
+				type: "item"
+				title: "+2 Blue Juice"
+				item: {
+					id: "pixelmon:blue_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 2
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "57441C0A0CC6BFF5"
+					type: "item"
+					title: "Wepear Berries are mostly useless, and designed to replace the Rabuta as a low-level green berry, if you accidentally spent all the Rabuta making an incense"
+					item: "pixelmon:wepear_berry"
+				}
+				{
+					id: "30BE86710CFE04AC"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["216EDF884C2DB630"]
+			hide: true
+			id: "59070A62F3A74518"
+			tasks: [{
+				id: "7418D36CAB875477"
+				type: "item"
+				title: "+2 Purple Juice"
+				item: {
+					id: "pixelmon:purple_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 2
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["59070A62F3A74518"]
+			hide: true
+			id: "5DD78E0E2A109F2D"
+			tasks: [{
+				id: "09DE773096254311"
+				type: "item"
+				item: {
+					id: "pixelmon:purple_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 3
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["5911CB0787FF81DF"]
+			hide: true
+			id: "0D3765A4320FB931"
+			tasks: [{
+				id: "64E4648C5E7F7107"
+				type: "item"
+				item: {
+					id: "pixelmon:blue_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 3
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["26E83CE97A250CD2"]
+			hide: true
+			id: "321946083A23DF8E"
+			tasks: [{
+				id: "74F1D9C503DE381A"
+				type: "item"
+				item: {
+					id: "pixelmon:red_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 3
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: ["Combine two medium tier berries of different colors."]
+			dependencies: ["350171B959644255"]
+			hide: true
+			id: "0548CFD3D091C98C"
+			tasks: [{
+				id: "75D36E023B9C03F5"
+				type: "item"
+				title: "+8 Colorful Shake"
+				item: {
+					id: "pixelmon:colorful_shake"
+					Count: 1b
+					tag: {
+						Stats_Boost: 8
+					}
+				}
+			}]
+			rewards: [{
+				id: "6718282A4EAAF198"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "friend_ball"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["1911767C16186147"]
+			hide: true
+			id: "46C1C63252D450BA"
+			tasks: [{
+				id: "4BB3A83DB9C2A0A1"
+				type: "item"
+				item: {
+					id: "pixelmon:green_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 3
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["06937DDF5D4CF692"]
+			hide: true
+			id: "4746D5FA7A9E85BE"
+			tasks: [{
+				id: "7C87634EA87883E6"
+				type: "item"
+				item: {
+					id: "pixelmon:yellow_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 3
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["1864DC88662D4020"]
+			hide: true
+			id: "69D6BAED1AC1A8F2"
+			tasks: [{
+				id: "59FD90EC3126FF3B"
+				type: "item"
+				item: {
+					id: "pixelmon:pink_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 3
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["69D6BAED1AC1A8F2"]
+			hide: true
+			id: "6DAF9E11550DC4A1"
+			tasks: [{
+				id: "0CF524289262F9B0"
+				type: "item"
+				item: {
+					id: "pixelmon:pink_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["4746D5FA7A9E85BE"]
+			hide: true
+			id: "33C1B452B08E8180"
+			tasks: [{
+				id: "4A4B22B9587FF259"
+				type: "item"
+				item: {
+					id: "pixelmon:yellow_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["46C1C63252D450BA"]
+			hide: true
+			id: "19531B3579D5E81A"
+			tasks: [{
+				id: "4C4F47892AC46D1A"
+				type: "item"
+				item: {
+					id: "pixelmon:green_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			description: ["Combine one medium tier berry with a high tier berry of a different color."]
+			dependencies: ["0548CFD3D091C98C"]
+			hide: true
+			id: "6277F216465126FF"
+			tasks: [{
+				id: "64378B16D1842391"
+				type: "item"
+				title: "+16 Colorful Shake"
+				item: {
+					id: "pixelmon:colorful_shake"
+					Count: 1b
+					tag: {
+						Stats_Boost: 16
+					}
+				}
+			}]
+			rewards: [{
+				id: "49C5BB6142B85278"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "friend_ball"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["321946083A23DF8E"]
+			hide: true
+			id: "6274B49FA2CD4F03"
+			tasks: [{
+				id: "29600A0938F7690F"
+				type: "item"
+				item: {
+					id: "pixelmon:red_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["0D3765A4320FB931"]
+			hide: true
+			id: "571609A64855224C"
+			tasks: [{
+				id: "7DA9A010DCBAA047"
+				type: "item"
+				item: {
+					id: "pixelmon:blue_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["5DD78E0E2A109F2D"]
+			hide: true
+			id: "2B9BFB59A78947E3"
+			tasks: [{
+				id: "68DFD60320472C00"
+				type: "item"
+				item: {
+					id: "pixelmon:purple_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 4
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["2B9BFB59A78947E3"]
+			hide: true
+			id: "0F19CFD1CCE30EC3"
+			tasks: [{
+				id: "1B47C70A61E55C1E"
+				type: "item"
+				item: {
+					id: "pixelmon:purple_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 5
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["571609A64855224C"]
+			hide: true
+			id: "1602DA91CF7F8DAC"
+			tasks: [{
+				id: "2B024E053B137F67"
+				type: "item"
+				item: {
+					id: "pixelmon:blue_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 5
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["6274B49FA2CD4F03"]
+			hide: true
+			id: "35962C0C43313D3B"
+			tasks: [{
+				id: "24C31DB67E5C6638"
+				type: "item"
+				item: {
+					id: "pixelmon:red_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 5
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["6277F216465126FF"]
+			hide: true
+			id: "2A8C97D071CF8D55"
+			tasks: [{
+				id: "227E844DB270A51A"
+				type: "item"
+				title: "+32 Colorful Shake"
+				item: {
+					id: "pixelmon:colorful_shake"
+					Count: 1b
+					tag: {
+						Stats_Boost: 32
+					}
+				}
+			}]
+			rewards: [{
+				id: "59E0B7E7CF413441"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "friend_ball"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			hide_dependency_lines: false
+			dependencies: ["19531B3579D5E81A"]
+			hide: true
+			id: "3DFAD0A271C5A50E"
+			tasks: [{
+				id: "11144FCF620AB380"
+				type: "item"
+				item: {
+					id: "pixelmon:green_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 5
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["33C1B452B08E8180"]
+			hide: true
+			id: "60C9693B7E0FCFB7"
+			tasks: [{
+				id: "730E74FBE17CD8F4"
+				type: "item"
+				item: {
+					id: "pixelmon:yellow_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 5
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["6DAF9E11550DC4A1"]
+			hide: true
+			id: "4F2628D9CCB1F6C5"
+			tasks: [{
+				id: "360AC3EF85849F09"
+				type: "item"
+				item: {
+					id: "pixelmon:pink_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 5
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["4F2628D9CCB1F6C5"]
+			hide: true
+			id: "6F1E239009583DD2"
+			tasks: [{
+				id: "78A7CE01ACE1A72B"
+				type: "item"
+				item: {
+					id: "pixelmon:pink_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 6
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["60C9693B7E0FCFB7"]
+			hide: true
+			id: "48FBAD7390B8355A"
+			tasks: [{
+				id: "17D1AA245F64713F"
+				type: "item"
+				item: {
+					id: "pixelmon:yellow_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 6
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["3DFAD0A271C5A50E"]
+			hide: true
+			id: "46E2B789D1DE54F5"
+			tasks: [{
+				id: "3F7C25FD1EEE9F9B"
+				type: "item"
+				item: {
+					id: "pixelmon:green_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 6
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["35962C0C43313D3B"]
+			hide: true
+			id: "211A7E6C19257970"
+			tasks: [{
+				id: "5C6B9190F12A9C67"
+				type: "item"
+				item: {
+					id: "pixelmon:red_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 6
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			dependencies: ["0F19CFD1CCE30EC3"]
+			hide: true
+			id: "58B9997165F6FF61"
+			tasks: [{
+				id: "615C28E515D14054"
+				type: "item"
+				item: {
+					id: "pixelmon:purple_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 6
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["1602DA91CF7F8DAC"]
+			hide: true
+			id: "5D50DA1C95DF1DF0"
+			tasks: [{
+				id: "6E8330E5C80F1631"
+				type: "item"
+				item: {
+					id: "pixelmon:blue_juice"
+					Count: 1b
+					tag: {
+						Stats_Boost: 6
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"The Pokemon Cooking Pot is specifically for creating curry. The pot has a built-in fireplace, and can be made of terracotta, bronze, or other materials."
+				""
+				"However, it cannot be lit by anything other than a flint-and-steel. Fire charges will not suffice. Since iron is hard to aquire, you made decide to skip curry for now."
+			]
+			dependencies: ["0946764F167E6329"]
+			size: 2.0d
+			id: "1B5AF5481A4684D3"
+			tasks: [
+				{
+					id: "5C29D827D759493E"
+					type: "item"
+					item: "pixelmon:cooking_pot"
+				}
+				{
+					id: "590A791CC2C66CBA"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Plain Curry"
+			x: 7.5d
+			y: 1.0d
+			description: [
+				"Making curry is quite complex, but you can start off making weak curries with whatever materials you can find."
+				""
+				"Every curry requires ten berries, which influence the flavor and quality. Alone, this will make \"Plain Curry.\" If you add a curry-specific item, you will make a specific type of curry."
+				""
+				"After these items are placed in the pot, the cookign pot fire must be ignited with a flint and steel. You will know you are successful when you see the spoon in the pot."
+				""
+				"The flames must be fanned (by right-clicking), not too hot and not to cold. When that is done, the pot must be stirred, not too fast and not too slow. In the end, a curry is produced."
+			]
+			dependencies: ["1B5AF5481A4684D3"]
+			id: "0D7973DAAE816F4E"
+			tasks: [{
+				id: "75EC4E5763924797"
+				type: "item"
+				item: "pixelmon:dish_curry_plain"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			description: ["This curry is easy to make. Simply cook some bread."]
+			id: "1377511F277D65DF"
+			tasks: [
+				{
+					id: "7270DCA95B0064AD"
+					type: "item"
+					item: "pixelmon:dish_curry_toast"
+				}
+				{
+					id: "12E6842FEFBB8C99"
+					type: "item"
+					item: "pixelmon:curry_toast"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 11.0d
+			id: "3B86D30E84126456"
+			tasks: [{
+				id: "4F9EBB21D3433402"
+				type: "item"
+				item: "pixelmon:dish_curry_pasta"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.0d
+			id: "4AEA3A96EA9BB070"
+			tasks: [{
+				id: "7498376DD29B8E06"
+				type: "item"
+				item: "pixelmon:dish_curry_fried_food"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.0d
+			id: "4488332395185465"
+			tasks: [{
+				id: "60F9F1258F654690"
+				type: "item"
+				item: "pixelmon:dish_curry_burger"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.0d
+			id: "16BF6ABC8E875BC7"
+			tasks: [{
+				id: "7FD466BB321585A5"
+				type: "item"
+				item: "pixelmon:dish_curry_sausage"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.0d
+			id: "175CD1523A496465"
+			tasks: [{
+				id: "10FF2AF83A219241"
+				type: "item"
+				item: "pixelmon:dish_curry_beans"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			description: ["To make this curry with any regularity, you will have to obtain a variety of mushrooms."]
+			id: "24702E858267C949"
+			tasks: [
+				{
+					id: "3633D37572AEE97C"
+					type: "item"
+					item: "pixelmon:dish_curry_mushroom"
+				}
+				{
+					id: "68095535AFFF98A7"
+					type: "item"
+					item: "pixelmon:curry_mushroom"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			description: ["To make this curry, you will need to make a potato farm after securing a potato from Grubbin, Ferroseed, or a similar Pokemon."]
+			id: "3742792476488E8A"
+			tasks: [
+				{
+					id: "10164FCC6314350C"
+					type: "item"
+					item: "pixelmon:dish_curry_potato"
+				}
+				{
+					id: "6AEDFB96CAC58DD3"
+					type: "item"
+					item: "pixelmon:curry_potato"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			id: "4A9196098945C4C9"
+			tasks: [{
+				id: "0769B1D3BA014B69"
+				type: "item"
+				item: "pixelmon:dish_curry_salad"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.0d
+			description: ["To make this curry with any regularity, you will have to obtain the necessary spices from Spritzee."]
+			id: "64902947E0BFADA8"
+			tasks: [
+				{
+					id: "3B67D6BB8B1F4CB0"
+					type: "item"
+					item: "pixelmon:dish_curry_seasoned"
+				}
+				{
+					id: "2B5CC8FF06B7DABF"
+					type: "item"
+					item: "pixelmon:curry_seasoned"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			id: "083F654E38D3E4CD"
+			tasks: [{
+				id: "4691EDAB6BF3815B"
+				type: "item"
+				item: "pixelmon:dish_curry_juicy"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			id: "0DBA0FEE8932180E"
+			tasks: [{
+				id: "06833D7B333AEB30"
+				type: "item"
+				item: "pixelmon:dish_curry_rich"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: ["This curry ingredient is easy to make. Simply cook some bones."]
+			id: "3E4652A93CB60F1E"
+			tasks: [
+				{
+					id: "56E300C86F3E4E7F"
+					type: "item"
+					item: "pixelmon:dish_curry_bone"
+				}
+				{
+					id: "5DB9FC512358BED0"
+					type: "item"
+					item: "pixelmon:curry_bone"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			description: ["This curry can be made once you have discovered a deer or horse Pokemon carrying a carrot."]
+			id: "602C80C53B57BDCF"
+			tasks: [
+				{
+					id: "77D0EA489AB2D1AC"
+					type: "item"
+					item: "pixelmon:dish_curry_herb"
+				}
+				{
+					id: "291639817A97E46B"
+					type: "item"
+					item: "pixelmon:curry_herb"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			description: ["This curry requires access to a vending machine"]
+			id: "0CFC98EA4E46596A"
+			tasks: [
+				{
+					id: "40067F6D6DF0103C"
+					type: "item"
+					item: "pixelmon:dish_curry_cream"
+				}
+				{
+					id: "573EDC9691A1370F"
+					type: "item"
+					item: "pixelmon:curry_cream"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			id: "3C3057E72B483A9C"
+			tasks: [{
+				id: "24AD86CC79D57C1A"
+				type: "item"
+				item: "pixelmon:dish_curry_decorative"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: ["This curry requires acces to a vending machine."]
+			id: "41C2FE6AC1D02EF5"
+			tasks: [
+				{
+					id: "7536991697095CCE"
+					type: "item"
+					item: "pixelmon:dish_curry_coconut"
+				}
+				{
+					id: "15D45DA51AD62362"
+					type: "item"
+					item: "pixelmon:curry_coconut"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			id: "32A5D83DE52760AC"
+			tasks: [{
+				id: "5FA4CD4ADD76C18A"
+				type: "item"
+				item: "pixelmon:dish_curry_smoke_poke"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			id: "6F4719482B055030"
+			tasks: [{
+				id: "28056CA8FB5CD70A"
+				type: "item"
+				item: "pixelmon:dish_curry_leek"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			description: ["The same Pokemon who drops Apples will occasionally drop an apple appropriate for curry."]
+			id: "7823C53B5652E18C"
+			tasks: [{
+				id: "758294BA90093649"
+				type: "item"
+				item: "pixelmon:dish_curry_apple"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			description: ["This curry requires access to eggs, which are dropped infrequently by most bird Pokemon."]
+			id: "7AAD9F7BB7039161"
+			tasks: [{
+				id: "009C07AB193D6B85"
+				type: "item"
+				item: "pixelmon:dish_curry_boiled_egg"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -9.0d
+			id: "2406A128E29D2F0F"
+			tasks: [{
+				id: "3FFEC5C3FD55E89F"
+				type: "item"
+				item: "pixelmon:dish_curry_tropical"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -10.0d
+			id: "28AE07100FFF53EC"
+			tasks: [{
+				id: "60ACEAB85CD6395C"
+				type: "item"
+				item: "pixelmon:dish_curry_cheese"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			id: "0B44F84E080E8ABA"
+			tasks: [{
+				id: "214BBA9B486F2615"
+				type: "item"
+				item: "pixelmon:dish_curry_gigantamix"
+			}]
+		}
+	]
+}

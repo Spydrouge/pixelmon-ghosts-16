@@ -1,0 +1,17 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/cinnabar",
+      "count": 1
+    },
+    {
+      "tag": "ends_delight:chorus_flower_pie",
+      "count": 1
+    }
+  ],
+  "results": {
+    "item": "pixelmon:big_malasada",
+    "count": 1
+  }
+}

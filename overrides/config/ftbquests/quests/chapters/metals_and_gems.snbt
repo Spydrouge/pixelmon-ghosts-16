@@ -30,7 +30,7 @@
 			x: -5.0d
 			y: 1.5d
 			description: [
-				"(There is almost no iron available in the early game, which of course means it is almost impossible to make Pokeballs. You will need to play around this by strategically pursuing the right eggs.)"
+				"(There is almost no iron available in the early game, which of course means it is almost impossible to make Pokeballs. You will need to play around this by collecting Pokemon eggs from quests.)"
 				""
 				"There are many Pokemon who drop iron nuggets, and all of them do so unreliably, or spawn rarely. The easiest source is Aron, which can be attracted to pieces of iron ore or minecart rails and lives underground in the Deep Dark Layer below Y = 32."
 				""
@@ -1501,11 +1501,27 @@
 			x: -0.5d
 			y: -6.0d
 			description: ["Nickle is usually found in close proximity to Iron. You can attract out Alolan Geodude by placing down redstone where Geodude naturally spawn, and they will often drop more nickle than iron."]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "47607815AA13CD41"
 			tasks: [{
 				id: "1317117F78CBECFD"
 				type: "item"
 				item: "thermal:nickel_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			description: [
+				"Electrum can be alloyed from gold and silver. It also drops in small quantities from certain Pokemon."
+				""
+			]
+			id: "0C025DDF5CAA04EF"
+			tasks: [{
+				id: "1CB9792831725E75"
+				type: "item"
+				item: "thermal:electrum_ingot"
 			}]
 		}
 	]

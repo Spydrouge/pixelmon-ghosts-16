@@ -2,10 +2,10 @@
 ["The percentage shown is the chance the for the item to add a layer to the composter"]
 
 	["The percentage shown is the chance the for the item to add a layer to the composter"." The percentages in this list are the same as vanilla"]
-		"30% Items" = []
-		"50% Items" = []
-		"65% Items" = []
+		Drops = ["minecraft:bone_meal", "minecraft:bone_meal"]
+		"50% Items" = ["minecraft:slime_ball", "tconstruct:blood_slime_ball", "tconstruct:sky_slime_ball", "tconstruct:ender_slime_ball", "tconstruct:ichor_slime_ball"]
 		"85% Items" = []
-		"100% Items" = []
-		Drops = ["minecraft:bone_meal"]
+		"65% Items" = ["minecraft:rotten_flesh"]
+		"100% Items" = ["biomesoplenty:flesh"]
+		"30% Items" = []
 

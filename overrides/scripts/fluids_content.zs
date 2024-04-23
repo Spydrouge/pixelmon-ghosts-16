@@ -53,3 +53,15 @@ new FluidBuilder(false, 0xff68C8C8).build("pixelmon_x_speed");
 //PP restoring items [TODO] Unfinished
 
 new FluidBuilder(false, 0xff44245E).build("pixelmon_ether");
+new FluidBuilder(false, 0xff68B040).build("pixelmon_max_ether");
+new FluidBuilder(false, 0xffB16942).build("pixelmon_elixer");
+new FluidBuilder(false, 0xff40B0B0).build("pixelmon_max_elixer");
+
+
+
+
+//Calcium Liquid
+
+new FluidBuilder(false, 0xffeeeeee).build("calcium");
+new FluidBuilder(false, 0xffDE583B).build("protein");
+new FluidBuilder(false, 0xffDEBC4B).build("carbohydrates");

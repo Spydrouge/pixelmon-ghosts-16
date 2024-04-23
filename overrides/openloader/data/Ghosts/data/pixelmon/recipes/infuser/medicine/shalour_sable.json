@@ -1,0 +1,17 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "pixelmon:milcery_sweet",
+      "count": 1
+    },
+    {
+      "item": "farmersdelight:wheat_dough",
+      "count": 1
+    }
+  ],
+  "results": {
+    "item": "pixelmon:shalour_sable",
+    "count": 1
+  }
+}

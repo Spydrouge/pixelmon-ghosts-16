@@ -1,0 +1,34 @@
+{
+  "type": "inspirations:cauldron",
+  "conditions": [
+    {
+      "prop": "recipes_module",
+      "type": "inspirations:config"
+    },
+    {
+      "prop": "cauldron_fluids",
+      "type": "inspirations:config"
+    }
+  ],
+  "input": {
+    "item": {
+      "tag": "pixelmon:berries/hyper_potion_berry"
+    },
+    "contents": {
+      "type": "inspirations:fluid",
+      "name": "contenttweaker:pixelmon_potion"
+    },
+    "level": {
+	  "min":8,
+      "max":8
+
+    },
+    "temperature": "boiling"
+  },
+  "output": {
+    "contents": {
+      "type": "inspirations:fluid",
+      "name": "contenttweaker:pixelmon_super_potion"
+    }
+  }
+}

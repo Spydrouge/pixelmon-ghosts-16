@@ -1,0 +1,17 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:mahogany_leaves",
+      "count": 64
+    },
+    {
+      "item": "ends_delight:chorus_succulent",
+      "count": 4
+    }
+  ],
+  "results": {
+    "item": "pixelmon:rage_candy_bar",
+    "count": 1
+  }
+}

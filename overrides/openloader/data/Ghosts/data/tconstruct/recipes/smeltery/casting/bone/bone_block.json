@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "contenttweaker:calcium",
+    "amount": 432
+  },
+  "result": "minecraft:bone_block",
+  "cooling_time": 79
+}

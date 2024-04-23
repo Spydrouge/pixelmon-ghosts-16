@@ -1,11 +1,11 @@
 {
   "type": "tconstruct:molding_table",
   "material": {
-    "item": "contenttweaker:blank_soul_blue_sand_cast"
+    "item": "contenttweaker:blue_sand_cast/blank_blue_sand_cast"
   },
   "pattern": {
     "item": "tconstruct:pickaxe_head",
     "type": "tconstruct:material"
   },
-  "result": "contenttweaker:pickaxe_head_soul_blue_sand_cast"
+  "result": "contenttweaker:blue_sand_cast/pickaxe_head_blue_sand_cast"
 }

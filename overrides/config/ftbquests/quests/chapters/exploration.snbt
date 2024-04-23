@@ -40,6 +40,7 @@
 				"Stone Layer: 32 - 64"
 				"Deep Dark Layer: 0 - 32"
 			]
+			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
 			size: 2.0d
 			id: "30EB23683E1A1D4C"

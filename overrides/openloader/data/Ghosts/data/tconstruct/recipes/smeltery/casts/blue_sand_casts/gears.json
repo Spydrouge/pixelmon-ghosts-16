@@ -10,10 +10,10 @@
     }
   ],
   "material": {
-    "item": "contenttweaker:blue_sand_cast/blank_soul_blue_sand_cast"
+    "item": "contenttweaker:blue_sand_cast/blank_blue_sand_cast"
   },
   "pattern": {
     "tag": "forge:gears"
   },
-  "result": "contenttweaker:blue_sand_cast/gear_soul_blue_sand_cast"
+  "result": "contenttweaker:blue_sand_cast/gear_blue_sand_cast"
 }

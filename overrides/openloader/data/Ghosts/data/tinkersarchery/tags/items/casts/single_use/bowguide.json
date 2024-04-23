@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-      "contenttweaker:bowguide_black_sand_cast",
-    "contenttweaker:bowguide_soul_sand_cast",
-    "contenttweaker:bowguide_orange_sand_cast",
-    "contenttweaker:bowguide_white_sand_cast",
-    "contenttweaker:bowguide_blue_sand_cast",
-    "contenttweaker:bowguide_pink_sand_cast",
-    "contenttweaker:bowguide_purple_sand_cast"
+      "contenttweaker:black_sand_cast/bowguide_black_sand_cast",
+    "contenttweaker:soul_sand_cast/bowguide_soul_sand_cast",
+    "contenttweaker:orange_sand_cast/bowguide_orange_sand_cast",
+    "contenttweaker:white_sand_cast/bowguide_white_sand_cast",
+    "contenttweaker:blue_sand_cast/bowguide_blue_sand_cast",
+    "contenttweaker:pink_sand_cast/bowguide_pink_sand_cast",
+    "contenttweaker:purple_sand_cast/bowguide_purple_sand_cast"
   ]
 }

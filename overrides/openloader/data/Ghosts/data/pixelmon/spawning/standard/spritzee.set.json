@@ -14,6 +14,10 @@
         {
           "itemID": "pixelmon:sachet",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:aguav_berry",
+          "percentChance": 25
         }
       ],
       "condition": {
@@ -42,6 +46,10 @@
         {
           "itemID": "pixelmon:sachet",
           "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:aguav_berry",
+          "percentChance": 25
         }
       ],
       "condition": {

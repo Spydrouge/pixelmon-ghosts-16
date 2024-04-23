@@ -1,7 +1,7 @@
 {
 	id: "175C8A7E0A781096"
-	group: "4A96B64D5627EDC5"
-	order_index: 4
+	group: "1BA668D58784F46A"
+	order_index: 1
 	filename: "druidism"
 	title: "Druidism"
 	icon: "minecraft:wither_rose"
@@ -143,7 +143,7 @@
 				""
 				"To get a red or brown mushroom necessary to start the colony, you will have to find a normal Shroomish underground on the Dazzle Layer, or a Foongus underground on the Murk layer."
 				""
-				"Any normal red or brown mushroom will work."
+				"Colonies mature over several stages. When they reach stage 3, they can be sheared (left click) to pick up the whole colony. If right-clicked or sheared prematurely, they will only drop singular mushrooms."
 			]
 			dependencies: ["3FF8AA83BB349B3E"]
 			hide: true
@@ -191,6 +191,11 @@
 				type: "item"
 				item: "byg:blue_glowshroom"
 			}]
+			rewards: [{
+				id: "1594E68A1FF6661A"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
 		}
 		{
 			x: 1.0d
@@ -205,9 +210,9 @@
 				item: "byg:soul_shroom"
 			}]
 			rewards: [{
-				id: "0DE3338664F1252E"
+				id: "2F3C0E3FA0E0733A"
 				type: "item"
-				item: "byg:nylium_soul_sand"
+				item: "pixelmon:black_shard"
 			}]
 		}
 		{
@@ -222,6 +227,11 @@
 				type: "item"
 				item: "byg:purple_glowshroom"
 			}]
+			rewards: [{
+				id: "15C09ADD28AF33F5"
+				type: "choice"
+				table_id: 6775360253834921576L
+			}]
 		}
 		{
 			x: 2.0d
@@ -234,6 +244,11 @@
 				id: "776602A77D3AF43F"
 				type: "item"
 				item: "byg:green_mushroom"
+			}]
+			rewards: [{
+				id: "6762F1FB42421A4F"
+				type: "item"
+				item: "pixelmon:green_shard"
 			}]
 		}
 		{
@@ -392,19 +407,24 @@
 					type: "item"
 					item: "pixelmon:blue_rug"
 				}
+				{
+					id: "0BB3F59BB1CDB161"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
 			]
 		}
 		{
 			x: 0.0d
-			y: 8.5d
+			y: 9.5d
 			description: [
 				"It will only take one Florges to supply you with everything you need to create your first generative flora. But even with the cornflower, Florges is rare. Set up to wait, and give unwanted visitors a gentle push to a lower layer."
 				""
-				"Ensure that at least one cornflower is set out, and that no other colors are present, as they may attract the wrong Florges."
+				"Ensure that at least one blue orchid is set out, and that no other flowers influencing spawns are present, as they may attract the Pokemon."
 				""
 				"Most flowers that are two units tall, but not all, can be bonemealed to produce duplicates. Make sure not to use up all your flowers, or you will have to wait for another Florges."
 			]
-			dependencies: ["48B94E0FB02946EC"]
+			dependencies: ["2B913CEFCA5376BC"]
 			hide: true
 			id: "08B38BEB5FF4573E"
 			tasks: [
@@ -448,6 +468,11 @@
 					id: "325DF6910527987D"
 					type: "item"
 					item: "minecraft:light_blue_dye"
+				}
+				{
+					id: "52B0D3EF76BC7C20"
+					type: "item"
+					item: "pixelmon:blue_shard"
 				}
 			]
 		}
@@ -534,7 +559,7 @@
 			description: [
 				"The Rosa Arcana isn't limited by it's colors. It's limited by its mana rune. You can't make them because you need a rune, and the rune requires an absurd amount of manasteel. With iron as rare as it is, you can't afford to spend it on somethign so frivolous."
 				""
-				"Unless, of course, you can find something that drops a Mana Rune?"
+				"Unless, of course, you can find something that drops a Mana Rune directly?"
 			]
 			dependencies: ["26A6A79BFBF8DD1B"]
 			hide: true
@@ -548,8 +573,8 @@
 		{
 			title: "Mana Rune"
 			x: 1.5d
-			y: 7.5d
-			description: ["Get a Mana Rune from either Hatterene or Gothitelle. "]
+			y: 8.0d
+			description: ["Get a Mana Rune from either Hatterene or Gothitelle. Both Pokemon are very rare, but are guarenteed to drop one. And one is all you need."]
 			dependencies: ["31B78B4248EB4B90"]
 			hide: true
 			min_required_tasks: 1
@@ -587,7 +612,7 @@
 		}
 		{
 			x: 0.0d
-			y: 9.5d
+			y: 10.5d
 			description: ["The Hydroangeas will consume water to produce mana. This does mean you must continuously supply it with fresh water to keep it working."]
 			dependencies: ["08B38BEB5FF4573E"]
 			hide: true
@@ -605,9 +630,9 @@
 		}
 		{
 			x: -1.5d
-			y: 9.5d
+			y: 10.5d
 			description: ["The endoflame requires charcoal or other burnables to work. Be careful dropping saplings to the ground in its vicinity, as it will gobble them up."]
-			dependencies: ["20126D4A94D1ACE1"]
+			dependencies: ["3DA6DA49C7364841"]
 			hide: true
 			id: "5C36AA7A30CA6209"
 			tasks: [{
@@ -623,13 +648,13 @@
 		}
 		{
 			x: 1.5d
-			y: 8.5d
+			y: 9.0d
 			description: [
 				"You will need to either find a source of purple dye directly, or mix blue dye with red."
 				""
 				"Beetroot is a good source of red dye. Lapis Lazuli, a source of blue, can be farmed from Azuril on beaches on the Dazzle Layer."
 				""
-				"The easiest way to get Lime dye is to farm Pyukumuku. which spawns in water and underground water on the soil layer. It can also be made from wild onions harvested straight form the hoppip line, or rarely drops directly from Shinnotic."
+				"The easiest way to get Lime dye is to farm Pyukumuku. which spawns in water and underground water on the soil layer. It can also be made from wild onions harvested straight from the hoppip line, or rarely drops directly from Shinnotic."
 				""
 				"Pink can be made from mixing beetroot red with bonemeal white."
 			]
@@ -662,7 +687,7 @@
 		}
 		{
 			x: 1.5d
-			y: 9.5d
+			y: 10.5d
 			description: ["The Rosa Arcana translates a typically useless metric, your XP, into mana."]
 			dependencies: ["2CC6E126932433AD"]
 			hide: true
@@ -676,6 +701,220 @@
 				id: "439D16D0D9A4EE79"
 				type: "item"
 				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			icon: "byg:imparius_mushroom"
+			x: 0.0d
+			y: 12.0d
+			description: ["What is this that Drifloon's brought you? You can almost feel it trembling with energy. Uh. Maybe you ought to put it somewhere with... a very, very, very large amount of empty space..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"73DBE01FE44C545D"
+				"1923094B4D5CEFA2"
+				"30A87DEFFE2EF0EA"
+				"2DC0EE34C70294A3"
+				"6B5F64F39E24B922"
+				"1C53CA6D2E5EA3F7"
+				"41797216F1C28C91"
+				"43F13D2F51632FFD"
+			]
+			hide: true
+			size: 1.5d
+			id: "1C6F0424C0A4973F"
+			tasks: [
+				{
+					id: "0D3C8681127AD6FC"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "2858C1C777DD995E"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+				{
+					id: "56F5982BB1E11E45"
+					type: "item"
+					item: "byg:purple_glowshroom"
+				}
+				{
+					id: "742B2FC5F4088A7F"
+					type: "item"
+					item: "byg:blue_glowshroom"
+				}
+				{
+					id: "035F6E571ACAB118"
+					type: "item"
+					item: "byg:green_mushroom"
+				}
+				{
+					id: "304E133DAAE6CE90"
+					type: "item"
+					item: "habitat:fairy_ring_mushroom"
+				}
+				{
+					id: "0E1AC167B4815A78"
+					type: "item"
+					item: "byg:soul_shroom"
+				}
+				{
+					id: "24F32B30DFA1B994"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "04786C03BA0E7A66"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "20FD305BD7C4F541"
+					type: "item"
+					item: "byg:sythian_fungus"
+				}
+				{
+					id: "57AC8A950F9C10D3"
+					type: "item"
+					item: "byg:shulkren_fungus"
+				}
+			]
+			rewards: [{
+				id: "702AA03627AB598E"
+				type: "item"
+				item: "byg:imparius_mushroom"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: ["The cornflower will attract Blue Floette. Blue Floette carries the blue orchid flower. Defeat it, take its blue orchid, and plant it."]
+			dependencies: ["48B94E0FB02946EC"]
+			id: "2B913CEFCA5376BC"
+			tasks: [
+				{
+					id: "1D3D0C4A76827D0E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "floette palette:blue"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "73F2243CB7B4D5F1"
+					type: "item"
+					item: "minecraft:blue_orchid"
+				}
+			]
+			rewards: [
+				{
+					id: "14466A9537B2ABB6"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_blue_butterfly"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3601BD5AC5BEE5C1"
+					type: "item"
+					item: "pixelmon:blue_letter_box"
+				}
+				{
+					id: "4CD05C2E06ACAEAA"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			description: [
+				"The base flower for creating an Endoflame is a \"Torch Ginger\". These and Burning Blossoms are the favorite flowers of Volcarona. "
+				""
+				"Volcarona and Frosmoth have a long-lived larval form that should have survived in small numbers, buried under the ground, just like Grubbin. You can likely attract both to a high-altitude, above-ground, treetop habitat in the Ice Layer. "
+				""
+				"While Volcaron is guarenteed to carry a torch ginger, you expect as few as one in tend Larvesta to have one."
+			]
+			dependencies: ["20126D4A94D1ACE1"]
+			id: "3DA6DA49C7364841"
+			tasks: [{
+				id: "3B85056E886E36C3"
+				type: "item"
+				item: "byg:torch_ginger"
+			}]
+			rewards: [
+				{
+					id: "11D213EF8C1BF573"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "3726BCDEC9274643"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["If you can find some Nether Wart, it might be useful in a number of applications. There's so many mushroom Pokemon around here; some of them must drop it. Perhaps the JEI will reveal exactly which one. "]
+			dependencies: ["15A2DD50687E0F42"]
+			id: "43F13D2F51632FFD"
+			tasks: [{
+				id: "4FF7FECE7DD845AC"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+			rewards: [{
+				id: "375B53C5371C83D0"
+				type: "item"
+				title: "Drifloon is... helping? What is that?"
+				item: "nethers_delight:rich_soul_soil"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"You aren't sure what good these fungi will be without the Nether Biomes they come from, but it can't hurt to have them, can it?"
+				""
+				"Crimson Fungus will only drop from Paras, which is hiding somewhere among the Foongus on the Murk Layer."
+				""
+				"Warped Fungus can be found along with regular colored Shroomish on the Dazzle Layer"
+			]
+			dependencies: ["15A2DD50687E0F42"]
+			id: "41797216F1C28C91"
+			tasks: [
+				{
+					id: "0BFA6C89FA489048"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "6CAB35A050A429CA"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "5FDE08F5E7DC20D8"
+					type: "item"
+					item: "byg:shulkren_fungus"
+				}
+				{
+					id: "41706E276D8F85C7"
+					type: "item"
+					item: "byg:sythian_fungus"
+				}
+			]
+			rewards: [{
+				id: "2F99C1941CC9CA35"
+				type: "item"
+				item: "nethers_delight:rich_soul_soil"
 			}]
 		}
 	]

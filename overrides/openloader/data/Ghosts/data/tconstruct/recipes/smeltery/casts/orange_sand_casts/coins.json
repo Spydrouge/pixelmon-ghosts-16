@@ -10,10 +10,10 @@
     }
   ],
   "material": {
-    "item": "contenttweaker:orange_sand_cast/blank_red_orange_sand_cast"
+    "item": "contenttweaker:orange_sand_cast/blank_orange_sand_cast"
   },
   "pattern": {
     "tag": "forge:coins"
   },
-  "result": "contenttweaker:orange_sand_cast/coin_red_orange_sand_cast"
+  "result": "contenttweaker:orange_sand_cast/coin_orange_sand_cast"
 }

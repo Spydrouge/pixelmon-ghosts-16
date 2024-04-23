@@ -20,6 +20,7 @@ val allParts =
 	//"bowstring",
 	"arrowhead",
 	"bowshaft",
+	"broad_axe_head",
 	"arrow_shaft",
 	"bowguide",
 	"crossbow_arm",
@@ -41,8 +42,12 @@ val allParts =
 	"small_axe_head",
 	"small_blade",
 	"tool_binding",
+    "tool_handle",
 	"tough_handle",
-	"wire"
+	"wire",
+	"nugget",
+	"gem",
+	"rod"
 ];
 
 for i in allSands{

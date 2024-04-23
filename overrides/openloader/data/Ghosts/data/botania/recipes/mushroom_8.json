@@ -4,10 +4,13 @@
   "ingredients": [
     [
       {
-        "item": "minecraft:red_mushroom"
+        "item": "habitat:fairy_ring_mushroom"
       },
       {
         "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:red_mushroom"
       }
     ],
     {

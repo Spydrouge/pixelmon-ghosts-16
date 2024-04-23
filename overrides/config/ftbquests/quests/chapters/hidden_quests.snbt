@@ -241,54 +241,6 @@
 			}]
 		}
 		{
-			icon: "pixelmon:pixelmon_spawner"
-			x: -8.5d
-			y: 0.5d
-			description: ["Gives Tester a pixelmon spawner to test at the beginning, without creative mode, to see if it can be 'carried on' or moved with special wands"]
-			id: "3F6CF60E3FD71B80"
-			tasks: [{
-				id: "0D71B617E3A28A27"
-				type: "checkmark"
-				title: "DEBUGGING"
-			}]
-			rewards: [{
-				id: "7087BD9EA007A42B"
-				type: "item"
-				item: {
-					id: "pixelmon:pixelmon_spawner"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							spawnLocation: 0s
-							fireOnTick: 0b
-							maxSpawns: 1s
-							aggression: 0s
-							bossRatio: 100.0f
-							unbattleable: 0b
-							levelMax: 19s
-							specs: [{
-								pokemon: {
-									SpecificationData: "Castform g:male"
-								}
-								rarity: 1
-							}]
-							gmaxRatio: 512.0f
-							shinyRatio: 2000.0f
-							spawnRadius: 3s
-							uncatchable: 0b
-							id: "pixelmon:pixelmon_spawner"
-							spawnTick: 200
-							levelMin: 16s
-							unbreedable: 0b
-						}
-						display: {
-							Name: "[{\"text\":\"Castform Spawner(Redstone Pulse)\",\"italic\":false}]"
-						}
-					}
-				}
-			}]
-		}
-		{
 			x: 1.5d
 			y: -3.0d
 			description: ["Helps get the Duskull quest going"]
@@ -360,6 +312,73 @@
 				command: "/say Hi, @p!"
 				player_command: false
 			}]
+		}
+		{
+			icon: "pixelmon:pixelmon_spawner"
+			x: -8.5d
+			y: 1.0d
+			description: ["Gives Tester a pixelmon spawner to test at the beginning, without creative mode, to see if it can be 'carried on' or moved with special wands"]
+			id: "3F6CF60E3FD71B80"
+			tasks: [{
+				id: "0D71B617E3A28A27"
+				type: "checkmark"
+				title: "DEBUGGING"
+			}]
+			rewards: [
+				{
+					id: "7087BD9EA007A42B"
+					type: "item"
+					item: {
+						id: "pixelmon:pixelmon_spawner"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								spawnLocation: 0s
+								fireOnTick: 0b
+								maxSpawns: 1s
+								aggression: 0s
+								bossRatio: 100.0f
+								unbattleable: 0b
+								levelMax: 19s
+								specs: [{
+									pokemon: {
+										SpecificationData: "Castform g:male"
+									}
+									rarity: 1
+								}]
+								gmaxRatio: 512.0f
+								shinyRatio: 2000.0f
+								spawnRadius: 3s
+								uncatchable: 0b
+								id: "pixelmon:pixelmon_spawner"
+								spawnTick: 200
+								levelMin: 16s
+								unbreedable: 0b
+							}
+							display: {
+								Name: "[{\"text\":\"Castform Spawner(Redstone Pulse)\",\"italic\":false}]"
+							}
+						}
+					}
+				}
+				{
+					id: "22CD6B192697C98C"
+					type: "command"
+					command: "/xp add @p 24 levels"
+					player_command: false
+				}
+				{
+					id: "7A270EC15E5B2F45"
+					type: "item"
+					item: "notenoughwands:swapping_wand"
+				}
+				{
+					id: "5F3D907C30184645"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 64
+				}
+			]
 		}
 	]
 }

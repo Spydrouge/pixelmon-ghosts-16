@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-      "contenttweaker:mail_black_sand_cast",
-    "contenttweaker:mail_soul_sand_cast",
-    "contenttweaker:mail_orange_sand_cast",
-    "contenttweaker:mail_white_sand_cast",
-    "contenttweaker:mail_blue_sand_cast",
-    "contenttweaker:mail_pink_sand_cast",
-    "contenttweaker:mail_purple_sand_cast"
+      "contenttweaker:black_sand_cast/mail_black_sand_cast",
+    "contenttweaker:soul_sand_cast/mail_soul_sand_cast",
+    "contenttweaker:orange_sand_cast/mail_orange_sand_cast",
+    "contenttweaker:white_sand_cast/mail_white_sand_cast",
+    "contenttweaker:blue_sand_cast/mail_blue_sand_cast",
+    "contenttweaker:pink_sand_cast/mail_pink_sand_cast",
+    "contenttweaker:purple_sand_cast/mail_purple_sand_cast"
 
   ]
 }

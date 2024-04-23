@@ -10,10 +10,10 @@
     }
   ],
   "material": {
-    "item": "contenttweaker:orange_sand_cast/blank_red_orange_sand_cast"
+    "item": "contenttweaker:orange_sand_cast/blank_orange_sand_cast"
   },
   "pattern": {
     "tag": "forge:gears"
   },
-  "result": "contenttweaker:orange_sand_cast/gear_red_orange_sand_cast"
+  "result": "contenttweaker:orange_sand_cast/gear_orange_sand_cast"
 }

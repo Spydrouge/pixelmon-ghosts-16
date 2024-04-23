@@ -1563,6 +1563,7 @@
 				"You should probably have a look around for where the rock Pokemon spawner is, in case it starts needing a redstone signal in the future."
 			]
 			dependencies: ["3FB66E0318A36E57"]
+			hide: true
 			id: "596F5F74C790C571"
 			tasks: [{
 				id: "136B04E458E5464A"

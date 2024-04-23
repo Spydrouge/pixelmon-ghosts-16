@@ -10,10 +10,10 @@
     }
   ],
   "material": {
-    "item": "contenttweaker:blue_sand_cast/blank_soul_blue_sand_cast"
+    "item": "contenttweaker:blue_sand_cast/blank_blue_sand_cast"
   },
   "pattern": {
     "tag": "forge:coins"
   },
-  "result": "contenttweaker:blue_sand_cast/coin_soul_blue_sand_cast"
+  "result": "contenttweaker:blue_sand_cast/coin_blue_sand_cast"
 }

@@ -1,0 +1,34 @@
+{
+  "type": "inspirations:cauldron",
+  "conditions": [
+    {
+      "prop": "recipes_module",
+      "type": "inspirations:config"
+    },
+    {
+      "prop": "cauldron_fluids",
+      "type": "inspirations:config"
+    }
+  ],
+  "input": {
+    "item": {
+      "item": "minecraft:bone"
+    },
+    "contents": {
+      "type": "inspirations:potion",
+      "name": "advancedpotions:wither"
+    },
+    "level": {
+      "min": 2,
+      "max": 12
+    }
+  },
+  "output": {
+    "item": {
+      "item": "tconstruct:necrotic_bone"
+    },
+    "level": {
+      "add": -2
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither_rose",
+    "minecraft:rose_bush",
+    "biomesoplenty:rose",
+    "inspirations:rose",
+    "byg:cyan_rose",
+    "byg:osiria_rose",
+    "byg:rose",
+    "byg:winter_rose"
+  ]
+}

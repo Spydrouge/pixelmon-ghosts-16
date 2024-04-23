@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cookie",
+    "ends_delight:chorus_cookie",
+    "farmersdelight:sweet_berry_cookie",
+    "farmersdelight:honey_cookie"
+      
+      
+  ]
+}

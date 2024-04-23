@@ -1,0 +1,1 @@
+This mod has a lot of errors, badly formed json, and ridiculous numbers that don't jive with the 'vanilla' tconstruct experience the way materialis does. It needs a lot of tweaking. However, it offers amethys, ruby, and sapphire support, which I require. 

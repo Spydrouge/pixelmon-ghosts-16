@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "contenttweaker:calcium",
+    "amount": 48
+  },
+  "result": "minecraft:bone_meal",
+  "cooling_time": 40
+}
