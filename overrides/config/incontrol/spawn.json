@@ -6,6 +6,7 @@
             "perchunk":true,
             "mob":"pixelmon:npc_questgiver"
         },
+        "dimension":"minecraft:the_nether",
         "result":"deny"
     },
 	{
@@ -15,6 +16,7 @@
             "perchunk":true,
             "mob":"minecraft:zombie_villager"
         },
+        "dimension":"minecraft:the_nether",
         "result":"deny"
     },
 	{
@@ -24,17 +26,165 @@
             "perchunk":true,
             "mob":"minecraft:zombified_piglin"
         },
+        "dimension":"minecraft:the_nether",
+        "result":"deny"
+    },
+    {
+        "mob":"minecraft:magma_cube",
+        "mincount": {
+            "amount": 15,
+            "perchunk":true,
+            "mob":"minecraft:magma_cube"
+        },
+        "dimension":"minecraft:the_nether",
+        "result":"deny"
+    },
+    {
+        "mob":"minecraft:magma_cube",
+        "biome":[
+            "byg:brimstone_caverns",
+            "byg:quartz_desert",
+            "byg:subzero_hypogeal"
+        ],
         "result":"deny"
     },
 	{
 		"mob":[
 			"minecraft:zombie_villager", 
-			"minecraft:zombified_piglin"
+			"minecraft:zombified_piglin",
+            "minecraft:creeper",
+            "minecraft:skeleton",
+            "minecraft:wither_skeleton",
+            "minecraft:zombie",
+            "minecraft:stray",
+            "thermal:basalz",
+            "thermal:blitz",
+            "thermal:blizz"
+            
 		],
-		"dimension":"minecraft:the_nether",
+        "minlight":8,
+		"result":"deny"
+	},
+    {
+        "mob":[
+            "minecraft:skeleton" 
+        ],
+        "biome":[
+            "minecraft:soul_sand_valley",
+            "byg:quartz_desert"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "minecraft:stray" 
+        ],
+        "biome":"byg:subzero_hypogeal",
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "minecraft:zombie_horse" 
+        ],
+        "biome":[
+            "byg:brimstone_caverns"
+        ],
+        "result":"allow"
+    },
+     {
+        "mob":[
+            "thermal:basalz" 
+        ],
+        "biome":[
+            "byg:wailing_garth",
+            "byg:brimstone_caverns"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "thermal:blizz" 
+        ],
+        "biome":[
+            "byg:subzero_hypogeal",
+            "byg:warped_desert"
+
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "thermal:blitz" 
+        ],
+        "biome":[
+            "biomesoplenty:crystaline_chasm",
+            "byg:sythian_torrids",
+            "byg:glowstone_gardens"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "minecraft:blaze" 
+        ],
+        "biome":[
+            "byg:embur_bog"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "minecraft:creeper" 
+        ],
+        "biome":[
+            "byg:magma_wastes",
+            "byg:crimson_gardens",
+            "byg:brimstone_caverns",
+            "byg:embur_bog",
+            "minecraft:warped_forest"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "bones:skeleton_cow",
+            "bones:skeleton_pig",
+            "bones:skeleton_chicken",
+            "bones:skeleton_sheep",
+            "minecraft:skeleton_horse"
+        ],
+        "biome":[
+            "minecraft:soul_sand_valley",
+            "byg:quartz_desert",
+            "biomesoplenty:withered_abyss",
+            "byg:warped_desert"
+        ],
+        "result":"allow"
+    },
+    {
+        "mob":[
+            "bones:skeleton_cow",
+            "bones:skeleton_pig",
+            "bones:skeleton_chicken",
+            "bones:skeleton_sheep",
+            "minecraft:stray",
+            "minecraft:skeleton",
+            "minecraft:skeleton_horse",
+            "minecraft:zombie_horse",
+            "minecraft:creeper",
+            "thermal:basalz",
+            "thermal:blitz",
+            "thermal:blizz"
+        ],
+        "result":"deny"
+    },
+    {
+        "dimension":"minecraft:the_nether",
+		"passive":false,
 		"result":"allow"
 	},
 	{
+        "dimension":"minecraft:overworld",
 		"passive":false,
 		"result":"deny"
 	},

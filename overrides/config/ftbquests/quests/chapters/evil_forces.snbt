@@ -324,7 +324,7 @@
 			tasks: [{
 				id: "5E43E73A6C4797FA"
 				type: "questsadditions:time"
-				elapsedTime: 60L
+				elapsedTime: 300L
 			}]
 			rewards: [{
 				id: "659B8CEBD38655C9"
@@ -346,6 +346,7 @@
 			icon: "tconstruct:husk_head"
 			x: 0.0d
 			y: -11.0d
+			description: ["[TIP: If you have skipped this armor tier and already started using another kind of armor, and are worried about consuming so much clay, remember that clay items can be melted down again into liquid clay in a melter so long as they are undamaged.]"]
 			dependencies: ["65550A21575C805E"]
 			hide: true
 			id: "1B6F5CF88BB9E7CC"
@@ -443,7 +444,7 @@
 			title: "Armor Up Better!"
 			icon: "pixelmon:eye_of_lugia"
 			x: 0.0d
-			y: -12.5d
+			y: -13.5d
 			description: [
 				"You've dealt with another invasion, and this clay armor isn't going to cut it."
 				""
@@ -460,7 +461,7 @@
 		{
 			title: "Construct's Armory"
 			x: 0.0d
-			y: -13.5d
+			y: -14.5d
 			description: ["Create a full set of Tinker's Construct armor. This may be expensive to produce, so choose cheaper materials if necessary. Tips and tricks discussing the best materials should be elsewhere in this Diary."]
 			dependencies: ["5D91DB3381AE6B0A"]
 			hide: true
@@ -606,7 +607,10 @@
 			y: -9.0d
 			description: ["Based on how things were with the spiders, there will be an invasion of Husks every 30 minutes."]
 			dependencies: ["65550A21575C805E"]
-			incompatible: ["3418656E436AEEAD"]
+			incompatible: [
+				"3418656E436AEEAD"
+				"50B056A20ABA85CE"
+			]
 			id: "2D594738DAC1DECF"
 			tasks: [{
 				id: "56FC594047D7C870"
@@ -631,11 +635,19 @@
 		}
 		{
 			title: "One Minute Warning: Husks"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+			}
 			x: 5.0d
 			y: -9.0d
 			description: ["Something is incoming!"]
 			dependencies: ["2D594738DAC1DECF"]
 			repeatable: true
+			incompatible: ["50B056A20ABA85CE"]
 			id: "66A33F4B931C2068"
 			tasks: [{
 				id: "138C24216FFA6D99"
@@ -668,6 +680,395 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "Third Invasion"
+			x: 0.0d
+			y: -16.5d
+			shape: "diamond"
+			description: ["You foresee they'll arrive with a captain mounted on a terrible steed...!"]
+			dependencies: [
+				"65550A21575C805E"
+				"47107D60FD080A18"
+			]
+			hide: true
+			size: 3.0d
+			id: "50B056A20ABA85CE"
+			tasks: [{
+				id: "0229C87E35B17F32"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [{
+				id: "259C15A3C1E0ECAB"
+				type: "command"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/skeleton/skeleton.png"
+					}
+				}
+				auto: "enabled"
+				command: "/function ghosts:spawn_invasion_wave_3"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -18.5d
+			description: ["You'll need to kill every skeleton in the wave to win a boon this time! If that goes wrong, you can always wait for later waves, and make up the lost kills."]
+			dependencies: ["50B056A20ABA85CE"]
+			hide: true
+			id: "143F7F648B55C492"
+			tasks: [
+				{
+					id: "14F86C47F803E1F0"
+					type: "kill"
+					icon: "minecraft:skeleton_skull"
+					entity: "minecraft:skeleton"
+					value: 5L
+				}
+				{
+					id: "7806807D2C60A8FD"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/boots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/boots"
+						}
+					}
+				}
+				{
+					id: "26EBCF23E5B78E0C"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/leggings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/leggings"
+						}
+					}
+				}
+				{
+					id: "18A8437403C1E138"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/chestplate"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/chestplate"
+						}
+					}
+				}
+				{
+					id: "3258B3FC91B8457B"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/helmets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/helmets"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "067F3757A77A9D6A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 5
+						}
+					}
+				}
+				{
+					id: "27479942833E6A8C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+				{
+					id: "05ED4E5EB5B8A984"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 0
+						}
+					}
+				}
+				{
+					id: "17B169DD6DF4642F"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 3
+				}
+				{
+					id: "72A70C95916506FD"
+					type: "item"
+					item: "pixelmon:fossil"
+				}
+				{
+					id: "67F354241DC45263"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			title: "Countdown Until Next Invasion: Skeletons"
+			x: 3.0d
+			y: -16.5d
+			description: ["It seems like there will be an invasion of Skeletons every 30 minutes."]
+			dependencies: ["50B056A20ABA85CE"]
+			id: "3803708B24B90027"
+			tasks: [{
+				id: "6DF77F1B0434F4EC"
+				type: "questsadditions:time"
+				elapsedTime: 1800L
+			}]
+			rewards: [{
+				id: "7A3819B930AAAC47"
+				type: "command"
+				title: "One Minute Warning"
+				icon: "pixelmon:gold_hourglass"
+				command: "/function ghosts:fortell_invasion_wave_1"
+				player_command: false
+			}]
+		}
+		{
+			title: "One Minute Warning: Skeletons"
+			x: 5.0d
+			y: -16.5d
+			description: ["Something is incoming!"]
+			dependencies: ["3803708B24B90027"]
+			id: "7357031D24D34358"
+			tasks: [{
+				id: "48C809E3D9D4AE42"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [
+				{
+					id: "2B91FBCD96F99585"
+					type: "command"
+					title: "Incoming!"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/entity_icon/skeleton/skeleton.png"
+						}
+					}
+					command: "/function ghosts:spawn_invasion_wave_3"
+					player_command: false
+				}
+				{
+					id: "53CED83C704C758E"
+					type: "command"
+					title: "Thirty minutes until the next invasion."
+					icon: "pixelmon:gold_hourglass"
+					command: "/ftbquests change_progress @p reset 3803708B24B90027"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "pixelmon:eye_of_lugia"
+			x: 0.0d
+			y: -21.0d
+			description: [
+				"Where are all these monsters coming from!? Who is sending them? The world already blew up; why is someone actively hunting down survivors? How did they even find you?"
+				""
+				"That Skeleton Captain had a Punch II bow! He nearly flung you straight off the island!"
+			]
+			dependencies: ["50B056A20ABA85CE"]
+			hide: true
+			id: "601402B6E9C3738F"
+			tasks: [{
+				id: "190B302D374ACC0A"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -22.0d
+			description: ["With a sword, your sweeping strikes will hit animal mounts. You should upgrade your axe to something a little more formidable, now that you have access to basic alloys and a bit of magic."]
+			id: "5D51FDA2DB65AAF7"
+			tasks: [{
+				id: "135E0A0B8084BD19"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:invar"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bronze"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:steel"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:lead"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "bettercompat:sapphire"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:pig_iron"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "bettercompat:manasteel"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:slimesteel"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "bettercompat:ruby"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:scorched_stone"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "bettercompat:amethyst"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:silver"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "materialis:fairy"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:iron"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "materialis:brass"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:plated_slimewood"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "materialis:uranium"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:seared_stone"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:bloodbone"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:necronium"
+								}
+							}
+						]
+					}
+				}
+			}]
 		}
 	]
 }

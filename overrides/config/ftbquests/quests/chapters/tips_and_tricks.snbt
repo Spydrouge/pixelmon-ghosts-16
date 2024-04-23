@@ -1815,7 +1815,11 @@
 		{
 			x: 12.5d
 			y: -0.5d
-			description: ["The prismarine can be added to increase tool speed under water or in the rain. Given that Pokemon can control the rain, this can be used to your advantage."]
+			description: [
+				"The prismarine can be added to increase tool speed under water or in the rain. Given that Pokemon can control the rain, this can be used to your advantage."
+				""
+				"Prismarine shards can be harvested in especially large quantities from Staryu."
+			]
 			dependencies: ["7855FCEB224EF4FC"]
 			hide: true
 			id: "5032CCCB02D74B1E"
@@ -1849,6 +1853,7 @@
 			dependencies: [
 				"02CA5502E9034C59"
 				"0F4025F78AA75F66"
+				"57A21E306836A364"
 			]
 			hide: true
 			id: "309C9E0D285FDCEA"
@@ -2166,6 +2171,7 @@
 			y: 1.5d
 			description: ["Three Bottles o' Enchanting can be added to a tool or weapon in order to increase experience drops when using it. This can be useful if you are using a Rosa Arcana to produce mana."]
 			dependencies: ["02CA5502E9034C59"]
+			hide: true
 			secret: true
 			id: "25CDE20B77BAEF26"
 			tasks: [{
@@ -2210,6 +2216,75 @@
 					item: "botania:manasteel_nugget"
 				}
 			]
+		}
+		{
+			title: "Silk Touch"
+			x: 9.0d
+			y: -2.5d
+			description: ["Silky Cloth can be used to give any tool the Silk Touch modifier. Unfortunately, it can only be applied at a Tinker's Anvil. But perhaps if you make some ahead of time..."]
+			hide: true
+			id: "57A21E306836A364"
+			tasks: [{
+				id: "5C5DB5AB1853511B"
+				type: "item"
+				item: "tconstruct:silky_cloth"
+				count: 5L
+			}]
+			rewards: [{
+				id: "7C9B2B2C5230185D"
+				type: "item"
+				title: "Drifloon is helping!"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			description: [
+				"You might have noticed Tinker's Construct 1.16.5 made the questionable decision to remove shovels and let the Mattock do all the dirty work."
+				""
+				"In this version, the Tinker's mattock is treated like a shovel for determining whether it can harvest an item, not like a hoe. So while there might be a temptation to make a vanilla shovel to fill the gap, the thing you really need, in addition to your mattock, is a vanilla hoe."
+			]
+			dependencies: ["02CA5502E9034C59"]
+			id: "3BECB156E62C4025"
+			tasks: [
+				{
+					id: "25B45DE4F7179AB7"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6395800568993B94"
+					type: "item"
+					item: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "28810C1F30C3B74A"
+				type: "item"
+				item: "minecraft:grass_block"
+			}]
 		}
 	]
 }

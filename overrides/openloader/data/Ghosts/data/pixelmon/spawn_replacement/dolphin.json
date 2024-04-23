@@ -6,6 +6,9 @@
   ],
   "replacement_logic": "simple",
   "specs": [
-    "gorebyss"
+    "gorebyss",
+    "palafin",
+    "wailmer",
+    "spheal"
   ]
 }

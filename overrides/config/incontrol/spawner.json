@@ -1,17 +1,197 @@
 [
 	{
-		"mob":"minecraft:zombie_villager",
-        "persecond":0.5,
+		"mob":["minecraft:zombie_villager"],
+        "persecond":1,
         "attempts":20,
         "amount":{
-            "minimum":2,
-            "maxinum":5
+            "minimum":1,
+            "maximum":3
         },
         "conditions":{
             "dimension":"minecraft:the_nether",
-            "mindist":5,
-            "maxdist":20,
-            "maxthis":20
+            "mindist": 10,
+            "maxdist": 100,
+            "maxthis": 7
+        }
+	},
+    {
+		"mob":["minecraft:stray"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":4
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 20
+        }
+	},
+    {
+		"mob":["thermal:blizz"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 4
+        }
+	},
+    {
+		"mob":["thermal:blitz"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 4
+        }
+	},
+    {
+		"mob":["minecraft:skeleton"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":4
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 10
+        }
+	},
+    {
+		"mob":["minecraft:creeper"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":1
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 10
+        }
+	},
+    {
+		"mob":["thermal:basalz"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 4
+        }
+	},
+    {
+		"mob":["minecraft:zombie_horse"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 4
+        }
+	},
+    {
+		"mob":["minecraft:skeleton_horse"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 4
+        }
+	},
+    {
+		"mob":["bones:skeleton_cow"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 2
+        }
+	},
+    {
+		"mob":["bones:skeleton_pig"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 2
+        }
+	},
+    {
+		"mob":["bones:skeleton_chicken"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 2
+        }
+	},
+    {
+		"mob":["bones:skeleton_sheep"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":2
+        },
+        "conditions":{
+            "dimension":"minecraft:the_nether",
+            "mindist": 20,
+            "maxdist": 100,
+            "maxthis": 2
         }
 	}
 ]

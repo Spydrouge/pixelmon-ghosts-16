@@ -1453,6 +1453,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5B98CF94AD951170"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "521794B18608A9C0"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -1606,7 +1624,7 @@
 			}]
 		}
 		{
-			title: "Any Large, Two-Handed Weapon."
+			title: "Any Large, Two-Handed Weapon or Tool"
 			icon: {
 				id: "tconstruct:broad_axe"
 				Count: 1b
@@ -1781,6 +1799,622 @@
 					count: 3
 				}
 			]
+		}
+		{
+			x: 11.5d
+			y: -4.0d
+			description: [
+				"On it's own, Brass makes a decent sword blade. It has the same damage as Bronze, but gets a bonus to damage when kept at a high durability. At full durability, that bonus is 1.5 attack damage per brass peice."
+				""
+				"More brass peices increases the Polished modifier, but in order to keep it at high durability, you might want to pair it with a tool binding of (Brass) Plated Slimewood."
+				""
+				"Plated Slimewood and Brass look virtually identical, so be careful to carefully distinguish between the two when planning out a tool."
+			]
+			dependencies: ["118E457BED64D29F"]
+			hide: true
+			id: "22482E919C0B738D"
+			tasks: [{
+				id: "444E870AB30079EE"
+				type: "item"
+				item: {
+					id: "tconstruct:small_blade"
+					Count: 1b
+					tag: {
+						Material: "materialis:brass"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C27EE11CB9A70A4"
+				type: "item"
+				item: "pixelmon:choice_scarf"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			description: [
+				"Should you built a Smeltery or Foundary? Smelteries increase the amount of molten metal extracted from ores. They are more efficient at this than both the melter and the mighty foundary. They can also alloy their contents, and good for mixing metals."
+				""
+				"Now that you have lava, it's worth it to create a smeltery. To do so, you'll need to create the smeltery controller by lining a seared heater with copper."
+				""
+				"The smallest Smelter you can make has 1 block of empty space surrounded on each side and the bottom by some sort of smeltery block. The igredients above are all that's needed for such a 1x1 smeltery."
+			]
+			dependencies: ["06E2EFA74B6A66CC"]
+			hide: true
+			id: "7F7D17174B5E4E46"
+			tasks: [
+				{
+					id: "13334A9D3C93EA2E"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "7C432313C42BBF4A"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "5124BC6DBF4289E1"
+					type: "item"
+					title: "Any #tconstruct:seared_tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+				}
+				{
+					id: "53928C54D0F00BC8"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "44386A912B27B742"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "09AE5AFE99381A0D"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			description: [
+				"Should you build a Foundary or a Smeltery? Foundaries have higher requirements, including that the corners be filled in. They also extract less metal per block than a Smeltery. However, Foundaries produce byproducts."
+				""
+				"The most plentiful ores you have to put in a Smeltery are Nether Cobalt ore and, if you have silk touch, Nether Gold Ore and Nether Quartz Ore."
+				""
+				"The byproduct of &bCobalt&r is &cIron&r. The byproduct of Nether gold ore is copper. Nether Quartz ore's byproduct is clay."
+			]
+			dependencies: ["06E2EFA74B6A66CC"]
+			hide: true
+			id: "70CDCF7C7DAA6292"
+			tasks: [
+				{
+					id: "45E1FFDE584ACFE7"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "0195A4E3841B1127"
+					type: "item"
+					title: "Any #tconstruct:scorched_tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+				}
+				{
+					id: "7353880C5719EC07"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 14L
+				}
+				{
+					id: "470899B4E8463D0F"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+			]
+			rewards: [
+				{
+					id: "4E56F6F957D3314B"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "6A3A7545D3A8153E"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"You can already start smelting high-heat items like cobalt by using your Melter; you just need to put the melter on top of a tank of lava instead of over a solid fuel heater."
+				""
+				"In combination with your Alloyer, this means you don't strictly need a Smeltery or a Foundary. Although both Smelteries and Foundaries are very useful in bigger projects."
+			]
+			dependencies: ["376885B025D67158"]
+			hide: true
+			id: "06E2EFA74B6A66CC"
+			tasks: [{
+				id: "19083881735A30CC"
+				type: "item"
+				title: "Any #tconstruct:tanks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tanks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CD3614678016900"
+				type: "item"
+				item: "tconstruct:cobalt_nugget"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			description: [
+				"Now that you have access to Obsidian and the lava necessary to melt it down, it is worth looking at what Obsidian can be used to make. Nahuatl equipment is exceptionally sharp, and relatively cost effective."
+				""
+				"It can be used for armor, and is cheaper than most other Tier 4 Materials."
+			]
+			dependencies: ["06E2EFA74B6A66CC"]
+			hide: true
+			id: "54480203E06DC1FC"
+			tasks: [{
+				id: "57332E1A67A243C4"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:large_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:nahuatl"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D0DCC754FB0275C"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "06D7EBDB01ED11E6"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			description: [
+				"Niillite is not as powerful as Manyulyn, but it packs a punch. After killing an enemy, the next blow struck with the weapon deals 50% more damage."
+				""
+				"It cannot be used for armor."
+				""
+				"It can be used as part of a modifier to add 'Multishot' to a bow."
+				""
+			]
+			dependencies: ["06E2EFA74B6A66CC"]
+			hide: true
+			id: "0E2871ECC925AAAC"
+			tasks: [{
+				id: "59F1FCF367DA04B5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			description: [
+				"Manyullyn is the best alloy you can currently make. It's not ideal for every purpose, but it is especially good in sustained combat, where it does greater and greater damage with every blow."
+				""
+				"It requires Blazing Blood as a smeltery fuel to alloy. One of it's components is Netherite."
+			]
+			dependencies: [
+				"5FA9DB52F1253BB6"
+				"70EEB9AC0E0A46D3"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "7AE7AF0C4E2C3324"
+			tasks: [{
+				id: "7976A66DD1AEB99C"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+			}]
+			rewards: [
+				{
+					id: "550ECFE5CD832F7E"
+					type: "item"
+					item: "pixelmon:purple_letter_box"
+				}
+				{
+					id: "3CC13B926A4C4DC8"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "4F724BCCC3251AD0"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			title: "Hepatzion and Cobalt"
+			x: 0.0d
+			y: -8.0d
+			description: [
+				"Cobalt is on its own a very lightweight and versatile metal, allowing you to attack and mine quickly."
+				""
+				"It must be melted with lava."
+			]
+			dependencies: [
+				"726A002639B3DA8C"
+				"06E2EFA74B6A66CC"
+			]
+			hide: true
+			min_required_tasks: 1
+			id: "42C7965F79653EAE"
+			tasks: [{
+				id: "4FF071C28500FFBC"
+				type: "item"
+				item: "tconstruct:cobalt_ingot"
+			}]
+			rewards: [
+				{
+					id: "0EC17A49D227F2A4"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "121E31A78E5326A6"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			description: [
+				"It requires blazing blood as a smeltery fuel to alloy."
+				""
+				"It's stats are higher than Manyullyn's, but it's ability, \"Angelic\" does nothing other than draw attention to it's high base stats."
+			]
+			dependencies: ["7AE7AF0C4E2C3324"]
+			hide: true
+			id: "489D8D31E0B99F5D"
+			tasks: [{
+				id: "472B221547D4832B"
+				type: "item"
+				item: "bettercompat:aurinium_ingot"
+			}]
+			rewards: [
+				{
+					id: "4FE7299CBCFD451E"
+					type: "item"
+					item: "habitat:pink_ball_cactus_flower"
+				}
+				{
+					id: "05E097C87966D0E1"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			description: [
+				"Queen's Slime is a bulky, durable alloy that translates some of a tool's normal durability into Overslime. This can be combined with Slimewood for a regenerative effect, or restored with Slime Crystals as normal."
+				""
+				"It is also used in the Reach modifier, although doing so requires enderslime."
+			]
+			dependencies: ["42C7965F79653EAE"]
+			hide: true
+			id: "576CACA00B619193"
+			tasks: [{
+				id: "355B3118FDDBD982"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+			}]
+			rewards: [
+				{
+					id: "6DE4A984A1E181E0"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "6D799C0D2CBA0458"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.0d
+			description: [
+				"Hepatzion, which can be alloyed from Cobalt and materials you have access to, is an even better mining tool. You will have to decide between the two when making your next round of equipment."
+				""
+				"It requires Blazing Blood as a Smeltery Fuel to Alloy"
+			]
+			dependencies: ["70EEB9AC0E0A46D3"]
+			hide: true
+			id: "448F24031CDF1414"
+			tasks: [{
+				id: "6F4BC04C8FE28027"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+			}]
+			rewards: [{
+				id: "51BF2DAF65663A3D"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			description: [
+				"Blazing blood is a special material that can only be gotten two ways: You can either push and fishing-pole a blaze into an open smeltery, where it will be melted down, or you can cut off it's head and melt that down in the smeltery."
+				""
+				"It has only a few uses, and one of those uses is heating up a smeltery hot enough to create powerful alloys."
+			]
+			dependencies: ["42C7965F79653EAE"]
+			id: "70EEB9AC0E0A46D3"
+			tasks: [{
+				id: "1C3FC8B55B36D755"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:blazing_blood_bucket"
+								Count: 1b
+							}
+							{
+								id: "ceramics:cracked_clay_bucket"
+								Count: 1b
+								tag: {
+									fluid: "tconstruct:blazing_blood"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58340092A9A8DC91"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "1418E2D496DE5163"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			description: ["Netherite can only be melted down using Blazing Blood as a smeltery fuel. When it does so, however, it can be poured onto a leather tool binding to create a very strange composite called an ancient tool binding. This adds another level of Fortune to the tool, and stacks with Luck, making the maximum level of Fortune, &dFortune IV&r."]
+			dependencies: ["70EEB9AC0E0A46D3"]
+			hide: true
+			id: "49AAFD80149EDC1E"
+			tasks: [{
+				id: "4969494D9C4C4E23"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_binding"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:ancient_hide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0701D4BA73EE2671"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			description: [
+				"Cobalt Tantalum can be alloyed with lava as the smeltery fuel."
+				""
+				"It's ability causes it to deal more damage the faster you are traveling. It deal slightly more damage than Cobalt."
+			]
+			dependencies: ["42C7965F79653EAE"]
+			hide: true
+			id: "4F3F6BD4EB5C2490"
+			tasks: [{
+				id: "46642DB671274462"
+				type: "item"
+				item: "tinkersarchery:cobalt_tantalum_ingot"
+			}]
+			rewards: [{
+				id: "4CA707C95C3E15DC"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
 		}
 	]
 }

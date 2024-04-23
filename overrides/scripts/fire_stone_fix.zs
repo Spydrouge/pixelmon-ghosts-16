@@ -14,9 +14,6 @@ CTEventManager.register<MCRightClickBlockEvent>((event) =>{
 	var world = event.player.world;	
 	var block as MCBlock= world.getBlockState(position).block;
 	
-	var condition1 = <item:pixelmon:fire_stone_shovel>.anyDamage();
-	var condition2 = heldItem.anyDamage();
-	
 	if (!(<block:minecraft:snow_block>.matchesBlock(block))
 	  && !(<block:minecraft:ice>.matchesBlock(block))
 	  && !(<block:minecraft:water>.matchesBlock(block)))

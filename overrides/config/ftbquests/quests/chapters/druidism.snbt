@@ -816,7 +816,11 @@
 			icon: "byg:imparius_mushroom"
 			x: 1.5d
 			y: 2.25d
-			description: ["What is this that Drifloon's brought you? You can almost feel it trembling with energy. Uh. Maybe you ought to put it somewhere with... a very, very, very large amount of empty space..."]
+			description: [
+				"What is this that Drifloon's brought you? You can almost feel it trembling with energy. Uh. Maybe you ought to put it somewhere with... a very, very, very large amount of empty space..."
+				""
+				"[TIP: Imparius Mushroom blocks impeed jumping. This can be useful when designing a trap for invading monsters.]"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"73DBE01FE44C545D"

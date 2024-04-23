@@ -1,10 +1,8 @@
 {
-  "enabled": true,
+  "enabled": false,
   "detection_logic": "simple",
   "replaced_mobs": [
-    "minecraft:hoglin",
-    "minecraft:piglin",
-    "minecraft:piglin_brute"
+    "minecraft:hoglin"
   ],
   "replacement_logic": "simple",
   "specs": [

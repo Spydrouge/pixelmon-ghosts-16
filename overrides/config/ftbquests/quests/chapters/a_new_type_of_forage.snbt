@@ -2083,11 +2083,6 @@
 			]
 			rewards: [
 				{
-					id: "15526DAFEF04C642"
-					type: "item"
-					item: "minecraft:leather_horse_armor"
-				}
-				{
 					id: "49C2D7BE3D37F33A"
 					type: "item"
 					item: "pixelmon:max_revive"

@@ -1,0 +1,6 @@
+#Define dimensions that the Wither can spawn in as a string in the form {modid:dimension_name}, 
+# with the dimensions being separated by quotation marks, then by a comma inside of the [] brackets
+"Dimensions that the Wither can spawn in" = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld"]
+#Define whether or not the text the player receives when attempting to spawn the wither will show what dimensions the wither is spawnable in.
+"Show valid dimensions:" = true
+
