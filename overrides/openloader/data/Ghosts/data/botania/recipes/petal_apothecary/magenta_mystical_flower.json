@@ -1,0 +1,55 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:magenta_mystical_flower"
+  },
+  "ingredients": [
+    [
+        {
+            "item": "byg:magenta_tulip"
+        },
+        {
+            "item": "farmersdelight:wild_onions"
+        },
+        {
+            "item": "byg:lazarus_bellflower"
+        },
+        {
+            "item": "byg:protea_flower"
+        },
+        {
+            "item": "biomesoplenty:wildflower"
+        }
+    ],
+    [
+        {
+            "item": "habitat:orange_ball_cactus_flower"
+        },
+        {
+            "item": "habitat:red_ball_cactus_flower"
+        },
+        {
+            "item": "habitat:pink_ball_cactus_flower"
+        },
+        {
+            "item": "habitat:yellow_ball_cactus_flower"
+        },
+        {
+            "item": "farmersdelight:wild_potatoes"
+        },
+        {
+            "item": "biomesoplenty:violet"
+        }
+        
+    ],
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:magenta_mushroom"
+    },
+    {
+        "item": "pixelmon:psychic_gem"
+    }
+  ]
+}

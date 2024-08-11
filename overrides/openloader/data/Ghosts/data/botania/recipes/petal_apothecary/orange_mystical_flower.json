@@ -1,0 +1,23 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:orange_mystical_flower"
+  },
+  "ingredients": [
+    {
+        "item": "byg:california_poppy"
+    },
+    {
+        "item": "byg:japanese_orchid"
+    },
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:orange_mushroom"
+    },
+    {
+        "item": "pixelmon:fire_gem"
+    }
+  ]
+}

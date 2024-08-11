@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/cinnabar",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gem"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_quicksilver",
+    "amount": 144
+  },
+  "result": {
+    "tag": "forge:gems/cinnabar"
+  },
+  "cooling_time": 46
+}

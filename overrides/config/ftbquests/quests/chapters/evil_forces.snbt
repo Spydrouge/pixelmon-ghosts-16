@@ -100,7 +100,7 @@
 							"tconstruct:attack_speed": 1.6f
 							"tconstruct:mining_speed": 1.0f
 							"tconstruct:attack_damage": 4.5f
-							"tconstruct:harvest_level": 1.0f
+							"tconstruct:harvest_level": 2.0f
 							"tconstruct:durability": 137.5f
 						}
 						tic_broken: 0b
@@ -438,6 +438,12 @@
 					type: "item"
 					item: "pixelmon:spelon_berry"
 				}
+				{
+					id: "65C741A78D8E7256"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+					count: 3
+				}
 			]
 		}
 		{
@@ -686,10 +692,14 @@
 			x: 0.0d
 			y: -16.5d
 			shape: "diamond"
-			description: ["You foresee they'll arrive with a captain mounted on a terrible steed...!"]
+			description: [
+				"You foresee they'll arrive with a captain mounted on a terrible steed...! "
+				""
+				"You feel magic involved... The Captain might be enchanted with something!"
+			]
 			dependencies: [
-				"65550A21575C805E"
 				"47107D60FD080A18"
+				"65550A21575C805E"
 			]
 			hide: true
 			size: 3.0d
@@ -697,11 +707,12 @@
 			tasks: [{
 				id: "0229C87E35B17F32"
 				type: "questsadditions:time"
-				elapsedTime: 60L
+				elapsedTime: 300L
 			}]
 			rewards: [{
 				id: "259C15A3C1E0ECAB"
 				type: "command"
+				title: "A horseman is incoming!"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -715,6 +726,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:skeleton_skull"
 			x: 0.0d
 			y: -18.5d
 			description: ["You'll need to kill every skeleton in the wave to win a boon this time! If that goes wrong, you can always wait for later waves, and make up the lost kills."]
@@ -780,28 +792,6 @@
 			]
 			rewards: [
 				{
-					id: "067F3757A77A9D6A"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen7"
-						Count: 1b
-						tag: {
-							tm: 5
-						}
-					}
-				}
-				{
-					id: "27479942833E6A8C"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 35
-						}
-					}
-				}
-				{
 					id: "05ED4E5EB5B8A984"
 					type: "item"
 					item: {
@@ -827,6 +817,23 @@
 					id: "67F354241DC45263"
 					type: "item"
 					item: "minecraft:experience_bottle"
+					count: 6
+				}
+				{
+					id: "006BAA55E0E7B810"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "3CE038F1A283F2D2"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 94
+						}
+					}
 				}
 			]
 		}
@@ -847,6 +854,7 @@
 				type: "command"
 				title: "One Minute Warning"
 				icon: "pixelmon:gold_hourglass"
+				auto: "enabled"
 				command: "/function ghosts:fortell_invasion_wave_1"
 				player_command: false
 			}]
@@ -875,6 +883,7 @@
 							Icon: "minecraft:textures/entity_icon/skeleton/skeleton.png"
 						}
 					}
+					auto: "enabled"
 					command: "/function ghosts:spawn_invasion_wave_3"
 					player_command: false
 				}
@@ -883,12 +892,14 @@
 					type: "command"
 					title: "Thirty minutes until the next invasion."
 					icon: "pixelmon:gold_hourglass"
+					auto: "enabled"
 					command: "/ftbquests change_progress @p reset 3803708B24B90027"
 					player_command: false
 				}
 			]
 		}
 		{
+			title: "They're getting more sophisticated!"
 			icon: "pixelmon:eye_of_lugia"
 			x: 0.0d
 			y: -21.0d
@@ -896,6 +907,7 @@
 				"Where are all these monsters coming from!? Who is sending them? The world already blew up; why is someone actively hunting down survivors? How did they even find you?"
 				""
 				"That Skeleton Captain had a Punch II bow! He nearly flung you straight off the island!"
+				""
 			]
 			dependencies: ["50B056A20ABA85CE"]
 			hide: true
@@ -906,9 +918,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -22.0d
-			description: ["With a sword, your sweeping strikes will hit animal mounts. You should upgrade your axe to something a little more formidable, now that you have access to basic alloys and a bit of magic."]
+			x: -2.0d
+			y: -16.5d
+			description: ["With a sword, your sweeping strikes will hit animal mounts. You can upgrade your axe to something a little more formidable, now that you have access to basic alloys and a bit of magic."]
+			dependencies: ["50B056A20ABA85CE"]
 			id: "5D51FDA2DB65AAF7"
 			tasks: [{
 				id: "135E0A0B8084BD19"
@@ -1069,6 +1082,147 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "15B3DBE8F3DCEE2A"
+					type: "item"
+					title: "Drifloon is helping!"
+					item: "minecraft:lead"
+				}
+				{
+					id: "40A5BE24000BB0C4"
+					type: "item"
+					title: "One of your Pokemon is smarter than the other, but still helping!"
+					item: "immersiveengineering:wire_lead"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -24.0d
+			shape: "pentagon"
+			description: [
+				"Explosions, poison, this next invasion is going to be awful...."
+				""
+				"You need some spiders eyes, potions of wither protection, and a heck of a lot of molten uranium..."
+			]
+			dependencies: ["50B056A20ABA85CE"]
+			hide: true
+			size: 3.0d
+			id: "01270D270F5C62C2"
+			tasks: [{
+				id: "2508AFDEEAC90611"
+				type: "questsadditions:time"
+				elapsedTime: 300L
+			}]
+			rewards: [
+				{
+					id: "4029A0EACC561DE3"
+					type: "command"
+					title: "Captain Creeper is on his way..."
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/entity_icon/creeper/creeper.png"
+						}
+					}
+					command: "/function ghosts:spawn_invasion_wave_4"
+					player_command: false
+				}
+				{
+					id: "4833C0CE1FC70877"
+					type: "command"
+					title: "Poisonous Helpers"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/entity_icon/spider/cave_spider.png"
+						}
+					}
+					command: "/say Let's Play Tag!"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Bane of Ssss... and a bit of Wither!"
+			x: 0.0d
+			y: -22.0d
+			description: [
+				"You've had a vision of what's next. It's a creeper. It's a creeper surrounded by poisonous spiders, embued with magic that will armor and heal it."
+				""
+				"Because you can't stay near the Creeper to hit it repeatedly, you might as well take advantage of five-part weapons like the Broad Axe or Cleaver. Ranged weapons will work if you can kill the spiders first."
+				""
+				"If the enemies give you too much trouble, you can knock them into the void and ignore the bounty."
+				""
+				"But you think combining helpful abilities like Decay, with the \"Bane of Ssss...\" modifier might do the trick. Bane of Ssss... is an improved Bane of Arthropods that also effects creepers."
+				""
+				"If you can't manage to work out Necronium in time, having some wither flowers or other sources of passive damage may help repress the regeneration effect."
+			]
+			dependencies: ["601402B6E9C3738F"]
+			hide: true
+			id: "5F70B4805B0672DE"
+			tasks: [{
+				id: "62520FF5297B99C1"
+				type: "item"
+				item: "minecraft:fermented_spider_eye"
+				count: 5L
+			}]
+			rewards: [{
+				id: "2D7887910EFCFBA7"
+				type: "item"
+				item: "immersiveengineering:nugget_uranium"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: -26.0d
+			description: ["This will be one heck of a challenge. One wrong move, and it explodes."]
+			dependencies: ["01270D270F5C62C2"]
+			hide: true
+			id: "3401F501A8F4A859"
+			tasks: [{
+				id: "692B3ACCDCA45FEF"
+				type: "questsadditions:killnbt"
+				title: "Kill the Creeper Captain"
+				entity: "minecraft:creeper"
+				value: 1L
+				nbt: {
+					Tags: ["invade4"]
+				}
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "1B2B3713E0EE1985"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 6
+						}
+					}
+				}
+				{
+					id: "777D89A15273029C"
+					type: "choice"
+					table_id: 5303222556149566944L
+				}
+				{
+					id: "596A5A29B74190AB"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "3BF8E62907B952A9"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+			]
 		}
 	]
 }

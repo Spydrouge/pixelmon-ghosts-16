@@ -1,0 +1,2 @@
+gamerule mobGriefing false
+gamerule keepInventory true

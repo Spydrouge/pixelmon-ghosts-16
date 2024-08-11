@@ -17,6 +17,12 @@
           "ghosts"
         ]
       },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 10
+        }
+      ],
       "anticondition":{
          "baseBlocks": [
           "minecraft:sand",
@@ -63,6 +69,12 @@
           "mountainous forests"
         ]
       },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:oran_berry",
+          "percentChance": 10
+        }
+      ],
       "rarity": 130.0
     }
   ]

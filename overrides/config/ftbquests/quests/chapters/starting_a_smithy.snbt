@@ -1401,17 +1401,6 @@
 			}]
 			rewards: [
 				{
-					id: "50822A7ABA8FDDF5"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 74
-						}
-					}
-				}
-				{
 					id: "70B980DD970F37A9"
 					type: "item"
 					item: "contenttweaker:brass_dust"
@@ -1571,34 +1560,21 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "6B4F0DD7F99B6FFD"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 79
-						}
+			rewards: [{
+				id: "6B4F0DD7F99B6FFD"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 79
 					}
 				}
-				{
-					id: "23C7E4F7CFD5E0DD"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 74
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 5.5d
+			y: 1.5d
 			description: [
 				"The Stonecutter can be used to turn rough tumblestones into a smoothed form, which will allow you to make Ancient Pokeballs. It is one of several good ways to spend your first Iron Ingot."
 				""
@@ -1638,7 +1614,7 @@
 						"tconstruct:attack_speed": 0.66f
 						"tconstruct:mining_speed": 1.35f
 						"tconstruct:attack_damage": 11.41875f
-						"tconstruct:harvest_level": 2.0f
+						"tconstruct:harvest_level": 3.0f
 						"tconstruct:durability": 667.25f
 					}
 					tic_broken: 0b
@@ -1720,8 +1696,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: 8.0d
+			y: 0.5d
 			description: ["Take 3 Raw Tumblestones and smooth them out at the Stone Cutter. These can then be used for an Ancient Pokeball, Great Ball, or Ultra Ball lid."]
 			dependencies: ["19BADF27DFCC9EFB"]
 			hide: true
@@ -1747,8 +1723,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 8.0d
+			y: 1.5d
 			description: ["Take 3 Raw Sky Tumblestones and smooth them out at the Stone Cutter. These can then be used for a Wing Ball, Feather Ball, or Jet Ball Lid."]
 			dependencies: ["19BADF27DFCC9EFB"]
 			hide: true
@@ -1774,8 +1750,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 2.0d
+			x: 8.0d
+			y: 2.5d
 			description: ["Take 3 Raw Black Tumblestones and smooth them out at the Stone Cutter. These can then be used for an Ancient Heavy Ball, Leaden Ball, or Gigaton Ball lid."]
 			dependencies: ["19BADF27DFCC9EFB"]
 			hide: true
@@ -1824,11 +1800,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1C27EE11CB9A70A4"
-				type: "item"
-				item: "pixelmon:choice_scarf"
-			}]
+			rewards: [
+				{
+					id: "1C27EE11CB9A70A4"
+					type: "item"
+					item: "pixelmon:choice_scarf"
+				}
+				{
+					id: "4C1337942D07CD1C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -1984,6 +1973,7 @@
 			}]
 		}
 		{
+			title: "Nahuatl"
 			x: 1.0d
 			y: -6.0d
 			description: [
@@ -2104,21 +2094,23 @@
 			]
 		}
 		{
+			title: "Niillite"
 			x: -1.0d
 			y: -6.0d
 			description: [
-				"Niillite is not as powerful as Manyulyn, but it packs a punch. After killing an enemy, the next blow struck with the weapon deals 50% more damage."
+				"Niillite is an excellent material for a bow. The more you shoot, the faster you shoot. "
 				""
 				"It cannot be used for armor."
 				""
 				"It can be used as part of a modifier to add 'Multishot' to a bow."
 				""
+				"In melee weapons, it is not as powerful as Manyulyn, but it packs a punch. After killing an enemy, the next blow struck with the weapon deals 50% more damage."
 			]
 			dependencies: ["06E2EFA74B6A66CC"]
 			hide: true
 			id: "0E2871ECC925AAAC"
 			tasks: [{
-				id: "59F1FCF367DA04B5"
+				id: "1FEA9ED783871C8D"
 				type: "item"
 				item: {
 					id: "itemfilters:or"
@@ -2126,14 +2118,49 @@
 					tag: {
 						items: [
 							{
-								id: "tconstruct:tool_binding"
+								id: "tinkersarchery:bowshaft"
 								Count: 1b
 								tag: {
 									Material: "tinkersarchery:galaxy_alloy"
 								}
 							}
 							{
-								id: "tconstruct:tough_handle"
+								id: "tinkersarchery:bowguide"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tinkersarchery:large_bowshaft"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tinkersarchery:crossbow_arm"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tinkersarchery:arrow_shaft"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tinkersarchery:arrowhead"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:repair_kit"
 								Count: 1b
 								tag: {
 									Material: "tinkersarchery:galaxy_alloy"
@@ -2147,7 +2174,28 @@
 								}
 							}
 							{
-								id: "tconstruct:small_blade"
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:large_plate"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:galaxy_alloy"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
 								Count: 1b
 								tag: {
 									Material: "tinkersarchery:galaxy_alloy"
@@ -2161,7 +2209,7 @@
 								}
 							}
 							{
-								id: "tconstruct:small_axe_head"
+								id: "tconstruct:small_blade"
 								Count: 1b
 								tag: {
 									Material: "tinkersarchery:galaxy_alloy"
@@ -2171,8 +2219,47 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "134F1279324BCCFD"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "01B2770F3073D908"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 26
+						}
+					}
+				}
+				{
+					id: "601B3B17C5C4177D"
+					type: "item"
+					item: "pixelmon:sweet_star"
+				}
+				{
+					id: "5D2D2EC12F02D0D0"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "7DF791ED8058D28A"
+					type: "item"
+					item: "botania:manastar"
+				}
+				{
+					id: "3CCB46BB98987693"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+			]
 		}
 		{
+			title: "Manyullyn"
 			x: 0.0d
 			y: -11.0d
 			description: [
@@ -2190,7 +2277,137 @@
 			tasks: [{
 				id: "7976A66DD1AEB99C"
 				type: "item"
-				item: "tconstruct:manyullyn_ingot"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:manyullyn_ingot"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:large_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:broad_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:hammer_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tinkersarchery:arrowhead"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+							{
+								id: "tinkersarchery:arrow_shaft"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:manyullyn"
+								}
+							}
+						]
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -2218,6 +2435,8 @@
 				"Cobalt is on its own a very lightweight and versatile metal, allowing you to attack and mine quickly."
 				""
 				"It must be melted with lava."
+				""
+				"It can be used to make armor."
 			]
 			dependencies: [
 				"726A002639B3DA8C"
@@ -2227,9 +2446,125 @@
 			min_required_tasks: 1
 			id: "42C7965F79653EAE"
 			tasks: [{
-				id: "4FF071C28500FFBC"
+				id: "4AF4750B7C1AC3C4"
 				type: "item"
-				item: "tconstruct:cobalt_ingot"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tinkersarchery:arrow_shaft"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:hammer_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:broad_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:large_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:cobalt_ingot"
+								Count: 1b
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:cobalt"
+								}
+							}
+						]
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -2242,6 +2577,28 @@
 					type: "item"
 					item: "pixelmon:blue_shard"
 				}
+				{
+					id: "1F3614A5D3E85961"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
+				}
+				{
+					id: "07732A8807F51290"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2250,7 +2607,7 @@
 			description: [
 				"It requires blazing blood as a smeltery fuel to alloy."
 				""
-				"It's stats are higher than Manyullyn's, but it's ability, \"Angelic\" does nothing other than draw attention to it's high base stats."
+				"It's stats are higher than Manyullyn's, but it's ability, \"Angelic\" provides a short health boost on killing enemies, providing you with the equivalent of absorbtion hearts."
 			]
 			dependencies: ["7AE7AF0C4E2C3324"]
 			hide: true
@@ -2274,6 +2631,7 @@
 			]
 		}
 		{
+			title: "Queen's Slime"
 			x: 1.0d
 			y: -9.0d
 			description: [
@@ -2287,7 +2645,165 @@
 			tasks: [{
 				id: "355B3118FDDBD982"
 				type: "item"
-				item: "tconstruct:queens_slime_ingot"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:large_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tinkersarchery:arrow_shaft"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:queens_slime_ingot"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:hammer_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:broad_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tinkersarchery:arrowhead"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tinkersarchery:crossbow_arm"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tinkersarchery:large_bowshaft"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tinkersarchery:bowguide"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "tinkersarchery:bowshaft"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:queens_slime"
+								}
+							}
+						]
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -2300,9 +2816,32 @@
 					type: "item"
 					item: "pixelmon:yellow_shard"
 				}
+				{
+					id: "2D7B3CFE5707DD93"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 82
+						}
+					}
+				}
+				{
+					id: "19EF0B8C35607116"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 88
+						}
+					}
+				}
 			]
 		}
 		{
+			title: "Hepatzion"
 			x: -1.0d
 			y: -10.0d
 			description: [
@@ -2314,9 +2853,125 @@
 			hide: true
 			id: "448F24031CDF1414"
 			tasks: [{
-				id: "6F4BC04C8FE28027"
+				id: "0BAF6133C7E67905"
 				type: "item"
-				item: "tconstruct:hepatizon_ingot"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:hammer_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:broad_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:large_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:hepatizon_ingot"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "constructsarmory:head_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "constructsarmory:body_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "constructsarmory:legs_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "constructsarmory:feet_plate"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+							{
+								id: "constructsarmory:mail"
+								Count: 1b
+								tag: {
+									Material: "tconstruct:hepatizon"
+								}
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "51BF2DAF65663A3D"
@@ -2368,6 +3023,28 @@
 					type: "item"
 					item: "pixelmon:red_shard"
 				}
+				{
+					id: "46851E4EDBA11C0F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
+				}
+				{
+					id: "50C54EF91E9606A4"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 13
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2395,12 +3072,17 @@
 			}]
 		}
 		{
+			title: "Cobalt Tantalum"
 			x: -1.0d
 			y: -9.0d
 			description: [
 				"Cobalt Tantalum can be alloyed with lava as the smeltery fuel."
 				""
-				"It's ability causes it to deal more damage the faster you are traveling. It deal slightly more damage than Cobalt."
+				"It is primarily used in bows, where it causes arrows to fly steady and straight."
+				""
+				"In melee weapons, it's ability causes it to deal more damage the faster you are traveling. It deals slightly more damage than Cobalt, but lacks Cobalt's Lightweight modifier which buffs attack speed."
+				""
+				"It cannot be used to make armor."
 			]
 			dependencies: ["42C7965F79653EAE"]
 			hide: true
@@ -2408,12 +3090,790 @@
 			tasks: [{
 				id: "46642DB671274462"
 				type: "item"
-				item: "tinkersarchery:cobalt_tantalum_ingot"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tinkersarchery:bowshaft"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tinkersarchery:bowguide"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:pickaxe_head"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tinkersarchery:large_bowshaft"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:hammer_head"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tinkersarchery:crossbow_arm"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:broad_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tinkersarchery:arrowhead"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:small_axe_head"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tinkersarchery:arrow_shaft"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:tool_handle"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:tool_binding"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:tough_handle"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:small_blade"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+							{
+								id: "tconstruct:broad_blade"
+								Count: 1b
+								tag: {
+									Material: "tinkersarchery:cobalt_tantalum"
+								}
+							}
+						]
+					}
+				}
 			}]
-			rewards: [{
-				id: "4CA707C95C3E15DC"
+			rewards: [
+				{
+					id: "4CA707C95C3E15DC"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "14A765317A612BED"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 58
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			description: [
+				"Feather Balls do not have an enhanced catch rate, and still require the two silver ingots of the Ancient Great Ball. However, they produce 5 balls instead of 3, making them cheaper than Love Balls."
+				""
+				"They require Sky Tumblestone."
+			]
+			dependencies: ["16E81B10CDA96C01"]
+			hide: true
+			id: "0825C5137B2FE74B"
+			tasks: [{
+				id: "4E7F8BCB1219A725"
 				type: "item"
-				item: "pixelmon:white_shard"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "feather_ball"
+					}
+				}
+				count: 5L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "76D911F052AAF6E5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
+				}
+				{
+					id: "246A2BDC72CC1669"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			description: [
+				"This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."
+				""
+				"Additionally, while the regular recipe calls for Silver, you believe you can substitute in Lead Ingots."
+			]
+			dependencies: ["01836F40611CC4EF"]
+			hide: true
+			id: "61156024E1329533"
+			tasks: [{
+				id: "13B71FFF09170179"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "leaden_ball"
+					}
+				}
+				count: 5L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "22BE7691BD66E8FB"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 2
+				}
+				{
+					id: "442DFE9BE34F88C5"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 52
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: [
+				"The recipe for an Ancient Great Ball requires two silver ingots and three tumblestones, and yields three balls."
+				""
+				"These have a 1.5x catch rate."
+				""
+				"[&dCAUTION&r: As soon as you create the balls, exit the Crafting Table GUI. Do not open any GUI for 60 seconds, and you will recieve an additional reward.]"
+			]
+			dependencies: ["6E57812FB9F705D1"]
+			hide: true
+			id: "5AF0C36E42A5FFB3"
+			tasks: [{
+				id: "615179001EB1B8B0"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_great_ball"
+					}
+				}
+				count: 3L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "1DD6A8BA5624BA63"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "009494F7F1DE93E3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "2A7BE7A6BE9A5BF0"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "349FCCC1542113FB"
+					type: "command"
+					title: "One minute after crafting the balls, if no GUI is open, every Pokemon in your party will spontaneously learn Ancient Power, even if normally they would be unable to."
+					icon: {
+						id: "botania:cosmetic_questgiver_mark"
+						Count: 1b
+						tag: { }
+					}
+					auto: "enabled"
+					command: "/say Open no GUIs for one minute!"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			description: [
+				"Ancient Ultra balls are no cheap thing to make, requiring two platinum ingots for a recipe that only produces a single ball."
+				""
+				"They have a 2x catch rate."
+				""
+				"[&dCAUTION&r: As soon as you create the balls, exit the Crafting Table GUI. Do not open any GUI for 60 seconds, and you will recieve an additional reward.]"
+			]
+			dependencies: ["5AF0C36E42A5FFB3"]
+			hide: true
+			id: "239207D5068640A8"
+			tasks: [{
+				id: "05B700ABE1D00121"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_ultra_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71C1FDBD7710A14A"
+					type: "command"
+					title: "One minute after crafting the balls, if no GUI is open, every Pokemon in your party will spontaneously learn Ancient Power, even if normally they would be unable to."
+					icon: {
+						id: "botania:cosmetic_questgiver_mark"
+						Count: 1b
+						tag: { }
+					}
+					auto: "enabled"
+					command: "/say Open no GUIs for one minute!"
+					player_command: false
+				}
+				{
+					id: "48A0E1EF80783266"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 2
+				}
+				{
+					id: "0DBE67A7C138D434"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			description: [
+				"Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."
+				""
+				"Additionally, Gigaton Balls can be made with Lead Plates as an alternative to Platinum."
+			]
+			dependencies: ["61156024E1329533"]
+			hide: true
+			id: "6ADA80A32DE8B4B4"
+			tasks: [{
+				id: "45014ADB2F2B4C89"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "gigaton_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0253AEDF929970FC"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 74
+						}
+					}
+				}
+				{
+					id: "42B5A47347512403"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 3
+				}
+				{
+					id: "03AF90C5E3F5BD67"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 79
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["Jet Balls are the least valuable of the ancient, high-end, platinum demanding balls. Their catch rate is only 1.5x, which is the same as a Great Ball, and the only benefit of using them, their ability to travel very far and potentially hit flying Pokemon, is difficult to pull off in a void. As long as it does not fly too far, Drifloon will attempt to catch it if it misses the Pokemon. But to use one safely, you will only ever want to fire straight up on a fairly large platform."]
+			dependencies: ["0825C5137B2FE74B"]
+			hide: true
+			id: "0C4615C77474AEBD"
+			tasks: [{
+				id: "7BAF62BD33F37D57"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "jet_ball"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36B93F2FE16E3CAA"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 89
+						}
+					}
+				}
+				{
+					id: "34BFA6C43F13411D"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			description: ["While making the Wing Ball according to its usual recipe would be a massive waste of resources, you think you can create a Wing Ball lid using Electrum Wire."]
+			dependencies: ["0C4615C77474AEBD"]
+			id: "1FE3287A37C5C2BD"
+			tasks: [{
+				id: "7E90DA467DD653CB"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "wing_ball"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5A011C605820655B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 159
+						}
+					}
+				}
+				{
+					id: "5F405C40F0C6FCE9"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			description: ["While making an Ancient Heavy Ball by the usual recipe would be a waste of iron, you believe you can substitute Lead Wire for the Iron Ingots in the recipe."]
+			dependencies: ["6ADA80A32DE8B4B4"]
+			id: "5D21B396FE5D7D44"
+			tasks: [{
+				id: "5E967A599C10977C"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "ancient_heavy_ball"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "283C73271C2B0690"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 120
+						}
+					}
+				}
+				{
+					id: "2E84961BF0EE3250"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: [
+				"Requires three Aluminum ingots and yields five balls, these are the easiest Pokeball to grind for and produce."
+				""
+				"Pokemon caught in a heal ball can be used immediately without resting. They do not have an enhanced catch rate."
+				""
+				"Consider using your first Pokeball to create an Old Rod with."
+			]
+			hide_dependency_lines: true
+			dependencies: ["11F689A8DC3A4BE2"]
+			hide: true
+			id: "3631D571D5538616"
+			tasks: [{
+				id: "46672C62867799F6"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "heal_ball"
+					}
+				}
+				count: 5L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5FCBE587DE50C727"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "78FED22434ED3F6C"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "7E80E20A32B6EF4A"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "71220E0C850C65FA"
+					type: "item"
+					item: "pixelmon:health_feather"
+				}
+				{
+					id: "048FDF00EFA47FDA"
+					type: "item"
+					item: "pixelmon:full_heal"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: [
+				"Requires three silver ingots and yields five balls. These Pokeballs are the first balls with an enhanced catch rate."
+				""
+				"Love balls have a 2x catch rate on Pokemon of the opposite gender, which increases to a 8x catch rate if the pokemon are of the same species."
+				""
+				"You can also sometimes recover Love Balls from surviving Snubble, which, tragically, appear to carry around their old Pokeballs."
+			]
+			hide_dependency_lines: true
+			dependencies: ["11F689A8DC3A4BE2"]
+			hide: true
+			id: "7714EF806C30B7C6"
+			tasks: [{
+				id: "7D86B471A19F43FE"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "love_ball"
+					}
+				}
+				count: 5L
+				only_from_crafting: false
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5E97B2E3C043EE92"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "0EDC0B185DD80787"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 2
+				}
+				{
+					id: "165868EA374C875D"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+					count: 3
+				}
+				{
+					id: "3A5044DF43208292"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 36
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: [
+				"If you've read this book correctly it should be possible to build a larger kiln, specifically for the purpose of melting coal, venting impurities, and producing coke. What is coke good for? Well, right now, not much, except for use it as a longer-lasting coal."
+				""
+				"On the other hand, you've been handed a guide book that can help you reclaim lost technology. So you should probably experiment with building whatever you can."
+				""
+				"The easiest place to find Sandstone is probably from Yamask or Boldore on the Stone layer."
+				""
+				"When you have finished laying out the kiln in a 3x3x3, you must tap on it with the Engineer's Hammer."
+				""
+				"You also think you should probably place it somewhere you know Roly-Coly spawns. Just in case they like it."
+			]
+			dependencies: [
+				"6C469BB6BA15D1D0"
+				"18C6CF463C4DB90A"
+			]
+			hide: true
+			id: "3ADDDE4CCB80BA89"
+			tasks: [{
+				id: "1B65640C8FF32ADB"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "0D51FEEAE5393027"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "0004FCFF18DCB404"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "17D5C905EF60B971"
+					type: "choice"
+					table_id: 7555106132649824680L
+				}
+				{
+					id: "48E9091EF52A9EB8"
+					type: "choice"
+					table_id: 7147864322735391185L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: [
+				"Most Steel type Pokemon are already made of steel, which is strong and tough. Iron on its own is brittle and weak. You probably won't find much use for a blast furnace, but you might want to build one to prove something to the universe."
+				""
+				"The book says a crude blast furnace can be made in exactly the same way as a kiln, as a 3x3x3 you tap with a hammer. The only difference is the ingredients. Looking at the ingredients, you see it's going to demand a lot of magma cream. "
+				""
+				"You can make magma cream with blaze powder and slime, but you aren't quite sure if that's the best expenditure of your resources given how hard it is to find fire Pokemon. "
+				""
+				"If you do build this structure, you should put it somewhere you know Roly Coly spawns, just in case it's attracted to it."
+			]
+			dependencies: ["3ADDDE4CCB80BA89"]
+			hide: true
+			id: "30B7A65016D2C0FD"
+			tasks: [{
+				id: "49C801C03230E5B6"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "4F6FFA5A74D2279F"
+					type: "item"
+					title: "What can this be used for? Maybe it can be used to produce some Pokeballs?"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "564D13C6CE328870"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 15
+						}
+					}
+				}
+				{
+					id: "1E46FD6CCE8B89F2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 75
+						}
+					}
+				}
+				{
+					id: "102D408092963EB2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 51
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: [
+				"To the best of your knowledge, it will not be possible to use a windmill to power anything. But that shouldn't stop you from trying out the instructions in the book."
+				""
+				"You should likely use bronze instead of iron for the hub."
+			]
+			dependencies: ["1E02A2B1EC220016"]
+			hide: true
+			id: "034061A64DFB739A"
+			tasks: [
+				{
+					id: "7B2A1FB92E1EF968"
+					type: "item"
+					item: "immersiveengineering:windmill_blade"
+				}
+				{
+					id: "2214573DE6FAA633"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["By bucketing out the creosote, you can use it to create treated wood. "]
+			dependencies: ["3ADDDE4CCB80BA89"]
+			hide: true
+			id: "1E02A2B1EC220016"
+			tasks: [{
+				id: "0A8D8AC71B2D21FE"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "immersiveengineering:creosote"
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"There is only one way you can think of to get a Kinetic Dynamo: You're going to have to loot one from a Pokemon."
+				""
+				"To your knowledge, the only Pokemon that can serve as a fully functional Kinetic Dynamo, large enough for an industrial application, is Klinklng, the final evolution of Klink, which is attracted to certain habitats on the Stone Layer."
+				""
+				"Tynamo, as the name might suggest, is itself a miniature Dynamo, but it is too small to use for this purpose. You are uncertain about its evolved forms, Elektrik and Elektross"
+			]
+			id: "279AB6F00EF33DFC"
+			tasks: [{
+				id: "159E6A9AC3B89BC2"
+				type: "item"
+				item: "immersiveengineering:dynamo"
 			}]
 		}
 	]

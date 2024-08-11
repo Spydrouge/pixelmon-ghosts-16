@@ -1,0 +1,69 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:pink_mystical_flower"
+  },
+  "ingredients": [
+    [
+        {
+            "item": "minecraft:red_tulip"
+        },
+        {
+            "item": "minecraft:orange_tulip"
+        },
+        {
+            "item": "minecraft:white_tulip"
+        },
+        {
+            "item": "byg:cyan_tulip"
+        },
+        {
+            "item": "byg:green_tulip"
+        },
+        {
+            "item": "byg:magenta_tulip"
+        },
+        {
+            "item": "byg:purple_tulip"
+        },
+        {
+            "item": "byg:yellow_tulip"
+        }
+    ],
+    [
+        {
+            "item": "byg:pink_allium"
+        },
+        {
+            "item": "biomesoplenty:pink_daffodil"
+        },
+        {
+            "item": "byg:pink_daffodil"
+        },
+        {
+            "item": "byg:pink_orchid"
+        },
+        {
+            "item": "byg:bistort"
+        },
+        {
+            "item": "byg:peach_leather_flower"
+        }
+        
+    ],
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:pink_mushroom"
+    },
+    [  
+        {
+            "item": "pixelmon:fairy_gem"
+        },
+        {
+            "item": "pixelmon:dragon_gem"
+        }
+    ]
+  ]
+}

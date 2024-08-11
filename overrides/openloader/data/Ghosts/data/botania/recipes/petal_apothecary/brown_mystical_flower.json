@@ -1,0 +1,31 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:brown_mystical_flower"
+  },
+  "ingredients": [
+    {
+        "item": "minecraft:brown_mushroom"
+    },
+    {
+        "item": "byg:soul_shroom"
+    },
+    {
+        "item": "habitat:rafflesia"
+    },
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:brown_mushroom"
+    },
+    [
+        {
+            "item": "pixelmon:rock_gem"
+        },
+        {
+            "item": "pixelmon:ground_gem"
+        }
+    ]
+  ]
+}

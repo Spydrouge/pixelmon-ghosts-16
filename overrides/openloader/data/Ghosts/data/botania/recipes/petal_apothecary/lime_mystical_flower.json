@@ -1,0 +1,36 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:lime_mystical_flower"
+  },
+  "ingredients": [
+    [
+        {
+            "item": "farmersdelight:wild_onions"
+        },
+        {
+            "item": "byg:green_tulip"
+        },
+        {
+            "item": "minecraft:sea_pickle"
+        }
+    ],
+    [
+        {
+            "item": "byg:angelica"
+        },
+        {
+            "item": "byg:snowdrops"
+        }
+    ],
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:lime_mushroom"
+    },
+    {
+        "item": "pixelmon:bug_gem"
+    }
+  ]
+}

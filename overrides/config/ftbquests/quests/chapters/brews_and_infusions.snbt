@@ -2245,6 +2245,8 @@
 				""
 				"You will also need access to sapphire, the location of which is noted on the Metals and Gems chapter of this Diary."
 			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
 			size: 2.0d
 			id: "2F84D1124BABCD33"
 			tasks: [
@@ -2282,6 +2284,7 @@
 				"Like with almost all berries, the easiest way to obtain one is to steal it, and the most plentiful Pokemon to steal it from is Carbink, who is attracted to Underground habitats on the Deep Dark layer."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "766C87B8A498A80B"
 			tasks: [{
 				id: "1DF46D94386D6456"
@@ -2303,6 +2306,7 @@
 				"This lure may help you lure out Rotom, Tynamo, Voltorb, and Chinchou. While most of these are valuable for Glowstone or Redstone dust, Voltorb can drop Pokeballs, which are extremely rare in this blasted abyss."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "75271B50DEF66CB5"
 			tasks: [{
 				id: "77A148C52C7A42CC"
@@ -2324,6 +2328,7 @@
 				"You expect to find this berry in the possession of the Sewaddle family, because they have a 4x Weakness to flying moves. This family will hopefully be found on the Murk layer."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "1878E237C64487B3"
 			tasks: [{
 				id: "29BEBF09D58D4A9A"
@@ -2347,6 +2352,7 @@
 				"All Pokemon you can steal this berry from will be attracted to habitats on the Ice Layer."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "4A7CC21DD159D4DB"
 			tasks: [{
 				id: "6C96392ECEA0FFA7"
@@ -2368,6 +2374,7 @@
 				"Because Sableye is Dark type, and Sableye is responsible for hoarding many gems, this lure can be valuable when gem hunting."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "3237D6D578620244"
 			tasks: [{
 				id: "3394FA12BB172B32"
@@ -2389,6 +2396,7 @@
 				"To get a Kasib berry, you will need to travel all the way up to the Space Layer, create a habitat suitable for Elgyem, and steal one."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "25D0EB8788460245"
 			tasks: [{
 				id: "53561F11D2F9CCD1"
@@ -2410,6 +2418,7 @@
 				"The Haban berry can be stolen from Dreepy, which carries it to ward off super effective Dragon attacks."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "1E29592C69AC0A89"
 			tasks: [{
 				id: "0C5026B3C4ADA278"
@@ -2431,6 +2440,7 @@
 				"To get the Charti berry, you will need to travel to the Ice layer and hunt down Larvesta, from which it can be stolen."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "46EFF05C7C8A9FE1"
 			tasks: [{
 				id: "7FFE042B9DF7E924"
@@ -2452,6 +2462,7 @@
 				"Chilan berries are carried by the sleeping Pokemon Munna, which attempts to ignore reality for the sake of its dreams. It is attracted to indoor habitats on the Dazzle Layer."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "0C9E0F151B7614EE"
 			tasks: [{
 				id: "5D4239CAB51BDEB5"
@@ -2475,6 +2486,7 @@
 				"To find it, you will need to track down an Alolan Sandshrew, which you hope will have been hardy enough to survive this devestation somewhere up in the Ice Layer."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "7CFF467AF8BFF24B"
 			tasks: [{
 				id: "5D207647A8CDAEB8"
@@ -2496,6 +2508,7 @@
 				"You will have to steal it from the Flabebe line, which carries it to ward off super effective attacks."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "5D6E6D378E54B5E1"
 			tasks: [{
 				id: "594BDE05FA4025C5"
@@ -2519,6 +2532,7 @@
 				"You will be able to steal these berries from Roly Coly, who uses them to decrease the effectiveness of super-effective water attacks."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "03EEBF70C7FB47C9"
 			tasks: [{
 				id: "5627B998DC1B1044"
@@ -2540,6 +2554,7 @@
 				"That said, the Payapa berry is difficult to get. You've noticed a bunch of tadpole Pokemon have seemingly survived in the blasted sediment of this world, and will gather in Water on the Dazzle layer. Perhaps there you'll find a Croagunk."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "3C48F565B177A9F1"
 			tasks: [{
 				id: "70BEC5B476C27AC2"
@@ -2563,6 +2578,7 @@
 				"It must be stolen from a wild Corsola."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "6B88F7CA7876C1E9"
 			tasks: [{
 				id: "31B61B1BBF20F1A0"
@@ -2584,6 +2600,7 @@
 				"It is extremely difficult to get because it must be stolen from Deino, which spawns very rarely on open-air Land habitats on the Stone Layer. You most likely will want to use a Dark or Dragon lure to lure them out, and then be sure to rely on thieving, rather than combat drops, to increase the chance of getting the berry."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "6CD1296F8AE3BDF4"
 			tasks: [{
 				id: "4F98A993B7F14032"
@@ -2605,6 +2622,7 @@
 				"Because most earth Pokemon are clustered together on the Stone Layer, it has limited uses, but can be used to draw out Sandygast for sand, Nincada for potatoes, Toedscool for mycelium, Crystal Onix, and Trapinch."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "775E7B24F32534AE"
 			tasks: [{
 				id: "5344EB3BE733F1CA"
@@ -2626,6 +2644,7 @@
 				"It can be found at the top and bottom of the world carried by Inkay, or in the Ice Layer by Skiddo."
 			]
 			dependencies: ["2F84D1124BABCD33"]
+			hide: true
 			id: "1CB2DF1B60DA962E"
 			tasks: [{
 				id: "712A70C828693DAF"
@@ -2643,6 +2662,7 @@
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["4A7CC21DD159D4DB"]
+			hide: true
 			id: "0CD1CE66BE7F72DC"
 			tasks: [{
 				id: "0337A3E11A3F2267"
@@ -2650,12 +2670,18 @@
 				item: "pixelmon:fire_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "6691385E6FCD0D75"
+				type: "item"
+				item: "pixelmon:fire_memory"
+			}]
 		}
 		{
 			x: -3.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["75271B50DEF66CB5"]
+			hide: true
 			id: "37C2966FBFFA78D4"
 			tasks: [{
 				id: "216D026129EE36B1"
@@ -2663,12 +2689,18 @@
 				item: "pixelmon:electric_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "14AF9074B2774518"
+				type: "item"
+				item: "pixelmon:electric_memory"
+			}]
 		}
 		{
 			x: -4.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["6B88F7CA7876C1E9"]
+			hide: true
 			id: "3C407A002D0E6A81"
 			tasks: [{
 				id: "4CE0557A0BF241B2"
@@ -2676,12 +2708,18 @@
 				item: "pixelmon:grass_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "28481899A35BBBEB"
+				type: "item"
+				item: "pixelmon:grass_memory"
+			}]
 		}
 		{
 			x: -5.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["1878E237C64487B3"]
+			hide: true
 			id: "0CAF398523A3A8C1"
 			tasks: [{
 				id: "5E1A0B787B63A795"
@@ -2689,12 +2727,18 @@
 				item: "pixelmon:flying_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "291B71121F27F186"
+				type: "item"
+				item: "pixelmon:flying_memory"
+			}]
 		}
 		{
 			x: 7.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["775E7B24F32534AE"]
+			hide: true
 			id: "6EFBA6E193AFB621"
 			tasks: [{
 				id: "286A9057A86F61A2"
@@ -2702,12 +2746,18 @@
 				item: "pixelmon:ground_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "0CA718D853EC4ADB"
+				type: "item"
+				item: "pixelmon:ground_memory"
+			}]
 		}
 		{
 			x: -6.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["46EFF05C7C8A9FE1"]
+			hide: true
 			id: "17D76D99578CA7D0"
 			tasks: [{
 				id: "568BC3ECCB0E3307"
@@ -2715,12 +2765,18 @@
 				item: "pixelmon:rock_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "05448C2904D1A7B9"
+				type: "item"
+				item: "pixelmon:rock_memory"
+			}]
 		}
 		{
 			x: -7.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["1CB2DF1B60DA962E"]
+			hide: true
 			id: "2E2867B2E13A32D4"
 			tasks: [{
 				id: "0678E4E39E2D4312"
@@ -2728,12 +2784,18 @@
 				item: "pixelmon:bug_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "361C94929D713BC4"
+				type: "item"
+				item: "pixelmon:bug_memory"
+			}]
 		}
 		{
 			x: -8.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["03EEBF70C7FB47C9"]
+			hide: true
 			id: "56AC7328DBA5D059"
 			tasks: [{
 				id: "03CAB4D2E21FE695"
@@ -2741,12 +2803,18 @@
 				item: "pixelmon:water_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "37B50094560E1CA7"
+				type: "item"
+				item: "pixelmon:water_memory"
+			}]
 		}
 		{
 			x: -9.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["0C9E0F151B7614EE"]
+			hide: true
 			id: "116DD1D658D05A89"
 			tasks: [{
 				id: "0589518256E9BD3C"
@@ -2754,12 +2822,21 @@
 				item: "pixelmon:normal_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "77BF9BC436D51E93"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p TypeNull egg ivatk:0 ivdef:0 ivhp:0 ivspd:0 ivspatk:0 ivspdef:0"
+				player_command: false
+			}]
 		}
 		{
 			x: 0.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["766C87B8A498A80B"]
+			hide: true
 			id: "3029BFE6C734E301"
 			tasks: [{
 				id: "5D8C3A1AC583EE38"
@@ -2767,12 +2844,18 @@
 				item: "pixelmon:steel_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "2EF047944EE84B6F"
+				type: "item"
+				item: "pixelmon:steel_memory"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["3237D6D578620244"]
+			hide: true
 			id: "13A4E7BF0BABB703"
 			tasks: [{
 				id: "39E1FEBBB8B724CF"
@@ -2780,12 +2863,18 @@
 				item: "pixelmon:dark_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "6FD477EE02DEC6F4"
+				type: "item"
+				item: "pixelmon:dark_memory"
+			}]
 		}
 		{
 			x: 2.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["1E29592C69AC0A89"]
+			hide: true
 			id: "0C3717745A04A27D"
 			tasks: [{
 				id: "4D87742AF528731C"
@@ -2793,12 +2882,18 @@
 				item: "pixelmon:dragon_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "0F13AB989E9DB92F"
+				type: "item"
+				item: "pixelmon:dragon_memory"
+			}]
 		}
 		{
 			x: 3.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["3C48F565B177A9F1"]
+			hide: true
 			id: "60010CD21D026A85"
 			tasks: [{
 				id: "5E9F96FABEEF9BC1"
@@ -2806,12 +2901,18 @@
 				item: "pixelmon:psychic_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "5A10CFC9F3614684"
+				type: "item"
+				item: "pixelmon:psychic_memory"
+			}]
 		}
 		{
 			x: 4.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["25D0EB8788460245"]
+			hide: true
 			id: "51242926F9B7E541"
 			tasks: [{
 				id: "160AD1EDB3C34D51"
@@ -2819,12 +2920,18 @@
 				item: "pixelmon:ghost_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "60B48A0C81463ECF"
+				type: "item"
+				item: "pixelmon:ghost_memory"
+			}]
 		}
 		{
 			x: 5.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["6CD1296F8AE3BDF4"]
+			hide: true
 			id: "1321ACF67C9D39B8"
 			tasks: [{
 				id: "21B0632700D1DCE7"
@@ -2832,12 +2939,18 @@
 				item: "pixelmon:fairy_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "7CC3C9654329AF98"
+				type: "item"
+				item: "pixelmon:fairy_memory"
+			}]
 		}
 		{
 			x: 6.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["5D6E6D378E54B5E1"]
+			hide: true
 			id: "361823CCF77533C8"
 			tasks: [{
 				id: "6AEAE728E1126197"
@@ -2845,18 +2958,72 @@
 				item: "pixelmon:poison_gem"
 				count: 10L
 			}]
+			rewards: [{
+				id: "4FF9C3A1F43737B7"
+				type: "item"
+				item: "pixelmon:poison_memory"
+			}]
 		}
 		{
 			x: 8.5d
 			y: 10.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["7CFF467AF8BFF24B"]
+			hide: true
 			id: "3E8270910A8A04C2"
 			tasks: [{
 				id: "612BA14779A35632"
 				type: "item"
 				item: "pixelmon:fighting_gem"
 				count: 10L
+			}]
+			rewards: [{
+				id: "6DCABF110C6BAD77"
+				type: "item"
+				item: "pixelmon:fighting_memory"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			description: [
+				"You have done a great deal of very good work."
+				""
+				"As you turn around from your crop of trees, you see a strange berry on the ground. It's the Enigma Berry, and you need it to make Strong Golden Lures."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2E2867B2E13A32D4"
+				"17D76D99578CA7D0"
+				"0CAF398523A3A8C1"
+				"3C407A002D0E6A81"
+				"37C2966FBFFA78D4"
+				"0CD1CE66BE7F72DC"
+				"3029BFE6C734E301"
+				"13A4E7BF0BABB703"
+				"0C3717745A04A27D"
+				"60010CD21D026A85"
+				"51242926F9B7E541"
+				"1321ACF67C9D39B8"
+				"361823CCF77533C8"
+				"6EFBA6E193AFB621"
+				"3E8270910A8A04C2"
+				"116DD1D658D05A89"
+				"56AC7328DBA5D059"
+			]
+			hide: true
+			id: "693B20671B53FA31"
+			tasks: [{
+				id: "6A90E88617F9639E"
+				type: "questsadditions:time"
+				icon: "pixelmon:enigma_berry"
+				secret: true
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "70F6CEC661583889"
+				type: "item"
+				item: "pixelmon:enigma_berry"
 			}]
 		}
 	]

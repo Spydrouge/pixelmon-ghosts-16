@@ -753,7 +753,7 @@
 			description: [
 				"... Every wood axe head you try to create simply falls apart. You have heard of some skyblocks that require denzins to make &7flint&r tools, but you have no flint."
 				""
-				"You haven't given up. If you can create some &awood slabs&r, you can at least make your island safer and easier to move around in. Maybe even get some egg hatching in!"
+				"You haven't given up. If you can create some &awood slabs&r, you can at least make your island safer and easier to move around in. Maybe even get some egg hatching in! And fewer Appricorns will fall into the void!"
 				""
 				"Maybe, just maybe, Pokemon who are floating through the void will take up residence on your island? &bPhantump&r are attracted to trees- they'd be perfect!"
 				""
@@ -1443,6 +1443,17 @@
 					command: "/function ghosts:fortell_invasion_wave_1"
 					player_command: false
 				}
+				{
+					id: "5615998010686A35"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 26
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1561,11 +1572,24 @@
 				type: "item"
 				item: "minecraft:chest"
 			}]
-			rewards: [{
-				id: "73792A5C19B7FC2B"
-				type: "item"
-				item: "pixelmon:box"
-			}]
+			rewards: [
+				{
+					id: "73792A5C19B7FC2B"
+					type: "item"
+					item: "pixelmon:box"
+				}
+				{
+					id: "637C0A27735A73D3"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 40
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1697,6 +1721,43 @@
 				command: "/pokegive @p duskull lvl:2 ability:frisk ivspd:0 ivatk:0 ivspatk:0 ivhp:31 ivdef:31 ivspdef:31 ribbon:best_friends g:male nature:bold"
 				player_command: false
 			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			description: ["You hatched your very first Pokemon! Good work, it's not easy to do with so little room to move!"]
+			hide: true
+			id: "7A57C811A92CF4DE"
+			tasks: [{
+				id: "2E54BD0828C54DD1"
+				type: "pixelmon:hatch_egg"
+				pokemon: ""
+				count: 1
+				invert: false
+			}]
+			rewards: [
+				{
+					id: "09ACA6965C007AB8"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 31
+						}
+					}
+				}
+				{
+					id: "5E1BC7D77BC1406B"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "3553A804CEF4640E"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
 		}
 	]
 }

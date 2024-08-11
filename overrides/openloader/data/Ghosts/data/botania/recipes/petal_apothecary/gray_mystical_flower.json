@@ -1,0 +1,23 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:gray_mystical_flower"
+  },
+  "ingredients": [
+    {
+        "item": "biomesoplenty:wilted_lily"
+    },
+    {
+        "item": "byg:japanese_orchid"
+    },
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:gray_mushroom"
+    },
+    {
+        "item": "pixelmon:ghost_gem"
+    }
+  ]
+}

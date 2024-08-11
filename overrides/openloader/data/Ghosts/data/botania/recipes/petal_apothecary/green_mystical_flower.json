@@ -1,0 +1,25 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:green_mystical_flower"
+  },
+  "ingredients": [
+    [
+        {
+            "item": "byg:horseweed"
+        },
+        {
+            "item": "farmersdelight:wild_tomatoes"
+        }
+    ],
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:green_mushroom"
+    },
+    {
+        "item": "pixelmon:grass_gem"
+    }
+  ]
+}

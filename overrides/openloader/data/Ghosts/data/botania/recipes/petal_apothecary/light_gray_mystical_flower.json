@@ -1,0 +1,31 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:light_gray_mystical_flower"
+  },
+  "ingredients": [
+    [
+        {
+            "item": "minecraft:oxeye_dasiy"
+        },
+        {
+            "item": "minecraft:white_tulip"
+        },
+        {
+            "item": "byg_richia"
+        }
+    ],
+    {
+        "item": "byg:japanese_orchid"
+    },
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:light_gray_mushroom"
+    },
+    {
+        "item": "pixelmon:steel_gem"
+    }
+  ]
+}

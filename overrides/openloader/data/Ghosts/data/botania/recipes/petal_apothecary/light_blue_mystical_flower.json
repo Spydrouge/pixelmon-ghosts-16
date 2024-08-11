@@ -1,0 +1,20 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:light_blue_mystical_flower"
+  },
+  "ingredients": [
+    {
+        "item": "biomesoplenty:blue_hydrangea"
+    },
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:light_blue_mushroom"
+    },
+    {
+        "item": "pixelmon:flying_gem"
+    }
+  ]
+}

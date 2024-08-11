@@ -1,0 +1,16 @@
+{
+	id: "633250BB0354C1D1"
+	order_index: 22
+	title: "Choice in Bricks"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:bricks", count: 32 }
+		{ item: "ceramics:dark_bricks", count: 32 }
+		{ item: "ceramics:lava_bricks", count: 32 }
+		{ item: "ceramics:dragon_bricks", count: 32 }
+		{ item: "ceramics:monochrome_bricks", count: 32 }
+		{ item: "ceramics:golden_bricks", count: 32 }
+		{ item: "ceramics:marine_bricks", count: 32 }
+		{ item: "ceramics:rainbow_bricks", count: 32 }
+	]
+}

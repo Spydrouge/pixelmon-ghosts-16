@@ -1,0 +1,66 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "pixelmon:rainbow_badge"
+  },
+  "ingredients": [
+    {
+      "item": "pixelmon:fire_gem"
+    },
+    {
+      "item": "pixelmon:water_gem"
+    },
+    {
+      "item": "pixelmon:grass_gem"
+    },
+    {
+      "item": "pixelmon:normal_gem"
+    },
+    {
+      "item": "pixelmon:fighting_gem"
+    },
+    {
+      "item": "pixelmon:bug_gem"
+    },
+    {
+      "item": "pixelmon:flying_gem"
+    },
+    {
+      "item": "pixelmon:dark_gem"
+    },
+    {
+      "item": "pixelmon:psychic_gem"
+    },
+    {
+      "item": "pixelmon:poison_gem"
+    },
+    {
+      "item": "pixelmon:ghost_gem"
+    },
+    {
+      "item": "pixelmon:electric_gem"
+    },
+    {
+      "item": "pixelmon:steel_gem"
+    },
+    [  
+        {
+          "item": "pixelmon:dragon_gem"
+        },
+        {
+          "item": "pixelmon:fairy_gem"
+        }
+    ],
+    [  
+        {
+          "item": "pixelmon:ground_gem"
+        },
+        {
+          "item": "pixelmon:rock_gem"
+        }
+    ],
+    {
+      "item": "byg:raw_quartz_block"
+    }
+  ]
+}

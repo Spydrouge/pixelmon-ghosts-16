@@ -1,0 +1,39 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "botania:light_blue_mystical_flower"
+  },
+  "ingredients": [
+     [
+        {
+            "item": "minecraft:blue_orchid"
+        },
+        {
+            "item": "byg:thereal_bellflower"
+        },
+        {
+            "item": "byg:winter_scilla"
+        }
+    ],
+    [
+        {
+            "tag": "forge:rose"
+        },
+        {
+            "item": "minecraft:poppy"
+        },
+        {
+            "item": "byg:california_poppy"
+        }
+    ],
+    {
+        "item": "botania:mana_powder"
+    },
+    {
+        "item": "botania:light_blue_mushroom"
+    },
+    {
+        "item": "pixelmon:flying_gem"
+    }
+  ]
+}

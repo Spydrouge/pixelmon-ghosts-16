@@ -517,7 +517,7 @@
 		{
 			x: -5.0d
 			y: -4.5d
-			description: ["Diamond is a very rare drop from regular purple Sableye. Sableye can be found alongside Carbink, whom they hunt."]
+			description: ["Diamond is a very rare drop from regular purple Sableye. Regular Sableeye can be found alongside Carbink, whom they hunt and harvest for food."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "355FFDA4A746822F"
@@ -702,263 +702,7 @@
 		}
 		{
 			x: 5.0d
-			y: 3.5d
-			description: [
-				"Requires three Aluminum ingots and yields five balls, these are the easiest Pokeball to grind for and produce."
-				""
-				"Pokemon caught in a heal ball can be used immediately without resting. They do not have an enhanced catch rate."
-				""
-				"Consider using your first Pokeball to create an Old Rod with."
-			]
-			dependencies: ["542EFBDFBABB8B13"]
-			hide: true
-			id: "3631D571D5538616"
-			tasks: [{
-				id: "46672C62867799F6"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "heal_ball"
-					}
-				}
-				count: 5L
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "5FCBE587DE50C727"
-					type: "item"
-					item: "pixelmon:red_shard"
-				}
-				{
-					id: "78FED22434ED3F6C"
-					type: "item"
-					item: "pixelmon:yellow_shard"
-				}
-				{
-					id: "7E80E20A32B6EF4A"
-					type: "item"
-					item: "pixelmon:white_shard"
-				}
-				{
-					id: "71220E0C850C65FA"
-					type: "item"
-					item: "pixelmon:health_feather"
-				}
-				{
-					id: "048FDF00EFA47FDA"
-					type: "item"
-					item: "pixelmon:full_heal"
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: 2.5d
-			description: [
-				"Requires three silver ingots and yields five balls. These Pokeballs are the first balls with an enhanced catch rate."
-				""
-				"Love balls have a 2x catch rate on Pokemon of the opposite gender, which increases to a 8x catch rate if the pokemon are of the same species."
-				""
-				"You can also sometimes recover Love Balls from surviving Snubble, which, tragically, appear to carry around their old Pokeballs."
-			]
-			dependencies: ["542EFBDFBABB8B13"]
-			hide: true
-			id: "7714EF806C30B7C6"
-			tasks: [{
-				id: "7D86B471A19F43FE"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "love_ball"
-					}
-				}
-				count: 5L
-				only_from_crafting: false
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "5E97B2E3C043EE92"
-					type: "item"
-					item: "pixelmon:red_shard"
-				}
-				{
-					id: "0EDC0B185DD80787"
-					type: "item"
-					item: "pixelmon:white_shard"
-					count: 2
-				}
-				{
-					id: "165868EA374C875D"
-					type: "item"
-					item: "pixelmon:sweet_heart"
-					count: 3
-				}
-				{
-					id: "3A5044DF43208292"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 36
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 6.0d
-			y: 1.0d
-			description: [
-				"The recipe for an Ancient Great Ball requires two silver ingots and three tumblestones, and yields three balls."
-				""
-				"These have a 1.5x catch rate."
-				""
-				"[&dCAUTION&r: As soon as you create the balls, exit the Crafting Table GUI. Do not open any GUI for 60 seconds, and you will recieve an additional reward.]"
-			]
-			dependencies: ["674F6AEDA331784C"]
-			hide: true
-			id: "5AF0C36E42A5FFB3"
-			tasks: [{
-				id: "615179001EB1B8B0"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "ancient_great_ball"
-					}
-				}
-				count: 3L
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "1DD6A8BA5624BA63"
-					type: "item"
-					item: "pixelmon:blue_shard"
-				}
-				{
-					id: "009494F7F1DE93E3"
-					type: "item"
-					item: "pixelmon:red_shard"
-				}
-				{
-					id: "2A7BE7A6BE9A5BF0"
-					type: "item"
-					item: "pixelmon:yellow_shard"
-				}
-				{
-					id: "349FCCC1542113FB"
-					type: "command"
-					title: "One minute after crafting the balls, if no GUI is open, every Pokemon in your party will spontaneously learn Ancient Power, even if normally they would be unable to."
-					icon: {
-						id: "botania:cosmetic_questgiver_mark"
-						Count: 1b
-						tag: { }
-					}
-					auto: "enabled"
-					command: "/say Open no GUIs for one minute!"
-					player_command: false
-				}
-			]
-		}
-		{
-			x: 6.0d
-			y: 0.0d
-			description: [
-				"This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."
-				""
-				"Additionally, while the regular recipe calls for Silver, you believe you can substitute in Lead Ingots."
-			]
-			dependencies: ["3449AF12CF6DC77F"]
-			hide: true
-			id: "61156024E1329533"
-			tasks: [{
-				id: "13B71FFF09170179"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "leaden_ball"
-					}
-				}
-				count: 5L
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "22BE7691BD66E8FB"
-					type: "item"
-					item: "pixelmon:black_shard"
-					count: 2
-				}
-				{
-					id: "442DFE9BE34F88C5"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 52
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 6.0d
-			y: -1.0d
-			description: [
-				"Feather Balls do not have an enhanced catch rate, and still require the two silver ingots of the Ancient Great Ball. However, they produce 5 balls instead of 3, making them cheaper than Love Balls."
-				""
-				"They require Sky Tumblestone."
-			]
-			dependencies: ["3A2FACB03E05F4A2"]
-			hide: true
-			id: "0825C5137B2FE74B"
-			tasks: [{
-				id: "4E7F8BCB1219A725"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "feather_ball"
-					}
-				}
-				count: 5L
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "76D911F052AAF6E5"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen1"
-						Count: 1b
-						tag: {
-							tm: 39
-						}
-					}
-				}
-				{
-					id: "246A2BDC72CC1669"
-					type: "random"
-					table_id: 9093306389108564916L
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: -2.5d
+			y: 0.5d
 			description: [
 				"Dropped directly from Hisuan Voltorb, these are prohibitively expensive to craft because they require iron."
 				""
@@ -994,7 +738,7 @@
 		}
 		{
 			x: 5.0d
-			y: -3.5d
+			y: -0.5d
 			description: [
 				"Dropped by Voltorb, these are impossible to craft from scratch because of the lack of Red Apricorns."
 				""
@@ -1032,7 +776,7 @@
 		}
 		{
 			x: 5.0d
-			y: 1.0d
+			y: 4.0d
 			description: [
 				"This is the most common type of Tumblestone. It can be attained by fighting a number of Pokemon, including Geodude and Magikarp."
 				""
@@ -1063,7 +807,7 @@
 		}
 		{
 			x: 5.0d
-			y: -1.0d
+			y: 2.0d
 			description: ["Sky tumblestone are primarily available from Pokemon from very high Y levels."]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1088,7 +832,7 @@
 		}
 		{
 			x: 5.0d
-			y: 0.0d
+			y: 3.0d
 			description: [
 				"Black tumblestone is traditionally rarer than red tumblestone, and also more valuable. The balls it crafts do not travel as far, but tend to have a higher catch rate."
 				""
@@ -1191,8 +935,7 @@
 				""
 				"Alternatively, it can be harvested directly from Chingling, which can be attracted to numerous habitats in the Space layer."
 			]
-			hide_dependency_lines: true
-			dependencies: ["542EFBDFBABB8B13"]
+			dependencies: ["6F2DD5CDB657D547"]
 			hide: true
 			id: "0D248812DE33472B"
 			tasks: [{
@@ -1221,8 +964,10 @@
 				""
 				"Up on the soil layer, where you started, Bronze drops frequently from Falinks, which spawns in undergroun habitats."
 			]
-			hide_dependency_lines: true
-			dependencies: ["542EFBDFBABB8B13"]
+			dependencies: [
+				"3592ED1650D172B7"
+				"2256A2C44A963EC5"
+			]
 			hide: true
 			id: "4744A42F4A75A1ED"
 			tasks: [{
@@ -1246,19 +991,31 @@
 		{
 			x: 3.5d
 			y: -7.0d
+			subtitle: "Either the Ingot or the Nuggets will do."
 			description: [
 				"Cobalt is typically located in the nether, if you remember correctly."
 				""
 				"It is rare, and hard to get, but Beldum will occasionally drop a small amount. Beldum can be found indoors on the Deep Dark layer, but is very uncommon."
+				""
+				"Cobalt cannot be melted without lava. Since it is a nether ore anyway, you doubt you will be getting any help in melting it."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
+			min_required_tasks: 1
 			id: "0631AB4AA36EE20E"
-			tasks: [{
-				id: "0B8D3135B1DB1D09"
-				type: "item"
-				item: "tconstruct:cobalt_ingot"
-			}]
+			tasks: [
+				{
+					id: "0B8D3135B1DB1D09"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+				}
+				{
+					id: "2E2D23BC94110CA9"
+					type: "item"
+					item: "tconstruct:cobalt_nugget"
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "5ECA1A4033287910"
@@ -1315,147 +1072,6 @@
 					id: "762A7DDA1D415B0C"
 					type: "random"
 					table_id: 6443510782262151491L
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: 0.0d
-			description: [
-				"Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."
-				""
-				"Additionally, Gigaton Balls can be made with Lead Plates as an alternative to Platinum."
-			]
-			dependencies: ["61156024E1329533"]
-			hide: true
-			id: "6ADA80A32DE8B4B4"
-			tasks: [{
-				id: "45014ADB2F2B4C89"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "gigaton_ball"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0253AEDF929970FC"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen7"
-						Count: 1b
-						tag: {
-							tm: 74
-						}
-					}
-				}
-				{
-					id: "42B5A47347512403"
-					type: "item"
-					item: "pixelmon:black_shard"
-					count: 3
-				}
-				{
-					id: "03AF90C5E3F5BD67"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 79
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: 1.0d
-			description: [
-				"Ancient Ultra balls are no cheap thing to make, requiring two platinum ingots for a recipe that only produces a single ball."
-				""
-				"They have a 2x catch rate."
-				""
-				"[&dCAUTION&r: As soon as you create the balls, exit the Crafting Table GUI. Do not open any GUI for 60 seconds, and you will recieve an additional reward.]"
-			]
-			dependencies: ["5AF0C36E42A5FFB3"]
-			hide: true
-			id: "239207D5068640A8"
-			tasks: [{
-				id: "05B700ABE1D00121"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "ancient_ultra_ball"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "71C1FDBD7710A14A"
-					type: "command"
-					title: "One minute after crafting the balls, if no GUI is open, every Pokemon in your party will spontaneously learn Ancient Power, even if normally they would be unable to."
-					icon: {
-						id: "botania:cosmetic_questgiver_mark"
-						Count: 1b
-						tag: { }
-					}
-					auto: "enabled"
-					command: "/say Open no GUIs for one minute!"
-					player_command: false
-				}
-				{
-					id: "48A0E1EF80783266"
-					type: "item"
-					item: "pixelmon:yellow_shard"
-					count: 2
-				}
-				{
-					id: "0DBE67A7C138D434"
-					type: "item"
-					item: "pixelmon:black_shard"
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: -1.0d
-			description: ["Jet Balls are the least valuable of the ancient, high-end, platinum demanding balls. Their catch rate is only 1.5x, which is the same as a Great Ball, and the only benefit of using them, their ability to travel very far and potentially hit flying Pokemon, is difficult to pull off in a void. As long as it does not fly too far, Drifloon will attempt to catch it if it misses the Pokemon. But to use one safely, you will only ever want to fire straight up on a fairly large platform."]
-			dependencies: ["0825C5137B2FE74B"]
-			hide: true
-			id: "0C4615C77474AEBD"
-			tasks: [{
-				id: "7BAF62BD33F37D57"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "jet_ball"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "36B93F2FE16E3CAA"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 89
-						}
-					}
-				}
-				{
-					id: "34BFA6C43F13411D"
-					type: "random"
-					table_id: 9093306389108564916L
 				}
 			]
 		}
@@ -1548,6 +1164,7 @@
 		{
 			x: 0.5d
 			y: -7.0d
+			subtitle: "Either the Ingot or the Nuggets will do"
 			description: [
 				"Uranium is a very important ingredient for creating Necronium. "
 				""
@@ -1557,12 +1174,21 @@
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
+			min_required_tasks: 9
 			id: "5AA83F235FA5EFE5"
-			tasks: [{
-				id: "07ECD901BF91856F"
-				type: "item"
-				item: "immersiveengineering:ingot_uranium"
-			}]
+			tasks: [
+				{
+					id: "07ECD901BF91856F"
+					type: "item"
+					item: "immersiveengineering:ingot_uranium"
+				}
+				{
+					id: "6C7162E378EF43BE"
+					type: "item"
+					item: "immersiveengineering:nugget_uranium"
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "42340AEA7B1D49D2"
@@ -1599,6 +1225,8 @@
 				""
 				"Although you don't foresee a need to blow up anything- you're typically attempt to do the very opposite- gunpowder is valuable in brewing."
 			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
 			id: "6E571FA937A9F129"
 			tasks: [
 				{
@@ -1716,15 +1344,29 @@
 		{
 			x: -1.5d
 			y: -7.0d
-			description: ["Nickle is usually found in close proximity to Iron. You can attract out Alolan Geodude by placing down redstone where Geodude naturally spawn, and they will often drop more nickle than iron."]
+			subtitle: "Either the Ingot or the Nuggets will do."
+			description: [
+				"Nickle is usually found in close proximity to Iron. You can attract out Alolan Geodude by placing down redstone where Geodude naturally spawn, and they will often drop more nickle than iron."
+				""
+				"However, it cannot be melted without lava."
+			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
+			min_required_tasks: 1
 			id: "47607815AA13CD41"
-			tasks: [{
-				id: "1317117F78CBECFD"
-				type: "item"
-				item: "thermal:nickel_ingot"
-			}]
+			tasks: [
+				{
+					id: "1317117F78CBECFD"
+					type: "item"
+					item: "thermal:nickel_ingot"
+				}
+				{
+					id: "1D636E294E22931A"
+					type: "item"
+					item: "thermal:nickel_nugget"
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "1A27DC9B2BFAA359"
@@ -1771,19 +1413,29 @@
 		{
 			x: -1.0d
 			y: -8.0d
+			subtitle: "Either the Ingot or the Nuggets will do"
 			description: [
 				"Invar is formed from a mixture of iron and nickle. Because iron is rare, you might want to abstain from alloying it yourself."
 				""
+				"It cannot be melted without lava."
 			]
-			hide_dependency_lines: true
-			dependencies: ["542EFBDFBABB8B13"]
+			dependencies: ["47607815AA13CD41"]
 			hide: true
+			min_required_tasks: 1
 			id: "10FA5D943BCB7467"
-			tasks: [{
-				id: "1019B2B002C703F7"
-				type: "item"
-				item: "thermal:invar_ingot"
-			}]
+			tasks: [
+				{
+					id: "1019B2B002C703F7"
+					type: "item"
+					item: "thermal:invar_ingot"
+				}
+				{
+					id: "07A9F5766436D0AE"
+					type: "item"
+					item: "thermal:invar_nugget"
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "39B5F9119B5028A6"
@@ -1798,96 +1450,33 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -1.0d
-			description: ["While making the Wing Ball according to its usual recipe would be a massive waste of resources, you think you can create a Wing Ball lid using Electrum Wire."]
-			dependencies: ["0C4615C77474AEBD"]
-			id: "1FE3287A37C5C2BD"
-			tasks: [{
-				id: "7E90DA467DD653CB"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "wing_ball"
-					}
-				}
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "5A011C605820655B"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 159
-						}
-					}
-				}
-				{
-					id: "5F405C40F0C6FCE9"
-					type: "choice"
-					table_id: 9093306389108564916L
-				}
-			]
-		}
-		{
-			x: 8.0d
-			y: 0.0d
-			description: ["While making an Ancient Heavy Ball by the usual recipe would be a waste of iron, you believe you can substitute Lead Wire for the Iron Ingots in the recipe."]
-			dependencies: ["6ADA80A32DE8B4B4"]
-			id: "5D21B396FE5D7D44"
-			tasks: [{
-				id: "5E967A599C10977C"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "ancient_heavy_ball"
-					}
-				}
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "283C73271C2B0690"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 120
-						}
-					}
-				}
-				{
-					id: "2E84961BF0EE3250"
-					type: "item"
-					item: "pixelmon:black_shard"
-					count: 4
-				}
-			]
-		}
-		{
 			x: 2.5d
 			y: -7.0d
+			subtitle: "Either the Ingot or Nuggets will do"
 			description: [
 				"\"Fairy\" is the name given to an exotic metal made from combining wither-related liquid soul with the healing power of milk and alloying the result to gold. "
 				""
 				"While it is possible to create Fairy yourself, it is also likely that pink Fairy Pokemon such as Snubble, Clefairy, and Jigglypuff have collected a few nuggets, and will drop them if pressed. Some of these will be attracted to habitats on the Dazzle Layer."
+				""
+				"However, it cannot be melted without lava. It is likely you will be stuck with an assortment of nuggets you can't use for awhile."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
+			min_required_tasks: 1
 			id: "1E5435A0743B46EF"
-			tasks: [{
-				id: "473BC64BBFC67238"
-				type: "item"
-				item: "materialis:fairy_ingot"
-			}]
+			tasks: [
+				{
+					id: "473BC64BBFC67238"
+					type: "item"
+					item: "materialis:fairy_ingot"
+				}
+				{
+					id: "12A3F041E70E5CC0"
+					type: "item"
+					item: "materialis:fairy_nugget"
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "69C4FD15F734F487"
@@ -1910,13 +1499,31 @@
 		{
 			x: -2.0d
 			y: -8.0d
-			description: ["Constantan is an alloy of Copper and Nickle that has an affinity for heat, and works well in the nether."]
+			description: [
+				"Constantan is an alloy of Copper and Nickle that has an affinity for heat, and works well in the nether."
+				""
+				"It cannot be melted without lava."
+			]
+			dependencies: [
+				"47607815AA13CD41"
+				"3592ED1650D172B7"
+			]
+			hide: true
+			min_required_tasks: 9
 			id: "433F2B694D1B6F35"
-			tasks: [{
-				id: "2B35D443AC5FA23D"
-				type: "item"
-				item: "immersiveengineering:ingot_constantan"
-			}]
+			tasks: [
+				{
+					id: "2B35D443AC5FA23D"
+					type: "item"
+					item: "immersiveengineering:ingot_constantan"
+				}
+				{
+					id: "722C0D4C8A0BAAA2"
+					type: "item"
+					item: "immersiveengineering:nugget_constantan"
+					count: 9L
+				}
+			]
 			rewards: [
 				{
 					id: "04092A91BE52CD96"
@@ -1967,6 +1574,409 @@
 					item: "minecraft:prismarine_crystals"
 				}
 			]
+		}
+		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "tconstruct:molten_nickel"
+						Amount: 1000
+					}
+				}
+			}
+			x: -1.5d
+			y: -9.0d
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
+			dependencies: ["47607815AA13CD41"]
+			hide: true
+			repeatable: true
+			id: "1694B01F7096AA80"
+			tasks: [
+				{
+					id: "07D10E16FD9BE302"
+					type: "item"
+					title: "Any #forge:nuggets/nickel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/nickel"
+						}
+					}
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "556AA398FAC72E71"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+				{
+					id: "5A0F51BAECAF6733"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "65EC2765F1525179"
+				type: "item"
+				icon: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:molten_nickel"
+							Amount: 1000
+						}
+					}
+				}
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:molten_nickel"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "tconstruct:molten_uranium"
+						Amount: 1000
+					}
+				}
+			}
+			x: 0.5d
+			y: -8.0d
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Uranium in a world devoid of lava..."]
+			dependencies: ["5AA83F235FA5EFE5"]
+			hide: true
+			repeatable: true
+			id: "0D357C7D4960292F"
+			tasks: [
+				{
+					id: "4AAE616AB8D01502"
+					type: "item"
+					item: "immersiveengineering:nugget_uranium"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "67FF9C5CD402E123"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+				{
+					id: "1FB0F1001E1F01AD"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "05D6F869C17273A4"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:molten_uranium"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			subtitle: "The Ingot or the Nuggets will work."
+			description: [
+				"Steel is normally produced in a blast furnace, but it's also a common drop from ferrous steel types."
+				""
+				"Steel can't be melted without lava."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "4F5DF6B53EDF1635"
+			tasks: [
+				{
+					id: "4E7B729F7CDDD29C"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "29922D599D5B7410"
+					type: "item"
+					item: "immersiveengineering:nugget_steel"
+					count: 9L
+				}
+			]
+		}
+		{
+			title: "Cinnabar"
+			x: 5.0d
+			y: -5.0d
+			description: [
+				"Cinnabar can be found by using rock smash on certain Y-levels. It is also greatly associated with Cinnabar Island, from Kanto, and Pokemon native to Cinnabar Island may sometimes be found carrying it or its dust form."
+				""
+				"It can be pulverized to a dust by using an Earth Charge."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "6C9E60BDDA8BF912"
+			tasks: [{
+				id: "59EDB3DFD9202520"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:cinnabar"
+								Count: 1b
+							}
+							{
+								id: "thermal:cinnabar_dust"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Basalz"
+			x: 5.0d
+			y: -4.0d
+			description: [
+				"Basalz is similar to Blaze. Its shards and powders cannot be used for the same purposes, but they have crafting applications. "
+				""
+				"Specifically, Basalz can be used to turn objects like Cinnabar into dusts."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "55D87D32F654EE10"
+			tasks: [{
+				id: "57F81121B6996B66"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:basalz_rod"
+								Count: 1b
+							}
+							{
+								id: "thermal:basalz_powder"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E3BE257B4788ADA"
+					type: "item"
+					item: "thermal:basalz_spawn_egg"
+				}
+				{
+					id: "62293B8A96E090B4"
+					type: "item"
+					item: "pixelmon:heat_rock"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "tconstruct:molten_invar"
+						Amount: 1000
+					}
+				}
+			}
+			x: -1.0d
+			y: -10.0d
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
+			dependencies: ["10FA5D943BCB7467"]
+			hide: true
+			repeatable: true
+			id: "393FEFC09A97B42C"
+			tasks: [
+				{
+					id: "5A9BF6DC860AFEA2"
+					type: "item"
+					title: "Any #forge:nuggets/invar"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/invar"
+						}
+					}
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "1C6B0AF1DBBCFC40"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+				{
+					id: "49208462E284DC10"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "44CD38C38DE82C67"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:molten_invar"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "tconstruct:molten_constantan"
+						Amount: 1000
+					}
+				}
+			}
+			x: -2.0d
+			y: -10.0d
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
+			dependencies: ["433F2B694D1B6F35"]
+			hide: true
+			repeatable: true
+			id: "71D7E864F3AC3A18"
+			tasks: [
+				{
+					id: "0612A1213F499091"
+					type: "item"
+					title: "Any #forge:nuggets/constantan"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/constantan"
+						}
+					}
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "0B58D253DCAF0347"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+				{
+					id: "26D3A89D9A1DB9A1"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5110F876BF652FB8"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:molten_constantan"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "materialis:molten_fairy"
+						Amount: 1000
+					}
+				}
+			}
+			x: 2.5d
+			y: -8.0d
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Uranium in a world devoid of lava..."]
+			repeatable: true
+			id: "34AF7FC6B385A6AC"
+			tasks: [
+				{
+					id: "27B363BA26C0E9ED"
+					type: "item"
+					item: "materialis:fairy_nugget"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "377715FC0EAC774A"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+				{
+					id: "2EC38D0E9B29C862"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6530830948982BF0"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "materialis:molten_fairy"
+							Amount: 1000
+						}
+					}
+				}
+			}]
 		}
 	]
 }

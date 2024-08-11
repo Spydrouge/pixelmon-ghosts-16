@@ -1228,7 +1228,13 @@
         "max":1,
         "chance":0.1
       },
-        {
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"pixelmon:aspear_berry",
         "min":1,
         "max":1,
@@ -1284,6 +1290,12 @@
         "item":"pixelmon:fire_stone_shard",
         "min":2,
         "max":3,
+        "chance":0.3
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":2,
         "chance":0.3
       },
        {
@@ -1661,9 +1673,9 @@
         "chance":0.5
       },
       {
-        "item":"pixelmon:pecha_berry",
+        "item":"minecraft:rotten_flesh",
         "min":1,
-        "max":1,
+        "max":2,
         "chance":0.5
       },
       {
@@ -1671,7 +1683,14 @@
         "min":1,
         "max":2,
         "chance":0.3
-      }
+      },
+      {
+        "item":"pixelmon:pecha_berry",
+        "min":1,
+        "max":1,
+        "chance":0.05
+      },
+        
     ]
   },
   {
@@ -1715,10 +1734,44 @@
     ]
   },
   {
+    "pokemon":"Diglett form:base palette:pink",
+    "items":[
+      {
+        "item":"minecraft:rotten_flesh",
+        "min":1,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:coarse_dirt",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      }
+    ]
+  },
+  {
     "pokemon":"Diglett form:alolan",
     "items":[
       {
         "item":"minecraft:dirt",
+        "min":1,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:iron_nugget",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      }
+    ]
+  },
+  {
+    "pokemon":"Diglett form:alolan palette:pink",
+    "items":[
+      {
+        "item":"minecraft:rotten_flesh",
         "min":1,
         "max":4,
         "chance":1.0
@@ -1767,6 +1820,52 @@
         "item":"minecraft:iron_ingot",
         "min":1,
         "max":4,
+        "chance":0.5
+      },
+      {
+        "item":"pixelmon:soft_sand",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Dugtrio form:base palette:pink",
+    "items":[
+      {
+        "item":"minecraft:rotten_flesh",
+        "min":2,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:coarse_dirt",
+        "min":1,
+        "max":4,
+        "chance":0.5
+      },
+      {
+        "item":"pixelmon:soft_sand",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Dugtrio form:alolan palette:pink",
+    "items":[
+      {
+        "item":"minecraft:rotten_flesh",
+        "min":2,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:iron_nugget",
+        "min":2,
+        "max":3,
         "chance":0.5
       },
       {
@@ -1992,6 +2091,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -2024,6 +2129,12 @@
       {
         "item":"minecraft:bone",
         "min":1,
+        "max":3,
+        "chance":0.5
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":2,
         "max":3,
         "chance":0.5
       },
@@ -2586,6 +2697,12 @@
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":3,
+        "chance":0.1
       }
     ]
   },
@@ -2628,9 +2745,15 @@
         "chance":0.5
       },
       {
-        "item":"minecraft:blaze_powder",
+        "item":"thermal:cinnabar_dust",
         "min":1,
-        "max":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:blaze_rod",
+        "min":1,
+        "max":1,
         "chance":0.3
       },
       {
@@ -2998,6 +3121,24 @@
         "chance":1.0
       },
       {
+        "item":"thermal:slag",
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
+        {
+        "item":"thermal:rich_slag",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
         "item":"minecraft:slime_block",
         "min":1,
         "max":1,
@@ -3042,6 +3183,18 @@
         "min":1,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"thermal:rich_slag",
+        "min":2,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"minecraft:slime_block",
@@ -3860,6 +4013,41 @@
     ]
   },
   {
+    "pokemon":"Koffing form:galarian",
+    "items":[
+      {
+        "item":"thermal:rich_slag",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"botania:smoky_quartz",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
+        "item":"minecraft:gunpowder",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
+        "item":"pixelmon:smoke_ball",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
     "pokemon":"Weezing form:base",
     "items":[
       {
@@ -3901,6 +4089,18 @@
         "item":"minecraft:gunpowder",
         "min":1,
         "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"thermal:rich_slag",
+        "min":2,
+        "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":2,
         "chance":1.0
       },
       {
@@ -4349,6 +4549,12 @@
         "chance":0.5
       },
       {
+        "item":"thermal:cinnabar",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
         "item":"pixelmon:fire_stone",
         "min":1,
         "max":1,
@@ -4401,6 +4607,40 @@
     "items":[
       {
         "item":"minecraft:salmon",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:raw_tumblestone",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Magikarp palette:zombie",
+    "items":[
+      {
+        "item":"minecraft:cooked_salmon",
+        "min":1,
+        "max":1,
+        "chance":1.0
+      },
+      {
+        "item":"pixelmon:raw_tumblestone",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      }
+    ]
+  },
+  {
+    "pokemon":"Magikarp palette:drowned",
+    "items":[
+      {
+        "item":"minecraft:rotten_flesh",
         "min":1,
         "max":1,
         "chance":1.0
@@ -4682,6 +4922,12 @@
         "min":1,
         "max":1,
         "chance":0.1
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":2,
+        "max":3,
+        "chance":0.1
       }
     ]
   },
@@ -4695,13 +4941,13 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:cod",
+        "item":"thermal:slag",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":0.3
       },
       {
-        "item":"minecraft:sea_pickle",
+        "item":"thermal:rich_slag",
         "min":1,
         "max":1,
         "chance":0.1
@@ -4718,16 +4964,22 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:cod",
-        "min":1,
+        "item":"thermal:slag",
+        "min":2,
         "max":3,
         "chance":0.5
       },
       {
-        "item":"minecraft:sea_pickle",
-        "min":1,
-        "max":1,
+        "item":"thermal:rich_slag",
+        "min":2,
+        "max":3,
         "chance":0.3
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":2,
+        "max":3,
+        "chance":0.1
       },
       {
         "item":"pixelmon:deep_sea_tooth",
@@ -4756,6 +5008,12 @@
         "item":"pixelmon:razor_fang",
         "min":1,
         "max":1,
+        "chance":0.1
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":2,
+        "max":3,
         "chance":0.1
       }
     ]
@@ -8629,6 +8887,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"thermal:cinnabar_dust",
+        "min":1,
+        "max":1,
+        "chance":0.1
       }
     ]
   },
@@ -10956,10 +11220,16 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:flint",
+        "item":"thermal:cinnabar_dust",
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"thermal:basalz_powder",
+        "min":1,
+        "max":2,
+        "chance":0.3
       },
       {
         "item":"minecraft:blaze_powder",
@@ -10979,16 +11249,22 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:flint",
+        "item":"thermal:cinnabar",
         "min":1,
         "max":2,
+        "chance":1.0
+      },
+       {
+        "item":"thermal:basalz_powder",
+        "min":2,
+        "max":3,
         "chance":0.5
       },
       {
         "item":"minecraft:blaze_powder",
         "min":1,
         "max":3,
-        "chance":0.3
+        "chance":0.2
       },
       {
         "item":"pixelmon:heat_rock",
@@ -11006,6 +11282,18 @@
         "min":2,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"thermal:basalz_powder",
+        "min":1,
+        "max":2,
+        "chance":0.3
       },
       {
         "item":"minecraft:magma_cream",
@@ -11817,15 +12105,15 @@
     "pokemon":"Shuppet",
     "items":[
       {
-        "item":"minecraft:ghast_tear",
+        "item":"minecraft:rotten_flesh",
         "min":1,
         "max":2,
         "chance":1.0
       },
       {
-        "item":"minecraft:rotten_flesh",
+        "item":"minecraft:ghast_tear",
         "min":1,
-        "max":1,
+        "max":2,
         "chance":0.5
       },
       {
@@ -11846,16 +12134,16 @@
     "pokemon":"Banette",
     "items":[
       {
-        "item":"minecraft:ghast_tear",
-        "min":1,
-        "max":3,
+        "item":"minecraft:rotten_flesh",
+        "min":2,
+        "max":4,
         "chance":1.0
       },
       {
-        "item":"minecraft:rotten_flesh",
+        "item":"minecraft:ghast_tear",
         "min":1,
         "max":3,
-        "chance":0.5
+        "chance":0.7
       },
       {
         "item":"minecraft:soul_torch",
@@ -11899,6 +12187,12 @@
         "chance":0.3
       },
       {
+        "item":"minecraft:rotten_flesh",
+        "min":2,
+        "max":3,
+        "chance":0.2
+      },
+      {
         "item":"botania:mana_string",
         "min":1,
         "max":1,
@@ -11932,6 +12226,12 @@
         "min":1,
         "max":1,
         "chance":0.3
+      },
+      {
+        "item":"minecraft:rotten_flesh",
+        "min":3,
+        "max":4,
+        "chance":0.2
       },
       {
         "item":"tconstruct:silky_cloth",
@@ -12297,6 +12597,12 @@
         "min":1,
         "max":2,
         "chance":0.5
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":1,
+        "max":1,
+        "chance":0.3
       },
       {
         "item":"botania:rune_water",
@@ -13454,6 +13760,12 @@
         "chance":0.9
       },
       {
+        "item":"minecraft:rotten_flesh",
+        "min":1,
+        "max":1,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:iron_nugget",
         "min":1,
         "max":1,
@@ -13517,9 +13829,15 @@
         "chance":1.0
       },
       {
+        "item":"minecraft:rotten_flesh",
+        "min":1,
+        "max":3,
+        "chance":1.0
+      },
+      {
         "item":"immersiveengineering:nugget_aluminum",
-        "min":3,
-        "max":4,
+        "min":4,
+        "max":12,
         "chance":1.0
       },
       {
@@ -14981,6 +15299,12 @@
         "item":"minecraft:magma_block",
         "min":1,
         "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":3,
+        "max":4,
         "chance":0.5
       },
       {
@@ -16832,6 +17156,12 @@
         "chance":0.3
       },
       {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":1,
+        "chance":0.2
+      },
+      {
         "item":"minecraft:ender_pearl",
         "min":1,
         "max":1,
@@ -16865,6 +17195,12 @@
         "min":1,
         "max":2,
         "chance":0.3
+      },
+      {
+        "item":"tconstruct:blood_slime_ball",
+        "min":1,
+        "max":1,
+        "chance":0.2
       },
       {
         "item":"pixelmon:flying_gem",
@@ -17851,6 +18187,12 @@
         "chance":1.0
       },
       {
+        "item":"thermal:cinnabar",
+        "min":1,
+        "max":1,
+        "chance":0.3
+      },
+      {
         "item":"minecraft:sandstone",
         "min":1,
         "max":2,
@@ -17872,6 +18214,12 @@
         "min":2,
         "max":3,
         "chance":1.0
+      },
+      {
+        "item":"thermal:cinnabar",
+        "min":1,
+        "max":2,
+        "chance":0.5
       },
       {
         "item":"minecraft:sandstone",
@@ -18153,6 +18501,12 @@
         "chance":0.5
       },
       {
+        "item":"biomesoplenty:wilted_lilly",
+        "min":1,
+        "max":1,
+        "chance":0.1
+      },
+      {
         "item":"minecraft:grepa_berry",
         "min":1,
         "max":1,
@@ -18180,6 +18534,12 @@
         "min":1,
         "max":2,
         "chance":1.0
+      },
+        {
+        "item":"biomesoplenty:wilted_lilly",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"minecraft:book",
@@ -18220,6 +18580,12 @@
         "item":"minecraft:wither_rose",
         "min":2,
         "max":4,
+        "chance":1.0
+      },
+      {
+        "item":"biomesoplenty:wilted_lilly",
+        "min":4,
+        "max":8,
         "chance":1.0
       },
       {
@@ -18988,6 +19354,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"immersiveengineering:coil_lv",
+        "min":2,
+        "max":4,
+        "chance":0.2
       }
     ]
   },
@@ -19011,6 +19383,12 @@
         "min":1,
         "max":2,
         "chance":0.3
+      },
+      {
+        "item":"immersiveengineering:coil_mv",
+        "min":1,
+        "max":1,
+        "chance":0.2
       }
     ]
   },
@@ -19022,6 +19400,12 @@
         "min":9,
         "max":27,
         "chance":1.0
+      },
+      {
+        "item":"immersiveengineering:coil_hv",
+        "min":1,
+        "max":1,
+        "chance":1.7
       },
       {
         "item":"minecraft:glowstone_dust",
@@ -19057,6 +19441,12 @@
         "min":1,
         "max":2,
         "chance":0.75
+      },
+      {
+        "item":"byg:thereal_bellflower",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"minecraft:ender_pearl",
@@ -22127,6 +22517,12 @@
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"thermal:slag",
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -22138,6 +22534,12 @@
         "min":2,
         "max":4,
         "chance":1.0
+      },
+      {
+        "item":"thermal:rich_slag",
+        "min":1,
+        "max":1,
+        "chance":0.5
       },
       {
         "item":"minecraft:granite",
@@ -24726,7 +25128,7 @@
           "id":"immersiveengineering:pickaxe_steel",
           "Count":1,
           "tag":{
-            "Damage":900
+            "Damage":340
           }
         },
         "min":1,
@@ -26800,10 +27202,16 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:blaze_powder",
+        "item":"thermal:basalz_powder",
         "min":1,
         "max":1,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:blaze_powder",
+        "min":1,
+        "max":1,
+        "chance":0.3
       },
       {
         "item":"pixelmon:passho_berry",
@@ -26823,10 +27231,16 @@
         "chance":1.0
       },
       {
+        "item":"thermal:basalz_powder",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
         "item":"minecraft:blaze_powder",
         "min":1,
         "max":2,
-        "chance":0.5
+        "chance":0.3
       },
       {
         "item":"pixelmon:hard_stone",
@@ -26852,10 +27266,16 @@
         "chance":1.0
       },
       {
-        "item":"minecraft:blaze_powder",
+        "item":"thermal:basalz_rod",
         "min":1,
         "max":3,
         "chance":0.5
+      },
+      {
+        "item":"minecraft:blaze_rod",
+        "min":1,
+        "max":2,
+        "chance":0.3
       },
       {
         "item":"minecraft:diamond",

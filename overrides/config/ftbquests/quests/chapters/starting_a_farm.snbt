@@ -250,6 +250,17 @@
 					type: "item"
 					item: "pixelmon:dish_curry_leek"
 				}
+				{
+					id: "7254D2C84C01B067"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 34
+						}
+					}
+				}
 			]
 		}
 		{
@@ -605,6 +616,17 @@
 					type: "item"
 					item: "pixelmon:s_exp_candy"
 				}
+				{
+					id: "6B80EA75C35995A3"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 20
+						}
+					}
+				}
 			]
 		}
 		{
@@ -698,6 +720,17 @@
 					id: "0F531A1446810BD0"
 					type: "item"
 					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "14D86954A330B2C1"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 20
+						}
+					}
 				}
 			]
 		}

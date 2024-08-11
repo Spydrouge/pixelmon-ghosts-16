@@ -583,7 +583,7 @@
 						"tconstruct:attack_speed": 1.84f
 						"tconstruct:mining_speed": 1.0f
 						"tconstruct:attack_damage": 4.5f
-						"tconstruct:harvest_level": 1.0f
+						"tconstruct:harvest_level": 2.0f
 						"tconstruct:durability": 89.1f
 					}
 					tic_broken: 0b
@@ -763,7 +763,7 @@
 						"tconstruct:attack_speed": 1.7600001f
 						"tconstruct:mining_speed": 2.25f
 						"tconstruct:attack_damage": 5.5125f
-						"tconstruct:harvest_level": 2.0f
+						"tconstruct:harvest_level": 3.0f
 						"tconstruct:durability": 172.7f
 					}
 					tic_broken: 0b
@@ -1176,12 +1176,25 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "5341833D6B0E587D"
-				type: "item"
-				title: "Drifloon seemed to feel you were sad at losing the skull, and thoughtfully went to find you another."
-				item: "minecraft:skeleton_skull"
-			}]
+			rewards: [
+				{
+					id: "5341833D6B0E587D"
+					type: "item"
+					title: "Drifloon seemed to feel you were sad at losing the skull, and thoughtfully went to find you another."
+					item: "minecraft:skeleton_skull"
+				}
+				{
+					id: "16D114E8624E4693"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 32
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Tier 3 Armor"
@@ -1337,10 +1350,10 @@
 						"tconstruct:durability": 1.1f
 					}
 					tic_stats: {
-						"tconstruct:attack_speed": 1.84f
+						"tconstruct:attack_speed": 2.0f
 						"tconstruct:mining_speed": 2.0f
 						"tconstruct:attack_damage": 6.3250003f
-						"tconstruct:harvest_level": 3.0f
+						"tconstruct:harvest_level": 5.0f
 						"tconstruct:durability": 313.5f
 					}
 					tic_broken: 0b
@@ -2318,6 +2331,37 @@
 				id: "793FECD5202FC504"
 				type: "item"
 				item: "pixelmon:fire_stone_shard"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			description: [
+				"It is a good idea to build an arena for handling invasions. Enemies won't automatically know where you are, so you will need to find a way to lure them to you."
+				""
+				"In almost every invasion, one monster will spawn directly on  your current location. So unfair!"
+				""
+				"This means that if you've built a safe-house to fight the invasion from, you won't want to run there until after it's spawned, or you'll risk being trapped in a very small space with something that wants to kill you. If possible, keep moving while you know the invasion is coming to avoid taking any cheap hits."
+			]
+			dependencies: [
+				"2CD5260731F941D8"
+				"601402B6E9C3738F"
+				"5F70B4805B0672DE"
+			]
+			id: "73CABCF8D0DBABD3"
+			tasks: [{
+				id: "35B327494C0982DC"
+				type: "questsadditions:time"
+				title: "Invasion Advice"
+				icon: "pixelmon:eye_of_lugia"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "09CD28D968AF04AD"
+				type: "item"
+				title: "Wait, what made these?"
+				item: "biomesoplenty:umbran_slab"
+				count: 32
 			}]
 		}
 	]

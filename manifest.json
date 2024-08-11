@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "16 Pixelmon Ghosts",
-  "version": "0.6.13",
+  "version": "0.6.14",
   "author": "",
   "files": [
     {
@@ -87,6 +87,11 @@
     {
       "projectID": 74924,
       "fileID": 3631982,
+      "required": true
+    },
+    {
+      "projectID": 280510,
+      "fileID": 3732244,
       "required": true
     },
     {

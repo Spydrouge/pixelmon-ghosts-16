@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "bettercompat:mana",
+      "level": 1
+    },
+    {
+      "name": "materialis:pixiecaller",
+      "level": 1
+    }
+  ]
+}

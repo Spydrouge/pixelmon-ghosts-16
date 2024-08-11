@@ -2892,6 +2892,7 @@
 				id: "0A5D2ECF674F027D"
 				type: "item"
 				item: "botania:fertilizer"
+				count: 4
 			}]
 		}
 		{
@@ -2920,6 +2921,17 @@
 						id: "botania:cosmetic_cat_ears"
 						Count: 1b
 						tag: { }
+					}
+				}
+				{
+					id: "2D2E26195321D60E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 5
+						}
 					}
 				}
 			]

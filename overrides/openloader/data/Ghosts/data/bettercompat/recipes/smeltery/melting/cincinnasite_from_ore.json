@@ -2,10 +2,6 @@
   "condition": {
     "values": [
       {
-        "prop": "force_integration_materials",
-        "type": "tconstruct:config"
-      },
-      {
         "modid": "betternether",
         "type": "forge:mod_loaded"
       }
