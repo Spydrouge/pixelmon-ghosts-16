@@ -4278,44 +4278,215 @@
 			}]
 		}
 		{
-			icon: "minecraft:end_portal_frame"
+			title: "Assistance in the Nether"
 			x: -0.5d
-			y: 6.5d
-			description: [
-				"This prayer is for when you've placed down and end portal frame in an inadvisable location."
-				""
-				"Stand on the offending end portal frame block,  make this offering, and the block will be returned to your inventory."
-				""
-				"Because end portal frames are a full block tall with an eye in them, and only a partial block tall without an eye in them, this function will deal with end portal frames at ~ ~ ~ and ~ ~-1 ~ simultaneously, and refund you for each frame block it finds."
-			]
-			dependencies: ["42EC53C495F34D33"]
+			y: 8.5d
+			description: ["Any of these offerings can be made to locate structures in the Nether. Make sure you claim them while in the Nether dimension, or they will fail and your resources will not be refunded."]
+			dependencies: ["5742DF95648CAE94"]
 			hide: true
-			optional: true
-			repeatable: true
-			id: "760FB813BC88486B"
+			id: "25C4F6BF87A5D9B9"
+			tasks: [{
+				id: "7F2C1E4F79D3F563"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Where is the nearest Nether Den?"
+			x: -0.5d
+			y: 7.0d
+			description: ["Where is the nearest Max Raid Den? Make an offering to Arceus in hope of answers."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			id: "043B5DABE875EF76"
 			tasks: [
 				{
-					id: "4B4D0884E175C9D1"
+					id: "4A1616FD33DF87F7"
 					type: "item"
-					item: "minecraft:ender_eye"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+					consume_items: true
 				}
 				{
-					id: "5884AD8B98DEDC09"
+					id: "17403D9DCA2F088B"
 					type: "item"
-					item: "ends_delight:chorus_flower_pie"
+					item: "minecraft:blaze_rod"
+					consume_items: true
 				}
 				{
-					id: "0786AD3F8C93862F"
+					id: "4A745B767D51E9DC"
 					type: "item"
-					item: "minecraft:end_stone"
+					item: "minecraft:magma_block"
+					consume_items: true
+				}
+				{
+					id: "2BCE65FFD4D12384"
+					type: "item"
+					item: "pixelmon:blue_shard"
 				}
 			]
 			rewards: [{
-				id: "4ECF8F160F355BD6"
+				id: "2541846CE6F7964C"
 				type: "command"
-				title: "Will Remove End Portal Frames at ~ ~ ~ and ~ -1 ~ and refund them"
-				icon: "minecraft:end_portal_frame"
-				command: "/function ghosts:remove_end_portal_frame"
+				title: "Find nearest Den"
+				icon: "pixelmon:den_spawner"
+				command: "/execute at @p as @p run locate pixelmon:nether_den"
+				player_command: true
+			}]
+		}
+		{
+			title: "I wish to go to the roof of the Nether"
+			x: 0.5d
+			y: 7.5d
+			description: [
+				"The surface of the planet is long gone, but with all the layers stripped away there still seems to be a cooling core of bedrock that can be walked on. You may wish to travel up there and look for Hidden Pokeloot chests or to gain better control over spawning conditions."
+				""
+				"The Nether Roof can also be reached from the Quartz Desert, which has spires of quartz that pierce the bedrock surface."
+			]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			id: "6C4A1905D55D5E1E"
+			tasks: [
+				{
+					id: "7A6CDA8C325CDFFF"
+					type: "item"
+					item: "minecraft:sticky_piston"
+					consume_items: true
+				}
+				{
+					id: "0F1E12F45C2BA73C"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "1194995D1B5A57E8"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "25BF19FA10A1A041"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+			]
+			rewards: [{
+				id: "6B1E8F1712FE1060"
+				type: "command"
+				title: "Teleport to the roof of the Nether"
+				icon: "minecraft:bedrock"
+				command: "/execute at @p as @p run tp ~ 128 ~"
+				player_command: false
+			}]
+		}
+		{
+			title: "The Nether Fortress"
+			x: 1.0d
+			y: 8.5d
+			description: ["Where is the nearest Fortress? Make an offering to Arceus in hope of answers."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			id: "275BCC637C419586"
+			tasks: [
+				{
+					id: "6730F92511B0DB07"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "52BD09E667AD300E"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					consume_items: true
+				}
+				{
+					id: "6D49729E5ECCF032"
+					type: "item"
+					item: "minecraft:nether_wart"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40EB80E353B186CC"
+				type: "command"
+				title: "Finds the nearest Fortress"
+				icon: "minecraft:nether_bricks"
+				command: "/execute at @p as @p run locate fortress"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			description: ["Where is the nearest Bastion? Make an offering to Arceus in hope of answers."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			id: "6CA694CDB003633E"
+			tasks: [
+				{
+					id: "60522808206E4455"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					consume_items: true
+				}
+				{
+					id: "1356BBC805AB7C9E"
+					type: "item"
+					item: "minecraft:porkchop"
+					consume_items: true
+				}
+				{
+					id: "4314FAF0CBA4FA3F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+			rewards: [{
+				id: "61DCF4645D61687B"
+				type: "command"
+				title: "Find nearest Bastion."
+				icon: "minecraft:gilded_blackstone"
+				command: "/execute at @p as @p run locate bastion_remnant"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			dependencies: ["25C4F6BF87A5D9B9"]
+			id: "002929F34948509F"
+			tasks: [
+				{
+					id: "0EBDEE946E509872"
+					type: "item"
+					item: "minecraft:purple_glazed_terracotta"
+				}
+				{
+					id: "65F63E54860ACDAA"
+					type: "item"
+					item: "minecraft:white_glazed_terracotta"
+				}
+				{
+					id: "00CA3CA0C9897083"
+					type: "item"
+					item: "minecraft:iron_bars"
+				}
+				{
+					id: "5C9804441A51E362"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+			rewards: [{
+				id: "2CDEF5AC92B6C243"
+				type: "command"
+				title: "Find the Nearest Nether Grotto"
+				icon: "pixelmon:master_chest"
+				command: "/execute at @p as @p run locate pixelmon:grotto_nether"
 				player_command: false
 			}]
 		}

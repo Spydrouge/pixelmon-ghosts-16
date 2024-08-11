@@ -46,6 +46,32 @@
         ]
       },
       "rarity": 5.0
+    },
+    {
+      "spec": "species:Ceruledge",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade",
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:withering_forest",
+          "byg:weeping_mire_forest",
+            "byg:weeping_mire",
+            "byg:weeping_mire_clearing",
+            "byg:wailing_garth"
+            
+         ]
+      },
+      "rarity": 5.0
     }
   ]
 }

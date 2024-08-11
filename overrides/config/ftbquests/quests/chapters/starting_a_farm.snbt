@@ -3084,5 +3084,33 @@
 				}
 			]
 		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: [
+				"Rich Soul Soil can be used to grow nether fungi, but it has a more important function. If a piece of soul soil is left alone in the dark, there is a random change for a Mimicarnation to spawn on top of it. Mimicarnations give off light, so if one spawns, it will prevent nearby rich soul sand from spawning more. Consider this when designing a Mimicarnation farm."
+				""
+				"Mimicarnations, when heated up in a cooking pot with other plants, can double or even triple those plants. This can be used to duplicate Dark Oak saplings, if you've finally secured one but not the other three, or to duplicate a selection of small flowers that can't be bonemealed."
+			]
+			dependencies: ["0940C009E9B6F828"]
+			hide: true
+			id: "4B1822BBB0D17F60"
+			tasks: [{
+				id: "21629DC6EF6BD9A9"
+				type: "item"
+				item: "nethers_delight:mimicarnation"
+			}]
+			rewards: [{
+				id: "4CFBE28744BF77BA"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen1"
+					Count: 1b
+					tag: {
+						tm: 31
+					}
+				}
+			}]
+		}
 	]
 }

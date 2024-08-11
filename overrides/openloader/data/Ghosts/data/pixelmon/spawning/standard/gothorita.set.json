@@ -24,6 +24,52 @@
       },
       "rarity": 8.0
     },
+      {
+      "spec": "species:Gothorita",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grepa_berry",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 33,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:withering_woods",
+            "byg:weeping_mire",	"byg:weeping_mire_clearing",	"byg:weeping_mire_forest"
+        ]
+      },
+      "rarity": 16.0
+    },
+    {
+      "spec": "species:Gothorita",
+      "stringLocationTypes": [
+        "Land",
+        "Undrground"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grepa_berry",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 33,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:withering_woods",
+            "byg:weeping_mire",	"byg:weeping_mire_clearing",	"byg:weeping_mire_forest"
+        ]
+      },
+      "rarity": 8.0
+    },
     {
       "spec": "species:Gothorita",
       "stringLocationTypes": [

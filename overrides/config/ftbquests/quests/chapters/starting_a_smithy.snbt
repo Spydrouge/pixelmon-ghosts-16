@@ -1463,7 +1463,7 @@
 		}
 		{
 			x: 2.0d
-			y: 2.0d
+			y: 3.0d
 			description: [
 				"The smoker is a variant of the furnace that specializes in quickly cooking food. It loses the ability to smelt regular items"
 				""
@@ -1574,7 +1574,7 @@
 		}
 		{
 			x: 5.5d
-			y: 1.5d
+			y: 2.0d
 			description: [
 				"The Stonecutter can be used to turn rough tumblestones into a smoothed form, which will allow you to make Ancient Pokeballs. It is one of several good ways to spend your first Iron Ingot."
 				""
@@ -1697,7 +1697,7 @@
 		}
 		{
 			x: 8.0d
-			y: 0.5d
+			y: 1.0d
 			description: ["Take 3 Raw Tumblestones and smooth them out at the Stone Cutter. These can then be used for an Ancient Pokeball, Great Ball, or Ultra Ball lid."]
 			dependencies: ["19BADF27DFCC9EFB"]
 			hide: true
@@ -1724,7 +1724,7 @@
 		}
 		{
 			x: 8.0d
-			y: 1.5d
+			y: 2.0d
 			description: ["Take 3 Raw Sky Tumblestones and smooth them out at the Stone Cutter. These can then be used for a Wing Ball, Feather Ball, or Jet Ball Lid."]
 			dependencies: ["19BADF27DFCC9EFB"]
 			hide: true
@@ -1751,7 +1751,7 @@
 		}
 		{
 			x: 8.0d
-			y: 2.5d
+			y: 3.0d
 			description: ["Take 3 Raw Black Tumblestones and smooth them out at the Stone Cutter. These can then be used for an Ancient Heavy Ball, Leaden Ball, or Gigaton Ball lid."]
 			dependencies: ["19BADF27DFCC9EFB"]
 			hide: true
@@ -3225,7 +3225,7 @@
 		}
 		{
 			x: 9.0d
-			y: 1.5d
+			y: 2.0d
 			description: [
 				"Feather Balls do not have an enhanced catch rate, and still require the two silver ingots of the Ancient Great Ball. However, they produce 5 balls instead of 3, making them cheaper than Love Balls."
 				""
@@ -3268,7 +3268,7 @@
 		}
 		{
 			x: 9.0d
-			y: 2.5d
+			y: 3.0d
 			description: [
 				"This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."
 				""
@@ -3312,7 +3312,7 @@
 		}
 		{
 			x: 9.0d
-			y: 0.5d
+			y: 1.0d
 			description: [
 				"The recipe for an Ancient Great Ball requires two silver ingots and three tumblestones, and yields three balls."
 				""
@@ -3369,7 +3369,7 @@
 		}
 		{
 			x: 10.0d
-			y: 0.5d
+			y: 1.0d
 			description: [
 				"Ancient Ultra balls are no cheap thing to make, requiring two platinum ingots for a recipe that only produces a single ball."
 				""
@@ -3420,7 +3420,7 @@
 		}
 		{
 			x: 10.0d
-			y: 2.5d
+			y: 3.0d
 			description: [
 				"Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."
 				""
@@ -3473,7 +3473,7 @@
 		}
 		{
 			x: 10.0d
-			y: 1.5d
+			y: 2.0d
 			description: ["Jet Balls are the least valuable of the ancient, high-end, platinum demanding balls. Their catch rate is only 1.5x, which is the same as a Great Ball, and the only benefit of using them, their ability to travel very far and potentially hit flying Pokemon, is difficult to pull off in a void. As long as it does not fly too far, Drifloon will attempt to catch it if it misses the Pokemon. But to use one safely, you will only ever want to fire straight up on a fairly large platform."]
 			dependencies: ["0825C5137B2FE74B"]
 			hide: true
@@ -3510,7 +3510,7 @@
 		}
 		{
 			x: 11.0d
-			y: 1.5d
+			y: 2.0d
 			description: ["While making the Wing Ball according to its usual recipe would be a massive waste of resources, you think you can create a Wing Ball lid using Electrum Wire."]
 			dependencies: ["0C4615C77474AEBD"]
 			id: "1FE3287A37C5C2BD"
@@ -3547,7 +3547,7 @@
 		}
 		{
 			x: 11.0d
-			y: 2.5d
+			y: 3.0d
 			description: ["While making an Ancient Heavy Ball by the usual recipe would be a waste of iron, you believe you can substitute Lead Wire for the Iron Ingots in the recipe."]
 			dependencies: ["6ADA80A32DE8B4B4"]
 			id: "5D21B396FE5D7D44"
@@ -3585,7 +3585,7 @@
 		}
 		{
 			x: 4.0d
-			y: 2.0d
+			y: 2.5d
 			description: [
 				"Requires three Aluminum ingots and yields five balls, these are the easiest Pokeball to grind for and produce."
 				""
@@ -3640,7 +3640,7 @@
 		}
 		{
 			x: 4.0d
-			y: 1.0d
+			y: 1.5d
 			description: [
 				"Requires three silver ingots and yields five balls. These Pokeballs are the first balls with an enhanced catch rate."
 				""
@@ -3749,7 +3749,7 @@
 		}
 		{
 			x: -2.0d
-			y: -4.0d
+			y: -2.0d
 			description: [
 				"Most Steel type Pokemon are already made of steel, which is strong and tough. Iron on its own is brittle and weak. You probably won't find much use for a blast furnace, but you might want to build one to prove something to the universe."
 				""
@@ -3842,6 +3842,18 @@
 					item: "immersiveengineering:windmill"
 				}
 			]
+			rewards: [
+				{
+					id: "2EFEBD41934D24E1"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "579B6AC1E36037C9"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -3888,12 +3900,28 @@
 				type: "item"
 				item: "immersiveengineering:dynamo"
 			}]
+			rewards: [{
+				id: "634643FAC4CA6AB9"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen2"
+					Count: 1b
+					tag: {
+						tm: 1
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
 			y: -3.0d
-			description: ["You don't have the ability to make a LV Capacitor, but you can link the Windmill directly to a machine that needs power."]
+			description: [
+				"You don't have the ability to make a LV Capacitor, but you can link the Windmill directly to a machine that needs power."
+				""
+				"Rotom will rarely drop electrical wires. The only Pokemon who drop copper ingots directly are Bronzong and Metang; you might want to make until you can melt nuggets into ingots before completing this quest, unless you are confident in your ability to lure out Bronzong"
+			]
 			dependencies: ["279AB6F00EF33DFC"]
+			hide: true
 			id: "228942B06DB4B061"
 			tasks: [
 				{
@@ -3908,21 +3936,36 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "48904F70CE13A8EC"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
 		}
 		{
 			x: -7.0d
-			y: -4.0d
+			y: -2.0d
 			description: [
 				"The Garden Cloche is capable of reproducing a number of crops, plants, and fungi."
 				""
 				"You may struggle to afford the iron mechanical component, but can harass Klink on the Stone Layer until one drops one."
 			]
 			dependencies: ["228942B06DB4B061"]
+			hide: true
 			id: "2127E58685636654"
 			tasks: [{
 				id: "2C976B9E5F4BC5B3"
 				type: "item"
 				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "483534CE7C42BBF9"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_pink_flower_bud"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -3935,6 +3978,7 @@
 				"You will need to use alternative sheet metal whenever possible to make the most of all your materials."
 			]
 			dependencies: ["228942B06DB4B061"]
+			hide: true
 			min_required_tasks: 1
 			id: "4534E57B2ECCAE5F"
 			tasks: [
@@ -3975,7 +4019,7 @@
 		}
 		{
 			x: -7.0d
-			y: -2.0d
+			y: -4.0d
 			description: [
 				"The Metal Press can speed up the creation of plates and wires, far above what any Meltery is capable of."
 				""
@@ -3985,6 +4029,7 @@
 				"228942B06DB4B061"
 				"0AB6B07E4EC09194"
 			]
+			hide: true
 			min_required_tasks: 1
 			id: "3B5EE68C9A94B23C"
 			tasks: [
@@ -4002,10 +4047,16 @@
 					to_observe: "immersiveengineering:metal_press"
 				}
 			]
+			rewards: [{
+				id: "74E4FE75ABA45634"
+				type: "item"
+				item: "tconstruct:iron_reinforcement"
+				count: 16
+			}]
 		}
 		{
 			x: -3.0d
-			y: -2.0d
+			y: -4.0d
 			description: ["Conveyor Belts do not require power, and can be used to automate the transportation of items or entities."]
 			dependencies: ["3ADDDE4CCB80BA89"]
 			id: "0AB6B07E4EC09194"
@@ -4017,7 +4068,7 @@
 		}
 		{
 			x: -4.0d
-			y: -1.0d
+			y: -5.0d
 			description: ["Extracting conveyor belts are expensive, and you may want to stick with Wooden Hoppers, which are much cheaper, if slower."]
 			dependencies: ["0AB6B07E4EC09194"]
 			id: "16CFCAD74C613F1E"
@@ -4053,6 +4104,7 @@
 				"Plant oil can be mixed with calcium mash in order to produce a milk substitute. The result can be used in cooking, and it may be more convenient to passively produce milk in the background than to go hunt down another Milcery."
 			]
 			dependencies: ["4534E57B2ECCAE5F"]
+			hide: true
 			id: "21C6195FF8C6AAE2"
 			tasks: [{
 				id: "43F91790BCF2496F"
@@ -4084,7 +4136,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -2.0d
 			y: -4.0d
 			description: [
 				"Are you more confident in your engineering skills, or your botanical ones?"
@@ -4103,15 +4155,27 @@
 				type: "item"
 				item: "botania:mana_fluxfield"
 			}]
-			rewards: [{
-				id: "45EDDB2DF010CECF"
-				type: "item"
-				item: "botania:black_lotus"
-			}]
+			rewards: [
+				{
+					id: "45EDDB2DF010CECF"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+				{
+					id: "3DC3C71FA0930B5B"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2D4B60243C5E991E"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
 		}
 		{
 			x: -3.0d
-			y: 2.0d
+			y: 1.0d
 			description: [
 				"The low voltage copper coil block can be harvested from Tynamo, or crafted at a premium. Even if you obtain a Kinetic Dynamo directly from Klinklang, you might still want to obtain a few Coils."
 				""
@@ -4131,7 +4195,7 @@
 		}
 		{
 			x: -3.0d
-			y: 3.0d
+			y: 2.0d
 			description: [
 				"The Electrum-based Mid-Voltage Coil can be harvested from Elektrik, Tynamo's evolved form. "
 				""
@@ -4148,7 +4212,7 @@
 		}
 		{
 			x: -3.0d
-			y: 4.0d
+			y: 3.0d
 			description: [
 				"The Steel-based High voltage coil can be harvested from Tynamo's final evolution, Elektross. "
 				""
@@ -4165,7 +4229,7 @@
 		}
 		{
 			x: -4.0d
-			y: 2.0d
+			y: 1.0d
 			description: [
 				"The charging station attracts Magnemite to a slightly higher level than the lone Coil."
 				""
@@ -4182,7 +4246,7 @@
 		}
 		{
 			x: -5.0d
-			y: 2.0d
+			y: 1.0d
 			description: [
 				"The current transformer is the next stage in Magnemite attraction technology."
 				""
@@ -4198,8 +4262,12 @@
 		}
 		{
 			x: -5.0d
-			y: 1.0d
-			description: ["The railgun is an expensive upgrade to the revolver. Technically, none of its components require raw, brittle, cast iron. You may be able to make it from leftover metal, especially if you have been recieving a lot of steel or lead."]
+			y: 0.0d
+			description: [
+				"The railgun is an expensive upgrade to the revolver. Technically, none of its components require raw, brittle, cast iron. You may be able to make it from leftover metal, especially if you have been recieving a lot of steel or lead."
+				""
+				"It is the only tool that, to your knowledge, requires a charge."
+			]
 			dependencies: [
 				"471B0E2EF46C30C6"
 				"5CADE6A95E631F8E"
@@ -4220,12 +4288,24 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0C0BF232CE2A5BD5"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 72
+					}
+				}
+			}]
 		}
 		{
 			x: -6.0d
-			y: 1.0d
+			y: 0.0d
 			description: ["The tesla coil is a power-hungry defensive structure you really do not have the power to run. But it is quite attractive to Magnemite enroute to working on the Lightning Rod."]
 			dependencies: ["01550F09D31E56C8"]
+			hide: true
 			id: "17813D5126DCCEF4"
 			tasks: [{
 				id: "50CC76C53B8B0296"
@@ -4235,8 +4315,9 @@
 		}
 		{
 			x: -5.0d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["5CADE6A95E631F8E"]
+			hide: true
 			id: "6838B9B5005A06E5"
 			tasks: [{
 				id: "5028DCD25F963535"
@@ -4246,8 +4327,9 @@
 		}
 		{
 			x: -5.0d
-			y: 4.0d
+			y: 3.0d
 			dependencies: ["0A414E8D40C006D3"]
+			hide: true
 			id: "10723F7054F3E2D3"
 			tasks: [{
 				id: "46547AECEADF2005"
@@ -4257,7 +4339,7 @@
 		}
 		{
 			x: -8.0d
-			y: 3.0d
+			y: 2.0d
 			description: [
 				"The pinnacle of Magnemite, Magneton, and Magnezone attraction technology: A true lightning rod."
 				""
@@ -4268,6 +4350,7 @@
 				"6838B9B5005A06E5"
 				"01550F09D31E56C8"
 			]
+			hide: true
 			min_required_tasks: 1
 			id: "2ED59DA2C7464A7B"
 			tasks: [
@@ -4285,6 +4368,419 @@
 					to_observe: "immersiveengineering:lightning_rod"
 				}
 			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: [
+				"Even with the simplest of ammunition, the revolver can kill most enemies in two hits. Loading bullets is a manual process during which the player must shift right click and expel old cartridges. Various customizations can be added at the Engineer's workbench."
+				""
+				"Firing a revolver agitates every enemy in an area, including mobs that otherwise would leave you alone, such as Endermen."
+				""
+				"For this reason, it can be a valuable tool in setting up traps for enemies, or bringing them into melee range."
+				""
+				"Remember that in order to make bullets for the revolver, one will require an engineering table."
+			]
+			dependencies: ["3ADDDE4CCB80BA89"]
+			id: "09DD0640D0B03DF2"
+			tasks: [{
+				id: "19F97D0D51B3281B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29BB1F189ADB1A86"
+					type: "item"
+					item: "immersiveengineering:silver"
+					count: 12
+				}
+				{
+					id: "77E91F5481A2B7B4"
+					type: "item"
+					item: "immersiveengineering:casull"
+					count: 24
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			description: [
+				"Item routers can accept input directly from conveyer belts without the need for hoppers or other equipment. It will sort the input it recieves based on the instructions you give it, and output in one of six directions. "
+				""
+				"It is useful for creating simple sorting systems for automated setups."
+			]
+			dependencies: ["0AB6B07E4EC09194"]
+			id: "7DBA9B04709E4735"
+			tasks: [{
+				id: "24C62D218CAE433B"
+				type: "item"
+				item: "immersiveengineering:sorter"
+			}]
+			rewards: [{
+				id: "1CCFE971AD5B5D78"
+				type: "item"
+				item: "pixelmon:item_finder"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: [
+				"You aren't sure where to find seeds for any type of fabric for making sturdy windmill sails. But you have found that kind of fabric on Duskull and Shuppet."
+				""
+				"Sails can be added directly to the windmill in the world."
+			]
+			dependencies: ["034061A64DFB739A"]
+			hide: true
+			id: "653E09E8E3DE6FEE"
+			tasks: [{
+				id: "6C9D22EBA0CC7007"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			rewards: [
+				{
+					id: "6FAB0118424658DC"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "0A9E3844C48165ED"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 59
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Build a PC!"
+			x: 4.0d
+			y: -5.5d
+			description: [
+				"You can of course use offerings to Arceus to access the PC network, but it would really be nice to have a less spiritual solution. There are two ways to obtain a PC. The first is to build one, for which you will have to loot a grand total of six ingots worth of aluminum, as well as redstone and glowstone, and you will need to use an Engineering setup to make a circuit board."
+				""
+				"The second is to fight Porygon, and see if in fighting them you can convince any of them to turn into a PC and help you out."
+				""
+				"The PC that can be built and looted is the uncolored White PC."
+			]
+			dependencies: ["15FA67EAB413D40A"]
+			hide: true
+			id: "790DDF4274AFEA6D"
+			tasks: [{
+				id: "566D8F43F0B79AB6"
+				type: "item"
+				title: "Any #pixelmon:pcs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "pixelmon:pcs"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			description: ["It is time to assemble your creation!"]
+			hide: true
+			id: "21048F00149E326C"
+			tasks: [{
+				id: "0F679B2C42C2CA37"
+				type: "item"
+				item: "pixelmon:fossil_machine"
+			}]
+			rewards: [
+				{
+					id: "2A2A63AC18683CBC"
+					type: "item"
+					item: "pixelmon:fossil"
+				}
+				{
+					id: "795558B8246FE5B7"
+					type: "item"
+					item: "pixelmon:fossil_display"
+				}
+				{
+					id: "1A4230131CF99281"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			description: ["The Fossil Display is the only part that requires metals other than Aluminum. Copper or Electrum must be used. Redstone engineering blocks also require aluminum wire."]
+			dependencies: [
+				"21048F00149E326C"
+				"1D57FFBE88DF9D91"
+			]
+			hide: true
+			id: "613061C14B30055E"
+			tasks: [{
+				id: "16CB6C09972B58B0"
+				type: "item"
+				item: "pixelmon:fossil_machine_display"
+			}]
+			rewards: [{
+				id: "52C21672C4483846"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			description: ["The top and base of the fossil machine are not complicated, merely expensive. Each requires multiple aluminum ingots."]
+			dependencies: ["21048F00149E326C"]
+			hide: true
+			id: "5DFFF2A24948F7FB"
+			tasks: [
+				{
+					id: "1A69997B47AAD8BE"
+					type: "item"
+					item: "pixelmon:fossil_machine_top"
+				}
+				{
+					id: "093CAA0AD00412BA"
+					type: "item"
+					item: "pixelmon:fossil_machine_base"
+				}
+			]
+			rewards: [
+				{
+					id: "3D7A6D112854ECB5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 30
+						}
+					}
+				}
+				{
+					id: "1306D1AB3F3522F6"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			description: ["The tank is the easiest peice to make, and the only one that is metal free."]
+			dependencies: ["21048F00149E326C"]
+			hide: true
+			id: "3996A51F1D631F1D"
+			tasks: [{
+				id: "7607FD9260F2BCC0"
+				type: "item"
+				item: "pixelmon:fossil_machine_tank"
+			}]
+			rewards: [
+				{
+					id: "5462128D61136543"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 11
+						}
+					}
+				}
+				{
+					id: "7CBF070B52634D7E"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			icon: "pixelmon:fossil_machine"
+			x: 4.0d
+			y: -6.5d
+			description: [
+				"You don't exactly need a fossil machine; Arceus has seen fit to revive fossils for you like little phoenixes, turned back into egg form!"
+				""
+				"But eggs take time to hatch. A fossil machine would do the work of reviving a fossil and growing the new Pokemon until it was of an appropriate size to Pokeball."
+				""
+				"The primary ingredient you need to make a Fossil machine is aluminum. You have to obtain a tremendous amount of aluminum."
+			]
+			dependencies: [
+				"790DDF4274AFEA6D"
+				"613061C14B30055E"
+				"5DFFF2A24948F7FB"
+				"3996A51F1D631F1D"
+			]
+			hide: true
+			id: "0DF5601FBD613477"
+			tasks: [{
+				id: "5E777830595FEEDC"
+				type: "checkmark"
+				title: "The Fossil Machine Plan"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			description: [
+				"Now that you can pour iron ingots, you can decide what you want to do with them. "
+				""
+				"A stone cutter is probably the fastest way to produce some Pokeballs from Tumblestones."
+				""
+				"You could also create an Engineering Workbench, which would allow you to make circuit boards for complex devices."
+			]
+			dependencies: ["15FA67EAB413D40A"]
+			hide: true
+			id: "1D57FFBE88DF9D91"
+			tasks: [{
+				id: "0EEFA5645C111B14"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [
+				{
+					id: "717B9B692EBD4AEC"
+					type: "item"
+					title: "Drifloon is helping!"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+				{
+					id: "06FD9DDA433FF687"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -11.5d
+			dependencies: [
+				"3F85D3D4D1667296"
+				"2202AFD211563B98"
+				"61CAD1CD2D30703E"
+			]
+			hide: true
+			id: "6C356D9A3C48C131"
+			tasks: [{
+				id: "7B7F6D225D8725FC"
+				type: "item"
+				item: "pixelmon:cloning_machine"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.5d
+			description: ["The orange tank requires gold, which can be mined from the Nether or harvested from Yamask."]
+			dependencies: [
+				"30E49862081FA059"
+				"6419FF0B9AA8A6EF"
+			]
+			hide: true
+			id: "3F85D3D4D1667296"
+			tasks: [{
+				id: "6D643E0BF3E24F83"
+				type: "item"
+				item: "pixelmon:orange_tank"
+			}]
+			rewards: [{
+				id: "08E2F6046725437E"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			description: ["The green Cloning Tank requires Emerald, which can be harvested from Drowned Sableye, or assembled from Emeraldite Shards from the Nether."]
+			dependencies: [
+				"30E49862081FA059"
+				"6419FF0B9AA8A6EF"
+			]
+			hide: true
+			id: "61CAD1CD2D30703E"
+			tasks: [{
+				id: "402E451932AC9D87"
+				type: "item"
+				item: "pixelmon:green_tank"
+			}]
+			rewards: [{
+				id: "5BA42EA49FDC8025"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.5d
+			description: ["The cloning cord is made entirely of obsidian and redstone."]
+			dependencies: [
+				"30E49862081FA059"
+				"6419FF0B9AA8A6EF"
+			]
+			hide: true
+			id: "2202AFD211563B98"
+			tasks: [{
+				id: "02602D5EE3FB6E35"
+				type: "item"
+				item: "pixelmon:cloner_cord"
+			}]
+			rewards: [{
+				id: "379CFFEF9708A008"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/151_mew/all/base/none/sprite.png"
+				}
+			}
+			x: 4.0d
+			y: -9.5d
+			description: [
+				"Remember the long grind to make a Fossil Machine? Want to do it all over again, twice? For no clear purpose?"
+				""
+				"Now that you have access to Obsidian, you can theoretically make a cloning machine. Although you expect it to be another aluminum grind if you choose to do so."
+				""
+				"You aren't entirely sure what you'd do with a Cloning Machine. You have nothing you need to clone."
+			]
+			dependencies: ["21048F00149E326C"]
+			hide: true
+			id: "6419FF0B9AA8A6EF"
+			tasks: [{
+				id: "48E754E8040DE4F7"
+				type: "checkmark"
+				title: "Cloning Machine?"
+			}]
 		}
 	]
 }

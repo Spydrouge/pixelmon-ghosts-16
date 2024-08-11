@@ -51,7 +51,8 @@
         "Indoors",
         "Manmade",
         "Sweet Scent",
-        "Headbutt"
+        "Headbutt",
+        "Tree Top"
       ],
       "minLevel": 5,
       "maxLevel": 29,
@@ -129,7 +130,7 @@
       "spec": "species:Murkrow",
       "stringLocationTypes": [
         "Air",
-        "Treetops",
+        "Tree Top",
         "Sweet Scent",
         "Headbutt"
       ],

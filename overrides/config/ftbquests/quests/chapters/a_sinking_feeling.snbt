@@ -1460,8 +1460,20 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "04C9BC670550E1F6"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen7"
+					Count: 1b
+					tag: {
+						tm: 96
+					}
+				}
+			}]
 		}
 		{
+			title: "Wailing Garth"
 			x: 2.0d
 			y: -18.0d
 			description: [
@@ -1527,6 +1539,11 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
+				{
+					id: "2DB1E901E95111AB"
+					type: "biome"
+					biome: "byg:wailing_garth"
+				}
 			]
 			rewards: [
 				{
@@ -1573,9 +1590,15 @@
 						}
 					}
 				}
+				{
+					id: "765A6CE3C48C74B0"
+					type: "item"
+					item: "pixelmon:dusk_stone_ore"
+				}
 			]
 		}
 		{
+			title: "Embur Bog"
 			x: 2.0d
 			y: -17.0d
 			description: [
@@ -1585,7 +1608,7 @@
 				""
 				"The Embur Bog is also a source of blue Netherrack, which otherwise must be crafted."
 				""
-				"Ember Lilies grow here, which be used to create pathways on lava, similar to regular lily pads with water."
+				"Ember Lilies grow here, which be used to create pathways on lava, similar to regular lily pads with water. Embur Gel block can be used as a road surface and increases your speed."
 			]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -1629,7 +1652,13 @@
 				{
 					id: "759AFD7ADE08FF04"
 					type: "biome"
-					biome: "byg:wailing_garth"
+					biome: "byg:embur_bog"
+				}
+				{
+					id: "6C60AA071002529D"
+					type: "item"
+					item: "byg:embur_gel_block"
+					count: 16L
 				}
 			]
 			rewards: [
@@ -1639,19 +1668,36 @@
 					item: "byg:raw_pendorite"
 				}
 				{
-					id: "7C46D3DFBB055C82"
+					id: "4193E0DD4ED540FD"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen2"
+						id: "pixelmon:tm_gen5"
 						Count: 1b
 						tag: {
-							tm: 3
+							tm: 62
+						}
+					}
+				}
+				{
+					id: "35659B3559D6260D"
+					type: "item"
+					item: "pixelmon:sun_stone_ore"
+				}
+				{
+					id: "52D8983535270E2B"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 12
 						}
 					}
 				}
 			]
 		}
 		{
+			title: "Soul Sand Valley"
 			x: 0.0d
 			y: -15.5d
 			description: [
@@ -1862,6 +1908,24 @@
 					type: "biome"
 					biome: "byg:subzero_hypogeal"
 				}
+				{
+					id: "759757CDC4DB5E6C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mrmime form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "796C5E8C59367FF6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sneasel form:base"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
 			]
 			rewards: [
 				{
@@ -1885,6 +1949,11 @@
 					type: "item"
 					item: "byg:black_ice"
 					count: 16
+				}
+				{
+					id: "2435B01B3152E40F"
+					type: "item"
+					item: "pixelmon:ice_stone_ore"
 				}
 			]
 		}
@@ -1912,6 +1981,7 @@
 			}]
 		}
 		{
+			title: "Warped Desert"
 			x: 0.5d
 			y: -14.5d
 			description: ["You aren't sure if there's anything meaningful you can extract from the Warped Desert, aside from a new color scheme."]
@@ -1976,9 +2046,15 @@
 						}
 					}
 				}
+				{
+					id: "039206B45FE6F2FF"
+					type: "item"
+					item: "pixelmon:dawn_stone_ore"
+				}
 			]
 		}
 		{
+			title: "Quartz Desert"
 			x: -0.5d
 			y: -14.5d
 			description: [
@@ -2041,9 +2117,15 @@
 						}
 					}
 				}
+				{
+					id: "5EDE999EF8960D1B"
+					type: "item"
+					item: "pixelmon:shiny_stone_ore"
+				}
 			]
 		}
 		{
+			title: "Withered Abyss"
 			x: 2.0d
 			y: -16.0d
 			description: [
@@ -2082,6 +2164,39 @@
 					id: "6CC71A6B24EE4265"
 					type: "biome"
 					biome: "biomesoplenty:withered_abyss"
+				}
+				{
+					id: "55C2E9027791D1A2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "umbreon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "1AA6C96D5249ECFA"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 58
+						}
+					}
+				}
+				{
+					id: "282A24CCFFCDEC60"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 93
+						}
+					}
 				}
 			]
 		}
@@ -2153,6 +2268,15 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
+				{
+					id: "596C1AC16A87AA18"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "diglett palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
 			]
 			rewards: [
 				{
@@ -2182,9 +2306,15 @@
 					type: "item"
 					item: "botania:rune_gluttony"
 				}
+				{
+					id: "34DCE5A1232FFFE7"
+					type: "item"
+					item: "pixelmon:water_stone_ore"
+				}
 			]
 		}
 		{
+			title: "Undergrowth"
 			x: -1.0d
 			y: -15.5d
 			description: ["The Undergrowth is a terrible place, with difficult-to-cut thorns everywhere making traversing the biome almost impossible. No one would want to come here, except, you think Pokemon such as Roselia and Ferrothorn might be found here. "]
@@ -2279,9 +2409,15 @@
 						}
 					}
 				}
+				{
+					id: "7DA1BF4E2BEDB48B"
+					type: "item"
+					item: "pixelmon:leaf_stone_ore"
+				}
 			]
 		}
 		{
+			title: "Crystalline Chasm"
 			x: -2.0d
 			y: -16.0d
 			description: [
@@ -2338,6 +2474,322 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Glowstone Gardens"
+			x: -2.0d
+			y: -17.0d
+			dependencies: ["51A51EA666E1500F"]
+			id: "72F57B021C12A754"
+			tasks: [
+				{
+					id: "610624DA7DF0B431"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 16L
+				}
+				{
+					id: "42C75BAC61F32808"
+					type: "biome"
+					biome: "byg:glowstone_gardens"
+				}
+				{
+					id: "03ADBC65CA44DB6E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morpeko"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "56625256C2980830"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "pincurchin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "11ED36681647169E"
+					type: "item"
+					item: "pixelmon:thunder_stone_ore"
+				}
+				{
+					id: "4E04707BD9304D51"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 80
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Withering Woods"
+			x: -2.0d
+			y: -18.0d
+			dependencies: ["51A51EA666E1500F"]
+			id: "6614354254E167F1"
+			tasks: [
+				{
+					id: "55F528B41E819A8A"
+					type: "biome"
+					biome: "byg:weeping_woods"
+				}
+				{
+					id: "5F0052F36B96C0A8"
+					type: "item"
+					item: "byg:withering_oak_sapling"
+				}
+				{
+					id: "64FF1EFC1707D8F9"
+					type: "item"
+					item: "byg:withering_oak_log"
+					count: 16L
+				}
+				{
+					id: "3F0965AE3BB603CF"
+					type: "item"
+					item: "byg:arisian_bloom_branch"
+				}
+				{
+					id: "399B6571C8F6EF2F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2728D534CF1810FA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "31B194159FAAD18D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ceruledge"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2F54059A252AA800"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gligar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "125119FF65248C7F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
+				}
+				{
+					id: "11E70E1A314AE63B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 30
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -19.0d
+			dependencies: ["51A51EA666E1500F"]
+			id: "4C418D250E3F85DB"
+			tasks: [
+				{
+					id: "3D4DA9FF1CBD4713"
+					type: "biome"
+					biome: "byg:weeping_mire"
+				}
+				{
+					id: "383618FA3801767F"
+					type: "item"
+					item: "byg:lament_sapling"
+				}
+				{
+					id: "50EC294232E67B4B"
+					type: "item"
+					item: "byg:lament_log"
+					count: 16L
+				}
+				{
+					id: "2D2EC07990D94330"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ceruledge"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7A79B6F37F53409F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "58AD6235DC58D1E2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "paras palette:valencian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "520F1CA84C39BC76"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "4FC59DF06970C7B3"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 25
+						}
+					}
+				}
+				{
+					id: "2AEC2AA19F001F31"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 97
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Find a Raid Den"
+			x: -2.5d
+			y: -11.0d
+			description: [
+				"Nether raid dens are extremely rare, but the do exist and can be found."
+				""
+				"Under Offerings to Arceus, you will find a repeatable offering you can make to locate the nearest den. Keep in mind the nearest den may be one you've already found."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			id: "11202FEECCC5400B"
+			tasks: [{
+				id: "4292F8F7328A7BBF"
+				type: "questsadditions:interaction"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/gui/raids/watermark.png"
+					}
+				}
+				entity: "pixelmon:den"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "09AB62011B6E66D6"
+				type: "item"
+				item: "pixelmon:den_spawner"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -11.0d
+			description: [
+				"Arceus has blessed you!"
+				""
+				"This Device can be used to spawn a Max Raid Den anywhere you are currently standing. Since they are larger than you, you should make sure to stand in an open area, exactly where you want the den to be placed. "
+				""
+				"Ideally, you should place the Den at your Island, in the Overworld."
+				""
+				"[TIP: Biomes in Jars is installed suggesting you will one day be able to change the Biome of an area. As such, you may want to plan to place your Den in an area you are comfortable changing the biome in the future, when you want diferrent Raid Bosses to spawn there."
+			]
+			dependencies: ["11202FEECCC5400B"]
+			id: "1F695D5EB64071E6"
+			tasks: [{
+				id: "54AB70061D35E55B"
+				type: "item"
+				item: "pixelmon:den_spawner"
+			}]
+			rewards: [{
+				id: "3DE752B530071B6F"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.0d
+			description: [
+				"Grottos are locations where Masterball Tier loot can be found. The Nether Grotto is of especial significance. "
+				""
+				"If you can find one, and it hasn't already been looted by Piglins, there is usually a cracked or damaged Anvil inside. "
+				""
+				"Regardless, Masterball tier loot is always worth searching for."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			id: "11DB1EACBE7114B3"
+			tasks: [{
+				id: "600E59D5D3C54355"
+				type: "structure"
+				structure: "pixelmon:grotto_nether"
+			}]
+			rewards: [{
+				id: "30071480853E893B"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 31
+					}
+				}
+			}]
 		}
 	]
 }

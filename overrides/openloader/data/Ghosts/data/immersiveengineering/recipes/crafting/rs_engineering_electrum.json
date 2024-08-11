@@ -1,0 +1,3 @@
+{"type":"immersiveengineering:turn_and_copy","pattern":["i i"," c ","iri"],"key":{"i":{"tag":"forge:sheetmetals/electrum"},"c":{"item":"minecraft:redstone_lamp"},"r": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }},"result":{"item":"immersiveengineering:rs_engineering","count":4},"quarter_turn":true}

@@ -37,7 +37,8 @@
         "Indoors",
         "Manmade",
         "Sweet Scent",
-        "Headbutt"
+        "Headbutt",
+        "Tree Top"
       ],
       "minLevel": 30,
       "maxLevel": 50,

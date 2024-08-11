@@ -2904,7 +2904,7 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:redstone_dust",
+                "item": "minecraft:redstone",
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
@@ -4866,7 +4866,7 @@
                 "item": "pixelmon:pc",
                 "min": 1,
                 "max": 1,
-                "chance": 0.1
+                "chance": 0.02
             }
         ]
     },
@@ -12110,6 +12110,12 @@
                 "chance": 0.5
             },
             {
+                "item": "immersiveengineering:hemp_fiber",
+                "min": 1,
+                "max": 1,
+                "chance": 0.3
+            },
+            {
                 "item": "minecraft:soul_torch",
                 "min": 1,
                 "max": 1,
@@ -12131,6 +12137,12 @@
                 "min": 2,
                 "max": 4,
                 "chance": 1
+            },
+            {
+                "item": "immersiveengineering:hemp_fiber",
+                "min": 1,
+                "max": 2,
+                "chance": 0.5
             },
             {
                 "item": "minecraft:ghast_tear",
@@ -14516,8 +14528,8 @@
         "items": [
             {
                 "item": "tconstruct:copper_ingot",
-                "min": 6,
-                "max": 12,
+                "min": 1,
+                "max": 2,
                 "chance": 1
             },
             {
@@ -15513,7 +15525,7 @@
                 "item": "pixelmon:pc",
                 "min": 1,
                 "max": 1,
-                "chance": 0.1
+                "chance": 0.3
             }
         ]
     },
@@ -15673,6 +15685,12 @@
                 "chance": 0.3
             },
             {
+                "item": "immersiveengineering:wire_copper",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
                 "item": "pixelmon:small_tv",
                 "min": 1,
                 "max": 1,
@@ -15699,6 +15717,12 @@
                 "item": "pixelmon:fire_gem",
                 "min": 1,
                 "max": 1,
+                "chance": 0.3
+            },
+            {
+                "item": "immersiveengineering:wire_copper",
+                "min": 1,
+                "max": 2,
                 "chance": 0.3
             },
             {
@@ -15731,6 +15755,12 @@
                 "chance": 0.3
             },
             {
+                "item": "immersiveengineering:wire_copper",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
                 "item": "pixelmon:washing_machine",
                 "min": 1,
                 "max": 1,
@@ -15760,6 +15790,12 @@
                 "chance": 0.3
             },
             {
+                "item": "immersiveengineering:wire_copper",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
                 "item": "pixelmon:fridge",
                 "min": 1,
                 "max": 1,
@@ -15786,6 +15822,12 @@
                 "item": "pixelmon:flying_gem",
                 "min": 1,
                 "max": 1,
+                "chance": 0.3
+            },
+            {
+                "item": "immersiveengineering:wire_copper",
+                "min": 1,
+                "max": 2,
                 "chance": 0.3
             },
             {
@@ -15822,6 +15864,12 @@
                 "min": 1,
                 "max": 2,
                 "chance": 0.05
+            },
+            {
+                "item": "immersiveengineering:wire_copper",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
             },
             {
                 "item": "pixelmon:mower",

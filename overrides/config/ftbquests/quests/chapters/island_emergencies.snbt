@@ -143,5 +143,47 @@
 				}
 			]
 		}
+		{
+			icon: "minecraft:end_portal_frame"
+			x: 4.5d
+			y: 3.0d
+			description: [
+				"This prayer is for when you've placed down and end portal frame in an inadvisable location."
+				""
+				"Stand on the offending end portal frame block,  make this offering, and the block will be returned to your inventory."
+				""
+				"Because end portal frames are a full block tall with an eye in them, and only a partial block tall without an eye in them, this function will deal with end portal frames at ~ ~ ~ and ~ ~-1 ~ simultaneously, and refund you for each frame block it finds."
+			]
+			dependencies: ["42EC53C495F34D33"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "760FB813BC88486B"
+			tasks: [
+				{
+					id: "4B4D0884E175C9D1"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "5884AD8B98DEDC09"
+					type: "item"
+					item: "ends_delight:chorus_flower_pie"
+				}
+				{
+					id: "0786AD3F8C93862F"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+			]
+			rewards: [{
+				id: "4ECF8F160F355BD6"
+				type: "command"
+				title: "Will Remove End Portal Frames at ~ ~ ~ and ~ -1 ~ and refund them"
+				icon: "minecraft:end_portal_frame"
+				command: "/function ghosts:remove_end_portal_frame"
+				player_command: false
+			}]
+		}
 	]
 }

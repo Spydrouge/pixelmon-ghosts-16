@@ -1224,5 +1224,73 @@
 				}
 			]
 		}
+		{
+			title: "Countdown Until Next Invasion: Creeper"
+			x: 3.0d
+			y: -24.0d
+			description: ["It seems like there will be an invasion of Cave Spiders and a Creeper Captain every 30 minutes."]
+			dependencies: ["01270D270F5C62C2"]
+			hide: true
+			id: "743E0BC19073395A"
+			tasks: [{
+				id: "37157C0E5B93E2FF"
+				type: "questsadditions:time"
+				elapsedTime: 1800L
+			}]
+			rewards: [{
+				id: "3C7922BDAAA2FF51"
+				type: "command"
+				title: "The Creeper Captain will Return..."
+				icon: "pixelmon:gold_hourglass"
+				auto: "enabled"
+				command: "/function ghosts:fortell_invasion_wave_1"
+				player_command: false
+			}]
+		}
+		{
+			title: "One Minute Warning: Creeper"
+			x: 5.0d
+			y: -24.0d
+			description: ["Something is incoming!"]
+			dependencies: ["743E0BC19073395A"]
+			hide: true
+			id: "5CFDEFEB187C6AE3"
+			tasks: [{
+				id: "74C707E5539CC88A"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [
+				{
+					id: "4CEE21B218424853"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/entity_icon/creeper/creeper.png"
+						}
+					}
+					auto: "enabled"
+					command: "/function ghosts:spawn_invasion_wave_4"
+					player_command: false
+				}
+				{
+					id: "6A504B684CE83AF6"
+					type: "command"
+					title: "Next invasion is in 30 minutes."
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/items/daycare/hourglass/gold.png"
+						}
+					}
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 743E0BC19073395A"
+					player_command: false
+				}
+			]
+		}
 	]
 }

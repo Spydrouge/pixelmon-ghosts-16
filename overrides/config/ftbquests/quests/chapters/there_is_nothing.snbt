@@ -1759,17 +1759,6 @@
 			}]
 			rewards: [
 				{
-					id: "09ACA6965C007AB8"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen1"
-						Count: 1b
-						tag: {
-							tm: 31
-						}
-					}
-				}
-				{
 					id: "5E1BC7D77BC1406B"
 					type: "item"
 					item: "pixelmon:white_shard"
@@ -1778,6 +1767,11 @@
 					id: "3553A804CEF4640E"
 					type: "item"
 					item: "pixelmon:green_shard"
+				}
+				{
+					id: "4345B68BA9E64D36"
+					type: "random"
+					table_id: 7514776752967216189L
 				}
 			]
 		}

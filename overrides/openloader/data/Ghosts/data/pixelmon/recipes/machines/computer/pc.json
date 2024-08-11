@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AGA",
+    "ALA",
+    "ARA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/aluminum"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "L": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "R": {
+      "item": "immersiveengineering:circuit_board"
+    }
+  },
+  "result": {
+    "item": "pixelmon:white_pc",
+    "count": 1
+  }
+}
