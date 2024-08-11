@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["i i","rlr","i i"],"key":{"i":{"tag":"forge:plates/aluminum"},"l":{"item":"immersiveengineering:coil_lv"},"r":{"tag":"forge:dusts/redstone"}},"result":{"item":"immersiveengineering:dynamo"}}

@@ -945,8 +945,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -14.0d
+			x: 2.5d
+			y: -12.0d
 			description: [
 				"This is a terrible, terrible place. There are zombies everywhere, some meaner than others. There are skeletons. You think- you think you might have even seen a Creeper. A Creeper!"
 				""
@@ -1044,8 +1044,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -15.0d
+			x: 3.5d
+			y: -12.5d
 			description: [
 				"Most of the monsters of the Nether seem repulsed by light. Only Magma Cubes, Striders, and Zombie Pigmen seem indifferent to the lava itself."
 				""
@@ -1062,15 +1062,28 @@
 				item: "minecraft:torch"
 				count: 16L
 			}]
-			rewards: [{
-				id: "6B0DC68397496E84"
-				type: "item"
-				item: "minecraft:glowstone"
-			}]
+			rewards: [
+				{
+					id: "6B0DC68397496E84"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "78855E0EB10A4DE0"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 106
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 5.0d
-			y: -14.0d
+			x: 0.0d
+			y: -19.5d
 			description: [
 				"The Nether exists. The nether has land. The nether has blocks! On one hand, this place is terrifying. On the other hand, it has so many ingredients for rebuilding your home!"
 				""
@@ -1126,8 +1139,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -15.0d
+			x: 0.0d
+			y: -20.5d
 			description: [
 				"Gold, Quartz, and Cobalt are the most common ores to find in the Nether, although they may be difficult to find if you started in a particularly exotic biome. Search for the Nether Wastes to find the most vanilla of vanilla nether Biomes."
 				""
@@ -1180,7 +1193,7 @@
 		}
 		{
 			x: 2.5d
-			y: -15.0d
+			y: -14.0d
 			description: [
 				"What... is... this?"
 				""
@@ -1223,8 +1236,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -16.0d
+			x: 0.0d
+			y: -21.5d
 			description: [
 				"You cannot make traditional netherite gear because you do not have diamond gear."
 				""
@@ -1371,8 +1384,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -15.0d
+			x: 3.5d
+			y: -11.5d
 			description: [
 				"Can you cure a villager? Don't try it until you've gotten them safely back in your world, and protected from sunlight!"
 				""
@@ -1432,8 +1445,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -12.0d
+			x: 0.0d
+			y: -17.5d
 			description: ["Now that multiple biomes are available, you're going to want to craft a nature's compass. The nature's compass will allow you to track down different Nether Biomes, which is useful in an environment that's so very hard to traverse."]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
@@ -1449,8 +1462,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -12.5d
+			x: 2.0d
+			y: -18.0d
 			description: [
 				"Emeraldite, embedded in Scorio Stone, can only be found in the Biome called the \"Wailing Garth.\""
 				""
@@ -1461,6 +1474,7 @@
 				"The Wailing Nylium fits the aesthetic of your home biome but... whether you want to feed into that aesthetic is up to you."
 				""
 				"You've heard tale a fearsome Pokemon called \"Obstagoon\" might be found there."
+				""
 			]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -1562,8 +1576,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -11.5d
+			x: 2.0d
+			y: -17.0d
 			description: [
 				"Pendorite ore can be found in the Embur Bog. Pendorite is a tier above Netherite, when crafting vanilla tools."
 				""
@@ -1638,8 +1652,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -10.0d
+			x: 0.0d
+			y: -15.5d
 			description: [
 				"Soul Glass acts like glass, and Pokemon cannot spawn on it. It does not block light."
 				""
@@ -1687,14 +1701,16 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -14.0d
+			x: 1.0d
+			y: -19.5d
 			description: [
 				"The Brimstone Caverns Biome is predictably filled with Brimstone."
 				""
 				"Brimstone can be smelted into yellow netherbrick, and used in Boric flames and camp fires."
 				""
 				"Anthracite, the primary ore here, can be used like coal."
+				""
+				"When Processed in a Foundary, the Byproducts from Brimstone Quartz and Gold are Zinc and Uranium."
 			]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -1801,8 +1817,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -14.0d
+			x: -1.0d
+			y: -19.5d
 			description: [
 				"Travertine is a lovely block for building with, but more impressive than Travertine are the subzero crystals. When grown and put into a Hypogeal Imperium, they can be used to freeze lava in the Nether."
 				""
@@ -1873,8 +1889,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -15.0d
+			x: -1.0d
+			y: -20.5d
 			dependencies: ["2479E34FEA23C056"]
 			hide: true
 			id: "77E7A3F9D5A5D43B"
@@ -1896,8 +1912,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -9.0d
+			x: 0.5d
+			y: -14.5d
 			description: ["You aren't sure if there's anything meaningful you can extract from the Warped Desert, aside from a new color scheme."]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -1943,15 +1959,28 @@
 					biome: "byg:warped_desert"
 				}
 			]
-			rewards: [{
-				id: "1C8B6192D4CEBF6D"
-				type: "item"
-				item: "minecraft:heart_of_the_sea"
-			}]
+			rewards: [
+				{
+					id: "1C8B6192D4CEBF6D"
+					type: "item"
+					item: "minecraft:heart_of_the_sea"
+				}
+				{
+					id: "6C84216503AD5BE1"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 34
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 4.5d
-			y: -9.0d
+			x: -0.5d
+			y: -14.5d
 			description: [
 				"The Quartz Desert is an interesting place that underscores why quartz ores mined elsewhere in the Nether are best used for their byproducts."
 				""
@@ -1995,10 +2024,28 @@
 					biome: "byg:quartz_desert"
 				}
 			]
+			rewards: [
+				{
+					id: "595227BB46B9C0A7"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "3EF95E22FC483191"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 76
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 7.0d
-			y: -10.5d
+			x: 2.0d
+			y: -16.0d
 			description: [
 				"The Withered Abyss is a very dark, foggy, and dangerous biome. It's a place you can find Blackstone and crying obsidian."
 				""
@@ -2039,8 +2086,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -10.0d
+			x: 1.0d
+			y: -15.5d
 			description: ["The visceral heap is a disgusting place made of flesh. But it might attract Pokemon very unlike any other part of the nether. You've heard that small tumor-like digging Pokemon-- Diglett?-- can be found here, as well as a number of pigs."]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -2107,10 +2154,39 @@
 					invertUsed: false
 				}
 			]
+			rewards: [
+				{
+					id: "02D0B4A275799031"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 1
+						}
+					}
+				}
+				{
+					id: "2C47DB515E9F3403"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen3"
+						Count: 1b
+						tag: {
+							tm: 45
+						}
+					}
+				}
+				{
+					id: "0A06C857F5EFBA9A"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+			]
 		}
 		{
-			x: 4.0d
-			y: -10.0d
+			x: -1.0d
+			y: -15.5d
 			description: ["The Undergrowth is a terrible place, with difficult-to-cut thorns everywhere making traversing the biome almost impossible. No one would want to come here, except, you think Pokemon such as Roselia and Ferrothorn might be found here. "]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -2206,8 +2282,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -10.5d
+			x: -2.0d
+			y: -16.0d
 			description: [
 				"You're not quite sure what you can gain from the Crystalline Chasm, other than a stylist new crystal block. There may be some Pokemon here of interest. "
 				""
@@ -2242,6 +2318,24 @@
 					id: "3939B46829A44AD7"
 					type: "biome"
 					biome: "biomesoplenty:crystaline_chasm"
+				}
+			]
+			rewards: [
+				{
+					id: "65DA479980AD5D48"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "528E4DACD138692D"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 92
+						}
+					}
 				}
 			]
 		}

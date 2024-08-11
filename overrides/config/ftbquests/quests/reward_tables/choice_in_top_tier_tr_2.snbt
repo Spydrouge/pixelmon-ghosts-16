@@ -1,0 +1,72 @@
+{
+	id: "29A855D498D589A6"
+	order_index: 25
+	title: "Choice in Charging TM"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 167
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen1"
+				Count: 1b
+				tag: {
+					tm: 40
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen1"
+				Count: 1b
+				tag: {
+					tm: 43
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 152
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 162
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 153
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 151
+				}
+			}
+		}
+		{ }
+	]
+}

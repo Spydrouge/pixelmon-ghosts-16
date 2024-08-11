@@ -607,11 +607,6 @@
 					count: 1000
 				}
 				{
-					id: "15F07CF731852636"
-					type: "choice"
-					table_id: 3802547001370842731L
-				}
-				{
 					id: "743661DE37486628"
 					type: "item"
 					item: "pixelmon:s_exp_candy"
@@ -626,6 +621,11 @@
 							tm: 20
 						}
 					}
+				}
+				{
+					id: "5AA8B606B90590E3"
+					type: "random"
+					table_id: 3802547001370842731L
 				}
 			]
 		}
@@ -1501,6 +1501,17 @@
 					id: "25A538D6FA705BA5"
 					type: "item"
 					item: "pixelmon:durin_berry"
+				}
+				{
+					id: "32594650E4D9387A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 2
+						}
+					}
 				}
 			]
 		}

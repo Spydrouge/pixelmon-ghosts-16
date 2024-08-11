@@ -661,6 +661,23 @@
                     "typeID": "item",
                     "rarity": 100
                 },
+                {
+                    "stringLocationTypes": [
+                        "Old Rod",            
+                        "Good Rod"
+                    ],
+                    "condition": {
+                        "stringBiomes": [
+                            "ghosts"
+                        ]
+                    },
+                    "item": {
+                        "itemID": "farmersdelight:rotten_tomato",
+                        "quantity": 1
+                    },
+                    "typeID": "item",
+                    "rarity": 100
+                },
           
           
           

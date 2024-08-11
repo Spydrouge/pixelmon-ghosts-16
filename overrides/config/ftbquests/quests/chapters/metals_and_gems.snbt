@@ -36,6 +36,8 @@
 				"There are many Pokemon who drop iron nuggets, and all of them do so unreliably, or spawn rarely. The easiest source is Aron, which can be attracted to pieces of iron ore or minecart rails and lives underground in the Deep Dark Layer below Y = 32."
 				""
 				"Ferroseed, if it can be found, is another source."
+				""
+				"Consider spending your first iron Ingot on a Stone Cutter. Stone Cutters will allow you to smooth out Tumblestones, which in turn can be paired with Silver Ingots to make Ancient Great Ball Lids. These will be more reliable Pokeballs than Love and Heal Balls"
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -88,38 +90,7 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 1.5d
-			description: ["Weak Steel Lures can be used to increase the percentage of steel type Pokemon who spawn in an area. Keep in mind that not all Steel type Pokemon drop iron. Some drop brass, bronze, copper, tin, aluminum, or even cobalt."]
-			dependencies: ["16AECF01A7853FED"]
-			hide: true
-			id: "41859A5500F6CA6A"
-			tasks: [{
-				id: "1325FC0DA9701722"
-				type: "item"
-				item: {
-					id: "pixelmon:lure_steel_weak"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "755DC234BFD4130E"
-					type: "item"
-					item: "pixelmon:white_shard"
-				}
-				{
-					id: "462CAE4210993250"
-					type: "item"
-					item: "pixelmon:black_shard"
-				}
-			]
-		}
-		{
-			x: -9.0d
+			x: -9.5d
 			y: 1.5d
 			description: [
 				"A lightning rod is the ultimate attractor for the Magnemite family. Building one is no small endeavor, but doing so will allow you to comfortably farm iron in the lightning rod's vicinity forever after. Effects are increased in stormy weather."
@@ -334,14 +305,13 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -8.5d
 			y: 1.5d
 			description: [
 				"One technique for farming iron is to identify where the Honedge family is likely to gather, and to construct an anvil in the vinicity. You have discovered a lot of archeological Pokemon in the Stone layer, between Y levels 32 and 64. Placing an anvil there might reveal the ghostly Honedge."
 				""
 				"Obviously, this technique requires iron to make iron; it is a way to sustain iron production, rather than start it."
 			]
-			dependencies: ["2C5C3611DAD86CAA"]
 			hide: true
 			id: "44C692A5614BC9EB"
 			tasks: [{
@@ -668,35 +638,6 @@
 					id: "3CD77ED660429874"
 					type: "random"
 					table_id: 6443510782262151491L
-				}
-			]
-		}
-		{
-			x: -7.0d
-			y: 1.5d
-			description: [
-				"Consider spending your first iron Ingot on a Stone Cutter. Stone Cutters will allow you to smooth out Tumblestones, which in turn can be paired with Silver Ingots to make Ancient Great Ball Lids. These will be more reliable Pokeballs than Love and Heal Balls"
-				""
-				"Alternatively, you can choose to invest your first iron ingot in a low voltage copper coil. These coils are the first of many blocks that can attract Magnemite at high (above Y = 192) altitudes."
-			]
-			dependencies: ["41859A5500F6CA6A"]
-			hide: true
-			id: "2C5C3611DAD86CAA"
-			tasks: [{
-				id: "1170B2F159C277B6"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
-			rewards: [
-				{
-					id: "017455A745F5BBED"
-					type: "item"
-					item: "pixelmon:white_shard"
-				}
-				{
-					id: "27D29F6C608B9B02"
-					type: "item"
-					item: "pixelmon:black_shard"
 				}
 			]
 		}

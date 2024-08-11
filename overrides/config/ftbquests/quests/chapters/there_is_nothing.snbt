@@ -533,6 +533,17 @@
 					type: "item"
 					item: "pixelmon:health_feather"
 				}
+				{
+					id: "683A5512868A5714"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 78
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1164,6 +1175,17 @@
 					id: "260B98D783EC5966"
 					type: "item"
 					item: "pixelmon:lava_cookie"
+				}
+				{
+					id: "03190A9220774D6E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 69
+						}
+					}
 				}
 			]
 		}

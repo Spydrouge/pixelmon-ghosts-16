@@ -1441,7 +1441,7 @@
 			x: 0.0d
 			y: 5.0d
 			description: [
-				"Thief, Covet, and Switcheroo are three moves that can be used to take items from wild Pokemon."
+				"Thief, Covet, Trick, and Switcheroo are moves that can be used to take items from wild Pokemon."
 				""
 				"Wild Pokemon often hold berries, and some can hold other materials such as power enhancing items."
 				""
@@ -1484,6 +1484,15 @@
 					attack: "switcheroo"
 					moveType: 0b
 				}
+				{
+					id: "4188FCC9CC8A2131"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "trick"
+					moveType: 0b
+				}
 			]
 			rewards: [
 				{
@@ -1512,7 +1521,7 @@
 		}
 		{
 			title: "Covet"
-			x: 1.0d
+			x: 0.5d
 			y: 6.5d
 			description: [
 				"Covet is the easiest move to find among the Pokemon you still have. It is common among baby Pokemon."
@@ -1635,21 +1644,28 @@
 					catchType: 1b
 				}
 			]
-			rewards: [{
-				id: "268B3ADE5B37E6AF"
-				type: "item"
-				item: {
-					id: "pixelmon:tm_gen9"
-					Count: 1b
-					tag: {
-						tm: 1
+			rewards: [
+				{
+					id: "268B3ADE5B37E6AF"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 1
+						}
 					}
 				}
-			}]
+				{
+					id: "32D62E684FCBB6DF"
+					type: "item"
+					item: "pixelmon:relic_gold"
+				}
+			]
 		}
 		{
 			title: "Thief"
-			x: -1.0d
+			x: -1.5d
 			y: 6.5d
 			description: [
 				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
@@ -1801,21 +1817,28 @@
 					catchType: 1b
 				}
 			]
-			rewards: [{
-				id: "58A285E3E2A8D900"
-				type: "item"
-				item: {
-					id: "pixelmon:tm_gen4"
-					Count: 1b
-					tag: {
-						tm: 49
+			rewards: [
+				{
+					id: "58A285E3E2A8D900"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
 					}
 				}
-			}]
+				{
+					id: "6FD80EABEA95CCB5"
+					type: "item"
+					item: "pixelmon:nugget"
+				}
+			]
 		}
 		{
 			title: "Switcheroo"
-			x: 0.0d
+			x: -0.5d
 			y: 6.5d
 			description: ["Catch a Pokemon that can naturally learn Switcheroo."]
 			dependencies: ["11A73D9EAEEDF61B"]
@@ -1886,17 +1909,30 @@
 					catchType: 1b
 				}
 			]
-			rewards: [{
-				id: "504245E9E6748F7B"
-				type: "item"
-				item: {
-					id: "pixelmon:tm_gen9"
-					Count: 1b
-					tag: {
-						tm: 2
+			rewards: [
+				{
+					id: "504245E9E6748F7B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 2
+						}
 					}
 				}
-			}]
+				{
+					id: "47756FEE034D071A"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 83
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -3147,6 +3183,98 @@
 				}
 				command: "/execute as @p at @p run function ghosts:skeleton_to_horse_ceramic"
 				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			description: ["Trick is a higher level move, and therefore less ideal to pursue than one of the other moves. Almost all Pokemon learn it at level 40 or later, with the exception of Mime Jr, which learns it at level 36."]
+			dependencies: ["2C0BD8E345FD832F"]
+			hide: true
+			id: "7A656122E8CBEE9F"
+			tasks: [
+				{
+					id: "694665928D284402"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 108
+						}
+					}
+				}
+				{
+					id: "5B721859A6709DD9"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 38
+						}
+					}
+				}
+				{
+					id: "09372237A721D59A"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Mimejr"
+					count: 1
+					invert: false
+				}
+				{
+					id: "3A935999676AB3E8"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "shuppet"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4268359F878A7B4E"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "banette"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "245E20D7F2EAE2B7"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "pumpkaboo"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "605213ADE9633D83"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "gourgeist"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "334FA89E22704084"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "rotom"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [{
+				id: "2460C6F28B344FC7"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 38
+					}
+				}
 			}]
 		}
 	]

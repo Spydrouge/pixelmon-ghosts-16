@@ -9,11 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -6.0d
+			x: -6.5d
 			y: 0.0d
+			description: ["It is time to take a big bite of curry with a good friend."]
 			dependencies: [
-				"1B5AF5481A4684D3"
 				"0BD6FC749599EE34"
+				"6B26C9D8AEBC3598"
 			]
 			hide: true
 			id: "0B44F84E080E8ABA"
@@ -21,6 +22,17 @@
 				id: "214BBA9B486F2615"
 				type: "item"
 				item: "pixelmon:dish_curry_gigantamix"
+			}]
+			rewards: [{
+				id: "774363CFF63BC1AE"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen7"
+					Count: 1b
+					tag: {
+						tm: 27
+					}
+				}
 			}]
 		}
 		{
@@ -1006,6 +1018,1439 @@
 					}
 				}
 			]
+		}
+		{
+			icon: "pixelmon:curry_gigantamix"
+			x: -5.5d
+			y: 0.0d
+			description: ["Your team has brought you a very special present. You'll need to consider which of them it is actually compatable with, and which you want to use it on."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0D7973DAAE816F4E"
+				"3E4652A93CB60F1E"
+				"1377511F277D65DF"
+				"68EBFCCBDD8026E2"
+				"3B86D30E84126456"
+				"0C1D28BCFC7FF1DA"
+				"4AEA3A96EA9BB070"
+				"602C80C53B57BDCF"
+				"3742792476488E8A"
+				"24702E858267C949"
+				"16BF6ABC8E875BC7"
+				"0DBA0FEE8932180E"
+				"083F654E38D3E4CD"
+				"2406A128E29D2F0F"
+				"0CFC98EA4E46596A"
+				"41C2FE6AC1D02EF5"
+				"7823C53B5652E18C"
+				"64902947E0BFADA8"
+				"4A9196098945C4C9"
+				"3C3057E72B483A9C"
+				"175CD1523A496465"
+				"6F4719482B055030"
+				"4488332395185465"
+				"28AE07100FFF53EC"
+				"32A5D83DE52760AC"
+			]
+			hide: true
+			id: "6B26C9D8AEBC3598"
+			tasks: [{
+				id: "2265761AB709307A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "70B739737D62C900"
+				type: "item"
+				item: "pixelmon:curry_gigantamix"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			description: ["New Recipes will appear as you unlock ingredients."]
+			dependencies: ["0946764F167E6329"]
+			hide: true
+			size: 2.0d
+			id: "5288DB04C07460B9"
+			tasks: [{
+				id: "74F60AB3E42738B0"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			description: [
+				"Cabbage rolls are easy to make, as they require only cabbage and one other ingredient. They're a good early food, and stress the importance of cabbage."
+				""
+			]
+			dependencies: [
+				"5288DB04C07460B9"
+				"6AD7ED0B6B968B66"
+			]
+			hide: true
+			id: "10CA48778DEC00AA"
+			tasks: [{
+				id: "50E3E79D04766695"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "35C18B0D00662E12"
+					type: "item"
+					item: "farmersdelight:cabbage_rolls"
+					count: 4
+				}
+				{
+					id: "464F5FB1865AD2B1"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			description: ["Apple Cider is easy to make. You can get Sugar from the Dazzle layer, or head all the way to the Space layer to get Sugar Cane from Clefairy. Then you need Apples either from the Ice Layer or from successfully rescuing a Dark Oak tree from all the leaves you've been getting as drops."]
+			dependencies: ["5288DB04C07460B9"]
+			hide: true
+			id: "6C5756E1A014E74F"
+			tasks: [{
+				id: "68ED9E33016DE31F"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+			}]
+			rewards: [
+				{
+					id: "5A7B3C62698682C8"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+					count: 4
+				}
+				{
+					id: "473594011967DEC0"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			dependencies: ["393758787D61BE1D"]
+			hide: true
+			size: 2.0d
+			id: "01107E7AAA0D2597"
+			tasks: [{
+				id: "7A1DFA6DFC821682"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			description: ["The easiest sandwhich to make is an egg one."]
+			dependencies: [
+				"3297F01E3E8E6A03"
+				"4F3CADC922B48B57"
+				"01107E7AAA0D2597"
+			]
+			hide: true
+			id: "02C5A651645F74FD"
+			tasks: [{
+				id: "78370DD4190093F4"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "3972A615D8BCC32B"
+					type: "item"
+					item: "farmersdelight:egg_sandwich"
+					count: 4
+				}
+				{
+					id: "6C5C85DF0E54FCA8"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			description: ["Chicken Sandwhiches require four ingredients. These ingredients are a little easier to get than for the Bacon sandwhich, which requires luck in fishing."]
+			dependencies: [
+				"3C032892477EC615"
+				"6AD7ED0B6B968B66"
+				"182732C4C2AC010F"
+				"02C5A651645F74FD"
+			]
+			hide: true
+			id: "33D6FA346BF7FF51"
+			tasks: [{
+				id: "263A64702DF910F7"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "32A739D99D4867E5"
+					type: "item"
+					item: "farmersdelight:chicken_sandwich"
+					count: 4
+				}
+				{
+					id: "3B3E2B7C4EA2FB8F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["The hamburger is difficult to make not just because of the five ingredients it requires, but because it requires beef. You aren't sure where you'll find a source of beef, unless Blaze Tauros have survived in the Nether somehow."]
+			dependencies: [
+				"02C5A651645F74FD"
+				"19B8CEAB325E9309"
+				"147AE8C6B4DBD9F5"
+				"6AD7ED0B6B968B66"
+				"1509B72088529641"
+			]
+			hide: true
+			id: "110DE2E7C1ABCDFC"
+			tasks: [{
+				id: "026E0D90DF8B0566"
+				type: "item"
+				item: "farmersdelight:hamburger"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "3F13B02164AF54D2"
+					type: "item"
+					item: "farmersdelight:hamburger"
+					count: 4
+				}
+				{
+					id: "26E2C9108EED3F0B"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+				{
+					id: "74A3707D166A1FD1"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "1770E45802B26620"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 86
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			description: ["Bacon Sandwhiches require four ingredients, one of which, the tomato, must be fished up in a rotten form and deseeded."]
+			dependencies: [
+				"384484786387AEB7"
+				"6AD7ED0B6B968B66"
+				"147AE8C6B4DBD9F5"
+				"384484786387AEB7"
+				"02C5A651645F74FD"
+			]
+			hide: true
+			id: "6FD6457867A6184F"
+			tasks: [{
+				id: "4AC00BB8CE7E3FC0"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "2273519723D4DEA4"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+					count: 4
+				}
+				{
+					id: "0BDD08F9C9AA6873"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			description: [
+				"Fruit Salad takes four ingredients. Pumpkins you should already have, but Sweet berries will have to be recovered from fox Pokemon that you can hopefully attract to habitats on the Ice Layer."
+				""
+				"Melon seeds will likely take traveling all the way to the Space Layer to harass Blipbug and its evolutions."
+			]
+			dependencies: ["01107E7AAA0D2597"]
+			hide: true
+			id: "74321CB635FDAF72"
+			tasks: [{
+				id: "45A752997C64C6F8"
+				type: "item"
+				item: "farmersdelight:fruit_salad"
+			}]
+			rewards: [
+				{
+					id: "749B77686BBB0331"
+					type: "item"
+					item: "farmersdelight:fruit_salad"
+					count: 4
+				}
+				{
+					id: "030A66350FFD7EB7"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			description: ["Mixed salad is a four ingredient food of which you should already have two. Tomatos require investigating forage through fishing, and onions can only be obtained from the flying Pokemon Hoppip on the Air Layer."]
+			dependencies: ["01107E7AAA0D2597"]
+			hide: true
+			id: "7FCEAC12A60DCDC7"
+			tasks: [{
+				id: "31255986C1ECA677"
+				type: "item"
+				item: "farmersdelight:mixed_salad"
+			}]
+			rewards: [
+				{
+					id: "3E65C5820CC73D84"
+					type: "item"
+					item: "farmersdelight:mixed_salad"
+					count: 4
+				}
+				{
+					id: "69D5DEFC042822FD"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			description: ["Nether Salad can easily be made from the two nether mushrooms, similar to mushroom soup."]
+			dependencies: [
+				"07BB8B6F1A9897CF"
+				"01107E7AAA0D2597"
+			]
+			hide: true
+			id: "6D0CB1B767AA7A9E"
+			tasks: [{
+				id: "75315BAA3F85E1C5"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+			}]
+			rewards: [
+				{
+					id: "660D1AEB416E52CF"
+					type: "item"
+					item: "farmersdelight:nether_salad"
+					count: 4
+				}
+				{
+					id: "3929062641CFC46A"
+					type: "choice"
+					table_id: 7937607534361159376L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			description: ["Chorus Fruit Pies apply a mild Regeneration. While delicious, they require the flower, not the fruit, to produce, and therefore are somewhat expensive."]
+			dependencies: ["62294BA8C8A0CDE9"]
+			hide: true
+			id: "54FD3A058037E9A7"
+			tasks: [{
+				id: "3FE746AA0DEDC1F6"
+				type: "item"
+				item: "ends_delight:chorus_flower_pie"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "62EABCD8F5C67109"
+					type: "item"
+					item: "ends_delight:chorus_flower_pie"
+					count: 4
+				}
+				{
+					id: "4B009C99473ED6D6"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -9.5d
+			description: ["Pie crust requires milk."]
+			dependencies: ["01107E7AAA0D2597"]
+			hide: true
+			id: "48E6194F41EB97A7"
+			tasks: [{
+				id: "2115F9830EEB21EC"
+				type: "item"
+				item: "farmersdelight:pie_crust"
+			}]
+			rewards: [{
+				id: "3D3676DE6D850CCF"
+				type: "item"
+				item: "farmersdelight:pie_crust"
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			dependencies: ["48E6194F41EB97A7"]
+			hide: true
+			id: "4729DAC99ADD6685"
+			tasks: [{
+				id: "33AF51C886487BDE"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+			}]
+			rewards: [
+				{
+					id: "78FE85F328FF2750"
+					type: "item"
+					item: "farmersdelight:apple_pie"
+					count: 4
+				}
+				{
+					id: "46E6C056AE316047"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			description: ["Chocolate is expected to be hard to find. This pie may be one of the most difficult."]
+			dependencies: [
+				"48E6194F41EB97A7"
+				"0C1950B46A377106"
+			]
+			id: "4CA5DF3B96A59AEF"
+			tasks: [{
+				id: "0DC1D07A9EE2CD2C"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
+			rewards: [
+				{
+					id: "1B68E76F93CB78BB"
+					type: "item"
+					item: "farmersdelight:chocolate_pie"
+					count: 4
+				}
+				{
+					id: "4F2848DFA0326E7B"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -9.5d
+			description: [
+				"Shepherds Pie does not require a pie crust, but it's recipe is just as robust. You will require access to mutton, milk, potato, and onion."
+				""
+				"This is quite a hearty meal."
+			]
+			dependencies: [
+				"1509B72088529641"
+				"63335CEF4021A430"
+				"093FDF760049900A"
+				"42CCCD30BE23B892"
+				"01107E7AAA0D2597"
+			]
+			hide: true
+			id: "0BD51A86B8FD533B"
+			tasks: [{
+				id: "7AB3A4B5DAF3B9FB"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [
+				{
+					id: "62460596B098CD87"
+					type: "item"
+					item: "farmersdelight:shepherds_pie_block"
+					count: 4
+				}
+				{
+					id: "4E2DD1871B533F37"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "0DB36C34DD1FDEF6"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 28
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			description: ["This pie isn't inexpensive because it requires a flower as well as the fruits. You also need to figure out where you're going to get a poppy from."]
+			dependencies: [
+				"71DE3A0D7F74C5D9"
+				"48E6194F41EB97A7"
+			]
+			hide: true
+			id: "628FC3A2E58E0DA8"
+			tasks: [{
+				id: "3C2EB912BACF83F4"
+				type: "item"
+				item: "ends_delight:chorus_fruit_pie"
+			}]
+			rewards: [
+				{
+					id: "29E99038E9439A0F"
+					type: "item"
+					item: "ends_delight:chorus_fruit_pie"
+					count: 4
+				}
+				{
+					id: "412F32DF2BD4F318"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -9.5d
+			description: ["Pumpkin pie does not require a specialized pie crust. It can be made with egg, Pumpkin, and sugar."]
+			dependencies: ["01107E7AAA0D2597"]
+			hide: true
+			id: "5F0307DFA584B3B9"
+			tasks: [{
+				id: "28517EA76F584D7D"
+				type: "item"
+				item: "minecraft:pumpkin_pie"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "6C31B68A8D49F81F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "04D5536FF025D9A1"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -9.5d
+			description: ["The Green Apple can only be harvested from the Skyris tree. If you have some extras that were perhaps brought to you by Drifloon, you might be able to bake a Green Apple Pie before working out the whole Skyris Sapling thing."]
+			dependencies: ["01107E7AAA0D2597"]
+			hide: true
+			id: "49F131A47D8D5F97"
+			tasks: [{
+				id: "01D7F06DCBAC556A"
+				type: "item"
+				item: "byg:green_apple_pie"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "4CBAC8D65B7AA39B"
+					type: "item"
+					item: "byg:green_apple_pie"
+					count: 4
+				}
+				{
+					id: "47515D160BE33B90"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "2E796F4239AAB401"
+					type: "random"
+					table_id: 3802547001370842731L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -10.5d
+			description: ["Crimson Berries can be sourced from fox Pokemon."]
+			dependencies: ["5F0307DFA584B3B9"]
+			hide: true
+			id: "4EF46CBD6DE35447"
+			tasks: [{
+				id: "3EB9DBAE75841942"
+				type: "item"
+				item: "byg:crimson_berry_pie"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "2ABC651AAC14AD43"
+					type: "item"
+					item: "byg:crimson_berry_pie"
+					count: 4
+				}
+				{
+					id: "706782E6C99E23B8"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -9.5d
+			description: ["Blueberries can be sourced from fox Pokemon."]
+			dependencies: ["5F0307DFA584B3B9"]
+			hide: true
+			id: "2F47157C8605FB55"
+			tasks: [{
+				id: "41500B57FD2D1731"
+				type: "item"
+				item: "byg:blueberry_pie"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "22CAD28B1E7AEF09"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "37BE474DFDBACFE1"
+					type: "item"
+					item: "byg:blueberry_pie"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -10.5d
+			description: ["This pie probably won't be possible unless you manage to reach the Nether."]
+			dependencies: ["5F0307DFA584B3B9"]
+			hide: true
+			id: "12A46D6855DD9615"
+			tasks: [{
+				id: "047E4BC8555DE4AF"
+				type: "item"
+				item: "byg:nightshade_berry_pie"
+			}]
+			rewards: [
+				{
+					id: "47265433241227CF"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "028C740912AD5D85"
+					type: "item"
+					item: "byg:nightshade_berry_pie"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			description: ["Dough can be used to get a higher yield of bread, to produce dumplings, or to create pasta."]
+			dependencies: ["01107E7AAA0D2597"]
+			hide: true
+			id: "62294BA8C8A0CDE9"
+			tasks: [{
+				id: "6FBDCBA5FD21B4B4"
+				type: "item"
+				item: "farmersdelight:wheat_dough"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "54BCB94D5B946FDF"
+				type: "item"
+				item: "farmersdelight:wheat_dough"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: ["62294BA8C8A0CDE9"]
+			hide: true
+			id: "586969B17F662899"
+			tasks: [{
+				id: "1D5EDA37F7B24050"
+				type: "item"
+				item: "farmersdelight:raw_pasta"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4AC652CA7CB6649A"
+				type: "item"
+				item: "farmersdelight:raw_pasta"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			description: ["You don't know yet how you'll get beef. This might be impossible for now."]
+			dependencies: [
+				"586969B17F662899"
+				"147AE8C6B4DBD9F5"
+				"19B8CEAB325E9309"
+				"5288DB04C07460B9"
+			]
+			hide: true
+			id: "60751619FC2BF2A5"
+			tasks: [{
+				id: "0C8C021F57FA5866"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "275144CD7FF28A27"
+					type: "item"
+					item: "farmersdelight:pasta_with_meatballs"
+					count: 4
+				}
+				{
+					id: "1B47F875CB73D45C"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: ["Pasta with Mutton is possible. If Skiddo can be found on the Ice Layer, and Rotten Tomatos from Fishing, you'll have all the ingredients you need."]
+			dependencies: [
+				"586969B17F662899"
+				"147AE8C6B4DBD9F5"
+				"093FDF760049900A"
+				"5288DB04C07460B9"
+			]
+			hide: true
+			id: "2D9DE553963E45A7"
+			tasks: [{
+				id: "4126F3AAB453F27E"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "3F86EF1034FE8097"
+					type: "item"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					count: 4
+				}
+				{
+					id: "39D4B2BF9632B801"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			description: [
+				"You will have to work out what Pokemon can give you Squid Ink, but any old Basculin Red, Basculin Blue, or appropriately orange Magikarp should give you the equivalent of Salmon meat."
+				""
+				"Rotten Tomatoes, a source of Tomato seed, must also be aquired through fishing."
+			]
+			dependencies: [
+				"586969B17F662899"
+				"5288DB04C07460B9"
+			]
+			hide: true
+			id: "07B576ACB3C6A622"
+			tasks: [{
+				id: "5055AA8AF862216C"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "6756715B399B162C"
+					type: "item"
+					item: "farmersdelight:squid_ink_pasta"
+					count: 4
+				}
+				{
+					id: "69F54A374D382756"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			dependencies: ["546E079B3D5FAB56"]
+			hide: true
+			id: "131B478C48406C3C"
+			tasks: [{
+				id: "61B3E96206988F32"
+				type: "item"
+				item: "minecraft:rabbit_stew"
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "55842E1C3C05F34A"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 4
+				}
+				{
+					id: "60197F6789D0D742"
+					type: "item"
+					item: "minecraft:rabbit"
+					count: 4
+				}
+				{
+					id: "08D1660E19AFB93C"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 4
+				}
+				{
+					id: "4C45F1BFAE9ED0A9"
+					type: "item"
+					item: "minecraft:baked_potato"
+					count: 4
+				}
+				{
+					id: "0EE97FEDC33C4578"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			description: ["Cook pots have a unique ability: They can hold a very large amount of a soup or stew. Since soups and stews don't stack, this can be beneficial for inventory management. One simply runs up to a cookpot and dips in a bowl each time one wants to eat."]
+			dependencies: ["5288DB04C07460B9"]
+			hide: true
+			id: "546E079B3D5FAB56"
+			tasks: [{
+				id: "3B82D16C901F42D3"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
+			rewards: [{
+				id: "11623253DA4CBA10"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.5d
+			dependencies: [
+				"546E079B3D5FAB56"
+				"42CCCD30BE23B892"
+				"384484786387AEB7"
+			]
+			hide: true
+			id: "2F01F8C8A077E729"
+			tasks: [{
+				id: "28621D473967F452"
+				type: "item"
+				item: "farmersdelight:pumpkin_soup"
+			}]
+			rewards: [
+				{
+					id: "23F5F66EF767EE3B"
+					type: "item"
+					item: "farmersdelight:cabbage_leaf"
+					count: 4
+				}
+				{
+					id: "6EAB35A0D4D32743"
+					type: "item"
+					item: "farmersdelight:pumpkin_slice"
+					count: 4
+				}
+				{
+					id: "44981ECA642C56B0"
+					type: "item"
+					item: "farmersdelight:bacon"
+					count: 4
+				}
+				{
+					id: "3869E9879D00D29C"
+					type: "item"
+					item: "farmersdelight:milk_bottle"
+					count: 4
+				}
+				{
+					id: "4CCCC2780EC33676"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -9.5d
+			dependencies: [
+				"546E079B3D5FAB56"
+				"63335CEF4021A430"
+				"182732C4C2AC010F"
+			]
+			hide: true
+			id: "528FC854960A172E"
+			tasks: [{
+				id: "7B55AF9CD485FFED"
+				type: "item"
+				item: "farmersdelight:vegetable_soup"
+			}]
+			rewards: [
+				{
+					id: "0612040FD28EB1E7"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 4
+				}
+				{
+					id: "0E4B0A27435BA57A"
+					type: "item"
+					item: "minecraft:potato"
+					count: 4
+				}
+				{
+					id: "408BF93F693318E7"
+					type: "item"
+					item: "minecraft:beetroot"
+					count: 4
+				}
+				{
+					id: "7D143F8ED2B234B5"
+					type: "item"
+					item: "farmersdelight:cabbage_leaf"
+					count: 4
+				}
+				{
+					id: "00B83C5601B833B3"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: ["546E079B3D5FAB56"]
+			hide: true
+			id: "0046F791E62F48BE"
+			tasks: [{
+				id: "4BB5C0D5FD143FC6"
+				type: "item"
+				item: "farmersdelight:tomato_sauce"
+			}]
+			rewards: [
+				{
+					id: "06DC1C80CF3FA948"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 8
+				}
+				{
+					id: "2374A2BF6A18CF02"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			dependencies: [
+				"546E079B3D5FAB56"
+				"3C032892477EC615"
+				"182732C4C2AC010F"
+				"6AD7ED0B6B968B66"
+			]
+			hide: true
+			id: "4DF85A70D8ADCF6D"
+			tasks: [{
+				id: "094817A19A59D277"
+				type: "item"
+				item: "farmersdelight:chicken_soup"
+			}]
+			rewards: [
+				{
+					id: "5CB94B136551303F"
+					type: "item"
+					item: "farmersdelight:chicken_cuts"
+					count: 4
+				}
+				{
+					id: "666C6966A7058DD5"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 4
+				}
+				{
+					id: "52500E8A3433864D"
+					type: "item"
+					item: "farmersdelight:cabbage_leaf"
+					count: 4
+				}
+				{
+					id: "2496D9AC23A1C980"
+					type: "item"
+					item: "minecraft:beetroot"
+					count: 4
+				}
+				{
+					id: "1F18272AD4A8DD57"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -9.5d
+			description: ["Kelp? Where are you going to get Kelp? Perhaps... deep in underground waters?"]
+			dependencies: [
+				"586969B17F662899"
+				"5288DB04C07460B9"
+				"3297F01E3E8E6A03"
+				"384484786387AEB7"
+			]
+			hide: true
+			id: "0DD3453FD7CA88C0"
+			tasks: [{
+				id: "6CDCB0D932438927"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
+			rewards: [
+				{
+					id: "67CA6EB9DF400EDA"
+					type: "item"
+					item: "minecraft:dried_kelp"
+					count: 4
+				}
+				{
+					id: "1D6A5801FDC00F2C"
+					type: "item"
+					item: "minecraft:egg"
+					count: 4
+				}
+				{
+					id: "3D531D489BACA9C5"
+					type: "item"
+					item: "farmersdelight:raw_pasta"
+					count: 4
+				}
+				{
+					id: "23BA4FDE9677DCD2"
+					type: "item"
+					item: "farmersdelight:bacon"
+					count: 4
+				}
+				{
+					id: "0499B91AA5561116"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -7.5d
+			dependencies: ["546E079B3D5FAB56"]
+			hide: true
+			id: "5804ADCFA08F7950"
+			tasks: [{
+				id: "023B5BB561016521"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
+			rewards: [
+				{
+					id: "4B2E396812AC274C"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "3DCBA4A4778B2084"
+					type: "item"
+					item: "farmersdelight:minced_beef"
+					count: 4
+				}
+				{
+					id: "5567C6DAB5EC746D"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 4
+				}
+				{
+					id: "3EFCDAD9A18A4965"
+					type: "item"
+					item: "minecraft:potato"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			dependencies: [
+				"546E079B3D5FAB56"
+				"7B9D7ABCC4AC4243"
+				"63335CEF4021A430"
+				"3297F01E3E8E6A03"
+				"147AE8C6B4DBD9F5"
+			]
+			hide: true
+			id: "1C6B9240A5D60F7B"
+			tasks: [{
+				id: "50677994CD839F47"
+				type: "item"
+				item: "farmersdelight:baked_cod_stew"
+			}]
+			rewards: [
+				{
+					id: "303E9DF7B668C9F6"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "7BDC7ED8CEA56849"
+					type: "item"
+					item: "farmersdelight:cod_slice"
+					count: 4
+				}
+				{
+					id: "22074B77CEB8B2B7"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 4
+				}
+				{
+					id: "3F3F9333AF9AA1BA"
+					type: "item"
+					item: "minecraft:egg"
+					count: 4
+				}
+				{
+					id: "3712DF813708F514"
+					type: "item"
+					item: "minecraft:potato"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			dependencies: [
+				"0046F791E62F48BE"
+				"7B9D7ABCC4AC4243"
+				"1509B72088529641"
+			]
+			hide: true
+			id: "67E08850288E4E8D"
+			tasks: [{
+				id: "4E9F586D09C38975"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+			rewards: [
+				{
+					id: "420800B7EBB60EE6"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "7CF39735962581EA"
+					type: "item"
+					item: "farmersdelight:salmon_slice"
+					count: 4
+				}
+				{
+					id: "5E86A1D524BC94DD"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 8
+				}
+				{
+					id: "295947910FC1BFAE"
+					type: "item"
+					item: "farmersdelight:onion"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -9.0d
+			description: ["Strider Moss stew is not easy to make. You must have thoroughly done the mushroom quests in Druidism and have access to Toedscool."]
+			dependencies: ["546E079B3D5FAB56"]
+			hide: true
+			id: "375A57CC8CE835AE"
+			tasks: [{
+				id: "0DBEF87D20FFBC25"
+				type: "item"
+				item: "nethers_delight:strider_moss_stew"
+			}]
+			rewards: [
+				{
+					id: "0B67AE9A96779170"
+					type: "item"
+					item: "nethers_delight:strider_slice"
+					count: 4
+				}
+				{
+					id: "5B300CA2BBC4C985"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+					count: 4
+				}
+				{
+					id: "07B97FD71FC7FDA7"
+					type: "item"
+					item: "minecraft:warped_fungus"
+					count: 4
+				}
+				{
+					id: "66DFEA48886E5F56"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 4
+				}
+				{
+					id: "7A040C4CF08CBEB2"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					count: 4
+				}
+				{
+					id: "4790C833D8380FF1"
+					type: "item"
+					item: "minecraft:crimson_roots"
+					count: 4
+				}
+				{
+					id: "1B6F0476C5E47829"
+					type: "item"
+					item: "minecraft:warped_roots"
+					count: 4
+				}
+				{
+					id: "201298E7632F68E2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 130
+						}
+					}
+				}
+				{
+					id: "7A2E83E8D36D301E"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"10CA48778DEC00AA"
+				"62294BA8C8A0CDE9"
+				"1509B72088529641"
+			]
+			hide: true
+			id: "710B9DD811C15002"
+			tasks: [{
+				id: "40B8923B1DA705C0"
+				type: "item"
+				item: "farmersdelight:dumplings"
+			}]
+			rewards: [{
+				id: "0044D8C574A481C4"
+				type: "item"
+				item: "farmersdelight:dumplings"
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 84
+				}
+			}
+			x: 8.5d
+			y: -8.0d
+			description: ["You sure are getting good at working with soup!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0046F791E62F48BE"
+				"131B478C48406C3C"
+				"2F01F8C8A077E729"
+				"528FC854960A172E"
+				"375A57CC8CE835AE"
+				"4DF85A70D8ADCF6D"
+				"67E08850288E4E8D"
+				"5804ADCFA08F7950"
+				"1C6B9240A5D60F7B"
+			]
+			hide: true
+			id: "7A23CAC9F5812589"
+			tasks: [{
+				id: "2ACE82FE1591366E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1CED8EE4712A0655"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 84
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			dependencies: [
+				"5288DB04C07460B9"
+				"586969B17F662899"
+				"182732C4C2AC010F"
+				"15A2DD50687E0F42"
+			]
+			hide: true
+			id: "673E96BFF707764D"
+			tasks: [{
+				id: "132EB0AAAF0286FD"
+				type: "item"
+				item: "farmersdelight:vegetable_noodles"
+			}]
+			rewards: [
+				{
+					id: "032E05A7B03F97AC"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 12
+				}
+				{
+					id: "418028D48DBA5426"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 4
+				}
+				{
+					id: "6B3D91504140A3BF"
+					type: "item"
+					item: "farmersdelight:raw_pasta"
+					count: 4
+				}
+				{
+					id: "0EEABC6FF2EC8AD3"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 98
+				}
+			}
+			x: 1.5d
+			y: -10.5d
+			description: ["Getting a rich flavorful sauce is everything!"]
+			dependencies: [
+				"0DD3453FD7CA88C0"
+				"07B576ACB3C6A622"
+				"60751619FC2BF2A5"
+				"2D9DE553963E45A7"
+				"673E96BFF707764D"
+			]
+			hide: true
+			id: "5A0B73F07295C8EF"
+			tasks: [{
+				id: "4D90A27A4635C057"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0E54F2A17EA45DF1"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 98
+					}
+				}
+			}]
 		}
 	]
 }

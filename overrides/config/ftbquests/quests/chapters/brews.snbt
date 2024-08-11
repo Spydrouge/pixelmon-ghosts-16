@@ -61,6 +61,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			subtitle: "Merely Observe an Existing Campfire"
 			description: [
 				"To complete your Nana's recipe, you'll need the following additional ingredients:"
 				""
@@ -386,18 +387,11 @@
 					item: "minecraft:glowstone_dust"
 				}
 			]
-			rewards: [
-				{
-					id: "6BA3351244647598"
-					type: "item"
-					item: "pixelmon:yellow_shard"
-				}
-				{
-					id: "1FF8A7982386D2E3"
-					type: "item"
-					item: "byg:red_glowcane"
-				}
-			]
+			rewards: [{
+				id: "6BA3351244647598"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
 		}
 		{
 			x: 4.5d

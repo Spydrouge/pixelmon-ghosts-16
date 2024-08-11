@@ -1,0 +1,89 @@
+{
+	id: "6C970CECB7D667DB"
+	order_index: 27
+	title: "Choice in Reliable TR"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 8
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 5
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 2
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 65
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 67
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 61
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 11
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 22
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tr_gen8"
+				Count: 1b
+				tag: {
+					tm: 45
+				}
+			}
+		}
+	]
+}

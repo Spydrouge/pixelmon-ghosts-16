@@ -1,0 +1,18 @@
+{
+	id: "5FA56F77A457F216"
+	order_index: 24
+	title: "Choice in Evolutionary Stone"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:fire_stone" }
+		{ item: "pixelmon:water_stone" }
+		{ item: "pixelmon:moon_stone" }
+		{ item: "pixelmon:thunder_stone" }
+		{ item: "pixelmon:leaf_stone" }
+		{ item: "pixelmon:sun_stone" }
+		{ item: "pixelmon:dawn_stone" }
+		{ item: "pixelmon:dusk_stone" }
+		{ item: "pixelmon:ice_stone" }
+		{ item: "pixelmon:shiny_stone" }
+	]
+}

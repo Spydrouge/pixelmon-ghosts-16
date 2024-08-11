@@ -742,6 +742,11 @@
 					title: "Drifloon found some spare change!"
 					count: 6000
 				}
+				{
+					id: "19D5A06282759BEE"
+					type: "choice"
+					table_id: 6892037364409430550L
+				}
 			]
 		}
 		{
@@ -3020,11 +3025,103 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [{
-				id: "70F6CEC661583889"
-				type: "item"
-				item: "pixelmon:enigma_berry"
+			rewards: [
+				{
+					id: "70F6CEC661583889"
+					type: "item"
+					item: "pixelmon:enigma_berry"
+				}
+				{
+					id: "0323C36711794B9C"
+					type: "choice"
+					table_id: 7824737088415623131L
+				}
+			]
+		}
+		{
+			title: "A Trinity of Flavor!"
+			icon: {
+				id: "pixelmon:tm_gen1"
+				Count: 1b
+				tag: {
+					tm: 49
+				}
+			}
+			x: -5.0d
+			y: 1.5d
+			description: ["Oh! Drifloon has found something."]
+			dependencies: [
+				"17BA0A2AD81B9580"
+				"1FD26D1C68E9C804"
+				"53B57712CC9C5F6A"
+			]
+			hide: true
+			secret: true
+			id: "1EB7B1DF45DB271B"
+			tasks: [{
+				id: "0772405444308090"
+				type: "questsadditions:time"
+				disable_toast: true
+				secret: true
+				elapsedTime: 1L
 			}]
+			rewards: [{
+				id: "2C38748E303F92EB"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen1"
+					Count: 1b
+					tag: {
+						tm: 49
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			description: [
+				"This... this is the equivalent of a Master Ball. It can and will catch anything that can be caught."
+				""
+				"You need to be careful not to use it on any uncatchable Pokemon, like angry legendaries."
+			]
+			dependencies: [
+				"58B9997165F6FF61"
+				"5D50DA1C95DF1DF0"
+				"211A7E6C19257970"
+				"2A8C97D071CF8D55"
+				"46E2B789D1DE54F5"
+				"48FBAD7390B8355A"
+				"6F1E239009583DD2"
+			]
+			id: "6C5B37EC08655586"
+			tasks: [{
+				id: "725848D99BB6B7A1"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3DDD7316C765E935"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "park_ball"
+						}
+					}
+				}
+				{
+					id: "70C3D11BDB9FA1E4"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "0FE4745087031FF5"
+					type: "choice"
+					table_id: 3001743523227994534L
+				}
+			]
 		}
 	]
 }

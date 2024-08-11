@@ -3699,7 +3699,7 @@
 		}
 		{
 			x: -2.0d
-			y: 1.0d
+			y: -3.0d
 			description: [
 				"If you've read this book correctly it should be possible to build a larger kiln, specifically for the purpose of melting coal, venting impurities, and producing coke. What is coke good for? Well, right now, not much, except for use it as a longer-lasting coal."
 				""
@@ -3711,6 +3711,7 @@
 				""
 				"You also think you should probably place it somewhere you know Roly-Coly spawns. Just in case they like it."
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"6C469BB6BA15D1D0"
 				"18C6CF463C4DB90A"
@@ -3747,8 +3748,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 1.0d
+			x: -2.0d
+			y: -4.0d
 			description: [
 				"Most Steel type Pokemon are already made of steel, which is strong and tough. Iron on its own is brittle and weak. You probably won't find much use for a blast furnace, but you might want to build one to prove something to the universe."
 				""
@@ -3817,13 +3818,16 @@
 		}
 		{
 			x: -4.0d
-			y: 0.0d
+			y: -3.0d
 			description: [
 				"To the best of your knowledge, it will not be possible to use a windmill to power anything. But that shouldn't stop you from trying out the instructions in the book."
 				""
-				"You should likely use bronze instead of iron for the hub."
+				"You should likely use bronze instead of iron for the hub. In fact, it is clear you are going to have to use a lot of replacement materials if you hope to have enough metal to build any of the structures in this book."
 			]
-			dependencies: ["1E02A2B1EC220016"]
+			dependencies: [
+				"1E02A2B1EC220016"
+				"279AB6F00EF33DFC"
+			]
 			hide: true
 			id: "034061A64DFB739A"
 			tasks: [
@@ -3841,8 +3845,8 @@
 		}
 		{
 			x: -3.0d
-			y: 0.0d
-			description: ["By bucketing out the creosote, you can use it to create treated wood. "]
+			y: -3.0d
+			description: ["By bucketing out the creosote, you can use it to create treated wood and a large number of torches."]
 			dependencies: ["3ADDDE4CCB80BA89"]
 			hide: true
 			id: "1E02A2B1EC220016"
@@ -3858,23 +3862,429 @@
 				}
 				match_nbt: true
 			}]
+			rewards: [{
+				id: "500E99954426986D"
+				type: "item"
+				item: "minecraft:torch"
+				count: 12
+			}]
 		}
 		{
 			x: -5.0d
-			y: 0.0d
+			y: -3.0d
 			description: [
-				"There is only one way you can think of to get a Kinetic Dynamo: You're going to have to loot one from a Pokemon."
+				"There is one way you can think of to get a Kinetic Dynamo without building one: You can loot one from a Pokemon."
 				""
 				"To your knowledge, the only Pokemon that can serve as a fully functional Kinetic Dynamo, large enough for an industrial application, is Klinklng, the final evolution of Klink, which is attracted to certain habitats on the Stone Layer."
 				""
-				"Tynamo, as the name might suggest, is itself a miniature Dynamo, but it is too small to use for this purpose. You are uncertain about its evolved forms, Elektrik and Elektross"
+				"Tynamo, as the name might suggest, is itself a miniature Dynamo, but it is too small to use for this purpose. You are uncertain about its evolved forms, Elektrik and Elektross. Tynamo does have a chance to drop copper coils, which can be crafted into Kinetic Dynamos if you have enough Aluminum."
 			]
+			dependencies: ["3ADDDE4CCB80BA89"]
+			hide: true
+			dependency_requirement: "one_started"
 			id: "279AB6F00EF33DFC"
 			tasks: [{
 				id: "159E6A9AC3B89BC2"
 				type: "item"
 				item: "immersiveengineering:dynamo"
 			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			description: ["You don't have the ability to make a LV Capacitor, but you can link the Windmill directly to a machine that needs power."]
+			dependencies: ["279AB6F00EF33DFC"]
+			id: "228942B06DB4B061"
+			tasks: [
+				{
+					id: "62DB5371D5FC6B48"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "29D37DD7DA67FB8E"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			description: [
+				"The Garden Cloche is capable of reproducing a number of crops, plants, and fungi."
+				""
+				"You may struggle to afford the iron mechanical component, but can harass Klink on the Stone Layer until one drops one."
+			]
+			dependencies: ["228942B06DB4B061"]
+			id: "2127E58685636654"
+			tasks: [{
+				id: "2C976B9E5F4BC5B3"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			title: "Industrial Squeezer"
+			x: -8.0d
+			y: -3.0d
+			description: [
+				"It may be possible for you to create an Industrial Squeezer, from the Heavy Machinery section of the Engineering book you've been reading."
+				""
+				"You will need to use alternative sheet metal whenever possible to make the most of all your materials."
+			]
+			dependencies: ["228942B06DB4B061"]
+			min_required_tasks: 1
+			id: "4534E57B2ECCAE5F"
+			tasks: [
+				{
+					id: "0B5937C726FE37B2"
+					type: "observation"
+					icon: "immersiveengineering:squeezer"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:squeezer"
+				}
+				{
+					id: "72EA71CE26283DC6"
+					type: "item"
+					item: "immersiveengineering:squeezer"
+				}
+			]
+			rewards: [
+				{
+					id: "7276B213994D5EFF"
+					type: "item"
+					title: "Drifloon is helping!"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "51A550C266B344B3"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 59
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			description: [
+				"The Metal Press can speed up the creation of plates and wires, far above what any Meltery is capable of."
+				""
+				"However, it is also expensive, requiring a significant expenditure of steel."
+			]
+			dependencies: [
+				"228942B06DB4B061"
+				"0AB6B07E4EC09194"
+			]
+			min_required_tasks: 1
+			id: "3B5EE68C9A94B23C"
+			tasks: [
+				{
+					id: "21EE9E38F7D4B1CF"
+					type: "item"
+					item: "immersiveengineering:metal_press"
+				}
+				{
+					id: "43CA70E8543F863A"
+					type: "observation"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["Conveyor Belts do not require power, and can be used to automate the transportation of items or entities."]
+			dependencies: ["3ADDDE4CCB80BA89"]
+			id: "0AB6B07E4EC09194"
+			tasks: [{
+				id: "167CDA8AE16EDDC6"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			description: ["Extracting conveyor belts are expensive, and you may want to stick with Wooden Hoppers, which are much cheaper, if slower."]
+			dependencies: ["0AB6B07E4EC09194"]
+			id: "16CFCAD74C613F1E"
+			tasks: [{
+				id: "23AC3DC5AC747A0A"
+				type: "item"
+				item: "immersiveengineering:conveyor_extract"
+			}]
+			rewards: [
+				{
+					id: "48C8FB9E3F044284"
+					type: "item"
+					item: "immersiveengineering:conveyor_dropper"
+				}
+				{
+					id: "2B2C98CACD10E97B"
+					type: "item"
+					item: "immersiveengineering:conveyor_vertical"
+				}
+				{
+					id: "7749C22D21D4357B"
+					type: "item"
+					item: "immersiveengineering:conveyor_splitter"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			description: [
+				"Plant oil may not seem to have any value if you can't build more complicated structures like a refinery, but think again."
+				""
+				"Plant oil can be mixed with calcium mash in order to produce a milk substitute. The result can be used in cooking, and it may be more convenient to passively produce milk in the background than to go hunt down another Milcery."
+			]
+			dependencies: ["4534E57B2ECCAE5F"]
+			id: "21C6195FF8C6AAE2"
+			tasks: [{
+				id: "43F91790BCF2496F"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "immersiveengineering:plantoil"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "297115CEE91AF88F"
+					type: "item"
+					item: "pixelmon:curry_coconut"
+				}
+				{
+					id: "3C95C979FB2B2FA0"
+					type: "item"
+					item: "pixelmon:moomoo_milk"
+				}
+				{
+					id: "574C08E7BF386D39"
+					type: "item"
+					item: "pixelmon:curry_cream"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			description: [
+				"Are you more confident in your engineering skills, or your botanical ones?"
+				""
+				"Mana Fluxfields can turn mana pulses into redstone flux. However the conversion is not especially efficient, so care should be taken to use Manastars to ensure a Botanical system can handle the load."
+				""
+				"In practice, the Fluxfield should likely only be relied upon to run important machines for short stretches of time, until you can get more reliable power."
+			]
+			dependencies: [
+				"3ADDDE4CCB80BA89"
+				"671596726F46F911"
+			]
+			id: "12C11032D4DF024F"
+			tasks: [{
+				id: "13CF71A00688E098"
+				type: "item"
+				item: "botania:mana_fluxfield"
+			}]
+			rewards: [{
+				id: "45EDDB2DF010CECF"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: [
+				"The low voltage copper coil block can be harvested from Tynamo, or crafted at a premium. Even if you obtain a Kinetic Dynamo directly from Klinklang, you might still want to obtain a few Coils."
+				""
+				"It is slightly attractive to Magnemite, who can be lured to Manmade structures, indoor and outdoor, in the Air Layer and above."
+				""
+				"Although Magnemite is very rare, it is a Ferromagnetic Pokemon made entirely of metal. This means a large percentage of its composition is iron."
+			]
+			hide_dependency_lines: true
+			dependencies: ["034061A64DFB739A"]
+			hide: true
+			id: "2E943AC7831B7D2F"
+			tasks: [{
+				id: "61005E6980383341"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: [
+				"The Electrum-based Mid-Voltage Coil can be harvested from Elektrik, Tynamo's evolved form. "
+				""
+				"It is slightly attractive to Magneton."
+			]
+			dependencies: ["2E943AC7831B7D2F"]
+			hide: true
+			id: "5CADE6A95E631F8E"
+			tasks: [{
+				id: "76073E1EA5874891"
+				type: "item"
+				item: "immersiveengineering:coil_mv"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			description: [
+				"The Steel-based High voltage coil can be harvested from Tynamo's final evolution, Elektross. "
+				""
+				"It is slightly attractive to Magnezone."
+			]
+			dependencies: ["5CADE6A95E631F8E"]
+			hide: true
+			id: "0A414E8D40C006D3"
+			tasks: [{
+				id: "2C63CB8F123DE382"
+				type: "item"
+				item: "immersiveengineering:coil_hv"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			description: [
+				"The charging station attracts Magnemite to a slightly higher level than the lone Coil."
+				""
+				"The book says this station is for recharging tools that run off of RF, but the only tool it lists as an example is a Rail Gun."
+			]
+			dependencies: ["2E943AC7831B7D2F"]
+			hide: true
+			id: "471B0E2EF46C30C6"
+			tasks: [{
+				id: "0EC765960472DDA2"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			description: [
+				"The current transformer is the next stage in Magnemite attraction technology."
+				""
+			]
+			dependencies: ["471B0E2EF46C30C6"]
+			hide: true
+			id: "01550F09D31E56C8"
+			tasks: [{
+				id: "22701A5BA6A1F95F"
+				type: "item"
+				item: "immersiveengineering:current_transformer"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			description: ["The railgun is an expensive upgrade to the revolver. Technically, none of its components require raw, brittle, cast iron. You may be able to make it from leftover metal, especially if you have been recieving a lot of steel or lead."]
+			dependencies: [
+				"471B0E2EF46C30C6"
+				"5CADE6A95E631F8E"
+			]
+			hide: true
+			id: "1DF1175D245899F3"
+			tasks: [{
+				id: "27DA19EECCE78299"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			description: ["The tesla coil is a power-hungry defensive structure you really do not have the power to run. But it is quite attractive to Magnemite enroute to working on the Lightning Rod."]
+			dependencies: ["01550F09D31E56C8"]
+			id: "17813D5126DCCEF4"
+			tasks: [{
+				id: "50CC76C53B8B0296"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			dependencies: ["5CADE6A95E631F8E"]
+			id: "6838B9B5005A06E5"
+			tasks: [{
+				id: "5028DCD25F963535"
+				type: "item"
+				item: "immersiveengineering:transformer"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["0A414E8D40C006D3"]
+			id: "10723F7054F3E2D3"
+			tasks: [{
+				id: "46547AECEADF2005"
+				type: "item"
+				item: "immersiveengineering:transformer_hv"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			description: [
+				"The pinnacle of Magnemite, Magneton, and Magnezone attraction technology: A true lightning rod."
+				""
+				"You will likely not be able to build this prior to successfully attracting and harvesting from Honedge."
+			]
+			dependencies: [
+				"10723F7054F3E2D3"
+				"6838B9B5005A06E5"
+				"01550F09D31E56C8"
+			]
+			min_required_tasks: 1
+			id: "2ED59DA2C7464A7B"
+			tasks: [
+				{
+					id: "35CB47795D155D14"
+					type: "item"
+					item: "immersiveengineering:lightning_rod"
+				}
+				{
+					id: "33A1FFD8D14C5DAF"
+					type: "observation"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:lightning_rod"
+				}
+			]
 		}
 	]
 }

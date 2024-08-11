@@ -772,5 +772,21 @@
 				player_command: false
 			}]
 		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: [
+				"6F10ADDBC73438E9"
+				"5C36AA7A30CA6209"
+				"69C2B4CDD7BC8095"
+			]
+			min_required_tasks: 1
+			id: "671596726F46F911"
+			tasks: [{
+				id: "475F48D7D0C0C97E"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
 	]
 }
