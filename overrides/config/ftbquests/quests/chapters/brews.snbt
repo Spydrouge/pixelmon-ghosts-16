@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Witchcraft"
 			icon: "pixelmon:potion"
 			x: 0.0d
 			y: 0.0d
@@ -532,6 +533,11 @@
 				type: "item"
 				item: "minecraft:skeleton_skull"
 				count: 3L
+			}]
+			rewards: [{
+				id: "0C0C40F815A47A3A"
+				type: "item"
+				item: "minecraft:skeleton_skull"
 			}]
 		}
 		{

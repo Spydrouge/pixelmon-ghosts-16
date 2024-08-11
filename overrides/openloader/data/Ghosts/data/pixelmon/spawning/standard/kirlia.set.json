@@ -1,6 +1,30 @@
 {
   "id": "Kirlia",
   "spawnInfos": [
+      {
+      "spec": "species:Ralts palette:strike",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Underground"
+      ],
+      "minLevel": 20,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "nearbyBlocks":[
+            "botania:terra_plate"
+        ]
+        
+      },
+      "rarity": 40
+    },
     {
       "spec": "species:Kirlia",
       "stringLocationTypes": [

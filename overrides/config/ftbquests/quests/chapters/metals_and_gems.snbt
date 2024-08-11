@@ -13,7 +13,7 @@
 			x: 0.0d
 			y: -1.5d
 			description: [
-				"You've decided to use this part of your dictionary to keep track of your observations regarding where certain materials can be found, such as iron, and silicon."
+				"You've decided to use this chapter of your diary to keep track of your observations regarding where certain materials can be found, such as iron, and silicon."
 				""
 				"Additionally, because iron is rare, and most Appricorn colors are not avialable, you are keeping detailed notes on what types of Pokeball are available."
 			]
@@ -312,6 +312,7 @@
 				""
 				"Obviously, this technique requires iron to make iron; it is a way to sustain iron production, rather than start it."
 			]
+			dependencies: ["6C7756D44E8B93BB"]
 			hide: true
 			id: "44C692A5614BC9EB"
 			tasks: [{
@@ -1270,17 +1271,34 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "2EFFC50D5F7670CD"
-				type: "item"
-				item: {
-					id: "pixelmon:tm_gen7"
-					Count: 1b
-					tag: {
-						tm: 64
+			rewards: [
+				{
+					id: "2EFFC50D5F7670CD"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 64
+						}
 					}
 				}
-			}]
+				{
+					id: "490CEA6357C03128"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "2A40AC8C63C8AF0E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "2C5B882F832FA335"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -1325,7 +1343,7 @@
 			x: -2.5d
 			y: 6.0d
 			description: [
-				"Electrum can be alloyed from gold and silver. It also drops in small quantities from certain Pokemon, like Tynamo, which spawns in Underground water on the Soil Layer."
+				"Electrum can be alloyed from gold and silver. It also drops in small quantities from certain Pokemon, like Tynamo, which spawns in Underground water on the Soil Layer, or from Staryu, in the space layer."
 				""
 				"Electrum has the unique ability to be used in place of Iron, Aluminum, Silver, and Platinum in Wing, Feather, and Jet Ball Lids."
 			]
@@ -1399,7 +1417,6 @@
 				""
 				"While it is possible to create Fairy yourself, it is also likely that pink Fairy Pokemon such as Snubble, Clefairy, and Jigglypuff have collected a few nuggets, and will drop them if pressed. Some of these will be attracted to habitats on the Dazzle Layer."
 				""
-				"However, it cannot be melted without lava. It is likely you will be stuck with an assortment of nuggets you can't use for awhile."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1515,8 +1532,14 @@
 					item: "minecraft:prismarine_crystals"
 				}
 			]
+			rewards: [{
+				id: "2817F4C47866E73A"
+				type: "item"
+				item: "minecraft:sea_lantern"
+			}]
 		}
 		{
+			title: "Nickel"
 			icon: {
 				id: "ftblibrary:fluid_container"
 				Count: 1b
@@ -1588,6 +1611,7 @@
 			}]
 		}
 		{
+			title: "Uranium"
 			icon: {
 				id: "ftblibrary:fluid_container"
 				Count: 1b
@@ -1609,7 +1633,14 @@
 				{
 					id: "4AAE616AB8D01502"
 					type: "item"
-					item: "immersiveengineering:nugget_uranium"
+					title: "Any #forge:nuggets/uranium"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/uranium"
+						}
+					}
 					count: 9L
 					consume_items: true
 				}
@@ -1666,6 +1697,23 @@
 					count: 9L
 				}
 			]
+			rewards: [
+				{
+					id: "74EBE07E27F39D84"
+					type: "item"
+					item: "immersiveengineering:wire_steel"
+				}
+				{
+					id: "129213FB0F540B29"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "5C590F6495C9BD2C"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
 		}
 		{
 			title: "Cinnabar"
@@ -1698,6 +1746,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "1F4B5052AF9C07F1"
+				type: "item"
+				item: "thermal:cinnabar"
 			}]
 		}
 		{
@@ -1746,6 +1799,7 @@
 			]
 		}
 		{
+			title: "Invar"
 			icon: {
 				id: "ftblibrary:fluid_container"
 				Count: 1b
@@ -1807,6 +1861,7 @@
 			}]
 		}
 		{
+			title: "Constantan"
 			icon: {
 				id: "ftblibrary:fluid_container"
 				Count: 1b
@@ -1868,56 +1923,39 @@
 			}]
 		}
 		{
-			icon: {
-				id: "ftblibrary:fluid_container"
-				Count: 1b
-				tag: {
-					Fluid: {
-						FluidName: "materialis:molten_fairy"
-						Amount: 1000
-					}
-				}
-			}
-			x: 2.5d
-			y: -8.0d
-			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Uranium in a world devoid of lava..."]
-			repeatable: true
-			id: "34AF7FC6B385A6AC"
-			tasks: [
+			x: -6.0d
+			y: 1.5d
+			description: [
+				"Iron is a brittle metal that's easy to work with but does not create especially powerful tools. Steel is much harder, stronger, and keeps a sharper edge. As the name suggests, many of the most powerful steel-type Pokemon can be harvested for steel."
+				""
+				"You don't know how to turn steel back into iron, but for many applications you don't need to. "
+				""
+				"You expect steel to be especially common in the Nether, but you still think you can find some on your island, especially among some ghost or fae Pokemon. For instance, Mawile might be attracted to indoor habitats on the Ice layer. Aron drops steel as well as iron. Dhelmise carries around a steel anchor and can likely be attracted to above-ground water habitats on the Stone Layer."
+			]
+			dependencies: ["16AECF01A7853FED"]
+			id: "6C7756D44E8B93BB"
+			tasks: [{
+				id: "27B8BD0491F11342"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
+			rewards: [
 				{
-					id: "27B363BA26C0E9ED"
-					type: "item"
-					item: "materialis:fairy_nugget"
-					count: 9L
-					consume_items: true
-				}
-				{
-					id: "377715FC0EAC774A"
-					type: "item"
-					item: "thermal:cinnabar_dust"
-					consume_items: true
+					id: "128A1ED838DB4EE2"
+					type: "choice"
+					table_id: 6443510782262151491L
 				}
 				{
-					id: "2EC38D0E9B29C862"
+					id: "282B9E22B6BBA7E0"
 					type: "item"
-					item: "botania:mana_powder"
-					consume_items: true
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2138C5EE8843BDFC"
+					type: "item"
+					item: "pixelmon:black_shard"
 				}
 			]
-			rewards: [{
-				id: "6530830948982BF0"
-				type: "item"
-				item: {
-					id: "ftblibrary:fluid_container"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "materialis:molten_fairy"
-							Amount: 1000
-						}
-					}
-				}
-			}]
 		}
 	]
 }

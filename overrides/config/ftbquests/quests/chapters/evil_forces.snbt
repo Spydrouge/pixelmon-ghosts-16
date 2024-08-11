@@ -277,6 +277,11 @@
 					item: "minecraft:black_glazed_terracotta"
 					count: 9
 				}
+				{
+					id: "31D517FFC492D700"
+					type: "item"
+					item: "pixelmon:wild_music_disc"
+				}
 			]
 		}
 		{
@@ -443,6 +448,11 @@
 					type: "item"
 					item: "astralsorcery:aquamarine_sand_ore"
 					count: 3
+				}
+				{
+					id: "624252276A1D338A"
+					type: "item"
+					item: "pixelmon:trainer_music_disc"
 				}
 			]
 		}
@@ -835,6 +845,11 @@
 						}
 					}
 				}
+				{
+					id: "35A2BE2EBAED20AB"
+					type: "item"
+					item: "pixelmon:gym_music_disc"
+				}
 			]
 		}
 		{
@@ -918,9 +933,14 @@
 			}]
 		}
 		{
+			title: "Axe them a Question"
 			x: -2.0d
 			y: -16.5d
-			description: ["With a sword, your sweeping strikes will hit animal mounts. You can upgrade your axe to something a little more formidable, now that you have access to basic alloys and a bit of magic."]
+			description: [
+				"With a sword, your sweeping strikes will hit animal mounts. You can upgrade your axe to something a little more formidable, now that you have access to basic alloys and a bit of magic."
+				""
+				"By utilizing a precision tool and targeting only the mounted skeletons, you might end up getting to keep some of their sweet rides."
+			]
 			dependencies: ["50B056A20ABA85CE"]
 			id: "5D51FDA2DB65AAF7"
 			tasks: [{
@@ -1178,6 +1198,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:creeper_head"
 			x: 0.0d
 			y: -26.0d
 			description: ["This will be one heck of a challenge. One wrong move, and it explodes."]
@@ -1221,6 +1242,11 @@
 					id: "3BF8E62907B952A9"
 					type: "choice"
 					table_id: 4524191137701651332L
+				}
+				{
+					id: "156CA51584FCC3D8"
+					type: "item"
+					item: "pixelmon:boss_music_disc"
 				}
 			]
 		}

@@ -1,0 +1,14 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "pixelmon:coba_berry"
+    },
+    {
+      "item": "pixelmon:crystal"
+    }
+  ],
+  "results": {
+    "item": "pixelmon:flying_gem"
+  }
+}

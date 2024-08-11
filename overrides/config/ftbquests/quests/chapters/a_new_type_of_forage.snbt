@@ -152,7 +152,7 @@
 			x: 0.5d
 			y: 2.0d
 			subtitle: "Reverse Engineering"
-			description: ["It's definitely not the best way to farm leather, but you can craft damaged leather boots together to get undamaged books, and then tear them apart on a cutting board with a knife or shears."]
+			description: ["It's definitely not the best way to farm leather, but you can craft damaged leather boots together to get undamaged boots, and then tear them apart on a cutting board with a knife or shears."]
 			dependencies: ["5C031B33E5E01602"]
 			hide: true
 			id: "7C554F2E38E01DD7"
@@ -353,7 +353,7 @@
 			x: 2.0d
 			y: -0.5d
 			subtitle: "Brown Dye, Brown Flower"
-			description: ["It appears this can be made into brown dye. That would make it the only source of brown dye you know of. This may be useful for some application reliant on color."]
+			description: ["It appears this can be made into brown dye. That would make it the only source of brown dye you know of. This may be useful for some application reliant on color. However, reeds do not appear to be farmable."]
 			dependencies: ["5C031B33E5E01602"]
 			hide: true
 			id: "1FC5941FD186854D"
@@ -1297,7 +1297,6 @@
 				""
 				"Keep your best cutters away from any wood houses!"
 				""
-				"(Baobab saplings, like some other BYG saplings, will only grow above Y = 72)"
 			]
 			hide: true
 			id: "139888ADA26C5124"
@@ -1331,7 +1330,11 @@
 		{
 			x: 1.0d
 			y: -12.5d
-			description: ["Gather saplings and plant your next redwood in a 2x2 to increase the tree size."]
+			description: [
+				"Gather saplings and plant your next redwood in a 2x2 to increase the tree size."
+				""
+				"(These redwood saplings, like some other BYG saplings, will only grow above Y = 72)"
+			]
 			dependencies: ["139888ADA26C5124"]
 			hide: true
 			id: "2F65123D8C4EA748"
@@ -1371,6 +1374,7 @@
 				id: "400EBF6D52A8AAEA"
 				type: "item"
 				item: "byg:redwood_log"
+				count: 64L
 			}]
 			rewards: [
 				{
@@ -2084,6 +2088,7 @@
 			]
 		}
 		{
+			title: "Skeleton Animal Egg"
 			x: -8.5d
 			y: -2.0d
 			description: ["What you've seen in the deep dark, falling out of the trees there, is a little disturbing. These are definitely not normal eggs."]
@@ -2302,12 +2307,16 @@
 		{
 			x: -9.5d
 			y: -3.0d
+			subtitle: "Are you supposed to have this?"
 			description: [
 				"You appear to have found an, eh-heh, Easter Egg."
 				""
 				"It is possible you've found this before you should have access to Ender Slime. If so, Enjoy."
 			]
+			hide_dependency_lines: true
+			dependencies: ["69351F58AC8A6A4B"]
 			hide: true
+			hide_text_until_complete: true
 			secret: true
 			id: "07E139B36C92A3D5"
 			tasks: [{
@@ -2330,6 +2339,8 @@
 				"Ignite starts a fire, like with Flint and Steel. Sadly, it cannot be used to cook Curry."
 				""
 				"Some Pokemon with more powerful fire moves can ignite more blocks. These include Fire Blast, Incinerate, Inferno, and Sacred Fire."
+				""
+				"It can be used to light a nether portal."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7A14B86EECDF05E4"]
@@ -2344,30 +2355,17 @@
 				invert: false
 				move: "ignite"
 			}]
-			rewards: [
-				{
-					id: "3513818B8EC55018"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 15
-						}
+			rewards: [{
+				id: "4F721815B57C699B"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 23
 					}
 				}
-				{
-					id: "18CE6A3E3BF96AF8"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 23
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -3.0d
@@ -2414,7 +2412,7 @@
 			description: [
 				"Ground Birds can help you initiate combat with air Pokemon before they leave your island and head off into the void."
 				""
-				"The only two moves that allow you to learn Ground Birds are Smack Down and Gravity. If you replace Smack Down with a better rock move, you will learn access to it."
+				"The only two moves that allow you to learn Ground Birds are Smack Down and Gravity. If you replace Smack Down with a better rock move, you will lose access to it."
 				""
 				"The only Pokemon you can hatch to get access to Smack Down are some of the fossil Pokemon, like Tirouga and Anorith. If you want to hatch these Pokemon, you must go the Rock Smash route and grind out fossils. To get access to Gravity, you must hatch a Cleffa and evolve it into Clefairy in time to learn Gravity."
 				""
@@ -2458,22 +2456,11 @@
 						}
 					}
 				}
-				{
-					id: "25DB87173D87F609"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 75
-						}
-					}
-				}
 			]
 		}
 		{
-			x: -0.5d
-			y: -10.5d
+			x: 3.0d
+			y: -11.5d
 			description: [
 				"You aren't sure if this will ever be useful, exactly, but Pokemon who know certain electric moves can call down Lightning. These moves are Spark, Discharge, Thunder, Thunder Shock, and Thunderbolt."
 				""
@@ -2482,7 +2469,6 @@
 			hide_dependency_lines: true
 			dependencies: ["7A14B86EECDF05E4"]
 			hide: true
-			size: 0.5d
 			id: "7622C8175BC28B3D"
 			tasks: [{
 				id: "5C83AF918E4BAC72"
@@ -2493,17 +2479,6 @@
 				move: "lightning_bolt"
 			}]
 			rewards: [
-				{
-					id: "448F2D0C234A72E2"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 9
-						}
-					}
-				}
 				{
 					id: "6CF95122FC65AF25"
 					type: "item"
@@ -2551,30 +2526,17 @@
 				invert: false
 				move: "dig"
 			}]
-			rewards: [
-				{
-					id: "24D69646C9E9327E"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 54
-						}
+			rewards: [{
+				id: "24D69646C9E9327E"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 54
 					}
 				}
-				{
-					id: "3C9E2B3A7CADB62B"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 87
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -1.5d
@@ -2613,7 +2575,7 @@
 				""
 				"In battle, Softboiled heals the user. But out of battle, Softboiled transfers health from Chansy to the target Pokemon. It transfers 20% of Chansey's Maximum health, and she can faint from overdoing it."
 				""
-				"Chansey can heal you; however, most of the healing effect will be wasted, as you have far fewer hitpoints than 20% of her maximum health."
+				"Chansey can even heal a human; however, most of the healing effect will be wasted, as you have far fewer hitpoints than 20% of her maximum health."
 				""
 				"The TM Softboiled is fairly useless; it can only be used on Chansey."
 			]
@@ -2658,13 +2620,13 @@
 					}
 				}
 				{
-					id: "73F009AB108C6446"
+					id: "69856E4C2248E2C4"
 					type: "item"
 					item: {
-						id: "pixelmon:tr_gen8"
+						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 96
+							tm: 110
 						}
 					}
 				}
@@ -2673,6 +2635,7 @@
 		{
 			x: 0.0d
 			y: -12.5d
+			subtitle: "Rain, rain, go away..."
 			description: ["You can turn the rain off. Can you turn it back on?"]
 			dependencies: ["7A14B86EECDF05E4"]
 			hide: true
@@ -2698,15 +2661,9 @@
 					}
 				}
 				{
-					id: "5CD785768CDFAA5B"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 167
-						}
-					}
+					id: "266DD322981EA20B"
+					type: "choice"
+					table_id: 1116397309631527027L
 				}
 			]
 		}
@@ -2967,6 +2924,11 @@
 						fluid: "contenttweaker:calcium"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2768A91DF983700D"
+				type: "item"
+				item: "farmersdelight:milk_bottle"
 			}]
 		}
 		{
@@ -3276,6 +3238,31 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 3.0d
+			y: -12.5d
+			description: ["One reason to master the usage of calling down lightning is because lightning bolts used on plain stone will cause Thunder Stone Ore to form where the stone is struck by the lightning."]
+			dependencies: ["7622C8175BC28B3D"]
+			hide: true
+			id: "2E75C21160C9CD52"
+			tasks: [{
+				id: "410F793C2AE21892"
+				type: "item"
+				item: "pixelmon:thunder_stone_ore"
+			}]
+			rewards: [
+				{
+					id: "0F4A769299204942"
+					type: "item"
+					item: "pixelmon:thunder_badge"
+				}
+				{
+					id: "75226707576DF048"
+					type: "item"
+					item: "thermal:blitz_spawn_egg"
+				}
+			]
 		}
 	]
 }

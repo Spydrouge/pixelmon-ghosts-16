@@ -162,7 +162,7 @@ val blocks =
 
 
 
-/*
+
 for i in ingots{
 	craftingTable.removeRecipe(i);
 }
@@ -171,4 +171,4 @@ for i in nuggets{
 }
 for i in blocks{
 	craftingTable.removeRecipe(i);
-}*/
+}

@@ -67,6 +67,25 @@ val immersiveMetals =
 	"uranium"
 ];
 
+var astralMetals =
+[
+	"starmetal"
+];
+
+val nonRodImmersiveMetals = 
+[
+	"constantan",
+	"electrum",
+	"lead",
+	"nickel",
+	"uranium"
+];
+
+var nonRodVanillaMetals =
+[
+	"gold"
+];
+
 //LOAD THE ARRAYS
 
 val allNuggets = new stdlib.List<string>();
@@ -75,6 +94,7 @@ val allDusts = new stdlib.List<string>();
 val allPlates = new stdlib.List<string>();
 val allIngots = new stdlib.List<string>();
 val allBlocks = new stdlib.List<string>();
+val allRods = new stdlib.List<string>();
 
 for i in newMetals{
 	allNuggets.add(i);
@@ -83,6 +103,7 @@ for i in newMetals{
 	allPlates.add(i);
 	allIngots.add(i);
 	allBlocks.add(i);
+	allRods.add(i);
 }
 for i in vanillaMetals{
 	allGears.add(i);
@@ -93,17 +114,35 @@ for i in pokeMetals{
 	allGears.add(i);
 	allDusts.add(i);
 	allPlates.add(i);
+	allRods.add(i);
 }
-for i in forestryMetals{
-	allNuggets.add(i);
-	allDusts.add(i);
-	allPlates.add(i);
-}
+//for i in forestryMetals{
+//	allNuggets.add(i);
+//	allDusts.add(i);
+//	allPlates.add(i);
+//	allRods.add(i);
+//}
 
 for i in tinkersMetals{
 	allGears.add(i);
 	allDusts.add(i);
 	allPlates.add(i);
+	allRods.add(i);
+}
+
+for i in nonRodImmersiveMetals{
+	allRods.add(i);
+}
+
+for i in nonRodVanillaMetals{
+	allRods.add(i);
+}
+
+for i in astralMetals{
+	allNuggets.add(i);
+	allGears.add(i);
+	allPlates.add(i);
+	allRods.add(i);
 }
 
 //BUILD
@@ -126,6 +165,10 @@ for i in allPlates{
 
 for i in allIngots{
 	new ItemBuilder().build(i + "_ingot");
+}
+
+for i in allRods{
+	new ItemBuilder().build(i + "_rod");
 }
 
 for i in allBlocks{

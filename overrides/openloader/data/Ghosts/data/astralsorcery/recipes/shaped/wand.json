@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ss",
+    "mm",
+    "pp"
+  ],
+  "key": {
+    "s": {
+      "item": "astralsorcery:black_marble_slab"
+    },
+    "m": {
+      "item": "astralsorcery:marble_raw"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "astralsorcery:altar_discovery",
+    "count": 1
+  }
+}

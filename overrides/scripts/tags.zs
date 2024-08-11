@@ -1,5 +1,6 @@
 import crafttweaker.api.tag.MCTag;
 
+//This could all likely be moved to datapacks, but was inherited from 1.12
 
 val skulls = <tag:items:ghosts:skeleton_skulls>;
 skulls.add(<item:minecraft:skeleton_skull>);

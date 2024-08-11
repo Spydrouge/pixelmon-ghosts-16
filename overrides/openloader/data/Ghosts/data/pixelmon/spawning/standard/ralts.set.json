@@ -4,7 +4,10 @@
     {
       "spec": "species:Ralts palette:strike",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Underground"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -14,9 +17,13 @@
         "minY":128,
         "stringBiomes": [
           "ghosts"
+        ],
+        "nearbyBlocks":[
+            "botania:terra_plate"
         ]
+        
       },
-      "rarity": 0
+      "rarity": 90
     },
     {
       "spec": "species:Ralts",

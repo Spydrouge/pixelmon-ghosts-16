@@ -1164,6 +1164,12 @@
                 "chance": 0.5
             },
             {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.1
+            },
+            {
                 "item": "pixelmon:moon_stone_shard",
                 "min": 1,
                 "max": 1,
@@ -1191,6 +1197,12 @@
                 "min": 2,
                 "max": 4,
                 "chance": 0.7
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 4,
+                "max": 9,
+                "chance": 0.3
             },
             {
                 "item": "pixelmon:moon_stone_shard",
@@ -1257,6 +1269,12 @@
                 "chance": 0.5
             },
             {
+                "item": "botania:manasteel_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
                 "item": "pixelmon:ice_stone_shard",
                 "min": 1,
                 "max": 1,
@@ -1304,12 +1322,6 @@
                 "chance": 0.3
             },
             {
-                "item": "minecraft:magma_block",
-                "min": 1,
-                "max": 1,
-                "chance": 0.2
-            },
-            {
                 "item": "minecraft:blaze_rod",
                 "min": 1,
                 "max": 1,
@@ -1336,6 +1348,12 @@
                 "item": "pixelmon:ice_stone_shard",
                 "min": 2,
                 "max": 3,
+                "chance": 0.3
+            },
+            {
+                "item": "botania:manasteel_nugget",
+                "min": 4,
+                "max": 9,
                 "chance": 0.3
             },
             {
@@ -4379,10 +4397,35 @@
                 "chance": 0.5
             },
             {
+                "item": "thermal:electrum_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
                 "item": "pixelmon:water_stone_shard",
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
+            },
+            
+            {
+                "item": "astralsorcery:stardust",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
+            },
+            {
+                "item": "pixelmon:stardust",
+                "min": 1,
+                "max": 1,
+                "chance": 0.01
             }
         ]
     },
@@ -4406,6 +4449,30 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.3
+            },
+            {
+                "item": "thermal:electrum_nugget",
+                "min": 3,
+                "max": 7,
+                "chance": 0.5
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 1,
+                "max": 10,
+                "chance": 0.5
+            },
+            {
+                "item": "astralsorcery:stardust",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
+            },
+            {
+                "item": "pixelmon:stardust",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
             },
             {
                 "item": "pixelmon:water_stone",
@@ -5786,7 +5853,7 @@
         "pokemon": "Chinchou",
         "items": [
             {
-                "item": "minecraft:cod",
+                "item": "minecraft:tropical_fish",
                 "min": 1,
                 "max": 1,
                 "chance": 1
@@ -5809,28 +5876,28 @@
         "pokemon": "Lanturn",
         "items": [
             {
-                "item": "minecraft:cod",
+                "item": "minecraft:tropical_fish",
                 "min": 1,
                 "max": 2,
                 "chance": 1
             },
             {
-                "item": "minecraft:tropical_fish",
+                "item": "minecraft:glowstone_dust",
+                "min": 2,
+                "max": 3,
+                "chance": 0.7
+            },
+            {
+                "item": "astralsorcery:illumination_powder",
                 "min": 1,
                 "max": 2,
                 "chance": 0.5
             },
             {
-                "item": "minecraft:glowstone_dust",
-                "min": 1,
-                "max": 3,
-                "chance": 0.3
-            },
-            {
                 "item": "minecraft:sea_lantern",
                 "min": 1,
                 "max": 1,
-                "chance": 0.1
+                "chance": 0.3
             }
         ]
     },
@@ -5865,6 +5932,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
             },
             {
                 "item": "pixelmon:moon_stone_shard",
@@ -6393,10 +6466,10 @@
                 "chance": 0.5
             },
             {
-                "item": "pixelmon:pokemail_bubble",
+                "item": "botania:manasteel_nugget",
                 "min": 1,
-                "max": 1,
-                "chance": 0.1
+                "max": 2,
+                "chance": 0.3
             },
             {
                 "item": "minecraft:lapis_lazuli",
@@ -6422,10 +6495,10 @@
                 "chance": 0.5
             },
             {
-                "item": "pixelmon:pokemail_bubble",
-                "min": 1,
-                "max": 2,
-                "chance": 0.3
+                "item": "botania:manasteel_nugget",
+                "min": 4,
+                "max": 6,
+                "chance": 0.5
             },
             {
                 "item": "minecraft:rabbit_foot",
@@ -9102,16 +9175,16 @@
                 "chance": 1
             },
             {
+                "item": "minecraft:heart_of_the_sea",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
+            },
+            {
                 "item": "pixelmon:water_gem",
                 "min": 1,
                 "max": 2,
                 "chance": 0.5
-            },
-            {
-                "item": "minecraft:heart_of_the_sea",
-                "min": 1,
-                "max": 1,
-                "chance": 0.1
             }
         ]
     },
@@ -9942,6 +10015,12 @@
                 "item": "minecraft:ender_eye",
                 "min": 1,
                 "max": 1,
+                "chance": 0.3
+            },
+            {
+                "item": "botania:terrasteel_nugget",
+                "min": 1,
+                "max": 1,
                 "chance": 0.1
             }
         ]
@@ -9960,6 +10039,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "botania:terrasteel_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
             },
             {
                 "item": "minecraft:ender_eye",
@@ -9985,10 +10070,10 @@
                 "chance": 0.5
             },
             {
-                "item": "minecraft:ender_eye",
-                "min": 1,
-                "max": 2,
-                "chance": 0.3
+                "item": "botania:terrasteel_nugget",
+                "min": 4,
+                "max": 12,
+                "chance": 0.5
             },
             {
                 "item": "pixelmon:psychic_gem",
@@ -10446,6 +10531,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 1
+            },
+            {
+                "item": "botania:manasteel_nugget",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
             }
         ]
     },
@@ -10631,7 +10722,7 @@
                     "id": "immersiveengineering:sword_steel",
                     "Count": 1,
                     "tag": {
-                        "Damage": 900
+                        "Damage": 300
                     }
                 },
                 "min": 1,
@@ -11631,6 +11722,12 @@
                 "chance": 0.05
             },
             {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 2,
+                "max": 3,
+                "chance": 0.3
+            },
+            {
                 "item": "contenttweaker:silver_nugget",
                 "min": 1,
                 "max": 1,
@@ -11664,6 +11761,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.05
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 2,
+                "max": 3,
+                "chance": 0.3
             },
             {
                 "item": "minecraft:gold_nugget",
@@ -13649,9 +13752,15 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:iron_ingot",
+                "item": "minecraft:iron_nugget",
                 "min": 1,
-                "max": 1,
+                "max": 2,
+                "chance": 0.5
+            },
+            {
+                "item": "immersiveengineering:nugget_steel",
+                "min": 2,
+                "max": 3,
                 "chance": 0.5
             },
             {
@@ -13684,9 +13793,15 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:iron_ingot",
+                "item": "immersiveengineering:ingot_steel",
                 "min": 1,
-                "max": 3,
+                "max": 2,
+                "chance": 0.7
+            },
+            {
+                "item": "minecraft:iron_nugget",
+                "min": 6,
+                "max": 12,
                 "chance": 0.5
             },
             {
@@ -14115,6 +14230,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 2,
+                "max": 3,
+                "chance": 0.3
             }
         ]
     },
@@ -14138,6 +14259,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 2,
+                "max": 3,
+                "chance": 0.3
             }
         ]
     },
@@ -15536,6 +15663,12 @@
                 "item": "minecraft:ender_pearl",
                 "min": 1,
                 "max": 3,
+                "chance": 1
+            },
+            {
+                "item": "botania:terrasteel_nugget",
+                "min": 6,
+                "max": 12,
                 "chance": 1
             },
             {
@@ -18548,7 +18681,7 @@
                 "chance": 0.1
             },
             {
-                "item": "minecraft:grepa_berry",
+                "item": "pixelmon:grepa_berry",
                 "min": 1,
                 "max": 1,
                 "chance": 0.05
@@ -18589,7 +18722,7 @@
                 "chance": 0.5
             },
             {
-                "item": "minecraft:grepa_berry",
+                "item": "pixelmon:grepa_berry",
                 "min": 1,
                 "max": 1,
                 "chance": 0.3
@@ -18636,7 +18769,7 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:grepa_berry",
+                "item": "pixelmon:grepa_berry",
                 "min": 2,
                 "max": 3,
                 "chance": 1
@@ -19119,6 +19252,12 @@
                 "item": "pixelmon:tamato_berry",
                 "min": 1,
                 "max": 1,
+                "chance": 0.1
+            },
+            {
+                "item": "contenttweaker:starmetal_nugget",
+                "min": 2,
+                "max": 4,
                 "chance": 0.1
             }
         ]
@@ -22065,9 +22204,9 @@
         "pokemon": "Honedge",
         "items": [
             {
-                "item": "minecraft:iron_ingot",
+                "item": "minecraft:iron_sword",
                 "min": 1,
-                "max": 2,
+                "max": 1,
                 "chance": 1
             },
             {
@@ -22077,10 +22216,10 @@
                 "chance": 0.5
             },
             {
-                "item": "pixelmon:aluminium_ingot",
-                "min": 1,
-                "max": 1,
-                "chance": 0.1
+                "item": "immersiveengineering:nugget_steel",
+                "min": 4,
+                "max": 8,
+                "chance": 0.3
             }
         ]
     },
@@ -22088,9 +22227,9 @@
         "pokemon": "Doublade",
         "items": [
             {
-                "item": "minecraft:iron_ingot",
-                "min": 1,
-                "max": 3,
+                "item": "minecraft:iron_sword",
+                "min": 2,
+                "max": 2,
                 "chance": 1
             },
             {
@@ -22100,9 +22239,9 @@
                 "chance": 0.5
             },
             {
-                "item": "pixelmon:aluminium_ingot",
-                "min": 1,
-                "max": 2,
+                "item": "immersiveengineering:nugget_steel",
+                "min": 4,
+                "max": 9,
                 "chance": 0.3
             },
             {
@@ -22120,6 +22259,12 @@
                 "item": "minecraft:iron_ingot",
                 "min": 2,
                 "max": 4,
+                "chance": 1
+            },
+            {
+                "item": "immersiveengineering:sword_steel",
+                "min": 1,
+                "max": 1,
                 "chance": 1
             },
             {
@@ -22743,6 +22888,12 @@
                 "chance": 0.5
             },
             {
+                "item": "astralsorcery:rock_crystal",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
+            },
+            {
                 "item": "pixelmon:sapphire",
                 "min": 1,
                 "max": 3,
@@ -22908,7 +23059,7 @@
                 "item": "botania:manasteel_nugget",
                 "min": 1,
                 "max": 3,
-                "chance": 0.3
+                "chance": 0.5
             },
             {
                 "item": "immersiveengineering:iron_nugget",
@@ -25046,7 +25197,7 @@
                     "id": "tinkersarchery:arrowhead",
                     "Count": 1,
                     "tag": {
-                        "Material": "tconstruct:nickle"
+                        "Material": "tconstruct:nickel"
                     }
                 },
                 "min": 1,
@@ -25364,6 +25515,18 @@
                 "min": 1,
                 "max": 2,
                 "chance": 1
+            },
+            {
+                "item": "astralsorcery:starmetal_ingot",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
+                "item": "astralsorcery:stardust",
+                "min": 2,
+                "max": 4,
+                "chance": 1
             }
         ]
     },
@@ -25374,6 +25537,18 @@
                 "item": "pixelmon:stardust",
                 "min": 2,
                 "max": 3,
+                "chance": 1
+            },
+            {
+                "item": "astralsorcery:starmetal_ingot",
+                "min": 2,
+                "max": 4,
+                "chance": 1
+            },
+            {
+                "item": "astralsorcery:stardust",
+                "min": 4,
+                "max": 9,
                 "chance": 1
             },
             {
@@ -25400,10 +25575,22 @@
                 "chance": 1
             },
             {
-                "item": "pixelmon:sun_stone_shard",
+                "item": "astralsorcery:starmetal_block",
                 "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
+                "item": "astralsorcery:stardust",
+                "min": 9,
+                "max": 18,
+                "chance": 1
+            },
+            {
+                "item": "pixelmon:sun_stone_shard",
+                "min": 3,
                 "max": 4,
-                "chance": 0.5
+                "chance": 0.7
             },
             {
                 "item": "pixelmon:steel_gem",
@@ -25415,7 +25602,7 @@
                 "item": "pixelmon:sun_stone",
                 "min": 1,
                 "max": 1,
-                "chance": 0.1
+                "chance": 0.3
             }
         ]
     },
@@ -25429,10 +25616,22 @@
                 "chance": 1
             },
             {
+                "item": "astralsorcery:starmetal_block",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
+                "item": "astralsorcery:stardust",
+                "min": 9,
+                "max": 18,
+                "chance": 1
+            },
+            {
                 "item": "pixelmon:moon_stone_shard",
                 "min": 1,
                 "max": 4,
-                "chance": 0.5
+                "chance": 0.7
             },
             {
                 "item": "pixelmon:ghost_gem",
@@ -25444,7 +25643,7 @@
                 "item": "pixelmon:moon_stone",
                 "min": 1,
                 "max": 1,
-                "chance": 0.1
+                "chance": 0.3
             }
         ]
     },
@@ -27879,7 +28078,7 @@
                 "chance": 0.1
             },
             {
-                "item": "minecraft:hondew_berry",
+                "item": "pixelmon:hondew_berry",
                 "min": 1,
                 "max": 1,
                 "chance": 0.05
@@ -27920,7 +28119,7 @@
                 "chance": 0.1
             },
             {
-                "item": "minecraft:hondew_berry",
+                "item": "pixelmon:hondew_berry",
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
@@ -27943,7 +28142,7 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:hondew_berry",
+                "item": "pixelmon:hondew_berry",
                 "min": 2,
                 "max": 3,
                 "chance": 1
@@ -28451,10 +28650,16 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:iron_ingot",
+                "item": "tconstruct:copper_ingot",
                 "min": 1,
                 "max": 2,
                 "chance": 0.5
+            },
+            {
+                "item": "immersiveengineering:nugget_constantan",
+                "min": 2,
+                "max": 4,
+                "chance": 0.3
             }
         ]
     },
@@ -28468,16 +28673,16 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:iron_ingot",
-                "min": 1,
-                "max": 3,
-                "chance": 0.5
+                "item": "tconstruct:copper_ingot",
+                "min": 3,
+                "max": 9,
+                "chance": 1.0
             },
             {
-                "item": "minecraft:iron_block",
-                "min": 1,
-                "max": 1,
-                "chance": 0.3
+                "item": "immersiveengineering:nugget_constantan",
+                "min": 6,
+                "max": 12,
+                "chance": 0.5
             },
             {
                 "item": "pixelmon:lagging_tail",
@@ -31106,7 +31311,7 @@
                     "id": "immersiveengineering:sword_steel",
                     "Count": 1,
                     "tag": {
-                        "Damage": 300
+                        "Damage": 150
                     }
                 },
                 "min": 1,

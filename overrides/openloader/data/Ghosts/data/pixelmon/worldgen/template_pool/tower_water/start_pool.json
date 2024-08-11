@@ -1,0 +1,30 @@
+{
+  "name": "pixelmon:tower_water/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:towers/tower_water",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "ground_level_delta": 1,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "pixelmon:towers/tower_water",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "ground_level_delta": 2,
+        "y_hack": 0,
+        "keep_liquids": true
+      }
+    }
+  ]
+}

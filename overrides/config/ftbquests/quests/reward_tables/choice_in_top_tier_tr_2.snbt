@@ -1,7 +1,7 @@
 {
 	id: "29A855D498D589A6"
 	order_index: 25
-	title: "Choice in Charging TM"
+	title: "Charging TM"
 	loot_size: 1
 	rewards: [
 		{
@@ -67,6 +67,23 @@
 				}
 			}
 		}
-		{ }
+		{
+			item: {
+				id: "pixelmon:tm_gen1"
+				Count: 1b
+				tag: {
+					tm: 2
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen8"
+				Count: 1b
+				tag: {
+					tm: 12
+				}
+			}
+		}
 	]
 }

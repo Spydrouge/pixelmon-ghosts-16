@@ -1,0 +1,49 @@
+{
+  "id": "TingLu",
+  "spawnInfos": [
+    {
+      "spec": "species:Ting-Lu level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:warped_desert"
+        ]
+      },
+      "rarity": 3.0
+    },
+    {
+      "spec": "species:Ting-Lu level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks":[
+          "pixelmon:relic_vase"  
+        ]
+      },
+      "rarity": 60
+    }
+  ]
+}

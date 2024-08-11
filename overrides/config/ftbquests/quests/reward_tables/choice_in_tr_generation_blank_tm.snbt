@@ -1,0 +1,80 @@
+{
+	id: "4B501BF2A52E1BC0"
+	order_index: 30
+	title: "Choice in Non-TR Generation Blank TM"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tm9_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen7_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen6_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen5_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen4_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen3_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen2_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen1_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+		}
+	]
+}

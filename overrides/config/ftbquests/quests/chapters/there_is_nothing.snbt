@@ -1745,10 +1745,12 @@
 			}]
 		}
 		{
+			title: "Hatch a Pokemon"
 			x: 5.0d
 			y: 4.5d
 			description: ["You hatched your very first Pokemon! Good work, it's not easy to do with so little room to move!"]
 			hide: true
+			secret: true
 			id: "7A57C811A92CF4DE"
 			tasks: [{
 				id: "2E54BD0828C54DD1"

@@ -1,0 +1,11 @@
+{
+	id: "708D4AD7FFC40F0C"
+	order_index: 34
+	title: "Slime Egg"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:slime_spawn_egg" }
+		{ item: "tconstruct:sky_slime_spawn_egg" }
+		{ item: "tconstruct:ender_slime_spawn_egg" }
+	]
+}

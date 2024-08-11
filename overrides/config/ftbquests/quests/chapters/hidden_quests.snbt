@@ -134,6 +134,7 @@
 			}]
 		}
 		{
+			title: "Observe Darkrai"
 			x: -6.0d
 			y: -3.0d
 			id: "596680D791AC22B8"
@@ -159,6 +160,7 @@
 			}]
 		}
 		{
+			title: "Observe Marshadow"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -191,6 +193,7 @@
 			}]
 		}
 		{
+			title: "Observe Spectrier"
 			x: -4.0d
 			y: -3.0d
 			id: "01385E2B571F8B52"
@@ -216,6 +219,7 @@
 			}]
 		}
 		{
+			title: "Observe Yveltal"
 			x: -3.0d
 			y: -3.0d
 			id: "4B52AFEFBEFB62B6"
@@ -786,6 +790,112 @@
 				id: "475F48D7D0C0C97E"
 				type: "questsadditions:time"
 				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "Observe Volcanion"
+			x: -6.0d
+			y: -4.0d
+			id: "3A20DCDFBBC2645F"
+			tasks: [{
+				id: "00EB4508E906E8DD"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:721}"
+			}]
+		}
+		{
+			title: "Observe Mew"
+			x: -5.0d
+			y: -4.0d
+			id: "6D3B04C6338A1908"
+			tasks: [{
+				id: "5686F155C73688EE"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:151}"
+			}]
+		}
+		{
+			title: "Observe Wo-Chien"
+			x: -6.0d
+			y: -2.0d
+			id: "5437096EC001288C"
+			tasks: [{
+				id: "457CC5DF542B1C63"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1001_wo-chien/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:1001}"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			id: "54C9D8C9D49FA8E2"
+			tasks: [{
+				id: "5D15E0D40C1EB2AD"
+				type: "observation"
+				title: "Observe Chien-Pao"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1002_chien-pao/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "pixelmon:pixelmon {ndex:1002}"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "7427679A42B7A2D4"
+			tasks: [{
+				id: "5E7A8C82562AF860"
+				type: "observation"
+				title: "Observe Ting-Lu"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1003_ting-lu/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "pixelmon:pixelmon {ndex:1003}"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "03EE801152DBA79E"
+			tasks: [{
+				id: "176C82A8B56F8B59"
+				type: "observation"
+				title: "Observe Chi-Yu"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1004_chi-yu/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "pixelmon:pixelmon {ndex:1004}"
 			}]
 		}
 	]

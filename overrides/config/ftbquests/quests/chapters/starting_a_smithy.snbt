@@ -391,24 +391,11 @@
 				type: "item"
 				item: "minecraft:soul_campfire"
 			}]
-			rewards: [
-				{
-					id: "79649FBAFB78B452"
-					type: "item"
-					item: "pixelmon:blue_shard"
-				}
-				{
-					id: "0F759AF321484453"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 13
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "79649FBAFB78B452"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
 		}
 		{
 			x: 0.0d
@@ -1207,6 +1194,7 @@
 			]
 		}
 		{
+			title: "Necronium"
 			x: 10.5d
 			y: -2.0d
 			description: [
@@ -1330,6 +1318,7 @@
 				"7E197FCD844FF182"
 				"5F2C866ED23D2A45"
 			]
+			hide_text_until_complete: true
 			id: "118E457BED64D29F"
 			tasks: [{
 				id: "43EBBCFC4AEB2320"
@@ -1413,6 +1402,7 @@
 			]
 		}
 		{
+			title: "Lava"
 			x: 0.0d
 			y: -5.0d
 			description: ["Prior to any plans of starting a proper smeltery, you need to secure your first bucket of lava."]
@@ -1944,6 +1934,7 @@
 			]
 		}
 		{
+			title: "Tanks"
 			x: 0.0d
 			y: -6.0d
 			description: [
@@ -2980,6 +2971,7 @@
 			}]
 		}
 		{
+			title: "Blazing Blood"
 			x: 0.0d
 			y: -9.0d
 			description: [
@@ -3252,10 +3244,10 @@
 					id: "76D911F052AAF6E5"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen1"
+						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 39
+							tm: 26
 						}
 					}
 				}
@@ -3491,20 +3483,20 @@
 			}]
 			rewards: [
 				{
-					id: "36B93F2FE16E3CAA"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 89
-						}
-					}
-				}
-				{
 					id: "34BFA6C43F13411D"
 					type: "random"
 					table_id: 9093306389108564916L
+				}
+				{
+					id: "39960F4BE3B88886"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 62
+						}
+					}
 				}
 			]
 		}
@@ -3528,20 +3520,20 @@
 			}]
 			rewards: [
 				{
-					id: "5A011C605820655B"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 159
-						}
-					}
-				}
-				{
 					id: "5F405C40F0C6FCE9"
 					type: "choice"
 					table_id: 9093306389108564916L
+				}
+				{
+					id: "7504B3CD00F180A1"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 89
+						}
+					}
 				}
 			]
 		}
@@ -3814,6 +3806,11 @@
 						}
 					}
 				}
+				{
+					id: "60883397D37929B5"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
 			]
 		}
 		{
@@ -3887,7 +3884,7 @@
 			description: [
 				"There is one way you can think of to get a Kinetic Dynamo without building one: You can loot one from a Pokemon."
 				""
-				"To your knowledge, the only Pokemon that can serve as a fully functional Kinetic Dynamo, large enough for an industrial application, is Klinklng, the final evolution of Klink, which is attracted to certain habitats on the Stone Layer."
+				"To your knowledge, the only Pokemon that can serve as a fully functional Kinetic Dynamo, large enough for an industrial application, is Klinklang, the final evolution of Klink, which is attracted to certain habitats on the Stone Layer."
 				""
 				"Tynamo, as the name might suggest, is itself a miniature Dynamo, but it is too small to use for this purpose. You are uncertain about its evolved forms, Elektrik and Elektross. Tynamo does have a chance to drop copper coils, which can be crafted into Kinetic Dynamos if you have enough Aluminum."
 			]
@@ -3918,7 +3915,7 @@
 			description: [
 				"You don't have the ability to make a LV Capacitor, but you can link the Windmill directly to a machine that needs power."
 				""
-				"Rotom will rarely drop electrical wires. The only Pokemon who drop copper ingots directly are Bronzong and Metang; you might want to make until you can melt nuggets into ingots before completing this quest, unless you are confident in your ability to lure out Bronzong"
+				"Rotom will rarely drop electrical wires. The only Pokemon who drop copper ingots directly are Bronzong and Metang; you might want to wait until you can melt nuggets into ingots before completing this quest, unless you are confident in your ability to lure out Bronzong"
 			]
 			dependencies: ["279AB6F00EF33DFC"]
 			hide: true
@@ -3958,15 +3955,22 @@
 				type: "item"
 				item: "immersiveengineering:cloche"
 			}]
-			rewards: [{
-				id: "483534CE7C42BBF9"
-				type: "item"
-				item: {
-					id: "botania:cosmetic_pink_flower_bud"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "483534CE7C42BBF9"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_pink_flower_bud"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "621C4FAF5BD6F6AA"
+					type: "item"
+					item: "byg:lazarus_bellflower"
+				}
+			]
 		}
 		{
 			title: "Industrial Squeezer"
@@ -4041,6 +4045,7 @@
 				{
 					id: "43CA70E8543F863A"
 					type: "observation"
+					icon: "immersiveengineering:metal_press"
 					secret: true
 					timer: 0L
 					observe_type: 0
@@ -4064,6 +4069,12 @@
 				id: "167CDA8AE16EDDC6"
 				type: "item"
 				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [{
+				id: "20427981BDB26D84"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
 			}]
 		}
 		{
@@ -4192,6 +4203,18 @@
 				type: "item"
 				item: "immersiveengineering:coil_lv"
 			}]
+			rewards: [
+				{
+					id: "78AEFB5C76D42442"
+					type: "item"
+					item: "pixelmon:copper_hourglass"
+				}
+				{
+					id: "4B0C1F7BE70581ED"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -4209,6 +4232,28 @@
 				type: "item"
 				item: "immersiveengineering:coil_mv"
 			}]
+			rewards: [
+				{
+					id: "7D9B052F081F1C04"
+					type: "item"
+					item: "pixelmon:gold_hourglass"
+				}
+				{
+					id: "1CC39374C1F60EF9"
+					type: "item"
+					item: "pixelmon:silver_hourglass"
+				}
+				{
+					id: "113ADC00F9268B14"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "55250AE9A94F5B36"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -4226,6 +4271,18 @@
 				type: "item"
 				item: "immersiveengineering:coil_hv"
 			}]
+			rewards: [
+				{
+					id: "1A5C8F65F46A1D52"
+					type: "item"
+					item: "pixelmon:diamond_hourglass"
+				}
+				{
+					id: "392F9856DBAFF25C"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -4243,6 +4300,24 @@
 				type: "item"
 				item: "immersiveengineering:charging_station"
 			}]
+			rewards: [
+				{
+					id: "316BC70BD04C3691"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 22
+						}
+					}
+				}
+				{
+					id: "427C5D0DEF2E9B08"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -4258,6 +4333,17 @@
 				id: "22701A5BA6A1F95F"
 				type: "item"
 				item: "immersiveengineering:current_transformer"
+			}]
+			rewards: [{
+				id: "6124F7F7169C1F96"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 81
+					}
+				}
 			}]
 		}
 		{
@@ -4289,13 +4375,13 @@
 				}
 			}]
 			rewards: [{
-				id: "0C0BF232CE2A5BD5"
+				id: "1227314FBA676134"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tr_gen8"
 					Count: 1b
 					tag: {
-						tm: 72
+						tm: 70
 					}
 				}
 			}]
@@ -4312,6 +4398,17 @@
 				type: "item"
 				item: "immersiveengineering:tesla_coil"
 			}]
+			rewards: [{
+				id: "7DA1E3EC07A6DA1D"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 71
+					}
+				}
+			}]
 		}
 		{
 			x: -5.0d
@@ -4324,6 +4421,17 @@
 				type: "item"
 				item: "immersiveengineering:transformer"
 			}]
+			rewards: [{
+				id: "43DF36DCFA696C3A"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 47
+					}
+				}
+			}]
 		}
 		{
 			x: -5.0d
@@ -4335,6 +4443,17 @@
 				id: "46547AECEADF2005"
 				type: "item"
 				item: "immersiveengineering:transformer_hv"
+			}]
+			rewards: [{
+				id: "420B48AB5BEEE138"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 95
+					}
+				}
 			}]
 		}
 		{
@@ -4362,12 +4481,24 @@
 				{
 					id: "33A1FFD8D14C5DAF"
 					type: "observation"
+					icon: "immersiveengineering:lightning_rod"
 					secret: true
 					timer: 0L
 					observe_type: 0
 					to_observe: "immersiveengineering:lightning_rod"
 				}
 			]
+			rewards: [{
+				id: "05C39920691F004C"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 8
+					}
+				}
+			}]
 		}
 		{
 			x: -3.0d
@@ -4479,6 +4610,7 @@
 				""
 				"The PC that can be built and looted is the uncolored White PC."
 			]
+			hide_dependency_lines: true
 			dependencies: ["15FA67EAB413D40A"]
 			hide: true
 			id: "790DDF4274AFEA6D"
@@ -4494,11 +4626,28 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "2D69ADE061A20EDB"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "535BE0E7F5C3F907"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -8.5d
 			description: ["It is time to assemble your creation!"]
+			dependencies: [
+				"3996A51F1D631F1D"
+				"5DFFF2A24948F7FB"
+				"613061C14B30055E"
+			]
 			hide: true
 			id: "21048F00149E326C"
 			tasks: [{
@@ -4517,21 +4666,13 @@
 					type: "item"
 					item: "pixelmon:fossil_display"
 				}
-				{
-					id: "1A4230131CF99281"
-					type: "item"
-					item: "pixelmon:black_shard"
-				}
 			]
 		}
 		{
 			x: 5.0d
 			y: -7.5d
 			description: ["The Fossil Display is the only part that requires metals other than Aluminum. Copper or Electrum must be used. Redstone engineering blocks also require aluminum wire."]
-			dependencies: [
-				"21048F00149E326C"
-				"1D57FFBE88DF9D91"
-			]
+			dependencies: ["1D57FFBE88DF9D91"]
 			hide: true
 			id: "613061C14B30055E"
 			tasks: [{
@@ -4539,17 +4680,30 @@
 				type: "item"
 				item: "pixelmon:fossil_machine_display"
 			}]
-			rewards: [{
-				id: "52C21672C4483846"
-				type: "item"
-				item: "pixelmon:red_shard"
-			}]
+			rewards: [
+				{
+					id: "52C21672C4483846"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 5
+				}
+				{
+					id: "37571109525971B4"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen6"
+						Count: 1b
+						tag: {
+							tm: 98
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -7.5d
 			description: ["The top and base of the fossil machine are not complicated, merely expensive. Each requires multiple aluminum ingots."]
-			dependencies: ["21048F00149E326C"]
 			hide: true
 			id: "5DFFF2A24948F7FB"
 			tasks: [
@@ -4580,6 +4734,7 @@
 					id: "1306D1AB3F3522F6"
 					type: "item"
 					item: "pixelmon:white_shard"
+					count: 5
 				}
 			]
 		}
@@ -4587,7 +4742,6 @@
 			x: 3.0d
 			y: -7.5d
 			description: ["The tank is the easiest peice to make, and the only one that is metal free."]
-			dependencies: ["21048F00149E326C"]
 			hide: true
 			id: "3996A51F1D631F1D"
 			tasks: [{
@@ -4611,6 +4765,7 @@
 					id: "7CBF070B52634D7E"
 					type: "item"
 					item: "pixelmon:blue_shard"
+					count: 5
 				}
 			]
 		}
@@ -4649,6 +4804,7 @@
 				""
 				"You could also create an Engineering Workbench, which would allow you to make circuit boards for complex devices."
 			]
+			hide_dependency_lines: true
 			dependencies: ["15FA67EAB413D40A"]
 			hide: true
 			id: "1D57FFBE88DF9D91"
@@ -4680,6 +4836,7 @@
 		{
 			x: 4.0d
 			y: -11.5d
+			description: ["You are almost certain this device was designed to clone Mew a pokemon you do not have."]
 			dependencies: [
 				"3F85D3D4D1667296"
 				"2202AFD211563B98"
@@ -4691,6 +4848,17 @@
 				id: "7B7F6D225D8725FC"
 				type: "item"
 				item: "pixelmon:cloning_machine"
+			}]
+			rewards: [{
+				id: "76D263CD5CAA3E59"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 40
+					}
+				}
 			}]
 		}
 		{
@@ -4708,11 +4876,19 @@
 				type: "item"
 				item: "pixelmon:orange_tank"
 			}]
-			rewards: [{
-				id: "08E2F6046725437E"
-				type: "item"
-				item: "pixelmon:yellow_shard"
-			}]
+			rewards: [
+				{
+					id: "08E2F6046725437E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 5
+				}
+				{
+					id: "2560C3FD9738B09E"
+					type: "choice"
+					table_id: 4599408354571176022L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -4729,11 +4905,19 @@
 				type: "item"
 				item: "pixelmon:green_tank"
 			}]
-			rewards: [{
-				id: "5BA42EA49FDC8025"
-				type: "item"
-				item: "pixelmon:green_shard"
-			}]
+			rewards: [
+				{
+					id: "5BA42EA49FDC8025"
+					type: "item"
+					item: "pixelmon:green_shard"
+					count: 5
+				}
+				{
+					id: "57AA573AB7358F27"
+					type: "choice"
+					table_id: 4599408354571176022L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -4750,11 +4934,19 @@
 				type: "item"
 				item: "pixelmon:cloner_cord"
 			}]
-			rewards: [{
-				id: "379CFFEF9708A008"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "379CFFEF9708A008"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 5
+				}
+				{
+					id: "67D84DA4975B73FA"
+					type: "choice"
+					table_id: 4599408354571176022L
+				}
+			]
 		}
 		{
 			icon: {

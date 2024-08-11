@@ -826,6 +826,7 @@
 			]
 		}
 		{
+			title: "Mushroom Collection"
 			icon: "byg:imparius_mushroom"
 			x: 1.5d
 			y: 2.25d
@@ -1494,13 +1495,13 @@
 					item: "minecraft:rabbit_foot"
 				}
 				{
-					id: "0E1148F487D9A7C5"
+					id: "64917B630301F0D2"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen8"
+						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 52
+							tm: 13
 						}
 					}
 				}
@@ -1512,7 +1513,7 @@
 			description: [
 				"The Rod of the Depths also requires runes to make, but it can be used to summon cobblestone in exchange for Mana."
 				""
-				"Water runes can be made form the scales of the mighty living fossil, &bRelicanth&r."
+				"Water runes can be made from the scales of the mighty living fossil, &bRelicanth&r."
 				""
 				"You've seen strange green reanimated Relicanth are attracted to underground water habitats on the Soil layer, but that normal Relicanth are much more numerous in Underground Water in the deep dark layer, which is presumably its natural habitat."
 				""
@@ -1923,6 +1924,17 @@
 					type: "item"
 					item: "pixelmon:red_shard"
 				}
+				{
+					id: "4231EAC2C0B16838"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 160
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2011,6 +2023,11 @@
 						tag: { }
 					}
 				}
+				{
+					id: "569537F276B03186"
+					type: "xp"
+					xp: 250
+				}
 			]
 		}
 		{
@@ -2021,7 +2038,7 @@
 				""
 				"It's not going to be easy, because Botanical magic requires thinking one's way around a problem. There's no popping a sapling into a one-block machine and switching it on."
 				""
-				"to get started you need to carefully select your sapling. Birch would be some of the best saplings: They grow straight with no side branches, and they don't get very tall. However, any tree that can have its height limited to stay small will do. For instance, the Umbran tree's only branched versions are its tallest. It can be kept small."
+				"To get started you need to carefully select your sapling. Birch would be some of the best saplings: They grow straight with no side branches, and they don't get very tall. However, any tree that can have its height limited to stay small will do. For instance, the Umbran tree's only branched versions are its tallest. It can be kept small by putting it under a sufficiently low ceiling."
 			]
 			hide_dependency_lines: true
 			dependencies: ["58C8937CFE8894DA"]
@@ -2061,6 +2078,11 @@
 					id: "27F0055DFAE983AF"
 					type: "item"
 					item: "pixelmon:xs_exp_candy"
+				}
+				{
+					id: "169919A95E69B506"
+					type: "xp"
+					xp: 500
 				}
 			]
 		}
@@ -2600,6 +2622,11 @@
 						}
 					}
 				}
+				{
+					id: "348FEEFC73A746BC"
+					type: "xp"
+					xp: 250
+				}
 			]
 		}
 		{
@@ -2635,6 +2662,11 @@
 						}
 					}
 				}
+				{
+					id: "343376BB75FC7530"
+					type: "xp"
+					xp: 250
+				}
 			]
 		}
 		{
@@ -2669,6 +2701,11 @@
 					id: "0C9A5097B73EDEED"
 					type: "item"
 					item: "biomesoplenty:orange_autumn_sapling"
+				}
+				{
+					id: "3268AC2EBE5AB869"
+					type: "xp"
+					xp: 250
 				}
 			]
 		}
@@ -2943,6 +2980,11 @@
 					type: "item"
 					item: "pixelmon:rainbow_flower"
 				}
+				{
+					id: "3B682875A1E44CF4"
+					type: "item"
+					item: "pixelmon:rainbow_badge"
+				}
 			]
 			rewards: [
 				{
@@ -3004,6 +3046,1839 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Floral Fertilizer"
+			x: 8.5d
+			y: 6.5d
+			dependencies: ["7EB91C3AF2D17EFB"]
+			hide: true
+			repeatable: true
+			id: "23320FDBE5E497F1"
+			tasks: [
+				{
+					id: "2449DD92DFC0400F"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "4F7D37AE9D65614D"
+					type: "item"
+					title: "Any #forge:dyes/red"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dyes/red"
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "258B949CEB463727"
+					type: "item"
+					title: "Any #forge:dyes/yellow"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dyes/yellow"
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "045439AB72C9FD47"
+					type: "item"
+					title: "Any #forge:dyes/blue"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dyes/blue"
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4E1ACA931462734B"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"Manasteel ingots are difficult to produce by the regular method in a world where iron is scarce. It may be easier for a time to make them from actual steel instead of iron."
+				""
+				"Manasteel nuggets are dropped in small amounts by some of the steel-psychic Pokemon, such as Beldum and Bronzor. It is also dropped in small amounts by Klefki, the Marill line, and Hisuian Vulpix."
+				""
+				"Instead of trying to grind out manasteel, it may be best to use botanical magic chiefly for its rods and trinkets for now, and to leave tools and armor manufacturer to the realm of tinkering."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3FF8AA83BB349B3E"
+				"58C8937CFE8894DA"
+			]
+			hide: true
+			id: "1A26D98404F1FC49"
+			tasks: [{
+				id: "0AB18128041F6B36"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "536D1BB7CB8A447E"
+					type: "item"
+					item: "botania:manasteel_nugget"
+				}
+				{
+					id: "5002EC578462D979"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: [
+				"Producing a terrasteel agglomeration plate is very difficult because it relies on having a block of manasteel."
+				""
+				"An alternative recipe can be made with special shards- but you'll have to make your way to another dimension to find them."
+				""
+				"In addition to the costs for the plate, terrasteel is itself expensive to produce."
+				""
+				"After constructing the plate, consider putting it on the Dazzle Layer. It may attract Pokemon with an affinity for Terrasteel, such as Ralts."
+			]
+			hide: true
+			id: "5DD72ABF12D90905"
+			tasks: [
+				{
+					id: "104FAB88EB39C55A"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "09DD90CAD6F0DB5A"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "04816427C1587802"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "3B28B5B5493E5C28"
+					type: "item"
+					item: "botania:terrasteel_nugget"
+				}
+				{
+					id: "51FF825444D97865"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			description: [
+				"Terrasteel requires a combination of a mana pearl, mana diamond, and mana steel ingot to create. Owed to the rarity of some of these ingredients, consider ahead of time exactly what you want to make with terrasteel."
+				""
+				"Place the Agglomeration Plate carefully to try and attract members of the Ralts family, as these drop trace amounts of Terrasteel."
+			]
+			dependencies: [
+				"5DD72ABF12D90905"
+				"0F4CD2BDF1324D7F"
+			]
+			hide: true
+			id: "727E8165AD39C2FB"
+			tasks: [{
+				id: "7418534D68AAA4D2"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "11482F924285ADCD"
+					type: "item"
+					item: "botania:terrasteel_nugget"
+				}
+				{
+					id: "3DA9AEDC3C9D26ED"
+					type: "item"
+					item: "pixelmon:green_shard"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			description: [
+				"To get to the next tier of Botania metallurgy, you will need to create an elven portal- a Portal to Alfheim."
+				""
+				"Unlike regular portals, this one will not allow you to travel to another dimension. Instead, the elves will respond to items you toss through the portal by sending you items in exchange."
+			]
+			dependencies: ["727E8165AD39C2FB"]
+			hide: true
+			id: "62BEB98D8819998C"
+			tasks: [
+				{
+					id: "78574D6B715440D7"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "16D5B234576D465C"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "508C2602CBB47ED6"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 3
+				}
+				{
+					id: "458859D466FB84B0"
+					type: "item"
+					item: "botania:terrasteel_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			description: ["The first and most important trade to make across the portal is the Lexia Botanica. Throw it through the portal, and the elves will add additional knowledge to it."]
+			dependencies: [
+				"62BEB98D8819998C"
+				"266E3F1EAD7CBE38"
+			]
+			hide: true
+			id: "3F356CAF83415543"
+			tasks: [{
+				id: "46A9F19944D92923"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "4BFC728814077AFE"
+				type: "item"
+				item: "botania:terrasteel_nugget"
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.0d
+			description: [
+				"To open the portal to Alfheim, you will need two nearby mana pools topped with natura pylons."
+				""
+				"It costs a large amount of mana to open the portal, and additional mana to keep it running. Plan out your trades ahead of time so that you can quickly accomplish everything you need to do- especially if you haven't set up a robust mana farm."
+			]
+			dependencies: ["727E8165AD39C2FB"]
+			hide: true
+			id: "266E3F1EAD7CBE38"
+			tasks: [{
+				id: "3E2BD3878B2D68B2"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+			rewards: [
+				{
+					id: "126358CD3BC97F75"
+					type: "item"
+					item: "botania:terrasteel_nugget"
+					count: 3
+				}
+				{
+					id: "34A1A4B7EE787A29"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			description: ["To create a peice of elementium, you will have to toss a manasteel ingot and a terrasteel ingot through the portal together."]
+			hide_dependency_lines: true
+			dependencies: [
+				"62BEB98D8819998C"
+				"266E3F1EAD7CBE38"
+			]
+			hide: true
+			id: "452E49BF4730858B"
+			tasks: [{
+				id: "4D054C7645EBD4B1"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "12375DFA91AD8CFE"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -12.0d
+			description: ["To get pixie dust, you will have to throw a mana pearl through the portal."]
+			hide_dependency_lines: true
+			dependencies: [
+				"62BEB98D8819998C"
+				"266E3F1EAD7CBE38"
+			]
+			hide: true
+			id: "0E44A97EBAC87582"
+			tasks: [{
+				id: "14977F22FD504F28"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [
+				{
+					id: "5150C365F5AF5B67"
+					type: "item"
+					item: "botania:pixie_dust"
+				}
+				{
+					id: "007D0457F470E4EA"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 92
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			description: [
+				"To master Botania, you will need to fight it's ultimate boss, a Guardian of Gaia. This is meant to be an incredibly difficult fight. To set up the arena, you will need a lit beacon and four Gaia Pylons, as well as a sacrificial Terrasteel Ingot."
+				""
+				"Since the ritual requires a beacon, it stands to reason you should defeat the Wither and master the nether before attempting this challenge."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"452E49BF4730858B"
+				"0E44A97EBAC87582"
+			]
+			hide: true
+			id: "607D886F0B58A7C8"
+			tasks: [
+				{
+					id: "0DD81F6B47F80989"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "50DB1358160002E5"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "04CF2DD70C8F6703"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "591B553DF17204B6"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -12.0d
+			description: ["To obtain a dragonstone, throw a mana diamond through the portal."]
+			hide_dependency_lines: true
+			dependencies: [
+				"62BEB98D8819998C"
+				"266E3F1EAD7CBE38"
+			]
+			hide: true
+			id: "541294674D3E42F2"
+			tasks: [{
+				id: "60A06BF6348A34EA"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [
+				{
+					id: "2479B4D0A780EAC2"
+					type: "item"
+					item: "botania:dragonstone"
+				}
+				{
+					id: "08F97AAE67DB54E0"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 51
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -12.0d
+			description: ["Dreamwood is obtained by throwing Livingwood through the portal"]
+			hide_dependency_lines: true
+			dependencies: [
+				"62BEB98D8819998C"
+				"266E3F1EAD7CBE38"
+			]
+			hide: true
+			id: "363AE16F0D3B7EF9"
+			tasks: [{
+				id: "570F0881E564E028"
+				type: "item"
+				item: "botania:dreamwood"
+			}]
+			rewards: [
+				{
+					id: "5710021B33E351A5"
+					type: "item"
+					item: "botania:dreamwood_twig"
+					count: 2
+				}
+				{
+					id: "3D329C2E20DD7502"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "dream_ball"
+						}
+					}
+				}
+				{
+					id: "4853DC4E967EBCD1"
+					type: "item"
+					item: "pixelmon:whipped_dream"
+				}
+				{
+					id: "2DB1BB6CCAFE4399"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 85
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -13.0d
+			description: ["The rod of the Shaded Mesa can be made with access to Dragonstone and Dreamwood. It can pull entities closer to the player, or launch them in the opposite direction."]
+			hide_dependency_lines: true
+			dependencies: [
+				"363AE16F0D3B7EF9"
+				"541294674D3E42F2"
+			]
+			hide: true
+			id: "60849ABD57C1078D"
+			tasks: [{
+				id: "2388526FA41D0C0F"
+				type: "item"
+				item: "botania:gravity_rod"
+			}]
+			rewards: [
+				{
+					id: "5B2FDCD8A554906F"
+					type: "item"
+					item: "botania:metamorphic_mesa_stone"
+					count: 32
+				}
+				{
+					id: "4ADA4581E8CF3032"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -13.0d
+			description: ["The wand of Bifrost requires pixie dust, elementium, and a dragonstone. It is a bridging tool. When used, it creates a temporary shimmering rainbow bridge in the direction the player is looking."]
+			hide_dependency_lines: true
+			dependencies: [
+				"541294674D3E42F2"
+				"452E49BF4730858B"
+				"0E44A97EBAC87582"
+			]
+			hide: true
+			id: "7A09D8252E8495EB"
+			tasks: [{
+				id: "107B078AF72A87B1"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [
+				{
+					id: "432FAAD52DAB617C"
+					type: "item"
+					item: "botania:bifrost_perm"
+					count: 32
+				}
+				{
+					id: "0B240FE42F05B2B4"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -13.0d
+			description: ["Luminizers are a magical transportation system. Each luminizer requires a dragonstone and pixie dust. When strung together, they can be used to create long magical 'railways.' Each luminizer can attach to other luminizers up to 20 blocks away."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0E44A97EBAC87582"
+				"541294674D3E42F2"
+			]
+			hide: true
+			id: "5676507194B0120B"
+			tasks: [{
+				id: "27EF18B7478E271F"
+				type: "item"
+				item: "botania:light_relay"
+			}]
+			rewards: [
+				{
+					id: "37AEAF180290FFF4"
+					type: "item"
+					item: "botania:ender_air_bottle"
+					count: 3
+				}
+				{
+					id: "65A24F05D2973F94"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -16.0d
+			description: [
+				"The corporea system is a powerful wireless inventory network."
+				""
+				"However, it works according to the classic Botania philosophy: No GUIs."
+				""
+				"This makes it better for automation than for storage."
+				""
+				"And you may want to look up the types of things it is good at automating. Because of the modular nature of the Corporea system, you usually have to either experiment for a bit, or look up tutorials to get good building ideas."
+				""
+				"Before you can get started, you will need a Master Corporea Node, which will create the network itself, and then normal Corporea Sparks to start connecting input and output inventories."
+				""
+				"Corporea networks can be of any size, so long as the chunks it is on remain loaded; however, each corporea spark must be no more than eight blocks away from at least one other spark."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0E44A97EBAC87582"
+				"541294674D3E42F2"
+			]
+			hide: true
+			id: "52480CD2F8F197E1"
+			tasks: [
+				{
+					id: "39D636488B678DC5"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "120C0160F3FD4D83"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+			]
+			rewards: [
+				{
+					id: "61C84D7C00599D54"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "682772F2D3595E29"
+					type: "item"
+					item: "botania:corporea_block"
+				}
+				{
+					id: "362ED0CC40E75D2D"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -17.0d
+			description: [
+				"Funnels are one way to extract items from the Corporea system for automation. They can output an item directly, or push it into an inventory below themselves. To work, you must place an item frame on them, and hang up the item you want them to pull from the network. Then, activate them with a redstone pulse."
+				""
+			]
+			dependencies: ["52480CD2F8F197E1"]
+			hide: true
+			id: "337F213D42A82D02"
+			tasks: [{
+				id: "329DE06A00B4A956"
+				type: "item"
+				item: "botania:corporea_funnel"
+			}]
+			rewards: [
+				{
+					id: "10BDA999C4733986"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "411C9000B6E16D9D"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -17.0d
+			description: ["The corporea crystal cube is a good tool for tracking items you have in bulk, or which are currently being created by some automated setup. They show off a single item in the corporea network and how much of it exists, and you can withdraw items from it by clicking on it, regardless of where those items are actually located on your network."]
+			dependencies: ["52480CD2F8F197E1"]
+			hide: true
+			id: "7D48D3B43BD71D32"
+			tasks: [{
+				id: "3224BE758D4D15A7"
+				type: "item"
+				item: "botania:corporea_crystal_cube"
+			}]
+			rewards: [
+				{
+					id: "08D102B9905CDECA"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "681645D5D42F718A"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -17.0d
+			description: [
+				"The Corporea index allows you to retrieve any item you want from anywhere in your network."
+				""
+				"You do this by speaking out loud (by writing text in the chat window) while near the Corporea Index. you can ask it for a manasteel ingot or a block of dragonstone, and if it is in your network, the Corporea Index will fetch it for you."
+				""
+				"What you cannot use it to do is to browse your networked inventory in a GUI."
+			]
+			dependencies: ["52480CD2F8F197E1"]
+			hide: true
+			id: "33DA87CDC79BFED1"
+			tasks: [{
+				id: "5E9BFD925206398F"
+				type: "item"
+				item: "botania:corporea_index"
+			}]
+			rewards: [
+				{
+					id: "35204937FD6F27F8"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "1E27C70AD390C531"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -12.0d
+			description: ["Alfglass can be obtained by trading the elves Managlass through the portal."]
+			hide_dependency_lines: true
+			dependencies: [
+				"62BEB98D8819998C"
+				"266E3F1EAD7CBE38"
+			]
+			hide: true
+			id: "7BD44C2B7DBBE8E4"
+			tasks: [{
+				id: "13B6E8104CBE81AC"
+				type: "item"
+				item: "botania:elf_glass"
+			}]
+			rewards: [
+				{
+					id: "194B461964A4B216"
+					type: "item"
+					item: "botania:elf_glass"
+				}
+				{
+					id: "17432175F7D03526"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 19
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -17.0d
+			description: [
+				"The Corporea Interceptor can be used to detect every time the network is accessed. This can be useful in automation."
+				""
+				"By hanging an item frame on it, and placing an item in the frame, you will cause the Interceptor to output a redstone pulse every time a Funnel, somewhere, requests the item."
+			]
+			dependencies: ["52480CD2F8F197E1"]
+			hide: true
+			id: "00EB150E4640D77C"
+			tasks: [{
+				id: "602C63BDF102F2C9"
+				type: "item"
+				item: "botania:corporea_interceptor"
+			}]
+			rewards: [
+				{
+					id: "0EA8B11E3BA6F3C5"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "00150D7CF61277AE"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -15.0d
+			description: [
+				"The crafty crate can automate crafting, but it's lack of GUI means it requires some planning."
+				""
+				"In order to craft something, you must pipe nine items- always nine!- into the crafty crate in the exact order they appear in the recipe."
+				""
+				"If there are empty spaces in the recipie, you must send in a special 'placeholder' item. If your recipe is very small, you can send the Crafty Crate a Crafting Pattern, so that you don't have to use so many placeholders!"
+				""
+				"If the crafty-crate recieves nine items that do not evaluate to a recipe, it will drop the ingredients instead of dropping the product of the crafting."
+				""
+				"One way to get items into the crate in the right order is to set up some dispensers alongside a stretch of flowing water, a conveyer belt, or a daffomil. Then use redstone to trigger the dispeners, and the items will all travel in a line towards the crate where they can be inputted. "
+				""
+				"Keep in mind that the crafty crate requires some kind of hopper or other input mechanism; don't use something so slow that items stack up inside in the wrong order and ruin the recipe!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["363AE16F0D3B7EF9"]
+			hide: true
+			id: "6B46A405AA509AE5"
+			tasks: [
+				{
+					id: "232E55ECC1C8AEC8"
+					type: "item"
+					item: "botania:crafty_crate"
+				}
+				{
+					id: "21FE9C4574D7F80B"
+					type: "item"
+					item: "botania:placeholder"
+				}
+			]
+			rewards: [
+				{
+					id: "7ABCC7E54B77E47D"
+					type: "item"
+					item: "botania:pattern_2_2"
+				}
+				{
+					id: "46FDC4F3F1C10C52"
+					type: "item"
+					item: "botania:pattern_1_1"
+				}
+				{
+					id: "06477FD9FB5FC61E"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -13.0d
+			description: [
+				"The Cocoon of Caprice can be used to spawn in Pokemon or even Villagers, depending on whether and what you feed to it."
+				""
+				"It hatches after two minutes, and turns into a baby animal. If you feed it up to 20 emeralds, it may turn into a villager, with each emerald increasing the chance by 5%."
+				""
+				"This is valuable, because it potentially allows the mass production of villagers who do not ordinarily breed, and who can be difficult to lure out of the nether."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0E44A97EBAC87582"]
+			hide: true
+			id: "61AA81082F6D3031"
+			tasks: [{
+				id: "69B8693172EDACDB"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+			rewards: [
+				{
+					id: "44819AD847DF9AFC"
+					type: "item"
+					item: "botania:cocoon"
+				}
+				{
+					id: "23A4CCF4E72A9E26"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5487F54652BDB3B7"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 26
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -13.0d
+			description: [
+				"The conjuration catalyst allows you to duplicate a small number of items at the cost of mana. This is usually more than the cost of consuming that item to produce mana."
+				""
+				"One of the use cases for this may be to duplicate coal, which is otherwise very difficult to farm. Coal can be turned into coke, which has twice the burn time of coal or charcoal. With the right timing, you could create a perpetual mana machine limited only by the speed of a kiln."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0E44A97EBAC87582"]
+			hide: true
+			id: "3C03C1E5687A2404"
+			tasks: [{
+				id: "39CC537671382063"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [
+				{
+					id: "05C8B5AE14DBC9E5"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "6B898AA4EB687B48"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+				}
+				{
+					id: "7FDA495E258611E8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6B88E65AA0D2E4B6"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 67
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -15.0d
+			description: ["At the cost of mana, the Life imbuer will enable a monster spawner to work even when no players are in range. This can be helpful for automation."]
+			hide_dependency_lines: true
+			dependencies: ["452E49BF4730858B"]
+			hide: true
+			id: "38EB98FE853301A6"
+			tasks: [{
+				id: "26751B60E7C4149F"
+				type: "item"
+				item: "botania:spawner_claw"
+			}]
+			rewards: [
+				{
+					id: "285018C98736E5FC"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 9
+				}
+				{
+					id: "68F4CC4648B16A12"
+					type: "item"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "1FDBF22789C7A220"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -13.0d
+			description: ["Wear this ring, and your reach will be increased by three aditional blocks."]
+			hide_dependency_lines: true
+			dependencies: ["452E49BF4730858B"]
+			hide: true
+			id: "772859B2C1A07716"
+			tasks: [{
+				id: "0726142E2046D424"
+				type: "item"
+				item: {
+					id: "botania:reach_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 5467496490280634649L
+						baubleUUIDLeast: -9002580975646960082L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4042785B5F41C813"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "14CB65F6DBB522D4"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -15.0d
+			description: ["Elvish Mana spreaders can fire bursts farther than standard Mana spreaders before suffering mana loss. This makes them useful for automation on bigger projects, such as tree farms with taller trees. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"363AE16F0D3B7EF9"
+				"452E49BF4730858B"
+			]
+			hide: true
+			id: "682EE9F5D2F2876A"
+			tasks: [{
+				id: "545582501D96A706"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "4F9CA8EA2D570036"
+					type: "item"
+					item: "botania:elven_spreader"
+				}
+				{
+					id: "7D4128E056C7ECD1"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: ["The band of Aura passively generates Mana, and will place it into any worn Band of Mana or Mana Tablet."]
+			dependencies: ["1A26D98404F1FC49"]
+			id: "2D57FF47733BF8E0"
+			tasks: [{
+				id: "372429A13DF43E2C"
+				type: "item"
+				item: {
+					id: "botania:aura_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4FB1E6B5DEA8E2B6"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 9
+				}
+				{
+					id: "0501060905C94E71"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+				{
+					id: "0D99B04DEE82F431"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			description: ["This is an impoved Band of Aura. It increases the rate at which mana is passively generated."]
+			dependencies: [
+				"2D57FF47733BF8E0"
+				"727E8165AD39C2FB"
+			]
+			id: "6DD61C9EB5D949AE"
+			tasks: [{
+				id: "244A81FCEC2D5578"
+				type: "item"
+				item: {
+					id: "botania:aura_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "68603ADB44A687E4"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+				{
+					id: "6EC9D2F21D61D5E4"
+					type: "pixelmon:pokedollars"
+					count: 2000
+				}
+				{
+					id: "7CBD11C11DE00EC5"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "65865CD83BE25EDA"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 44
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			description: [
+				"The Band of Mana works like a Mana Tablet, but can be worn on the finger, thus freeing up a space in the inventory. "
+				""
+				"Owed to the expense of Mana Steel, this might not be a good investment early on."
+			]
+			dependencies: ["1A26D98404F1FC49"]
+			id: "20DC350BA504FB10"
+			tasks: [{
+				id: "474B60C2E1CD471E"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "65C5C7DD0D00E0CB"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "3C1F3E446357B1C0"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			description: ["This is an improved Band of Mana. Owed to the expense of Terra Steel, this might not be the best investment early on"]
+			dependencies: [
+				"20DC350BA504FB10"
+				"727E8165AD39C2FB"
+			]
+			id: "049547E302FE1D38"
+			tasks: [{
+				id: "06C2C9725D8D9718"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "762F937E1E7BED26"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "11304DC2B62BDBAE"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "233127BE014B3C54"
+					type: "pixelmon:pokedollars"
+					count: 2000
+				}
+				{
+					id: "180787C80E00DE6A"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 82
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			description: ["In a normal world, the ring of magnetization would be invaluable. Here, it may still serve a purpose, but Manasteel is a little expensive and there may be better things to spend iron on."]
+			dependencies: ["1A26D98404F1FC49"]
+			id: "4E7C50A2D8D5A8CE"
+			tasks: [{
+				id: "3BF948E6C03FBF53"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "079F60E1B9B9FA28"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "3395A86AF164BED1"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			dependencies: [
+				"727E8165AD39C2FB"
+				"4E7C50A2D8D5A8CE"
+			]
+			id: "42EE058CB0128099"
+			tasks: [{
+				id: "0C0C44859D52AECE"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6799348C180F9043"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "35D3CCE630478162"
+					type: "pixelmon:pokedollars"
+					count: 2000
+				}
+				{
+					id: "1070EDB905E08C74"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 63
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			description: [
+				"This ring grants Haste."
+				""
+				"While useful to your mining ancestors, this ring is off less value to you because you live in a void. You are concerned this may not be the best way to spend iron."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			id: "1D8B6F604B7191F2"
+			tasks: [{
+				id: "662715860E15F3BF"
+				type: "item"
+				item: {
+					id: "botania:mining_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "526F9FFC271C7729"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "01B3E9097D138786"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+				{
+					id: "6FE62D923E094FB3"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 87
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -9.0d
+			description: [
+				"This ring will replace any incorrect tool you are holding with the correct tool from your toolbelt (ie a shovel for a pickaxe, or a pickaxe for a shovel)"
+				""
+				"While useful to your ancestors in the Skyblocks, you are concerned that your lack of easy access to Iron makes these rings less than an ideal investment."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			id: "48E4B215488DFD1F"
+			tasks: [{
+				id: "4CCBB5743AAAB6EF"
+				type: "item"
+				item: {
+					id: "botania:swap_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1F3F5EAF67335DF6"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "7C251D3A92EA09E7"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+				{
+					id: "4216BF4EB2552A12"
+					type: "choice"
+					table_id: 4599408354571176022L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.0d
+			description: [
+				"This ring allows you to dodge left and right by tapping the respective keys."
+				""
+				"While useful to your adventuring ancestors, you live in a void, and the only monsters you face, you are able to build an arena of your own to handle. You are worried this might be a poor expenditure of iron."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			id: "7BD25B23CA145214"
+			tasks: [{
+				id: "278005BF7F6556C8"
+				type: "item"
+				item: {
+					id: "botania:dodge_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "081E3992D1CCD37E"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "28F7C69597A12EEC"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+				{
+					id: "4336FC4986B6B7FA"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			description: [
+				"Sparks are used to transport large amounts of mana. They can be placed on mana pools, Terrestrial Agglomeration Plates, and Mana Enchanters. "
+				""
+				"When a device with a spark attached needs mana, it drains all mana pools in its 25x25x25 range."
+				""
+				"Sparks can be Augmented to change their behavior, such as making them transfer all mana out of the pool below them- useful for automating the movement of mana."
+			]
+			dependencies: [
+				"5DD72ABF12D90905"
+				"1A26D98404F1FC49"
+			]
+			id: "6850D44BBDAB5B9F"
+			tasks: [{
+				id: "5BBB7536DD0D7131"
+				type: "item"
+				item: "botania:spark"
+			}]
+		}
+		{
+			icon: "botania:enchanter"
+			x: 1.0d
+			y: -7.0d
+			description: [
+				"To create a Mana Enchanter, you need to place a Lapis Lazuli Block in the middle of a specific multiblock structure and tap it with the Wand of the Forest."
+				""
+				"Right Clicking the Enchanter with an item will place it on the Enchanter. Drop Enchanted Books onto the Obsidian Platform. Do not use books with more than one enchantment- it will extract the first enchantment and destroy the others."
+				""
+				"Touch the Enchanter with the Wand of the Forest again when you have dropped all the books and are ready to enchant."
+				""
+				"The Mana Pylons for the Enchanter are expensive, but two can be reused for the Alfheim Portal."
+			]
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			hide_text_until_complete: false
+			id: "628A8CCC3F64DA02"
+			tasks: [
+				{
+					id: "7B41797817CC9AB6"
+					type: "item"
+					item: "botania:mana_pylon"
+					count: 6L
+				}
+				{
+					id: "70CF12B029E428F7"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "150BEF15CEB37D31"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 17L
+				}
+				{
+					id: "13D0ACE92CF37CBB"
+					type: "observation"
+					title: "Observe a Mana Enchanter"
+					timer: 60L
+					observe_type: 0
+					to_observe: "botania:enchanter"
+				}
+			]
+			rewards: [
+				{
+					id: "5C4E594E96AA8971"
+					type: "item"
+					item: "botania:manasteel_ingot"
+					count: 4
+				}
+				{
+					id: "5110CF8BCEBE3328"
+					type: "item"
+					item: "botania:mana_diamond"
+					count: 2
+				}
+				{
+					id: "5AEA657B5E50E2D8"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			description: [
+				"A manasteel tool is not a terrible idea. With tinkering you can pay fewer ingots for a tool to contain manasteel, and still gain the ability Mana, which allows the tool to repair itself with mana from a tablet in inventory."
+				""
+				"However, if you are still at a point where iron is rare it might be silly to worry about spending materials to repair other weapons when those materials are more readily available than iron."
+				""
+				"(Note: Make any of the tool peices above, not all of them)"
+			]
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			min_required_tasks: 1
+			id: "21422EAECD4A42F2"
+			tasks: [
+				{
+					id: "66B31C946206F8D6"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "5B78D4B0CBBB376B"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "19CCA271AC81FF2E"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "4E8FEB17440C5018"
+					type: "item"
+					item: {
+						id: "tconstruct:hammer_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "5D34CA1E1E3F626D"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "44B43C16357B7985"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "4F0194724D000AFF"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "1E2C11BB65D16A37"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "77AFB88B2D1C8DCC"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+				{
+					id: "1A767D08C46E52BF"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:manasteel"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4E4291DDEAF40297"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F11CE5A08344B20"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			description: [
+				"Terrasteel tools are better tinkered, as you can use fewer ingots to produce similar quality tools. "
+				""
+				"Depending on how quickly you are producing iron, you may choose to skip this for some time and focus on trinkets and other goodies."
+			]
+			dependencies: ["727E8165AD39C2FB"]
+			hide: true
+			id: "5788B03C0FD63817"
+			tasks: [
+				{
+					id: "7825FE569778DDFF"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "49E6F3D6BF43518C"
+					type: "item"
+					item: {
+						id: "tconstruct:hammer_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "692AF1D6A7D03BFF"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "07DBBD045418F754"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "0AC9F8DE79F27586"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "66425AE3D0ACB34F"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "2B4DF570FC2BF978"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "5BFC04C32B48066B"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "6FAEBD50A2BD703D"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+				{
+					id: "2D06A70A957D24BA"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:terrasteel"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2FF7564D0E239A0E"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "747A658D407DA5DC"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			title: "Terra Tools"
+			x: 1.0d
+			y: -9.0d
+			description: [
+				"Terrasteel is mostly used for creating one of three top-tier tools with unique abilities. These are probably more valuable than tinkered items."
+				"Terrasteel is mostly valuable for its additional abilities, making it better in many ways than tinkered gear."
+				""
+			]
+			dependencies: ["727E8165AD39C2FB"]
+			hide: true
+			id: "33AAD25893FF8A3D"
+			tasks: [
+				{
+					id: "67AED2AD15769D02"
+					type: "item"
+					item: {
+						id: "botania:terra_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A6A6D3FE9DA7C6A"
+					type: "item"
+					item: {
+						id: "botania:terra_pick"
+						Count: 1b
+						tag: {
+							mana: 9999
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44B02F15116A723E"
+					type: "item"
+					item: {
+						id: "botania:terra_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "56191A149DC19348"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "2E6CC518AA68B33C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "024BA7953962E03D"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 154
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			description: ["To create a single piece of Terrasteel you will require a lot of mana. You will then have to throw a mana pearl, mana diamond, and ingot of mana steel onto the agglomeration plate at the same time."]
+			dependencies: ["6850D44BBDAB5B9F"]
+			hide: true
+			id: "0F4CD2BDF1324D7F"
+			tasks: [
+				{
+					id: "3B9F1AB9F1AB893B"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "2F81400DDA3F8078"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "4BA9094740465980"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+			]
+			rewards: [{
+				id: "65000479C9C7C0E4"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 63
+					}
+				}
+			}]
 		}
 	]
 }

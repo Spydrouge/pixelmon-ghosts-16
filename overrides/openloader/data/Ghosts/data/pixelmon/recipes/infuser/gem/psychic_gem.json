@@ -1,0 +1,14 @@
+{
+  "type": "pixelmon:infuser",
+  "ingredients": [
+    {
+      "item": "pixelmon:payapa_berry"
+    },
+    {
+      "item": "pixelmon:crystal"
+    }
+  ],
+  "results": {
+    "item": "pixelmon:psychic_gem"
+  }
+}

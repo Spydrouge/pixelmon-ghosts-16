@@ -1,0 +1,35 @@
+{
+	id: "3FD461879F2DC856"
+	order_index: 37
+	title: "Swap"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tm_gen8"
+				Count: 1b
+				tag: {
+					tm: 60
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen8"
+				Count: 1b
+				tag: {
+					tm: 61
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen8"
+				Count: 1b
+				tag: {
+					tm: 62
+				}
+			}
+		}
+	]
+}

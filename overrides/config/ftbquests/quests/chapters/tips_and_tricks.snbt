@@ -650,7 +650,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -5.0d
 			y: 0.0d
 			subtitle: "Do your own research"
 			description: [
@@ -678,9 +678,13 @@
 		}
 		{
 			title: "Guides"
-			x: -2.0d
+			x: -3.5d
 			y: 0.0d
-			description: ["These might be useful for making guidebooks..."]
+			description: [
+				"These might be useful for making guidebooks..."
+				""
+				"If you run out, you may be able to make more books from paper. Shedinja's shell might be usable as a primitive form of paper."
+			]
 			dependencies: ["1183D242FD8FAF87"]
 			hide: true
 			secret: true
@@ -719,7 +723,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -5.0d
 			y: -1.5d
 			description: [
 				"It seems like it would be difficult to get started with Engineering. It requires so much iron!"
@@ -832,7 +836,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -6.5d
 			y: 0.0d
 			description: ["Perhaps you should create the manual for Tier 2 tools so you can look up the materials yourself?"]
 			dependencies: ["2D371D41E27A8496"]
@@ -1487,12 +1491,15 @@
 			}]
 		}
 		{
-			x: 4.0d
+			title: "Colored Spruce Trees"
+			x: -3.5d
 			y: 4.5d
 			description: [
 				"\"Oh the Biomes You'll Go\" Colored Spruces are all high-altitude plants that will only grow above Y level 72. Don't waste bone meal on them below that level!"
 				""
 				"Additionally, they are not useful for growing Podzol. Their large forms (2x2) are nevertheless quite beautiful"
+				""
+				"Many \"Oh the Biomes You'll Go\" trees are Y-level restricted, and a number must be planted in 2x2 formations."
 			]
 			hide: true
 			id: "69C2D29AE902B96F"
@@ -1889,6 +1896,11 @@
 				""
 				"However you would much prefer explicit &dwither-protection&r. You believe it might be possible to brew a wither-protection potion. You should pursue brewing in your diary as soon as you have the materials."
 			]
+			dependencies: [
+				"47107D60FD080A18"
+				"002A10074C8DB848"
+			]
+			hide: true
 			id: "0A0274831030F74A"
 			tasks: [{
 				id: "10B3937604875A3D"
@@ -2204,13 +2216,17 @@
 			description: [
 				"The Pure Daisy is capable of a few interesting recipes, almost all of which are worth looking up in the JEI."
 				""
-				"Most importantly, it can turn Soul Sand into Sand."
+				"It can turn Soul Sand into regular Sand."
 				""
 				"It can increase the density of different types of Ice. Ice becomes Packed Ice, which becomes Blue Ice. It can also create Snow from Water."
 				""
-				"If you were to discover a large amount of Netherrack, it could turn this into cobblestone."
+				"If you were to discover a large amount of Netherrack, it could turn this into cobblestone. With the help of a well-modified vein-mining pickaxe, and the speed at which it is possible mine netherrack, a good setup can be used to harvest cobblestone faster than a traditional cobblestone generator."
 			]
-			dependencies: ["6749D2C85113CC62"]
+			dependencies: [
+				"6749D2C85113CC62"
+				"0A0274831030F74A"
+			]
+			hide: true
 			id: "3B386C27821837FA"
 			tasks: [{
 				id: "0014FC014B18FAFD"
@@ -2362,6 +2378,79 @@
 				title: "Wait, what made these?"
 				item: "biomesoplenty:umbran_slab"
 				count: 32
+			}]
+		}
+		{
+			title: "Find Marble"
+			icon: "astralsorcery:marble_raw"
+			x: 5.5d
+			y: 3.0d
+			description: ["There may be other good reasons to fight an Alolan Geodude..."]
+			dependencies: ["5E9D14F96349F6FC"]
+			hide: true
+			min_required_tasks: 1
+			id: "0135B4F988B61FAF"
+			tasks: [
+				{
+					id: "3F9F38C6B4F84F6B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "geodude form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "161B79CEE48536B3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "graveler form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7ABF43CF7CB48329"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golem form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "44257BC6166DAC51"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "weezing form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [{
+				id: "20A76F7D39311635"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: [
+				"Hmm, does anything drop Parchment directly? You can get aquamarine from at least one species of Sableye, you're sure..."
+				""
+				"The paper you will have to strategize. Perhaps you can harvest some from Shedinja, or find a Pokemon that drops sugarcane."
+				""
+				"The very first Chapter of Astral Sorcery is \"Discovery,\" but once you have all your starting materials, you'll be looking at chapter two, \"Exploration\" to learn how you might progress. "
+			]
+			dependencies: ["64E523E4B319CEFB"]
+			hide: true
+			id: "14B96200A6080A77"
+			tasks: [{
+				id: "792FD7AEC15444EC"
+				type: "item"
+				item: "astralsorcery:tome"
 			}]
 		}
 	]

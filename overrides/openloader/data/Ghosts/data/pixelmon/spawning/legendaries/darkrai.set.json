@@ -2,7 +2,7 @@
   "id": "Darkrai",
   "spawnInfos": [
     {
-      "spec": "species:Darkrai level:70",
+      "spec": "species:Darkrai level:100 uncatchable",
       "stringLocationTypes": [
         "Land"
       ],
@@ -20,6 +20,34 @@
           "minecraft:dark_forest_hills"
         ],
         "moonPhase": 4
+      },
+      "rarity": 0.3
+    },
+    {
+      "spec": "species:Darkrai level:100 uncatchable",
+      "stringLocationTypes": [
+         "Land",
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+            "byg:weeping_mire",
+            "byg:weeping_mire_clearing",
+            "byg:weeping_mire_forest",
+            "byg:withering_woods",
+            "byg:wailing_garth",
+            "minecraft:soul_sand_valley"
+          
+        ]
       },
       "rarity": 0.3
     },
@@ -45,24 +73,7 @@
           "pixelmon:relic_vase"  
         ]
       },
-       "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "times": [
-              "NIGHT",
-              "DUSK"
-            ]
-          }
-        },
-        {
-          "multiplier": 2,
-          "condition": {
-            "moonPhase": 4
-          }
-        }
-      ],
-      "rarity": 10
+      "rarity": 60
     }
   ]
 }

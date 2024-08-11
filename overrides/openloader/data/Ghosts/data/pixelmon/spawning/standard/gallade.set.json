@@ -1,6 +1,30 @@
 {
   "id": "Gallade",
   "spawnInfos": [
+      {
+      "spec": "species:Gallade palette:strike",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":160,
+        "minY":128,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "nearbyBlocks":[
+            "botania:terra_plate"
+        ]
+        
+      },
+      "rarity": 10
+    },
     {
       "spec": "species:Gallade",
       "stringLocationTypes": [

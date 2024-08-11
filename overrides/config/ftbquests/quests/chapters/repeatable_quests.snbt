@@ -896,6 +896,7 @@
 					type: "item"
 					item: "pixelmon:yellow_shard"
 					count: 3L
+					consume_items: true
 				}
 				{
 					id: "5283F809D705374E"
@@ -955,16 +956,19 @@
 					id: "51FC59432E703678"
 					type: "item"
 					item: "minecraft:diamond"
+					consume_items: true
 				}
 				{
 					id: "19F7F62EBB2D5A6B"
 					type: "item"
 					item: "pixelmon:ultra_desert_sand"
+					consume_items: true
 				}
 				{
 					id: "1EDF4B2734E16EC5"
 					type: "item"
 					item: "botania:hourglass"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -996,6 +1000,7 @@
 					id: "129E2CC65F42B127"
 					type: "item"
 					item: "astralsorcery:colored_lens_break"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1025,11 +1030,13 @@
 					id: "128368B542754948"
 					type: "item"
 					item: "pixelmon:green_shard"
+					consume_items: true
 				}
 				{
 					id: "32C28BA8932D4BD1"
 					type: "item"
 					item: "astralsorcery:glass_lens"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1424,27 +1431,32 @@
 					type: "item"
 					item: "pixelmon:blue_shard"
 					count: 3L
+					consume_items: true
 				}
 				{
 					id: "4ACBBDAA0AADBB21"
 					type: "item"
 					item: "pixelmon:red_shard"
 					count: 3L
+					consume_items: true
 				}
 				{
 					id: "6063C2000A956D9C"
 					type: "item"
 					item: "pixelmon:sapphire"
+					consume_items: true
 				}
 				{
 					id: "339ACC147B402971"
 					type: "item"
 					item: "pixelmon:ruby"
+					consume_items: true
 				}
 				{
 					id: "04F630AB4391C942"
 					type: "item"
 					item: "pixelmon:amethyst"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1515,7 +1527,7 @@
 					id: "0E8C42721B6C1C4F"
 					type: "item"
 					icon: "pixelmon:green_shard"
-					item: "pixelmon:blue_shard"
+					item: "pixelmon:green_shard"
 					consume_items: true
 				}
 				{
@@ -1658,10 +1670,28 @@
 			y: -14.5d
 			dependencies: ["65966CE2BBB0D943"]
 			id: "71AA63BA2C153936"
-			tasks: [{
-				id: "49F78EB6AAFEB3B5"
+			tasks: [
+				{
+					id: "06F4977650DA25AB"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 3L
+				}
+				{
+					id: "15D89ED4A76F4703"
+					type: "item"
+					item: "pixelmon:full_heal"
+				}
+				{
+					id: "23D539B6D464C071"
+					type: "item"
+					item: "contenttweaker:fairy_gear"
+				}
+			]
+			rewards: [{
+				id: "4D79D2D4D5CCBAB8"
 				type: "item"
-				item: "pixelmon:red_shard"
+				item: "pixelmon:dubious_disc"
 			}]
 		}
 		{
@@ -1670,10 +1700,39 @@
 			y: -14.5d
 			dependencies: ["65966CE2BBB0D943"]
 			id: "4A490FA513CC896C"
-			tasks: [{
-				id: "3D1D00A788F02DE4"
+			tasks: [
+				{
+					id: "6FE6A6D4D3D7F68A"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "775B1746E2F9CD0F"
+					type: "item"
+					item: "pixelmon:burn_heal"
+				}
+				{
+					id: "3A260DE8731846BF"
+					type: "item"
+					item: "pixelmon:ice_heal"
+				}
+				{
+					id: "0B69620886E5541D"
+					type: "item"
+					item: "pixelmon:paralyze_heal"
+				}
+				{
+					id: "420E04604AD7346B"
+					type: "item"
+					item: "thermal:electrum_gear"
+				}
+			]
+			rewards: [{
+				id: "5EC51F0840DEC7E3"
 				type: "item"
-				item: "pixelmon:red_shard"
+				item: "pixelmon:up_grade"
 			}]
 		}
 		{
@@ -2280,11 +2339,13 @@
 					id: "2BA372411AED1DC8"
 					type: "item"
 					item: "pixelmon:green_shard"
+					consume_items: true
 				}
 				{
 					id: "5D813E6A1C9DBBEF"
 					type: "item"
 					item: "minecraft:glass_pane"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3227,7 +3288,11 @@
 		{
 			x: -2.5d
 			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
 			secret: true
+			repeatable: true
 			id: "612160239CFDE4AB"
 			tasks: [{
 				id: "535B6902A67B64F0"
@@ -3238,7 +3303,11 @@
 		{
 			x: -2.5d
 			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
 			secret: true
+			repeatable: true
 			id: "0C87D09490E61694"
 			tasks: [{
 				id: "35CF2199E8E80F2F"
@@ -3249,7 +3318,11 @@
 		{
 			x: 1.5d
 			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
 			secret: true
+			repeatable: true
 			id: "6B454BBB9011A8DF"
 			tasks: [{
 				id: "1EB02851C41AD287"
@@ -3260,7 +3333,11 @@
 		{
 			x: 1.5d
 			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
 			secret: true
+			repeatable: true
 			id: "3A08AFD893FD9EFB"
 			tasks: [{
 				id: "7FAD2D60E0CE3315"
@@ -4279,6 +4356,7 @@
 		}
 		{
 			title: "Assistance in the Nether"
+			icon: "inspirations:dimension_compass"
 			x: -0.5d
 			y: 8.5d
 			description: ["Any of these offerings can be made to locate structures in the Nether. Make sure you claim them while in the Nether dimension, or they will fail and your resources will not be refunded."]
@@ -4420,6 +4498,7 @@
 			}]
 		}
 		{
+			title: "Where is the Nearest Bastion?"
 			x: 0.5d
 			y: 9.5d
 			description: ["Where is the nearest Bastion? Make an offering to Arceus in hope of answers."]
@@ -4455,8 +4534,10 @@
 			}]
 		}
 		{
+			title: "Where is the Nearest Thether Grotto?"
 			x: -0.5d
 			y: 10.0d
+			description: ["There are many good reasons to find a Nether Grotto, but where is the nearest one to you right now? Keep in mind that the nearest nether grotto may be one you've already found."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			id: "002929F34948509F"
 			tasks: [
@@ -4488,6 +4569,197 @@
 				icon: "pixelmon:master_chest"
 				command: "/execute at @p as @p run locate pixelmon:grotto_nether"
 				player_command: false
+			}]
+		}
+		{
+			title: "Blank TR"
+			icon: {
+				id: "pixelmon:tr8_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+			x: -9.5d
+			y: -9.5d
+			description: [
+				"Blank TRs allow you to copy some of the most powerful Pokemon moves from one Pokemon to another. You have to practice a move over and over again while the blank is attached to a Pokemon. Once the move has been practiced enough times, the TR will record that move, and you can remove it and teach it to another Pokemon."
+				""
+				"TRs are single use items!"
+			]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			repeatable: true
+			id: "5A8D1269CE405C73"
+			tasks: [
+				{
+					id: "71A167B0E4DA440C"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "28EBA4CA7DD65DE7"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "66DF8F887ACB21AD"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "70295F49044CCA9E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "114F5A50814349F5"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "4539892E378C68C9"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "4EE9803622FDA799"
+					type: "item"
+					item: "pixelmon:stardust"
+				}
+			]
+			rewards: [{
+				id: "3E71765B425F71C1"
+				type: "item"
+				item: {
+					id: "pixelmon:tr8_blank"
+					Count: 1b
+					tag: {
+						tm: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Galarian TM"
+			icon: {
+				id: "pixelmon:tm8_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+			x: -8.5d
+			y: -10.0d
+			description: [
+				"Many of the best Galarian moves can only be found in TR form. For instance, there is no Galarian TM for \"Thunder.\" There's a single-use Galarian TR for Thunder instead."
+				""
+				"That said, there are plenty of good TM moves you might want to copy from one Pokemon to another. Check your options for Galarian TMs before deciding to pray for a blank one."
+			]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			repeatable: true
+			id: "2050CFE9A93EA51F"
+			tasks: [
+				{
+					id: "4DE288ECE3B0270F"
+					type: "item"
+					title: "Any #minecraft:music_discs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:music_discs"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3562123A3FE80A24"
+					type: "item"
+					title: "Any #ghosts:underground_shards"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ghosts:underground_shards"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5559CDA76F19ACA7"
+				type: "item"
+				item: {
+					id: "pixelmon:tm8_blank"
+					Count: 1b
+					tag: {
+						tm: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Other TMs"
+			icon: {
+				id: "pixelmon:tm9_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+			x: -7.5d
+			y: -9.5d
+			description: ["Most places other than Galar have stronger TMs. For instance, an Alolan TM can contain the move \"Thunder,\" and a Galarian one cannot. For this reason, you expect non-Galarian TMs to be much more valuable, and difficult to obtain. You are ready to make quite an offering to try and get one!"]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			repeatable: true
+			id: "31545E39BE6C0C9A"
+			tasks: [
+				{
+					id: "25A36CCE803786BE"
+					type: "item"
+					title: "Any #minecraft:music_discs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:music_discs"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2531BCAF77DC9015"
+					type: "item"
+					title: "Any #forge:nether_stars"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nether_stars"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "254F9E1B9019F0B6"
+					type: "item"
+					item: "pixelmon:comet_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1E298CB34B819683"
+				type: "choice"
+				table_id: 5426868279948745664L
 			}]
 		}
 	]

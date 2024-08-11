@@ -18,7 +18,7 @@
 			x: 0.0d
 			y: -0.5d
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
-			dependencies: ["5416D5487B9A64EE"]
+			dependencies: ["596680D791AC22B8"]
 			hide: true
 			repeatable: true
 			id: "11C71ABC37BE78FD"
@@ -146,7 +146,8 @@
 			x: 1.0d
 			y: -0.5d
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
-			dependencies: ["3AB868505E770726"]
+			dependencies: ["7DAE272571897CFE"]
+			hide: true
 			id: "6B9BCFAC5AE87068"
 			tasks: [{
 				id: "4DA33346CD040767"
@@ -171,7 +172,8 @@
 			x: 2.0d
 			y: -0.5d
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
-			dependencies: ["267F6D9673FBD7CA"]
+			dependencies: ["01385E2B571F8B52"]
+			hide: true
 			id: "50C26BF3F172183D"
 			tasks: [{
 				id: "1DFF196FF586655E"
@@ -196,7 +198,8 @@
 			x: -1.0d
 			y: -0.5d
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
-			dependencies: ["77BC1579747BAB59"]
+			dependencies: ["4B52AFEFBEFB62B6"]
+			hide: true
 			id: "37BCB26E57584CEB"
 			tasks: [{
 				id: "7785F1822B8E7420"
@@ -274,6 +277,7 @@
 					id: "6ED20B73D750AC7D"
 					type: "item"
 					item: "byg:glowcelium_block"
+					count: 88
 				}
 				{
 					id: "75984DBB299EAFB9"
@@ -301,6 +305,162 @@
 					item: "byg:pink_orchid"
 				}
 			]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			description: ["This Pokemon is not currently feeling playful. It's filled with sorrow and loss, and looking for someone who can handle its grief."]
+			dependencies: ["6D3B04C6338A1908"]
+			hide: true
+			id: "35AA281D16DB8914"
+			tasks: [{
+				id: "3ABCE60209B0A7FA"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "mew uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "79D2609B22ED5054"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p mew egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			description: ["This Pokemon will not bend to a Trainer, but it may be convinced to bequeath them an egg."]
+			dependencies: ["3A20DCDFBBC2645F"]
+			hide: true
+			id: "2A4EB6F77761A50B"
+			tasks: [{
+				id: "481965572FCA1C6C"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "volcanion uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "65D3CB5A66BB9004"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p volcanion egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			dependencies: ["5437096EC001288C"]
+			hide: true
+			id: "37D023E68C2A85FA"
+			tasks: [{
+				id: "77334D627CE76B0D"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "wo-chien uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "0C1E88C00A0B4D77"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p wo-chien egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			dependencies: ["03EE801152DBA79E"]
+			hide: true
+			id: "053A8DCA7D90779F"
+			tasks: [{
+				id: "40E7BCBA3C1A36D2"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chi-yu uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "267B553BA3AC2F55"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p chi-wu egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			dependencies: ["7427679A42B7A2D4"]
+			hide: true
+			id: "55C8167B43AC942B"
+			tasks: [{
+				id: "586946B7D7812559"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "ting-lu"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "23FA374D2A4C9624"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p ting-lu egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			dependencies: ["54C9D8C9D49FA8E2"]
+			hide: true
+			id: "54F0E4EB8AB45710"
+			tasks: [{
+				id: "1555D68610297A7A"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chien-pao uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "74052B679CA9E5AA"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p chien-pao egg ball:cherish_ball g:female"
+				player_command: false
+			}]
 		}
 	]
 }

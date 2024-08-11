@@ -1,0 +1,1335 @@
+{
+	id: "7DAF9BD4C5BE283C"
+	group: "1BA668D58784F46A"
+	order_index: 4
+	filename: "the_stars"
+	title: "The Stars"
+	icon: "astralsorcery:starmetal_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.5d
+			y: 1.0d
+			description: [
+				"You've heard from family members that one way of starting Astronomy- Astrology? Astro-something, is to find an academy shrine and study the Collector Crystal within."
+				""
+				"Well, you don't have a planet, much less a friendly nearby Collector Crystal shrine. So you're going to have to take matters into your own hands and try to make a Luminous Crafting Table from scratch."
+			]
+			dependencies: ["5171F497D4693A6D"]
+			hide: true
+			id: "7F90F09E5B27FE0A"
+			tasks: [{
+				id: "7642AEB17D8D0FF1"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "46369016268D051D"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+				}
+				{
+					id: "395683DAC7B2FB04"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: [
+				"Maybe there's not much left of this world, but there's still a whole beautiful universe out there."
+				""
+				"You've heard magic can be done with starlight. You know the first major ingredient for this magic is marble."
+				""
+				"Marble can drop from any member of the Alolan Geodude family, and Sooty Marble can drop directly from Galarian Weezing."
+			]
+			hide: true
+			hide_text_until_complete: false
+			size: 2.0d
+			secret: true
+			min_required_tasks: 1
+			id: "5171F497D4693A6D"
+			tasks: [
+				{
+					id: "26FDFDEE1691386D"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+				}
+				{
+					id: "56267AFF9E6BDE99"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+				}
+			]
+			rewards: [{
+				id: "7AFC9A62AAAE861C"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: [
+				"The three crucial ingredients for doing anything whatsoever in Astral Sorcery are Aquamarine, Rock Crystal, and Marble."
+				""
+				"You've got Marble covered, so now it's time to find aquamarine. You believe it can be found carried by Drowned Sableye, a frightening undead version of Sableye which is attracted to underground water habitats on the Soil Layer, your starting layer."
+			]
+			dependencies: ["5171F497D4693A6D"]
+			hide: true
+			id: "2EA9179A585D65E0"
+			tasks: [{
+				id: "65C6749D39392075"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [
+				{
+					id: "4C627841CE5D777D"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+				{
+					id: "015BF2D510AD0F87"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: [
+				"You need to build a &dResonating Wand&r so that you can activate starlight magic."
+				""
+				"After you lay out a recipe on the Luminous Crafting Table, use the Resonating Wand on the table to start crafting!"
+				""
+				"Make sure your table is recieving enough starlight to start the recipe. Starlight is stronger in different places and at different altitudes. Make sure you are building in the &bAir Layer&r or higher. "
+				""
+				"Also make sure your Luminous Crafting Table is exposed to the &bopen sky&r."
+			]
+			dependencies: ["2EA9179A585D65E0"]
+			hide: true
+			id: "4BF49B38398D5AF5"
+			tasks: [{
+				id: "73A975BFAC8DEAA7"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "61FD6097B0F2E954"
+				type: "choice"
+				table_id: 6443510782262151491L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["Rock crystal is a rare drop of Carbink, which can be attracted to an undeground habitat on the Stone layer."]
+			dependencies: ["2EA9179A585D65E0"]
+			hide: true
+			id: "58FAB2992E765922"
+			tasks: [{
+				id: "131B7DFB9644D4B6"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E0D205AE4BA808B"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"The lightwell can be used to turn rock crystal and aquamarine into liquid starlight."
+				""
+				"Liquid Starlight and lava can be used to automate sand production, by setting them up in a formation similar to a cobblestone generator."
+				""
+				"This will eventually make it valuable for helping you reproduce desert and beach habitats."
+			]
+			dependencies: [
+				"4BF49B38398D5AF5"
+				"58FAB2992E765922"
+			]
+			hide: true
+			id: "17C5ABB4E7642DEA"
+			tasks: [
+				{
+					id: "63D8B553FA50D9E5"
+					type: "item"
+					item: "astralsorcery:well"
+				}
+				{
+					id: "0F3F638FAD7E1967"
+					type: "item"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6E446BAE46A8ADF1"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "5454A0C900310B88"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"Make sure to tend to your lightwells. They are not compatable with ceramic faucets, but the liquid can still be stored in cisterns, bucket by bucket. "
+				""
+				"If a piece of aquamarine or rock crystal is left in a completely full lightwell, it will continue being drained of lifeforce, but will not be able to produce anymore liquid starlight."
+			]
+			dependencies: ["17C5ABB4E7642DEA"]
+			hide: true
+			id: "3B4055303F7C3CF9"
+			tasks: [{
+				id: "2700D471CD901E24"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "astralsorcery:liquid_starlight"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E7E60A374B94641"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			description: [
+				"Liquid starlight can be placed in the world. If it does so, it will flow rapidly downward. If it comes into contact with water blocks, it will convert that water to &bpacked ice&r. You can use this to make a 'packed ice generator' just like people might make a cobblestone generator."
+				""
+				"Packed ice can't be picked up unless you have a silk touch pickaxe, but if you do find a way to pick it up, you can convert it back to water in a lightwell. This may be useful in a world without &binfinite water&r. "
+				""
+				"(Note: The Packed Ice is an accidentally-hard-coded bug in Astral Sorcery. It's meant to be ice, and it's meant to be configurable for modpack authors, but it is not. To avoid confusion, we changed the recipe to packed ice as well, so that JEI displays it correctly. If Astral Sorcery ever fixes the bug, it will have to be manually fixed by the modpack author as well.)"
+			]
+			dependencies: ["3B4055303F7C3CF9"]
+			hide: true
+			id: "0DCBC3C23E21F52A"
+			tasks: [
+				{
+					id: "41BC53A2DB9BE08E"
+					type: "item"
+					item: {
+						id: "ceramics:clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:water"
+						}
+					}
+				}
+				{
+					id: "4C65AAC2463F2F5C"
+					type: "item"
+					item: "minecraft:packed_ice"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "42C1E723E286D5FB"
+				type: "item"
+				item: "astralsorcery:aquamarine_sand_ore"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: [
+				"Obtain lava in either a ceramic or iron bucket."
+				""
+				"When liquid starlight and water touch one another, they form ice. But when liquid starlight and lava touch one another, they form &esand&r. Using this principle in conjunction with a torch or slab, you can create a very fast-performing infinite sand generator."
+				""
+				"As you plan your generator, you should know it's the flowing liquid starlight that turns into the sand block."
+				""
+				"To &bauto-harvest&r the sand, build a drop-shaft; the sand will form at the top, and drop onto a slab or torch to break it. Place a wooden hopper at the bottom or stand there for awhile. Since these generators can be laggy, remove the slab or torch when not in use. "
+				""
+				"Make sure to place the &cLava&r source four blocks away from the dropshaft. This will keep it from pouring down the shaft and destroying the blocks at the bottom."
+			]
+			dependencies: ["3B4055303F7C3CF9"]
+			hide: true
+			min_required_tasks: 2
+			id: "20EEE33BB3D58776"
+			tasks: [
+				{
+					id: "53FFEC00AADE6DF4"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "753EA7518E9DB59D"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "095E95B2FD8816BC"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "2F6C66BA7BC8EAB0"
+				type: "item"
+				item: "astralsorcery:aquamarine_sand_ore"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			description: [
+				"Set up the recipe. If you've done it correctly, the Luminous Crafting table should display both the starlight it has and the threshold you need to reach to do the ritual. As long as you've built high enough and work near midnight, the recipe should be possible."
+				""
+				"Be advised that the Starlight Crafting Altar requires a multiblock structure of marble built around it. It won't function at all, even in a limited capacity, without that structure. Make sure you have everything you need before beginning!"
+			]
+			dependencies: ["323035F60CFD8567"]
+			id: "3F72BD32E5E89685"
+			tasks: [{
+				id: "5BC996BC9926CAD4"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [
+				{
+					id: "2A8CF540BA10650C"
+					type: "item"
+					item: "pixelmon:stardust"
+				}
+				{
+					id: "044072B9EE46F51B"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "moon_ball"
+						}
+					}
+				}
+				{
+					id: "081C03A7626FA71B"
+					type: "item"
+					item: "minecraft:sunflower"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			description: [
+				"You have learned how to find and create the most basic ingredients for doing Astral Sorcery. With this knowledge, you will be able to create the first upgrade to your Luminous Crafting Table: The Starlight Crafting Altar!"
+				""
+				"Since this upgraded altar will require a multiblock structure to function, you should first gather all the required materials."
+				""
+				"(Note: Although the recipe says it requires an iron bucket, it will actually take anything that contains 1 bucket's worth of starlight, including ceramic buckets)"
+			]
+			dependencies: ["3B4055303F7C3CF9"]
+			id: "323035F60CFD8567"
+			tasks: [
+				{
+					id: "73B7339FBC70CF40"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 12L
+				}
+				{
+					id: "05A72E4475E68CA1"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 10L
+				}
+				{
+					id: "231F20F0C18A3AAE"
+					type: "item"
+					item: {
+						id: "ceramics:clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "astralsorcery:liquid_starlight"
+						}
+					}
+				}
+				{
+					id: "34F028AFA18FF647"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 21L
+				}
+				{
+					id: "1B5C4E47576712BC"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "508C59217C7A9983"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 28L
+				}
+				{
+					id: "1A5972EE5CCC0913"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "28ECAB6249309CC7"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+				{
+					id: "2CFD99AEC36E62EF"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: [
+				"The Astral Tome is organized as follows: Each stage of progression has a chapter associated with it. The first chapter is \"Discovery\" and the second is \"Exploration.\" \"Discovery\" teaches you about things like marble and aquamarine. Some of this is not applicable to you, because you live in a void."
+				""
+				"Inside \"Exploration\" you will learn about all the new things you can do with Astral Sorcery. You will also see an entry titled \"Starlight Crafting Altar.\" This is the entry that shows you how to progress to chapter three, \"Attunement.\" "
+				""
+				"In general, each stage is entered by upgrading your crafting altar to a higher tier, and building an ever-expanding multiblock structure around it."
+			]
+			dependencies: ["5171F497D4693A6D"]
+			id: "347D8EC0CB3E2904"
+			tasks: [{
+				id: "4BC5768D061D1516"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			description: [
+				"Is there enough starlight? You might have gotten very unlucky in where you chose to place your altar. If that's the case, you can use Astral Relays to gather some extra starlight and beam it to your crafting table."
+				""
+				"Astral Relays also need a small multiblock altar set up around them."
+			]
+			dependencies: ["323035F60CFD8567"]
+			id: "3D8145A960947308"
+			tasks: [
+				{
+					id: "4A2A3842649FE10E"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "0B082082078DF59B"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+			]
+			rewards: [
+				{
+					id: "675007F1CF31962F"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+				{
+					id: "0659D8E0A3C498D1"
+					type: "item"
+					item: "pixelmon:sweet_star"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			description: [
+				"One way of finding out if there is a lot of starlight in an area is to run around placing your Luminous crafting table everywhere and seeing how fast it charges. However this is extremely unreliable, as starlight generated changes depending on time of night."
+				""
+				"If you have extra supplies and want to make sure you pick the best chunk around you for starlight, you can build a Fosic Resonator."
+				""
+				"&bHowever!&r Keep in mind that the Fosic Resonator requires placed blocks to do its job. When you hold it at night, you will see a blue glow on any blocks that recieve very large amounts of Starlight. This blue glow can be hard to see."
+				""
+				"The 'placed block' requirement reduces the ease of using the Fosic Resonator in a void dimension."
+			]
+			dependencies: ["323035F60CFD8567"]
+			id: "29E3F8319D4CE248"
+			tasks: [{
+				id: "5EA59F64D0A587DD"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A57981D5167CC93"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 4
+				}
+				{
+					id: "70FB0B354731377F"
+					type: "item"
+					item: "botania:floating_manastar"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: [
+				"Rock Crystal is rare and probably shouldn't be spent on frivolities like a pickaxes, but there are some things about crystal tools worth mentioning."
+				""
+				"Firstly, the quality of the crystals used to make the tool effect the tools stats. Some, like \"Purity\" have no effect. Others, like \"Tool Efficency\" obviously do."
+				""
+				"When multiple crystals are combined to make a tool, that tool inherits all properties of the crystals, and can even combine them. A sword made with two Size III crystals may have a higher than III final Size property."
+				""
+				"High Size can result in a tool with absolutely absurd durability, which should last it long enough for you to find a means of repairing it."
+				""
+				"(Note: You can complete this quest with any one crystal tool; you do not have to make all of them)"
+			]
+			dependencies: ["47A21D5B311AB95C"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "33D433300C0619FD"
+			tasks: [
+				{
+					id: "365A7D19990398D8"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_pickaxe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C14DF68BE8AE6A9"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_shovel"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5864B3E5D192EA62"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_sword"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70D727FE9E756E9A"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_axe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "671FB8A9F89207B5"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+		}
+		{
+			icon: {
+				id: "astralsorcery:rock_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: 5.0d
+			y: 3.0d
+			description: [
+				"You've heard your ancestors speak of \"Purity, Size, and Cutting\" with regards to Rock Crystals, but that's not what you're seeing. Studying your Astral Tome, you see things have changed since the olden days. The most important notes are in \"Exploration.\""
+				""
+				"Crystals can have a wide variety of properties, such as Size, Tool Durability, and Ritual Range. Different power levels are possible for each attribute. Some properties can grow to level II, others to level III."
+				""
+				"Crystals can have a max of 7 properties."
+			]
+			dependencies: ["58FAB2992E765922"]
+			id: "47A21D5B311AB95C"
+			tasks: [{
+				id: "76573C5A19D4F5EF"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: {
+				id: "astralsorcery:rock_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: 5.0d
+			y: 4.0d
+			description: [
+				"Crystals can be modified via a variety of procedures. The easiest way to modify a crystal is to add one level of the 'Size' property (to a max of III), by leving it to soak up a bucket of liquid starlight."
+				""
+				"If it is possible for the attributes of two crystals to be added together, they can be combined by throwing them into liquid starlight together, and waiting for them to absorb it."
+				""
+				"The combination process is not flawless, and sometimes attributes are lost. Additionally, finished crystals cannot have more than seven total property levels."
+			]
+			dependencies: ["3B4055303F7C3CF9"]
+			id: "05A38CD874CD956A"
+			tasks: [{
+				id: "0DA88AF416845C26"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			description: ["You can upgrade your crafting altar to the next stage. Before you do so, you should make sure you have sufficient marble blocks to build the multiblock altar it will require."]
+			dependencies: [
+				"210602F6EE7DBBAF"
+				"795DAB51F5258617"
+			]
+			hide: true
+			id: "011F1FC55DFFF697"
+			tasks: [{
+				id: "265E3AC5D47FAD99"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [
+				{
+					id: "1E2A0FC80C205984"
+					type: "item"
+					item: "pixelmon:stardust"
+				}
+				{
+					id: "0EB7C2C7FC0340D4"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "dream_ball"
+						}
+					}
+				}
+				{
+					id: "52621C91A38562C1"
+					type: "item"
+					item: "botania:solegnolia"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["As usual, everything involving iron is unnecessarily difficult in this void dimension. There are a small number of Pokemon that you think should drop starmetal nuggets, and all of them you expect to find on the Space Layer."]
+			hide_dependency_lines: true
+			dependencies: ["509A619C3B068543"]
+			hide: true
+			id: "795DAB51F5258617"
+			tasks: [{
+				id: "2AC6942DC2A220D9"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+			rewards: [{
+				id: "457589272CA75831"
+				type: "item"
+				item: "contenttweaker:starmetal_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: [
+				"Consider spending your first Starmetal Ingot on the &bStar Metal Cutter&r. It serves two important functions. To use it, you throw an object on the ground and left click on it with the cutter."
+				""
+				"Firstly, it can be used to turn Starmetal ingots into Starmetal dust. Secondly, it can split rock crystals. Since rock crystals can have Size added them with liquid starlight, this is a way to get 'infinite' crystals, provided you have a source of aquamarine."
+			]
+			dependencies: ["795DAB51F5258617"]
+			hide: true
+			id: "7970993C9ED9CCA7"
+			tasks: [{
+				id: "3594BE65FA481CA0"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7230090C3EF5E29D"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			description: [
+				"About 2% of the time, your sand generator will generate an &baquamarine ore&r. This is why its vital to make sure lava isn't running down the drop shaft."
+				""
+				"One bucket of liquid starlight and one bucket of lava equals an infinite source of aquamarine."
+				""
+				"However, hoppers-be they wooden or metal-do not work fast enough to keep up with the sand generator. The aquamarine shale might be left on the ground to despawn. "
+				""
+				"A botania hopper hock flower can be used to pick out the shale and pull it safely out of the mess of sand. Unlike metal hoppers, hopper hocks do not require iron to create."
+				""
+				"If you do not have time to create a hopper hock, you can always stand at the bottom of the drop shoot for awhile with an empty inventory. You will slowly gather both sand and aquamarine shale."
+			]
+			dependencies: ["20EEE33BB3D58776"]
+			id: "55B3B84A9EDED7EE"
+			tasks: [{
+				id: "212929C34989BE53"
+				type: "item"
+				item: "astralsorcery:aquamarine_sand_ore"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4602CCDB8C9BFF48"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+				{
+					id: "7B1B22F9D252B151"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: [
+				"Stardust can be made from cutting a starmetal ingot, or as a guaranteed drop from Polar Vivillion, which will spawn as a Flying Pokemon in the Space Layer. "
+				""
+				"Owed to the difficulty of initiating combat with flying Pokemon, you may either want to perfect throwing your Pokemon out with R, or make use of the Ground Birds field move, which can only be used by Pokemon with the moves Smackdown or Gravity."
+				""
+				"Alternatively, Staryu may occasionally carry some."
+			]
+			dependencies: ["795DAB51F5258617"]
+			hide: true
+			id: "210602F6EE7DBBAF"
+			tasks: [{
+				id: "1A56B45A1D3839AE"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+			rewards: [{
+				id: "3C5746915ABA4B24"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: [
+				"Creating Celestial Crystals takes time, but they are a strict improvement over regular Rock Crystals, and you can obtain properties on them other than just Size."
+				""
+				"First you will need to create a small crystal cluster. You do this by dropping a rock crystal and some Stardust into liquid startlight."
+				""
+				"This cluster will have to grow four stages before it can be harvested. If you harvest the cluster too early, it will be destroyed and you will not recieve a Celestial Crystal."
+				""
+				"Growing these crystals also generates a small amount of stardust."
+				""
+				"Celestial Crystals can be used in place of Rock Crystals in any recipe, including in Rock Crystal Tools. As Celestial Crystals can have up to 10 levels of properties, they make better tools and lenses than Rock Crystals do."
+			]
+			dependencies: ["210602F6EE7DBBAF"]
+			hide: true
+			id: "742A09B3736F682A"
+			tasks: [{
+				id: "084D36305D6CDA04"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F1040A1644AC1C7"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+				{
+					id: "5760ED189517C118"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "astralsorcery:textures/gui/book/cluster_attunement.png"
+				}
+			}
+			x: 4.0d
+			y: 9.0d
+			description: [
+				"You have reached the \"Attunement\" chapter and unlocked many new tools! Unfortunately... many of these tools require you to have Constellation Papers, and you have none. "
+				""
+				"But you haven't lost hope! Constellation Papers can be made from scratch, if only you can reach the Iridescent Altar, two progression stages ahead of where you are at."
+				""
+				"You can take advantage of the tools that don't require Attunement for now, and then cycle back when you unlock the Constellation Papers later."
+			]
+			dependencies: ["3F72BD32E5E89685"]
+			hide: true
+			id: "509A619C3B068543"
+			tasks: [{
+				id: "331F537BE14984C5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4B0B78A167B9A71D"
+					type: "item"
+					item: "astralsorcery:parchment"
+				}
+				{
+					id: "1EA6BB3F9F458DF6"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			description: [
+				"The traversal wand allows you to launch yourself into the air to exceptionally high heights. Once you've got the hang of it, it can be an invaluable tool for quickly getting around the void."
+				""
+				"You can shoot yourself into the air repeatedly, and land in a prepared pool of water. Obviously it works well when combined with feather fall, elytras, or bouncy boots."
+				""
+				"It is slightly expensive, requiring a diamond."
+			]
+			hide_dependency_lines: true
+			dependencies: ["210602F6EE7DBBAF"]
+			hide: true
+			id: "16112D7D4BF36648"
+			tasks: [{
+				id: "1C5BBCDF5942E749"
+				type: "item"
+				item: {
+					id: "astralsorcery:blink_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			description: [
+				"No wand could be more important for a void dweller than the Formation Wand. It allows you to lay down multiple blocks from your inventory all at once."
+				""
+				"Starlight is not a finite substance the way Mana or RF is. You can use this wand infinitely."
+			]
+			hide_dependency_lines: true
+			dependencies: ["210602F6EE7DBBAF"]
+			hide: true
+			id: "5D523D66C2C945C9"
+			tasks: [{
+				id: "3EBCFB4691D71FA3"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			description: [
+				"The conversion wand is the next most valuable wand in a void-dwellers arsenal. It saves you the time of digging up old ugly blocks you placed during the early stages of the game with something newer and more attractive."
+				""
+				"However, it is very expensive in requiring two diamonds."
+			]
+			hide_dependency_lines: true
+			dependencies: ["210602F6EE7DBBAF"]
+			hide: true
+			id: "3369F7711B82EAB0"
+			tasks: [{
+				id: "36356DCAC26372FD"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			description: [
+				"The impulsion wand works like a grappling hook. It is a cheaper mobility tool than the impulsion wand, but also somewhat less dangerous, especially when you are trying to travel horizontally instead of up."
+				""
+				"It is the cheapest of the wands, requiring only one starmetal and blue dye."
+			]
+			hide_dependency_lines: true
+			dependencies: ["210602F6EE7DBBAF"]
+			hide: true
+			id: "696214880DFACCDF"
+			tasks: [{
+				id: "4885EB0E6F9C703F"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			description: [
+				"The Starmetal cutter can also cut Celestial Crystals, allowing you to take them apart property by property and reassemble them however you like for new tools and lenses."
+				""
+				"By growing and cutting crystals, and then combining them with stardust in liquid starlight, you can get an infinite supply and variety of celestial crystals from only one or two starting rock crystals- as long as you are harvesting aquamarine."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"742A09B3736F682A"
+				"7970993C9ED9CCA7"
+			]
+			hide: true
+			id: "6D05F5AF7ED220FE"
+			tasks: [{
+				id: "4808D2D7389A5613"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "1E98D9C99210F136"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+				{
+					id: "5EE1459E7EFA1823"
+					type: "item"
+					item: "botania:manastar"
+				}
+				{
+					id: "3E3BA5EEB6711283"
+					type: "item"
+					item: "contenttweaker:starmetal_nugget"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			description: [
+				"Crystal lenses can be used to aim starlight at blocks and transform them. But you don't have any source of starlight strong enough to make them work!"
+				""
+				"Before you can make use of lenses, you'll need to make a collector crystal."
+			]
+			hide_dependency_lines: true
+			dependencies: ["795DAB51F5258617"]
+			hide: true
+			id: "5DF30ACB05989D46"
+			tasks: [{
+				id: "20D70E36BDDD6998"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			description: [
+				"Argh, you keep hitting a chicken-and-the-egg problem! you can't make a Collector Crystal without understanding Atunement, but Atunement still feels so very far away..."
+				""
+				"Maybe if you give the basic components as an offering to Arceus, and a little something extra, he might bless you with a crystal. It can be of any type! Any type will be better than none at all!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4409EE630E0B1831"]
+			hide: true
+			id: "43C767A900DBE7A9"
+			tasks: [
+				{
+					id: "49DF3702AD0EF4F5"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "5148D774E6F3E97F"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 4L
+				}
+				{
+					id: "6C4D610FF3DC6FE8"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+					count: 4L
+				}
+				{
+					id: "0EF11F6B246398D9"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 4L
+				}
+				{
+					id: "4258894B16EF0C5D"
+					type: "item"
+					item: "pixelmon:stardust"
+				}
+			]
+			rewards: [{
+				id: "48BD915734524AAB"
+				type: "random"
+				table_id: 2940374733892897765L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			description: [
+				"Learning how to perform Starlight Infusion is vital to progress in your Astral education. You'll primarily need it to make resonating gems. "
+				""
+				"Starlight Infusers require a multiblock altar to be built around them and many buckets of liquid starlight, so make sure you have all necessary materials prior to construction."
+			]
+			dependencies: ["011F1FC55DFFF697"]
+			hide: true
+			id: "040A2B4D25EF22F6"
+			tasks: [{
+				id: "4D7D18C17B49C42E"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [
+				{
+					id: "7AB38158B42FB069"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+				{
+					id: "18CA1D8120513E11"
+					type: "pixelmon:pokedollars"
+					count: 1500
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			description: ["Resonating gems are created by placing them in the Starlight Infuser, and ensuring that the Starlight Infuser always has Liquid Starlight around it. If the Infuser consumes starlight, that liquid starlight must be replaced for the recipe to continue."]
+			dependencies: ["040A2B4D25EF22F6"]
+			hide: true
+			id: "4409EE630E0B1831"
+			tasks: [{
+				id: "08F7D30576B77EF5"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [{
+				id: "07B99C8C08D14C84"
+				type: "choice"
+				table_id: 4524191137701651332L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			description: [
+				"This altar is the one you need to create constellation papers. To make it, you will need to master Celestial Crystals and Starlight Infusion."
+				""
+				"Of course, just like previous altars, it will require a matching multiblock structure to be built for it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4409EE630E0B1831"
+				"742A09B3736F682A"
+			]
+			hide: true
+			id: "080E8EAE3A6E6330"
+			tasks: [{
+				id: "4EB994EC940471EB"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [
+				{
+					id: "6FC586D58B9A6BE3"
+					type: "choice"
+					table_id: 5303222556149566944L
+				}
+				{
+					id: "2C6F69096AAFBA72"
+					type: "choice"
+					table_id: 4924106886727897053L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["Finally, at long last, you will be able to learn the Constellations and finally do magic involving Attunement."]
+			dependencies: ["080E8EAE3A6E6330"]
+			hide: true
+			id: "2172C595ED6DC0C2"
+			tasks: [{
+				id: "708005DEB20B4AFB"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "636B8AFCD4D82C45"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "159CA79298493830"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "5A1E372F1BCAC12A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+	]
+}

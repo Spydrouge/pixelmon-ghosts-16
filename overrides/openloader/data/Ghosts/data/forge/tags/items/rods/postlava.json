@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+      "immersiveengineering:stick_steel",
+      "contenttweaker:fairy_rod",
+      "contenttweaker:constantan_rod",
+      "contenttweaker:uranium_rod"
+  ]
+}

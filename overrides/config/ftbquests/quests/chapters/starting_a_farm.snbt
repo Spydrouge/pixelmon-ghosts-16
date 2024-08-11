@@ -106,7 +106,7 @@
 			]
 		}
 		{
-			title: "Beginner's water"
+			title: "Beginner's Water"
 			x: -2.0d
 			y: -6.0d
 			subtitle: "Help from the clouds..."
@@ -142,6 +142,17 @@
 					id: "7A665DBF6C8AAFAF"
 					type: "item"
 					item: "pixelmon:watmel_berry"
+				}
+				{
+					id: "5B79397F66A49C7A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
 				}
 			]
 		}
@@ -497,7 +508,7 @@
 			x: 4.0d
 			y: 0.5d
 			subtitle: "Underground Wheat"
-			description: ["If you find enough Grubbin or Nincada, both burrowing insects, you know you will eventually find one holding a potato. But an easier treck might be up to a cold and icy altitude where the sturdy Ferroseed is likely to have survived. They are the very definition of an armored potato. "]
+			description: ["If you find enough Grubbin or Nincada, both burrowing insects, you know you will eventually find one holding a wild potato. But an easier treck might be up to a cold and icy altitude where the sturdy Ferroseed is likely to have survived. They are the very definition of an armored potato. "]
 			dependencies: ["2D3AE7D61C1C477F"]
 			hide: true
 			id: "63335CEF4021A430"
@@ -671,6 +682,7 @@
 			]
 		}
 		{
+			title: "Fox Berries"
 			x: 6.0d
 			y: 1.0d
 			subtitle: "Vixens"
@@ -877,8 +889,16 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 7.0d
+			x: 12.0d
+			y: -2.5d
+			description: [
+				"Persim berries can automatically cure confusion, and are one of the only readily avaiable cures for confusion in an important battle. But finding them won't be easy."
+				""
+				"You know they are carried by Drampa, which as a spiritual air dragon may have survived this apocalypse. You also know Drama has an affection for the holidays."
+				""
+				"You think if you start messing around planting normal Spruce trees on the Ice layer, they might attract Drampa. Just make sure you're looking in an underground cave habitat nearby. "
+			]
+			dependencies: ["516B913EB8DF470E"]
 			hide: true
 			id: "5909A3FCAD9DC6B8"
 			tasks: [{
@@ -886,6 +906,24 @@
 				type: "item"
 				item: "pixelmon:persim_berry"
 			}]
+			rewards: [
+				{
+					id: "59F2E2E44AC65393"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 87
+						}
+					}
+				}
+				{
+					id: "532392EDD7A046E3"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -1380,68 +1418,266 @@
 			]
 		}
 		{
-			x: -9.0d
+			x: -1.5d
 			y: 7.0d
+			description: [
+				"The Kelpsy berry lowers Attack AVs and is ideal for special attackers."
+				""
+				"It is easy to find, as the Nincada family drops it. You might have even gotten one from Shedinja!"
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
 			id: "3E6CD2FDC4525CDD"
 			tasks: [{
 				id: "49915D8530FCBAC1"
 				type: "item"
 				item: "pixelmon:kelpsy_berry"
 			}]
+			rewards: [
+				{
+					id: "24E62E7E2189D9BD"
+					type: "item"
+					item: "pixelmon:kelpsy_berry"
+				}
+				{
+					id: "69C568FD4725AB9D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "6861370EF1EFFAB6"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "5B115EF120D87B6B"
+					type: "random"
+					table_id: 7514776752967216189L
+				}
+			]
 		}
 		{
-			x: -8.0d
+			x: -2.5d
 			y: 7.0d
+			description: [
+				"Qualot berries lower Defense EVs"
+				""
+				"Qualot berries are associated with Swalot, the Gulpin evolution. You think you can find these berries in the possession of Gulpin, who can be attracted to out-of-doors land habitats on the Murk Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
 			id: "2E6BDAFFD74ED7DA"
 			tasks: [{
 				id: "25BC2F346C5C1815"
 				type: "item"
 				item: "pixelmon:qualot_berry"
 			}]
+			rewards: [
+				{
+					id: "7EC44594D2A7DD47"
+					type: "item"
+					item: "pixelmon:qualot_berry"
+				}
+				{
+					id: "05558084C6813BC7"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "4386BB1287C37A7B"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "49D8E474FCC513B3"
+					type: "item"
+					item: "immersiveengineering:nugget_uranium"
+					count: 3
+				}
+			]
 		}
 		{
-			x: -7.0d
+			x: -0.5d
 			y: 7.0d
+			description: [
+				"The Hondew Berry lowers Special Attack EVs."
+				""
+				"The most likely place for you to find a Hondew berry is in possession of the Hatenna line, which can likely be attracted to indoor habitats on the Dazzle Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
 			id: "3D33E885F79A75DF"
 			tasks: [{
 				id: "7E33456C6E881C8E"
 				type: "item"
 				item: "pixelmon:hondew_berry"
 			}]
+			rewards: [
+				{
+					id: "13B9C472C5E8F10C"
+					type: "item"
+					item: "pixelmon:hondew_berry"
+				}
+				{
+					id: "4FE7C8FED53236AF"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7039AB811F7EC8E5"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "1A88DB6D2CBE97B1"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -6.0d
+			x: 0.5d
 			y: 7.0d
+			description: [
+				"The Grepa Berry lowers Special Defense Evs."
+				""
+				"It can be found in the possession of the Gothita line, which you believe can be attracted to indoor habitats on the Dazzle Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
 			id: "3FC2FF88212BCE51"
 			tasks: [{
 				id: "1B6C903F2AD9B700"
 				type: "item"
 				item: "pixelmon:grepa_berry"
 			}]
+			rewards: [
+				{
+					id: "1A852AC2BE1AF05C"
+					type: "item"
+					item: "pixelmon:grepa_berry"
+				}
+				{
+					id: "5A0BEA681D84DDEC"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "54102C34AA6D99E2"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "7E5B72454886D827"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
 		}
 		{
-			x: -5.0d
+			x: -3.5d
 			y: 7.0d
+			description: [
+				"Tamato berries reduce Health EVs."
+				""
+				"The place you see yourself most easily finding Tamato berries is from Alomola. You think this famous \"Sun fish\" can be attracted to above-ground water habitats on the Space Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
 			id: "2BF86EE787EF7DC0"
 			tasks: [{
 				id: "1831440C07A7DACF"
 				type: "item"
 				item: "pixelmon:tamato_berry"
 			}]
+			rewards: [
+				{
+					id: "72C0799F126C87F8"
+					type: "item"
+					item: "pixelmon:tamato_berry"
+				}
+				{
+					id: "238F7C1D3B89C82E"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "252BAB0CBFB900E3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "1CCB8BDBC6FDEEF7"
+					type: "item"
+					item: "pixelmon:sun_stone_shard"
+				}
+			]
 		}
 		{
-			x: -4.0d
+			x: 1.5d
 			y: 7.0d
+			description: [
+				"The Pomeg Berry lowers Speed EVs. It is ideal for slow tanks or Pokemon who use Trick Room."
+				""
+				"You think you may be able to find Pidove because of it's tendency to survive apocalyptic events. You should try attracting it to man-made open air habitats on the Air Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
 			id: "2358F538B703DE01"
 			tasks: [{
 				id: "5E5C2991D1A2425F"
 				type: "item"
 				item: "pixelmon:pomeg_berry"
 			}]
+			rewards: [
+				{
+					id: "60F9DDA18825C9BA"
+					type: "item"
+					item: "pixelmon:pomeg_berry"
+				}
+				{
+					id: "78B544B4C164FB90"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "61D1B2D85136AFFA"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "321A7DCFE7017804"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -1.0d
-			y: 7.0d
+			y: 6.0d
+			description: [
+				"When it comes to training the most powerful Pokemon, you need to consider which 'Effort Value' points (EVs) your Pokemon is gathering. Basically, fighting fast Pokemon will make your Pokemon faster. Fighting good attackers will make your Pokemon a better attacker."
+				""
+				"Each Pokemon can only gain a certain number of total EVs, so they usually want to get them in important stats."
+				""
+				"This makes it very important to have a way to get rid of unwanted EVs. That's where the \"EV-Reducing-Berries\" come in."
+				""
+				"These berries have the added benefit of making your Pokemon more friendly, which means they can help evolve baby Pokemon who need max friendship before evolving."
+			]
+			dependencies: ["4B1822BBB0D17F60"]
+			hide: true
 			id: "4106B5F70B55A664"
 			tasks: [{
 				id: "3AB743950C74EDC6"
@@ -2448,7 +2684,7 @@
 				{
 					id: "54BFC3976E41FFD3"
 					type: "pixelmon:pokedollars"
-					count: 200
+					count: 400
 				}
 				{
 					id: "36861C98DCBD50DC"
@@ -2478,6 +2714,7 @@
 					id: "5604397AE254EFC0"
 					type: "item"
 					item: "pixelmon:green_shard"
+					count: 2
 				}
 				{
 					id: "1B5B901D8590DE04"
@@ -2510,11 +2747,13 @@
 			description: [
 				"You may choose to feed this cake to a captured Misdreavus."
 				""
-				"If you do not have a Misdreavus, you should not attempt to fulfill this quest. A pink misdreavous can also be submitted, but will not retain its pinkness."
+				"A pink misdreavous can also be submitted, but will not retain its pinkness."
 				""
-				"If you do not have a Misdreavus, you should not attempt to fulfill this quest. If you allow Misdreavus to eat the cake, it will effectively be replaced with an entirely new Misdreavus, at level 2, with completely different traits."
+				"If you do not have a Misdreavus, you should not attempt to fulfill this quest."
 				""
-				"This new Misdreavus must be evolved with a Dawn Stone, not a Dusk Stone, if you want to reap the full effects of the cake."
+				"This new Misdreavus will not abide by the same move list, and must be evolved with a Dawn Stone, not a Dusk Stone, if you want to reap the full effects of the cake."
+				""
+				"(&dWARNING&r If you complete this quest, you will lose all level progression with your Misdreavus. It will jump back to level 2, and lose any TMs, TRs, ability or nature changes, Evs, etc. Its IVs will change to reflect its new abilities. It will be effectively a brand new Pokemon.)"
 			]
 			dependencies: ["1090DB05C86E19B5"]
 			hide: true
@@ -2806,6 +3045,7 @@
 		{
 			x: -2.0d
 			y: -18.0d
+			description: ["You know the drill, time to make some grass!"]
 			dependencies: ["7F1C5EBDC342B0C2"]
 			hide: true
 			id: "331908869ED04609"
@@ -2818,7 +3058,7 @@
 				{
 					id: "3984B859ECE7E1A5"
 					type: "pixelmon:pokedollars"
-					count: 200
+					count: 800
 				}
 				{
 					id: "1930CFFAC84F3A2E"
@@ -2835,6 +3075,7 @@
 		{
 			x: -2.0d
 			y: -19.0d
+			description: ["At last, a new cake with new and unusual abilities."]
 			dependencies: ["331908869ED04609"]
 			hide: true
 			id: "50FA68002AEA8792"
@@ -2844,11 +3085,6 @@
 				item: "tconstruct:sky_cake"
 			}]
 			rewards: [
-				{
-					id: "60A492CE1B6E46C5"
-					type: "choice"
-					table_id: 2569163684363635098L
-				}
 				{
 					id: "2FD282BD10A6C01A"
 					type: "item"
@@ -2865,11 +3101,24 @@
 						}
 					}
 				}
+				{
+					id: "10B33AB2DB45F9A5"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 2
+				}
+				{
+					id: "43381F61B29A7CFA"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 2
+				}
 			]
 		}
 		{
 			x: -3.0d
 			y: -16.0d
+			description: ["As usual, you will have to break a lot of the right color of slimy grass to find these saplings."]
 			dependencies: ["4028440A42C84E8F"]
 			hide: true
 			id: "1732CAC1B14B01F6"
@@ -3056,7 +3305,6 @@
 			x: 11.0d
 			y: -2.5d
 			description: ["The Aspear Berry can be found in the possession of fire element Vulpixes, which you expect to be attracted to some type of habitat on the Ice layer. Probably indoors."]
-			hide_dependency_lines: true
 			dependencies: ["516B913EB8DF470E"]
 			hide: true
 			id: "0B4EC16A21612E29"
@@ -3110,6 +3358,1125 @@
 						tm: 31
 					}
 				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/353_shuppet/all/base/shiny/sprite.png"
+				}
+			}
+			x: -2.0d
+			y: -20.0d
+			description: [
+				"You can choose to give this cake to a Shuppet."
+				""
+				"(&dWARNING&r If you complete this quest, you will lose all level progression with your Shuppet. It will jump back to level 2, and lose any TMs, TRs, ability or nature changes, Evs, etc. Its IVs will change to reflect its new abilities and it may have a new move. It will be effectively a brand new Pokemon.)"
+			]
+			dependencies: ["50FA68002AEA8792"]
+			hide: true
+			id: "634C3E7BC7FE6490"
+			tasks: [
+				{
+					id: "652F0220817AE98E"
+					type: "pixelmon:submit_pokemon"
+					pokemon: "shuppet"
+					count: 1
+					invert: false
+					party: 0b
+				}
+				{
+					id: "50EFC416E479C6FA"
+					type: "item"
+					item: "tconstruct:sky_cake"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4519E4E17BFC822D"
+				type: "choice"
+				table_id: 4984098570965489174L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -16.0d
+			description: ["You have no idea where you are going to get ender slime, but the appropriate location seems likely to be the End. Perhaps you will find ender slime trees there?"]
+			hide_dependency_lines: true
+			dependencies: ["4028440A42C84E8F"]
+			hide: true
+			id: "2425D08235C8A71C"
+			tasks: [{
+				id: "7F84802A01BA1CA1"
+				type: "item"
+				item: "tconstruct:ender_slime_ball"
+			}]
+			rewards: [{
+				id: "77B883002E152660"
+				type: "item"
+				item: "pixelmon:kuo_berry"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -20.0d
+			dependencies: ["4C337F550C0925EA"]
+			hide: true
+			id: "21436EE1526B2E0A"
+			tasks: [{
+				id: "297602FCBB2E41AC"
+				type: "pixelmon:submit_pokemon"
+				pokemon: "pumpkaboo"
+				count: 1
+				invert: false
+				party: 0b
+			}]
+			rewards: [{
+				id: "5FB7124ED65238DD"
+				type: "pixelmon:pokemon"
+				spec: "pumpkaboo ability:flareboost lvl:2"
+				count: 1
+				shinyChance: 4096s
+			}]
+		}
+		{
+			x: 0.0d
+			y: -17.0d
+			dependencies: ["2425D08235C8A71C"]
+			hide: true
+			id: "1F14F0B8B34165DE"
+			tasks: [{
+				id: "138F91CEFB3452A0"
+				type: "item"
+				item: "tconstruct:ender_slime_grass_seeds"
+			}]
+			rewards: [{
+				id: "2BAE05664C8D9A7C"
+				type: "item"
+				item: "pixelmon:strib_berry"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -18.0d
+			dependencies: ["1F14F0B8B34165DE"]
+			hide: true
+			id: "0A928825E49C4ACD"
+			tasks: [{
+				id: "3C6C20BD271EC8D3"
+				type: "item"
+				item: "tconstruct:ender_slime_tall_grass"
+			}]
+			rewards: [
+				{
+					id: "35C625A182F8E633"
+					type: "item"
+					item: "pixelmon:niniku_berry"
+				}
+				{
+					id: "57B2A2CFB3BBE89C"
+					type: "pixelmon:pokedollars"
+					count: 1600
+				}
+				{
+					id: "58CF4AF6273ED011"
+					type: "item"
+					item: "pixelmon:purple_clock"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -19.0d
+			dependencies: ["0A928825E49C4ACD"]
+			hide: true
+			id: "4C337F550C0925EA"
+			tasks: [{
+				id: "26F607BE9466C783"
+				type: "item"
+				item: "tconstruct:ender_cake"
+			}]
+			rewards: [
+				{
+					id: "242A6CB45165E759"
+					type: "item"
+					item: "pixelmon:topo_berry"
+				}
+				{
+					id: "2892298D6BFD5362"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 3
+				}
+				{
+					id: "17AF0734EEDCB132"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "47D159D2ABADF952"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -16.0d
+			description: ["If you found enderslime in the End, you likely have quick access to enderslime saplings. If not, you'll have to make them the old fashioned way, by breaking purple slimy grass."]
+			dependencies: ["2425D08235C8A71C"]
+			hide: true
+			id: "716E3AA57504AE40"
+			tasks: [{
+				id: "351DAA2216120D2C"
+				type: "item"
+				item: "tconstruct:ender_slime_sapling"
+			}]
+			rewards: [
+				{
+					id: "5ACAE44FC2A94D2E"
+					type: "item"
+					item: "pixelmon:raw_sky_tumblestone"
+					count: 8
+				}
+				{
+					id: "496B87CC7D78A559"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+					count: 8
+				}
+				{
+					id: "482AA91661A0799B"
+					type: "item"
+					item: "tconstruct:ender_slime_sapling"
+				}
+				{
+					id: "2DCF8F220D260A61"
+					type: "item"
+					item: "pixelmon:curry_smoke_poke"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -16.0d
+			description: ["This slimesling has teleportation powers."]
+			dependencies: ["716E3AA57504AE40"]
+			hide: true
+			id: "02637D10D7629896"
+			tasks: [{
+				id: "1FA61D50F5671116"
+				type: "item"
+				item: {
+					id: "tconstruct:ender_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77A794AF5BBA2A08"
+					type: "item"
+					item: "biomesoplenty:jacaranda_sapling"
+				}
+				{
+					id: "442888A85B023FDC"
+					type: "item"
+					item: "byg:jacaranda_sapling"
+				}
+				{
+					id: "1AD28C90615F5303"
+					type: "item"
+					item: "pixelmon:wepear_berry"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -17.5d
+			description: ["You have finally found the material you need to make unique utility items: Slimeskulls. By pouring ender slime on the skull of any mob, you create useful headgear."]
+			dependencies: ["2425D08235C8A71C"]
+			hide: true
+			id: "14AD8BCD08FC6C9E"
+			tasks: [{
+				id: "26E3A18508664B93"
+				type: "item"
+				title: "Craft any Slimeskull"
+				item: {
+					id: "tconstruct:slime_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 362.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66252D7D72938DF0"
+					type: "choice"
+					table_id: 8278765913747893340L
+				}
+				{
+					id: "239AC508FF4A3F3D"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "6F617107182FB339"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -17.5d
+			dependencies: ["14AD8BCD08FC6C9E"]
+			hide: true
+			id: "364C8AE8FCA8D86B"
+			tasks: [
+				{
+					id: "06124DD0C19204D6"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 527.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:husk_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:plague"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:iron"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "605BABA743102468"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 507.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:breathtaking"
+									level: 1s
+								}
+								{
+									name: "tconstruct:drowned_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:copper"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "20FFBD3754B41E3C"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 407.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:wildfire"
+									level: 1s
+								}
+								{
+									name: "tconstruct:zombie_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:rotten_flesh"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "5EB4835E7AB38709"
+					type: "item"
+					item: "pixelmon:green_shard"
+					count: 5
+				}
+				{
+					id: "2C8480A5DCDB02AA"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "4BABEA8FA52C86ED"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -18.5d
+			dependencies: ["14AD8BCD08FC6C9E"]
+			hide: true
+			id: "047EBD07D964AEE3"
+			tasks: [
+				{
+					id: "35A35FCD1273E9B6"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 462.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:skeleton_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:strong_bones"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:bone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "3B1E87F43C7583AC"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 537.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:frosttouch"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stray_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:bloodbone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "6A5FFA224819B456"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 487.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:wither_skeleton_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:withered"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:necrotic_bone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "77AFB0EF962609AE"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 5
+				}
+				{
+					id: "515FCAD72BDEBF30"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "1299C14EA2E26C83"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -18.5d
+			dependencies: ["14AD8BCD08FC6C9E"]
+			hide: true
+			id: "5ECAAE913554BC1A"
+			tasks: [
+				{
+					id: "3903CB50BE7EF208"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 502.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:boon_of_sssss"
+									level: 1s
+								}
+								{
+									name: "tconstruct:spider_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:spider"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "7E2D1A5AD82376E2"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 562.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cave_spider_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:mithridatism"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:venom"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "0BC0F6C27D311F97"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 452.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:creeper_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:self_destructive"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:gunpowder"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1EED3A0E594C16D3"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 5
+				}
+				{
+					id: "2001E1B27840CD36"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "78203011BE1EE93A"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -19.5d
+			dependencies: ["14AD8BCD08FC6C9E"]
+			hide: true
+			id: "1FD3E654AE5C451B"
+			tasks: [
+				{
+					id: "47213AF7090BD9BB"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 512.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:revenge"
+									level: 1s
+								}
+								{
+									name: "tconstruct:zombified_piglin_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:pig_iron"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "28A7185EB1797080"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 537.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:gold_guard"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piglin_brute_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:rose_gold"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "5C5974A04F4733D1"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 487.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:chrysophilite"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piglin_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:gold"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6E596AB9662CB004"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 5
+				}
+				{
+					id: "0CB25E1A9A70E3E3"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "401A13A08BA93E82"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -19.5d
+			dependencies: ["14AD8BCD08FC6C9E"]
+			hide: true
+			id: "02FDDF0427BC3EAE"
+			tasks: [{
+				id: "7DCD716A11FD1756"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 542.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:enderdodging"
+								level: 1s
+							}
+							{
+								name: "tconstruct:enderman_disguise"
+								level: 1s
+							}
+						]
+						tic_materials: ["tconstruct:ender_pearl"]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "496169D9DF5AC6DF"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 5
+				}
+				{
+					id: "06EAE177A8488D76"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "1E5CFD9A3C51031D"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -17.5d
+			dependencies: ["14AD8BCD08FC6C9E"]
+			hide: true
+			id: "6A72137F2842B00A"
+			tasks: [{
+				id: "6F0EB889A9DB5F6D"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 567.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:blaze_disguise"
+								level: 1s
+							}
+							{
+								name: "tconstruct:firebreath"
+								level: 1s
+							}
+						]
+						tic_materials: ["tconstruct:blazing_bone"]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B98987A88F1029A"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 5
+				}
+				{
+					id: "22ECC650C2A2C01A"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "0623C35FCFF76C84"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -16.0d
+			description: ["You've made every slime skull. You truly are a great collector."]
+			hide_dependency_lines: true
+			dependencies: [
+				"047EBD07D964AEE3"
+				"02FDDF0427BC3EAE"
+				"5ECAAE913554BC1A"
+				"364C8AE8FCA8D86B"
+				"6A72137F2842B00A"
+				"1FD3E654AE5C451B"
+			]
+			hide: true
+			id: "4470194346E76374"
+			tasks: [{
+				id: "6315FD04080EA1C8"
+				type: "checkmark"
+				title: "You've Caught them All!"
+			}]
+			rewards: [
+				{
+					id: "273E1BBF18CF9760"
+					type: "item"
+					item: "tconstruct:ender_slime_spawn_egg"
+				}
+				{
+					id: "135A84797CBDCCA8"
+					type: "item"
+					item: "tconstruct:sky_slime_spawn_egg"
+				}
+				{
+					id: "4A3F45E702B1BB5D"
+					type: "item"
+					item: "minecraft:slime_spawn_egg"
+				}
+				{
+					id: "51C3DAD8132D61EB"
+					type: "item"
+					item: "pixelmon:mint"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -20.5d
+			description: ["Slimeboots are exceptionally useful in conjunction with slimeslings because they are bouncy and negate fall damage."]
+			dependencies: ["14AD8BCD08FC6C9E"]
+			id: "29B4169391639328"
+			tasks: [
+				{
+					id: "4C9A91395D4E8F53"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 630.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:pockets"
+									level: 1s
+								}
+								{
+									name: "tconstruct:protection"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:total_item_slots": 9
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "4DD966A6350CA2FA"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0A2435B7AE747DC8"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 52
+						}
+					}
+				}
+				{
+					id: "057C4E59439BBC2C"
+					type: "item"
+					item: "pixelmon:ghostium_z"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -18.5d
+			description: ["The incentive for making a 'Slimelytra' is to produce an Elytra fit for tinkering with.  They can be modified and repaired without the need for phantom membranes, anvils, or the mending enchantment."]
+			dependencies: ["14AD8BCD08FC6C9E"]
+			id: "025733739FC40885"
+			tasks: [{
+				id: "11A3D6449023F307"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 672.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [{
+							name: "tconstruct:wings"
+							level: 1s
+						}]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:elyta": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41FB50403CF2DE69"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 96
+						}
+					}
+				}
+				{
+					id: "54C0880BB1BAD6D3"
+					type: "item"
+					item: "pixelmon:flyinium_z"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			description: [
+				"You haven't the foggiest idea where you are going to find beef in this apocalyptic place. Bovines aren't like goats or birds, they have almost no chance of successfully clinging to broken asteroid fragments."
+				""
+				"You might have to visit the Nether, or learn how to bring something back from the dead. Perhaps you should shelve this project until a better idea occures to you."
+			]
+			dependencies: ["7B9D7ABCC4AC4243"]
+			hide: true
+			id: "4EC5E7D5A0734618"
+			tasks: [{
+				id: "7ECEEAD68FFDD2E0"
+				type: "item"
+				item: "minecraft:beef"
 			}]
 		}
 	]

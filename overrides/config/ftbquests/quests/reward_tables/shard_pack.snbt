@@ -1,0 +1,14 @@
+{
+	id: "4455F11FDB788FDD"
+	order_index: 36
+	title: "Shard Pack"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:blue_shard", count: 5 }
+		{ item: "pixelmon:green_shard", count: 5 }
+		{ item: "pixelmon:yellow_shard", count: 5 }
+		{ item: "pixelmon:red_shard", count: 5 }
+		{ item: "pixelmon:white_shard", count: 5 }
+		{ item: "pixelmon:black_shard", count: 5 }
+	]
+}

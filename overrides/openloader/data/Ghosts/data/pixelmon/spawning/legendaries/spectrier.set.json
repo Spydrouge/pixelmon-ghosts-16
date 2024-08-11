@@ -2,7 +2,7 @@
   "id": "Spectrier",
   "spawnInfos": [
     {
-      "spec": "species:Spectrier level:70",
+      "spec": "species:Spectrier level:100 uncatchable",
       "stringLocationTypes": [
         "Land"
       ],
@@ -22,12 +22,39 @@
       "rarity": 0.5
     },
     {
-      "spec": "species:Spectrier level:100",
+      "spec": "species:Spectrier level:100 uncatchable",
       "stringLocationTypes": [
         "Land",
         "Manmade",
         "Indoors",
         "Underground"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+            "byg:weeping_mire",
+            "byg:weeping_mire_clearing",
+            "byg:weeping_mire_forest",
+            "byg:withering_woods",
+            "byg:wailing_garth",
+            "byg:embur_bog"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Spectrier level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground",
+        "Tree Top"
       ],
       "tags": [
         "legendary"
@@ -42,7 +69,7 @@
           "pixelmon:relic_crown"  
         ]
       },
-      "rarity": 40
+      "rarity": 80
     }
   ]
 }

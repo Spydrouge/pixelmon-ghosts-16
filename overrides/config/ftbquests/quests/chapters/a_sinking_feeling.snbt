@@ -22,6 +22,8 @@
 				""
 				"You might know where everyone's gone. You're going to try and reach the Nether."
 			]
+			dependencies: ["47107D60FD080A18"]
+			hide: true
 			size: 2.0d
 			id: "46CDAE65E15099AC"
 			tasks: [{
@@ -208,6 +210,7 @@
 			description: ["Set up your snow into the shape of a Nether Portal frame, and get to work right cilcking!"]
 			dependencies: ["43A58C1AE7891B53"]
 			hide: true
+			incompatible: ["5AB1C0099C0A02E2"]
 			id: "30E49862081FA059"
 			tasks: [{
 				id: "1207B356061DBBFB"
@@ -419,9 +422,9 @@
 				""
 				"You need to prepare for the fact the Nether may have changed them."
 				""
-				"The first thing you'll need to do to prepar is create a Splash Potion of Weakness. The ingredients are simple. Spinerak is attracted to Tree Tops on the soil layer and Dewpider to water. Sugar will require ascending to the Dazzle Layer, or even higher, to the Space layer, to confront some Clefairy."
+				"The first thing you'll need to do to prepare is create a Splash Potion of Weakness. The ingredients are simple. Spinerak is attracted to Tree Tops on the soil layer and Dewpider to water. Sugar will require ascending to the Dazzle Layer, or even higher, to the Space layer, to confront some Clefairy."
 				""
-				"Gunpowder drops form Koffing and Weezing on the Murk layer, and can be crafted from Sulfur and Niter, if available."
+				"Gunpowder drops from Koffing and Weezing on the Murk layer, and can be crafted from Sulfur and Niter, if available."
 			]
 			dependencies: ["25991FF1BD725FC2"]
 			hide: true
@@ -702,7 +705,10 @@
 			x: 0.0d
 			y: -8.5d
 			description: ["You will need some way of lighting the portal. If you choose to go with the fire charge, make sure you bring enough that you can re-light the portal if it, for any reason, goes out."]
-			dependencies: ["30E49862081FA059"]
+			dependencies: [
+				"30E49862081FA059"
+				"5AB1C0099C0A02E2"
+			]
 			hide: true
 			id: "20DFFD70A562A237"
 			tasks: [
@@ -777,7 +783,7 @@
 			x: -2.0d
 			y: -5.5d
 			description: [
-				"You may want to create a Sojourner's sash, or use a Tinker's Station to apply Leaping to your Leggings (not Boots, Leggings) with five rabbit feet."
+				"You may want to create a Sojourner's sash, or use a Tinker's Station to apply Leaping to your Leggings (not Boots, Leggings), a recipe that requires five rabbit feet."
 				""
 				"Leaping requires no maintance, but even at maximum strength it will only allow you to jump 1.5 blocks, requiring the usage of slabs. The sojourner's sash consumes mana, but will allow you to jump a full two blocks. "
 				""
@@ -846,7 +852,7 @@
 			x: 2.0d
 			y: -5.5d
 			description: [
-				"Villagers can't be punched, pushed, boated, mine-carted, or even killed. They will burn in lava eternally without taking damage. The only way to get rid of one is to drop them into the void."
+				"Perhaps because they already died once, villagers can't be punched, pushed, boated, mine-carted, or even killed. They will burn in lava eternally without taking damage. The only way to get rid of one is to drop them into the void."
 				""
 				"Worse: They &dcannot be taken through Nether Portals.&r If you want to bring people back to your island, you must do while they are still Zombies."
 				""
@@ -854,7 +860,7 @@
 				""
 				"You can push them with an ichor slingshot, pull them with a fishing rod, and send them flying with a well positioned movement plate."
 				""
-				"Plan things out so you don't end up swarmed in villagers you can't use."
+				"Plan things out so you don't end up swarmed in villagers you can't use, or, worse, chasing them around a burning hellscape."
 			]
 			hide_dependency_lines: true
 			dependencies: ["46CDAE65E15099AC"]
@@ -972,7 +978,7 @@
 		{
 			x: 2.0d
 			y: -4.5d
-			description: ["Even if you don't find any survivors, the Nether is an important roadblock on your journey to rebuild. You need to get enough lava to start work on your smeltery. One bucket can also be used to make a Cobblestone generator."]
+			description: ["Even if you don't find any survivors, the Nether is an important milestone on your journey to rebuild. You need to get enough lava to start work on your smeltery. One bucket can also be used to make a Cobblestone generator."]
 			hide_dependency_lines: true
 			dependencies: ["46CDAE65E15099AC"]
 			hide: true
@@ -1022,12 +1028,13 @@
 			hide: true
 			id: "72323BB863524756"
 			tasks: [{
-				id: "3FC75D4B9F916681"
+				id: "5DF617D59FE733BE"
 				type: "pixelmon:defeat_pokemon"
-				pokemon: ""
+				pokemon: "slugma"
 				count: 1
 				invert: false
-				usedPokemonSpec: "slugma"
+				wild: true
+				usedPokemonSpec: ""
 				invertUsed: false
 			}]
 			rewards: [
@@ -1193,13 +1200,12 @@
 		}
 		{
 			x: 2.5d
-			y: -14.0d
+			y: -11.0d
 			description: [
 				"What... is... this?"
 				""
 				"You need to get this home and research it."
 			]
-			hide_dependency_lines: true
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
 			secret: true
@@ -1378,7 +1384,7 @@
 				}
 			]
 			rewards: [{
-				id: "070CD5243F86B920"
+				id: "77CEDFEDF4A0B035"
 				type: "choice"
 				table_id: 7555106132649824680L
 			}]
@@ -1389,7 +1395,7 @@
 			description: [
 				"Can you cure a villager? Don't try it until you've gotten them safely back in your world, and protected from sunlight!"
 				""
-				"Remember: Hit them with a splash potion of weakness, feed them an apple, and then wait. You should hear a sound effect, and the zombie shoudl begin shaking, but then it does take quite some time for them to be fully cured."
+				"Remember: Hit them with a splash potion of weakness, feed them an apple, and then wait. You should hear a sound effect, and the zombie should begin shaking, but then it does take quite some time for them to be fully cured."
 			]
 			dependencies: ["771B9CD4AD759C44"]
 			hide: true
@@ -1442,6 +1448,11 @@
 						value: "minecraft:boats"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7042B5720392D2C8"
+				type: "item"
+				item: "byg:emeraldite_shards"
 			}]
 		}
 		{
@@ -1604,11 +1615,11 @@
 			description: [
 				"Pendorite ore can be found in the Embur Bog. Pendorite is a tier above Netherite, when crafting vanilla tools."
 				""
-				"Although Tinkering has many benefits, Pendorite can benefit from vanilla enchantments, and that includes rare enchantments like Mending."
+				"Pendorite cannot be tinkered with. Although Tinkering has many benefits, Pendorite can benefit from vanilla enchantments, and that includes rare enchantments like Mending."
 				""
 				"The Embur Bog is also a source of blue Netherrack, which otherwise must be crafted."
 				""
-				"Ember Lilies grow here, which be used to create pathways on lava, similar to regular lily pads with water. Embur Gel block can be used as a road surface and increases your speed."
+				"Ember Lilies grow here, which can be used to create pathways on lava, similar to regular lily pads with water. Embur Gel block can be used as a road surface and increases your speed."
 			]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -1756,7 +1767,7 @@
 				""
 				"Anthracite, the primary ore here, can be used like coal."
 				""
-				"When Processed in a Foundary, the Byproducts from Brimstone Quartz and Gold are Zinc and Uranium."
+				"When Processed in a Foundary, the Byproducts from Brimstone Quartz and Gold are Zinc and Uranium, respectively."
 			]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -1959,8 +1970,12 @@
 		}
 		{
 			x: -1.0d
-			y: -20.5d
-			dependencies: ["2479E34FEA23C056"]
+			y: -22.5d
+			description: ["A Hypogeal Imperium can be used to freeze lava in the nether, creating Obsidian. This can be useful for creating long Obsidian bridges for easier Nether traversal."]
+			dependencies: [
+				"2479E34FEA23C056"
+				"5FA9DB52F1253BB6"
+			]
 			hide: true
 			id: "77E7A3F9D5A5D43B"
 			tasks: [{
@@ -2060,7 +2075,7 @@
 			description: [
 				"The Quartz Desert is an interesting place that underscores why quartz ores mined elsewhere in the Nether are best used for their byproducts."
 				""
-				"The Quartz Crystals in the quest are the sheared structures taken from the ground of the desert, which can be used as traps, and similarly to Wither Roses."
+				"The Quartz Crystals in the quest are the sheared structures taken from the ground of the desert, which can be used as traps, similarly to Wither Roses."
 				""
 				"Quartzite Sand is a lovely block, especially for sparkling white beaches."
 				""
@@ -2203,7 +2218,7 @@
 		{
 			x: 1.0d
 			y: -15.5d
-			description: ["The visceral heap is a disgusting place made of flesh. But it might attract Pokemon very unlike any other part of the nether. You've heard that small tumor-like digging Pokemon-- Diglett?-- can be found here, as well as a number of pigs."]
+			description: ["The visceral heap is a disgusting place made of flesh. But it might attract Pokemon very unlike any other part of the nether. You've heard that a small, tumor-like digging Pokemon-- possible a variant of Diglett?-- can be found here, as well as a number of pigs."]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
 			id: "51784E425F3315F2"
@@ -2790,6 +2805,401 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Got to Defeat Them All"
+			x: -4.5d
+			y: -12.0d
+			description: [
+				"Well now that you've seen one, you need to take the grand Nether tour, see them all."
+				""
+				"Can all of them be found in the nether? Do you have to fish for some of them?"
+			]
+			dependencies: ["30EF9F11CDC70452"]
+			hide: true
+			id: "1F34187FE45E1D45"
+			tasks: [
+				{
+					id: "51258F1B4636E322"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Copper_sulfate"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "610D290AE4E7C68C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Cupric_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2D6A15C774B6EA50"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Lithium_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "63E7FC4C063A4004"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Magnesium_sulfide"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "11CB26F5230CC995"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Manganese_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "520834EC6E6E3D52"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Potassium_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "490F1910450C2B80"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Sodium_carbonate"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "420CD20B1DA3A91A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Calcium_carbonate"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "1560F645D22EB414"
+					type: "choice"
+					table_id: 6892037364409430550L
+				}
+				{
+					id: "3E6E37F3CDA408FC"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "1C31D6B4CBDA1216"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "6E5C13FF9BF7CF6F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Chemical Surplus"
+			x: -5.5d
+			y: -12.0d
+			description: ["If you end up with a surplus of Pokeballs, maybe you could even catch them all."]
+			dependencies: ["1F34187FE45E1D45"]
+			id: "00028F6F5B2DEE0B"
+			tasks: [
+				{
+					id: "6E9221370A73F593"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Copper_sulfate"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "6BF6C5AB93A87F83"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Cupric_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "5E3BE181E5F5E1D0"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Lithium_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "0ACCCB26E00BB3E9"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Magnesium_sulfide"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4A06E4000B34B1F6"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Manganese_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "7BC6244908057B39"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Potassium_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "55C5336EF16C3C7A"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Sodium_carbonate"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "3720E977862613C1"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Calcium_carbonate"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [
+				{
+					id: "72ABABC83B45BEB2"
+					type: "item"
+					item: {
+						id: "immersiveengineering:chemthrower"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "67B1991A849CAC9E"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "repeat_ball"
+						}
+					}
+					count: 9
+				}
+				{
+					id: "676F5991C389CDFD"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 78
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -13.0d
+			description: [
+				"(Get one lava bucket or the other; you do not need both)"
+				""
+				"One of the primary reasons to come to the Nether is Lava. You don't have Lava in your world anymore, and it's necessary for everything from Cobblestone and Sand generators to powering a Smeltery or Foundary."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			min_required_tasks: 1
+			id: "1F726DDAD5A9AAF6"
+			tasks: [
+				{
+					id: "5132480D0D4C0DBA"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "183E69DD7C936CED"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "098C865AE287B973"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+				{
+					id: "0CBC8FF5BDFCF050"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "05178B1611C06932"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "09A6D2E7FAC59B11"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -12.0d
+			description: [
+				"You feel as though you should tap all possible resources prior to leaving the Nether. This includes summoning and defeating the Wither. You should already have the ingredients to do so- but you must first prepare a safe arena to fight it in."
+				""
+				"Obtaining a Nether Star will allow you to create a beacon, which is vital for high-end Botanical magic."
+				""
+				"Nether Stars can also be spent on Blank TMs. In specific, they can be spent on the types of TMs which can permenantly record powerful moves like \"Thunder.\""
+				""
+				"(Note: The Wither is banned from spawning in the Overworld, to protect your hard work)"
+			]
+			dependencies: ["5742DF95648CAE94"]
+			size: 2.0d
+			id: "4619F76929CB2A2D"
+			tasks: [{
+				id: "1D4F5FBCD0E6A526"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/wither/wither_invulnerable.png"
+					}
+				}
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1F65E8090D0FB703"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "38BF0E342E313931"
+					type: "item"
+					item: "tconstruct:netherite_item_frame"
+				}
+			]
+		}
+		{
+			title: "Alternate Lava"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/block/lava_still.png"
+				}
+			}
+			x: 1.0d
+			y: -7.5d
+			description: [
+				"Someone who carefully studied the recipes available to them might realize that lava can be created a small number of other ways. For instance, Astral Sorcery can produce lava from Fire Stones. "
+				""
+				"However, these methods are not as reliable. A fire stone may last long enough for twelve units of laval, or it may break early. A fire stone shovel is more reliable."
+				""
+				"Lava can enable you to jump tiers without traveling to the Nether, but the Nether is a good place to head for other reasons."
+			]
+			hide: true
+			secret: true
+			min_required_tasks: 1
+			incompatible: ["30E49862081FA059"]
+			id: "5AB1C0099C0A02E2"
+			tasks: [
+				{
+					id: "128E97E587D7AC52"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "77F1BD604326411D"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "41A69657A45D33ED"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "7548D7C0D407F81B"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "4DE7CCB9CEFDE349"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
 		}
 	]
 }

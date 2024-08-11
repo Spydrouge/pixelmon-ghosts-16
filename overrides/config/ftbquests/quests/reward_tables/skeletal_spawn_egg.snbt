@@ -1,0 +1,13 @@
+{
+	id: "72E415BC5B8E2C5C"
+	order_index: 33
+	title: "Skeletal Spawn Egg"
+	loot_size: 1
+	rewards: [
+		{ item: "bones:skeleton_chicken_spawn_egg" }
+		{ item: "bones:skeleton_cow_spawn_egg" }
+		{ item: "bones:skeleton_pig_spawn_egg" }
+		{ item: "bones:skeleton_sheep_spawn_egg" }
+		{ item: "minecraft:skeleton_horse_spawn_egg" }
+	]
+}

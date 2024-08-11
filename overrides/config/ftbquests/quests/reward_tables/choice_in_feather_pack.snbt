@@ -1,7 +1,7 @@
 {
 	id: "7E31E9FB849B23B4"
 	order_index: 15
-	title: "Choice in Feather Pack"
+	title: "Feather Pack"
 	loot_size: 1
 	rewards: [
 		{ item: "pixelmon:health_feather", count: 5 }

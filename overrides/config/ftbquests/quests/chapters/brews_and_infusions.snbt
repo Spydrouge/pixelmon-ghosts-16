@@ -48,6 +48,7 @@
 				id: "5BBF768211008522"
 				type: "item"
 				item: "pixelmon:roserade_tea"
+				count: 8L
 			}]
 			rewards: [
 				{
@@ -122,6 +123,7 @@
 				id: "5EF7C55ED8DD7AAB"
 				type: "item"
 				item: "pixelmon:komala_coffee"
+				count: 8L
 			}]
 			rewards: [
 				{
@@ -158,6 +160,7 @@
 				id: "07A57AD8B49B9209"
 				type: "item"
 				item: "pixelmon:pinap_juice"
+				count: 8L
 			}]
 			rewards: [
 				{
@@ -260,6 +263,7 @@
 				id: "2343B7A57D24BEE8"
 				type: "item"
 				item: "pixelmon:tapu_cocoa"
+				count: 8L
 			}]
 			rewards: [
 				{
@@ -290,6 +294,7 @@
 				id: "32616245F9D9DB47"
 				type: "item"
 				item: "pixelmon:skitty_smoothie"
+				count: 8L
 			}]
 			rewards: [
 				{
@@ -2989,6 +2994,7 @@
 			}]
 		}
 		{
+			title: "Enigma Berry"
 			x: -1.0d
 			y: 10.0d
 			description: [
@@ -3078,6 +3084,7 @@
 			}]
 		}
 		{
+			title: "Smoothie King"
 			x: -1.0d
 			y: -8.0d
 			description: [

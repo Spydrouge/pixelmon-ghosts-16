@@ -1,0 +1,49 @@
+{
+  "id": "WoChien",
+  "spawnInfos": [
+    {
+      "spec": "species:Wo-Chien level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:brimstone_caverns"
+        ]
+      },
+      "rarity": 3.0
+    },
+    {
+      "spec": "species:Wo-Chien level:100 uncatchable",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground",
+        "Tree Top"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks":[
+          "pixelmon:relic_band"  
+        ]
+      },
+      "rarity": 80
+    }
+  ]
+}
