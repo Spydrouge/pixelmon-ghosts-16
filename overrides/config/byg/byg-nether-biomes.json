@@ -43,7 +43,7 @@
       "hills": []
     },
     "byg:magma_wastes": {
-      "weight": 5,
+      "weight": 2,
       "dictionary": [
         "NETHER"
       ],
@@ -141,7 +141,7 @@
       "hills": []
     },
     "byg:brimstone_caverns": {
-      "weight": 5,
+      "weight": 4,
       "dictionary": [
         "NETHER"
       ],

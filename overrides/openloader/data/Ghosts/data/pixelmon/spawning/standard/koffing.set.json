@@ -97,6 +97,31 @@
         ]
       },
       "rarity": 130.0
+    },
+     {
+      "spec": "species:Koffing",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 4,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:brimstone_caverns",
+          "byg:embur_bog"
+        ]
+      },
+      "rarity": 60.0
     }
   ]
 }

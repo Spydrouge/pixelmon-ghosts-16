@@ -140,7 +140,9 @@
     {
       "spec": "species:Froslass",
       "stringLocationTypes": [
-        "Land"
+        "Manmade",
+        "Indoors",
+        "Sweet Scent"
       ],
       "minLevel": 25,
       "maxLevel": 40,
@@ -150,7 +152,27 @@
           "byg:subzero_hypogeal"
         ]
       },
-      "rarity": 0.5
+    "groupSpawnSettings": [
+        {
+          "spec": "Snorunt",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 10
     }
   ]
 }

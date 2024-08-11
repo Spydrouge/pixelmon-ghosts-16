@@ -1,3 +1,12 @@
 {
-
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "contenttweaker:anti_spawner"
+    }
+  ],
+  "result": {
+    "item": "contenttweaker:anti_spawner",
+    "count": 1
+  }
 }

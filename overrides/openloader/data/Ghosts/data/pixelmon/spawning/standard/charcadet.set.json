@@ -1,0 +1,171 @@
+{
+  "id": "Charcadet",
+  "spawnInfos": [
+    {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+         ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Charcadet",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "maxY": 128,
+        "minY": 96,    
+
+        "stringBiomes": [
+          "ghosts"
+         ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade",
+        "Sweet Scent"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+         ]
+      },
+      "rarity": 15.0
+    },
+     {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Sweet Scent"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+         ],
+        "neededNearbyBlocks": [
+          "minecraft:fire"
+        ]
+      },
+      "rarity": 15.0
+    },
+     {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Sweet Scent"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+         ],
+        "neededNearbyBlocks": [
+          "minecraft:soul_fire"
+        ]
+      },
+      "rarity": 15.0
+    },
+     {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Sweet Scent"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+         ],
+        "neededNearbyBlocks": [
+          "byg:boric_fire"
+        ]
+      },
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Charcadet",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Sweet Scent"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+         ],
+        "neededNearbyBlocks": [
+          "byg:cryptic_fire"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

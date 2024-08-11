@@ -29,6 +29,32 @@
       "rarity": 0.1
     },
     {
+      "spec": "species:Ferroseed",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+    "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:occa_berry",
+          "percentChance": 75
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
       "spec": "species:Ferrothorn",
       "stringLocationTypes": [
         "Land"

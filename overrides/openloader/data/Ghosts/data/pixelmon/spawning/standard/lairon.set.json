@@ -139,7 +139,10 @@
     {
       "spec": "species:Lairon",
       "stringLocationTypes": [
+        "Underground",
         "Land",
+        "Manmade",
+        "Indoors",
         "Rock Smash"
       ],
       "minLevel": 40,
@@ -155,8 +158,56 @@
           "percentChance": 10
         },
         {
-          "itemID": "pixelmon:fresh_water",
-          "percentChance": 20
+          "itemID": "minecraft:iron_ore",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:withered_abyss",	
+          "biomesoplenty:visceral_heap",
+          "biomesoplenty:warped_desert"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_ore"
+            ]
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:rail"
+            ]
+          }
+        }
+          
+      ],
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Lairon",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+         {
+          "itemID": "pixelmon:shuca_berry",
+          "percentChance": 50
+        },
+         {
+          "itemID": "minecraft:rail",
+          "percentChance": 10
         },
         {
           "itemID": "minecraft:iron_ore",
@@ -188,10 +239,6 @@
           "percentChance": 10
         },
         {
-          "itemID": "pixelmon:fresh_water",
-          "percentChance": 20
-        },
-        {
           "itemID": "minecraft:iron_ore",
           "percentChance": 5
         }
@@ -202,6 +249,7 @@
       "anticondition": {
         "stringBiomes": [
           "ghosts",
+          "hellish",
           "end"
         ]
       },

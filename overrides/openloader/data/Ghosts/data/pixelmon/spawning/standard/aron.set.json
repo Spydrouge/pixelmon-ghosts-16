@@ -146,6 +146,61 @@
       ],
       "rarity": 60.0
     },
+     {
+      "spec": "species:Aron",
+      "stringLocationTypes": [
+        "Underground",
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Rock Smash"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+         {
+          "itemID": "pixelmon:shuca_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "minecraft:rail",
+          "percentChance": 2.5
+        },
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 0.05
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:withered_abyss",	
+          "biomesoplenty:visceral_heap",
+          "biomesoplenty:warped_desert"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_ore"
+            ]
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:rail"
+            ]
+          }
+        }
+          
+      ],
+      "rarity": 60.0
+    },
     {
       "spec": "species:Aron",
       "stringLocationTypes": [

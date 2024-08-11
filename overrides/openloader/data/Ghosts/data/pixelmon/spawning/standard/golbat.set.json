@@ -21,6 +21,16 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 40.0
     },
       {
@@ -40,6 +50,16 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 40
     },
      {
@@ -62,6 +82,16 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 40.0
     },
       {
@@ -82,6 +112,54 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 40
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Headbutt",
+        "Underground",
+        "Sweet Scent",
+        "Air"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:crimson_forest",
+            "minecraft:warped_forest", 
+            "byg:crimson_gardens",
+            "byg:weeping_mire",	
+            "byg:weeping_mire_clearing",	
+            "byg:weeping_mire_forest",	
+            "byg:withering_woods"
+            
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 40
     },
     {
@@ -109,6 +187,11 @@
           "jungles"
         ]
       },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
       "rarity": 40.0
     },
     {
@@ -121,6 +204,11 @@
       "typeID": "pokemon",
       "condition": {
         "maxLightLevel": 0
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
+        ]
       },
       "rarity": 8.0
     },
@@ -147,6 +235,11 @@
           "flowery",
           "evil",
           "jungles"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
         ]
       },
       "rarity": 0.1

@@ -4,6 +4,32 @@
      {
       "spec": "species:Elgyem",
       "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 25
+        }
+      ],
+     "condition": {
+        "stringBiomes": [
+          "byg:brimstone_caverns",
+          "minecraft:warped_forest",
+          "biomesoplenty:withered_abyss"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Elgyem",
+      "stringLocationTypes": [
         "Indoors"
       ],
       "minLevel": 2,

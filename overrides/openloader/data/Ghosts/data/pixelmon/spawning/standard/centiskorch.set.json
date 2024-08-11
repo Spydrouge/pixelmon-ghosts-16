@@ -1,0 +1,90 @@
+{
+  "id": "Centiskorch",
+  "spawnInfos": [
+    {
+      "spec": "species:Centiskorch",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 28,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Centiskorch",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade",
+        "Headbutt",
+        "Treetops"
+      ],
+      "minLevel": 28,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",	"minecraft:soul_sand_valley",
+            "minecraft:crimson_forest",	"minecraft:warped_forest",
+            "biomesoplenty:withered_abyss",
+            "biomesoplenty:undergrowth",
+            "byg:warped_desert",	"byg:sythian_torrids","byg:glowstone_gardens",	"byg:embur_bog",
+            "byg:crimson_gardens"
+            
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": "species:Centiskorch",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Centiskorch palette:ashen",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

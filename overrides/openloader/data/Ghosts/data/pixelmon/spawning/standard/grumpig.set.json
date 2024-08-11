@@ -1,0 +1,41 @@
+{
+  "id": "Grumpig",
+  "spawnInfos": [
+    {
+      "spec": "species:Grumpig",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "mountainous forests"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Grumpig",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

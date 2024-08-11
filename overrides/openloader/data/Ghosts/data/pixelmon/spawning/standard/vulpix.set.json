@@ -114,7 +114,7 @@
       "rarity": 5.0
     },
     {
-      "spec": "species:Vulpix",
+      "spec": "species:Vulpix form:base palette:strike",
       "stringLocationTypes": [
         "Indoors"
       ],
@@ -148,7 +148,7 @@
       "rarity": 5.0
     },
     {
-      "spec": "species:Vulpix palette:strike",
+      "spec": "species:Vulpix",
       "stringLocationTypes": [
         "Indoors"
       ],
@@ -177,9 +177,9 @@
         ]
        },
         "anticondition": {
-        "weathers":[
-            "STORM"
-        ]
+            "weathers":[
+                "STORM"
+            ]
 
       },
       "rarity": 5.0
@@ -320,6 +320,72 @@
         ]
       },
       "rarity": 6.0
+    },
+    {
+      "spec": "species:Vulpix form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 10,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+       {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal",
+         "byg:quartz_desert"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Vulpix form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 10,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+       {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:crimson_gardens",
+        "minecraft:crimson_forest"
+        ]
+      },
+      "rarity": 100.0
     }
   ]
 }

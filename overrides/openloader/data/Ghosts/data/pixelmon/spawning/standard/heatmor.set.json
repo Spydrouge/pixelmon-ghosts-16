@@ -1,0 +1,79 @@
+{
+  "id": "Heatmor",
+  "spawnInfos": [
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ],
+        "maxY": 75
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:sythian_torrids"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "durant",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 50.0
+    }
+  ]
+}

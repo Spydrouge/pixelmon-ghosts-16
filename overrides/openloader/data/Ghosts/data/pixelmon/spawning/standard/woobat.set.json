@@ -1,13 +1,14 @@
 {
   "id": "Woobat",
   "spawnInfos": [
+    
     {
       "spec": "species:Woobat",
       "stringLocationTypes": [
         "Underground"
       ],
-      "minLevel": 15,
-      "maxLevel": 24,
+      "minLevel": 4,
+      "maxLevel": 16,
       "typeID": "pokemon",
       "condition": {
         "maxLightLevel": 0,
@@ -26,6 +27,44 @@
         }
       ],
       "rarity": 130.0
+    },
+    {
+      "spec": "species:Woobat",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Headbutt",
+        "Underground",
+        "Sweet Scent",
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:crimson_forest",
+            "minecraft:warped_forest", 
+            "byg:crimson_gardens",
+            "byg:weeping_mire",	
+            "byg:weeping_mire_clearing",	
+            "byg:weeping_mire_forest",	
+            "byg:withering_woods"
+            
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 60.0
     },
     {
       "spec": "species:Woobat",
@@ -77,7 +116,8 @@
       "anticondition": {
         "stringBiomes": [
           "ultra space",
-        "ghosts"
+            "ghosts",
+            "hellish"
         ]
       },
        "rarityMultipliers": [

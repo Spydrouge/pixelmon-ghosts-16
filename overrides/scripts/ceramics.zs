@@ -47,3 +47,22 @@ craftingTable.addShaped("ender_cake_clay_bucket", <item:tconstruct:ender_cake>, 
     [sugar, egg, sugar],
 	[ender_slime_grass, ender_slime_grass, ender_slime_grass]
 ]);
+
+var magma_cream_bucket = <item:ceramics:cracked_clay_bucket>.withTag({fluid:"tconstruct:magma" as string});
+var crimson_roots = <item:minecraft:crimson_roots>;
+
+craftingTable.addShaped("magma_cake_clay_bucket", <item:tconstruct:magma_cake>, [
+    [magma_cream_bucket, magma_cream_bucket, magma_cream_bucket],
+    [glowstone_dust, egg, glowstone_dust],
+	[crimson_roots, crimson_roots, crimson_roots]
+]);
+
+var wheat = <item:minecraft:wheat>;
+var water_bucket = <item:ceramics:clay_bucket>.withTag({fluid:"minecraft:water" as string}).transformReplace(<item:ceramics:clay_bucket>);
+
+craftingTable.addShaped("ceramics_water_bucket", <item:farmersdelight:wheat_dough>*3, [
+    [water_bucket, wheat],
+    [wheat, wheat]
+]);
+
+

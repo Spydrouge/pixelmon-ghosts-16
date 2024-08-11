@@ -199,7 +199,61 @@
           "byg:polluted_lake"
         ]
       },
-      "rarity": 0.1
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Muk",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Mandmade",
+        "Indoors"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Muk form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Mandmade",
+        "Indoors"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 5.0
     }
   ]
 }

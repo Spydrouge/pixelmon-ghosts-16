@@ -16,7 +16,24 @@
           "ghosts"
         ]
       },
-      "rarity": 5
+      "rarity": 10
+    },
+    {
+      "spec": "species:Avalugg form:hisuian",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 224,
+        "minY": 192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10
     },
     {
       "spec": "species:Avalugg",

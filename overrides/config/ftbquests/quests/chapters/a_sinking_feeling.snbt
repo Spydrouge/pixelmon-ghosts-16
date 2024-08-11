@@ -906,7 +906,7 @@
 			x: 0.0d
 			y: -9.5d
 			description: [
-				"Have you checked you have everything? Torches? Food? Pokeballs? Potions of speed or regeneration? Perhaps with protection?"
+				"Have you checked you have everything? Torches? Food? Pokeballs? Potions of speed or regeneration? Perhaps wither protection?"
 				""
 			]
 			dependencies: ["20DFFD70A562A237"]
@@ -952,9 +952,10 @@
 				""
 				"It is imperative that no creeper ever gets through this portal and back into your world. The devestation it could wreck on your fragile island...!"
 				""
-				"You think you can turn some of these zombies back into people, but to do that you first need to get them safely back to your world, and contained in a place the sun doesn't shine."
+				"You think you can turn some of these zombies back into people, but to do that you first need to get them safely back to your world, and contained someplace safe from the sun."
 			]
 			dependencies: ["5742DF95648CAE94"]
+			hide: true
 			id: "771B9CD4AD759C44"
 			tasks: [{
 				id: "43D83FED585246EE"
@@ -1010,14 +1011,15 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -14.0d
+			x: -2.5d
+			y: -12.0d
 			description: [
 				"This place may be filled with danger, but it's also sprinkled with Pokemon. You &dneed to be careful&r. While battling, you will be completely vulnerable to attack by enemy monsters, and you won't be able to escape the battle to fight them!"
 				""
 				"Use an assortment of tools, from Ichor slings to fishing rods, to get Pokemon someplace its safe to battle them."
 			]
 			dependencies: ["5742DF95648CAE94"]
+			hide: true
 			id: "72323BB863524756"
 			tasks: [{
 				id: "3FC75D4B9F916681"
@@ -1028,21 +1030,31 @@
 				usedPokemonSpec: "slugma"
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "1860578933A0827E"
-				type: "item"
-				item: "minecraft:blaze_rod"
-			}]
+			rewards: [
+				{
+					id: "2BF9F1735FB38AA0"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "03A62F7ACFF86443"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
 		}
 		{
-			x: 1.0d
-			y: -14.0d
+			x: -0.5d
+			y: -15.0d
 			description: [
 				"Most of the monsters of the Nether seem repulsed by light. Only Magma Cubes, Striders, and Zombie Pigmen seem indifferent to the lava itself."
 				""
 				"This means you can build a small base and light it up in order to prevent monsters from spawning within. You can also reduce spawns in outdoor areas with the same trick."
+				""
+				"A boat can be used to temporarily keep a zombie villager in one place. You can technically row the boat through the Nether Portal with the Zombie in the back seat, but be prepared for it to smack you quite a bit if you try."
 			]
-			dependencies: ["5742DF95648CAE94"]
+			dependencies: ["771B9CD4AD759C44"]
+			hide: true
 			id: "0B5B30FE8A0F79EF"
 			tasks: [{
 				id: "4FEB3F970E360E12"
@@ -1057,7 +1069,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 5.0d
 			y: -14.0d
 			description: [
 				"The Nether exists. The nether has land. The nether has blocks! On one hand, this place is terrifying. On the other hand, it has so many ingredients for rebuilding your home!"
@@ -1066,7 +1078,7 @@
 				""
 				"Soul Sand can be turned to regular sand by a pure daisy or melted down into liquid soul for crafting certain alloys."
 			]
-			dependencies: ["5742DF95648CAE94"]
+			dependencies: ["51A51EA666E1500F"]
 			hide: true
 			id: "77D2E05704317920"
 			tasks: [
@@ -1074,19 +1086,55 @@
 					id: "7721EA1D36183141"
 					type: "item"
 					item: "minecraft:netherrack"
+					count: 32L
 				}
 				{
-					id: "20E55D79F64D82C3"
+					id: "250CC74B0CDE1703"
 					type: "item"
-					item: "minecraft:soul_sand"
+					item: "minecraft:nether_bricks"
+					count: 8L
+				}
+				{
+					id: "0200DB6BEFCB8048"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 8L
+				}
+				{
+					id: "17744DAE2F1DF3BE"
+					type: "biome"
+					biome: "minecraft:nether_wastes"
+				}
+			]
+			rewards: [
+				{
+					id: "36564DA226262ABD"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "2B18209B366BCDEE"
+					type: "item"
+					item: "pixelmon:fire_stone_ore"
+				}
+				{
+					id: "0670E9F16D68441E"
+					type: "item"
+					item: "pixelmon:raw_tumblestone"
+					count: 3
 				}
 			]
 		}
 		{
-			x: 2.0d
+			x: 5.0d
 			y: -15.0d
-			description: ["With silk touch, you can carry home intact ores for processing. These ores can have their output increased in a Smelter, or can produce byproducts in a Foundary."]
+			description: [
+				"Gold, Quartz, and Cobalt are the most common ores to find in the Nether, although they may be difficult to find if you started in a particularly exotic biome. Search for the Nether Wastes to find the most vanilla of vanilla nether Biomes."
+				""
+				"With silk touch, you can carry home intact ores for processing. These ores can have their output increased in a Smelter, or can produce byproducts in a Foundary."
+			]
 			dependencies: ["77D2E05704317920"]
+			hide: true
 			id: "726A002639B3DA8C"
 			tasks: [
 				{
@@ -1123,11 +1171,16 @@
 					type: "item"
 					item: "pixelmon:blue_shard"
 				}
+				{
+					id: "4557FCFA4604E47E"
+					type: "item"
+					item: "pixelmon:fire_stone_ore"
+				}
 			]
 		}
 		{
-			x: 4.0d
-			y: -16.0d
+			x: 2.5d
+			y: -15.0d
 			description: [
 				"What... is... this?"
 				""
@@ -1170,14 +1223,17 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 5.0d
 			y: -16.0d
 			description: [
 				"You cannot make traditional netherite gear because you do not have diamond gear."
 				""
 				"But you don't need to. You are going to alloy Netherite with another metal. You just have to find some, and bring it back to your Smeltery, where it will produce the highest yield."
+				""
+				"Netherite can be found at the lowest Y levels of the nether, where lava pools are common and the risk of immolation is highest."
 			]
 			dependencies: ["726A002639B3DA8C"]
+			hide: true
 			min_required_tasks: 1
 			id: "5FA9DB52F1253BB6"
 			tasks: [
@@ -1197,11 +1253,997 @@
 					item: "minecraft:netherite_ingot"
 				}
 			]
+			rewards: [
+				{
+					id: "2E8340C516F2DFEF"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "11004AEADE3536E3"
+					type: "item"
+					item: "pixelmon:fossil"
+				}
+				{
+					id: "2FFD323A554813DF"
+					type: "item"
+					item: "pixelmon:dusk_stone_ore"
+				}
+				{
+					id: "69993FBB35ADF069"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 67
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Defeat a Slugma of a different color."
+			x: -3.5d
+			y: -12.0d
+			description: ["Oh... My. It... it doesn't appear this Slugma is actually different from a normal Slugma. It's certainly an interesting color, though!"]
+			dependencies: ["72323BB863524756"]
+			hide: true
+			min_required_tasks: 1
+			id: "30EF9F11CDC70452"
+			tasks: [
+				{
+					id: "10B07E8FD1538E42"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Copper_sulfate"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4ACEF11DF9C54F58"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Cupric_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0BB1629D71B8F47D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Lithium_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2D08B642DB846855"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Magnesium_sulfide"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "1F7A508628135B3A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Manganese_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "49901065FD1B1D37"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Potassium_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7658152FFEA3CFED"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Sodium_carbonate"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7E3D36F6D0F9DCD4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Calcium_carbonate"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
 			rewards: [{
-				id: "2E8340C516F2DFEF"
-				type: "item"
-				item: "pixelmon:black_shard"
+				id: "070CD5243F86B920"
+				type: "choice"
+				table_id: 7555106132649824680L
 			}]
+		}
+		{
+			x: 0.5d
+			y: -15.0d
+			description: [
+				"Can you cure a villager? Don't try it until you've gotten them safely back in your world, and protected from sunlight!"
+				""
+				"Remember: Hit them with a splash potion of weakness, feed them an apple, and then wait. You should hear a sound effect, and the zombie shoudl begin shaking, but then it does take quite some time for them to be fully cured."
+			]
+			dependencies: ["771B9CD4AD759C44"]
+			hide: true
+			id: "0D06E969FA2BCE84"
+			tasks: [{
+				id: "0446778EFD56368C"
+				type: "advancement"
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5C328AA712E592F1"
+					type: "item"
+					item: {
+						id: "pixelmon:lens_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BD8DCD5040B9294"
+					type: "item"
+					item: "byg:emeraldite_shards"
+				}
+			]
+		}
+		{
+			title: "Boats!"
+			x: 1.0d
+			y: -6.5d
+			description: [
+				"A boat can be used to temporarily keep a zombie villager in one place. You can technically row the boat through the Nether Portal with the Zombie in the back seat, but be prepared for it to smack you quite a bit if you try."
+				""
+				"A better plan would likely be to use boats to keep Zombie villagers motionless, and then break the boats and employ ichor slingshots to propel them through the portal."
+			]
+			dependencies: ["516D659D933811A7"]
+			hide: true
+			id: "4AAB7A17B81A90B2"
+			tasks: [{
+				id: "07C671BF248F78F8"
+				type: "item"
+				title: "Any #minecraft:boats"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -12.0d
+			description: ["Now that multiple biomes are available, you're going to want to craft a nature's compass. The nature's compass will allow you to track down different Nether Biomes, which is useful in an environment that's so very hard to traverse."]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			id: "51A51EA666E1500F"
+			tasks: [{
+				id: "20BE31C1CD175079"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -12.5d
+			description: [
+				"Emeraldite, embedded in Scorio Stone, can only be found in the Biome called the \"Wailing Garth.\""
+				""
+				"Emeraldite can be made into emeralds, or used as an ingredient in Pendorite."
+				""
+				"Blackstone is also available in the Wailing Garth, if you haven't yet managed to find a Bastion."
+				""
+				"The Wailing Nylium fits the aesthetic of your home biome but... whether you want to feed into that aesthetic is up to you."
+				""
+				"You've heard tale a fearsome Pokemon called \"Obstagoon\" might be found there."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "6301625B36CF2B82"
+			tasks: [
+				{
+					id: "776FC9FC046E9F80"
+					type: "item"
+					item: "byg:emeraldite_ore"
+				}
+				{
+					id: "5C07E064F6EC61BB"
+					type: "item"
+					item: "byg:emeraldite_shards"
+					count: 8L
+				}
+				{
+					id: "0B8A80047846DF2A"
+					type: "item"
+					item: "byg:scoria_stone"
+					count: 32L
+				}
+				{
+					id: "0B6DA8B2784C32A8"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 32L
+				}
+				{
+					id: "035A08AD04D6C728"
+					type: "item"
+					item: "byg:overgrown_crimson_blackstone"
+				}
+				{
+					id: "528720EB52D1B74D"
+					type: "item"
+					item: "byg:wailing_bell_blossom"
+				}
+				{
+					id: "3327693EFF619BA5"
+					type: "item"
+					item: "byg:wailing_nylium"
+				}
+				{
+					id: "61EA5083A75B4D21"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "obstagoon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "5EE7E3FEC83FE2D0"
+					type: "item"
+					item: "byg:emeraldite_shards"
+				}
+				{
+					id: "2E98E1A342C3DDFA"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+					count: 9
+				}
+				{
+					id: "043F0264858D5359"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
+				}
+				{
+					id: "201F694703C7234C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 37
+						}
+					}
+				}
+				{
+					id: "534F645232014EB2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -11.5d
+			description: [
+				"Pendorite ore can be found in the Embur Bog. Pendorite is a tier above Netherite, when crafting vanilla tools."
+				""
+				"Although Tinkering has many benefits, Pendorite can benefit from vanilla enchantments, and that includes rare enchantments like Mending."
+				""
+				"The Embur Bog is also a source of blue Netherrack, which otherwise must be crafted."
+				""
+				"Ember Lilies grow here, which be used to create pathways on lava, similar to regular lily pads with water."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "314BB398D5858F0F"
+			tasks: [
+				{
+					id: "1DEC346FCFCEFF59"
+					type: "item"
+					item: "byg:pendorite_ore"
+				}
+				{
+					id: "3D42B3746ED68EA4"
+					type: "item"
+					item: "byg:blue_netherrack"
+					count: 32L
+				}
+				{
+					id: "051234A096201C3B"
+					type: "item"
+					item: "byg:blue_nether_bricks"
+					count: 8L
+				}
+				{
+					id: "67B34F2973AB51FE"
+					type: "item"
+					item: "byg:embur_lily"
+					count: 8L
+				}
+				{
+					id: "573BDE5B32E99676"
+					type: "item"
+					item: "byg:blue_nether_gold_ore"
+					count: 16L
+				}
+				{
+					id: "27824C5821EC878C"
+					type: "item"
+					item: "byg:blue_nether_quartz_ore"
+					count: 16L
+				}
+				{
+					id: "759AFD7ADE08FF04"
+					type: "biome"
+					biome: "byg:wailing_garth"
+				}
+			]
+			rewards: [
+				{
+					id: "1A423C1DCC7B609C"
+					type: "item"
+					item: "byg:raw_pendorite"
+				}
+				{
+					id: "7C46D3DFBB055C82"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 3
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -10.0d
+			description: [
+				"Soul Glass acts like glass, and Pokemon cannot spawn on it. It does not block light."
+				""
+				"You can find large amounts of soul sand in the soul sand valley. Watch out, expect it to be plagued by ghasts and skeletons."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "2263D5C951CA3589"
+			tasks: [
+				{
+					id: "678BB54FC3ADDA83"
+					type: "item"
+					item: "tconstruct:soul_glass"
+					count: 8L
+				}
+				{
+					id: "4C88C1E54814EB17"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 32L
+				}
+				{
+					id: "066812C13774C445"
+					type: "biome"
+					biome: "minecraft:soul_sand_valley"
+				}
+			]
+			rewards: [
+				{
+					id: "791254F94B8FF98E"
+					type: "item"
+					item: "pixelmon:orb"
+				}
+				{
+					id: "750375CF81D06F4B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -14.0d
+			description: [
+				"The Brimstone Caverns Biome is predictably filled with Brimstone."
+				""
+				"Brimstone can be smelted into yellow netherbrick, and used in Boric flames and camp fires."
+				""
+				"Anthracite, the primary ore here, can be used like coal."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "25D8FDB8CE08B946"
+			tasks: [
+				{
+					id: "6B5675316F985B4B"
+					type: "item"
+					item: "byg:brimstone"
+					count: 32L
+				}
+				{
+					id: "749628B0B43C1A6E"
+					type: "item"
+					item: "byg:yellow_nether_bricks"
+					count: 8L
+				}
+				{
+					id: "0F14AD63085BC071"
+					type: "item"
+					item: "byg:boric_campfire"
+				}
+				{
+					id: "1B2B450CD290928E"
+					type: "item"
+					item: "byg:brimstone_nether_gold_ore"
+					count: 16L
+				}
+				{
+					id: "7FB72C99EF57D41A"
+					type: "item"
+					item: "byg:brimstone_nether_quartz_ore"
+					count: 16L
+				}
+				{
+					id: "0560C9F0902E0DBE"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "byg:anthracite"
+									Count: 1b
+								}
+								{
+									id: "byg:anthracite_ore"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "1586156BC72D5E42"
+					type: "biome"
+					biome: "byg:brimstone_caverns"
+				}
+			]
+			rewards: [
+				{
+					id: "7F285E5AC6F38EE2"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "620E45F55C0606C4"
+					type: "item"
+					item: "pixelmon:green_apricorn"
+				}
+				{
+					id: "0D74E82625AF2BAB"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 19
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			description: ["You think it might be wise to bring a silk-touch pickaxe, rather than a Luck one. This is because ores like Nether Gold ore can be smelted down for higher yields at a smeltery, and ores like Cobalt can be smelted for an iron byproduct in a Foundary."]
+			hide_dependency_lines: true
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			id: "4E23DE3FB0ABF1E3"
+			tasks: [{
+				id: "05E4CDA1EDF67341"
+				type: "item"
+				item: "tconstruct:silky_cloth"
+			}]
+			rewards: [{
+				id: "05DCDE8467AFD31D"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 4.0d
+			y: -14.0d
+			description: [
+				"Travertine is a lovely block for building with, but more impressive than Travertine are the subzero crystals. When grown and put into a Hypogeal Imperium, they can be used to freeze lava in the Nether."
+				""
+				"You expect the Pokemon here to be quite different from anywhere else in the Nether. You wonder if Sneasel may have survived down here."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "2479E34FEA23C056"
+			tasks: [
+				{
+					id: "04334CC78F657E9F"
+					type: "item"
+					item: "byg:travertine"
+					count: 32L
+				}
+				{
+					id: "7245A838E36B4F7E"
+					type: "item"
+					item: "byg:subzero_crystal_block"
+				}
+				{
+					id: "2EEBEFA1EA6D057B"
+					type: "item"
+					item: "byg:subzero_crystal_shard"
+					count: 32L
+				}
+				{
+					id: "5BA82633AD96F2D7"
+					type: "item"
+					item: "byg:subzero_ash_block"
+					count: 32L
+				}
+				{
+					id: "34E9EFFC9E88B947"
+					type: "item"
+					item: "byg:frost_magma"
+					count: 32L
+				}
+				{
+					id: "4EBF6E51DE4CE9FF"
+					type: "biome"
+					biome: "byg:subzero_hypogeal"
+				}
+			]
+			rewards: [
+				{
+					id: "30F1E3295CF77625"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+				{
+					id: "16ACD6D48F523579"
+					type: "item"
+					item: "pixelmon:never_melt_ice"
+				}
+				{
+					id: "377A23EEC6E15CE6"
+					type: "item"
+					item: "byg:black_ice"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -15.0d
+			dependencies: ["2479E34FEA23C056"]
+			hide: true
+			id: "77E7A3F9D5A5D43B"
+			tasks: [{
+				id: "077AAE02EE129DCC"
+				type: "item"
+				item: "byg:hypogeal_imperium"
+			}]
+			rewards: [{
+				id: "0DD0016F1CA2699A"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 6
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			description: ["You aren't sure if there's anything meaningful you can extract from the Warped Desert, aside from a new color scheme."]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "129D405E0E1B6AE9"
+			tasks: [
+				{
+					id: "367FD76F26E2F36F"
+					type: "item"
+					item: "byg:nylium_soul_sand"
+					count: 16L
+				}
+				{
+					id: "7C4DF4B5F7596D7D"
+					type: "item"
+					item: "byg:nylium_soul_soil"
+					count: 16L
+				}
+				{
+					id: "3FBD3B63C4A86695"
+					type: "item"
+					item: "byg:warped_coral_block"
+					count: 16L
+				}
+				{
+					id: "7E1565C608400393"
+					type: "item"
+					item: "byg:warped_coral"
+				}
+				{
+					id: "504A2BF9DFA5810C"
+					type: "item"
+					item: "byg:warped_coral_fan"
+				}
+				{
+					id: "03812B864C2FE9F3"
+					type: "item"
+					item: "byg:warped_cactus"
+					count: 16L
+				}
+				{
+					id: "6FF73D37022DD2FD"
+					type: "biome"
+					biome: "byg:warped_desert"
+				}
+			]
+			rewards: [{
+				id: "1C8B6192D4CEBF6D"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			description: [
+				"The Quartz Desert is an interesting place that underscores why quartz ores mined elsewhere in the Nether are best used for their byproducts."
+				""
+				"The Quartz Crystals in the quest are the sheared structures taken from the ground of the desert, which can be used as traps, and similarly to Wither Roses."
+				""
+				"Quartzite Sand is a lovely block, especially for sparkling white beaches."
+				""
+				""
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "42BD80F9E7138707"
+			tasks: [
+				{
+					id: "437EA869D9B01E9D"
+					type: "item"
+					item: "byg:quartzite_sand"
+					count: 32L
+				}
+				{
+					id: "6C224C0069EE22F2"
+					type: "item"
+					item: "byg:raw_quartz_block"
+					count: 32L
+				}
+				{
+					id: "6B167B01902B0282"
+					type: "item"
+					item: "byg:hanging_bones"
+					count: 8L
+				}
+				{
+					id: "395575C667201B99"
+					type: "item"
+					item: "byg:quartz_crystal"
+					count: 8L
+				}
+				{
+					id: "473ECF7E8225A23A"
+					type: "biome"
+					biome: "byg:quartz_desert"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -10.5d
+			description: [
+				"The Withered Abyss is a very dark, foggy, and dangerous biome. It's a place you can find Blackstone and crying obsidian."
+				""
+				"Endermen and Wither Skeletrons congregate there. "
+				""
+				"You heard tale a species of Tauros might be found in this place. "
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "6523D16DB583E809"
+			tasks: [
+				{
+					id: "442011E7FBFF1276"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 32L
+				}
+				{
+					id: "15527E4E28A24848"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+					count: 8L
+				}
+				{
+					id: "19B8CEAB325E9309"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tauros"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6CC71A6B24EE4265"
+					type: "biome"
+					biome: "biomesoplenty:withered_abyss"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -10.0d
+			description: ["The visceral heap is a disgusting place made of flesh. But it might attract Pokemon very unlike any other part of the nether. You've heard that small tumor-like digging Pokemon-- Diglett?-- can be found here, as well as a number of pigs."]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "51784E425F3315F2"
+			tasks: [
+				{
+					id: "218C4D8FB8D22980"
+					type: "item"
+					item: "biomesoplenty:flesh"
+					count: 32L
+				}
+				{
+					id: "18C2781995BE50A2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lechonk"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "10696ABB46E626F8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tepig"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "621C4BB4668FC67E"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 4L
+				}
+				{
+					id: "64AD585F06B3A8DA"
+					type: "item"
+					item: "minecraft:shroomlight"
+					count: 4L
+				}
+				{
+					id: "0E95CFD2E7CB7550"
+					type: "biome"
+					icon: "biomesoplenty:flesh"
+					biome: "biomesoplenty:visceral_heap"
+				}
+				{
+					id: "71F4B53833062C82"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Spoink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "109C6B6004E1BD01"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			description: ["The Undergrowth is a terrible place, with difficult-to-cut thorns everywhere making traversing the biome almost impossible. No one would want to come here, except, you think Pokemon such as Roselia and Ferrothorn might be found here. "]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "616C1ED7D1BFA863"
+			tasks: [
+				{
+					id: "6A5E01DB345B51BF"
+					type: "item"
+					item: "biomesoplenty:bramble"
+					count: 32L
+				}
+				{
+					id: "08357D08407EB5A9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "roselia"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5B83A58DA4D955F8"
+					type: "item"
+					item: "byg:cyan_rose"
+				}
+				{
+					id: "0BCFDC65BEABF70A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "bramblin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "240539CE65049132"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ferroseed"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3B06A0B552541DAD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "carnivine"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "57400BE8B4320933"
+					type: "biome"
+					biome: "biomesoplenty:undergrowth"
+				}
+			]
+			rewards: [
+				{
+					id: "40EE6341FD113664"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 77
+						}
+					}
+				}
+				{
+					id: "5F6C69DF090EEEB6"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 72
+						}
+					}
+				}
+				{
+					id: "29B6D953FDA1C5A7"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 10
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -10.5d
+			description: [
+				"You're not quite sure what you can gain from the Crystalline Chasm, other than a stylist new crystal block. There may be some Pokemon here of interest. "
+				""
+				"Just as with in your home dimension, you think you can lure alolan geodude here with redstone dust."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "4F973D931BE56AAF"
+			tasks: [
+				{
+					id: "6D082CC6E3E6BAFC"
+					type: "item"
+					item: "biomesoplenty:nether_crystal_block"
+					count: 8L
+				}
+				{
+					id: "6B92B88DD9173A7B"
+					type: "item"
+					item: "biomesoplenty:nether_crystal"
+					count: 32L
+				}
+				{
+					id: "417003761915FC8A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tinkatink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3939B46829A44AD7"
+					type: "biome"
+					biome: "biomesoplenty:crystaline_chasm"
+				}
+			]
 		}
 	]
 }

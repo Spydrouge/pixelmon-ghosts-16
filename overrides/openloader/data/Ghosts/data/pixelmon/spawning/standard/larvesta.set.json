@@ -73,6 +73,29 @@
         ]
       },
       "rarity": 100.0
+    },
+     {
+      "spec": "species:Larvesta",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charti_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 50.0
     }
   ]
 }

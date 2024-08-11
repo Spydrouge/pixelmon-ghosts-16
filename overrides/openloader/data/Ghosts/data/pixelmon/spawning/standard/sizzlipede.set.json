@@ -1,0 +1,54 @@
+{
+  "id": "Sizzlipede",
+  "spawnInfos": [
+    {
+      "spec": "species:Sizzlipede",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 9,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Sizzlipede",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade",
+        "Headbutt",
+        "Treetops"
+      ],
+      "minLevel": 9,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",	"minecraft:soul_sand_valley",
+            "minecraft:crimson_forest",	"minecraft:warped_forest",
+            "biomesoplenty:withered_abyss",
+            "biomesoplenty:undergrowth",
+            "byg:warped_desert",	"byg:sythian_torrids","byg:glowstone_gardens",	"byg:embur_bog",
+            "byg:crimson_gardens"
+            
+        ]
+      },
+      "rarity": 120.0
+    }
+  ]
+}

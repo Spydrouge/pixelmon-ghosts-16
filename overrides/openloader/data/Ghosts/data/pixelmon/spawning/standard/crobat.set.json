@@ -4,10 +4,11 @@
     {
       "spec": "species:Crobat",
       "stringLocationTypes": [
-        "Underground"
+        "Underground",
+        "Air"
       ],
       "minLevel": 40,
-      "maxLevel": 50,
+      "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
         "maxY": 192,
@@ -21,6 +22,16 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 10
     },
      {
@@ -29,7 +40,7 @@
         "Underground"
       ],
       "minLevel": 40,
-      "maxLevel": 50,
+      "maxLevel": 60,
       "typeID": "pokemon",
        "condition": {
         "maxY": 192,
@@ -41,6 +52,16 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 10
     },
      {
@@ -50,7 +71,7 @@
         "Sweet Scent"
       ],
       "minLevel": 40,
-      "maxLevel": 50,
+      "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
         "maxY": 64,
@@ -64,6 +85,16 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 10
     },
      {
@@ -73,7 +104,7 @@
         "Sweet Scent"
       ],
       "minLevel": 40,
-      "maxLevel": 50,
+      "maxLevel": 60,
       "typeID": "pokemon",
        "condition": {
         "maxY": 64,
@@ -85,6 +116,54 @@
           "STORM"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 10
+    },
+    {
+      "spec": "species:Crobat",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Headbutt",
+        "Underground",
+        "Sweet Scent",
+        "Air"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:crimson_forest",
+            "minecraft:warped_forest", 
+            "byg:crimson_gardens",
+            "byg:weeping_mire",	
+            "byg:weeping_mire_clearing",	
+            "byg:weeping_mire_forest",	
+            "byg:withering_woods"
+            
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
       "rarity": 10
     },
     {
@@ -93,7 +172,7 @@
         "Air"
       ],
       "minLevel": 40,
-      "maxLevel": 50,
+      "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
         "times": [
@@ -151,6 +230,11 @@
       "typeID": "pokemon",
       "condition": {
         "maxLightLevel": 0
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
+        ]
       },
       "rarity": 0.1
     }

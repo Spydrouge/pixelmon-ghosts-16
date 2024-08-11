@@ -8,7 +8,7 @@ CC-BY-SA-4.0 (Creative Commons Attribution ShareAlike 4.0)
 What does that license mean in laymans terms? It means you can fork this repository, augment it, add things, remove things, port it to other versions of Minecraft, and even use it as a base for your own modpack, but you must do two things:
 
 1. Credit us. (That's the Attribution part)
-2. Also use this license - which means everyone can also fork, augment, alter, and use *your* repository (That's the Share-Alike part)
+2. Also use this license - which means *your* modpack must also be stored in a public repository, such that others can fork, augment, alter, and use it as the basis for hteir own modpacks (That's the Share-Alike part)
 
 ### Author Info
 This entire modpack is made by one person: Gaming Imperatrix.
@@ -18,11 +18,16 @@ A Skyblock experience for Pixelmon.
 
 Think about it: Pokemon can drop almost any block or item you can think of, like saplings and dirt. Why not make a modpack where you create blocks 'out of nothing' by tracking down and building habitats for the correct Pokemon, and farming them for drops? Of course, there eventually has to be a way to automate things. You don't want to grind forever!
 
-### Why isn't it in 1.20.2?
-As of the time of writing, most mods haven't made the jump to 1.20.1, much less 1.20.2. I could do a 1.20.2, but it'd be a budget version. Let's wait for the 1.20 mod scene to get a little more diverse, first.
+### Version Stuff
+
+#### Why isn't it in 1.20.2?
+As of the time of writing, most mods haven't made the jump to 1.20.1, much less 1.20.2. I could do a 1.20.2, but it'd be a budget version. Let's wait for the 1.20+ mod scene to get a little more diverse, first.
+
+#### Even the 1.16.5 version isn't up to date!
+You are correct, and I don't recommend you update it manually! The latest version of Pixelmon's 1.16.5 branch broke catching Pokemon outside of battle. Considering you need to catch your very first Pokemon this way, that's a game-breaking bug. 
 
 ### Is it Multiplayer?
-In theory, yes. It uses Skyblock builder, and all island-based generation code runs relative to the player's island. However like most Skyblocks, it's designed with the Singleplayer experience in mind. People who want to run a Ghosts server need to consider how they want to handle certain issues. For example: Rain. Water is finite and players need to control the weather. The server owner needs to know how they plan to handle this (or just not handle it and watch the ensuing duel between the Rain Dancers and Sunny Dayers; bring popcorn).
+In theory, yes. It uses Skyblock builder, and all island-based generation code runs relative to the player's island. However like most Skyblocks, it's designed with the Singleplayer experience in mind. People who want to run a Ghosts server need to consider how they want to handle certain issues. For example: Rain. Water is finite and players need to control the weather to obtain water in the early game. The server owner needs to know how they plan to handle this (or just not handle it and watch the ensuing duel between the Rain Dancers and Sunny Dayers; bring popcorn).
 
 ## Creative Info
 ### The Story
@@ -31,21 +36,22 @@ In Pokemon X and Y, Team Flare succeeded in their plan to destroy the world. Thi
 Anyway, you, a 12 year old kid, wake up on a peice of rubble floating in the sky with no tree and no resources, watching ghost Pokemon drift by. Until suddenly Arceus (or something else) takes pity on you and sends you a Master Ball. All you need is just *one Drifloon,* and from those humble beginnings, you will rebuild the entire world.
 
 ### Theming
-Creepy-Cute. 
+Creepy-Cute. Rebuilding from the Ruins. Emptiness. A skyblock, where common resources are scarce and the normal schedule of accomplishments is upside down.
 
 ### Challenges 
-Many materials are soft-gated; they're difficult to farm early game. Trees can't be punched. Iron is scarce. It's a challenge to use the limited Pokemon you do have, to solve problems with the resources given to you, and progress in out-of-the-box ways. Getting your first tree is a little tedious, but you'll bump into a few eggs on the way. Hang in there! The more blocks you have, the more busy you'll be!
+Many materials are soft-gated; they're difficult to farm early game. Trees can't be punched, crouching doesn't make them grow faster, and iron is scarce. You aren't meant to grind. You're meant to use the limited Pokemon you do have to solve problems, and progress in out-of-the-box ways. Getting your first tree is a little tedious, but you'll bump into a few Pokemon eggs on the way. Hang in there! The more blocks you have, the more busy you'll be!
 
 ## Mods
 ### Overall Theme
 This modpack tries to give you the feeling you're rebuilding the world from nothing, using a mixture of tech and magic. It prioritizes mods that have have a big visible presence in your world, like a windmill or a giant altar. In addition, because the overworld has been blown to smithereens, it is desired that the end-game should involve short trips to other dimensions for resources. 
 
-### Incomplete Modlist
+### Incomplete Modlist  
+
 #### Primary
-- Tinker's Construct
-- Immersive Engineering
-- Botania
-- Astral Sorcerery
+- Tinker's Construct (and add-ons)
+- Immersive Engineering (Big industrial multi-blocks)
+- Botania (Magic for people who love Redstone)
+- Astral Sorcerery (Magic for people who hate Redstone)
 
 #### Supporting
 - Ceramics (RIP Porcelain Melter) + Ceramic Shears
@@ -57,23 +63,28 @@ This modpack tries to give you the feeling you're rebuilding the world from noth
 #### Gameplay Altering
 - Inspirations (Craft potions in cauldrons!)
 - Balanced Nutrition (Spice of Life Offshoot)
-- Flint Instead of Wood
+- Flint Instead of Wood (No tree punching)
 - Finite Water & Infinite Lava (Finite Water)
-- Forgiving Void
+- Forgiving Void (Absolutely no losing gear to the void >:|)
 - Fast Leaf Decay
 
 #### Pretty Mods
 - Biomes You'll Go  (Wood Types; Exploration in End Game)
 - Biomes o' Plenty (Wood Types; Exploration in End Game)
-- Fog Overrides
+- Fog Overrides (Spooky)
 - (Macaw's Mods  under Consideration)
 - Habitat (Entirely for Rafflesia flower, after Biomes o' Plenty dropped theirs)
+
+#### Functional Mods
+- Skyblock Builder
+- FTB Quests
+- Lootr (Nether/End chests can be looted once per user)
 
 #### End Game Mods that are Under Consideration and May be Removed
 - RFTools Dimensions
   - Con: Difficulty of Enabling Pokemon to Spawn in New Dimensions.
   - Con: Requires Significant Pre-Planning Work and limited dimensions to use.
-  - Pro: Time spent in overworld-like dimensions is limited, preventing game losing its Skyblock "feel"
+  - Pro: Time spent in overworld-like dimensions is limited, preventing game losing its Skyblock "feel" while still rewarding exploration
 - The Thermal Series
   - Con: "One Block Machines" kill the "Big Expansive Multiblock" vibe
   - Con: Requires Significant Gating
@@ -93,6 +104,7 @@ This modpack tries to give you the feeling you're rebuilding the world from noth
 - Forestry (It's 1.16.5 Ports are all in Alpha. It's incompatable with other trees, including all from Biomes o Plenty, BYG, and Pixelmon, and doesn't pick fruit. I loved Forestry because it turned tree farming into a massive multiblock. I had plans. I was gonna skin all the bees as Combee, and all the butterflies as Vivillion. But with the release of actual Minecraft Bees and the success of Productive Bees and similar modpacks, it feels like the demand for Forestry Bees bottomed out. In addition, none of its add-ons made the jump with it, so it's barren of any content aside from making the backpacks)
 
 ## Tweaks
+
 ### Pokemon
 The Pokemon spawn tables have been completely reworked. Pokemon spawn at different altitudes, and in reaction to having different blocks placed around them. Many Pokemon are not avialable until different dimensions are reached, because the only things that have survived in the void dimension are ghosts, bugs with a cocoon state, highly durable underground rock Pokemon, Pokemon that float, and Pokemon affiliatd with spirits, fables, or the general spooky theme of the pack (ie, Noctowl, Murkrow, Gothita).
 
@@ -118,7 +130,7 @@ An assortment of recipes exist that stitch the mods together better, many of whi
 - Most Herbal Medicines can be crafted, and are available earlier than regular medicines.
 - Some Curry Items can be crafted.
 
-Pixelmon - the mod - doesn't show it's Brewing stand recipes in the JEI for some reason (and hasn't for multiple versions), but the "Diary" (Quest Book) walks players through crafting potions, super potions, hyper potions, etc, as they become craftable.
+Pixelmon - the mod - doesn't show it's Brewing stand recipes in the JEI for some reason (and hasn't for multiple versions; it appears to be a bug), but the "Diary" (Quest Book) walks players through crafting potions, super potions, hyper potions, etc, as they become craftable.
 
 
 

@@ -125,6 +125,52 @@
         ]
       },
       "rarity": 10.0
+    },
+    {
+      "spec": "species:Sneasel",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Sneasel form:hisuian",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:weeping_mire",
+          "byg:glowstone_gardens",
+          "byg:wailing_garth"
+        ]
+      },
+      "rarity": 60.0
     }
   ]
 }

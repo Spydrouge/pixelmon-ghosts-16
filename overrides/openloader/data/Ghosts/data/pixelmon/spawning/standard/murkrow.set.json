@@ -45,6 +45,30 @@
     {
       "spec": "species:Murkrow",
       "stringLocationTypes": [
+        "Air",
+        "Underground",
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Sweet Scent",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:weeping_mire",	
+            "byg:weeping_mire_clearing",	
+            "byg:weeping_mire_forest",	
+            "byg:withering_woods"
+        ]
+      },
+      "rarity": 90
+    },
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
         "Tree Top",
         "Headbutt"
       ],
@@ -97,6 +121,41 @@
       "condition": {
         "structures": [
           "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
+        "Air",
+        "Treetops",
+        "Sweet Scent",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Murkrow",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+         "structures": [
+          "minecraft:nether_fortress",
+          "minecraft:bastion_remnant"
         ]
       },
       "rarity": 90.0

@@ -142,6 +142,24 @@
         "maxY": 40
       },
       "rarity": 20.0
+    },
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:crystaline_chasm",
+          "byg:quartz_desert",
+          "byg:subzero_hypogeal"
+        ]
+      },
+      "rarity": 120.0
     }
   ]
 }

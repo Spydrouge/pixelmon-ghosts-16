@@ -37,7 +37,7 @@
       },
      "groupSpawnSettings": [
         {
-          "spec": "Vulpix palette:strike",
+          "spec": "Vulpix",
           "amount": {
             "min_value": 3,
             "max_value": 4
@@ -418,6 +418,72 @@
         ],
         "stringBiomes": [
           "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 5.0
+    },
+     {
+      "spec": "species:Ninetales form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rawst_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal",
+         "byg:quartz_desert"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Ninetales form:base",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:fire_charge",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:crimson_gardens",
+        "minecraft:crimson_forest"
         ]
       },
       "rarity": 5.0

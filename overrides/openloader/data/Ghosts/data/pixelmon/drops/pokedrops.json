@@ -19598,7 +19598,13 @@
     "pokemon":"Pawniard",
     "items":[
       {
-        "item":"minecraft:iron_ingot",
+        "item":{
+          "id":"minecraft:iron_sword",
+          "Count":1,
+          "tag":{
+            "Damage":200
+          }
+        },
         "min":1,
         "max":2,
         "chance":1.0
@@ -19622,10 +19628,10 @@
       },
       {
         "item":{
-          "id":"minecraft:iron_sword",
+          "id":"pixelmon:silver_sword",
           "Count":1,
           "tag":{
-            "Damage":200
+            "Damage":125
           }
         },
         "min":1,
@@ -29947,9 +29953,9 @@
     "pokemon":"Tinkatink",
     "items":[
       {
-        "item":"minecraft:iron_ingot",
+        "item":"thermal:lead_ingot",
         "min":1,
-        "max":2,
+        "max":1,
         "chance":1.0
       },
       {
@@ -29964,22 +29970,34 @@
     "pokemon":"Tinkatuff",
     "items":[
       {
-        "item":"minecraft:iron_ingot",
+        "item":"immersiveengineering:plate_lead",
         "min":1,
-        "max":3,
+        "max":2,
         "chance":1.0
       },
       {
-        "item":"pixelmon:silver_ingot",
-        "min":1,
-        "max":2,
-        "chance":0.5
-      },
-	  {
-        "item":"pixelmon:silver_hammer",
+        "item":{
+          "id":"pixelmon:silver_hammer",
+          "Count":1,
+          "tag":{
+            "Damage":150
+          }
+        },
         "min":1,
         "max":1,
-        "chance":0.1
+        "chance":0.7
+      },
+      {
+        "item":{
+          "id":"pixelmon:amethyst_hammer",
+          "Count":1,
+          "tag":{
+            "Damage":150
+          }
+        },
+        "min":1,
+        "max":1,
+        "chance":0.3
       }
     ]
   },
@@ -29987,28 +30005,34 @@
     "pokemon":"Tinkaton",
     "items":[
       {
-        "item":"pixelmon:silver_ingot",
+        "item":"immersiveengineering:plate_lead",
         "min":2,
         "max":4,
         "chance":1.0
       },
 	  {
-        "item":"pixelmon:platinum_ingot",
+        "item":{
+          "id":"pixelmon:platinum_hammer",
+          "Count":1,
+          "tag":{
+            "Damage":150
+          }
+        },
         "min":1,
-        "max":2,
-        "chance":0.5
+        "max":1,
+        "chance":0.7
       },
       {
-        "item":"pixelmon:diamond_hammer",
+        "item":{
+          "id":"pixelmon:dusk_stone_hammer",
+          "Count":1,
+          "tag":{
+            "Damage":150
+          }
+        },
         "min":1,
         "max":1,
         "chance":0.3
-      },
-      {
-        "item":"minecraft:netherite_hammer",
-        "min":1,
-        "max":1,
-        "chance":0.1
       }
     ]
   },
@@ -30589,17 +30613,54 @@
   {
     "pokemon":"Kingambit",
     "items":[
+
       {
-        "item":"minecraft:silver_ingot",
-        "min":2,
-        "max":4,
+          "item":{
+              "id":"tconstruct:small_blade",
+              "Count":1,
+              "tag":{
+                "Material":"tconstruct:bronze"
+              }
+            },
+          "min":1,
+          "max":2,
+          "chance":0.5
+      },
+      {
+          "item":{
+              "id":"tconstruct:large_blade",
+              "Count":1,
+              "tag":{
+                "Material":"tconstruct:brass"
+              }
+            },
+          "min":1,
+          "max":1,
+          "chance":1.0
+      },  
+      {
+        "item":{
+          "id":"immersiveengineering:sword_steel",
+          "Count":1,
+          "tag":{
+            "Damage":300
+          }
+        },
+        "min":1,
+        "max":2,
+        "chance":0.7
+      },
+      {
+        "item":"contenttweaker:platinum_nugget",
+        "min":6,
+        "max":12,
         "chance":1.0
       },
       {
-        "item":"pixelmon:platinum_ingot",
-        "min":1,
-        "max":3,
-        "chance":0.5
+        "item":"immersiveengineering:nugget_constantan",
+        "min":6,
+        "max":12,
+        "chance":0.7
       },
       {
         "item":"pixelmon:metal_coat",
@@ -30872,10 +30933,40 @@
     "pokemon":"IronThorns",
     "items":[
       {
-        "item":"minecraft:polished_andesite",
+        "item":"botania:metamorphic_mountain_stone",
         "min":2,
         "max":4,
         "chance":1.0
+      },
+      {
+        "item":"botania:metamorphic_plains_stone",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"immersiveengineering:ingot_uranium",
+        "min":1,
+        "max":3,
+        "chance":1.0
+      },
+      {
+        "item":"minecraft:glowstone_dust",
+        "min":2,
+        "max":3,
+        "chance":0.5
+      },
+      {
+        "item":"contenttweaker:zinc_ingot",
+        "min":1,
+        "max":2,
+        "chance":0.5
+      },
+      {
+        "item":"botania:terrasteel_nugget",
+        "min":8,
+        "max":12,
+        "chance":0.3
       },
       {
         "item":"pixelmon:electric_gem",

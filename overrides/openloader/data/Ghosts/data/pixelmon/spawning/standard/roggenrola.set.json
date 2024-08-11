@@ -123,7 +123,47 @@
       "anticondition": {
         "stringBiomes": [
           "ghosts",
+          "hellish",
           "end" 
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      ],
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Roggenrola",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:basalt_deltas",
+            "minecraft:crimson_forest",
+            "biomesoplenty:crystaline_chasm",
+            "byg:magma_wastes"
         ]
       },
       "rarityMultipliers": [

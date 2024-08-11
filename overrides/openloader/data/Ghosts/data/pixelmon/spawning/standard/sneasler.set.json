@@ -1,0 +1,53 @@
+{
+  "id": "Sneasler",
+  "spawnInfos": [
+    {
+      "spec": "species:Sneasler",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Sneasler",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:weeping_mire",
+          "byg:glowstone_gardens",
+          "byg:wailing_garth"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}

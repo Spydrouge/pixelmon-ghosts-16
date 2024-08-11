@@ -1,206 +1,206 @@
 {
-  "id": "Magikarp Line Fishing",
-  "spawnInfos": [
-    {
-      "spec": "species:Magikarp palette:roasted",
-      "stringLocationTypes": [
-        "Old Rod Lava",    
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 60
-    },
-    {
-      "spec": "species:Magikarp palette:roasted",
-      "stringLocationTypes": [
-        "Good Rod Lava",    
-      ],
-      "minLevel": 15,
-      "maxLevel": 24,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 60
-    },
-    {
-      "spec": "species:Magikarp palette:roasted",
-      "stringLocationTypes": [
-        "Super Rod Lava",    
-      ],
-      "minLevel": 24,
-      "maxLevel": 36,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 60
-    },
-    {
-      "spec": "species:Magikarp",
-      "stringLocationTypes": [
-        "Oas Rod"
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "rarity": 250.0,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    },
-    {
-      "spec": "species:Magikarp",
-      "stringLocationTypes": [
-        "Old Rod"
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "rarity": 250.0,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    },
-    {
-      "spec": "species:Magikarp",
-      "stringLocationTypes": [
-        "Good Rod"
-      ],
-      "minLevel": 15,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "rarity": 130.0,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    },
-    {
-      "spec": "species:Magikarp",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 15,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "rarity": 130.0,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    },
-    {
-      "spec": "species:Gyarados",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 40,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "pixelmon:ultra_crater"
-        ]
-      },
-      "rarity": 50.0
-    },
-    {
-      "spec": "species:Gyarados",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 40,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "lakes"
-        ]
-      },
-      "rarity": 5.0
-    },
-    {
-      "spec": "species:Gyarados",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 40,
-      "maxLevel": 50,
-      "spawnSpecificShinyRate": 100,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "lakes"
-        ],
-        "weathers": [
-          "STORM"
-        ]
-      },
-      "rarity": 0.1
-    },
-    {
-      "spec": "species:Magikarp palette:roasted",
-      "stringLocationTypes": [
-        "Old Rod Lava"
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "rarity": 0.01,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    },
-    {
-      "spec": "species:Magikarp palette:roasted",
-      "stringLocationTypes": [
-        "Good Rod Lava"
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "rarity": 0.01,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    },
-    {
-      "spec": "species:Magikarp palette:roasted",
-      "stringLocationTypes": [
-        "Super Rod Lava"
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "rarity": 0.01,
-      "antiCondition": {
-        "stringBiomes": [
-          "ghosts"
-        ]
-      }
-    }
-  ]
+    "id": "Magikarp Line Fishing",
+    "spawnInfos": [
+        {
+            "spec": "species:Magikarp palette:roasted",
+            "stringLocationTypes": [
+                "Old Rod Lava"
+            ],
+            "minLevel": 2,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+            "condition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 60
+        },
+        {
+            "spec": "species:Magikarp palette:roasted",
+            "stringLocationTypes": [
+                "Good Rod Lava"
+            ],
+            "minLevel": 15,
+            "maxLevel": 24,
+            "typeID": "pokemon",
+            "condition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 60
+        },
+        {
+            "spec": "species:Magikarp palette:roasted",
+            "stringLocationTypes": [
+                "Super Rod Lava"
+            ],
+            "minLevel": 24,
+            "maxLevel": 36,
+            "typeID": "pokemon",
+            "condition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 60
+        },
+        {
+            "spec": "species:Magikarp",
+            "stringLocationTypes": [
+                "Oas Rod"
+            ],
+            "minLevel": 2,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+            "rarity": 250,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        },
+        {
+            "spec": "species:Magikarp",
+            "stringLocationTypes": [
+                "Old Rod"
+            ],
+            "minLevel": 2,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+            "rarity": 250,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        },
+        {
+            "spec": "species:Magikarp",
+            "stringLocationTypes": [
+                "Good Rod"
+            ],
+            "minLevel": 15,
+            "maxLevel": 25,
+            "typeID": "pokemon",
+            "rarity": 130,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        },
+        {
+            "spec": "species:Magikarp",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 15,
+            "maxLevel": 25,
+            "typeID": "pokemon",
+            "rarity": 130,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        },
+        {
+            "spec": "species:Gyarados",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 40,
+            "typeID": "pokemon",
+            "condition": {
+                "stringBiomes": [
+                    "oceanic",
+                    "pixelmon:ultra_crater"
+                ]
+            },
+            "rarity": 50
+        },
+        {
+            "spec": "species:Gyarados",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 40,
+            "typeID": "pokemon",
+            "condition": {
+                "stringBiomes": [
+                    "lakes"
+                ]
+            },
+            "rarity": 5
+        },
+        {
+            "spec": "species:Gyarados",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 40,
+            "maxLevel": 50,
+            "spawnSpecificShinyRate": 100,
+            "typeID": "pokemon",
+            "condition": {
+                "stringBiomes": [
+                    "oceanic",
+                    "lakes"
+                ],
+                "weathers": [
+                    "STORM"
+                ]
+            },
+            "rarity": 0.1
+        },
+        {
+            "spec": "species:Magikarp palette:roasted",
+            "stringLocationTypes": [
+                "Old Rod Lava"
+            ],
+            "minLevel": 2,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+            "rarity": 0.01,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        },
+        {
+            "spec": "species:Magikarp palette:roasted",
+            "stringLocationTypes": [
+                "Good Rod Lava"
+            ],
+            "minLevel": 2,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+            "rarity": 0.01,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        },
+        {
+            "spec": "species:Magikarp palette:roasted",
+            "stringLocationTypes": [
+                "Super Rod Lava"
+            ],
+            "minLevel": 2,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+            "rarity": 0.01,
+            "antiCondition": {
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            }
+        }
+    ]
 }

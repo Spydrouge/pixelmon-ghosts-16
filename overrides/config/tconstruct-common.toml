@@ -6,7 +6,7 @@
 	#If true, tables such as the part builder and tinker station will show all variants. If false shows only a variant with a default texture.
 	showAllTableVariants = true
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = false
+	shouldSpawnWithTinkersBook = true
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
 	showOnlyToolMaterial = ""
@@ -20,7 +20,7 @@
 	witherBoneDrop = true
 	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
 	#Range: 1 ~ 45
-	smelteryNuggetsPerOre = 15
+	smelteryNuggetsPerOre = 18
 	#Makes the recipe to alloy netherite in the smeltery only cost 2 gold per netherite ingot. If false uses the vanilla rate of 4 gold per ingot. Disable if there are crafting duplications.
 	cheaperNetheriteAlloy = true
 	#Add a recipe that allows you to craft a piece of flint using 3 gravel
@@ -29,9 +29,9 @@
 	glassRecipeFix = true
 	#Number of nuggets produced when an ore block is melted in the foundry. 9 nuggets would give 1 ingot
 	#Range: 1 ~ 45
-	foundryNuggetsPerOre = 12
+	foundryNuggetsPerOre = 15
 	#Allows converting wither bones to regular bones
-	witherBoneConversion = false
+	witherBoneConversion = true
 	#Slimealls not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
 	slimeRecipeFix = true
 	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
@@ -86,7 +86,7 @@
 			#Range: 10 ~ 500
 			separation = 30
 			#If true, this island generates
-			generate = false
+			generate = true
 
 		#Options related to earth slime islands spawning in the oceans
 		[worldgen.slime_islands.earth]
@@ -118,7 +118,7 @@
 			#Range: 10 ~ 500
 			separation = 100
 			#If true, this island generates
-			generate = false
+			generate = true
 
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]

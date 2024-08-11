@@ -134,6 +134,73 @@
         ]
       },
       "rarity": 10.0
+    },
+    {
+      "spec": "species:Rapidash",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:sythian_torrids",
+          "byg:magma_wastes"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Rapidash",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Rapidash palette:drowned",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:brimestone_caverns"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Rapidash form:galarian",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:wailing_garth",
+          "byg:weeping_mire_clearing",
+          "byg:withering_woods"
+        ]
+      },
+      "rarity": 10.0
     }
   ]
 }

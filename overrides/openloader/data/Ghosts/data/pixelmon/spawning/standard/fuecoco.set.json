@@ -35,6 +35,39 @@
     {
       "spec": "species:Fuecoco",
       "stringLocationTypes": [
+        "Lava Floor",
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "byg:embur_bog"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Fuecoco",
+      "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 5,

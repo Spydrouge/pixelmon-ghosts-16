@@ -31,7 +31,9 @@
     {
       "spec": "species:Ferroseed",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Underground"
+
       ],
     
       "minLevel": 15,
@@ -48,12 +50,8 @@
         }
       ],
       "condition": {
-        "times": [
-          "DAY"
-        ],
         "stringBiomes": [
-          "redwoods",
-          "freezing forests"
+          "biomesoplenty:undergrowth"
         ]
       },
       "rarity": 130.0

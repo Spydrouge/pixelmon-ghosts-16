@@ -140,6 +140,66 @@
     {
       "spec": "species:Aggron",
       "stringLocationTypes": [
+        "Underground",
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Rock Smash"
+      ],
+      "minLevel": 24,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+         {
+          "itemID": "pixelmon:shuca_berry",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:protecter",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:bedrock",
+          "percentChance": 15
+        },
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:15}",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:withered_abyss",	
+          "biomesoplenty:visceral_heap",
+          "biomesoplenty:warped_desert"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_ore"
+            ]
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:rail"
+            ]
+          }
+        }
+          
+      ],
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Aggron",
+      "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 50,

@@ -254,7 +254,8 @@
       "anticondition": {
         "stringBiomes": [
           "drowned",
-          "ultra space"
+          "ultra space",
+          "ghosts"
         ]
       },
       "rarity": 300.0

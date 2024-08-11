@@ -43,7 +43,6 @@
       "condition": {
         "stringBiomes": [
             "beaches",
-            "hellish",
             "oceanic",
             "lakes"
         ],
@@ -107,7 +106,6 @@
       "condition": {
         "stringBiomes": [
             "beaches",
-            "hellish",
             "oceanic",
             "lakes"
         ],
@@ -141,13 +139,13 @@
       ],
       "condition": {
         "stringBiomes": [
-          "hellish"
+          "biomesoplenty:visceral_heap"
         ]
       },
-      "rarity": 10
+      "rarity": 2.5
     },
     {
-      "spec": "species:Dugtrio form:base palette:pink",
+      "spec": "species:Dugtrio form:alolan palette:pink",
       "stringLocationTypes": [
         "Underground"
       ],
@@ -162,10 +160,52 @@
       ],
        "condition": {
         "stringBiomes": [
-          "hellish"
+          "biomesoplenty:visceral_heap"
         ]
       },
-      "rarity": 10
+      "rarity": 2.6
+    },
+    {
+      "spec": "species:Dugtrio form:base",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 2.5
+    },
+    {
+      "spec": "species:Dugtrio form:alolan",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+       "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 2.6
     }
   ]
 }

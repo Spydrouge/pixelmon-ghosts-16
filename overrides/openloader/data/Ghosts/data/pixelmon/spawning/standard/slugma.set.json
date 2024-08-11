@@ -44,12 +44,61 @@
           "biomesoplenty:volcanic_plains"
         ]
       },
+        "anticondition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
       "rarity": 130.0
     },
     {
       "spec": "species:Slugma",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "minecraft:lava"
+        ],
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal",
+          "byg:quartz_desert",
+          "byg:brimstone_caverns",
+          "biomesoplenty:crystaline_chasm",
+          "byg:weeping_mire",
+         "byg:weeping_mire_clearing",
+          "byg:weeping_mire_forest",
+          "biomesoplenty:crystaline_chasm",
+          "biomesoplenty:viceral_heap",
+          "byg:sythian_torrids",
+            "byg:glowstone_gardens",
+            "byg:embur_bog",
+            "minecraft:crimson_forest",
+            "minecraft:warped_forest",
+            "minecraft:crimson_garden"
+            
+        ]
+      },
+      "rarity": 240.0
+    },
+    {
+      "spec": "species:Slugma palette:calcium_carbonate",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
       ],
       "minLevel": 5,
       "maxLevel": 37,
@@ -59,15 +108,186 @@
           "lava"
         ],
         "stringBiomes": [
-          "hellish"
+            "minecraft:crimson_forest",
+            "minecraft:crimson_garden"
+            
         ]
       },
-      "anticondition": {
+      "rarity": 240.0
+    },
+    {
+      "spec": "species:Slugma palette:calcium_carbonate",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "tconstruct:magma_fluid"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Slugma palette:calcium_carbonate",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+            "hellish"
+        ],
+        "neededNearbyBlocks": [
+          "tconstruct:magma_fluid"
+        ]
+      },
+      "rarity": 240.0
+    },
+    {
+      "spec": "species:Slugma palette:sodium_carbonate",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "stringBiomes": [
+          "byg:sythian_torrids",
+            "byg:glowstone_gardens",
+            "byg:embur_bog"
+            
+        ]
+      },
+      "rarity": 240.0
+    },
+    {
+      "spec": "species:Slugma palette:lithium_chloride",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "stringBiomes": [
+          "biomesoplenty:crystaline_chasm",
+          "biomesoplenty:viceral_heap"
+            
+        ]
+      },
+      "rarity": 240.0
+    },
+    {
+      "spec": "species:Slugma palette:potassium_chloride",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "stringBiomes": [
+          "byg:weeping_mire",
+         "byg:weeping_mire_clearing",
+          "byg:weeping_mire_forest"
+            
+        ]
+      },
+      "rarity": 240.0
+    },
+     {
+      "spec": "species:Slugma palette:cupric_chloride",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "stringBiomes": [
+          "byg:brimstone_caverns",
+          "minecraft:warped_forest"
+        ]
+      },
+      "rarity": 240.0
+    },
+     {
+      "spec": "species:Slugma palette:copper_sulfate",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
         "stringBiomes": [
           "byg:subzero_hypogeal"
         ]
       },
-      "rarity": 130.0
+      "rarity": 240.0
+    },
+    {
+      "spec": "species:Slugma palette:magnesium_sulfide",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "lava"
+        ],
+        "stringBiomes": [
+          "byg:quartz_desert"
+        ]
+      },
+      "rarity": 240.0
     },
     {
       "spec": "species:Slugma",

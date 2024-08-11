@@ -65,7 +65,8 @@
       "typeID": "pokemon",
       "anticondition": {
         "stringBiomes": [
-          "drowned"
+          "drowned",
+          "ghosts"
         ]
       },
       "rarity": 100.0

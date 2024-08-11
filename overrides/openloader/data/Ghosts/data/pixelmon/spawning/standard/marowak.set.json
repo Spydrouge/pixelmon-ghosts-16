@@ -49,6 +49,35 @@
       "rarity": 20.0
     },
     {
+      "spec": "species:Marowak form:alolan",
+      "stringLocationTypes": [
+        "Underground",
+        "Indoors",
+        "Manmade",
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+    "heldItems": [
+        {
+          "itemID": "pixelmon:thick_club",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley",
+            "biomesoplenty:withered_abyss",
+            "byg:embur_bog",
+          "byg:magma_wastes",
+         "byg:quartz_desert"
+            
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
       "spec": "species:Marowak",
       "stringLocationTypes": [
         "Land"

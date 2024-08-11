@@ -120,6 +120,31 @@
         ]
       },
       "rarity": 1.0
+    },
+     {
+      "spec": "species:Weezing",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:brimstone_caverns",
+          "byg:embur_bog"
+        ]
+      },
+      "rarity": 60.0
     }
   ]
 }

@@ -31,6 +31,30 @@
     {
       "spec": "species:Honchkrow",
       "stringLocationTypes": [
+        "Air",
+        "Underground",
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Sweet Scent",
+        "Headbutt"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:weeping_mire",	
+            "byg:weeping_mire_clearing",	
+            "byg:weeping_mire_forest",	
+            "byg:withering_woods"
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": "species:Honchkrow",
+      "stringLocationTypes": [
         "Land",
         "Manmade"
       ],
@@ -91,6 +115,39 @@
         }
       ],
       "rarity": 0.5
+    },
+    {
+      "spec": "species:Honchkrow",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 2.0
+    },
+    {
+      "spec": "species:Honchkrow",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+         "structures": [
+          "minecraft:nether_fortress",
+          "minecraft:bastion_remnant"
+        ]
+      },
+      "rarity": 1.0
     }
   ]
 }

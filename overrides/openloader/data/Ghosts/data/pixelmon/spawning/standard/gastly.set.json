@@ -63,14 +63,24 @@
     {
       "spec": "species:Gastly",
       "stringLocationTypes": [
-        "Land"
+        "Underground",
+        "Land",
+        "Manmade",
+        "Indoors"
       ],
       "minLevel": 8,
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
         "stringBiomes": [
-          "hellish"
+          "minecraft:soul_sand_valley",
+          "biomesoplenty:withered_abyss",
+          "byg:weeping_mire_forest",
+          "byg:weeping_mire_clearing",
+          "byg:weeping_mire",
+          "byg:withering_woods",
+          "byg:warped_desert",
+          "biomesoplenty:crystaline_chasm"
         ]
       },
       "rarity": 130.0
@@ -95,7 +105,8 @@
       "anticondition": {
         "stringBiomes": [
           "ultra space",
-          "ghosts"
+          "ghosts",
+          "hellish"
         ]
       },
       "rarityMultipliers": [

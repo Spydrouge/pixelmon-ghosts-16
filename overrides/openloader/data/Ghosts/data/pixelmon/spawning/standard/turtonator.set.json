@@ -1,0 +1,105 @@
+{
+  "id": "Turtonator",
+  "spawnInfos": [
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:badlands_plateau",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "neededNearbyBlocks": [
+          "minecraft:lava"
+        ],
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:magma_wastes"
+        ]
+      },
+      "rarity": 12.0
+    },
+    {
+      "spec": "species:Turtonator",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "hellish",
+          "mesas"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

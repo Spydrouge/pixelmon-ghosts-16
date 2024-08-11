@@ -9,7 +9,7 @@
       "item": "pixelmon:sky_tumblestone"
     },
     "#": {
-      "item": "forge:ingots/electrum"
+      "tag": "forge:ingots/electrum"
     }
   },
   "result": {

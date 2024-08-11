@@ -1,0 +1,206 @@
+Entity: Ninetales [registry name: pixelmon:pixelmon] (entityId: 462336)
+Entity class: com.pixelmonmod.pixelmon.entities.pixelmon.PixelmonEntity
+
+
+[TAG_Compound (79 values)] 
+{
+    [TAG_String] "Ability": "FlashFire"
+    [TAG_Float] "AbsorptionAmount": 0.0
+    [TAG_Int] "Age": 0
+    [TAG_Byte] "Aggression": 0
+    [TAG_Short] "Air": 300
+    [TAG_List (4 values of type TAG_Float)] "ArmorDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (4 values of type TAG_Compound)] "ArmorItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_List (5 values of type TAG_Compound)] "Attributes"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.6091120346151494
+            [TAG_String] "Name": "minecraft:horse.jump_strength"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.4935897435897436
+            [TAG_String] "Name": "minecraft:generic.movement_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 99.0
+            [TAG_String] "Name": "minecraft:generic.max_health"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.08
+            [TAG_String] "Name": "forge:entity_gravity"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 5.0
+            [TAG_String] "Name": "forge:swim_speed"
+        }
+    ]
+    [TAG_String] "BossTier": "notboss"
+    [TAG_Compound (1 values)] "Brain"
+    {
+        [TAG_Compound (0 values)] "memories"
+        {
+        }
+    }
+    [TAG_Byte] "Bred": 0
+    [TAG_Byte] "CanPickUpLoot": 0
+    [TAG_Byte] "CanUpdate": 1
+    [TAG_String] "CaughtBall": "poke_ball"
+    [TAG_Short] "DeathTime": 0
+    [TAG_Byte] "DoesLevel": 1
+    [TAG_Int] "DynamaxLevel": 0
+    [TAG_Short] "EVAttack": 0
+    [TAG_Short] "EVDefense": 0
+    [TAG_Short] "EVHP": 0
+    [TAG_Short] "EVSpecialAttack": 0
+    [TAG_Short] "EVSpecialDefense": 0
+    [TAG_Short] "EVSpeed": 0
+    [TAG_Int] "EXP": 0
+    [TAG_Byte] "EatingHaystack": 0
+    [TAG_Float] "FallDistance": 0.0
+    [TAG_Byte] "FallFlying": 0
+    [TAG_Short] "Fire": -1
+    [TAG_Int] "ForcedAge": 0
+    [TAG_Compound (0 values)] "ForgeCaps"
+    {
+    }
+    [TAG_Short] "Friendship": 0
+    [TAG_Byte] "Gender": 1
+    [TAG_Byte] "GigantamaxFactor": 0
+    [TAG_Byte] "Growth": 3
+    [TAG_List (2 values of type TAG_Float)] "HandDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (2 values of type TAG_Compound)] "HandItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_Int] "Health": 99
+    [TAG_Compound (2 values)] "HeldItemStack"
+    {
+        [TAG_Byte] "Count": 1
+        [TAG_String] "id": "pixelmon:aspear_berry"
+    }
+    [TAG_Int] "HurtByTimestamp": 0
+    [TAG_Short] "HurtTime": 0
+    [TAG_Byte] "IVAttack": 21
+    [TAG_Byte] "IVDefense": 22
+    [TAG_Byte] "IVHP": 3
+    [TAG_Byte] "IVSpAtt": 27
+    [TAG_Byte] "IVSpDef": 12
+    [TAG_Byte] "IVSpeed": 5
+    [TAG_Int] "InLove": 0
+    [TAG_Byte] "Invulnerable": 0
+    [TAG_Byte] "LeftHanded": 0
+    [TAG_Int] "Level": 36
+    [TAG_List (3 values of type TAG_Double)] "Motion"
+    [
+        [TAG_Double] : 0.0
+        [TAG_Double] : -0.0784000015258789
+        [TAG_Double] : 0.0
+    ]
+    [TAG_List (4 values of type TAG_Compound)] "Moveset"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Safeguard"
+            [TAG_Byte] "MovePP": 25
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Spite"
+            [TAG_Byte] "MovePP": 10
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Tail Whip"
+            [TAG_Byte] "MovePP": 30
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "MoveID": "Will-O-Wisp"
+            [TAG_Byte] "MovePP": 15
+        }
+    ]
+    [TAG_Byte] "NBT_VERSION": 2
+    [TAG_Byte] "Nature": 18
+    [TAG_Byte] "OnGround": 1
+    [TAG_Int] "PAbilitySlot": 0
+    [TAG_Byte] "PHiddenAbility": 0
+    [TAG_Byte] "PersistenceRequired": 0
+    [TAG_Compound (0 values)] "PersistentData"
+    {
+    }
+    [TAG_Int] "PortalCooldown": 0
+    [TAG_List (3 values of type TAG_Double)] "Pos"
+    [
+        [TAG_Double] : 8290.069116090965
+        [TAG_Double] : 194.0
+        [TAG_Double] : -25.12327616748454
+    ]
+    [TAG_List (0 values of type ?)] "RelrnMoves"
+    [
+    ]
+    [TAG_List (2 values of type TAG_Float)] "Rotation"
+    [
+        [TAG_Float] : 123.397415
+        [TAG_Float] : 0.0
+    ]
+    [TAG_List (0 values of type ?)] "SpecFlags"
+    [
+    ]
+    [TAG_Short] "StatsAttack": 67
+    [TAG_Short] "StatsDefense": 59
+    [TAG_Short] "StatsHP": 99
+    [TAG_Short] "StatsSpecialAttack": 80
+    [TAG_Short] "StatsSpecialDefense": 81
+    [TAG_Short] "StatsSpeed": 78
+    [TAG_Byte] "Tame": 0
+    [TAG_Int] "Temper": 0
+    [TAG_Int_Array (4 entries)] "UUID"
+    [
+          0: 0xAE73725E (-1368165794)
+          1: 0x41AA444E (1101677646)
+          2: 0xAFB577F5 (-1347061771)
+          3: 0x1D5FCA7D (492817021)
+    ]
+    [TAG_String] "Variant": ""
+    [TAG_Int] "eggCycles": -1
+    [TAG_Int] "ndex": 38
+    [TAG_String] "palette": "none"
+    [TAG_Byte] "pixelmonType": 0
+    [TAG_List (0 values of type ?)] "ribbons2"
+    [
+    ]
+}

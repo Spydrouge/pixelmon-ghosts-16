@@ -4,6 +4,87 @@
     {
       "spec": "species:Dusclops",
       "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 38,
+      "maxLevel": 51,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+          "byg:warped_desert",
+          "byg:subzero_hypogeal",
+          "byg:sythian_torrids",
+          "byg:brimstone_caverns",
+          "byg:quartz_desert",
+          "byg:withering_woods"
+        ]
+      },
+      "rarity": 12.0
+    },
+    {
+      "spec": "species:Dusclops",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 38,
+      "maxLevel": 51,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+          "byg:warped_desert",
+          "byg:subzero_hypogeal",
+          "byg:sythian_torrids",
+          "byg:brimstone_caverns",
+          "byg:quartz_desert",
+          "byg:withering_woods"
+        ]
+      },
+       "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Dusclops",
+      "stringLocationTypes": [
         "Manmade"
       ],
       "minLevel": 38,

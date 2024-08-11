@@ -2286,5 +2286,39 @@
 				item: "minecraft:grass_block"
 			}]
 		}
+		{
+			title: "Dealing with Slugma"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/218_slugma/all/base/none/sprite.png"
+				}
+			}
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"Slugma is both a boon and an irritant in the Nether. It will spawn only where there is lava but, this being the nether, there is quite a lot of lava everywhere."
+				""
+				"Because it can outcompete other Pokemon whenever their is lava, the key to creating a good spawning area for other types of Pokemon is to plug up the lava waterfalls that pour from the ceiling, and fill in any small pools from the bottom up."
+				""
+			]
+			dependencies: [
+				"72323BB863524756"
+				"6D2E37EFD10FB7B2"
+			]
+			hide: true
+			id: "001EC218C49B8F6F"
+			tasks: [{
+				id: "362A212E9B4686A0"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "793FECD5202FC504"
+				type: "item"
+				item: "pixelmon:fire_stone_shard"
+			}]
+		}
 	]
 }

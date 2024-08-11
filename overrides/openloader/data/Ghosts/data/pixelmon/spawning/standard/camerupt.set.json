@@ -1,0 +1,103 @@
+{
+  "id": "Camerupt",
+  "spawnInfos": [
+    {
+      "spec": "species:Camerupt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "arid",
+          "minecraft:badlands",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "anticondition": {
+            "stringBiomes": [
+              "ghosts",
+              "hellish",
+              "end"
+            ]
+          },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:dead_bush"
+            ]
+          }
+        }
+      ],
+      "rarity": 8.0
+    },
+     {
+      "spec": "species:Camerupt",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley",
+            "byg:sythian_torrids",
+            "byg:embur_bog",
+            "byg:magma_wastes"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Camerupt",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",
+            "minecraft:basalt_deltas",
+            "byg:warped_desert",
+            "byg:brimstone_caverns",
+            "byg:quartz_desert"
+        ]
+      },
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Camerupt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 50.0
+    }
+  ]
+}

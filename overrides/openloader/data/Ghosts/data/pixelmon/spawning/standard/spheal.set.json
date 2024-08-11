@@ -4,7 +4,9 @@
      {
       "spec": "species:Spheal palette:loveball",
       "stringLocationTypes": [
-        "Water"
+        "Water",
+        "Surface Water",
+        "Seafloor"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -21,7 +23,9 @@
       {
       "spec": "species:Spheal palette:friendball",
       "stringLocationTypes": [
-        "Water"
+        "Water",
+        "Surface Water",
+        "Seafloor"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -38,7 +42,9 @@
      {
       "spec": "species:Spheal palette:moonball",
       "stringLocationTypes": [
-        "Water"
+        "Water",
+        "Surface Water",
+        "Seafloor"
       ],
       "minLevel": 2,
       "maxLevel": 6,
@@ -55,7 +61,9 @@
      {
       "spec": "species:Spheal palette:premierball",
       "stringLocationTypes": [
-        "Water"
+        "Water",
+        "Surface Water",
+        "Seafloor"
       ],
       "minLevel": 2,
       "maxLevel": 6,

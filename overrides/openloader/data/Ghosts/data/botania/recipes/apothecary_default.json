@@ -11,10 +11,10 @@
       "tag": "botania:petals"
     },
     "S": {
-      "item": "botania:metamorphic_fungal_cobblestone_slab"
+      "tag": "forge:cobblestone_slab"
     },
     "C": {
-      "tag": "botania:metamorphic_fungal_cobblestone"
+      "tag": "forge:cobblestone"
     }
   },
   "result": {

@@ -101,6 +101,26 @@
           "ghosts"
         ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Horsea",
+          "amount": {
+            "min_value": 1,
+            "max_value": 3
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
       "rarity": 10.0
     }
   ]

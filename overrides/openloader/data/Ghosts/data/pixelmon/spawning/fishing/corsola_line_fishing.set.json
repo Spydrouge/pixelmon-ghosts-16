@@ -1,290 +1,291 @@
 {
-  "id": "Corsola Line Fishing",
-  "spawnInfos": [
-    {
-      "spec": "species:Corsola",
-      "stringLocationTypes": [
-        "Old Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-           {
-          "itemID": "pixelmon:rindo_berry",
-          "percentChance": 25
+    "id": "Corsola Line Fishing",
+    "spawnInfos": [
+        {
+            "spec": "species:Corsola",
+            "stringLocationTypes": [
+                "Old Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:rindo_berry",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 20
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 20.0
-    },
-    {
-      "spec": "species:Corsola form:galarian",
-      "stringLocationTypes": [
-        "Old Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 25
+            "spec": "species:Corsola form:galarian",
+            "stringLocationTypes": [
+                "Old Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:float_stone",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 20
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-           "ghosts"
-        ]
-      },
-      "rarity": 20.0
-    },
-     {
-      "spec": "species:Corsola",
-      "stringLocationTypes": [
-        "Good Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-           {
-          "itemID": "pixelmon:rindo_berry",
-          "percentChance": 25
+            "spec": "species:Corsola",
+            "stringLocationTypes": [
+                "Good Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:rindo_berry",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 40
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 40.0
-    },
-    {
-      "spec": "species:Corsola form:galarian",
-      "stringLocationTypes": [
-        "Good Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 25
+            "spec": "species:Corsola form:galarian",
+            "stringLocationTypes": [
+                "Good Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:float_stone",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 40
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-           "ghosts"
-        ]
-      },
-      "rarity": 40.0
-    },
-    {
-      "spec": "species:Corsola",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-           {
-          "itemID": "pixelmon:rindo_berry",
-          "percentChance": 25
+            "spec": "species:Corsola",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:rindo_berry",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 90
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 90.0
-    },
-    {
-      "spec": "species:Corsola form:galarian",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 30,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 25
+            "spec": "species:Corsola form:galarian",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 30,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:float_stone",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 90
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-           "ghosts"
-        ]
-      },
-      "rarity": 90.0
-    },
-     {
-      "spec": "species:Cursola",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 36,
-      "maxLevel": 55,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 25
+            "spec": "species:Cursola",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 36,
+            "maxLevel": 55,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:float_stone",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "maxY": 64,
+                "minY": 32,
+                "stringBiomes": [
+                    "ghosts"
+                ]
+            },
+            "rarity": 5
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-          "maxY": 64,
-        "minY": 32,
-        "stringBiomes": [
-           "ghosts"
-        ]
-      },
-      "rarity": 5.0
-    }
-    {
-      "spec": "species:Corsola",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 18,
-      "maxLevel": 34,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:rindo_berry",
-          "percentChance": 25
-        },{
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-        "times": [
-          "DAY"
-        ],
-        "stringBiomes": [
-          "minecraft:warm_ocean",
-          "minecraft:lukewarm_ocean",
-          "byg:coral_mangroves",
-          "beaches",
-          "pixelmon:ultra_desert"
-        ]
-      },
-      "anticondition": {
-        "stringBiomes": [
-          "freezing"
-        ]
-      },
-      "rarity": 9.0
-    },
-    {
-      "spec": "species:Corsola form:galarian",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 18,
-      "maxLevel": 34,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 25
+            "spec": "species:Corsola",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 18,
+            "maxLevel": 34,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:rindo_berry",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "times": [
+                    "DAY"
+                ],
+                "stringBiomes": [
+                    "minecraft:warm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "byg:coral_mangroves",
+                    "beaches",
+                    "pixelmon:ultra_desert"
+                ]
+            },
+            "anticondition": {
+                "stringBiomes": [
+                    "freezing"
+                ]
+            },
+            "rarity": 9
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
-        }
-      ],
-      "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches",
-          "pixelmon:ultra_desert"
-        ]
-      },
-      "rarity": 9.0
-    },
-    {
-      "spec": "species:Cursola",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 34,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 25
+            "spec": "species:Corsola form:galarian",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 18,
+            "maxLevel": 34,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:float_stone",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "times": [
+                    "NIGHT"
+                ],
+                "stringBiomes": [
+                    "oceanic",
+                    "beaches",
+                    "pixelmon:ultra_desert"
+                ]
+            },
+            "rarity": 9
         },
         {
-          "itemID": "pixelmon:luminous_moss",
-          "percentChance": 25
+            "spec": "species:Cursola",
+            "stringLocationTypes": [
+                "Super Rod"
+            ],
+            "minLevel": 34,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:float_stone",
+                    "percentChance": 25
+                },
+                {
+                    "itemID": "pixelmon:luminous_moss",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "times": [
+                    "NIGHT"
+                ],
+                "stringBiomes": [
+                    "oceanic",
+                    "beaches",
+                    "pixelmon:ultra_desert"
+                ]
+            },
+            "rarity": 0.5
         }
-      ],
-      "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches",
-          "pixelmon:ultra_desert"
-        ]
-      },
-      "rarity": 0.5
-    }
-  ]
+    ]
 }

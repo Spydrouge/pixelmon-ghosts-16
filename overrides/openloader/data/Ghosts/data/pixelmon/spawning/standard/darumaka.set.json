@@ -112,6 +112,38 @@
         ]
       },
       "rarity": 25.0
+    },
+    {
+      "spec": "species:Darumaka",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Darumaka form:galarian",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal"
+        ]
+      },
+      "rarity": 25.0
     }
   ]
 }

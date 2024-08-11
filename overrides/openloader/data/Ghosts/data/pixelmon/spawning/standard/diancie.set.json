@@ -94,7 +94,197 @@
           "thermal:sulfur_block"
         ]
       },
-      "rarity": 0.5
+      "rarity": 1
+    },
+    {
+      "spec": "species:Diancie",
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:babiri_berry",
+          "percentChance": 100
+        }
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:crystaline_chasm"
+        ],
+         "baseBlocks":[
+            "minecraft:quartz_block",
+          "botania:mana_quartz",
+          "botania:red_quartz",
+          "botania:blaze_quartz",
+          "botania:lavendar_quartz",
+          "botania:sunny_quartz",
+          "botania:dark_quartz",
+
+          "minecraft:quartz_bricks",
+          "minecraft:quartz_pillar",
+          "minecraft:smooth_quartz",
+          "minecraft:chiseled_quartz_block",
+
+          "botania:chiseled_mana_quartz",
+          "botania:chiseled_red_quartz",
+          "botania:chiseled_blaze_quartz",
+          "botania:chiseled_lavendar_quartz",
+          "botania:chiseled_sunny_quartz",
+          "botania:chiseled_dark_quartz",
+
+           "botania:mana_quartz_pillar",
+          "botania:red_quartz_pillar",
+          "botania:blaze_quartz_pillar",
+          "botania:lavendar_quartz_pillar",
+          "botania:sunny_quartz_pillar",
+          "botania:dark_quartz_pillar",
+
+          "biomesoplenty:nether_crystal_block",
+          "byg:subzero_crystal_block",
+
+          "pixelmon:crystal_block",
+          "pixelmon:amethyst_block",
+          "pixelmon:ultra_deep_crystal",
+          "pixelmon:ultra_deep_crying_crystal",
+            
+          "thermal:cinnabar_block",
+          "thermal:apatite_block",
+          "thermal:niter_block",
+          "thermal:sulfur_block"
+        ]
+      },
+      "rarity": 5
+    },
+    {
+      "spec": "species:Diancie",
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:babiri_berry",
+          "percentChance": 100
+        }
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:quart_desert"
+        ],
+         "baseBlocks":[
+            "minecraft:quartz_block",
+          "botania:mana_quartz",
+          "botania:red_quartz",
+          "botania:blaze_quartz",
+          "botania:lavendar_quartz",
+          "botania:sunny_quartz",
+          "botania:dark_quartz",
+
+          "minecraft:quartz_bricks",
+          "minecraft:quartz_pillar",
+          "minecraft:smooth_quartz",
+          "minecraft:chiseled_quartz_block",
+
+          "botania:chiseled_mana_quartz",
+          "botania:chiseled_red_quartz",
+          "botania:chiseled_blaze_quartz",
+          "botania:chiseled_lavendar_quartz",
+          "botania:chiseled_sunny_quartz",
+          "botania:chiseled_dark_quartz",
+
+           "botania:mana_quartz_pillar",
+          "botania:red_quartz_pillar",
+          "botania:blaze_quartz_pillar",
+          "botania:lavendar_quartz_pillar",
+          "botania:sunny_quartz_pillar",
+          "botania:dark_quartz_pillar",
+
+          "biomesoplenty:nether_crystal_block",
+          "byg:subzero_crystal_block",
+
+          "pixelmon:crystal_block",
+          "pixelmon:amethyst_block",
+          "pixelmon:ultra_deep_crystal",
+          "pixelmon:ultra_deep_crying_crystal",
+            
+          "thermal:cinnabar_block",
+          "thermal:apatite_block",
+          "thermal:niter_block",
+          "thermal:sulfur_block"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Diancie",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:babiri_berry",
+          "percentChance": 100
+        }
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:crystaline_chasm"
+        ]
+      },
+      "rarity": 5
+    },
+    {
+      "spec": "species:Diancie",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:babiri_berry",
+          "percentChance": 100
+        }
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert"
+        ]
+      },
+      "rarity": 1
     }
   ]
 }

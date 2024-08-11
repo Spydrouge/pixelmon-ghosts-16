@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "bbb",
-    "brb",
-    "bbb"
+    "nnn",
+    "nrn",
+    "nnn"
   ],
   "key": {
     "r": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:redstone_block"
     },
     "n": {
       "item": "minecraft:note_block"

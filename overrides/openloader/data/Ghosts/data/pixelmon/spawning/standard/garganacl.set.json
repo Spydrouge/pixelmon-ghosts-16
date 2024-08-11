@@ -123,6 +123,29 @@
         "maxY": 64
       },
       "rarity": 1.0
+    },
+    {
+      "spec": "species:Garganacl",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert"
+        ]
+      },
+      "rarity": 1.0
     }
   ]
 }

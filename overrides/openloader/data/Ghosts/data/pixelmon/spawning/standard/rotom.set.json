@@ -178,6 +178,29 @@
       "rarity": 30
     },
     {
+      "spec": "species:Rotom form:base",
+      "stringLocationTypes": [
+        "Land",
+          "Underground",
+          "Indoors",
+          "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "hellish"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:glowstone"
+            ]
+      },
+      "rarity": 120
+    },
+    {
       "spec": "species:Rotom",
       "stringLocationTypes": [
         "Indoors",

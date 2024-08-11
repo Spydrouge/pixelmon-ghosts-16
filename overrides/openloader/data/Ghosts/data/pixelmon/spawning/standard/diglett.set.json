@@ -45,7 +45,6 @@
       "condition": {
         "stringBiomes": [
             "beaches",
-            "hellish",
             "oceanic",
             "lakes"
         ],
@@ -109,7 +108,6 @@
       "condition": {
         "stringBiomes": [
             "beaches",
-            "hellish",
             "oceanic",
             "lakes"
         ],
@@ -130,6 +128,7 @@
     {
       "spec": "species:Diglett form:base palette:pink",
       "stringLocationTypes": [
+        "Underground",
         "Land"
       ],
       "minLevel": 10,
@@ -143,15 +142,16 @@
       ],
       "condition": {
         "stringBiomes": [
-          "hellish"
+          "biomesoplenty:viceral_heap"
         ]
       },
-      "rarity": 10
+      "rarity": 25
     },
     {
-      "spec": "species:Diglett form:base palette:pink",
+      "spec": "species:Diglett form:alolan palette:pink",
       "stringLocationTypes": [
-        "Underground"
+        "Underground",
+        "Land"
       ],
       "minLevel": 10,
       "maxLevel": 26,
@@ -164,10 +164,54 @@
       ],
       "condition": {
         "stringBiomes": [
-          "hellish"
+          "biomesoplenty:viceral_heap"
         ]
       },
-      "rarity": 10
+      "rarity": 25
+    },
+    {
+      "spec": "species:Diglett form:base",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 25
+    },
+    {
+      "spec": "species:Diglett form:alolan",
+      "stringLocationTypes": [
+         "Underground",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 25
     }
   ]
 }

@@ -20,6 +20,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+        "minY":164,
+        "maxY":224,
         "stringBiomes": [
           "ghosts"
         ]

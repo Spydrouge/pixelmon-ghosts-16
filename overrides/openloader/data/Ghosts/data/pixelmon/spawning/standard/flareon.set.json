@@ -1,0 +1,99 @@
+{
+  "id": "Flareon",
+  "spawnInfos": [
+    {
+      "spec": "species:Flareon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Flareon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Flareon palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Flareon",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lustrous_globe",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:sythian_torrids"
+        ]
+      },
+      "rarity": 5
+    }
+  ]
+}

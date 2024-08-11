@@ -1,7 +1,7 @@
 {
   "type": "ceramics:kiln",
   "ingredient": {
-    "tag": "minecraft:soul_sand"
+    "item": "minecraft:soul_sand"
   },
   "result": "tconstruct:soul_glass",
   "experience": 0.3,

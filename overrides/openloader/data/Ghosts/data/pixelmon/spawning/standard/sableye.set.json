@@ -163,7 +163,6 @@
       ],
       "condition": {
         "stringBiomes": [
-          "hellish",
           "pixelmon:ultra_deep_sea"
         ]
       },
@@ -189,6 +188,92 @@
         ]
       },
       "rarity": 20.0
+    },
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:crystaline_chasm",
+          "byg:weeping_mire",
+          "byg:weeping_mire_clearing",
+          "byg:weeping_mire_forest",
+          "biomesoplenty:withered_abyss",
+          "minecraft:basalt_deltas",
+          "byg:quartz_desert",
+          "byg:wailing_garth"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Sableye palette:drowned",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:withering_woods",
+            "byg:brimstone_caverns",
+            "byg:warped_desert",
+            "minecraft:warped_forest",
+            "byg:crimson_gardens",
+            "biomesoplenty:undergrowth",
+            "byg:quartz_desert"
+            
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Sableye palette:zombie",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",
+            "biomesoplenty:visceral_heap",
+            "biomesoplenty:crystaline_chasm",
+            "minecraft:crimson_forest",
+            "byg:quartz_desert",
+            "biomesoplenty:crystaline_chasm"
+            
+        ]
+      },
+      "rarity": 30.0
     }
   ]
 }

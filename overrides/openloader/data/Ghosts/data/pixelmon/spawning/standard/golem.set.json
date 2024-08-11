@@ -153,6 +153,77 @@
       "spec": "species:Golem",
       "stringLocationTypes": [
         "Land",
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:10}",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:black_augurite",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:everstone",
+          "percentChance": 10
+        }
+      ],
+       "condition": {
+
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "anticondition":{
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Golem form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 37,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:iron_ball",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:tr_gen8",
+          "nbt": "{tm:52}",
+          "percentChance": 50
+        }
+      ],
+       "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:undergrowth"
+        ],
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Golem",
+      "stringLocationTypes": [
+        "Land",
         "Rock Smash"
       ],
       "minLevel": 37,

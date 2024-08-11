@@ -143,6 +143,67 @@
       "spec": "species:Graveler",
       "stringLocationTypes": [
         "Land",
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:black_augurite",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+
+        "stringBiomes": [
+          "byg:quartz_desert",
+        "biomesoplenty:undergrowth"
+        ]
+      },
+      "anticondition":{
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Graveler form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Rock Smash"
+      ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+        "biomesoplenty:undergrowth"
+        ],
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Graveler",
+      "stringLocationTypes": [
+        "Land",
         "Rock Smash"
       ],
       "minLevel": 25,

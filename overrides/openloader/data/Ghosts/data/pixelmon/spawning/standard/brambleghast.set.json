@@ -97,6 +97,26 @@
         ]
       },
       "rarity": 0.1
+    },
+    {
+      "spec": "species:Brambleghast",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Treetops",
+        "Headbutt"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth",
+          "byg:warped_desert",
+          "byg:quartz_desert"
+        ]
+      },
+      "rarity": 10
     }
   ]
 }

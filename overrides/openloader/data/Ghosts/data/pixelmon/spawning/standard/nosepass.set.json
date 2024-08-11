@@ -72,10 +72,37 @@
       "anticondition": {
         "stringBiomes": [
           "ghosts",
-          "end"
+          "end",
+          "hellish"
         ]
       },
       "rarity": 1.0
+    },
+    {
+      "spec": "species:Nosepass",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magnet",
+          "percentChance": 5
+        }
+      ],
+
+      "condition": {
+        "stringBiomes": [
+          "minecraft:basalt_deltas",
+          "byg:warped_desert",
+          "biomesoplenty:withered_abyss"
+            
+        ]
+      },
+      "rarity": 30.0
     },
     {
       "spec": "species:Nosepass",

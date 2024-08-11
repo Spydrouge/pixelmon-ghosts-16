@@ -2,7 +2,7 @@
   "type": "pixelmon:infuser",
   "ingredients": [
     {
-      "item": "pixelmon:milcery_sweet",
+      "tag": "pixelmon:milcery_sweet",
       "count": 1
     },
     {

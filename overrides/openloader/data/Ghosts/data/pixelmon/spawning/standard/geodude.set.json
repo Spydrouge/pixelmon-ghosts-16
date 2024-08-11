@@ -68,6 +68,62 @@
       },
       "rarity": 120.0
     },
+     {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+        "biomesoplenty:undergrowth"
+        ]
+      },
+      "anticondition":{
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 120.0
+    },
+     {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:undergrowth"
+        ],
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 120.0
+    },
     {
       "spec": "species:Geodude form:alolan",
       "stringLocationTypes": [
@@ -80,7 +136,7 @@
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:ever_stone",
+          "itemID": "pixelmon:cell_battery",
           "percentChance": 5
         }
       ],
@@ -161,6 +217,7 @@
         "anticondition": {
             "stringBiomes": [
               "ghosts",
+              "hellish",
               "minecraft:gravelly_mountains",
               "minecraft:shattered_savanna",
               "minecraft:shattered_savanna_plateau",

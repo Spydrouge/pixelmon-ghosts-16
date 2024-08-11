@@ -4,6 +4,22 @@
     {
       "spec": "species:Pincurchin",
       "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:glowstone_gardens"
+        ]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Pincurchin",
+      "stringLocationTypes": [
         "Underground Water"
       ],
       "minLevel": 20,

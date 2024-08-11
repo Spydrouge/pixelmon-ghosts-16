@@ -57,7 +57,7 @@
       "stringLocationTypes": [
         "Underground"
       ],
-      "minLevel": 10,
+      "minLevel": 35,
       "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
@@ -72,10 +72,37 @@
       "anticondition": {
         "stringBiomes": [
           "ghosts",
-          "end"
+          "end",
+          "hellish"
         ]
       },
       "rarity": 0.1
+    },
+    {
+      "spec": "species:Probopass",
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magnet",
+          "percentChance": 5
+        }
+      ],
+
+      "condition": {
+        "stringBiomes": [
+          "minecraft:basalt_deltas",
+          "byg:warped_desert",
+          "biomesoplenty:withered_abyss"
+            
+        ]
+      },
+      "rarity": 1.0
     },
     {
       "spec": "species:Probopass",

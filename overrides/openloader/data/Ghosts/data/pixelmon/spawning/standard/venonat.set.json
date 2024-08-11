@@ -1,166 +1,161 @@
 {
-  "id": "Venonat",
-  "spawnInfos": [
-     {
-      "spec": "species:Venonat",
-      "stringLocationTypes": [
-        "Land",
-        "Headbutt",
-        "Sweet Scent"
-      ],
-      "minLevel": 10,
-      "maxLevel": 31,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "DAWN",
-          "NIGHT",
-          "DUSK"
-        ],
-        "maxY": 128,
-        "minY": 92,
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarityMultipliers": [
+    "id": "Venonat",
+    "spawnInfos": [
         {
-          "multiplier": 2,
-          "compositeCondition":
-          {
-            "conditions": 
-            [
-              {
-                "neededNearbyBlocks": [
-                  "minecraft:torch"
+            "spec": "species:Venonat",
+            "stringLocationTypes": [
+                "Land",
+                "Headbutt",
+                "Sweet Scent"
+            ],
+            "minLevel": 10,
+            "maxLevel": 31,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "DAWN",
+                    "NIGHT",
+                    "DUSK"
+                ],
+                "maxY": 128,
+                "minY": 92,
+                "stringBiomes": [
+                    "ghosts"
                 ]
-              },
-              {
-                "neededNearbyBlocks": [
-                  "minecraft:lantern"
-                ]
-              },
-              {
-                "neededNearbyBlocks": [
-                  "minecraft:campfire"
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "rarity": 60.0
-    },
-    {
-      "spec": "species:Venonat palette:pink",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 10,
-      "maxLevel": 31,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "DAY"
-        ],
-         "maxY": 128,
-        "minY": 92,
-        "stringBiomes": [
-          "ghosts"
-        ],
-          
-      },
-      "rarityMultipliers": [
+            },
+            "rarityMultipliers": [
+                {
+                    "multiplier": 2,
+                    "compositeCondition": {
+                        "conditions": [
+                            {
+                                "neededNearbyBlocks": [
+                                    "minecraft:torch"
+                                ]
+                            },
+                            {
+                                "neededNearbyBlocks": [
+                                    "minecraft:lantern"
+                                ]
+                            },
+                            {
+                                "neededNearbyBlocks": [
+                                    "minecraft:campfire"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "rarity": 60
+        },
         {
-          "multiplier": 2,
-          "compositeCondition":
-          {
-            "conditions": 
-            [
-              {
-                "neededNearbyBlocks": [
-                  "minecraft:torch"
+            "spec": "species:Venonat palette:pink",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 10,
+            "maxLevel": 31,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "DAY"
+                ],
+                "maxY": 128,
+                "minY": 92,
+                "stringBiomes": [
+                    "ghosts"
                 ]
-              },
-              {
-                "neededNearbyBlocks": [
-                  "minecraft:lantern"
-                ]
-              },
-              {
-                "neededNearbyBlocks": [
-                  "minecraft:campfire"
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "rarity": 60.0
-    },
-    {
-      "spec": "species:Venonat",
-      "stringLocationTypes": [
-        "Land",
-        "Headbutt",
-        "Sweet Scent"
-      ],
-      "minLevel": 10,
-      "maxLevel": 31,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "AFTERNOON",
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "swamps",
-          "jungles",
-          "byg:crag_gardens"
-        ]
-      },
-      "rarity": 130.0
-    },
-    {
-      "spec": "species:Venonat palette:pink",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 10,
-      "maxLevel": 31,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "AFTERNOON",
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "swamps",
-          "jungles",
-          "byg:crag_gardens"
-        ]
-      },
-      "groupSpawnSettings": [
+            },
+            "rarityMultipliers": [
+                {
+                    "multiplier": 2,
+                    "compositeCondition": {
+                        "conditions": [
+                            {
+                                "neededNearbyBlocks": [
+                                    "minecraft:torch"
+                                ]
+                            },
+                            {
+                                "neededNearbyBlocks": [
+                                    "minecraft:lantern"
+                                ]
+                            },
+                            {
+                                "neededNearbyBlocks": [
+                                    "minecraft:campfire"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "rarity": 60
+        },
         {
-          "spec": "Venonat",
-          "amount": {
-            "min_value": 3,
-            "max_value": 4
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 1.0
+            "spec": "species:Venonat",
+            "stringLocationTypes": [
+                "Land",
+                "Headbutt",
+                "Sweet Scent"
+            ],
+            "minLevel": 10,
+            "maxLevel": 31,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "AFTERNOON",
+                    "NIGHT"
+                ],
+                "stringBiomes": [
+                    "swamps",
+                    "jungles",
+                    "byg:crag_gardens"
+                ]
+            },
+            "rarity": 130
+        },
+        {
+            "spec": "species:Venonat palette:pink",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 10,
+            "maxLevel": 31,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "AFTERNOON",
+                    "NIGHT"
+                ],
+                "stringBiomes": [
+                    "swamps",
+                    "jungles",
+                    "byg:crag_gardens"
+                ]
+            },
+            "groupSpawnSettings": [
+                {
+                    "spec": "Venonat",
+                    "amount": {
+                        "min_value": 3,
+                        "max_value": 4
+                    },
+                    "spawn_range_minimum": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "spawn_range_maximum": {
+                        "x": 5,
+                        "y": 5,
+                        "z": 5
+                    },
+                    "chance": 1
+                }
+            ],
+            "rarity": 1
         }
-      ],
-      "rarity": 1.0
-    }
-  ]
+    ]
 }

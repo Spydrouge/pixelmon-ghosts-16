@@ -4,7 +4,8 @@
     {
       "spec": "species:Bergmite",
       "stringLocationTypes": [
-        "Water"
+        "Water",
+        "Underground Water"
       ],
       "minLevel": 5,
       "maxLevel": 36,

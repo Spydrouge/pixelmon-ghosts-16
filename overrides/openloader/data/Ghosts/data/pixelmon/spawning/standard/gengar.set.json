@@ -37,7 +37,10 @@
     {
       "spec": "species:Gengar",
       "stringLocationTypes": [
-        "Land"
+        "Underground",
+        "Land",
+        "Manmade",
+        "Indoors"
       ],
       "heldItems": [
         {
@@ -50,10 +53,17 @@
       "typeID": "pokemon",
       "condition": {
         "stringBiomes": [
-          "minecraft:soul_sand_valley"
+          "minecraft:soul_sand_valley",
+          "biomesoplenty:withered_abyss",
+          "byg:weeping_mire_forest",
+          "byg:weeping_mire_clearing",
+          "byg:weeping_mire",
+          "byg:withering_woods",
+          "byg:warped_desert",
+          "biomesoplenty:crystaline_chasm"
         ]
       },
-      "rarityMultipliers": [
+        "rarityMultipliers": [
         {
           "multiplier": 2,
           "condition": {
@@ -63,7 +73,7 @@
           }
         }
       ],
-      "rarity": 0.1
+      "rarity": 1.0
     },
     {
       "spec": "species:Gengar palette:ashen",

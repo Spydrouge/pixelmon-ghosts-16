@@ -1,0 +1,41 @@
+{
+  "id": "MrRime",
+  "spawnInfos": [
+    {
+      "spec": "species:MrRime",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:MrRime",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "vyg:subzero_hypogeal"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}
