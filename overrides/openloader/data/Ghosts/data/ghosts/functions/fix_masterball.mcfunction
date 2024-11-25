@@ -1,7 +1,9 @@
 #kill any means of trying to retain or use the masterball or duplicate it
-kill @e[type=pixelmon:pixelmon,distance=..300]
-kill @e[type=pixelmon:empty_pokeball,distance=..300]
-kill @e[type=minecraft:item,distance=..300]
+execute at @p run kill @e[type=pixelmon:pixelmon,distance=..300]
+execute at @p run kill @e[type=pixelmon:empty_pokeball,distance=..300]
+execute at @p run kill @e[type=minecraft:item,distance=..300]
+
+execute at @p run clear @p poke_ball
 
 #run standard code for finding the armor stand
 execute as @p run scoreboard players operation #SearchID ID = @s ID 

@@ -694,11 +694,18 @@
 				type: "item"
 				item: "minecraft:book"
 			}]
-			rewards: [{
-				id: "61FFBEFE7BD05B88"
-				type: "item"
-				item: "byg:green_apple"
-			}]
+			rewards: [
+				{
+					id: "61FFBEFE7BD05B88"
+					type: "item"
+					item: "byg:green_apple"
+				}
+				{
+					id: "0A5C512A5FB5F069"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -2631,6 +2638,52 @@
 				title: "Drifloon may have heard you say 'bone china' and got confused..."
 				item: "minecraft:bone_block"
 			}]
+		}
+		{
+			title: "Known Pixelmon Bugs"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "botania:textures/item/cosmetic_groucho_glasses.png"
+				}
+			}
+			x: -9.5d
+			y: 0.0d
+			description: [
+				"Known bugs created by Pixelmon are as follows:"
+				""
+				"1. Broken JEI integration. The button to move ingredients for a recipe into a crafting grid says \"JEI not installed on server\" even in singleplayer. To get around this, use JEI to plan out recipes, and the Vanilla Recipe Book to actually move them into the crafting grid."
+				""
+				"2. Broken MouseTweaks Integration. MouseTweaks will only work in non-Pixemon interfaces. This means it will work in crafting grids and chests, but not in your inventory, because Pixelmon changes the vanilla inventory GUI."
+				""
+				"3. Lava/Water Stone tool abilities don't work. A workaround was introduced and is introduced during the story."
+				""
+				"4. Not all Brewing recipes show in the JEI. For this reason, some important recipes are given in quest form."
+				""
+				"5. Rock Smash doesn't actually drop the block, and definitely doesn't drop it as if it were mined with Fortune. It deletes the block instead. Only use on unimportant blocks."
+			]
+			id: "42CC2E8CEC8EADD1"
+		}
+		{
+			title: "Other Known Bugs"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "botania:textures/item/cosmetic_groucho_glasses.png"
+				}
+			}
+			x: -9.5d
+			y: 1.5d
+			description: [
+				"Known Bugs in Non Pixelmon Mods are as Follows:"
+				""
+				"1. Immersive Engineering drops its Epic Shader Grab Bags after every fight. You can ban this item to give yourself peace of mind."
+				""
+				"2. Mattocks and No Tree Punching don't get along. Don't make Mattocks thinking you can cut down trees with them."
+			]
+			id: "462E35E11DFB8FF1"
 		}
 	]
 }

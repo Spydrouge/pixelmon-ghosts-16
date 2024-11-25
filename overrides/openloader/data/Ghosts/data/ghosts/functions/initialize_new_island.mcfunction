@@ -1,5 +1,5 @@
 #Process only ONE PLAYER at a time; otherwise, the same ID could get assigned to two people
-tag @a[tag=!InitializedIsland,tag=!aInitializedIsland,tag=!bInitializedIsland,tag=!cInitializedIsland,limit=1] add aInitializedIsland
+tag @a[tag=!InitializedIsland,tag=!aInitializedIsland,tag=!bInitializedIsland,tag=!cInitializedIsland,tag=!dInitializedIsland,limit=1] add aInitializedIsland
 tellraw @a[tag=aInitializedIsland] {"text":"Initializing Island Center"}
 
 #First let's get them to an island

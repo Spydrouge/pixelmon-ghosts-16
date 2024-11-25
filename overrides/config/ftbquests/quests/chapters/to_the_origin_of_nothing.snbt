@@ -22,6 +22,7 @@
 				"It has Raid Dens."
 			]
 			dependencies: ["4D6D5830E816D5AB"]
+			hide: true
 			size: 2.0d
 			id: "1EFDA9F2770EB444"
 			tasks: [{

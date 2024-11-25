@@ -1262,5 +1262,29 @@
 				}
 			]
 		}
+		{
+			x: -1.0d
+			y: 4.0d
+			repeatable: true
+			id: "70AC38749EA42CA3"
+			tasks: [
+				{
+					id: "1E3074E3A9069FA0"
+					type: "questsadditions:time"
+					elapsedTime: 1L
+				}
+				{
+					id: "744B14C582A4A5AD"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "6A46E98D017DB3E8"
+				type: "command"
+				auto: "enabled"
+				command: "/execute as @a[tag=dInitializedIsland, limit=1] run function ghosts:spawn_balloons"
+				player_command: false
+			}]
+		}
 	]
 }

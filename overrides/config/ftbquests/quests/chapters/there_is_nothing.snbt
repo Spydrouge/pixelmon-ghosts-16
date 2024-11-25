@@ -121,18 +121,20 @@
 					type: "command"
 					title: "Get some help from the hereafter"
 					icon: "pixelmon:timespace_altar"
-					auto: "invisible"
+					auto: "enabled"
 					command: "/function ghosts:destroy_antispawner"
 					player_command: false
 				}
 				{
 					id: "56E9914C37A40B1D"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:soul_soil"
 				}
 				{
 					id: "31AA94C1CBF3853C"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:ghast_tear"
 				}
 			]
@@ -181,6 +183,11 @@
 					id: "5A2F4B3C0AE486D4"
 					type: "item"
 					item: "inspirations:heartbeet"
+				}
+				{
+					id: "118E730E1ADE1936"
+					type: "item"
+					item: "minecraft:soul_soil"
 				}
 			]
 		}
@@ -242,11 +249,17 @@
 					type: "item"
 					item: "inspirations:heartbeet"
 				}
+				{
+					id: "42E6DBEEC7686BD4"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
 			x: -2.0d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "Wait a Minute..."
 			description: [
 				"There's a Pokemon Egg in this shed shell! Is this the work of a Shedinja? How can that be?"
@@ -283,6 +296,7 @@
 			title: "Teapot"
 			x: -3.0d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "Wait a Minute..."
 			description: [
 				"There's an egg inside this pot! What could have laid it?"
@@ -327,6 +341,11 @@
 					type: "item"
 					item: "inspirations:heartbeet"
 				}
+				{
+					id: "10CD1A47DED027EF"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
@@ -358,6 +377,11 @@
 					type: "item"
 					item: "minecraft:bone_meal"
 					count: 5
+				}
+				{
+					id: "68D5889B0967529B"
+					type: "item"
+					item: "minecraft:soul_soil"
 				}
 			]
 		}
@@ -552,6 +576,7 @@
 			title: "Seed Kit"
 			x: 2.0d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "Drifloon found a berry!"
 			description: ["It looks like you've found several species of seeds. You know you can make soup from &cbeetroot&r and &ewood bowls&r but &6pumpkin&r might be a little complicated to turn into food."]
 			hide_dependency_lines: true
@@ -583,12 +608,18 @@
 					type: "item"
 					item: "inspirations:heartbeet"
 				}
+				{
+					id: "00A8057E35A6E652"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
 			title: "Berry Kit"
 			x: 3.0d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "Drifloon found a berry!"
 			description: [
 				"It looks like there are two berries to be found here, &9Oran Berries&r, which can heal 10HP when used on or held by a Pokemon, and &cLeppa Berries&r, which can restore 10PP to a single move."
@@ -623,6 +654,11 @@
 					type: "item"
 					item: "inspirations:heartbeet"
 				}
+				{
+					id: "4BAAA3E8271C64AD"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
@@ -654,6 +690,11 @@
 					id: "33F0EB19FB4904C8"
 					type: "item"
 					item: "minecraft:apple"
+				}
+				{
+					id: "5D05472434FC6008"
+					type: "item"
+					item: "minecraft:soul_soil"
 				}
 			]
 		}
@@ -755,6 +796,11 @@
 					id: "0345E44A0C0206FF"
 					type: "item"
 					item: "minecraft:apple"
+				}
+				{
+					id: "1C59A975A19D5C86"
+					type: "item"
+					item: "minecraft:soul_soil"
 				}
 			]
 		}
@@ -869,7 +915,7 @@
 		}
 		{
 			title: "Tinkering With What We Have"
-			x: 2.0d
+			x: 1.5d
 			y: 11.0d
 			subtitle: "When life gives you lemons..."
 			description: [
@@ -913,7 +959,7 @@
 		}
 		{
 			title: "Bones"
-			x: 2.0d
+			x: 1.5d
 			y: 12.0d
 			subtitle: "Ex Morte"
 			description: [
@@ -921,7 +967,9 @@
 				""
 				"That tree doesn't stand a chance."
 				""
-				"(Avoid producing an axe-head made of wood. It has only a single durability, and cannot be repaired. An axe head of flint will also complete this quest.)"
+				"(Do not produce an axe-head made of wood. It has only a single durability, and cannot be repaired. An axe head of flint will also complete this quest.)"
+				""
+				"(Tinkers Construct Mattocks are not classified as axes. They will not work to cut down trees in a 1.16.5 'no tree punching' world.)"
 			]
 			dependencies: ["5D08023C4FCB517A"]
 			hide: true
@@ -966,16 +1014,22 @@
 				""
 				"You can obtain the material for the bed by gathering string from bug Pokemon, and weaving it into wool blocks"
 				""
-				"(FOR THIS QUEST, ONLY SLEEP AT YOUR OWN ISLAND)"
+				"(FOR THIS QUEST, ENSURE YOU ARE AT YOU OWN ISLAND)"
 			]
 			dependencies: ["1461900BEAD0C38E"]
 			hide: true
 			id: "6BCA2C177694D5E9"
 			tasks: [{
-				id: "4BA8546731C75374"
-				type: "advancement"
-				advancement: "minecraft:adventure/sleep_in_bed"
-				criterion: ""
+				id: "74420CA5DF750338"
+				type: "item"
+				title: "Any #minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -1068,6 +1122,7 @@
 			icon: "minecraft:ladder"
 			x: 0.5d
 			y: 13.0d
+			shape: "circle"
 			subtitle: "The ladder option"
 			description: [
 				"While you were sleeping, a &clarge hollow boulder&r drifted close in the night. It is very, very far down. You remember from &etrainer school&r that Geodude spawns &eunderground&r and &ebelow Y = 64&r, and that might still hold true. And what can you harvest from &bGeodude&r?\""
@@ -1120,6 +1175,7 @@
 			title: "Headed Down: Rope"
 			x: -0.5d
 			y: 13.0d
+			shape: "circle"
 			subtitle: "The rope option"
 			description: [
 				"While you were sleeping, a &clarge hollow boulder&r drifted close in the night. It is very, very far down. You remember from &etrainer school&r that Geodude spawns &eunderground&r and &ebelow Y = 64&r, and that might still hold true. And what can you harvest from &bGeodude&r?\""
@@ -1128,10 +1184,11 @@
 				""
 				"But it's a long drop down there. Even if you drop down, you want to be able to climb back up again once you're done. You could build ladders, or you could try and weave some rope from silk."
 				""
-				"(Ropes can be attached to the underside of any solid block. Repeated attempts to add rope to the same space will cause the rope to grow downward.)"
+				"(Ropes can be attached to the underside of any solid block. Repeated attempts to add rope to the same space will cause the rope to grow downward. They are non-solid, and you can climb them by holding the Jump key)"
 			]
 			dependencies: ["6BCA2C177694D5E9"]
 			hide: true
+			optional: true
 			incompatible: ["619C010E797EE83E"]
 			id: "204FBF369CEC333B"
 			tasks: [{
@@ -1156,6 +1213,7 @@
 		{
 			x: -1.5d
 			y: 15.5d
+			shape: "circle"
 			subtitle: "Ex Morte Alternative"
 			description: [
 				"Tools created through &6tinkering&r are less expensive and can be repaired, and gain abilities like &6cultivated&r, typically making them superior to regular tools."
@@ -1204,7 +1262,7 @@
 		{
 			title: "Visiting the Ghosts"
 			icon: "pixelmon:air_balloon"
-			x: -2.0d
+			x: -1.5d
 			y: 11.0d
 			subtitle: "It's Like Building a Mob Drop Tower"
 			description: [
@@ -1301,14 +1359,6 @@
 					item: "biomesoplenty:umbran_sapling"
 				}
 				{
-					id: "7A494F56818FD091"
-					type: "command"
-					title: "Achievements Unlocked!"
-					auto: "invisible"
-					command: "/advancement grant @p only minecraft:adventure/root"
-					player_command: false
-				}
-				{
 					id: "7D930D037ABADC23"
 					type: "item"
 					item: "minecraft:dirt"
@@ -1318,6 +1368,7 @@
 		{
 			x: 4.0d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "Another Pokeball!"
 			description: [
 				"You have found or crafted a &dLove Ball&r. This is the first Pokeball you have access too, outside of the &5Master Ball&r, and you will have to decide what to capture with it."
@@ -1364,7 +1415,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -1.5d
 			y: 12.0d
 			subtitle: "Redstone Pulse"
 			description: [
@@ -1439,13 +1490,14 @@
 				""
 				"You are starting to feel optimistic. But you still have no reliable source of food and other basic materials. It's time to start some new Chapters of your Diary."
 				""
+				""
+				"(Requires you to complete all mandatory quests in this chapter)"
 			]
 			dependencies: [
 				"3FB66E0318A36E57"
 				"335D1FD2C27C3103"
 				"245F1B866EC2F06A"
 			]
-			hide: true
 			size: 2.0d
 			id: "11A73D9EAEEDF61B"
 			tasks: [{
@@ -1493,7 +1545,7 @@
 		}
 		{
 			title: "Water Collection"
-			x: -2.0d
+			x: -1.5d
 			y: 14.0d
 			subtitle: "In Case of Rain"
 			description: [
@@ -1526,7 +1578,7 @@
 		}
 		{
 			title: "Bone Preserver"
-			x: 2.0d
+			x: 1.5d
 			y: 14.0d
 			subtitle: "Waste Not"
 			description: [
@@ -1562,11 +1614,14 @@
 		}
 		{
 			title: "Proper \"Manmade\" Spawning Habitat"
-			x: 0.5d
-			y: 10.0d
+			x: 1.5d
+			y: 9.5d
+			shape: "circle"
 			subtitle: "Full Blocks Only!"
 			description: ["Uh oh. You've noticed Pokemon &ddon't seem to like your slabs&r as habitats. You'll have to use slabs only for pathways you want to keep clear, and full planks for places you want Pokemon to spawn."]
 			dependencies: ["1461900BEAD0C38E"]
+			hide: true
+			optional: true
 			id: "2A74E261C694215C"
 			tasks: [{
 				id: "121C4818D9469ADF"
@@ -1596,11 +1651,13 @@
 		}
 		{
 			title: "Organization: Phase 1!"
-			x: -0.5d
-			y: 10.0d
+			x: -1.5d
+			y: 9.5d
+			shape: "circle"
 			subtitle: "\"Useful Gifts\""
 			description: ["Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory! You need to build some chests so you can organize this all!"]
 			dependencies: ["1461900BEAD0C38E"]
+			optional: true
 			id: "02AB152380DFC150"
 			tasks: [{
 				id: "6E23B12896C0BB9D"
@@ -1629,6 +1686,7 @@
 		{
 			x: 1.5d
 			y: 15.5d
+			shape: "circle"
 			subtitle: "Proper Tools"
 			description: [
 				"While there aren't currently many stone blocks to break, you might want to be able to &cdrop&r problematic Geodudes out &cthrough the floor&r of the boulder."
@@ -1637,6 +1695,7 @@
 			]
 			dependencies: ["3FB66E0318A36E57"]
 			hide: true
+			optional: true
 			id: "596F5F74C790C571"
 			tasks: [{
 				id: "136B04E458E5464A"
@@ -1704,7 +1763,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -1.5d
 			y: 13.0d
 			subtitle: "With Great Power..."
 			description: [
@@ -1736,6 +1795,7 @@
 		{
 			x: -4.0d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "???"
 			description: ["... W-Wait a Minute, This thing is Alive!!!"]
 			hide_dependency_lines: true
@@ -1749,20 +1809,28 @@
 				item: "minecraft:skeleton_skull"
 				consume_items: true
 			}]
-			rewards: [{
-				id: "5403DC23A71B2CB1"
-				type: "command"
-				title: "A Skull Joins the Party?"
-				icon: "minecraft:skeleton_skull"
-				auto: "enabled"
-				command: "/pokegive @p duskull lvl:2 ability:frisk ivspd:0 ivatk:0 ivspatk:0 ivhp:31 ivdef:31 ivspdef:31 ribbon:best_friends g:male nature:bold"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "5403DC23A71B2CB1"
+					type: "command"
+					title: "A Skull Joins the Party?"
+					icon: "minecraft:skeleton_skull"
+					auto: "enabled"
+					command: "/pokegive @p duskull lvl:2 ability:frisk ivspd:0 ivatk:0 ivspatk:0 ivhp:31 ivdef:31 ivspdef:31 ribbon:best_friends g:male nature:bold"
+					player_command: false
+				}
+				{
+					id: "1AB8875F4E41C6B7"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
 		}
 		{
 			title: "Hatch a Pokemon"
 			x: 5.0d
 			y: 4.5d
+			shape: "circle"
 			description: ["You hatched your very first Pokemon! Good work, it's not easy to do with so little room to move!"]
 			hide: true
 			secret: true

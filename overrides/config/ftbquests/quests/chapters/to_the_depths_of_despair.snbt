@@ -729,6 +729,7 @@
 			x: -1.0d
 			y: 7.5d
 			description: ["Of course you could ignore nightvision altogether and simply try to light your way. But with so many drowned Pokemon swimming about, you might need vision of things farther off."]
+			dependencies: ["7D31F7D41711BD39"]
 			hide: true
 			id: "1A3FCD0F5F15A950"
 			tasks: [

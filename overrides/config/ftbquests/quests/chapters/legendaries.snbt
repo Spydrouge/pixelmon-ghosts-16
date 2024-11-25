@@ -830,6 +830,8 @@
 			x: 7.0d
 			y: -1.5d
 			description: ["Uxie has fled the world following its destruction and is hidden somewhere in the End."]
+			dependencies: ["26B77E6C4944C144"]
+			hide: true
 			id: "03AE8BF4A446E5CA"
 			tasks: [{
 				id: "535A98EFE253377B"
@@ -854,6 +856,8 @@
 			x: 6.0d
 			y: -1.5d
 			description: ["Mesprit has fled the world following its destruction and is hidden somewhere in the Nether."]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
 			id: "7465BA271E5B4658"
 			tasks: [{
 				id: "7E4FBF26E8E283BE"
@@ -878,6 +882,8 @@
 			x: 5.0d
 			y: -1.5d
 			description: ["Azelf has fled the world following its destruction and is hidden somewhere in the Drowned World."]
+			dependencies: ["721C7720EB194EAE"]
+			hide: true
 			id: "2399346D75F07D8C"
 			tasks: [{
 				id: "3C8C5AA95425CDB6"

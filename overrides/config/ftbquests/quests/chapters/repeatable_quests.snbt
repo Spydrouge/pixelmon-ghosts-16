@@ -4813,6 +4813,8 @@
 				""
 				"You will just have to whip out some art skills and try to make copies of each of them! "
 			]
+			dependencies: ["395FF1A6F8319736"]
+			hide: true
 			id: "0D3D98B62D27A023"
 			tasks: [{
 				id: "491AE807E17E19E1"
