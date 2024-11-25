@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HZH",
+    "RPR",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pixelmon:picket_fence"
+    },
+    "Z": {
+      "item": "astralsorcery:linking_tool"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "R": {
+      "item": "farmersdelight:canvas_rug"
+    },
+    "P": {
+      "item": "pixelmon:pc"
+    }
+  },
+  "result": {
+    "item": "pixelmon:white_day_care",
+    "count": 1
+  }
+}

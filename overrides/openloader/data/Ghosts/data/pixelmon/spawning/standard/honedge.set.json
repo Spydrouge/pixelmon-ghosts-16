@@ -28,6 +28,146 @@
       "maxLevel": 34,
       "typeID": "pokemon",
       "condition": {
+        "minY":64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chipped_anvil"
+        ]
+      },
+      
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minY":65,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chipped_anvil"
+        ]
+      },
+      
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minY":65,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:damaged_anvil"
+        ]
+      },
+      
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minY":65,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:anvil"
+        ]
+      },
+      
+      "rarity": 30.0
+    },
+     {
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chipped_anvil"
+        ]
+      },
+      
+      "rarity": 90.0
+    },
+    
+     {
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:damaged_anvil"
+        ]
+      },
+      
+      "rarity": 90.0
+    },{
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:damaged_anvil"
+        ]
+      },
+      
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Honedge palette:alter",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
         "maxY":64,
         "stringBiomes": [
           "ghosts"
@@ -70,6 +210,32 @@
           "hellish"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:anvil"
+            ]
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:damaged_anvil"
+            ]
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:chipped_anvil"
+            ]
+          }
+        }
+      ],
       "rarity": 90.0
     },
     {

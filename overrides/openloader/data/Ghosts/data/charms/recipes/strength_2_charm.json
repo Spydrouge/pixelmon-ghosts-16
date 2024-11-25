@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:strength_charm"
+        },
+        {
+            "item": "charms:strength_charm"
+        },
+        {
+            "item": "pixelmon:lure_fighting_strong"
+        ,
+        {
+            "item": "minecraft:dragon_head"
+        }
+    ],
+    "result": {
+        "item": "charms:strength_2_charm",
+        "count": 1
+    }
+}

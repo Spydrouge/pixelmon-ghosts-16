@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "minecraft:golden_carrot"
+        },
+        {
+            "item": "pixelmon:lure_psychic_weak"
+        }
+    ],
+    "result": {
+        "item": "charms:night_vision_charm",
+        "count": 1
+    }
+}

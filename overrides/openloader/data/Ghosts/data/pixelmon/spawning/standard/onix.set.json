@@ -109,7 +109,8 @@
           "multiplier": 5,
           "condition": {
             "neededNearbyBlocks": [
-              "pixelmon:crystal_block"
+              "pixelmon:crystal_block",
+              "pixelmon:boulder"
             ]
           }
         }
@@ -299,7 +300,8 @@
           "multiplier": 5,
           "condition": {
             "neededNearbyBlocks": [
-              "pixelmon:crystal_block"
+              "pixelmon:crystal_block",
+              "pixelmon:boulder"
             ]
           }
         }
@@ -358,7 +360,8 @@
           "multiplier": 5,
           "condition": {
             "neededNearbyBlocks": [
-              "pixelmon:crystal_block"
+              "pixelmon:crystal_block",
+              "pixelmon:boulder"
             ]
           }
         }

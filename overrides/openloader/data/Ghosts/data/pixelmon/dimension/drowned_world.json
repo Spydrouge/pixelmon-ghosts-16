@@ -44,7 +44,7 @@
         },
         "top_slide": {
           "target": -10,
-          "size": 0,
+          "size": 3,
           "offset": 0
         }
       },
@@ -66,29 +66,9 @@
             "salt": 0
           },
           "pixelmon:water_den": {
-            "spacing": 4,
-            "separation": 2,
+            "spacing": 2,
+            "separation": 1,
             "salt": 47116206
-          },
-          "pixelmon:grotto_ocean": {
-            "spacing": 4,
-            "separation": 2,
-            "salt": 731106734
-          },
-          "pixelmon:grotto_swamp": {
-            "spacing": 8,
-            "separation": 4,
-            "salt": 194957136
-          },
-          "pixelmon:tower_darkness": {
-            "spacing": 4,
-            "separation": 2,
-            "salt": 354524082
-          },
-          "pixelmon:tower_water": {
-            "spacing": 4,
-            "separation": 2,
-            "salt": 354524082
           }
         }
       }
@@ -99,7 +79,7 @@
       "altitude_noise": {
         "firstOctave": -7,
         "amplitudes": [
-          1,
+          0,
           1
         ]
       },
@@ -120,7 +100,7 @@
       "weirdness_noise": {
         "firstOctave": -7,
         "amplitudes": [
-          1,
+          0,
           1,
           4
         ]
@@ -129,7 +109,7 @@
         {
           "biome": "pixelmon:drowned_crimson",
           "parameters": {
-            "altitude": 0.9,
+            "altitude": -0.1,
             "temperature": 0.5,
             "humidity": 0,
             "weirdness": 0,
@@ -139,7 +119,7 @@
         {
           "biome": "pixelmon:drowned_warm",
           "parameters": {
-            "altitude": 1,
+            "altitude": -0.1,
             "temperature": 1,
             "humidity": 0,
             "weirdness": 0,
@@ -149,7 +129,7 @@
         {
           "biome": "pixelmon:drowned_dark",
           "parameters": {
-            "altitude": 1.1,
+            "altitude": -0.1,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,

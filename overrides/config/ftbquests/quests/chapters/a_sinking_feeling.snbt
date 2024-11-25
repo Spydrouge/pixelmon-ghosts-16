@@ -1,7 +1,7 @@
 {
 	id: "3B988F27D43099A1"
-	group: "4A96B64D5627EDC5"
-	order_index: 4
+	group: "5CC2B36466F88246"
+	order_index: 3
 	filename: "a_sinking_feeling"
 	title: "A Sinking Feeling"
 	icon: "minecraft:netherrack"
@@ -24,6 +24,7 @@
 			]
 			dependencies: ["47107D60FD080A18"]
 			hide: true
+			dependency_requirement: "one_completed"
 			size: 2.0d
 			id: "46CDAE65E15099AC"
 			tasks: [{
@@ -150,6 +151,7 @@
 			]
 		}
 		{
+			title: "Snow and Ice"
 			x: 0.0d
 			y: -6.5d
 			description: [
@@ -161,6 +163,7 @@
 			]
 			dependencies: ["1C9B797225BDD9D5"]
 			hide: true
+			repeatable: true
 			min_required_tasks: 1
 			id: "43A58C1AE7891B53"
 			tasks: [
@@ -202,9 +205,21 @@
 					type: "item"
 					item: "pixelmon:ice_stone_shard"
 				}
+				{
+					id: "58A7801B22F2AC2F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 51
+						}
+					}
+				}
 			]
 		}
 		{
+			title: "Obsidian"
 			x: 0.0d
 			y: -7.5d
 			description: ["Set up your snow into the shape of a Nether Portal frame, and get to work right cilcking!"]
@@ -455,6 +470,7 @@
 			}]
 		}
 		{
+			title: "Fire Stone Gear"
 			x: -2.0d
 			y: -4.5d
 			description: ["A full set of Fire Stone armor can also provide Fire Protection III, but you would be silly to farm so many fire shards here while on the verge of entering the Nether. Presumably, fire shards will be more common in the Nether."]
@@ -513,19 +529,27 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "3AE45D307F03FC07"
-				type: "item"
-				item: {
-					id: "pixelmon:tm_gen4"
-					Count: 1b
-					tag: {
-						tm: 50
+			rewards: [
+				{
+					id: "3AE45D307F03FC07"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
 					}
 				}
-			}]
+				{
+					id: "2B91D5515C910F28"
+					type: "item"
+					item: "charms:fire_resistance_charm"
+				}
+			]
 		}
 		{
+			title: "Nether Ready Arms and Armor"
 			x: -2.0d
 			y: -3.5d
 			description: [
@@ -613,6 +637,7 @@
 			}]
 		}
 		{
+			title: "Go to the Nether"
 			x: 0.0d
 			y: -12.0d
 			description: ["Take a deep breath. You don't know what's waiting on the other side."]
@@ -823,30 +848,17 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "1AD8674E70EC2107"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 29
-						}
+			rewards: [{
+				id: "1AD8674E70EC2107"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 29
 					}
 				}
-				{
-					id: "0160EA8C4F49200A"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 12
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 2.0d
@@ -1017,8 +1029,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -12.0d
+			x: 2.5d
+			y: -10.0d
 			description: [
 				"This place may be filled with danger, but it's also sprinkled with Pokemon. You &dneed to be careful&r. While battling, you will be completely vulnerable to attack by enemy monsters, and you won't be able to escape the battle to fight them!"
 				""
@@ -1051,6 +1063,7 @@
 			]
 		}
 		{
+			title: "Light Her Up"
 			x: 3.5d
 			y: -12.5d
 			description: [
@@ -1089,6 +1102,7 @@
 			]
 		}
 		{
+			title: "Hell"
 			x: 0.0d
 			y: -19.5d
 			description: [
@@ -1303,8 +1317,8 @@
 		}
 		{
 			title: "Defeat a Slugma of a different color."
-			x: -3.5d
-			y: -12.0d
+			x: 3.5d
+			y: -10.0d
 			description: ["Oh... My. It... it doesn't appear this Slugma is actually different from a normal Slugma. It's certainly an interesting color, though!"]
 			dependencies: ["72323BB863524756"]
 			hide: true
@@ -1471,17 +1485,24 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "04C9BC670550E1F6"
-				type: "item"
-				item: {
-					id: "pixelmon:tm_gen7"
-					Count: 1b
-					tag: {
-						tm: 96
+			rewards: [
+				{
+					id: "04C9BC670550E1F6"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 96
+						}
 					}
 				}
-			}]
+				{
+					id: "3D490216D55DC7FF"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Wailing Garth"
@@ -1679,29 +1700,18 @@
 					item: "byg:raw_pendorite"
 				}
 				{
-					id: "4193E0DD4ED540FD"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen5"
-						Count: 1b
-						tag: {
-							tm: 62
-						}
-					}
-				}
-				{
 					id: "35659B3559D6260D"
 					type: "item"
 					item: "pixelmon:sun_stone_ore"
 				}
 				{
-					id: "52D8983535270E2B"
+					id: "4D8DA6C4C057C6E7"
 					type: "item"
 					item: {
-						id: "pixelmon:tr_gen8"
+						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 12
+							tm: 44
 						}
 					}
 				}
@@ -1709,8 +1719,8 @@
 		}
 		{
 			title: "Soul Sand Valley"
-			x: 0.0d
-			y: -15.5d
+			x: 2.0d
+			y: -19.0d
 			description: [
 				"Soul Glass acts like glass, and Pokemon cannot spawn on it. It does not block light."
 				""
@@ -1758,6 +1768,7 @@
 			]
 		}
 		{
+			title: "Brimstone Caverns"
 			x: 1.0d
 			y: -19.5d
 			description: [
@@ -1874,6 +1885,7 @@
 			}]
 		}
 		{
+			title: "Subzero Hypogeal"
 			x: -1.0d
 			y: -19.5d
 			description: [
@@ -1998,7 +2010,7 @@
 		{
 			title: "Warped Desert"
 			x: 0.5d
-			y: -14.5d
+			y: -15.0d
 			description: ["You aren't sure if there's anything meaningful you can extract from the Warped Desert, aside from a new color scheme."]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -2071,7 +2083,7 @@
 		{
 			title: "Quartz Desert"
 			x: -0.5d
-			y: -14.5d
+			y: -15.0d
 			description: [
 				"The Quartz Desert is an interesting place that underscores why quartz ores mined elsewhere in the Nether are best used for their byproducts."
 				""
@@ -2216,8 +2228,9 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -15.5d
+			title: "Flesh"
+			x: 1.5d
+			y: -15.0d
 			description: ["The visceral heap is a disgusting place made of flesh. But it might attract Pokemon very unlike any other part of the nether. You've heard that a small, tumor-like digging Pokemon-- possible a variant of Diglett?-- can be found here, as well as a number of pigs."]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -2330,8 +2343,8 @@
 		}
 		{
 			title: "Undergrowth"
-			x: -1.0d
-			y: -15.5d
+			x: -1.5d
+			y: -15.0d
 			description: ["The Undergrowth is a terrible place, with difficult-to-cut thorns everywhere making traversing the biome almost impossible. No one would want to come here, except, you think Pokemon such as Roselia and Ferrothorn might be found here. "]
 			dependencies: ["51A51EA666E1500F"]
 			hide: true
@@ -2534,13 +2547,13 @@
 					item: "pixelmon:thunder_stone_ore"
 				}
 				{
-					id: "4E04707BD9304D51"
+					id: "4BA9D6DCC47A07F4"
 					type: "item"
 					item: {
-						id: "pixelmon:tr_gen8"
+						id: "pixelmon:tm_gen4"
 						Count: 1b
 						tag: {
-							tm: 80
+							tm: 34
 						}
 					}
 				}
@@ -2634,9 +2647,15 @@
 						}
 					}
 				}
+				{
+					id: "69A73999BF3896AF"
+					type: "item"
+					item: "pixelmon:spell_tag"
+				}
 			]
 		}
 		{
+			title: "Weeping Mire"
 			x: -2.0d
 			y: -19.0d
 			dependencies: ["51A51EA666E1500F"]
@@ -2722,7 +2741,7 @@
 		}
 		{
 			title: "Find a Raid Den"
-			x: -2.5d
+			x: -3.5d
 			y: -11.0d
 			description: [
 				"Nether raid dens are extremely rare, but the do exist and can be found."
@@ -2753,7 +2772,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: -11.0d
 			description: [
 				"Arceus has blessed you!"
@@ -2778,7 +2797,8 @@
 			}]
 		}
 		{
-			x: -2.5d
+			title: "Find Nether Grotto"
+			x: -3.5d
 			y: -13.0d
 			description: [
 				"Grottos are locations where Masterball Tier loot can be found. The Nether Grotto is of especial significance. "
@@ -2808,8 +2828,8 @@
 		}
 		{
 			title: "Got to Defeat Them All"
-			x: -4.5d
-			y: -12.0d
+			x: 4.5d
+			y: -10.0d
 			description: [
 				"Well now that you've seen one, you need to take the grand Nether tour, see them all."
 				""
@@ -2931,8 +2951,8 @@
 		}
 		{
 			title: "Chemical Surplus"
-			x: -5.5d
-			y: -12.0d
+			x: 5.5d
+			y: -10.0d
 			description: ["If you end up with a surplus of Pokeballs, maybe you could even catch them all."]
 			dependencies: ["1F34187FE45E1D45"]
 			id: "00028F6F5B2DEE0B"
@@ -3102,7 +3122,7 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: 7.0d
 			y: -12.0d
 			description: [
 				"You feel as though you should tap all possible resources prior to leaving the Nether. This includes summoning and defeating the Wither. You should already have the ingredients to do so- but you must first prepare a safe arena to fight it in."
@@ -3111,7 +3131,7 @@
 				""
 				"Nether Stars can also be spent on Blank TMs. In specific, they can be spent on the types of TMs which can permenantly record powerful moves like \"Thunder.\""
 				""
-				"(Note: The Wither is banned from spawning in the Overworld, to protect your hard work)"
+				"(Note: The Wither is banned from spawning in the Overworld.)"
 			]
 			dependencies: ["5742DF95648CAE94"]
 			size: 2.0d
@@ -3156,9 +3176,9 @@
 			description: [
 				"Someone who carefully studied the recipes available to them might realize that lava can be created a small number of other ways. For instance, Astral Sorcery can produce lava from Fire Stones. "
 				""
-				"However, these methods are not as reliable. A fire stone may last long enough for twelve units of laval, or it may break early. A fire stone shovel is more reliable."
+				"However, these methods are not as reliable. A fire stone may last long enough for twelve units of lava, or it may break early. A fire stone shovel is more reliable."
 				""
-				"Lava can enable you to jump tiers without traveling to the Nether, but the Nether is a good place to head for other reasons."
+				"Lava can enable you to jump tiers without traveling to the Nether, but the Nether is a good place to head for a variety of reasons."
 			]
 			hide: true
 			secret: true
@@ -3198,6 +3218,44 @@
 					id: "4DE7CCB9CEFDE349"
 					type: "choice"
 					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -12.0d
+			description: [
+				"The explorer's compass can be used to locate any structure in the game. This includes Nether Fortresses and Bastions, of course, but also includes Raid Dens and Grottos. "
+				""
+				"Given the Master Ball Tier loot available in Grottos, this may be a vital tool in your arsenal, and worth the price of paying for it. Regular compasses can occasionally be looted directly from Nosepass."
+				""
+			]
+			dependencies: ["5742DF95648CAE94"]
+			id: "6424801FB80E98E4"
+			tasks: [{
+				id: "484D9A93C080CE6E"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "13D3E165A3BB1E94"
+					type: "choice"
+					table_id: 6887887404997572042L
+				}
+				{
+					id: "650625239BE800E4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "134C73DDC24803A8"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}

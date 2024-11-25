@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_egg"
+    }
+  ],
+  "output": [
+    {
+      "item": "ends_delight:non_hatchable_dragon_egg"
+    }
+  ]
+}

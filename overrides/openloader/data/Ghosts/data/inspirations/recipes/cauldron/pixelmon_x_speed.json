@@ -1,0 +1,35 @@
+{
+  "type": "inspirations:cauldron",
+  "conditions": [
+    {
+      "prop": "recipes_module",
+      "type": "inspirations:config"
+    },
+    {
+      "prop": "cauldron_fluids",
+      "type": "inspirations:config"
+    }
+  ],
+  "input": {
+    "item": {
+      "item": "pixelmon:pomeg_berry",
+      "amount_needed": 12
+    },
+    "contents": {
+      "type": "inspirations:fluid",
+      "name": "inspirations:honey"
+    },
+    "level": {
+	  "min":12,
+      "max":12
+
+    },
+    "temperature": "boiling"
+  },
+  "output": {
+    "contents": {
+      "type": "inspirations:fluid",
+      "name": "contenttweaker:pixelmon_x_speed"
+    }
+  }
+}

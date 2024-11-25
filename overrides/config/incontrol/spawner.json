@@ -193,5 +193,20 @@
             "maxdist": 100,
             "maxthis": 2
         }
+	},
+    {
+		"mob":["minecraft:drowned"],
+        "persecond":1,
+        "attempts":20,
+        "amount":{
+            "minimum":1,
+            "maximum":3
+        },
+        "conditions":{
+            "dimension":"pixelmon:drowned_world",
+            "mindist": 10,
+            "maxdist": 100,
+            "maxthis": 7
+        }
 	}
 ]

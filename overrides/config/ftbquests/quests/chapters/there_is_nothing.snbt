@@ -92,7 +92,7 @@
 				""
 				"Did &6God&r really just speak to you...? Did you really catch your very first &ePokemon&r, all on your own? Dad would totally have been scared &eDrifloon&r would carry you away, but..."
 				""
-				"You &5aren't&r alone anymore. If all that's left is &5ghosts&r, well, then it'll be you and the ghosts, together, from here on out!"
+				"Well, right now, 'Drifloon carrying you' sounds like it might be a good thing."
 			]
 			dependencies: [
 				"5D9EA1EF7ABE5136"
@@ -161,6 +161,8 @@
 				"Hmm. You have a plan. It's called &aForage&r and it's an external move any pokemon can use. Send them out with 'R', press 'G' to forage, and be mindful of the cooldown."
 				""
 				"All blocks can be foraged from. Some, like Soul Sand, drop a few more interesting things than others. To prevent drops from &cfalling into the void&r place the soul sand securely in the center of your little island, where Drifloon used to be."
+				""
+				"(Any platform that's only 1 block thick is dangerous to forage from. Foraged items will tend to drop straight down--and into the void.)"
 			]
 			dependencies: ["3F42095ED0007728"]
 			hide: true
@@ -964,7 +966,7 @@
 				""
 				"You can obtain the material for the bed by gathering string from bug Pokemon, and weaving it into wool blocks"
 				""
-				"(ONLY SLEEP AT YOUR OWN ISLAND)"
+				"(FOR THIS QUEST, ONLY SLEEP AT YOUR OWN ISLAND)"
 			]
 			dependencies: ["1461900BEAD0C38E"]
 			hide: true
@@ -975,15 +977,25 @@
 				advancement: "minecraft:adventure/sleep_in_bed"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "522654FBE4510253"
-				type: "command"
-				title: "Arceus Blesses you with a Vision..."
-				icon: "pixelmon:timespace_altar"
-				auto: "enabled"
-				command: "/function ghosts:spawn_boulder"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "522654FBE4510253"
+					type: "command"
+					title: "Arceus Blesses you with a Vision..."
+					icon: "pixelmon:timespace_altar"
+					auto: "enabled"
+					command: "/function ghosts:spawn_boulder"
+					player_command: false
+				}
+				{
+					id: "306791B7F9B053A0"
+					type: "command"
+					title: "You Wake up with a Lump Under your Pillow"
+					icon: "minecraft:turtle_egg"
+					command: "/pokegive @p Munna untradeable egg ball:cherish_ball nature:bold iv_hp:31 iv_atk:0 iv_spdef:31 iv_def:31 iv_spd:0 g:female ab:Synchronize"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Fruits of Stone"
@@ -1291,6 +1303,7 @@
 				{
 					id: "7A494F56818FD091"
 					type: "command"
+					title: "Achievements Unlocked!"
 					auto: "invisible"
 					command: "/advancement grant @p only minecraft:adventure/root"
 					player_command: false
@@ -1704,6 +1717,8 @@
 				"... Water?"
 				""
 				"Arceus must have seen you were having trouble even noticing the Castform flying by, much less fighting one!"
+				""
+				"(NOTE: You CANNOT move a spawner after placing it. Ever. There are things which can delete them later on, but fortunately you probably won't need them by then.)"
 			]
 			dependencies: ["1F4867DAC3F9EBB4"]
 			id: "46259252D19CEC1A"
@@ -1773,6 +1788,7 @@
 				{
 					id: "4345B68BA9E64D36"
 					type: "random"
+					title: "Random \"Baby\" TM"
 					table_id: 7514776752967216189L
 				}
 			]

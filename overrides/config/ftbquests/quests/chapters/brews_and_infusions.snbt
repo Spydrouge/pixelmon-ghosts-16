@@ -997,7 +997,11 @@
 			icon: "pixelmon:aspear_berry"
 			x: 1.0d
 			y: -2.5d
-			description: ["Getting your second yellow berry may not be trivial. There are many berries to fight for and steal, but the only other Tier 1 berries are the Pinap Berry, which you worry may be extinct, and the Aspear berry, which might be carried by fire Vulpix on habitats built on the Ice layer. If you cannot find another Tier 1 berry, you mask skip this quest by mixing a Tier 2 berry with itself."]
+			description: [
+				"Getting your second yellow berry may not be trivial. There are many berries to fight for and steal, but the only other Tier 1 berries are the Pinap Berry, which you worry may be extinct, and the Aspear berry, which might be carried by fire Vulpix on habitats built on the Ice layer. If you cannot find another Tier 1 berry, you mask skip this quest by mixing a Tier 2 berry with itself."
+				""
+				"(Note: The reward for this quest has a special interaction you might want to look up prior to deciding whether to use it as a normal Pokeball. It may be better to keep it until later.)"
+			]
 			dependencies: ["4492876C80C88C34"]
 			hide: true
 			id: "06937DDF5D4CF692"
@@ -2669,7 +2673,7 @@
 		}
 		{
 			x: -2.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["4A7CC21DD159D4DB"]
 			hide: true
@@ -2688,7 +2692,7 @@
 		}
 		{
 			x: -3.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["75271B50DEF66CB5"]
 			hide: true
@@ -2707,7 +2711,7 @@
 		}
 		{
 			x: -4.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["6B88F7CA7876C1E9"]
 			hide: true
@@ -2726,7 +2730,7 @@
 		}
 		{
 			x: -5.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["1878E237C64487B3"]
 			hide: true
@@ -2745,7 +2749,7 @@
 		}
 		{
 			x: 7.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["775E7B24F32534AE"]
 			hide: true
@@ -2764,7 +2768,7 @@
 		}
 		{
 			x: -6.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["46EFF05C7C8A9FE1"]
 			hide: true
@@ -2783,7 +2787,7 @@
 		}
 		{
 			x: -7.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["1CB2DF1B60DA962E"]
 			hide: true
@@ -2802,7 +2806,7 @@
 		}
 		{
 			x: -8.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["03EEBF70C7FB47C9"]
 			hide: true
@@ -2821,7 +2825,7 @@
 		}
 		{
 			x: -9.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["0C9E0F151B7614EE"]
 			hide: true
@@ -2843,7 +2847,7 @@
 		}
 		{
 			x: 0.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["766C87B8A498A80B"]
 			hide: true
@@ -2862,7 +2866,7 @@
 		}
 		{
 			x: 1.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["3237D6D578620244"]
 			hide: true
@@ -2881,7 +2885,7 @@
 		}
 		{
 			x: 2.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["1E29592C69AC0A89"]
 			hide: true
@@ -2900,7 +2904,7 @@
 		}
 		{
 			x: 3.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["3C48F565B177A9F1"]
 			hide: true
@@ -2919,7 +2923,7 @@
 		}
 		{
 			x: 4.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["25D0EB8788460245"]
 			hide: true
@@ -2938,7 +2942,7 @@
 		}
 		{
 			x: 5.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["6CD1296F8AE3BDF4"]
 			hide: true
@@ -2957,7 +2961,7 @@
 		}
 		{
 			x: 6.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["5D6E6D378E54B5E1"]
 			hide: true
@@ -2976,7 +2980,7 @@
 		}
 		{
 			x: 8.5d
-			y: 10.5d
+			y: 13.5d
 			description: ["You can infuse crystals with berries at the infuser to create gems. These gems are consumed to increase the power of a single move by +30% You can make plenty of them, and should use them freely."]
 			dependencies: ["7CFF467AF8BFF24B"]
 			hide: true
@@ -2996,7 +3000,7 @@
 		{
 			title: "Enigma Berry"
 			x: -1.0d
-			y: 10.0d
+			y: 14.0d
 			description: [
 				"You have done a great deal of very good work."
 				""
@@ -3129,6 +3133,659 @@
 					table_id: 3001743523227994534L
 				}
 			]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			description: ["What's this? You were working on a lure for boosting the appearance of shiny Pokemon... and suddenly one of your Pokemon brought you an interesting charm!"]
+			dependencies: ["0F009A07D5D6F9E6"]
+			hide: true
+			hide_text_until_complete: true
+			id: "6B3E2AFC8D6FB8DB"
+			tasks: [{
+				id: "52F11589ABB3A2F2"
+				type: "item"
+				item: {
+					id: "pixelmon:lure_shiny_strong"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5697FA7D102B854A"
+				type: "item"
+				item: "pixelmon:shiny_charm"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			description: [
+				"Strong Lures have a more powerful effect, but require more powerful berries."
+				""
+				"Only two strong lures can be made without the Enigma Berry."
+				""
+				"Both require a Starf Berry and a few other berries that raise stats \"in a Pinch.\""
+			]
+			dependencies: ["2F84D1124BABCD33"]
+			hide: true
+			id: "0F009A07D5D6F9E6"
+			tasks: [{
+				id: "6F5F2010863081A5"
+				type: "item"
+				item: "pixelmon:lure_casing_strong"
+			}]
+			rewards: [
+				{
+					id: "2975CFDAADECD180"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 9
+				}
+				{
+					id: "148D988057E41120"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			description: ["What's this? You were working on a lure for boosting the appearance of Pokemon with Hidden abilities... and suddenly one of your Pokemon brought you an interesting charm!"]
+			dependencies: ["0F009A07D5D6F9E6"]
+			hide: true
+			hide_text_until_complete: true
+			id: "4983731EA454E846"
+			tasks: [{
+				id: "3CD0450EEC554A1D"
+				type: "item"
+				item: {
+					id: "pixelmon:lure_ha_strong"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "11DA5D5226949D55"
+				type: "item"
+				item: "pixelmon:oval_charm"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.5d
+			dependencies: [
+				"4A7CC21DD159D4DB"
+				"0F009A07D5D6F9E6"
+			]
+			id: "2FFEA1C77CCDD6D4"
+			tasks: [
+				{
+					id: "6EC58D2F8FFCC920"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_fire_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E17669783DE8602"
+					type: "item"
+					item: "pixelmon:charcoal"
+				}
+			]
+			rewards: [{
+				id: "4A8DBBE01FA4DB4F"
+				type: "item"
+				item: "pixelmon:flame_plate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.5d
+			dependencies: [
+				"75271B50DEF66CB5"
+				"0F009A07D5D6F9E6"
+			]
+			id: "406F1E585849A65F"
+			tasks: [
+				{
+					id: "6493D06D128F961E"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_electric_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54770F851BDCA37C"
+					type: "item"
+					item: "pixelmon:magnet"
+				}
+			]
+			rewards: [{
+				id: "472AEBC53ECC9D18"
+				type: "item"
+				item: "pixelmon:zap_plate"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			dependencies: [
+				"6B88F7CA7876C1E9"
+				"0F009A07D5D6F9E6"
+			]
+			id: "0E9D773ACFBB9000"
+			tasks: [
+				{
+					id: "2404C74A7F74FC1E"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_grass_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "148DFF65F693E713"
+					type: "item"
+					item: "pixelmon:miracle_seed"
+				}
+			]
+			rewards: [{
+				id: "77DA95953F8E5A7C"
+				type: "item"
+				item: "pixelmon:meadow_plate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			dependencies: [
+				"1878E237C64487B3"
+				"0F009A07D5D6F9E6"
+			]
+			id: "0DA1A63064A4E064"
+			tasks: [
+				{
+					id: "39874A8D6602EE56"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_flying_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "001D9C3E73ADCFE4"
+					type: "item"
+					item: "pixelmon:sharp_beak"
+				}
+			]
+			rewards: [{
+				id: "4DB5A5251EC82915"
+				type: "item"
+				item: "pixelmon:sky_plate"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.5d
+			dependencies: [
+				"46EFF05C7C8A9FE1"
+				"0F009A07D5D6F9E6"
+			]
+			id: "16C7F13B20F37E23"
+			tasks: [
+				{
+					id: "6EEAD2F052C807FA"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_rock_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C03611DB8DF9B69"
+					type: "item"
+					item: "pixelmon:hard_stone"
+				}
+			]
+			rewards: [{
+				id: "1A27044764547567"
+				type: "item"
+				item: "pixelmon:stone_plate"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 10.5d
+			dependencies: [
+				"1CB2DF1B60DA962E"
+				"0F009A07D5D6F9E6"
+			]
+			id: "6B24E670BB27FF02"
+			tasks: [
+				{
+					id: "057C056AC99989EB"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_bug_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27950D8D7AD0C23A"
+					type: "item"
+					item: "pixelmon:silver_powder"
+				}
+			]
+			rewards: [{
+				id: "180E22B4F0912856"
+				type: "item"
+				item: "pixelmon:insect_plate"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 10.5d
+			dependencies: [
+				"03EEBF70C7FB47C9"
+				"0F009A07D5D6F9E6"
+			]
+			id: "54915A0166DE4CCC"
+			tasks: [
+				{
+					id: "75FFDFA05B8306DF"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_water_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39869B9DC261A28B"
+					type: "item"
+					item: "pixelmon:mystic_water"
+				}
+			]
+			rewards: [{
+				id: "4EE40E499E4FECB1"
+				type: "item"
+				item: "pixelmon:splash_plate"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 10.5d
+			dependencies: [
+				"0C9E0F151B7614EE"
+				"0F009A07D5D6F9E6"
+			]
+			id: "2BA2EB12C81BEBED"
+			tasks: [
+				{
+					id: "3AFC2075F62BBDB3"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_normal_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AB26C88098FEB45"
+					type: "item"
+					item: "pixelmon:silk_scarf"
+				}
+			]
+			rewards: [{
+				id: "57A1CB4C9F848F40"
+				type: "item"
+				item: "pixelmon:blank_plate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			dependencies: [
+				"766C87B8A498A80B"
+				"0F009A07D5D6F9E6"
+			]
+			id: "06481EEBD4228FD1"
+			tasks: [
+				{
+					id: "0D4001E263F1D1D9"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_steel_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D53F38CD1D76B14"
+					type: "item"
+					item: "pixelmon:metal_coat"
+				}
+			]
+			rewards: [{
+				id: "7BB715D1B95DEDBA"
+				type: "item"
+				item: "pixelmon:iron_plate"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			dependencies: [
+				"3237D6D578620244"
+				"0F009A07D5D6F9E6"
+			]
+			id: "73F80059A6209F64"
+			tasks: [
+				{
+					id: "783ED6F3ACB7F41D"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_dark_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B16BDD7E9FA63A8"
+					type: "item"
+					item: "pixelmon:black_glasses"
+				}
+			]
+			rewards: [{
+				id: "2F125CFE0E08AC55"
+				type: "item"
+				item: "pixelmon:dread_plate"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			dependencies: [
+				"1E29592C69AC0A89"
+				"0F009A07D5D6F9E6"
+			]
+			id: "224BE900100EECEF"
+			tasks: [
+				{
+					id: "302C4A04875FEE0B"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_dragon_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "347F3ED887AD4CF6"
+					type: "item"
+					item: "pixelmon:dragon_fang"
+				}
+			]
+			rewards: [{
+				id: "5BD6241FF44AD907"
+				type: "item"
+				item: "pixelmon:draco_plate"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			dependencies: [
+				"3C48F565B177A9F1"
+				"0F009A07D5D6F9E6"
+			]
+			id: "002C047B6C323726"
+			tasks: [
+				{
+					id: "6445F5B5E2CF31B2"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_psychic_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E9C03435F95E284"
+					type: "item"
+					item: "pixelmon:twisted_spoon"
+				}
+			]
+			rewards: [{
+				id: "470E6AEE5BA712E5"
+				type: "item"
+				item: "pixelmon:mind_plate"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			dependencies: [
+				"25D0EB8788460245"
+				"0F009A07D5D6F9E6"
+			]
+			id: "508FA6DD68703254"
+			tasks: [
+				{
+					id: "43CACD150E3DA3AA"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_ghost_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "260D360066429823"
+					type: "item"
+					item: "pixelmon:spell_tag"
+				}
+			]
+			rewards: [{
+				id: "043056CDBD4BC270"
+				type: "item"
+				item: "pixelmon:spooky_plate"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			dependencies: [
+				"6CD1296F8AE3BDF4"
+				"0F009A07D5D6F9E6"
+			]
+			id: "4B509A0EC22F1054"
+			tasks: [
+				{
+					id: "66A8B19F0D403A69"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_fairy_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33095EC958924187"
+					type: "item"
+					item: "pixelmon:fairy_wand"
+				}
+			]
+			rewards: [{
+				id: "48F212F952912E8C"
+				type: "item"
+				item: "pixelmon:pixie_plate"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.5d
+			dependencies: [
+				"5D6E6D378E54B5E1"
+				"0F009A07D5D6F9E6"
+			]
+			id: "57D15EB7425422E3"
+			tasks: [
+				{
+					id: "51701DCE8806B39A"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_poison_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DC1617A46672AFC"
+					type: "item"
+					item: "pixelmon:poison_barb"
+				}
+			]
+			rewards: [{
+				id: "49BC3AC4CB69E1C8"
+				type: "item"
+				item: "pixelmon:toxic_plate"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 10.5d
+			dependencies: [
+				"775E7B24F32534AE"
+				"0F009A07D5D6F9E6"
+			]
+			id: "11349B6B241FFB5A"
+			tasks: [
+				{
+					id: "712AF774AFE1FAF6"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_ground_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1328160797A36068"
+					type: "item"
+					item: "pixelmon:soft_sand"
+				}
+			]
+			rewards: [{
+				id: "1556A807BEEC4041"
+				type: "item"
+				item: "pixelmon:earth_plate"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.5d
+			dependencies: [
+				"7CFF467AF8BFF24B"
+				"0F009A07D5D6F9E6"
+			]
+			id: "579D1851BD16A9C6"
+			tasks: [
+				{
+					id: "32D2B3FC505A8464"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_fighting_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E75EE29679225A6"
+					type: "item"
+					item: "pixelmon:black_belt"
+				}
+			]
+			rewards: [{
+				id: "2CE31EBD48948520"
+				type: "item"
+				item: "pixelmon:fist_plate"
+			}]
+		}
+		{
+			title: "A Dynamic Duo of Taste!"
+			x: 3.0d
+			y: 1.5d
+			description: ["Oh! Drifloon Has Found Something!"]
+			dependencies: [
+				"5A5446F1D07D80A2"
+				"10FDF176DA08CFEE"
+			]
+			id: "03DCA0E58DD66024"
+			tasks: [{
+				id: "3671C92C739A43CD"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "5050444A4A7CAD0D"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen7"
+					Count: 1b
+					tag: {
+						tm: 32
+					}
+				}
+			}]
 		}
 	]
 }

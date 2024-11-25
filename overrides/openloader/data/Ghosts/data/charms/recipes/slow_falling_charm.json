@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "minecraft:elytra"
+        },
+        {
+            "item": "pixelmon:lure_flying_weak"
+        }
+    ],
+    "result": {
+        "item": "charms:slow_falling_charm",
+        "count": 1
+    }
+}

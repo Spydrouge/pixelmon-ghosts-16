@@ -16,6 +16,16 @@
           "ghosts"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:red_orchid"
+            ]
+          }
+        }
+      ],
       "rarity": 1
     },
      {
@@ -33,6 +43,16 @@
           "ghosts"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:inca_lily"
+            ]
+          }
+        }
+      ],
       "rarity": 1
     },
      {
@@ -50,6 +70,16 @@
           "ghosts"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:lolipop_flower"
+            ]
+          }
+        }
+      ],
       "rarity": 1
     },
      {
@@ -67,6 +97,16 @@
           "ghosts"
         ]
       },
+    "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:angelica"
+            ]
+          }
+        }
+      ],
       "rarity": 1
     },
      {
@@ -89,7 +129,7 @@
           "multiplier": 10,
           "condition": {
             "neededNearbyBlocks": [
-              "minecraft:cornflower"
+              "minecraft:blue_orchid"
             ]
           }
         }

@@ -44,7 +44,7 @@
           "condition": {
             "neededNearbyBlocks": [
               "pixelmon:boulder",
-              "minecraft:iron_block"
+              "immersiveengineering:storage_steel"
             ]
           }
         }
@@ -106,8 +106,8 @@
           "multiplier": 5,
           "condition": {
             "neededNearbyBlocks": [
-              "pixelmon:crystal_block",
-              "minecraft:iron_block"
+              "pixelmon:sapphire_block",
+              "pixelmon:boulder"
             ]
           }
         }
@@ -165,7 +165,7 @@
           "condition": {
             "neededNearbyBlocks": [
               "pixelmon:boulder",
-              "minecraft:iron_block"
+              "immersiveengineering:storage_steel"
             ]
           }
         }
@@ -218,7 +218,7 @@
           "condition": {
             "neededNearbyBlocks": [
               "pixelmon:boulder",
-              "minecraft:iron_block"
+              "immersiveengineering:storage_steel"
             ]
           }
         }
@@ -287,8 +287,8 @@
           "multiplier": 5,
           "condition": {
             "neededNearbyBlocks": [
-              "pixelmon:crystal_block",
-              "minecraft:iron_block"
+              "pixelmon:sapphire_block",
+              "pixelmon:boulder"
             ]
           }
         }
@@ -352,8 +352,8 @@
           "multiplier": 5,
           "condition": {
             "neededNearbyBlocks": [
-              "pixelmon:crystal_block",
-              "minecraft:iron_block"
+              "pixelmon:sapphire_block",
+              "pixelmon:boulder"
             ]
           }
         }
@@ -376,6 +376,17 @@
           "pixelmon:ultra_crater"
         ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:sapphire_block",
+              "pixelmon:boulder"
+            ]
+          }
+        }
+      ],
       "rarity": 5.0
     }
   ]

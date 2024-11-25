@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "pixelmon:lure_fire_strong"
+        },
+        {
+            "item": "minecraft:nether_star"
+        }
+    ],
+    "result": {
+        "item": "charms:fire_resistance_charm",
+        "count": 1
+    }
+}

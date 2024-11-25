@@ -1,0 +1,11 @@
+{
+	id: "590A19A9213A93BE"
+	order_index: 41
+	title: "Bird Stone"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:fire_stone" }
+		{ item: "pixelmon:ice_stone" }
+		{ item: "pixelmon:thunder_stone" }
+	]
+}

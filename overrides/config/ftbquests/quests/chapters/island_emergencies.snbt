@@ -16,7 +16,7 @@
 			y: 3.0d
 			shape: "rsquare"
 			subtitle: "It was dumb, and I know it was dumb."
-			description: ["Make an offering to Arceus, and plead for a single piece of dirt. He may restore it in one of the four original locations where dirt could be found on your island."]
+			description: ["Make an offering to Arceus, and plead for a single piece of dirt. "]
 			id: "79E4FAF7659C5BC7"
 			tasks: [{
 				id: "403F5ADF73F9046D"
@@ -40,12 +40,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "5AE96B6EEE260646"
-				type: "command"
-				title: "Arceus will restore one piece of dirt."
-				icon: "minecraft:coarse_dirt"
-				command: "/function ghosts:fix_dirt_block"
-				player_command: false
+				id: "74CCAE47313412F4"
+				type: "item"
+				item: "minecraft:dirt"
 			}]
 		}
 		{
@@ -153,6 +150,8 @@
 				"Stand on the offending end portal frame block,  make this offering, and the block will be returned to your inventory."
 				""
 				"Because end portal frames are a full block tall with an eye in them, and only a partial block tall without an eye in them, this function will deal with end portal frames at ~ ~ ~ and ~ ~-1 ~ simultaneously, and refund you for each frame block it finds."
+				""
+				"You will not be refunded for spent eyes of ender."
 			]
 			dependencies: ["42EC53C495F34D33"]
 			hide: true

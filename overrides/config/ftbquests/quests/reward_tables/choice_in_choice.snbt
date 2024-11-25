@@ -1,0 +1,11 @@
+{
+	id: "2CD59A0B834AF54C"
+	order_index: 42
+	title: "Choice in Choice"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:choice_band" }
+		{ item: "pixelmon:choice_scarf" }
+		{ item: "pixelmon:choice_specs" }
+	]
+}

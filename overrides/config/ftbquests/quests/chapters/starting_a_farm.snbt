@@ -1010,6 +1010,11 @@
 					type: "item"
 					item: "pixelmon:s_exp_candy"
 				}
+				{
+					id: "3B4F2A40059C294F"
+					type: "item"
+					item: "pixelmon:sharp_beak"
+				}
 			]
 		}
 		{
@@ -1416,274 +1421,6 @@
 					table_id: 6443510782262151491L
 				}
 			]
-		}
-		{
-			x: -1.5d
-			y: 7.0d
-			description: [
-				"The Kelpsy berry lowers Attack AVs and is ideal for special attackers."
-				""
-				"It is easy to find, as the Nincada family drops it. You might have even gotten one from Shedinja!"
-			]
-			dependencies: ["4106B5F70B55A664"]
-			hide: true
-			id: "3E6CD2FDC4525CDD"
-			tasks: [{
-				id: "49915D8530FCBAC1"
-				type: "item"
-				item: "pixelmon:kelpsy_berry"
-			}]
-			rewards: [
-				{
-					id: "24E62E7E2189D9BD"
-					type: "item"
-					item: "pixelmon:kelpsy_berry"
-				}
-				{
-					id: "69C568FD4725AB9D"
-					type: "item"
-					item: "pixelmon:m_exp_candy"
-				}
-				{
-					id: "6861370EF1EFFAB6"
-					type: "item"
-					item: "pixelmon:blue_shard"
-				}
-				{
-					id: "5B115EF120D87B6B"
-					type: "random"
-					table_id: 7514776752967216189L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: 7.0d
-			description: [
-				"Qualot berries lower Defense EVs"
-				""
-				"Qualot berries are associated with Swalot, the Gulpin evolution. You think you can find these berries in the possession of Gulpin, who can be attracted to out-of-doors land habitats on the Murk Layer."
-			]
-			dependencies: ["4106B5F70B55A664"]
-			hide: true
-			id: "2E6BDAFFD74ED7DA"
-			tasks: [{
-				id: "25BC2F346C5C1815"
-				type: "item"
-				item: "pixelmon:qualot_berry"
-			}]
-			rewards: [
-				{
-					id: "7EC44594D2A7DD47"
-					type: "item"
-					item: "pixelmon:qualot_berry"
-				}
-				{
-					id: "05558084C6813BC7"
-					type: "item"
-					item: "pixelmon:m_exp_candy"
-				}
-				{
-					id: "4386BB1287C37A7B"
-					type: "item"
-					item: "pixelmon:yellow_shard"
-				}
-				{
-					id: "49D8E474FCC513B3"
-					type: "item"
-					item: "immersiveengineering:nugget_uranium"
-					count: 3
-				}
-			]
-		}
-		{
-			x: -0.5d
-			y: 7.0d
-			description: [
-				"The Hondew Berry lowers Special Attack EVs."
-				""
-				"The most likely place for you to find a Hondew berry is in possession of the Hatenna line, which can likely be attracted to indoor habitats on the Dazzle Layer."
-			]
-			dependencies: ["4106B5F70B55A664"]
-			hide: true
-			id: "3D33E885F79A75DF"
-			tasks: [{
-				id: "7E33456C6E881C8E"
-				type: "item"
-				item: "pixelmon:hondew_berry"
-			}]
-			rewards: [
-				{
-					id: "13B9C472C5E8F10C"
-					type: "item"
-					item: "pixelmon:hondew_berry"
-				}
-				{
-					id: "4FE7C8FED53236AF"
-					type: "item"
-					item: "pixelmon:m_exp_candy"
-				}
-				{
-					id: "7039AB811F7EC8E5"
-					type: "item"
-					item: "pixelmon:green_shard"
-				}
-				{
-					id: "1A88DB6D2CBE97B1"
-					type: "item"
-					item: {
-						id: "minecraft:leather_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 0.5d
-			y: 7.0d
-			description: [
-				"The Grepa Berry lowers Special Defense Evs."
-				""
-				"It can be found in the possession of the Gothita line, which you believe can be attracted to indoor habitats on the Dazzle Layer."
-			]
-			dependencies: ["4106B5F70B55A664"]
-			hide: true
-			id: "3FC2FF88212BCE51"
-			tasks: [{
-				id: "1B6C903F2AD9B700"
-				type: "item"
-				item: "pixelmon:grepa_berry"
-			}]
-			rewards: [
-				{
-					id: "1A852AC2BE1AF05C"
-					type: "item"
-					item: "pixelmon:grepa_berry"
-				}
-				{
-					id: "5A0BEA681D84DDEC"
-					type: "item"
-					item: "pixelmon:m_exp_candy"
-				}
-				{
-					id: "54102C34AA6D99E2"
-					type: "item"
-					item: "pixelmon:white_shard"
-				}
-				{
-					id: "7E5B72454886D827"
-					type: "item"
-					item: "botania:black_lotus"
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: 7.0d
-			description: [
-				"Tamato berries reduce Health EVs."
-				""
-				"The place you see yourself most easily finding Tamato berries is from Alomola. You think this famous \"Sun fish\" can be attracted to above-ground water habitats on the Space Layer."
-			]
-			dependencies: ["4106B5F70B55A664"]
-			hide: true
-			id: "2BF86EE787EF7DC0"
-			tasks: [{
-				id: "1831440C07A7DACF"
-				type: "item"
-				item: "pixelmon:tamato_berry"
-			}]
-			rewards: [
-				{
-					id: "72C0799F126C87F8"
-					type: "item"
-					item: "pixelmon:tamato_berry"
-				}
-				{
-					id: "238F7C1D3B89C82E"
-					type: "item"
-					item: "pixelmon:m_exp_candy"
-				}
-				{
-					id: "252BAB0CBFB900E3"
-					type: "item"
-					item: "pixelmon:red_shard"
-				}
-				{
-					id: "1CCB8BDBC6FDEEF7"
-					type: "item"
-					item: "pixelmon:sun_stone_shard"
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 7.0d
-			description: [
-				"The Pomeg Berry lowers Speed EVs. It is ideal for slow tanks or Pokemon who use Trick Room."
-				""
-				"You think you may be able to find Pidove because of it's tendency to survive apocalyptic events. You should try attracting it to man-made open air habitats on the Air Layer."
-			]
-			dependencies: ["4106B5F70B55A664"]
-			hide: true
-			id: "2358F538B703DE01"
-			tasks: [{
-				id: "5E5C2991D1A2425F"
-				type: "item"
-				item: "pixelmon:pomeg_berry"
-			}]
-			rewards: [
-				{
-					id: "60F9DDA18825C9BA"
-					type: "item"
-					item: "pixelmon:pomeg_berry"
-				}
-				{
-					id: "78B544B4C164FB90"
-					type: "item"
-					item: "pixelmon:m_exp_candy"
-				}
-				{
-					id: "61D1B2D85136AFFA"
-					type: "item"
-					item: "pixelmon:black_shard"
-				}
-				{
-					id: "321A7DCFE7017804"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 39
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 6.0d
-			description: [
-				"When it comes to training the most powerful Pokemon, you need to consider which 'Effort Value' points (EVs) your Pokemon is gathering. Basically, fighting fast Pokemon will make your Pokemon faster. Fighting good attackers will make your Pokemon a better attacker."
-				""
-				"Each Pokemon can only gain a certain number of total EVs, so they usually want to get them in important stats."
-				""
-				"This makes it very important to have a way to get rid of unwanted EVs. That's where the \"EV-Reducing-Berries\" come in."
-				""
-				"These berries have the added benefit of making your Pokemon more friendly, which means they can help evolve baby Pokemon who need max friendship before evolving."
-			]
-			dependencies: ["4B1822BBB0D17F60"]
-			hide: true
-			id: "4106B5F70B55A664"
-			tasks: [{
-				id: "3AB743950C74EDC6"
-				type: "item"
-				item: "pixelmon:berry_bag"
-			}]
 		}
 		{
 			title: "Spice of Life"
@@ -2550,7 +2287,7 @@
 		}
 		{
 			x: 2.0d
-			y: 3.0d
+			y: 2.5d
 			description: [
 				"Rice is a staple food that can only be planted on dirt submerged in one block of water."
 				""
@@ -4477,6 +4214,255 @@
 				id: "7ECEEAD68FFDD2E0"
 				type: "item"
 				item: "minecraft:beef"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			subtitle: "Poop!"
+			description: [
+				"You do not know how you are going to find cocoa. Usually cocoa is something monkeys throw at one another, and its not like many trees survived the apocalypse."
+				""
+				"There is a small possibility you can find a Sinistea filled with hot cocoa instead of tea. "
+				""
+				"To do this, you'd have to travel to a freezing cold level of the void, and try to lure the spirit out with everything reminiscent of Christmas: A safe indoor home, with a spruce tree might do it."
+				""
+				"Even if you find Cocoa, you will not be able to grow it owed to the lack of Jungle trees. But you might be able to get those trees through some kind of Botanical Magic."
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D3AE7D61C1C477F"]
+			hide: true
+			id: "4C65CAA6CF805F5D"
+			tasks: [{
+				id: "3C17A7E0DE188A80"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+			}]
+			rewards: [
+				{
+					id: "3E1F75806CFE0055"
+					type: "item"
+					item: "minecraft:cocoa_beans"
+				}
+				{
+					id: "5711FC27E45B16AF"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			description: ["You see no way of attaining a Cactus, but you haven't given up just yet. You might be able to make one with Botanical Magic."]
+			hide_dependency_lines: true
+			dependencies: ["2D3AE7D61C1C477F"]
+			hide: true
+			id: "407E7F4CDC5A0C60"
+			tasks: [{
+				id: "7D751423E1245D37"
+				type: "item"
+				item: "minecraft:cactus"
+			}]
+			rewards: [{
+				id: "525AA47FD2619736"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			description: ["If you are able to obtain Jungle saplings and wood through Botanical Magic, you should grow the Cocoa you've obtained."]
+			dependencies: ["4C65CAA6CF805F5D"]
+			hide: true
+			id: "0522C7E25981EFC2"
+			tasks: [{
+				id: "1CC70713A28C87AD"
+				type: "item"
+				item: "minecraft:jungle_log"
+			}]
+			rewards: [
+				{
+					id: "28CD1E14A927F597"
+					type: "item"
+					item: "minecraft:cocoa_beans"
+				}
+				{
+					id: "109B06708C084665"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			description: [
+				"You have forgotten there is one species of monkey Pokemon that may have survived among all the ghosts."
+				""
+				"You don't think you can catch it--it's anger is too great--but it may occasionally leave you its children, especially in treetops near where you've planted cocoa."
+			]
+			dependencies: ["0522C7E25981EFC2"]
+			id: "674AAB76D9D5060A"
+			tasks: [{
+				id: "5C4D5D9698FB7C15"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Annihilape"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "14EB1CBBBCE85A97"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "12509EC3CB123D8F"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "5452FA4D7571C28D"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			description: ["Cactuses are more resilient than you realized! As soon as you began planting them, a few cactus Pokemon began to show up!"]
+			dependencies: ["407E7F4CDC5A0C60"]
+			hide: true
+			min_required_tasks: 1
+			id: "54DF0D5FEEA7D4C9"
+			tasks: [
+				{
+					id: "6C3695EE110C8C79"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "maractus"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "215F3173FCA0A394"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cacnea"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "25CDD5D63D167C98"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "3719B85F398926A6"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+			]
+		}
+		{
+			title: "Ball Cactuses"
+			x: 0.5d
+			y: 4.5d
+			description: [
+				"Ball Cactus flowers can be planted on sand and grown into ball cactuses. These cactuses can then be shorn of their flowers with shears."
+				""
+				"Mature ball cactuses can also be harvested, dried out, and used as a source of green dye."
+				""
+				"To get a ball cactus flower, you will either have to find a rare Gossifleur on the Dazzle layer, a Bramblin or Brambleghast on a desert or beach in the Air layer, or wait until you have cactuses, as Maractus and Cacnea should drop plenty of them."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D3AE7D61C1C477F"]
+			hide: true
+			id: "2412D6501AB6396E"
+			tasks: [{
+				id: "0CB40D9C89F29925"
+				type: "item"
+				title: "Any #habitat:ball_cactus_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "habitat:ball_cactus_flowers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12FCB6559158CBFC"
+					type: "item"
+					item: "ceramicshears:clay_shears_part"
+				}
+				{
+					id: "78CB136C19DAAAA6"
+					type: "choice"
+					table_id: 4887553477010900837L
+				}
+				{
+					id: "49DC55F10993AFA6"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			description: ["The ball cactus seems too small to attract any cactus Pokemon, but it will do the job of producing renewable green dye for you."]
+			dependencies: ["2412D6501AB6396E"]
+			hide: true
+			id: "049F51923D6A6566"
+			tasks: [{
+				id: "6DC6220411E6D1B2"
+				type: "item"
+				title: "Any #habitat:ball_cacti"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "habitat:ball_cacti"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			description: ["Cook the ball cactus to dry it out. Then place it in a crafting grid to turn it into green dye."]
+			dependencies: ["049F51923D6A6566"]
+			hide: true
+			id: "05B9A26E81EFDD64"
+			tasks: [
+				{
+					id: "55EE4E2B04715A58"
+					type: "item"
+					item: "habitat:dried_ball_cactus"
+				}
+				{
+					id: "6A39AA5F465B2930"
+					type: "item"
+					item: "minecraft:green_dye"
+				}
+			]
+			rewards: [{
+				id: "1E6FDA29F952BFEB"
+				type: "item"
+				item: "pixelmon:green_shard"
 			}]
 		}
 	]

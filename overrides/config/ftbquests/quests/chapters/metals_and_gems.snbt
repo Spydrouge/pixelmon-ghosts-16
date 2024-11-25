@@ -90,7 +90,7 @@
 			]
 		}
 		{
-			x: -9.5d
+			x: -9.0d
 			y: 1.5d
 			description: [
 				"A lightning rod is the ultimate attractor for the Magnemite family. Building one is no small endeavor, but doing so will allow you to comfortably farm iron in the lightning rod's vicinity forever after. Effects are increased in stormy weather."
@@ -187,6 +187,8 @@
 				"Burmy hate the rain, which makes them hide under whatever roof is available. They lose their plant cloaks and adopt a trash cloak, and this trash is almost always made of aluminum."
 				""
 				"Klefki, which also spawns indoors between Y levels of 64 and 96, drops much larger amounts of aluminum, but is more difficult to defeat."
+				""
+				"(Note: In the JEI, the AluminIum Ingot from Pixelmon is used, but the Alumin_um nugget from immersive engineering is used because Pixelmon didn't include a nugget. Keep in mind the difference between American and British spellings when looking for what drops Aluminum/Aluminium.)"
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -305,14 +307,14 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -8.0d
 			y: 1.5d
 			description: [
 				"One technique for farming iron is to identify where the Honedge family is likely to gather, and to construct an anvil in the vinicity. You have discovered a lot of archeological Pokemon in the Stone layer, between Y levels 32 and 64. Placing an anvil there might reveal the ghostly Honedge."
 				""
 				"Obviously, this technique requires iron to make iron; it is a way to sustain iron production, rather than start it."
 			]
-			dependencies: ["6C7756D44E8B93BB"]
+			dependencies: ["4C1CAC291061DDF9"]
 			hide: true
 			id: "44C692A5614BC9EB"
 			tasks: [{
@@ -410,7 +412,7 @@
 			x: -0.5d
 			y: 5.0d
 			description: [
-				"The most reliable source of crystal will come from Carbink, which is deep, deep under the earth below Y = 32. Carbink are primarily made of this crystal."
+				"The most reliable source of crystal will come from Carbink, which is deep, deep under the earth below Y = 32 in the Deep Dark Layer. Carbink are primarily made of this crystal."
 				""
 				"Sableye hunts and consumes Carbink. Placing a block of crystal on the ground anywhere Sableye spawns will increase the amount of wild Sableye."
 			]
@@ -939,7 +941,7 @@
 				""
 				"It is rare, and hard to get, but Beldum will occasionally drop a small amount. Beldum can be found indoors on the Deep Dark layer, but is very uncommon."
 				""
-				"Cobalt cannot be melted without lava. Since it is a nether ore anyway, you doubt you will be getting any help in melting it."
+				"Cobalt cannot be melted without lava. Since it is a nether ore anyway, you doubt you will be getting any help in melting it before traveilng to the Nether."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1553,7 +1555,10 @@
 			x: -1.5d
 			y: -9.0d
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
-			dependencies: ["47607815AA13CD41"]
+			dependencies: [
+				"47607815AA13CD41"
+				"47107D60FD080A18"
+			]
 			hide: true
 			repeatable: true
 			id: "1694B01F7096AA80"
@@ -1625,7 +1630,10 @@
 			x: 0.5d
 			y: -8.0d
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Uranium in a world devoid of lava..."]
-			dependencies: ["5AA83F235FA5EFE5"]
+			dependencies: [
+				"5AA83F235FA5EFE5"
+				"47107D60FD080A18"
+			]
 			hide: true
 			repeatable: true
 			id: "0D357C7D4960292F"
@@ -1760,7 +1768,7 @@
 			description: [
 				"Basalz is similar to Blaze. Its shards and powders cannot be used for the same purposes, but they have crafting applications. "
 				""
-				"Specifically, Basalz can be used to turn objects like Cinnabar into dusts."
+				"Specifically, Basalz can be used to turn objects like Cinnabar into dusts, which are used in some of the offerings on this page of your journal."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1813,7 +1821,10 @@
 			x: -1.0d
 			y: -10.0d
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
-			dependencies: ["10FA5D943BCB7467"]
+			dependencies: [
+				"10FA5D943BCB7467"
+				"47107D60FD080A18"
+			]
 			hide: true
 			repeatable: true
 			id: "393FEFC09A97B42C"
@@ -1875,7 +1886,10 @@
 			x: -2.0d
 			y: -10.0d
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
-			dependencies: ["433F2B694D1B6F35"]
+			dependencies: [
+				"433F2B694D1B6F35"
+				"47107D60FD080A18"
+			]
 			hide: true
 			repeatable: true
 			id: "71D7E864F3AC3A18"
@@ -1954,6 +1968,98 @@
 					id: "2138C5EE8843BDFC"
 					type: "item"
 					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: [
+				"Aquamarine is can be found"
+				"You think Aquamarine can be found carried by Drowned Sableye, a frightening undead version of Sableye which is attracted to underground water habitats on the Soil Layer, your starting layer."
+				""
+				"Aquamarine Shale may be dropped by Crystal Onix, which can be attracted to underground habitats on the Ice Layer."
+			]
+			dependencies: ["542EFBDFBABB8B13"]
+			hide: true
+			id: "744C6C546BC0DDD7"
+			tasks: [{
+				id: "5E8B652CC31D0406"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "55C456394041780E"
+				type: "choice"
+				table_id: 6443510782262151491L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			description: [
+				"Rock crystals are rarely dropped by Carbink in the Deep Dark Layer."
+				""
+				"Rock Crystal ore can only be dropped by Crystal Steelix, which you believe can be attracted to underground habitats on the Ice Layer."
+				""
+				"Crystal Onix is attracted to a mixture of boulder blocks and crystal blocks. Crystal Steelix is attracted to a mixture of boulder blocks and sapphire blocks."
+			]
+			dependencies: ["744C6C546BC0DDD7"]
+			hide: true
+			id: "69AAAAA22D771772"
+			tasks: [{
+				id: "406C9D099E09E56E"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C31848C9C51320E"
+				type: "choice"
+				table_id: 6443510782262151491L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			description: ["Onix is not a common Pokemon, but it can be attracted to underground habitats on the Deep Dark layer. Putting out Boulders will make them more likely to appear. If you also put down a steel block, you will increase the chance of seeing a Steelix, a source of iron ore."]
+			dependencies: ["6C7756D44E8B93BB"]
+			hide: true
+			id: "4C1CAC291061DDF9"
+			tasks: [
+				{
+					id: "6617AC312233C299"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+				}
+				{
+					id: "7EB73E6D638F758A"
+					type: "item"
+					item: "pixelmon:boulder"
+				}
+			]
+			rewards: [
+				{
+					id: "2495FF3FAC534500"
+					type: "item"
+					item: "pixelmon:boulder"
+				}
+				{
+					id: "30EEBC5F516AC3DA"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 2
+				}
+				{
+					id: "54AD685E0C909659"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 2
 				}
 			]
 		}

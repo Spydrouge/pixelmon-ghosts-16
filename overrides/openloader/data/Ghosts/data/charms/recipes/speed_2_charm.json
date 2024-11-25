@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:speed_charm"
+        },
+        {
+            "item": "charms:speed_charm"
+        },
+        {
+            "item": "pixelmon:lure_ground_strong"
+        },
+        {
+            "item": "minecraft:dragon_head"
+        }
+    ],
+    "result": {
+        "item": "charms:speed_2_charm",
+        "count": 1
+    }
+}

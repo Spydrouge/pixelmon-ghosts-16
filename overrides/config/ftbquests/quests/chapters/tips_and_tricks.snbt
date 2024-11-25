@@ -1501,6 +1501,7 @@
 				""
 				"Many \"Oh the Biomes You'll Go\" trees are Y-level restricted, and a number must be planted in 2x2 formations."
 			]
+			dependencies: ["1D4BBFA8D3484EBD"]
 			hide: true
 			id: "69C2D29AE902B96F"
 			tasks: [{
@@ -1870,11 +1871,7 @@
 				""
 				"Since Luck acts as both a Looting and Fortune enchantment, you may find that you prefer to add it to an axe first, as axes can benefit from both effects."
 			]
-			dependencies: [
-				"02CA5502E9034C59"
-				"0F4025F78AA75F66"
-				"57A21E306836A364"
-			]
+			dependencies: ["02CA5502E9034C59"]
 			hide: true
 			id: "309C9E0D285FDCEA"
 			tasks: [{
@@ -1963,9 +1960,10 @@
 			y: -2.5d
 			description: ["\"Luck\" is equivalent to a Fortune I and Looting I enchantment."]
 			dependencies: [
-				"4128065F8EDEFB33"
 				"07BA46FEA87A826E"
+				"309C9E0D285FDCEA"
 			]
+			hide: true
 			id: "0F4025F78AA75F66"
 			tasks: [
 				{
@@ -2037,7 +2035,8 @@
 			x: 10.0d
 			y: -3.5d
 			description: ["The Luckier modifier must be applied after the Luck Modifier. It does not take an additional modifier slot. It is equivalent to Fortune II and Looting II"]
-			dependencies: ["32E1BDB0DBBAE1E4"]
+			dependencies: ["0F4025F78AA75F66"]
+			hide: true
 			id: "4128065F8EDEFB33"
 			tasks: [
 				{
@@ -2098,6 +2097,8 @@
 				""
 				"The Name Tag will be the most difficult to acquire. You can either create one, using an Alchemic Catalyst--But those are expensive, and require iron and blaze rods-- or you can harass enough Stufful and Bewear until one finally drops."
 			]
+			dependencies: ["4128065F8EDEFB33"]
+			hide: true
 			id: "32E1BDB0DBBAE1E4"
 			tasks: [
 				{
@@ -2251,6 +2252,7 @@
 			x: 9.0d
 			y: -2.5d
 			description: ["Silky Cloth can be used to give any tool the Silk Touch modifier. Unfortunately, it can only be applied at a Tinker's Anvil. But perhaps if you make some ahead of time..."]
+			dependencies: ["309C9E0D285FDCEA"]
 			hide: true
 			id: "57A21E306836A364"
 			tasks: [{
@@ -2385,7 +2387,11 @@
 			icon: "astralsorcery:marble_raw"
 			x: 5.5d
 			y: 3.0d
-			description: ["There may be other good reasons to fight an Alolan Geodude..."]
+			description: [
+				"There may be other good reasons to fight an Alolan Geodude..."
+				""
+				"If you manage to blunder into a pokemon that drops &credstone&r, placing a little bit on the ground anywhere Geodude spawns will instead attract Alolan Geodude."
+			]
 			dependencies: ["5E9D14F96349F6FC"]
 			hide: true
 			min_required_tasks: 1
@@ -2451,6 +2457,64 @@
 				id: "792FD7AEC15444EC"
 				type: "item"
 				item: "astralsorcery:tome"
+			}]
+			rewards: [{
+				id: "179681716DBC74EA"
+				type: "choice"
+				table_id: 6887887404997572042L
+			}]
+		}
+		{
+			title: "Understanding Relic Spawns"
+			x: -5.0d
+			y: 4.5d
+			description: [
+				"Every thirty minutes, there is a chance a Legendary Pokemon will spawn. However, there are a lot of checks and conditions that must be made for this to happen."
+				""
+				"First, there is only a &apercent&r chance that a Legendary Pokemon will spawn. In most universes, this is 30% In your universe, it might be as high as 100% That's &aGood News!&r"
+				""
+				"Secondly, a block on a loaded chunk will be chosen at random, and a legendary encounter will be drawn from the list of all possible Legendary Pokemon for that block."
+				""
+				"If there are no Pokemon on the list, nothing will spawn."
+				""
+				"To make the most of your relic items, you need &aa lot of them&r. Check Offerings to Arceus to see how you can duplicate them. Then you need to spread them out. You can check how far their influence extends by running /checkspawns legendary"
+				""
+				"You may also benefit from placing them in and hanging out in a biome with no natural spawning legendaries that can compete with them, like The End. If you are playing on a server, be wary of your server's policies so you don't lose anything important."
+			]
+			dependencies: ["395FF1A6F8319736"]
+			id: "36FCB53526E68B8E"
+			tasks: [{
+				id: "7E648A0BCE8B6A60"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:relic_crown"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_vase"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_statue"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_band"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0854CAEF1CA8C79F"
+				type: "item"
+				item: "pixelmon:relic_copper"
 			}]
 		}
 	]

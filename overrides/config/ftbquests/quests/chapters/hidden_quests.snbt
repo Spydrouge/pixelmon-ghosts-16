@@ -385,6 +385,7 @@
 			]
 		}
 		{
+			title: "Hidden: Vending Machien"
 			x: 2.5d
 			y: -3.0d
 			id: "564F4DBFD169B8E3"
@@ -402,6 +403,7 @@
 			}]
 		}
 		{
+			title: "Hidden: Cocoa"
 			x: 3.5d
 			y: -3.0d
 			id: "0C1950B46A377106"
@@ -412,6 +414,7 @@
 			}]
 		}
 		{
+			title: "Hidden: Slowpoke Tail"
 			x: -0.5d
 			y: -2.0d
 			min_required_tasks: 1
@@ -430,6 +433,7 @@
 			]
 		}
 		{
+			title: "Hidden: Beef"
 			x: 0.5d
 			y: -2.0d
 			min_required_tasks: 1
@@ -455,6 +459,7 @@
 			]
 		}
 		{
+			title: "Hidden: Moomoo Cheese"
 			x: 1.5d
 			y: -2.0d
 			id: "5A28C07FACF26220"
@@ -465,6 +470,7 @@
 			}]
 		}
 		{
+			title: "Hidden: Large Leek"
 			x: 2.5d
 			y: -2.0d
 			id: "1E270CD382538720"
@@ -475,6 +481,7 @@
 			}]
 		}
 		{
+			title: "Hidden: Slime Wood"
 			x: 4.5d
 			y: -3.0d
 			id: "5F2C866ED23D2A45"
@@ -552,6 +559,7 @@
 			}]
 		}
 		{
+			title: "Hidden: Any Slime Ball"
 			x: 5.5d
 			y: -3.0d
 			id: "6E27F5F8086AC949"
@@ -707,6 +715,7 @@
 			]
 		}
 		{
+			title: "Ancient Power"
 			x: -1.0d
 			y: 0.5d
 			dependencies: ["5AF0C36E42A5FFB3"]
@@ -724,6 +733,7 @@
 			}]
 		}
 		{
+			title: "Ancient Power"
 			x: 0.0d
 			y: 0.5d
 			dependencies: ["239207D5068640A8"]
@@ -750,13 +760,29 @@
 				type: "dimension"
 				dimension: "minecraft:overworld"
 			}]
-			rewards: [{
-				id: "4FBE2FDE723963B0"
-				type: "command"
-				auto: "invisible"
-				command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "4FBE2FDE723963B0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+					player_command: false
+				}
+				{
+					id: "1A4FEEEEED69AB69"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6AD2B6C1CAE18D18"
+					player_command: false
+				}
+				{
+					id: "5E40533F5209054D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 014EBF683B756A5D"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "In the Nether"
@@ -768,15 +794,32 @@
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
-			rewards: [{
-				id: "4AB68FF762328C81"
-				type: "command"
-				auto: "invisible"
-				command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "4AB68FF762328C81"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+					player_command: false
+				}
+				{
+					id: "2CA63C838DC603FD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6AD2B6C1CAE18D18"
+					player_command: false
+				}
+				{
+					id: "79E76D5AB8260B91"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 014EBF683B756A5D"
+					player_command: false
+				}
+			]
 		}
 		{
+			title: "Botania Fancy Generating Flower Timer"
 			x: 1.0d
 			y: 0.5d
 			dependencies: [
@@ -897,6 +940,299 @@
 				observe_type: 0
 				to_observe: "pixelmon:pixelmon {ndex:1004}"
 			}]
+		}
+		{
+			title: "Hidden: Orb"
+			x: -7.5d
+			y: -2.0d
+			secret: true
+			id: "58C0758097E330F9"
+			tasks: [{
+				id: "48C9448C2C256A82"
+				type: "item"
+				item: "pixelmon:orb"
+			}]
+		}
+		{
+			title: "Hidden: End Portal Frame"
+			x: 3.5d
+			y: -2.0d
+			id: "4D6D5830E816D5AB"
+			tasks: [{
+				id: "690787A1FE89BEB8"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "433A6C6FE6FD464B"
+			tasks: [{
+				id: "4668CEDF9EFE23A6"
+				type: "item"
+				item: "ends_delight:non_hatchable_dragon_egg"
+			}]
+		}
+		{
+			title: "Hidden: Eat a Shulker"
+			x: 5.5d
+			y: -2.0d
+			id: "6191AC5578B8A3D2"
+			tasks: [{
+				id: "4D70EBFDF7631F40"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ends_delight:roasted_shulker_meat"
+								Count: 1b
+							}
+							{
+								id: "ends_delight:shulker_meat"
+								Count: 1b
+							}
+							{
+								id: "ends_delight:roasted_shulker_meat_slice"
+								Count: 1b
+							}
+							{
+								id: "ends_delight:shulker_meat_slice"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Hidden: Plate"
+			x: -8.5d
+			y: -2.0d
+			id: "0D6589EBAC0B4BDC"
+			tasks: [{
+				id: "3FD4296ECD74FA1E"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:stone_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:earth_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:dread_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:spooky_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:iron_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:fist_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:icicle_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:draco_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:pixie_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:mind_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:zap_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:toxic_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:insect_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:sky_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:splash_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:flame_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:meadow_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:blank_plate"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Get a colored Spruce Tree"
+			x: 6.5d
+			y: -2.0d
+			id: "1D4BBFA8D3484EBD"
+			tasks: [{
+				id: "258887DB578B9251"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "byg:orange_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:red_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:yellow_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:blue_spruce_sapling"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Hidden: Relic Items"
+			x: -9.5d
+			y: -2.0d
+			id: "395FF1A6F8319736"
+			tasks: [{
+				id: "4B73C36F3EBEC716"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:relic_crown"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_vase"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_statue"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_band"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "In the Drowned World"
+			x: 1.0d
+			y: 2.0d
+			id: "6AD2B6C1CAE18D18"
+			tasks: [{
+				id: "538D9A7A94363EAE"
+				type: "dimension"
+				dimension: "pixelmon:drowned_world"
+			}]
+			rewards: [
+				{
+					id: "184F244DC0A6BC32"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+					player_command: false
+				}
+				{
+					id: "45486C5837CE3FBB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+					player_command: false
+				}
+				{
+					id: "36D51CB41F781474"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 014EBF683B756A5D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "In the End"
+			x: 2.0d
+			y: 2.0d
+			id: "014EBF683B756A5D"
+			tasks: [{
+				id: "50922D35B7DEC8B9"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "7F96FC1940796289"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+					player_command: false
+				}
+				{
+					id: "6730262E6F552C4D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+					player_command: false
+				}
+				{
+					id: "0F7306FE983F4F75"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6AD2B6C1CAE18D18"
+					player_command: false
+				}
+			]
 		}
 	]
 }

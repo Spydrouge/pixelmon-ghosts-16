@@ -11,9 +11,14 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "16 Pixelmon Ghosts",
-  "version": "0.6.17",
+  "version": "0.6.18",
   "author": "",
   "files": [
+    {
+      "projectID": 358700,
+      "fileID": 3885367,
+      "required": true
+    },
     {
       "projectID": 382216,
       "fileID": 3607198,
@@ -210,6 +215,11 @@
       "required": true
     },
     {
+      "projectID": 321663,
+      "fileID": 3435330,
+      "required": true
+    },
+    {
       "projectID": 389487,
       "fileID": 4952412,
       "required": true
@@ -227,6 +237,11 @@
     {
       "projectID": 564101,
       "fileID": 3603718,
+      "required": true
+    },
+    {
+      "projectID": 422301,
+      "fileID": 4167327,
       "required": true
     },
     {
@@ -255,8 +270,18 @@
       "required": true
     },
     {
+      "projectID": 470467,
+      "fileID": 3273970,
+      "required": true
+    },
+    {
       "projectID": 252239,
       "fileID": 3292950,
+      "required": true
+    },
+    {
+      "projectID": 405744,
+      "fileID": 3296428,
       "required": true
     },
     {
@@ -267,7 +292,7 @@
     {
       "projectID": 242436,
       "fileID": 3758390,
-      "required": true
+      "required": false
     },
     {
       "projectID": 241721,
@@ -310,6 +335,11 @@
       "required": true
     },
     {
+      "projectID": 367824,
+      "fileID": 3296550,
+      "required": true
+    },
+    {
       "projectID": 250617,
       "fileID": 3347049,
       "required": true
@@ -317,6 +347,11 @@
     {
       "projectID": 324717,
       "fileID": 3910873,
+      "required": true
+    },
+    {
+      "projectID": 491794,
+      "fileID": 3412474,
       "required": true
     },
     {
@@ -396,7 +431,7 @@
     },
     {
       "projectID": 865289,
-      "fileID": 5517953,
+      "fileID": 4781660,
       "required": true
     },
     {

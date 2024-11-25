@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:absorption_charm"
+        },
+        {
+            "item": "charms:absorption_charm"
+        },
+        {
+            "item": "pixelmon:lure_fairy_strong"
+        },
+        {
+            "item": "minecraft:dragon_head"
+        }
+    ],
+    "result": {
+        "item": "charms:absorption_2_charm",
+        "count": 1
+    }
+}

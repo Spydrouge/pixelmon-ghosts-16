@@ -1,0 +1,16 @@
+{
+  "type": "astralsorcery:infuser",
+  "fluidInput": "astralsorcery:liquid_starlight",
+  "input": {
+    "item": "pixelmon:thunder_stone_ore"
+  },
+  "output": {
+    "item": "pixelmon:thunder_stone",
+    "count": 1
+  },
+  "consumptionChance": 0.2,
+  "duration": 100,
+  "consumeMultipleFluids": false,
+  "acceptChaliceInput": true,
+  "copyNBTToOutputs": false
+}

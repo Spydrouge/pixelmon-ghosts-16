@@ -1,0 +1,30 @@
+{
+  "id": "Alakazam",
+  "spawnInfos": [
+    {
+      "spec": "species:Alakazam",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:mental_herb",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_highlands"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

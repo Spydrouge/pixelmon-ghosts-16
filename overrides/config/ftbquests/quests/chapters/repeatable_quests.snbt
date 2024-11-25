@@ -428,6 +428,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "725158796BFAB4D1"
 			tasks: [
 				{
@@ -464,6 +465,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "2F7FB933D8D00B07"
 			tasks: [
 				{
@@ -495,6 +497,7 @@
 			description: ["White herbs are single-use held items that can prevent stat drops, which can be useful against certain bosses."]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "008B5C1BC71EFC40"
 			tasks: [
 				{
@@ -525,6 +528,7 @@
 			description: ["This item can be harvested from wild Rotom, Klang, and Klinklang, but you can also assemble it with a bit of rubbish."]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "41F6AC911D9A4BC1"
 			tasks: [
 				{
@@ -567,6 +571,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "0176883FB57EFC1A"
 			tasks: [
 				{
@@ -601,6 +606,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "0AF21B88AE2D144A"
 			tasks: [
 				{
@@ -635,6 +641,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "5034EB8E67520061"
 			tasks: [
 				{
@@ -672,6 +679,7 @@
 			description: ["To your parents, the Focus Sash was a vital item for taking down difficult bosses. You believe you remember how to knit one, but you might need a little magical help for it to actually be any good..."]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "55442ED22A550973"
 			tasks: [
 				{
@@ -719,6 +727,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			repeatable: true
 			id: "1BE78DF56B79FB22"
 			tasks: [
 				{
@@ -782,6 +791,7 @@
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "374C7B514CCB1CEC"
 			tasks: [
 				{
@@ -846,6 +856,7 @@
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "050929C9E0069C4D"
 			tasks: [
 				{
@@ -889,6 +900,7 @@
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "5580C0D0392D97BB"
 			tasks: [
 				{
@@ -931,6 +943,7 @@
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. This hourglass affects both Pokemon."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "677ED0D1060D61E8"
 			tasks: [
 				{
@@ -989,6 +1002,7 @@
 			y: -5.0d
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "5591EAFDB125C2C2"
 			tasks: [
 				{
@@ -1024,6 +1038,7 @@
 			description: ["Lenses can be used to study the properties of a Pokemon before committing to catching them."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "2ABDDBCFF4C84DCE"
 			tasks: [
 				{
@@ -1074,6 +1089,7 @@
 			y: -5.0d
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "4DAB443208B87D6C"
 			tasks: [
 				{
@@ -1109,6 +1125,7 @@
 			y: -12.5d
 			description: ["Magmar is a difficult Pokemon to evolve. You believe that if you can get ahold of it's famous 'Magmerizer', you can find a way to evolve it without trading."]
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "024C0A0E288FB8E8"
 			tasks: [
 				{
@@ -1155,6 +1172,7 @@
 			description: ["You would like a Razor Fang, useful for evolving Gligar. Perhaps offering something else related to Gligar will earn you such a gift?"]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "6A64A61E6F45B3C7"
 			tasks: [
 				{
@@ -1193,6 +1211,7 @@
 			description: ["Perhaps if you are able to gather an Ice Stone, you will find some way of transmuting it into an Icy Rock..."]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "5288D425AFD1E44C"
 			tasks: [
 				{
@@ -1227,6 +1246,7 @@
 			y: -11.5d
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "29E5A8E09B554AFB"
 			tasks: [
 				{
@@ -1262,6 +1282,7 @@
 			description: ["Perhaps if you are able to secure a Leaf Stone, you will find some way of transmuting it into a Mossy Rock."]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "7571B73E1FEAA780"
 			tasks: [
 				{
@@ -1302,6 +1323,7 @@
 			]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "7CAC6FEBAC7D7CF1"
 			tasks: [
 				{
@@ -1338,6 +1360,7 @@
 			]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "2F14819C54F0C63F"
 			tasks: [
 				{
@@ -1379,6 +1402,7 @@
 			y: -12.5d
 			description: ["Electabuzz is a difficult Pokemon to evolve. You believe that if you can get ahold of it's famous 'Magmerizer', you can find a way to evolve it without trading."]
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "1D386FB41B5D9A49"
 			tasks: [
 				{
@@ -1424,6 +1448,7 @@
 			description: ["Not every Pokemon starts off with exactly the right tools to get things done. Offer Arceus an assortment of blended opposites; perhaps he'll help you find a way to change a Pokemon's Ability."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "5F0F3D9A88632FDA"
 			tasks: [
 				{
@@ -1473,6 +1498,7 @@
 			description: ["Hidden Abilities are difficult to access, but now and then you find treasures from the before floating past your island. Perhaps the correct offering might help you find an Ability Patch?"]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "2CE5F5CD6C21532B"
 			tasks: [
 				{
@@ -1521,6 +1547,7 @@
 			description: ["Pokemon natures can be modified if you feed them the correct type of mint. However, mint is unpredictable, and you have to plant a great deal of mint in the hopes the type you want will eventually take root."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			repeatable: true
 			id: "20FAA059E80BCB51"
 			tasks: [
 				{
@@ -1550,6 +1577,7 @@
 			y: -13.5d
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "683D4EA4FCB31C45"
 			tasks: [
 				{
@@ -1583,6 +1611,7 @@
 			y: -13.5d
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "04DC75F788084048"
 			tasks: [
 				{
@@ -1616,6 +1645,7 @@
 			y: -15.5d
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "7D6FA4C9D374B6A6"
 			tasks: [
 				{
@@ -1669,6 +1699,7 @@
 			x: 0.5d
 			y: -14.5d
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "71AA63BA2C153936"
 			tasks: [
 				{
@@ -1699,6 +1730,7 @@
 			x: -1.5d
 			y: -14.5d
 			dependencies: ["65966CE2BBB0D943"]
+			repeatable: true
 			id: "4A490FA513CC896C"
 			tasks: [
 				{
@@ -2333,6 +2365,7 @@
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
 			size: 0.5d
+			repeatable: true
 			id: "261A9E1F063E1CD9"
 			tasks: [
 				{
@@ -2795,6 +2828,7 @@
 			description: ["Linking Cords can be used to evolve Pokemon that would normally only evolve through trading."]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			repeatable: true
 			id: "51D8B4F9800B917A"
 			tasks: [{
 				id: "53888727EB76D8C4"
@@ -2976,6 +3010,7 @@
 				"Red cards are held items that switch out their holder if they take damage in battle. They are single use, so it's important the Pokemon does what it needs to do that turn before being hit!"
 			]
 			dependencies: ["587C2FF777BFD574"]
+			repeatable: true
 			id: "5D97AD982DF27ED1"
 			tasks: [
 				{
@@ -3009,6 +3044,7 @@
 				""
 			]
 			dependencies: ["587C2FF777BFD574"]
+			repeatable: true
 			id: "776B5EF4F3B1FCCD"
 			tasks: [
 				{
@@ -3078,6 +3114,7 @@
 				"You think you can make one with some time and the power of song."
 			]
 			dependencies: ["587C2FF777BFD574"]
+			repeatable: true
 			id: "305BDA0C84AD466F"
 			tasks: [
 				{
@@ -4375,6 +4412,7 @@
 			description: ["Where is the nearest Max Raid Den? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			repeatable: true
 			id: "043B5DABE875EF76"
 			tasks: [
 				{
@@ -4427,6 +4465,7 @@
 			]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			repeatable: true
 			id: "6C4A1905D55D5E1E"
 			tasks: [
 				{
@@ -4467,6 +4506,7 @@
 			description: ["Where is the nearest Fortress? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			repeatable: true
 			id: "275BCC637C419586"
 			tasks: [
 				{
@@ -4504,6 +4544,7 @@
 			description: ["Where is the nearest Bastion? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			repeatable: true
 			id: "6CA694CDB003633E"
 			tasks: [
 				{
@@ -4539,6 +4580,7 @@
 			y: 10.0d
 			description: ["There are many good reasons to find a Nether Grotto, but where is the nearest one to you right now? Keep in mind that the nearest nether grotto may be one you've already found."]
 			dependencies: ["25C4F6BF87A5D9B9"]
+			repeatable: true
 			id: "002929F34948509F"
 			tasks: [
 				{
@@ -4760,6 +4802,1119 @@
 				id: "1E298CB34B819683"
 				type: "choice"
 				table_id: 5426868279948745664L
+			}]
+		}
+		{
+			title: "Relic Items"
+			x: 7.5d
+			y: 8.0d
+			description: [
+				"Relic Items can be used to help in spawning Legendary Pokemon, but they cover such a small area, and are so difficult to obtain, that it would be nearly impossible to summon Legendaries with just one of each."
+				""
+				"You will just have to whip out some art skills and try to make copies of each of them! "
+			]
+			id: "0D3D98B62D27A023"
+			tasks: [{
+				id: "491AE807E17E19E1"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:relic_crown"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_vase"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_statue"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_band"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			description: ["If you already have a relic band, you can spend a relic copper and some other resources to obtain more Relic Bands."]
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "284EEE848EE0AEFD"
+			tasks: [
+				{
+					id: "393017F2E903FFD7"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "0FA3150FE49A6841"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "0B1E01AB20E8F17B"
+					type: "item"
+					title: "A Non-Relic Band"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:mana_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "botania:aura_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "pixelmon:choice_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:muscle_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:power_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:focus_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:binding_band"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2060A6996490EDA5"
+				type: "item"
+				item: "pixelmon:relic_band"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			description: ["If you already have a relic band, you can spend a relic gold and some other resources to obtain more Relic Bands."]
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "23AAEF8BF519FFFF"
+			tasks: [
+				{
+					id: "6A8C56E0F195498C"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "71520D2F288C8EE8"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "3BFABAB1D24704ED"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:mana_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "botania:aura_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "pixelmon:choice_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:muscle_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:power_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:focus_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:binding_band"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27348B812305EF6B"
+				type: "item"
+				item: "pixelmon:relic_band"
+				count: 7
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			description: ["If you already have a relic band, you can spend a relic silver and some other resources to obtain more Relic Bands."]
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "0942AC033532EA57"
+			tasks: [
+				{
+					id: "3808F49D85F22139"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "540140C4E55B1AD9"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "414A448781A10C0D"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:mana_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "botania:aura_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "pixelmon:choice_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:muscle_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:power_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:focus_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:binding_band"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "679614E80F9C940B"
+				type: "item"
+				item: "pixelmon:relic_band"
+				count: 3
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "6A62A36CC2D92F86"
+			tasks: [
+				{
+					id: "6CEF9EED12DAFF27"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "10667A4B795FA8E1"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "29EB5C7F7D167EF0"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:dusk_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:fire_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:chainmail_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:diamond_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:golden_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherite_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:dawn_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:moon_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:manasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:elementium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:terrasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ceramics:clay_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:water_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:leaf_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:thunder_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:sun_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tconstruct:plate_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:armor_toughness": 2.0f
+											"tconstruct:knockback_resistance": 0.1f
+											"tconstruct:durability": 330.0f
+											"tconstruct:armor": 2.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 4
+											upgrades: 1
+										}
+									}
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1000518BE59E0409"
+				type: "item"
+				item: "pixelmon:relic_crown"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "040F6491966B84B6"
+			tasks: [
+				{
+					id: "092E6396415314EF"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "1B7A1E94726ED188"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "301C9341A2BC955E"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:dusk_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:fire_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:chainmail_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:diamond_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:golden_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherite_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:dawn_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:moon_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:manasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:elementium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:terrasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ceramics:clay_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:water_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:leaf_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:thunder_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:sun_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tconstruct:plate_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:armor_toughness": 2.0f
+											"tconstruct:knockback_resistance": 0.1f
+											"tconstruct:durability": 330.0f
+											"tconstruct:armor": 2.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 4
+											upgrades: 1
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "394A776611DACAB7"
+				type: "item"
+				item: "pixelmon:relic_crown"
+				count: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "248E9656E4040B9B"
+			tasks: [
+				{
+					id: "32A1E0F5EBF24BD4"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "6E2744CBAA60B6D5"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "2C27162536B4899B"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:dusk_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:fire_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:chainmail_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:diamond_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:golden_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherite_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:dawn_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:moon_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:manasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:elementium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:terrasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ceramics:clay_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:water_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:leaf_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:thunder_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:sun_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tconstruct:plate_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:armor_toughness": 2.0f
+											"tconstruct:knockback_resistance": 0.1f
+											"tconstruct:durability": 330.0f
+											"tconstruct:armor": 2.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 4
+											upgrades: 1
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "15A0E28B7B435379"
+				type: "item"
+				item: "pixelmon:relic_crown"
+				count: 7
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "41EAED4B47B0CE77"
+			tasks: [
+				{
+					id: "677BC09D8DCBEF4C"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "123A3D73F2C08B4F"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "7AF04AA2133B30FB"
+					type: "item"
+					item: "ceramics:unfired_porcelain"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "5D0CBC4662BD17ED"
+					type: "observation"
+					title: "Observe a Kiln"
+					icon: "ceramics:kiln"
+					timer: 0L
+					observe_type: 0
+					to_observe: "ceramics:kiln"
+				}
+			]
+			rewards: [{
+				id: "4DB13E13B296A205"
+				type: "item"
+				item: "pixelmon:relic_statue"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "03908DF9CEB62FE9"
+			tasks: [
+				{
+					id: "2A50691CEA0B6566"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "233CD72B483A7075"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "40E238169C6AF8E7"
+					type: "item"
+					item: "ceramics:unfired_porcelain"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "3BD23033FFBAFC95"
+					type: "observation"
+					title: "Observe a Kiln"
+					icon: "ceramics:kiln"
+					timer: 0L
+					observe_type: 0
+					to_observe: "ceramics:kiln"
+				}
+			]
+			rewards: [{
+				id: "20BDA16058D7292E"
+				type: "item"
+				item: "pixelmon:relic_statue"
+				count: 3
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "03BF38AB2D757502"
+			tasks: [
+				{
+					id: "06BD30BD34572C82"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "7081BD8DBF14D5CC"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "5E0A8F605AA924AC"
+					type: "item"
+					item: "ceramics:unfired_porcelain"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "057340D5D03EEE85"
+					type: "observation"
+					title: "Observe a Kiln"
+					icon: "ceramics:kiln"
+					timer: 0L
+					observe_type: 0
+					to_observe: "ceramics:kiln"
+				}
+			]
+			rewards: [{
+				id: "30FCBBE37C83A4C7"
+				type: "item"
+				item: "pixelmon:relic_statue"
+				count: 7
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "1038487B8E6AE539"
+			tasks: [
+				{
+					id: "77E29633E2CC9CD7"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+				{
+					id: "2E1ABA60F662D65A"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "285FB6FDD3A7E46A"
+					type: "item"
+					item: "byg:silver_vase_flower"
+					consume_items: true
+				}
+				{
+					id: "282E525E13BB1CCF"
+					type: "item"
+					item: "minecraft:flower_pot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "324995B95B6C173D"
+				type: "item"
+				item: "pixelmon:relic_vase"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.5d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "6BFDE8E54490C3B3"
+			tasks: [
+				{
+					id: "153851BEC91306A5"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+				{
+					id: "5F32020A2EF07B4A"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "1995696294C03E42"
+					type: "item"
+					item: "byg:silver_vase_flower"
+					consume_items: true
+				}
+				{
+					id: "6EF25C59A4841A8E"
+					type: "item"
+					item: "minecraft:flower_pot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3E46AE40662275A3"
+				type: "item"
+				item: "pixelmon:relic_vase"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: 11.0d
+			dependencies: ["0D3D98B62D27A023"]
+			repeatable: true
+			id: "07D5E2AB848053A7"
+			tasks: [
+				{
+					id: "1322AEA33F7456E0"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+				{
+					id: "09FEC5775D512C8D"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "4EB1494AED8B9BDC"
+					type: "item"
+					item: "byg:silver_vase_flower"
+					consume_items: true
+				}
+				{
+					id: "611297FD2D69AA6C"
+					type: "item"
+					item: "minecraft:flower_pot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7F54B9C5E278DE05"
+				type: "item"
+				item: "pixelmon:relic_vase"
+				count: 7
+			}]
+		}
+		{
+			title: "Spawner"
+			icon: "minecraft:spawner"
+			x: -3.0d
+			y: 4.5d
+			description: [
+				"You have been encountering 'spawn eggs' and you are reluctant to use them because you know they are so very rare, and precious."
+				""
+				"If you could get access to a spawner, you could change its spawn type by touching it with a spawn egg."
+				""
+				"You could use this to create monsters to fight, or to summon categories of Pokemon, such as 'pig' Pokemon, or 'cow' Pokemon."
+				""
+				"Keep in mind that spawners will not produce many entities if there are already too many Pokemon in an area. You may want to work somewhere Pokemon are not able to Spawn, but make sure it is someplace the creature can spawn. Pigs, for isntance, can only spawn on grass."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			repeatable: true
+			id: "3029B49CD228E600"
+			tasks: [
+				{
+					id: "4C8F343D5B25CC4C"
+					type: "item"
+					item: "tconstruct:drowned_head"
+				}
+				{
+					id: "2252EF2BE1E6B02F"
+					type: "item"
+					item: "tconstruct:enderman_head"
+				}
+				{
+					id: "0848EC1370FBEBD7"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "5FF31973FD52294F"
+					type: "item"
+					title: "Any #ghosts:underground_shards"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ghosts:underground_shards"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6ACE12D494025A5A"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			description: ["In case you lose track of an end portal frame, you might need to beg for more."]
+			dependencies: [
+				"437215A2580227C5"
+				"2172C595ED6DC0C2"
+				"63CE7C5AFECCED30"
+				"713C246CB5C66BC9"
+			]
+			hide: true
+			repeatable: true
+			id: "3F64BB3B7435ECC9"
+			tasks: [
+				{
+					id: "3FBABD9596455E1B"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 64L
+				}
+				{
+					id: "419E250AE335D1AC"
+					type: "item"
+					item: "thermal:enderium_ingot"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "4CB5CD0069C162B7"
+				type: "item"
+				item: "minecraft:end_portal_frame"
 			}]
 		}
 	]

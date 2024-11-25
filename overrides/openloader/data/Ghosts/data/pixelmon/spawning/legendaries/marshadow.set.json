@@ -73,9 +73,6 @@
       "interval": "legendary",
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ],
         "neededNearbyBlocks":[
           "pixelmon:relic_statue"  
         ]

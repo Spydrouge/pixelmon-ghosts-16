@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " E ",
+    " C "
+  ],
+  "key": {
+    "L": {
+      "item": "pixelmon:light_workplace"
+    },
+    "E": {
+      "item": "immersiveengineering:rs_engineering"
+    },
+    "C": {
+      "item": "immersiveengineering:Circuit_board"
+    }
+  },
+  "result": {
+    "item": "pixelmon:fossil_machine_display",
+    "count": 1
+  }
+}

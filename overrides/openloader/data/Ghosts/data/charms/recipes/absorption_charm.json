@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "minecraft:golden_apple"
+        },
+        {
+            "item": "pixelmon:lure_fairy_weak"
+        }
+    ],
+    "result": {
+        "item": "charms:absorption_charm",
+        "count": 1
+    }
+}

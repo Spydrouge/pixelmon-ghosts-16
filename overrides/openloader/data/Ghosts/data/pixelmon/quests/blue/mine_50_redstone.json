@@ -44,7 +44,7 @@
         "INTEGER_INSERTER AMOUNT 10-25"
 			],
 			"actions": [
-				"1 ITEM_GIVE minecraft:glowstone ?AMOUNT? - - - - - - -",
+				"1 ITEM_GIVE minecraft:enchanted_book 1 - - - {\"StoredEnchantments\":[{\"id\":\"minecraft:mending\",\"lvl\":1s}]} - - -",
 				"1 XP_GIVE - 50",
 				"1 END_DIALOGUE",
 				"1 COMPLETE_QUEST"

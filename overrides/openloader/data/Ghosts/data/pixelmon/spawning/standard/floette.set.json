@@ -17,7 +17,147 @@
           "ghosts"
         ]
       },
-        "rarity":10
+        "rarity":0.1
+    },
+    {
+      "spec": "species:Floette form:red",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+          "minY":160,
+          "maxY":192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+     "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:poppy"
+            ]
+          }
+        }
+      ],
+        "rarity":2
+    },
+    {
+      "spec": "species:Floette form:orange",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+          "minY":160,
+          "maxY":192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+       "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:orange_daisy"
+            ]
+          }
+        }
+      ],
+        "rarity":2
+    },
+    {
+      "spec": "species:Floette form:yellow",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+          "minY":160,
+          "maxY":192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:yellow_daffodil"
+            ]
+          }
+        }
+      ],
+        "rarity":2
+    },
+    {
+      "spec": "species:Floette form:white",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+          "minY":160,
+          "maxY":192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+       "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:oxeye_daisy"
+            ]
+          }
+        }
+      ],
+        "rarity":2
+    },
+    {
+      "spec": "species:Floette form:blue",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+          "minY":160,
+          "maxY":192,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cornflower"
+            ]
+          }
+        }
+      ],
+        "rarity":2
     },
     {
       "spec": "species:Floette palette:red",

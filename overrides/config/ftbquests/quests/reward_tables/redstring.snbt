@@ -1,0 +1,14 @@
+{
+	id: "418524B06AE6AABA"
+	order_index: 40
+	title: "Redstring"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:red_string_container" }
+		{ item: "botania:red_string_dispenser" }
+		{ item: "botania:red_string_fertilizer" }
+		{ item: "botania:red_string_comparator" }
+		{ item: "botania:red_string_relay" }
+		{ item: "botania:red_string_interceptor" }
+	]
+}

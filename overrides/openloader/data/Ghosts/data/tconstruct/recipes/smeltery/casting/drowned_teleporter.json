@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:nether_star"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "minecraft:water",
+    "amount": 100000
+  },
+  "result": "pixelmon:drowned_world_teleporter",
+  "cooling_time": 1024
+}

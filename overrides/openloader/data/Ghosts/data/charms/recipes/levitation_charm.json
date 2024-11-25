@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "ends_delight:shulker_meat"
+        },
+        {
+            "item": "pixelmon:lure_flying_strong"
+        }
+    ],
+    "result": {
+        "item": "charms:levitation_charm",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "astralsorcery:lightwell",
+    "input": {
+    "item": "pixelmon:water_stone_shard"
+  },
+  "output": "minecraft:water",
+  "productionMultiplier": 1.0,
+  "shatterMultiplier": 40.0,
+  "color": -51956
+}

@@ -543,6 +543,11 @@
 					type: "item"
 					item: "tconstruct:necrotic_bone"
 				}
+				{
+					id: "406C52B63DCBE7FE"
+					type: "item"
+					item: "pixelmon:metal_coat"
+				}
 			]
 		}
 		{
@@ -551,9 +556,11 @@
 			y: -1.5d
 			description: ["You have a bad feeling that won't be the only wave of invaders..."]
 			dependencies: ["2CD5260731F941D8"]
+			hide: true
 			incompatible: [
 				"65550A21575C805E"
 				"3418656E436AEEAD"
+				"79141F0BCCFD0B34"
 			]
 			id: "49513B4A84704CE1"
 			tasks: [{
@@ -583,6 +590,7 @@
 			y: -1.5d
 			description: ["Something is incoming!"]
 			dependencies: ["49513B4A84704CE1"]
+			hide: true
 			repeatable: true
 			id: "65744C5BC023C19A"
 			tasks: [{
@@ -623,9 +631,11 @@
 			y: -9.0d
 			description: ["Based on how things were with the spiders, there will be an invasion of Husks every 30 minutes."]
 			dependencies: ["65550A21575C805E"]
+			hide: true
 			incompatible: [
 				"3418656E436AEEAD"
 				"50B056A20ABA85CE"
+				"1B6F5CF88BB9E7CC"
 			]
 			id: "2D594738DAC1DECF"
 			tasks: [{
@@ -662,6 +672,7 @@
 			y: -9.0d
 			description: ["Something is incoming!"]
 			dependencies: ["2D594738DAC1DECF"]
+			hide: true
 			repeatable: true
 			incompatible: ["50B056A20ABA85CE"]
 			id: "66A33F4B931C2068"
@@ -858,6 +869,12 @@
 			y: -16.5d
 			description: ["It seems like there will be an invasion of Skeletons every 30 minutes."]
 			dependencies: ["50B056A20ABA85CE"]
+			hide: true
+			incompatible: [
+				"01270D270F5C62C2"
+				"3418656E436AEEAD"
+				"143F7F648B55C492"
+			]
 			id: "3803708B24B90027"
 			tasks: [{
 				id: "6DF77F1B0434F4EC"
@@ -880,6 +897,7 @@
 			y: -16.5d
 			description: ["Something is incoming!"]
 			dependencies: ["3803708B24B90027"]
+			hide: true
 			id: "7357031D24D34358"
 			tasks: [{
 				id: "48C809E3D9D4AE42"
@@ -1118,6 +1136,7 @@
 			]
 		}
 		{
+			title: "Fourth Invasion"
 			x: 0.0d
 			y: -24.0d
 			shape: "pentagon"
@@ -1257,6 +1276,10 @@
 			description: ["It seems like there will be an invasion of Cave Spiders and a Creeper Captain every 30 minutes."]
 			dependencies: ["01270D270F5C62C2"]
 			hide: true
+			incompatible: [
+				"3401F501A8F4A859"
+				"3418656E436AEEAD"
+			]
 			id: "743E0BC19073395A"
 			tasks: [{
 				id: "37157C0E5B93E2FF"
@@ -1317,6 +1340,1030 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "That's Enough!"
+			x: -7.0d
+			y: -16.5d
+			description: [
+				"That. Is. IT! "
+				""
+				"You cannot permit these continued invasions of your home!"
+				""
+				"You need to take matters into your own hands: Take the fight to these monsters when they least expect you!"
+				""
+				"With Arceus's Guidance, you can create a special pearl that will let you peer into the monsters' domain and lure them out to fight you- on your turf, at times of YOUR choosing!"
+				""
+				"You use pearls by clicking the ground with them in the middle of an acceptably sized arena. Combat persists for five waves, or until the player flees or is killed. Each wave is harder than the last!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3401F501A8F4A859"]
+			hide: true
+			size: 2.0d
+			id: "0E26E5EC25105609"
+			tasks: [{
+				id: "41EDA5315275586F"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:skeleton_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:zombie_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:spider_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:slime_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:creeper_gate_small"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41EC4FA40C8016ED"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "5C8C2B302362F52E"
+					type: "item"
+					item: "pixelmon:orb"
+				}
+			]
+		}
+		{
+			title: "Collect Them All Part 1"
+			x: -8.5d
+			y: -14.5d
+			description: ["You should investigate all of the easiest pearls first, to see what you can learn about their difficulty, their rewards, and what setup you might need to defeat them."]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "761E213E2EB3A202"
+			tasks: [
+				{
+					id: "148A2DAEB3DE47BA"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate_small"
+						}
+					}
+				}
+				{
+					id: "03DEE820CD8B987C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate_small"
+						}
+					}
+				}
+				{
+					id: "4F45F44574F8212D"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:slime_gate_small"
+						}
+					}
+				}
+				{
+					id: "0AA990B9EE96818D"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate_small"
+						}
+					}
+				}
+				{
+					id: "4489F8E63A48DBC6"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:creeper_gate_small"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3650292C91713E87"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "378BBF28D5E1472A"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			title: "Harder Pearls"
+			x: -7.5d
+			y: -13.0d
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "52BEB888192EAEC6"
+			tasks: [{
+				id: "4321E8A61A0B62ED"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:skeleton_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:slime_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:spider_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:zombie_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:creeper_gate"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3343F51AF6DE8257"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Harder Mobs"
+			x: -6.5d
+			y: -14.5d
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "0DE8DD4D14BBB121"
+			tasks: [{
+				id: "6892E234CB714B77"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:witch_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:shulker_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:magma_cube_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:ghast_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:enderman_gate_small"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:blaze_gate_small"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "20C5B175753FC309"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
+		}
+		{
+			title: "Harder Mobs Harder Pearls"
+			x: -6.5d
+			y: -13.0d
+			dependencies: ["0DE8DD4D14BBB121"]
+			hide: true
+			id: "009394F19D70F361"
+			tasks: [{
+				id: "3DF0E9DC9280B331"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:witch_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:shulker_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:magma_cube_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:ghast_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:enderman_gate"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:blaze_gate"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7859483E8DEAF86B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Harder Mobs Hardest Pearls"
+			x: -6.5d
+			y: -11.5d
+			description: ["Each of these pearls requires a nether star. If you successfully defeat all five waves, you get the nether star back."]
+			dependencies: ["009394F19D70F361"]
+			hide: true
+			id: "4AB3F1D2F7F6E83D"
+			tasks: [{
+				id: "15D458821585FED4"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:blaze_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:enderman_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:shulker_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:magma_cube_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:ghast_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:witch_gate_large"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "510AE1EC5C88E85C"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Hardest Pearls"
+			x: -7.5d
+			y: -11.5d
+			description: ["Each of these pearls requires a nether star. If you successfully defeat all five waves, you get the nether star back."]
+			dependencies: ["52BEB888192EAEC6"]
+			hide: true
+			id: "2DF90FCB71029B41"
+			tasks: [{
+				id: "45B628DBC8D2DC5C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:creeper_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:spider_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:slime_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:zombie_gate_large"
+								}
+							}
+							{
+								id: "gateways:gate_pearl"
+								Count: 1b
+								tag: {
+									gateway: "gateways:skeleton_gate_large"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "31EE1B6B5D2BC366"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Collect Them All Part 2"
+			x: -5.5d
+			y: -14.5d
+			description: ["You should investigate all of the easiest pearls first, to see what you can learn about their difficulty, their rewards, and what setup you might need to defeat them."]
+			dependencies: ["0DE8DD4D14BBB121"]
+			hide: true
+			id: "223BFDBAED80943F"
+			tasks: [
+				{
+					id: "418278CF3A367492"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate_small"
+						}
+					}
+				}
+				{
+					id: "262B6552DA0723F5"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate_small"
+						}
+					}
+				}
+				{
+					id: "5B386A26BF930BF5"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:ghast_gate_small"
+						}
+					}
+				}
+				{
+					id: "6A40AA1498F6A729"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:magma_cube_gate_small"
+						}
+					}
+				}
+				{
+					id: "2945CC15CD5D591C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:witch_gate_small"
+						}
+					}
+				}
+				{
+					id: "2AB52737B3EB4BC5"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:shulker_gate_small"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "70A9686CA2161D1A"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "66C57AAE5473D376"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			title: "Collect Them All Part 4"
+			x: -5.5d
+			y: -13.0d
+			description: ["You should investigate all of the easiest pearls first, to see what you can learn about their difficulty, their rewards, and what setup you might need to defeat them."]
+			dependencies: ["009394F19D70F361"]
+			hide: true
+			id: "30D06513CF6CBB0B"
+			tasks: [
+				{
+					id: "531BC969DA8963F7"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate"
+						}
+					}
+				}
+				{
+					id: "2BA827F26017BCD9"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate"
+						}
+					}
+				}
+				{
+					id: "34D084FABA07925A"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:ghast_gate"
+						}
+					}
+				}
+				{
+					id: "53061E0FFDD83C68"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:magma_cube_gate"
+						}
+					}
+				}
+				{
+					id: "1CC27F8068BF1085"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:shulker_gate"
+						}
+					}
+				}
+				{
+					id: "413EB976C3058BAB"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:witch_gate"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5425DE2E3A06E571"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "2DF395426E1862B1"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			title: "Collect Them All Part 3"
+			x: -8.5d
+			y: -13.0d
+			description: ["You should investigate all of the easiest pearls first, to see what you can learn about their difficulty, their rewards, and what setup you might need to defeat them."]
+			dependencies: ["52BEB888192EAEC6"]
+			hide: true
+			id: "4849C660C2ED1548"
+			tasks: [
+				{
+					id: "194DD1C55CDF3FA5"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:creeper_gate"
+						}
+					}
+				}
+				{
+					id: "101DB090B695F228"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+				}
+				{
+					id: "10505B24F7AB8871"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:slime_gate"
+						}
+					}
+				}
+				{
+					id: "0EF07EC8E04C43C8"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate"
+						}
+					}
+				}
+				{
+					id: "49A029D5B4ECFEC5"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "48FC2126B650DA38"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "735DB231C9731B24"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			title: "Collect Them All Part 5"
+			x: -8.5d
+			y: -11.5d
+			description: ["You should investigate all of the easiest pearls first, to see what you can learn about their difficulty, their rewards, and what setup you might need to defeat them."]
+			dependencies: ["2DF90FCB71029B41"]
+			hide: true
+			id: "6A94A39BB33E5132"
+			tasks: [
+				{
+					id: "64B8F2EC3DC8003C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:creeper_gate_large"
+						}
+					}
+				}
+				{
+					id: "043457613AF11D32"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate_large"
+						}
+					}
+				}
+				{
+					id: "6BADAF25DBBE2B96"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:slime_gate_large"
+						}
+					}
+				}
+				{
+					id: "6D6AD0423E113E49"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate_large"
+						}
+					}
+				}
+				{
+					id: "64BA7424A88A6119"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate_large"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "67364A2684B1F8D4"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+				{
+					id: "02CC47A77331461C"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			title: "Collect Them All Part 6"
+			x: -5.5d
+			y: -11.5d
+			description: ["You should investigate all of the easiest pearls first, to see what you can learn about their difficulty, their rewards, and what setup you might need to defeat them."]
+			dependencies: ["4AB3F1D2F7F6E83D"]
+			hide: true
+			id: "633938E425966B92"
+			tasks: [
+				{
+					id: "58984E103C78DEBB"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate_large"
+						}
+					}
+				}
+				{
+					id: "3B8F9EADF5745A41"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate_large"
+						}
+					}
+				}
+				{
+					id: "7DB8DAD0CDC0FA11"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:ghast_gate_large"
+						}
+					}
+				}
+				{
+					id: "4C6C7B95CDC0B179"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:magma_cube_gate_large"
+						}
+					}
+				}
+				{
+					id: "6BABB92D478C7108"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:shulker_gate_large"
+						}
+					}
+				}
+				{
+					id: "207A05404EDED446"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:witch_gate_large"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "298084304FDEE352"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+				{
+					id: "458C813D619954CB"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -18.5d
+			description: ["Make an offering to Arceus."]
+			dependencies: ["0E26E5EC25105609"]
+			repeatable: true
+			id: "6D6D0B54EC65147F"
+			tasks: [{
+				id: "5ABBBD670E1C9464"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3A570902CAA8F3DF"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -18.5d
+			description: ["Make an offering to Arceus."]
+			dependencies: ["0E26E5EC25105609"]
+			repeatable: true
+			id: "6705EF90CA453ED1"
+			tasks: [{
+				id: "55EBF19D86AFA0C5"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1E44F82643A6B042"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -18.5d
+			description: ["Make an offering to Arceus."]
+			dependencies: ["0E26E5EC25105609"]
+			repeatable: true
+			id: "54E26A43B78DC046"
+			tasks: [{
+				id: "3087E22F9B9D5E2F"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "49D63750CC5E93C8"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -18.5d
+			description: ["Make an offering to Arceus."]
+			dependencies: ["0E26E5EC25105609"]
+			repeatable: true
+			id: "436A2FB5842A9C74"
+			tasks: [{
+				id: "68C2666300E7478C"
+				type: "item"
+				item: "minecraft:bone"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2628B220D49DD55F"
+				type: "item"
+				item: "pixelmon:white_shard"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -18.5d
+			description: ["Make an offering to Arceus."]
+			dependencies: ["0E26E5EC25105609"]
+			repeatable: true
+			id: "64E35E1DB4C625C2"
+			tasks: [{
+				id: "0828ADDE1C60EE53"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "37D6FF70EBDA6612"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -18.5d
+			description: ["Make an offering to Arceus."]
+			dependencies: ["0E26E5EC25105609"]
+			repeatable: true
+			id: "11A9A77BD0340894"
+			tasks: [{
+				id: "3AEF6EB3B531E42F"
+				type: "item"
+				item: "minecraft:spider_eye"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "42C9E6607E3348CB"
+				type: "item"
+				item: "pixelmon:red_shard"
+			}]
 		}
 	]
 }

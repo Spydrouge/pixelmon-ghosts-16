@@ -261,6 +261,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
+            },
+            {
+                "item": "byg:silver_vase_flower",
+                "min": 1,
+                "max": 1,
+                "chance": 0.05
             }
         ]
     },
@@ -329,7 +335,7 @@
                 "item": "biomesoplenty:pink_daffodil",
                 "min": 1,
                 "max": 1,
-                "chance": 0.3
+                "chance": 0.5
             },
             {
                 "item": "byg:allium_flower_bush",
@@ -342,11 +348,17 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.2
+            },
+            {
+                "item": "byg:silver_vase_flower",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
             }
         ]
     },
     {
-        "pokemon": "Metapod",
+        "pokemon": "Metapod palette:valencian",
         "items": [
             {
                 "item": "minecraft:string",
@@ -395,6 +407,7 @@
                 "max": 1,
                 "chance": 0.5
             },
+            
             {
                 "item": "pixelmon:silver_powder",
                 "min": 1,
@@ -422,6 +435,12 @@
                 "item": "biomesoplenty:pink_daffodil",
                 "min": 3,
                 "max": 4,
+                "chance": 1
+            },
+            {
+                "item": "byg:silver_vase_flower",
+                "min": 1,
+                "max": 1,
                 "chance": 1
             },
             {
@@ -2267,6 +2286,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "pixelmon:mental_herb",
+                "min": 1,
+                "max": 1,
+                "chance": 0.02
             }
         ]
     },
@@ -3299,16 +3324,22 @@
                 "chance": 1
             },
             {
-                "item": "minecraft:sand",
-                "min": 1,
-                "max": 2,
-                "chance": 0.5
-            },
-            {
                 "item": "contenttweaker:zinc_nugget",
                 "min": 4,
                 "max": 12,
                 "chance": 1
+            },
+            {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
+                "item": "minecraft:sand",
+                "min": 1,
+                "max": 2,
+                "chance": 0.5
             },
             {
                 "item": "pixelmon:shell_bell",
@@ -4772,6 +4803,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 0.3
             },
             {
                 "item": "minecraft:shulker_shell",
@@ -7897,6 +7934,12 @@
                 "chance": 1
             },
             {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
                 "item": "minecraft:shulker_shell",
                 "min": 1,
                 "max": 2,
@@ -8019,7 +8062,7 @@
                 "chance": 0.4
             },
             {
-                "item": "astralsorcery:aquamarine_sand_ore",
+                "item": "astralsorcery:rock_crystal_ore",
                 "min": 1,
                 "max": 1,
                 "chance": 0.4
@@ -8221,6 +8264,12 @@
                 "min": 1,
                 "max": 2,
                 "chance": 1
+            },
+            {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 0.75
             },
             {
                 "item": "pixelmon:berry_juice",
@@ -10550,12 +10599,6 @@
                 "chance": 1
             },
             {
-                "item": "pixelmon:petaya_berry",
-                "min": 1,
-                "max": 1,
-                "chance": 0.01
-            },
-            {
                 "item": "pixelmon:silver_ore",
                 "min": 1,
                 "max": 1,
@@ -10566,6 +10609,18 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
+            },
+            {
+                "item": "minecraft:compass",
+                "min": 1,
+                "max": 1,
+                "chance": 0.05
+            },
+            {
+                "item": "pixelmon:petaya_berry",
+                "min": 1,
+                "max": 1,
+                "chance": 0.01
             }
         ]
     },
@@ -11578,6 +11633,12 @@
                 "chance": 1
             },
             {
+                "item": "habitat:yellow_ball_cactus_flower",
+                "min": 1,
+                "max": 1,
+                "chance": 0.7
+            },
+            {
                 "item": "pixelmon:occa_berry",
                 "min": 1,
                 "max": 1,
@@ -11884,7 +11945,7 @@
                 "chance": 0.5
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 2,
                 "max": 4,
                 "chance": 0.3
@@ -11925,7 +11986,7 @@
                 "chance": 1
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 4,
                 "max": 8,
                 "chance": 0.5
@@ -12583,6 +12644,13 @@
     {
         "pokemon": "Clamperl",
         "items": [
+            
+            {
+                "item": "ends_delight:shulker_meat_slice",
+                "min": 1,
+                "max": 2,
+                "chance": 1.0
+            },
             {
                 "item": "contenttweaker:zinc_nugget",
                 "min": 2,
@@ -15701,10 +15769,10 @@
                 "chance": 1
             },
             {
-                "item": "pixelmon:petaya_berry",
+                "item": "minecraft:compass",
                 "min": 1,
                 "max": 1,
-                "chance": 0.05
+                "chance":0.5
             },
             {
                 "item": "pixelmon:platinum_ore",
@@ -15723,6 +15791,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
+            },
+            {
+                "item": "pixelmon:petaya_berry",
+                "min": 1,
+                "max": 1,
+                "chance": 0.05
             }
         ]
     },
@@ -18102,6 +18176,12 @@
                 "chance": 1
             },
             {
+                "item": "habitat:pink_ball_cactus_flower",
+                "min": 1,
+                "max": 2,
+                "chance": 0.7
+            },
+            {
                 "item": "minecraft:beetroot_seeds",
                 "min": 1,
                 "max": 2,
@@ -18113,6 +18193,7 @@
                 "max": 1,
                 "chance": 0.1
             }
+
         ]
     },
     {
@@ -19424,7 +19505,7 @@
         "pokemon": "Klink",
         "items": [
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 2,
                 "max": 4,
                 "chance": 1
@@ -19465,7 +19546,7 @@
                 "chance": 1
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 1,
                 "max": 2,
                 "chance": 1
@@ -19512,7 +19593,7 @@
                 "chance": 1
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 2,
                 "max": 4,
                 "chance": 1
@@ -19936,7 +20017,7 @@
                 "chance": 0.5
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 2,
                 "max": 4,
                 "chance": 0.3
@@ -20507,6 +20588,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
             }
         ]
     },
@@ -20524,6 +20611,12 @@
                 "min": 2,
                 "max": 3,
                 "chance": 1
+            },
+            {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 3,
+                "chance": 1.0
             },
             {
                 "item": "minecraft:black_wood",
@@ -22600,6 +22693,12 @@
                 "chance": 0.3
             },
             {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
+            },
+            {
                 "item": "pixelmon:dragon_scale",
                 "min": 1,
                 "max": 1,
@@ -22610,6 +22709,14 @@
     {
         "pokemon": "Clauncher",
         "items": [
+            
+            
+            {
+                "item": "ends_delight:shulker_meat_slice",
+                "min": 1,
+                "max": 2,
+                "chance": 1.0
+            },
             {
                 "item": "minecraft:seagrass",
                 "min": 1,
@@ -22632,6 +22739,12 @@
                 "min": 2,
                 "max": 4,
                 "chance": 1
+            },
+            {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
             },
             {
                 "item": "minecraft:kelp",
@@ -23225,7 +23338,7 @@
                 "chance": 0.1
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 2,
                 "max": 4,
                 "chance": 0.3
@@ -24944,6 +25057,12 @@
                 "chance": 1
             },
             {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
+            },
+            {
                 "item": "minecraft:prismarine_shard",
                 "min": 1,
                 "max": 3,
@@ -25150,6 +25269,12 @@
                 "min": 1,
                 "max": 2,
                 "chance": 1
+            },
+            {
+                "item": "ends_delight:roasted_shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
             },
             {
                 "item": "minecraft:scute",
@@ -26541,7 +26666,7 @@
                 "chance": 0.5
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 1,
                 "max": 1,
                 "chance": 0.3
@@ -26588,7 +26713,7 @@
                 "chance": 0.1
             },
             {
-                "item": "contenttweaker:tin_nugget",
+                "item": "thermal:tin_nugget",
                 "min": 4,
                 "max": 8,
                 "chance": 0.3
@@ -28040,6 +28165,12 @@
                 "item": "minecraft:sugar",
                 "min": 1,
                 "max": 2,
+                "chance": 0.7
+            },
+            {
+                "item": "byg:silver_vase_flower",
+                "min": 1,
+                "max": 1,
                 "chance": 0.5
             },
             {
@@ -28862,6 +28993,12 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.3
+            },
+            {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
             }
         ]
     },
@@ -28881,6 +29018,18 @@
                 "chance": 0.5
             },
             {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 2,
+                "chance": 1.0
+            },
+            {
+                "item": "pixelmon:haban_berry",
+                "min": 1,
+                "max": 1,
+                "chance": 0.5
+            },
+            {
                 "item": "pixelmon:ring_target",
                 "min": 1,
                 "max": 1,
@@ -28891,12 +29040,6 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
-            },
-            {
-                "item": "pixelmon:haban_berry",
-                "min": 1,
-                "max": 1,
-                "chance": 0.5
             }
         ]
     },
@@ -30413,7 +30556,14 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
+            },
+            {
+                "item": "pixelmon:binding_band",
+                "min": 1,
+                "max": 1,
+                "chance": 0.05
             }
+            
         ]
     },
     {
@@ -30444,6 +30594,12 @@
                 "chance": 0.5
             },
             {
+                "item": "pixelmon:binding_band",
+                "min": 1,
+                "max": 1,
+                "chance": 0.3
+            },
+            {
                 "item": "pixelmon:big_mushroom",
                 "min": 1,
                 "max": 1,
@@ -30459,6 +30615,12 @@
                 "min": 1,
                 "max": 3,
                 "chance": 1
+            },
+            {
+                "item": "ends_delight:shulker_meat",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
             },
             {
                 "item": "minecraft:cod",

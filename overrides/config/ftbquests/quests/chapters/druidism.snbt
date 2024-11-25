@@ -475,9 +475,9 @@
 			x: 0.0d
 			y: 9.5d
 			description: [
-				"It will only take one Florges to supply you with everything you need to create your first generative flora. But even with the cornflower, Florges is rare. Set up to wait, and give unwanted visitors a gentle push to a lower layer."
+				"It will only take one Florges to supply you with everything you need to create your first generative flora. But even with the blue orchid, Florges is rare. Set up to wait, and give unwanted visitors a gentle push to a lower layer."
 				""
-				"Ensure that at least one blue orchid is set out, and that no other flowers influencing spawns are present, as they may attract the Pokemon."
+				"Ensure that at least one blue orchid is set out, and that no other flowers influencing spawns are present, as they may attract unwanted Pokemon."
 				""
 				"Most flowers that are two units tall, but not all, can be bonemealed to produce duplicates. Make sure not to use up all your flowers, or you will have to wait for another Florges."
 			]
@@ -1204,10 +1204,7 @@
 				""
 				"A &dWand of the Forest&r will be necessary to aim the spreader at the pool. You can make these wands using Mystical Mushrooms and Livingwood."
 			]
-			dependencies: [
-				"3FF8AA83BB349B3E"
-				"56EC762B367A5628"
-			]
+			dependencies: ["3FF8AA83BB349B3E"]
 			hide: true
 			id: "58C8937CFE8894DA"
 			tasks: [
@@ -1249,31 +1246,29 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -3.0d
+			icon: {
+				id: "botania:mana_tablet"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: -5.0d
 			description: [
 				"If you want to use mana in your day-to-day tasks, you will need to create a mana tablet, which requires a mana pearl."
 				""
 			]
-			dependencies: ["58C8937CFE8894DA"]
+			dependencies: ["031AEF76BB617C6B"]
 			hide: true
 			id: "697DF4960F628C73"
-			tasks: [
-				{
-					id: "129BA78469FEECA0"
-					type: "item"
-					item: "botania:mana_pearl"
+			tasks: [{
+				id: "707A71C329DC99CF"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
 				}
-				{
-					id: "707A71C329DC99CF"
-					type: "item"
-					item: {
-						id: "botania:mana_tablet"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "58BF4DBEC130C3C3"
 				type: "item"
@@ -1281,24 +1276,18 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -5.0d
+			icon: "botania:runic_altar"
+			x: 5.5d
+			y: -3.0d
 			description: ["To make more complex types of Generative Flora, you will need to create a Runic Altar."]
-			dependencies: ["58C8937CFE8894DA"]
+			dependencies: ["031AEF76BB617C6B"]
 			hide: true
 			id: "19A192D7A2A157A8"
-			tasks: [
-				{
-					id: "09D634942D0EEA3F"
-					type: "item"
-					item: "botania:runic_altar"
-				}
-				{
-					id: "493DCA38DFDFE596"
-					type: "item"
-					item: "botania:mana_pearl"
-				}
-			]
+			tasks: [{
+				id: "09D634942D0EEA3F"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
 			rewards: [{
 				id: "2866AD15AFB7257D"
 				type: "item"
@@ -1306,7 +1295,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.5d
 			y: -4.0d
 			shape: "diamond"
 			description: [
@@ -1357,8 +1346,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -2.0d
+			x: 3.5d
+			y: -3.0d
 			description: [
 				"Manaweave cloth is tedious to create, as it requires soaking up a large amount of mana with string and weaving the string into cloth."
 				""
@@ -1370,7 +1359,7 @@
 				""
 				"The Duskull line will also occasionally drop Mana Infused String."
 			]
-			dependencies: ["697DF4960F628C73"]
+			dependencies: ["58C8937CFE8894DA"]
 			hide: true
 			id: "348BABEF613D8EFE"
 			tasks: [
@@ -1446,11 +1435,16 @@
 					type: "item"
 					item: "pixelmon:blue_shard"
 				}
+				{
+					id: "46D2CB6CD9BCA67D"
+					type: "item"
+					item: "pixelmon:silk_scarf"
+				}
 			]
 		}
 		{
-			x: 4.5d
-			y: -6.0d
+			x: 6.5d
+			y: -2.0d
 			description: [
 				"The Rod of the Skies is as valuable as it is dangerous. You will want to carry a water bucket with you. Alternatively, if you already have a Tinker's Anvil, you can add the Bouncy modifier to boots. Or, if you can afford it, you can construct an Elytra."
 				""
@@ -1508,7 +1502,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 8.5d
 			y: -4.0d
 			description: [
 				"The Rod of the Depths also requires runes to make, but it can be used to summon cobblestone in exchange for Mana."
@@ -1522,11 +1516,23 @@
 			dependencies: ["6C44EC48FE059DA0"]
 			hide: true
 			id: "157B8D287148120C"
-			tasks: [{
-				id: "14A5BF33656660D8"
-				type: "item"
-				item: "botania:cobble_rod"
-			}]
+			tasks: [
+				{
+					id: "14A5BF33656660D8"
+					type: "item"
+					item: "botania:cobble_rod"
+				}
+				{
+					id: "31D846CFD0538EC4"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "4E4992E057945A2F"
+					type: "item"
+					item: "botania:rune_water"
+				}
+			]
 			rewards: [
 				{
 					id: "5CFC59F951C456E0"
@@ -1544,16 +1550,18 @@
 					type: "item"
 					item: "pixelmon:blue_shard"
 				}
+				{
+					id: "3ECA58DAEFE862C8"
+					type: "item"
+					item: "pixelmon:hard_stone"
+				}
 			]
 		}
 		{
-			x: 7.5d
-			y: -5.0d
+			x: 9.5d
+			y: -3.0d
 			description: ["A Rod of the Seas can create water from nothing, at the cost of some mana. Because you have access to rain water, this is less important than other creation rods. However, it is still more convenient than juggling many different buckets of water."]
-			dependencies: [
-				"157B8D287148120C"
-				"58F9F7B403DB35AC"
-			]
+			dependencies: ["157B8D287148120C"]
 			hide: true
 			id: "72FEBD0617AEE57D"
 			tasks: [{
@@ -1587,7 +1595,8 @@
 			]
 		}
 		{
-			x: 2.5d
+			title: "Trinity of Seeds"
+			x: 4.5d
 			y: -6.0d
 			description: [
 				"Now that you have a mana pool, it's worth taking a look at the small selection of recipes you can perform using mana infusion that don't require some kind of catalyst."
@@ -1598,6 +1607,7 @@
 				""
 				"To get the dead bush for the Boreal Seeds, you may need to find Bramblin, which will be attracted to desert habitats on the Air layer."
 			]
+			dependencies: ["58C8937CFE8894DA"]
 			hide: true
 			id: "56EC762B367A5628"
 			tasks: [
@@ -1631,15 +1641,9 @@
 					count: 3
 				}
 				{
-					id: "48A72B4A0CBB0412"
+					id: "48D839714E8E0453"
 					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 19
-						}
-					}
+					item: "pixelmon:miracle_seed"
 				}
 			]
 		}
@@ -1743,8 +1747,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -8.0d
+			title: "Even More Seeds"
+			x: 5.5d
+			y: -7.0d
 			description: ["If you're tired of looking at the same old boring grass color everywhere, you can also use cosmetic grass seeds to create green, red, or blue grass."]
 			dependencies: ["56EC762B367A5628"]
 			hide: true
@@ -1806,11 +1811,16 @@
 					item: "pixelmon:mint"
 					count: 5
 				}
+				{
+					id: "49844D26E4934903"
+					type: "choice"
+					table_id: 7555106132649824680L
+				}
 			]
 		}
 		{
-			x: 5.5d
-			y: -5.0d
+			x: 7.5d
+			y: -3.0d
 			description: [
 				"the Sojourner's Sash increases movement speed, jump height, and fall damage resistance. It also allows you to walk up blocks as steps."
 				""
@@ -1820,6 +1830,7 @@
 				"6C44EC48FE059DA0"
 				"5AE35114536AEF17"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "12D96D33689FC651"
 			tasks: [{
@@ -1847,8 +1858,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: 5.5d
+			y: -1.0d
 			description: [
 				"Another item of clothing worth mentioning is the Invisibility Cloak. While worn, and at the cost of mana, the Invisibility Cloak will make the player invisible. This will not prevent mobs from noticing players directly beside them, but can be useful when sneaking into and out of difficult situations."
 				""
@@ -1897,14 +1908,14 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -7.0d
+			x: 6.5d
+			y: -6.0d
 			description: [
 				"A fun toy for base and elevator building is the abstruse platform. It is only solid to mobs and players standing on top of it, and only if they are not sneaking. Since mobs don't usually sneak, this makes it impenetrable to monsters. "
 				""
-				"It can be camoflaged as another block by right clicking on it with another block."
+				"It can be camoflaged as another block by right clicking on it with another block. This can make for secret base entrances."
 			]
-			dependencies: ["56EC762B367A5628"]
+			dependencies: ["031AEF76BB617C6B"]
 			hide: true
 			id: "2C18AA5B3A164110"
 			tasks: [{
@@ -1938,8 +1949,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -1.0d
+			x: 4.5d
+			y: -2.0d
 			description: [
 				"Spellbinding cloth is for when you find an item that has the complete wrong enchantment on it, or worse, a curse."
 				""
@@ -1977,8 +1988,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -7.0d
+			x: 3.5d
+			y: -5.0d
 			description: [
 				"The biscuit of Totality is an unnecessarily expensive item that completely fills the player's saturation meter."
 				""
@@ -1988,7 +1999,7 @@
 				""
 				"But, mostly, it's a funny item."
 			]
-			dependencies: ["2C18AA5B3A164110"]
+			dependencies: ["58C8937CFE8894DA"]
 			hide: true
 			id: "4D93B39FD29F6D81"
 			tasks: [
@@ -2272,13 +2283,13 @@
 					item: "pixelmon:green_shard"
 				}
 				{
-					id: "57051918F7C65531"
+					id: "3338D4487119C884"
 					type: "item"
 					item: {
-						id: "pixelmon:tr_gen8"
+						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 87
+							tm: 27
 						}
 					}
 				}
@@ -2541,8 +2552,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -6.0d
+			x: 8.5d
+			y: -2.0d
 			description: [
 				"To create the Rune of Summer requires you to plumb the Stone layer for Runerigus for Earth Runes, travels to the Space Layer for Dottler's Melons and Siglyph's Air Runes, and mess around on the Murk Layer for slime. "
 				""
@@ -2553,11 +2564,11 @@
 			dependencies: [
 				"6C44EC48FE059DA0"
 				"5AE35114536AEF17"
-				"58F9F7B403DB35AC"
 				"157B8D287148120C"
 				"2CD5260731F941D8"
 				"49513B4A84704CE1"
 			]
+			hide: true
 			id: "7D6D8D32D5F2DA1C"
 			tasks: [{
 				id: "7F399F35576225DF"
@@ -2588,7 +2599,7 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 10.5d
 			y: -4.0d
 			description: [
 				"The Rune of Spring can be created with the Fire and Water runes you just discovered."
@@ -2599,6 +2610,7 @@
 				"157B8D287148120C"
 				"72FEBD0617AEE57D"
 			]
+			hide: true
 			id: "5C31D9BDA3B13E9D"
 			tasks: [{
 				id: "47BC231508BA57DF"
@@ -2630,9 +2642,14 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: -6.0d
+			x: 10.5d
+			y: -2.0d
 			description: ["The Rune of Winter has few uses."]
+			dependencies: [
+				"72FEBD0617AEE57D"
+				"7D6D8D32D5F2DA1C"
+			]
+			hide: true
 			id: "58F9F7B403DB35AC"
 			tasks: [{
 				id: "6F712EB16FB9B634"
@@ -2652,17 +2669,6 @@
 					}
 				}
 				{
-					id: "088FE1EEEED0B442"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen8"
-						Count: 1b
-						tag: {
-							tm: 35
-						}
-					}
-				}
-				{
 					id: "343376BB75FC7530"
 					type: "xp"
 					xp: 250
@@ -2670,10 +2676,11 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -3.0d
+			x: 9.5d
+			y: -5.0d
 			description: ["The Rune of Autumn has few uses. However, it can be used to create the Tigers Eye flower, which can protect an area from Creepers. Given that waves of monsters seem to be getting warped to your base, having one of these wherever you tend to do combat might be prudent."]
 			dependencies: ["157B8D287148120C"]
+			hide: true
 			id: "49A645741741B096"
 			tasks: [{
 				id: "41CC3564E96E46FB"
@@ -2784,14 +2791,15 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -7.0d
+			x: 9.5d
+			y: -1.0d
 			description: ["The Pyroclast Pendant can protect you from taking fire damage. However, it is not incredibly powerful, and cannot protect you if you're standing directly in fire or submerged in lava."]
 			dependencies: [
 				"7D6D8D32D5F2DA1C"
 				"2CD5260731F941D8"
 				"49513B4A84704CE1"
 			]
+			hide: true
 			id: "07C99EA96F4CA854"
 			tasks: [{
 				id: "105B1564E3408332"
@@ -2830,7 +2838,7 @@
 			description: [
 				"Hydroangeas has a limited lifespan, but you just discovered something new! It's lifespan can be restored by turning it into its non-generative motif form, and then turning it back into a functional flower again!"
 				""
-				"Pure daisies can do this automatically, if planted beside them!"
+				"Pure daisies will swap them back and forward automatically, if planted beside them!"
 				""
 				"However, the trade-off is that the plant will spend half of it's life in a non-functional state, reducing its efficiency. Remember also: Pure daisies will convert water to snow, which will force you to rethink your Hydroangeas layout."
 				""
@@ -3124,10 +3132,7 @@
 				"Instead of trying to grind out manasteel, it may be best to use botanical magic chiefly for its rods and trinkets for now, and to leave tools and armor manufacturer to the realm of tinkering."
 			]
 			hide_dependency_lines: true
-			dependencies: [
-				"3FF8AA83BB349B3E"
-				"58C8937CFE8894DA"
-			]
+			dependencies: ["58C8937CFE8894DA"]
 			hide: true
 			id: "1A26D98404F1FC49"
 			tasks: [{
@@ -3150,8 +3155,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -8.0d
+			x: -0.5d
+			y: -9.0d
 			description: [
 				"Producing a terrasteel agglomeration plate is very difficult because it relies on having a block of manasteel."
 				""
@@ -3161,6 +3166,7 @@
 				""
 				"After constructing the plate, consider putting it on the Dazzle Layer. It may attract Pokemon with an affinity for Terrasteel, such as Ralts."
 			]
+			dependencies: ["6850D44BBDAB5B9F"]
 			hide: true
 			id: "5DD72ABF12D90905"
 			tasks: [
@@ -3197,7 +3203,7 @@
 		}
 		{
 			x: 0.0d
-			y: -9.0d
+			y: -10.0d
 			description: [
 				"Terrasteel requires a combination of a mana pearl, mana diamond, and mana steel ingot to create. Owed to the rarity of some of these ingredients, consider ahead of time exactly what you want to make with terrasteel."
 				""
@@ -3230,7 +3236,7 @@
 		}
 		{
 			x: -0.5d
-			y: -10.0d
+			y: -11.0d
 			description: [
 				"To get to the next tier of Botania metallurgy, you will need to create an elven portal- a Portal to Alfheim."
 				""
@@ -3269,7 +3275,7 @@
 		}
 		{
 			x: 0.0d
-			y: -11.0d
+			y: -12.0d
 			description: ["The first and most important trade to make across the portal is the Lexia Botanica. Throw it through the portal, and the elves will add additional knowledge to it."]
 			dependencies: [
 				"62BEB98D8819998C"
@@ -3297,7 +3303,7 @@
 		}
 		{
 			x: 0.5d
-			y: -10.0d
+			y: -11.0d
 			description: [
 				"To open the portal to Alfheim, you will need two nearby mana pools topped with natura pylons."
 				""
@@ -3327,8 +3333,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -12.0d
+			x: -1.0d
+			y: -12.5d
 			description: ["To create a peice of elementium, you will have to toss a manasteel ingot and a terrasteel ingot through the portal together."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3349,8 +3355,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -12.0d
+			x: 0.0d
+			y: -14.0d
 			description: ["To get pixie dust, you will have to throw a mana pearl through the portal."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3384,17 +3390,21 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -4.0d
+			x: -1.5d
+			y: -3.5d
 			description: [
 				"To master Botania, you will need to fight it's ultimate boss, a Guardian of Gaia. This is meant to be an incredibly difficult fight. To set up the arena, you will need a lit beacon and four Gaia Pylons, as well as a sacrificial Terrasteel Ingot."
 				""
 				"Since the ritual requires a beacon, it stands to reason you should defeat the Wither and master the nether before attempting this challenge."
+				""
+				"The Guardian of Gaia has many powerful attacks, including Withering attacks. It may be best to look up a strategy for fighting it."
 			]
 			hide_dependency_lines: true
 			dependencies: [
 				"452E49BF4730858B"
 				"0E44A97EBAC87582"
+				"3FF8AA83BB349B3E"
+				"4619F76929CB2A2D"
 			]
 			hide: true
 			id: "607D886F0B58A7C8"
@@ -3423,8 +3433,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -12.0d
+			x: 1.0d
+			y: -12.5d
 			description: ["To obtain a dragonstone, throw a mana diamond through the portal."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3459,7 +3469,7 @@
 		}
 		{
 			x: 1.0d
-			y: -12.0d
+			y: -13.5d
 			description: ["Dreamwood is obtained by throwing Livingwood through the portal"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3510,8 +3520,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -13.0d
+			x: 1.0d
+			y: -16.0d
 			description: ["The rod of the Shaded Mesa can be made with access to Dragonstone and Dreamwood. It can pull entities closer to the player, or launch them in the opposite direction."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3537,11 +3547,16 @@
 					type: "xp"
 					xp: 250
 				}
+				{
+					id: "050E875F722FBD2E"
+					type: "item"
+					item: "pixelmon:fairy_wand"
+				}
 			]
 		}
 		{
-			x: 2.5d
-			y: -13.0d
+			x: 2.0d
+			y: -16.5d
 			description: ["The wand of Bifrost requires pixie dust, elementium, and a dragonstone. It is a bridging tool. When used, it creates a temporary shimmering rainbow bridge in the direction the player is looking."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3568,11 +3583,22 @@
 					type: "xp"
 					xp: 250
 				}
+				{
+					id: "5D6E889466C890A9"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 5
+						}
+					}
+				}
 			]
 		}
 		{
-			x: -0.5d
-			y: -13.0d
+			x: -1.0d
+			y: -16.0d
 			description: ["Luminizers are a magical transportation system. Each luminizer requires a dragonstone and pixie dust. When strung together, they can be used to create long magical 'railways.' Each luminizer can attach to other luminizers up to 20 blocks away."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3601,8 +3627,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -16.0d
+			x: -5.0d
+			y: -13.0d
 			description: [
 				"The corporea system is a powerful wireless inventory network."
 				""
@@ -3654,8 +3680,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -17.0d
+			x: -5.5d
+			y: -14.0d
 			description: [
 				"Funnels are one way to extract items from the Corporea system for automation. They can output an item directly, or push it into an inventory below themselves. To work, you must place an item frame on them, and hang up the item you want them to pull from the network. Then, activate them with a redstone pulse."
 				""
@@ -3682,8 +3708,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -17.0d
+			x: -3.5d
+			y: -14.0d
 			description: ["The corporea crystal cube is a good tool for tracking items you have in bulk, or which are currently being created by some automated setup. They show off a single item in the corporea network and how much of it exists, and you can withdraw items from it by clicking on it, regardless of where those items are actually located on your network."]
 			dependencies: ["52480CD2F8F197E1"]
 			hide: true
@@ -3707,8 +3733,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -17.0d
+			x: -6.5d
+			y: -14.0d
 			description: [
 				"The Corporea index allows you to retrieve any item you want from anywhere in your network."
 				""
@@ -3738,8 +3764,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -12.0d
+			x: -1.0d
+			y: -13.5d
 			description: ["Alfglass can be obtained by trading the elves Managlass through the portal."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3773,8 +3799,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -17.0d
+			x: -4.5d
+			y: -14.0d
 			description: [
 				"The Corporea Interceptor can be used to detect every time the network is accessed. This can be useful in automation."
 				""
@@ -3802,8 +3828,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -15.0d
+			x: -6.0d
+			y: -12.0d
 			description: [
 				"The crafty crate can automate crafting, but it's lack of GUI means it requires some planning."
 				""
@@ -3852,8 +3878,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -13.0d
+			x: 0.0d
+			y: -15.5d
 			description: [
 				"The Cocoon of Caprice can be used to spawn in Pokemon or even Villagers, depending on whether and what you feed to it."
 				""
@@ -3895,8 +3921,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -13.0d
+			x: -2.0d
+			y: -16.5d
 			description: [
 				"The conjuration catalyst allows you to duplicate a small number of items at the cost of mana. This is usually more than the cost of consuming that item to produce mana."
 				""
@@ -3942,8 +3968,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -15.0d
+			x: -4.0d
+			y: -12.0d
 			description: ["At the cost of mana, the Life imbuer will enable a monster spawner to work even when no players are in range. This can be helpful for automation."]
 			hide_dependency_lines: true
 			dependencies: ["452E49BF4730858B"]
@@ -3974,7 +4000,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: 9.0d
 			y: -13.0d
 			description: ["Wear this ring, and your reach will be increased by three aditional blocks."]
 			hide_dependency_lines: true
@@ -4007,8 +4033,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -15.0d
+			x: -5.0d
+			y: -12.0d
 			description: ["Elvish Mana spreaders can fire bursts farther than standard Mana spreaders before suffering mana loss. This makes them useful for automation on bigger projects, such as tree farms with taller trees. "]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4036,10 +4062,12 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -7.0d
+			x: 8.0d
+			y: -11.0d
 			description: ["The band of Aura passively generates Mana, and will place it into any worn Band of Mana or Mana Tablet."]
+			hide_dependency_lines: true
 			dependencies: ["1A26D98404F1FC49"]
+			hide: true
 			id: "2D57FF47733BF8E0"
 			tasks: [{
 				id: "372429A13DF43E2C"
@@ -4070,13 +4098,15 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -9.0d
+			x: 8.0d
+			y: -12.0d
 			description: ["This is an impoved Band of Aura. It increases the rate at which mana is passively generated."]
+			hide_dependency_lines: true
 			dependencies: [
 				"2D57FF47733BF8E0"
 				"727E8165AD39C2FB"
 			]
+			hide: true
 			id: "6DD61C9EB5D949AE"
 			tasks: [{
 				id: "244A81FCEC2D5578"
@@ -4117,14 +4147,16 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -7.0d
+			x: 9.0d
+			y: -11.0d
 			description: [
 				"The Band of Mana works like a Mana Tablet, but can be worn on the finger, thus freeing up a space in the inventory. "
 				""
 				"Owed to the expense of Mana Steel, this might not be a good investment early on."
 			]
+			hide_dependency_lines: true
 			dependencies: ["1A26D98404F1FC49"]
+			hide: true
 			id: "20DC350BA504FB10"
 			tasks: [{
 				id: "474B60C2E1CD471E"
@@ -4149,13 +4181,15 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -9.0d
+			x: 9.0d
+			y: -12.0d
 			description: ["This is an improved Band of Mana. Owed to the expense of Terra Steel, this might not be the best investment early on"]
+			hide_dependency_lines: true
 			dependencies: [
 				"20DC350BA504FB10"
 				"727E8165AD39C2FB"
 			]
+			hide: true
 			id: "049547E302FE1D38"
 			tasks: [{
 				id: "06C2C9725D8D9718"
@@ -4200,10 +4234,12 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -7.0d
+			x: 10.0d
+			y: -11.0d
 			description: ["In a normal world, the ring of magnetization would be invaluable. Here, it may still serve a purpose, but Manasteel is a little expensive and there may be better things to spend iron on."]
+			hide_dependency_lines: true
 			dependencies: ["1A26D98404F1FC49"]
+			hide: true
 			id: "4E7C50A2D8D5A8CE"
 			tasks: [{
 				id: "3BF948E6C03FBF53"
@@ -4228,12 +4264,14 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -9.0d
+			x: 10.0d
+			y: -12.0d
+			hide_dependency_lines: true
 			dependencies: [
 				"727E8165AD39C2FB"
 				"4E7C50A2D8D5A8CE"
 			]
+			hide: true
 			id: "42EE058CB0128099"
 			tasks: [{
 				id: "0C0C44859D52AECE"
@@ -4269,8 +4307,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -8.0d
+			x: 13.0d
+			y: -11.0d
 			description: [
 				"This ring grants Haste."
 				""
@@ -4314,8 +4352,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -9.0d
+			x: 12.0d
+			y: -11.0d
 			description: [
 				"This ring will replace any incorrect tool you are holding with the correct tool from your toolbelt (ie a shovel for a pickaxe, or a pickaxe for a shovel)"
 				""
@@ -4350,11 +4388,16 @@
 					type: "choice"
 					table_id: 4599408354571176022L
 				}
+				{
+					id: "5A34375FBACEF851"
+					type: "item"
+					item: "pixelmon:expert_belt"
+				}
 			]
 		}
 		{
-			x: -4.0d
-			y: -10.0d
+			x: 11.0d
+			y: -11.0d
 			description: [
 				"This ring allows you to dodge left and right by tapping the respective keys."
 				""
@@ -4399,7 +4442,7 @@
 		}
 		{
 			x: 0.0d
-			y: -7.0d
+			y: -8.0d
 			description: [
 				"Sparks are used to transport large amounts of mana. They can be placed on mana pools, Terrestrial Agglomeration Plates, and Mana Enchanters. "
 				""
@@ -4407,10 +4450,7 @@
 				""
 				"Sparks can be Augmented to change their behavior, such as making them transfer all mana out of the pool below them- useful for automating the movement of mana."
 			]
-			dependencies: [
-				"5DD72ABF12D90905"
-				"1A26D98404F1FC49"
-			]
+			dependencies: ["1A26D98404F1FC49"]
 			id: "6850D44BBDAB5B9F"
 			tasks: [{
 				id: "5BBB7536DD0D7131"
@@ -4492,8 +4532,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -7.0d
+			x: 5.0d
+			y: -11.0d
 			description: [
 				"A manasteel tool is not a terrible idea. With tinkering you can pay fewer ingots for a tool to contain manasteel, and still gain the ability Mana, which allows the tool to repair itself with mana from a tablet in inventory."
 				""
@@ -4501,6 +4541,7 @@
 				""
 				"(Note: Make any of the tool peices above, not all of them)"
 			]
+			hide_dependency_lines: true
 			dependencies: ["1A26D98404F1FC49"]
 			hide: true
 			min_required_tasks: 1
@@ -4637,13 +4678,10 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -9.0d
-			description: [
-				"Terrasteel tools are better tinkered, as you can use fewer ingots to produce similar quality tools. "
-				""
-				"Depending on how quickly you are producing iron, you may choose to skip this for some time and focus on trinkets and other goodies."
-			]
+			x: 5.0d
+			y: -12.0d
+			description: ["Terrasteel can be tinkered with, but you will not gain the powerful benefits of the Terra Shatterer, for instance. "]
+			hide_dependency_lines: true
 			dependencies: ["727E8165AD39C2FB"]
 			hide: true
 			id: "5788B03C0FD63817"
@@ -4774,13 +4812,14 @@
 		}
 		{
 			title: "Terra Tools"
-			x: 1.0d
-			y: -9.0d
+			x: 6.0d
+			y: -12.0d
 			description: [
 				"Terrasteel is mostly used for creating one of three top-tier tools with unique abilities. These are probably more valuable than tinkered items."
 				"Terrasteel is mostly valuable for its additional abilities, making it better in many ways than tinkered gear."
 				""
 			]
+			hide_dependency_lines: true
 			dependencies: ["727E8165AD39C2FB"]
 			hide: true
 			id: "33AAD25893FF8A3D"
@@ -4845,8 +4884,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -8.0d
+			x: 0.5d
+			y: -9.0d
 			description: ["To create a single piece of Terrasteel you will require a lot of mana. You will then have to throw a mana pearl, mana diamond, and ingot of mana steel onto the agglomeration plate at the same time."]
 			dependencies: ["6850D44BBDAB5B9F"]
 			hide: true
@@ -4878,6 +4917,1312 @@
 						tm: 63
 					}
 				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["The reward for defeating a Guardian of Gaia is access to Guaia Spirits, which can create the most powerful devices in Botanical Magic."]
+			dependencies: ["607D886F0B58A7C8"]
+			hide: true
+			id: "24B446002F3EE2B5"
+			tasks: [{
+				id: "3AE5E155DF2E3C0F"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			description: ["This tiara allows the user to fly, glide, and dash."]
+			hide_dependency_lines: true
+			dependencies: [
+				"24B446002F3EE2B5"
+				"7276C02A991C2CE4"
+			]
+			hide: true
+			id: "1427AF3D359E674C"
+			tasks: [{
+				id: "0614C74D3542E603"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: [
+				"Ender Air is air one obtains by waving a glass bottle around inside the End."
+				""
+				"Nothing that requires Ender Air as part of its recipe can be obtained before the end is accessed."
+			]
+			dependencies: ["3FF8AA83BB349B3E"]
+			hide: true
+			id: "7276C02A991C2CE4"
+			tasks: [{
+				id: "0568DD8E64C82768"
+				type: "item"
+				item: "botania:ender_air_bottle"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["The Hand of Ender can access the Player's Ender Chest form anywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3FF8AA83BB349B3E"
+				"30E49862081FA059"
+			]
+			hide: true
+			id: "1A576F4AEEB3DD51"
+			tasks: [{
+				id: "79F0E254738A7A1C"
+				type: "item"
+				item: "botania:ender_hand"
+			}]
+			rewards: [{
+				id: "5372A4C850D57CD3"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_mekanism_refined_obsidian"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: [
+				"Life Aggregators can move Monster Spawners."
+				""
+				"They shatter after being used a single time, and thus are not the most efficient use of Gaia Spirits."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7276C02A991C2CE4"
+				"24B446002F3EE2B5"
+			]
+			hide: true
+			id: "2CF9843D7229BA3F"
+			tasks: [{
+				id: "2D83521438B9D479"
+				type: "item"
+				item: "botania:spawner_mover"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			description: [
+				"Red String can be used to make an assortment of blocks that help transport items and allow for something like wireless redstone."
+				""
+				"Each type of Red string block should be placed facing whatever specific type of block it is written to bind to. There may be walls in between the Red Stringed block and it's target; it doesn't matter. Whenever something happens to the redstring block, the block it's tied to is the one actually affected."
+				""
+				"Pipe an item into a Redstring Dispenser, and it will actually pipe into whatever distant, remote dispenser the redstring dispenser is tied to. Press a redstone button beside the redstring dispenser and, again, the dispenser it's tied to will be the one to actually fire."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7276C02A991C2CE4"
+				"0E44A97EBAC87582"
+			]
+			id: "79CF695D3DCF7A5E"
+			tasks: [{
+				id: "0D61E20BE6B9FC37"
+				type: "item"
+				item: "botania:red_string"
+			}]
+			rewards: [{
+				id: "0E5E1A2CC7D4CF88"
+				type: "choice"
+				table_id: 4721220124494179002L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			description: [
+				"Allows for mass placement or mass destruction of blocks- but in a specific pattern."
+				""
+				"The user creates a template through a combination of shifting and clicking. The player can then place blocks enmasse in that templated pattern, or you can use some of the terra tools such as the terra shatterer to break blocks in that pattern instead."
+			]
+			dependencies: ["38B82A29F3DC458B"]
+			hide: true
+			id: "7A433F99DB12B2C2"
+			tasks: [{
+				id: "0CE156345F7A945B"
+				type: "item"
+				item: {
+					id: "botania:loki_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.5d
+			description: ["Dramatically increases the effects of the Terra Shatterer."]
+			dependencies: ["38B82A29F3DC458B"]
+			hide: true
+			id: "474B1A5BB745ED5A"
+			tasks: [{
+				id: "22AADD906D0BFAE5"
+				type: "item"
+				item: {
+					id: "botania:thor_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			description: [
+				"The Gaia Spirit Ingot is useless in crafting, but can be sacrificed at a beacon of Gaia to perform a second, much higher tier Ritual of Gaia II. This will summon a stronger Guardian of Gaia."
+				""
+				"When defeated, this second, stronger guardian will drop more Gaia Spirits and potentially an uncraftable end-game item, such as the Ring of Loki."
+			]
+			hide_dependency_lines: true
+			dependencies: ["24B446002F3EE2B5"]
+			hide: true
+			id: "0FA331E73CBA8CD3"
+			tasks: [{
+				id: "19C2638C7BD49E9C"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			description: ["Grants 10 additional hearts and an assortment of other benefits, such as fire immunity, water breathing, and an inability to starve to death."]
+			dependencies: ["38B82A29F3DC458B"]
+			hide: true
+			id: "38F2C30D9251FA35"
+			tasks: [{
+				id: "3DF7964AF7D4698E"
+				type: "item"
+				item: {
+					id: "botania:odin_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 6874352507438450190L
+						baubleUUIDLeast: -4752715515591050520L
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			description: ["The Fruit of Grisaia can be eaten infinitely. This won't help you maintain a balanced nutrition, but it will keep you full!"]
+			dependencies: ["38B82A29F3DC458B"]
+			hide: true
+			id: "01B91170CE9C5DF7"
+			tasks: [{
+				id: "4DE1041823DDFDB5"
+				type: "item"
+				item: {
+					id: "botania:infinite_fruit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.5d
+			description: ["The Key of the King's Law can be used to summon weapon projectiles that fly towards a target and deal explosive damage."]
+			dependencies: ["38B82A29F3DC458B"]
+			hide: true
+			id: "72FC74C61702B8EA"
+			tasks: [{
+				id: "71B4C0E72E864254"
+				type: "item"
+				item: {
+					id: "botania:king_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			description: [
+				"Rolling this dice will give you one of the six end-tier items of Botanical Magic. These items cannot be given to another player and, if you lose them, you can never get them back. Take care of them!"
+				""
+				"All of these Curios still depend on mana."
+			]
+			dependencies: ["0FA331E73CBA8CD3"]
+			hide: true
+			id: "38B82A29F3DC458B"
+			tasks: [{
+				id: "082C7273BB55E74C"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "66C568C82CBDB764"
+					type: "choice"
+					table_id: 5426868279948745664L
+				}
+				{
+					id: "7BA5E7F8B6679EE2"
+					type: "choice"
+					table_id: 3001743523227994534L
+				}
+				{
+					id: "4BCE3287ABA4E8C4"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "gs_ball"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -6.5d
+			description: ["Allows you to teleport back to a predetermined location. If coupled with the Fugel Tiara, you can fly indefinitely without needing to recharge the Tiara's flight meter."]
+			dependencies: ["38B82A29F3DC458B"]
+			hide: true
+			id: "6F61CF3FD12E1E5C"
+			tasks: [{
+				id: "4BA4855402C0B653"
+				type: "item"
+				item: {
+					id: "botania:flugel_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: ["Adds a dramatic speed-boost to the Sojourner's Sash."]
+			hide_dependency_lines: true
+			dependencies: [
+				"12D96D33689FC651"
+				"24B446002F3EE2B5"
+			]
+			hide: true
+			id: "1B52AD13A8313135"
+			tasks: [{
+				id: "782D1BB3B24A7271"
+				type: "item"
+				item: {
+					id: "botania:super_travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -13.0d
+			description: ["Works best with Elementium Armor. Gives a chance for a Fairy to spawn on behalf of the player whenever the player is hit."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0E44A97EBAC87582"
+				"452E49BF4730858B"
+			]
+			hide: true
+			id: "1B7F4EF61AB8029A"
+			tasks: [{
+				id: "0C04F5C7C43B0123"
+				type: "item"
+				item: {
+					id: "botania:pixie_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -4942935519670090098L
+						baubleUUIDLeast: -7844156887075691012L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "52BF29F52ACEE353"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "10948E6D710A1D04"
+					type: "item"
+					item: "materialis:fairy_ingot"
+				}
+			]
+		}
+		{
+			title: "Manasteel Armor"
+			x: 4.0d
+			y: -11.0d
+			description: [
+				"Expensive armor that can be repaired with mana. There may be better things to spend your time on."
+				""
+				"(Note: You only need to make one of the four peices of armor, not all four)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			id: "6FA54E36EC224A2E"
+			tasks: [
+				{
+					id: "5EF0AD6E97F29280"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66AEE549DB123301"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B22A75C12E7FAA9"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77DABBDB9F5D2112"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "25C14BAAA8F4F3D1"
+					type: "item"
+					item: {
+						id: "spartanshields:shield_botania_manasteel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7893A24D1BCE4823"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 135
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Terrasteel Armor"
+			x: 4.0d
+			y: -12.0d
+			description: [
+				"A more powerful variant on Manasteel armor. This suit of armor may be prohibitively expensive, but it is as strong as diamond."
+				""
+				"(Note: You only need to make one of the four peices of armor, not all four)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["727E8165AD39C2FB"]
+			hide: true
+			id: "50409E5E40CB94DF"
+			tasks: [
+				{
+					id: "4840928878DC5BCD"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D4832C5A47CFCB8"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61BBB0B26A08CC3B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35C841A8480BFCE6"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2174F4169269A562"
+					type: "item"
+					item: {
+						id: "spartanshields:shield_botania_terrasteel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DBC20D5D0F0A032"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 88
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Elementium Armor"
+			x: 4.0d
+			y: -13.0d
+			description: [
+				"Elementium armor is actually weaker and softer than Terrasteel, but it comes with the added benefit of spawning pixies whenever the user is damaged that fly at the enemy and damage them."
+				""
+				"When coupled with some form of damage reducation, this can be used to spawn ridiculous numbers of pixies if you can arrange to take a large number of very weak hits."
+				""
+				"(Note: You only need to make one of the four peices of armor, not all four)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["452E49BF4730858B"]
+			hide: true
+			min_required_tasks: 1
+			id: "22001C327F939318"
+			tasks: [
+				{
+					id: "782862B863AA7335"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BD5522D98D3A493"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "713FBD17FA64D84E"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "157F47D53A9AD684"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "22CAD79B400F4FE0"
+					type: "item"
+					item: {
+						id: "spartanshields:shield_botania_elementium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "647931733986B0E4"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 138
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -13.0d
+			description: [
+				"All Elementium tools have a unique ability. The Elementium Pickaxe can be combined with a Terra Shatterer in an inventory to create a hybrid of both types of Pickaxe."
+				""
+				"The unique effect of the Elementium Pickaxe is that it will strip away all blocks that aren't ores, and leave the ores behind for the user to use a different pickaxe one, such as one enchanted with fortune or silk touch."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"452E49BF4730858B"
+				"363AE16F0D3B7EF9"
+			]
+			hide: true
+			id: "5D2FAEF09DFF40D4"
+			tasks: [{
+				id: "5D7FAD47F5BE4B9C"
+				type: "item"
+				item: {
+					id: "botania:elementium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "50254B83AB195C21"
+				type: "item"
+				item: {
+					id: "botania:elementium_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -13.0d
+			description: ["Tinkered elementium items can be repaired by mana and also have the Pixiecaller ability, which, again, increases the chance a pixie is summoned if the player is hit."]
+			hide_dependency_lines: true
+			dependencies: ["452E49BF4730858B"]
+			hide: true
+			id: "52FA1002CF164D0A"
+			tasks: [
+				{
+					id: "47E717F8866A2D1A"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "432A5A29128E8300"
+					type: "item"
+					item: {
+						id: "tconstruct:hammer_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "118BE96C66466F0A"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "08C453747CBAFF53"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe_head"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "0C974384A789B9A7"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "030C70096A254C45"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "374CFD49C58D911F"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "7D57E5B8B8FABFF4"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "6B0CBACCEB644D85"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+				{
+					id: "46A2733CA7C0F0AA"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:elementium"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "16CCEA6304247D03"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "665B67060C3B8C9D"
+					type: "item"
+					item: "materialis:fairy_ingot"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -13.0d
+			description: ["The elementium sword also increases the chance of fairies spawning, in the event the player is hit."]
+			hide_dependency_lines: true
+			dependencies: ["452E49BF4730858B"]
+			hide: true
+			id: "42ED4C9F10FAA62B"
+			tasks: [{
+				id: "05D949F9F655B03B"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "46255172460DDC79"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "09CBCFD4EC0F1F62"
+					type: "item"
+					item: "materialis:fairy_ingot"
+				}
+			]
+		}
+		{
+			title: "Fairy Badge"
+			icon: "pixelmon:fairy_badge"
+			x: 14.0d
+			y: -13.0d
+			description: ["In recognition of your love of fairies."]
+			dependencies: [
+				"42ED4C9F10FAA62B"
+				"22001C327F939318"
+				"1B7F4EF61AB8029A"
+				"52FA1002CF164D0A"
+				"5D2FAEF09DFF40D4"
+			]
+			hide: true
+			id: "3F52F04E223512A4"
+			tasks: [{
+				id: "3B46120D41F2F29F"
+				type: "checkmark"
+				title: "Elementium Kit"
+			}]
+			rewards: [{
+				id: "60DCE5A5102C86AE"
+				type: "item"
+				item: "pixelmon:fairy_badge"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.0d
+			description: ["The assembly halo is a portable crafting table."]
+			hide_dependency_lines: true
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			id: "4A647E108CC7D41F"
+			tasks: [{
+				id: "755EC9A2E282A792"
+				type: "item"
+				item: "botania:crafting_halo"
+			}]
+			rewards: [{
+				id: "07547786F1720C8C"
+				type: "pixelmon:pokedollars"
+				count: 250
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.0d
+			description: ["The manufactury halo is an upgrade that will automatically craft recipes using items from your inventory. This allows you to, for instance, compress redstone, lapis, or quartz while mining."]
+			dependencies: ["4A647E108CC7D41F"]
+			id: "283CF8CB1DB62070"
+			tasks: [{
+				id: "07FED7070EFD600F"
+				type: "item"
+				item: "botania:auto_crafting_halo"
+			}]
+			rewards: [{
+				id: "667229D28E16F5BE"
+				type: "pixelmon:pokedollars"
+				count: 500
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			description: ["This Astrolab can be used to place a lot of blocks, very quickly. It can create anything from 3x3 to 11x11 walls, floors, or ceilings."]
+			hide_dependency_lines: true
+			dependencies: ["24B446002F3EE2B5"]
+			hide: true
+			id: "3035309810DA05AF"
+			tasks: [{
+				id: "731031ACDB610448"
+				type: "item"
+				item: {
+					id: "botania:astrolabe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1BC0FE3C3164C4C2"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen8"
+					Count: 1b
+					tag: {
+						tm: 71
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -15.0d
+			description: ["The Corporea Halo is an improved Index. It can be used to access your Corporea System remotely with a GUI interface, allowing you to browse what you have in stock."]
+			dependencies: [
+				"33DA87CDC79BFED1"
+				"7D48D3B43BD71D32"
+			]
+			id: "7F098C17E3D674AE"
+			tasks: [{
+				id: "1F0C19AB2FC615F7"
+				type: "item"
+				item: {
+					id: "interactive_corporea:requesting_halo"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7CC722E1B5692AF3"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 7.0d
+			y: -12.0d
+			description: ["If you've leveled up your Terra Shatterer to S-tier, it may be frustrating to only be able to use it to destroy a) every block in sight, or b) only one block. If you hold an active stone of temperence, your Terra Shatterer will only mine out a 3x3 area."]
+			dependencies: ["33AAD25893FF8A3D"]
+			hide: true
+			id: "7D6D8A0FA000D03A"
+			tasks: [{
+				id: "73BDEA0646F77250"
+				type: "item"
+				item: {
+					id: "botania:temperance_stone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3A2B63493DCEA441"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.0d
+			description: ["The Vitreus Pickaxe is a lower tier pickaxe that has a silk-touch effect only when working with glass."]
+			hide_dependency_lines: true
+			dependencies: ["1A26D98404F1FC49"]
+			hide: true
+			id: "52E9D11763621FBE"
+			tasks: [{
+				id: "65D00A3B24799E04"
+				type: "item"
+				item: {
+					id: "botania:glass_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7025B337C8B65D68"
+				type: "item"
+				item: "tconstruct:soul_glass"
+				count: 32
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			description: [
+				"The Alchemical Catalyst is very valuable because, for a short mana price, you can get access to resources that don't appear to exist in your void world."
+				""
+				"Right off the bat, you can think of one extremely valuable recipe: The recipe for exchanging a slime ball for a cactus."
+				""
+				"However, the alchemical catalyst requires not one but two brewing stands."
+				""
+				"You'll have to grind yourself some iron nuggets and find a source of blaze rods. The best source of the blaze rods are probably flame aligned Ninetales. You think you can attract them to an indoor habitat on the Ice Layer."
+			]
+			dependencies: ["697DF4960F628C73"]
+			id: "7DD3AF745C05592E"
+			tasks: [{
+				id: "5E491F4EC094D936"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [
+				{
+					id: "135020F044474F41"
+					type: "item"
+					title: "Your Pokemon show off that they have copied you!"
+					item: "minecraft:brewing_stand"
+				}
+				{
+					id: "3F73BC8EA27C0E97"
+					type: "loot"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "5DF5819792156D9F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen6"
+						Count: 1b
+						tag: {
+							tm: 101
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: [
+				"The Botanical Brewery is expensive, requiring not only blaze rods but an entire block of Manasteel."
+				""
+				"That said, it can be used to great brews, pendants, and incense sticks, all of which are usually more powerful than vanilla potions."
+			]
+			dependencies: ["1A26D98404F1FC49"]
+			id: "08D429A1527D4DD4"
+			tasks: [{
+				id: "4EC091977455D6AF"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [{
+				id: "142E61C034F63478"
+				type: "item"
+				item: {
+					id: "botania:incense_stick"
+					Count: 1b
+					tag: {
+						brewKey: "botania:regen_weak"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			description: ["You can create Mana Pearls, Mana Dust, Mana Diamonds, Mana Glass, and so forth by dropping the ingredients into a pool of mana. So long as there is enough mana, of course!"]
+			dependencies: [
+				"1A576F4AEEB3DD51"
+				"58C8937CFE8894DA"
+			]
+			hide: true
+			id: "031AEF76BB617C6B"
+			tasks: [{
+				id: "512BE9B0823F7392"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "628BD13CB37F1F6D"
+				type: "item"
+				item: "pixelmon:pearl"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			description: [
+				"The horn of the wild breaks grass and crops in a large radius around you."
+				""
+				"The horn of the canopy breaks leaves."
+				""
+				"The horn of the covering breaks snow."
+				""
+				"(Note: You only need to create one of these, not all three)"
+			]
+			dependencies: ["56EC762B367A5628"]
+			hide: true
+			min_required_tasks: 1
+			id: "15EA75DF0BECA6CF"
+			tasks: [
+				{
+					id: "070B9A741FCA96D7"
+					type: "item"
+					item: "botania:horn_grass"
+				}
+				{
+					id: "54354E205B73DDAA"
+					type: "item"
+					item: "botania:horn_leaves"
+				}
+				{
+					id: "2779529BC120FC53"
+					type: "item"
+					item: "botania:horn_snow"
+				}
+			]
+			rewards: [
+				{
+					id: "43D196D2892D98CB"
+					type: "item"
+					item: "pixelmon:leaf_stone_shard"
+				}
+				{
+					id: "090DB9A974111B8C"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			description: ["Drums of the Wild and Canopy can do the same thing as the horn, but are placed blocks and can be activated by using mana bursts. There is no Drum of the Cover."]
+			dependencies: ["15EA75DF0BECA6CF"]
+			hide: true
+			min_required_tasks: 1
+			id: "12680C23611A0305"
+			tasks: [
+				{
+					id: "54561254A2ECB3FD"
+					type: "item"
+					item: "botania:drum_wild"
+				}
+				{
+					id: "133035A25309F1E1"
+					type: "item"
+					item: "botania:drum_canopy"
+				}
+			]
+			rewards: [
+				{
+					id: "3532FD8F5D91EB19"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "29F62921F5B569BB"
+					type: "pixelmon:pokedollars"
+					count: 500
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["The Teru Teru Bozu is a weather manipulation tool. It will ward off inclement weather and, if offered a Sunflower during a storm, will change the weather back to sunny, clear skies. Helpful if you don't want to lug around a Sunny Day Pokemon!"]
+			dependencies: ["348BABEF613D8EFE"]
+			id: "5E92D0BC452C176B"
+			tasks: [{
+				id: "52A88D333EE79147"
+				type: "item"
+				item: "botania:teru_teru_bozu"
+			}]
+			rewards: [
+				{
+					id: "4594A7631CD2D1C6"
+					type: "item"
+					item: "pixelmon:sun_stone_shard"
+				}
+				{
+					id: "1F42A5957BE0B405"
+					type: "item"
+					item: "botania:sunny_quartz"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -18.0d
+			description: [
+				"Spectral Platforms take up a block space but are passable from every direction. However, mobs will not see them as passable. "
+				""
+				"The platform can be disguised in exactly the same fashion as an Abstruse Platform."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"363AE16F0D3B7EF9"
+				"0E44A97EBAC87582"
+			]
+			hide: true
+			id: "4C49C39447F8F8D2"
+			tasks: [{
+				id: "32C1F87B6C669A13"
+				type: "item"
+				item: "botania:spectral_platform"
+			}]
+			rewards: [
+				{
+					id: "0F502B89E2A922CD"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 160
+						}
+					}
+				}
+				{
+					id: "0814E315E8ADFAAC"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 38
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -18.0d
+			description: ["The Drum of the Gathering is a ranching tool that can automatically shear sheep and, when empty buckets are available, milk cows. They can be used as part of an automated setup- especially an automated dairy-crafting setup."]
+			hide_dependency_lines: true
+			dependencies: [
+				"452E49BF4730858B"
+				"363AE16F0D3B7EF9"
+			]
+			hide: true
+			id: "3FBAF2DD80E25340"
+			tasks: [{
+				id: "752140659A025FF5"
+				type: "item"
+				item: "botania:drum_gathering"
+			}]
+			rewards: [
+				{
+					id: "03E5CFCF4719F954"
+					type: "item"
+					item: "pixelmon:curry_cheese"
+				}
+				{
+					id: "746AA47B1EBB64F7"
+					type: "item"
+					item: "pixelmon:curry_coconut"
+				}
+				{
+					id: "2981B3D4C2293956"
+					type: "item"
+					item: "pixelmon:moomoo_milk"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -17.0d
+			description: ["Starfield creators are aesthetic and beautiful. They may also lead you closer to discovering a path to the End."]
+			hide_dependency_lines: true
+			dependencies: [
+				"452E49BF4730858B"
+				"0E44A97EBAC87582"
+			]
+			hide: true
+			id: "437215A2580227C5"
+			tasks: [{
+				id: "20A63A6A0FB52C7E"
+				type: "item"
+				item: "botania:starfield"
+			}]
+			rewards: [{
+				id: "00731D0656BCEA0E"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			description: [
+				"One of the most important resources you can get from this catalyst is a jungle tree, especially early on in your magical journey. "
+				""
+				"Jungle wood can be used to grow cocoa, which is both delicious and a renewable source of brown dye."
+				""
+				"The second most important recipe is the cactus recipe, for renewable green dye."
+			]
+			dependencies: ["7DD3AF745C05592E"]
+			hide: true
+			id: "0ED53BE3836ABB29"
+			tasks: [
+				{
+					id: "7D3409FC3651733F"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "6C625BA8D0B477A2"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+			]
+			rewards: [{
+				id: "261AC43F3F6DC389"
+				type: "item"
+				item: "pixelmon:green_shard"
 			}]
 		}
 	]

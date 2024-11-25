@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:haste_charm"
+        },
+        {
+            "item": "charms:haste_charm"
+        },
+        {
+            "item": "pixelmon:lure_electric_strong"
+        },
+        {
+            "item": "minecraft:dragon_head"
+        }
+    ],
+    "result": {
+        "item": "charms:haste_2_charm",
+        "count": 1
+    }
+}

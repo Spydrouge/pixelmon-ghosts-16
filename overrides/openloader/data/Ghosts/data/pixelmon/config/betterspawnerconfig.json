@@ -7,7 +7,8 @@
           "minecraft:the_end",
           "minecraft:the_nether",
           "pixelmon:ultra_space",
-          "pixelmon:drowned_world"
+          "pixelmon:drowned_world",
+          "rftoolsdim:place"
         ]
       },
       {

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "minecraft:turtle_helmet"
+        },
+        {
+            "item": "pixelmon:lure_steel_weak"
+        }
+    ],
+    "result": {
+        "item": "charms:resistance_charm",
+        "count": 1
+    }
+}

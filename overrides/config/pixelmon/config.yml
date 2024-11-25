@@ -10,7 +10,7 @@ cloning-machine-enabled: true
 lake-trio-max-enchants: 3
 engage-player-by-poke-ball: true
 enable-wild-aggression: false
-shrine-encounter-mode: Once
+shrine-encounter-mode: OncePerDay
 spawners-op-only: true
 npc-editor-op-only: true
 quest-editor-op-only: true
@@ -127,6 +127,7 @@ both-gen-dimensions:
 - minecraft:overworld
 - minecraft:the_nether
 - minecraft:the_end
+- rftoolsdim:place
 dynamax-size: 15.0
 allow-illegal-shinies: true
 berry-juice-crafting: true

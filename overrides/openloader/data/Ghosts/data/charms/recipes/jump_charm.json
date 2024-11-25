@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "pixelmon:lure_rock_weak"
+        }
+    ],
+    "result": {
+        "item": "charms:jump_charm",
+        "count": 1
+    }
+}

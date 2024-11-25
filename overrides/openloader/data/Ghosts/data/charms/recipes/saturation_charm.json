@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "nethers_delight:stuffed_hoglin_item"
+        },
+        {
+            "item": "pixelmon:dusk_stone"
+        },
+        {
+            "item": "pixelmon:lure_normal_strong"
+        }
+    ],
+    "result": {
+        "item": "charms:saturation_charm",
+        "count": 1
+    }
+}

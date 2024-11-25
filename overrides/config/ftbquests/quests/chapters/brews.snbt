@@ -511,11 +511,18 @@
 				}
 				count: 3L
 			}]
-			rewards: [{
-				id: "3A36814D3B279839"
-				type: "item"
-				item: "pixelmon:white_shard"
-			}]
+			rewards: [
+				{
+					id: "3A36814D3B279839"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "495FCBF42EF98AE2"
+					type: "item"
+					item: "pixelmon:mystic_water"
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -1021,8 +1028,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 4.25d
+			x: 6.0d
+			y: 4.5d
 			description: [
 				"The easiest recipe for energy powder involves preserving dried oran berries. You can do this with ghast tears. The mixture can then be packaged neatly in paper."
 				""
@@ -1058,8 +1065,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 4.25d
+			x: 7.0d
+			y: 4.5d
 			description: [
 				"Heal power is a panacea: It can heal any status condition. For this reason, it needs to contain elements of each kind of status-healing berry."
 				""
@@ -1093,8 +1100,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 5.25d
+			x: 6.0d
+			y: 5.5d
 			description: [
 				"Energy roots require a more powerful preservation agent than ghast tears, but still easy for you to find: Wither roses. You need to preserve more powerful healing berries, and season a Heartbeet or Pungent Root with them."
 				""
@@ -1128,8 +1135,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 4.25d
+			x: 5.0d
+			y: 4.5d
 			description: [
 				"Revival herbs must be made with ferns, but you are not in a biome that naturally grows ferns."
 				""
@@ -1166,7 +1173,7 @@
 		}
 		{
 			icon: "minecraft:fern"
-			x: 4.0d
+			x: 6.0d
 			y: 3.0d
 			description: [
 				"Your Nana taught you how to make some very bitter medicines called \"Herbal Medicines.\" "
@@ -1185,6 +1192,1138 @@
 				id: "5CD47E15B1632D58"
 				type: "checkmark"
 			}]
+		}
+		{
+			title: "EV Berries"
+			icon: "pixelmon:berry_bag"
+			x: 6.0d
+			y: 10.0d
+			description: [
+				"When it comes to training the most powerful Pokemon, you need to consider which 'Effort Value' points (EVs) your Pokemon is gathering. Basically, fighting fast Pokemon will make your Pokemon faster. Fighting good attackers will make your Pokemon a better attacker."
+				""
+				"Each Pokemon can only gain a certain number of total EVs, so they usually want to get them in important stats."
+				""
+				"This makes it very important to have a way to get rid of unwanted EVs. That's where the \"EV-Reducing-Berries\" come in."
+				""
+				"These berries have the added benefit of making your Pokemon more friendly, which means they can help evolve baby Pokemon who need max friendship before evolving."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "4106B5F70B55A664"
+			tasks: [{
+				id: "65BBA93A098E698A"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			description: [
+				"Tamato berries reduce Health EVs."
+				""
+				"The place you see yourself most easily finding Tamato berries is from Alomola. You think this famous \"Sun fish\" can be attracted to above-ground water habitats on the Space Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "2BF86EE787EF7DC0"
+			tasks: [{
+				id: "1831440C07A7DACF"
+				type: "item"
+				item: "pixelmon:tamato_berry"
+			}]
+			rewards: [
+				{
+					id: "72C0799F126C87F8"
+					type: "item"
+					item: "pixelmon:tamato_berry"
+				}
+				{
+					id: "238F7C1D3B89C82E"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "252BAB0CBFB900E3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "1CCB8BDBC6FDEEF7"
+					type: "item"
+					item: "pixelmon:sun_stone_shard"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 9.0d
+			description: [
+				"The Kelpsy berry lowers Attack AVs and is ideal for special attackers."
+				""
+				"It is easy to find, as the Nincada family drops it. You might have even gotten one from Shedinja!"
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "3E6CD2FDC4525CDD"
+			tasks: [{
+				id: "49915D8530FCBAC1"
+				type: "item"
+				item: "pixelmon:kelpsy_berry"
+			}]
+			rewards: [
+				{
+					id: "24E62E7E2189D9BD"
+					type: "item"
+					item: "pixelmon:kelpsy_berry"
+				}
+				{
+					id: "69C568FD4725AB9D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "6861370EF1EFFAB6"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "5B115EF120D87B6B"
+					type: "random"
+					table_id: 7514776752967216189L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			description: [
+				"Qualot berries lower Defense EVs"
+				""
+				"Qualot berries are associated with Swalot, the Gulpin evolution. You think you can find these berries in the possession of Gulpin, who can be attracted to out-of-doors land habitats on the Murk Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "2E6BDAFFD74ED7DA"
+			tasks: [{
+				id: "25BC2F346C5C1815"
+				type: "item"
+				item: "pixelmon:qualot_berry"
+			}]
+			rewards: [
+				{
+					id: "7EC44594D2A7DD47"
+					type: "item"
+					item: "pixelmon:qualot_berry"
+				}
+				{
+					id: "05558084C6813BC7"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "4386BB1287C37A7B"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "49D8E474FCC513B3"
+					type: "item"
+					item: "immersiveengineering:nugget_uranium"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			description: [
+				"The Hondew Berry lowers Special Attack EVs."
+				""
+				"The most likely place for you to find a Hondew berry is in possession of the Hatenna line, which can likely be attracted to indoor habitats on the Dazzle Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "3D33E885F79A75DF"
+			tasks: [{
+				id: "7E33456C6E881C8E"
+				type: "item"
+				item: "pixelmon:hondew_berry"
+			}]
+			rewards: [
+				{
+					id: "13B9C472C5E8F10C"
+					type: "item"
+					item: "pixelmon:hondew_berry"
+				}
+				{
+					id: "4FE7C8FED53236AF"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7039AB811F7EC8E5"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "1A88DB6D2CBE97B1"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 9.0d
+			description: [
+				"The Grepa Berry lowers Special Defense Evs."
+				""
+				"It can be found in the possession of the Gothita line, which you believe can be attracted to indoor habitats on the Dazzle Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "3FC2FF88212BCE51"
+			tasks: [{
+				id: "1B6C903F2AD9B700"
+				type: "item"
+				item: "pixelmon:grepa_berry"
+			}]
+			rewards: [
+				{
+					id: "1A852AC2BE1AF05C"
+					type: "item"
+					item: "pixelmon:grepa_berry"
+				}
+				{
+					id: "5A0BEA681D84DDEC"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "54102C34AA6D99E2"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "7E5B72454886D827"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 9.0d
+			description: [
+				"The Pomeg Berry lowers Speed EVs. It is ideal for slow tanks or Pokemon who use Trick Room."
+				""
+				"You think you may be able to find Pidove because of it's tendency to survive apocalyptic events. You should try attracting it to man-made open air habitats on the Air Layer."
+			]
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "2358F538B703DE01"
+			tasks: [{
+				id: "5E5C2991D1A2425F"
+				type: "item"
+				item: "pixelmon:pomeg_berry"
+			}]
+			rewards: [
+				{
+					id: "60F9DDA18825C9BA"
+					type: "item"
+					item: "pixelmon:pomeg_berry"
+				}
+				{
+					id: "78B544B4C164FB90"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "61D1B2D85136AFFA"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "321A7DCFE7017804"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			description: [
+				"Honey is an important ingredient in \"X\" items, such as \"X Attack\" or \"X Speed.\" "
+				""
+				"The Pokemon you'd prefer to harvest honey from have been hard hit by this apocalypse, but there are a variety of potential sources, from Surskit which thrives in water on the Soil layer, to Stufful who can be found indoors on the Murk Layer. Bedrill, which can be found flying on the Murk Layer, is much harder to pin down."
+				""
+				"Honey can be melted or solidified in a cauldron, depending on which form you require."
+			]
+			hide_dependency_lines: true
+			dependencies: ["74A102B9D49CA801"]
+			hide: true
+			id: "4FE1CE3595F08B0F"
+			tasks: [{
+				id: "6613FB0478C5E3E2"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			description: ["Honey comb can be found in the possession of Stufful. Consider making a beehive, to see if you can attract any Vespiquen who may have survived the Apocalypse."]
+			dependencies: ["4FE1CE3595F08B0F"]
+			hide: true
+			id: "201932711DE1B192"
+			tasks: [{
+				id: "49F5125D0D5A618D"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.0d
+			description: ["Throw a Kelpsy berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: [
+				"4FE1CE3595F08B0F"
+				"3E6CD2FDC4525CDD"
+			]
+			hide: true
+			id: "7604EFAEDA149BD2"
+			tasks: [{
+				id: "574C20B23ADF0C51"
+				type: "item"
+				item: "pixelmon:x_attack"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			description: ["Throw a Hondew berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: [
+				"4FE1CE3595F08B0F"
+				"3D33E885F79A75DF"
+			]
+			hide: true
+			id: "648463FFAE2316BC"
+			tasks: [{
+				id: "29B7A7C7D64A59E6"
+				type: "item"
+				item: "pixelmon:x_special_attack"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 8.0d
+			description: ["Throw a Grepa berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: [
+				"4FE1CE3595F08B0F"
+				"3FC2FF88212BCE51"
+			]
+			hide: true
+			id: "3067A529D347A5E4"
+			tasks: [{
+				id: "5DB0FD231ADED581"
+				type: "item"
+				item: "pixelmon:x_special_defense"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.0d
+			description: ["Throw a Pomeg berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: [
+				"4FE1CE3595F08B0F"
+				"2358F538B703DE01"
+			]
+			hide: true
+			id: "7F4A6CFD6E643331"
+			tasks: [{
+				id: "67401FABD1DE6EAE"
+				type: "item"
+				item: "pixelmon:x_speed"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			description: ["Throw a Qualot berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: [
+				"4FE1CE3595F08B0F"
+				"2E6BDAFFD74ED7DA"
+			]
+			hide: true
+			id: "7E783C8EAE05C220"
+			tasks: [{
+				id: "7B9B3C7367DC9E9E"
+				type: "item"
+				item: "pixelmon:x_defense"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			description: ["Throw a Micle berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: ["4EC4090E935E6E37"]
+			hide: true
+			id: "35BFC91D52573023"
+			tasks: [{
+				id: "275647A09528F4B0"
+				type: "item"
+				item: "pixelmon:x_accuracy"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			description: ["Throw a Tamato berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
+			dependencies: [
+				"4FE1CE3595F08B0F"
+				"2BF86EE787EF7DC0"
+			]
+			hide: true
+			id: "4494C513F81FFC47"
+			tasks: [{
+				id: "3F060D868F30427B"
+				type: "item"
+				item: "pixelmon:guard_spec"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			description: ["The Micle berry is increases the accuracy of a single move by 20% when the user is 'in a pinch.' "]
+			hide_dependency_lines: true
+			dependencies: ["4106B5F70B55A664"]
+			hide: true
+			id: "4EC4090E935E6E37"
+			tasks: [{
+				id: "7C7E6722BA57FEF4"
+				type: "item"
+				item: "pixelmon:micle_berry"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["In addition to using the Cauldron and Brewing Stand, there are other ways to create valuable brews."]
+			dependencies: [
+				"08D429A1527D4DD4"
+				"16852DE798C53DB4"
+			]
+			id: "1CA0170F9779DD15"
+			tasks: [{
+				id: "6209B4B5EDDA72AD"
+				type: "questsadditions:time"
+				icon: "botania:brewery"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "6F33BAE495164481"
+				type: "item"
+				item: "botania:mana_glass"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["Soul Cross heals you for each enemy you slay."]
+			dependencies: ["548BDFF8DD4291F1"]
+			hide: true
+			id: "36931F6C477B04A7"
+			tasks: [{
+				id: "4698FDF1A7A882C2"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:soul_cross"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "3FDB0CFFFE76D971"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "00B690215EE89E8D"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 18
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["Marine Alure makes it easier to fish."]
+			dependencies: ["548BDFF8DD4291F1"]
+			hide: true
+			id: "1A751376CD2EEEA7"
+			tasks: [{
+				id: "016117A214DEF051"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:allure"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "09DF9BB8D8C8AFE7"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			title: "Vanity and Crimson"
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"The Botanical Brewery can create vials with familiar effects, like haste. It can also create effects you've never heard of before."
+				""
+				"The vial of Vanity's Emptiness will prevent hostile creatures from spawning nearby, whereas the vial of Crimson Shade will cause them to spawn in large numbers."
+				""
+				"Neither will have an effect in the Void where you live, both both might be used to great effect in the Nether."
+			]
+			dependencies: ["548BDFF8DD4291F1"]
+			hide: true
+			id: "7C7078FA1E295F65"
+			tasks: [
+				{
+					id: "1112C66B1CF4C537"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:bloodthirst"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "5A7DC9D1C6050033"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:emptiness"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "3C64EDF1E8CE3636"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "66D39B107CE123D1"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "025546058BB1093F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"Managlass vials can be used to brew an assortment of potions. Some of these potions have familiar effects, such as Haste or Absorbtion. However, there are additional potion effects to check out as well."
+				""
+				"Each brew can be drank from multiple times."
+			]
+			dependencies: ["1CA0170F9779DD15"]
+			hide: true
+			id: "548BDFF8DD4291F1"
+			tasks: [{
+				id: "56536EFB919C1924"
+				type: "item"
+				item: "botania:vial"
+			}]
+			rewards: [{
+				id: "54D02A8B1B476B72"
+				type: "item"
+				item: "pixelmon:silver_hourglass"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["You can also use the brewery to create a new type of incense. Incenses are set down in one place, on an incense plate, and lit. As long as one is near the incense, one gets the benefit of their effect. Incenses last much, much longer than potions."]
+			dependencies: ["548BDFF8DD4291F1"]
+			hide: true
+			id: "7C9F5490B9B99173"
+			tasks: [
+				{
+					id: "6E2C6458B174F4CB"
+					type: "item"
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "102CC0581A67A8CF"
+					type: "item"
+					item: "botania:incense_plate"
+				}
+			]
+			rewards: [{
+				id: "4E9E840DEFF8F24A"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen2"
+					Count: 1b
+					tag: {
+						tm: 12
+					}
+				}
+			}]
+		}
+		{
+			title: "Vanity and Crimson Incense"
+			x: 1.0d
+			y: -3.5d
+			description: ["The incense versions of these brews are especially valuable because they can help protect a work area or invigorate a combat arena."]
+			dependencies: [
+				"7C7078FA1E295F65"
+				"7C9F5490B9B99173"
+			]
+			hide: true
+			id: "2002B1BDBFF72655"
+			tasks: [
+				{
+					id: "76E15E6E97918B0A"
+					type: "item"
+					title: "Incense Stick of Vanity's Emptiness"
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: {
+							brewKey: "botania:emptiness"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "7018F1267E4681CC"
+					type: "item"
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: {
+							brewKey: "botania:bloodthirst"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [{
+				id: "5998A0B80A75E4E1"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 43
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["Since one tends to stay in place while fishing, this brew is arguably more valuable as an incense."]
+			dependencies: [
+				"1A751376CD2EEEA7"
+				"7C9F5490B9B99173"
+			]
+			hide: true
+			id: "6B25EB3E841EDD29"
+			tasks: [{
+				id: "58E14E61BE30AF5A"
+				type: "item"
+				title: "Incense Stick of Marine Alure"
+				item: {
+					id: "botania:incense_stick"
+					Count: 1b
+					tag: {
+						brewKey: "botania:allure"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "18A4F5A1205FD65F"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen8"
+					Count: 1b
+					tag: {
+						tm: 36
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"The Tainted Blood Pendant is perhaps one of the most important parts of Botanical Brewery. When put in a Botanical Brewery and infused with a Brew, the Tainted Blood pendant becomes capable of giving the wearer the brewed effect indefinitely- for a price of mana, of course."
+				""
+				"Because it can only provide one benefit at a time, and requires mana, it is good to consider which Brew you want on it or whether you want to carry around different pendents for different activities."
+				""
+				"Effects like fall protection and fire resistence might be usable everywhere, whereas water breathing and haste are useful to certain endeavors."
+			]
+			dependencies: ["7C9F5490B9B99173"]
+			hide: true
+			id: "0918075787ED3E52"
+			tasks: [{
+				id: "30F9229A945D3CA3"
+				type: "item"
+				item: {
+					id: "botania:blood_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2AE8F1F56C541603"
+				type: "choice"
+				table_id: 3230657681946244428L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			description: ["An excellent tool for exploring the Drowned Dimension for lengthy durations of time."]
+			dependencies: ["0918075787ED3E52"]
+			hide: true
+			id: "41D03E32DEFABC84"
+			tasks: [{
+				id: "6AE79936388736C0"
+				type: "item"
+				item: {
+					id: "botania:blood_pendant"
+					Count: 1b
+					tag: {
+						brewKey: "botania:water_breathing"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "5BAAECDB5F9862E9"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["For when you want to fall any time, any place, without the need for a water bucket- like in the Nether."]
+			dependencies: ["0918075787ED3E52"]
+			hide: true
+			id: "25CBB9A78BC40995"
+			tasks: [{
+				id: "3202FF85E0CF7000"
+				type: "item"
+				item: {
+					id: "botania:blood_pendant"
+					Count: 1b
+					tag: {
+						brewKey: "botania:feather_feet"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "12156241242F9403"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			description: ["This would be considerably more valuable if you had anything other than netherrack to mine."]
+			dependencies: ["0918075787ED3E52"]
+			hide: true
+			id: "157460AA490C04AD"
+			tasks: [{
+				id: "31130DE0C373A1B7"
+				type: "item"
+				item: {
+					id: "botania:blood_pendant"
+					Count: 1b
+					tag: {
+						brewKey: "botania:haste"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "40CF1629DF09FFE6"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			description: [
+				"Helpful when you want high mobility; can be used to easily escape mobs."
+				""
+				"(Note: You only need to craft one)"
+			]
+			dependencies: ["0918075787ED3E52"]
+			hide: true
+			min_required_tasks: 1
+			id: "2DCB7F865CAA2670"
+			tasks: [
+				{
+					id: "0CF4C68E8EB758D7"
+					type: "item"
+					item: {
+						id: "botania:blood_pendant"
+						Count: 1b
+						tag: {
+							brewKey: "botania:jump_boost"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "27DACE790F757462"
+					type: "item"
+					item: {
+						id: "botania:blood_pendant"
+						Count: 1b
+						tag: {
+							brewKey: "botania:speed"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "520FB71D94C10873"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "77A09AB6A2124E83"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			title: "Fighting Incense"
+			x: 3.0d
+			y: -3.5d
+			description: ["Usually, the only time you are going to need strength, regeneration, or resistence is when you are fighting an especially powerful boss. Those are usually also times where you have a moment to lay out a boss arena, and thus incense sticks are almost better to use than pendants or potions."]
+			dependencies: ["7C9F5490B9B99173"]
+			hide: true
+			id: "1FAB34AA49881B88"
+			tasks: [
+				{
+					id: "13440F7300354511"
+					type: "item"
+					title: "Vigor"
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: {
+							brewKey: "botania:strength"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "61BB9BE6D8D2807F"
+					type: "item"
+					title: "Revitalization"
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: {
+							brewKey: "botania:regen"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "278AF8205A24D115"
+					type: "item"
+					title: "Fortitude"
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: {
+							brewKey: "botania:resistance"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "2637A5B071335C2E"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 39
+						}
+					}
+				}
+				{
+					id: "4EFF8F67BFA4182F"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Flasks are upgraded vials. They can be drank from an increased number of times."]
+			dependencies: ["0918075787ED3E52"]
+			hide: true
+			id: "25621E5AA855F569"
+			tasks: [{
+				id: "4FDFAAD15510A871"
+				type: "item"
+				item: "botania:flask"
+			}]
+			rewards: [{
+				id: "0334B8EFE586CDFA"
+				type: "item"
+				item: "pixelmon:gold_hourglass"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: [
+				"Absolution can't be applied to a incense, so a Flask with multiple uses is one of the best ways to fight in a battle with large numbers of negative effects."
+				""
+				"Keep in mind, Absolution will also rid you of positive effects- unless, of course, those effects are being promoted continuously by an incense or pendant."
+			]
+			dependencies: ["25621E5AA855F569"]
+			hide: true
+			id: "17FB755D510CA89E"
+			tasks: [{
+				id: "187E0EB38A64A413"
+				type: "item"
+				item: {
+					id: "botania:brew_flask"
+					Count: 1b
+					tag: {
+						brewKey: "botania:clear"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "003E47C58DF7A5E6"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 11
+						}
+					}
+				}
+				{
+					id: "576BD0F4F36C6EC9"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["Overload is a difficult brew to use, because it both strengthens and weakens you in the same draught. If you have the ability to get rid of negative effects only, it may prove useful in battle."]
+			dependencies: ["548BDFF8DD4291F1"]
+			hide: true
+			id: "390020D7630193B0"
+			tasks: [{
+				id: "57774FA1F3040127"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:overload"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "7E3FBF8428F06D60"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 3
+						}
+					}
+				}
+				{
+					id: "41EB07D4D1E4B8C2"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			icon: "pixelmon:silver_powder"
+			x: 7.5d
+			y: 3.0d
+			description: ["What's this? You've found a strange powder among all your herbal medicine preparations. You didn't make this! Did you?"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3E0DB5B1ED9D0BCD"
+				"641E39C60B8A7077"
+				"1A8919833C3C65CA"
+				"791FAE19E0D7677F"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "2CEAD50A68C92535"
+			tasks: [{
+				id: "02D6A6756C04E6FB"
+				type: "questsadditions:time"
+				title: "Complete all Herbal Medicine Quests"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "4B63B963D3652D9C"
+				type: "item"
+				item: "pixelmon:silver_powder"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: [
+				"(Note: You only need to make one of the above potions, not all of them)"
+				""
+				"In addition to wither potions, poison potions are also easy to make."
+			]
+			dependencies: ["6F3BFE4C00F60E85"]
+			hide: true
+			min_required_tasks: 1
+			id: "3DEEF3AA8384F101"
+			tasks: [
+				{
+					id: "184344253D36378F"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "666F4562FCD96A72"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "11FBE73106C80005"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "542876A7C6A4E2E3"
+					type: "item"
+					item: "pixelmon:poison_barb"
+				}
+				{
+					id: "675BDEAD68E55636"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 25
+						}
+					}
+				}
+			]
 		}
 	]
 }

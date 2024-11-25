@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "charms:charm_base"
+        },
+        {
+            "item": "thermal:sugar_cane_block"
+        },
+        {
+            "item": "pixelmon:lure_fighting_weak"
+        }
+    ],
+    "result": {
+        "item": "charms:strength_charm",
+        "count": 1
+    }
+}

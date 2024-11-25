@@ -1186,7 +1186,7 @@
 		{
 			x: 2.5d
 			y: -7.0d
-			description: ["Relic Artifacts, when placed on the ground, attract Legendary Pokemon. These Legendary Pokemon cannot be caught, and are very difficult to defeat. If you defeat them, they will be transformed into an egg, and given to you to hatch."]
+			description: ["Relic Artifacts, when placed on the ground, will very rarely attract Legendary Pokemon. These Legendary Pokemon cannot be caught, and are very difficult to defeat. If you defeat them, they will be transformed into an egg, and given to you to hatch."]
 			dependencies: ["578714F5CA6ED6D0"]
 			id: "0FFB4F2F31FCCCC3"
 			tasks: [
@@ -1298,6 +1298,7 @@
 				"Keep your best cutters away from any wood houses!"
 				""
 			]
+			dependencies: ["4BBB224E88B3F750"]
 			hide: true
 			id: "139888ADA26C5124"
 			tasks: [{
@@ -1328,6 +1329,7 @@
 			]
 		}
 		{
+			title: "Cutter"
 			x: 1.0d
 			y: -12.5d
 			description: [
@@ -1364,6 +1366,7 @@
 			]
 		}
 		{
+			title: "Cut-est"
 			x: 1.0d
 			y: -13.5d
 			description: ["Uh oh. This is already bigger than the other redwood species as a 1x21 What happens if you plant a 2x2?"]
@@ -1397,6 +1400,7 @@
 			]
 		}
 		{
+			title: "Cutter-est"
 			x: 1.0d
 			y: -14.5d
 			description: ["The Baobab tree, like many other (but not all!) Biomes-You'll-Go trees, will only grow above Y = 72. It also will only grow in a 2x2 configuration."]
@@ -1536,7 +1540,7 @@
 				""
 				"Some Pokemon, like Skitty and Illumise, can learn it, but they learn it much later, at levels 34 and 47 respectively."
 				""
-				"Eevee can learn it, but only at level 1, making it important not to catch a high-level Eevee."
+				"Eevee can learn it, but only at level 1, making it important not to catch a high-level Eevee so that later moves don't overwrite earlier ones."
 			]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
@@ -1674,7 +1678,7 @@
 			description: [
 				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
 				""
-				"If you haven't already found a TM for Thief, Nikkit is the only Pokemon you can think of that might have survived this apocalypse that has access to Thief on evolving. Foxes are always more in tune with the spirit world."
+				"If you haven't already found a TM for Thief, Nikkit is the only Pokemon you can think of that might have survived this apocalypse that has access to Thief on evolving. Foxes are always more in tune with the spirit world, and have crafty ways of surviving even the worst calamities."
 			]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
@@ -1844,7 +1848,7 @@
 			title: "Switcheroo"
 			x: -0.5d
 			y: 6.5d
-			description: ["Catch a Pokemon that can naturally learn Switcheroo."]
+			description: ["Catch a Pokemon that can naturally learn Switcheroo. Dhelmise might be alive in the depths of the world, and Inkay may be somewhere at either the top or bottom of everything."]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
 			min_required_tasks: 1
@@ -2730,7 +2734,7 @@
 			x: -11.0d
 			y: -5.5d
 			description: [
-				"These appear to be the skeletons of Mareep and Wooloo. They have an unhealthy interest in rotten flesh and mutton. You aren't entirely sure what to do with them. Can they perhaps produce shearable meat from all that rotten flesh?"
+				"These appear to be the skeletons of Mareep and Wooloo. They have an unhealthy interest in rotten flesh and mutton. You aren't entirely sure what to do with them. Can they perhaps produce shearable meat from rotten flesh?"
 				""
 				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
 				""
@@ -2815,7 +2819,7 @@
 			x: -11.0d
 			y: -1.5d
 			description: [
-				"This skeletal bird Pokemon may be the most useful of the bunch. It appears to be capable of producing a small number of drops in very low quantities, like normal birds produce eggs. You might be able to feed it \"Chicken.\""
+				"This skeletal bird Pokemon may be the most useful of the bunch. It appears to be capable of producing a small number of drops in very low quantities, like normal birds produce eggs. You might be able to feed two of them \"Chicken\" to get them to breed."
 				""
 				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
 			]
@@ -2901,6 +2905,7 @@
 			}]
 		}
 		{
+			title: "Calcium"
 			x: -13.0d
 			y: -3.5d
 			subtitle: "This currently wont run because i need to duplicate these quests, one for first time completion, another for repetitive completion."
@@ -2909,7 +2914,7 @@
 				""
 				"It's not clear where the \"milk\" is coming from, and you are pretty sure something magical is afoot."
 				""
-				"It looks like no matter how many cows you have, you can only get milk once every minute or so."
+				"It looks like no matter how many cows you have, you can only get 'milk' once every minute or so."
 			]
 			dependencies: ["00F4512AFD3C5F79"]
 			hide: true
@@ -3263,6 +3268,85 @@
 					item: "thermal:blitz_spawn_egg"
 				}
 			]
+		}
+		{
+			icon: {
+				id: "pixelmon:super_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"This here is a rod you're going to want to get mending on, because it cannot be crafted."
+				""
+				"But what's the best route to mending? You can try to fish for the book, for certain, but no villager is ever going to trade it to you."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0EA8B5C7A1DAFFF3"
+				"3499FE59C4B4FC1F"
+				"199EF29352C78C68"
+				"1E0087DD805B425B"
+				"1FC5941FD186854D"
+				"0967CC03963F4642"
+				"326E4AC1B60897F6"
+				"7C554F2E38E01DD7"
+				"13E59C447B347A7C"
+				"2B9ED464CADE5D1C"
+			]
+			hide: true
+			id: "60BE5F3143D6FFDA"
+			tasks: [{
+				id: "6147DB3A7A5A99C4"
+				type: "checkmark"
+				title: "All Fishing Tasks"
+			}]
+			rewards: [{
+				id: "42FEC97EBFBB46DF"
+				type: "item"
+				item: {
+					id: "pixelmon:super_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["You don't have the ultra ball necessary to make the good rod yet, but it's possible you might discover one."]
+			dependencies: ["326E4AC1B60897F6"]
+			id: "2B9ED464CADE5D1C"
+			tasks: [{
+				id: "4D04234F1FB2A716"
+				type: "item"
+				item: {
+					id: "pixelmon:good_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "15A9AA6E8B5D2023"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
 		}
 	]
 }

@@ -946,7 +946,7 @@
 		{
 			x: 6.5d
 			y: 1.0d
-			description: ["Giant leeks are associated with Farfetch'd, and you don't think any have survived this apocalypse. You doubt you'll find one any time soon."]
+			description: ["Giant leeks are associated with Farfetch'd, and you don't think any have survived this apocalypse. You doubt you'll find one any time soon, although its good to keep on the lookout."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1E270CD382538720"
@@ -1243,6 +1243,7 @@
 					id: "26E2C9108EED3F0B"
 					type: "item"
 					item: "pixelmon:curry_burger"
+					count: 4
 				}
 				{
 					id: "74A3707D166A1FD1"
@@ -1250,13 +1251,13 @@
 					item: "pixelmon:black_shard"
 				}
 				{
-					id: "1770E45802B26620"
+					id: "3F81A818EE6091B6"
 					type: "item"
 					item: {
-						id: "pixelmon:tr_gen8"
+						id: "pixelmon:tm_gen1"
 						Count: 1b
 						tag: {
-							tm: 86
+							tm: 7
 						}
 					}
 				}
@@ -1383,7 +1384,11 @@
 		{
 			x: -1.5d
 			y: -8.5d
-			description: ["Chorus Fruit Pies apply a mild Regeneration. While delicious, they require the flower, not the fruit, to produce, and therefore are somewhat expensive."]
+			description: [
+				"Chorus Fruit Pies apply a mild Regeneration. While delicious, they require the flower, not the fruit, to produce, and therefore are somewhat expensive."
+				""
+				"While growing, chorus plants can rarely produce more than one flower."
+			]
 			dependencies: ["62294BA8C8A0CDE9"]
 			hide: true
 			id: "54FD3A058037E9A7"
@@ -1419,12 +1424,19 @@
 				type: "item"
 				item: "farmersdelight:pie_crust"
 			}]
-			rewards: [{
-				id: "3D3676DE6D850CCF"
-				type: "item"
-				item: "farmersdelight:pie_crust"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "3D3676DE6D850CCF"
+					type: "item"
+					item: "farmersdelight:pie_crust"
+					count: 4
+				}
+				{
+					id: "553350F5C530254E"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -1459,6 +1471,7 @@
 				"48E6194F41EB97A7"
 				"0C1950B46A377106"
 			]
+			hide: true
 			id: "4CA5DF3B96A59AEF"
 			tasks: [{
 				id: "0DC1D07A9EE2CD2C"
@@ -1671,7 +1684,7 @@
 		{
 			x: -6.5d
 			y: -10.5d
-			description: ["This pie probably won't be possible unless you manage to reach the Nether."]
+			description: ["This pie probably won't be possible unless you manage to reach the End"]
 			dependencies: ["5F0307DFA584B3B9"]
 			hide: true
 			id: "12A46D6855DD9615"
@@ -1691,6 +1704,17 @@
 					type: "item"
 					item: "byg:nightshade_berry_pie"
 					count: 4
+				}
+				{
+					id: "00243497E74A19D1"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
 				}
 			]
 		}
@@ -1726,12 +1750,19 @@
 				item: "farmersdelight:raw_pasta"
 				only_from_crafting: true
 			}]
-			rewards: [{
-				id: "4AC652CA7CB6649A"
-				type: "item"
-				item: "farmersdelight:raw_pasta"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "4AC652CA7CB6649A"
+					type: "item"
+					item: "farmersdelight:raw_pasta"
+					count: 4
+				}
+				{
+					id: "3622BB1990B47B2F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1882,17 +1913,42 @@
 			dependencies: ["5288DB04C07460B9"]
 			hide: true
 			id: "546E079B3D5FAB56"
-			tasks: [{
-				id: "3B82D16C901F42D3"
-				type: "item"
-				item: "minecraft:beetroot_soup"
-			}]
-			rewards: [{
-				id: "11623253DA4CBA10"
-				type: "item"
-				item: "minecraft:beetroot_soup"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "3B82D16C901F42D3"
+					type: "item"
+					item: "minecraft:beetroot_soup"
+				}
+				{
+					id: "22A73EC398C8A19A"
+					type: "item"
+					item: "minecraft:mushroom_stew"
+				}
+			]
+			rewards: [
+				{
+					id: "38735758B77615A6"
+					type: "item"
+					item: {
+						id: "ceramics:clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "inspirations:mushroom_stew"
+						}
+					}
+				}
+				{
+					id: "31C0C32E4693B7FF"
+					type: "item"
+					item: {
+						id: "ceramics:clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "inspirations:beetroot_soup"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2363,17 +2419,24 @@
 				id: "2ACE82FE1591366E"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "1CED8EE4712A0655"
-				type: "item"
-				item: {
-					id: "pixelmon:tr_gen8"
-					Count: 1b
-					tag: {
-						tm: 84
+			rewards: [
+				{
+					id: "1CED8EE4712A0655"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 84
+						}
 					}
 				}
-			}]
+				{
+					id: "02623262819CCAE1"
+					type: "item"
+					item: "pixelmon:twisted_spoon"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -2453,6 +2516,666 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 1.0d
+			y: -12.5d
+			description: ["Apparently Dragon Breath makes for a very nice carbonization effect."]
+			dependencies: ["2483D2060A802816"]
+			hide: true
+			id: "6A98F0EE9ADA4FBB"
+			tasks: [
+				{
+					id: "7D7EDF8E7CB64F22"
+					type: "item"
+					item: "ends_delight:dragon_breath_soda"
+				}
+				{
+					id: "4591A8C3AD3A67EC"
+					type: "item"
+					item: "ends_delight:dragon_breath_and_chorus_soup"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+			}
+			x: 2.5d
+			y: -14.5d
+			description: ["You have been devoted to tracking down these ingredients!"]
+			dependencies: [
+				"6A98F0EE9ADA4FBB"
+				"57E97E02495D17DC"
+				"2E40A8C8982E1A4A"
+				"0C6FB1454BCC5A0D"
+				"46F61793EB0AB8D9"
+				"5CCDD3C452D7B51A"
+			]
+			id: "2D86FCFE33184D3B"
+			tasks: [{
+				id: "39BC913F7406E6F1"
+				type: "checkmark"
+				title: "Cook all Dragon Foods"
+			}]
+			rewards: [
+				{
+					id: "160A0AAF35A69AEE"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 62
+						}
+					}
+				}
+				{
+					id: "638A4950EE4F89CE"
+					type: "item"
+					item: "pixelmon:dragon_badge"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -12.5d
+			dependencies: ["0DA1548771CFFDA2"]
+			hide: true
+			id: "57E97E02495D17DC"
+			tasks: [
+				{
+					id: "76ACA627DB4F6A86"
+					type: "item"
+					item: "ends_delight:roasted_dragon_meat"
+				}
+				{
+					id: "0009E0F9C7FA4893"
+					type: "item"
+					item: "ends_delight:roasted_dragon_meat_cuts"
+				}
+			]
+			rewards: [
+				{
+					id: "19ACBCE7EBD030D3"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "573B9283C3A95788"
+					type: "item"
+					item: "ends_delight:raw_dragon_meat"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -12.5d
+			dependencies: ["0DA1548771CFFDA2"]
+			hide: true
+			id: "2E40A8C8982E1A4A"
+			tasks: [{
+				id: "020DC92F563A1E53"
+				type: "item"
+				item: "ends_delight:smoked_dragon_leg"
+			}]
+			rewards: [
+				{
+					id: "64C701A9BF54D049"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "7A80E5A2B0C9BE81"
+					type: "item"
+					item: "ends_delight:dragon_leg"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -14.0d
+			dependencies: [
+				"433A6C6FE6FD464B"
+				"0B5FE004B7448DFF"
+			]
+			hide: true
+			id: "0C6FB1454BCC5A0D"
+			tasks: [
+				{
+					id: "28A0BDBC3DEDB129"
+					type: "item"
+					item: "ends_delight:steamed_dragon_egg_block"
+				}
+				{
+					id: "19CB7FD1BF8290C6"
+					type: "item"
+					item: "ends_delight:steamed_dragon_egg"
+				}
+			]
+			rewards: [
+				{
+					id: "5056EE02E4CDDA11"
+					type: "item"
+					item: "ends_delight:non_hatchable_dragon_egg"
+				}
+				{
+					id: "3B0C9577AE2FEE85"
+					type: "item"
+					item: "ends_delight:raw_dragon_meat"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -15.0d
+			dependencies: [
+				"0DA1548771CFFDA2"
+				"0B5FE004B7448DFF"
+			]
+			hide: true
+			id: "46F61793EB0AB8D9"
+			tasks: [
+				{
+					id: "570A2E2EF5C7CCBC"
+					type: "item"
+					item: "ends_delight:dragon_meat_stew_block"
+				}
+				{
+					id: "3FA622F005771E76"
+					type: "item"
+					item: "ends_delight:dragon_meat_stew"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -12.5d
+			dependencies: ["0DA1548771CFFDA2"]
+			hide: true
+			id: "5CCDD3C452D7B51A"
+			tasks: [{
+				id: "3D56505EDC656872"
+				type: "item"
+				item: "ends_delight:roasted_dragon_steak"
+			}]
+			rewards: [{
+				id: "4A3C676A4500BFFB"
+				type: "item"
+				item: "ends_delight:raw_dragon_meat"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -14.5d
+			description: [
+				"The half dragon egg shell used as a bowl for two of these recipes can only be made from cracking an unhatchable dragon egg."
+				""
+				"To crack an unhatchable dragon egg, you must place it on a cutting board and hit it with a nether star."
+			]
+			dependencies: ["433A6C6FE6FD464B"]
+			hide: true
+			id: "0B5FE004B7448DFF"
+			tasks: [{
+				id: "25122A2474DFB3DA"
+				type: "item"
+				item: "ends_delight:half_dragon_egg_shell"
+			}]
+			rewards: [
+				{
+					id: "423C10251DA00F77"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "535DEE7215A731ED"
+					type: "item"
+					item: "inspirations:purple_dyed_bottle"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -14.5d
+			dependencies: ["6191AC5578B8A3D2"]
+			hide: true
+			id: "58011345EAD3E299"
+			tasks: [
+				{
+					id: "024046D821763894"
+					type: "item"
+					item: "ends_delight:roasted_shulker_meat"
+				}
+				{
+					id: "26A6EA7B0F8F5DAB"
+					type: "item"
+					item: "ends_delight:roasted_shulker_meat_slice"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -14.0d
+			dependencies: ["58011345EAD3E299"]
+			hide: true
+			id: "109063DBBA7E2DBB"
+			tasks: [{
+				id: "28289CCAC8F6ACA3"
+				type: "item"
+				item: "ends_delight:stir_fried_shulker_meat"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -15.0d
+			dependencies: ["58011345EAD3E299"]
+			hide: true
+			id: "3671C771B78F4F6B"
+			tasks: [
+				{
+					id: "151D42B1B3B014BB"
+					type: "item"
+					item: "ends_delight:grilled_shulker_block"
+				}
+				{
+					id: "025EFFBC00A49B93"
+					type: "item"
+					item: "ends_delight:grilled_shulker"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			description: ["You might want to avoid this cookie until you've found a way to grow cocoa."]
+			dependencies: ["04E2C06EF4207BC0"]
+			hide: true
+			id: "2BF62359658F8B02"
+			tasks: [{
+				id: "032E140D7865021D"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+			rewards: [
+				{
+					id: "719EDF978DAAD11D"
+					type: "item"
+					item: "minecraft:cookie"
+					count: 16
+				}
+				{
+					id: "24506C7EAEF6814A"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+				{
+					id: "0E22550FFB077D08"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["04E2C06EF4207BC0"]
+			hide: true
+			id: "1CF76A7E62BE83E9"
+			tasks: [{
+				id: "7C3AF32A4F96BEC5"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
+			rewards: [
+				{
+					id: "00574097E4052198"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cookie"
+					count: 16
+				}
+				{
+					id: "5218BAFECC83A3C8"
+					type: "item"
+					item: "pixelmon:sweet_strawberry"
+				}
+				{
+					id: "7B9E1D7DBA1B1EBF"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			description: ["There may be a way to attract a few bees, but you can also try pilfering some from a Stufful on the Murk layer."]
+			dependencies: ["01107E7AAA0D2597"]
+			id: "04E2C06EF4207BC0"
+			tasks: [{
+				id: "5282F2C82B17BE44"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+			}]
+			rewards: [
+				{
+					id: "1A861F531FA738CB"
+					type: "item"
+					item: "farmersdelight:honey_cookie"
+					count: 16
+				}
+				{
+					id: "519D9130DAD2DC8F"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+				{
+					id: "0E7B8B61320AD038"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			description: [
+				"Chorus Cookies can be made from Chorus Fruits."
+				""
+				"Chorus Succulents, an entirely different plant, can be placed on endstone where they will grow slowly into a more mature form. They can then be harvested and replanted."
+			]
+			dependencies: ["04E2C06EF4207BC0"]
+			hide: true
+			id: "356649DF5904EC3F"
+			tasks: [{
+				id: "34C3947629FBDAE1"
+				type: "item"
+				item: "ends_delight:chorus_cookie"
+			}]
+			rewards: [
+				{
+					id: "2FCD708EE441467D"
+					type: "item"
+					item: "ends_delight:chorus_cookie"
+					count: 16
+				}
+				{
+					id: "4C38056384992F03"
+					type: "item"
+					item: "ends_delight:chorus_succulent"
+				}
+				{
+					id: "6585C3B01EABB3F2"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -8.5d
+			description: ["Cake will be very hard to cook without milk. But you may be able to find one in the possession of a Pokemon."]
+			dependencies: ["01107E7AAA0D2597"]
+			id: "3965B9980904DC44"
+			tasks: [{
+				id: "1D199807F4DA8000"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [
+				{
+					id: "376430CAD7719A59"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "68199E925ADE8D39"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 79
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			description: ["Cheesecake will be very hard to cook without milk."]
+			dependencies: ["01107E7AAA0D2597"]
+			id: "2A1F1F48F47008D2"
+			tasks: [{
+				id: "11EBFBA478160E4F"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake"
+			}]
+			rewards: [
+				{
+					id: "50E20D721B21D0B5"
+					type: "item"
+					item: "pixelmon:curry_cheese"
+				}
+				{
+					id: "5B92FF6018F5CD38"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "70044CE480EC2EDD"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -14.5d
+			description: ["To access most of the foods available in the nether, you must become proficient in killing Hoglins with an appropriate knife, and getting striders onto land where their precious drops wont fall in the lava."]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			min_required_tasks: 1
+			id: "6970CEE9BC92F514"
+			tasks: [
+				{
+					id: "7018700CEB43507C"
+					type: "item"
+					item: "nethers_delight:hoglin_loin"
+				}
+				{
+					id: "5A9A61E4BA4549B9"
+					type: "item"
+					item: "nethers_delight:strider_slice"
+				}
+				{
+					id: "5A0E8716914726B1"
+					type: "item"
+					item: "farmersdelight:ham"
+				}
+				{
+					id: "2AAD19893A26FFA4"
+					type: "item"
+					item: "nethers_delight:ground_strider"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -13.5d
+			description: ["Stuffed Hoglin is an exceptionally complicated food to make, but once you've gotten the hang of taking out hoglins with a knife, the rest is just a simple matter of gathering materials."]
+			dependencies: ["6970CEE9BC92F514"]
+			hide: true
+			id: "4D333B6D809C967F"
+			tasks: [{
+				id: "2C3DDB3949F1EF21"
+				type: "item"
+				item: "nethers_delight:stuffed_hoglin_item"
+			}]
+			rewards: [
+				{
+					id: "505AD251818B6974"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 37
+						}
+					}
+				}
+				{
+					id: "1394C82921F1EAEE"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "6DC3D0FC47BE65D9"
+					type: "item"
+					item: "bones:skeleton_pig_spawn_egg"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -14.0d
+			dependencies: ["6970CEE9BC92F514"]
+			hide: true
+			id: "2D7FF171D05CAE20"
+			tasks: [{
+				id: "41ADCE740FE5DBA7"
+				type: "item"
+				item: "nethers_delight:nether_skewer"
+			}]
+			rewards: [
+				{
+					id: "68A9EBDFA92F6D40"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "1733E1CC5D7687A5"
+					type: "item"
+					item: "nethers_delight:nether_skewer"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -15.0d
+			dependencies: ["6970CEE9BC92F514"]
+			hide: true
+			id: "1FDE644B8514A53B"
+			tasks: [{
+				id: "465489A4F661B18D"
+				type: "item"
+				item: "nethers_delight:warped_moldy_meat"
+			}]
+			rewards: [
+				{
+					id: "3405D917FD0EEE5A"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "60F2CAD1029352B3"
+					type: "item"
+					item: "nethers_delight:warped_moldy_meat"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -14.0d
+			dependencies: ["6970CEE9BC92F514"]
+			hide: true
+			id: "47764B7DF201D7BB"
+			tasks: [{
+				id: "09D7AFBEFBC1CAEF"
+				type: "item"
+				item: "nethers_delight:magma_gelatin"
+			}]
+			rewards: [
+				{
+					id: "35137C272C04C81E"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 43
+						}
+					}
+				}
+				{
+					id: "528BE57B7D297D12"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -15.0d
+			dependencies: ["6970CEE9BC92F514"]
+			hide: true
+			id: "46FCD408D954BDD5"
+			tasks: [{
+				id: "067CC1F003F6D140"
+				type: "item"
+				item: "nethers_delight:grilled_strider"
+			}]
+			rewards: [
+				{
+					id: "1F4EC97747133538"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "527B72509B8E72A4"
+					type: "item"
+					item: "nethers_delight:grilled_strider"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -15.5d
+			dependencies: ["6970CEE9BC92F514"]
+			hide: true
+			id: "3C964C4E964A1BAD"
+			tasks: [{
+				id: "69F5D42622974A2D"
+				type: "item"
+				item: "nethers_delight:strider_moss_stew"
+			}]
+			rewards: [
+				{
+					id: "5B2B7D1B4A8ABE1C"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "0ADD596FC41A844F"
+					type: "item"
+					item: "nethers_delight:strider_moss_stew"
+					count: 4
+				}
+			]
 		}
 	]
 }

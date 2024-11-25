@@ -24,7 +24,7 @@
 			"nextStage": -1,
 			"icon": "FOUR_POINTED_STAR",
 			"objectives": [
-				"ITEM_CRAFT pixelmon:poke_ball 1 - - {\"PokeBallID\":\"poke_ball\"}"
+				"ITEM_CRAFT pixelmon:poke_ball 1 - - {\"PokeBallID\":\"love_ball\"}"
 			],
 			"actions": [
 				"0 LOCALIZED_MESSAGE quest.craft_poke_ball.message",

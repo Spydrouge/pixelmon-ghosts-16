@@ -453,6 +453,13 @@
 					type: "item"
 					item: "pixelmon:curry_seasoned"
 				}
+				{
+					id: "6E5A591F526C24F1"
+					type: "item"
+					title: "How did Drifloon even carry these?"
+					item: "minecraft:bricks"
+					count: 16
+				}
 			]
 		}
 		{
@@ -1318,7 +1325,7 @@
 				"7E197FCD844FF182"
 				"5F2C866ED23D2A45"
 			]
-			hide_text_until_complete: true
+			hide: true
 			id: "118E457BED64D29F"
 			tasks: [{
 				id: "43EBBCFC4AEB2320"
@@ -1405,9 +1412,18 @@
 			title: "Lava"
 			x: 0.0d
 			y: -5.0d
-			description: ["Prior to any plans of starting a proper smeltery, you need to secure your first bucket of lava."]
-			dependencies: ["11F689A8DC3A4BE2"]
+			description: [
+				"Prior to any plans of starting a proper smeltery, you need to secure your first bucket of lava."
+				""
+				"Ideally, you will find some way to get to the Nether to obtain this."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5AB1C0099C0A02E2"
+				"5742DF95648CAE94"
+			]
 			hide: true
+			dependency_requirement: "one_completed"
 			id: "376885B025D67158"
 			tasks: [{
 				id: "44A7AF40068F2776"
@@ -2103,6 +2119,7 @@
 			tasks: [{
 				id: "1FEA9ED783871C8D"
 				type: "item"
+				title: "Nihilite Tool Part"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -2819,13 +2836,13 @@
 					}
 				}
 				{
-					id: "19EF0B8C35607116"
+					id: "30B70CCBC7CEBFB1"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen8"
+						id: "pixelmon:tr_gen8"
 						Count: 1b
 						tag: {
-							tm: 88
+							tm: 22
 						}
 					}
 				}
@@ -3693,7 +3710,7 @@
 			x: -2.0d
 			y: -3.0d
 			description: [
-				"If you've read this book correctly it should be possible to build a larger kiln, specifically for the purpose of melting coal, venting impurities, and producing coke. What is coke good for? Well, right now, not much, except for use it as a longer-lasting coal."
+				"If you've read this book correctly it should be possible to build a large oven, specifically for the purpose of melting coal, venting impurities, and producing coke. What is coke good for? Well, right now, not much, except for use it as a longer-lasting coal."
 				""
 				"On the other hand, you've been handed a guide book that can help you reclaim lost technology. So you should probably experiment with building whatever you can."
 				""
@@ -3713,7 +3730,7 @@
 			tasks: [{
 				id: "1B65640C8FF32ADB"
 				type: "item"
-				item: "immersiveengineering:alloybrick"
+				item: "immersiveengineering:cokebrick"
 				count: 27L
 			}]
 			rewards: [
@@ -3736,6 +3753,11 @@
 					id: "48E9091EF52A9EB8"
 					type: "choice"
 					table_id: 7147864322735391185L
+				}
+				{
+					id: "4821FB87986AC888"
+					type: "item"
+					item: "pixelmon:charcoal"
 				}
 			]
 		}
@@ -3821,10 +3843,7 @@
 				""
 				"You should likely use bronze instead of iron for the hub. In fact, it is clear you are going to have to use a lot of replacement materials if you hope to have enough metal to build any of the structures in this book."
 			]
-			dependencies: [
-				"1E02A2B1EC220016"
-				"279AB6F00EF33DFC"
-			]
+			dependencies: ["1E02A2B1EC220016"]
 			hide: true
 			id: "034061A64DFB739A"
 			tasks: [
@@ -3888,7 +3907,7 @@
 				""
 				"Tynamo, as the name might suggest, is itself a miniature Dynamo, but it is too small to use for this purpose. You are uncertain about its evolved forms, Elektrik and Elektross. Tynamo does have a chance to drop copper coils, which can be crafted into Kinetic Dynamos if you have enough Aluminum."
 			]
-			dependencies: ["3ADDDE4CCB80BA89"]
+			dependencies: ["034061A64DFB739A"]
 			hide: true
 			dependency_requirement: "one_started"
 			id: "279AB6F00EF33DFC"
@@ -4108,7 +4127,7 @@
 		}
 		{
 			x: -9.0d
-			y: -3.0d
+			y: -2.0d
 			description: [
 				"Plant oil may not seem to have any value if you can't build more complicated structures like a refinery, but think again."
 				""
@@ -4213,6 +4232,11 @@
 					id: "4B0C1F7BE70581ED"
 					type: "item"
 					item: "pixelmon:red_shard"
+				}
+				{
+					id: "099682B3C6980D81"
+					type: "item"
+					item: "pixelmon:magnet"
 				}
 			]
 		}
@@ -4335,13 +4359,13 @@
 				item: "immersiveengineering:current_transformer"
 			}]
 			rewards: [{
-				id: "6124F7F7169C1F96"
+				id: "57187D27A68E608A"
 				type: "item"
 				item: {
 					id: "pixelmon:tm_gen9"
 					Count: 1b
 					tag: {
-						tm: 81
+						tm: 47
 					}
 				}
 			}]
@@ -4422,13 +4446,13 @@
 				item: "immersiveengineering:transformer"
 			}]
 			rewards: [{
-				id: "43DF36DCFA696C3A"
+				id: "7426487FF4EDCD99"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tr_gen8"
 					Count: 1b
 					tag: {
-						tm: 47
+						tm: 86
 					}
 				}
 			}]
@@ -4445,13 +4469,13 @@
 				item: "immersiveengineering:transformer_hv"
 			}]
 			rewards: [{
-				id: "420B48AB5BEEE138"
+				id: "025B14737CAA24FD"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen2"
 					Count: 1b
 					tag: {
-						tm: 95
+						tm: 7
 					}
 				}
 			}]
@@ -4502,7 +4526,7 @@
 		}
 		{
 			x: -3.0d
-			y: -2.0d
+			y: -1.0d
 			description: [
 				"Even with the simplest of ammunition, the revolver can kill most enemies in two hits. Loading bullets is a manual process during which the player must shift right click and expel old cartridges. Various customizations can be added at the Engineer's workbench."
 				""
@@ -4637,6 +4661,11 @@
 					type: "item"
 					item: "pixelmon:blue_shard"
 				}
+				{
+					id: "1A1F826E4AEA48DD"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
 			]
 		}
 		{
@@ -4669,10 +4698,13 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: 3.0d
 			y: -7.5d
 			description: ["The Fossil Display is the only part that requires metals other than Aluminum. Copper or Electrum must be used. Redstone engineering blocks also require aluminum wire."]
-			dependencies: ["1D57FFBE88DF9D91"]
+			dependencies: [
+				"1D57FFBE88DF9D91"
+				"0DF5601FBD613477"
+			]
 			hide: true
 			id: "613061C14B30055E"
 			tasks: [{
@@ -4704,6 +4736,7 @@
 			x: 4.0d
 			y: -7.5d
 			description: ["The top and base of the fossil machine are not complicated, merely expensive. Each requires multiple aluminum ingots."]
+			dependencies: ["0DF5601FBD613477"]
 			hide: true
 			id: "5DFFF2A24948F7FB"
 			tasks: [
@@ -4739,9 +4772,10 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: -7.5d
 			description: ["The tank is the easiest peice to make, and the only one that is metal free."]
+			dependencies: ["0DF5601FBD613477"]
 			hide: true
 			id: "3996A51F1D631F1D"
 			tasks: [{
@@ -4780,12 +4814,7 @@
 				""
 				"The primary ingredient you need to make a Fossil machine is aluminum. You have to obtain a tremendous amount of aluminum."
 			]
-			dependencies: [
-				"790DDF4274AFEA6D"
-				"613061C14B30055E"
-				"5DFFF2A24948F7FB"
-				"3996A51F1D631F1D"
-			]
+			dependencies: ["790DDF4274AFEA6D"]
 			hide: true
 			id: "0DF5601FBD613477"
 			tasks: [{
@@ -4795,7 +4824,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.0d
 			y: -5.5d
 			description: [
 				"Now that you can pour iron ingots, you can decide what you want to do with them. "
@@ -4830,6 +4859,16 @@
 					id: "06FD9DDA433FF687"
 					type: "item"
 					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "06362E9243012BF1"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+				{
+					id: "0C79E6831F0765B5"
+					type: "xp"
+					xp: 200
 				}
 			]
 		}
@@ -4973,6 +5012,421 @@
 				type: "checkmark"
 				title: "Cloning Machine?"
 			}]
+		}
+		{
+			title: "Crusher"
+			x: -10.0d
+			y: -3.0d
+			description: [
+				"Because of its massive hopper requirement, there is almost no way of getting around the massive investment of iron that must be made to produce the crusher."
+				""
+				"That said, the Crusher would be an incredible achievement for the smithy, enabling ore duplication and biproducts for very many new materials."
+				""
+				"It is likely this structure will only be made possible once iron is more freely available, perhaps after the construction of a Lightning Rod."
+			]
+			dependencies: ["7DBA96C004556EF3"]
+			hide: true
+			min_required_tasks: 1
+			id: "30901F0FC60D31FE"
+			tasks: [
+				{
+					id: "4CF9274ADA98C031"
+					type: "observation"
+					icon: "immersiveengineering:crusher"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:crusher"
+				}
+				{
+					id: "50FFB1CFCBD8B313"
+					type: "item"
+					item: "immersiveengineering:crusher"
+				}
+			]
+			rewards: [
+				{
+					id: "00F870C6ADC15CD8"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 99
+						}
+					}
+				}
+				{
+					id: "368BFF7120605C4E"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 32
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			description: [
+				"By using substitutes, you may be able to create the Arc Furnace."
+				""
+				"The Arc Furnace doubles ores when processed, can mix alloys, and produces a byproduct called 'slag' which can be used in the creation of concrete."
+			]
+			dependencies: ["4534E57B2ECCAE5F"]
+			min_required_tasks: 1
+			id: "7DBA96C004556EF3"
+			tasks: [
+				{
+					id: "16AC922FF3EA2165"
+					type: "item"
+					item: "immersiveengineering:arc_furnace"
+				}
+				{
+					id: "57E6E94DF42E0F88"
+					type: "observation"
+					icon: "immersiveengineering:arc_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:arc_furnace"
+				}
+			]
+			rewards: [{
+				id: "420C66CA2313FC55"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 62
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			description: ["Slag can be used to create concrete. There are two varieties of concrete available: The normal, colored concrete you are used to, and a recipe for a plain concrete specific to engineering."]
+			dependencies: ["7DBA96C004556EF3"]
+			hide: true
+			id: "5AB73C72AF53859B"
+			tasks: [
+				{
+					id: "281550A919269A03"
+					type: "item"
+					item: "immersiveengineering:slag"
+				}
+				{
+					id: "4E01289C9F2F1E2D"
+					type: "item"
+					item: "immersiveengineering:concrete"
+				}
+			]
+			rewards: [
+				{
+					id: "692B458E0976853A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 67
+						}
+					}
+				}
+				{
+					id: "26BE74AEFBEA0F0D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0A5E5CE3960D3D86"
+					type: "item"
+					item: {
+						id: "ceramics:clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "immersiveengineering:concrete"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			description: ["Items made of scortched stone parts deal additional damage to mobs that are already on fire."]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"3E56672B40BDA1AD"
+				"03826F688724B878"
+			]
+			hide: true
+			min_required_tasks: 1
+			id: "1A22AFFCB073E235"
+			tasks: [
+				{
+					id: "0BFBBA20DC87C2BF"
+					type: "item"
+					item: {
+						id: "tconstruct:hammer_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "761B313071C7B5EE"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "25E5C9AC3729F187"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "4E36CBFBF2C1C9FC"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "713793699044B398"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "285CADBD253DA163"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "78345211ED304318"
+					type: "item"
+					item: {
+						id: "tconstruct:large_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "61502A00B77C4F87"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+				{
+					id: "391FD4E519B1DFBF"
+					type: "item"
+					item: {
+						id: "tconstruct:tough_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:scorched_stone"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2EAC02B08C4479AF"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 28
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["The Alloy Kiln is a structure dedicated to producing alloys. It can be automated more simply than any Melter or Smeltery, and with less of a mess."]
+			dependencies: ["3ADDDE4CCB80BA89"]
+			id: "65FEEBEEF7609759"
+			tasks: [{
+				id: "3B106B9EDFD19220"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "573BB80D36E0FC63"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 57
+						}
+					}
+				}
+				{
+					id: "26AC60E9710CAEA5"
+					type: "item"
+					item: "pixelmon:black_belt"
+				}
+			]
+		}
+		{
+			title: "An Vanilla Anvil"
+			x: -3.0d
+			y: -6.5d
+			description: [
+				"The anvil is an expensive tool to add to your arsenal. It costs many more blocks of iron than you can easily produce."
+				""
+				"However, Honedge will be attracted to them, potentially offsetting their high cost by allowing you to recover a small amount of iron."
+				""
+				"The best area to set up the anvil will be below Y = 64, where there are many broken weapons and other debris from ancient time periods. The Anvil may also be of use in the nether, in areas where Honedge already spawns."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"11F689A8DC3A4BE2"
+				"15FA67EAB413D40A"
+			]
+			hide: true
+			id: "0D41D6F512A4F4C4"
+			tasks: [{
+				id: "452C3E29B16D8168"
+				type: "item"
+				title: "Any #minecraft:anvil"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17FB8DC173F42DB6"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "1CAF0B7BF8D194E8"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			description: [
+				"In the past, Pixelmon used to be bred at Ranches, where they could wander about freely with one another"
+				""
+				"However in recent years, all breeding has been done in Day Care centers. It's a little less natural and immersive, but, well, what's done is done."
+				""
+				"To make a daycare requires some fencing, bedding material, and also a mystical tool for comparing zodiac signs and constellations, which can only be obtained if you investigate Astral Sorcery."
+			]
+			dependencies: ["790DDF4274AFEA6D"]
+			hide: true
+			id: "0125E504CBDA8DFC"
+			tasks: [{
+				id: "077CF83E6D3E4A87"
+				type: "item"
+				item: "pixelmon:white_day_care"
+			}]
+			rewards: [
+				{
+					id: "5ABAD0C5AAD836E0"
+					type: "item"
+					item: "pixelmon:copper_hourglass"
+				}
+				{
+					id: "611F55785D7947A3"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			description: [
+				"To breed Pokemon, you must first have them in your party. They must be compatable, and you must either have one of each gender or one and a ditto."
+				""
+				"Open the Day Care interface, and place each pokemon in one of the open slots. If they are compatable, you will see additional buttons appear. Confirm that you want to breed them."
+				""
+				"On the right, you will see a number of ingredients which the Pokemon will require to breed. For example, two Drifloon will require ten ghast tears, some soul torches, and soul sand."
+				""
+				"Drag ingredients to this box, or hit a confirm button to submit them automatically. If you have one of Isi's Hourglasses, you can also drag them to the box to make use of their effects."
+				""
+				"If you aren't sure what Pokemon are compatible, use a resource like Bulbapedia. Pokemon are compatable if they are both in the same egg group, and that egg group isn't named 'Undiscovered.'"
+			]
+			dependencies: ["0125E504CBDA8DFC"]
+			hide: true
+			id: "749AD0CFAE56987F"
+			tasks: [{
+				id: "180E08A901C4E3D0"
+				type: "pixelmon:breed_pokemon"
+				parent1: ""
+				parent2: ""
+				count: 1
+			}]
+			rewards: [
+				{
+					id: "0E4883AA00FBEAB4"
+					type: "item"
+					item: "pixelmon:lucky_egg"
+				}
+				{
+					id: "382B5C461DC29F55"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "153BA584B8C9BCAD"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 	]
 }
