@@ -1,0 +1,10 @@
+{
+	id: "54046ED7E3D039B3"
+	order_index: 47
+	title: "Bike"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:mach_bike" }
+		{ item: "pixelmon:acro_bike" }
+	]
+}

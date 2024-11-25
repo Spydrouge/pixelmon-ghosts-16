@@ -176,6 +176,7 @@
 		{
 			x: -1.0d
 			y: 6.0d
+			shape: "circle"
 			description: [
 				"Will not be damaged by hot liquids"
 				""
@@ -186,6 +187,7 @@
 				"00392C564BCFD851"
 			]
 			hide: true
+			optional: true
 			id: "24BAE17756224AA7"
 			tasks: [
 				{
@@ -213,14 +215,17 @@
 			]
 		}
 		{
+			title: "Lava Storage"
 			x: 1.0d
 			y: 6.0d
+			shape: "circle"
 			description: ["Will not be damaged by hot liquids. Must be fired prior to use."]
 			dependencies: [
 				"3AFB997D5FE6B69D"
 				"50DDA487FBD2C527"
 			]
 			hide: true
+			optional: true
 			id: "5BF93EF7BC21FB7B"
 			tasks: [{
 				id: "59362A906CBA64FA"
@@ -512,13 +517,15 @@
 		{
 			x: 2.0d
 			y: -3.5d
+			shape: "circle"
 			subtitle: "Is there an easier way?"
 			description: [
 				"The traditional way of making seared bricks is to combine clay, sand, and gravel into grout, and then cook it in a kiln. "
 				""
-				"You wonder if there might be a cheaper solution."
+				"You wonder if there might be a faster solution."
 			]
 			hide: true
+			optional: true
 			secret: true
 			id: "385D6D83BC1D388F"
 			tasks: [{
@@ -622,7 +629,6 @@
 				"78CE77D6BCD1ABD3"
 				"5BFB2D642FAFCDE2"
 			]
-			hide: true
 			id: "15FA67EAB413D40A"
 			tasks: [{
 				id: "2EEC8CBA3DDBBEB3"
@@ -954,7 +960,6 @@
 				"The easiest alloy to test this on is bronze."
 			]
 			dependencies: ["7608BEF97C66E0B9"]
-			hide: true
 			id: "47107D60FD080A18"
 			tasks: [{
 				id: "6A38A2904D705F16"
@@ -999,7 +1004,6 @@
 				"3E56672B40BDA1AD"
 				"03826F688724B878"
 			]
-			hide: true
 			id: "7608BEF97C66E0B9"
 			tasks: [
 				{
@@ -1510,7 +1514,6 @@
 				"Tinkers Anvils are used to build large tools, and to add more complex modifiers to tools. This includes Looting and Luck enchantment."
 			]
 			dependencies: ["47107D60FD080A18"]
-			hide: true
 			id: "07BA46FEA87A826E"
 			tasks: [{
 				id: "574EDF18DCA43047"
@@ -1828,6 +1831,7 @@
 		{
 			x: -0.5d
 			y: -7.0d
+			shape: "circle"
 			description: [
 				"Should you built a Smeltery or Foundary? Smelteries increase the amount of molten metal extracted from ores. They are more efficient at this than both the melter and the mighty foundary. They can also alloy their contents, and good for mixing metals."
 				""
@@ -1836,7 +1840,7 @@
 				"The smallest Smelter you can make has 1 block of empty space surrounded on each side and the bottom by some sort of smeltery block. The igredients above are all that's needed for such a 1x1 smeltery."
 			]
 			dependencies: ["06E2EFA74B6A66CC"]
-			hide: true
+			optional: true
 			id: "7F7D17174B5E4E46"
 			tasks: [
 				{
@@ -1890,6 +1894,7 @@
 		{
 			x: 0.5d
 			y: -7.0d
+			shape: "circle"
 			description: [
 				"Should you build a Foundary or a Smeltery? Foundaries have higher requirements, including that the corners be filled in. They also extract less metal per block than a Smeltery. However, Foundaries produce byproducts."
 				""
@@ -1899,6 +1904,7 @@
 			]
 			dependencies: ["06E2EFA74B6A66CC"]
 			hide: true
+			optional: true
 			id: "70CDCF7C7DAA6292"
 			tasks: [
 				{
@@ -2279,7 +2285,6 @@
 				"5FA9DB52F1253BB6"
 				"70EEB9AC0E0A46D3"
 			]
-			hide: true
 			dependency_requirement: "one_completed"
 			id: "7AE7AF0C4E2C3324"
 			tasks: [{
@@ -2618,7 +2623,6 @@
 				"It's stats are higher than Manyullyn's, but it's ability, \"Angelic\" provides a short health boost on killing enemies, providing you with the equivalent of absorbtion hearts."
 			]
 			dependencies: ["7AE7AF0C4E2C3324"]
-			hide: true
 			id: "489D8D31E0B99F5D"
 			tasks: [{
 				id: "472B221547D4832B"
@@ -4689,7 +4693,6 @@
 				"5DFFF2A24948F7FB"
 				"613061C14B30055E"
 			]
-			hide: true
 			id: "21048F00149E326C"
 			tasks: [{
 				id: "0F679B2C42C2CA37"
@@ -4717,7 +4720,6 @@
 				"1D57FFBE88DF9D91"
 				"0DF5601FBD613477"
 			]
-			hide: true
 			id: "613061C14B30055E"
 			tasks: [{
 				id: "16CB6C09972B58B0"
@@ -4749,7 +4751,6 @@
 			y: -7.5d
 			description: ["The top and base of the fossil machine are not complicated, merely expensive. Each requires multiple aluminum ingots."]
 			dependencies: ["0DF5601FBD613477"]
-			hide: true
 			id: "5DFFF2A24948F7FB"
 			tasks: [
 				{
@@ -4788,7 +4789,6 @@
 			y: -7.5d
 			description: ["The tank is the easiest peice to make, and the only one that is metal free."]
 			dependencies: ["0DF5601FBD613477"]
-			hide: true
 			id: "3996A51F1D631F1D"
 			tasks: [{
 				id: "7607FD9260F2BCC0"
@@ -4827,7 +4827,6 @@
 				"The primary ingredient you need to make a Fossil machine is aluminum. You have to obtain a tremendous amount of aluminum."
 			]
 			dependencies: ["790DDF4274AFEA6D"]
-			hide: true
 			id: "0DF5601FBD613477"
 			tasks: [{
 				id: "5E777830595FEEDC"
@@ -4887,7 +4886,11 @@
 		{
 			x: 4.0d
 			y: -11.5d
-			description: ["You are almost certain this device was designed to clone Mew a pokemon you do not have."]
+			description: [
+				"You are almost certain this device was designed to clone Mew, a pokemon you do not have."
+				""
+				"Well, maybe you should put it in the world and see if Mew ever shows up."
+			]
 			dependencies: [
 				"3F85D3D4D1667296"
 				"2202AFD211563B98"
@@ -5415,7 +5418,6 @@
 				"If you aren't sure what Pokemon are compatible, use a resource like Bulbapedia. Pokemon are compatable if they are both in the same egg group, and that egg group isn't named 'Undiscovered.'"
 			]
 			dependencies: ["0125E504CBDA8DFC"]
-			hide: true
 			id: "749AD0CFAE56987F"
 			tasks: [{
 				id: "180E08A901C4E3D0"

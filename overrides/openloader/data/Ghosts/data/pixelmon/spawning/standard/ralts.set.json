@@ -5,9 +5,7 @@
       "spec": "species:Ralts palette:strike",
       "stringLocationTypes": [
         "Land",
-        "Indoors",
-        "Manmade",
-        "Underground"
+        "Manmade"
       ],
       "minLevel": 2,
       "maxLevel": 6,

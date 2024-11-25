@@ -1,0 +1,15 @@
+{
+	id: "480551CA02D81B63"
+	order_index: 46
+	title: "Gothic Rug"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:magenta_rug" }
+		{ item: "pixelmon:purple_rug" }
+		{ item: "pixelmon:gray_rug" }
+		{ item: "pixelmon:light_gray_rug" }
+		{ item: "pixelmon:red_rug" }
+		{ item: "pixelmon:pink_rug" }
+		{ item: "pixelmon:white_rug" }
+	]
+}

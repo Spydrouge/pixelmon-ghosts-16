@@ -217,7 +217,6 @@
 			y: -0.5d
 			description: ["Azelf is the \"Being of Willpower.\" They have hidden in the remaining water of the world."]
 			dependencies: ["671023BA826B94A5"]
-			hide: true
 			id: "738A1F5123BD71E3"
 			tasks: [{
 				id: "2F5A7B6F3013BC2E"
@@ -246,7 +245,6 @@
 			y: -0.5d
 			description: ["Uxie is the Being of Knowledge. It has fled to the moon, away from all that once was."]
 			dependencies: ["7D0EF0D289D56CC6"]
-			hide: true
 			id: "6B57C8BB49CEF332"
 			tasks: [{
 				id: "1585CC8354D22CA0"
@@ -275,7 +273,6 @@
 			y: -0.5d
 			description: ["Mesprit is the \"Being of Emotion.\" They have hidden in the remaining lava of the world."]
 			dependencies: ["723F108EFF27DD19"]
-			hide: true
 			id: "53B1E58E21889741"
 			tasks: [{
 				id: "6D85BD0C8FBAFF0C"
@@ -304,7 +301,6 @@
 			y: -2.5d
 			description: ["The Red Chain is made from the three rubies. You must use one on a Timespace Altar prior to attempting to summon anything with that Altar."]
 			dependencies: ["471C7EBA31BDA7B9"]
-			hide: true
 			id: "7FD98E8A79BA348B"
 			tasks: [{
 				id: "78C89DCAA9BFAFFB"
@@ -575,7 +571,11 @@
 			title: "Epiphany"
 			x: 9.5d
 			y: -17.0d
-			description: ["You have realized there is only one voice left."]
+			description: [
+				"You have realized there is only one voice left. One Pokemon who could have been responsible for aiding you, from the very beginning:"
+				""
+				"The God of Emptiness."
+			]
 			dependencies: [
 				"61134D1745752A3E"
 				"00EA4BFDD10D9E98"
@@ -716,6 +716,22 @@
 					type: "item"
 					item: "pixelmon:adamant_orb"
 				}
+				{
+					id: "32ECECBE32F9053F"
+					type: "item"
+					item: {
+						id: "pixelmon:ghost_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for your complete\",\"italic\":false}]"
+									"[{\"text\":\"Pokemon Journey\",\"italic\":false}]"
+								]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -748,6 +764,22 @@
 					id: "08E982BE710E6538"
 					type: "item"
 					item: "pixelmon:adamant_orb"
+				}
+				{
+					id: "539DE7846EE5BB4B"
+					type: "item"
+					item: {
+						id: "pixelmon:ghost_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for your complete\",\"italic\":false}]"
+									"[{\"text\":\"Pokemon Journey\",\"italic\":false}]"
+								]
+							}
+						}
+					}
 				}
 			]
 		}

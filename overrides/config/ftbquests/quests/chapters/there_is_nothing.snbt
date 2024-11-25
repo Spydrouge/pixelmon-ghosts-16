@@ -199,7 +199,7 @@
 			description: [
 				"You have relatives from the &bSkyblocks&r and you know that &awood&r is a vital first ingredient. You think you can forage up a woody plant, whether it be a &aberry tree&r, &aappricorn&r, or &asapling&r. &cAny of them can be planted for wood, but planting Apricons might make the best starting tree.&r"
 				""
-				"While you wait, you will need to keep Drifloon healthy so it can continue to Forage. As tempting as it is to have your first Pokemon Battle, the only thing worse than the &aForage&r cooldown would be no Forage at all!"
+				"While you wait, you will need to keep Drifloon healthy so it can continue to Forage. As tempting as it is to have your first Pokemon Battle, the only thing worse than the &along Forage cooldown&r would be no Forage at all!"
 				""
 				"&5Drifloon is only level 2. Like any Youngster's Rattata, it is very fragile. Avoid combat until you have collected more healing items."
 			]
@@ -207,8 +207,9 @@
 			hide: true
 			id: "27A55C15A80B857A"
 			tasks: [{
-				id: "73644133BD150598"
+				id: "1D27A51D1B21D75A"
 				type: "item"
+				title: "Some Way to Plant a Tree"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -223,7 +224,11 @@
 								Count: 1b
 							}
 							{
-								id: "pixelmon:oran_berry"
+								id: "pixelmon:black_apricorn"
+								Count: 1b
+							}
+							{
+								id: "biomesoplenty:umbran_sapling"
 								Count: 1b
 							}
 							{
@@ -231,7 +236,15 @@
 								Count: 1b
 							}
 							{
-								id: "biomesoplenty:umbran_sapling"
+								id: "pixelmon:oran_berry"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:nomel_berry"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:rabuta_berry"
 								Count: 1b
 							}
 						]
@@ -257,7 +270,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -3.0d
 			y: 4.5d
 			shape: "circle"
 			subtitle: "Wait a Minute..."
@@ -268,7 +281,8 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["391C3D6A40B4349B"]
-			secret: true
+			hide: true
+			hide_text_until_complete: true
 			id: "50CA105AAB978921"
 			tasks: [{
 				id: "70868CEEB1D5E8B8"
@@ -294,7 +308,7 @@
 		}
 		{
 			title: "Teapot"
-			x: -3.0d
+			x: -4.0d
 			y: 4.5d
 			shape: "circle"
 			subtitle: "Wait a Minute..."
@@ -305,7 +319,8 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["391C3D6A40B4349B"]
-			secret: true
+			hide: true
+			hide_text_until_complete: true
 			id: "2533ABFFBF895CC8"
 			tasks: [{
 				id: "36F01F1D5E2A2E1B"
@@ -399,7 +414,6 @@
 				"(ONLY COMPLETE ON  YOUR OWN ISLAND)"
 			]
 			dependencies: ["14D0D614F8195BEE"]
-			hide: true
 			id: "6CC8763A3B0F6AAE"
 			tasks: [
 				{
@@ -502,7 +516,6 @@
 				"That's either 3 Rabuta berries &6or&r 3 Nomel berries. But where will you get them? They don't show up in Forage!"
 			]
 			dependencies: ["4C30FCAF127E4F95"]
-			hide: true
 			id: "5D686823475CC38F"
 			tasks: [{
 				id: "7A20CCB745AAD8C5"
@@ -574,7 +587,7 @@
 		}
 		{
 			title: "Seed Kit"
-			x: 2.0d
+			x: 3.0d
 			y: 4.5d
 			shape: "circle"
 			subtitle: "Drifloon found a berry!"
@@ -582,8 +595,7 @@
 			hide_dependency_lines: true
 			dependencies: ["391C3D6A40B4349B"]
 			hide: true
-			hide_text_until_complete: false
-			secret: true
+			hide_text_until_complete: true
 			id: "448A0C530B692090"
 			tasks: [
 				{
@@ -617,7 +629,7 @@
 		}
 		{
 			title: "Berry Kit"
-			x: 3.0d
+			x: 4.0d
 			y: 4.5d
 			shape: "circle"
 			subtitle: "Drifloon found a berry!"
@@ -629,7 +641,7 @@
 			hide_dependency_lines: true
 			dependencies: ["391C3D6A40B4349B"]
 			hide: true
-			hide_text_until_complete: false
+			hide_text_until_complete: true
 			id: "538F287C91F715DC"
 			tasks: [
 				{
@@ -708,7 +720,9 @@
 				""
 				"Thinking quickly, you think you can recycle &aunneeded appricorns&r into planks! If you can just make a &6crafting table&r, that could get you started!"
 				""
-				"Foraging is the only resource you seem to be able to rely on!"
+				"Foraging is the only resource you seem to be able to rely on."
+				""
+				"(Note: If you planted an Apricorn tree, it will grow new Apricorns. These can be harvested with an empty, right-handed click)"
 			]
 			dependencies: [
 				"143C0DF20E5EFC46"
@@ -946,14 +960,14 @@
 			]
 			rewards: [
 				{
-					id: "6B502D34E80B1C15"
-					type: "item"
-					item: "byg:joshua_fruit"
-				}
-				{
 					id: "305218F092756265"
 					type: "item"
 					item: "pixelmon:revival_herb"
+				}
+				{
+					id: "14A5DBAA1CD81032"
+					type: "item"
+					item: "byg:green_apple"
 				}
 			]
 		}
@@ -972,7 +986,6 @@
 				"(Tinkers Construct Mattocks are not classified as axes. They will not work to cut down trees in a 1.16.5 'no tree punching' world.)"
 			]
 			dependencies: ["5D08023C4FCB517A"]
-			hide: true
 			id: "44446E756EF1D1FE"
 			tasks: [{
 				id: "1FC9ADA699D4AFDE"
@@ -993,14 +1006,14 @@
 					item: "pixelmon:ether"
 				}
 				{
-					id: "2C13DC498AC405DA"
-					type: "item"
-					item: "byg:cooked_joshua_fruit"
-				}
-				{
 					id: "4185BEC6526A418C"
 					type: "item"
 					item: "pixelmon:resist_feather"
+				}
+				{
+					id: "1E915F788BA5C1A7"
+					type: "item"
+					item: "minecraft:cooked_salmon"
 				}
 			]
 		}
@@ -1068,12 +1081,15 @@
 			y: 14.0d
 			subtitle: "More habitat materials!"
 			description: [
+				"While you were sleeping, a &clarge hollow boulder&r drifted close in the night. It is very, very far down. You remember from &etrainer school&r that Geodude spawns &eunderground&r and &ebelow Y = 64&r, and that might still hold true. And what can you harvest from &bGeodude&r?\""
+				""
+				"Flint."
+				""
 				"Having a naturallly occuring structure at a low Y-level, especially one with a roof, seems to have encouraged the spawning of a variety of rock Pokemon!"
 				""
 				"Your wood slabs are proving to be a poor habitat for Pokemon. You are &brelieved&r to see an assortment of rock and gravel you can use to encourage more Pokemon to colonize your island."
 				""
 				"Flint is an alternative to bone; it does not require foraging, and in time may become less tedious to collect."
-				""
 			]
 			dependencies: ["6BCA2C177694D5E9"]
 			hide: true
@@ -1125,9 +1141,7 @@
 			shape: "circle"
 			subtitle: "The ladder option"
 			description: [
-				"While you were sleeping, a &clarge hollow boulder&r drifted close in the night. It is very, very far down. You remember from &etrainer school&r that Geodude spawns &eunderground&r and &ebelow Y = 64&r, and that might still hold true. And what can you harvest from &bGeodude&r?\""
-				""
-				"Flint."
+				"Oh you need to figure out how to drop down to that boulder...!"
 				""
 				"But it's a long drop down there. Even if you drop down, you want to be able to climb back up again once you're done. You could build ladders, or you could try and weave some rope from silk."
 				""
@@ -1178,9 +1192,7 @@
 			shape: "circle"
 			subtitle: "The rope option"
 			description: [
-				"While you were sleeping, a &clarge hollow boulder&r drifted close in the night. It is very, very far down. You remember from &etrainer school&r that Geodude spawns &eunderground&r and &ebelow Y = 64&r, and that might still hold true. And what can you harvest from &bGeodude&r?\""
-				""
-				"Flint."
+				"Oh you need to figure out how to drop down to that boulder...!"
 				""
 				"But it's a long drop down there. Even if you drop down, you want to be able to climb back up again once you're done. You could build ladders, or you could try and weave some rope from silk."
 				""
@@ -1199,14 +1211,14 @@
 			}]
 			rewards: [
 				{
-					id: "62BE92D034C9B56F"
-					type: "item"
-					item: "byg:cooked_joshua_fruit"
-				}
-				{
 					id: "0AA233DBC9BDFAFD"
 					type: "item"
 					item: "pixelmon:revival_herb"
+				}
+				{
+					id: "11B45DB8AE1075B4"
+					type: "item"
+					item: "byg:green_apple"
 				}
 			]
 		}
@@ -1366,8 +1378,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 4.5d
+			x: -4.0d
+			y: 5.5d
 			shape: "circle"
 			subtitle: "Another Pokeball!"
 			description: [
@@ -1426,8 +1438,7 @@
 				"You should probably disable the Drifloon spawners so that there is room for other Pokemon to appear on your home island."
 			]
 			dependencies: ["3B8007E69BC39D4B"]
-			hide: true
-			secret: true
+			hide_text_until_complete: true
 			id: "1F4867DAC3F9EBB4"
 			tasks: [{
 				id: "4595A2311EE337BD"
@@ -1517,11 +1528,6 @@
 					item: "minecraft:apple"
 				}
 				{
-					id: "24CD3D32C4211A29"
-					type: "item"
-					item: "pixelmon:fog_badge"
-				}
-				{
 					id: "00F5634DA90E114E"
 					type: "command"
 					title: "You paid attention to the \"Evil Forces\" chapter opening up, right?"
@@ -1541,6 +1547,19 @@
 						}
 					}
 				}
+				{
+					id: "21422934CB270FAA"
+					type: "item"
+					item: {
+						id: "pixelmon:fog_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["[{\"text\":\"Awarded for Completing the Starting Chapter\",\"italic\":false}]"]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1556,7 +1575,6 @@
 				"Instead, try to build a Rain Tank out of wood and leave it off to the side, in the hopes that if it does rain, you can collect it."
 			]
 			dependencies: ["46259252D19CEC1A"]
-			hide: true
 			id: "245F1B866EC2F06A"
 			tasks: [{
 				id: "32D02CD88A878A0B"
@@ -1587,7 +1605,6 @@
 				"Perhaps this is a good way to get rid of all those pesky leaves..."
 			]
 			dependencies: ["44446E756EF1D1FE"]
-			hide: true
 			id: "335D1FD2C27C3103"
 			tasks: [{
 				id: "1BC0D102D2B7E00F"
@@ -1780,6 +1797,7 @@
 				"(NOTE: You CANNOT move a spawner after placing it. Ever. There are things which can delete them later on, but fortunately you probably won't need them by then.)"
 			]
 			dependencies: ["1F4867DAC3F9EBB4"]
+			hide_text_until_complete: true
 			id: "46259252D19CEC1A"
 			tasks: [{
 				id: "7C3005D464207BC6"
@@ -1793,7 +1811,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -5.0d
 			y: 4.5d
 			shape: "circle"
 			subtitle: "???"
@@ -1828,8 +1846,8 @@
 		}
 		{
 			title: "Hatch a Pokemon"
-			x: 5.0d
-			y: 4.5d
+			x: 4.0d
+			y: 5.5d
 			shape: "circle"
 			description: ["You hatched your very first Pokemon! Good work, it's not easy to do with so little room to move!"]
 			hide: true
@@ -1860,6 +1878,148 @@
 					table_id: 7514776752967216189L
 				}
 			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "circle"
+			description: [
+				"You have found an egg!"
+				""
+				"Additional Pokemon means additional forage. However, eggs only hatch after you've walked quite a long distance."
+				""
+				"You may want to use some kind of blocks to bridge the gap between your fragmented islands, and make a place to run back and forward while waiting for Drifloon's forage cooldown to recharge."
+			]
+			hide_dependency_lines: true
+			dependencies: ["391C3D6A40B4349B"]
+			hide: true
+			optional: true
+			secret: true
+			id: "68CD952D1CF12D3C"
+			tasks: [
+				{
+					id: "4E2DAE3E670E96CD"
+					type: "pixelmon:catch_pokemon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/sprites/eggs/egg1.png"
+						}
+					}
+					pokemon: "sinistea"
+					count: 1
+					invert: false
+					catchType: 0b
+				}
+				{
+					id: "0C4ED74F1FA4A3DC"
+					type: "pixelmon:catch_pokemon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/sprites/eggs/egg1.png"
+						}
+					}
+					pokemon: "nincada"
+					count: 1
+					invert: false
+					catchType: 0b
+				}
+				{
+					id: "40A17B5326BCDB0B"
+					type: "pixelmon:catch_pokemon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/sprites/eggs/egg1.png"
+						}
+					}
+					pokemon: "budew"
+					count: 1
+					invert: false
+					catchType: 0b
+				}
+				{
+					id: "1A3AEB3010DC224F"
+					type: "pixelmon:catch_pokemon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/sprites/eggs/egg1.png"
+						}
+					}
+					pokemon: "chingling"
+					count: 1
+					invert: false
+					catchType: 0b
+				}
+				{
+					id: "7743BDBC84B77151"
+					type: "pixelmon:catch_pokemon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/sprites/eggs/egg1.png"
+						}
+					}
+					pokemon: "munna"
+					count: 1
+					invert: false
+					catchType: 0b
+				}
+				{
+					id: "3C8302C2F068F143"
+					type: "pixelmon:catch_pokemon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/sprites/eggs/egg1.png"
+						}
+					}
+					pokemon: "exeggcute"
+					count: 1
+					invert: false
+					catchType: 0b
+				}
+			]
+			rewards: [{
+				id: "0D490AA5514C9520"
+				type: "random"
+				table_id: 7514776752967216189L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "circle"
+			description: [
+				"Oh dear, these aren't incredibly useful."
+				""
+				"Maybe you can put them under your pillow at night and the Immersive Engineering fairy will take them away?"
+			]
+			hide_dependency_lines: true
+			dependencies: ["391C3D6A40B4349B"]
+			hide: true
+			optional: true
+			secret: true
+			id: "307D4E7B70929C18"
+			tasks: [{
+				id: "6DC1D6476C6E07CA"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "61C9CFFF2A37521E"
+				type: "pixelmon:pokedollars"
+				count: 5
+			}]
 		}
 	]
 }

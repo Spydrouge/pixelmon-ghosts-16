@@ -15,8 +15,10 @@
 			x: 0.0d
 			y: 3.0d
 			shape: "rsquare"
-			subtitle: "It was dumb, and I know it was dumb."
+			subtitle: "I either lost my dirt, or used it poorly"
 			description: ["Make an offering to Arceus, and plead for a single piece of dirt. "]
+			optional: true
+			repeatable: true
 			id: "79E4FAF7659C5BC7"
 			tasks: [{
 				id: "403F5ADF73F9046D"
@@ -56,6 +58,8 @@
 				""
 				"Make sure you have correctly identified the block, which is 3x and -1y from your bedrock starting block. Otherwise, your offering will be speant, but nothing will change."
 			]
+			optional: true
+			repeatable: true
 			id: "2BD28C1F9B29B1E0"
 			tasks: [{
 				id: "1E6EC4EBEAA4BCAC"
@@ -83,6 +87,7 @@
 				"As soon as you click the check-box, you can &dreturn to the Altar and Pray again&r."
 			]
 			dependencies: ["5D9EA1EF7ABE5136"]
+			optional: true
 			repeatable: true
 			incompatible: ["7F1A3BFA894EDED6"]
 			id: "7CE34C093CEE720B"
@@ -109,10 +114,10 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 3.5d
+			y: 2.5d
 			subtitle: "You have caught a Pokemon!"
-			description: ["As a result, you cannot tell Arceus you 'lost' your Master Ball in the hopes of recieving another."]
+			description: ["You've caught a Pokemon! As a result, you cannot tell Arceus you 'lost' your Master Ball in the hopes of recieving another."]
 			hide_text_until_complete: true
 			secret: true
 			id: "7F1A3BFA894EDED6"

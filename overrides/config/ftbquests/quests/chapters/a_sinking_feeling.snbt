@@ -251,6 +251,7 @@
 		{
 			x: -1.0d
 			y: -4.5d
+			shape: "circle"
 			description: [
 				"It's time to get brewing. First make sure your cauldron is over a fire, and filled with water."
 				""
@@ -260,6 +261,7 @@
 			]
 			dependencies: ["23B01C3A73733282"]
 			hide: true
+			optional: true
 			id: "19C0F6AFD3E7D54A"
 			tasks: [{
 				id: "748B663BEECA50A8"
@@ -309,6 +311,7 @@
 		{
 			x: -1.0d
 			y: -3.5d
+			shape: "circle"
 			description: [
 				"Make sure you have all the ingredients you need to make long-lasting fire resistance potions. If you fall into lava, one could save your life."
 				""
@@ -320,6 +323,7 @@
 			]
 			dependencies: ["25991FF1BD725FC2"]
 			hide: true
+			optional: true
 			id: "23B01C3A73733282"
 			tasks: [
 				{
@@ -473,6 +477,7 @@
 			title: "Fire Stone Gear"
 			x: -2.0d
 			y: -4.5d
+			shape: "circle"
 			description: ["A full set of Fire Stone armor can also provide Fire Protection III, but you would be silly to farm so many fire shards here while on the verge of entering the Nether. Presumably, fire shards will be more common in the Nether."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -552,6 +557,7 @@
 			title: "Nether Ready Arms and Armor"
 			x: -2.0d
 			y: -3.5d
+			shape: "circle"
 			description: [
 				"You are expecting the Nether to be hostile. Whatever's down there, your life in the world of Pokemon has not entirely prepared you for it."
 				""
@@ -666,9 +672,11 @@
 			}]
 		}
 		{
+			title: "Supplies to Secure the Portal"
 			icon: "minecraft:stone_bricks"
 			x: 2.0d
 			y: -3.5d
+			shape: "circle"
 			description: [
 				"You aren't sure what kind of horrors the nether might bring, but basic Nether safety includes bringing some blocks to protect the portal.  You should arm yourself with stone or stone bricks, and maybe a door."
 				""
@@ -677,6 +685,7 @@
 			hide_dependency_lines: true
 			dependencies: ["46CDAE65E15099AC"]
 			hide: true
+			optional: true
 			min_required_tasks: 2
 			id: "05975C437BC372C2"
 			tasks: [
@@ -807,6 +816,7 @@
 		{
 			x: -2.0d
 			y: -5.5d
+			shape: "circle"
 			description: [
 				"You may want to create a Sojourner's sash, or use a Tinker's Station to apply Leaping to your Leggings (not Boots, Leggings), a recipe that requires five rabbit feet."
 				""
@@ -863,6 +873,7 @@
 		{
 			x: 2.0d
 			y: -5.5d
+			shape: "circle"
 			description: [
 				"Perhaps because they already died once, villagers can't be punched, pushed, boated, mine-carted, or even killed. They will burn in lava eternally without taking damage. The only way to get rid of one is to drop them into the void."
 				""
@@ -877,6 +888,7 @@
 			hide_dependency_lines: true
 			dependencies: ["46CDAE65E15099AC"]
 			hide: true
+			optional: true
 			id: "30BACF8D1458565E"
 			tasks: [
 				{
@@ -938,9 +950,11 @@
 		{
 			x: -1.0d
 			y: -5.5d
+			shape: "circle"
 			description: ["Although you're mostly in the Nether looking for people, you suspect you might also find Pokemon. Pokemon of the fiery persuasion. You should probably ensure you have some form of healing for burns."]
 			dependencies: ["19C0F6AFD3E7D54A"]
 			hide: true
+			optional: true
 			id: "6CDE3DAD436F65E8"
 			tasks: [
 				{
@@ -990,10 +1004,12 @@
 		{
 			x: 2.0d
 			y: -4.5d
+			shape: "circle"
 			description: ["Even if you don't find any survivors, the Nether is an important milestone on your journey to rebuild. You need to get enough lava to start work on your smeltery. One bucket can also be used to make a Cobblestone generator."]
 			hide_dependency_lines: true
 			dependencies: ["46CDAE65E15099AC"]
 			hide: true
+			optional: true
 			id: "4209AE346D267DA3"
 			tasks: [
 				{
@@ -1066,6 +1082,7 @@
 			title: "Light Her Up"
 			x: 3.5d
 			y: -12.5d
+			shape: "circle"
 			description: [
 				"Most of the monsters of the Nether seem repulsed by light. Only Magma Cubes, Striders, and Zombie Pigmen seem indifferent to the lava itself."
 				""
@@ -1075,6 +1092,7 @@
 			]
 			dependencies: ["771B9CD4AD759C44"]
 			hide: true
+			optional: true
 			id: "0B5B30FE8A0F79EF"
 			tasks: [{
 				id: "4FEB3F970E360E12"
@@ -1215,6 +1233,7 @@
 		{
 			x: 2.5d
 			y: -11.0d
+			shape: "circle"
 			description: [
 				"What... is... this?"
 				""
@@ -1222,6 +1241,7 @@
 			]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
+			optional: true
 			secret: true
 			min_required_tasks: 1
 			id: "10C74E8A0021E21D"
@@ -1868,10 +1888,12 @@
 		{
 			x: -2.0d
 			y: -6.5d
+			shape: "circle"
 			description: ["You think it might be wise to bring a silk-touch pickaxe, rather than a Luck one. This is because ores like Nether Gold ore can be smelted down for higher yields at a smeltery, and ores like Cobalt can be smelted for an iron byproduct in a Foundary."]
 			hide_dependency_lines: true
 			dependencies: ["25991FF1BD725FC2"]
 			hide: true
+			optional: true
 			id: "4E23DE3FB0ABF1E3"
 			tasks: [{
 				id: "05E4CDA1EDF67341"
@@ -3175,9 +3197,7 @@
 			x: 1.0d
 			y: -7.5d
 			description: [
-				"Someone who carefully studied the recipes available to them might realize that lava can be created a small number of other ways. For instance, Astral Sorcery can produce lava from Fire Stones. "
-				""
-				"However, these methods are not as reliable. A fire stone may last long enough for twelve units of lava, or it may break early. A fire stone shovel is more reliable."
+				"Someone who carefully studied the recipes available to them might realize that lava can be created a small number of other ways. "
 				""
 				"Lava can enable you to jump tiers without traveling to the Nether, but the Nether is a good place to head for a variety of reasons."
 			]

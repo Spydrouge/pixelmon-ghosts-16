@@ -165,14 +165,15 @@
 				}
 			}
 			x: -3.0d
-			y: -6.0d
+			y: -5.0d
+			shape: "circle"
 			subtitle: "Making the best of things..."
 			description: [
 				"For lack of any sophisticated machinery or working wooden buckets... you are going to dump all three bottles of water on the ground at the same time. That's right! Pour it on the ground."
 				""
 				"This quest is repeatable. Every usage takes three bottles of water. If you are standing in a completely empty block, a water source will be created where you are standing."
 				""
-				"Many things can interrupt this process, such as grass blocks, or blocks that aren't a full meter tall, like various muds. If you're sinking into something, don't use this quest there!"
+				"Many things can interrupt this process, such as grass blocks, or blocks that aren't a full meter tall, like various muds. If you're sinking into something, don't use this quest there! You'll lose the water!"
 			]
 			dependencies: ["02D3224F5FF97681"]
 			hide: true
@@ -1440,7 +1441,6 @@
 				"16D13FBB3BBF2133"
 				"44C10B51CAAF3718"
 			]
-			hide: true
 			id: "1455941647C48282"
 			tasks: [
 				{
@@ -1491,13 +1491,14 @@
 		{
 			x: 1.0d
 			y: -6.0d
+			shape: "circle"
 			subtitle: "Only Counts if Crafted"
 			description: [
 				"Coarse dirt can be created by crafting two blocks of normal Dirt with two blocks of Gravel. This allows you to effectively turn gravel into dirt."
 				""
 				"Arceus left a Rock Pokemon Spawner inside the granite boulder. If you were to discover this spawner's location and power it with a source of redstone pulses such as a hovering hourglass, it would reliably produce new Geodudes."
 				""
-				"Geodude have sturdy, and Grubbin does not; but Geodudes from a spawner will appear quicker than Grubbin will."
+				"Geodude have sturdy, and Grubbin does not; but Geodudes from a spawner will appear much quicker and more reliably than Grubbin will."
 			]
 			dependencies: ["1C8AF2B80EA46940"]
 			hide: true
@@ -2100,6 +2101,7 @@
 			}
 			x: -2.0d
 			y: -14.5d
+			shape: "circle"
 			subtitle: "Vampyric Consequences..."
 			description: [
 				"It seems Duskull would like this cake you've baked... You're not sure that's the best idea..."
@@ -2482,6 +2484,7 @@
 			}
 			x: 0.0d
 			y: -14.5d
+			shape: "circle"
 			description: [
 				"You may choose to feed this cake to a captured Misdreavus."
 				""
@@ -2495,6 +2498,7 @@
 			]
 			dependencies: ["1090DB05C86E19B5"]
 			hide: true
+			optional: true
 			id: "2A889BBA72FC67A3"
 			tasks: [
 				{
@@ -3109,6 +3113,7 @@
 			}
 			x: -2.0d
 			y: -20.0d
+			shape: "circle"
 			description: [
 				"You can choose to give this cake to a Shuppet."
 				""
@@ -3116,6 +3121,7 @@
 			]
 			dependencies: ["50FA68002AEA8792"]
 			hide: true
+			optional: true
 			id: "634C3E7BC7FE6490"
 			tasks: [
 				{
@@ -3160,10 +3166,19 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/710_pumpkaboo/all/base/shiny/sprite.png"
+				}
+			}
 			x: 0.0d
 			y: -20.0d
+			shape: "circle"
 			dependencies: ["4C337F550C0925EA"]
 			hide: true
+			optional: true
 			id: "21436EE1526B2E0A"
 			tasks: [{
 				id: "297602FCBB2E41AC"
@@ -3177,7 +3192,7 @@
 			rewards: [{
 				id: "5FB7124ED65238DD"
 				type: "pixelmon:pokemon"
-				spec: "pumpkaboo ability:flareboost lvl:2"
+				spec: "pumpkaboo ability:flareboost lvl:2 shiny"
 				count: 1
 				shinyChance: 4096s
 			}]
@@ -4280,7 +4295,6 @@
 			y: 6.0d
 			description: ["If you are able to obtain Jungle saplings and wood through Botanical Magic, you should grow the Cocoa you've obtained."]
 			dependencies: ["4C65CAA6CF805F5D"]
-			hide: true
 			id: "0522C7E25981EFC2"
 			tasks: [{
 				id: "1CC70713A28C87AD"
@@ -4429,7 +4443,6 @@
 			y: 6.0d
 			description: ["The ball cactus seems too small to attract any cactus Pokemon, but it will do the job of producing renewable green dye for you."]
 			dependencies: ["2412D6501AB6396E"]
-			hide: true
 			id: "049F51923D6A6566"
 			tasks: [{
 				id: "6DC6220411E6D1B2"
@@ -4449,7 +4462,6 @@
 			y: 7.0d
 			description: ["Cook the ball cactus to dry it out. Then place it in a crafting grid to turn it into green dye."]
 			dependencies: ["049F51923D6A6566"]
-			hide: true
 			id: "05B9A26E81EFDD64"
 			tasks: [
 				{
@@ -4468,6 +4480,94 @@
 				type: "item"
 				item: "pixelmon:green_shard"
 			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			shape: "circle"
+			description: ["No matter how you try, you can't seem to tinker a shovel. Mattocks should do the trick of breakign dirt blocks, and can also be used to hoe land. Alternatively, you could also make a regular shovel."]
+			dependencies: ["1C8AF2B80EA46940"]
+			optional: true
+			id: "0A61655433A0DEAE"
+			tasks: [
+				{
+					id: "375CCFA2FEF5C731"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:durability": 1.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:secondary_mining": 0.65f
+								"tconstruct:attack_damage": 3.025f
+								"tconstruct:harvest_level": 1.0f
+								"tconstruct:durability": 106.25f
+								"tconstruct:mining_speed": 3.8500001f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:jagged"
+									level: 2s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:flint"
+								"tconstruct:wood"
+								"tconstruct:flint"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "0E695F2AFE86DAD8"
+					type: "item"
+					item: {
+						id: "fiow:flint_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5E901A1A9350B086"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "61D0B5661BF6AB31"
+					type: "item"
+					item: "byg:green_apple"
+				}
+			]
 		}
 	]
 }

@@ -1731,6 +1731,8 @@
 				"Cinnabar can be found by using rock smash on certain Y-levels. It is also greatly associated with Cinnabar Island, from Kanto, and Pokemon native to Cinnabar Island may sometimes be found carrying it or its dust form."
 				""
 				"It can be pulverized to a dust by using an Earth Charge."
+				""
+				"It can be made into molten quicksilver and used in tinkering."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true

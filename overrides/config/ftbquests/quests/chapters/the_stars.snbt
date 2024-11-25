@@ -236,6 +236,7 @@
 		{
 			x: 3.5d
 			y: 6.0d
+			shape: "circle"
 			description: [
 				"Liquid starlight can be placed in the world. If it does so, it will flow rapidly downward. If it comes into contact with water blocks, it will convert that water to &bpacked ice&r. You can use this to make a 'packed ice generator' just like people might make a cobblestone generator."
 				""
@@ -245,6 +246,7 @@
 			]
 			dependencies: ["3B4055303F7C3CF9"]
 			hide: true
+			optional: true
 			id: "0DCBC3C23E21F52A"
 			tasks: [
 				{
@@ -274,6 +276,7 @@
 		{
 			x: 4.5d
 			y: 6.0d
+			shape: "circle"
 			description: [
 				"Obtain lava in either a ceramic or iron bucket. (This may not be feasible until the Nether is unlocked.)"
 				""
@@ -287,6 +290,7 @@
 			]
 			dependencies: ["3B4055303F7C3CF9"]
 			hide: true
+			optional: true
 			min_required_tasks: 2
 			id: "20EEE33BB3D58776"
 			tasks: [
@@ -439,7 +443,7 @@
 		}
 		{
 			x: 2.5d
-			y: 1.0d
+			y: -0.5d
 			description: [
 				"The Astral Tome is organized as follows: Each stage of progression has a chapter associated with it. The first chapter is \"Discovery\" and the second is \"Exploration.\" \"Discovery\" teaches you about things like marble and aquamarine. Some of this is not applicable to you, because you live in a void."
 				""
@@ -458,12 +462,14 @@
 		{
 			x: 5.0d
 			y: 8.0d
+			shape: "circle"
 			description: [
 				"Is there enough starlight? You might have gotten very unlucky in where you chose to place your altar. If that's the case, you can use Astral Relays to gather some extra starlight and beam it to your crafting table."
 				""
 				"Astral Relays also need a small multiblock altar set up around them."
 			]
 			dependencies: ["323035F60CFD8567"]
+			optional: true
 			id: "3D8145A960947308"
 			tasks: [
 				{
@@ -504,6 +510,7 @@
 		{
 			x: 3.0d
 			y: 8.0d
+			shape: "circle"
 			description: [
 				"One way of finding out if there is a lot of starlight in an area is to run around placing your Luminous crafting table everywhere and seeing how fast it charges. However this is extremely unreliable, as starlight generated changes depending on time of night."
 				""
@@ -514,6 +521,7 @@
 				"The 'placed block' requirement reduces the ease of using the Fosic Resonator in a void dimension."
 			]
 			dependencies: ["323035F60CFD8567"]
+			optional: true
 			id: "29E3F8319D4CE248"
 			tasks: [{
 				id: "5EA59F64D0A587DD"
@@ -545,6 +553,7 @@
 		{
 			x: 9.5d
 			y: 6.5d
+			shape: "circle"
 			description: [
 				"Rock Crystal is rare and probably shouldn't be spent on frivolities like a pickaxes, but there are some things about crystal tools worth mentioning."
 				""
@@ -1142,6 +1151,7 @@
 		{
 			x: 7.5d
 			y: 0.5d
+			shape: "circle"
 			description: [
 				"The Starmetal cutter can also cut Celestial Crystals, allowing you to take them apart property by property and reassemble them however you like for new tools and lenses."
 				""
@@ -1153,6 +1163,7 @@
 				"7970993C9ED9CCA7"
 			]
 			hide: true
+			optional: true
 			id: "6D05F5AF7ED220FE"
 			tasks: [{
 				id: "4808D2D7389A5613"
@@ -1544,6 +1555,7 @@
 		{
 			x: 10.5d
 			y: 6.5d
+			shape: "circle"
 			description: [
 				"You can infuse crystal tools or weapons at the Starlight Infusion altar. Doing so will give them a small increase in one or more properties."
 				""
@@ -1729,12 +1741,14 @@
 		{
 			x: 9.0d
 			y: 0.5d
+			shape: "circle"
 			description: [
 				"Starlight infusion recipes are numerous. An unusual one worth noting is the golden carrot recipe. Liquid Starlight already confers night vision upon anyone who steps in it. It is able to embue carrots with the Nightvision ability without any need for actual gold."
 				""
 				"It also can create Glistering Melons."
 			]
 			dependencies: ["040A2B4D25EF22F6"]
+			optional: true
 			id: "2F1B22B75D66DBCC"
 			tasks: [
 				{
@@ -1759,6 +1773,7 @@
 			icon: "minecraft:iron_ingot"
 			x: 9.0d
 			y: -1.5d
+			shape: "circle"
 			description: [
 				"Starlight Infusion with Liquid Starlight can be used to create an \"&bOre Doubling&r\" effect. For instance, by infusing a single iron ore, you can create three iron ingots.  It is compatable with almost every ore."
 				""
@@ -1767,6 +1782,7 @@
 			]
 			dependencies: ["040A2B4D25EF22F6"]
 			hide: true
+			optional: true
 			id: "0415198FF27842A2"
 			tasks: [{
 				id: "7D89F6FA12BE8156"
@@ -1781,6 +1797,7 @@
 		{
 			x: 10.0d
 			y: -1.5d
+			shape: "circle"
 			description: [
 				"Liquid Starlight infusion can do many small recipes, like changing redstone to gunpowder, gunpowder to glowstone, slime to magma cream, sand to clay, and glass to ice."
 				""
@@ -1788,6 +1805,7 @@
 			]
 			dependencies: ["0415198FF27842A2"]
 			hide: true
+			optional: true
 			id: "05093E66C7550675"
 			tasks: [
 				{
@@ -1872,9 +1890,9 @@
 					item: "pixelmon:yellow_shard"
 				}
 				{
-					id: "10C264AB1627A494"
-					type: "choice"
-					table_id: 3001743523227994534L
+					id: "49D19FC381A6A8D2"
+					type: "item"
+					item: "minecraft:end_portal_frame"
 				}
 			]
 		}
@@ -1992,12 +2010,19 @@
 				type: "item"
 				item: "astralsorcery:refraction_table"
 			}]
-			rewards: [{
-				id: "19452B8A10D77630"
-				type: "item"
-				item: "ceramics:rainbow_bricks"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "19452B8A10D77630"
+					type: "item"
+					item: "ceramics:rainbow_bricks"
+					count: 32
+				}
+				{
+					id: "6E713B231644532D"
+					type: "item"
+					item: "minecraft:end_portal_frame"
+				}
+			]
 		}
 		{
 			icon: {
@@ -2170,28 +2195,22 @@
 				advancement: "astralsorcery:attune_trait"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "227AF49F48215DB5"
-					type: "item"
-					item: {
-						id: "pixelmon:tr_gen8"
-						Count: 1b
-						tag: {
-							tm: 56
-						}
+			rewards: [{
+				id: "227AF49F48215DB5"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 56
 					}
 				}
-				{
-					id: "2143B623168D4665"
-					type: "item"
-					item: "minecraft:end_portal_frame"
-				}
-			]
+			}]
 		}
 		{
 			x: 3.0d
 			y: 4.0d
+			shape: "circle"
 			description: [
 				"Illumination powder can be used to light up an area like a torch."
 				""
@@ -2199,6 +2218,7 @@
 			]
 			dependencies: ["17C5ABB4E7642DEA"]
 			hide: true
+			optional: true
 			id: "439101A5C1ADB481"
 			tasks: [
 				{
@@ -2228,6 +2248,7 @@
 		{
 			x: 7.5d
 			y: -1.5d
+			shape: "circle"
 			description: [
 				"Starmetal tools work better in the evening."
 				""
@@ -2236,6 +2257,7 @@
 			hide_dependency_lines: true
 			dependencies: ["795DAB51F5258617"]
 			hide: true
+			optional: true
 			id: "05C4DD6A79669CFB"
 			tasks: [
 				{
@@ -2396,18 +2418,20 @@
 					item: "pixelmon:wishing_star"
 				}
 				{
-					id: "36CC403F796E3FC4"
-					type: "item"
-					item: "minecraft:end_portal_frame"
+					id: "5A49F578123C850E"
+					type: "choice"
+					table_id: 3001743523227994534L
 				}
 			]
 		}
 		{
 			x: 3.0d
 			y: 5.0d
+			shape: "circle"
 			description: ["Cave Illuminators can be used to light up a very large area, expecially vertically."]
 			dependencies: ["439101A5C1ADB481"]
 			hide: true
+			optional: true
 			id: "566C20A9C8705E14"
 			tasks: [{
 				id: "639320F5F236D191"

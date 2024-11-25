@@ -1,0 +1,43 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 200,
+  "starlight": 1200,
+  "pattern": [
+    "____D",
+    "__EC_",
+    "_BAF_",
+    "_AEC_",
+    "A____"
+  ],
+  "key": {
+    "A": {
+      "item": "byg:travertine"
+    },
+    "B": {
+      "tag": "forge:gems/diamond"
+    },
+    "C": {
+      "tag": "forge:ender_pearls"
+    },
+    "D": {
+      "tag": "astralsorcery:stardust"
+    },
+    "E": {
+      "item": "byg:warped_coral_block"
+    },
+    "F": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "output": [
+    {
+      "item": "astralsorcery:blink_wand",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

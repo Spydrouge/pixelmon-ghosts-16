@@ -1,0 +1,40 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 200,
+  "starlight": 1200,
+  "pattern": [
+    "____B",
+    "_C_E_",
+    "_EAC_",
+    "_D___",
+    "A____"
+  ],
+  "key": {
+    "A": {
+      "item": "byg:subzero_ash_block"
+    },
+    "D": {
+      "item": "byg:frost_magma"
+    },
+    "B": {
+      "item": "astralsorcery:stardust"
+    },
+    "C": {
+      "tag": "forge:gems/diamond"
+    },
+    "E": {
+      "item": "byg:blue_nether_bricks"
+    }
+  },
+  "output": [
+    {
+      "item": "astralsorcery:exchange_wand",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

@@ -11,15 +11,18 @@
 			Icon: "pixelmon:textures/pokemon/491_darkrai/all/base/none/sprite.png"
 		}
 	}
+	subtitle: ["Most legendaries are not caught; they're hatched."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d
 			y: -0.5d
+			shape: "circle"
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
 			dependencies: ["596680D791AC22B8"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "11C71ABC37BE78FD"
 			tasks: [{
@@ -171,9 +174,12 @@
 		{
 			x: 1.0d
 			y: -0.5d
+			shape: "circle"
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
 			dependencies: ["7DAE272571897CFE"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "6B9BCFAC5AE87068"
 			tasks: [{
 				id: "4DA33346CD040767"
@@ -197,9 +203,12 @@
 		{
 			x: 2.0d
 			y: -0.5d
+			shape: "circle"
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
 			dependencies: ["01385E2B571F8B52"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "50C26BF3F172183D"
 			tasks: [{
 				id: "1DFF196FF586655E"
@@ -223,9 +232,12 @@
 		{
 			x: -1.0d
 			y: -0.5d
+			shape: "circle"
 			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
 			dependencies: ["4B52AFEFBEFB62B6"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "37BCB26E57584CEB"
 			tasks: [{
 				id: "7785F1822B8E7420"
@@ -247,6 +259,7 @@
 			}]
 		}
 		{
+			title: "Obtain Carbink (Non Repeatable)"
 			x: 0.5d
 			y: -3.0d
 			description: [
@@ -283,6 +296,7 @@
 			}]
 		}
 		{
+			title: "Obtain Diance (Non Repeatable)"
 			x: 0.5d
 			y: -4.0d
 			subtitle: "Drifloon brought celebratory decorations!"
@@ -335,9 +349,12 @@
 		{
 			x: -2.5d
 			y: -0.5d
+			shape: "circle"
 			description: ["This Pokemon is not currently feeling playful. It's filled with sorrow and loss, and looking for someone who can handle its grief."]
 			dependencies: ["6D3B04C6338A1908"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "35AA281D16DB8914"
 			tasks: [{
 				id: "3ABCE60209B0A7FA"
@@ -361,9 +378,12 @@
 		{
 			x: -3.5d
 			y: -0.5d
+			shape: "circle"
 			description: ["This Pokemon will not bend to a Trainer, but it may be convinced to bequeath them an egg."]
 			dependencies: ["3A20DCDFBBC2645F"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "2A4EB6F77761A50B"
 			tasks: [{
 				id: "481965572FCA1C6C"
@@ -387,9 +407,12 @@
 		{
 			x: -1.0d
 			y: 0.5d
+			shape: "circle"
 			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
 			dependencies: ["5437096EC001288C"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "37D023E68C2A85FA"
 			tasks: [{
 				id: "77334D627CE76B0D"
@@ -413,9 +436,12 @@
 		{
 			x: 2.0d
 			y: 0.5d
+			shape: "circle"
 			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
 			dependencies: ["03EE801152DBA79E"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "053A8DCA7D90779F"
 			tasks: [{
 				id: "40E7BCBA3C1A36D2"
@@ -439,9 +465,12 @@
 		{
 			x: 0.0d
 			y: 0.5d
+			shape: "circle"
 			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
 			dependencies: ["7427679A42B7A2D4"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "55C8167B43AC942B"
 			tasks: [{
 				id: "586946B7D7812559"
@@ -465,9 +494,12 @@
 		{
 			x: 1.0d
 			y: 0.5d
+			shape: "circle"
 			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
 			dependencies: ["54C9D8C9D49FA8E2"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "54F0E4EB8AB45710"
 			tasks: [{
 				id: "1555D68610297A7A"
@@ -489,10 +521,10 @@
 			}]
 		}
 		{
-			title: "Incoming Island"
+			title: "Incoming Island (Non Repeatable)"
 			icon: "pixelmon:ilex_shrine"
-			x: 3.5d
-			y: -0.5d
+			x: 1.5d
+			y: -4.0d
 			description: [
 				"(Note: This quest will consume the pylon, and the reward will auto-run the moment you submit it.)"
 				""
@@ -534,10 +566,10 @@
 			]
 		}
 		{
-			title: "(Alternative) Shrine Without Island"
+			title: "(Alternative) Shrine Without Island (Still Non Repeatable)"
 			icon: "pixelmon:ilex_shrine"
-			x: 3.5d
-			y: 0.25d
+			x: 1.5d
+			y: -3.25d
 			description: [
 				"There could be a very good reason you do not want the island to appear. Maybe you had the extreme misfortune of putting something equally unmovable in the location it's about to inhabit."
 				""
@@ -566,6 +598,7 @@
 			icon: "pixelmon:moltres_shrine"
 			x: 6.0d
 			y: -0.5d
+			shape: "circle"
 			description: [
 				"Show Arceus that you have found appropriate habitat materials for a great fire Pokemon, and that you've been working to understand the world better."
 				""
@@ -580,6 +613,8 @@
 				"6FC729AFFCF2E513"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "734B36C1018ED317"
 			tasks: [
 				{
@@ -654,6 +689,7 @@
 			icon: "pixelmon:articuno_shrine"
 			x: 5.0d
 			y: -0.5d
+			shape: "circle"
 			description: [
 				"Show Arceus that you have found appropriate habitat materials for a great ice Pokemon, and that you've been working to understand the world better."
 				""
@@ -668,6 +704,8 @@
 				"6FC729AFFCF2E513"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "61A09C9C55C4B99C"
 			tasks: [
 				{
@@ -731,6 +769,7 @@
 			icon: "pixelmon:zapdos_shrine"
 			x: 7.0d
 			y: -0.5d
+			shape: "circle"
 			description: [
 				"Show Arceus that you have found appropriate habitat materials for a great electric Pokemon, and that you've been working to understand the world better."
 				""
@@ -745,6 +784,8 @@
 				"6FC729AFFCF2E513"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "7CAA89F400B39810"
 			tasks: [
 				{
@@ -800,7 +841,7 @@
 				""
 				"The Orb can be used to summon one legendary bird, but only if you have access to their shrine."
 				""
-				"Since the Orb is single-use, you may find yourself in need of another orb. Dragonair and Dragonite have a chance to drop one."
+				"Since the Orb is single-use, you may find yourself in need of another orb. Dragonair and Dragonite have a chance to drop one, and you may obtain one from Ultimate Bosses."
 				""
 				"Dragonair may appear in very, very small quantities in Underground Water on the Soil Layer. You have had no luck finding Dragonite of yet."
 			]
@@ -829,9 +870,12 @@
 			}
 			x: 7.0d
 			y: -1.5d
+			shape: "circle"
 			description: ["Uxie has fled the world following its destruction and is hidden somewhere in the End."]
 			dependencies: ["26B77E6C4944C144"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "03AE8BF4A446E5CA"
 			tasks: [{
 				id: "535A98EFE253377B"
@@ -848,16 +892,19 @@
 				type: "command"
 				title: "Legendary Egg"
 				icon: "ends_delight:non_hatchable_dragon_egg"
-				command: "/pokegive @p uxie untradeable iv_hp:31 iv_spd:31 n:timid egg ball:cherish_ball"
+				command: "/pokegive @p uxie untradeable egg ball:cherish_ball"
 				player_command: false
 			}]
 		}
 		{
 			x: 6.0d
 			y: -1.5d
+			shape: "circle"
 			description: ["Mesprit has fled the world following its destruction and is hidden somewhere in the Nether."]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "7465BA271E5B4658"
 			tasks: [{
 				id: "7E4FBF26E8E283BE"
@@ -874,16 +921,19 @@
 				type: "command"
 				title: "Legendary Egg"
 				icon: "ends_delight:non_hatchable_dragon_egg"
-				command: "/pokegive @p mesprit untradeable iv_spatk:31 iv_spd:31 n:timid egg ball:cherish_ball"
+				command: "/pokegive @p mesprit untradeable egg ball:cherish_ball"
 				player_command: false
 			}]
 		}
 		{
 			x: 5.0d
 			y: -1.5d
+			shape: "circle"
 			description: ["Azelf has fled the world following its destruction and is hidden somewhere in the Drowned World."]
 			dependencies: ["721C7720EB194EAE"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "2399346D75F07D8C"
 			tasks: [{
 				id: "3C8C5AA95425CDB6"
@@ -900,9 +950,41 @@
 				type: "command"
 				title: "Legendary Egg"
 				icon: "ends_delight:non_hatchable_dragon_egg"
-				command: "/pokegive @p azelf untradeable iv_spatk:31 iv_spd:31 n:timid egg ball:cherish_ball"
+				command: "/pokegive @p azelf untradeable egg ball:cherish_ball"
 				player_command: false
 			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"Mew may show up around the cloning machine. However, the chances are very low, as the area considered to be 'around' the cloning machine is very small. "
+				""
+				"You may want to take the cloning machine to a place with no legendaries, like the end island, and work and wait there for quite some time."
+				""
+				"Astute, long-time minecraft players may whip out a trick to lower the number of spaces a legendary can try to spawn by reducing the number of loaded chunks or available blocks."
+			]
+			secret: true
+			id: "677EBB09F3535099"
+			tasks: [{
+				id: "756A99E52DADD28B"
+				type: "item"
+				item: "pixelmon:cloning_machine"
+			}]
+			rewards: [
+				{
+					id: "7E6E336DAE01D5BF"
+					type: "item"
+					item: "minecraft:orange_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "78CAD373A4E61071"
+					type: "item"
+					item: "minecraft:green_glazed_terracotta"
+					count: 16
+				}
+			]
 		}
 	]
 }

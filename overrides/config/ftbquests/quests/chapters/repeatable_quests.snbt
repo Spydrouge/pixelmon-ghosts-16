@@ -5,6 +5,7 @@
 	filename: "repeatable_quests"
 	title: "Offering to Arceus"
 	icon: "pixelmon:incense_burner"
+	subtitle: ["Repeatable quests for items and eggs"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -48,6 +49,7 @@
 			icon: "pixelmon:magost_berry"
 			x: -0.5d
 			y: -2.5d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bMagost Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aWave Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -75,12 +77,12 @@
 			icon: "pixelmon:spelon_berry"
 			x: 1.0d
 			y: -2.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bSpelon Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aRock Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
 			hide: true
 			optional: true
-			repeatable: true
 			id: "6C65838AA698E89E"
 			tasks: [{
 				id: "0AFBC7BA637C0914"
@@ -101,6 +103,7 @@
 			icon: "pixelmon:watmel_berry"
 			x: 1.5d
 			y: -1.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bWatmel Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aSea Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -127,6 +130,7 @@
 			icon: "pixelmon:rabuta_berry"
 			x: 1.5d
 			y: 0.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bRebuta Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aRose Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -154,6 +158,7 @@
 			icon: "pixelmon:belue_berry"
 			x: 1.0d
 			y: 1.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bBelue Berries&r with a &eIncense Burner&r in an &bInfuser&r to make an &aOdd Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -180,6 +185,7 @@
 			icon: "pixelmon:nomel_berry"
 			x: -2.0d
 			y: 1.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bNomel Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aPure Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -206,6 +212,7 @@
 			icon: "pixelmon:durin_berry"
 			x: -2.5d
 			y: 0.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bDurin Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aFull Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -232,6 +239,7 @@
 			icon: "pixelmon:pamtre_berry"
 			x: -2.5d
 			y: -1.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bPamtre Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aLuck Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -258,6 +266,7 @@
 			icon: "pixelmon:cornn_berry"
 			x: -2.0d
 			y: -2.0d
+			shape: "circle"
 			subtitle: "Incense Brings New Life"
 			description: ["You can combine 3 &bCornn Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aLax Incense&r"]
 			dependencies: ["2003FDACA2AA72A4"]
@@ -284,6 +293,7 @@
 			icon: "pixelmon:shed_shell"
 			x: -0.5d
 			y: 1.5d
+			shape: "circle"
 			subtitle: "Pray to find another egg in a Shed Shell"
 			description: ["It appears that Shedinja have mysterious begun procreating, or perhaps rising from the ashes like a Phoenix."]
 			dependencies: ["50CA105AAB978921"]
@@ -358,6 +368,7 @@
 			icon: "pixelmon:dusk_stone"
 			x: -7.5d
 			y: -2.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from a Dusk Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
@@ -420,6 +431,7 @@
 			icon: "pixelmon:power_herb"
 			x: -2.5d
 			y: -8.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Muscle herbs are single use items that let Pokemon skip the charging turn of a move."
@@ -428,6 +440,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "725158796BFAB4D1"
 			tasks: [
@@ -457,6 +470,7 @@
 			icon: "pixelmon:mental_herb"
 			x: -3.0d
 			y: -7.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Mental herbs are single-use held items that can prevent certain volatile statuses, which can be useful against certain bosses."
@@ -465,6 +479,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "2F7FB933D8D00B07"
 			tasks: [
@@ -493,10 +508,12 @@
 			icon: "pixelmon:white_herb"
 			x: -2.5d
 			y: -6.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: ["White herbs are single-use held items that can prevent stat drops, which can be useful against certain bosses."]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "008B5C1BC71EFC40"
 			tasks: [
@@ -524,10 +541,12 @@
 			icon: "pixelmon:cell_battery"
 			x: -0.5d
 			y: -5.0d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: ["This item can be harvested from wild Rotom, Klang, and Klinklang, but you can also assemble it with a bit of rubbish."]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "41F6AC911D9A4BC1"
 			tasks: [
@@ -562,6 +581,7 @@
 			icon: "pixelmon:iron_ball"
 			x: -0.5d
 			y: -10.0d
+			shape: "circle"
 			subtitle: "Bombs Away!"
 			description: [
 				"Iron Balls turn the move Fling into a &a130BP&r single use dark physical attacking move. This can be valuable on Pokemon who need to hit very, very hard, and may only have a single turn to do it. "
@@ -571,6 +591,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "0176883FB57EFC1A"
 			tasks: [
@@ -598,6 +619,7 @@
 			icon: "pixelmon:luminous_moss"
 			x: 0.5d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Single use item that boosts special defense if hit by a water attack."
@@ -606,6 +628,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "0AF21B88AE2D144A"
 			tasks: [
@@ -633,6 +656,7 @@
 			icon: "pixelmon:weakness_policy"
 			x: 1.5d
 			y: -6.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"These policies were created by people, so it stands to reason you can do it. You roll up your sleeves and put your 12-year-old mind hard to work writing contract law..."
@@ -641,6 +665,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5034EB8E67520061"
 			tasks: [
@@ -675,10 +700,12 @@
 			icon: "pixelmon:focus_sash"
 			x: 2.0d
 			y: -7.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: ["To your parents, the Focus Sash was a vital item for taking down difficult bosses. You believe you remember how to knit one, but you might need a little magical help for it to actually be any good..."]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "55442ED22A550973"
 			tasks: [
@@ -719,6 +746,7 @@
 			icon: "pixelmon:blunder_policy"
 			x: 1.5d
 			y: -8.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"These policies were created by people, so it stands to reason you can do it. You roll up your sleeves and put your 12-year-old mind hard to work writing contract law..."
@@ -727,6 +755,7 @@
 			]
 			dependencies: ["587C2FF777BFD574"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "1BE78DF56B79FB22"
 			tasks: [
@@ -787,10 +816,12 @@
 			icon: "pixelmon:silver_hourglass"
 			x: 5.0d
 			y: -7.5d
+			shape: "circle"
 			subtitle: "To hurry things along..."
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "374C7B514CCB1CEC"
 			tasks: [
@@ -852,10 +883,12 @@
 			icon: "pixelmon:copper_hourglass"
 			x: 5.5d
 			y: -8.5d
+			shape: "circle"
 			subtitle: "To hurry things along..."
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "050929C9E0069C4D"
 			tasks: [
@@ -896,10 +929,12 @@
 			icon: "pixelmon:gold_hourglass"
 			x: 5.5d
 			y: -6.5d
+			shape: "circle"
 			subtitle: "To hurry things along..."
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5580C0D0392D97BB"
 			tasks: [
@@ -939,10 +974,12 @@
 			icon: "pixelmon:diamond_hourglass"
 			x: 6.5d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "To hurry things along..."
 			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. This hourglass affects both Pokemon."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "677ED0D1060D61E8"
 			tasks: [
@@ -1000,8 +1037,10 @@
 			}
 			x: 7.5d
 			y: -5.0d
+			shape: "circle"
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5591EAFDB125C2C2"
 			tasks: [
@@ -1034,10 +1073,12 @@
 			icon: "pixelmon:lens_silver"
 			x: 8.5d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "To get a closer look..."
 			description: ["Lenses can be used to study the properties of a Pokemon before committing to catching them."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "2ABDDBCFF4C84DCE"
 			tasks: [
@@ -1087,8 +1128,10 @@
 			icon: "pixelmon:protector"
 			x: -8.5d
 			y: -5.0d
+			shape: "circle"
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "4DAB443208B87D6C"
 			tasks: [
@@ -1123,8 +1166,10 @@
 			icon: "pixelmon:magmarizer"
 			x: -1.5d
 			y: -12.5d
+			shape: "circle"
 			description: ["Magmar is a difficult Pokemon to evolve. You believe that if you can get ahold of it's famous 'Magmerizer', you can find a way to evolve it without trading."]
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "024C0A0E288FB8E8"
 			tasks: [
@@ -1168,10 +1213,12 @@
 			icon: "pixelmon:razor_fang"
 			x: -10.5d
 			y: -6.5d
+			shape: "circle"
 			subtitle: "In Search of Evolution..."
 			description: ["You would like a Razor Fang, useful for evolving Gligar. Perhaps offering something else related to Gligar will earn you such a gift?"]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "6A64A61E6F45B3C7"
 			tasks: [
@@ -1207,10 +1254,12 @@
 			icon: "pixelmon:ice_rock"
 			x: -9.5d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "In Search of Evolution..."
 			description: ["Perhaps if you are able to gather an Ice Stone, you will find some way of transmuting it into an Icy Rock..."]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5288D425AFD1E44C"
 			tasks: [
@@ -1244,8 +1293,10 @@
 			icon: "pixelmon:porygon_head"
 			x: -0.5d
 			y: -11.5d
+			shape: "circle"
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "29E5A8E09B554AFB"
 			tasks: [
@@ -1278,10 +1329,12 @@
 			icon: "pixelmon:moss_rock"
 			x: -7.5d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "In Search of Evolution..."
 			description: ["Perhaps if you are able to secure a Leaf Stone, you will find some way of transmuting it into a Mossy Rock."]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "7571B73E1FEAA780"
 			tasks: [
@@ -1315,6 +1368,7 @@
 			icon: "pixelmon:oval_stone"
 			x: -10.5d
 			y: -8.5d
+			shape: "circle"
 			subtitle: "In Search of Evolution..."
 			description: [
 				"Graveler, Geodude, Roggenrola, Boldore, and Gigalith all have a 5% chance of holding an everstone. You will need to teach a Pokemon \"Thief,\" \"Covet,\" or \"Switcheroo\" to steal one from them."
@@ -1323,6 +1377,7 @@
 			]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "7CAC6FEBAC7D7CF1"
 			tasks: [
@@ -1350,6 +1405,7 @@
 			icon: "pixelmon:prism_scale"
 			x: -11.0d
 			y: -7.5d
+			shape: "circle"
 			subtitle: "Beautiful Inside and Out"
 			description: [
 				"A Prisim Scale can be used to make a Feebas feel Beautiful. Since Feebas only evolves during trades, you will need a Linking Cable, too."
@@ -1360,6 +1416,7 @@
 			]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "2F14819C54F0C63F"
 			tasks: [
@@ -1400,8 +1457,10 @@
 			icon: "pixelmon:electirizer"
 			x: 0.5d
 			y: -12.5d
+			shape: "circle"
 			description: ["Electabuzz is a difficult Pokemon to evolve. You believe that if you can get ahold of it's famous 'Magmerizer', you can find a way to evolve it without trading."]
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "1D386FB41B5D9A49"
 			tasks: [
@@ -1444,10 +1503,12 @@
 			icon: "pixelmon:ability_capsule"
 			x: 9.5d
 			y: -8.5d
+			shape: "circle"
 			subtitle: "A change in resume"
 			description: ["Not every Pokemon starts off with exactly the right tools to get things done. Offer Arceus an assortment of blended opposites; perhaps he'll help you find a way to change a Pokemon's Ability."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5F0F3D9A88632FDA"
 			tasks: [
@@ -1494,10 +1555,12 @@
 			icon: "pixelmon:ability_patch"
 			x: 10.0d
 			y: -7.5d
+			shape: "circle"
 			subtitle: "A bigger change in resume"
 			description: ["Hidden Abilities are difficult to access, but now and then you find treasures from the before floating past your island. Perhaps the correct offering might help you find an Ability Patch?"]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "2CE5F5CD6C21532B"
 			tasks: [
@@ -1543,10 +1606,12 @@
 			icon: "pixelmon:mint"
 			x: 9.5d
 			y: -6.5d
+			shape: "circle"
 			subtitle: "A new point of view"
 			description: ["Pokemon natures can be modified if you feed them the correct type of mint. However, mint is unpredictable, and you have to plant a great deal of mint in the hopes the type you want will eventually take root."]
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "20FAA059E80BCB51"
 			tasks: [
@@ -1575,8 +1640,10 @@
 			icon: "pixelmon:porygon_leg"
 			x: -2.5d
 			y: -13.5d
+			shape: "circle"
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "683D4EA4FCB31C45"
 			tasks: [
@@ -1609,8 +1676,10 @@
 			icon: "pixelmon:porygon_tail"
 			x: 1.5d
 			y: -13.5d
+			shape: "circle"
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "04DC75F788084048"
 			tasks: [
@@ -1643,8 +1712,10 @@
 			icon: "pixelmon:porygon_body"
 			x: -0.5d
 			y: -15.5d
+			shape: "circle"
 			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "7D6FA4C9D374B6A6"
 			tasks: [
@@ -1698,7 +1769,9 @@
 			icon: "pixelmon:dubious_disc"
 			x: 0.5d
 			y: -14.5d
+			shape: "circle"
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "71AA63BA2C153936"
 			tasks: [
@@ -1729,7 +1802,9 @@
 			icon: "pixelmon:up_grade"
 			x: -1.5d
 			y: -14.5d
+			shape: "circle"
 			dependencies: ["65966CE2BBB0D943"]
+			optional: true
 			repeatable: true
 			id: "4A490FA513CC896C"
 			tasks: [
@@ -1811,6 +1886,7 @@
 			icon: "pixelmon:helix_fossil"
 			x: 7.5d
 			y: -3.0d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Make an offering to Lord Helix"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -1845,6 +1921,7 @@
 			icon: "pixelmon:dome_fossil"
 			x: 7.5d
 			y: 3.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Dare you make an offering to the Heretic Dome?"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -1879,6 +1956,7 @@
 			icon: "pixelmon:root_fossil"
 			x: 6.5d
 			y: -2.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Root Fossil and tears of the lost to Arceus."]
 			dependencies: ["7678A17A7714A3FD"]
@@ -1913,6 +1991,7 @@
 			icon: "pixelmon:claw_fossil"
 			x: 8.5d
 			y: -2.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Claw Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -1947,6 +2026,7 @@
 			icon: "pixelmon:armor_fossil"
 			x: 5.0d
 			y: -0.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Armor Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -1981,6 +2061,7 @@
 			icon: "pixelmon:skull_fossil"
 			x: 10.0d
 			y: -0.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Skull Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -2015,6 +2096,7 @@
 			icon: "pixelmon:cover_fossil"
 			x: 5.5d
 			y: 0.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Cover Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -2049,6 +2131,7 @@
 			icon: "pixelmon:plume_fossil"
 			x: 5.5d
 			y: -1.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Plume Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -2083,6 +2166,7 @@
 			icon: "pixelmon:sail_fossil"
 			x: 9.5d
 			y: -1.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Sail Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -2117,6 +2201,7 @@
 			icon: "pixelmon:jaw_fossil"
 			x: 9.5d
 			y: 0.5d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Jaw Fossil and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -2151,6 +2236,7 @@
 			icon: "pixelmon:old_amber"
 			x: 10.0d
 			y: -3.0d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: ["Offer a cleaned Old Amber and tears of the lost to Arceus"]
 			dependencies: ["7678A17A7714A3FD"]
@@ -2184,6 +2270,7 @@
 		{
 			x: 9.5d
 			y: 3.0d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: [
 				"These aren't going to fit together right, are they...?"
@@ -2227,6 +2314,7 @@
 		{
 			x: 8.5d
 			y: 3.0d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: [
 				"These aren't going to fit together right, are they...?"
@@ -2270,6 +2358,7 @@
 		{
 			x: 5.5d
 			y: 3.0d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: [
 				"These aren't going to fit together right, are they...?"
@@ -2313,6 +2402,7 @@
 		{
 			x: 6.5d
 			y: 3.0d
+			shape: "circle"
 			subtitle: "When all you have is bones..."
 			description: [
 				"These aren't going to fit together right, are they...?"
@@ -2357,6 +2447,7 @@
 			icon: "pixelmon:lens_silver"
 			x: 9.25d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "To get a closer look..."
 			description: [
 				"Lenses can be used to study the properties of a Pokemon before committing to catching them."
@@ -2365,6 +2456,7 @@
 			dependencies: ["5AE3A8615EDE4B47"]
 			hide: true
 			size: 0.5d
+			optional: true
 			repeatable: true
 			id: "261A9E1F063E1CD9"
 			tasks: [
@@ -2391,6 +2483,7 @@
 			icon: "pixelmon:water_stone"
 			x: -6.5d
 			y: 0.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: [
 				"Offer a Shard from a Water Stone and the Remains of the Departed to Arceus."
@@ -2435,6 +2528,7 @@
 			icon: "pixelmon:sun_stone"
 			x: -10.5d
 			y: -1.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from a Sun Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
@@ -2475,6 +2569,7 @@
 			icon: "pixelmon:dawn_stone"
 			x: -9.5d
 			y: -2.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from a Dawn Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
@@ -2515,6 +2610,7 @@
 			icon: "pixelmon:shiny_stone"
 			x: -8.5d
 			y: -3.0d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from a Shiny Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
@@ -2555,6 +2651,7 @@
 			icon: "pixelmon:moon_stone"
 			x: -9.5d
 			y: 1.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: [
 				"Offer a Shard from a Moon Stone and the Remains of the Departed to Arceus."
@@ -2605,6 +2702,7 @@
 			icon: "pixelmon:thunder_stone"
 			x: -10.5d
 			y: 0.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from a Thunder Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
@@ -2645,6 +2743,7 @@
 			icon: "pixelmon:leaf_stone"
 			x: -6.5d
 			y: -1.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: [
 				"Offer a Shard from a Leaf Stone and the Remains of the Departed to Arceus."
@@ -2689,6 +2788,7 @@
 			icon: "pixelmon:ice_stone"
 			x: -11.0d
 			y: -0.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from an Ice Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
@@ -2729,12 +2829,14 @@
 			icon: "pixelmon:fire_stone"
 			x: -6.0d
 			y: -0.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: ["Offer a Shard from a Fire Stone and the Remains of the Departed to Arceus."]
 			dependencies: ["5DD5BF266D98926B"]
 			hide: true
 			optional: true
 			secret: true
+			repeatable: true
 			id: "3487C03E7FBEC3A6"
 			tasks: [
 				{
@@ -2768,6 +2870,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
+			shape: "circle"
 			subtitle: "Reflecting on the Seasons of Love..."
 			description: [
 				"If only crafting Pokeballs could be done by putting together two lids, without the need for modern metal working. You fondly think of Valentines Day, only to find your \"offering\" has &dcuriously disappeared...&r"
@@ -2824,10 +2927,12 @@
 			icon: "pixelmon:linking_cord"
 			x: -6.5d
 			y: -6.5d
+			shape: "circle"
 			subtitle: "For When You're All Alone..."
 			description: ["Linking Cords can be used to evolve Pokemon that would normally only evolve through trading."]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "51D8B4F9800B917A"
 			tasks: [{
@@ -2846,6 +2951,7 @@
 			icon: "pixelmon:moon_stone"
 			x: -8.5d
 			y: 2.0d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: [
 				"Offer a Shard from a Moon Stone and the Remains of the Departed to Arceus."
@@ -2896,6 +3002,7 @@
 			icon: "pixelmon:moon_stone"
 			x: -7.5d
 			y: 1.5d
+			shape: "circle"
 			subtitle: "Death and Change..."
 			description: [
 				"Offer a Shard from a Moon Stone and the Remains of the Departed to Arceus."
@@ -2946,6 +3053,7 @@
 			title: "Rock n' Roll"
 			x: 0.0d
 			y: 2.5d
+			shape: "circle"
 			description: ["You need to spend a little time jamming out with your Pokemon and some Music."]
 			hide_dependency_lines: true
 			dependencies: ["2003FDACA2AA72A4"]
@@ -3003,6 +3111,7 @@
 			icon: "pixelmon:red_card"
 			x: 0.5d
 			y: -9.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"some Pokemon used to carry Red Cards, but it doesn't look like any have survived. You might be able to make one yourself with some rubbish."
@@ -3010,6 +3119,7 @@
 				"Red cards are held items that switch out their holder if they take damage in battle. They are single use, so it's important the Pokemon does what it needs to do that turn before being hit!"
 			]
 			dependencies: ["587C2FF777BFD574"]
+			optional: true
 			repeatable: true
 			id: "5D97AD982DF27ED1"
 			tasks: [
@@ -3038,12 +3148,14 @@
 			icon: "pixelmon:absorb_bulb"
 			x: -1.5d
 			y: -5.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Absorb bulbs raise a Pokemon's special attack if they are hit by a water move. They can be harvested from a variety of plants, including Ferroseed and Oddish. They are most advantageous when baiting out a water move during a switch."
 				""
 			]
 			dependencies: ["587C2FF777BFD574"]
+			optional: true
 			repeatable: true
 			id: "776B5EF4F3B1FCCD"
 			tasks: [
@@ -3070,6 +3182,7 @@
 			icon: "pixelmon:mirror_herb"
 			x: 6.5d
 			y: -9.5d
+			shape: "circle"
 			description: [
 				"Mirror Herbs are a single use item that lets the holder copy stat changes in an enemy Pokemon."
 				""
@@ -3105,6 +3218,7 @@
 			icon: "pixelmon:throat_spray"
 			x: -1.5d
 			y: -9.5d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Throat spray is a single-use item that increases a Pokemon's stats when it uses a sound-based move."
@@ -3114,6 +3228,7 @@
 				"You think you can make one with some time and the power of song."
 			]
 			dependencies: ["587C2FF777BFD574"]
+			optional: true
 			repeatable: true
 			id: "305BDA0C84AD466F"
 			tasks: [
@@ -3154,6 +3269,7 @@
 			icon: "pixelmon:electric_seed"
 			x: -3.0d
 			y: -10.0d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Electric seed cannot be planted. They are a held item consumed to boost a Pokemon's stats if they are on Electric Terrain."
@@ -3191,6 +3307,7 @@
 			icon: "pixelmon:grassy_seed"
 			x: 2.0d
 			y: -10.0d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: [
 				"Grassy Seeds cannot be planted. They are held by a Pokemon and are consumed to increase their stats on Grassy Terrain."
@@ -3228,6 +3345,7 @@
 			icon: "pixelmon:misty_seed"
 			x: -3.0d
 			y: -5.0d
+			shape: "circle"
 			subtitle: "Some things are hard to replace..."
 			description: ["Misty Seeds cannot be planted. They are held by a Pokemon and are consumed to increase their stats on Misty Terrain."]
 			dependencies: ["587C2FF777BFD574"]
@@ -3294,6 +3412,7 @@
 			icon: "pixelmon:destiny_knot"
 			x: 7.5d
 			y: -10.0d
+			shape: "circle"
 			subtitle: "For Weaving a Family Tapestry..."
 			description: ["Destiny Knots are useful items that look no different from a ball of red yarn a kitten might play with. They can be held to mirror infatuation moves, and also during breeding to ensure more of a parent's IVs pass on to offspring."]
 			dependencies: ["5AE3A8615EDE4B47"]
@@ -3387,6 +3506,7 @@
 			icon: "pixelmon:red_pc"
 			x: -0.5d
 			y: 4.5d
+			shape: "circle"
 			subtitle: "Please God, Can I Use the Internet?"
 			description: [
 				"You... really need to organize your eggs. Some of these Pokemon are more helpful to you than others, and you may have taken on more than you can handle."
@@ -3440,6 +3560,7 @@
 			icon: "pixelmon:fossil"
 			x: 5.0d
 			y: -3.0d
+			shape: "circle"
 			description: ["That's odd... This fossil seems to be from a more... mammalian period of history. It's not any of the fossil types you remember learning about in school..."]
 			dependencies: ["7678A17A7714A3FD"]
 			hide: true
@@ -3493,6 +3614,7 @@
 			icon: "minecraft:black_glazed_terracotta"
 			x: -16.5d
 			y: -4.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3516,6 +3638,7 @@
 			icon: "minecraft:white_glazed_terracotta"
 			x: -16.5d
 			y: -10.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3539,6 +3662,7 @@
 			icon: "minecraft:yellow_glazed_terracotta"
 			x: -15.5d
 			y: -5.0d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3562,6 +3686,7 @@
 			icon: "minecraft:green_glazed_terracotta"
 			x: -17.5d
 			y: -10.0d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3585,6 +3710,7 @@
 			icon: "minecraft:red_glazed_terracotta"
 			x: -15.5d
 			y: -10.0d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3608,6 +3734,7 @@
 			icon: "minecraft:blue_glazed_terracotta"
 			x: -17.5d
 			y: -5.0d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3631,6 +3758,7 @@
 			icon: "minecraft:light_blue_glazed_terracotta"
 			x: -19.0d
 			y: -6.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3662,6 +3790,7 @@
 			icon: "minecraft:cyan_glazed_terracotta"
 			x: -18.5d
 			y: -5.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3693,6 +3822,7 @@
 			icon: "minecraft:pink_glazed_terracotta"
 			x: -14.5d
 			y: -9.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3724,6 +3854,7 @@
 			icon: "minecraft:light_gray_glazed_terracotta"
 			x: -19.0d
 			y: -8.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3755,6 +3886,7 @@
 			icon: "minecraft:gray_glazed_terracotta"
 			x: -19.5d
 			y: -7.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3786,6 +3918,7 @@
 			icon: "minecraft:brown_glazed_terracotta"
 			x: -14.0d
 			y: -6.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3817,6 +3950,7 @@
 			icon: "minecraft:orange_glazed_terracotta"
 			x: -14.5d
 			y: -5.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3848,6 +3982,7 @@
 			icon: "minecraft:magenta_glazed_terracotta"
 			x: -14.0d
 			y: -8.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3879,6 +4014,7 @@
 			icon: "minecraft:purple_glazed_terracotta"
 			x: -13.5d
 			y: -7.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3910,6 +4046,7 @@
 			icon: "minecraft:lime_glazed_terracotta"
 			x: -18.5d
 			y: -9.5d
+			shape: "circle"
 			description: ["Recover beautiful terracotta from your broken world."]
 			dependencies: ["43BCB30C316A703D"]
 			hide: true
@@ -3963,6 +4100,7 @@
 			icon: "minecraft:white_concrete"
 			x: 15.0d
 			y: -10.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -3985,6 +4123,7 @@
 			icon: "minecraft:black_concrete"
 			x: 15.0d
 			y: -4.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4007,6 +4146,7 @@
 			icon: "minecraft:blue_concrete"
 			x: 14.0d
 			y: -5.0d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4029,6 +4169,7 @@
 			icon: "minecraft:yellow_concrete"
 			x: 16.0d
 			y: -5.0d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4051,6 +4192,7 @@
 			icon: "minecraft:green_concrete"
 			x: 14.0d
 			y: -10.0d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4073,6 +4215,7 @@
 			icon: "minecraft:red_concrete"
 			x: 16.0d
 			y: -10.0d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4095,6 +4238,7 @@
 			icon: "minecraft:pink_concrete"
 			x: 17.0d
 			y: -9.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4125,6 +4269,7 @@
 			icon: "minecraft:magenta_concrete"
 			x: 17.5d
 			y: -8.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4155,6 +4300,7 @@
 			icon: "minecraft:purple_concrete"
 			x: 18.0d
 			y: -7.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4185,6 +4331,7 @@
 			icon: "minecraft:brown_concrete"
 			x: 17.5d
 			y: -6.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4215,6 +4362,7 @@
 			icon: "minecraft:orange_concrete"
 			x: 17.0d
 			y: -5.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4245,6 +4393,7 @@
 			icon: "minecraft:lime_concrete"
 			x: 13.0d
 			y: -9.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4275,6 +4424,7 @@
 			icon: "minecraft:light_gray_concrete"
 			x: 12.5d
 			y: -8.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4305,6 +4455,7 @@
 			icon: "minecraft:gray_concrete"
 			x: 12.0d
 			y: -7.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4335,6 +4486,7 @@
 			icon: "minecraft:light_blue_concrete"
 			x: 12.5d
 			y: -6.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4365,6 +4517,7 @@
 			icon: "minecraft:cyan_concrete"
 			x: 13.0d
 			y: -5.5d
+			shape: "circle"
 			dependencies: ["72EFF20CBF4AB83F"]
 			hide: true
 			optional: true
@@ -4394,7 +4547,7 @@
 		{
 			title: "Assistance in the Nether"
 			icon: "inspirations:dimension_compass"
-			x: -0.5d
+			x: -8.5d
 			y: 8.5d
 			description: ["Any of these offerings can be made to locate structures in the Nether. Make sure you claim them while in the Nether dimension, or they will fail and your resources will not be refunded."]
 			dependencies: ["5742DF95648CAE94"]
@@ -4407,11 +4560,13 @@
 		}
 		{
 			title: "Where is the nearest Nether Den?"
-			x: -0.5d
+			x: -8.5d
 			y: 7.0d
+			shape: "circle"
 			description: ["Where is the nearest Max Raid Den? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "043B5DABE875EF76"
 			tasks: [
@@ -4456,8 +4611,9 @@
 		}
 		{
 			title: "I wish to go to the roof of the Nether"
-			x: 0.5d
+			x: -7.5d
 			y: 7.5d
+			shape: "circle"
 			description: [
 				"The surface of the planet is long gone, but with all the layers stripped away there still seems to be a cooling core of bedrock that can be walked on. You may wish to travel up there and look for Hidden Pokeloot chests or to gain better control over spawning conditions."
 				""
@@ -4465,6 +4621,7 @@
 			]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "6C4A1905D55D5E1E"
 			tasks: [
@@ -4501,11 +4658,13 @@
 		}
 		{
 			title: "The Nether Fortress"
-			x: 1.0d
+			x: -7.0d
 			y: 8.5d
+			shape: "circle"
 			description: ["Where is the nearest Fortress? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "275BCC637C419586"
 			tasks: [
@@ -4539,11 +4698,13 @@
 		}
 		{
 			title: "Where is the Nearest Bastion?"
-			x: 0.5d
+			x: -7.5d
 			y: 9.5d
+			shape: "circle"
 			description: ["Where is the nearest Bastion? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "6CA694CDB003633E"
 			tasks: [
@@ -4576,10 +4737,12 @@
 		}
 		{
 			title: "Where is the Nearest Thether Grotto?"
-			x: -0.5d
+			x: -8.5d
 			y: 10.0d
+			shape: "circle"
 			description: ["There are many good reasons to find a Nether Grotto, but where is the nearest one to you right now? Keep in mind that the nearest nether grotto may be one you've already found."]
 			dependencies: ["25C4F6BF87A5D9B9"]
+			optional: true
 			repeatable: true
 			id: "002929F34948509F"
 			tasks: [
@@ -4624,6 +4787,7 @@
 			}
 			x: -9.5d
 			y: -9.5d
+			shape: "circle"
 			description: [
 				"Blank TRs allow you to copy some of the most powerful Pokemon moves from one Pokemon to another. You have to practice a move over and over again while the blank is attached to a Pokemon. Once the move has been practiced enough times, the TR will record that move, and you can remove it and teach it to another Pokemon."
 				""
@@ -4631,6 +4795,7 @@
 			]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5A8D1269CE405C73"
 			tasks: [
@@ -4699,6 +4864,7 @@
 			}
 			x: -8.5d
 			y: -10.0d
+			shape: "circle"
 			description: [
 				"Many of the best Galarian moves can only be found in TR form. For instance, there is no Galarian TM for \"Thunder.\" There's a single-use Galarian TR for Thunder instead."
 				""
@@ -4706,6 +4872,7 @@
 			]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "2050CFE9A93EA51F"
 			tasks: [
@@ -4759,9 +4926,11 @@
 			}
 			x: -7.5d
 			y: -9.5d
+			shape: "circle"
 			description: ["Most places other than Galar have stronger TMs. For instance, an Alolan TM can contain the move \"Thunder,\" and a Galarian one cannot. For this reason, you expect non-Galarian TMs to be much more valuable, and difficult to obtain. You are ready to make quite an offering to try and get one!"]
 			dependencies: ["57278538BF47E89A"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "31545E39BE6C0C9A"
 			tasks: [
@@ -4848,8 +5017,10 @@
 		{
 			x: 6.0d
 			y: 8.0d
+			shape: "circle"
 			description: ["If you already have a relic band, you can spend a relic copper and some other resources to obtain more Relic Bands."]
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "284EEE848EE0AEFD"
 			tasks: [
@@ -4918,8 +5089,10 @@
 		{
 			x: 4.5d
 			y: 6.5d
+			shape: "circle"
 			description: ["If you already have a relic band, you can spend a relic gold and some other resources to obtain more Relic Bands."]
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "23AAEF8BF519FFFF"
 			tasks: [
@@ -4988,8 +5161,10 @@
 		{
 			x: 5.0d
 			y: 7.5d
+			shape: "circle"
 			description: ["If you already have a relic band, you can spend a relic silver and some other resources to obtain more Relic Bands."]
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "0942AC033532EA57"
 			tasks: [
@@ -5058,7 +5233,9 @@
 		{
 			x: 7.5d
 			y: 6.5d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "6A62A36CC2D92F86"
 			tasks: [
@@ -5238,7 +5415,9 @@
 		{
 			x: 8.0d
 			y: 5.5d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "040F6491966B84B6"
 			tasks: [
@@ -5418,7 +5597,9 @@
 		{
 			x: 9.0d
 			y: 5.0d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "248E9656E4040B9B"
 			tasks: [
@@ -5598,7 +5779,9 @@
 		{
 			x: 9.0d
 			y: 8.0d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "41EAED4B47B0CE77"
 			tasks: [
@@ -5639,7 +5822,9 @@
 		{
 			x: 10.0d
 			y: 8.5d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "03908DF9CEB62FE9"
 			tasks: [
@@ -5681,7 +5866,9 @@
 		{
 			x: 10.5d
 			y: 9.5d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "03BF38AB2D757502"
 			tasks: [
@@ -5723,7 +5910,9 @@
 		{
 			x: 7.5d
 			y: 9.5d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "1038487B8E6AE539"
 			tasks: [
@@ -5760,7 +5949,9 @@
 		{
 			x: 7.0d
 			y: 10.5d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "6BFDE8E54490C3B3"
 			tasks: [
@@ -5798,7 +5989,9 @@
 		{
 			x: 6.0d
 			y: 11.0d
+			shape: "circle"
 			dependencies: ["0D3D98B62D27A023"]
+			optional: true
 			repeatable: true
 			id: "07D5E2AB848053A7"
 			tasks: [
@@ -5836,8 +6029,9 @@
 		{
 			title: "Spawner"
 			icon: "minecraft:spawner"
-			x: -3.0d
+			x: -2.5d
 			y: 4.5d
+			shape: "circle"
 			description: [
 				"You have been encountering 'spawn eggs' and you are reluctant to use them because you know they are so very rare, and precious."
 				""
@@ -5887,8 +6081,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 3.5d
+			x: 1.5d
+			y: 4.5d
+			shape: "circle"
 			description: ["In case you lose track of an end portal frame, you might need to beg for more."]
 			dependencies: [
 				"437215A2580227C5"
@@ -5917,6 +6112,101 @@
 				id: "4CB5CD0069C162B7"
 				type: "item"
 				item: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["These aren't very useful, but maybe the a fairy will take them away."]
+			dependencies: ["307D4E7B70929C18"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "61AF150EAC82681B"
+			tasks: [{
+				id: "047FE24E858E33AE"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "16E7D87F3BE50C44"
+				type: "pixelmon:pokedollars"
+				count: 40
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["These aren't very useful, but maybe the a fairy will take them away."]
+			dependencies: ["307D4E7B70929C18"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3CB3D5024CF30014"
+			tasks: [{
+				id: "3938686213CD7282"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2FD8EE7B0E33CA8E"
+				type: "pixelmon:pokedollars"
+				count: 356
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			description: [
+				"This chapter of your journal describes many possible offerings you can make to Arceus. "
+				""
+				"Every quest here is optional and repeatable."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"307D4E7B70929C18"
+				"11A73D9EAEEDF61B"
+				"5DD5BF266D98926B"
+				"2003FDACA2AA72A4"
+				"7678A17A7714A3FD"
+			]
+			hide: true
+			id: "786F174A21F75F06"
+			tasks: [{
+				id: "1F26AB2580A8CC17"
+				type: "checkmark"
+				icon: "ftbquests:book"
+			}]
+			rewards: [{
+				id: "6683DF5EF98C8D3D"
+				type: "item"
+				item: "pixelmon:heal_powder"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			shape: "circle"
+			description: ["You may want to keep this as a memento, or use it to trade for a bike. After all, it is worth more than the money cap!"]
+			dependencies: ["534D6277A54CE5BB"]
+			optional: true
+			id: "0B19371720BF8859"
+			tasks: [{
+				id: "689659173DB8412F"
+				type: "item"
+				item: "pixelmon:bike_voucher"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3716CB5FD86F9A56"
+				type: "choice"
+				table_id: 6054085672611887539L
 			}]
 		}
 	]

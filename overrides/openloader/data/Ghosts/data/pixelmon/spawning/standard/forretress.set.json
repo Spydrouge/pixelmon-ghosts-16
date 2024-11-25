@@ -13,13 +13,19 @@
       "condition": {
         "stringBiomes": [
           "ghosts"
-        ],
-        "neededNearbyBlocks": [
-          "minecraft:iron_block",
-          "immersiveengineering:crusher"
         ]
       },
-      "rarity": 40
+       "rarityMultipliers": [
+        {
+          "multiplier": 20,
+          "condition": {
+            "neededNearbyBlocks": [
+              "immersiveengineering:crusher"
+            ]
+          }
+        }
+      ],
+      "rarity": 4
     },
     {
       "spec": "species:Forretress",

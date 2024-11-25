@@ -1029,16 +1029,29 @@
 				{
 					id: "0663C9E1A0B4E806"
 					type: "item"
-					item: "pixelmon:rising_badge"
+					item: {
+						id: "pixelmon:rising_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for Mastery of\",\"italic\":false}]"
+									"[{\"text\":\"Dragons\",\"italic\":false}]"
+								]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
 			x: -1.0d
 			y: -0.5d
+			shape: "circle"
 			description: ["You aren't sure if the End will have Endermen, but there are a few techniques you can employ to avoid angering any of them in the fight against the Dragon. One is by wearing a pumpkin on your head. You will have to decide if this is better or worse than wearing a protective helmet but risking their anger."]
 			dependencies: ["1BE4319B0030C714"]
 			hide: true
+			optional: true
 			id: "69EB6C82E3C863D6"
 			tasks: [{
 				id: "44CA43230485A484"
@@ -1063,6 +1076,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
+			shape: "circle"
 			description: [
 				"As you contemplate how to kill the Ender Dragon, you suddenly and with great certainty feel an intense dislike of beds."
 				""
@@ -1072,6 +1086,7 @@
 			]
 			dependencies: ["69EB6C82E3C863D6"]
 			hide: true
+			optional: true
 			id: "65AB4D7EDCBF7AF6"
 			tasks: [
 				{
@@ -1173,6 +1188,7 @@
 			title: "Poor Man's Fall Protection"
 			x: -2.0d
 			y: -0.5d
+			shape: "circle"
 			description: [
 				"You believe you can count on your Pokemon to rescue you from the void in the End-- the same as they'd rescue you here. However, that doesn't mean they can guarentee you a safe landing."
 				""
@@ -1182,6 +1198,7 @@
 			]
 			dependencies: ["1BE4319B0030C714"]
 			hide: true
+			optional: true
 			id: "42251DE84967D886"
 			tasks: [{
 				id: "7290B8B1D6E3708C"
@@ -1234,6 +1251,7 @@
 		{
 			x: -2.0d
 			y: -2.5d
+			shape: "circle"
 			description: [
 				"An alternative to the water bucket, that's more reliable and won't fail you in a pinch, are slime boots."
 				""
@@ -1241,6 +1259,7 @@
 			]
 			dependencies: ["61C88B635CDA7788"]
 			hide: true
+			optional: true
 			id: "04FDA8409A72ABCE"
 			tasks: [{
 				id: "6840F3B28D9FB5FF"
@@ -1306,6 +1325,7 @@
 		{
 			x: -2.0d
 			y: -1.5d
+			shape: "circle"
 			description: [
 				"Slow falling can prevent falling damage, but may also leave you stranded temporarily in midair. If you do use it, it's best to make a long-lasting batch, so you only need one for the whole battle."
 				""
@@ -1313,6 +1333,7 @@
 			]
 			dependencies: ["42251DE84967D886"]
 			hide: true
+			optional: true
 			id: "61C88B635CDA7788"
 			tasks: [
 				{

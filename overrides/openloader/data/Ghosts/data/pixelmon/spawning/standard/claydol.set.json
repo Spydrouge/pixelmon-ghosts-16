@@ -25,6 +25,29 @@
       "rarity": 10
     },
     {
+      "spec": "species:Claydol palette:alter",
+      "stringLocationTypes": [
+        "Under Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:light_clay",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10
+    },
+    {
       "spec": "species:Claydol",
       "stringLocationTypes": [
         "Indoors"

@@ -50,7 +50,14 @@
 			x: -0.5d
 			y: 0.0d
 			subtitle: "Mechanics and More"
-			description: ["This chapter of your quest book contains tips, tricks, hints, and information about the modpack. This is to help you from making common mistakes, as interactions between Pixelmon and the void are not always obvious."]
+			description: [
+				"This chapter of your quest book is very wordy!"
+				""
+				"It contains tips, tricks, hints, strategies, and information that can help you get ahead, especially early on in the game when everything is new and unfamiliar and your Pokemon are very fragile."
+				""
+				"If you want to figure things out the hard way, just keep in mind that any time you get stuck, you can sniff around your quest book for clues, either here or in the main quest line."
+			]
+			dependencies: ["5AC483C5AC12BFD7"]
 			size: 2.0d
 			id: "1183D242FD8FAF87"
 			tasks: [{
@@ -143,6 +150,7 @@
 				{
 					id: "38D37B7FC87A28B6"
 					type: "item"
+					title: "Ooh these are tasty!"
 					item: "inspirations:heartbeet"
 				}
 			]
@@ -197,8 +205,8 @@
 		{
 			title: "Culling the Weak"
 			icon: "pixelmon:dragon_skull"
-			x: 2.5d
-			y: 1.5d
+			x: 1.0d
+			y: 3.0d
 			subtitle: "They just need a little push..."
 			description: [
 				"Because there is a spawn cap per area, you may find yourself surrounded in Pokemon too powerful, or irrelevant to your current farming strategy."
@@ -222,11 +230,13 @@
 				{
 					id: "4C87FB0DE39067C1"
 					type: "item"
+					title: "You found drifloon playing with this."
 					item: "tconstruct:necrotic_bone"
 				}
 				{
 					id: "564A9A7FCF74B53D"
 					type: "item"
+					title: "Your Pokemon give you a gift!"
 					item: "byg:green_apple"
 				}
 			]
@@ -261,6 +271,7 @@
 			rewards: [{
 				id: "3DCC7D2A5EBF214C"
 				type: "item"
+				title: "Drifloon is helping!"
 				item: "byg:white_sandstone"
 			}]
 		}
@@ -271,7 +282,7 @@
 			y: -1.5d
 			subtitle: "Be Very Careful..."
 			description: [
-				"Spawners given to you by Arceus must be handled carefully, as they &cannot be moved or broken once placed down&r"
+				"Spawners given to you by Arceus must be handled carefully, as they &ccannot be moved or broken once placed down&r"
 				""
 				"All spawners provided by Arceus must be fed a pulsing redstone signal, such as produced by a redstone clock or hovering hourglass. Make sure the hour glass has a single peice of sand so it begins turning. If you lose all other redstone, a button or rapidly flickering lever will do."
 				""
@@ -344,18 +355,11 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [
-				{
-					id: "7E4DB038C12B798D"
-					type: "item"
-					item: "minecraft:black_stained_glass"
-				}
-				{
-					id: "6C98DBEC514E556D"
-					type: "item"
-					item: "pixelmon:purple_rug"
-				}
-			]
+			rewards: [{
+				id: "0B6AA57ED5EA6F55"
+				type: "choice"
+				table_id: 5189644073687325539L
+			}]
 		}
 		{
 			title: "Tier One Materials"
@@ -469,18 +473,12 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [
-				{
-					id: "6D4EE016840B1148"
-					type: "item"
-					item: "byg:green_apple"
-				}
-				{
-					id: "069AFFE46D6FD7BB"
-					type: "item"
-					item: "pixelmon:red_rug"
-				}
-			]
+			rewards: [{
+				id: "0F0F32B7F6C3C862"
+				type: "item"
+				title: "Drifloon is helping!"
+				item: "minecraft:string"
+			}]
 		}
 		{
 			title: "Repairing Tools"
@@ -499,7 +497,6 @@
 			]
 			dependencies: ["63B75A8B18C8967C"]
 			hide: true
-			hide_text_until_complete: true
 			id: "7AC346897A2972C7"
 			tasks: [{
 				id: "3D3E526489614F73"
@@ -517,6 +514,7 @@
 				{
 					id: "4F098669B0DCC7DC"
 					type: "item"
+					title: "Uh...."
 					item: {
 						id: "tconstruct:repair_kit"
 						Count: 1b
@@ -528,6 +526,7 @@
 				{
 					id: "02F780008A386F31"
 					type: "item"
+					title: "Uh...."
 					item: "farmersdelight:minced_beef"
 				}
 			]
@@ -535,8 +534,8 @@
 		{
 			title: "Finding Cobble-Like Stone"
 			icon: "minecraft:cobblestone"
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: 4.5d
 			subtitle: "Who thought cobblestone would be hard to find?"
 			description: [
 				"Boldore and Gigalith drop the cobblestone variant \"Red Rock\" and are attracted to music. You can try and encourage more to spawn by placing a &cJuke box&r between Y levels 32 and 64, if you have one"
@@ -636,21 +635,15 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [
-				{
-					id: "62BF2F6AC446D7D3"
-					type: "item"
-					item: "minecraft:bone"
-				}
-				{
-					id: "59DF38AAA74E4A31"
-					type: "item"
-					item: "minecraft:rotten_flesh"
-				}
-			]
+			rewards: [{
+				id: "59DF38AAA74E4A31"
+				type: "item"
+				title: "Drifloon is helping!"
+				item: "minecraft:rotten_flesh"
+			}]
 		}
 		{
-			x: -5.0d
+			x: -6.5d
 			y: 0.0d
 			subtitle: "Do your own research"
 			description: [
@@ -678,7 +671,7 @@
 		}
 		{
 			title: "Guides"
-			x: -3.5d
+			x: -5.0d
 			y: 0.0d
 			description: [
 				"These might be useful for making guidebooks..."
@@ -708,7 +701,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -5.0d
 			y: 1.5d
 			description: ["This book may be valuable for understanding the ins and outs of botanical magic. You will probably want to make one around the same time you begin fiddling around with mushrooms."]
 			dependencies: ["64E523E4B319CEFB"]
@@ -730,7 +723,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -6.5d
 			y: -1.5d
 			description: [
 				"It seems like it would be difficult to get started with Engineering. It requires so much iron!"
@@ -832,18 +825,20 @@
 				{
 					id: "0432214D37967797"
 					type: "item"
+					title: "Your Pokemon bring you little 'treasures.'"
 					item: "immersiveengineering:nugget_aluminum"
 					count: 3
 				}
 				{
 					id: "531538B11607068E"
 					type: "item"
+					title: "Ooh, what is this?"
 					item: "farmersdelight:melon_popsicle"
 				}
 			]
 		}
 		{
-			x: -6.5d
+			x: -8.0d
 			y: 0.0d
 			description: ["Perhaps you should create the manual for Tier 2 tools so you can look up the materials yourself?"]
 			dependencies: ["2D371D41E27A8496"]
@@ -929,11 +924,13 @@
 				{
 					id: "69D8B1644D7887AD"
 					type: "item"
+					title: "Your Pokemon have found a meal for you both!"
 					item: "farmersdelight:apple_pie"
 				}
 				{
 					id: "6E9B7407564C77BC"
 					type: "item"
+					title: "Your Pokemon have found a meal for you both!"
 					item: "pixelmon:berry_juice"
 				}
 			]
@@ -966,18 +963,12 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [
-				{
-					id: "1ED7DAB50990B149"
-					type: "item"
-					item: "minecraft:rotten_flesh"
-				}
-				{
-					id: "359C650BCC9A6D7E"
-					type: "item"
-					item: "minecraft:soul_sand"
-				}
-			]
+			rewards: [{
+				id: "7C5A14C84A2872FD"
+				type: "item"
+				title: "Wait, where did this come from!?"
+				item: "minecraft:armor_stand"
+			}]
 		}
 		{
 			title: "Tier 1 Armor"
@@ -1041,11 +1032,13 @@
 				{
 					id: "26825D8CAF117EC9"
 					type: "item"
+					title: "Duskull brings you a gift"
 					item: "tconstruct:necrotic_bone"
 				}
 				{
 					id: "2D6F1F4C3010F044"
 					type: "item"
+					title: "Duskull brings you a gift"
 					item: "minecraft:bone"
 				}
 			]
@@ -1109,6 +1102,7 @@
 			rewards: [{
 				id: "1E2630F66B26A228"
 				type: "item"
+				title: "Uh. Your Pokemon are... are helping. You think."
 				item: "tconstruct:blood_slime_ball"
 				count: 4
 			}]
@@ -1122,8 +1116,8 @@
 					Icon: "pixelmon:textures/pokemon/425_drifloon/all/base/none/sprite.png"
 				}
 			}
-			x: 1.0d
-			y: 3.0d
+			x: 2.5d
+			y: 1.5d
 			description: [
 				"&dDrifloon&r are a valuable source of &dghast tears&r and &anether quartz&r, but they are also difficult to fight. To begin with, you have to stand on your platform and wait for one to be traveling close enough. Then you have to use 'R' to throw your own Drifloon's pokeball at them. Hitting them will start the battle."
 				""
@@ -1263,19 +1257,13 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [
-				{
-					id: "075AF4C9D0991CAE"
-					type: "item"
-					item: "thermal:copper_nugget"
-					count: 3
-				}
-				{
-					id: "4845AA4702E716B6"
-					type: "item"
-					item: "thermal:tin_nugget"
-				}
-			]
+			rewards: [{
+				id: "4845AA4702E716B6"
+				type: "item"
+				title: "Your Pokemon bring you little 'treasures.'"
+				item: "thermal:tin_nugget"
+				count: 3
+			}]
 		}
 		{
 			icon: {
@@ -1341,7 +1329,9 @@
 			rewards: [{
 				id: "624759A829E1F464"
 				type: "item"
+				title: "Your Pokemon bring you little 'treasures.'"
 				item: "immersiveengineering:nugget_constantan"
+				count: 3
 			}]
 		}
 		{
@@ -1405,24 +1395,18 @@
 				secret: true
 				elapsedTime: 1L
 			}]
-			rewards: [
-				{
-					id: "55AEF7819C7AC4ED"
-					type: "item"
-					item: "tconstruct:necrotic_bone"
-				}
-				{
-					id: "20512101434E704E"
-					type: "item"
-					item: "immersiveengineering:nugget_uranium"
-					count: 3
-				}
-			]
+			rewards: [{
+				id: "20512101434E704E"
+				type: "item"
+				title: "Your Pokemon bring you little 'treasures.'"
+				item: "immersiveengineering:nugget_uranium"
+				count: 3
+			}]
 		}
 		{
 			icon: "tconstruct:rose_gold_ingot"
-			x: 5.5d
-			y: -6.0d
+			x: 2.5d
+			y: -7.5d
 			description: [
 				"&dFairy&r, &cRose Gold&r, and &eElectrum&r are seldom ideal as plate, tool heads, or sword blades, because they have low durability, low mining levels, low damage, and nonexistant toughness."
 				""
@@ -1487,12 +1471,13 @@
 			rewards: [{
 				id: "3DE54FCFD348BAF2"
 				type: "item"
+				title: "Drifloon is helping!"
 				item: "minecraft:soul_sand"
 			}]
 		}
 		{
 			title: "Colored Spruce Trees"
-			x: -3.5d
+			x: -5.0d
 			y: 4.5d
 			description: [
 				"\"Oh the Biomes You'll Go\" Colored Spruces are all high-altitude plants that will only grow above Y level 72. Don't waste bone meal on them below that level!"
@@ -1539,70 +1524,6 @@
 			}]
 		}
 		{
-			title: "Potion Recipes"
-			icon: {
-				id: "minecraft:potion"
-				Count: 1b
-				tag: {
-					Potion: "advancedpotions:witherprotection"
-				}
-			}
-			x: 2.5d
-			y: 0.0d
-			description: [
-				"Why is it some of the brewing recipes appear to be missing from the JEI? If you click on \"Wither potion\" or \"Super potion\", no recipe shows!"
-				""
-				"This is a bug. It's present even in the official 1.16.5 Pixelmon pack, and it's a bug with other mods, too."
-				""
-				"For this reason, key recipes will be mentioned in the Diary, so you can reference back to them. You can brows all brewing stand or cauldron recipes by right clicking the brewing stand in the JEI, but there are 90 pages of recipes and the pixelmon ones are somewhere in the middle. Correctly guessing the right reagant, and right clicking on it, will also show the recipes for that reagent."
-				""
-				"For cauldron recipes, make sure you click on the fluid associated with the recipe, not the potion bottle which you hope to extract at the end."
-			]
-			dependencies: [
-				"74A102B9D49CA801"
-				"2EAA59A9E636DCC9"
-			]
-			id: "4DD0A5350E8E3A25"
-			tasks: [{
-				id: "2DE1DD448669E788"
-				type: "questsadditions:time"
-				elapsedTime: 1L
-			}]
-			rewards: [{
-				id: "53929E8714380362"
-				type: "item"
-				item: "byg:brim_powder"
-			}]
-		}
-		{
-			title: "Cauldron Limitations"
-			icon: "minecraft:cauldron"
-			x: 1.0d
-			y: 0.0d
-			description: [
-				"Unfortunately, the tools from ceramics and tinker's construct which are used to dispense liquids and pipe them around do not work with brewing cauldrons."
-				""
-				"This means if you are left with a smidgen of liquid in the bottom of the cauldron, too little to bottle up, and you want the cauldron clean so you can use it again... you might be forced to break it and replace it, losing the fluid in the process. Try to plan out your recipes to conserve whatever is important."
-			]
-			dependencies: [
-				"6A6226031EF48604"
-				"1183D242FD8FAF87"
-				"70AD5D85FAE25285"
-			]
-			hide: true
-			id: "2EAA59A9E636DCC9"
-			tasks: [{
-				id: "0418FBDFF138F4E2"
-				type: "questsadditions:time"
-				elapsedTime: 1L
-			}]
-			rewards: [{
-				id: "54209475064FBDEE"
-				type: "item"
-				item: "byg:brim_powder"
-			}]
-		}
-		{
 			x: -0.5d
 			y: -3.0d
 			description: [
@@ -1612,7 +1533,7 @@
 				""
 				"Will the End be filled with monsters? Will you have to fight the Dragon? You don't know."
 				""
-				"These blocks can be rotated with a wrench, if you accidentally set them down facing in the incorrect direction. Do not put the eyes of ender in until all of the blocks are facing inward (They only have 2 orientations; if it looks like it might be facing inward, it is facing inward)"
+				"These blocks can be rotated with a wrench, if you accidentally set them down facing in the incorrect direction. Do not put the eyes of ender in until all of the blocks are facing inward. For best results, place portal frames while standing in the center of where the portal will be."
 				""
 				"If you place one down in the incorrect location, or place in all the eyes of ender before they're rotated correctly, you will have to use a prayer to pick them up again. Consult the \"Offerings to Arceus\" chapter."
 			]
@@ -1907,15 +1828,16 @@
 				elapsedTime: 1L
 			}]
 			rewards: [{
-				id: "5927D7BAF3B70F70"
+				id: "439B569E3B79BDE0"
 				type: "item"
-				icon: "minecraft:wither_rose"
+				title: "Speak of the Devil..."
+				item: "minecraft:wither_rose"
 			}]
 		}
 		{
 			title: "Overslime"
 			icon: "minecraft:slime_ball"
-			x: 8.5d
+			x: 7.5d
 			y: 0.0d
 			description: [
 				"Would you like budget \"Mending\" on one of your tools? Don't want to waste a part slot to add Stringy? You need Overslime!"
@@ -2234,18 +2156,12 @@
 				type: "item"
 				item: "botania:pure_daisy"
 			}]
-			rewards: [
-				{
-					id: "38BF6C4907B16865"
-					type: "item"
-					item: "minecraft:oxeye_daisy"
-				}
-				{
-					id: "3E3E3888C92886F3"
-					type: "item"
-					item: "botania:manasteel_nugget"
-				}
-			]
+			rewards: [{
+				id: "38BF6C4907B16865"
+				type: "item"
+				title: "Drifloon is helping!"
+				item: "minecraft:oxeye_daisy"
+			}]
 		}
 		{
 			title: "Silk Touch"
@@ -2326,8 +2242,8 @@
 					Icon: "pixelmon:textures/pokemon/218_slugma/all/base/none/sprite.png"
 				}
 			}
-			x: 4.0d
-			y: 1.5d
+			x: 1.0d
+			y: 4.5d
 			description: [
 				"Slugma is both a boon and an irritant in the Nether. It will spawn only where there is lava but, this being the nether, there is quite a lot of lava everywhere."
 				""
@@ -2352,8 +2268,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -5.0d
+			y: -1.5d
 			description: [
 				"It is a good idea to build an arena for handling invasions. Enemies won't automatically know where you are, so you will need to find a way to lure them to you."
 				""
@@ -2385,8 +2301,8 @@
 		{
 			title: "Find Marble"
 			icon: "astralsorcery:marble_raw"
-			x: 5.5d
-			y: 3.0d
+			x: 2.5d
+			y: 6.0d
 			description: [
 				"There may be other good reasons to fight an Alolan Geodude..."
 				""
@@ -2441,7 +2357,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -6.5d
 			y: 1.5d
 			description: [
 				"Hmm, does anything drop Parchment directly? You can get aquamarine from at least one species of Sableye, you're sure..."
@@ -2466,8 +2382,8 @@
 		}
 		{
 			title: "Understanding Relic Spawns"
-			x: -5.0d
-			y: 4.5d
+			x: -2.0d
+			y: -6.0d
 			description: [
 				"Every thirty minutes, there is a chance a Legendary Pokemon will spawn. However, there are a lot of checks and conditions that must be made for this to happen."
 				""
@@ -2514,6 +2430,7 @@
 			rewards: [{
 				id: "0854CAEF1CA8C79F"
 				type: "item"
+				title: "Your Pokemon were digging for treasure!"
 				item: "pixelmon:relic_copper"
 			}]
 		}
@@ -2549,6 +2466,7 @@
 			rewards: [{
 				id: "2CCC9D7E667FF2BC"
 				type: "item"
+				title: "Wait, where did this come from?"
 				item: {
 					id: "pixelmon:lens_gold"
 					Count: 1b
@@ -2593,11 +2511,13 @@
 				{
 					id: "416D2F7A5AA3DA51"
 					type: "item"
+					title: "Nincada is proud to show off its abilities!"
 					item: "minecraft:dirt"
 				}
 				{
 					id: "398D85EEA87B720D"
 					type: "item"
+					title: "Nincada is proud to show off its abilities!"
 					item: "minecraft:soul_sand"
 				}
 			]
@@ -2620,12 +2540,12 @@
 			]
 			hide: true
 			hide_text_until_complete: true
+			secret: true
 			id: "335AA0AF611AB874"
 			tasks: [{
 				id: "117111678BE9E157"
 				type: "pixelmon:submit_pokemon"
 				title: "Have Sinistea"
-				secret: true
 				pokemon: "Sinistea"
 				count: 1
 				invert: false
@@ -2640,50 +2560,33 @@
 			}]
 		}
 		{
-			title: "Known Pixelmon Bugs"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "botania:textures/item/cosmetic_groucho_glasses.png"
-				}
-			}
-			x: -9.5d
+			x: 8.5d
 			y: 0.0d
 			description: [
-				"Known bugs created by Pixelmon are as follows:"
+				"If you've made a tool out of something difficult to obtain, such as a drop you have to painstakingly forage for, you might want to make part of the tool out of string."
 				""
-				"1. Broken JEI integration. The button to move ingredients for a recipe into a crafting grid says \"JEI not installed on server\" even in singleplayer. To get around this, use JEI to plan out recipes, and the Vanilla Recipe Book to actually move them into the crafting grid."
+				"String can only be made into bindings, so it's of use on an axe but not on a sword. "
 				""
-				"2. Broken MouseTweaks Integration. MouseTweaks will only work in non-Pixemon interfaces. This means it will work in crafting grids and chests, but not in your inventory, because Pixelmon changes the vanilla inventory GUI."
-				""
-				"3. Lava/Water Stone tool abilities don't work. A workaround was introduced and is introduced during the story."
-				""
-				"4. Not all Brewing recipes show in the JEI. For this reason, some important recipes are given in quest form."
-				""
-				"5. Rock Smash doesn't actually drop the block, and definitely doesn't drop it as if it were mined with Fortune. It deletes the block instead. Only use on unimportant blocks."
+				"It allows tools to be repaired with string. It is a part, rather than a modifier, but that means it doesn't take up a modifier slot, and can be replaced later for a different binding once your circumstances have improved."
 			]
-			id: "42CC2E8CEC8EADD1"
-		}
-		{
-			title: "Other Known Bugs"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "botania:textures/item/cosmetic_groucho_glasses.png"
+			dependencies: ["02CA5502E9034C59"]
+			id: "0A1CAFD53A0EFB1F"
+			tasks: [{
+				id: "235D140BABDEE6FB"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_binding"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:string"
+					}
 				}
-			}
-			x: -9.5d
-			y: 1.5d
-			description: [
-				"Known Bugs in Non Pixelmon Mods are as Follows:"
-				""
-				"1. Immersive Engineering drops its Epic Shader Grab Bags after every fight. You can ban this item to give yourself peace of mind."
-				""
-				"2. Mattocks and No Tree Punching don't get along. Don't make Mattocks thinking you can cut down trees with them."
-			]
-			id: "462E35E11DFB8FF1"
+			}]
+			rewards: [{
+				id: "217A3527800B41C9"
+				type: "item"
+				item: "minecraft:string"
+			}]
 		}
 	]
 }

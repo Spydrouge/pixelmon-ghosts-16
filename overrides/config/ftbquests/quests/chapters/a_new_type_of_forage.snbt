@@ -11,6 +11,7 @@
 			Damage: 0
 		}
 	}
+	subtitle: ["From headbutt to rock smash to... explosion?"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -60,7 +61,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: 0.5d
 			y: 2.0d
 			subtitle: "Forage without the seeds and berries."
 			description: ["The water is filled with dead and crumbling things. You can supplement your Pokemon's forage by fishing for many of the same materials."]
@@ -149,12 +150,14 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 2.0d
+			x: 2.0d
+			y: 0.5d
+			shape: "circle"
 			subtitle: "Reverse Engineering"
 			description: ["It's definitely not the best way to farm leather, but you can craft damaged leather boots together to get undamaged boots, and then tear them apart on a cutting board with a knife or shears."]
 			dependencies: ["5C031B33E5E01602"]
 			hide: true
+			optional: true
 			id: "7C554F2E38E01DD7"
 			tasks: [{
 				id: "6DA677A317F705DE"
@@ -194,8 +197,8 @@
 		}
 		{
 			title: "Skull Collection"
-			x: 2.0d
-			y: 0.5d
+			x: -0.5d
+			y: 2.0d
 			subtitle: "Braiiinnnns"
 			description: [
 				"There's quite a lot of other dead stuff in this water as well. Every skull can be placed in a melter to render it into a liquid. The Drowned skull, for instance, is a source of water."
@@ -253,11 +256,13 @@
 		{
 			x: -0.5d
 			y: -2.0d
+			shape: "circle"
 			subtitle: "AH!"
 			description: ["You're living in the aftermath of a giant explosion, you just fished up a creepy head, and now Drifloon has brought you a box of TNT!"]
 			dependencies: ["5C031B33E5E01602"]
 			hide: true
 			hide_text_until_complete: true
+			optional: true
 			id: "199EF29352C78C68"
 			tasks: [{
 				id: "6DC0A28080049E4B"
@@ -312,6 +317,7 @@
 			icon: "biomesoplenty:mud"
 			x: -3.0d
 			y: -0.5d
+			shape: "circle"
 			subtitle: "???"
 			description: [
 				"That wasn't a ball of mud."
@@ -321,6 +327,7 @@
 			dependencies: ["3499FE59C4B4FC1F"]
 			hide: true
 			hide_text_until_complete: true
+			optional: true
 			id: "28A996E1F73821FD"
 			tasks: [
 				{
@@ -352,10 +359,12 @@
 		{
 			x: 2.0d
 			y: -0.5d
+			shape: "circle"
 			subtitle: "Brown Dye, Brown Flower"
 			description: ["It appears this can be made into brown dye. That would make it the only source of brown dye you know of. This may be useful for some application reliant on color. However, reeds do not appear to be farmable."]
 			dependencies: ["5C031B33E5E01602"]
 			hide: true
+			optional: true
 			id: "1FC5941FD186854D"
 			tasks: [{
 				id: "4D4DA1DB6EAAD1A0"
@@ -388,10 +397,12 @@
 		{
 			x: 0.5d
 			y: -2.0d
+			shape: "circle"
 			subtitle: "Completionism"
 			description: ["Well this sure is a load of odds and ends..."]
 			dependencies: ["5C031B33E5E01602"]
 			hide: true
+			optional: true
 			id: "1E0087DD805B425B"
 			tasks: [
 				{
@@ -689,12 +700,14 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: -8.0d
+			shape: "circle"
 			description: ["Slime Crystals, for repairing slime tools, can be found at a few altitudes. The skyslime one is of especial interest- you know of no other way of getting access to skyslime-anything."]
 			hide_dependency_lines: true
 			dependencies: ["4EED2B4BBCB23E7D"]
 			hide: true
+			optional: true
 			id: "407B38EFA573F097"
 			tasks: [
 				{
@@ -723,12 +736,14 @@
 		}
 		{
 			title: "Completionist"
-			x: -0.5d
+			x: 0.0d
 			y: -8.0d
+			shape: "circle"
 			description: ["An unknown amount of other interesting materials can be found by using Rock Smash on assorted layers. Do you really have the patience to find them all?"]
 			hide_dependency_lines: true
 			dependencies: ["4EED2B4BBCB23E7D"]
 			hide: true
+			optional: true
 			id: "29DA49F499CB67D2"
 			tasks: [
 				{
@@ -908,10 +923,12 @@
 			title: "Fossil Collection"
 			x: -2.5d
 			y: -6.0d
+			shape: "circle"
 			subtitle: "Impressive"
 			description: ["What a Collection!"]
 			dependencies: ["4AC7701A4A1A6D1D"]
 			hide: true
+			optional: true
 			id: "5901F4973C303F47"
 			tasks: [
 				{
@@ -1003,12 +1020,14 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: -8.0d
+			shape: "circle"
 			description: ["Bottles o' Enchanting can be found using Rock Smash on the Murk and Dazzle Levels."]
 			hide_dependency_lines: true
 			dependencies: ["4EED2B4BBCB23E7D"]
 			hide: true
+			optional: true
 			id: "3833E305089D2E3A"
 			tasks: [{
 				id: "4590B245DFE013F7"
@@ -1032,8 +1051,10 @@
 			title: "Rock Collection"
 			x: 2.5d
 			y: -6.0d
+			shape: "circle"
 			dependencies: ["7FFF74D894781226"]
 			hide: true
+			optional: true
 			id: "2079DCFE4807C7C4"
 			tasks: [
 				{
@@ -1105,7 +1126,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -11.5d
 			subtitle: "Catch a Castform or 'Waste' a move slot on Drifloon?"
 			description: [
@@ -1186,8 +1207,10 @@
 		{
 			x: 2.5d
 			y: -7.0d
+			shape: "circle"
 			description: ["Relic Artifacts, when placed on the ground, will very rarely attract Legendary Pokemon. These Legendary Pokemon cannot be caught, and are very difficult to defeat. If you defeat them, they will be transformed into an egg, and given to you to hatch."]
 			dependencies: ["578714F5CA6ED6D0"]
+			optional: true
 			id: "0FFB4F2F31FCCCC3"
 			tasks: [
 				{
@@ -1251,7 +1274,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -10.5d
 			description: ["If you have a Pokemon that has Ember, Incinerate, Inferno, or Burn Up, these moves can be use to power a Furnace without coal. Higher power moves will cause items in the furnace to smelt instantaneously. "]
 			hide_dependency_lines: true
@@ -1288,7 +1311,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -11.5d
 			description: [
 				"Cut can, as the name suggests, be used to break wood blocks. But did you know that it breaks more wood blocks than one? Cut can take down whole trees- if the Pokemon using it is strong enough."
@@ -1330,7 +1353,7 @@
 		}
 		{
 			title: "Cutter"
-			x: 1.0d
+			x: 0.5d
 			y: -12.5d
 			description: [
 				"Gather saplings and plant your next redwood in a 2x2 to increase the tree size."
@@ -1367,7 +1390,7 @@
 		}
 		{
 			title: "Cut-est"
-			x: 1.0d
+			x: 0.5d
 			y: -13.5d
 			description: ["Uh oh. This is already bigger than the other redwood species as a 1x21 What happens if you plant a 2x2?"]
 			dependencies: ["2F65123D8C4EA748"]
@@ -1401,7 +1424,7 @@
 		}
 		{
 			title: "Cutter-est"
-			x: 1.0d
+			x: 0.5d
 			y: -14.5d
 			description: ["The Baobab tree, like many other (but not all!) Biomes-You'll-Go trees, will only grow above Y = 72. It also will only grow in a 2x2 configuration."]
 			dependencies: ["28099EE648CD4FA4"]
@@ -1531,6 +1554,7 @@
 			title: "Covet"
 			x: 0.5d
 			y: 6.5d
+			shape: "circle"
 			description: [
 				"Covet is the easiest move to find among the Pokemon you still have. It is common among baby Pokemon."
 				""
@@ -1544,6 +1568,7 @@
 			]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
+			optional: true
 			min_required_tasks: 1
 			id: "44C10B51CAAF3718"
 			tasks: [
@@ -1675,6 +1700,7 @@
 			title: "Thief"
 			x: -1.5d
 			y: 6.5d
+			shape: "circle"
 			description: [
 				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
 				""
@@ -1682,6 +1708,7 @@
 			]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
+			optional: true
 			min_required_tasks: 1
 			id: "4EE5504B5C31D047"
 			tasks: [
@@ -1848,9 +1875,11 @@
 			title: "Switcheroo"
 			x: -0.5d
 			y: 6.5d
+			shape: "circle"
 			description: ["Catch a Pokemon that can naturally learn Switcheroo. Dhelmise might be alive in the depths of the world, and Inkay may be somewhere at either the top or bottom of everything."]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
+			optional: true
 			min_required_tasks: 1
 			id: "16D13FBB3BBF2133"
 			tasks: [
@@ -1982,7 +2011,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: -11.5d
 			description: [
 				"Sweet Scent starts an encounter. This move pulls from a different encounter table than usual, and has the ability to bring in more flying type Pokemon. Watch out! You have no idea what the level of the enemy  Pokemon will be!"
@@ -2031,6 +2060,7 @@
 		{
 			x: -7.5d
 			y: -3.0d
+			shape: "circle"
 			description: [
 				"Ummm.... Wait. What?"
 				""
@@ -2038,6 +2068,7 @@
 			]
 			dependencies: ["402AAEEB3DE48E6F"]
 			hide: true
+			optional: true
 			secret: true
 			id: "69351F58AC8A6A4B"
 			tasks: [{
@@ -2054,6 +2085,7 @@
 		{
 			x: -8.5d
 			y: -3.0d
+			shape: "circle"
 			description: [
 				"Huh."
 				""
@@ -2061,6 +2093,7 @@
 			]
 			dependencies: ["69351F58AC8A6A4B"]
 			hide: true
+			optional: true
 			id: "5FEF15A09D699E2E"
 			tasks: [{
 				id: "1CCB390270449F91"
@@ -2095,9 +2128,11 @@
 			title: "Skeleton Animal Egg"
 			x: -8.5d
 			y: -2.0d
+			shape: "circle"
 			description: ["What you've seen in the deep dark, falling out of the trees there, is a little disturbing. These are definitely not normal eggs."]
 			dependencies: ["69351F58AC8A6A4B"]
 			hide: true
+			optional: true
 			id: "736534A8DE471CD8"
 			tasks: [
 				{
@@ -2148,9 +2183,11 @@
 		{
 			x: -6.5d
 			y: -3.0d
+			shape: "circle"
 			description: ["Headbutting trees can yield eggs and feathers, although the rate of eggs improves on the Air layer."]
 			dependencies: ["402AAEEB3DE48E6F"]
 			hide: true
+			optional: true
 			id: "72A9F96F7914AF72"
 			tasks: [
 				{
@@ -2173,9 +2210,11 @@
 		{
 			x: -8.5d
 			y: -4.0d
+			shape: "circle"
 			description: ["Something strange is raining out of trees on the Stone Layer."]
 			dependencies: ["69351F58AC8A6A4B"]
 			hide: true
+			optional: true
 			id: "3BFE02F0A2B6E15A"
 			tasks: [{
 				id: "3C2BFB1D3B7AA25B"
@@ -2197,9 +2236,11 @@
 		{
 			x: -5.0d
 			y: -1.5d
+			shape: "circle"
 			description: ["You might find a rare new sapling."]
 			dependencies: ["402AAEEB3DE48E6F"]
 			hide: true
+			optional: true
 			id: "3D41A2C5F71DC468"
 			tasks: [
 				{
@@ -2222,9 +2263,11 @@
 		{
 			x: -5.0d
 			y: -4.5d
+			shape: "circle"
 			description: ["An ecclectic assortment of items can be found this way."]
 			dependencies: ["402AAEEB3DE48E6F"]
 			hide: true
+			optional: true
 			min_required_tasks: 1
 			id: "035AA7EA40AFEAAF"
 			tasks: [
@@ -2259,9 +2302,11 @@
 		{
 			x: -6.5d
 			y: -2.0d
+			shape: "circle"
 			description: ["Pretty Feathers, as well as Health, Muscle, Etc feathers, can occasionally drop from headbutting a tree."]
 			dependencies: ["402AAEEB3DE48E6F"]
 			hide: true
+			optional: true
 			id: "1419BDF64C61DE5F"
 			tasks: [{
 				id: "5D2B48DF650B123D"
@@ -2277,6 +2322,7 @@
 		{
 			x: -3.5d
 			y: -3.0d
+			shape: "circle"
 			description: [
 				"Getting the TM Headbutt... from using Headbutt?"
 				""
@@ -2284,6 +2330,7 @@
 			]
 			dependencies: ["402AAEEB3DE48E6F"]
 			hide: true
+			optional: true
 			id: "17600F77E1AE6E27"
 			tasks: [{
 				id: "790C97FFC1233B75"
@@ -2311,6 +2358,7 @@
 		{
 			x: -9.5d
 			y: -3.0d
+			shape: "circle"
 			subtitle: "Are you supposed to have this?"
 			description: [
 				"You appear to have found an, eh-heh, Easter Egg."
@@ -2321,6 +2369,7 @@
 			dependencies: ["69351F58AC8A6A4B"]
 			hide: true
 			hide_text_until_complete: true
+			optional: true
 			secret: true
 			id: "07E139B36C92A3D5"
 			tasks: [{
@@ -2335,7 +2384,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 0.0d
 			y: -10.5d
 			description: [
 				"A Pokemon who knows Ember, Fire Spin, Flame Burst, Flame Wheel, Heat Wave, or Will-O-Wisp can use the External move Ignite."
@@ -2372,7 +2421,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -2.5d
 			y: -11.5d
 			description: [
 				"Tired of begging for lenses to determine a Pokemon's stats before you try to catch it? You need analyze. Analyze can be used by any Pokemon that knows Mind Reader or Foresight."
@@ -2411,7 +2460,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -10.5d
 			description: [
 				"Ground Birds can help you initiate combat with air Pokemon before they leave your island and head off into the void."
@@ -2463,7 +2512,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -11.5d
 			description: [
 				"You aren't sure if this will ever be useful, exactly, but Pokemon who know certain electric moves can call down Lightning. These moves are Spark, Discharge, Thunder, Thunder Shock, and Thunderbolt."
@@ -2508,7 +2557,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: -10.5d
 			description: [
 				"Dig is fairly useless to you. It can only harvest certain, soft blocks that you could already mine by hand. It does mine a wide 3x3, 5x5 or 7x7 area, depending on the attack state of the user."
@@ -2543,7 +2592,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: -10.5d
 			description: ["To use fly (or teleport) you must first have a healer. If you do not have a healer, you will not be able to use the external move. Fly (and teleport) return you to the last healer you used."]
 			hide_dependency_lines: true
@@ -2572,7 +2621,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: -11.5d
 			description: [
 				"Did you level up Happiny? If you now have a Chansey at level 44, you may have learned the move Soft-Boiled. You then have access to the Heal move outside of battle."
@@ -2637,7 +2686,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -12.5d
 			subtitle: "Rain, rain, go away..."
 			description: ["You can turn the rain off. Can you turn it back on?"]
@@ -2702,8 +2751,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -11.5d
+			x: 0.0d
+			y: -9.5d
+			shape: "circle"
 			description: [
 				"Um. Hmm."
 				""
@@ -2714,6 +2764,7 @@
 			hide_dependency_lines: true
 			dependencies: ["7A14B86EECDF05E4"]
 			hide: true
+			repeatable: true
 			id: "57A4AC900945E4DC"
 			tasks: [{
 				id: "429BA403ED63A08A"
@@ -2870,6 +2921,7 @@
 		{
 			x: -12.0d
 			y: -3.5d
+			shape: "circle"
 			description: [
 				"Wait wait wait wait wait. Can you actually milk the milktank... tauros... whatever it is?"
 				""
@@ -2877,6 +2929,7 @@
 			]
 			dependencies: ["388726E0128C6160"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "00F4512AFD3C5F79"
 			tasks: [{
@@ -2908,6 +2961,7 @@
 			title: "Calcium"
 			x: -13.0d
 			y: -3.5d
+			shape: "circle"
 			subtitle: "This currently wont run because i need to duplicate these quests, one for first time completion, another for repetitive completion."
 			description: [
 				"Well. This. Isn't milk. But. There might be something you can do with it? Create bonemeal, or something?"
@@ -2918,6 +2972,7 @@
 			]
 			dependencies: ["00F4512AFD3C5F79"]
 			hide: true
+			optional: true
 			id: "6A2AAAD6DE72A578"
 			tasks: [{
 				id: "49B9D5EFC8D7B72A"
@@ -2940,6 +2995,7 @@
 			title: "Feed a Skeleton Pig a bucket of protein"
 			x: -12.0d
 			y: -4.5d
+			shape: "circle"
 			description: [
 				"You have had an intrusitve thought. What would happen if you fed an undead pig a slop bucket full of protein?"
 				""
@@ -2947,6 +3003,7 @@
 			]
 			dependencies: ["60C936E55BED6199"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "248069926DB4A9E8"
 			tasks: [{
@@ -2984,6 +3041,7 @@
 			title: "Feed a Skeleton Sheep a bucket of protein"
 			x: -12.0d
 			y: -5.5d
+			shape: "circle"
 			description: [
 				"You have had an intrusitve thought. What would happen if you fed an undead sheep a slop bucket full of protein?"
 				""
@@ -2991,6 +3049,7 @@
 			]
 			dependencies: ["61A7538CF5AE1DB9"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "4912933741A31D90"
 			tasks: [{
@@ -3027,6 +3086,7 @@
 			title: "Feed a Skeleton Cow a bucket of protein"
 			x: -12.0d
 			y: -2.5d
+			shape: "circle"
 			description: [
 				"You have had an intrusitve thought. What would happen if you fed an undead cow a slop bucket full of protein?"
 				""
@@ -3034,6 +3094,7 @@
 			]
 			dependencies: ["388726E0128C6160"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "5737D7EE8C0DCD88"
 			tasks: [{
@@ -3070,6 +3131,7 @@
 			title: "Feed a Skeleton chicken a bucket of protein"
 			x: -12.0d
 			y: -1.5d
+			shape: "circle"
 			description: [
 				"You have had an intrusitve thought. What would happen if you fed an undead chicken a slop bucket full of protein?"
 				""
@@ -3077,6 +3139,7 @@
 			]
 			dependencies: ["11E65E41A6500FEB"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "11F15A3165B25C0B"
 			tasks: [{
@@ -3113,6 +3176,7 @@
 			title: "Feed a Skeleton Horse a bucket of protein"
 			x: -12.0d
 			y: -0.5d
+			shape: "circle"
 			description: [
 				"You have had an intrusitve thought. What would happen if you fed an undead horse a slop bucket full of protein?"
 				""
@@ -3120,6 +3184,7 @@
 			]
 			dependencies: ["3AFB107F4EC7CD1C"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "166DCA7B3269A9FB"
 			tasks: [{
@@ -3155,9 +3220,11 @@
 		{
 			x: 1.5d
 			y: 6.5d
+			shape: "circle"
 			description: ["Trick is a higher level move, and therefore less ideal to pursue than one of the other moves. Almost all Pokemon learn it at level 40 or later, with the exception of Mime Jr, which learns it at level 36."]
 			dependencies: ["2C0BD8E345FD832F"]
 			hide: true
+			optional: true
 			id: "7A656122E8CBEE9F"
 			tasks: [
 				{
@@ -3245,7 +3312,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -12.5d
 			description: ["One reason to master the usage of calling down lightning is because lightning bolts used on plain stone will cause Thunder Stone Ore to form where the stone is struck by the lightning."]
 			dependencies: ["7622C8175BC28B3D"]

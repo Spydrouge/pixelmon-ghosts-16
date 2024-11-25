@@ -5,6 +5,7 @@
 	filename: "evil_forces"
 	title: "Evil Forces"
 	icon: "minecraft:zombie_head"
+	subtitle: ["You are being attacked by monsters from another dimension!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -14,7 +14,6 @@
 			subtitle: "Getting a little Botanical..."
 			description: ["You believe you can imbue a fairy mushroom with even more earthly power by mixing it with white dye made from bone meal."]
 			dependencies: ["15A2DD50687E0F42"]
-			hide: true
 			id: "6B7C16ACD3317EE8"
 			tasks: [{
 				id: "70646225ED948400"
@@ -301,7 +300,6 @@
 				"Instead of a Petal, you can use a Shimmering Mushroom."
 			]
 			dependencies: ["6B7C16ACD3317EE8"]
-			hide: true
 			min_required_tasks: 1
 			id: "69A977EA20F89AE0"
 			tasks: [
@@ -338,7 +336,6 @@
 				"You will also need an Oxeye Daisy, but this can be aquired from White Flabebe."
 			]
 			dependencies: ["69A977EA20F89AE0"]
-			hide: true
 			id: "6749D2C85113CC62"
 			tasks: [
 				{
@@ -378,7 +375,6 @@
 				"But you think you can make the Hydroangeus. Maybe. In a world with limited water, it won't be easy keeping it powered."
 			]
 			dependencies: ["6749D2C85113CC62"]
-			hide: true
 			id: "26A6A79BFBF8DD1B"
 			tasks: [
 				{
@@ -482,7 +478,6 @@
 				"Most flowers that are two units tall, but not all, can be bonemealed to produce duplicates. Make sure not to use up all your flowers, or you will have to wait for another Florges."
 			]
 			dependencies: ["2B913CEFCA5376BC"]
-			hide: true
 			id: "08B38BEB5FF4573E"
 			tasks: [
 				{
@@ -697,7 +692,6 @@
 				"This happens regardless of whether the Hydroangeas is even working, so keep it hydrated! And remember: The flower works twice as hard in the rain."
 			]
 			dependencies: ["44AC031C5D34292E"]
-			hide: true
 			id: "104ADF28642F7637"
 			tasks: [{
 				id: "0EC5FA37897D72D4"
@@ -760,7 +754,6 @@
 				"Pink can be made from mixing beetroot red with bonemeal white."
 			]
 			dependencies: ["789512B9322A3F2D"]
-			hide: true
 			id: "2CC6E126932433AD"
 			tasks: [
 				{
@@ -805,7 +798,6 @@
 			y: 11.5d
 			description: ["The Rosa Arcana translates a typically useless metric, your XP, into mana."]
 			dependencies: ["5710F074C9ADC693"]
-			hide: true
 			id: "6F10ADDBC73438E9"
 			tasks: [{
 				id: "093FD986321B42CD"
@@ -1656,7 +1648,6 @@
 				"If you haven't collected them yet, you should head back to where you were previously hunting for mushrooms and do so. Check the Cyan and Blue mushrooms above to see what non-magical mushrooms they will accept as part of their recipe."
 			]
 			dependencies: ["08B38BEB5FF4573E"]
-			hide: true
 			id: "44AC031C5D34292E"
 			tasks: [
 				{
@@ -1692,7 +1683,6 @@
 				"Check each color of mushroom above to see what non-magical mushrooms will work in their recipes."
 			]
 			dependencies: ["3DA6DA49C7364841"]
-			hide: true
 			id: "51CBAD64B5AA2533"
 			tasks: [
 				{
@@ -2071,7 +2061,6 @@
 				"Floating flowers can't be swept away by water, but they also can't be turned into a motif version, which means there will be no way for a floating Hydroangeas to rest. This makes floating Hydroangeas inferior to planted ones, as they will always have a very limited lifespan."
 			]
 			dependencies: ["31B6B95534F793C0"]
-			hide: true
 			id: "62D938C4042F67E3"
 			tasks: [{
 				id: "7CFD238579FFE2D6"
@@ -2109,7 +2098,6 @@
 				"You can use this information to save yourself from bringing them bucket after bucket of water."
 			]
 			dependencies: ["104ADF28642F7637"]
-			hide: true
 			id: "093F3D887499C200"
 			tasks: [{
 				id: "5CEAC06498ADFFA5"
@@ -2847,7 +2835,6 @@
 				"[&dWARNING&r Hydroangeas is the only flower that can be revived from its motif form. Do not expect other flowers to be de-motif-able.]"
 			]
 			dependencies: ["093F3D887499C200"]
-			hide: true
 			id: "31B6B95534F793C0"
 			tasks: [{
 				id: "1B48A3BE737B8036"
@@ -5757,7 +5744,18 @@
 			rewards: [{
 				id: "60DCE5A5102C86AE"
 				type: "item"
-				item: "pixelmon:fairy_badge"
+				item: {
+					id: "pixelmon:fairy_badge"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Awarded for Mastery of\",\"italic\":false}]"
+								"[{\"text\":\"Fairies\",\"italic\":false}]"
+							]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -6224,6 +6222,64 @@
 				type: "item"
 				item: "pixelmon:green_shard"
 			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			description: [
+				"No flower is more important than the Orechid. It can &aCreate Ores&r from nothing but stone."
+				""
+				"To get one, you will need to have access to pixie dust, and you will need to track down every species of orchid you can find."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0E44A97EBAC87582"
+				"104ADF28642F7637"
+			]
+			size: 2.0d
+			id: "6EE11F3E372057B9"
+			tasks: [{
+				id: "28AEF9D2B870F42A"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [
+				{
+					id: "0DEFE8C0A88EE9F0"
+					type: "item"
+					item: "minecraft:iron_ore"
+				}
+				{
+					id: "4619C942E00691FA"
+					type: "item"
+					item: "minecraft:gold_ore"
+				}
+				{
+					id: "388F35CE5E41C134"
+					type: "item"
+					item: "minecraft:coal_ore"
+				}
+				{
+					id: "393C66C6D130D00C"
+					type: "item"
+					item: "minecraft:lapis_ore"
+				}
+				{
+					id: "02C68840164C0C18"
+					type: "item"
+					item: "minecraft:diamond_ore"
+				}
+				{
+					id: "63DB0C8FBAB2DD34"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "660B2D4F521C1365"
+					type: "item"
+					item: "minecraft:emerald_ore"
+				}
+			]
 		}
 	]
 }
