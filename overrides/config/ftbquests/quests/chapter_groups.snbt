@@ -2,7 +2,7 @@
 	chapter_groups: [
 		{ id: "4A96B64D5627EDC5", title: "Main" }
 		{ id: "1BA668D58784F46A", title: "Magic" }
-		{ id: "5CC2B36466F88246", title: "Exploration" }
+		{ id: "5CC2B36466F88246", title: "Exploration \\& Materials" }
 		{ id: "5FC8A49184E12989", title: "Repeatable Quests" }
 		{ id: "44341255860549FC", title: "Utility" }
 	]

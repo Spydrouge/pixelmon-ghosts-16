@@ -564,7 +564,7 @@
 		{
 			title: "Offering of Fire"
 			icon: "pixelmon:moltres_shrine"
-			x: 5.0d
+			x: 6.0d
 			y: -0.5d
 			description: [
 				"Show Arceus that you have found appropriate habitat materials for a great fire Pokemon, and that you've been working to understand the world better."
@@ -652,7 +652,7 @@
 		{
 			title: "Offering of Ice"
 			icon: "pixelmon:articuno_shrine"
-			x: 6.0d
+			x: 5.0d
 			y: -0.5d
 			description: [
 				"Show Arceus that you have found appropriate habitat materials for a great ice Pokemon, and that you've been working to understand the world better."
@@ -793,34 +793,6 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -0.5d
-			secret: true
-			id: "52E5149E236EDF60"
-			tasks: [
-				{
-					id: "6FA83B6457836707"
-					type: "item"
-					item: "byg:red_glowcane_block"
-				}
-				{
-					id: "7EDA969369314DFA"
-					type: "item"
-					item: "byg:blue_glowcane_block"
-				}
-				{
-					id: "604800497229B7BF"
-					type: "item"
-					item: "byg:pink_glowcane_block"
-				}
-				{
-					id: "0650ED788A667D90"
-					type: "item"
-					item: "byg:purple_glowcane_block"
-				}
-			]
-		}
-		{
 			x: 6.0d
 			y: 0.5d
 			description: [
@@ -844,6 +816,86 @@
 				id: "52C9DF79C9F3B205"
 				type: "choice"
 				table_id: 6415968833340347326L
+			}]
+		}
+		{
+			title: "Defeat Uxie"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/480_uxie/all/base/none/sprite.png"
+				}
+			}
+			x: 7.0d
+			y: -1.5d
+			description: ["Uxie has fled the world following its destruction and is hidden somewhere in the End."]
+			id: "03AE8BF4A446E5CA"
+			tasks: [{
+				id: "535A98EFE253377B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "uxie"
+				count: 1
+				invert: false
+				wild: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "5AB542F27F256178"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p uxie untradeable iv_hp:31 iv_spd:31 n:timid egg ball:cherish_ball"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			description: ["Mesprit has fled the world following its destruction and is hidden somewhere in the Nether."]
+			id: "7465BA271E5B4658"
+			tasks: [{
+				id: "7E4FBF26E8E283BE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "mesprit"
+				count: 1
+				invert: false
+				wild: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "47B5DAB30AFA252B"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p mesprit untradeable iv_spatk:31 iv_spd:31 n:timid egg ball:cherish_ball"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: ["Azelf has fled the world following its destruction and is hidden somewhere in the Drowned World."]
+			id: "2399346D75F07D8C"
+			tasks: [{
+				id: "3C8C5AA95425CDB6"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "azelf"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "1B29542680A4A5D9"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p azelf untradeable iv_spatk:31 iv_spd:31 n:timid egg ball:cherish_ball"
+				player_command: false
 			}]
 		}
 	]

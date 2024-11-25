@@ -1,6 +1,6 @@
 {
 	id: "6F4C8DDE60C69669"
-	group: "5CC2B36466F88246"
+	group: "4A96B64D5627EDC5"
 	order_index: 5
 	filename: "to_the_depths_of_despair"
 	title: "The Depths of Despair"
@@ -493,8 +493,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -0.5d
+			x: -1.5d
+			y: 1.5d
 			description: [
 				"The end goal, in the drowned dimension, is to defeat Drowned Lugia and eliminate the threat it poses to you. "
 				""
@@ -523,7 +523,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 0.0d
 			description: ["You have found unexpected resources in this gloomy place. While it was possible to get these in the void, you might as well grab some here. "]
 			dependencies: ["721C7720EB194EAE"]
@@ -822,8 +822,8 @@
 		}
 		{
 			title: "Visit All Three Biomes"
-			x: -1.5d
-			y: 1.5d
+			x: 0.5d
+			y: -0.5d
 			description: [
 				"The biomes of the drowned world are almost indistinguishable from one another."
 				""
@@ -926,7 +926,7 @@
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Although it may seem a strange utilization of a dimension that's so shattered and broken, the Drowned Dimension does have more blocks than your home dimension, and you don't have to fight any Pokemon or babysit cobblestone generator to get them."
+				"Although it may seem a strange utilization of a dimension that's so shattered and broken, the Drowned Dimension does have more blocks than your home dimension, and you don't have to fight any Pokemon or babysit a cobblestone generator to get them."
 				""
 				"This is a good place to finally put a Tinker's Hammer to work."
 			]
@@ -975,6 +975,47 @@
 					item: "pixelmon:m_exp_candy"
 				}
 			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/482_azelf/all/base/none/sprite.png"
+				}
+			}
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"Azelf has been spying on you as you swim around the Drowned World. Perhaps you should try confronting it?"
+				""
+				"(It is safe to do this before the Drowned world questline has properly begun)"
+				""
+				"(Warning: Make sure you feel capable of defeating a level 100 legendary Pokemon. If you fail, and have to leave so that it despawns, you'll be left relying on it to spawn again naturally.)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["78F16CA432EF8589"]
+			hide: true
+			id: "09597D1C3DD01032"
+			tasks: [{
+				id: "70AACEEB81A1066F"
+				type: "checkmark"
+				title: "Meet Azelf"
+			}]
+			rewards: [{
+				id: "0BA0F6E6DC4CAFF6"
+				type: "command"
+				title: "Meet Azelf"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/482_azelf/all/base/none/sprite.png"
+					}
+				}
+				command: "/function ghosts:spawn_azelf"
+				player_command: false
+			}]
 		}
 	]
 }

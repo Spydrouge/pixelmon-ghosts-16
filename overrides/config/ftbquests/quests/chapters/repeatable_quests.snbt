@@ -5843,7 +5843,7 @@
 				""
 				"You could use this to create monsters to fight, or to summon categories of Pokemon, such as 'pig' Pokemon, or 'cow' Pokemon."
 				""
-				"Keep in mind that spawners will not produce many entities if there are already too many Pokemon in an area. You may want to work somewhere Pokemon are not able to Spawn, but make sure it is someplace the creature can spawn. Pigs, for isntance, can only spawn on grass."
+				"Keep in mind that spawners will not produce many entities if there are already too many Pokemon in an area. For some creatures, like monsters, you might want to work in an area where Pokemon can't spawn. But for passive monster types like 'pigs', well, remember 'pigs' will only spawn on grass."
 			]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true

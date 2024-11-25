@@ -1,6 +1,6 @@
 {
 	id: "58BAD28777D2FDDB"
-	group: "4A96B64D5627EDC5"
+	group: "5CC2B36466F88246"
 	order_index: 3
 	filename: "evil_forces"
 	title: "Evil Forces"
@@ -1166,6 +1166,7 @@
 							Icon: "minecraft:textures/entity_icon/creeper/creeper.png"
 						}
 					}
+					auto: "enabled"
 					command: "/function ghosts:spawn_invasion_wave_4"
 					player_command: false
 				}
@@ -1180,6 +1181,7 @@
 							Icon: "minecraft:textures/entity_icon/spider/cave_spider.png"
 						}
 					}
+					auto: "enabled"
 					command: "/say Let's Play Tag!"
 					player_command: false
 				}
@@ -1220,9 +1222,14 @@
 			icon: "minecraft:creeper_head"
 			x: 0.0d
 			y: -26.0d
-			description: ["This will be one heck of a challenge. One wrong move, and it explodes."]
+			description: [
+				"This will be one heck of a challenge. One wrong move, and it explodes."
+				""
+				"Despite the difficulty of this challenge, you will need to beat it to progress."
+			]
 			dependencies: ["01270D270F5C62C2"]
 			hide: true
+			size: 2.0d
 			id: "3401F501A8F4A859"
 			tasks: [{
 				id: "692B3ACCDCA45FEF"
@@ -1313,6 +1320,7 @@
 				{
 					id: "4CEE21B218424853"
 					type: "command"
+					title: "Incoming Creeper!"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -2248,8 +2256,9 @@
 		{
 			x: -9.5d
 			y: -18.5d
-			description: ["Make an offering to Arceus."]
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
+			hide: true
 			repeatable: true
 			id: "6D6D0B54EC65147F"
 			tasks: [{
@@ -2260,16 +2269,17 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3A570902CAA8F3DF"
+				id: "725234B09A39AFEA"
 				type: "item"
-				item: "pixelmon:green_shard"
+				item: "pixelmon:silver_guts_symbol"
 			}]
 		}
 		{
 			x: -4.5d
 			y: -18.5d
-			description: ["Make an offering to Arceus."]
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
+			hide: true
 			repeatable: true
 			id: "6705EF90CA453ED1"
 			tasks: [{
@@ -2280,16 +2290,17 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "1E44F82643A6B042"
+				id: "18A635EE2FC7F93C"
 				type: "item"
-				item: "pixelmon:blue_shard"
+				item: "pixelmon:plasma_badge"
 			}]
 		}
 		{
 			x: -6.5d
 			y: -18.5d
-			description: ["Make an offering to Arceus."]
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
+			hide: true
 			repeatable: true
 			id: "54E26A43B78DC046"
 			tasks: [{
@@ -2300,16 +2311,17 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "49D63750CC5E93C8"
-				type: "item"
-				item: "pixelmon:black_shard"
+				id: "26BAF2BD2E4B731C"
+				type: "random"
+				table_id: 3610727067702377691L
 			}]
 		}
 		{
 			x: -8.5d
 			y: -18.5d
-			description: ["Make an offering to Arceus."]
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
+			hide: true
 			repeatable: true
 			id: "436A2FB5842A9C74"
 			tasks: [{
@@ -2320,36 +2332,38 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "2628B220D49DD55F"
+				id: "2DC27226D3FC1095"
 				type: "item"
-				item: "pixelmon:white_shard"
+				item: "pixelmon:silver_spirits_symbol"
 			}]
 		}
 		{
 			x: -5.5d
 			y: -18.5d
-			description: ["Make an offering to Arceus."]
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
+			hide: true
 			repeatable: true
 			id: "64E35E1DB4C625C2"
 			tasks: [{
-				id: "0828ADDE1C60EE53"
+				id: "3250AB619A268903"
 				type: "item"
-				item: "minecraft:blaze_powder"
+				item: "minecraft:blaze_rod"
 				count: 256L
 				consume_items: true
 			}]
 			rewards: [{
-				id: "37D6FF70EBDA6612"
+				id: "715795825089E314"
 				type: "item"
-				item: "pixelmon:yellow_shard"
+				item: "pixelmon:silver_ability_symbol"
 			}]
 		}
 		{
 			x: -7.5d
 			y: -18.5d
-			description: ["Make an offering to Arceus."]
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
+			hide: true
 			repeatable: true
 			id: "11A9A77BD0340894"
 			tasks: [{
@@ -2360,9 +2374,666 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "42C9E6607E3348CB"
+				id: "0A248D8690F53F3D"
 				type: "item"
-				item: "pixelmon:red_shard"
+				item: "pixelmon:silver_brave_symbol"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -19.5d
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "310C5477CA12A1A9"
+			tasks: [{
+				id: "3733EC8E91792E75"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E1F3C5E6840ACEA"
+				type: "item"
+				item: "pixelmon:galactic_badge"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -16.5d
+			description: [
+				"If you defeat a Gateway (all 5 waves), you will get bonus loot."
+				""
+				"This bonus loot will include mundane things like experience and zombie flesh, but you will also get access to items randomly selected from loot tables, as if you'd visited a Pokestop."
+				""
+				"Harder pearls have higher level loot tables."
+			]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "192FEAC9D197A67B"
+			tasks: [{
+				id: "75EFD335831DB4E0"
+				type: "checkmark"
+				title: "Pearl Loot"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/pokestop/common.png"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2907775D068B01A0"
+				type: "command"
+				title: "Recieve Common Pokestop Loot"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/pokestop/common.png"
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~ ~ loot pixelmon:special/common_pokestop"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:griseous_orb"
+			x: -7.0d
+			y: -8.0d
+			description: [
+				"Make an offering to... ... to Giratina, and summon a Griseous Boss Pokemon. This Pokemon will be slightly weaker than an Ultimate Boss, and is guarenteed to drop the Griseous Orb."
+				""
+				"There's no telling exactly what kind of Lustrous Boss will spawn, except that you are guarenteed it will be a dragon-type Pokemon. Whether it ends up being a Gastly or a Gengar, that is up to chance."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E586B0A4B6B677C"
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			repeatable: true
+			id: "76C33B11BE8F789E"
+			tasks: [
+				{
+					id: "2C0CC7C6B0ED33FB"
+					type: "item"
+					item: "pixelmon:gold_ability_symbol"
+					consume_items: true
+				}
+				{
+					id: "4C11D3098122C49B"
+					type: "item"
+					item: "pixelmon:gold_brave_symbol"
+					consume_items: true
+				}
+				{
+					id: "5A7FB87CDA97814A"
+					type: "item"
+					item: "pixelmon:gold_spirits_symbol"
+					consume_items: true
+				}
+				{
+					id: "0A5886052E9F0784"
+					type: "item"
+					item: "pixelmon:gold_luck_symbol"
+					consume_items: true
+				}
+				{
+					id: "6D003A7158F197E3"
+					type: "item"
+					item: "pixelmon:gold_tactics_symbol"
+					consume_items: true
+				}
+				{
+					id: "6DF3D74A0E8D438C"
+					type: "item"
+					item: "pixelmon:gold_guts_symbol"
+					consume_items: true
+				}
+				{
+					id: "0E68CD1F0F3B924E"
+					type: "item"
+					item: "pixelmon:gold_knowledge_symbol"
+					consume_items: true
+				}
+				{
+					id: "213053C7B3A28897"
+					type: "item"
+					item: "pixelmon:silph_scope"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3EF8DD2041485162"
+				type: "command"
+				title: "Summon Griseous Boss. May be any Ghost type, including Legendaries."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/094_gengar/all/mega/shiny/sprite.png"
+					}
+				}
+				command: "/pokespawn random palette:spirit type:ghost boss:griseous"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:adamant_orb"
+			x: -7.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+			]
+			hide: true
+			repeatable: true
+			id: "58A43A6E7C47118F"
+			tasks: [
+				{
+					id: "39A078D64584761E"
+					type: "item"
+					item: "pixelmon:gold_ability_symbol"
+					consume_items: true
+				}
+				{
+					id: "4B50DC9BCC3DE00F"
+					type: "item"
+					item: "pixelmon:gold_brave_symbol"
+					consume_items: true
+				}
+				{
+					id: "3435742189BF8823"
+					type: "item"
+					item: "pixelmon:gold_spirits_symbol"
+					consume_items: true
+				}
+				{
+					id: "45744EA76ED668D3"
+					type: "item"
+					item: "pixelmon:gold_luck_symbol"
+					consume_items: true
+				}
+				{
+					id: "441BE8D767874DB5"
+					type: "item"
+					item: "pixelmon:gold_tactics_symbol"
+					consume_items: true
+				}
+				{
+					id: "00ED3828A8B631D9"
+					type: "item"
+					item: "pixelmon:gold_guts_symbol"
+					consume_items: true
+				}
+				{
+					id: "193BEF29E156979C"
+					type: "item"
+					item: "pixelmon:gold_knowledge_symbol"
+					consume_items: true
+				}
+				{
+					id: "71EDFE11663F4BF0"
+					type: "item"
+					item: "pixelmon:elevator_key_flare"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0475F12B2E8F84CA"
+				type: "command"
+				title: "Summons a Adamant Boss. This may be any steel type Pokemon, including Legendaries."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/884_duraludon/all/gmax/shiny/sprite.png"
+					}
+				}
+				command: "/pokespawn random palette:ashen type:steel boss:adamant"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon a Lustrous Boss"
+			icon: "pixelmon:lustrous_orb"
+			x: -7.0d
+			y: -10.0d
+			description: [
+				"Make an offering to Arceus, and summon a Lustrous Boss Pokemon. This Pokemon will be slightly weaker than an Ultimate Boss, and is guarenteed to drop the Lustrous Orb."
+				""
+				"There's no telling exactly what kind of Lustrous Boss will spawn, except that it is will be dragon-like. Whether it ends up being a Dratini or a Dragonite, that is up to chance."
+				""
+				"If you have a difficult time gathering materials for this quest, you may want to be absolutely certain you can defeat the Boss before you submit your materials. On the other hand, if you find gathering the materials to be easy, you may find you want to keep summoning bosses until you recieve something easier to defeat."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+				"7FD98E8A79BA348B"
+			]
+			hide: true
+			repeatable: true
+			id: "04E48CB0FEA717BF"
+			tasks: [
+				{
+					id: "169256214D1794EB"
+					type: "item"
+					item: "pixelmon:gold_ability_symbol"
+					consume_items: true
+				}
+				{
+					id: "2BB25875F71B2396"
+					type: "item"
+					item: "pixelmon:gold_brave_symbol"
+					consume_items: true
+				}
+				{
+					id: "2CA6260EB6A032EA"
+					type: "item"
+					item: "pixelmon:gold_spirits_symbol"
+					consume_items: true
+				}
+				{
+					id: "6DC9BD53DAE476C6"
+					type: "item"
+					item: "pixelmon:gold_luck_symbol"
+					consume_items: true
+				}
+				{
+					id: "479CF153B4BF6500"
+					type: "item"
+					item: "pixelmon:gold_tactics_symbol"
+					consume_items: true
+				}
+				{
+					id: "37BAE76796FDF4DB"
+					type: "item"
+					item: "pixelmon:gold_guts_symbol"
+					consume_items: true
+				}
+				{
+					id: "57E2CD09C4B46AE8"
+					type: "item"
+					item: "pixelmon:gold_knowledge_symbol"
+					consume_items: true
+				}
+				{
+					id: "384BDEFC27069F22"
+					type: "item"
+					item: "pixelmon:dragon_skull"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5EBD9E7DA38EE748"
+				type: "random"
+				title: "Fight One of these Lustrous Bosses"
+				table_id: 1167676924251334324L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -19.5d
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "3FBB9D6114EAE7D2"
+			tasks: [
+				{
+					id: "7421FCB035B567F2"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 256L
+					consume_items: true
+				}
+				{
+					id: "192E03EB59769E08"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 256L
+					consume_items: true
+				}
+				{
+					id: "59C251FA1CA05D8B"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 256L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "428681CBDDA98FA0"
+				type: "item"
+				item: "pixelmon:silver_knowledge_symbol"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -19.5d
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "001CFF9D1415ED7A"
+			tasks: [{
+				id: "28B0C03C02CB8307"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7EBAF7B880E991CB"
+				type: "item"
+				item: "pixelmon:devon_scope"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -19.5d
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "4816B14E5D867A73"
+			tasks: [{
+				id: "1338DCD8A07B75F4"
+				type: "item"
+				item: "minecraft:magma_cream"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "47F18EEC4ADB4584"
+				type: "item"
+				item: "pixelmon:silver_tactics_symbol"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -19.5d
+			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
+			dependencies: ["0E26E5EC25105609"]
+			hide: true
+			id: "03548BF1CCE91E7D"
+			tasks: [{
+				id: "0B2D8A76A249BE55"
+				type: "item"
+				item: "minecraft:slime_block"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B1D1844A0891DCB"
+				type: "item"
+				item: "pixelmon:silver_luck_symbol"
+			}]
+		}
+		{
+			title: "Spawn Common Boss"
+			x: -10.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"52BEB888192EAEC6"
+				"009394F19D70F361"
+			]
+			hide: true
+			id: "2F4F3636DA26088C"
+			tasks: [{
+				id: "618D2257A1087718"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:silver_ability_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silver_brave_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silver_spirits_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silver_luck_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silver_tactics_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silver_guts_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silver_knowledge_symbol"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5843FEE32E02B9FB"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:common"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon Uncommon Boss"
+			x: -10.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"52BEB888192EAEC6"
+				"009394F19D70F361"
+			]
+			hide: true
+			id: "7CF360BDC94BC569"
+			tasks: [{
+				id: "580B2F120B147D4B"
+				type: "item"
+				item: "pixelmon:galactic_badge"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "69FB2B7F1E43F915"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:uncommon"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon Epic Boss"
+			x: -4.0d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+			]
+			hide: true
+			id: "263D8C31C311044A"
+			tasks: [{
+				id: "2331890334BE39D5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:gold_ability_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:gold_brave_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:gold_spirits_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:gold_luck_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:gold_tactics_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:gold_guts_symbol"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:gold_knowledge_symbol"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "43EE3CCC60D4D397"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon Legendary Boss"
+			x: -4.0d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+			]
+			hide: true
+			id: "06FD4F5EAC14104E"
+			tasks: [{
+				id: "1C3A51242B7F3367"
+				type: "item"
+				item: "pixelmon:elevator_key_flare"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E16DD08104C4841"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon Rare Boss"
+			x: -10.5d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"52BEB888192EAEC6"
+				"009394F19D70F361"
+			]
+			hide: true
+			id: "0974132CFA76F6A4"
+			tasks: [{
+				id: "799B726097E641A9"
+				type: "item"
+				item: "pixelmon:plasma_badge"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "488A56C75680D959"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon Ultimate Boss"
+			x: -4.0d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+			]
+			hide: true
+			id: "54BB53184421675D"
+			tasks: [{
+				id: "1BF87DF5933C7F91"
+				type: "item"
+				item: "pixelmon:dragon_skull"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "42DAC129B0640384"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:ultimate"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summon Haunted Boss"
+			x: -10.5d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"52BEB888192EAEC6"
+				"009394F19D70F361"
+			]
+			hide: true
+			id: "552813A85E0DA63B"
+			tasks: [{
+				id: "1CAA169C97D41281"
+				type: "item"
+				item: "pixelmon:devon_scope"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "482673BE334460D9"
+				type: "command"
+				command: "/execute at @p run pokespawn random boss:haunted"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB3F1D2F7F6E83D"
+				"2DF90FCB71029B41"
+			]
+			hide: true
+			id: "10CBE45F6B7B78FE"
+			tasks: [{
+				id: "795E4743879F74B5"
+				type: "item"
+				item: "pixelmon:silph_scope"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "615037C86E6EDD8A"
+				type: "command"
+				title: "Summon Haunted Boss"
+				command: "/execute at @p run pokespawn random boss:haunted"
+				player_command: false
 			}]
 		}
 	]

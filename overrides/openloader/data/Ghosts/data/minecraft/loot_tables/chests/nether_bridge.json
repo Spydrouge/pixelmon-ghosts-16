@@ -2,386 +2,387 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "name": "artifacts",
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:poke_ball",
           "functions": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+              "function": "minecraft:set_nbt",
+              "tag": "{\"PokeBallID\": \"master_ball\"}"
             }
-          ],
-          "name": "pixelmon:ruby",
-          "weight": 5
+          ]
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:charcoal",
-          "weight": 5
+          "weight": 1,
+          "name": "pixelmon:griseous_orb"        
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 15
+          "weight": 1,
+          "name": "pixelmon:prison_bottle"        
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_chestplate",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_leggings",
-          "weight": 5
-        },
-           {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_helmet",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_boots",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max":5.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_apple",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_carrot",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:flint_and_steel",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:nether_wart",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:obsidian",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:flame_orb",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "name": "pixelmon:flame_plate",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:spooky_plate",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:dread_plate",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:iron_plate",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:charcoal",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tconstruct:lavawood",
-          "weight": 25
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ceramics:lava_bricks",
-          "weight": 25
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "pixelmon:lava_cookie",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "biomesoplenty:hellbark_log",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 12.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "pixelmon:fire_stone_shard",
-          "weight": 10
-        }, 
-        
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "pixelmon:fire_gem",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:twisted_spoon",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:heat_rock",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:eviolite",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:choice_scarf",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "name": "pixelmon:choice_band",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "name": "pixelmon:choice_specs",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:metal_coat",
-          "weight": 5
-        },
-         {
-          "type": "minecraft:item",
-          "name": "pixelmon:scope_lens",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:wide_lens",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:zoom_lens",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:heavy_duty_boots",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:wise_glasses",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:power_anklet",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:power_band",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:power_belt",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:power_bracer",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:power_lens",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:power_weight",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:macho_brace",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:magmarizer",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:dubious_disc",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pixelmon:reaper_cloth",
-          "weight": 2
+          "type": "empty",
+          "weight": 50
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 5.0
-      }
+      ]
     },
     {
-      "bonus_rolls": 0.0,
+      "name": "treasure",
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 14
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "pixelmon:relic_copper"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rib_armor_trim_smithing_template"
+          "weight": 1,
+          "name": "pixelmon:relic_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:relic_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "pixelmon:nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:big_nugget"
+        },
+        {
+          "type": "empty",
+          "weight": 10
         }
-      ],
-      "rolls": 1.0
+      ]
+    },
+    {
+      "name": "helditems",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:charcoal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:spell_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:flame_plate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pixelmon:spooky_plate"
+        },
+         {
+          "type": "minecraft:item",
+          "name": "pixelmon:flame_orb",
+          "weight": 1
+        },
+        {
+          "type": "empty",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "name": "gems",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:fire_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:ghost_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "pixelmon:ruby",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+         {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "vanilla",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "immersiveengineering:ingot_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thermal:signalum_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "tconstruct:rose_gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spartanshields:shield_basic_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spartanshields:shield_tower_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:golden_knife"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pixelmon:lava_cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "tconstruct:lavawood",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "ceramics:lava_bricks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:saddle"
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/nether_bridge"
+  ]
 }

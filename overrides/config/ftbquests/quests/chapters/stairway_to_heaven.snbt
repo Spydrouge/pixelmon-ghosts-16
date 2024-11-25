@@ -1,7 +1,7 @@
 {
 	id: "5531FA2CC3718029"
 	group: "4A96B64D5627EDC5"
-	order_index: 4
+	order_index: 6
 	filename: "stairway_to_heaven"
 	title: "Stairway to Heaven"
 	icon: {
@@ -124,8 +124,10 @@
 		}
 		{
 			title: "Investigate the Nether"
-			x: 8.5d
+			x: 9.5d
 			y: 1.5d
+			description: ["There may be something important here for you to find. You should try to visit all possible Biomes, and keep an eye out for legendary Pokemon."]
+			dependencies: ["4E56184BCCE2B715"]
 			hide: true
 			id: "723F108EFF27DD19"
 			tasks: [{
@@ -138,6 +140,8 @@
 			title: "Investigate the End"
 			x: 10.5d
 			y: 1.5d
+			description: ["There may be something important here for you to find. You should try to visit all possible Biomes, and keep an eye out for legendary Pokemon."]
+			dependencies: ["4E56184BCCE2B715"]
 			id: "7D0EF0D289D56CC6"
 			tasks: [{
 				id: "480226E7D1644F1A"
@@ -155,6 +159,15 @@
 		{
 			x: 9.5d
 			y: -5.0d
+			description: [
+				"Lustrous Orbs are rare objects, even in the End Cities that guard them. You can think of three ways to obtain one."
+				""
+				"First, you can of course search end city after end city, but these are few and far between, and may have been raided long before you get there."
+				""
+				"Second, you can wait until an Ultimate Boss appears, and attempt to defeat it in combat."
+				""
+				"Thirdly, you can continue to explore the &dEvil Forces questline&r. You have a premenition it will offer you not one but two different ways to obtain the Lustrous orb."
+			]
 			dependencies: ["7FD98E8A79BA348B"]
 			hide: true
 			id: "65C48F69CBF3B9F9"
@@ -202,43 +215,88 @@
 		{
 			x: 8.5d
 			y: -0.5d
+			description: ["Azelf is the \"Being of Willpower.\" They have hidden in the remaining water of the world."]
+			dependencies: ["671023BA826B94A5"]
 			hide: true
 			id: "738A1F5123BD71E3"
 			tasks: [{
-				id: "426DF02CD8F136B9"
-				type: "pixelmon:catch_pokemon"
+				id: "2F5A7B6F3013BC2E"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Azelf"
 				pokemon: "azelf"
 				count: 1
 				invert: false
-				catchType: 1b
+				party: 0b
+				consumePokemon: false
 			}]
-		}
-		{
-			x: 9.5d
-			y: -0.5d
-			hide: true
-			id: "6B57C8BB49CEF332"
-			tasks: [{
-				id: "01A1EFEFAF82E24C"
-				type: "pixelmon:catch_pokemon"
-				pokemon: "uxie"
-				count: 1
-				invert: false
-				catchType: 1b
+			rewards: [{
+				id: "3BC0B51BE26F8AF2"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 34
+					}
+				}
 			}]
 		}
 		{
 			x: 10.5d
 			y: -0.5d
+			description: ["Uxie is the Being of Knowledge. It has fled to the moon, away from all that once was."]
+			dependencies: ["7D0EF0D289D56CC6"]
+			hide: true
+			id: "6B57C8BB49CEF332"
+			tasks: [{
+				id: "1585CC8354D22CA0"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Uxie"
+				pokemon: "uxie"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "781C22E0FF6B053C"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 34
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			description: ["Mesprit is the \"Being of Emotion.\" They have hidden in the remaining lava of the world."]
+			dependencies: ["723F108EFF27DD19"]
 			hide: true
 			id: "53B1E58E21889741"
 			tasks: [{
-				id: "17286097C8093146"
-				type: "pixelmon:catch_pokemon"
+				id: "6D85BD0C8FBAFF0C"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Mesprit"
 				pokemon: "mesprit"
 				count: 1
 				invert: false
-				catchType: 1b
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "05DAD8AB9935559C"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 34
+					}
+				}
 			}]
 		}
 		{
@@ -281,8 +339,10 @@
 		}
 		{
 			title: "Investigate the Drowned World"
-			x: 9.5d
+			x: 8.5d
 			y: 1.5d
+			description: ["There may be something important here for you to find. You should try to visit all possible Biomes, and keep an eye out for legendary Pokemon."]
+			dependencies: ["4E56184BCCE2B715"]
 			id: "671023BA826B94A5"
 			tasks: [{
 				id: "2C6AB4C4207684E5"
@@ -707,6 +767,39 @@
 				id: "130CB8326891CFF5"
 				type: "choice"
 				table_id: 7824737088415623131L
+			}]
+		}
+		{
+			title: "Stairway to Heaven"
+			x: 9.5d
+			y: 3.0d
+			description: [
+				"By now you've made a tour of everything left of your home planet: The moon, the molten core of the earth, and the remaining water."
+				""
+				"But there might be one place left to go, to harvest resources for rebuilding your world. You remember tales of Space and Time, Sun and Moon, and the image of the altar to Arceus keeps coming back to you."
+				""
+				"You believe there may be a way to visit &dUltra Space&r, home of the gods, and it has to do with the altar."
+				""
+				"But to get there will be an intense and difficult journey. First, you will have to track down &athree legendary spirits&r hiding among the remains of the world. These spirits may not be willing to join you, but defeating them in combat may lead to them bestowing upon you an egg. "
+				""
+				"Your ultimate goal will be to find and harness the power of Palkia, God of Space. Either you must convince them to join your team, or show your capabilities by defeating them in battle. &dPalkia&r should be able to show you the way to Ultra Space, where... ultimately... you may be able to find Arceus himself."
+			]
+			dependencies: [
+				"721C7720EB194EAE"
+				"5742DF95648CAE94"
+				"26B77E6C4944C144"
+			]
+			hide: true
+			size: 2.0d
+			id: "4E56184BCCE2B715"
+			tasks: [{
+				id: "39B370EEAFF1DF97"
+				type: "observation"
+				title: "Pray at the Time Space Altar"
+				icon: "pixelmon:timespace_altar"
+				timer: 60L
+				observe_type: 0
+				to_observe: "pixelmon:timespace_altar"
 			}]
 		}
 	]

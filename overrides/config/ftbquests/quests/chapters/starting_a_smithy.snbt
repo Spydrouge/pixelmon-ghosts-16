@@ -2645,7 +2645,7 @@
 			description: [
 				"Queen's Slime is a bulky, durable alloy that translates some of a tool's normal durability into Overslime. This can be combined with Slimewood for a regenerative effect, or restored with Slime Crystals as normal."
 				""
-				"It is also used in the Reach modifier, although doing so requires enderslime."
+				"It is also used in the Reach modifier, although the Reach Modifier also requires enderslime."
 			]
 			dependencies: ["42C7965F79653EAE"]
 			hide: true
@@ -3236,7 +3236,7 @@
 			x: 9.0d
 			y: 2.0d
 			description: [
-				"Feather Balls do not have an enhanced catch rate, and still require the two silver ingots of the Ancient Great Ball. However, they produce 5 balls instead of 3, making them cheaper than Love Balls."
+				"Feather Balls do not have an enhanced catch rate, and still require the two silver ingots you would probably rather spend on the Ancient Great Ball. However, they produce 5 balls instead of 3, making them cheaper than Love Balls, assuming you have the metal. You also think you can make them with any electrum you find among electric Pokemon."
 				""
 				"They require Sky Tumblestone."
 			]
@@ -3276,7 +3276,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 10.0d
 			y: 3.0d
 			description: [
 				"This ball has a 2.0x catch rate but drops like a stone. Its recipe also produces five balls instead of three, making it superior to the Ancient Great Ball. It requires Black Tumblestone."
@@ -3296,7 +3296,7 @@
 						PokeBallID: "leaden_ball"
 					}
 				}
-				count: 5L
+				count: 3L
 				match_nbt: true
 			}]
 			rewards: [
@@ -3428,14 +3428,14 @@
 			]
 		}
 		{
-			x: 10.0d
+			x: 11.0d
 			y: 3.0d
 			description: [
 				"Gigaton balls sink like a stone but have a 2.75x catch rate on all Pokemon. Like with the Ancient Ultra Ball lid, its recipe requires two platinum ingots and produces only a single ball."
 				""
 				"Additionally, Gigaton Balls can be made with Lead Plates as an alternative to Platinum."
 			]
-			dependencies: ["61156024E1329533"]
+			dependencies: ["01836F40611CC4EF"]
 			hide: true
 			id: "6ADA80A32DE8B4B4"
 			tasks: [{
@@ -3481,10 +3481,10 @@
 			]
 		}
 		{
-			x: 10.0d
+			x: 11.0d
 			y: 2.0d
 			description: ["Jet Balls are the least valuable of the ancient, high-end, platinum demanding balls. Their catch rate is only 1.5x, which is the same as a Great Ball, and the only benefit of using them, their ability to travel very far and potentially hit flying Pokemon, is difficult to pull off in a void. As long as it does not fly too far, Drifloon will attempt to catch it if it misses the Pokemon. But to use one safely, you will only ever want to fire straight up on a fairly large platform."]
-			dependencies: ["0825C5137B2FE74B"]
+			dependencies: ["16E81B10CDA96C01"]
 			hide: true
 			id: "0C4615C77474AEBD"
 			tasks: [{
@@ -3505,44 +3505,7 @@
 					table_id: 9093306389108564916L
 				}
 				{
-					id: "39960F4BE3B88886"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen4"
-						Count: 1b
-						tag: {
-							tm: 62
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 11.0d
-			y: 2.0d
-			description: ["While making the Wing Ball according to its usual recipe would be a massive waste of resources, you think you can create a Wing Ball lid using Electrum Wire."]
-			dependencies: ["0C4615C77474AEBD"]
-			id: "1FE3287A37C5C2BD"
-			tasks: [{
-				id: "7E90DA467DD653CB"
-				type: "item"
-				item: {
-					id: "pixelmon:poke_ball"
-					Count: 1b
-					tag: {
-						PokeBallID: "wing_ball"
-					}
-				}
-				match_nbt: true
-			}]
-			rewards: [
-				{
-					id: "5F405C40F0C6FCE9"
-					type: "choice"
-					table_id: 9093306389108564916L
-				}
-				{
-					id: "7504B3CD00F180A1"
+					id: "7493A5AE51EB9721"
 					type: "item"
 					item: {
 						id: "pixelmon:tr_gen8"
@@ -3555,10 +3518,48 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 10.0d
+			y: 2.0d
+			description: ["The Wing Ball only has a 1.25x catch rate, making it far weaker than its equivalent black-tumblestone ball. Its only advantage is how fast you can throw it (and how easily you can lose it). You think you can create a Wing Ball lid using Electrum Wire, which about halves the price in metal. However, since Sky Tumblestones are not common, you are not sure if this makes it worth the price."]
+			dependencies: ["16E81B10CDA96C01"]
+			id: "1FE3287A37C5C2BD"
+			tasks: [{
+				id: "7E90DA467DD653CB"
+				type: "item"
+				item: {
+					id: "pixelmon:poke_ball"
+					Count: 1b
+					tag: {
+						PokeBallID: "wing_ball"
+					}
+				}
+				count: 3L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5F405C40F0C6FCE9"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "2BF689A2C0B74D05"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 62
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
 			y: 3.0d
 			description: ["While making an Ancient Heavy Ball by the usual recipe would be a waste of iron, you believe you can substitute Lead Wire for the Iron Ingots in the recipe."]
-			dependencies: ["6ADA80A32DE8B4B4"]
+			dependencies: ["01836F40611CC4EF"]
 			id: "5D21B396FE5D7D44"
 			tasks: [{
 				id: "5E967A599C10977C"
@@ -3570,6 +3571,7 @@
 						PokeBallID: "ancient_heavy_ball"
 					}
 				}
+				count: 5L
 				match_nbt: true
 			}]
 			rewards: [
@@ -3600,7 +3602,7 @@
 				""
 				"Pokemon caught in a heal ball can be used immediately without resting. They do not have an enhanced catch rate."
 				""
-				"Consider using your first Pokeball to create an Old Rod with."
+				"Consider using your first regular Pokeball to create an Old Rod with."
 			]
 			hide_dependency_lines: true
 			dependencies: ["11F689A8DC3A4BE2"]
@@ -4437,6 +4439,7 @@
 		{
 			x: -5.0d
 			y: 2.0d
+			description: ["Will this attract Magneton?"]
 			dependencies: ["5CADE6A95E631F8E"]
 			hide: true
 			id: "6838B9B5005A06E5"
@@ -4460,6 +4463,7 @@
 		{
 			x: -5.0d
 			y: 3.0d
+			description: ["Will this attract Magnezone?"]
 			dependencies: ["0A414E8D40C006D3"]
 			hide: true
 			id: "10723F7054F3E2D3"
@@ -4486,7 +4490,9 @@
 			description: [
 				"The pinnacle of Magnemite, Magneton, and Magnezone attraction technology: A true lightning rod."
 				""
-				"You will likely not be able to build this prior to successfully attracting and harvesting from Honedge."
+				"You will likely not be able to build this prior to successfully attracting and harvesting from other steel Pokemon, such as Magnemite or Honedge, using alternative means."
+				""
+				"It requires four whole anvils."
 			]
 			dependencies: [
 				"10723F7054F3E2D3"
@@ -4620,6 +4626,12 @@
 							tm: 59
 						}
 					}
+				}
+				{
+					id: "4B2849C6E2B892B7"
+					type: "item"
+					title: "Your Pokemon are Helping!"
+					item: "immersiveengineering:seed"
 				}
 			]
 		}
@@ -5322,6 +5334,8 @@
 				"However, Honedge will be attracted to them, potentially offsetting their high cost by allowing you to recover a small amount of iron."
 				""
 				"The best area to set up the anvil will be below Y = 64, where there are many broken weapons and other debris from ancient time periods. The Anvil may also be of use in the nether, in areas where Honedge already spawns."
+				""
+				"It should be noted that Honedge are also attracted to chipped and damaged anvils, and, indeed, may be most attracted to a location with many ages of anvils."
 			]
 			hide_dependency_lines: true
 			dependencies: [

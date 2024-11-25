@@ -2128,6 +2128,7 @@
 					count: 1
 					invert: false
 					party: 0b
+					consumePokemon: false
 				}
 			]
 			rewards: [{
@@ -2503,6 +2504,7 @@
 					count: 1
 					invert: false
 					party: 0b
+					consumePokemon: false
 				}
 				{
 					id: "1142AEEC29E9615E"
@@ -3123,6 +3125,7 @@
 					count: 1
 					invert: false
 					party: 0b
+					consumePokemon: false
 				}
 				{
 					id: "50EFC416E479C6FA"
@@ -3169,6 +3172,7 @@
 				count: 1
 				invert: false
 				party: 0b
+				consumePokemon: false
 			}]
 			rewards: [{
 				id: "5FB7124ED65238DD"

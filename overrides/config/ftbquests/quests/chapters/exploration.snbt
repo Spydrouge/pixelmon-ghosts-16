@@ -3,7 +3,7 @@
 	group: "5CC2B36466F88246"
 	order_index: 2
 	filename: "exploration"
-	title: "Exploration"
+	title: "Vertical Exploration"
 	icon: {
 		id: "minecraft:elytra"
 		Count: 1b

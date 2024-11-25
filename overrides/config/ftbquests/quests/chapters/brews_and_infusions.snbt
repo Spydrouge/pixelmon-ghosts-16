@@ -3762,6 +3762,13 @@
 		}
 		{
 			title: "A Dynamic Duo of Taste!"
+			icon: {
+				id: "pixelmon:tm_gen7"
+				Count: 1b
+				tag: {
+					tm: 32
+				}
+			}
 			x: 3.0d
 			y: 1.5d
 			description: ["Oh! Drifloon Has Found Something!"]
@@ -3769,6 +3776,8 @@
 				"5A5446F1D07D80A2"
 				"10FDF176DA08CFEE"
 			]
+			hide: true
+			secret: true
 			id: "03DCA0E58DD66024"
 			tasks: [{
 				id: "3671C92C739A43CD"

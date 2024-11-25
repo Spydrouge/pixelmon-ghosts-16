@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " n ",
+    "nrn",
+    " n "
+  ],
+  "key": {
+    "r": {
+      "item": "astralsorcery:infused_wood_infused"
+    },
+    "n": {
+      "item": "pixelmon:galactic_badge"
+    }
+  },
+  "result": {
+    "item": "pixelmon:elevator_key_flare",
+    "count": 1
+  }
+}

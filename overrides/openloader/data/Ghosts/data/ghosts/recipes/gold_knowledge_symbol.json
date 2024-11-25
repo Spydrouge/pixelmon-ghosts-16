@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " n ",
+    "nrn",
+    " n "
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:gold_block"
+    },
+    "n": {
+      "item": "pixelmon:silver_knowledge_symbol"
+    }
+  },
+  "result": {
+    "item": "pixelmon:gold_knowledge_symbol",
+    "count": 1
+  }
+}

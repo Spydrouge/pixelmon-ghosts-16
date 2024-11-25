@@ -1,0 +1,139 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_13"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_cat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_blocks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_chirp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_mall"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_cat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_mellohi"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_stal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_strad"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_ward"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_11"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_wait"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_cat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:music_disc_pigstep"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "biomesoplenty:music_disc_wanderer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:pokecenter_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:ultraspace_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:wild_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:player_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:trainer_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:gym_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:boss_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:legendary_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:raid_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "pixelmon:custom_music_disc"
+        }
+      ]
+    }
+  ]
+}

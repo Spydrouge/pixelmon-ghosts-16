@@ -3,7 +3,7 @@
     "input": {
     "item": "pixelmon:fire_stone"
   },
-  "output": "minecraft:lava",
+  "output": "contenttweaker:pixelmon_burn_heal",
   "productionMultiplier": 1.0,
   "shatterMultiplier": 40.0,
   "color": -51956

@@ -1,6 +1,6 @@
 {
 	id: "109F9B70D838C2F0"
-	group: "5CC2B36466F88246"
+	group: "4A96B64D5627EDC5"
 	order_index: 4
 	filename: "to_the_origin_of_nothing"
 	title: "An Empty Sensation"
@@ -119,6 +119,7 @@
 		{
 			x: 0.0d
 			y: -10.5d
+			description: ["A Nature's Compass will help you find all of the Biomes in the End."]
 			dependencies: ["26B77E6C4944C144"]
 			hide: true
 			id: "1FC72C46F82A1963"
@@ -1347,6 +1348,59 @@
 					table_id: 9093306389108564916L
 				}
 			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/480_uxie/all/base/none/sprite.png"
+				}
+			}
+			x: 0.0d
+			y: -14.5d
+			description: [
+				"A spirit has been spying on you as you've explored the End. Perhaps you should try confronting it?"
+				""
+				"(Warning: Make sure you feel capable of defeating a level 100 legendary Pokemon. If you fail, and have to leave so that it despawns, you'll be left relying on it to spawn again naturally.)"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"481560122FBB926A"
+				"40D5F580BA04962F"
+				"54B5882A83212DC4"
+				"7490BDE2637BAC7C"
+				"42F14706EBE6C13C"
+				"441D3DC4AE4FAE6E"
+				"771DA4D45BB57513"
+				"7FC72A588FBC2147"
+				"5483395295707CDD"
+				"7B4E7936D063248A"
+				"121D2144556FD9C1"
+				"732ED95D9F84E6B7"
+				"5A992B2A4637044D"
+			]
+			hide: true
+			id: "32C2D997DFA2B24B"
+			tasks: [{
+				id: "21B0FD6F58DA7B3C"
+				type: "checkmark"
+				title: "Meet Uxie"
+			}]
+			rewards: [{
+				id: "60E178F31AC3F561"
+				type: "command"
+				title: "Uxie will appear in one minute"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/480_uxie/all/base/none/sprite.png"
+					}
+				}
+				command: "/function ghosts:spawn_uxie"
+				player_command: false
+			}]
 		}
 	]
 }

@@ -1,0 +1,41 @@
+{
+	id: "430E83A72F64C78D"
+	group: "4A96B64D5627EDC5"
+	order_index: 7
+	filename: "what_now"
+	title: "What Now?"
+	icon: "rftoolsdim:empty_biome_controller_dimlet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "What Now?"
+		icon: "rftoolsutility:matter_transmitter"
+		x: 7.0d
+		y: 2.0d
+		description: [
+			"You have Giratina and Arceus and the majority of your first Pokemon Journey is behind you. So what do you do now?"
+			""
+			"You can of course amuse yourself with building an elaborate palace for your friends to inhabit, but the world is still in a very broken state, and many Pokemon are still missing from it."
+			""
+			"One path you might consider taking is investigating &rManufactured Dimensions&r, courtesy of RFTools. These dimensions require power to continue functioning, and will collapse with you in it if they don't recieve any."
+			""
+			"You won't find Pokemon in them, but you'll find Biomes, and those Biomes can be brought home and added to your world with little glass jars, called Biome Jars."
+			""
+			"Perhaps you should try using this technique to complete your Pokedex, the way youngsters would before the apocalypse? You'll certainly make safe places for Pokemon to live, and you've learned that life somehow always finds a way."
+		]
+		dependencies: ["534D6277A54CE5BB"]
+		hide: true
+		size: 2.0d
+		id: "7B7FDE7E739A305E"
+		tasks: [{
+			id: "018D487C5362C192"
+			type: "checkmark"
+			title: "What Now?"
+		}]
+		rewards: [{
+			id: "17BB0DED148F2AAB"
+			type: "item"
+			item: "biomesinjars:empty_biome_jar"
+		}]
+	}]
+}

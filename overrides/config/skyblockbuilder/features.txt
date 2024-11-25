@@ -155,6 +155,11 @@ habitat:fairy_ring
 habitat:huge_fairy_ring_mushroom
 astralsorcery:replace_block
 astralsorcery:rock_crystal
+farmersdelight:rice
+ends_delight:chorus_succulent_feature
+botania:mystical_flowers
+botania:mystical_mushrooms
+rftoolsdim:rftfeature
 pixelmon:ore_sun
 pixelmon:ore_dawn
 pixelmon:ore_dusk
@@ -187,14 +192,9 @@ pixelmon:drowned_world_seagrass
 pixelmon:candy_cane
 tconstruct:slime_tree
 tconstruct:slime_fungus
-farmersdelight:rice
-ends_delight:chorus_succulent_feature
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro
-botania:mystical_flowers
-botania:mystical_mushrooms
-rftoolsdim:rftfeature
 nethers_delight:propelplant
 byg:dummy_tree
 byg:beehive

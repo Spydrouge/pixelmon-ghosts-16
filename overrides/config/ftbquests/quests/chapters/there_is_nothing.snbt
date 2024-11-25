@@ -319,7 +319,7 @@
 					type: "command"
 					title: "Recieve a Pokemon Egg"
 					icon: "minecraft:turtle_egg"
-					command: "/pokegive @p Sinistea egg ball:premier_ball"
+					command: "/pokegive @p Sinistea egg ab:CursedBody ball:premier_ball"
 					player_command: false
 				}
 				{

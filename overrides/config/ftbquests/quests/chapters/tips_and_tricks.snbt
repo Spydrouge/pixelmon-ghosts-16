@@ -1169,36 +1169,29 @@
 				""
 				"It's still cute, though. Looking at it, you see it has its hidden ability Frisk. This might be helpful later on, for revealing when wild Pokemon are carrying items."
 			]
-			dependencies: ["5998CB1BDA3E4109"]
+			dependencies: [
+				"5998CB1BDA3E4109"
+				"61D6EDCFA99AB6CC"
+			]
 			hide: true
-			secret: true
+			hide_text_until_complete: true
 			id: "31B361CF85A33D2D"
 			tasks: [{
-				id: "0DCE77C1D721E9BA"
-				type: "questsadditions:time"
-				disable_toast: true
-				secret: true
-				elapsedTime: 1L
+				id: "7B82F4F27B0B165B"
+				type: "pixelmon:submit_pokemon"
+				title: "Have a Duskull"
+				pokemon: "Duskull"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
 			}]
-			rewards: [
-				{
-					id: "5341833D6B0E587D"
-					type: "item"
-					title: "Drifloon seemed to feel you were sad at losing the skull, and thoughtfully went to find you another."
-					item: "minecraft:skeleton_skull"
-				}
-				{
-					id: "16D114E8624E4693"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen7"
-						Count: 1b
-						tag: {
-							tm: 32
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "5341833D6B0E587D"
+				type: "item"
+				title: "Drifloon seemed to feel you were sad at losing the skull, and thoughtfully went to find you another."
+				item: "minecraft:skeleton_skull"
+			}]
 		}
 		{
 			title: "Tier 3 Armor"
@@ -2515,6 +2508,128 @@
 				id: "0854CAEF1CA8C79F"
 				type: "item"
 				item: "pixelmon:relic_copper"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: [
+				"Munna is slow like Duskull but with good defenses and a powerful special attack. If Duskull can set up Trick Room, Munna can blast the enemy away."
+				""
+				"At level 4 she will learn Hypnosis. While not very accurate, this move can put Pokemon to sleep, and sleeping Pokemon are easier to catch. You have access to so few Pokeballs, that this may be a vital ability. Later, she will learn the more reliable 'Yawn' ability."
+				""
+				"Munna's Stored Power ability is very weak now, but it should bcome more powerful when she gains access to stat-boosting moves. She will gain access to the healing move Moonlight very early on, as well as fighting moves like Moonblast, Psychic, and Future Sight."
+				""
+				"Munna should not be made to evolve until she has learned all her moves, as her evolved form learns none. She must be evolved with a Moon Stone as early as level 40 and as late as level 52, depending on what moves you give her."
+			]
+			dependencies: [
+				"5998CB1BDA3E4109"
+				"6BCA2C177694D5E9"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "10C2777EF87DE056"
+			tasks: [{
+				id: "3189B2265434CE21"
+				type: "pixelmon:submit_pokemon"
+				title: "Have a Munna"
+				pokemon: "Munna"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "2CCC9D7E667FF2BC"
+				type: "item"
+				item: {
+					id: "pixelmon:lens_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			description: [
+				"Nincada is a rare bug/ground type. It is the only Pokemon to split into two when it evolves, producing both a Ninjask and a Shedinja."
+				""
+				"If you want Shedinja to form, you must have a &aregular Pokeball&r in your inventory when Nincada evolves. If you do not have this regular pokeball, you will lose the chance to get Shedinja."
+				""
+				"You cannot make regular Pokeballs with the Apricons available here. That means your only chance of getting a Nincada is to find and harass Voltorb until it drops the relevant parts."
+				""
+				"Nincada is a very rare bug/ground type that turns into a bug/flying and a bug/ghost. If you delay its evolution until level 40, it will naturally learn the move dig, a powerful two-turn ground move you can then pass on to Nincada and Shedinja."
+				""
+				"It is also incredibly valuable for its move &aFalse Swipe&r which can be used to reduce wild pokemon to 1 hp without killing them. Given how few Pokeballs you have, this might be very helpful in ensuring you don't waste any Pokeballs when trying to catch Pokemon."
+			]
+			dependencies: [
+				"5998CB1BDA3E4109"
+				"50CA105AAB978921"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "5D0AFFC5D4060E7F"
+			tasks: [{
+				id: "0EB612945B73CB03"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Nincada"
+				pokemon: "Nincada"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [
+				{
+					id: "416D2F7A5AA3DA51"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+				{
+					id: "398D85EEA87B720D"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			description: [
+				"Sinistea can only evolve if you give it a special tea pot. While you can evolve Sinistea at any time, it's best to &await until level 13&r, or it will miss out on some important low level moves. The evolved form is a big upgrade in power and special defense, but is weak to physical attacks."
+				""
+				"Sinistea isn't plant type, but gains access to some powerful plant type moves, such as Mega Drain and Giga Drain. Aromatherapy allows it to cure negative status effects for its whole party!"
+				""
+				"Nasty Plot and, later, Shell Smash, will one day give it the ability to land a very heavy hit with Shadow Ball."
+				""
+				"Your Sinistea may have access to Cursed Body, which means there's a chance it disables direct damage moves that hit it. Once you have access to a healer, this may become part of a clever strategy to weaken boss Pokemon who have only one damaging move."
+			]
+			dependencies: [
+				"5998CB1BDA3E4109"
+				"2533ABFFBF895CC8"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "335AA0AF611AB874"
+			tasks: [{
+				id: "117111678BE9E157"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Sinistea"
+				secret: true
+				pokemon: "Sinistea"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "1D6BA1E4653BB944"
+				type: "item"
+				title: "Drifloon may have heard you say 'bone china' and got confused..."
+				item: "minecraft:bone_block"
 			}]
 		}
 	]

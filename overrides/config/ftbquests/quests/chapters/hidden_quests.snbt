@@ -1234,5 +1234,33 @@
 				}
 			]
 		}
+		{
+			x: 5.5d
+			y: 4.0d
+			secret: true
+			id: "52E5149E236EDF60"
+			tasks: [
+				{
+					id: "6FA83B6457836707"
+					type: "item"
+					item: "byg:red_glowcane_block"
+				}
+				{
+					id: "7EDA969369314DFA"
+					type: "item"
+					item: "byg:blue_glowcane_block"
+				}
+				{
+					id: "604800497229B7BF"
+					type: "item"
+					item: "byg:pink_glowcane_block"
+				}
+				{
+					id: "0650ED788A667D90"
+					type: "item"
+					item: "byg:purple_glowcane_block"
+				}
+			]
+		}
 	]
 }

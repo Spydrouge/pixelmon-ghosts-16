@@ -1,0 +1,151 @@
+{
+	id: "10346BF9DA6BE6B4"
+	order_index: 44
+	title: "Summon Lustrous Boss"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Dragonite"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/149_dragonite/all/base/ashen/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn dragonite palette:ashen boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Dragonair"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/148_dragonair/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn dragonair palette:shiny boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Dratini"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/147_dratini/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn dratini palette:shiny boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Dragalge"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/691_dragalge/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn dragalge boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Kingdra"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/230_kingdra/all/base/drowned/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn kingdra palette:drowned boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Dracovish"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/882_dracovish/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn dracovish boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Tatsugiri"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/978_tatsugiri/all/droopy/none/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn tatsukiri boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Mega Gyarados"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/130_gyarados/all/base/zombie/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn gyarados mega palette:drowned boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Skrelp"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/690_skrelp/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn skrelp boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Horsea"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/116_horsea/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn horsea boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Seadra"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/117_seadra/all/base/shiny/sprite.png"
+				}
+			}
+			command: "/execute at @p run pokespawn seadra boss:lustrous"
+			player_command: false
+			type: "command"
+		}
+	]
+}

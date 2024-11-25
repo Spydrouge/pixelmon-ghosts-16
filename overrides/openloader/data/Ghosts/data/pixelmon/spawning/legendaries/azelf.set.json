@@ -1,0 +1,54 @@
+{
+  "id": "Azelf",
+  "spawnInfos": [
+    {
+      "spec": "species:Azelf level:50",
+      "stringLocationTypes": [
+        "Surface Water"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "forests",
+          "lakes"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "minecraft:desert_lakes"
+        ]
+      },
+      "rarity": 2.0
+    },
+    {
+      "spec": "species:Azelf level:100 uncatchable",
+      "stringLocationTypes": [
+        "Underground",
+        "Land",
+        "Water",
+        "Underground Water"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 2.0
+    }
+  ]
+}
