@@ -552,7 +552,7 @@
 			x: 9.5d
 			y: -13.5d
 			subtitle: "Finish to Reveal Hidden Text"
-			description: ["... You have Arceus. But he seems curious, as if meeting you for the very first time."]
+			description: ["... You have Arceus. But the god seems curious, as if meeting you for the very first time."]
 			dependencies: [
 				"35CC394A04B01B1B"
 				"124B25573077BF17"

@@ -11,7 +11,6 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "16 Pixelmon Ghosts",
-  "version": "0.6.21",
   "author": "",
   "files": [
     {
@@ -270,13 +269,13 @@
       "required": true
     },
     {
-      "projectID": 267006,
-      "fileID": 3203677,
+      "projectID": 237065,
+      "fileID": 3777234,
       "required": true
     },
     {
-      "projectID": 237065,
-      "fileID": 3777234,
+      "projectID": 267006,
+      "fileID": 3203677,
       "required": true
     },
     {
@@ -335,8 +334,8 @@
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 5165701,
+      "projectID": 239197,
+      "fileID": 5007325,
       "required": true
     },
     {
@@ -345,8 +344,8 @@
       "required": true
     },
     {
-      "projectID": 239197,
-      "fileID": 5007325,
+      "projectID": 250398,
+      "fileID": 5165701,
       "required": true
     },
     {
@@ -370,13 +369,13 @@
       "required": true
     },
     {
-      "projectID": 252848,
-      "fileID": 3382150,
+      "projectID": 345317,
+      "fileID": 3303505,
       "required": true
     },
     {
-      "projectID": 345317,
-      "fileID": 3303505,
+      "projectID": 252848,
+      "fileID": 3382150,
       "required": true
     },
     {
@@ -405,13 +404,13 @@
       "required": true
     },
     {
-      "projectID": 417802,
-      "fileID": 4552976,
+      "projectID": 715171,
+      "fileID": 4124258,
       "required": true
     },
     {
-      "projectID": 715171,
-      "fileID": 4124258,
+      "projectID": 417802,
+      "fileID": 4552976,
       "required": true
     },
     {
@@ -425,13 +424,13 @@
       "required": true
     },
     {
-      "projectID": 573610,
-      "fileID": 3627380,
+      "projectID": 283644,
+      "fileID": 4501015,
       "required": true
     },
     {
-      "projectID": 283644,
-      "fileID": 4501015,
+      "projectID": 573610,
+      "fileID": 3627380,
       "required": true
     },
     {
@@ -475,13 +474,13 @@
       "required": true
     },
     {
-      "projectID": 419699,
-      "fileID": 4521290,
+      "projectID": 353794,
+      "fileID": 3068377,
       "required": true
     },
     {
-      "projectID": 353794,
-      "fileID": 3068377,
+      "projectID": 419699,
+      "fileID": 4521290,
       "required": true
     },
     {
@@ -490,13 +489,13 @@
       "required": true
     },
     {
-      "projectID": 247560,
-      "fileID": 4024011,
+      "projectID": 228525,
+      "fileID": 4351252,
       "required": true
     },
     {
-      "projectID": 228525,
-      "fileID": 4351252,
+      "projectID": 247560,
+      "fileID": 4024011,
       "required": true
     },
     {

@@ -11,6 +11,33 @@
       "maxLevel": 16,
       "typeID": "pokemon",
       "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+            "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Woobat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 4,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
         "maxLightLevel": 0,
         "stringBiomes": [
             "ghosts"

@@ -178,7 +178,7 @@
 		}
 		{
 			x: 0.0d
-			y: -11.0d
+			y: -11.5d
 			dependencies: ["68656D2ECD70A4C9"]
 			hide: true
 			id: "0BD06157B3F599CB"
@@ -207,7 +207,7 @@
 		}
 		{
 			x: 0.0d
-			y: -12.5d
+			y: -13.5d
 			dependencies: ["0BD06157B3F599CB"]
 			hide: true
 			id: "7EEAD69FE49927AB"
@@ -236,7 +236,7 @@
 		}
 		{
 			x: 0.0d
-			y: -14.0d
+			y: -15.0d
 			dependencies: ["7EEAD69FE49927AB"]
 			hide: true
 			id: "3632E0C47BD3B5DE"
@@ -382,7 +382,11 @@
 			title: "Soil, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: 0.0d
-			description: ["Burmy is only present when it is raining."]
+			description: [
+				"Burmy is only present when it is raining."
+				""
+				"The remaining Pokemon appear to be made form the broken and discarded debries from the cataclysm."
+			]
 			dependencies: ["30EB23683E1A1D4C"]
 			id: "03DF0C6FF8136840"
 			tasks: [
@@ -975,6 +979,7 @@
 			title: "Soil, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: 0.0d
+			description: ["Tynamo is a Pokemon famously found deeply underwater. It is one of the Pokemon people originally studied to understand how to build engines. You should certianly try to find some."]
 			dependencies: ["30EB23683E1A1D4C"]
 			id: "1B808CB153DB3F25"
 			tasks: [
@@ -1039,10 +1044,7 @@
 			title: "Soil, Underground Water: Evolved Pokemon"
 			x: 13.5d
 			y: -2.0d
-			dependencies: [
-				"0D2483CCEA2BB9F2"
-				"1B808CB153DB3F25"
-			]
+			dependencies: ["1B808CB153DB3F25"]
 			dependency_requirement: "one_completed"
 			id: "5FF501803C79338E"
 			tasks: [
@@ -1075,6 +1077,7 @@
 				""
 				"The first two here are self-explanatory, but Nincada are dropped to the earth sometimes when Shedinja appears, typically in small groups."
 			]
+			dependencies: ["30EB23683E1A1D4C"]
 			id: "7D972935B3B39DC3"
 			tasks: [
 				{
@@ -1133,9 +1136,9 @@
 					invertUsed: false
 				}
 				{
-					id: "402C1AE0D08113BC"
+					id: "62E19FB73D5A77FE"
 					type: "pixelmon:defeat_pokemon"
-					pokemon: "drifloon"
+					pokemon: "drifblim"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
@@ -1148,6 +1151,7 @@
 			x: -13.5d
 			y: 0.0d
 			description: ["Burmy will only spawn if it is not raining"]
+			dependencies: ["30EB23683E1A1D4C"]
 			id: "21FB59EEB6CE2027"
 			tasks: [
 				{
@@ -1184,6 +1188,7 @@
 			x: -15.5d
 			y: 0.0d
 			description: ["Burmy will only spawn if it is not raining."]
+			dependencies: ["30EB23683E1A1D4C"]
 			id: "7A5648EAA0C64986"
 			tasks: [
 				{
@@ -1250,6 +1255,7 @@
 			x: -11.5d
 			y: 0.0d
 			description: ["These pokemon spawn in the treetops, on leaves. You can use shears to create leaf habitats to increase the spawn area."]
+			dependencies: ["30EB23683E1A1D4C"]
 			id: "26E8FEA03877DF1C"
 			tasks: [
 				{
@@ -1568,10 +1574,7 @@
 			title: "Stone, Flying: Basic Pokemon"
 			x: -9.5d
 			y: 3.5d
-			dependencies: [
-				"4D61D20EF0182AE0"
-				"21CB787992C8B985"
-			]
+			dependencies: ["4D61D20EF0182AE0"]
 			id: "3A70CBA2EA3FD4EE"
 			tasks: [{
 				id: "69CFC779A63A7EE4"
@@ -1587,7 +1590,12 @@
 			title: "Stone, Flying: Evolved Pokemon"
 			x: -9.5d
 			y: 2.5d
-			description: ["The rare passing Vikavolt and Hydreigon appear to be the reason small Deino and Grubbin are thriving on this layer."]
+			description: [
+				"The rare passing Vikavolt appear to be the reason Grubbin are thriving on this layer."
+				""
+				"The bats appear to be attracted to note blocks."
+			]
+			dependencies: ["3A70CBA2EA3FD4EE"]
 			id: "21CB787992C8B985"
 			tasks: [
 				{
@@ -1603,15 +1611,6 @@
 					id: "2566C4F50518EE67"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "crobat"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "287ED967F656D57D"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "hydreigon"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
@@ -1673,6 +1672,7 @@
 			title: "Stone, Beach: Basic Pokemon"
 			x: -13.5d
 			y: 3.5d
+			description: ["On beaches down here, you can find Pokemon who seem to have crawled straight out of the rocks themselves."]
 			dependencies: ["4D61D20EF0182AE0"]
 			id: "148CC9E8BB3FA4F4"
 			tasks: [
@@ -1766,6 +1766,7 @@
 			title: "Stone, Desert: Basic Pokemon"
 			x: -15.5d
 			y: 3.5d
+			description: ["The deserts here are barren and rocky."]
 			dependencies: ["4D61D20EF0182AE0"]
 			id: "43EECFD2D02772DA"
 			tasks: [
@@ -2061,6 +2062,7 @@
 			title: "Stone, Indoor: Basic Pokemon"
 			x: 6.5d
 			y: 3.5d
+			description: ["These Pokemon appear to be leftover and broken peices from the basements of all the missing houses."]
 			dependencies: ["4D61D20EF0182AE0"]
 			id: "73CDC278AECD0847"
 			tasks: [
@@ -2185,6 +2187,7 @@
 			title: "Stone, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: 3.5d
+			description: ["Clamperl are hardy by nature, but Feebas appears to have survived being so deep under the water when the cataclysm happened. The Corsola appear to be the haunted remains of destroyed coral reefs."]
 			dependencies: ["4D61D20EF0182AE0"]
 			id: "1D4BCC0EF390707F"
 			tasks: [
@@ -2329,10 +2332,7 @@
 				""
 				"Sandstone will suppress some, but not all, other spawns, such as aron and golett."
 			]
-			dependencies: [
-				"73A5ECB1B2E15431"
-				"36EB6BB9F7538A21"
-			]
+			dependencies: ["36EB6BB9F7538A21"]
 			dependency_requirement: "one_completed"
 			id: "33F3BC4988F99C76"
 			tasks: [{
@@ -2413,6 +2413,7 @@
 			x: -5.0d
 			y: 5.5d
 			description: ["Runerigus will only spawn in a habitat fit for Yamask."]
+			dependencies: ["33F3BC4988F99C76"]
 			id: "73A5ECB1B2E15431"
 			tasks: [{
 				id: "1B48DF59E9A5D9C1"
@@ -2580,18 +2581,10 @@
 			title: "Deep Dark, Flying: Evolved Pokemon"
 			x: -9.5d
 			y: 6.5d
+			description: ["The bats appear to be attracted to note blocks."]
 			dependencies: ["0FEEF944331F0C73"]
 			id: "467DB7A076F29C32"
 			tasks: [
-				{
-					id: "7B2686FBC1F54A84"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "hydreigon"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 				{
 					id: "007E63281DA480EB"
 					type: "pixelmon:defeat_pokemon"
@@ -2660,6 +2653,7 @@
 			title: "Deep Dark, Beach: Basic Pokemon"
 			x: -13.5d
 			y: 7.5d
+			description: ["Among other fossil Pokemon washing up on beachs in the deep dark, you can also find Inkay, famous for being at the top and bottom of things."]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "298A26052EF4AF20"
 			tasks: [
@@ -2776,6 +2770,7 @@
 			title: "Deep Dark, Desert: Basic Pokemon"
 			x: -15.5d
 			y: 7.5d
+			description: ["Deserts in the deep dark are an excellent place to find ancient world serpents. "]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "3B379686E677013A"
 			tasks: [
@@ -2864,6 +2859,7 @@
 			title: "Deep Dark, Manmade: Basic Pokemon"
 			x: -7.0d
 			y: 7.5d
+			description: ["The Pokemon down here make you feel like you are on an archaeological dig!"]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "36EB6BB9F7538A21"
 			tasks: [
@@ -3028,6 +3024,7 @@
 			title: "Deep Dark, Indoor: Basic Pokemon"
 			x: 6.5d
 			y: 7.5d
+			description: ["The Pokemon down here are like a great archaeological find!"]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "4F4B3AF752C88FF5"
 			tasks: [
@@ -3056,10 +3053,7 @@
 			x: 6.5d
 			y: 5.5d
 			description: ["Unfortuntely, the fact that Bronzong and Metang share both types, psychic and steel, means no lure can differentiate between them."]
-			dependencies: [
-				"0A7C3F22B768AF75"
-				"4F4B3AF752C88FF5"
-			]
+			dependencies: ["4F4B3AF752C88FF5"]
 			dependency_requirement: "one_completed"
 			id: "5F0E79E545F54C98"
 			tasks: [
@@ -3218,6 +3212,7 @@
 		{
 			x: 13.5d
 			y: 7.5d
+			description: ["These amazing rock-and-water type fossil Pokemon appear to have been released from places in deep underground water during the cataclysm."]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "1D36FE37DDEB3FD1"
 			tasks: [
@@ -3301,6 +3296,8 @@
 				"Amoung all the tough-shelled bugs, bags of acid, and lightweight psychic pokemon, there appears to be a ghostly eevee."
 				""
 				"Watch out, however, as venonat is attracted to torches, campfires, and lanterns, and may overwhelm other spawns."
+				""
+				"Spoink appears to have survived by being lightweight and landing successfully on its spring."
 			]
 			dependencies: ["07738E3566B31309"]
 			id: "4512B71AE44630DD"
@@ -3441,6 +3438,11 @@
 		{
 			x: -7.0d
 			y: -4.5d
+			description: [
+				"These Pokemon appear to be the leftover trash from human civilization, floating around after the cataclysm."
+				""
+				"It seems different Grimer emerge at different times of day."
+			]
 			dependencies: ["07738E3566B31309"]
 			id: "10C1770E9630053B"
 			tasks: [
@@ -3545,6 +3547,7 @@
 		{
 			x: -11.5d
 			y: -4.5d
+			description: ["These insects are the children of the surviving cocoon bugs on this layer."]
 			dependencies: ["07738E3566B31309"]
 			id: "1C5CB4D2BC4A6663"
 			tasks: [
@@ -3589,6 +3592,7 @@
 		{
 			x: -9.5d
 			y: -4.5d
+			description: ["There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."]
 			dependencies: ["07738E3566B31309"]
 			id: "0FDFFCBD2F374E6F"
 			tasks: [{
@@ -3649,6 +3653,7 @@
 		{
 			x: -13.5d
 			y: -4.5d
+			description: ["It seems different Grimer emerge at different times of day on beaches on this layer."]
 			dependencies: ["07738E3566B31309"]
 			id: "44B4C233C9A661E4"
 			tasks: [
@@ -3751,6 +3756,7 @@
 		{
 			x: -15.5d
 			y: -4.5d
+			description: ["The deserts here are barren and full of bones."]
 			dependencies: ["07738E3566B31309"]
 			id: "3C29F2568554A621"
 			tasks: [
@@ -3792,6 +3798,13 @@
 		{
 			x: 3.0d
 			y: -4.5d
+			description: [
+				"Mushroom Pokemon have grown in the ruins of the cataclysm."
+				""
+				"Additionally you can find Mimikyu buried underground."
+				""
+				"The hellish-looking Sableye is a source of valuable gemstones."
+			]
 			dependencies: ["07738E3566B31309"]
 			id: "39FFD21ED5C990A0"
 			tasks: [
@@ -3836,7 +3849,7 @@
 		{
 			x: 2.0d
 			y: -5.5d
-			description: ["This pokemon will only spawn if there is podzol or mycelium"]
+			description: ["This pokemon will only spawn if there is podzol or mycelium."]
 			dependencies: ["39FFD21ED5C990A0"]
 			id: "7A701036A17391E4"
 			tasks: [{
@@ -3998,7 +4011,7 @@
 		{
 			x: 10.0d
 			y: -4.5d
-			description: ["These pokemon were light or durable enough to survive the cataclysm."]
+			description: ["These pokemon were light or durable enough to survive the cataclysm, and appear to have settled on the Murk Layer."]
 			dependencies: ["07738E3566B31309"]
 			id: "77E6B00837F32052"
 			tasks: [
@@ -4049,6 +4062,7 @@
 		{
 			x: 13.5d
 			y: -4.5d
+			description: ["Neither of these Pokemon are looking especially good."]
 			dependencies: ["07738E3566B31309"]
 			id: "47E689A6C4C6F150"
 			tasks: [
@@ -4090,6 +4104,11 @@
 		{
 			x: -3.0d
 			y: -8.0d
+			description: [
+				"Jigglypuff is an extremely light Pokemon; the most balloon-like Pokemon other than Drifloon!"
+				""
+				"You also see hardy bug Pokemon cocoons, who appear a bit cuter than the bugs on the Murk Layer. You can also still find ghostly Eevee."
+			]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "1B115B26C7FD264E"
 			tasks: [
@@ -4217,7 +4236,7 @@
 			x: -7.0d
 			y: -8.0d
 			description: [
-				"Spritzee and Swirlix spawn at opposite times of day."
+				"Spritzee and Swirlix spawn at opposite times of day. Both seem to be found in the ruins of fancy houses and bakeries."
 				""
 				"There appears to be a strange... Galarian? Koffing. Presumably, it evovles into Galarian Weezing."
 			]
@@ -4310,7 +4329,11 @@
 		{
 			x: 3.0d
 			y: -8.0d
-			description: ["Morelull is out during the night, and Shroomish during the day. How they tell the time underground is a mystery only mushrooms know."]
+			description: [
+				"Morelull is out during the night, and Shroomish during the day. How they tell the time underground is a mystery only mushrooms know."
+				""
+				"Wynaut appears to have survived by virtue of being indestructable."
+			]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "085F0C92CC99BE19"
 			tasks: [
@@ -4444,7 +4467,11 @@
 		{
 			x: 6.5d
 			y: -8.0d
-			description: ["All of these Pokemon are associated with evening, and perhaps that is why all of them are equally present day and night."]
+			description: [
+				"All of these Pokemon are associated with evening, and perhaps that is why all of them are equally present day and night."
+				""
+				"All appear to have survived in crumbled and broken houses."
+			]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "15749C752A54ED85"
 			tasks: [
@@ -4655,6 +4682,7 @@
 		{
 			x: -9.5d
 			y: -8.0d
+			description: ["There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "5F34EFAB3F8B4C47"
 			tasks: [{
@@ -4714,6 +4742,7 @@
 		{
 			x: -11.5d
 			y: -8.0d
+			description: ["Among the insects who are children of the hardy cocoon bugs who've survived on this layer, you can also find a rare fruit Pokemon growing among the branches: Bounsweet."]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "2894EBA5A6D54DC6"
 			tasks: [
@@ -4758,7 +4787,7 @@
 		{
 			x: -13.5d
 			y: -8.0d
-			description: ["This may be the only reliable source of lapis"]
+			description: ["These beaches may be the only reliable source of lapis."]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "6559153FFF3D780E"
 			tasks: [
@@ -4820,6 +4849,7 @@
 		{
 			x: -15.5d
 			y: -8.0d
+			description: ["The deserts here are barren and full of bones."]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "62B28D48CCEDE16E"
 			tasks: [
@@ -4857,6 +4887,746 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+		}
+		{
+			x: -3.0d
+			y: -11.5d
+			description: ["A number of light and flowery Pokemon seem to have survived on this layer, along with two spiritual birds."]
+			id: "533743F769D87C04"
+			tasks: [
+				{
+					id: "15B23113573E2F07"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "natu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2F3ECDC14CB75C1B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "oricorio form:sensu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "32E93276E78CDBC3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "flabebe"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1773A82D5389EABF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "comfey"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -12.5d
+			description: ["Fletchling seems to have risen from the ashes to live again. Fletchling is out during the day, and Murkrow during the night."]
+			dependencies: ["533743F769D87C04"]
+			id: "270C6DE3E945461E"
+			tasks: [
+				{
+					id: "28D8339C071DC7C7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "murkrow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5A7E41F98198607C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "fletchling"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -12.5d
+			dependencies: ["533743F769D87C04"]
+			id: "52537E203F360D54"
+			tasks: [
+				{
+					id: "4C263F688E19B68E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "honchkrow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "10FBEF72F61EEB0B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "xatu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2248CB497E99F9F8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "floette"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "671F05BC1F94292C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "florges"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -12.5d
+			description: ["With every possible bird associated with death and the spirit world around, and Fletchling having risen from the ashes, you hold out hope a Torchic might be found."]
+			dependencies: ["533743F769D87C04"]
+			id: "7C5A2B297AE72199"
+			tasks: [{
+				id: "4961FD63251AE142"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "torchic"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -11.5d
+			description: ["Two spiritual boards can be found presiding over the ruins here."]
+			id: "48693D9F9DDB70AF"
+			tasks: [
+				{
+					id: "0FB6ACA86DBF8B7C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "natu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "45BAED84ED622C2A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "oricorio form:sensu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -12.5d
+			description: ["Voltorb are very valuable because you can harvest pokeball parts from them. You can attract more of them with blocks of redstone."]
+			dependencies: ["48693D9F9DDB70AF"]
+			id: "5D80A9CBB43C7DD2"
+			tasks: [
+				{
+					id: "374ED29EB0C4F535"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "voltorb form:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "35F85B46E38CEBE6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "electrode form:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -12.5d
+			description: ["Pidove seems to have somehow survived the cataclysm! It does have a reputation for suriving floods, but surviving explosions is new! It is out during the day, and Murkrow during the night. "]
+			dependencies: ["48693D9F9DDB70AF"]
+			id: "600706C54DF337A5"
+			tasks: [
+				{
+					id: "2FEE906698AB2A65"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "pidove"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "1862674A8C328C65"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "murkrow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -13.5d
+			dependencies: ["48693D9F9DDB70AF"]
+			id: "1F158AA857A0B059"
+			tasks: [
+				{
+					id: "6C57991B03D5D112"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "honchkrow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7993CB11D654DB47"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "xatu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7248440C70853038"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tranquill"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -12.5d
+			description: ["Magnemite can be attracted to this layer using some structures from Immersive Engineering."]
+			dependencies: ["48693D9F9DDB70AF"]
+			id: "1838D05497C15169"
+			tasks: [{
+				id: "5785547953A888D6"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "magnemite"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: -13.5d
+			dependencies: ["1838D05497C15169"]
+			id: "24783E65D925BECE"
+			tasks: [
+				{
+					id: "3DFE5292F0358AEB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magneton"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4EA4D5863638F199"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magnezone"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -11.5d
+			description: ["There are a few common evolved bug Pokemon here, but the only unevolved Pokemon appears to be Hoppip, which is so light and evasive it seems to have survived the Cataclysm."]
+			id: "24EB4B379FF9B753"
+			tasks: [{
+				id: "3FD3B5373298F2DE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "hoppip"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -12.5d
+			dependencies: ["24EB4B379FF9B753"]
+			id: "2193DEA0256BC904"
+			tasks: [
+				{
+					id: "542183D22E40F311"
+					type: "pixelmon:defeat_pokemon"
+					secret: true
+					pokemon: "skiploom"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "03BF8F00F1F9343D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "jumpluff"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0F4A13EA5A659599"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Vivillon palette:tundra"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "220E72F5EE15E60D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Mandibuzz"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -13.5d
+			description: ["There appears to be a rare Salamence and Noivern passing through."]
+			dependencies: ["24EB4B379FF9B753"]
+			id: "2746AE2CE05D1DFA"
+			tasks: [
+				{
+					id: "00548CD0A7B002E3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salamence palette:alter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0A967D5404357140"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Noivern"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 1.5d
+			description: ["The rare passing Hydreigon appear to be the reason small Deino are thriving on this layer."]
+			dependencies: ["3A70CBA2EA3FD4EE"]
+			id: "36C7D5D6FCA31674"
+			tasks: [{
+				id: "73D33F4CE84FB17B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Hydreigon"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.5d
+			description: ["The rare passing Hydreigon appear to be the reason small Deino are thriving on this layer."]
+			dependencies: ["0FEEF944331F0C73"]
+			id: "7CCD19F0271FC9DB"
+			tasks: [{
+				id: "73FBE75A5C5DA4FD"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "hydreigon"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -11.5d
+			y: -11.5d
+			description: [
+				"Taillow is a pokemon that never needs to land. That seems to have saved it. "
+				""
+				"Fletchling seems to have risen from the ashes, and Hoothoot appears to have survived because of its relationship with the spiritual."
+			]
+			id: "496E4CCAC47AA511"
+			tasks: [
+				{
+					id: "118B182D61DC61D8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "taillow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "34D3B72D49043E5E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "hoothoot"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "24CFABD6E8D7056B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "fletchling"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -12.5d
+			dependencies: ["496E4CCAC47AA511"]
+			id: "55C5243A66A942D2"
+			tasks: [
+				{
+					id: "08CD328FDE21C3F2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Swellow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "57CF5BC58CFACCB6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Noctowl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "785DA9818BB88123"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Vivillon palette:icy_snow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -12.5d
+			description: [
+				"With every possible bird associated with death and the spirit world around, and Fletchling having risen from the ashes, you hold out hope a Torchic might be found."
+				""
+				"Rowlet may have survived along with Hoohoot owed to their connection to the spiritual."
+				""
+				"The two, if found, would likely be present at different times of day."
+			]
+			dependencies: ["496E4CCAC47AA511"]
+			id: "76D600AFDDA3047B"
+			tasks: [
+				{
+					id: "62F612853E7594DA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torchic"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1D15E5CF2DAE7D3D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rowlet"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -11.5d
+			description: [
+				"These beaches are interesting! The antlion Pokemon Trapinch either survived by being insulated by sand and gravel, or else there must be a Flygon somewhere."
+				""
+				"Bramblin are haunted sticks blown here by the breeze."
+			]
+			id: "37065D461958B53F"
+			tasks: [
+				{
+					id: "36FE6D5357E0FD10"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Trapinch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4E623F5FA28104C6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "bramblin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -12.5d
+			description: ["Although very rare, it appears Shelgon can be found here. These Shelgon seem to have survived the same way Pupitar did on lower layers. Either that, or it has something to do with Salamence flying by."]
+			dependencies: ["37065D461958B53F"]
+			id: "6B933C60D5080DCD"
+			tasks: [{
+				id: "3DB39A86871BF7B4"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "shelgon"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -13.0d
+			y: -12.5d
+			dependencies: ["37065D461958B53F"]
+			id: "5DF24CCAF6EC5B2B"
+			tasks: [{
+				id: "1B3F97BD96FFD1F8"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "brambleghast"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -15.5d
+			y: -11.5d
+			description: ["The deserts here are more desolate than the beaches. You won't find shelgon, but you may find vullaby."]
+			id: "195BAA48092A38AC"
+			tasks: [
+				{
+					id: "463F06A74F0816B7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Trapinch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "66D7EFFED78909DE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vullaby"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "53F8BAC0F96051D2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "bramblin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -12.5d
+			dependencies: ["195BAA48092A38AC"]
+			id: "1220B4030B3CCA75"
+			tasks: [{
+				id: "19AD4F22832E28A2"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "brambleghast"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -11.5d
+			description: [
+				"Vullaby has reappeared on this layer in underground habitats, but there also appear to be some very beautiful bat Pokemon."
+				""
+				"Both bat Pokemon appear attracted to note blocks, if you would like to lower the quantity of vullaby."
+			]
+			id: "66DA9BA11F31144E"
+			tasks: [
+				{
+					id: "782F158968CD71AB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vullaby"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "45EEA77B859D95D9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noibat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "753AB5ED935786D6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zubat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "50AA9B7B702F3C9E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Woobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -12.5d
+			dependencies: ["66DA9BA11F31144E"]
+			id: "2A2B5084DE50AD71"
+			tasks: [
+				{
+					id: "5B789EDD2634499B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Crobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "463B13DA8A770A2D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Golbat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2334A6212AB4D438"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "swoobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -11.5d
+			id: "15865566F6B62448"
+			tasks: [
+				{
+					id: "6D7637A3AC39AF26"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "oricorio form:sensu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "63706B156E77E00C"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "hoothoot"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2AFC5533DF07C316"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "pidove"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
 		}
 	]
 }

@@ -36,6 +36,39 @@
     {
       "spec": "species:Swoobat",
       "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 27,
+      "maxLevel": 39,
+      "heldItems": [
+        {
+          "itemID": "pixelmon:pretty_feather",
+          "percentChance": 100
+        }
+      ],
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+            "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 2.0
+    },
+    {
+      "spec": "species:Swoobat",
+      "stringLocationTypes": [
         "Land",
         "Indoors",
         "Manmade",
