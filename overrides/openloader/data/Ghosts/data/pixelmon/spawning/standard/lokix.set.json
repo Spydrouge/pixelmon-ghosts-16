@@ -1,0 +1,40 @@
+{
+  "id": "Lokix",
+  "spawnInfos": [
+    {
+      "spec": "species:Lokix",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Lokix",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "maxY": 192,
+        "minY": 160
+      },
+      "rarity": 5.0
+    }
+  ]
+}

@@ -406,9 +406,13 @@
 		}
 		{
 			x: -1.0d
-			y: 0.5d
+			y: 1.0d
 			shape: "circle"
-			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Wo-Chien can only be found in the Brimstone Caverns of the Nether, or anywhere outside of the Nether that you have transported Anthracite blocks."
+			]
 			dependencies: ["5437096EC001288C"]
 			hide: true
 			optional: true
@@ -435,9 +439,13 @@
 		}
 		{
 			x: 2.0d
-			y: 0.5d
+			y: 1.0d
 			shape: "circle"
-			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Chi-Yu can only be found in the Glowstone gardens, or anywhere glowstone and lava have both been setup outside of the nether."
+			]
 			dependencies: ["03EE801152DBA79E"]
 			hide: true
 			optional: true
@@ -464,9 +472,13 @@
 		}
 		{
 			x: 0.0d
-			y: 0.5d
+			y: 1.0d
 			shape: "circle"
-			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Ting-Lu can only be found in the Warped Deserts of the Nether, or any place outside of the Nether where you have transplanted Nylium Soul Sand."
+			]
 			dependencies: ["7427679A42B7A2D4"]
 			hide: true
 			optional: true
@@ -493,9 +505,13 @@
 		}
 		{
 			x: 1.0d
-			y: 0.5d
+			y: 1.0d
 			shape: "circle"
-			description: ["One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."]
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Chien-Pao can be found in the Subzero Hypogeal of the Nether, or around a Hypogeal Imperium any place outside of the Nether."
+			]
 			dependencies: ["54C9D8C9D49FA8E2"]
 			hide: true
 			optional: true
@@ -596,7 +612,7 @@
 		{
 			title: "Offering of Fire"
 			icon: "pixelmon:moltres_shrine"
-			x: 6.0d
+			x: 4.5d
 			y: -0.5d
 			shape: "circle"
 			description: [
@@ -687,7 +703,7 @@
 		{
 			title: "Offering of Ice"
 			icon: "pixelmon:articuno_shrine"
-			x: 5.0d
+			x: 3.5d
 			y: -0.5d
 			shape: "circle"
 			description: [
@@ -767,7 +783,7 @@
 		}
 		{
 			icon: "pixelmon:zapdos_shrine"
-			x: 7.0d
+			x: 5.5d
 			y: -0.5d
 			shape: "circle"
 			description: [
@@ -834,7 +850,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 4.5d
 			y: 0.5d
 			description: [
 				"Once you have an orb, you must turn it into an Orb of Frozen Souls, Fiery Souls, or Static Souls."
@@ -868,7 +884,7 @@
 					Icon: "pixelmon:textures/pokemon/480_uxie/all/base/none/sprite.png"
 				}
 			}
-			x: 7.0d
+			x: 5.5d
 			y: -1.5d
 			shape: "circle"
 			description: ["Uxie has fled the world following its destruction and is hidden somewhere in the End."]
@@ -897,7 +913,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 4.5d
 			y: -1.5d
 			shape: "circle"
 			description: ["Mesprit has fled the world following its destruction and is hidden somewhere in the Nether."]
@@ -926,7 +942,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.5d
 			y: -1.5d
 			shape: "circle"
 			description: ["Azelf has fled the world following its destruction and is hidden somewhere in the Drowned World."]
@@ -983,6 +999,150 @@
 					type: "item"
 					item: "minecraft:green_glazed_terracotta"
 					count: 16
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"If you destroy one of these rare and precious memories, you can cause a furious Silvally to spawn. It will not be catchable, but defeating it will leave you with an egg."
+				""
+				"You do not know how to obtain more of these memories."
+			]
+			dependencies: ["693B20671B53FA31"]
+			optional: true
+			repeatable: true
+			id: "005B4E21B3D5DE69"
+			tasks: [{
+				id: "69D202FA58477531"
+				type: "item"
+				title: "Destroy a Memory"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:fire_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:water_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:flying_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:bug_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:poison_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:electric_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:psychic_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:rock_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:fairy_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:dragon_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ice_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:fighting_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:steel_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ghost_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:dark_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ground_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:grass_memory"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C7C8E1B1D5D6F4A"
+				type: "command"
+				title: "FIGHT Silvally"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/773_silvally/all/base/none/sprite.png"
+					}
+				}
+				command: "/pokespawn Silvally lvl:100 uncatchable shiny"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			shape: "circle"
+			description: ["If you can quell the rage of this Silvally, it may leave you with an egg."]
+			dependencies: ["693B20671B53FA31"]
+			optional: true
+			repeatable: true
+			id: "3E59658E19AE49F4"
+			tasks: [{
+				id: "1AAA49DED34E43AE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "silvally shiny"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "32D6EE5F9659DEAF"
+					type: "command"
+					title: "Recieve Legendary Egg"
+					icon: "ends_delight:non_hatchable_dragon_egg"
+					command: "/pokegive @p TypeNull egg ball:cherish_ball g:female"
+					player_command: false
+				}
+				{
+					id: "02D9533403307649"
+					type: "choice"
+					table_id: 4899658134518644666L
 				}
 			]
 		}

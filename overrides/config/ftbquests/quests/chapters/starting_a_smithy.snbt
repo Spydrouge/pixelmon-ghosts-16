@@ -26,18 +26,6 @@
 				id: "6684D3CE8F9D7F6D"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "3FFD59A400421118"
-					type: "item"
-					item: "pixelmon:curry_burger"
-				}
-				{
-					id: "464F5F7DDD00489C"
-					type: "item"
-					item: "minecraft:beef"
-				}
-			]
 		}
 		{
 			disable_toast: true
@@ -3606,7 +3594,7 @@
 				""
 				"Pokemon caught in a heal ball can be used immediately without resting. They do not have an enhanced catch rate."
 				""
-				"Consider using your first regular Pokeball to create an Old Rod with."
+				"You can use them to create a Pokemon Fishing Rod, as an alternative to a regular Pokeball."
 			]
 			hide_dependency_lines: true
 			dependencies: ["11F689A8DC3A4BE2"]
@@ -4179,7 +4167,7 @@
 				""
 				"Mana Fluxfields can turn mana pulses into redstone flux. However the conversion is not especially efficient, so care should be taken to use Manastars to ensure a Botanical system can handle the load."
 				""
-				"In practice, the Fluxfield should likely only be relied upon to run important machines for short stretches of time, until you can get more reliable power."
+				"In theory, the Fluxfield should likely only be relied upon to run important machines for short stretches of time, until you can get more reliable power."
 			]
 			dependencies: [
 				"3ADDDE4CCB80BA89"
@@ -5332,13 +5320,13 @@
 			x: -3.0d
 			y: -6.5d
 			description: [
-				"The anvil is an expensive tool to add to your arsenal. It costs many more blocks of iron than you can easily produce."
+				"The anvil is an expensive tool to add to your arsenal. It costs many more blocks of iron than you can easily produce. Perhaps you can luck out in finding one?"
 				""
-				"However, Honedge will be attracted to them, potentially offsetting their high cost by allowing you to recover a small amount of iron."
+				"Either way, Honedge will be attracted to them, potentially offsetting their high cost by allowing you to recover a small amount of iron."
 				""
 				"The best area to set up the anvil will be below Y = 64, where there are many broken weapons and other debris from ancient time periods. The Anvil may also be of use in the nether, in areas where Honedge already spawns."
 				""
-				"It should be noted that Honedge are also attracted to chipped and damaged anvils, and, indeed, may be most attracted to a location with many ages of anvils."
+				"It should be noted that Honedge are also attracted to chipped and damaged anvils, and, indeed, may be most attracted to a location with multiple anvils of different 'ages.'"
 			]
 			hide_dependency_lines: true
 			dependencies: [

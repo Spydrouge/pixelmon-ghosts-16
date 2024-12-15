@@ -997,6 +997,8 @@
 				"What Drifloon didn't realize was just how rare Sitrus berries are, now...! This might be the last Sitrus berry on (what's left of) the planet! You'll need to cultivate it to save it from extinction."
 				""
 				"Sitrus berries are a vital ingredient in brewing Hyper Potions."
+				""
+				"If you lose your only Sitrus berry, it may take some time for you to replace it, as it must be foraged from a fringe Biome in another dimension."
 			]
 			dependencies: [
 				"55279A4FDAB9CDB1"
@@ -1196,8 +1198,8 @@
 		{
 			title: "EV Berries"
 			icon: "pixelmon:berry_bag"
-			x: 6.0d
-			y: 10.0d
+			x: -6.5d
+			y: 6.5d
 			description: [
 				"When it comes to training the most powerful Pokemon, you need to consider which 'Effort Value' points (EVs) your Pokemon is gathering. Basically, fighting fast Pokemon will make your Pokemon faster. Fighting good attackers will make your Pokemon a better attacker."
 				""
@@ -1217,8 +1219,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 9.0d
+			x: -9.0d
+			y: 5.5d
 			description: [
 				"Tamato berries reduce Health EVs."
 				""
@@ -1256,8 +1258,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: 9.0d
+			x: -7.0d
+			y: 5.5d
 			description: [
 				"The Kelpsy berry lowers Attack AVs and is ideal for special attackers."
 				""
@@ -1295,8 +1297,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 9.0d
+			x: -8.0d
+			y: 5.5d
 			description: [
 				"Qualot berries lower Defense EVs"
 				""
@@ -1335,8 +1337,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 9.0d
+			x: -6.0d
+			y: 5.5d
 			description: [
 				"The Hondew Berry lowers Special Attack EVs."
 				""
@@ -1380,8 +1382,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 9.0d
+			x: -5.0d
+			y: 5.5d
 			description: [
 				"The Grepa Berry lowers Special Defense Evs."
 				""
@@ -1419,8 +1421,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: 9.0d
+			x: -4.0d
+			y: 5.5d
 			description: [
 				"The Pomeg Berry lowers Speed EVs. It is ideal for slow tanks or Pokemon who use Trick Room."
 				""
@@ -1464,8 +1466,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 7.0d
+			x: -6.5d
+			y: 3.0d
 			description: [
 				"Honey is an important ingredient in \"X\" items, such as \"X Attack\" or \"X Speed.\" "
 				""
@@ -1482,11 +1484,16 @@
 				type: "item"
 				item: "minecraft:honey_bottle"
 			}]
+			rewards: [{
+				id: "77221812586C5E22"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
 		}
 		{
-			x: 5.0d
-			y: 7.0d
-			description: ["Honey comb can be found in the possession of Stufful. Consider making a beehive, to see if you can attract any Vespiquen who may have survived the Apocalypse."]
+			x: -6.5d
+			y: 2.0d
+			description: ["Honeycomb can be found in the possession of Stufful. Consider making a beehive, to see if you can attract any Vespiquen who may have survived the Apocalypse."]
 			dependencies: ["4FE1CE3595F08B0F"]
 			hide: true
 			id: "201932711DE1B192"
@@ -1495,10 +1502,15 @@
 				type: "item"
 				item: "minecraft:honeycomb"
 			}]
+			rewards: [{
+				id: "2FC505F8FF82AC49"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
 		}
 		{
-			x: 5.5d
-			y: 8.0d
+			x: -7.0d
+			y: 4.5d
 			description: ["Throw a Kelpsy berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: [
 				"4FE1CE3595F08B0F"
@@ -1511,10 +1523,23 @@
 				type: "item"
 				item: "pixelmon:x_attack"
 			}]
+			rewards: [
+				{
+					id: "1275803ACBFF13D6"
+					type: "item"
+					item: "pixelmon:x_attack"
+					count: 5
+				}
+				{
+					id: "4106E50280FA71C0"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 6.5d
-			y: 8.0d
+			x: -6.0d
+			y: 4.5d
 			description: ["Throw a Hondew berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: [
 				"4FE1CE3595F08B0F"
@@ -1527,10 +1552,23 @@
 				type: "item"
 				item: "pixelmon:x_special_attack"
 			}]
+			rewards: [
+				{
+					id: "7E32A2E17DE492FC"
+					type: "item"
+					item: "pixelmon:x_special_attack"
+					count: 5
+				}
+				{
+					id: "7E6B627E284615F4"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 7.5d
-			y: 8.0d
+			x: -5.0d
+			y: 4.5d
 			description: ["Throw a Grepa berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: [
 				"4FE1CE3595F08B0F"
@@ -1543,10 +1581,23 @@
 				type: "item"
 				item: "pixelmon:x_special_defense"
 			}]
+			rewards: [
+				{
+					id: "1FC42334791CF4FB"
+					type: "item"
+					item: "pixelmon:x_special_defense"
+					count: 5
+				}
+				{
+					id: "1F444CDF317FDA0F"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 8.5d
-			y: 8.0d
+			x: -4.0d
+			y: 4.5d
 			description: ["Throw a Pomeg berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: [
 				"4FE1CE3595F08B0F"
@@ -1559,10 +1610,23 @@
 				type: "item"
 				item: "pixelmon:x_speed"
 			}]
+			rewards: [
+				{
+					id: "2002564BC28857D3"
+					type: "item"
+					item: "pixelmon:x_speed"
+					count: 5
+				}
+				{
+					id: "3DA7C155B1307A7F"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 4.5d
-			y: 8.0d
+			x: -8.0d
+			y: 4.5d
 			description: ["Throw a Qualot berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: [
 				"4FE1CE3595F08B0F"
@@ -1575,10 +1639,23 @@
 				type: "item"
 				item: "pixelmon:x_defense"
 			}]
+			rewards: [
+				{
+					id: "36CE7B6EC98C89B7"
+					type: "item"
+					item: "pixelmon:x_defense"
+					count: 5
+				}
+				{
+					id: "716AA38E9C1DAB67"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 7.0d
-			y: 7.0d
+			x: -4.0d
+			y: 3.0d
 			description: ["Throw a Micle berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: ["4EC4090E935E6E37"]
 			hide: true
@@ -1588,10 +1665,23 @@
 				type: "item"
 				item: "pixelmon:x_accuracy"
 			}]
+			rewards: [
+				{
+					id: "12D7D27A56B6CF8D"
+					type: "item"
+					item: "pixelmon:x_accuracy"
+					count: 5
+				}
+				{
+					id: "3F0EEE02295B1658"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 3.5d
-			y: 8.0d
+			x: -9.0d
+			y: 4.5d
 			description: ["Throw a Tamato berry into a honey filled cauldron. Ensure the reaction occurs over fire so that the honey does not solidify."]
 			dependencies: [
 				"4FE1CE3595F08B0F"
@@ -1604,10 +1694,23 @@
 				type: "item"
 				item: "pixelmon:guard_spec"
 			}]
+			rewards: [
+				{
+					id: "7C4BA4A7B6CB88DB"
+					type: "item"
+					item: "pixelmon:guard_spec"
+					count: 5
+				}
+				{
+					id: "5419D95E4B6C03A4"
+					type: "pixelmon:pokedollars"
+					count: 1000
+				}
+			]
 		}
 		{
-			x: 8.0d
-			y: 7.0d
+			x: -4.0d
+			y: 2.0d
 			description: ["The Micle berry is increases the accuracy of a single move by 20% when the user is 'in a pinch.' "]
 			hide_dependency_lines: true
 			dependencies: ["4106B5F70B55A664"]

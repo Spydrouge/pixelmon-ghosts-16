@@ -57,7 +57,6 @@
 				""
 				"If you want to figure things out the hard way, just keep in mind that any time you get stuck, you can sniff around your quest book for clues, either here or in the main quest line."
 			]
-			dependencies: ["5AC483C5AC12BFD7"]
 			size: 2.0d
 			id: "1183D242FD8FAF87"
 			tasks: [{
@@ -87,14 +86,10 @@
 			]
 			dependencies: ["1183D242FD8FAF87"]
 			hide: true
-			secret: true
 			id: "5998CB1BDA3E4109"
 			tasks: [{
-				id: "62642408469C787E"
-				type: "questsadditions:time"
-				disable_toast: true
-				secret: true
-				elapsedTime: 1L
+				id: "2DD28251949B08B2"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "4BE1844CAAAE1207"
@@ -131,7 +126,6 @@
 				"1183D242FD8FAF87"
 			]
 			hide: true
-			secret: true
 			id: "20A8CEB3C05E359C"
 			tasks: [{
 				id: "40B353CE1A7C7BE4"
@@ -2143,7 +2137,7 @@
 				""
 				"It can increase the density of different types of Ice. Ice becomes Packed Ice, which becomes Blue Ice. It can also create Snow from Water."
 				""
-				"If you were to discover a large amount of Netherrack, it could turn this into cobblestone. With the help of a well-modified vein-mining pickaxe, and the speed at which it is possible mine netherrack, a good setup can be used to harvest cobblestone faster than a traditional cobblestone generator."
+				"If you were to discover a large amount of Netherrack, it could turn this into cobblestone. With the help of a well-modified vein-mining pickaxe, and the speed at which it is possible mine netherrack, a good setup can be used to harvest cobblestone with reasonable speed."
 			]
 			dependencies: [
 				"6749D2C85113CC62"
@@ -2398,6 +2392,7 @@
 				"You may also benefit from placing them in and hanging out in a biome with no natural spawning legendaries that can compete with them, like The End. If you are playing on a server, be wary of your server's policies so you don't lose anything important."
 			]
 			dependencies: ["395FF1A6F8319736"]
+			secret: true
 			id: "36FCB53526E68B8E"
 			tasks: [{
 				id: "7E648A0BCE8B6A60"

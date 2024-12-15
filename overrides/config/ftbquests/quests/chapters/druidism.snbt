@@ -5780,7 +5780,11 @@
 		{
 			x: -5.0d
 			y: -10.0d
-			description: ["The manufactury halo is an upgrade that will automatically craft recipes using items from your inventory. This allows you to, for instance, compress redstone, lapis, or quartz while mining."]
+			description: [
+				"The manufactury halo is an upgrade that will automatically craft recipes using items from your inventory. This allows you to, for instance, compress redstone, lapis, or quartz while mining."
+				""
+				"If, you know, you had anything to mine..."
+			]
 			dependencies: ["4A647E108CC7D41F"]
 			id: "283CF8CB1DB62070"
 			tasks: [{

@@ -3,5 +3,18 @@
 	order_index: 31
 	title: "Choice in Shuppet Gender"
 	loot_size: 1
-	rewards: [ ]
+	rewards: [
+		{
+			spec: "shuppet shiny ab:cursedbody n:adamant move1:destiny_bond move2:knock_off move3:pain_split move4:cotton_guard ivatk:31 ivspd:31 g:male"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			spec: "shuppet shiny ab:cursedbody n:adamant move1:destiny_bond move2:knock_off move3:pain_split move4:cotton_guard ivatk:31 ivspd:31 g:female"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+	]
 }

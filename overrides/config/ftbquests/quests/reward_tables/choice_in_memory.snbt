@@ -1,0 +1,25 @@
+{
+	id: "43FF151D24D63FBA"
+	order_index: 49
+	title: "Choice in Memory"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:grass_memory" }
+		{ item: "pixelmon:fire_memory" }
+		{ item: "pixelmon:water_memory" }
+		{ item: "pixelmon:flying_memory" }
+		{ item: "pixelmon:bug_memory" }
+		{ item: "pixelmon:poison_memory" }
+		{ item: "pixelmon:electric_memory" }
+		{ item: "pixelmon:psychic_memory" }
+		{ item: "pixelmon:rock_memory" }
+		{ item: "pixelmon:ground_memory" }
+		{ item: "pixelmon:dark_memory" }
+		{ item: "pixelmon:ghost_memory" }
+		{ item: "pixelmon:steel_memory" }
+		{ item: "pixelmon:fighting_memory" }
+		{ item: "pixelmon:ice_memory" }
+		{ item: "pixelmon:dragon_memory" }
+		{ item: "pixelmon:fairy_memory" }
+	]
+}

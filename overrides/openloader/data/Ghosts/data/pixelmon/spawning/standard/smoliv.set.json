@@ -1,8 +1,29 @@
 {
-  "id": "Cherubi",
+  "id": "Smoliv",
   "spawnInfos": [
     {
-      "spec": "species:Cherubi",
+      "spec": "species:Smoliv",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "plains"
+        ]
+      },
+      "rarity": 200.0
+    },
+    {
+      "spec": "species:Smoliv",
       "stringLocationTypes": [
         "Tree Top",
         "Headbutt",
@@ -18,31 +39,12 @@
           "ghosts"
         ],
         "times": [
-          "DAY"
+          "NIGHT"
         ]
       },
       "rarity": 40.0
-    },
-    {
-      "spec": "species:Cherubi",
-      "stringLocationTypes": [
-        "Land",
-        "Headbutt",
-        "Sweet Scent"
-      ],
-      "minLevel": 5,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "DAY"
-        ],
-        "stringBiomes": [
-          "forests",
-          "birches"
-        ]
-      },
-      "rarity": 130.0
     }
   ]
 }
+
+

@@ -17,7 +17,7 @@
 		{
 			title: "The Plates of Knowledge"
 			x: 9.5d
-			y: -10.5d
+			y: -12.5d
 			description: [
 				"You must assemble all the plates of knowledge in order to better understand the world you've been tasked with repairing."
 				""
@@ -28,6 +28,7 @@
 				"4920A2C49276A35E"
 			]
 			hide: true
+			size: 2.0d
 			id: "29850ED5F97E5377"
 			tasks: [
 				{
@@ -311,6 +312,7 @@
 		{
 			x: 9.0d
 			y: -6.0d
+			description: ["Either defeat or capture Palkia."]
 			dependencies: ["65C48F69CBF3B9F9"]
 			hide: true
 			id: "22FBDBCBCB926124"
@@ -356,6 +358,7 @@
 		{
 			x: 10.0d
 			y: -6.0d
+			description: ["Either defeat or capture Palkia."]
 			dependencies: ["65C48F69CBF3B9F9"]
 			hide: true
 			id: "4B258A6E344CDA1B"
@@ -375,7 +378,7 @@
 		}
 		{
 			x: 9.5d
-			y: -15.0d
+			y: -18.0d
 			description: ["You will need to seek out Dialga, to complete the Creation Trio. Perhaps then, you will find out who has been helping you. Who sent you Drifloon? And the Masterball? And the altar itself?"]
 			dependencies: ["0B46C963433030C9"]
 			hide: true
@@ -388,7 +391,7 @@
 		}
 		{
 			x: 10.0d
-			y: -16.0d
+			y: -19.0d
 			dependencies: ["0172A933830B60E0"]
 			hide: true
 			id: "00EA4BFDD10D9E98"
@@ -407,8 +410,10 @@
 			}]
 		}
 		{
+			title: "Ascend to Ultra Space"
 			x: 9.5d
 			y: -8.5d
+			description: ["Although Ultra Space is in absolute tatters, it still has more blocks than your home dimension, and many of them are quite pleasant to the eye. Here, they spawn Pokemon according to the Ultra Space biomes, but back home, you can use them to construct more ordinary habitats."]
 			dependencies: ["19EC4CC69BB39C30"]
 			hide: true
 			size: 2.0d
@@ -429,6 +434,7 @@
 		{
 			x: 9.5d
 			y: -7.0d
+			description: ["It is time to ascend. Have Palkia open a wormhole to the Ultra Space dimension. You do this by assigning 'Open Wormhole' to the pokemon's external move, the same way as you would for Forage, Dig, Rock Smash, or Rain Dance."]
 			dependencies: [
 				"22FBDBCBCB926124"
 				"4B258A6E344CDA1B"
@@ -447,7 +453,7 @@
 		}
 		{
 			x: 9.0d
-			y: -16.0d
+			y: -19.0d
 			dependencies: ["0172A933830B60E0"]
 			hide: true
 			id: "61134D1745752A3E"
@@ -473,6 +479,7 @@
 		{
 			x: 6.5d
 			y: -0.5d
+			description: ["Hmm, not yet implemented! Surprise, you found something unfinished!"]
 			hide: true
 			secret: true
 			id: "65A8D0E17306053F"
@@ -484,10 +491,15 @@
 				invert: false
 				catchType: 1b
 			}]
+			rewards: [{
+				id: "259D3A68CE5965F2"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
 		}
 		{
 			x: 9.0d
-			y: -12.5d
+			y: -15.5d
 			description: ["Do you think yourself worthy to challenge God? "]
 			dependencies: ["177FE63567F70CDB"]
 			hide: true
@@ -508,7 +520,7 @@
 		}
 		{
 			x: 10.0d
-			y: -12.5d
+			y: -15.5d
 			description: ["Do you think yourself worthy to challenge God? "]
 			dependencies: ["177FE63567F70CDB"]
 			hide: true
@@ -533,7 +545,7 @@
 		}
 		{
 			x: 9.5d
-			y: -18.0d
+			y: -21.0d
 			description: [
 				"..."
 				""
@@ -550,7 +562,7 @@
 		{
 			title: "Doubt"
 			x: 9.5d
-			y: -13.5d
+			y: -16.5d
 			subtitle: "Finish to Reveal Hidden Text"
 			description: ["... You have Arceus. But the god seems curious, as if meeting you for the very first time."]
 			dependencies: [
@@ -570,7 +582,7 @@
 		{
 			title: "Epiphany"
 			x: 9.5d
-			y: -17.0d
+			y: -20.0d
 			description: [
 				"You have realized there is only one voice left. One Pokemon who could have been responsible for aiding you, from the very beginning:"
 				""
@@ -591,7 +603,7 @@
 		}
 		{
 			x: 9.0d
-			y: -19.0d
+			y: -22.0d
 			description: ["&dCome little one. You have grown. Let us see how you and your Drifloon fare.&r"]
 			dependencies: ["413FF0BFDEEFA4E5"]
 			hide: true
@@ -612,7 +624,7 @@
 		}
 		{
 			x: 10.0d
-			y: -19.0d
+			y: -22.0d
 			description: ["&dCome little one. You have grown. Let us see how you and your Drifloon fare.&r"]
 			dependencies: ["413FF0BFDEEFA4E5"]
 			hide: true
@@ -644,7 +656,7 @@
 				}
 			}
 			x: 9.5d
-			y: -21.5d
+			y: -24.5d
 			description: [
 				"It is fitting that the end should be filled with ghosts, just as was the beginning."
 				""
@@ -687,7 +699,7 @@
 		}
 		{
 			x: 8.0d
-			y: -19.0d
+			y: -22.0d
 			description: ["You actually chose to fight Giratina with your original Shiny Drifloon, and defeated them rather than caught them! You answered Giratina's challenge!"]
 			secret: true
 			id: "5068DD34D8694EC9"
@@ -736,7 +748,7 @@
 		}
 		{
 			x: 11.0d
-			y: -19.0d
+			y: -22.0d
 			description: ["You actually chose to fight Giratina with your original Shiny Drifloon, and defeated them rather than caught them! You answered Giratina's challenge!"]
 			secret: true
 			id: "04FBD9BFA7DB6DB8"
@@ -785,7 +797,7 @@
 		}
 		{
 			x: 9.5d
-			y: -11.5d
+			y: -14.5d
 			description: ["You must put one of each plate into the chalice to recieve the Azure Flute"]
 			dependencies: ["29850ED5F97E5377"]
 			hide: true

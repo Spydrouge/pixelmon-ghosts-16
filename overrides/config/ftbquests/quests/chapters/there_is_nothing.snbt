@@ -160,11 +160,11 @@
 				""
 				"You feel &6inspired&r! You are ready to find a way to survive! The trick is to start making &bsomething&r from &5nothing&r."
 				""
-				"Hmm. You have a plan. It's called &aForage&r and it's an external move any pokemon can use. Send them out with 'R', press 'G' to forage, and be mindful of the cooldown."
+				"Hmm. You have a plan. It's called &aForage&r and it's an external move any pokemon can use. Send them out with 'R', press 'G' to forage, and be mindful of the cooldown. (If these Keys don't work, check your keybinds under options on the minecraft game menu! You may have something else on G and R)"
 				""
-				"All blocks can be foraged from. Some, like Soul Sand, drop a few more interesting things than others. To prevent drops from &cfalling into the void&r place the soul sand securely in the center of your little island, where Drifloon used to be."
+				"All blocks can be foraged from. Some have slightly different drops than others. To prevent drops from &cfalling into the void&r forage from something a little higher up."
 				""
-				"(Any platform that's only 1 block thick is dangerous to forage from. Foraged items will tend to drop straight down--and into the void.)"
+				"(WARNING: Any ground that's only 1 block thick is dangerous to forage from. Foraged items will tend to drop straight down--and into the void.)"
 			]
 			dependencies: ["3F42095ED0007728"]
 			hide: true
@@ -582,94 +582,6 @@
 							tm: 78
 						}
 					}
-				}
-			]
-		}
-		{
-			title: "Seed Kit"
-			x: 3.0d
-			y: 4.5d
-			shape: "circle"
-			subtitle: "Drifloon found a berry!"
-			description: ["It looks like you've found several species of seeds. You know you can make soup from &cbeetroot&r and &ewood bowls&r but &6pumpkin&r might be a little complicated to turn into food."]
-			hide_dependency_lines: true
-			dependencies: ["391C3D6A40B4349B"]
-			hide: true
-			hide_text_until_complete: true
-			id: "448A0C530B692090"
-			tasks: [
-				{
-					id: "389FAE312E38A644"
-					type: "item"
-					item: "minecraft:beetroot_seeds"
-				}
-				{
-					id: "1E2F7DD58DF3C93E"
-					type: "item"
-					item: "minecraft:pumpkin_seeds"
-				}
-			]
-			rewards: [
-				{
-					id: "4C246C5802211284"
-					type: "item"
-					item: "pixelmon:rabuta_berry"
-				}
-				{
-					id: "2EB2ADA2980A936B"
-					type: "item"
-					item: "inspirations:heartbeet"
-				}
-				{
-					id: "00A8057E35A6E652"
-					type: "item"
-					item: "minecraft:soul_soil"
-				}
-			]
-		}
-		{
-			title: "Berry Kit"
-			x: 4.0d
-			y: 4.5d
-			shape: "circle"
-			subtitle: "Drifloon found a berry!"
-			description: [
-				"It looks like there are two berries to be found here, &9Oran Berries&r, which can heal 10HP when used on or held by a Pokemon, and &cLeppa Berries&r, which can restore 10PP to a single move."
-				""
-				"You can use berries directly on Pokemon, or give them to the Pokemon to hold and use during battle."
-			]
-			hide_dependency_lines: true
-			dependencies: ["391C3D6A40B4349B"]
-			hide: true
-			hide_text_until_complete: true
-			id: "538F287C91F715DC"
-			tasks: [
-				{
-					id: "289A6C669F102E1A"
-					type: "item"
-					item: "pixelmon:oran_berry"
-				}
-				{
-					id: "2C3658B7FE683F56"
-					type: "item"
-					item: "pixelmon:leppa_berry"
-				}
-			]
-			rewards: [
-				{
-					id: "4C4A9251C509FE44"
-					type: "item"
-					item: "pixelmon:rabuta_berry"
-				}
-				{
-					id: "26A8151F543B7626"
-					type: "item"
-					item: "inspirations:heartbeet"
-				}
-				{
-					id: "4BAAA3E8271C64AD"
-					type: "item"
-					item: "minecraft:soul_soil"
 				}
 			]
 		}
@@ -1391,7 +1303,7 @@
 				""
 				"On the other hand, you could try to catch another species of Pokemon, and still get x2 the catch rate as long as they're of the opposite gender. This might diversify your team, or give you access to a move like &9Rain Dance&r. "
 				""
-				"Plan out your ball usage carefully, so you do not waste it with nothing to show for your efforts."
+				"Plan out your ball usage carefully, so you do not waste it! Remember that Pokemon always have a chance to break out of one, and to weaken them in battle, and apply any status effects you can, first!"
 			]
 			hide_dependency_lines: true
 			secret: true
@@ -1795,6 +1707,8 @@
 				"Arceus must have seen you were having trouble even noticing the Castform flying by, much less fighting one!"
 				""
 				"(NOTE: You CANNOT move a spawner after placing it. Ever. There are things which can delete them later on, but fortunately you probably won't need them by then.)"
+				""
+				"(NOTE: To get the most of your spawner, place it slightly in the air.)"
 			]
 			dependencies: ["1F4867DAC3F9EBB4"]
 			hide_text_until_complete: true
@@ -1847,7 +1761,7 @@
 		{
 			title: "Hatch a Pokemon"
 			x: 4.0d
-			y: 5.5d
+			y: 4.5d
 			shape: "circle"
 			description: ["You hatched your very first Pokemon! Good work, it's not easy to do with so little room to move!"]
 			hide: true
@@ -1881,7 +1795,7 @@
 		}
 		{
 			x: 3.0d
-			y: 5.5d
+			y: 4.5d
 			shape: "circle"
 			description: [
 				"You have found an egg!"
@@ -1895,6 +1809,7 @@
 			hide: true
 			optional: true
 			secret: true
+			min_required_tasks: 1
 			id: "68CD952D1CF12D3C"
 			tasks: [
 				{
@@ -1996,7 +1911,7 @@
 		}
 		{
 			x: 5.0d
-			y: 5.5d
+			y: 4.5d
 			shape: "circle"
 			description: [
 				"Oh dear, these aren't incredibly useful."

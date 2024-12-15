@@ -59,11 +59,14 @@
       "interval": "legendary",
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ],
         "neededNearbyBlocks":[
-          "pixelmon:relic_crown"  
+          "minecraft:glowstone"  ,
+          "minecraft:lava"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
         ]
       },
       "rarity": 80

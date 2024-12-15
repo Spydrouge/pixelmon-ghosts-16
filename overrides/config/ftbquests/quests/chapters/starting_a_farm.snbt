@@ -1435,12 +1435,7 @@
 				""
 				"Eating exceptionally well will keep you spry, healthy, and virtually immortal, just like &aAsh Ketchum&r!"
 			]
-			dependencies: [
-				"4037E692772EC7FE"
-				"4EE5504B5C31D047"
-				"16D13FBB3BBF2133"
-				"44C10B51CAAF3718"
-			]
+			dependencies: ["4037E692772EC7FE"]
 			id: "1455941647C48282"
 			tasks: [
 				{
@@ -3143,6 +3138,14 @@
 			rewards: [{
 				id: "4519E4E17BFC822D"
 				type: "choice"
+				title: "Wait, what gender was your Shuppet?"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/353_shuppet/all/base/shiny/sprite.png"
+					}
+				}
 				table_id: 4984098570965489174L
 			}]
 		}
@@ -3176,6 +3179,11 @@
 			x: 0.0d
 			y: -20.0d
 			shape: "circle"
+			description: [
+				"You can choose to give this cake to a Pumpkaboo."
+				""
+				"(&dWARNING&r If you complete this quest, you will lose all level progression with your Pumpkaboo. It will jump back to level 2, and lose any TMs, TRs, ability or nature changes, Evs, etc. Its IVs will change to reflect its new abilities and it may have a new move. It will be effectively a brand new Pokemon.)"
+			]
 			dependencies: ["4C337F550C0925EA"]
 			hide: true
 			optional: true
@@ -3190,11 +3198,10 @@
 				consumePokemon: false
 			}]
 			rewards: [{
-				id: "5FB7124ED65238DD"
-				type: "pixelmon:pokemon"
-				spec: "pumpkaboo ability:flareboost lvl:2 shiny"
-				count: 1
-				shinyChance: 4096s
+				id: "5A1778CED4801251"
+				type: "choice"
+				title: "Wait, What was your Pumpkaboo Again?"
+				table_id: 5230163456550799573L
 			}]
 		}
 		{

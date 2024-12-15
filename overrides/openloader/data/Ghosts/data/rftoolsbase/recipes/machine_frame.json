@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iai",
+    "ala",
+    "iai"
+  ],
+  "key": {
+    "a": {
+      "item": "pixelmon:ultra_deep_crystal"
+    },
+    "i": {
+      "item": "minecraft:iron_block"
+    },
+    "l": {
+      "item": "botania:laputa_shard"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}

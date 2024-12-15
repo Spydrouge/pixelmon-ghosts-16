@@ -446,7 +446,8 @@
           {
             "level": 40,
             "attacks": [
-              "Trick"
+              "Trick",
+              "Facade"
             ]
           },
           {
@@ -621,10 +622,10 @@
       "abilities": {
         "abilities": [
           "Pickup",
-          "Flash Fire"
+          "Blaze"
         ],
         "hiddenAbilities": [
-          "Flare Boost"
+          "FlashFire"
         ]
       },
       "movement": {

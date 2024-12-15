@@ -25,6 +25,7 @@
 				""
 				"If you don't want to know, then you don't have to click!"
 			]
+			dependencies: ["1183D242FD8FAF87"]
 			size: 3.0d
 			optional: true
 			id: "5AC483C5AC12BFD7"
@@ -280,9 +281,9 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "7C7B36C331932D0A"
-				type: "xp_levels"
-				xp_levels: 50
+				id: "375909F75774A9F5"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{

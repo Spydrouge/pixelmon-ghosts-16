@@ -2,7 +2,7 @@
   "id": "ChienPao",
   "spawnInfos": [
     {
-      "spec": "species:Chien-Pao level:60",
+      "spec": "species:Chien-Pao level:100 uncatchable",
       "stringLocationTypes": [
         "Land"
       ],
@@ -57,11 +57,13 @@
       "interval": "legendary",
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ],
         "neededNearbyBlocks":[
-          "pixelmon:relic_statue"  
+          "byg:hypogeal_imperium"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
         ]
       },
       "rarity": 80

@@ -15,7 +15,7 @@
 			description: [
 				"You've decided to use this chapter of your diary to keep track of your observations regarding where certain materials can be found, such as iron, and silicon."
 				""
-				"Additionally, because iron is rare, and most Appricorn colors are not avialable, you are keeping detailed notes on what types of Pokeball are available."
+				"Additionally, because &ciron is rare&r, and most Apricorn colors are not available, you are keeping detailed notes on what types of Pokeball are available."
 			]
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
@@ -31,7 +31,7 @@
 			x: -5.0d
 			y: 1.5d
 			description: [
-				"(There is almost no iron available in the early game, which of course means it is almost impossible to make Pokeballs. You will need to play around this by collecting Pokemon eggs from quests.)"
+				"(There is almost no iron available in the early game, which of course means it is almost impossible to make Pokeballs. You will need to play around this by collecting Pokemon eggs from quests, and using aluminum.)"
 				""
 				"There are many Pokemon who drop iron nuggets, and all of them do so unreliably, or spawn rarely. The easiest source is Aron, which can be attracted to pieces of iron ore or minecart rails and lives underground in the Deep Dark Layer below Y = 32."
 				""
@@ -292,6 +292,7 @@
 		{
 			x: -6.0d
 			y: -1.5d
+			description: ["It is possible that Pokemon up at the space layer might drop whole blocks of Glowstone... you will have to check!"]
 			dependencies: ["54DE70CE9E377408"]
 			hide: true
 			id: "1B9ABC129FBE8E40"
@@ -1239,6 +1240,7 @@
 		{
 			x: -6.0d
 			y: -2.5d
+			description: ["How devoted to explosions do you want to be?"]
 			dependencies: ["6E571FA937A9F129"]
 			hide: true
 			id: "0CD3279AD9EDC1DB"
@@ -1977,7 +1979,6 @@
 			x: 5.0d
 			y: -3.0d
 			description: [
-				"Aquamarine is can be found"
 				"You think Aquamarine can be found carried by Drowned Sableye, a frightening undead version of Sableye which is attracted to underground water habitats on the Soil Layer, your starting layer."
 				""
 				"Aquamarine Shale may be dropped by Crystal Onix, which can be attracted to underground habitats on the Ice Layer."

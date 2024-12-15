@@ -207,7 +207,7 @@
 		}
 		{
 			x: 0.0d
-			y: -13.5d
+			y: -15.0d
 			dependencies: ["0BD06157B3F599CB"]
 			hide: true
 			id: "7EEAD69FE49927AB"
@@ -236,7 +236,7 @@
 		}
 		{
 			x: 0.0d
-			y: -15.0d
+			y: -18.5d
 			dependencies: ["7EEAD69FE49927AB"]
 			hide: true
 			id: "3632E0C47BD3B5DE"
@@ -486,6 +486,7 @@
 			title: "Soil, Manmade: Evolved Pokemon"
 			x: -7.0d
 			y: -1.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["6A4C19A6EEA69DE0"]
 			id: "686CB004B20143BF"
 			tasks: [
@@ -549,6 +550,7 @@
 			title: "Soil, Outside: Evolved Pokemon"
 			x: -2.5d
 			y: -1.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["326621C2EC6FED12"]
 			id: "5309270C635694ED"
 			tasks: [{
@@ -623,6 +625,7 @@
 			title: "Soil, Indoors: Evolved Pokemon"
 			x: 6.5d
 			y: -1.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["03DF0C6FF8136840"]
 			id: "7231C3A2B890325C"
 			tasks: [
@@ -750,6 +753,7 @@
 			title: "Soil, Underground: Evolved Pokemon"
 			x: 3.0d
 			y: -1.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["50701BB7967BB4A6"]
 			id: "2D21AAD7642FA060"
 			tasks: [
@@ -868,59 +872,6 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
-			dependencies: ["3A785C8996F3C21E"]
-			id: "26B5D453F901606E"
-			tasks: [
-				{
-					id: "4833CABED1A34DEC"
-					type: "item"
-					item: "minecraft:slime_ball"
-				}
-				{
-					id: "1793C4A6AC2A7AD4"
-					type: "item"
-					item: "tconstruct:blood_slime_ball"
-				}
-				{
-					id: "7101BD5304419041"
-					type: "item"
-					item: "minecraft:spider_eye"
-				}
-				{
-					id: "0D14FC279B7D06C0"
-					type: "item"
-					item: "minecraft:sea_pickle"
-				}
-				{
-					id: "13544A1B52040805"
-					type: "item"
-					item: "pixelmon:fresh_water"
-				}
-				{
-					id: "697827CC5D7AF80E"
-					type: "item"
-					item: "minecraft:seagrass"
-				}
-				{
-					id: "3BC28277026F94AA"
-					type: "item"
-					item: "minecraft:ink_sac"
-				}
-				{
-					id: "0AB8C8412239801E"
-					type: "item"
-					item: "minecraft:honey_bottle"
-				}
-				{
-					id: "6BE87AC420E9FDCE"
-					type: "item"
-					item: "farmersdelight:rice"
-				}
-			]
-		}
-		{
 			title: "Soil, Indoors: Lights"
 			x: 7.5d
 			y: -2.0d
@@ -952,6 +903,7 @@
 			title: "Soil, Water: Evolvd Pokemon"
 			x: 10.0d
 			y: -1.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["3A785C8996F3C21E"]
 			id: "09D604B2D8777F83"
 			tasks: [
@@ -1012,15 +964,6 @@
 			id: "0D2483CCEA2BB9F2"
 			tasks: [
 				{
-					id: "7A12499EA5DAD596"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "dratini"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
 					id: "4BB27CC97034396F"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "pincurchin"
@@ -1044,6 +987,7 @@
 			title: "Soil, Underground Water: Evolved Pokemon"
 			x: 13.5d
 			y: -2.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["1B808CB153DB3F25"]
 			dependency_requirement: "one_completed"
 			id: "5FF501803C79338E"
@@ -1224,10 +1168,12 @@
 			title: "Soil, Desert or Beach: Evolved Pokemon"
 			x: -14.5d
 			y: -1.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: [
 				"7A5648EAA0C64986"
 				"21FB59EEB6CE2027"
 			]
+			dependency_requirement: "one_completed"
 			id: "4ECE083846ABCD97"
 			tasks: [
 				{
@@ -1285,19 +1231,10 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "5DBEA54372025FD9"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "cherubi"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
 		}
 		{
-			x: -11.5d
+			x: -12.0d
 			y: -1.0d
 			description: ["Sedinja will spawn on treetops if a soul torch, campfire, or lantern is nearby. Burmy will only spawn if it is not raining."]
 			dependencies: ["26E8FEA03877DF1C"]
@@ -1370,7 +1307,7 @@
 			]
 		}
 		{
-			title: "Stone, Outside: Rare Pokemon"
+			title: "Stone, Outside: Dragon Alert"
 			x: -4.5d
 			y: 2.5d
 			description: ["This Pokemon spawns rarely, and mostly at night."]
@@ -1880,7 +1817,7 @@
 			}]
 		}
 		{
-			title: "Stone, Underground: Rare Pokemon"
+			title: "Stone, Underground: Dragon Alert"
 			x: 4.5d
 			y: 2.5d
 			description: ["This Pokemon spawns rarely, and mostly at night."]
@@ -2099,6 +2036,7 @@
 			title: "Stone, Indoor: Evolved Pokemon"
 			x: 6.5d
 			y: 2.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["73CDC278AECD0847"]
 			id: "5A21BA6B399BDAD0"
 			tasks: [{
@@ -2115,18 +2053,10 @@
 			title: "Stone, Water: Basic Pokemon"
 			x: 10.0d
 			y: 3.5d
+			description: ["These Pokemon all seem sturdy for some reason."]
 			dependencies: ["4D61D20EF0182AE0"]
 			id: "62B2801CFAF251C7"
 			tasks: [
-				{
-					id: "7590E18F3D478381"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "skrelp"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 				{
 					id: "59915233F65C441E"
 					type: "pixelmon:defeat_pokemon"
@@ -2159,7 +2089,8 @@
 		{
 			title: "Stone, Water: Evolved Pokemon"
 			x: 10.0d
-			y: 2.5d
+			y: 1.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["62B2801CFAF251C7"]
 			id: "2FEC02D59066C340"
 			tasks: [
@@ -2224,6 +2155,7 @@
 			title: "Stone, Underground Water: Evolved Pokemon"
 			x: 13.5d
 			y: 2.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["1D4BCC0EF390707F"]
 			id: "440D6CE722F60732"
 			tasks: [
@@ -2609,29 +2541,18 @@
 			title: "Deep Dark, Treetops:  Basic Pokemon"
 			x: -11.5d
 			y: 7.5d
-			description: ["What the-? What is Inkay doing here? Well, perhaps this makes sense. It's spawning on the 'top' of the 'bottom of the world.'"]
+			description: ["Only one fossil Pokemon lurks in these trees"]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "5CF74CADD99868B6"
-			tasks: [
-				{
-					id: "6276BA0815647A79"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "archen"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "3B8E476CA565DA0E"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "inkay"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "6276BA0815647A79"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "archen"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
 		}
 		{
 			title: "Deep Dark, Treetops: Evolved Pokemon"
@@ -2653,7 +2574,7 @@
 			title: "Deep Dark, Beach: Basic Pokemon"
 			x: -13.5d
 			y: 7.5d
-			description: ["Among other fossil Pokemon washing up on beachs in the deep dark, you can also find Inkay, famous for being at the top and bottom of things."]
+			description: ["Fossil Pokemon seem to wash up on these beaches."]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "298A26052EF4AF20"
 			tasks: [
@@ -2693,20 +2614,11 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "710927A15B5682B2"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "inkay"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
 		}
 		{
 			title: "Deep Dark, Beach: Evolved Pokemon"
-			x: -13.0d
+			x: -13.5d
 			y: 6.5d
 			dependencies: ["298A26052EF4AF20"]
 			id: "110F33ED31AB9FFA"
@@ -2751,7 +2663,7 @@
 		}
 		{
 			title: "Deep Dark, Beach: Starter Alert"
-			x: -14.0d
+			x: -14.5d
 			y: 6.5d
 			description: ["Although it would be exceptionally rare, it might be possible to find a little ground tortoise among all these turtles."]
 			dependencies: ["298A26052EF4AF20"]
@@ -3181,6 +3093,7 @@
 			title: "Deep Dark, Water: Evolved Pokemon"
 			x: 9.5d
 			y: 6.5d
+			description: ["This appears to be the only evolved Pokemon here."]
 			dependencies: ["2E53653E66E481C2"]
 			id: "7E48F090923C3E14"
 			tasks: [{
@@ -3210,6 +3123,7 @@
 			}]
 		}
 		{
+			title: "Deep Dark, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: 7.5d
 			description: ["These amazing rock-and-water type fossil Pokemon appear to have been released from places in deep underground water during the cataclysm."]
@@ -3255,6 +3169,7 @@
 			]
 		}
 		{
+			title: "Deep Dark, Underground Water: Evolutionary Pokemon"
 			x: 13.5d
 			y: 6.5d
 			dependencies: ["1D36FE37DDEB3FD1"]
@@ -3290,6 +3205,7 @@
 			]
 		}
 		{
+			title: "Murk, Outside: Basic Pokemon"
 			x: -3.0d
 			y: -4.5d
 			description: [
@@ -3377,6 +3293,7 @@
 			]
 		}
 		{
+			title: "Murk, Outside: Special Pokemon"
 			x: -4.0d
 			y: -5.5d
 			description: ["Rotom Mow is attracted to lawnmowers."]
@@ -3393,6 +3310,7 @@
 			}]
 		}
 		{
+			title: "Murk, Outside: Evolved Pokemon"
 			x: -3.0d
 			y: -5.5d
 			description: ["There is no sign of Grumpig, but there are Swalot and Leavanny in small numbers."]
@@ -3420,6 +3338,7 @@
 			]
 		}
 		{
+			title: "Murk, Outside: Dragon Alert"
 			x: -2.0d
 			y: -5.5d
 			description: ["Goomy will only spawn when raining"]
@@ -3436,6 +3355,7 @@
 			}]
 		}
 		{
+			title: "Murk, Manmade: Basic Pokemon"
 			x: -7.0d
 			y: -4.5d
 			description: [
@@ -3485,6 +3405,7 @@
 			]
 		}
 		{
+			title: "Murk, Manmade: Special Pokemon"
 			x: -7.5d
 			y: -5.5d
 			description: ["Rotom Wash is attracted to washing machines."]
@@ -3501,8 +3422,10 @@
 			}]
 		}
 		{
+			title: "Murk, Manmade: Evolved Pokemon"
 			x: -6.5d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["10C1770E9630053B"]
 			id: "2754355A8E35C801"
 			tasks: [
@@ -3545,6 +3468,7 @@
 			]
 		}
 		{
+			title: "Murk, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -4.5d
 			description: ["These insects are the children of the surviving cocoon bugs on this layer."]
@@ -3590,6 +3514,7 @@
 			]
 		}
 		{
+			title: "Murk, Flying: Basic Pokemon"
 			x: -9.5d
 			y: -4.5d
 			description: ["There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."]
@@ -3607,8 +3532,10 @@
 			}]
 		}
 		{
+			title: "Murk, Flying: Evolved Pokemon"
 			x: -9.5d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["0FDFFCBD2F374E6F"]
 			id: "467652F2D10BC10F"
 			tasks: [
@@ -3651,6 +3578,7 @@
 			]
 		}
 		{
+			title: "Murk, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -4.5d
 			description: ["It seems different Grimer emerge at different times of day on beaches on this layer."]
@@ -3687,6 +3615,7 @@
 			]
 		}
 		{
+			title: "Murk, Beach: Dragon Alert"
 			x: -12.5d
 			y: -5.5d
 			description: ["While goomy can always spawn on beaches, its spawn rate increases during the rain."]
@@ -3703,6 +3632,7 @@
 			}]
 		}
 		{
+			title: "Murk, \"Beach\": Special Pokemon"
 			x: -14.5d
 			y: -5.5d
 			description: ["Paldean woopers do not spawn on beaches. They spawn on mud, so long as there is a water block nearby."]
@@ -3719,8 +3649,10 @@
 			}]
 		}
 		{
+			title: "Murk, Beach: Evolved Pokemon"
 			x: -13.5d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["44B4C233C9A661E4"]
 			id: "2CB476603D536B3B"
 			tasks: [
@@ -3754,6 +3686,7 @@
 			]
 		}
 		{
+			title: "Murk, : Basic Pokemon"
 			x: -15.5d
 			y: -4.5d
 			description: ["The deserts here are barren and full of bones."]
@@ -3781,8 +3714,10 @@
 			]
 		}
 		{
+			title: "Murk, Desert: Evolved Pokemon"
 			x: -15.5d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["3C29F2568554A621"]
 			id: "438BA43609C8BC4A"
 			tasks: [{
@@ -3796,6 +3731,7 @@
 			}]
 		}
 		{
+			title: "Murk, Underground: Basic Pokemon"
 			x: 3.0d
 			y: -4.5d
 			description: [
@@ -3847,6 +3783,7 @@
 			]
 		}
 		{
+			title: "Murk, Underground: Special Pokemon"
 			x: 2.0d
 			y: -5.5d
 			description: ["This pokemon will only spawn if there is podzol or mycelium."]
@@ -3863,6 +3800,7 @@
 			}]
 		}
 		{
+			title: "Murk, Underground: Evolved Special Pokemon"
 			x: 2.0d
 			y: -6.5d
 			dependencies: ["7A701036A17391E4"]
@@ -3878,8 +3816,10 @@
 			}]
 		}
 		{
+			title: "Murk, Underground: Evolved Pokemon"
 			x: 3.0d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["39FFD21ED5C990A0"]
 			id: "2BBC9D888614F3EB"
 			tasks: [
@@ -3904,6 +3844,7 @@
 			]
 		}
 		{
+			title: "Murk, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -4.5d
 			description: ["These are the lost companions of missing children, discovered in the wreckage."]
@@ -3940,8 +3881,10 @@
 			]
 		}
 		{
+			title: "Murk, Indoors: Evolved Pokemon"
 			x: 6.5d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["6EA84F435C5B661E"]
 			id: "55B27D71D3DB1919"
 			tasks: [
@@ -3966,6 +3909,7 @@
 			]
 		}
 		{
+			title: "Murk, Indoors: Rare Pokemon"
 			x: 5.5d
 			y: -5.5d
 			description: ["Charcadet is very rare, but it is nevertheless possible to find one among the stufful, snubbul, and mimikyu."]
@@ -3982,6 +3926,7 @@
 			}]
 		}
 		{
+			title: "Murk, Indoors: Special Pokemon"
 			x: 7.5d
 			y: -5.5d
 			description: ["Rotom heat is attracted to furnaces. Rotom mow is attracted to fans."]
@@ -4009,6 +3954,7 @@
 			]
 		}
 		{
+			title: "Murk, Water: Basic Pokemon"
 			x: 10.0d
 			y: -4.5d
 			description: ["These pokemon were light or durable enough to survive the cataclysm, and appear to have settled on the Murk Layer."]
@@ -4045,8 +3991,10 @@
 			]
 		}
 		{
+			title: "Murk, Water: Evolved Pokemon"
 			x: 10.0d
 			y: -5.5d
+			description: ["You have found only one kind of Evolved Pokemon here."]
 			dependencies: ["77E6B00837F32052"]
 			id: "4E0A96B657C4EC6F"
 			tasks: [{
@@ -4060,6 +4008,7 @@
 			}]
 		}
 		{
+			title: "Murk, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -4.5d
 			description: ["Neither of these Pokemon are looking especially good."]
@@ -4087,8 +4036,10 @@
 			]
 		}
 		{
+			title: "Murk, Underground Water: Evolved Pokemon"
 			x: 13.5d
 			y: -5.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["47E689A6C4C6F150"]
 			id: "33374B5A551EE747"
 			tasks: [{
@@ -4102,6 +4053,7 @@
 			}]
 		}
 		{
+			title: "Dazzle, Outside: Basic Pokemon"
 			x: -3.0d
 			y: -8.0d
 			description: [
@@ -4169,6 +4121,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Outside: Time of Day Pokemon"
 			x: -3.0d
 			y: -9.0d
 			description: ["The flower Pokemon Cottonee and Gossifleur are out during the day, where the lightning bug Pokemon vobleat and Illumise are out during the evening."]
@@ -4214,6 +4167,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Manmade and Outside: Special Pokemon"
 			x: -5.0d
 			y: -9.0d
 			description: ["This pokemon can be lured out with a terrasteel agglomeration plate."]
@@ -4233,6 +4187,7 @@
 			}]
 		}
 		{
+			title: "Dazzle Manmade: Basic Pokemon"
 			x: -7.0d
 			y: -8.0d
 			description: [
@@ -4282,6 +4237,7 @@
 			]
 		}
 		{
+			title: "Dazzle Manmade: Evolved Pokemon"
 			x: -7.0d
 			y: -9.0d
 			description: ["Although Alcremie is very rare, it can likely be lured out by placing cake on the ground."]
@@ -4327,6 +4283,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Underground: Basic Pokemon"
 			x: 3.0d
 			y: -8.0d
 			description: [
@@ -4367,6 +4324,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Underground: Dragon Alert"
 			x: 2.0d
 			y: -9.0d
 			description: ["Amazingly, you have found a non-bug cocoon Pokemon! It must have survived because it was so sturdy. You expect a small number of Larvitar and Tyrannitar can be found here as well, but, if so, they are so few in number you haven't seen one."]
@@ -4383,8 +4341,10 @@
 			}]
 		}
 		{
+			title: "Dazzle, Underground: Evolved Pokemon"
 			x: 3.0d
 			y: -9.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["085F0C92CC99BE19"]
 			id: "147718E7DFDF6672"
 			tasks: [
@@ -4418,6 +4378,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Underground and Indoors: Special Pokemon"
 			x: 4.5d
 			y: -9.0d
 			description: ["Impidimp spawn very rarely, but more might be lured out with cake."]
@@ -4438,6 +4399,7 @@
 			}]
 		}
 		{
+			title: "Dazzle, Underground and Indoors: Special Evolved Pokemon"
 			x: 4.5d
 			y: -10.0d
 			description: ["These evolved imps and trolls will only appear in the presence of cake."]
@@ -4465,6 +4427,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -8.0d
 			description: [
@@ -4505,6 +4468,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Indoors: Evolved Pokemon"
 			x: 6.5d
 			y: -9.0d
 			description: ["Aside from Musharna, the remainder of these Pokemon are very rare."]
@@ -4559,6 +4523,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Water: Basic Pokemon"
 			x: 10.0d
 			y: -8.0d
 			description: ["Amazing! You have found a small pool of tadpoles! It appears that these creatures were able to survive in egg form despite all adversity, and sprung to life once introduced back to water."]
@@ -4595,6 +4560,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Water: Rare Pokemon"
 			x: 9.5d
 			y: -9.0d
 			description: ["You have never seen a baby form of Croagunk, but it must be lurking around, invisible, somewhere, as a small number of Croagunk are spawning."]
@@ -4611,6 +4577,7 @@
 			}]
 		}
 		{
+			title: "Dazzle, Water: Starter Alert"
 			x: 10.5d
 			y: -9.0d
 			description: ["Since this is a pool of tadpoles, it stands to reason there might be the slightest chance of finding a Froakie..."]
@@ -4627,35 +4594,27 @@
 			}]
 		}
 		{
+			title: "Dazzle, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -8.0d
-			description: ["This could be the closest you ever get to being Ash Ketchum with his Pikachu..."]
+			description: ["These soaked dolls are unsettling."]
 			dependencies: ["68656D2ECD70A4C9"]
 			id: "3E920BE183F9DCAF"
-			tasks: [
-				{
-					id: "3E220585D1150B49"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "baltoy palette:alter"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "4A4BEBC716F9C904"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "pikachu palette:drowned"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "3E220585D1150B49"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "baltoy palette:alter"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
 		}
 		{
+			title: "Dazzle, Underground Water: Evolved Pokemon"
 			x: 13.5d
 			y: -9.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["3E920BE183F9DCAF"]
 			id: "407DF1DD487C653F"
 			tasks: [
@@ -4680,6 +4639,7 @@
 			]
 		}
 		{
+			title: "Dazzle : Basic Pokemon"
 			x: -9.5d
 			y: -8.0d
 			description: ["There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."]
@@ -4696,8 +4656,10 @@
 			}]
 		}
 		{
+			title: "Dazzle, Flying: Evolved Pokemon"
 			x: -9.5d
 			y: -9.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["5F34EFAB3F8B4C47"]
 			id: "367371A103520842"
 			tasks: [
@@ -4740,6 +4702,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -8.0d
 			description: ["Among the insects who are children of the hardy cocoon bugs who've survived on this layer, you can also find a rare fruit Pokemon growing among the branches: Bounsweet."]
@@ -4785,6 +4748,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -8.0d
 			description: ["These beaches may be the only reliable source of lapis."]
@@ -4821,8 +4785,10 @@
 			]
 		}
 		{
+			title: "Dazzle, Beach: Evolved Pokemon"
 			x: -13.5d
 			y: -9.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["6559153FFF3D780E"]
 			id: "25264AE295C30407"
 			tasks: [
@@ -4847,6 +4813,7 @@
 			]
 		}
 		{
+			title: "Dazzle, Desert: Basic Pokemon"
 			x: -15.5d
 			y: -8.0d
 			description: ["The deserts here are barren and full of bones."]
@@ -4874,8 +4841,10 @@
 			]
 		}
 		{
+			title: "Dazzle, Desert: Evolved Pokemon"
 			x: -15.5d
 			y: -9.0d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["62B28D48CCEDE16E"]
 			id: "5F6EEC92B637DD47"
 			tasks: [{
@@ -4889,9 +4858,11 @@
 			}]
 		}
 		{
+			title: "Air : Basic Pokemon"
 			x: -3.0d
 			y: -11.5d
 			description: ["A number of light and flowery Pokemon seem to have survived on this layer, along with two spiritual birds."]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "533743F769D87C04"
 			tasks: [
 				{
@@ -4933,9 +4904,10 @@
 			]
 		}
 		{
+			title: "Air, Outside: Time of Day Pokemon"
 			x: -4.0d
 			y: -12.5d
-			description: ["Fletchling seems to have risen from the ashes to live again. Fletchling is out during the day, and Murkrow during the night."]
+			description: ["Fletchling seems to have risen from the ashes to live again, while Murkrow presides over death and decay. Fletchling is out during the day, and Murkrow during the night."]
 			dependencies: ["533743F769D87C04"]
 			id: "270C6DE3E945461E"
 			tasks: [
@@ -4960,8 +4932,10 @@
 			]
 		}
 		{
+			title: "Air, Outside: Evolved Pokemon"
 			x: -3.0d
 			y: -12.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["533743F769D87C04"]
 			id: "52537E203F360D54"
 			tasks: [
@@ -5004,6 +4978,7 @@
 			]
 		}
 		{
+			title: "Air, Outside: Starter Alert"
 			x: -2.0d
 			y: -12.5d
 			description: ["With every possible bird associated with death and the spirit world around, and Fletchling having risen from the ashes, you hold out hope a Torchic might be found."]
@@ -5020,9 +4995,11 @@
 			}]
 		}
 		{
+			title: "Air, Manmade: Basic Pokemon"
 			x: -7.0d
 			y: -11.5d
-			description: ["Two spiritual boards can be found presiding over the ruins here."]
+			description: ["Two spiritual birds can be found presiding over the ruins here."]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "48693D9F9DDB70AF"
 			tasks: [
 				{
@@ -5046,6 +5023,7 @@
 			]
 		}
 		{
+			title: "Air, Manmade: Poke Ball"
 			x: -6.0d
 			y: -12.5d
 			description: ["Voltorb are very valuable because you can harvest pokeball parts from them. You can attract more of them with blocks of redstone."]
@@ -5073,6 +5051,7 @@
 			]
 		}
 		{
+			title: "Air, Manmade: Time of Day Pokemon"
 			x: -7.0d
 			y: -12.5d
 			description: ["Pidove seems to have somehow survived the cataclysm! It does have a reputation for suriving floods, but surviving explosions is new! It is out during the day, and Murkrow during the night. "]
@@ -5099,8 +5078,10 @@
 			]
 		}
 		{
+			title: "Air, Manmade: Evolved Pokemon"
 			x: -7.0d
 			y: -13.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["48693D9F9DDB70AF"]
 			id: "1F158AA857A0B059"
 			tasks: [
@@ -5134,6 +5115,7 @@
 			]
 		}
 		{
+			title: "Air, Manmade: Special Pokemon"
 			x: -8.0d
 			y: -12.5d
 			description: ["Magnemite can be attracted to this layer using some structures from Immersive Engineering."]
@@ -5150,6 +5132,7 @@
 			}]
 		}
 		{
+			title: "Air, Manmade: Special Evolved Pokemon"
 			x: -8.0d
 			y: -13.5d
 			dependencies: ["1838D05497C15169"]
@@ -5176,9 +5159,11 @@
 			]
 		}
 		{
+			title: "Air, Flying: Basic Pokemon"
 			x: -9.5d
 			y: -11.5d
 			description: ["There are a few common evolved bug Pokemon here, but the only unevolved Pokemon appears to be Hoppip, which is so light and evasive it seems to have survived the Cataclysm."]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "24EB4B379FF9B753"
 			tasks: [{
 				id: "3FD3B5373298F2DE"
@@ -5191,8 +5176,10 @@
 			}]
 		}
 		{
+			title: "Air, Flying: Evolved Pokemon"
 			x: -9.5d
 			y: -12.5d
+			description: ["Some of these Pokemon are almost as common as Hoppip."]
 			dependencies: ["24EB4B379FF9B753"]
 			id: "2193DEA0256BC904"
 			tasks: [
@@ -5236,6 +5223,7 @@
 			]
 		}
 		{
+			title: "Air, Flying: Evolved Dragon Alert"
 			x: -9.5d
 			y: -13.5d
 			description: ["There appears to be a rare Salamence and Noivern passing through."]
@@ -5263,6 +5251,7 @@
 			]
 		}
 		{
+			title: "Stone, Flying: Evolved Dragon Alert"
 			x: -9.5d
 			y: 1.5d
 			description: ["The rare passing Hydreigon appear to be the reason small Deino are thriving on this layer."]
@@ -5279,6 +5268,7 @@
 			}]
 		}
 		{
+			title: "Deep Dark, Flying: Evolved Dragon Alert"
 			x: -9.5d
 			y: 5.5d
 			description: ["The rare passing Hydreigon appear to be the reason small Deino are thriving on this layer."]
@@ -5295,6 +5285,7 @@
 			}]
 		}
 		{
+			title: "Air, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -11.5d
 			description: [
@@ -5302,6 +5293,7 @@
 				""
 				"Fletchling seems to have risen from the ashes, and Hoothoot appears to have survived because of its relationship with the spiritual."
 			]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "496E4CCAC47AA511"
 			tasks: [
 				{
@@ -5334,8 +5326,10 @@
 			]
 		}
 		{
+			title: "Air, Treetops: Evolved Pokemon"
 			x: -12.0d
 			y: -12.5d
+			description: ["The Vivillon in particular seems rather common."]
 			dependencies: ["496E4CCAC47AA511"]
 			id: "55C5243A66A942D2"
 			tasks: [
@@ -5369,6 +5363,7 @@
 			]
 		}
 		{
+			title: "Air, Treetops: Starter Alert"
 			x: -11.0d
 			y: -12.5d
 			description: [
@@ -5402,6 +5397,7 @@
 			]
 		}
 		{
+			title: "Air, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -11.5d
 			description: [
@@ -5409,6 +5405,7 @@
 				""
 				"Bramblin are haunted sticks blown here by the breeze."
 			]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "37065D461958B53F"
 			tasks: [
 				{
@@ -5432,6 +5429,7 @@
 			]
 		}
 		{
+			title: "Air, Beach: Dragon Alert"
 			x: -14.0d
 			y: -12.5d
 			description: ["Although very rare, it appears Shelgon can be found here. These Shelgon seem to have survived the same way Pupitar did on lower layers. Either that, or it has something to do with Salamence flying by."]
@@ -5448,8 +5446,10 @@
 			}]
 		}
 		{
+			title: "Air, Beach: Evolved Pokemon"
 			x: -13.0d
 			y: -12.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["37065D461958B53F"]
 			id: "5DF24CCAF6EC5B2B"
 			tasks: [{
@@ -5463,9 +5463,11 @@
 			}]
 		}
 		{
+			title: "Air, Desert: Basic Pokemon"
 			x: -15.5d
 			y: -11.5d
-			description: ["The deserts here are more desolate than the beaches. You won't find shelgon, but you may find vullaby."]
+			description: ["The deserts here are more desolate than the beaches. You won't find Shelgon, but you may find Vullaby."]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "195BAA48092A38AC"
 			tasks: [
 				{
@@ -5498,8 +5500,10 @@
 			]
 		}
 		{
+			title: "Air, Desert: Evolved Pokemon"
 			x: -15.5d
 			y: -12.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["195BAA48092A38AC"]
 			id: "1220B4030B3CCA75"
 			tasks: [{
@@ -5513,33 +5517,17 @@
 			}]
 		}
 		{
+			title: "Air, Underground: Basic Pokemon"
 			x: 3.0d
 			y: -11.5d
 			description: [
-				"Vullaby has reappeared on this layer in underground habitats, but there also appear to be some very beautiful bat Pokemon."
+				"You've found some kind of hybernating locust Pokemon here, called Nymble, but also a large number of beautiful bat Pokemon."
 				""
-				"Both bat Pokemon appear attracted to note blocks, if you would like to lower the quantity of vullaby."
+				"All bat Pokemon appear attracted to note blocks, which may improve their spawn rates if they're competing with Pokemon from other habitats."
 			]
+			dependencies: ["0BD06157B3F599CB"]
 			id: "66DA9BA11F31144E"
 			tasks: [
-				{
-					id: "782F158968CD71AB"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "vullaby"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "45EEA77B859D95D9"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "noibat"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 				{
 					id: "753AB5ED935786D6"
 					type: "pixelmon:defeat_pokemon"
@@ -5558,11 +5546,22 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
+				{
+					id: "3957E1471827521A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nymble"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
 			]
 		}
 		{
+			title: "Air, Underground: Evolved Pokemon"
 			x: 3.0d
 			y: -12.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["66DA9BA11F31144E"]
 			id: "2A2B5084DE50AD71"
 			tasks: [
@@ -5593,11 +5592,22 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
+				{
+					id: "2BFA5209EA26643F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lokix"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
 			]
 		}
 		{
+			title: "Air, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -11.5d
+			dependencies: ["0BD06157B3F599CB"]
 			id: "15865566F6B62448"
 			tasks: [
 				{
@@ -5627,6 +5637,1727 @@
 					invertUsed: false
 				}
 			]
+		}
+		{
+			title: "Air, Indoors: Poke Ball"
+			x: 7.0d
+			y: -12.5d
+			description: ["Voltorb are very valuable because you can harvest pokeball parts from them. You can attract more of them with blocks of redstone."]
+			dependencies: ["15865566F6B62448"]
+			id: "3C08861384CF3C7A"
+			tasks: [
+				{
+					id: "15F10ADF663A09DA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "voltorb form:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "55E56C5B3FF86522"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "electrode form:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Air, Indoors: Special Pokemon"
+			x: 5.0d
+			y: -12.5d
+			description: ["Magnemite can be attracted to this layer using some structures from Immersive Engineering."]
+			dependencies: ["15865566F6B62448"]
+			id: "2C689955BCE516EB"
+			tasks: [{
+				id: "1057DE4C261C2671"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "magnemite"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Air, Indoors: Special Evolved Pokemon"
+			x: 5.0d
+			y: -13.5d
+			dependencies: ["2C689955BCE516EB"]
+			id: "7E3D4165203EE12A"
+			tasks: [
+				{
+					id: "759BFFB89C262660"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magneton"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7674D512B6D467B5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magnezone"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Air, Indoors: Evolved Pokemon"
+			x: 6.0d
+			y: -12.5d
+			description: ["The expected evolved Pokemon are here."]
+			dependencies: ["15865566F6B62448"]
+			id: "1E0A4A42D2269C6F"
+			tasks: [
+				{
+					id: "39D26899C1434DDF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "honchkrow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7939AA25A385C154"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tranquill"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Air, Indoors: Starter Alert"
+			x: 8.0d
+			y: -12.5d
+			description: [
+				"Rowlet may have survived along with Hoohoot owed to their connection to the spiritual."
+				""
+				"Perhaps you can find it inside old barns or somesuch?"
+			]
+			dependencies: ["15865566F6B62448"]
+			id: "0AD670155FEE9854"
+			tasks: [{
+				id: "0D1B43A41F4F9E98"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "rowlet"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Air, Water: Basic Pokemon"
+			x: 10.0d
+			y: -11.5d
+			description: ["Both of these Pokemon are both aquatic and air-affiliated. They seem to have survived by 'swimming' through the void until they found water."]
+			dependencies: ["0BD06157B3F599CB"]
+			id: "4864359B0A662B6F"
+			tasks: [
+				{
+					id: "3C31F5D17D8B03A3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mantyke"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0777DC84B96842B7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "finneon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Air, Water: Evolved Pokemon"
+			x: 10.0d
+			y: -12.5d
+			description: ["The expected evolved Pokemon are here."]
+			dependencies: ["4864359B0A662B6F"]
+			id: "3EF65BC1E97B59BA"
+			tasks: [
+				{
+					id: "4141B9934C3E9AE8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mantine"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "06F8CF26AA0C3B55"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lumineon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5FBBB5AC650509DE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gyarados palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Air, Underground Water: Basic Pokemon"
+			x: 13.5d
+			y: -11.5d
+			dependencies: ["0BD06157B3F599CB"]
+			id: "596D4F30EDA75B30"
+			tasks: [{
+				id: "5249D35492345464"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "finneon palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Air, Underground Water: Evolved Pokemon"
+			x: 13.5d
+			y: -12.5d
+			description: ["You've found the Flygon responsible for the beach Trapinch. It's not looking well."]
+			dependencies: ["596D4F30EDA75B30"]
+			id: "0A06F527457DBBB6"
+			tasks: [
+				{
+					id: "37FDC61FAA3848D8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lumineon palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "29FD714F87212814"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gyarados palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "29849ABC14FC4991"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "flygon palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Outside: Basic Pokemon"
+			x: -3.0d
+			y: -15.0d
+			description: ["As far as you can see, it is a barren tundra of rocky debris. Wait! Is that... a goat of some kind? Skiddo! It's survived by jumping from crumbling rock to crumbling rock!"]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "12C0C86715880B3C"
+			tasks: [
+				{
+					id: "58548083626F16F3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Skiddo"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "785700A093E19B1B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cryogonal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Outside: Weather Pokemon"
+			x: -4.0d
+			y: -16.0d
+			description: ["Spiritual Sneasel can be found only during lightning storms. They are sitll incredibly rare."]
+			dependencies: ["12C0C86715880B3C"]
+			id: "787EAB4290F8351B"
+			tasks: [{
+				id: "614315A8B188E265"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "sneasel palette:strike"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Outside: Special Pokemon"
+			x: -2.0d
+			y: -16.0d
+			description: [
+				"Although you see no Snorunt, the wintry pokemon Glalie was apparently sturdy enough to survive the apocalypse."
+				""
+				"A strange version of Kecleon is also slinking aorund the edges of your vision. What is it doing in the polar opposite of a jungle? It seems to have adapted well."
+			]
+			dependencies: ["12C0C86715880B3C"]
+			id: "4B64972288EE906F"
+			tasks: [
+				{
+					id: "2E62730058479F30"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "glalie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "49B5C746453813B9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "kecleon palette:alter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Outside: Evolved Pokemon"
+			x: -3.0d
+			y: -16.0d
+			description: ["The expected evolved Pokemon are here."]
+			dependencies: ["12C0C86715880B3C"]
+			id: "15C4F2B2290F8C08"
+			tasks: [{
+				id: "787241F033C5940E"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "gogoat"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Manmade: Foxy Pokemon"
+			x: -6.5d
+			y: -16.0d
+			description: ["Here it seems you can find winter fox pokemon, lingering near the remains of human buildings. The Zorua has likely survived on its lonesome through trickery, but the Vulpix appear to all be recent offspring of wintry Ninetales."]
+			dependencies: ["7FD37A6A804043CB"]
+			id: "76224DE96E942880"
+			tasks: [
+				{
+					id: "416A107A6BB66326"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zorua form:hisuian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "41AA3AE66704B75D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vulpix form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Manmade: Evolved Pokemon"
+			x: -6.5d
+			y: -17.0d
+			description: ["Although Zorua are more common here than Vulpix, Ninetales is much, much more common than Zoroark."]
+			dependencies: ["76224DE96E942880"]
+			id: "0E7CDF1912A1882D"
+			tasks: [
+				{
+					id: "274928A10533E47B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ninetales form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "520E776189BB4E9C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zoroark form:hisuian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Manmade: Basic Pokemon"
+			x: -7.0d
+			y: -15.0d
+			description: ["An assortment of winter wonderland Pokemon can be found in the ice where settlements used to be. Little snowmen and bits of wrapping paper can be found among the debries."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "7FD37A6A804043CB"
+			tasks: [
+				{
+					id: "71147EEC6EF16936"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cryogonal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0B4C07A5DB3B0676"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "darumaka form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "35C24A22BDC45573"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "castform palette:christmas"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Manmade: Special Pokemon"
+			x: -7.5d
+			y: -16.0d
+			description: ["Stalking the ruins of settlements can be found the ghostly Marowak, torch still lit."]
+			dependencies: ["7FD37A6A804043CB"]
+			id: "639DCFF6B187B1D4"
+			tasks: [{
+				id: "631DEFA20FB4AEE1"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "marowak form:alolan"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Underground: Basic Pokemon"
+			x: 3.0d
+			y: -15.0d
+			description: ["An assortment of sturdy Pokemon have survive in underground habitats here. There is the icy Sandshrew, the durable Ferroseed, and the depressing Cubone, which may have survived only thanks to the sacrifice of its elders. Or perhaps Marowak still linger to guard it?"]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "4C4C1980855957CB"
+			tasks: [
+				{
+					id: "456877F1245218E2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sandshrew form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2C6B064DF77AA5C5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ferroseed"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6303AC4E5FF2776D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cubone"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Underground: Special Pokemon"
+			x: 4.0d
+			y: -16.0d
+			description: [
+				"Onix is one of the only sources of ores, although the type and number dropped is very inconsistent, and the onix itself is very rare."
+				""
+				"It may be easier to harass the relevant Sableye for whatever crystals you desire."
+			]
+			dependencies: ["4C4C1980855957CB"]
+			id: "7378567BB50B2593"
+			tasks: [{
+				id: "552056EAA0E1A588"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "onix palette:crystal"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Underground: Special Evolved Pokemon"
+			x: 4.0d
+			y: -17.0d
+			dependencies: ["7378567BB50B2593"]
+			id: "29F0DF6D23B022AC"
+			tasks: [{
+				id: "47ED72E652957E60"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "steelix palette:crystal"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Underground: Evolved Pokemon"
+			x: 3.0d
+			y: -16.0d
+			description: ["Ferrothorn is so uncommon as to be virtually impossible to find. You know of no way to attract more of them."]
+			dependencies: ["4C4C1980855957CB"]
+			id: "7BC789305F00E37D"
+			tasks: [
+				{
+					id: "3162116DEE64C30D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sandslash form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6CEEA5BB8E9D6C4D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "marowak"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1C4742018B935CE2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ferrothorn"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Underground: Christmas Pokemon"
+			x: 2.0d
+			y: -16.0d
+			description: ["There might be a certain Pokemon who can be called out by Christmas Decorations. Consider decorating with Spruce Leaves."]
+			dependencies: ["4C4C1980855957CB"]
+			id: "0A414D149A521B8B"
+			tasks: [{
+				id: "1B2D95291D733BA0"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Drampa palette:christmas"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Indoors: Basic Pokemon"
+			x: 6.5d
+			y: -15.0d
+			description: ["Here it seems you can find fox pokemon, lingering in the remains of human buildings. The Nickit and Zorua has likely survived on its lonesome through trickery, but the Vulpix appear to all be recent offspring of fiery Ninetales glowing in abandoned hearths."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "009AAC33D3460FE8"
+			tasks: [
+				{
+					id: "14C8A492CE32AF00"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nickit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "03C2FBA4808582BF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vulpix"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4E36B2E766A724BF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zorua"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Indoors: Lady Pokemon"
+			x: 5.5d
+			y: -16.0d
+			description: ["Some haunting feminine spirits can occasionally be found indoors."]
+			dependencies: ["009AAC33D3460FE8"]
+			id: "2EB99D03ECC3DAC1"
+			tasks: [
+				{
+					id: "6C859EF4106BE710"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "froslass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "594510CD1E9589D3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mawile"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Indoors: Christmas Pokemon"
+			x: 5.5d
+			y: -17.0d
+			description: ["You believe a special Sinistea may be lured out here with Christmas decorations. Try decorating with spruce leaves."]
+			dependencies: ["009AAC33D3460FE8"]
+			id: "757F4B3C66AA9A24"
+			tasks: [{
+				id: "4D47C9AFFE7E57B5"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "sinistea palette:christmas"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Indoors: Starter Alert"
+			x: 6.5d
+			y: -16.0d
+			description: ["Nestled among the other fox Pokemon, there is a small chance of finding Fennekin."]
+			dependencies: ["009AAC33D3460FE8"]
+			id: "6488FC423A1B31D3"
+			tasks: [{
+				id: "13C2B001788B3FAA"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "fennekin"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Indoors: Evolved Pokemon"
+			x: 6.5d
+			y: -17.0d
+			description: ["The expected evolved Pokemon are here."]
+			dependencies: ["009AAC33D3460FE8"]
+			id: "675FCDD245900393"
+			tasks: [
+				{
+					id: "1B48C2424D9BC195"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zoroark"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5BD6B586867F5505"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ninetales"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Indoors: Rare Pokemon"
+			x: 7.5d
+			y: -16.0d
+			description: ["In the embers of dying fire places, you can occasionally find Darumaka, which have survived against all odds."]
+			dependencies: ["009AAC33D3460FE8"]
+			id: "477436FC089FEA02"
+			tasks: [{
+				id: "5A476DAD4739C309"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "darumaka"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Indoors: Special Pokemon"
+			x: 7.5d
+			y: -17.0d
+			description: ["Stalking the ruins of settlements can be found the ghostly Marowak, torch still lit."]
+			dependencies: ["009AAC33D3460FE8"]
+			id: "310C3BA75C81F537"
+			tasks: [{
+				id: "7051685B17D1A831"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "marowak form:alolan"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Flying: Basic Pokemon"
+			x: -9.5d
+			y: -15.0d
+			description: ["The only Pokemon flying here are all very impressive. You think their young may be found in treetops nearby."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "68C93CA5A467D6E9"
+			tasks: [
+				{
+					id: "384E230A7DA9623B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "flapple"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "202461AED71D1C59"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "volcarona"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0A6F241AF8188447"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Frosmoth"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "161099FE3DF1657D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Vivillon palette:icy_snow"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1ACD641F33052EB7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "altaria"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Treetops: Basic Pokemon"
+			x: -11.5d
+			y: -15.0d
+			description: ["These appear to be the young of flying Pokemon in the area."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "1CD5DDAC444AF7B7"
+			tasks: [
+				{
+					id: "01FCA5D089B0406D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "applin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "220DF8AFC4B1EF2A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "larvesta"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "52F0D5A95BD69C3D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "snom"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5A2E4252C5816C55"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "swablu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Beach: Basic Pokemon"
+			x: -13.5d
+			y: -15.0d
+			description: ["Strong, durable, icy Pokemon have survived with the help of their shells or exterior coating."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "16FE3D38A9F04081"
+			tasks: [
+				{
+					id: "032F96364BD632CD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "bergmite"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "35637A7C4B0028F9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shellder"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Beach: Special Pokemon"
+			x: -14.0d
+			y: -16.0d
+			description: ["What? How did this silly thing survive? Maybe it landed on its head?"]
+			dependencies: ["16FE3D38A9F04081"]
+			id: "4FCE5998DD3BFF2C"
+			tasks: [{
+				id: "188402A0A8603EBD"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Eiscue"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Beach: Evolved Pokemon"
+			x: -13.0d
+			y: -16.0d
+			description: ["You are seeing a small number of Shellder's evolved form, but not Bergmite's. Perhaps it was too large, and too brittle."]
+			dependencies: ["16FE3D38A9F04081"]
+			id: "4C6F10D8A105C849"
+			tasks: [{
+				id: "5B075196CD9F9DAF"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "cloyster"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Desert: Basic Pokemon"
+			x: -15.5d
+			y: -15.0d
+			description: ["The desert Sandshrew appear to be the rare oddball offspring of the icy Sandslash nearby. Togedemaru dominates the desert here."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "0B87B6C647B3A058"
+			tasks: [
+				{
+					id: "79A48C98D24913EC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sandshrew"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "44BADAE713522534"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "togedemaru"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Ice, Water: Basic Pokemon"
+			x: 10.0d
+			y: -15.0d
+			description: ["The most common water Pokemon is Bergmite."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "438C3FDD01721767"
+			tasks: [{
+				id: "598DC7362BC1C22B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "bergmite"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Water: Special Pokemon"
+			x: 9.0d
+			y: -16.0d
+			description: ["This silly balloon of a Pokemon seems to have survived the same way Jigglypuff has, by floating and bouncing along."]
+			dependencies: ["438C3FDD01721767"]
+			id: "0B1FD39236077597"
+			tasks: [{
+				id: "6A2CC8D0C7D6E0A7"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "spheal"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Water: Dragon Alert"
+			x: 11.0d
+			y: -16.0d
+			description: ["The rare Horsea might be the result of a Kingdra reproducing somewhere around here, but you can't seem to find one."]
+			dependencies: ["438C3FDD01721767"]
+			id: "2A55D8551F5A307C"
+			tasks: [{
+				id: "2F705E4DB5710A88"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "horsea"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Water: Evolved Pokemon"
+			x: 10.0d
+			y: -16.0d
+			description: ["Avalugg did not survive on the beaches, but it seems a few managed to stay afloat on top of the remaining water. Either that, or the Bergemite are fusing together in extreme cold temperatures."]
+			dependencies: ["438C3FDD01721767"]
+			id: "38D44901A56725CF"
+			tasks: [{
+				id: "161A45884A253F36"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "avalugg"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Underground Water: Basic Pokemon"
+			x: 13.5d
+			y: -15.0d
+			description: ["As they say, what you see on top of the water is only the tip of the iceberg. There's more underneath."]
+			dependencies: ["7EEAD69FE49927AB"]
+			id: "62B283578DF528E1"
+			tasks: [{
+				id: "06F5C28AC467C688"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "bergmite"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Ice, Underground Water: Evolved Pokemon"
+			x: 13.5d
+			y: -16.0d
+			description: ["You have found that Kingdra you were looking for, and it doesn't look healthy. But there is another surprise: A Rapidash? You wonder if it even has any fire left in it..."]
+			dependencies: ["62B283578DF528E1"]
+			id: "431931452F6CD8F6"
+			tasks: [
+				{
+					id: "52A91F4A31A5E27F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "kingdra palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5D57F25C42398C2D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rapidash palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "479DCA47D22C0797"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "flygon palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Outside: Basic Pokemon"
+			x: -3.0d
+			y: -18.5d
+			description: ["Here you find a few durable Pokemon that may have fallen from space."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "45E586D0FBA5CFD5"
+			tasks: [
+				{
+					id: "173C03D29A592E99"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Dottler"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "62812BBB696C5FEF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Minior"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Manmade: Basic Pokemon"
+			x: -7.0d
+			y: -18.5d
+			description: ["You find the ancient ruins of a giant sundial, a Pokemon of light and dark that symbolizes destruction, and light, brassy little bells."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "4591C6E893504E01"
+			tasks: [
+				{
+					id: "6E386AFD0BDE2CE1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "stonjourner"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "436E0783C64EAC1F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "absol"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2982DFDFA5977BFF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "chingling"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Manmade: Evolved Pokemon"
+			x: -7.0d
+			y: -19.5d
+			dependencies: ["4591C6E893504E01"]
+			id: "5050B7EFE20CCB3B"
+			tasks: [{
+				id: "2836DC401EFD639F"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chimecho"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Flying: Basic Pokemon"
+			x: -9.5d
+			y: -18.5d
+			description: ["The only Pokemon flying up here are truly alien or have embraced the stars."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "6B69C239498A36E4"
+			tasks: [
+				{
+					id: "4EB2C7C585FE96F3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "orbeetle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2693B5E8B577419E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vivillon palette:polar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Treetops: Basic Pokemon"
+			x: -11.5d
+			y: -18.5d
+			description: ["These appear to be the young of some other Pokemon on this layer."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "7C5BF38CA3062A20"
+			tasks: [
+				{
+					id: "5F42A1C79924ECF1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Blipbug"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1BFFA68FB7E400BF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "chingling"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "218885AB9C5CD3E2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sunkern"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2761DC762009832C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "seedot"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Beach and Tree Tops: Topss-Turvy Pokemon"
+			x: -12.5d
+			y: -19.5d
+			description: ["This strange Pokemon tends to be found at the tops and bottoms of things."]
+			dependencies: [
+				"7C5BF38CA3062A20"
+				"2349C3BFE5C65871"
+			]
+			dependency_requirement: "one_completed"
+			id: "673AC07CFDD8C1B6"
+			tasks: [{
+				id: "187B5103A376B515"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "inkay"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Treetops: Evolved Pokemon"
+			x: -11.5d
+			y: -19.5d
+			dependencies: ["7C5BF38CA3062A20"]
+			id: "0A2258B3B71F983C"
+			tasks: [{
+				id: "5C4D31F3D55142A6"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chimecho"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Beach: Basic Pokemon"
+			x: -13.5d
+			y: -18.5d
+			description: ["You are unsurprised to see Staryu has somehow survived close to the stars, but what is Wimpod doing here? How did it 'hide' from the end of the world?"]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "2349C3BFE5C65871"
+			tasks: [
+				{
+					id: "32EAE4B0434BAC9C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "staryu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "32A1A195BF99CA87"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "wimpod"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Desert: Basic Pokemon"
+			x: -15.5d
+			y: -18.5d
+			description: ["Sigilyph reigns over this lonely desert, where dung beetles roam the dunes."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "1C8781A807735F76"
+			tasks: [
+				{
+					id: "713BC2C69B987A52"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sigilyph"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5AB82BCADFEAEEA1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rellor"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Underground: Basic Pokemon"
+			x: 3.0d
+			y: -18.5d
+			description: ["This tiny Pokemon appears to have fallen from the stars!"]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "0D5FFE8FA710B015"
+			tasks: [{
+				id: "7B79579F2EDA9AEA"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "cleffa"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Underground: Evolved Pokemon"
+			x: 3.5d
+			y: -19.5d
+			description: ["Clefairy themselves are few in number, which makes you think the Cleffa everywhere are very new to this world. Clefable is even rarer."]
+			dependencies: ["0D5FFE8FA710B015"]
+			id: "16D685E1F66ACB6A"
+			tasks: [
+				{
+					id: "7BB391A3F1E60234"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "clefairy"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "48E055572EF1FF25"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "clefable"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Underground: Time of Day Pokemon"
+			x: 2.5d
+			y: -19.5d
+			description: ["These two Pokemon appear to alternate; one is out at night, and the other during the day."]
+			dependencies: ["0D5FFE8FA710B015"]
+			id: "40F4437EDF253925"
+			tasks: [
+				{
+					id: "5EBDB32BC34140F4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lunatone"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5BE4FF3BBE7619DF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "solrock"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Indoors: Basic Pokemon"
+			x: 6.5d
+			y: -18.5d
+			description: ["Strange little aliens wobble about in between light brassy bells."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "491557CA149D0887"
+			tasks: [
+				{
+					id: "40B047CA5A91B309"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "chingling"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5379B1C9C873DA14"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "elgyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Indoors: Evolved Pokemon"
+			x: 6.0d
+			y: -19.5d
+			dependencies: ["491557CA149D0887"]
+			id: "7074738E3F9D0F33"
+			tasks: [
+				{
+					id: "7FBE28E4CE4D975D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Chimecho"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "44F5C6876F84DD05"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Beheeyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Indoors: Special Pokemon"
+			x: 7.0d
+			y: -19.5d
+			description: ["These strange fox seem to have migrated from the ice layer, and become... changed."]
+			dependencies: ["491557CA149D0887"]
+			id: "59C0B405C2B6519C"
+			tasks: [{
+				id: "334D7C5313C12B19"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "zorua palette:alter"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Indoors: Evolved Rare Pokemon"
+			x: 7.0d
+			y: -20.5d
+			dependencies: ["59C0B405C2B6519C"]
+			id: "6DF44032F84F4596"
+			tasks: [{
+				id: "7803B79A1FEAD18A"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "zoroark palette:alter"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Water: Basic Pokemon"
+			x: 10.0d
+			y: -18.5d
+			description: ["You are unsurprised to find Staryu close to the stars. There are also some strange alien creatures, and perplexingly, Luvdisc."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "376071EF31B83B39"
+			tasks: [
+				{
+					id: "734B72E8E486F58F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Luvdisc"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2BEDE3AC8DDEFDDE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Staryu"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7ACF082CE83D2B7A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Clobbopus palette:alien"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7D4D698756AAA795"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "clobbopus palette:martian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Water: Evolved Pokemon"
+			x: 10.0d
+			y: -19.5d
+			description: ["It makes sense that if Alomomola survived, you would find them here close to the sun. Starmie, as expected, is close to the stars."]
+			dependencies: ["376071EF31B83B39"]
+			id: "6D6792EE4A3C2E16"
+			tasks: [
+				{
+					id: "5BB34E6C1614A82A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "alomomola"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "06B3591C5DF773B3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Starmie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Underground Water: Basic Pokemon"
+			x: 13.5d
+			y: -18.5d
+			description: ["These two rare sea slugs appear to have a bond with the sun and moon. One will appear during the day, and the other during the night."]
+			dependencies: ["3632E0C47BD3B5DE"]
+			id: "01283C4C81F73992"
+			tasks: [
+				{
+					id: "6A5213A4692DEFFD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shellos form:east palette:moons"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "520C9473B5A1D5FE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shellos form:west palette:sun"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Underground Water: Evolved Pokemon"
+			x: 13.5d
+			y: -19.5d
+			description: ["This starmie is still beautiful but not doing especially well."]
+			dependencies: ["01283C4C81F73992"]
+			id: "6DED314C0ADE1942"
+			tasks: [{
+				id: "723A6488A781DFF8"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "starmie palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Space, Outside: Evolved Pokemon"
+			x: -3.0d
+			y: -19.5d
+			description: ["What a surprising sight: A sunflower! Of course you would find it as close to the sun as you can get."]
+			dependencies: ["45E586D0FBA5CFD5"]
+			id: "4A1DA90A12AF415A"
+			tasks: [{
+				id: "7F1315C44F1F3B25"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "SUNFLORA"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			description: ["These cute little fruit (?) Pokemon seem to take turns being out and about. The Cherubi is out during the day, and the Smoliv out during the night. Have both sprung from the very fruit of the trees they sit on?"]
+			dependencies: ["26E8FEA03877DF1C"]
+			id: "4E34F493601410E1"
+			tasks: [
+				{
+					id: "6220B235C4E8D93B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "smoliv"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3DD338B22AE70E20"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cherubi"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+		}
+		{
+			title: "Space, Desert: Evolved Pokemon"
+			x: -15.5d
+			y: -19.5d
+			dependencies: ["1C8781A807735F76"]
+			id: "0218491F9D48E74F"
+			tasks: [{
+				id: "3DE865A236619209"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "rabsca"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			dependencies: ["1B808CB153DB3F25"]
+			id: "7C361902EFF7C0AC"
+			tasks: [{
+				id: "0752A3E11E907A17"
+				type: "pixelmon:defeat_pokemon"
+				title: "Soil, Underground Water: Dragon Alert"
+				pokemon: "Dratini"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Stone, Water: Dragon Alert"
+			x: 11.0d
+			y: 2.5d
+			description: ["It doesn't look like much, but this will one day be a dragon."]
+			dependencies: ["62B2801CFAF251C7"]
+			id: "11F1C05502E85FD5"
+			tasks: [{
+				id: "1B86436C94C9EE8C"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Skrelp"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Dazzle, Underground Water: Starter Alert"
+			x: 12.5d
+			y: -9.0d
+			description: ["This could be the closest you ever get to being Ash Ketchum with his Pikachu..."]
+			dependencies: ["3E920BE183F9DCAF"]
+			id: "4F0F5AC55059C82A"
+			tasks: [{
+				id: "2A56EAE318CCF182"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "pikachu palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Air, Underground: Dragon Alert"
+			x: 2.0d
+			y: -12.5d
+			description: ["Noibat is also attracted to note blocks."]
+			dependencies: ["66DA9BA11F31144E"]
+			id: "5C9188918E98D30E"
+			tasks: [{
+				id: "03529A5F1859A2DA"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "noibat"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Deep Dark, Beach and Tree Tops: Topss-Turvy Pokemon"
+			x: -12.5d
+			y: 6.5d
+			description: ["What the? What is Inkay doing here? Well, it does seem to love to be found at the top and bottom of all things."]
+			dependencies: [
+				"298A26052EF4AF20"
+				"5CF74CADD99868B6"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D7CE88F6261879B"
+			tasks: [{
+				id: "0F409E8AA5B1E3A9"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "inkay"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
 		}
 	]
 }

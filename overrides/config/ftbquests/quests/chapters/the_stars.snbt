@@ -458,6 +458,11 @@
 				type: "item"
 				item: "astralsorcery:tome"
 			}]
+			rewards: [{
+				id: "2B671C3F69FD94E4"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			x: 5.0d
@@ -564,6 +569,8 @@
 				"High Size can result in a tool with absolutely absurd durability, which should last it long enough for you to find a means of repairing it."
 				""
 				"(Note: You can complete this quest with any one crystal tool; you do not have to make all of them)"
+				""
+				"(More Notes: If you're scared of losing Precious Rock Crystals, maybe skip this step, stick with tinkers tools, and one day go find a tutorial or resource online)"
 			]
 			dependencies: ["05A38CD874CD956A"]
 			hide: true
@@ -1039,6 +1046,7 @@
 		{
 			x: 9.5d
 			y: 2.5d
+			shape: "circle"
 			description: [
 				"The traversal wand allows you to launch yourself into the air to exceptionally high heights. Once you've got the hang of it, it can be an invaluable tool for quickly getting around the void."
 				""
@@ -1049,6 +1057,7 @@
 			hide_dependency_lines: true
 			dependencies: ["210602F6EE7DBBAF"]
 			hide: true
+			optional: true
 			id: "16112D7D4BF36648"
 			tasks: [{
 				id: "1C5BBCDF5942E749"
@@ -1099,6 +1108,7 @@
 		{
 			x: 10.5d
 			y: 2.5d
+			shape: "circle"
 			description: [
 				"The conversion wand is the next most valuable wand in a void-dwellers arsenal. It saves you the time of digging up old ugly blocks you placed during the early stages of the game with something newer and more attractive."
 				""
@@ -1107,6 +1117,7 @@
 			hide_dependency_lines: true
 			dependencies: ["210602F6EE7DBBAF"]
 			hide: true
+			optional: true
 			id: "3369F7711B82EAB0"
 			tasks: [{
 				id: "36356DCAC26372FD"
@@ -1128,6 +1139,7 @@
 		{
 			x: 8.5d
 			y: 2.5d
+			shape: "circle"
 			description: [
 				"The impulsion wand works like a grappling hook. It is a cheaper mobility tool than the impulsion wand, but also somewhat less dangerous, especially when you are trying to travel horizontally instead of up."
 				""
@@ -1136,6 +1148,7 @@
 			hide_dependency_lines: true
 			dependencies: ["210602F6EE7DBBAF"]
 			hide: true
+			optional: true
 			id: "696214880DFACCDF"
 			tasks: [{
 				id: "4885EB0E6F9C703F"
@@ -1559,7 +1572,7 @@
 			description: [
 				"You can infuse crystal tools or weapons at the Starlight Infusion altar. Doing so will give them a small increase in one or more properties."
 				""
-				"(Note: You only need one of the listed tools or weapons, not all of them, to complete this question)"
+				"(Note: You only need one of the listed tools or weapons, not all of them, to complete this quest)"
 			]
 			hide_dependency_lines: true
 			dependencies: [

@@ -36,11 +36,13 @@
       "interval": "legendary",
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "ghosts"
-        ],
         "neededNearbyBlocks":[
-          "pixelmon:relic_vase"  
+          "byg:nylium_soul_sand"  
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "hellish"
         ]
       },
       "rarity": 60

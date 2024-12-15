@@ -22,6 +22,18 @@
               "ghosts"
             ]
           },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "pixelmon:berry_log",
+                            "pixelmon:apricorn_log",
+                            "biomesoplenty:umbran_log"
+                        ]   
+                  }
+              }
+          ],
           "rarity": 100
         },
         {
@@ -38,6 +50,18 @@
               "ghosts"
             ]
           },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "pixelmon:berry_log",
+                            "pixelmon:apricorn_log",
+                            "biomesoplenty:umbran_log"
+                        ]   
+                  }
+              }
+          ],
           "rarity": 100
         },
         {
@@ -54,6 +78,18 @@
               "ghosts"
             ]
           },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "pixelmon:berry_log",
+                            "pixelmon:apricorn_log",
+                            "biomesoplenty:umbran_log"
+                        ]   
+                  }
+              }
+          ],
           "rarity": 100
         },
         {   
@@ -160,7 +196,16 @@
                   "condition":{
                       "baseBlocks": [
                             "biomesoplenty:flesh",
+                            "minecraft:soul_sand",
                             "minecraft:soul_soil"
+                        ]   
+                  }
+              },
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "minecraft:bone_block"
                         ]   
                   }
               }
@@ -331,6 +376,26 @@
               "ghosts"
             ]
           },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 0.1,
+                  "condition":{
+                      "baseBlocks": [
+                            "biomesoplenty:flesh",
+                            "minecraft:soul_soil",
+                            "minecraft:soul_sand"
+                        ]   
+                  }
+              },
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "minecraft:bone_block"
+                        ]   
+                  }
+              }
+          ],
           "rarity": 40
         },
         {
@@ -347,6 +412,18 @@
               "ghosts"
             ]
           },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "minecraft:ice",
+                          "minecraft:packed_ice"
+                           "minecraft:blue_ice"
+                        ]   
+                  }
+              }
+          ],
           "rarity": 10
         },
           {
@@ -409,7 +486,32 @@
           },
           "rarity": 100
         },
-        
+        {   
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "minecraft:rotten_flesh",
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "hellish"
+            ]
+          },
+          "rarityMultipliers":[
+              {
+                  "multiplier": 10,
+                  "condition":{
+                      "baseBlocks": [
+                            "biomesoplenty:flesh"
+                        ]   
+                  }
+              }
+          ],
+          "rarity": 30
+        },
           
           
           

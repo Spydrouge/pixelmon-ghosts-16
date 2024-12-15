@@ -2,6 +2,50 @@
   "id": "Sandshrew",
   "spawnInfos": [
     {
+      "spec": "species:Sandshrew",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+    "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ],
+        "maxY": 192,
+        "minY": 160
+      },
+      "anticondition":{
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
       "spec": "species:Sandshrew form:alolan",
       "stringLocationTypes": [
         "Underground"

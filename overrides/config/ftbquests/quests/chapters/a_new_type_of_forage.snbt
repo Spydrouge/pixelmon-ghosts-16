@@ -3,7 +3,7 @@
 	group: "5CC2B36466F88246"
 	order_index: 1
 	filename: "a_new_type_of_forage"
-	title: "New Types of Forage"
+	title: "Types of Forage"
 	icon: {
 		id: "minecraft:fishing_rod"
 		Count: 1b
@@ -1469,8 +1469,8 @@
 		}
 		{
 			title: "Steal an Item!"
-			x: 0.0d
-			y: 5.0d
+			x: -6.5d
+			y: -11.0d
 			description: [
 				"Thief, Covet, Trick, and Switcheroo are moves that can be used to take items from wild Pokemon."
 				""
@@ -1552,8 +1552,8 @@
 		}
 		{
 			title: "Covet"
-			x: 0.5d
-			y: 6.5d
+			x: -6.0d
+			y: -9.5d
 			shape: "circle"
 			description: [
 				"Covet is the easiest move to find among the Pokemon you still have. It is common among baby Pokemon."
@@ -1698,8 +1698,8 @@
 		}
 		{
 			title: "Thief"
-			x: -1.5d
-			y: 6.5d
+			x: -8.0d
+			y: -9.5d
 			shape: "circle"
 			description: [
 				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
@@ -1873,8 +1873,8 @@
 		}
 		{
 			title: "Switcheroo"
-			x: -0.5d
-			y: 6.5d
+			x: -7.0d
+			y: -9.5d
 			shape: "circle"
 			description: ["Catch a Pokemon that can naturally learn Switcheroo. Dhelmise might be alive in the depths of the world, and Inkay may be somewhere at either the top or bottom of everything."]
 			dependencies: ["11A73D9EAEEDF61B"]
@@ -3218,8 +3218,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 6.5d
+			x: -5.0d
+			y: -9.5d
 			shape: "circle"
 			description: ["Trick is a higher level move, and therefore less ideal to pursue than one of the other moves. Almost all Pokemon learn it at level 40 or later, with the exception of Mime Jr, which learns it at level 36."]
 			dependencies: ["2C0BD8E345FD832F"]
@@ -3414,6 +3414,452 @@
 					}
 				}
 			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			description: [
+				"Forage can be used both in the broken void world you live in, and in other dimensions. In other dimensions, it behaves normally according to regular spawning rules. But in the void, there is only a small list of items that can be foraged."
+				""
+				"Some of these are more common if you forage on the right blocks."
+			]
+			hide_dependency_lines: true
+			hide: true
+			size: 2.0d
+			id: "46493C1D480BB630"
+			tasks: [{
+				id: "1855BF27A1E449A1"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "forage"
+			}]
+			rewards: [{
+				id: "438CD3E9E92F7D26"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			shape: "circle"
+			description: [
+				"These are common from any block, but extremely common if you forage from a berry log or umbran log. That should help you out if you planted a less-than-helpful tree."
+				""
+				"You don't see many materials for making Pokeballs, but if you did find any, the pink are probably the most valuable, and the white the second-most-valuable. You can't make anything with black unless you somehow find other colors, too."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "6857E9468CE83B3A"
+			tasks: [
+				{
+					id: "2D368A9613353841"
+					type: "item"
+					item: "pixelmon:pink_apricorn"
+				}
+				{
+					id: "3A6CD6EE042C153B"
+					type: "item"
+					item: "pixelmon:white_apricorn"
+				}
+				{
+					id: "6812DC93902516E1"
+					type: "item"
+					item: "pixelmon:black_apricorn"
+				}
+			]
+			rewards: [
+				{
+					id: "2D3B8B3B11D1D79D"
+					type: "item"
+					item: "pixelmon:pink_apricorn"
+				}
+				{
+					id: "53B1AA4FE2F4AEBD"
+					type: "item"
+					item: "pixelmon:white_apricorn"
+				}
+				{
+					id: "4713024046C3081C"
+					type: "item"
+					item: "pixelmon:black_apricorn"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"These are more common if you forage on a soul soil block."
+				""
+				"Soul soil will suppress normal bone drops."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "13B4A54544CDC6F6"
+			tasks: [{
+				id: "5BF79055B816C4B3"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+			rewards: [
+				{
+					id: "6D6D45EB48949E51"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "68BD724340805C8C"
+					type: "item"
+					item: "minecraft:soul_torch"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			shape: "circle"
+			description: ["Forage in ice, packed ice, or blue ice, and you may find a stray skull."]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "5E476D67247F6061"
+			tasks: [{
+				id: "45278123B2034444"
+				type: "item"
+				item: "tconstruct:stray_head"
+			}]
+			rewards: [{
+				id: "40C4EAA54A14E2E9"
+				type: "item"
+				item: "pixelmon:ice_stone_ore"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			shape: "circle"
+			description: [
+				"These are more common if you forage on a soul sand block. Keep in mind that soul sand and soul soil are two different blocks."
+				""
+				"Soul sand will suppress normal bone drops."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "675AA7D8B58C33C0"
+			tasks: [
+				{
+					id: "14DE16E185FA90C2"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+				{
+					id: "456EF2BC684DEFB1"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+			rewards: [
+				{
+					id: "0F2695A99C9234EC"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "2AB5CC6B4671C6E2"
+					type: "item"
+					item: "minecraft:soul_torch"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"If you want to forage more bones, make a bone block and forage from it."
+				""
+				"If you want to forage more rotten flesh, make a flesh block and forage from it."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "56E9ECCC657AC93C"
+			tasks: [
+				{
+					id: "3A6C1D7E7A5FCA56"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "7E0FC0BFE1D0E0F7"
+					type: "item"
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "40FDD6CAE12734B4"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "070654567397AF41"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+			]
+			rewards: [
+				{
+					id: "3C59DFE04B026882"
+					type: "item"
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "62DAAFBEA53C988F"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			shape: "circle"
+			description: ["These stones can be found during foraging on any block, although the dusk and dawn stones can only be found at dusk and dawn."]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "7F5FCE0B507878E3"
+			tasks: [
+				{
+					id: "582E8328F6423DEE"
+					type: "item"
+					item: "pixelmon:dawn_stone_shard"
+				}
+				{
+					id: "4A932A6CA4F693B6"
+					type: "item"
+					item: "pixelmon:dusk_stone_shard"
+				}
+				{
+					id: "4A94C753654736FF"
+					type: "item"
+					item: "pixelmon:leaf_stone_shard"
+				}
+			]
+			rewards: [{
+				id: "06AD63742ED4B581"
+				type: "item"
+				item: "byg:ebony_leaves"
+				count: 20
+			}]
+		}
+		{
+			title: "Seed Kit"
+			x: -5.5d
+			y: 5.0d
+			shape: "circle"
+			subtitle: "Drifloon found a berry!"
+			description: ["It looks like you've found several species of seeds. You know you can make soup from &cbeetroot&r and &ewood bowls&r but &6pumpkin&r might be a little complicated to turn into food."]
+			dependencies: [
+				"391C3D6A40B4349B"
+				"46493C1D480BB630"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "448A0C530B692090"
+			tasks: [
+				{
+					id: "389FAE312E38A644"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+				}
+				{
+					id: "1E2F7DD58DF3C93E"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "4C246C5802211284"
+					type: "item"
+					item: "pixelmon:rabuta_berry"
+				}
+				{
+					id: "2EB2ADA2980A936B"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+				{
+					id: "00A8057E35A6E652"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			title: "Berry Kit"
+			x: -4.5d
+			y: 5.0d
+			shape: "circle"
+			subtitle: "Drifloon found a berry!"
+			description: [
+				"It looks like there are two berries to be found here, &9Oran Berries&r, which can heal 10HP when used on or held by a Pokemon, and &cLeppa Berries&r, which can restore 10PP to a single move."
+				""
+				"You can use berries directly on Pokemon, or give them to the Pokemon to hold and use during battle."
+			]
+			dependencies: [
+				"391C3D6A40B4349B"
+				"46493C1D480BB630"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "538F287C91F715DC"
+			tasks: [
+				{
+					id: "289A6C669F102E1A"
+					type: "item"
+					item: "pixelmon:oran_berry"
+				}
+				{
+					id: "2C3658B7FE683F56"
+					type: "item"
+					item: "pixelmon:leppa_berry"
+				}
+			]
+			rewards: [
+				{
+					id: "4C4A9251C509FE44"
+					type: "item"
+					item: "pixelmon:rabuta_berry"
+				}
+				{
+					id: "26A8151F543B7626"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+				{
+					id: "4BAAA3E8271C64AD"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"To get your first 'proper' tree, you will have to forage. There are other ways to get wither roses, such as bonemealing large patches of grass, but the easiest way to get one is to forage."
+				""
+				"Mint is very rare, but valuable as a crop. Once planted and grown, it will turn into a randomly selected specific breed of mint, which can be used to change a Pokemon's nature. Very helpful if you have, for isntance, a modest Gyarados."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "681A75489161C16F"
+			tasks: [
+				{
+					id: "6A01F04590B92A9E"
+					type: "item"
+					item: "biomesoplenty:umbran_sapling"
+				}
+				{
+					id: "3E2C1AEDAA6920FB"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "7E267C2E50C2AC09"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+			]
+			rewards: [
+				{
+					id: "136025A922C84851"
+					type: "item"
+					item: "pixelmon:mint"
+				}
+				{
+					id: "0363E126D4950367"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "407B5B7C6D293516"
+					type: "item"
+					item: "biomesoplenty:umbran_sapling"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			shape: "circle"
+			description: ["Some other junk can be found among the refuse. For now, the most distinctive peices are the pots."]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "61677BBC98EE3409"
+			tasks: [
+				{
+					id: "5C78A161D30D9593"
+					type: "item"
+					item: "pixelmon:cracked_pot"
+				}
+				{
+					id: "095FD445E5987CE5"
+					type: "item"
+					item: "pixelmon:chipped_pot"
+				}
+			]
+			rewards: [
+				{
+					id: "44AAD51A495F8BED"
+					type: "item"
+					item: "minecraft:cracked_stone_bricks"
+				}
+				{
+					id: "1B85272519F74728"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Fire stones can be foraged in most of the nether, and moon stones can be forged in the end."
+				""
+				"In general, you can expect foraging to be 'normal' in worlds and biomes other than the ominous void in which you began your journey."
+			]
+			dependencies: ["46493C1D480BB630"]
+			id: "1A10F04587255E81"
+			tasks: [
+				{
+					id: "621C367BF98A6195"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "43169E3187602140"
+					type: "item"
+					item: "pixelmon:moon_stone_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "1D4FF2ACDAF89D3E"
+					type: "item"
+					item: "pixelmon:fire_stone_ore"
+				}
+				{
+					id: "06653BD67C4760CD"
+					type: "item"
+					item: "pixelmon:moon_stone_ore"
+				}
+			]
 		}
 	]
 }

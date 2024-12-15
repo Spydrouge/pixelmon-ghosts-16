@@ -1,0 +1,103 @@
+{
+  "id": "Rellor",
+  "spawnInfos": [
+    {
+      "spec": "species:Rellor",
+      "stringLocationTypes": [
+          "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 256,
+        "minY": 224,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand"
+        ]
+      },
+     "anticondition":{
+        "neededNearbyBlocks":
+          [
+              "minecraft:water"
+          ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Rellor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills",
+          "minecraft:badlands_plateau",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Rellor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_highlands",
+          "byg:shattered_desert",
+          "byg:shattered_desert_isles"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": "species:Rellor",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:spear_pillar"
+        ],
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

@@ -3000,6 +3000,7 @@
 		}
 		{
 			title: "Enigma Berry"
+			icon: "pixelmon:enigma_berry"
 			x: -1.0d
 			y: 14.0d
 			description: [
@@ -3032,7 +3033,6 @@
 			tasks: [{
 				id: "6A90E88617F9639E"
 				type: "questsadditions:time"
-				icon: "pixelmon:enigma_berry"
 				secret: true
 				elapsedTime: 1L
 			}]

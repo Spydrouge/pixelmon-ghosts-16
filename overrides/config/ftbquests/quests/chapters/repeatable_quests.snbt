@@ -6209,5 +6209,68 @@
 				table_id: 6054085672611887539L
 			}]
 		}
+		{
+			title: "Check Spawns"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/items/pokedex.png"
+				}
+			}
+			x: 1.5d
+			y: 5.5d
+			shape: "circle"
+			description: [
+				"Arceus has apparently decided you deserve constant acess to the /checkspawns command, which can be used to check which Pokemon spawn in any given area."
+				""
+				"This is true regardless of whether you have commands enabled by more conventional means."
+			]
+			hide_dependency_lines: false
+			dependencies: ["11A73D9EAEEDF61B"]
+			optional: true
+			repeatable: true
+			id: "6648BD855A6F7435"
+			tasks: [{
+				id: "07CD43F84FA83915"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "31EA47D0F7B01AB4"
+				type: "command"
+				auto: "enabled"
+				command: "/execute as @p run checkspawns"
+				player_command: true
+			}]
+		}
+		{
+			title: "Check Spawns Legendary"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/gui/pokedex/star.png"
+				}
+			}
+			x: 2.5d
+			y: 5.5d
+			shape: "circle"
+			description: ["You also have the ability to check an area for its legendary spawns."]
+			dependencies: ["11A73D9EAEEDF61B"]
+			optional: true
+			repeatable: true
+			id: "69A48E1F95100DB2"
+			tasks: [{
+				id: "14F7195AA7B4FD1D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2E89E6082FD152C7"
+				type: "command"
+				auto: "enabled"
+				command: "/execute as @p run checkspawns legendary"
+				player_command: true
+			}]
+		}
 	]
 }

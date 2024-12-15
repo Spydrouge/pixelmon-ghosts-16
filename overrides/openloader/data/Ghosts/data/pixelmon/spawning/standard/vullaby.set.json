@@ -55,24 +55,6 @@
       "maxLevel": 6,
       "typeID": "pokemon",
       "condition": {
-        "maxY": 192,
-        "minY": 160,
-        "stringBiomes": [
-          "ghosts"
-        ]
-      },
-      "rarity": 30.0
-    },
-    {
-      "spec": "species:Vullaby",
-      "stringLocationTypes": [
-        "Underground",
-        "Headbutt"
-      ],
-      "minLevel": 2,
-      "maxLevel": 6,
-      "typeID": "pokemon",
-      "condition": {
         "maxY": 96,
         "minY": 64,
         "stringBiomes": [

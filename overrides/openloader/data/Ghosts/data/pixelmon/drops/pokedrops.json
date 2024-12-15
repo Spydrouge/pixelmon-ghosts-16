@@ -11500,6 +11500,12 @@
                 "chance": 0.5
             },
             {
+                "item": "nethers_delight:hoglin_loin",
+                "min": 1,
+                "max": 1,
+                "chance": 0.5
+            },
+            {
                 "item": "minecraft:ender_pearl",
                 "min": 1,
                 "max": 2,
@@ -16588,6 +16594,18 @@
                 "chance": 1
             },
             {
+                "item": "nethers_delight:hoglin_loin",
+                "min": 1,
+                "max": 1,
+                "chance": 0.5
+            },
+            {
+                "item": "farmersdelight:ham",
+                "min": 1,
+                "max": 2,
+                "chance": 0.3
+            },
+            {
                 "item": "minecraft:blaze_powder",
                 "min": 1,
                 "max": 1,
@@ -16595,6 +16613,12 @@
             },
             {
                 "item": "minecraft:gunpowder",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
+            },
+            {
+                "item": "nethers_delight:hoglin_hide",
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
@@ -16609,6 +16633,24 @@
                 "min": 1,
                 "max": 3,
                 "chance": 1
+            },
+            {
+                "item": "nethers_delight:hoglin_loin",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
+            },
+             {
+                "item": "farmersdelight:ham",
+                "min": 1,
+                "max": 2,
+                "chance": 0.5
+            },
+            {
+                "item": "nethers_delight:hoglin_hide",
+                "min": 1,
+                "max": 1,
+                "chance": 0.3
             },
             {
                 "item": "minecraft:blaze_powder",
@@ -16632,6 +16674,24 @@
                 "min": 1,
                 "max": 3,
                 "chance": 1
+            },
+            {
+                "item": "nethers_delight:hoglin_loin",
+                "min": 2,
+                "max": 3,
+                "chance": 1.0
+            },
+             {
+                "item": "farmersdelight:ham",
+                "min": 2,
+                "max": 2,
+                "chance": 1.0
+            },
+            {
+                "item": "nethers_delight:hoglin_hide",
+                "min": 1,
+                "max": 1,
+                "chance": 1.0
             },
             {
                 "item": "minecraft:blaze_powder",
@@ -29763,6 +29823,12 @@
                 "chance": 1
             },
             {
+                "item": "farmersdelight:ham",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
+            },
+            {
                 "item": "pixelmon:tiny_mushroom",
                 "min": 1,
                 "max": 1,
@@ -29778,6 +29844,12 @@
                 "min": 2,
                 "max": 3,
                 "chance": 1
+            },
+            {
+                "item": "farmersdelight:ham",
+                "min": 1,
+                "max": 2,
+                "chance": 0.5
             },
             {
                 "item": "pixelmon:tiny_mushroom",
