@@ -138,6 +138,7 @@
 			title: "Find the Cryptic Wastes"
 			x: -2.0d
 			y: -9.5d
+			description: ["The cryptic wastes are the closest the End has to a warm biome."]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "42F14706EBE6C13C"
@@ -163,11 +164,35 @@
 					biome: "byg:cryptic_wastes"
 				}
 			]
+			rewards: [
+				{
+					id: "487A88646BE10CB1"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "5FF08D3E7F616E47"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "61BE38CF3AFAB319"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 3
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find the End Barrens or Shattered Desert"
 			x: -2.5d
 			y: -10.5d
+			description: ["Endless Emptiness..."]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "7490BDE2637BAC7C"
@@ -186,6 +211,34 @@
 					id: "02535F33F2F622C5"
 					type: "item"
 					item: "byg:bulbis_oddity"
+				}
+			]
+			rewards: [
+				{
+					id: "4A63B0514CCDC453"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "433EEAC22124196C"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "0C4CA95E2225F0A9"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "57B6056D7C5BCD44"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 184
+						}
+					}
 				}
 			]
 		}
@@ -218,6 +271,18 @@
 					id: "34230EA067C11455"
 					type: "item"
 					item: "tconstruct:ender_ender_slime_grass"
+				}
+			]
+			rewards: [
+				{
+					id: "2647EFA455413BBF"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "035E6CFDB1FDC8F1"
+					type: "item"
+					item: "pixelmon:red_shard"
 				}
 			]
 		}
@@ -273,11 +338,40 @@
 					item: "byg:ametrine_gems"
 				}
 			]
+			rewards: [
+				{
+					id: "499B8E92923F125D"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "226A4581D82CD126"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "1FCA6CA24D532E2F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "69BB2D86FD5AD446"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 4
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find the Nightshade Forest"
 			x: -0.5d
 			y: -13.0d
+			description: ["This deadly thing should be made into a pie."]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "481560122FBB926A"
@@ -303,11 +397,45 @@
 					item: "byg:nightshade_phylium"
 				}
 			]
+			rewards: [
+				{
+					id: "79DF52DEA8BBE262"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 71
+						}
+					}
+				}
+				{
+					id: "38744FBEB92292C0"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "6F0AC2D726733ED0"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "306676E134A4C534"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "33FA13B8A1F5A71E"
+					type: "item"
+					item: "pixelmon:green_apricorn"
+				}
+			]
 		}
 		{
 			title: "Find the Ethereal Islands"
 			x: 0.5d
 			y: -13.0d
+			description: ["Wait, what's this Apricorn doing here?"]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "5A992B2A4637044D"
@@ -348,11 +476,40 @@
 					item: "byg:lignite_ore"
 				}
 			]
+			rewards: [
+				{
+					id: "626F1E391360AE8B"
+					type: "item"
+					item: "pixelmon:green_apricorn"
+				}
+				{
+					id: "4134BD0D253D0580"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "038F8BD614F860B0"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "4001B61CDF2BAD55"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 21
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find the Bulbis Gardens"
 			x: 1.5d
 			y: -12.5d
+			description: ["It's almost like a swamp in the sky."]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "732ED95D9F84E6B7"
@@ -443,6 +600,34 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "1E8AF3F1D307BCFE"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "6B0D2EC7E3C49E70"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "6911D4F0A60E3B0B"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "2AB8705DAC81B6FC"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 63
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find the Shulkren Forest"
@@ -483,11 +668,50 @@
 					item: "byg:shulkren_phylium"
 				}
 			]
+			rewards: [
+				{
+					id: "530632461D4AB530"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "52D587861325AB3E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "60754F18BDC5C3E6"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "2725B30B91AA13B4"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "7EAEDF4A969C87D9"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 146
+						}
+					}
+				}
+				{
+					id: "04BA4C380789982F"
+					type: "item"
+					item: "pixelmon:green_apricorn"
+				}
+			]
 		}
 		{
 			title: "Find the Purpur Peaks"
 			x: 2.5d
 			y: -10.5d
+			description: ["These barren mountains have uncultivated purpur stone."]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "7B4E7936D063248A"
@@ -503,11 +727,35 @@
 					item: "byg:purpur_stone"
 				}
 			]
+			rewards: [
+				{
+					id: "0A488F600CFECB73"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "40EDE71B3279B656"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "79B5643D1D0C3394"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 174
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find a Therium Geode"
 			x: 2.0d
 			y: -9.5d
+			description: ["Does this look vaguely electric to you?"]
 			dependencies: ["1FC72C46F82A1963"]
 			hide: true
 			id: "5483395295707CDD"
@@ -543,6 +791,34 @@
 					item: "byg:therium_lamp"
 				}
 			]
+			rewards: [
+				{
+					id: "6D4526F33210274A"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "30BF7AF7BB7B7E86"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "40C2BD1736693AE3"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "4951D9964AC85B26"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 5
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find: The Imparius Grove"
@@ -573,6 +849,45 @@
 					item: "byg:imparius_bush"
 				}
 			]
+			rewards: [
+				{
+					id: "74A4F91B1C54D0C7"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "7F6BA3E4E15576DF"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "2ECD20DF2E71093E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "3F322EA0A77F0A5A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 5
+						}
+					}
+				}
+				{
+					id: "3970D76EB27266B1"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 1
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Find an End Grotto"
@@ -592,6 +907,18 @@
 				type: "structure"
 				structure: "pixelmon:grotto_end"
 			}]
+			rewards: [
+				{
+					id: "78D94598FC5B4542"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "1325AA51B6AFC1A1"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
 		}
 		{
 			title: "Find the End Highlands"
@@ -619,6 +946,34 @@
 					invert: false
 					usedPokemonSpec: ""
 					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "2083D771CF0AB39B"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "711A9EAD1B552C9C"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "566AFA5127377C72"
+					type: "item"
+					item: "pixelmon:twisted_spoon"
+				}
+				{
+					id: "17C38EAA8034F684"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 16
+						}
+					}
 				}
 			]
 		}
@@ -707,11 +1062,29 @@
 					item: "minecraft:obsidian"
 				}
 			]
-			rewards: [{
-				id: "612B23C2B88C0EAE"
-				type: "item"
-				item: "pixelmon:black_apricorn"
-			}]
+			rewards: [
+				{
+					id: "15120E6958E8C422"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "398342B19A478B40"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2ABB6657A0A2C900"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 51
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "minecraft:purpur_block"
@@ -726,6 +1099,18 @@
 				type: "structure"
 				structure: "minecraft:end_city"
 			}]
+			rewards: [
+				{
+					id: "5ED047B3799102FA"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "3A0C4E9CE0651E1B"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 		{
 			title: "Killing the Terror of the End"
@@ -855,6 +1240,11 @@
 				type: "item"
 				item: "minecraft:end_crystal"
 				count: 4L
+			}]
+			rewards: [{
+				id: "3B0F3ACA6550A42B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{

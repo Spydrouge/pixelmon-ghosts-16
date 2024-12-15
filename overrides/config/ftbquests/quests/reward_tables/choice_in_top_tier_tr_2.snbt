@@ -6,15 +6,6 @@
 	rewards: [
 		{
 			item: {
-				id: "pixelmon:tm_gen9"
-				Count: 1b
-				tag: {
-					tm: 167
-				}
-			}
-		}
-		{
-			item: {
 				id: "pixelmon:tm_gen1"
 				Count: 1b
 				tag: {
@@ -45,25 +36,7 @@
 				id: "pixelmon:tm_gen9"
 				Count: 1b
 				tag: {
-					tm: 162
-				}
-			}
-		}
-		{
-			item: {
-				id: "pixelmon:tm_gen9"
-				Count: 1b
-				tag: {
 					tm: 153
-				}
-			}
-		}
-		{
-			item: {
-				id: "pixelmon:tm_gen9"
-				Count: 1b
-				tag: {
-					tm: 151
 				}
 			}
 		}
@@ -82,6 +55,69 @@
 				Count: 1b
 				tag: {
 					tm: 12
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen7"
+				Count: 1b
+				tag: {
+					tm: 58
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 168
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen8"
+				Count: 1b
+				tag: {
+					tm: 52
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 220
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 163
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 155
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 154
 				}
 			}
 		}

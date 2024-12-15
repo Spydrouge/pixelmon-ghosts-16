@@ -790,6 +790,17 @@
 					type: "item"
 					item: "pixelmon:yellow_shard"
 				}
+				{
+					id: "52B4F17E2AD8CE3B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
+					}
+				}
 			]
 		}
 		{
@@ -814,6 +825,17 @@
 					id: "56080F49CF55CD5E"
 					type: "item"
 					item: "pixelmon:white_shard"
+				}
+				{
+					id: "74E0E0A1F320E35C"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 22
+						}
+					}
 				}
 			]
 		}
@@ -843,6 +865,17 @@
 					id: "5F399014F3207ECB"
 					type: "item"
 					item: "pixelmon:green_shard"
+				}
+				{
+					id: "31D4D0E86EE3F2DF"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 36
+						}
+					}
 				}
 			]
 		}

@@ -6,10 +6,10 @@
 	rewards: [
 		{
 			item: {
-				id: "pixelmon:tm_gen9"
+				id: "pixelmon:tm_gen8"
 				Count: 1b
 				tag: {
-					tm: 167
+					tm: 12
 				}
 			}
 		}
@@ -18,7 +18,7 @@
 				id: "pixelmon:tm_gen8"
 				Count: 1b
 				tag: {
-					tm: 12
+					tm: 11
 				}
 			}
 		}

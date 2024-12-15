@@ -8553,9 +8553,15 @@
 					player_command: false
 				}
 				{
-					id: "73BFC35D32F8B9D4"
-					type: "choice"
-					table_id: 4524191137701651332L
+					id: "13143C7CF8320621"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 64
+						}
+					}
 				}
 			]
 		}

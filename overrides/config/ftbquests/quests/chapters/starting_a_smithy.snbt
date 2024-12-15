@@ -26,6 +26,11 @@
 				id: "6684D3CE8F9D7F6D"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "5FC45BAE245F2094"
+				type: "item"
+				item: "inspirations:heartbeet"
+			}]
 		}
 		{
 			disable_toast: true
@@ -490,13 +495,13 @@
 					item: "tconstruct:seared_brick"
 				}
 				{
-					id: "6B0C073B19A15AD5"
+					id: "54417DD8AFCEB2E9"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 24
+							tm: 39
 						}
 					}
 				}
@@ -591,14 +596,20 @@
 			}]
 			rewards: [
 				{
-					id: "06D4EFD71524D247"
-					type: "item"
-					item: "pixelmon:sweet_heart"
-				}
-				{
 					id: "3793002D80A9A703"
 					type: "choice"
 					table_id: 4887553477010900837L
+				}
+				{
+					id: "03238E33B89FFBF4"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 43
+						}
+					}
 				}
 			]
 		}
@@ -1275,17 +1286,6 @@
 			}]
 			rewards: [
 				{
-					id: "23DA072F88D8E7D2"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 90
-						}
-					}
-				}
-				{
 					id: "3213781A65C0E02B"
 					type: "item"
 					item: "tconstruct:necronium_bone"
@@ -1298,6 +1298,17 @@
 						Count: 1b
 						tag: {
 							Potion: "minecraft:poison"
+						}
+					}
+				}
+				{
+					id: "5F2902F6E944D91D"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 54
 						}
 					}
 				}
@@ -1669,17 +1680,6 @@
 			}]
 			rewards: [
 				{
-					id: "01AA81AFF9B06E68"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 129
-						}
-					}
-				}
-				{
 					id: "6BD413742C59B360"
 					type: "item"
 					item: {
@@ -1687,6 +1687,17 @@
 						Count: 1b
 						tag: {
 							tm: 30
+						}
+					}
+				}
+				{
+					id: "6C0F6B2CF2854365"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 130
 						}
 					}
 				}
@@ -2228,17 +2239,6 @@
 					item: "pixelmon:black_shard"
 				}
 				{
-					id: "01B2770F3073D908"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 26
-						}
-					}
-				}
-				{
 					id: "601B3B17C5C4177D"
 					type: "item"
 					item: "pixelmon:sweet_star"
@@ -2257,6 +2257,17 @@
 					id: "3CCB46BB98987693"
 					type: "item"
 					item: "pixelmon:wishing_piece"
+				}
+				{
+					id: "4F2053582C83932C"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 65
+						}
+					}
 				}
 			]
 		}
@@ -2429,7 +2440,7 @@
 			]
 		}
 		{
-			title: "Hepatzion and Cobalt"
+			title: "Cobalt"
 			x: 0.0d
 			y: -8.0d
 			description: [
@@ -2973,11 +2984,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "51BF2DAF65663A3D"
-				type: "item"
-				item: "pixelmon:black_shard"
-			}]
+			rewards: [
+				{
+					id: "51BF2DAF65663A3D"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "54D1A6A869DA9EB0"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 200
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Blazing Blood"
@@ -3032,17 +3056,6 @@
 						Count: 1b
 						tag: {
 							tm: 41
-						}
-					}
-				}
-				{
-					id: "50C54EF91E9606A4"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen8"
-						Count: 1b
-						tag: {
-							tm: 13
 						}
 					}
 				}
@@ -3212,15 +3225,9 @@
 					item: "pixelmon:white_shard"
 				}
 				{
-					id: "14A765317A612BED"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen7"
-						Count: 1b
-						tag: {
-							tm: 58
-						}
-					}
+					id: "627222D9FE5485D6"
+					type: "choice"
+					table_id: 1328297472021301352L
 				}
 			]
 		}
@@ -3250,20 +3257,20 @@
 			}]
 			rewards: [
 				{
-					id: "76D911F052AAF6E5"
+					id: "246A2BDC72CC1669"
+					type: "random"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "06D578612217815C"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 26
+							tm: 27
 						}
 					}
-				}
-				{
-					id: "246A2BDC72CC1669"
-					type: "random"
-					table_id: 9093306389108564916L
 				}
 			]
 		}
@@ -3688,13 +3695,13 @@
 					count: 3
 				}
 				{
-					id: "3A5044DF43208292"
+					id: "00F88DD7D6C91979"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 36
+							tm: 87
 						}
 					}
 				}
@@ -3801,17 +3808,6 @@
 					}
 				}
 				{
-					id: "1E46FD6CCE8B89F2"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 75
-						}
-					}
-				}
-				{
 					id: "102D408092963EB2"
 					type: "item"
 					item: {
@@ -3826,6 +3822,17 @@
 					id: "60883397D37929B5"
 					type: "item"
 					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "760CAB50B2DBDE6E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 54
+						}
+					}
 				}
 			]
 		}
@@ -4320,20 +4327,20 @@
 			}]
 			rewards: [
 				{
-					id: "316BC70BD04C3691"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 22
-						}
-					}
-				}
-				{
 					id: "427C5D0DEF2E9B08"
 					type: "item"
 					item: "pixelmon:green_shard"
+				}
+				{
+					id: "27A698CCA677BD4C"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 57
+						}
+					}
 				}
 			]
 		}
@@ -4353,13 +4360,13 @@
 				item: "immersiveengineering:current_transformer"
 			}]
 			rewards: [{
-				id: "57187D27A68E608A"
+				id: "31ABC7E3E5283A5E"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen8"
 					Count: 1b
 					tag: {
-						tm: 47
+						tm: 80
 					}
 				}
 			}]
@@ -4417,13 +4424,13 @@
 				item: "immersiveengineering:tesla_coil"
 			}]
 			rewards: [{
-				id: "7DA1E3EC07A6DA1D"
+				id: "66B614CF4FC812C6"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tr_gen8"
 					Count: 1b
 					tag: {
-						tm: 71
+						tm: 80
 					}
 				}
 			}]
@@ -4764,17 +4771,6 @@
 			]
 			rewards: [
 				{
-					id: "3D7A6D112854ECB5"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 30
-						}
-					}
-				}
-				{
 					id: "1306D1AB3F3522F6"
 					type: "item"
 					item: "pixelmon:white_shard"
@@ -4784,6 +4780,17 @@
 					id: "5DCA04FE941EBB6A"
 					type: "item"
 					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "7F45E21024D0373E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 31
+						}
+					}
 				}
 			]
 		}
@@ -5201,6 +5208,7 @@
 			]
 		}
 		{
+			title: "Scorched Stone Tools"
 			x: 8.5d
 			y: -2.0d
 			description: ["Items made of scortched stone parts deal additional damage to mobs that are already on fire."]
@@ -5315,13 +5323,13 @@
 				}
 			]
 			rewards: [{
-				id: "2EAC02B08C4479AF"
+				id: "0DC07D26F06A423E"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen8"
 					Count: 1b
 					tag: {
-						tm: 28
+						tm: 77
 					}
 				}
 			}]
@@ -5340,20 +5348,20 @@
 			}]
 			rewards: [
 				{
-					id: "573BB80D36E0FC63"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 57
-						}
-					}
-				}
-				{
 					id: "26AC60E9710CAEA5"
 					type: "item"
 					item: "pixelmon:black_belt"
+				}
+				{
+					id: "1BC9F5ECADA94735"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 43
+						}
+					}
 				}
 			]
 		}

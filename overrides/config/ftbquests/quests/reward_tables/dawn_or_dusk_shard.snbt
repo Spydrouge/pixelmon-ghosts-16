@@ -1,0 +1,10 @@
+{
+	id: "46C6D53A4EA45348"
+	order_index: 56
+	title: "Dawn or Dusk Shard"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:dusk_stone_shard" }
+		{ item: "pixelmon:dawn_stone_shard" }
+	]
+}

@@ -1286,5 +1286,16 @@
 				player_command: false
 			}]
 		}
+		{
+			title: "Hidden Epic Shader Grab Bag"
+			x: 7.5d
+			y: -2.0d
+			id: "78519AB5CDD50FC1"
+			tasks: [{
+				id: "22601BCF30FF628B"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+			}]
+		}
 	]
 }

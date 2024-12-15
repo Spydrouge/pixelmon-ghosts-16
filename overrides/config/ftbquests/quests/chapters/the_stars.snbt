@@ -203,6 +203,17 @@
 					item: "astralsorcery:aquamarine"
 					count: 2
 				}
+				{
+					id: "6581712AD9006BC3"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 22
+						}
+					}
+				}
 			]
 		}
 		{
@@ -500,13 +511,13 @@
 					item: "pixelmon:sweet_star"
 				}
 				{
-					id: "51629DCF32D16C7B"
+					id: "48347434CF3BF1F8"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 73
+							tm: 18
 						}
 					}
 				}
@@ -2088,13 +2099,13 @@
 				}
 			]
 			rewards: [{
-				id: "4001BB8806437878"
+				id: "2A89C0DEC9033923"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen8"
 					Count: 1b
 					tag: {
-						tm: 74
+						tm: 17
 					}
 				}
 			}]

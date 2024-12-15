@@ -41,24 +41,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "61680C71E0A89103"
-					type: "item"
-					item: {
-						id: "minecraft:leather_boots"
-						Count: 1b
-						tag: {
-							Damage: 5
-						}
-					}
-				}
-				{
-					id: "1F74C97194951EE4"
-					type: "item"
-					item: "pixelmon:purple_water_float"
-				}
-			]
+			rewards: [{
+				id: "1F74C97194951EE4"
+				type: "item"
+				item: "pixelmon:purple_water_float"
+			}]
 		}
 		{
 			x: 0.5d
@@ -820,17 +807,6 @@
 					}
 				}
 				{
-					id: "04F66C2F22D43C4F"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 79
-						}
-					}
-				}
-				{
 					id: "74B3540F37F7AE8F"
 					type: "choice"
 					table_id: 4524191137701651332L
@@ -839,6 +815,17 @@
 					id: "314BD744A67587D1"
 					type: "choice"
 					table_id: 6443510782262151491L
+				}
+				{
+					id: "65A6766051ABACE8"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
 				}
 			]
 		}
@@ -1376,13 +1363,13 @@
 					item: "byg:redwood_sapling"
 				}
 				{
-					id: "271CB46325139E28"
+					id: "4A5FF7F7D2257E66"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 39
+							tm: 40
 						}
 					}
 				}
@@ -1438,17 +1425,6 @@
 			}]
 			rewards: [
 				{
-					id: "728493466DCC05EA"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 56
-						}
-					}
-				}
-				{
 					id: "4B0AF3ED574A885A"
 					type: "item"
 					item: "byg:baobab_fruit"
@@ -1462,6 +1438,17 @@
 						Count: 1b
 						tag: {
 							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+				{
+					id: "5456CC1957C6299F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 94
 						}
 					}
 				}
@@ -1538,13 +1525,24 @@
 					}
 				}
 				{
-					id: "34EFED2D1F6DABF2"
+					id: "6DD5A96F4BBF34A7"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
 							tm: 17
+						}
+					}
+				}
+				{
+					id: "3C30E50177A473C0"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 23
 						}
 					}
 				}
@@ -1679,20 +1677,20 @@
 			]
 			rewards: [
 				{
-					id: "268B3ADE5B37E6AF"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 1
-						}
-					}
-				}
-				{
 					id: "32D62E684FCBB6DF"
 					type: "item"
 					item: "pixelmon:relic_gold"
+				}
+				{
+					id: "0164A1167B2B85A7"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 29
+						}
+					}
 				}
 			]
 		}
@@ -1948,17 +1946,6 @@
 			]
 			rewards: [
 				{
-					id: "504245E9E6748F7B"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 2
-						}
-					}
-				}
-				{
 					id: "47756FEE034D071A"
 					type: "item"
 					item: {
@@ -1966,6 +1953,17 @@
 						Count: 1b
 						tag: {
 							tm: 83
+						}
+					}
+				}
+				{
+					id: "0EFC86B643A72886"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 47
 						}
 					}
 				}
@@ -2344,13 +2342,13 @@
 				}
 			}]
 			rewards: [{
-				id: "127B2D2C20D2D08C"
+				id: "5D4F311907A6B21B"
 				type: "item"
 				item: {
 					id: "pixelmon:tm_gen9"
 					Count: 1b
 					tag: {
-						tm: 58
+						tm: 59
 					}
 				}
 			}]
@@ -2409,13 +2407,13 @@
 				move: "ignite"
 			}]
 			rewards: [{
-				id: "4F721815B57C699B"
+				id: "49F9D6230A282208"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen8"
 					Count: 1b
 					tag: {
-						tm: 23
+						tm: 13
 					}
 				}
 			}]
@@ -2488,17 +2486,6 @@
 			}]
 			rewards: [
 				{
-					id: "442743638DA6FD34"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 35
-						}
-					}
-				}
-				{
 					id: "05CA928C08D573A2"
 					type: "item"
 					item: {
@@ -2506,6 +2493,17 @@
 						Count: 1b
 						tag: {
 							tm: 76
+						}
+					}
+				}
+				{
+					id: "096C37E066D66D15"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 23
 						}
 					}
 				}
@@ -2544,13 +2542,13 @@
 					}
 				}
 				{
-					id: "552618A8AA57F6F9"
+					id: "44A0AFE30FF19D26"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 81
+							tm: 14
 						}
 					}
 				}
@@ -2580,13 +2578,13 @@
 				move: "dig"
 			}]
 			rewards: [{
-				id: "24D69646C9E9327E"
+				id: "5C4DF5DE454F18BB"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen8"
 					Count: 1b
 					tag: {
-						tm: 54
+						tm: 15
 					}
 				}
 			}]
@@ -2673,13 +2671,13 @@
 					}
 				}
 				{
-					id: "69856E4C2248E2C4"
+					id: "136A00317340C7E5"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 110
+							tm: 28
 						}
 					}
 				}
@@ -2703,20 +2701,20 @@
 			}]
 			rewards: [
 				{
-					id: "24CAB09CE289C166"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 48
-						}
-					}
-				}
-				{
 					id: "266DD322981EA20B"
 					type: "choice"
 					table_id: 1116397309631527027L
+				}
+				{
+					id: "0F3E82257A107698"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 34
+						}
+					}
 				}
 			]
 		}
@@ -3906,6 +3904,11 @@
 			id: "2B903371F753BED7"
 			tasks: [{
 				id: "5CE4F46C90EA6DEA"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+			rewards: [{
+				id: "251903206EFB5BB3"
 				type: "item"
 				item: "pixelmon:wishing_piece"
 			}]

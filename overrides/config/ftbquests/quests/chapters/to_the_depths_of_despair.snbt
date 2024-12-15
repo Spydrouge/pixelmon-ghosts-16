@@ -292,11 +292,29 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "6733B5AB90D060DE"
-				type: "item"
-				item: "charms:water_breathing_charm"
-			}]
+			rewards: [
+				{
+					id: "6733B5AB90D060DE"
+					type: "item"
+					item: "charms:water_breathing_charm"
+				}
+				{
+					id: "6E130139F7AD0711"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+				{
+					id: "275B9D57E12A7896"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 45
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Respiration"
@@ -553,6 +571,11 @@
 				type: "item"
 				item: "minecraft:golden_carrot"
 			}]
+			rewards: [{
+				id: "255DF57795FF0902"
+				type: "item"
+				item: "pixelmon:blue_shard"
+			}]
 		}
 		{
 			title: "Moonstone Tools"
@@ -609,6 +632,34 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "08AD4714AA561EFD"
+					type: "item"
+					item: "pixelmon:moon_stone"
+				}
+				{
+					id: "174A8E5C3D1338C7"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "moon_ball"
+						}
+					}
+				}
+				{
+					id: "3D5DF3FFCCA48DDA"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "1447434CDE66BF0F"
+					type: "item"
+					item: "pixelmon:black_glasses"
+				}
+			]
 		}
 		{
 			title: "Owlsight"
@@ -668,6 +719,18 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "209966B110520344"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "7075F47F8D33D17B"
+					type: "item"
+					item: "pixelmon:safety_goggles"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -700,6 +763,18 @@
 					item: "minecraft:kelp"
 				}
 			]
+			rewards: [
+				{
+					id: "6031654BB725DDCC"
+					type: "item"
+					item: "pixelmon:water_stone"
+				}
+				{
+					id: "3057C2EC5394EC01"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -724,6 +799,18 @@
 				}
 				match_nbt: true
 			}]
+			rewards: [
+				{
+					id: "275674FFF5632F62"
+					type: "item"
+					item: "pixelmon:wise_glasses"
+				}
+				{
+					id: "17148E6D0ED06EC6"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -815,11 +902,29 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "550E07C257ABCAB4"
-				type: "item"
-				item: "charms:night_vision_charm"
-			}]
+			rewards: [
+				{
+					id: "550E07C257ABCAB4"
+					type: "item"
+					item: "charms:night_vision_charm"
+				}
+				{
+					id: "631C2847BF573EFE"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+				{
+					id: "525CB6ADEF321621"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 42
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Visit All Three Biomes"
@@ -871,11 +976,24 @@
 					biome: "pixelmon:drowned_warm"
 				}
 			]
-			rewards: [{
-				id: "2E57FF35DDC15B85"
-				type: "item"
-				item: "pixelmon:blue_apricorn"
-			}]
+			rewards: [
+				{
+					id: "2E57FF35DDC15B85"
+					type: "item"
+					item: "pixelmon:blue_apricorn"
+				}
+				{
+					id: "096E3060EA0D00C5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 145
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -908,20 +1026,27 @@
 					item: "tconstruct:drowned_head"
 				}
 			]
-			rewards: [{
-				id: "5B4C5336DD136D47"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:loyalty"
-						}]
+			rewards: [
+				{
+					id: "5B4C5336DD136D47"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:loyalty"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "164A3767DA124A4F"
+					type: "item"
+					item: "minecraft:drowned_spawn_egg"
+				}
+			]
 		}
 		{
 			x: 2.0d

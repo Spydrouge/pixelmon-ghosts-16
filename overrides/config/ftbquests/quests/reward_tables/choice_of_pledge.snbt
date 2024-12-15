@@ -1,0 +1,35 @@
+{
+	id: "274F4E5C598492F9"
+	order_index: 57
+	title: "Choice of Pledge"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 144
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 145
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 146
+				}
+			}
+		}
+	]
+}

@@ -22,6 +22,8 @@
 				"You must assemble all the plates of knowledge in order to better understand the world you've been tasked with repairing."
 				""
 				"The plates are not easy to find. They are scattered throughout the remains of the world in chests and pokeloots. Some you may find in the nether; others, you will need to scour Ultra Space for."
+				""
+				"(WARNING: Make sure you are ready to fight a level 100 Arceus when you do this. Otherwise you will lose your investment, and be very upset.)"
 			]
 			dependencies: [
 				"0D6589EBAC0B4BDC"
@@ -168,6 +170,8 @@
 				"Second, you can wait until an Ultimate Boss appears, and attempt to defeat it in combat."
 				""
 				"Thirdly, you can continue to explore the &dEvil Forces questline&r. You have a premenition it will offer you not one but two different ways to obtain the Lustrous orb."
+				""
+				"(WARNING: Make sure you are ready to fight a level 100 legendary)"
 			]
 			dependencies: ["7FD98E8A79BA348B"]
 			hide: true

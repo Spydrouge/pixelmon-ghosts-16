@@ -262,17 +262,6 @@
 					item: "pixelmon:black_shard"
 				}
 				{
-					id: "235F471EA4A308FE"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 5
-						}
-					}
-				}
-				{
 					id: "20A2D6124B51788A"
 					type: "item"
 					item: "minecraft:black_glazed_terracotta"
@@ -282,6 +271,17 @@
 					id: "31D517FFC492D700"
 					type: "item"
 					item: "pixelmon:wild_music_disc"
+				}
+				{
+					id: "28A06646C0540EE2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 26
+						}
+					}
 				}
 			]
 		}
@@ -411,17 +411,6 @@
 			]
 			rewards: [
 				{
-					id: "146C347ABE2A2A55"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 4
-						}
-					}
-				}
-				{
 					id: "361E4563F02024C6"
 					type: "item"
 					item: "minecraft:sand"
@@ -454,6 +443,17 @@
 					id: "624252276A1D338A"
 					type: "item"
 					item: "pixelmon:trainer_music_disc"
+				}
+				{
+					id: "415E06F97780A7A7"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 31
+						}
+					}
 				}
 			]
 		}
@@ -814,17 +814,6 @@
 			]
 			rewards: [
 				{
-					id: "05ED4E5EB5B8A984"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 0
-						}
-					}
-				}
-				{
 					id: "17B169DD6DF4642F"
 					type: "item"
 					item: "pixelmon:white_shard"
@@ -861,6 +850,17 @@
 					id: "35A2BE2EBAED20AB"
 					type: "item"
 					item: "pixelmon:gym_music_disc"
+				}
+				{
+					id: "7DBFB6CECA6D1135"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 9
+						}
+					}
 				}
 			]
 		}

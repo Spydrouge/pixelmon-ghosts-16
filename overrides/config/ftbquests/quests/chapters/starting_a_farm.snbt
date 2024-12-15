@@ -143,17 +143,6 @@
 					type: "item"
 					item: "pixelmon:watmel_berry"
 				}
-				{
-					id: "5B79397F66A49C7A"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen1"
-						Count: 1b
-						tag: {
-							tm: 12
-						}
-					}
-				}
 			]
 		}
 		{
@@ -571,20 +560,20 @@
 					item: "pixelmon:red_shard"
 				}
 				{
-					id: "7A80835BDC565207"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 55
-						}
-					}
-				}
-				{
 					id: "31494AF9D4EE1157"
 					type: "item"
 					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "577FE371CB4952CD"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
+					}
 				}
 			]
 		}
@@ -810,20 +799,20 @@
 			}]
 			rewards: [
 				{
-					id: "69CD2F55291A232B"
+					id: "58D9AB00ED2C8B85"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+				{
+					id: "787BA5A419A0A3E2"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 25
+							tm: 26
 						}
 					}
-				}
-				{
-					id: "58D9AB00ED2C8B85"
-					type: "item"
-					item: "pixelmon:xs_exp_candy"
 				}
 			]
 		}
@@ -872,20 +861,20 @@
 			}]
 			rewards: [
 				{
-					id: "20A67FD7484924F1"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 7
-						}
-					}
-				}
-				{
 					id: "7373E654601AFDE3"
 					type: "item"
 					item: "pixelmon:xs_exp_candy"
+				}
+				{
+					id: "6BE07642F6FBD537"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 68
+						}
+					}
 				}
 			]
 		}
@@ -1628,9 +1617,15 @@
 					item: "pixelmon:durin_berry"
 				}
 				{
-					id: "65BBE9856B664EA0"
+					id: "29F66086352CEDC6"
 					type: "item"
-					item: "pixelmon:xs_exp_candy"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 15
+						}
+					}
 				}
 			]
 		}
@@ -2069,20 +2064,20 @@
 			}]
 			rewards: [
 				{
-					id: "3E87080959DFF259"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 8
-						}
-					}
-				}
-				{
 					id: "79F8467325BE0F96"
 					type: "item"
 					item: "pixelmon:xs_exp_candy"
+				}
+				{
+					id: "2607B755113035C1"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 66
+						}
+					}
 				}
 			]
 		}
@@ -3033,9 +3028,15 @@
 					item: "pixelmon:durin_berry"
 				}
 				{
-					id: "1638FA687DC19F1E"
+					id: "7C45671784E052A1"
 					type: "item"
-					item: "pixelmon:xs_exp_candy"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 21
+						}
+					}
 				}
 			]
 		}
@@ -4154,20 +4155,14 @@
 			]
 			rewards: [
 				{
-					id: "0A2435B7AE747DC8"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen8"
-						Count: 1b
-						tag: {
-							tm: 52
-						}
-					}
-				}
-				{
 					id: "057C4E59439BBC2C"
 					type: "item"
 					item: "pixelmon:ghostium_z"
+				}
+				{
+					id: "521C1B69DD74F707"
+					type: "choice"
+					table_id: 1328297472021301352L
 				}
 			]
 		}
@@ -4208,20 +4203,14 @@
 			}]
 			rewards: [
 				{
-					id: "41FB50403CF2DE69"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 96
-						}
-					}
-				}
-				{
 					id: "54C0880BB1BAD6D3"
 					type: "item"
 					item: "pixelmon:flyinium_z"
+				}
+				{
+					id: "283212A755E451EA"
+					type: "choice"
+					table_id: 1328297472021301352L
 				}
 			]
 		}
@@ -4241,6 +4230,23 @@
 				type: "item"
 				item: "minecraft:beef"
 			}]
+			rewards: [
+				{
+					id: "452060C5BFFEB496"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+				{
+					id: "54BF6AB1F5F7BDA5"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "0BA9FC42EBE8597D"
+					type: "item"
+					item: "farmersdelight:beef_stew"
+				}
+			]
 		}
 		{
 			x: -2.5d

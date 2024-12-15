@@ -124,6 +124,7 @@
 			]
 		}
 		{
+			title: "Druidism"
 			icon: "minecraft:wither_rose"
 			x: 0.0d
 			y: -4.0d
@@ -1196,7 +1197,11 @@
 				""
 				"A &dWand of the Forest&r will be necessary to aim the spreader at the pool. You can make these wands using Mystical Mushrooms and Livingwood."
 			]
-			dependencies: ["3FF8AA83BB349B3E"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3FF8AA83BB349B3E"
+				"6749D2C85113CC62"
+			]
 			hide: true
 			id: "58C8937CFE8894DA"
 			tasks: [
@@ -1234,6 +1239,17 @@
 					type: "item"
 					item: "botania:manasteel_nugget"
 					count: 9
+				}
+				{
+					id: "2AFD3748412F549C"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 20
+						}
+					}
 				}
 			]
 		}
@@ -1481,13 +1497,13 @@
 					item: "minecraft:rabbit_foot"
 				}
 				{
-					id: "64917B630301F0D2"
+					id: "5C35DD7AF4808B90"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 13
+							tm: 78
 						}
 					}
 				}
@@ -1563,17 +1579,6 @@
 			}]
 			rewards: [
 				{
-					id: "3BEAB0562A2C04BB"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 10
-						}
-					}
-				}
-				{
 					id: "599E047DE80883E4"
 					type: "item"
 					item: {
@@ -1581,6 +1586,17 @@
 						Count: 1b
 						tag: {
 							tm: 3
+						}
+					}
+				}
+				{
+					id: "3114D2597FEA7EE3"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 11
 						}
 					}
 				}
@@ -1885,15 +1901,9 @@
 					item: "pixelmon:white_shard"
 				}
 				{
-					id: "3C3C3AE236686BA3"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen7"
-						Count: 1b
-						tag: {
-							tm: 32
-						}
-					}
+					id: "56E492C3BCCF1193"
+					type: "random"
+					table_id: 8871676415711359530L
 				}
 			]
 		}
@@ -1926,13 +1936,13 @@
 					item: "pixelmon:red_shard"
 				}
 				{
-					id: "4231EAC2C0B16838"
+					id: "28145D38CFC50504"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 160
+							tm: 70
 						}
 					}
 				}
@@ -2271,13 +2281,13 @@
 					item: "pixelmon:green_shard"
 				}
 				{
-					id: "3338D4487119C884"
+					id: "678CAA11C8837C41"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 27
+							tm: 81
 						}
 					}
 				}
@@ -2612,17 +2622,6 @@
 					item: "pixelmon:miracle_seed"
 				}
 				{
-					id: "61273EEBD2D4198F"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 55
-						}
-					}
-				}
-				{
 					id: "348FEEFC73A746BC"
 					type: "xp"
 					xp: 250
@@ -2646,20 +2645,20 @@
 			}]
 			rewards: [
 				{
-					id: "2BA4D80571A72529"
+					id: "343376BB75FC7530"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "417D5E99E1D0E548"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 51
+							tm: 52
 						}
 					}
-				}
-				{
-					id: "343376BB75FC7530"
-					type: "xp"
-					xp: 250
 				}
 			]
 		}
@@ -2677,17 +2676,6 @@
 			}]
 			rewards: [
 				{
-					id: "3389D50E850FB484"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 84
-						}
-					}
-				}
-				{
 					id: "58ACF0CC79E68119"
 					type: "item"
 					item: "biomesoplenty:yellow_autumn_sapling"
@@ -2701,6 +2689,17 @@
 					id: "3268AC2EBE5AB869"
 					type: "xp"
 					xp: 250
+				}
+				{
+					id: "7CA84FD0B3B49D17"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 21
+						}
+					}
 				}
 			]
 		}
@@ -2989,13 +2988,13 @@
 					count: 4
 				}
 				{
-					id: "36FC87E28C857081"
+					id: "1B95A20837CFA61B"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 130
+							tm: 131
 						}
 					}
 				}
@@ -4858,13 +4857,13 @@
 					xp: 250
 				}
 				{
-					id: "024BA7953962E03D"
+					id: "7BF9D92E9F2245F4"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 154
+							tm: 155
 						}
 					}
 				}
@@ -5335,13 +5334,13 @@
 					}
 				}
 				{
-					id: "7893A24D1BCE4823"
+					id: "7950C32D247831C0"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 135
+							tm: 96
 						}
 					}
 				}
@@ -5419,13 +5418,13 @@
 					}
 				}
 				{
-					id: "7DBC20D5D0F0A032"
+					id: "070DB9014F0F4E86"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen8"
+						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 88
+							tm: 194
 						}
 					}
 				}
@@ -5506,13 +5505,13 @@
 					}
 				}
 				{
-					id: "647931733986B0E4"
+					id: "0458830DE2A90BA9"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 138
+							tm: 201
 						}
 					}
 				}
@@ -6229,7 +6228,7 @@
 		}
 		{
 			x: 5.0d
-			y: 10.0d
+			y: 11.0d
 			description: [
 				"No flower is more important than the Orechid. It can &aCreate Ores&r from nothing but stone."
 				""
@@ -6284,6 +6283,301 @@
 					item: "minecraft:emerald_ore"
 				}
 			]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "537DFAF27BB2819C"
+			tasks: [{
+				id: "08B5B386130CD4EF"
+				type: "item"
+				item: "botania:white_mystical_flower"
+			}]
+			rewards: [{
+				id: "496791036C9E1DFA"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			description: ["Mystical flowers are renewable in a way mushrooms aren't."]
+			dependencies: ["3030D7449023D68D"]
+			id: "4E3CCA0750F2EBB1"
+			tasks: [{
+				id: "3F84234E4509BA20"
+				type: "item"
+				item: "botania:orange_mystical_flower"
+			}]
+			rewards: [{
+				id: "449113D2224D0D55"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "236944C0906624D9"
+			tasks: [{
+				id: "67C451BD6E38B190"
+				type: "item"
+				item: "botania:magenta_mystical_flower"
+			}]
+			rewards: [{
+				id: "7A5BF8F1F2825DF5"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "52334B3660F4C355"
+			tasks: [{
+				id: "1D6E79D15428936E"
+				type: "item"
+				item: "botania:light_blue_mystical_flower"
+			}]
+			rewards: [{
+				id: "167F680A4CC144BB"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "2733D30C180B41C7"
+			tasks: [{
+				id: "56E7C2C6A545BA1A"
+				type: "item"
+				item: "botania:yellow_mystical_flower"
+			}]
+			rewards: [{
+				id: "7C8AE70520873FAB"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "7FC3FEA31B5455B5"
+			tasks: [{
+				id: "7F92884F6CBC894E"
+				type: "item"
+				item: "botania:lime_mystical_flower"
+			}]
+			rewards: [{
+				id: "32B995E228AA4533"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "5FFC7E1497C4D54E"
+			tasks: [{
+				id: "0E16BE5985285931"
+				type: "item"
+				item: "botania:pink_mystical_flower"
+			}]
+			rewards: [{
+				id: "17AE15547F3E5FA7"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "09647E0BA9B56311"
+			tasks: [{
+				id: "7021B396FB55E516"
+				type: "item"
+				item: "botania:gray_mystical_flower"
+			}]
+			rewards: [{
+				id: "55452DACEB65009B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "6E7CD8425E0375AA"
+			tasks: [{
+				id: "7760DE43C26ADE25"
+				type: "item"
+				item: "botania:light_gray_mystical_flower"
+			}]
+			rewards: [{
+				id: "3E4284F480802AD5"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "6300AAC8A53E5113"
+			tasks: [{
+				id: "03E3288BC3EEFE9A"
+				type: "item"
+				item: "botania:cyan_mystical_flower"
+			}]
+			rewards: [{
+				id: "740A893AFC9C372D"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "1CCF3162CC685715"
+			tasks: [{
+				id: "01593B5CD7A16D6B"
+				type: "item"
+				item: "botania:purple_mystical_flower"
+			}]
+			rewards: [{
+				id: "17D34687563B3317"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "24C9854D2846EC51"
+			tasks: [{
+				id: "1E95AA2BDED2A7AC"
+				type: "item"
+				item: "botania:blue_mystical_flower"
+			}]
+			rewards: [{
+				id: "4DAD6521CE515532"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "1D5E26AC6CB7748D"
+			tasks: [{
+				id: "7920122F66916FDF"
+				type: "item"
+				item: "botania:brown_mystical_flower"
+			}]
+			rewards: [{
+				id: "5D7D6F23B6B2B736"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "653774A8178DD9CF"
+			tasks: [{
+				id: "6D96EFFD4B5D625F"
+				type: "item"
+				item: "botania:red_mystical_flower"
+			}]
+			rewards: [{
+				id: "756F92F68064DF31"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			dependencies: ["3030D7449023D68D"]
+			id: "774843C609D73986"
+			tasks: [{
+				id: "4B0983F2038E25AA"
+				type: "item"
+				item: "botania:black_mystical_flower"
+			}]
+			rewards: [{
+				id: "5CA9290355F8B4AD"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			icon: "botania:white_mystical_flower"
+			x: -4.5d
+			y: 3.0d
+			description: [
+				"Mystical flowers are renewable in a way that the mushrooms simply aren't. However, to create them, you first need a mana pool with which to make mana powder."
+				""
+				"You will also have to gather a gem of the correct Pokemon type, which can either be made in an infusor or obtained from wild Pokemon."
+				""
+				"You will then need to track down one or more flowers that correspond with the mystical flower you want to make. Often these are in the possession of Floette or Florges, but some are more exotic."
+				""
+				"Lastly, you will need one of the mystical mushrooms itself."
+			]
+			hide_dependency_lines: true
+			dependencies: ["58C8937CFE8894DA"]
+			hide: true
+			size: 2.0d
+			id: "3030D7449023D68D"
+			tasks: [{
+				id: "3E3DDF485FFAD58F"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.0d
+			description: ["Can you... combine these?"]
+			dependencies: ["15016EB56527C48F"]
+			hide: true
+			id: "32E55202FE2038B7"
+			tasks: [{
+				id: "0C7E362A89B37997"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen1"
+					Count: 1b
+					tag: {
+						tm: 21
+					}
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "531A03A214CADE90"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen8"
+					Count: 1b
+					tag: {
+						tm: 28
+					}
+				}
+			}]
 		}
 	]
 }

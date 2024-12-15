@@ -551,6 +551,11 @@
 					type: "item"
 					item: "charms:fire_resistance_charm"
 				}
+				{
+					id: "2AC77482C2BCAE3E"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
 			]
 		}
 		{
@@ -802,13 +807,13 @@
 				}
 			]
 			rewards: [{
-				id: "110D27F656D5A489"
+				id: "37A6583A5B9B301D"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tr_gen8"
 					Count: 1b
 					tag: {
-						tm: 117
+						tm: 36
 					}
 				}
 			}]
@@ -933,6 +938,7 @@
 			]
 		}
 		{
+			title: "Are you Ready?"
 			x: 0.0d
 			y: -9.5d
 			description: [
@@ -1107,13 +1113,13 @@
 					item: "minecraft:glowstone"
 				}
 				{
-					id: "78855E0EB10A4DE0"
+					id: "380FB5B8D1DCB9BA"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 106
+							tm: 38
 						}
 					}
 				}
@@ -1726,13 +1732,13 @@
 					item: "pixelmon:sun_stone_ore"
 				}
 				{
-					id: "4D8DA6C4C057C6E7"
+					id: "62B9648940EB68F2"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 44
+							tm: 195
 						}
 					}
 				}
@@ -1776,13 +1782,13 @@
 					item: "pixelmon:orb"
 				}
 				{
-					id: "750375CF81D06F4B"
+					id: "2D02F56D2046A58E"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen8"
 						Count: 1b
 						tag: {
-							tm: 50
+							tm: 32
 						}
 					}
 				}
@@ -1873,13 +1879,13 @@
 					item: "pixelmon:green_apricorn"
 				}
 				{
-					id: "0D74E82625AF2BAB"
+					id: "6427D8AD99D29E8C"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tm_gen4"
 						Count: 1b
 						tag: {
-							tm: 19
+							tm: 62
 						}
 					}
 				}
@@ -2086,20 +2092,20 @@
 					item: "minecraft:heart_of_the_sea"
 				}
 				{
-					id: "6C84216503AD5BE1"
-					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 34
-						}
-					}
-				}
-				{
 					id: "039206B45FE6F2FF"
 					type: "item"
 					item: "pixelmon:dawn_stone_ore"
+				}
+				{
+					id: "0254BCB6DF8BF57D"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 53
+						}
+					}
 				}
 			]
 		}
@@ -2580,6 +2586,11 @@
 						}
 					}
 				}
+				{
+					id: "73378CF4063E446F"
+					type: "item"
+					item: "pixelmon:yellow_apricorn"
+				}
 			]
 		}
 		{
@@ -2960,13 +2971,13 @@
 					table_id: 9093306389108564916L
 				}
 				{
-					id: "6E5C13FF9BF7CF6F"
+					id: "042B8BD82CA95A9F"
 					type: "item"
 					item: {
 						id: "pixelmon:tm_gen9"
 						Count: 1b
 						tag: {
-							tm: 12
+							tm: 144
 						}
 					}
 				}

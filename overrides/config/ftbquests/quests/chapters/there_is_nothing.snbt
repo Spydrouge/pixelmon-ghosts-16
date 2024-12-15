@@ -131,12 +131,6 @@
 					auto: "enabled"
 					item: "minecraft:soul_soil"
 				}
-				{
-					id: "31AA94C1CBF3853C"
-					type: "item"
-					auto: "enabled"
-					item: "minecraft:ghast_tear"
-				}
 			]
 		}
 		{
@@ -1589,7 +1583,11 @@
 			y: 9.5d
 			shape: "circle"
 			subtitle: "\"Useful Gifts\""
-			description: ["Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory, and you can't even use most of it yet! You need to build some chests so you can organize this all!"]
+			description: [
+				"Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory, and you can't even use most of it yet! You need to build some chests so you can organize this all!"
+				""
+				"(NOTE: Pixelmon bags can only hold Pixelmon items)"
+			]
 			dependencies: ["1461900BEAD0C38E"]
 			hide: true
 			optional: true
@@ -1928,10 +1926,9 @@
 				"Try looking in Offerings to Arceus after this."
 			]
 			hide_dependency_lines: true
-			dependencies: ["391C3D6A40B4349B"]
+			dependencies: ["78519AB5CDD50FC1"]
 			hide: true
 			optional: true
-			secret: true
 			id: "307D4E7B70929C18"
 			tasks: [{
 				id: "6DC1D6476C6E07CA"
@@ -1943,6 +1940,135 @@
 				id: "61C9CFFF2A37521E"
 				type: "pixelmon:pokedollars"
 				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			shape: "circle"
+			description: ["These appear to be dropped by Pineco. You think you can either build with these (they should be a valid tree habitat, right?) or break them in search of a spruce sapling."]
+			hide_dependency_lines: true
+			dependencies: ["509830B8EDE46BCD"]
+			hide: true
+			optional: true
+			id: "1DF5C038AB870912"
+			tasks: [{
+				id: "21DC49EF0C31D495"
+				type: "item"
+				item: "minecraft:spruce_leaves"
+			}]
+			rewards: [{
+				id: "6E6B928B28C976FF"
+				type: "item"
+				item: "minecraft:spruce_leaves"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			shape: "circle"
+			description: ["Ebony saplings can be obtained from breaking ebony leaves. However, you will need to obtain four, as ebony trees will only grow in a 2x2 pattern."]
+			dependencies: ["1C490FC0CAEFBA62"]
+			hide: true
+			optional: true
+			id: "4FA6792040A4D34B"
+			tasks: [{
+				id: "0187BE42DD12F22C"
+				type: "item"
+				item: "byg:ebony_sapling"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5E19EE193947258C"
+				type: "item"
+				title: "Drifloon has been gathering little piles of dirt. It heard you needed them!"
+				item: "minecraft:coarse_dirt"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["1DF5C038AB870912"]
+			optional: true
+			id: "65F7C33E059934E4"
+			tasks: [{
+				id: "1458445A8B6D18A8"
+				type: "item"
+				item: "minecraft:spruce_sapling"
+			}]
+			rewards: [{
+				id: "0E12BDAABB920509"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			shape: "circle"
+			description: [
+				"These appear to be dropped by Phantump."
+				""
+				"You think you can either build with these (they should be a valid tree habitat, right?) or break them in search of an ebony sapling."
+			]
+			hide_dependency_lines: true
+			dependencies: ["509830B8EDE46BCD"]
+			hide: true
+			optional: true
+			id: "1C490FC0CAEFBA62"
+			tasks: [{
+				id: "5506BFB34AAD1145"
+				type: "item"
+				item: "byg:ebony_leaves"
+			}]
+			rewards: [{
+				id: "5D04D391F790A2CA"
+				type: "item"
+				item: "byg:ebony_leaves"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.0d
+			y: 7.5d
+			shape: "circle"
+			description: ["These appear to be dropped by Phantump. You think you can either build with these (they should be a valid tree habitat, right?) or break them in search of a dark oak sapling."]
+			hide_dependency_lines: true
+			dependencies: ["509830B8EDE46BCD"]
+			hide: true
+			optional: true
+			id: "414F14B64F6C8708"
+			tasks: [{
+				id: "2F4375C77D6BD920"
+				type: "item"
+				item: "minecraft:dark_oak_leaves"
+			}]
+			rewards: [{
+				id: "128BCBE93378E683"
+				type: "item"
+				item: "minecraft:dark_oak_leaves"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			shape: "circle"
+			description: ["Dark Oak saplings can be obtained from breaking ebony leaves. However, you will need to obtain four, as dark oak trees will only grow in a 2x2 pattern."]
+			dependencies: ["414F14B64F6C8708"]
+			optional: true
+			id: "6DE28276E87E704A"
+			tasks: [{
+				id: "14D3305E08B40E32"
+				type: "item"
+				item: "minecraft:dark_oak_sapling"
+			}]
+			rewards: [{
+				id: "0B5784EC16392409"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 4
 			}]
 		}
 	]

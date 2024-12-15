@@ -589,9 +589,15 @@
 					item: "pixelmon:black_shard"
 				}
 				{
-					id: "56F75524647B06C9"
+					id: "7CA80DAA7E854BC1"
 					type: "item"
-					item: "pixelmon:raw_black_tumblestone"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 13
+						}
+					}
 				}
 			]
 		}
@@ -1290,9 +1296,9 @@
 					item: "pixelmon:blue_shard"
 				}
 				{
-					id: "5B115EF120D87B6B"
-					type: "random"
-					table_id: 7514776752967216189L
+					id: "16EE49240EBF75C1"
+					type: "item"
+					item: "pixelmon:water_stone_shard"
 				}
 			]
 		}
@@ -1329,10 +1335,9 @@
 					item: "pixelmon:yellow_shard"
 				}
 				{
-					id: "49D8E474FCC513B3"
+					id: "060FDDF03AFB8785"
 					type: "item"
-					item: "immersiveengineering:nugget_uranium"
-					count: 3
+					item: "pixelmon:shiny_stone_shard"
 				}
 			]
 		}
@@ -1369,15 +1374,9 @@
 					item: "pixelmon:green_shard"
 				}
 				{
-					id: "1A88DB6D2CBE97B1"
+					id: "5BAB1A254E1E1DF5"
 					type: "item"
-					item: {
-						id: "minecraft:leather_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "pixelmon:thunder_stone_shard"
 				}
 			]
 		}
@@ -1414,9 +1413,9 @@
 					item: "pixelmon:white_shard"
 				}
 				{
-					id: "7E5B72454886D827"
+					id: "226D21CCA9C16861"
 					type: "item"
-					item: "botania:black_lotus"
+					item: "pixelmon:moon_stone_shard"
 				}
 			]
 		}
@@ -1453,15 +1452,9 @@
 					item: "pixelmon:black_shard"
 				}
 				{
-					id: "321A7DCFE7017804"
+					id: "196807E12E12C22E"
 					type: "item"
-					item: {
-						id: "pixelmon:tm_gen9"
-						Count: 1b
-						tag: {
-							tm: 39
-						}
-					}
+					item: "pixelmon:ice_stone_shard"
 				}
 			]
 		}
@@ -1502,11 +1495,18 @@
 				type: "item"
 				item: "minecraft:honeycomb"
 			}]
-			rewards: [{
-				id: "2FC505F8FF82AC49"
-				type: "item"
-				item: "minecraft:honeycomb"
-			}]
+			rewards: [
+				{
+					id: "2FC505F8FF82AC49"
+					type: "item"
+					item: "minecraft:honeycomb"
+				}
+				{
+					id: "097C5D84FEB87D0E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -1721,6 +1721,28 @@
 				type: "item"
 				item: "pixelmon:micle_berry"
 			}]
+			rewards: [
+				{
+					id: "6A8D86C027B553DF"
+					type: "random"
+					table_id: 5099998074447876936L
+				}
+				{
+					id: "33FEFE9D6C0890D2"
+					type: "item"
+					item: "pixelmon:micle_berry"
+				}
+				{
+					id: "69F2EB0BA492317B"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7A2533B4C9AAA269"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1966,13 +1988,13 @@
 				}
 			]
 			rewards: [{
-				id: "5998A0B80A75E4E1"
+				id: "3233BE476084ADC7"
 				type: "item"
 				item: {
-					id: "pixelmon:tm_gen9"
+					id: "pixelmon:tm_gen7"
 					Count: 1b
 					tag: {
-						tm: 43
+						tm: 82
 					}
 				}
 			}]
@@ -2416,13 +2438,13 @@
 					item: "pixelmon:poison_barb"
 				}
 				{
-					id: "675BDEAD68E55636"
+					id: "0E17EB9734243A90"
 					type: "item"
 					item: {
-						id: "pixelmon:tm_gen9"
+						id: "pixelmon:tr_gen8"
 						Count: 1b
 						tag: {
-							tm: 25
+							tm: 91
 						}
 					}
 				}
