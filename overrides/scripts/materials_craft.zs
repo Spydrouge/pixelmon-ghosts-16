@@ -13,7 +13,7 @@ val newMetals =
 	"brass"
 ];
 
-//needs gears
+
 var vanillaMetals =
 [
 	"iron",
@@ -71,6 +71,16 @@ val nonRodImmersiveMetals =
 	"uranium"
 ];
 
+val nonRodThermalMetals =
+[
+	"tin",
+	"copper",
+	"invar",
+	"signalum",
+	"lumium",
+	"enderium"
+];
+
 var nonRodVanillaMetals =
 [
 	"gold"
@@ -100,7 +110,6 @@ for i in newMetals{
 	allRods.add(i);
 }
 for i in vanillaMetals{
-	allGears.add(i);
 	
 	allMetals.add(i);
 	
@@ -133,6 +142,11 @@ for i in tinkersMetals{
 
 for i in nonRodImmersiveMetals{
 	allRods.add(i);
+}
+
+for i in nonRodThermalMetals{
+	allRods.add(i);
+	allPlates.add(i);
 }
 
 for i in nonRodVanillaMetals{
@@ -168,7 +182,10 @@ var blazingMetals =
 	"manyullyn",
 	"hepatizon",
 	"queens_slime",
-	"netherite"
+	"netherite",
+	"signalum",
+	"lumium",
+	"enderium"
 ];
 
 
@@ -178,6 +195,7 @@ var blazingMetals =
 //this also works
 //<tag:items:forge:tagmanager>;
 var loc = "";
+var ing = "";
 var molt = <fluid:tconstruct:molten_iron> * 1;
 var temp = 150;
 
@@ -281,98 +299,6 @@ for i in allBlocks{
 
 }
 
-for i in allGears{
-	//oredict tags
-	forgeGears.add(<item:contenttweaker:${i}_gear>);
-	//forestryMinerBag.add(<item:contenttweaker:${i}_gear>);
-	
-	loc = "forge:gears/"+i;
-	
-	if(i == "silicon_bronze")
-	{
-		molt = <fluid:tconstruct:molten_tinkers_bronze> * 576;
-	}
-	else if(i == "fairy" ||i == "starmetal" )
-	{
-		molt = <fluid:materialis:molten_${i}> * 576;
-	}
-	else
-	{
-		molt = <fluid:tconstruct:molten_${i}> * 576;
-	}
-	
-	if(i in blazingMetals)
-	{
-		temp = 1200;
-	}
-	else if(i in lavaMetals)
-	{
-		temp = 900;
-	}
-	else
-	{
-		temp = 250;
-	}
-	
-	<tagmanager:items>.getTag(loc).add(<item:contenttweaker:${i}_gear>);
-	
-	//melting recipe
-	<recipetype:tconstruct:melting>.addMeltingRecipe(i + "_gear_melt", <tagmanager:items>.getTag(loc), molt, temp, 50);
-	
-	//casting recipes
-	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_gear_cast", <item:tconstruct:gear_cast>, molt, <item:contenttweaker:${i}_gear>, 120, false, false);
-	
-	
-	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_gear_red_sand_cast", <item:tconstruct:gear_red_sand_cast>, molt, <item:contenttweaker:${i}_gear>, 120, true, false);
-	
-	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_gear_sand_cast", <item:tconstruct:gear_sand_cast>, molt, <item:contenttweaker:${i}_gear>, 120, true, false);
-}
-
-for i in allPlates{
-	//oredict tags
-	forgePlates.add(<item:contenttweaker:${i}_plate>);
-	//forestryMinerBag.add(<item:contenttweaker:${i}_plate>);
-	
-	loc = "forge:plates/"+i;
-	
-	if(i == "silicon_bronze")
-	{
-		molt = <fluid:tconstruct:molten_tinkers_bronze> * 144;
-	}
-	else if(i == "fairy" || i == "starmetal" )
-	{
-		molt = <fluid:materialis:molten_${i}> * 144;
-	}
-	else
-	{
-		molt = <fluid:tconstruct:molten_${i}> * 144;
-	}
-	
-	if(i in blazingMetals)
-	{
-		temp = 1200;
-	}
-	else if(i in lavaMetals)
-	{
-		temp = 900;
-	}
-	else
-	{
-		temp = 250;
-	}
-	
-	<tagmanager:items>.getTag(loc).add(<item:contenttweaker:${i}_plate>);
-	
-	//melting recipe
-	<recipetype:tconstruct:melting>.addMeltingRecipe(i + "_plate_melt", <tagmanager:items>.getTag(loc), molt, temp, 50);
-	
-	//casting recipes
-	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_plate_cast", <item:tconstruct:plate_cast>, molt, <item:contenttweaker:${i}_plate>, 60, false, false);
-	
-	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_plate_red_sand_cast", <item:tconstruct:plate_red_sand_cast>, molt, <item:contenttweaker:${i}_plate>, 60, true, false);
-	
-	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_plate_sand_cast", <item:tconstruct:plate_sand_cast>, molt, <item:contenttweaker:${i}_plate>, 60, true, false);
-}
 
 for i in allIngots{
 	//oredict tags
@@ -421,10 +347,160 @@ for i in allIngots{
 	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_ingot_sand_cast", <item:tconstruct:ingot_sand_cast>, molt, <item:contenttweaker:${i}_ingot>, 60, true, false);
 }
 
+for i in allGears{
+	//oredict tags
+	forgeGears.add(<item:contenttweaker:${i}_gear>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_gear>);
+	
+	loc = "forge:gears/"+i;
+	ing = "forge:ingots/"+i;
+	
+	if(i == "silicon_bronze")
+	{
+		molt = <fluid:tconstruct:molten_tinkers_bronze> * 576;
+	}
+	else if(i == "fairy" ||i == "starmetal" )
+	{
+		molt = <fluid:materialis:molten_${i}> * 576;
+	}
+	else
+	{
+		molt = <fluid:tconstruct:molten_${i}> * 576;
+	}
+	
+	if(i in blazingMetals)
+	{
+		temp = 1200;
+	}
+	else if(i in lavaMetals)
+	{
+		temp = 900;
+	}
+	else
+	{
+		temp = 250;
+	}
+	
+	<tagmanager:items>.getTag(loc).add(<item:contenttweaker:${i}_gear>);
+	
+	//melting recipe
+	<recipetype:tconstruct:melting>.addMeltingRecipe(i + "_gear_melt", <tagmanager:items>.getTag(loc), molt, temp, 50);
+	
+	//casting recipes
+	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_gear_cast", <item:tconstruct:gear_cast>, molt, <item:contenttweaker:${i}_gear>, 120, false, false);
+	
+	
+	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_gear_red_sand_cast", <item:tconstruct:gear_red_sand_cast>, molt, <item:contenttweaker:${i}_gear>, 120, true, false);
+	
+	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_gear_sand_cast", <item:tconstruct:gear_sand_cast>, molt, <item:contenttweaker:${i}_gear>, 120, true, false);
+	
+	//metal press recipe
+	<recipetype:immersiveengineering:metal_press>.addRecipe("ingots_to_"+ i + "_gear", <tagmanager:items>.getTag(ing) * 4, <item:immersiveengineering:mold_gear>, 2400, <item:contenttweaker:${i}_gear>);
+	
+}
+
+for i in allPlates{
+	//oredict tags
+	forgePlates.add(<item:contenttweaker:${i}_plate>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_plate>);
+	
+	loc = "forge:plates/"+i;
+	ing = "forge:ingots/"+i;
+	
+	if(i == "silicon_bronze")
+	{
+		molt = <fluid:tconstruct:molten_tinkers_bronze> * 144;
+	}
+	else if(i == "fairy" || i == "starmetal" )
+	{
+		molt = <fluid:materialis:molten_${i}> * 144;
+	}
+	else
+	{
+		molt = <fluid:tconstruct:molten_${i}> * 144;
+	}
+	
+	if(i in blazingMetals)
+	{
+		temp = 1200;
+	}
+	else if(i in lavaMetals)
+	{
+		temp = 900;
+	}
+	else
+	{
+		temp = 250;
+	}
+	
+	<tagmanager:items>.getTag(loc).add(<item:contenttweaker:${i}_plate>);
+	
+	//melting recipe
+	<recipetype:tconstruct:melting>.addMeltingRecipe(i + "_plate_melt", <tagmanager:items>.getTag(loc), molt, temp, 50);
+	
+	//casting recipes
+	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_plate_cast", <item:tconstruct:plate_cast>, molt, <item:contenttweaker:${i}_plate>, 60, false, false);
+	
+	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_plate_red_sand_cast", <item:tconstruct:plate_red_sand_cast>, molt, <item:contenttweaker:${i}_plate>, 60, true, false);
+	
+	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_plate_sand_cast", <item:tconstruct:plate_sand_cast>, molt, <item:contenttweaker:${i}_plate>, 60, true, false);
+	
+	//metal press recipe
+	<recipetype:immersiveengineering:metal_press>.addRecipe("ingot_to_"+ i + "_plate", <tagmanager:items>.getTag(ing), <item:immersiveengineering:mold_plate>, 2400, <item:contenttweaker:${i}_plate>);
+}
+
+
+for i in allDusts{
+	//oredict tags
+	//forgeIngots.add(<item:contenttweaker:${i}_dust>);
+	//forestryMinerBag.add(<item:contenttweaker:${i}_dust>);
+	
+	loc = "forge:dusts/"+i;
+	ing = "forge:ingots/"+i;
+
+	
+	if(i == "silicon_bronze")
+	{
+		molt = <fluid:tconstruct:molten_tinkers_bronze> * 144;
+	}
+	else if(i == "fairy" ||i == "starmetal" )
+	{
+		molt = <fluid:materialis:molten_${i}> * 144;
+	}
+	else
+	{
+		molt = <fluid:tconstruct:molten_${i}> * 144;
+	}
+	
+	if(i in blazingMetals)
+	{
+		temp = 1200;
+	}
+	else if(i in lavaMetals)
+	{
+		temp = 900;
+	}
+	else
+	{
+		temp = 250;
+	}
+	
+	<tagmanager:items>.getTag(loc).add(<item:contenttweaker:${i}_dust>);
+	
+	//melting recipe
+	<recipetype:tconstruct:melting>.addMeltingRecipe(i + "_dust_melt", <tagmanager:items>.getTag(loc), molt, temp, 50);
+	
+	//earth charge recipe
+	craftingTable.addShapeless("ingot_to_" + i + "_dust", <item:contenttweaker:${i}_dust>, [ <tagmanager:items>.getTag(ing),<item:thermal:earth_charge>]);
+	
+	
+	
+}
+
 for i in allRods{
 	
 	loc = "forge:rods/"+i;
-
+	ing = "forge:ingots/"+i;
 	
 	if(i == "silicon_bronze")
 	{
@@ -463,6 +539,8 @@ for i in allRods{
 	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_rod_red_sand_cast", <item:tconstruct:rod_red_sand_cast>, molt, <item:contenttweaker:${i}_rod>, 60, true, false);
 	
 	<recipetype:tconstruct:casting_table>.addItemCastingRecipe(i + "_rod_sand_cast", <item:tconstruct:rod_sand_cast>, molt, <item:contenttweaker:${i}_rod>, 60, true, false);
+	
+	<recipetype:immersiveengineering:metal_press>.addRecipe("ingot_to_"+ i + "_rod", <tagmanager:items>.getTag(ing), <item:immersiveengineering:mold_rod>, 2400, <item:contenttweaker:${i}_rod>*2);
 }
 
 for i in allMetals{

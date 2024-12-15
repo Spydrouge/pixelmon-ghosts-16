@@ -6037,7 +6037,7 @@
 				""
 				"You could use this to create monsters to fight, or to summon categories of Pokemon, such as 'pig' Pokemon, or 'cow' Pokemon."
 				""
-				"Keep in mind that spawners will not produce many entities if there are already too many Pokemon in an area. For some creatures, like monsters, you might want to work in an area where Pokemon can't spawn. But for passive monster types like 'pigs', well, remember 'pigs' will only spawn on grass."
+				"Keep in mind that spawners will not produce many entities if there are already too many Pokemon in an area. For passive monster types like 'pigs', well, remember 'pigs' will only spawn on grass."
 			]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
@@ -6296,6 +6296,411 @@
 				auto: "enabled"
 				command: "/execute as @p run checkspawns legendary"
 				player_command: true
+			}]
+		}
+		{
+			icon: "byg:scoria_stone"
+			x: -16.5d
+			y: -2.5d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "14A7D9066CCD3773"
+			tasks: [
+				{
+					id: "45DC63B7A47D79C3"
+					type: "item"
+					item: "byg:scoria_stone"
+					consume_items: true
+				}
+				{
+					id: "4FE71E9A3FB1D7FE"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3BB4C9F96F56AF1A"
+				type: "item"
+				item: "byg:scoria_stone"
+				count: 17
+			}]
+		}
+		{
+			icon: "minecraft:blackstone"
+			x: -15.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "606B9254CAE66778"
+			tasks: [
+				{
+					id: "5FA237ABC7820416"
+					type: "item"
+					item: "minecraft:blackstone"
+					consume_items: true
+				}
+				{
+					id: "04C4F0561803F2D8"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0EACEDB4A970E31A"
+				type: "item"
+				item: "minecraft:blackstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "biomesoplenty:black_sandstone"
+			x: -19.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "259276B8E5862B89"
+			tasks: [
+				{
+					id: "6F4C891420ECAF1E"
+					type: "item"
+					item: "biomesoplenty:black_sandstone"
+					consume_items: true
+				}
+				{
+					id: "61EC2F982146413E"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6FEB6EF4748DFA59"
+				type: "item"
+				item: "biomesoplenty:black_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "biomesoplenty:white_sandstone"
+			x: -18.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "62E0F1999DF5EDB4"
+			tasks: [
+				{
+					id: "64A92018A53D5655"
+					type: "item"
+					item: "biomesoplenty:white_sandstone"
+					consume_items: true
+				}
+				{
+					id: "0BFE5B231BE2831C"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4168CAEE3E78A45E"
+				type: "item"
+				item: "biomesoplenty:white_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "byg:dacite"
+			x: -17.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "71A93637A8D17F2D"
+			tasks: [
+				{
+					id: "0D643BB371256E0F"
+					type: "item"
+					item: "byg:dacite"
+					consume_items: true
+				}
+				{
+					id: "5B489E9402AAE046"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "29207B6F532EF0C7"
+					type: "item"
+					item: "byg:dacite"
+					count: 16
+				}
+				{
+					id: "13B5CA24E876F6DF"
+					type: "item"
+					item: "byg:overgrown_dacite"
+				}
+			]
+		}
+		{
+			icon: "byg:purple_sandstone"
+			x: -17.5d
+			y: 2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4D66D678C9B5954A"
+			tasks: [
+				{
+					id: "32D6C6488F59465B"
+					type: "item"
+					item: "byg:purple_sandstone"
+					consume_items: true
+				}
+				{
+					id: "1FBA8DA6191D7B41"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "368E3C767C1BCD44"
+				type: "item"
+				item: "byg:purple_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "byg:pink_sandstone"
+			x: -14.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "206EAFE1FBB6D89F"
+			tasks: [
+				{
+					id: "0A8142B6A1010789"
+					type: "item"
+					item: "byg:pink_sandstone"
+					consume_items: true
+				}
+				{
+					id: "0766E8D464966271"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5090BFD2115081EC"
+				type: "item"
+				item: "byg:pink_sandstone"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:red_sandstone"
+			x: -14.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4A29C3C6D4815921"
+			tasks: [
+				{
+					id: "548FD30CAD2B0728"
+					type: "item"
+					item: "minecraft:red_sandstone"
+					consume_items: true
+				}
+				{
+					id: "50DBFCF285F131C0"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "19E3F5A05E8C8D50"
+				type: "item"
+				item: "minecraft:red_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "biomesoplenty:orange_sandstone"
+			x: -15.5d
+			y: 2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6656B38B952C76D3"
+			tasks: [
+				{
+					id: "6412DFEE24AA561E"
+					type: "item"
+					item: "biomesoplenty:orange_sandstone"
+					consume_items: true
+				}
+				{
+					id: "1334A6AA7DB92D8E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5F215BF314B393AC"
+				type: "item"
+				item: "biomesoplenty:orange_sandstone"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:basalt"
+			x: -18.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "662F55F871E3B010"
+			tasks: [
+				{
+					id: "1B1D5955DCF5F9FF"
+					type: "item"
+					item: "minecraft:basalt"
+					consume_items: true
+				}
+				{
+					id: "46AE0B0B10A5B167"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "47E0DA30D0BF9493"
+				type: "item"
+				item: "minecraft:basalt"
+				count: 17
+			}]
+		}
+		{
+			icon: "byg:red_rock"
+			x: -14.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "06F968800C6BE0DD"
+			tasks: [
+				{
+					id: "68077D0D5D448A81"
+					type: "item"
+					item: "byg:red_rock"
+					consume_items: true
+				}
+				{
+					id: "3F9DCFAC10C407E5"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "47358044E164D5BA"
+				type: "item"
+				item: "byg:red_rock"
+				count: 17
+			}]
+		}
+		{
+			title: "Offerings for Natural Building Blocks"
+			disable_toast: true
+			x: -16.5d
+			y: 0.0d
+			description: [
+				"These blocks are good for 'Underground' and 'Outside' or 'Land' habitats."
+				""
+				"You'll have to find at least one representative of each first, though!"
+			]
+			hide_dependency_lines: true
+			secret: true
+			id: "59EBC8F05D52CE1F"
+			tasks: [{
+				id: "16A32E54499D8CD9"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+		}
+		{
+			icon: "byg:mossy_stone"
+			x: -16.5d
+			y: 2.5d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "12E437202B228F89"
+			tasks: [
+				{
+					id: "5D1D0534D1259F8B"
+					type: "item"
+					item: "byg:mossy_stone"
+					consume_items: true
+				}
+				{
+					id: "3F508F20A047A0A1"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "54E88FD68F2A6BB1"
+				type: "item"
+				item: "byg:mossy_stone"
+				count: 17
 			}]
 		}
 	]

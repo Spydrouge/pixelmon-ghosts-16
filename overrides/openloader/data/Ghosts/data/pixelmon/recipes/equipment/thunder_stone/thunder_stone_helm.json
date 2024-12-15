@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:thunder_stone"
+    },
+    "P": {
+      "tag": "forge:plates/electrum"
+    }
+  },
+  "result": {
+    "item": "pixelmon:thunder_stone_helm",
+    "count": 1
+  }
+}

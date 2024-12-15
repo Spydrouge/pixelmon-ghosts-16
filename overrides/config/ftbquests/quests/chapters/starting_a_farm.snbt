@@ -4398,6 +4398,11 @@
 					type: "item"
 					item: "pixelmon:wishing_piece"
 				}
+				{
+					id: "06C92AA0C42F63E1"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
 			]
 		}
 		{

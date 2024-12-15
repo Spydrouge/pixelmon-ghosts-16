@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MPM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:water_stone"
+    },
+    "P": {
+      "tag": "forge:plates/zinc"
+    }
+  },
+  "result": {
+    "item": "pixelmon:water_stone_plate",
+    "count": 1
+  }
+}

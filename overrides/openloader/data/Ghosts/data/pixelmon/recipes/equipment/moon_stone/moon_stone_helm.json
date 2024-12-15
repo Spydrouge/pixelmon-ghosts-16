@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:moon_stone"
+    },
+    "P": {
+      "tag": "forge:plates/starmetal"
+    }
+  },
+  "result": {
+    "item": "pixelmon:moon_stone_helm",
+    "count": 1
+  }
+}

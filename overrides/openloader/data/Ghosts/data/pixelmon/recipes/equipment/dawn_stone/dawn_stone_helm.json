@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:dawn_stone"
+    },
+    "P": {
+      "tag": "forge:plates/lumium"
+    }
+  },
+  "result": {
+    "item": "pixelmon:dawn_stone_helm",
+    "count": 1
+  }
+}

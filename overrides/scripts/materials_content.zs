@@ -81,6 +81,17 @@ val nonRodImmersiveMetals =
 	"uranium"
 ];
 
+val nonRodThermalMetals =
+[
+	"tin",
+	"copper",
+	"invar",
+	"nickel",
+	"signalum",
+	"lumium",
+	"enderium"
+];
+
 var nonRodVanillaMetals =
 [
 	"gold"
@@ -106,7 +117,8 @@ for i in newMetals{
 	allRods.add(i);
 }
 for i in vanillaMetals{
-	allGears.add(i);
+	//added by thermal, no longer neede
+	//allGears.add(i);
 }
 
 for i in pokeMetals{
@@ -132,6 +144,11 @@ for i in tinkersMetals{
 
 for i in nonRodImmersiveMetals{
 	allRods.add(i);
+}
+
+for i in nonRodThermalMetals{
+	allRods.add(i);
+	allPlates.add(i);
 }
 
 for i in nonRodVanillaMetals{
@@ -169,6 +186,7 @@ for i in allIngots{
 
 for i in allRods{
 	new ItemBuilder().build(i + "_rod");
+	
 }
 
 for i in allBlocks{

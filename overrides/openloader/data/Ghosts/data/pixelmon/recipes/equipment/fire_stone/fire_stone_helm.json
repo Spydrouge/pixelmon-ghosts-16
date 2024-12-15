@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:fire_stone"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "pixelmon:fire_stone_helm",
+    "count": 1
+  }
+}

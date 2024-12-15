@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MPM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:dusk_stone"
+    },
+    "P": {
+      "tag": "forge:plates/hepatizon"
+    }
+  },
+  "result": {
+    "item": "pixelmon:dusk_stone_plate",
+    "count": 1
+  }
+}

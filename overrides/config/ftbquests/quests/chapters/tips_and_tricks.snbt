@@ -1519,7 +1519,7 @@
 		}
 		{
 			x: -0.5d
-			y: -4.5d
+			y: -6.0d
 			description: [
 				"An End Portal Frame block? You... might be able to do something with this. If you can collect twelve of these blocks, you might be able to lay out an End Portal Frame, fill it with Eyes of Ender, and travel to the End. "
 				""
@@ -2638,6 +2638,34 @@
 				id: "433B55BF40045F7A"
 				type: "item"
 				item: "inspirations:heartbeet"
+			}]
+		}
+		{
+			icon: "minecraft:spawner"
+			x: -0.5d
+			y: -4.5d
+			description: [
+				"Should you find an actual, vanilla spawner, be careful with it!"
+				""
+				"You can right click it to retrieve the egg of whatever is inside of it."
+				""
+				"You can click it with any other spawn egg to switch it to that spawn type."
+				""
+				"And you can collect it with Silk Touch!"
+			]
+			dependencies: [
+				"3029B49CD228E600"
+				"11D7E67ED0EFE75A"
+			]
+			id: "4215123A1B050E67"
+			tasks: [{
+				id: "0FAA045CB7C72A15"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2C417E7F17A7D06F"
+				type: "xp"
+				xp: 50
 			}]
 		}
 	]

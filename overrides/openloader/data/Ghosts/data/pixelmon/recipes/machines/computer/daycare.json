@@ -19,7 +19,7 @@
       "item": "farmersdelight:canvas_rug"
     },
     "P": {
-      "item": "pixelmon:pc"
+      "tag": "pixelmon:pcs"
     }
   },
   "result": {

@@ -2544,7 +2544,7 @@
                 "item": "minecraft:gravel",
                 "min": 1,
                 "max": 1,
-                "chance": 0.5
+                "chance": 0.75
             },
             {
                 "item": "byg:rocky_stone",
@@ -2606,8 +2606,8 @@
         "items": [
             {
                 "item": "minecraft:gravel",
-                "min": 2,
-                "max": 3,
+                "min": 3,
+                "max": 5,
                 "chance": 1
             },
             {
@@ -7965,8 +7965,8 @@
             {
                 "item": "minecraft:sand",
                 "min": 1,
-                "max": 1,
-                "chance": 0.5
+                "max": 2,
+                "chance": 1
             }
         ]
     },
@@ -18358,6 +18358,18 @@
                 "chance": 1
             },
             {
+                "item": "biomesoplenty:black_sand",
+                "min": 1,
+                "max": 2,
+                "chance": 0.75
+            },
+            {
+                "item": "biomesoplenty:black_sandstone",
+                "min": 1,
+                "max": 1,
+                "chance": 0.25
+            },
+            {
                 "item": "botania:rune_air",
                 "min": 1,
                 "max": 1,
@@ -18385,6 +18397,18 @@
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "biomesoplenty:black_sandstone",
+                "min": 1,
+                "max": 1,
+                "chance": 0.5
+            },
+            {
+                "item": "biomesoplenty:black_sand",
+                "min": 1,
+                "max": 1,
+                "chance": 0.25
             }
         ]
     },
@@ -18392,16 +18416,28 @@
         "pokemon": "Yamask form:galarian",
         "items": [
             {
-                "item": "minecraft:chiseled_sandstone",
+                "item": "biomesoplenty:chiseled_white_sandstone",
                 "min": 1,
                 "max": 2,
-                "chance": 1
+                "chance": 0.75
+            },
+            {
+                "item": "minecraft:chiseled_red_sandstone",
+                "min": 1,
+                "max": 1,
+                "chance": 0.25
             },
             {
                 "item": "minecraft:soul_sand",
                 "min": 1,
                 "max": 1,
                 "chance": 0.5
+            },
+            {
+                "item": "biomesoplenty:black_sand",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
             },
             {
                 "item": "botania:rune_earth",
@@ -24454,6 +24490,12 @@
                 "chance": 0.5
             },
             {
+                "item": "byg:purple_sand",
+                "min": 1,
+                "max": 1,
+                "chance": 0.5
+            },
+            {
                 "item": "pixelmon:poison_barb",
                 "min": 1,
                 "max": 1,
@@ -24468,6 +24510,12 @@
                 "item": "minecraft:pufferfish",
                 "min": 1,
                 "max": 3,
+                "chance": 1
+            },
+            {
+                "item": "byg:purple_sand",
+                "min": 2,
+                "max": 4,
                 "chance": 1
             },
             {
@@ -30760,14 +30808,14 @@
             {
                 "item": "minecraft:slime_ball",
                 "min": 1,
-                "max": 2,
+                "max": 1,
                 "chance": 1
             },
             {
                 "item": "minecraft:coarse_dirt",
                 "min": 1,
                 "max": 1,
-                "chance": 0.5
+                "chance": 1
             },
             {
                 "item": "byg:lazarus_bellflower",
@@ -30781,10 +30829,16 @@
         "pokemon": "Rabsca",
         "items": [
             {
-                "item": "minecraft:slime_ball",
+                "item": "byg:purple_sandstone",
                 "min": 1,
-                "max": 3,
+                "max": 2,
                 "chance": 1
+            },
+            {
+                "item": "byg:blue_sandstone",
+                "min": 1,
+                "max": 1,
+                "chance": 0.5
             },
             {
                 "item": "byg:lazarus_bellflower",
@@ -31478,8 +31532,8 @@
             },
             {
                 "item": "minecraft:sand",
-                "min": 2,
-                "max": 4,
+                "min": 4,
+                "max": 10,
                 "chance": 0.5
             },
             {

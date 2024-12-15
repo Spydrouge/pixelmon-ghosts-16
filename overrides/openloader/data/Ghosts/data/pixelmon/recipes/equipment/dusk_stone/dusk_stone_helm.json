@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:dusk_stone"
+    },
+    "P": {
+      "tag": "forge:plates/hepatizon"
+    }
+  },
+  "result": {
+    "item": "pixelmon:dusk_stone_helm",
+    "count": 1
+  }
+}

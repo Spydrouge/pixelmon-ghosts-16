@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:sun_stone"
+    },
+    "P": {
+      "tag": "forge:plates/bronze"
+    }
+  },
+  "result": {
+    "item": "pixelmon:sun_stone_helm",
+    "count": 1
+  }
+}

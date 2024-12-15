@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "byg:pink_sandstone"
+  },
+  "output": {
+    "name": "byg:blue_sandstone"
+  }
+}

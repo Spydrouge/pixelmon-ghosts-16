@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "pixelmon:leaf_stone"
+    },
+    "P": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "pixelmon:leaf_stone_helm",
+    "count": 1
+  }
+}

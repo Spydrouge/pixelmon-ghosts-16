@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "biomesoplenty:black_sand"
+  },
+  "output": {
+    "name": "biomesoplenty:white_sand"
+  }
+}

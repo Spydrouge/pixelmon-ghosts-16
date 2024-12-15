@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "biomesoplenty:white_sand"
+  },
+  "output": {
+    "name": "minecraft:soul_sand"
+  }
+}

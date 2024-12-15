@@ -569,7 +569,7 @@
 			description: [
 				"Most Pokemon who are able to find more sand are those who prefer to live upon sand to begin with, such as Sandygast.  However, Soul Sand is often valid for enticing these Pokemon."
 				""
-				"In the deepest levels of the abyss, below Y level 32, you may find Dunsparse underground. "
+				"In the deepest levels of the abyss, below Y level 32, you may find Dunsparse underground.  If you have enough water you feel confident in building a water habitat, you can try looking for Tirtouga and Mareanie at similar levels."
 				""
 				"Once you have sand, you should endeavor to create deserts (away from water) and beaches (close to water) to attract more Pokemon of a sandy persuasion. They will often carry additional sand, which you can collect from them."
 			]
@@ -1641,11 +1641,18 @@
 					item: "minecraft:prismarine_crystals"
 				}
 			]
-			rewards: [{
-				id: "2817F4C47866E73A"
-				type: "item"
-				item: "minecraft:sea_lantern"
-			}]
+			rewards: [
+				{
+					id: "2817F4C47866E73A"
+					type: "item"
+					item: "minecraft:sea_lantern"
+				}
+				{
+					id: "04D65850E85FD724"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
 		}
 		{
 			title: "Nickel"
@@ -1661,12 +1668,13 @@
 			}
 			x: -1.5d
 			y: -9.0d
+			shape: "circle"
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
 			dependencies: [
 				"47607815AA13CD41"
 				"47107D60FD080A18"
 			]
-			hide: true
+			optional: true
 			repeatable: true
 			id: "1694B01F7096AA80"
 			tasks: [
@@ -1736,12 +1744,13 @@
 			}
 			x: 0.5d
 			y: -8.0d
+			shape: "circle"
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Uranium in a world devoid of lava..."]
 			dependencies: [
 				"5AA83F235FA5EFE5"
 				"47107D60FD080A18"
 			]
-			hide: true
+			optional: true
 			repeatable: true
 			id: "0D357C7D4960292F"
 			tasks: [
@@ -1929,12 +1938,13 @@
 			}
 			x: -1.0d
 			y: -10.0d
+			shape: "circle"
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
 			dependencies: [
 				"10FA5D943BCB7467"
 				"47107D60FD080A18"
 			]
-			hide: true
+			optional: true
 			repeatable: true
 			id: "393FEFC09A97B42C"
 			tasks: [
@@ -1994,12 +2004,13 @@
 			}
 			x: -2.0d
 			y: -10.0d
+			shape: "circle"
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with these high-heat metals in a world devoid of lava..."]
 			dependencies: [
 				"433F2B694D1B6F35"
 				"47107D60FD080A18"
 			]
-			hide: true
+			optional: true
 			repeatable: true
 			id: "71D7E864F3AC3A18"
 			tasks: [
@@ -2197,6 +2208,7 @@
 			y: -3.0d
 			description: ["Starmetal nuggets drop from a rare few Pokemon on the Space Layer."]
 			dependencies: ["744C6C546BC0DDD7"]
+			hide: true
 			id: "5FF86BF4B5CE1126"
 			tasks: [
 				{
@@ -2225,6 +2237,11 @@
 					id: "2E7C5E85C6230347"
 					type: "item"
 					item: "pixelmon:stardust"
+				}
+				{
+					id: "079B6EEA64D80E04"
+					type: "item"
+					item: "pixelmon:black_shard"
 				}
 			]
 		}
@@ -2305,6 +2322,96 @@
 					item: "pixelmon:green_shard"
 				}
 			]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			shape: "circle"
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Fairy in a world devoid of lava..."]
+			dependencies: ["1E5435A0743B46EF"]
+			optional: true
+			repeatable: true
+			id: "12B8EF8590B24E1C"
+			tasks: [
+				{
+					id: "1381F3494180B4EC"
+					type: "item"
+					item: "materialis:fairy_nugget"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "091E2FB7640A3BDB"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+				{
+					id: "3D4DF96C424CC1C5"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5AF7685E25139F0C"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "materialis:molten_fairy"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			shape: "circle"
+			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Steel in a world devoid of lava..."]
+			dependencies: ["6C7756D44E8B93BB"]
+			optional: true
+			repeatable: true
+			id: "02AD94B8D53B0DD3"
+			tasks: [
+				{
+					id: "1CC30BAD3879D69C"
+					type: "item"
+					item: "immersiveengineering:nugget_steel"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "63CD0ED20121602C"
+					type: "item"
+					item: "botania:mana_powder"
+					consume_items: true
+				}
+				{
+					id: "78B36547E0D1AFC1"
+					type: "item"
+					item: "thermal:cinnabar_dust"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "01C75E19A5B608F2"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:molten_steel"
+							Amount: 1000
+						}
+					}
+				}
+			}]
 		}
 	]
 }
