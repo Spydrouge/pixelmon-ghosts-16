@@ -1,0 +1,9 @@
+----------------------
+Dimension: 'minecraft:overworld'
+----------------------
+Position, ID, NBT Data
+----------------------
+8234.50 71.00 -26.50, pixelmon:npc_shopkeeper, {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:"minecraft:generic.movement_speed"},{Base:0.08d,Name:"forge:entity_gravity"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:"",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:"pixelmon:npc_shopkeeper",UUID:[I;-1821890912,869486072,-1682167150,1438750259],ShopItems:[{ItemName:"pixelmon:heal_ball",ItemVar:0.9f},{ItemName:"pixelmon:love_ball",ItemVar:1.0f},{ItemName:"pixelmon:ancient_heavy_ball",ItemVar:1.0f},{ItemName:"pixelmon:gigaton_ball",ItemVar:1.0f},{ItemName:"pixelmon:wing_ball",ItemVar:1.0f},{ItemName:"pixelmon:luxury_ball",ItemVar:1.1f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:"ghost_apricorn_smithy",NameIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[3.1017666f,-3.1869152f],HandItems:[{},{}],ChatIndex:4,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8234.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:"shoplady3.png",HurtTime:0s,BaseTrainer:"Steve",Inventory:[],AIMode:2s}
+----------------------
+Position, ID, NBT Data
+----------------------

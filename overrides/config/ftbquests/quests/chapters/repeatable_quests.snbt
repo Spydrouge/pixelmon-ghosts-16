@@ -312,6 +312,7 @@
 					id: "124A0D3FC61724F5"
 					type: "item"
 					item: "minecraft:ghast_tear"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -2910,6 +2911,7 @@
 					id: "3EC25B0B01309F1E"
 					type: "item"
 					item: "minecraft:ghast_tear"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -3529,12 +3531,6 @@
 					id: "132CABFC0EE9F575"
 					type: "item"
 					item: "minecraft:rotten_flesh"
-					consume_items: true
-				}
-				{
-					id: "2988460B22F9EFE4"
-					type: "item"
-					item: "inspirations:heartbeet"
 					consume_items: true
 				}
 			]
@@ -4545,8 +4541,8 @@
 		{
 			title: "Assistance in the Nether"
 			icon: "inspirations:dimension_compass"
-			x: -8.5d
-			y: 8.5d
+			x: -0.5d
+			y: 11.0d
 			description: ["Any of these offerings can be made to locate structures in the Nether. Make sure you claim them while in the Nether dimension, or they will fail and your resources will not be refunded."]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
@@ -4558,8 +4554,8 @@
 		}
 		{
 			title: "Where is the nearest Nether Den?"
-			x: -8.5d
-			y: 7.0d
+			x: -0.5d
+			y: 12.5d
 			shape: "circle"
 			description: ["Where is the nearest Max Raid Den? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
@@ -4596,6 +4592,7 @@
 					id: "2BCE65FFD4D12384"
 					type: "item"
 					item: "pixelmon:blue_shard"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -4609,8 +4606,8 @@
 		}
 		{
 			title: "I wish to go to the roof of the Nether"
-			x: -7.5d
-			y: 7.5d
+			x: 0.5d
+			y: 12.0d
 			shape: "circle"
 			description: [
 				"The surface of the planet is long gone, but with all the layers stripped away there still seems to be a cooling core of bedrock that can be walked on. You may wish to travel up there and look for Hidden Pokeloot chests or to gain better control over spawning conditions."
@@ -4633,16 +4630,19 @@
 					id: "0F1E12F45C2BA73C"
 					type: "item"
 					item: "pixelmon:green_shard"
+					consume_items: true
 				}
 				{
 					id: "1194995D1B5A57E8"
 					type: "item"
 					item: "minecraft:brown_mushroom"
+					consume_items: true
 				}
 				{
 					id: "25BF19FA10A1A041"
 					type: "item"
 					item: "minecraft:red_mushroom"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -4656,8 +4656,8 @@
 		}
 		{
 			title: "The Nether Fortress"
-			x: -7.0d
-			y: 8.5d
+			x: 1.0d
+			y: 11.0d
 			shape: "circle"
 			description: ["Where is the nearest Fortress? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
@@ -4696,8 +4696,8 @@
 		}
 		{
 			title: "Where is the Nearest Bastion?"
-			x: -7.5d
-			y: 9.5d
+			x: -1.5d
+			y: 12.0d
 			shape: "circle"
 			description: ["Where is the nearest Bastion? Make an offering to Arceus in hope of answers."]
 			dependencies: ["25C4F6BF87A5D9B9"]
@@ -4722,6 +4722,7 @@
 					id: "4314FAF0CBA4FA3F"
 					type: "item"
 					item: "pixelmon:yellow_shard"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -4735,8 +4736,8 @@
 		}
 		{
 			title: "Where is the Nearest Thether Grotto?"
-			x: -8.5d
-			y: 10.0d
+			x: -2.0d
+			y: 11.0d
 			shape: "circle"
 			description: ["There are many good reasons to find a Nether Grotto, but where is the nearest one to you right now? Keep in mind that the nearest nether grotto may be one you've already found."]
 			dependencies: ["25C4F6BF87A5D9B9"]
@@ -4748,21 +4749,25 @@
 					id: "0EBDEE946E509872"
 					type: "item"
 					item: "minecraft:purple_glazed_terracotta"
+					consume_items: true
 				}
 				{
 					id: "65F63E54860ACDAA"
 					type: "item"
 					item: "minecraft:white_glazed_terracotta"
+					consume_items: true
 				}
 				{
 					id: "00CA3CA0C9897083"
 					type: "item"
 					item: "minecraft:iron_bars"
+					consume_items: true
 				}
 				{
 					id: "5C9804441A51E362"
 					type: "item"
 					item: "pixelmon:white_shard"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -6048,16 +6053,19 @@
 					id: "4C8F343D5B25CC4C"
 					type: "item"
 					item: "tconstruct:drowned_head"
+					consume_items: true
 				}
 				{
 					id: "2252EF2BE1E6B02F"
 					type: "item"
 					item: "tconstruct:enderman_head"
+					consume_items: true
 				}
 				{
 					id: "0848EC1370FBEBD7"
 					type: "item"
 					item: "minecraft:wither_skeleton_skull"
+					consume_items: true
 				}
 				{
 					id: "5FF31973FD52294F"
@@ -6070,6 +6078,7 @@
 							value: "ghosts:underground_shards"
 						}
 					}
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -6098,12 +6107,14 @@
 					type: "item"
 					item: "minecraft:end_stone"
 					count: 64L
+					consume_items: true
 				}
 				{
 					id: "419E250AE335D1AC"
 					type: "item"
 					item: "thermal:enderium_ingot"
 					count: 4L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -6701,6 +6712,1041 @@
 				type: "item"
 				item: "byg:mossy_stone"
 				count: 17
+			}]
+		}
+		{
+			title: "Helpful NPCs"
+			icon: "pixelmon:trainer_editor"
+			x: -8.5d
+			y: 8.0d
+			description: [
+				"You may be able to do something to get Arceus to lead you to zombie villagers with specific skills..."
+				""
+				"(WARNING: Remember that it is hard to move NPCs after placing them. Ensure you are standing in the desired final location for the Shopkeeper.)"
+				""
+				"(WARNING: Files only exist for the English version. These commands will fail if you are in other languages, because their files have not been translated yet.)"
+			]
+			hide_dependency_lines: false
+			dependencies: ["0D06E969FA2BCE84"]
+			hide: true
+			id: "2F8EDE5691D1B79E"
+			tasks: [{
+				id: "47AF4184E56BA4C8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Apricorn Smithy"
+			x: -8.5d
+			y: 6.0d
+			shape: "circle"
+			description: ["Arceus will help revive a Pokeball saleswoman. They will be limited to using the Apricorns and Tumblestones available in your world, but buying balls is faster than crafting them."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "18066B4BB7953724"
+			tasks: [
+				{
+					id: "1CF9FF5909A1CE34"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "21A78BA8B5164953"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "16E4201B8B9BF530"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "6FA44A86E3170AB0"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "love_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "heal_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_poke_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_great_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_ultra_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_heavy_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "leaden_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "gigaton_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "feather_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "wing_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "jet_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "poke_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "dive_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "net_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "dusk_ball"
+									}
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "45F358FD76F3DDFC"
+				type: "command"
+				title: "Spawn a Ghostly Apricorn Smithy"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"pixelmon:heal_ball\",ItemVar:0.9f},{ItemName:\"pixelmon:love_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:ancient_heavy_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:gigaton_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:wing_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:luxury_ball\",ItemVar:1.1f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_apricorn_smithy\",NameIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[3.1017666f,-3.1869152f],HandItems:[{},{}],ChatIndex:4,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8234.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shoplady3.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Baker"
+			x: -7.5d
+			y: 6.5d
+			shape: "circle"
+			description: ["Arceus will help revive an eccentric baker, who has a variety of foods for you and your Pokemon."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "76ED8FC9690EA257"
+			tasks: [
+				{
+					id: "5F2AECC05510BDB0"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "25965D73694BF5E2"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5480774AC93126B9"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "34FBCB2703CE8673"
+					type: "item"
+					item: "ceramics:milk_clay_bucket"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0E945B2844FDB44D"
+					type: "command"
+					title: "Summon a Baker"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/items/npceditor.png"
+						}
+					}
+					command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"minecraft:cookie\",ItemVar:1.0f},{ItemName:\"minecraft:cake\",ItemVar:0.9f},{ItemName:\"pixelmon:rage_candy_bar\",ItemVar:0.9f},{ItemName:\"pixelmon:lumiose_galette\",ItemVar:1.1f},{ItemName:\"pixelmon:casteliacone\",ItemVar:1.0f},{ItemName:\"pixelmon:lava_cookie\",ItemVar:0.9f},{ItemName:\"pixelmon:shalour_sable\",ItemVar:1.0f},{ItemName:\"pixelmon:moomoo_milk\",ItemVar:1.0f},{ItemName:\"minecraft:apple\",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_food_shop\",NameIndex:3,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[1.097685f,-2.5686007f],HandItems:[{},{}],ChatIndex:3,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8236.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shopman3.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+					player_command: false
+				}
+				{
+					id: "7D680F8052E953EA"
+					type: "item"
+					item: "ceramics:clay_bucket"
+				}
+			]
+		}
+		{
+			title: "Curry Ingredient Guy"
+			x: -7.0d
+			y: 7.5d
+			shape: "circle"
+			description: ["Arceus will help revive a curry vendor. This curry vendor won't have every rare ingredient out there, but he will have some."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6AA698E5B89C62CA"
+			tasks: [
+				{
+					id: "7A79E4279FB2D00B"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "2F0B7E6815CF22EC"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2F324CD764386B2E"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "0606C28EC6E8035A"
+					type: "item"
+					title: "Any #pixelmon:curry_ingredient"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "pixelmon:curry_ingredient"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27017097C8B38607"
+				type: "command"
+				title: "Summon a Curry Ingredient Vendor"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"pixelmon:moomoo_milk\",ItemVar:1.0f},{ItemName:\"pixelmon:curry_coconut\",ItemVar:0.9f},{ItemName:\"pixelmon:curry_juicy\",ItemVar:1.0f},{ItemName:\"pixelmon:curry_cheese\",ItemVar:1.0f},{ItemName:\"pixelmon:curry_cream\",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_curry_shop\",NameIndex:2,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[6.2076545f,-3.523868f],HandItems:[{},{}],ChatIndex:0,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8236.5d,71.0d,-27.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shopman.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Herbal Medicine Shop"
+			x: -7.0d
+			y: 8.5d
+			shape: "circle"
+			description: ["Arceus will help revive a herbal medicine woman. This herbal medicine vendor can only make the same medicines you can. However,  it's sometimes faster to buy than to craft medicines."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "616FCBB017F8404D"
+			tasks: [
+				{
+					id: "14E5AF6A9AA31528"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "2341403BEC366E5F"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1C84DE99A35846A0"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "20CAA063D25FE394"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:heal_powder"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:energy_root"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:energy_powder"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:revival_herb"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "317F5870ED5C4D94"
+				type: "command"
+				title: "Summon Herbal Medicine Shop Owner"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"pixelmon:heal_powder\",ItemVar:1.0f},{ItemName:\"pixelmon:energy_powder\",ItemVar:1.0f},{ItemName:\"pixelmon:energy_root\",ItemVar:1.0f},{ItemName:\"pixelmon:revival_herb\",ItemVar:0.9f},{ItemName:\"pixelmon:oran_berry\",ItemVar:1.1f},{ItemName:\"pixelmon:leppa_berry\",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_medicine_shop\",NameIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[2.352991f,-2.6242344f],HandItems:[{},{}],ChatIndex:1,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8237.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shoplady4.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			description: ["This Fisherman probably won't stick around, even if you rescue him. Although perhaps you can call him back later?"]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			id: "66957FCCA0550E81"
+			tasks: [
+				{
+					id: "1430CB08CC0233E5"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "4B6F940FEC5E8DEA"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1617D50A5E99DB11"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "1B74DAA0F3FD8E53"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40A5D571322E5D3A"
+				type: "command"
+				title: "Arceus Revives a Fisherman!"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				command: "/execute at @p run summon pixelmon:npc_oldfisherman"
+				player_command: false
+			}]
+		}
+		{
+			title: "A Move Relearner"
+			x: -9.5d
+			y: 6.5d
+			shape: "circle"
+			description: ["Will this person stick around permenantly, or will it be like move relearners before the apocalypse? You aren't sure! From the looks of things, it seems he plans to hang around..."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			optional: true
+			repeatable: true
+			id: "6810A3DE6C9EE953"
+			tasks: [
+				{
+					id: "23EF560217599794"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "6A4140335A396233"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "290F4A0A8723A026"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "5478552FF91B9073"
+					type: "item"
+					item: "pixelmon:heart_scale"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1C27864E6D618716"
+				type: "command"
+				title: "Summon Move Relearner"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				auto: "disabled"
+				command: "/execute at @p run summon pixelmon:npc_relearner ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"Move Relearner\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_relearner\",trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[0.01336107f,-1.756395f],HandItems:[{},{}],ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8241.5d,71.0d,-22.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"youngster1\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:0s}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Re-Summon Fisherman"
+			x: -6.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["There's already a Fisherman lurking somewhere around your world... maybe waggling around a rod will bring him back?"]
+			dependencies: ["66957FCCA0550E81"]
+			hide: true
+			optional: true
+			id: "453A6A8299CD658A"
+			tasks: [{
+				id: "152BB3558CF925F0"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D591C385DA79795"
+				type: "command"
+				title: "Summon back that silly Fisherman"
+				icon: "pixelmon:trainer_editor"
+				auto: "enabled"
+				command: "/execute at @p run summon pixelmon:npc_oldfisherman"
+				player_command: false
+			}]
+		}
+		{
+			title: "A Move Tutor"
+			x: -8.5d
+			y: 10.0d
+			description: ["This Tutor probably won't stick around, even if you rescue him. Although perhaps you can call him back later?"]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			id: "077636E336111F18"
+			tasks: [
+				{
+					id: "67DEFE1F6947C54C"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "444A7B42ECD49A6C"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "53E9D7C60CFE673F"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "0C783F74E69D8B37"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:emerald"
+									Count: 1b
+								}
+								{
+									id: "byg:emeraldite_shards"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:amethyst"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:sapphire"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:silicon"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:crystal"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:ruby"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "30BB5714C69498CA"
+				type: "command"
+				title: "Summon a Move Tutor"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_tutor"
+				player_command: false
+			}]
+		}
+		{
+			title: "Countdown to Next Fisherman"
+			x: -5.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["There's only so often you can call on that poor Fisherman, he has work to do!"]
+			dependencies: ["453A6A8299CD658A"]
+			optional: true
+			repeatable: true
+			id: "7E1C11CFD235661A"
+			tasks: [{
+				id: "118B7F6409A7673A"
+				type: "questsadditions:time"
+				elapsedTime: 3600L
+			}]
+			rewards: [{
+				id: "4817514ECC52A118"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 453A6A8299CD658A"
+				player_command: false
+			}]
+		}
+		{
+			title: "Re-Summon Move Tutor"
+			x: -8.5d
+			y: 11.0d
+			shape: "circle"
+			description: ["There's already a Move Tutor lurking somewhere around your world... maybe waggling around a rod will bring him back?"]
+			dependencies: ["077636E336111F18"]
+			hide: true
+			optional: true
+			id: "303967068BFFEC32"
+			tasks: [{
+				id: "2C8328E60891E140"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:emerald"
+								Count: 1b
+							}
+							{
+								id: "byg:emeraldite_shards"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:amethyst"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:sapphire"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silicon"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:crystal"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ruby"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6273C9643EE3D672"
+				type: "command"
+				title: "Resummon Move Tutor"
+				icon: "pixelmon:trainer_editor"
+				auto: "enabled"
+				command: "/execute at @p run summon pixelmon:npc_tutor"
+				player_command: false
+			}]
+		}
+		{
+			title: "Countdown to Next Tutor"
+			x: -7.5d
+			y: 11.0d
+			shape: "circle"
+			dependencies: ["303967068BFFEC32"]
+			optional: true
+			repeatable: true
+			id: "03BC1949842FDF3E"
+			tasks: [{
+				id: "0DCF5D084CD1E26C"
+				type: "questsadditions:time"
+				elapsedTime: 3600L
+			}]
+			rewards: [{
+				id: "7EE66FAC669797B4"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 303967068BFFEC32"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: 9.5d
+			description: [
+				"Arceus can help you bring back a Pokemon Collector. He's willing to trade Pokemon from the old world for Pokemon you've collected from this one."
+				""
+				"He Probably won't stick around, but there might be a way to call him back after awhile?"
+			]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			id: "3D3AD436D9CD40A4"
+			tasks: [
+				{
+					id: "0DCA3A555A7C8C4B"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "28AEA8D4FF561D6E"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3616D6CBBF958A9B"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "161BC43C97DDF8FE"
+					type: "item"
+					item: "pixelmon:linking_cord"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "689A71A030B09B97"
+				type: "command"
+				title: "Summon Pokemon Collector"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				command: "/execute at @p run summon pixelmon:npc_trader"
+				player_command: false
+			}]
+		}
+		{
+			title: "Re-Summon the Collector"
+			x: -10.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["Summon back the collector by waving around a painting of your new Pokemon and seeing if he shows up."]
+			dependencies: ["3D3AD436D9CD40A4"]
+			hide: true
+			optional: true
+			id: "6E79CCE340EC1757"
+			tasks: [{
+				id: "2183323A33269F1B"
+				type: "item"
+				item: "minecraft:painting"
+			}]
+			rewards: [{
+				id: "2799789019680C3A"
+				type: "command"
+				title: "Re-Summon Collector"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				auto: "enabled"
+				command: "/execute at @p run summon pixelmon:npc_trader"
+				player_command: false
+			}]
+		}
+		{
+			title: "Countdown to Next Collector"
+			x: -10.5d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["6E79CCE340EC1757"]
+			optional: true
+			repeatable: true
+			id: "34866A6C595DAB57"
+			tasks: [{
+				id: "3806A478275197FB"
+				type: "questsadditions:time"
+				elapsedTime: 360L
+			}]
+			rewards: [{
+				id: "46E8C2787FD995F0"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 6E79CCE340EC1757"
+				player_command: false
+			}]
+		}
+		{
+			title: "Gambling Light"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixeltweaks:textures/gui/pokeloot/1.png"
+				}
+			}
+			x: -1.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["Gambling for an item is Poke Loot chests is usually less wise than obtaining the item through other means."]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "655AF4B456A8B73E"
+			tasks: [{
+				id: "3ADE0F7A4891F07D"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "028A6B0B2586BD8A"
+				type: "pixelmon:pokeloot"
+				count: 1
+				play_sound: true
+				loot_tier: 0b
+			}]
+		}
+		{
+			title: "Gambling Medium"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixeltweaks:textures/gui/pokeloot/2.png"
+				}
+			}
+			x: -0.5d
+			y: 9.0d
+			shape: "circle"
+			dependencies: ["2B903371F753BED7"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "527A2111FBA231F2"
+			tasks: [
+				{
+					id: "7367BE36F00072A1"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "555818957540C397"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "7CC4E2DACC916FCD"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "76737E077E16791F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "6B43825E1B95F8AB"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2F7A91541587A8EA"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "699621F360471AFC"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+			]
+			rewards: [{
+				id: "0E2C59C06D62DEE4"
+				type: "pixelmon:pokeloot"
+				count: 1
+				play_sound: true
+				loot_tier: 1b
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixeltweaks:textures/gui/pokeloot/3.png"
+				}
+			}
+			x: 0.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["Most likely, anything you can get via this method can be got elsewhere by other, easier means."]
+			dependencies: [
+				"2B903371F753BED7"
+				"26B77E6C4944C144"
+			]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2C027761C762F21E"
+			tasks: [
+				{
+					id: "3101E0CE8C445912"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "3AA61C85AA887CFD"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+				{
+					id: "5EFE6AEC6D791962"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 5L
+				}
+				{
+					id: "1821BC56240F9257"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 5L
+				}
+				{
+					id: "31DDCF82EAA3668C"
+					type: "item"
+					item: "pixelmon:green_shard"
+					count: 5L
+				}
+				{
+					id: "2FA717129F68A849"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 5L
+				}
+				{
+					id: "3024A3BCC86E86BB"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 5L
+				}
+				{
+					id: "646815E959C1A2F8"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 5L
+				}
+				{
+					id: "154277B5341955A7"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+				{
+					id: "736A946C6AD5A640"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3668E8B2489826C0"
+					type: "pixelmon:release_pokemon"
+					title: "Release One Pokemon"
+					pokemon: ""
+					count: 1
+					invert: false
+				}
+			]
+			rewards: [{
+				id: "5251B19500890BA4"
+				type: "pixelmon:pokeloot"
+				count: 1
+				play_sound: true
+				loot_tier: 2b
 			}]
 		}
 	]

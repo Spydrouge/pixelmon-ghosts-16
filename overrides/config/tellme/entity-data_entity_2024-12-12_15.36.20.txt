@@ -1,0 +1,9 @@
+----------------------
+Dimension: 'minecraft:overworld'
+----------------------
+Position, ID, NBT Data
+----------------------
+8236.50 71.00 -26.50, pixelmon:npc_shopkeeper, {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:"minecraft:generic.movement_speed"},{Base:0.08d,Name:"forge:entity_gravity"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:"",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:"pixelmon:npc_shopkeeper",UUID:[I;883107473,1884637189,-1706282553,-1706211498],ShopItems:[{ItemName:"minecraft:cookie",ItemVar:1.0f},{ItemName:"minecraft:cake",ItemVar:0.9f},{ItemName:"pixelmon:rage_candy_bar",ItemVar:0.9f},{ItemName:"pixelmon:lumiose_galette",ItemVar:1.1f},{ItemName:"pixelmon:casteliacone",ItemVar:1.0f},{ItemName:"pixelmon:lava_cookie",ItemVar:0.9f},{ItemName:"pixelmon:shalour_sable",ItemVar:1.0f},{ItemName:"pixelmon:moomoo_milk",ItemVar:1.0f},{ItemName:"minecraft:apple",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:"ghost_food_shop",NameIndex:3,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[1.097685f,-2.5686007f],HandItems:[{},{}],ChatIndex:3,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8236.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:"shopman3.png",HurtTime:0s,BaseTrainer:"Steve",Inventory:[],AIMode:2s}
+----------------------
+Position, ID, NBT Data
+----------------------

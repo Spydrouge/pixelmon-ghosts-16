@@ -2,14 +2,14 @@
   "allPossibleTrades": [
     {
       "offer": "Abra",
-      "exchange": "Gastly"
+      "exchange": "Haunter"
     },
     {
       "offer": "Slowpoke form:2",
-      "exchange": "Shellder form:base"
+      "exchange": "Shellder"
     },
     {
-      "offer": "Smoochum",
+      "offer": "Ralts",
       "exchange": "Gothita"
     },
     {
@@ -18,67 +18,51 @@
     },
     {
       "offer": "Pidgey",
-      "exchange": "Pidove"
+      "exchange": "Tranquil"
     },
     {
       "offer": "Tangela",
-      "exchange": "Clobbopus"
+      "exchange": "Grapploct"
     },
     {
-      "offer": "Ponyta form:2",
+      "offer": "Ponyta form:galarian",
       "exchange": "Ponyta form:base"
     },
     {
       "offer": "Solosis",
-      "exchange": "Igglybuff"
-    },
-    {
-      "offer": "Rattata form:base",
-      "exchange": "Rattata form:1"
+      "exchange": "Jigglypuff"
     },
     {
       "offer": "Exeggcutor form:1",
       "exchange": "Trevenant"
     },
     {
-      "offer": "Exeggcute",
+      "offer": "Maushold",
       "exchange": "Falinx"
     },
     {
       "offer": "Machop",
-      "exchange": "Polywag"
-    },
-    {
-      "offer": "Eevee",
-      "exchange": "Eevee form:112"
-    },
-    {
-      "offer": "Eevee shiny",
-      "exchange": "Eeve form:114"
+      "exchange": "Polywhirl"
     },
     {
       "offer": "Eiscue",
-      "exchange": "Fletchinder"
+      "exchange": "Delibird"
     },
     {
       "offer": "Seel",
-      "exchange": "Slowpoke form:base"
+      "exchange": "Spheal"
     },
     {
-      "offer": "Growlithe",
-      "exchange": "Krabby"
+      "offer": "Krabby",
+      "exchange": "Dwebble"
     },
     {
       "offer": "MrMine form:2",
       "exchange": "Jynx"
     },
     {
-      "offer": "Cubone",
-      "exchange": "Machoke"
-    },
-    {
-      "offer": "Lickitung",
-      "exchange": "Dugtrio form:base"
+      "offer": "Vanillite",
+      "exchange": "Lampent"
     },
     {
       "offer": "Tangela",
@@ -86,15 +70,19 @@
     },
     {
       "offer": "Timburr",
-      "exchange": "Geodude"
+      "exchange": "Graveler"
     },
     {
-      "offer": "Growlithe form:3",
-      "exchange": "Vulpix form:1"
+      "offer": "Growlithe form:hisuian",
+      "exchange": "Zoroark form:hisuian"
+    },
+    {
+      "offer": "Growlithe",
+      "exchange": "Ninetales form:base"
     },
     {
       "offer": "Kangaskhan",
-      "exchange": "Gigalith"
+      "exchange": "Rhyhorn"
     },
     {
       "offer": "Bellsprout",
@@ -102,90 +90,94 @@
     },
     {
       "offer": "Drowzee",
-      "exchange": "Machop"
+      "exchange": "Grumpig"
     },
     {
-      "offer": "Krabby",
-      "exchange": "Voltorb"
+      "offer": "Wooloo",
+      "exchange": "Electrode"
     },
     {
-      "offer": "Dragonair",
-      "exchange": "Rhydon"
+      "offer": "Gibble",
+      "exchange": "Dragonair"
     },
     {
-      "offer": "Chansey",
+      "offer": "Skarmory",
       "exchange": "Aerodactyl"
     },
     {
-      "offer": "Gloom",
-      "exchange": "Rapidash form:base"
+      "offer": "Ponyta form:galarian",
+      "exchange": "Rapidash form:drowned"
     },
     {
-      "offer": "Abra",
-      "exchange": "Machop"
+      "offer": "Mankey palette:pink",
+      "exchange": "Rabsca"
     },
     {
-      "offer": "Dragonair",
-      "exchange": "Dodrio"
+      "offer": "Doduo",
+      "exchange": "Noctowl"
     },
     {
-      "offer": "Haunter",
+      "offer": "Rookidee",
       "exchange": "Xatu"
     },
     {
-      "offer": "Dugtrio form:base",
-      "exchange": "Magneton"
-    },
-    {
       "offer": "Slakoth",
-      "exchange": "Makuhita"
+      "exchange": "Dudunsparce"
     },
     {
-      "offer": "Pikachu",
+      "offer": "Pikachu form:base",
+      "exchange": "Pikachu form:drowned"
+    },
+    {
+      "offer": "Nidoranfemale",
+      "exchange": "Marill"
+    },
+    {
+      "offer": "Nidoranmale",
+      "exchange": "Marill"
+    },
+    {
+      "offer": "Lickitung",
+      "exchange": "Muk"
+    },
+    {
+      "offer": "Seedot",
+      "exchange": "Sunkern"
+    },
+    {
+      "offer": "Plusle",
+      "exchange": "Volbeat"
+    },
+    {
+      "offer": "Minun",
+      "exchange": "Illumise"
+    },
+    {
+      "offer": "Frigibax",
+      "exchange": "Bagon"
+    },
+    {
+      "offer": "Meowth form:alolan",
       "exchange": "Skitty"
     },
     {
-      "offer": "Bellossom",
-      "exchange": "Corsola form:base"
-    },
-    {
-      "offer": "Nidorina",
-      "exchange": "Nidorino"
-    },
-    {
-      "offer": "Golduck",
-      "exchange": "Lickitung"
-    },
-    {
-      "offer": "Ralts",
-      "exchange": "Seedot"
-    },
-    {
-      "offer": "Volbeat",
-      "exchange": "Plusle"
-    },
-    {
-      "offer": "Bagon",
-      "exchange": "Horsea"
-    },
-    {
-      "offer": "Skitty",
-      "exchange": "Meowth form:base"
+      "offer": "Meowth form:galarian",
+      "exchange": "Skitty"
     },
     {
       "offer": "Togepi",
       "exchange": "Elekid"
     },
     {
-      "offer": "Togetic",
-      "exchange": "Elekid"
+      "offer": "Togepi",
+      "exchange": "Magby"
     },
     {
-      "offer": "Trapinch",
-      "exchange": "Meditite"
+      "offer": "Meditite",
+      "exchange": "Tyrogue"
     },
     {
-      "offer": "Surskit",
+      "offer": "Ditto",
       "exchange": "Shuckle"
     },
     {
@@ -213,244 +205,148 @@
       "exchange": "Beldum"
     },
     {
-      "offer": "Bonsly",
-      "exchange": "Rhyhorn"
-    },
-    {
-      "offer": "Cottonee",
-      "exchange": "Petilil"
+      "offer": "Druddigon",
+      "exchange": "Drampa"
     },
     {
       "offer": "Petilil",
-      "exchange": "Cottonee"
+      "exchange": "Gloom"
     },
     {
       "offer": "Minccino",
       "exchange": "Basculin"
     },
     {
-      "offer": "Boldore",
-      "exchange": "Emolga"
-    },
-    {
       "offer": "Ditto",
       "exchange": "Rotom"
     },
     {
-      "offer": "Cinccino",
-      "exchange": "Munchlax"
+      "offer": "Tinkatink",
+      "exchange": "Grimmsnarl"
     },
     {
       "offer": "Emolga",
-      "exchange": "Gigalith"
+      "exchange": "Togedemaru"
     },
     {
-      "offer": "Mantine",
-      "exchange": "Tangrowth"
+      "offer": "Pachirisu",
+      "exchange": "Togedemaru"
     },
     {
-      "offer": "Excadrill",
-      "exchange": "Ambipom"
+      "offer": "Tauros",
+      "exchange": "Snorlax"
     },
     {
-      "offer": "Hippowdon",
-      "exchange": "Alakazam"
+      "offer": "Drillbur",
+      "exchange": "Dugtrio"
+    },
+    {
+      "offer": "Hippopotas",
+      "exchange": "Kabutops"
     },
     {
       "offer": "Bunnelby",
-      "exchange": "Farfetchd form:base"
+      "exchange": "Omastar"
     },
     {
-      "offer": "Luvdisc",
-      "exchange": "Steelix"
+      "offer": "Skwovet",
+      "exchange": "Swalot"
     },
     {
-      "offer": "Jigglypuff",
+      "offer": "Riolu",
       "exchange": "Bisharp"
     },
     {
-      "offer": "Gyarados",
-      "exchange": "Magikarp"
+      "offer": "Wooper form:base",
+      "exchange": "Wooper form:paldean"
     },
     {
-      "offer": "Butterfree",
-      "exchange": "Beedrill"
+      "offer": "Zigzagoon form:galarian",
+      "exchange": "Sandshrew form:galarian"
     },
     {
-      "offer": "Beedrill",
-      "exchange": "Butterfree"
+      "offer": "Zigzagoon form:base",
+      "exchange": "Sandshrew form:base"
     },
     {
-      "offer": "Spearow",
-      "exchange": "Machop"
-    },
-    {
-      "offer": "Lillipup",
+      "offer": "Fidough",
       "exchange": "Bounsweet"
     },
     {
-      "offer": "Zubat",
-      "exchange": "Poliwhirl"
+      "offer": "Duraludon",
+      "exchange": "Goodra"
     },
     {
       "offer": "Pancham",
-      "exchange": "Happiny"
+      "exchange": "Bewear"
     },
     {
-      "offer": "Haunter",
-      "exchange": "Graveler form:alolan"
+      "offer": "Teddiursa",
+      "exchange": "Bewear"
     },
     {
-      "offer": "Granbull",
-      "exchange": "Steenee"
+      "offer": "Cubchoo",
+      "exchange": "Bewear"
     },
     {
-      "offer": "Bewear",
-      "exchange": "Talonflame"
+      "offer": "Sliggoo form:hisuian",
+      "exchange": "Sliggoo form:base"
     },
     {
-      "offer": "Spearow",
-      "exchange": "Hawlucha"
+      "offer": "Kricketot",
+      "exchange": "Butterfree"
+    },
+    {
+      "offer": "Fomantis",
+      "exchange": "Beautifly"
+    },
+    {
+      "offer": "Scyther",
+      "exchange": "Vespiquen"
     },
     {
       "offer": "Lillipup",
       "exchange": "Noibat"
     },
     {
-      "offer": "Tentacool",
-      "exchange": "Barboach"
+      "offer": "Maschiff",
+      "exchange": "Banette"
     },
     {
-      "offer": "Trumbeak",
-      "exchange": "Arbok"
+      "offer": "Ekans",
+      "exchange": "Silicobra"
     },
     {
-      "offer": "Phantump",
-      "exchange": "Trevenant"
+      "offer": "Rattata form:alolan",
+      "exchange": "Zigzagoon form:galarian"
     },
     {
-      "offer": "Granbull",
-      "exchange": "Shellos form:west"
+      "offer": "Heracross",
+      "exchange": "Vikavolt"
     },
     {
-      "offer": "Bewear",
-      "exchange": "Tauros"
+      "offer": "Pinsir",
+      "exchange": "Vikavolt"
     },
     {
-      "offer": "Rattata form:base",
-      "exchange": "Rattata form:alolan"
+      "offer": "Sneasel form:hisui",
+      "exchange": "Sneasel form:base"
     },
     {
-      "offer": "Geodude form:base",
-      "exchange": "Geodude form:alolan"
+      "offer": "Stunfisk",
+      "exchange": "Lanturn"
     },
     {
-      "offer": "Diglett form:base",
-      "exchange": "Diglett form:alolan"
+      "offer": "Yanma",
+      "exchange": "Vibrava"
     },
     {
-      "offer": "Sandshrew form:base",
-      "exchange": "Sandshrew form:alolan"
+      "offer": "Sawk",
+      "exchange": "Medicham"
     },
     {
-      "offer": "Vulpix form:base",
-      "exchange": "Vulpix form:alolan"
-    },
-    {
-      "offer": "Raichu form:base",
-      "exchange": "Raichu form:alolan"
-    },
-    {
-      "offer": "Marowak form:base",
-      "exchange": "Marowak form:alolan"
-    },
-    {
-      "offer": "Grimer form:base",
-      "exchange": "Grimer form:alolan"
-    },
-    {
-      "offer": "Meowth form:base",
-      "exchange": "Meowth form:alolan"
-    },
-    {
-      "offer": "Exeggutor form:base",
-      "exchange": "Exeggutor form:alolan"
-    },
-    {
-      "offer": "Bunnelby",
-      "exchange": "Skwovet"
-    },
-    {
-      "offer": "Meowth form:galarian",
-      "exchange": "Meowth form:base"
-    },
-    {
-      "offer": "Minccino",
-      "exchange": "Cottonee"
-    },
-    {
-      "offer": "Toxel",
-      "exchange": "Togepi"
-    },
-    {
-      "offer": "Maractus",
-      "exchange": "Hatenna"
-    },
-    {
-      "offer": "Maractus",
-      "exchange": "Impidimp"
-    },
-    {
-      "offer": "Yamask form:galarian",
-      "exchange": "Yamask form:base"
-    },
-    {
-      "offer": "Vanillish",
-      "exchange": "Sawk"
-    },
-    {
-      "offer": "Vanillish",
-      "exchange": "Throh"
-    },
-    {
-      "offer": "Obstagoon",
-      "exchange": "MrMime form:base"
-    },
-    {
-      "offer": "Frosmoth",
-      "exchange": "Duraludon"
-    },
-    {
-      "offer": "Ponyta form:galarian",
-      "exchange": "Ponyta form:base"
-    },
-    {
-      "offer": "Farfetchd form:galarian",
-      "exchange": "Farfetchd form:base"
-    },
-    {
-      "offer": "Weezing form:galarian",
-      "exchange": "Weezing form:base"
-    },
-    {
-      "offer": "MrMime form:galarian",
-      "exchange": "MrMime form:base"
-    },
-    {
-      "offer": "Corsola form:galarian",
-      "exchange": "Corsola form:base"
-    },
-    {
-      "offer": "Zigzagoon form:galarian",
-      "exchange": "Zigzagoon form:base"
-    },
-    {
-      "offer": "Darumaka form:galarian",
-      "exchange": "Darumaka form:base"
-    },
-    {
-      "offer": "Stunfisk form:galarian",
-      "exchange": "Stunfisk form:base"
+      "offer": "Throh",
+      "exchange": "Medicham"
     }
   ]
 }

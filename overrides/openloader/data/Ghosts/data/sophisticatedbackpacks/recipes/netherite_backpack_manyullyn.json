@@ -1,0 +1,12 @@
+{
+  "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
+  "base": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  },
+  "addition": {
+    "item": "tconstruct:manyullyn_ingot"
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:netherite_backpack"
+  }
+}

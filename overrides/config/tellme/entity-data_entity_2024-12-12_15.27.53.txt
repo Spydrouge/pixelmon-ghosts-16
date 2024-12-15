@@ -1,0 +1,9 @@
+----------------------
+Dimension: 'minecraft:overworld'
+----------------------
+Position, ID, NBT Data
+----------------------
+8235.50 71.00 -26.50, pixelmon:npc_shopkeeper, {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:"minecraft:generic.movement_speed"},{Base:0.08d,Name:"forge:entity_gravity"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:"",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:"pixelmon:npc_shopkeeper",UUID:[I;-1394529728,855065026,-1563368502,2099536847],ShopItems:[{ItemName:"pixelmon:poke_ball",ItemVar:0.9f},{ItemName:"pixelmon:great_ball",ItemVar:1.1f},{ItemName:"pixelmon:ultra_ball",ItemVar:1.0f},{ItemName:"pixelmon:heal_powder",ItemVar:1.0f},{ItemName:"pixelmon:energy_powder",ItemVar:1.0f},{ItemName:"pixelmon:energy_root",ItemVar:0.9f},{ItemName:"pixelmon:revival_herb",ItemVar:1.0f},{ItemName:"pixelmon:x_attack",ItemVar:1.1f},{ItemName:"pixelmon:x_defense",ItemVar:1.0f},{ItemName:"pixelmon:x_special_attack",ItemVar:1.1f},{ItemName:"pixelmon:x_special_defense",ItemVar:0.9f},{ItemName:"pixelmon:x_speed",ItemVar:1.0f},{ItemName:"pixelmon:x_accuracy",ItemVar:1.0f},{ItemName:"pixelmon:dire_hit",ItemVar:1.0f},{ItemName:"pixelmon:guard_spec",ItemVar:0.9f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:"ghost_apricorn_smithy",NameIndex:1,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[5.128591f,-2.723216f],HandItems:[{},{}],ChatIndex:0,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8235.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:"shoplady4.png",HurtTime:0s,BaseTrainer:"Steve",Inventory:[],AIMode:2s}
+----------------------
+Position, ID, NBT Data
+----------------------

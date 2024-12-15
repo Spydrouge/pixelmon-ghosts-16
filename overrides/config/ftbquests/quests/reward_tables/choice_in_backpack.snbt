@@ -1,0 +1,16 @@
+{
+	id: "129B70ED6FD13DFB"
+	order_index: 54
+	title: "Choice in Backpack"
+	loot_size: 1
+	rewards: [
+		{ item: "pixelmon:white_poke_bag" }
+		{ item: "pixelmon:magenta_poke_bag" }
+		{ item: "pixelmon:pink_poke_bag" }
+		{ item: "pixelmon:gray_poke_bag" }
+		{ item: "pixelmon:light_gray_poke_bag" }
+		{ item: "pixelmon:red_poke_bag" }
+		{ item: "pixelmon:black_poke_bag" }
+		{ item: "pixelmon:purple_poke_bag" }
+	]
+}

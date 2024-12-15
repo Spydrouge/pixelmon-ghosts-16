@@ -1,0 +1,238 @@
+Entity:  [registry name: pixelmon:npc_shopkeeper] (entityId: 359495)
+Entity class: com.pixelmonmod.pixelmon.entities.npcs.NPCShopkeeper
+
+
+[TAG_Compound (40 values)] 
+{
+    [TAG_Short] "AIMode": 2
+    [TAG_Float] "AbsorptionAmount": 0.0
+    [TAG_Short] "Air": 300
+    [TAG_List (4 values of type TAG_Float)] "ArmorDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (4 values of type TAG_Compound)] "ArmorItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_List (3 values of type TAG_Compound)] "Attributes"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.699999988079071
+            [TAG_String] "Name": "minecraft:generic.movement_speed"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Double] "Base": 10.0
+            [TAG_List (1 values of type TAG_Compound)] "Modifiers"
+            [
+                [TAG_Compound (4 values)] 
+                {
+                    [TAG_Double] "Amount": 0.05109290282210538
+                    [TAG_String] "Name": "Random spawn bonus"
+                    [TAG_Int] "Operation": 1
+                    [TAG_Int_Array (4 entries)] "UUID"
+                    [
+                          0: 0x86B01F57 (-2035277993)
+                          1: 0xEF1A42ED (-283491603)
+                          2: 0x86152192 (-2045435502)
+                          3: 0xC5465833 (-985245645)
+                    ]
+                }
+            ]
+            [TAG_String] "Name": "minecraft:generic.follow_range"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.08
+            [TAG_String] "Name": "forge:entity_gravity"
+        }
+    ]
+    [TAG_String] "BaseTrainer": "Steve"
+    [TAG_Compound (1 values)] "Brain"
+    {
+        [TAG_Compound (0 values)] "memories"
+        {
+        }
+    }
+    [TAG_Byte] "CanPickUpLoot": 1
+    [TAG_Byte] "CanUpdate": 1
+    [TAG_Int] "ChatIndex": 8
+    [TAG_Compound (1 values)] "Commands"
+    {
+        [TAG_List (0 values of type ?)] "interactCommands"
+        [
+        ]
+    }
+    [TAG_String] "CustomSteveTexture": "shopman2.png"
+    [TAG_Short] "DeathTime": 0
+    [TAG_Float] "FallDistance": 0.0
+    [TAG_Byte] "FallFlying": 0
+    [TAG_Short] "Fire": -1
+    [TAG_Compound (0 values)] "ForgeCaps"
+    {
+    }
+    [TAG_List (2 values of type TAG_Float)] "HandDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (2 values of type TAG_Compound)] "HandItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_Float] "Health": 20.0
+    [TAG_Int] "HurtByTimestamp": 0
+    [TAG_Short] "HurtTime": 0
+    [TAG_List (0 values of type ?)] "Inventory"
+    [
+    ]
+    [TAG_Byte] "Invulnerable": 0
+    [TAG_Byte] "LeftHanded": 0
+    [TAG_List (3 values of type TAG_Double)] "Motion"
+    [
+        [TAG_Double] : 0.0
+        [TAG_Double] : -0.0784000015258789
+        [TAG_Double] : 0.0
+    ]
+    [TAG_String] "Name": ""
+    [TAG_Int] "NameIndex": 2
+    [TAG_Byte] "OnGround": 1
+    [TAG_Byte] "PersistenceRequired": 0
+    [TAG_Int] "PortalCooldown": 0
+    [TAG_List (3 values of type TAG_Double)] "Pos"
+    [
+        [TAG_Double] : 8189.705306320413
+        [TAG_Double] : 67.0
+        [TAG_Double] : 8.47573949582444
+    ]
+    [TAG_Short] "Profession": 0
+    [TAG_List (2 values of type TAG_Float)] "Rotation"
+    [
+        [TAG_Float] : 191.88608
+        [TAG_Float] : 31.548996
+    ]
+    [TAG_List (18 values of type TAG_Compound)] "ShopItems"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:poke_ball"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:great_ball"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:ultra_ball"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:potion"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:super_potion"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:hyper_potion"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:full_heal"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:big_malasada"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:rage_candy_bar"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:lumiose_galette"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:casteliacone"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:old_gateau"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:lava_cookie"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:shalour_sable"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:awakening"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:burn_heal"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:ice_heal"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:revive"
+            [TAG_Float] "ItemVar": 0.9
+        }
+    ]
+    [TAG_Int] "TextureIndex": 0
+    [TAG_String] "TrainerIndex": "pokemartmain1"
+    [TAG_Int_Array (4 entries)] "UUID"
+    [
+          0: 0xB61B51D1 (-1239723567)
+          1: 0xEAF64EF9 (-352956679)
+          2: 0x8272C5ED (-2106407443)
+          3: 0xE2F59FD8 (-487219240)
+    ]
+    [TAG_Int] "trainerLocation": 2
+}

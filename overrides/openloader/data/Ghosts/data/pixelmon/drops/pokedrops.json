@@ -1189,6 +1189,12 @@
                 "chance": 0.1
             },
             {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.1
+            },
+            {
                 "item": "pixelmon:moon_stone_shard",
                 "min": 1,
                 "max": 1,
@@ -1221,6 +1227,12 @@
                 "item": "contenttweaker:starmetal_nugget",
                 "min": 4,
                 "max": 9,
+                "chance": 0.3
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 2,
+                "max": 6,
                 "chance": 0.3
             },
             {
@@ -4440,6 +4452,12 @@
                 "chance": 0.3
             },
             {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 1,
+                "chance": 0.2
+            },
+            {
                 "item": "pixelmon:water_stone_shard",
                 "min": 1,
                 "max": 1,
@@ -4492,6 +4510,12 @@
                 "min": 1,
                 "max": 10,
                 "chance": 0.5
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 4,
+                "max": 5,
+                "chance": 0.3
             },
             {
                 "item": "astralsorcery:stardust",
@@ -5972,6 +5996,12 @@
             },
             {
                 "item": "contenttweaker:starmetal_nugget",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
                 "min": 1,
                 "max": 1,
                 "chance": 0.1
@@ -11795,6 +11825,12 @@
                 "chance": 0.3
             },
             {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.2
+            },
+            {
                 "item": "contenttweaker:silver_nugget",
                 "min": 1,
                 "max": 1,
@@ -11834,6 +11870,12 @@
                 "min": 2,
                 "max": 3,
                 "chance": 0.3
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.2
             },
             {
                 "item": "minecraft:gold_nugget",
@@ -12456,8 +12498,8 @@
         "items": [
             {
                 "item": "contenttweaker:brass_nugget",
-                "min": 1,
-                "max": 1,
+                "min": 2,
+                "max": 3,
                 "chance": 1
             },
             {
@@ -12879,6 +12921,12 @@
                 "chance": 1
             },
             {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
                 "item": "pixelmon:yache_berry",
                 "min": 1,
                 "max": 2,
@@ -12908,7 +12956,7 @@
                 "chance": 0.25
             },
             {
-                "item": "tconstruct:nugget_copper",
+                "item": "tconstruct:copper_nugget",
                 "min": 3,
                 "max": 4,
                 "chance": 1
@@ -12937,15 +12985,15 @@
         "pokemon": "Metang",
         "items": [
             {
-                "item": "minecraft:tconstruct:cobalt_nugget",
+                "item": "tconstruct:cobalt_nugget",
                 "min": 1,
                 "max": 4,
                 "chance": 1
             },
             {
-                "item": "tconstruct:nugget_copper",
-                "min": 4,
-                "max": 12,
+                "item": "contenttweaker:copper_rod",
+                "min": 1,
+                "max": 3,
                 "chance": 1
             },
             {
@@ -12972,19 +13020,19 @@
         "pokemon": "Metagross",
         "items": [
             {
-                "item": "minecraft:tconstruct:cobalt_nugget",
-                "min": 8,
-                "max": 24,
+                "item": "contenttweaker:cobalt_plate",
+                "min": 1,
+                "max": 3,
                 "chance": 1
             },
             {
-                "item": "tconstruct:copper_ingot",
-                "min": 2,
-                "max": 4,
+                "item": "contenttweaker:copper_gear",
+                "min": 1,
+                "max": 1,
                 "chance": 1
             },
             {
-                "item": "pixelmon:platinum_ingot",
+                "item": "contenttweaker:platinum_plate",
                 "min": 1,
                 "max": 3,
                 "chance": 0.5
@@ -13797,10 +13845,10 @@
                 "chance": 1
             },
             {
-                "item": "thermal:lead_nugget",
-                "min": 4,
-                "max": 12,
-                "chance": 1
+                "item": "immersiveengineering:plate_lead",
+                "min": 1,
+                "max": 3,
+                "chance": 0.5
             },
             {
                 "item": "pixelmon:raw_black_tumblestone",
@@ -13867,15 +13915,15 @@
                 "chance": 1
             },
             {
-                "item": "immersiveengineering:ingot_steel",
+                "item": "immersiveengineering:plate_steel",
                 "min": 1,
                 "max": 2,
                 "chance": 0.7
             },
             {
-                "item": "minecraft:iron_nugget",
-                "min": 6,
-                "max": 12,
+                "item": "tconstruct:iron_rod",
+                "min": 1,
+                "max": 3,
                 "chance": 0.5
             },
             {
@@ -14029,10 +14077,10 @@
                 "chance": 1
             },
             {
-                "item": "immersiveengineering:nugget_aluminum",
-                "min": 4,
-                "max": 12,
-                "chance": 1
+                "item": "immersiveengineering:dust_aluminum",
+                "min": 1,
+                "max": 2,
+                "chance": 0.7
             },
             {
                 "item": "minecraft:iron_nugget",
@@ -14310,6 +14358,12 @@
                 "min": 2,
                 "max": 3,
                 "chance": 0.3
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.2
             }
         ]
     },
@@ -14339,6 +14393,12 @@
                 "min": 2,
                 "max": 3,
                 "chance": 0.3
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.2
             }
         ]
     },
@@ -14728,13 +14788,13 @@
         "pokemon": "Bronzong",
         "items": [
             {
-                "item": "tconstruct:copper_ingot",
+                "item": "contenttweaker:copper_plate",
                 "min": 1,
                 "max": 2,
                 "chance": 1
             },
             {
-                "item": "thermal:bronze_ingot",
+                "item": "contenttweaker:bronze_plate",
                 "min": 1,
                 "max": 1,
                 "chance": 0.75
@@ -14752,9 +14812,9 @@
                 "chance": 0.3
             },
             {
-                "item": "immersiveengineering:nugget_uranium",
-                "min": 6,
-                "max": 12,
+                "item": "contenttweaker:uranium_rod",
+                "min": 2,
+                "max": 3,
                 "chance": 0.5
             }
         ]
@@ -19113,6 +19173,18 @@
                 "max": 1,
                 "chance": 0.5
             },
+             {
+                "item": "thermal:tin_nugget",
+                "min": 1,
+                "max": 3,
+                "chance": 0.3
+            },
+            {
+                "item": "contenttweaker:platinum_nugget",
+                "min": 1,
+                "max": 1,
+                "chance": 0.1
+            },
             {
                 "item": "pixelmon:casteliacone",
                 "min": 1,
@@ -19130,11 +19202,23 @@
                 "max": 3,
                 "chance": 1
             },
+             {
+                "item": "contenttweaker:tin_rod",
+                "min": 1,
+                "max": 1,
+                "chance": 0.7
+            },
             {
                 "item": "minecraft:ice",
                 "min": 1,
                 "max": 2,
                 "chance": 0.5
+            },
+            {
+                "item": "contenttweaker:platinum_dust",
+                "min": 1,
+                "max": 1,
+                "chance": 0.3
             },
             {
                 "item": "minecraft:packed_ice",
@@ -19157,6 +19241,18 @@
                 "item": "pixelmon:snowball",
                 "min": 2,
                 "max": 3,
+                "chance": 1
+            },
+             {
+                "item": "contenttweaker:tin_plate",
+                "min": 1,
+                "max": 3,
+                "chance": 1
+            },
+            {
+                "item": "contenttweaker:platinum_dust",
+                "min": 1,
+                "max": 1,
                 "chance": 1
             },
             {
@@ -19436,6 +19532,12 @@
                 "min": 2,
                 "max": 4,
                 "chance": 0.1
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_nugget",
+                "min": 1,
+                "max": 2,
+                "chance": 0.1
             }
         ]
     },
@@ -19516,13 +19618,13 @@
                 "item": "thermal:nickel_nugget",
                 "min": 1,
                 "max": 2,
-                "chance": 0.7
+                "chance": 0.9
             },
             {
                 "item": "minecraft:iron_nugget",
                 "min": 1,
                 "max": 2,
-                "chance": 0.9
+                "chance": 0.7
             },
             {
                 "item": "tconstruct:cobalt_nugget",
@@ -19568,14 +19670,14 @@
             {
                 "item": "immersiveengineering:plate_nickel",
                 "min": 1,
-                "max": 2,
-                "chance": 0.7
+                "max": 3,
+                "chance": 1
             },
             {
                 "item": "immersiveengineering:plate_iron",
                 "min": 1,
-                "max": 3,
-                "chance": 1
+                "max": 2,
+                "chance": 0.7
             },
             {
                 "item": "tconstruct:cobalt_nugget",
@@ -22644,6 +22746,12 @@
                 "chance": 1
             },
             {
+                "item": "tinkersarchery:tantalum_nugget",
+                "min": 3,
+                "max": 4,
+                "chance": 0.7
+            },
+            {
                 "item": "minecraft:ender_pearl",
                 "min": 1,
                 "max": 1,
@@ -22664,6 +22772,12 @@
                 "item": "minecraft:ink_sac",
                 "min": 1,
                 "max": 3,
+                "chance": 1
+            },
+            {
+                "item": "tinkersarchery:tantalum_nugget",
+                "min": 4,
+                "max": 12,
                 "chance": 1
             },
             {
@@ -23247,15 +23361,15 @@
         "pokemon": "Klefki",
         "items": [
             {
-                "item": "immersiveengineering:nugget_aluminum",
-                "min": 3,
-                "max": 9,
+                "item": "immersiveengineering:stick_aluminum",
+                "min": 1,
+                "max": 2,
                 "chance": 1
             },
             {
-                "item": "contenttweaker:brass_nugget",
-                "min": 3,
-                "max": 9,
+                "item": "contenttweaker:brass_rod",
+                "min": 1,
+                "max": 2,
                 "chance": 0.5
             },
             {
@@ -23271,7 +23385,7 @@
                 "chance": 0.5
             },
             {
-                "item": "immersiveengineering:iron_nugget",
+                "item": "minecraft:iron_nugget",
                 "min": 1,
                 "max": 3,
                 "chance": 0.1
@@ -23523,6 +23637,12 @@
                 "item": "minecraft:rotten_flesh",
                 "min": 2,
                 "max": 4,
+                "chance": 1
+            },
+            {
+                "item": "ends_delight:non_hatchable_dragon_egg",
+                "min": 1,
+                "max": 1,
                 "chance": 1
             },
             {
@@ -25756,6 +25876,12 @@
                 "chance": 1
             },
             {
+                "item": "tinkersarchery:galaxy_alloy_ingot",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
                 "item": "astralsorcery:stardust",
                 "min": 2,
                 "max": 4,
@@ -25774,6 +25900,12 @@
             },
             {
                 "item": "astralsorcery:starmetal_ingot",
+                "min": 2,
+                "max": 4,
+                "chance": 1
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_ingot",
                 "min": 2,
                 "max": 4,
                 "chance": 1
@@ -25809,6 +25941,12 @@
             },
             {
                 "item": "astralsorcery:starmetal_block",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_block",
                 "min": 1,
                 "max": 1,
                 "chance": 1
@@ -25850,6 +25988,12 @@
             },
             {
                 "item": "astralsorcery:starmetal_block",
+                "min": 1,
+                "max": 1,
+                "chance": 1
+            },
+            {
+                "item": "tinkersarchery:galaxy_alloy_block",
                 "min": 1,
                 "max": 1,
                 "chance": 1
@@ -28889,7 +29033,7 @@
                 "chance": 1
             },
             {
-                "item": "tconstruct:copper_ingot",
+                "item": "contenttweaker:copper_plate",
                 "min": 1,
                 "max": 2,
                 "chance": 0.5
@@ -28912,7 +29056,7 @@
                 "chance": 1
             },
             {
-                "item": "tconstruct:copper_ingot",
+                "item": "contenttweaker:copper_ingot",
                 "min": 3,
                 "max": 9,
                 "chance": 1.0

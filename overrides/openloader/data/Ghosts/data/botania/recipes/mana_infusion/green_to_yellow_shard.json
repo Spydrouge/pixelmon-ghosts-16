@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "pixelmon:green_shard"
+  },
+  "output": {
+    "item": "pixelmon:yellow_shard"
+  },
+  "mana": 280,
+  "group": "ghosts:shard_cycle",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "iron_backpack",
+      "type": "sophisticatedbackpacks:item_enabled"
+    }
+  ],
+  "pattern": [
+    " R ",
+    "RBR",
+    " G "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/copper"
+    },
+    "G": {
+      "tag": "forge:gears/copper"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:iron_backpack"
+  }
+}

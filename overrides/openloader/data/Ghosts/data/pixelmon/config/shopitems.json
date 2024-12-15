@@ -1,13 +1,139 @@
 {
   "items": [
     {
+      "id": "pixelmon:ancient_heavy_ball",
+      "name": "pixelmon:poke_ball",
+      "nbtData": {
+        "PokeBallID": "ancient_heavy_ball"
+      },
+      "buy": 500,
+      "sell": 250
+    },
+    {
+      "id": "pixelmon:leaden_ball",
+      "name": "pixelmon:poke_ball",
+      "nbtData": {
+        "PokeBallID": "leaden_ball"
+      },
+      "buy": 1200,
+      "sell": 600
+    },
+    {
+      "id": "pixelmon:gigaton_ball",
+      "name": "pixelmon:poke_ball",
+      "nbtData": {
+        "PokeBallID": "gigaton_ball"
+      },
+      "buy": 1800,
+      "sell": 900
+    },
+    {
+      "id": "pixelmon:feather_ball",
+      "name": "pixelmon:poke_ball",
+      "nbtData": {
+        "PokeBallID": "feather_ball"
+      },
+      "buy": 200,
+      "sell": 100
+    },
+    {
+      "id": "pixelmon:wing_ball",
+      "name": "pixelmon:poke_ball",
+      "nbtData": {
+        "PokeBallID": "wing_ball"
+      },
+      "buy": 500,
+      "sell": 250
+    },
+    {
+      "id": "pixelmon:jet_ball",
+      "name": "pixelmon:poke_ball",
+      "nbtData": {
+        "PokeBallID": "jet_ball"
+      },
+      "buy": 900,
+      "sell": 450
+    },
+    {
+      "name": "minecraft:cookie",
+      "buy": 10,
+      "sell": 5
+    },  
+    {
+      "name": "minecraft:cake",
+      "buy": 1200,
+      "sell": 100
+    },  
+    {
+      "name": "pixelmon:curry_coconut",
+      "buy": 500,
+      "sell": 250
+    },
+    {
+      "name": "pixelmon:curry_burger",
+      "buy": 1000,
+      "sell": 250
+    },  
+    {
+      "name": "pixelmon:curry_coconut",
+      "buy": 500,
+      "sell": 250
+    },  
+    {
+      "name": "pixelmon:curry_beans",
+      "buy": 100,
+      "sell": 1
+    },  
+    {
+      "name": "pixelmon:curry_mushroom",
+      "buy": 100,
+      "sell": 1
+    },
+    {
+      "name": "pixelmon:curry_juicy",
+      "buy": 100,
+      "sell": 1
+    },
+    {
+      "name": "pixelmon:curry_rich",
+      "buy": 100,
+      "sell": 1
+    },
+    {
+      "name": "pixelmon:curry_cheese",
+      "buy": 1000,
+      "sell": 250
+    }, 
+    {
+      "name": "pixelmon:curry_cream",
+      "buy": 1000,
+      "sell": 250
+    }, 
+    {
+      "name": "byg:green_apple",
+      "buy": 10,
+      "sell": 1
+    }, 
+    {
+      "name": "minecraft:apple",
+      "buy": 10,
+      "sell": 1
+    }, 
+      
+      
+      
+      
+      
+      
+       
+    {
       "id": "pixelmon:poke_ball",
       "name": "pixelmon:poke_ball",
       "nbtData": {
         "PokeBallID": "poke_ball"
       },
-      "buy": 200,
-      "sell": 100
+      "buy": 300,
+      "sell": 150
     },
     {
       "id": "pixelmon:great_ball",
@@ -15,8 +141,8 @@
       "nbtData": {
         "PokeBallID": "great_ball"
       },
-      "buy": 600,
-      "sell": 300
+      "buy": 1000,
+      "sell": 500
     },
     {
       "id": "pixelmon:ultra_ball",
@@ -24,8 +150,8 @@
       "nbtData": {
         "PokeBallID": "ultra_ball"
       },
-      "buy": 1200,
-      "sell": 600
+      "buy": 1500,
+      "sell": 750
     },
     {
       "id": "pixelmon:level_ball",
@@ -60,8 +186,8 @@
       "nbtData": {
         "PokeBallID": "love_ball"
       },
-      "buy": 1000,
-      "sell": 500
+      "buy": 400,
+      "sell": 200
     },
     {
       "id": "pixelmon:heavy_ball",
@@ -141,8 +267,8 @@
       "nbtData": {
         "PokeBallID": "heal_ball"
       },
-      "buy": 300,
-      "sell": 150
+      "buy": 200,
+      "sell": 100
     },
     {
       "id": "pixelmon:dusk_ball",
@@ -193,6 +319,7 @@
       "nbtData": {
         "PokeBallID": "cherish_ball"
       },
+      "buy": 1000,
       "sell": 500
     },
     {
@@ -201,6 +328,7 @@
       "nbtData": {
         "PokeBallID": "premier_ball"
       },
+      "buy": 200,
       "sell": 100
     },
     {
@@ -435,6 +563,7 @@
     },
     {
       "name": "pixelmon:oran_berry",
+      "buy": 20,
       "sell": 10
     },
     {
@@ -443,6 +572,7 @@
     },
     {
       "name": "pixelmon:leppa_berry",
+      "buy": 20,
       "sell": 10
     },
     {

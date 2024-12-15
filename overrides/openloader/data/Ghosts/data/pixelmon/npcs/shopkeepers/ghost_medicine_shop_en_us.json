@@ -1,0 +1,61 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shoplady4.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Suki"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "I can fix everything! I can everything!",
+      "goodbye": "Everything is going to be okay!"
+    },
+    {
+      "hello": "Sniff this energy powder. Does it smell 'off' to you?",
+      "goodbye": "Oh dear."
+    },
+    {
+      "hello": "Some things, I can't fix.",
+      "goodbye": "The world is so broken..."
+    },
+    {
+      "hello": "You know what this world needs? Some music",
+      "goodbye": "Dancing parrots would help."
+    },
+    {
+      "hello": "Are the spirits stealing our Yang energy?",
+      "goodbye": "Actually, I've made friends with some ghosts."
+    },
+    {
+      "hello": "I'm getting cozy with all the new Pokemon.",
+      "goodbye": "Misdreavus, no! Put that down!"
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:heal_powder"
+    },
+    {
+      "name": "pixelmon:energy_powder"
+    },
+    {
+      "name": "pixelmon:energy_root"
+    },
+    {
+      "name": "pixelmon:revival_herb"
+    },
+    {
+      "name": "pixelmon:oran_berry"
+    },
+    {
+      "name": "pixelmon:leppa_berry"
+    }
+  ]
+}

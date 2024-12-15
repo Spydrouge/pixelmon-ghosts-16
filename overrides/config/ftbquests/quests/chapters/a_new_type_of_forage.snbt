@@ -3896,5 +3896,19 @@
 				}
 			]
 		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["A valuable item that can be used to immediate start a raid at a raid den."]
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			optional: true
+			id: "2B903371F753BED7"
+			tasks: [{
+				id: "5CE4F46C90EA6DEA"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+		}
 	]
 }

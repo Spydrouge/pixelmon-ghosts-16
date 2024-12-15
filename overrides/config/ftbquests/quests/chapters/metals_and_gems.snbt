@@ -1743,7 +1743,7 @@
 				}
 			}
 			x: 0.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "circle"
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Uranium in a world devoid of lava..."]
 			dependencies: [
@@ -2324,8 +2324,18 @@
 			]
 		}
 		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "materialis:molten_fairy"
+						Amount: 1000
+					}
+				}
+			}
 			x: 2.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "circle"
 			description: ["You wonder if there is some offering you could make to Arceus that would help you work with Fairy in a world devoid of lava..."]
 			dependencies: ["1E5435A0743B46EF"]
@@ -2369,6 +2379,16 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftblibrary:fluid_container"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "tconstruct:molten_steel"
+						Amount: 1000
+					}
+				}
+			}
 			x: -7.0d
 			y: 0.5d
 			shape: "circle"

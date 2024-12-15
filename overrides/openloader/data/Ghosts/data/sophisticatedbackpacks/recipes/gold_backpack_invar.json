@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "gold_backpack",
+      "type": "sophisticatedbackpacks:item_enabled"
+    }
+  ],
+  "pattern": [
+    " R ",
+    "RBR",
+    " G "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/invar"
+    },
+    "G": {
+      "tag": "forge:gears/invar"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

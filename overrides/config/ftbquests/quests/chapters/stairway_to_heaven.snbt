@@ -187,6 +187,8 @@
 				"They must be max happiness and at least level 60. Then, click on them with a Ruby."
 				""
 				"Their level with drop, and you will recieve a ruby of one of the above types. Each spirit creates a different type of Ruby."
+				""
+				"(WARNING! Each Spirit can enchant a total of 4 rubies. This means if you mess up and fail to defeat or capture legendary Pokemon you've summoned from the Time-Space Altar, you'll have to get yourself a new set of legendary sprites."
 			]
 			dependencies: [
 				"738A1F5123BD71E3"

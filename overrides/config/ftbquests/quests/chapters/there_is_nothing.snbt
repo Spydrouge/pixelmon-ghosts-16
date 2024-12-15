@@ -1113,7 +1113,7 @@
 				""
 				"But it's a long drop down there. Even if you drop down, you want to be able to climb back up again once you're done. You could build ladders, or you could try and weave some rope from silk."
 				""
-				"(Ropes can be attached to the underside of any solid block. Repeated attempts to add rope to the same space will cause the rope to grow downward. They are non-solid, and you can climb them by holding the Jump key)"
+				"(Ropes can be attached to the underside of any solid block. Repeated attempts to add rope to the same space will cause the rope to grow downward. They are non-solid, and you can climb them by holding the Jump key. They take some getting used to.)"
 			]
 			dependencies: ["6BCA2C177694D5E9"]
 			hide: true
@@ -1589,7 +1589,7 @@
 			y: 9.5d
 			shape: "circle"
 			subtitle: "\"Useful Gifts\""
-			description: ["Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory! You need to build some chests so you can organize this all!"]
+			description: ["Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory, and you can't even use most of it yet! You need to build some chests so you can organize this all!"]
 			dependencies: ["1461900BEAD0C38E"]
 			hide: true
 			optional: true
@@ -1601,11 +1601,6 @@
 			}]
 			rewards: [
 				{
-					id: "73792A5C19B7FC2B"
-					type: "item"
-					item: "pixelmon:box"
-				}
-				{
 					id: "637C0A27735A73D3"
 					type: "item"
 					item: {
@@ -1615,6 +1610,12 @@
 							tm: 40
 						}
 					}
+				}
+				{
+					id: "02F81C47FB38AA84"
+					type: "choice"
+					title: "Wait! Okay, this actually IS useful, Drifloon, thank you!"
+					table_id: 1340789479158398459L
 				}
 			]
 		}

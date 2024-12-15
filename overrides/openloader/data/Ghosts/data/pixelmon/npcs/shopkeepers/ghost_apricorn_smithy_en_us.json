@@ -1,0 +1,100 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shoplady3.png"
+    },
+    {
+      "name": "shoplady4.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Felicity"
+    },
+    {
+      "name": "Ashley"
+    },
+    {
+      "name": "Lakshmi"
+    },
+    {
+      "name": "Shreya"
+    },
+    {
+      "name": "Clover"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "I've been making some Poké Balls. Would you like to buy one?",
+      "goodbye": "See you next time."
+    },
+    {
+      "hello": "It's good to be myself again! Did you need something?",
+      "goodbye": "I still can't thank you enough!"
+    },
+    {
+      "hello": "I really owe you a lot! That's why my prices are so low.",
+      "goodbye": "Thank you for shopping at my little store."
+    },
+    {
+      "hello": "I want to start a real Poké Mart one day.",
+      "goodbye": "Come back soon, won't you?"
+    },
+    {
+      "hello": "The apocalypse is so lonely. Thank you for visiting!",
+      "goodbye": "Come see us again, won't you?"
+    },
+    {
+      "hello": "Looking for anything special? I'm a little limited in my ingredients...",
+      "goodbye": "Okay, see ya next time."
+    },
+    {
+      "hello": "What were your dreams before Team Flare blew up the world? I wanted to run a general store.",
+      "goodbye": "Ciao, my friend. Come back anytime."
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:heal_ball"
+    },
+    {
+      "name": "pixelmon:love_ball"
+    },
+    {
+      "name": "pixelmon:ancient_heavy_ball",
+      "rarity": 0.9
+    },
+    {
+      "name": "pixelmon:leaden_ball",
+      "rarity": 0.7
+    },
+    {
+      "name": "pixelmon:gigaton_ball",
+      "rarity": 0.3
+    },
+    {
+      "name": "pixelmon:feater_ball",
+      "rarity": 0.9
+    },
+    {
+      "name": "pixelmon:wing_ball",
+      "rarity": 0.7
+    },
+    {
+      "name": "pixelmon:jet_ball",
+      "rarity": 0.3
+    }, 
+    {
+      "name": "pixelmon:luxury_ball",
+      "rarity": 0.7
+    },
+    {
+      "name": "pixelmon:premier_ball",
+      "rarity": 0.5
+    }
+  ]
+}

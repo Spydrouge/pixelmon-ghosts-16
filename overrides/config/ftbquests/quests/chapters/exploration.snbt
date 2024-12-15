@@ -395,15 +395,6 @@
 					invertUsed: false
 				}
 				{
-					id: "364EACCC76D42DDB"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "litwick"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
 					id: "602B69D4B8AEC17D"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "klefki"
@@ -422,11 +413,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "1F37988F6E421C36"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1F37988F6E421C36"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "358766E8B1DC399F"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Manmade: Basic Pokemon"
@@ -455,11 +453,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "526553228DE5B323"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "526553228DE5B323"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4802D6D4E6817A2E"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Manmade: Porygon"
@@ -556,11 +561,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "14508DDE92CD3324"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "14508DDE92CD3324"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "0F7D7C97BE864171"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Outside: Evolved Pokemon"
@@ -753,11 +765,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "3351869DB04621F2"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "3351869DB04621F2"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1DDEF97F86B96B32"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Underground: Near Water"
@@ -895,11 +914,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "5574E2975979C5CA"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "5574E2975979C5CA"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "16B83B349A82FFB8"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Indoors: Lights"
@@ -990,11 +1016,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "3F57871FA03F35B4"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "3F57871FA03F35B4"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4EDF8AE1A717EE26"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Underground Water: Rarer Pokemon"
@@ -1106,11 +1139,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "6D30B120189357EC"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "6D30B120189357EC"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "3DE42BF7DEF97CB7"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Flying: Evolved Pokemon"
@@ -1197,11 +1237,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "57817F0EFD12A12B"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "57817F0EFD12A12B"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "7CA13579161CFCB3"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Desert: Basic Pokemon"
@@ -1239,11 +1286,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "44D531177BD53816"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "44D531177BD53816"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "5381E564BCE8619C"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Soil, Desert or Beach: Evolved Pokemon"
@@ -1325,11 +1379,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "19FA76BC51019C7C"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "19FA76BC51019C7C"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "394DCCD879595793"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -1415,11 +1476,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "148C279908767AD2"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "148C279908767AD2"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "40B2A2437676BE49"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Outside: Dragon Alert"
@@ -1566,11 +1634,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "6B81EEEDEADDF848"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "6B81EEEDEADDF848"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "3AECD558D1632F1A"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Manmade: Coal Pokemon"
@@ -1648,11 +1723,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "7B3B0DFD7006DEBF"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7B3B0DFD7006DEBF"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "24501903C956563C"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Flying: Evolved Pokemon"
@@ -1747,11 +1829,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "225C20CA7BAC988D"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "225C20CA7BAC988D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "0CD38044E626C838"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Beach: Basic Pokemon"
@@ -1789,11 +1878,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "7A5AC87482A150A7"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7A5AC87482A150A7"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "62A4A13375156278"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Beach or Desert: Starter Alert"
@@ -1899,11 +1995,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "5A2B94822EBA2A60"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "5A2B94822EBA2A60"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "53A05C10962E1CFF"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Desert: Evolved Pokemon"
@@ -1984,11 +2087,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "06C75D205F79F804"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "06C75D205F79F804"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "328219921FE29B6A"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Underground: Alolan"
@@ -2254,11 +2364,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "24067076FE40B624"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "24067076FE40B624"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "401010162F661C7D"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Indoor: Evolved Pokemon"
@@ -2325,11 +2442,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "3A1CC6C842815952"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "3A1CC6C842815952"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "2920E2B06B68EB2D"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Water: Evolved Pokemon"
@@ -2407,11 +2531,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "039C658EB4475D06"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "039C658EB4475D06"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "68C8949E25799063"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Stone, Underground Water: Evolved Pokemon"
@@ -2517,11 +2648,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "22FD4177DBA2ADD4"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "22FD4177DBA2ADD4"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1F2011CCDA26FDB5"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Land and Manmade: Yamask"
@@ -2673,11 +2811,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "753D84905557C9F7"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "753D84905557C9F7"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1C213D065EAD37C4"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Underground: Onix"
@@ -2826,11 +2971,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "25731B17042C5046"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "25731B17042C5046"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "01F51BFC54A2FD79"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Flying: Evolved Pokemon"
@@ -2881,11 +3033,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "310230308F3B131A"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "310230308F3B131A"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "79AA34EEAFA42753"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Treetops: Evolved Pokemon"
@@ -2961,11 +3120,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "1AB44DBAAE4B39E2"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1AB44DBAAE4B39E2"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6E9A3481668AFBF8"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Beach: Evolved Pokemon"
@@ -3080,11 +3246,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "632F05EBF36EA04D"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "632F05EBF36EA04D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "31F7004BE6F36205"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Desert: Evolved Pokemon"
@@ -3223,11 +3396,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "28DC47448152A4D7"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "28DC47448152A4D7"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "16F022EBC2570262"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Manmade:  Evolved Pokemon"
@@ -3402,11 +3582,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "7546F66B77146D2A"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7546F66B77146D2A"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1A4CFF150CD3148D"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Indoor: Evolved Pokemon"
@@ -3549,11 +3736,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "41F9243AA8147C49"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "41F9243AA8147C49"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "11C98642FF357C1C"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Water: Evolved Pokemon"
@@ -3650,11 +3844,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "4F69868F888DA89A"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "4F69868F888DA89A"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "77AC5CC079FC620F"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Underground Water: Evolutionary Pokemon"
@@ -3790,6 +3991,18 @@
 					invert: false
 					usedPokemonSpec: ""
 					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "674A4A1351DC2F52"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+				{
+					id: "297F06EC1E93E7FE"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -3942,11 +4155,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "10970BA1D3072F63"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "10970BA1D3072F63"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1F47AF1BBCE6B90E"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Manmade: Special Pokemon"
@@ -4082,11 +4302,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "76434FD7B63A36E2"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "76434FD7B63A36E2"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "75FD20D18A646A69"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Flying: Basic Pokemon"
@@ -4105,11 +4332,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "021541D9DF8430B6"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "021541D9DF8430B6"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "03614631F2607D6D"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Flying: Evolved Pokemon"
@@ -4205,11 +4439,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "1F43E0ACACA99336"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1F43E0ACACA99336"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "40B625638CCB791A"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Beach: Dragon Alert"
@@ -4339,11 +4580,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "7CDA6B15223DFA8F"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7CDA6B15223DFA8F"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "09CE3FD2DE9DC242"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Desert: Evolved Pokemon"
@@ -4418,11 +4666,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "1AFB38F96985FBCC"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1AFB38F96985FBCC"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "41E477B796B3851D"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Underground: Special Pokemon"
@@ -4551,11 +4806,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "432AAB8951BDE95F"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "432AAB8951BDE95F"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "70CDF1B2E9A06F1F"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Indoors: Evolved Pokemon"
@@ -4695,11 +4957,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "73E134F67750C0B6"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "73E134F67750C0B6"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6AE134B876BA5835"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Water: Evolved Pokemon"
@@ -4760,11 +5029,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "16D24B2FAC693C92"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "16D24B2FAC693C92"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "309A089D99FF1D50"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Murk, Underground Water: Evolved Pokemon"
@@ -4862,11 +5138,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "67AF378EC296F41C"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "67AF378EC296F41C"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "59F417AE73CC6592"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Outside: Time of Day Pokemon"
@@ -5007,11 +5290,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "171FCD4D723B6975"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "171FCD4D723B6975"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "30801973FE411758"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle Manmade: Evolved Pokemon"
@@ -5111,11 +5401,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "4CFA15E568ACA7F1"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "4CFA15E568ACA7F1"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "442CB155A936B4A0"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Underground: Dragon Alert"
@@ -5306,11 +5603,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "1F68602BD2D0FE88"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1F68602BD2D0FE88"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "29AD8C6FDA748E98"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Indoors: Evolved Pokemon"
@@ -5397,11 +5701,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "7F8B0F9F73834986"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7F8B0F9F73834986"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "64C44D9591DF49C8"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Water: Rare Pokemon"
@@ -5477,11 +5788,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "138C39D8A488524E"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "138C39D8A488524E"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6051C35FEB86A916"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Underground Water: Evolved Pokemon"
@@ -5532,11 +5850,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "41D2E230311F982E"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "41D2E230311F982E"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "60B922BED8F3008F"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Flying: Evolved Pokemon"
@@ -5683,11 +6008,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "44C796263DFD549F"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "44C796263DFD549F"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "35CBC9129AF2CFAF"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Beach: Evolved Pokemon"
@@ -5756,11 +6088,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "69ABF0D13A2F1F40"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "69ABF0D13A2F1F40"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4B44B27211F4E6A6"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Dazzle, Desert: Evolved Pokemon"
@@ -5829,11 +6168,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "7789474FAC4EB652"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7789474FAC4EB652"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "15DD9466F4B4B784"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Outside: Time of Day Pokemon"
@@ -5973,11 +6319,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "66C4B1DE48734923"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "66C4B1DE48734923"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "45E62DED77E575CA"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Manmade: Poke Ball"
@@ -6171,11 +6524,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "1E25A5CED167DB23"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1E25A5CED167DB23"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6E7B8D638FFB9820"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Flying: Evolved Pokemon"
@@ -6399,11 +6759,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "64DA728579293AA7"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "64DA728579293AA7"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "58E24D933A1DA4CA"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Treetops: Evolved Pokemon"
@@ -6531,11 +6898,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "4B6AC26BB724B76D"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "4B6AC26BB724B76D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "45F986910C663282"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Beach: Dragon Alert"
@@ -6634,11 +7008,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "253EC6F6BB334260"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "253EC6F6BB334260"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "29BF321522E839FA"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Underground: Basic Pokemon"
@@ -7049,11 +7430,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "03AD9EDA38EA58C4"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "03AD9EDA38EA58C4"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "207D4C066A34A079"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Air, Underground Water: Evolved Pokemon"
@@ -7122,11 +7510,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "407097F0BB4302A7"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "407097F0BB4302A7"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4B86325578D21CE0"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Outside: Weather Pokemon"
@@ -7339,11 +7734,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "1E5A8F28870527A7"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "1E5A8F28870527A7"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "774A48ACDBD02DDA"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Manmade: Special Pokemon"
@@ -7410,11 +7812,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "7EE6237B4AC5084D"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "7EE6237B4AC5084D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "2622010F1B9E331B"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Underground: Special Pokemon"
@@ -7586,11 +7995,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "00C983259DE07B37"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "00C983259DE07B37"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4765F6CFBA9364B2"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Indoors: Lady Pokemon"
@@ -7891,11 +8307,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "674901F04BF8D270"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "674901F04BF8D270"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "7D6AD398E5EF728F"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Beach: Basic Pokemon"
@@ -7924,11 +8347,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "6408ED3A60C6060D"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "6408ED3A60C6060D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "64C74F862E317C73"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Beach: Special Pokemon"
@@ -8011,11 +8441,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "2ABAD419951B12EC"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "2ABAD419951B12EC"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "18DF1301820C1014"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Water: Basic Pokemon"
@@ -8033,11 +8470,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "4D2E42C89A4F93EE"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "4D2E42C89A4F93EE"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6608DED500367940"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Ice, Water: Special Pokemon"
@@ -8204,11 +8648,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "26DF359AE5AACA2A"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "26DF359AE5AACA2A"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "37CA4934A15C74BA"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Manmade: Basic Pokemon"
@@ -8246,11 +8697,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "558CFA7ED40653C3"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "558CFA7ED40653C3"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "2D64ED7BC5778ED0"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Manmade: Evolved Pokemon"
@@ -8319,6 +8777,11 @@
 					type: "choice"
 					table_id: 4524191137701651332L
 				}
+				{
+					id: "6B73B6A4C285AB16"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
 			]
 		}
 		{
@@ -8366,11 +8829,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "6B8D14C596D0ECF1"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "6B8D14C596D0ECF1"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4A5E0C7FCFB277B3"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Beach and Tree Tops: Topss-Turvy Pokemon"
@@ -8454,11 +8924,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "4A2BBC730BE38FF2"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "4A2BBC730BE38FF2"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "043127E324930E7C"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Desert: Basic Pokemon"
@@ -8487,11 +8964,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "21ACEA3071A77DB1"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "21ACEA3071A77DB1"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "3F4113A0B36AB59B"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Underground: Basic Pokemon"
@@ -8509,11 +8993,18 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
-			rewards: [{
-				id: "63427A4B818F5043"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "63427A4B818F5043"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "5941318E8FFD3703"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Underground: Evolved Pokemon"
@@ -8604,11 +9095,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "6AAF63E3228657A9"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "6AAF63E3228657A9"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "4EF622922C83AF05"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Indoors: Evolved Pokemon"
@@ -8745,11 +9243,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "553319B81A43ADDC"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "553319B81A43ADDC"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "66FC6307CB1F5350"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Water: Evolved Pokemon"
@@ -8818,11 +9323,18 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "0647D6DB793A02B6"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "0647D6DB793A02B6"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "063483883F6F9FEB"
+					type: "pixelmon:pokedollars"
+					count: 200
+				}
+			]
 		}
 		{
 			title: "Space, Underground Water: Evolved Pokemon"

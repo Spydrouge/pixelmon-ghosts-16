@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "pixelmon:sun_stone"
+  },
+  "output": {
+    "item": "pixelmon:moon_stone"
+  },
+  "mana": 2800,
+  "group": "ghosts:sun_moon_cycle",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  }
+}

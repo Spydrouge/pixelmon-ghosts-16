@@ -1,0 +1,105 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shopman2.png"
+    },
+    {
+      "name": "shopman.png"
+    },
+    {
+      "name": "shopman3.png"
+    },
+    {
+      "name": "shopman4.png"
+    },
+    {
+      "name": "shopman5.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Charles"
+    },
+    {
+      "name": "Eito"
+    },
+    {
+      "name": "Mr. Benson"
+    },
+    {
+      "name": "Mr. Wong"
+    },
+    {
+      "name": "James"
+    },
+    {
+      "name": "Digby"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "I just spent a small eternity in an oven...!",
+      "goodbye": "Thanks again for the rescue."
+    },
+    {
+      "hello": "I love cooking food, not myself! Did you see all that lava?",
+      "goodbye": "Thank you for shopping at Mom's Bakery! Wait. Where is Mom?"
+    },
+    {
+      "hello": "Thanks for the rescue! Want a cookie?",
+      "goodbye": "Thank you for shopping at my 'store.'"
+    },
+    {
+      "hello": "I think this whole experience has left me a little eccentric.",
+      "goodbye": "Come back soon, won't you?"
+    },
+    {
+      "hello": "heheheHAHAHA hooohoooh! Hmm? The cake is a lie!",
+      "goodbye": "Come see us again, won't you?"
+    }
+  ],
+  "items": [
+    {
+      "name": "minecraft:cookie"
+    },
+    {
+      "name": "minecraft:cake"
+    },  
+	{
+      "name": "pixelmon:rage_candy_bar",
+      "rarity": 0.5
+    },
+	{
+      "name": "pixelmon:lumiose_galette",
+      "rarity": 0.5
+    },
+	{
+      "name": "pixelmon:casteliacone",
+      "rarity": 0.5
+    },
+	{
+      "name": "pixelmon:old_gateau",
+      "rarity": 0.5
+    },
+	{
+      "name": "pixelmon:lava_cookie"
+    },
+	{
+      "name": "pixelmon:shalour_sable",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:moomoo_milk"
+    },
+    {
+      "name": "byg:geen_apple"
+    },
+    {
+      "name": "minecraft:apple",
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shopman2.png"
+    },
+    {
+      "name": "shopman.png"
+    },
+    {
+      "name": "shopman3.png"
+    },
+    {
+      "name": "shopman4.png"
+    },
+    {
+      "name": "shopman5.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Charles"
+    },
+    {
+      "name": "Eito"
+    },
+    {
+      "name": "Mr. Benson"
+    },
+    {
+      "name": "Mr. Wong"
+    },
+    {
+      "name": "James"
+    },
+    {
+      "name": "Digby"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "I'm scavenging to find rare supplies.",
+      "goodbye": "Thanks again for the rescue."
+    },
+    {
+      "hello": "No I won't tell you where the cows are!",
+      "goodbye": "It's my secret recipe!"
+    },
+    {
+      "hello": "I've learned to make friends with the mice.",
+      "goodbye": "No I won'd tell you where the mice are either!"
+    },
+    {
+      "hello": "Do you think I've become paranoid?",
+      "goodbye": "Maybe just a little paranoid..."
+    },
+    {
+      "hello": "It's not paranoia if they're really out to get me!",
+      "goodbye": "I don't like the nether."
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:moomoo_milk"
+    },
+    {
+      "name": "pixelmon:curry_coconut",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:curry_mushroom",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:curry_juicy",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:curry_rich",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:curry_cheese",
+      "rarity": 0.5
+    },
+    {
+      "name": "pixelmon:curry_cream",
+      "rarity": 0.5
+    }
+
+  ]
+}

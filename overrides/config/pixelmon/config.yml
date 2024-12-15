@@ -7,14 +7,14 @@ allow-random-pokemon-to-be-legendary: true
 growth-scale-modifier: 1.0
 allow-planting: true
 cloning-machine-enabled: true
-lake-trio-max-enchants: 3
+lake-trio-max-enchants: 4
 engage-player-by-poke-ball: true
 enable-wild-aggression: false
 shrine-encounter-mode: OncePerDay
 spawners-op-only: true
 npc-editor-op-only: true
 quest-editor-op-only: true
-traders-reusable: false
+traders-reusable: true
 moves-per-tutor: 20
 use-system-time-for-world-time: false
 time-update-interval: 30

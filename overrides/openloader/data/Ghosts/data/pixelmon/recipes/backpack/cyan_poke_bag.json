@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cyan_wool"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+    
+  },
+  "result": {
+    "item": "pixelmon:cyan_poke_bag",
+    "count": 1
+  }
+}

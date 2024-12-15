@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:purple_wool"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+    
+  },
+  "result": {
+    "item": "pixelmon:purple_poke_bag",
+    "count": 1
+  }
+}

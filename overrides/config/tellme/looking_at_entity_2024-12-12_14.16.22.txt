@@ -1,0 +1,228 @@
+Entity:  [registry name: pixelmon:npc_shopkeeper] (entityId: 360190)
+Entity class: com.pixelmonmod.pixelmon.entities.npcs.NPCShopkeeper
+
+
+[TAG_Compound (41 values)] 
+{
+    [TAG_Short] "AIMode": 2
+    [TAG_Float] "AbsorptionAmount": 0.0
+    [TAG_Short] "Air": 300
+    [TAG_List (4 values of type TAG_Float)] "ArmorDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (4 values of type TAG_Compound)] "ArmorItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_List (2 values of type TAG_Compound)] "Attributes"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.699999988079071
+            [TAG_String] "Name": "minecraft:generic.movement_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.08
+            [TAG_String] "Name": "forge:entity_gravity"
+        }
+    ]
+    [TAG_String] "BaseTrainer": "Steve"
+    [TAG_Compound (1 values)] "Brain"
+    {
+        [TAG_Compound (0 values)] "memories"
+        {
+        }
+    }
+    [TAG_Byte] "CanPickUpLoot": 0
+    [TAG_Byte] "CanUpdate": 1
+    [TAG_Int] "ChatIndex": 0
+    [TAG_Compound (1 values)] "Commands"
+    {
+        [TAG_List (0 values of type ?)] "interactCommands"
+        [
+        ]
+    }
+    [TAG_String] "CustomSteveTexture": "shoplady4.png"
+    [TAG_Short] "DeathTime": 0
+    [TAG_Float] "FallDistance": 0.0
+    [TAG_Byte] "FallFlying": 0
+    [TAG_Short] "Fire": -1
+    [TAG_Compound (0 values)] "ForgeCaps"
+    {
+    }
+    [TAG_List (2 values of type TAG_Float)] "HandDropChances"
+    [
+        [TAG_Float] : 0.085
+        [TAG_Float] : 0.085
+    ]
+    [TAG_List (2 values of type TAG_Compound)] "HandItems"
+    [
+        [TAG_Compound (0 values)] 
+        {
+        }
+        [TAG_Compound (0 values)] 
+        {
+        }
+    ]
+    [TAG_Float] "Health": 20.0
+    [TAG_Int] "HurtByTimestamp": 0
+    [TAG_Short] "HurtTime": 0
+    [TAG_List (0 values of type ?)] "Inventory"
+    [
+    ]
+    [TAG_Byte] "Invulnerable": 0
+    [TAG_Byte] "LeftHanded": 0
+    [TAG_List (3 values of type TAG_Double)] "Motion"
+    [
+        [TAG_Double] : 0.0
+        [TAG_Double] : -0.0784000015258789
+        [TAG_Double] : 0.0
+    ]
+    [TAG_String] "Name": ""
+    [TAG_Int] "NameIndex": 3
+    [TAG_Byte] "OnGround": 1
+    [TAG_Byte] "PersistenceRequired": 1
+    [TAG_Int] "PortalCooldown": 0
+    [TAG_List (3 values of type TAG_Double)] "Pos"
+    [
+        [TAG_Double] : 8200.5
+        [TAG_Double] : 66.0
+        [TAG_Double] : -0.5
+    ]
+    [TAG_Short] "Profession": -1
+    [TAG_List (2 values of type TAG_Float)] "Rotation"
+    [
+        [TAG_Float] : 4.6764517
+        [TAG_Float] : -2.5345857
+    ]
+    [TAG_List (20 values of type TAG_Compound)] "ShopItems"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:poke_ball"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:great_ball"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:ultra_ball"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:friend_ball"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:net_ball"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:repeat_ball"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:fresh_water"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:soda_pop"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:lemonade"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:moomoo_milk"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:full_restore"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:full_heal"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:big_malasada"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:rage_candy_bar"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:lumiose_galette"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:casteliacone"
+            [TAG_Float] "ItemVar": 0.9
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:old_gateau"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:lava_cookie"
+            [TAG_Float] "ItemVar": 1.0
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:shalour_sable"
+            [TAG_Float] "ItemVar": 1.1
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_String] "ItemName": "pixelmon:revive"
+            [TAG_Float] "ItemVar": 1.0
+        }
+    ]
+    [TAG_Int] "TextureIndex": 0
+    [TAG_String] "TrainerIndex": "pokemartmain2"
+    [TAG_Int_Array (4 entries)] "UUID"
+    [
+          0: 0x4688F7E7 (1183381479)
+          1: 0x58344685 (1479820933)
+          2: 0x8EA05B7F (-1902093441)
+          3: 0x39AE0DE9 (967708137)
+    ]
+    [TAG_String] "id": "pixelmon:npc_shopkeeper"
+    [TAG_Int] "trainerLocation": 2
+}
