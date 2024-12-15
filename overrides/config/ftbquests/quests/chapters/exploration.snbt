@@ -121,6 +121,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
+			description: ["This layer is thick with garbage, refuse, and poison pokemon. Inside, you can find the remains of children's toys. A smog hangs over it. Sturdy bug Pokemon like the cocoons of moths and spiders have survived on it."]
 			dependencies: ["30EB23683E1A1D4C"]
 			hide: true
 			id: "07738E3566B31309"
@@ -150,6 +151,7 @@
 		{
 			x: 0.0d
 			y: -8.0d
+			description: ["This layer is filled with fey energy. Sturdy but plesant bug Pokemon, like the cocoons of butterflies, can be found. Indoors you find childrens toys, in better condition. You find many fluffy remnants of a destroyed civilization."]
 			dependencies: ["07738E3566B31309"]
 			hide: true
 			id: "68656D2ECD70A4C9"
@@ -179,6 +181,7 @@
 		{
 			x: 0.0d
 			y: -11.5d
+			description: ["This is the air layer. Light flowers blow on the wind. A number of birds affiliated with the spiritual have survived."]
 			dependencies: ["68656D2ECD70A4C9"]
 			hide: true
 			id: "0BD06157B3F599CB"
@@ -208,6 +211,7 @@
 		{
 			x: 0.0d
 			y: -15.0d
+			description: ["This is the ice layer. You can find many light, snowy Pokemon, goats and foxes. Indoors, curled up around the embers of destroyed hearths, you can find the remnants of a few fire Pokemon, persevering agains the cold. There are some enimatic feminine spirits here, as well."]
 			dependencies: ["0BD06157B3F599CB"]
 			hide: true
 			id: "7EEAD69FE49927AB"
@@ -237,6 +241,7 @@
 		{
 			x: 0.0d
 			y: -18.5d
+			description: ["This layer is open to the End above, and is close to the stars, moon, and sun. Pokemon here have some relationship with these celestial bodies."]
 			dependencies: ["7EEAD69FE49927AB"]
 			hide: true
 			id: "3632E0C47BD3B5DE"
@@ -265,7 +270,7 @@
 		}
 		{
 			title: "Soil, Outside: Grass, Beetroots and Pumpkins"
-			x: -3.5d
+			x: -4.0d
 			y: -1.0d
 			subtitle: "Build a Suitable Habitat!"
 			description: ["You've seen Phantump and Pineco both spawn on open land in the Soil Layer, but did you know &cPumpkaboo&r and &aOddish&r spawn as well? Oddish is attracted to uncut tall grass, and Pumpkaboo is (as one might expect) attracted to pumpkins."]
@@ -312,70 +317,44 @@
 			description: ["Placing a PC in an indoor habitat on the Soil layer will attract an assortment of Porygons."]
 			dependencies: ["03DF0C6FF8136840"]
 			id: "12A6388A3ED85628"
-			tasks: [
-				{
-					id: "05E72AB0F2C8AE0D"
-					type: "item"
-					title: "Any #pixelmon:pcs"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "pixelmon:pcs"
-						}
-					}
-				}
-				{
-					id: "0A8607C0654E547C"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "porygon palette:alter"
-					count: 1
-					invert: false
-					wild: true
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "0A8607C0654E547C"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "porygon palette:alter"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
 			rewards: [{
-				id: "754DC0E94E718C46"
+				id: "75B2AB3AEC3EF302"
 				type: "item"
-				item: "pixelmon:silicon"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
 			title: "Soil, Manmade: Leaden Snails"
 			x: -8.0d
 			y: -1.0d
-			description: ["Shelmet and Escavelier may spawn on manmade blocks. They appear to be ghostly, and their armor is made of a dark, purple lead."]
+			description: ["Shelmet may spawn on manmade blocks. They appear to be ghostly, and their armor is made of a dark, purple lead."]
 			dependencies: ["6A4C19A6EEA69DE0"]
 			min_required_tasks: 1
 			id: "4BB26684D5C497D4"
-			tasks: [
-				{
-					id: "3C07E1AE300C07C9"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "shelmet palette:spirit"
-					count: 1
-					invert: false
-					wild: true
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "4B76305CD3589669"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "escavalier palette:spirit"
-					count: 1
-					invert: false
-					wild: true
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "3C07E1AE300C07C9"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "shelmet palette:spirit"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
 			rewards: [{
-				id: "0854201D1D13CA14"
+				id: "34E4AA16534C5D79"
 				type: "item"
-				item: "thermal:lead_nugget"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -436,6 +415,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1F37988F6E421C36"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Manmade: Basic Pokemon"
@@ -464,12 +448,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "526553228DE5B323"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Manmade: Porygon"
 			x: -6.0d
 			y: -1.0d
-			description: ["Porygon-2, while rare, can have its spawn rates increased by playing down a PC."]
+			description: ["Porygon-2, while rare, can have its spawn rates increased by placing down a PC."]
 			dependencies: ["6A4C19A6EEA69DE0"]
 			id: "09A91A4424DB53DF"
 			tasks: [{
@@ -480,6 +469,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "02E8A6C542AC5716"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -508,16 +502,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "16104614322DE634"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "dusknoir"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "256252A2DA0BF006"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Outside: Basic Pokemon"
@@ -545,10 +535,15 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "14508DDE92CD3324"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Outside: Evolved Pokemon"
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["326621C2EC6FED12"]
@@ -562,17 +557,22 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "1A4E6A2CDD74AFD6"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Outside: Crusher"
-			x: -2.5d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 			description: [
 				"Foretress is very rare, but it's spawning can be increased if one builds an immersive engineering crusher on this level."
 				""
-				"Foretress is primarily a source of lead, constantan, and shulker-like products."
+				"Foretress is primarily a source of lead, constantan, and shulker-like products, and not a source of iron."
 			]
-			dependencies: ["5309270C635694ED"]
+			dependencies: ["326621C2EC6FED12"]
 			id: "61284BAEDD1F4405"
 			tasks: [{
 				id: "42C8AE90A42E7F1E"
@@ -583,12 +583,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "5F90F635A5DAB4F5"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Outside: Evolved Special Habitats"
-			x: -3.5d
+			x: -4.0d
 			y: -2.0d
-			description: ["Gloom will spawn as long as beetroot plants are nearby. Gloom will drop rafflesia flowers, and placing one on the ground is the only way to attract Vileplume."]
+			description: ["Gloom will spawn as long as beetroot plants are nearby. "]
 			dependencies: ["636FC9D9B5FAFAC2"]
 			id: "333C38F89726EDDF"
 			tasks: [
@@ -620,6 +625,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1AC5927FD0159591"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Indoors: Evolved Pokemon"
@@ -648,13 +658,18 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7A45E55C4F2A117E"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Underground: Basic Pokemon"
 			x: 3.0d
 			y: 0.0d
 			description: [
-				"Here you will find Vullaby, who wears the skull of another. Ghost dragons, dreepy, are common. "
+				"Here you will find Vullaby, who wears the skull of another. "
 				""
 				"Burmy will only be found here when it rains"
 			]
@@ -698,6 +713,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "3351869DB04621F2"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Underground: Near Water"
@@ -717,65 +737,42 @@
 			]
 			dependencies: ["50701BB7967BB4A6"]
 			id: "4E1CCFA6ED826926"
-			tasks: [
-				{
-					id: "4F2375E18CE04F01"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "sableye palette:drowned"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "7C5BDD24A96065EC"
-					type: "item"
-					item: "astralsorcery:aquamarine"
-				}
-				{
-					id: "23B0C665C0C3D370"
-					type: "item"
-					item: "byg:emeraldite_shards"
-				}
-				{
-					id: "6DAEED96FB29782D"
-					type: "item"
-					item: "pixelmon:raw_black_tumblestone"
-				}
-				{
-					id: "18E6BD3A535D3974"
-					type: "item"
-					item: "minecraft:emerald"
-				}
-			]
+			tasks: [{
+				id: "4F2375E18CE04F01"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "sableye palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "2A798D1774859A47"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
-			title: "Soil, Underground: Evolved Pokemon"
+			title: "Soil, Underground: Tier 3 Dragon Pokemon"
 			x: 3.0d
-			y: -1.0d
+			y: -3.0d
 			description: ["The expected evolved Pokemon are here."]
-			dependencies: ["50701BB7967BB4A6"]
+			dependencies: ["2CA2E1CC65525259"]
 			id: "2D21AAD7642FA060"
-			tasks: [
-				{
-					id: "0AB77DCAF1AAB2CF"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "drakloak palette:spirit"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "3070DF7C24D081EF"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "dragapult palette:spirit"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "3070DF7C24D081EF"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "dragapult palette:spirit"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "312366E329E3C655"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Underground: Falinks"
@@ -791,39 +788,20 @@
 			description: ["Falinks is rare; about as rare as Drakloak. It is a source of brass, bronze, and teracotta."]
 			dependencies: ["50701BB7967BB4A6"]
 			id: "75E75764B5D2A7CE"
-			tasks: [
-				{
-					id: "07832B5DBAB32690"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "falinks"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "633DBD42443ED1A0"
-					type: "item"
-					item: "contenttweaker:brass_nugget"
-				}
-				{
-					id: "1449225AE65F0FA3"
-					type: "item"
-					title: "Any #forge:nuggets/bronze"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:nuggets/bronze"
-						}
-					}
-				}
-				{
-					id: "54E3D9DB5BC71D79"
-					type: "item"
-					item: "minecraft:black_terracotta"
-				}
-			]
+			tasks: [{
+				id: "07832B5DBAB32690"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "falinks"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3FC64D73CD5FE9C6"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Water: Basic Pokemon"
@@ -870,6 +848,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5574E2975979C5CA"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Indoors: Lights"
@@ -878,26 +861,20 @@
 			description: ["These pokemon are increasingly hard to lure out. They are attracted to torches, street lights, and lanterns. "]
 			dependencies: ["0C678DFBB40991BE"]
 			id: "3E534A78FBA4F1EF"
-			tasks: [
-				{
-					id: "5525ABD47C488D46"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "lampent"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "2C826273E19B6FB2"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "chandelure"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "5525ABD47C488D46"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "lampent"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "6CE20A86E1E8DA63"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Water: Evolvd Pokemon"
@@ -926,6 +903,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7D5785D8B83DFA3B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Underground Water: Basic Pokemon"
@@ -954,6 +936,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "3F57871FA03F35B4"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Underground Water: Rarer Pokemon"
@@ -982,35 +969,34 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0A0D5FBD538AD37A"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Underground Water: Evolved Pokemon"
 			x: 13.5d
-			y: -2.0d
-			description: ["The expected evolved Pokemon are here."]
+			y: -1.0d
+			description: ["An unusual, sickly looking Omnastar appears to lurk here."]
 			dependencies: ["1B808CB153DB3F25"]
 			dependency_requirement: "one_completed"
 			id: "5FF501803C79338E"
-			tasks: [
-				{
-					id: "3E70131C1AE29D56"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "omastar palette:drowned"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "7E7E37069D19B117"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "dragonair"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "3E70131C1AE29D56"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "omastar palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3309748C04BDD635"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Flying: Basic Pokemon"
@@ -1052,6 +1038,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6D30B120189357EC"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Flying: Evolved Pokemon"
@@ -1089,6 +1080,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "63765811BEB5CA16"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Beach: Basic Pokemon"
@@ -1126,6 +1122,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "57817F0EFD12A12B"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Desert: Basic Pokemon"
@@ -1163,6 +1164,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "44D531177BD53816"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Desert or Beach: Evolved Pokemon"
@@ -1195,12 +1201,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0C37F45BCACC8B1B"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Soil, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: 0.0d
-			description: ["These pokemon spawn in the treetops, on leaves. You can use shears to create leaf habitats to increase the spawn area."]
+			description: ["These pokemon spawn in the treetops, on leaves. You can use shears to create leaf habitats to increase the spawn area. Burmy will only spawn if it is not raining."]
 			dependencies: ["30EB23683E1A1D4C"]
 			id: "26E8FEA03877DF1C"
 			tasks: [
@@ -1232,11 +1243,16 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "19FA76BC51019C7C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			x: -12.0d
 			y: -1.0d
-			description: ["Sedinja will spawn on treetops if a soul torch, campfire, or lantern is nearby. Burmy will only spawn if it is not raining."]
+			description: ["Sedinja will spawn on treetops if a soul torch, campfire, or lantern is nearby. Wormadam will only spawn if it is not raining."]
 			dependencies: ["26E8FEA03877DF1C"]
 			id: "7AB50CCEDEACBAEC"
 			tasks: [
@@ -1268,6 +1284,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "2F9DAF5AA0AC4CC4"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Outside: Basic Pokemon"
@@ -1305,6 +1326,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "148C279908767AD2"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Outside: Dragon Alert"
@@ -1321,6 +1347,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "17488EDD3B9D6B35"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -1340,15 +1371,6 @@
 					invertUsed: false
 				}
 				{
-					id: "1FB4E32D3B684D03"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "Golem"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
 					id: "1C56CE7D04C25318"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "Boldore"
@@ -1357,14 +1379,17 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
+			]
+			rewards: [
 				{
-					id: "1B9CA8C1DA37ADE0"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "Gigalith"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
+					id: "095CF6F3BB7FE01D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "5CFA64CB73ACCA98"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -1388,6 +1413,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "6B2E0D84A4690082"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Outside: Salt"
@@ -1404,6 +1434,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "1F32FD87F16180E0"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -1442,6 +1477,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6B81EEEDEADDF848"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Manmade: Coal Pokemon"
@@ -1450,26 +1490,20 @@
 			description: ["Carkol won't spawn without rails at all, and both Carkol and Coalossal benefit from coal blocks."]
 			dependencies: ["770DFC94B9270463"]
 			id: "664A25AEC315B9A1"
-			tasks: [
-				{
-					id: "2C8120CAAB42FBC9"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "carkol"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "1C4507F3B8C2817C"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "coalossal"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "2C8120CAAB42FBC9"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "carkol"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "464C326E2967B1AC"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Manmade: Evolved Pokemon"
@@ -1488,15 +1522,6 @@
 					invertUsed: false
 				}
 				{
-					id: "6F1A7D0074C27F3C"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "Klinklang"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
 					id: "2F94E16B3C0BB1A8"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "Probopass"
@@ -1506,6 +1531,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7C79DC8AB69FE9A8"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Flying: Basic Pokemon"
@@ -1521,6 +1551,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "7B3B0DFD7006DEBF"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -1563,13 +1598,18 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "2C0F7D1A83F13B18"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: 3.5d
 			description: [
-				"Charjabug is ironically more prevalant than Grubbin, because it was more resilience in the face of the apocalypse."
+				"Charjabug is ironically more prevalant than Grubbin, because it was more resilient in the face of the apocalypse."
 				""
 				"Grubbin is an excellent source of dirt."
 			]
@@ -1604,6 +1644,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "225C20CA7BAC988D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Beach: Basic Pokemon"
@@ -1641,6 +1686,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7A5AC87482A150A7"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Beach or Desert: Starter Alert"
@@ -1662,11 +1712,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "0B5B08695D6B70BF"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Beach: Evolved Pokemon"
 			x: -13.5d
 			y: 2.5d
+			description: ["The evolved Pokemon one expects in the area."]
 			dependencies: ["148CC9E8BB3FA4F4"]
 			id: "74434D0B45A5D177"
 			tasks: [
@@ -1698,6 +1754,13 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "754D59475FE6B552"
+				type: "random"
+				title: "A bit of Beach Rock."
+				icon: "pixelmon:hard_stone"
+				table_id: 2814089263628472958L
+			}]
 		}
 		{
 			title: "Stone, Desert: Basic Pokemon"
@@ -1726,6 +1789,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5A2B94822EBA2A60"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Desert: Evolved Pokemon"
@@ -1753,6 +1821,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "769657FA356EE231"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Underground: Basic Pokemon"
@@ -1794,6 +1867,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "06C75D205F79F804"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Underground: Alolan"
@@ -1815,6 +1893,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "06AC6B0232EB1E93"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Underground: Dragon Alert"
@@ -1832,38 +1915,39 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "0AC01487B3AA3F6F"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Underground: Coal Pokemon"
 			x: 2.5d
 			y: 2.5d
-			description: ["Carkol won't spawn without rails at all, and both Carkol and Coalossal benefit from coal blocks."]
+			description: ["Carkol won't spawn without rails at all, and benefits from coal blocks."]
 			dependencies: ["45826C37A818648D"]
 			id: "26A01FC404BAE09E"
-			tasks: [
-				{
-					id: "575A8D5EF5513016"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "carkol"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "5C717B7677ED8FA2"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "coalossal"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "575A8D5EF5513016"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "carkol"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3FE29A1D5D02FF53"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
+			title: "Stone, Underground: Evolved Pokemon"
 			x: 3.5d
 			y: 2.5d
+			description: ["The expected evolved pokemon are here. Alolan graveler can also be lured out with a bit of redstone dust."]
 			dependencies: ["45826C37A818648D"]
 			id: "23FBD7552CDA7B09"
 			tasks: [
@@ -1877,31 +1961,25 @@
 					invertUsed: false
 				}
 				{
-					id: "6AF806652256F7F9"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "gigalith"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
 					id: "445E28DDD1553979"
 					type: "pixelmon:defeat_pokemon"
-					pokemon: "graveler"
+					pokemon: "graveler form:none"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
+			]
+			rewards: [
 				{
-					id: "2CA6D9E53D1B1B7B"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "golem"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
+					id: "43E7B1ADF810F53D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6B5816FFE40E255B"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
 				}
 			]
 		}
@@ -1932,6 +2010,18 @@
 					invertUsed: false
 				}
 			]
+			rewards: [
+				{
+					id: "2D19AE80463DE125"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "1D00CEC4F91C2002"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Stone, Indoor: Torches"
@@ -1948,6 +2038,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "086F30FDE8EBF5FF"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -1966,6 +2061,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "6BB3842A601B3FF8"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Indoor: Lights"
@@ -1974,26 +2074,20 @@
 			description: ["These pokemon are increasingly hard to lure out. They are attracted to torches, street lights, and lanterns. "]
 			dependencies: ["711380497D152C0E"]
 			id: "3A6A6F48DC07A3CC"
-			tasks: [
-				{
-					id: "5AD6BB42294CBCE4"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "lampent"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "468D94F5A4738CF4"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "chandelure"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "5AD6BB42294CBCE4"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "lampent"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "388654BADC64D724"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Indoor: Basic Pokemon"
@@ -2031,6 +2125,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "24067076FE40B624"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Indoor: Evolved Pokemon"
@@ -2042,11 +2141,16 @@
 			tasks: [{
 				id: "5BE1DD2BDC96D7E8"
 				type: "pixelmon:defeat_pokemon"
-				pokemon: "claydol"
+				pokemon: "claydol palette:none"
 				count: 1
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "264C129F4A765EA9"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -2085,6 +2189,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "3A1CC6C842815952"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Water: Evolved Pokemon"
@@ -2113,6 +2222,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "55402042B20DF599"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Underground Water: Basic Pokemon"
@@ -2150,24 +2264,20 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "039C658EB4475D06"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Underground Water: Evolved Pokemon"
-			x: 13.5d
+			x: 13.0d
 			y: 2.5d
 			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["1D4BCC0EF390707F"]
 			id: "440D6CE722F60732"
 			tasks: [
-				{
-					id: "76D2949F3EDD663B"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "milotic palette:spirit"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 				{
 					id: "0E757F07728F2C6E"
 					type: "pixelmon:defeat_pokemon"
@@ -2196,12 +2306,19 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "13E3D7CF97CDF3DC"
+				type: "choice"
+				title: "A Choice Between Clamperls..."
+				icon: "minecraft:turtle_egg"
+				table_id: 9156437767907141858L
+			}]
 		}
 		{
 			title: "Deep Dark, Land: Basic Pokemon"
 			x: -3.0d
 			y: 7.5d
-			description: ["The most common of these are  Lileep and Cranidos. Rhyhorn and Shieldon are of a middle rarity. Tyrunt is very rare."]
+			description: ["The most common of these are  Lileep and Cranidos. Rhyhorn and Shieldon are of a moderate rarity. "]
 			dependencies: [
 				"33F3BC4988F99C76"
 				"71F569F2FA23FEBD"
@@ -2244,23 +2361,19 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "053D64ECCCB85D68"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "tyrunt"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "22FD4177DBA2ADD4"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Land and Manmade: Yamask"
 			x: -5.0d
 			y: 6.5d
 			description: [
-				"A certain form of yamask will spawn if provided with sandstone."
+				"A certain form of yamask will spawn if provided with sandstone and cut sandstone."
 				""
 				"Sandstone will suppress some, but not all, other spawns, such as aron and golett."
 			]
@@ -2276,11 +2389,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "250AF5D7FBFB4F5C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Land: Evolved Pokemon"
 			x: -3.0d
 			y: 6.5d
+			description: ["The expected evolved Pokemon are here."]
 			dependencies: ["209118D09A8F9B6B"]
 			id: "008ADFE3FF83863E"
 			tasks: [
@@ -2288,15 +2407,6 @@
 					id: "0FE869B7E0877121"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "rhydon palette:pink"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "2FC6DCF30D22C06B"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "rhyperior palette:pink"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
@@ -2321,15 +2431,6 @@
 					invertUsed: false
 				}
 				{
-					id: "237314C7B415C89B"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "tyrantrum"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
 					id: "146040509123A8BF"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "bastiodon"
@@ -2339,6 +2440,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "48BF3C91D8CC06EC"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Land and Manmade: Evolved Yamask"
@@ -2355,6 +2461,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "625A55E9A3A4FF60"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -2393,6 +2504,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "753D84905557C9F7"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Underground: Onix"
@@ -2413,6 +2529,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "4FFB351859A0B147"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -2435,40 +2556,39 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "1C9685C412A632E6"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
-			title: "Deep Dark, Underground: Evolved Iron"
+			title: "Deep Dark, Underground: Evolved Aron"
 			x: 2.5d
 			y: 6.5d
 			description: ["These Pokemon are exceptionally rare. Nothing other than a steel lure can help draw them out. They are sought after for their steel and iron."]
 			dependencies: ["3B78C82ABB42D156"]
 			id: "42C29A14700AB9C2"
-			tasks: [
-				{
-					id: "3FB7EC15B6436AAF"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "Lairon"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "7857974DCDBC70B8"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "Aggron"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "3FB7EC15B6436AAF"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Lairon"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "1723578AEB474832"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Underground: Steelix"
 			x: 1.5d
 			y: 5.5d
-			description: ["Steelix can be attracted to a mix of boulders and steel blocks. It is highly sought after because it ingests several types of ore. It is the only Pokemon that occasionally drops iron ore."]
+			description: ["Steelix can be attracted to a mix of boulders and steel blocks. It is highly sought after because it ingests several types of ore. It is the only Pokemon that occasionally drops iron ore, and it is very rare."]
 			dependencies: ["5AE800F5DBAEBD99"]
 			id: "0E4959116418C8C2"
 			tasks: [{
@@ -2480,6 +2600,21 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [
+				{
+					id: "0C0546EEEEE91CF9"
+					type: "command"
+					title: "You find this strange Boulder..."
+					icon: "pixelmon:boulder"
+					command: "/pokegive @p onix n:careful ab:sturdy ivhp:31 ivatk:31 ivspd:31 ivdef:31 spd:0 move1:dragon_tail move2:sandstorm move3:rock_throw move4:spikes egg g:male ball:dream_ball untradeable"
+					player_command: false
+				}
+				{
+					id: "66CD463F8B54B699"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Flying: Basic Pokemon"
@@ -2508,6 +2643,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "25731B17042C5046"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Flying: Evolved Pokemon"
@@ -2536,12 +2676,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5610E09E1687C14D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Treetops:  Basic Pokemon"
 			x: -11.5d
 			y: 7.5d
-			description: ["Only one fossil Pokemon lurks in these trees"]
+			description: ["Only one fossil Pokemon lurks in these trees."]
 			dependencies: ["71F569F2FA23FEBD"]
 			id: "5CF74CADD99868B6"
 			tasks: [{
@@ -2553,11 +2698,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "310230308F3B131A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Treetops: Evolved Pokemon"
 			x: -11.5d
 			y: 6.5d
+			description: ["The evolved form is also present."]
 			dependencies: ["5CF74CADD99868B6"]
 			id: "4FB23B34E533E325"
 			tasks: [{
@@ -2568,6 +2719,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "17686BCAA49CFB06"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -2615,6 +2771,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1AB44DBAAE4B39E2"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Beach: Evolved Pokemon"
@@ -2660,6 +2821,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0963015B70146A78"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Beach: Starter Alert"
@@ -2676,6 +2842,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "4744FF6728A4C812"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 		{
@@ -2705,11 +2876,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "632F05EBF36EA04D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Desert: Evolved Pokemon"
 			x: -15.5d
 			y: 6.5d
+			description: ["Positively Excellent Evolved Pokemon."]
 			dependencies: ["3B379686E677013A"]
 			id: "6C61FF19EFA8085D"
 			tasks: [
@@ -2732,13 +2909,19 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "37839DD09FD652A8"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Underground and Indoors: Yamask"
 			x: 4.5d
 			y: 6.5d
-			description: ["Yamask will only spawn on sandstone."]
+			description: ["Yamask will only spawn on sandstone and cut sandstone."]
 			dependencies: ["3B78C82ABB42D156"]
+			dependency_requirement: "one_completed"
 			id: "7F465C14B40791AB"
 			tasks: [{
 				id: "3139B7481BF762A1"
@@ -2748,6 +2931,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "0ACF04CE70877E27"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -2765,6 +2953,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "147A69DA0FF0F422"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -2812,11 +3005,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "28DC47448152A4D7"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Manmade:  Evolved Pokemon"
 			x: -7.0d
 			y: 6.5d
+			description: ["These Pokemon are quite rare. A steel lure can lure out both of them."]
 			dependencies: ["36EB6BB9F7538A21"]
 			id: "0E3761F293EA1CB4"
 			tasks: [
@@ -2838,16 +3037,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "69EAE905D573AED5"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "aggron"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "2D961812097D2376"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Manmade: Poke Ball"
@@ -2880,6 +3075,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "66D5208A9652E868"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Manmade: Sword"
@@ -2896,6 +3096,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "09433214CDC389F5"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -2914,6 +3119,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "456BA07693C9EAB8"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Indoor: Sword"
@@ -2931,13 +3141,21 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "742D557E3D240658"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Indoor: Basic Pokemon"
 			x: 6.5d
 			y: 7.5d
 			description: ["The Pokemon down here are like a great archaeological find!"]
-			dependencies: ["71F569F2FA23FEBD"]
+			dependencies: [
+				"71F569F2FA23FEBD"
+				"7F465C14B40791AB"
+			]
 			id: "4F4B3AF752C88FF5"
 			tasks: [
 				{
@@ -2959,11 +3177,16 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7546F66B77146D2A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Indoor: Evolved Pokemon"
 			x: 6.5d
-			y: 5.5d
+			y: 6.0d
 			description: ["Unfortuntely, the fact that Bronzong and Metang share both types, psychic and steel, means no lure can differentiate between them."]
 			dependencies: ["4F4B3AF752C88FF5"]
 			dependency_requirement: "one_completed"
@@ -2987,16 +3210,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "271A9488AE91BD03"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "Metagross"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "7618B49E7B9A0011"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Indoor: Rare Pokemon"
@@ -3025,6 +3244,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "69E17CF43BB9DE84"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Indoor: Sword"
@@ -3041,6 +3265,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "4AE1715D57FA50B8"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -3088,6 +3317,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "41F9243AA8147C49"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Water: Evolved Pokemon"
@@ -3105,6 +3339,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "4CFD50C9F59DA2F4"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Water: Starter Alert"
@@ -3120,6 +3359,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "59D1F3A31E44B90C"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 		{
@@ -3167,11 +3411,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "4F69868F888DA89A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Deep Dark, Underground Water: Evolutionary Pokemon"
 			x: 13.5d
 			y: 6.5d
+			description: ["The expected evolutionary forms can be found here."]
 			dependencies: ["1D36FE37DDEB3FD1"]
 			id: "336CB9ECC50A8FA5"
 			tasks: [
@@ -3203,6 +3453,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "4F0D58A9052968F5"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Outside: Basic Pokemon"
@@ -3308,6 +3563,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "38DB3B24332F61B1"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Outside: Evolved Pokemon"
@@ -3336,6 +3596,27 @@
 					invertUsed: false
 				}
 			]
+			rewards: [
+				{
+					id: "62A3AECBDFB8959C"
+					type: "command"
+					title: "Oh. Oh gross. The Swalot puked all over you. Wait, what is this?"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "tconstruct:textures/block/slime/dirt/ender.png"
+						}
+					}
+					command: "/pokegive @p gulpin n:quiet ab:liquidooze ivhp:31 ivspatk:31 ivspd31 ball:dream_ball move1:yawn move2:gastro_acid move3:stuff_cheeks move4:pain_split untradeable g:male egg"
+					player_command: false
+				}
+				{
+					id: "07F3884BEC153BDB"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Murk, Outside: Dragon Alert"
@@ -3352,6 +3633,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "66B288356B926189"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -3403,6 +3689,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "10970BA1D3072F63"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Manmade: Special Pokemon"
@@ -3419,6 +3710,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "65143B169A66E6E3"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -3464,6 +3760,20 @@
 					invert: false
 					usedPokemonSpec: ""
 					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "748C97E8527080EA"
+					type: "random"
+					title: "Random Piece of Garbage"
+					icon: "pixelmon:trash_can"
+					table_id: 722149374975406188L
+				}
+				{
+					id: "6C16A22D00AF4404"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
 				}
 			]
 		}
@@ -3512,6 +3822,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "76434FD7B63A36E2"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Flying: Basic Pokemon"
@@ -3529,6 +3844,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "021541D9DF8430B6"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -3576,6 +3896,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7ACBF89364D76A63"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Beach: Basic Pokemon"
@@ -3613,6 +3938,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1F43E0ACACA99336"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Beach: Dragon Alert"
@@ -3629,6 +3959,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "1B98BAC913095CAB"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -3647,6 +3982,19 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [
+				{
+					id: "1D3A42076ACD7EAE"
+					type: "item"
+					item: "biomesoplenty:mud"
+					count: 16
+				}
+				{
+					id: "251B460CAEBEC1A3"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Murk, Beach: Evolved Pokemon"
@@ -3684,6 +4032,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5D3988BF5DE2C57D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, : Basic Pokemon"
@@ -3712,6 +4065,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7CDA6B15223DFA8F"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Desert: Evolved Pokemon"
@@ -3728,6 +4086,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "5BD50295B978F28F"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -3781,12 +4144,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1AFB38F96985FBCC"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Underground: Special Pokemon"
 			x: 2.0d
 			y: -5.5d
-			description: ["This pokemon will only spawn if there is podzol or mycelium."]
+			description: ["This pokemon will only spawn if there is podzol or mycelium. What a silly little guy this is."]
 			dependencies: ["39FFD21ED5C990A0"]
 			id: "7A701036A17391E4"
 			tasks: [{
@@ -3798,11 +4166,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "73F151DCC758DC57"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Underground: Evolved Special Pokemon"
 			x: 2.0d
 			y: -6.5d
+			description: ["Oh! What a silly big guy this is. "]
 			dependencies: ["7A701036A17391E4"]
 			id: "2653B3993FCE7B2D"
 			tasks: [{
@@ -3813,6 +4187,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "62A7E8F315E6229C"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 		{
@@ -3842,6 +4221,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "44182B738ED7022E"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Indoors: Basic Pokemon"
@@ -3879,6 +4263,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "432AAB8951BDE95F"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Indoors: Evolved Pokemon"
@@ -3907,12 +4296,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "77D71A2ABB06AEF4"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Indoors: Rare Pokemon"
 			x: 5.5d
 			y: -5.5d
-			description: ["Charcadet is very rare, but it is nevertheless possible to find one among the stufful, snubbul, and mimikyu."]
+			description: ["Charcadet is very rare, but it is nevertheless possible to find one among the Stufful, Snubbul, and Mimikyu."]
 			dependencies: ["6EA84F435C5B661E"]
 			id: "5AE68A68842FF86A"
 			tasks: [{
@@ -3923,6 +4317,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "263D267FE5741A6D"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -3952,6 +4351,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5E1A12CA27C60240"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Water: Basic Pokemon"
@@ -3989,6 +4393,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "73E134F67750C0B6"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Water: Evolved Pokemon"
@@ -4005,6 +4414,14 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "772D41702DDBFD30"
+				type: "command"
+				title: "Steal Pokemon Egg! Oh no. You got the wrong kind of Qwilfish. Well, it's a determined fellow."
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p qwilfish ball:dream_ball ab:intimidate n:jolly ivatk:31 ivspd:31 move1:destiny_bond move2:barb_barrage move3:flip_turn g:male untradeable"
+				player_command: false
 			}]
 		}
 		{
@@ -4034,6 +4451,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "16D24B2FAC693C92"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Murk, Underground Water: Evolved Pokemon"
@@ -4050,6 +4472,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "4DA31783459E42D4"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -4119,6 +4546,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "67AF378EC296F41C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Outside: Time of Day Pokemon"
@@ -4165,6 +4597,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "041CA7902002AA1F"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Manmade and Outside: Special Pokemon"
@@ -4184,6 +4621,11 @@
 				count: 1
 				invert: false
 				catchType: 1b
+			}]
+			rewards: [{
+				id: "67CB2ED3FE80CB60"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 		{
@@ -4235,6 +4677,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "171FCD4D723B6975"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle Manmade: Evolved Pokemon"
@@ -4281,6 +4728,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "587C24CAD1C5D896"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Underground: Basic Pokemon"
@@ -4322,6 +4774,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "4CFA15E568ACA7F1"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Underground: Dragon Alert"
@@ -4339,6 +4796,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "6032FFA930632D9B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Underground: Evolved Pokemon"
@@ -4351,7 +4813,7 @@
 				{
 					id: "2365AEE0CAFF9D3D"
 					type: "pixelmon:defeat_pokemon"
-					pokemon: "breloom"
+					pokemon: "breloom palette:spirit"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
@@ -4376,6 +4838,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5B3020D0FBC03D8F"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Underground and Indoors: Special Pokemon"
@@ -4396,6 +4863,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "353720D80BD6133A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -4423,6 +4895,18 @@
 					invert: false
 					usedPokemonSpec: ""
 					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "166AA4DF0AC91EEC"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "653A8ECCB7FF45DE"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
 				}
 			]
 		}
@@ -4466,6 +4950,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1F68602BD2D0FE88"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Indoors: Evolved Pokemon"
@@ -4479,15 +4968,6 @@
 					id: "53E65A6B4C09FFE7"
 					type: "pixelmon:defeat_pokemon"
 					pokemon: "hattrem"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "59E13B4D30604AD3"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "hatterene"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
@@ -4511,16 +4991,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "4B45245ACA91FA00"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "gothitelle"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "61ACB6E4C69420DA"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Water: Basic Pokemon"
@@ -4558,6 +5034,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7F8B0F9F73834986"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Water: Rare Pokemon"
@@ -4574,6 +5055,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "16EDABCD8906E284"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -4592,6 +5078,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "498FDF5F0014B06B"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Underground Water: Basic Pokemon"
@@ -4608,6 +5099,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "138C39D8A488524E"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -4637,6 +5133,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "39D0CBACC4620FA6"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle : Basic Pokemon"
@@ -4653,6 +5154,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "41D2E230311F982E"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -4700,6 +5206,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "49F018A37A7BD2C0"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Treetops: Basic Pokemon"
@@ -4746,6 +5257,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0E1458009B6D7C1A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Beach: Basic Pokemon"
@@ -4783,6 +5299,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "44C796263DFD549F"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Beach: Evolved Pokemon"
@@ -4811,6 +5332,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "597A952BD6BE3579"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Desert: Basic Pokemon"
@@ -4839,6 +5365,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "69ABF0D13A2F1F40"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Desert: Evolved Pokemon"
@@ -4855,6 +5386,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "497C0D25AEEC9EA1"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -4902,6 +5438,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7789474FAC4EB652"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Outside: Time of Day Pokemon"
@@ -4930,6 +5471,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "2639B3444490F59C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Outside: Evolved Pokemon"
@@ -4966,16 +5512,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "671F05BC1F94292C"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "florges"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "0346DC4071A5DC27"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Outside: Starter Alert"
@@ -4992,6 +5534,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "2372644DA8FA859B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -5021,6 +5568,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "66C4B1DE48734923"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Manmade: Poke Ball"
@@ -5049,6 +5601,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "65C7A7ECCCDA8EBD"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Manmade: Time of Day Pokemon"
@@ -5076,6 +5633,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0996CBD9302F14AF"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Manmade: Evolved Pokemon"
@@ -5113,6 +5675,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6F149A8D629FD16A"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Manmade: Special Pokemon"
@@ -5130,11 +5697,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "3D856AB5A13552C5"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Manmade: Special Evolved Pokemon"
 			x: -8.0d
 			y: -13.5d
+			description: ["These evolved forms of Magnemite must be attracted by special structures."]
 			dependencies: ["1838D05497C15169"]
 			id: "24783E65D925BECE"
 			tasks: [
@@ -5157,6 +5730,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "3EECD7F6EB937190"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Flying: Basic Pokemon"
@@ -5173,6 +5751,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "1E25A5CED167DB23"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -5221,6 +5804,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "730BCA8B60640510"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Flying: Evolved Dragon Alert"
@@ -5249,6 +5837,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "04483B540647D9AF"
+				type: "item"
+				item: "pixelmon:xl_exp_candy"
+			}]
 		}
 		{
 			title: "Stone, Flying: Evolved Dragon Alert"
@@ -5266,6 +5859,23 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [
+				{
+					id: "37F0E15A54650061"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "5D2A03FF981CE4BC"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "6B916F59E28CA1E1"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Deep Dark, Flying: Evolved Dragon Alert"
@@ -5283,6 +5893,23 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [
+				{
+					id: "31D0C9E0C7EB135A"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "5E4F806011752F95"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "2FFDDE8545195BC5"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Air, Treetops: Basic Pokemon"
@@ -5324,6 +5951,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "64DA728579293AA7"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Treetops: Evolved Pokemon"
@@ -5361,6 +5993,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "44A8CF5BB19C793A"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Treetops: Starter Alert"
@@ -5395,6 +6032,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "09CC00D5D08D2ABE"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Beach: Basic Pokemon"
@@ -5427,10 +6069,15 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "4B6AC26BB724B76D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Beach: Dragon Alert"
-			x: -14.0d
+			x: -13.5d
 			y: -12.5d
 			description: ["Although very rare, it appears Shelgon can be found here. These Shelgon seem to have survived the same way Pupitar did on lower layers. Either that, or it has something to do with Salamence flying by."]
 			dependencies: ["37065D461958B53F"]
@@ -5444,13 +6091,21 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "5D678523F7025D26"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
-			title: "Air, Beach: Evolved Pokemon"
-			x: -13.0d
+			title: "Air, Beach \\& Desert: Evolved Pokemon"
+			x: -14.5d
 			y: -12.5d
 			description: ["The expected evolved Pokemon are here."]
-			dependencies: ["37065D461958B53F"]
+			dependencies: [
+				"37065D461958B53F"
+				"195BAA48092A38AC"
+			]
 			id: "5DF24CCAF6EC5B2B"
 			tasks: [{
 				id: "1B3F97BD96FFD1F8"
@@ -5460,6 +6115,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "45C4912F614A9951"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -5498,22 +6158,10 @@
 					invertUsed: false
 				}
 			]
-		}
-		{
-			title: "Air, Desert: Evolved Pokemon"
-			x: -15.5d
-			y: -12.5d
-			description: ["The expected evolved Pokemon are here."]
-			dependencies: ["195BAA48092A38AC"]
-			id: "1220B4030B3CCA75"
-			tasks: [{
-				id: "19AD4F22832E28A2"
-				type: "pixelmon:defeat_pokemon"
-				pokemon: "brambleghast"
-				count: 1
-				invert: false
-				usedPokemonSpec: ""
-				invertUsed: false
+			rewards: [{
+				id: "253EC6F6BB334260"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -5556,6 +6204,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "62D9C61BF3856F1D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Underground: Evolved Pokemon"
@@ -5602,6 +6255,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6EF97076703AD7A6"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Indoors: Basic Pokemon"
@@ -5637,6 +6295,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6AF9F1D8E9446E88"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Indoors: Poke Ball"
@@ -5665,6 +6328,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "5D6C77C0FCFAC75B"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Indoors: Special Pokemon"
@@ -5682,11 +6350,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "3B6B6C82A28422A1"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Indoors: Special Evolved Pokemon"
 			x: 5.0d
 			y: -13.5d
+			description: ["These evolved forms of Magnemite must be attracted by special structures."]
 			dependencies: ["2C689955BCE516EB"]
 			id: "7E3D4165203EE12A"
 			tasks: [
@@ -5709,6 +6383,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1D2561BB2215A86E"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Indoors: Evolved Pokemon"
@@ -5737,6 +6416,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "22038D63515DD1C8"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Indoors: Starter Alert"
@@ -5757,6 +6441,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "50B351D71F485807"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -5786,6 +6475,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6A735F02CCDAFDED"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Water: Evolved Pokemon"
@@ -5823,6 +6517,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0DC8C2406D2DC070"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Underground Water: Basic Pokemon"
@@ -5839,12 +6538,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "03AD9EDA38EA58C4"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Underground Water: Evolved Pokemon"
-			x: 13.5d
+			x: 13.0d
 			y: -12.5d
-			description: ["You've found the Flygon responsible for the beach Trapinch. It's not looking well."]
+			description: ["You've found an unfortunately looking Lumineon."]
 			dependencies: ["596D4F30EDA75B30"]
 			id: "0A06F527457DBBB6"
 			tasks: [
@@ -5866,16 +6570,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "29849ABC14FC4991"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "flygon palette:drowned"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "4B5B51DC274D7A3A"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Outside: Basic Pokemon"
@@ -5904,6 +6604,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "407097F0BB4302A7"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Outside: Weather Pokemon"
@@ -5920,6 +6625,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "502F60872BE1E893"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 		{
@@ -5953,6 +6663,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "64D0B915393E2F5A"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Outside: Evolved Pokemon"
@@ -5969,6 +6684,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "432E35C8F09E4468"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -5998,6 +6718,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "26B94038ACE97E7E"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Manmade: Evolved Pokemon"
@@ -6026,6 +6751,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "65D53F3704B51D32"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Manmade: Basic Pokemon"
@@ -6063,6 +6793,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "1E5A8F28870527A7"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Manmade: Special Pokemon"
@@ -6079,6 +6814,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "247581A5DC786C3C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -6117,6 +6857,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7EE6237B4AC5084D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Underground: Special Pokemon"
@@ -6138,11 +6883,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "24096A304927F8B3"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Underground: Special Evolved Pokemon"
 			x: 4.0d
 			y: -17.0d
+			description: ["This Steelix will need some conditions met to be spawned. Firstly, it will need boulders. Secondly, it most probably needs a block of sapphire."]
 			dependencies: ["7378567BB50B2593"]
 			id: "29F0DF6D23B022AC"
 			tasks: [{
@@ -6154,12 +6905,27 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [
+				{
+					id: "2DC1AD72A8612F42"
+					type: "command"
+					title: "You find this strange roundish crystal left behind."
+					icon: "pixelmon:crystal"
+					command: "/pokegive @p onix palette:crystal n:adamant ab:rockhead ivhp:31 ivatk:31 ivspd:31 ivdef:31 spd:0 move1:head_smash move2:sandstorm move3:take_down move4:coil g:female ball:dream_ball untradeable egg"
+					player_command: false
+				}
+				{
+					id: "43016770A44108B2"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
 		}
 		{
 			title: "Ice, Underground: Evolved Pokemon"
 			x: 3.0d
 			y: -16.0d
-			description: ["Ferrothorn is so uncommon as to be virtually impossible to find. You know of no way to attract more of them."]
+			description: ["You can find a small number of non-ghostly Marowak here. You surmise they may be Cubone who have evolved early due to the envrionmental stress. The cubone themselves are likely the descendents of the Ghostly Alolan Marowak."]
 			dependencies: ["4C4C1980855957CB"]
 			id: "7BC789305F00E37D"
 			tasks: [
@@ -6181,16 +6947,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "1C4742018B935CE2"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "ferrothorn"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "3B9DB804FDE8106F"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Underground: Christmas Pokemon"
@@ -6207,6 +6969,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "373F9257F384A09A"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -6245,6 +7012,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "00C983259DE07B37"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Indoors: Lady Pokemon"
@@ -6273,6 +7045,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "7565F27CDDAE0537"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Indoors: Christmas Pokemon"
@@ -6289,6 +7066,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "03DEBCF075C86851"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -6307,6 +7089,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "7E5DB87D7E18D556"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Indoors: Evolved Pokemon"
@@ -6319,7 +7106,7 @@
 				{
 					id: "1B48C2424D9BC195"
 					type: "pixelmon:defeat_pokemon"
-					pokemon: "zoroark"
+					pokemon: "zoroark form:none"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
@@ -6328,13 +7115,18 @@
 				{
 					id: "5BD6B586867F5505"
 					type: "pixelmon:defeat_pokemon"
-					pokemon: "ninetales"
+					pokemon: "ninetales form:none"
 					count: 1
 					invert: false
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "43FB6E5180361FC0"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Indoors: Rare Pokemon"
@@ -6352,6 +7144,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "45E7BA3AB51CED80"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Indoors: Special Pokemon"
@@ -6368,6 +7165,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "5AFBA4DC96D89641"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -6424,6 +7226,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "49156D514AED0A63"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Treetops: Basic Pokemon"
@@ -6470,6 +7277,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "674901F04BF8D270"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Beach: Basic Pokemon"
@@ -6498,6 +7310,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6408ED3A60C6060D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Beach: Special Pokemon"
@@ -6515,6 +7332,14 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "3C9401286718BFF6"
+				type: "command"
+				title: "The Other Kind of Penguin... (Obtain an Egg From Ice Block)"
+				icon: "minecraft:ice"
+				command: "/pokegive delibird n:timid ivspatk:31 ivdef:31 ivspdef:31 ivspd:31 ab:insomnia move1:fakeout move2:aurora_veil move3:rapid_spin move4:memento ball:cherish_ball g:female egg"
+				player_command: false
+			}]
 		}
 		{
 			title: "Ice, Beach: Evolved Pokemon"
@@ -6531,6 +7356,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "3675CF76F0CE99F3"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -6560,6 +7390,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "2ABAD419951B12EC"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Water: Basic Pokemon"
@@ -6576,6 +7411,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "4D2E42C89A4F93EE"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -6594,6 +7434,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "53B5B999229A5220"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Water: Dragon Alert"
@@ -6610,6 +7455,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "452FFD82AD9B5C3F"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -6628,6 +7478,14 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "6C677051C3EA4374"
+				type: "command"
+				title: "A piece of Avalugg breaks off and... stays with you?"
+				icon: "minecraft:ice"
+				command: "/pokegive @p Bergmite ivhp:31 ivatk:31 ivdef:31 ivspdef:31 ivspd:0 n:brave ab:sturdy move1:aurora_veil move2:mirror_coat move3:mist move4:rapid_spin g:male untradeable ball:dream_ball egg"
+				player_command: false
+			}]
 		}
 		{
 			title: "Ice, Underground Water: Basic Pokemon"
@@ -6645,10 +7503,15 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "1D6AA85095E98060"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Ice, Underground Water: Evolved Pokemon"
-			x: 13.5d
+			x: 13.0d
 			y: -16.0d
 			description: ["You have found that Kingdra you were looking for, and it doesn't look healthy. But there is another surprise: A Rapidash? You wonder if it even has any fire left in it..."]
 			dependencies: ["62B283578DF528E1"]
@@ -6672,16 +7535,12 @@
 					usedPokemonSpec: ""
 					invertUsed: false
 				}
-				{
-					id: "479DCA47D22C0797"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "flygon palette:drowned"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
 			]
+			rewards: [{
+				id: "4D1AD26D8B6CE025"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Outside: Basic Pokemon"
@@ -6710,6 +7569,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "26DF359AE5AACA2A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Manmade: Basic Pokemon"
@@ -6747,11 +7611,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "558CFA7ED40653C3"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Manmade: Evolved Pokemon"
 			x: -7.0d
 			y: -19.5d
+			description: ["Of all these Pokemon's evolutionary forms, only the Chimecho seems to be found here."]
 			dependencies: ["4591C6E893504E01"]
 			id: "5050B7EFE20CCB3B"
 			tasks: [{
@@ -6762,6 +7632,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "065BFD8E47F2854A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -6791,6 +7666,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "13CB98CE0668DB8C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Treetops: Basic Pokemon"
@@ -6837,6 +7717,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6B8D14C596D0ECF1"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Beach and Tree Tops: Topss-Turvy Pokemon"
@@ -6858,11 +7743,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "7210D3A39255989A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Treetops: Evolved Pokemon"
 			x: -11.5d
 			y: -19.5d
+			description: ["Of all these Pokemon's evolutionary forms, only the Chimecho seems to be found here."]
 			dependencies: ["7C5BF38CA3062A20"]
 			id: "0A2258B3B71F983C"
 			tasks: [{
@@ -6873,6 +7764,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "297B2349B34FDD5A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -6902,6 +7798,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "4A2BBC730BE38FF2"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Desert: Basic Pokemon"
@@ -6930,6 +7831,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "21ACEA3071A77DB1"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Underground: Basic Pokemon"
@@ -6947,34 +7853,33 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "63427A4B818F5043"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Underground: Evolved Pokemon"
 			x: 3.5d
 			y: -19.5d
-			description: ["Clefairy themselves are few in number, which makes you think the Cleffa everywhere are very new to this world. Clefable is even rarer."]
+			description: ["Clefairy themselves are few in number, which makes you think the Cleffa everywhere are very new to this world."]
 			dependencies: ["0D5FFE8FA710B015"]
 			id: "16D685E1F66ACB6A"
-			tasks: [
-				{
-					id: "7BB391A3F1E60234"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "clefairy"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-				{
-					id: "48E055572EF1FF25"
-					type: "pixelmon:defeat_pokemon"
-					pokemon: "clefable"
-					count: 1
-					invert: false
-					usedPokemonSpec: ""
-					invertUsed: false
-				}
-			]
+			tasks: [{
+				id: "7BB391A3F1E60234"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "clefairy"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "55AD079E2BF31688"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Underground: Time of Day Pokemon"
@@ -7003,6 +7908,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "256B9E3FE049CCED"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Indoors: Basic Pokemon"
@@ -7031,6 +7941,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "6AAF63E3228657A9"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Indoors: Evolved Pokemon"
@@ -7058,6 +7973,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "09B64EA314B4DF4B"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Indoors: Special Pokemon"
@@ -7075,11 +7995,17 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "5452EA220B781BE8"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Indoors: Evolved Rare Pokemon"
 			x: 7.0d
 			y: -20.5d
+			description: ["This neon colored fox will be difficult to find."]
 			dependencies: ["59C0B405C2B6519C"]
 			id: "6DF44032F84F4596"
 			tasks: [{
@@ -7090,6 +8016,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "7F2632F52069D820"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 		{
@@ -7137,6 +8068,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "553319B81A43ADDC"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Water: Evolved Pokemon"
@@ -7165,6 +8101,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "42997DE63736015D"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Underground Water: Basic Pokemon"
@@ -7193,6 +8134,11 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "0647D6DB793A02B6"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Underground Water: Evolved Pokemon"
@@ -7210,6 +8156,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "419F64AE90C0D5C6"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Outside: Evolved Pokemon"
@@ -7226,6 +8177,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "5B94BFEEEEB6F71F"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
 			}]
 		}
 		{
@@ -7254,11 +8210,17 @@
 					invertUsed: false
 				}
 			]
+			rewards: [{
+				id: "007C19EDCDC1972D"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Space, Desert: Evolved Pokemon"
 			x: -15.5d
 			y: -19.5d
+			description: ["You have found a Pokemon of reincarnation and rebirth. It is fitting, in the world you are trying to build."]
 			dependencies: ["1C8781A807735F76"]
 			id: "0218491F9D48E74F"
 			tasks: [{
@@ -7270,10 +8232,16 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "03A384987E4C2C5C"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			x: 14.5d
 			y: -1.0d
+			description: ["It has always been possible to find Dratini in dark, underground waters. You're relieved to see this hasn't changed! Somehow, this magically resilient Pokemon has survived!"]
 			dependencies: ["1B808CB153DB3F25"]
 			id: "7C361902EFF7C0AC"
 			tasks: [{
@@ -7285,6 +8253,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "6EBB90A0403DACAA"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -7303,6 +8276,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "310106F5FC06C87C"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
 		}
 		{
 			title: "Dazzle, Underground Water: Starter Alert"
@@ -7320,6 +8298,11 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [{
+				id: "5D62779EE6671E41"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
 		}
 		{
 			title: "Air, Underground: Dragon Alert"
@@ -7336,6 +8319,11 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "2DDA66FCFF99065A"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
 			}]
 		}
 		{
@@ -7357,6 +8345,649 @@
 				invert: false
 				usedPokemonSpec: ""
 				invertUsed: false
+			}]
+			rewards: [{
+				id: "582FDC47EBB4F933"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -17.0d
+			description: ["Ferrothorn is so uncommon as to be virtually impossible to find. You know of no way to attract more of them. Perhaps a steel lure, but that is all."]
+			dependencies: ["4C4C1980855957CB"]
+			id: "0A33D8A02FB3683A"
+			tasks: [{
+				id: "05376780D6EFD1F2"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "ferrothorn"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "4408FA7BC8D3A8BB"
+				type: "item"
+				item: "pixelmon:xl_exp_candy"
+			}]
+		}
+		{
+			title: "Soil, Manmade: Tier 3 Pokemon"
+			x: -7.0d
+			y: -2.0d
+			description: ["Dusknoir, a third evolution, is extremely rare."]
+			dependencies: ["686CB004B20143BF"]
+			id: "3E294FE484819074"
+			tasks: [{
+				id: "62085F5C02E2F751"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "dusknoir"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "4DC80B656396E4B6"
+					type: "item"
+					item: "pixelmon:reaper_cloth"
+				}
+				{
+					id: "7B471571DBD6AF81"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Soil, Manmade: Evolved Leaden Snails"
+			x: -8.0d
+			y: -2.0d
+			description: [
+				"Escavalier may spawn on manmade blocks, but is rarer than Shelmet. Ironically, Shelmet does not evolve into Escavaleir; Karrablast does, when Shelmet shares its helmet with Karrablast as the two are traded for one another. "
+				""
+				"Since Karrablast is nowhere to be found, this means there's no way to evolve Shelmet into Accelgor. Unless..."
+				""
+				"You could find a Escavalier and try to get it to produce a Karrablast egg!"
+			]
+			dependencies: ["4BB26684D5C497D4"]
+			id: "4CDD2F55D7E5C440"
+			tasks: [{
+				id: "372B0E7B5AE4FDAE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "escavalier palette:spirit"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "290AB5D6DD6A46B9"
+					type: "command"
+					title: "Negotiate for a Pokemon Egg"
+					icon: "minecraft:turtle_egg"
+					command: "/pokegive @p Karrablast untradeable iv_atk:31 iv_spd:31 ab:NoGuard g:female ball:premier_ball"
+					player_command: false
+				}
+				{
+					id: "68AC5C70E138A427"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Deep Dark, Land: Rare Pokemon"
+			x: -2.0d
+			y: 6.5d
+			description: ["Not all of these fossil Pokemon spawn in equal measure. Tyrunt appears to be rarer than the others."]
+			dependencies: ["209118D09A8F9B6B"]
+			id: "5154848678144CB4"
+			tasks: [{
+				id: "4AF9F4109A7F5851"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "tyrunt"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "5E34CB07BB463982"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
+		}
+		{
+			title: "Deep Dark, Land: Rare Evolved Pokemon"
+			x: -2.0d
+			y: 5.5d
+			description: ["Tyrantrum is the rarest of the evolved fossil Pokemon."]
+			dependencies: ["5154848678144CB4"]
+			id: "38FE5CE6BDAD0D0C"
+			tasks: [{
+				id: "58ED622F4EDAF37F"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "tyrantrum"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "7D2DC3AC5660AA57"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Deep Dark, Land: Tier 3 Pokemon"
+			x: -3.0d
+			y: 5.5d
+			description: ["Rhyperior, a third stage evolution, is exceptionally rare."]
+			dependencies: ["008ADFE3FF83863E"]
+			id: "4BE4DA5B865C33E7"
+			tasks: [{
+				id: "6E7FAD68A65F14D1"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "rhyperior palette:pink"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3DEB7DF1818EED79"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Deep Dark, Underground: Evolved Aron X2"
+			x: 2.5d
+			y: 5.5d
+			description: ["These Pokemon are exceptionally rare. Nothing other than a steel lure can help draw them out. They are sought after for their steel and iron."]
+			dependencies: ["42C29A14700AB9C2"]
+			id: "58994E0FC0B8BB46"
+			tasks: [{
+				id: "540A5F2A014AA13B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "aggron"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "220167D12FCB5B67"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Stone, Underground Water: Special Evolved Form"
+			x: 14.0d
+			y: 2.5d
+			description: ["A beautiful and ghostly milotic can be found here."]
+			dependencies: ["1D4BCC0EF390707F"]
+			id: "40AE23FCD6F3480F"
+			tasks: [{
+				id: "20D73181397261E2"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "milotic palette:spirit"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "70BE606593A87303"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			description: ["The mystical Dragonair can be found here, but rarely. Perhaps a Dragon lure might raise spawn levels?"]
+			dependencies: [
+				"7C361902EFF7C0AC"
+				"744C6C546BC0DDD7"
+			]
+			id: "1DBB98325563459A"
+			tasks: [{
+				id: "5BE011DF6C3C7F02"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Dragonair"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "7AB1BB8D1DF5ADDB"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Stone, Manmade: Tier 3 Coal Pokemon"
+			x: -6.0d
+			y: 1.5d
+			description: ["Coalossal spawn more around coal blocks."]
+			dependencies: ["664A25AEC315B9A1"]
+			id: "73D1B21291ED9D72"
+			tasks: [{
+				id: "3E14325C6A8F7EB6"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "coalossal"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3AB439514400238E"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Deep Dark, Manmade: Tier 3 Evolved Pokemon"
+			x: -7.0d
+			y: 5.5d
+			description: ["These Pokemon are exceptionally rare. Nothing other than a steel lure can help draw them out. They are sought after for their steel and iron."]
+			dependencies: ["0E3761F293EA1CB4"]
+			id: "0B21EC540DCA5572"
+			tasks: [{
+				id: "3FEDBB3916D66745"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "aggron"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "68742059D7B82F2B"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Soil, Underground: Dragon Alert!"
+			x: 3.0d
+			y: -1.0d
+			description: ["Ghost dragons, dreepy, are common. "]
+			dependencies: ["50701BB7967BB4A6"]
+			id: "4773223087B14E77"
+			tasks: [{
+				id: "56143B02C11C3E29"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "dreepy palette:spirit"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "71E9AFCE7C9DBBF3"
+				type: "item"
+				item: "pixelmon:s_exp_candy"
+			}]
+		}
+		{
+			title: "Air, Underground Water: Evolved Dragon"
+			x: 14.0d
+			y: -12.5d
+			description: ["You've found the Flygon responsible for the beach Trapinch. It's not looking well."]
+			dependencies: ["596D4F30EDA75B30"]
+			id: "6ECE9CA438EAF3E6"
+			tasks: [{
+				id: "72CDC8AC9511A35C"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "flygon palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "390FC2ED5C353238"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Stone, Underground: Tier 3 Pokemon"
+			x: 3.5d
+			y: 1.5d
+			description: ["These Pokemon can be lured out in the same way as their earlier evolutions; they are just rarer."]
+			dependencies: ["23FBD7552CDA7B09"]
+			id: "36965019C5940749"
+			tasks: [
+				{
+					id: "009839869EA3799E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gigalith"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1CB804F89868E6CB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golem form:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "166B7E780FC61898"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "2FC46E0A1D4A446D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Stone, Underground: Tier 3 Coal Pokemon"
+			x: 2.5d
+			y: 1.5d
+			description: ["Coalossal spawn more around coal blocks."]
+			dependencies: ["26A01FC404BAE09E"]
+			id: "07EBB04E5253D8EB"
+			tasks: [{
+				id: "7E77FEF6A55B9BA0"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "coalossal"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3B759F0E15903E94"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Stone, Outside: Tier 3 Pokemon"
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["7757229CC66CD7AB"]
+			id: "3A2B29E0A848D6DC"
+			tasks: [
+				{
+					id: "60CC3FBD0FB90479"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golem form:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3B6CA2151CF8F796"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gigalith"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "1FD3D7B86C19E89C"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "502C03607B4F1AFD"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Stone, Manmade: Tier 3 Pokemon"
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["5FDBE87CF5994D4D"]
+			id: "4A7FA8E73C021EA0"
+			tasks: [{
+				id: "75291F545E9A13DD"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "klinklang"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "417750A0845C024A"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Soil, Outside: Tier 3 Pokemon"
+			x: -4.0d
+			y: -3.0d
+			description: ["Gloom will drop rafflesia flowers, and placing one on the ground is the only way to attract Vileplume."]
+			dependencies: ["333C38F89726EDDF"]
+			id: "705CE5BDA53C8C06"
+			tasks: [{
+				id: "203F4500132FA4B8"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "vileplume"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "129534B675F32272"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Soil, Underground: Evolved Dragon Pokemon"
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["4773223087B14E77"]
+			id: "2CA2E1CC65525259"
+			tasks: [{
+				id: "4EB43BCCD9D9060E"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "drakloak palette:spirit"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "2BC96A6A55585D6C"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Soil, Indoors: Tier 3 Lights"
+			x: 7.5d
+			y: -3.0d
+			description: ["These pokemon are increasingly hard to lure out. They are attracted to torches, street lights, and lanterns. "]
+			dependencies: ["3E534A78FBA4F1EF"]
+			id: "0B4AE2485CBB1571"
+			tasks: [{
+				id: "456C6BB7F92831D4"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chandelure"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "13DF9E6A8BCAE58C"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			title: "Stone, Indoor: Tier 3 Lights"
+			x: 7.5d
+			y: 0.5d
+			description: ["These pokemon are increasingly hard to lure out. They are attracted to torches, street lights, and lanterns. "]
+			dependencies: ["3A6A6F48DC07A3CC"]
+			id: "7899D75031960833"
+			tasks: [{
+				id: "784D685970E5DB5B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chandelure"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "207DE076EBE09EE9"
+				type: "item"
+				item: "pixelmon:m_exp_candy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -13.5d
+			dependencies: ["52537E203F360D54"]
+			id: "1E09A0C438627535"
+			tasks: [{
+				id: "4D40318400098C45"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "florges"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "322CFD2880AC93C2"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Ice, Underground Water: Evolved Dragon"
+			x: 14.0d
+			y: -16.0d
+			description: ["You've found the Flygon responsible for the beach Trapinch. It's not looking well."]
+			dependencies: ["62B283578DF528E1"]
+			id: "26F94BFEF83E5E88"
+			tasks: [{
+				id: "14AD5BC5C0C0356A"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "flygon palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "1E58BD510BFEC3AF"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Space, Underground: Tier 3 Pokemon"
+			x: 3.5d
+			y: -20.5d
+			description: ["Clefable is simply rare."]
+			dependencies: ["16D685E1F66ACB6A"]
+			id: "5F461497790A0B1D"
+			tasks: [{
+				id: "326F824E796E7F8A"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "clefable"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "58F7C1E5B511CA7F"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Deep Dark, Indoor: Tier 3 Pokemon"
+			x: 6.5d
+			y: 5.0d
+			description: ["Metagross is simply very rare."]
+			dependencies: ["5F0E79E545F54C98"]
+			id: "5D09BBEF404ABF79"
+			tasks: [{
+				id: "6AEE860FD0A7E6DE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "metagross"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "363CFD36C68682F8"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
+			}]
+		}
+		{
+			title: "Dazzle, Indoors: Tier 3 Pokemon"
+			x: 6.5d
+			y: -10.0d
+			description: ["These Pokemon are simply very rare. Cake may lure out one of them."]
+			dependencies: ["3C111A8A3BB7485A"]
+			id: "7CDC73FCB139C50C"
+			tasks: [
+				{
+					id: "250A34B393D62E15"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothitelle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "562C828A1D3B66A7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "hatterene"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [{
+				id: "35CF8A62536DF42F"
+				type: "item"
+				item: "pixelmon:l_exp_candy"
 			}]
 		}
 	]

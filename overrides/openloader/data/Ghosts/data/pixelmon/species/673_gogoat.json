@@ -29,18 +29,6 @@
             ]
           },
           {
-            "level": 7,
-            "attacks": [
-              "Vine Whip"
-            ]
-          },
-          {
-            "level": 9,
-            "attacks": [
-              "Tail Whip"
-            ]
-          },
-          {
             "level": 12,
             "attacks": [
               "Leech Seed"
@@ -217,7 +205,53 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Trailblaze",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Magical Leaf",
+          "Mud Shot",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Bullet Seed",
+          "Brick Break",
+          "Zen Headbutt",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Surf",
+          "Play Rough",
+          "Helping Hand",
+          "Grassy Terrain",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Roar",
+          "High Horsepower",
+          "Grassy Glide",
+          "Double-Edge",
+          "Endeavor",
+          "Throat Chop"
+        ]
       },
       "abilities": {
         "abilities": [

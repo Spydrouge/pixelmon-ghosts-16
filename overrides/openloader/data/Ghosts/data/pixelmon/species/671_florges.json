@@ -20,18 +20,23 @@
           {
             "level": 0,
             "attacks": [
-              "Aromatherapy",
               "Disarming Voice",
-              "Flower Shield",
               "Grass Knot",
               "Grassy Terrain",
-              "Lucky Chant",
               "Magical Leaf",
               "Misty Terrain",
-              "Moonblast",
               "Petal Blizzard",
               "Petal Dance",
+              "Safeguard",
+              "Solar Beam",
+              "Synthesis",
               "Wish"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Moonblast"
             ]
           }
         ],
@@ -60,7 +65,10 @@
         "trMoves": [],
         "hmMoves": [],
         "transferMoves": [
+          "Aromatherapy",
           "Flash",
+          "Flower Shield",
+          "Lucky Chant",
           "Secret Power"
         ],
         "tmMoves7": [
@@ -130,7 +138,48 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Charm",
+          "Protect",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Grass Knot",
+          "Rest",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Giga Drain",
+          "Energy Ball",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Pollen Puff",
+          "Baton Pass",
+          "Grassy Terrain",
+          "Misty Terrain",
+          "Giga Impact",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Misty Explosion",
+          "Endeavor",
+          "Petal Blizzard"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -188,7 +237,9 @@
                   "pixelmon:pokemon/671_florges/all/base/red/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.florges"
+              ]
             },
             {
               "name": "redshiny",

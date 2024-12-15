@@ -204,7 +204,34 @@
         ],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Protect",
+          "Water Pulse",
+          "Confuse Ray",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Icy Wind",
+          "Mud Shot",
+          "Endure",
+          "Rain Dance",
+          "Sleep Talk",
+          "Light Screen",
+          "Waterfall",
+          "Rest",
+          "Substitute",
+          "Dragon Pulse",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Tera Blast",
+          "Haze",
+          "Scale Shot",
+          "Double-Edge",
+          "Whirlpool",
+          "Muddy Water"
+        ]
       },
       "abilities": {
         "abilities": [

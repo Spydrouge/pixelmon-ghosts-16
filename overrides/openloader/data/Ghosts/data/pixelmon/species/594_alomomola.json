@@ -20,13 +20,8 @@
           {
             "level": 0,
             "attacks": [
-              "Healing Wish",
-              "Helping Hand",
-              "Hydro Pump",
               "Play Nice",
-              "Pound",
-              "Water Sport",
-              "Wide Guard"
+              "Pound"
             ]
           },
           {
@@ -44,13 +39,8 @@
           {
             "level": 13,
             "attacks": [
-              "Double Slap"
-            ]
-          },
-          {
-            "level": 17,
-            "attacks": [
-              "Heal Pulse"
+              "Helping Hand",
+              "Wide Guard"
             ]
           },
           {
@@ -68,7 +58,7 @@
           {
             "level": 29,
             "attacks": [
-              "Wake-Up Slap"
+              "Healing Wish"
             ]
           },
           {
@@ -102,25 +92,7 @@
             ]
           },
           {
-            "level": 53,
-            "attacks": [
-              "Helping Hand"
-            ]
-          },
-          {
-            "level": 57,
-            "attacks": [
-              "Healing Wish"
-            ]
-          },
-          {
-            "level": 61,
-            "attacks": [
-              "Wide Guard"
-            ]
-          },
-          {
-            "level": 65,
+            "level": 55,
             "attacks": [
               "Hydro Pump"
             ]
@@ -138,19 +110,30 @@
           "Water Pulse"
         ],
         "eggMoves": [
+          "Bounce",
           "Endure",
           "Mirror Coat",
           "Mist",
           "Pain Split",
-          "Refresh",
           "Tickle"
         ],
         "tmMoves8": [],
         "trMoves": [],
         "hmMoves": [],
         "transferMoves": [
+          "Bounce",
           "Dive",
-          "Secret Power"
+          "Double Slap",
+          "Endure",
+          "Heal Pulse",
+          "Mirror Coat",
+          "Mist",
+          "Pain Split",
+          "Refresh",
+          "Secret Power",
+          "Tickle",
+          "Wake-Up Slap",
+          "Water Sport"
         ],
         "tmMoves7": [
           "Calm Mind",
@@ -238,7 +221,47 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Water Pulse",
+          "Acrobatics",
+          "Chilling Water",
+          "Facade",
+          "Icy Wind",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Light Screen",
+          "Waterfall",
+          "Rest",
+          "Skill Swap",
+          "Substitute",
+          "Liquidation",
+          "Shadow Ball",
+          "Psychic",
+          "Surf",
+          "Play Rough",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Ice Beam",
+          "Misty Terrain",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast",
+          "Scald",
+          "Flip Turn",
+          "Scale Shot",
+          "Pain Split",
+          "Whirlpool"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -304,7 +327,9 @@
                   "pixelmon:pokemon/594_alomomola/all/base/none/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.alomomola"
+              ]
             },
             {
               "name": "shiny",

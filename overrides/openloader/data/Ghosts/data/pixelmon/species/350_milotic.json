@@ -105,27 +105,13 @@
             "attacks": [
               "Hydro Pump"
             ]
-          },
-          {
-            "level": 56,
-            "attacks": [
-              "Dragon Pulse"
-            ]
-          },
-          {
-            "level": 62,
-            "attacks": [
-              "Nature's Madness"
-            ]
-          } 
+          }
         ],
         "tutorMoves": [
           "Flip Turn",
           "Scale Shot",
           "Skitter Smack",
-          "Triple Axel",
-          "Moonlight",
-          "Moonblast"
+          "Triple Axel"
         ],
         "eggMoves": [
           "Confuse Ray",
@@ -341,7 +327,55 @@
         ],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Water Pulse",
+          "Confuse Ray",
+          "Disarming Voice",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Icy Wind",
+          "Mud Shot",
+          "Draining Kiss",
+          "Dragon Tail",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Body Slam",
+          "Sleep Talk",
+          "Light Screen",
+          "Waterfall",
+          "Rest",
+          "Imprison",
+          "Iron Head",
+          "Dragon Dance",
+          "Substitute",
+          "Dragon Pulse",
+          "Surf",
+          "Helping Hand",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast",
+          "Haze",
+          "Scald",
+          "Weather Ball",
+          "Flip Turn",
+          "Scale Shot",
+          "Psych Up",
+          "Double-Edge",
+          "Whirlpool",
+          "Muddy Water",
+          "Triple Axel",
+          "Skitter Smack",
+          "Breaking Swipe"
+        ]
       },
       "abilities": {
         "abilities": [

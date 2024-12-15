@@ -26,6 +26,7 @@
 				"If you don't want to know, then you don't have to click!"
 			]
 			dependencies: ["1183D242FD8FAF87"]
+			hide: true
 			size: 3.0d
 			optional: true
 			id: "5AC483C5AC12BFD7"
@@ -261,7 +262,7 @@
 					Icon: "pixeltweaks:textures/gui/types/bug.png"
 				}
 			}
-			x: -0.5d
+			x: -1.0d
 			y: 3.0d
 			shape: "circle"
 			description: [
@@ -309,6 +310,34 @@
 				id: "2C6F2897B66AC664"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			title: "Commands or No Commands?"
+			icon: "minecraft:command_block"
+			x: 0.0d
+			y: 3.0d
+			shape: "circle"
+			description: [
+				"Because this pack is made by just one person, there's a good chance you're going to run into a bug one day."
+				""
+				"And for that reason, you might want to play with Cheats Enabled, or, at least, be ready to Open to Lan and Enable Cheats to solve a bug."
+				""
+				"Another reason to play with Cheats Enabled is to use the /checkspawns command. It's impossible for me to enable this for you in singleplayer without cheats enabled. And /checkspawns can really help you figure out if you've built a habitat correctly."
+				""
+				"That said, if you play with Cheats Enabled, remember not to tinker with pixelmon spawners, or you'll ruin the pack for yourself."
+			]
+			dependencies: ["5AC483C5AC12BFD7"]
+			optional: true
+			id: "330B1D801E5162ED"
+			tasks: [{
+				id: "5583B297337CBAD6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3DB79885E99C81E2"
+				type: "xp"
+				xp: 50
 			}]
 		}
 	]

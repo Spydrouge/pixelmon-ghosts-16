@@ -63,12 +63,6 @@
             ]
           },
           {
-            "level": 40,
-            "attacks": [
-              "Psychic"
-            ]
-          },
-          {
             "level": 46,
             "attacks": [
               "Flatter"
@@ -164,6 +158,7 @@
           "Imprison",
           "Magic Coat",
           "Miracle Eye",
+          "Psychic",
           "Recycle",
           "Return",
           "Role Play",
@@ -303,7 +298,52 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Charm",
+          "Fake Tears",
+          "Protect",
+          "Psybeam",
+          "Thief",
+          "Facade",
+          "Swift",
+          "Rock Tomb",
+          "Stored Power",
+          "Fling",
+          "Endure",
+          "Rain Dance",
+          "Psyshock",
+          "Zen Headbutt",
+          "Foul Play",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Metronome",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Shadow Ball",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Psychic Terrain",
+          "Nasty Plot",
+          "Trick Room",
+          "Tera Blast",
+          "Gravity",
+          "Psych Up",
+          "Future Sight",
+          "Expanding Force"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -362,7 +402,9 @@
                   "pixelmon:pokemon/575_gothorita/all/base/none/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.gothorita"
+              ]
             },
             {
               "name": "shiny",

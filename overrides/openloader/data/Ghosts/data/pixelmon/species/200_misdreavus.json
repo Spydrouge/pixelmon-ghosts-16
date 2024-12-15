@@ -20,14 +20,8 @@
           {
             "level": 0,
             "attacks": [
-              "Growl",
-              "Psywave"
-            ]
-          },
-          {
-            "level": 5,
-            "attacks": [
-              "Spite"
+              "Confusion",
+              "Growl"
             ]
           },
           {
@@ -87,12 +81,6 @@
           {
             "level": 50,
             "attacks": [
-              "Grudge"
-            ]
-          },
-          {
-            "level": 55,
-            "attacks": [
               "Power Gem"
             ]
           }
@@ -120,13 +108,9 @@
           "Curse",
           "Destiny Bond",
           "Imprison",
-          "Me First",
           "Memento",
-          "Nasty Plot",
-          "Ominous Wind",
           "Screech",
           "Shadow Sneak",
-          "Skill Swap",
           "Spite",
           "Sucker Punch",
           "Wonder Room"
@@ -136,17 +120,32 @@
         "hmMoves": [],
         "transferMoves": [
           "Captivate",
+          "Curse",
           "Defense Curl",
+          "Destiny Bond",
           "Double-Edge",
           "Endure",
           "Flash",
+          "Grudge",
           "Headbutt",
+          "Imprison",
           "Inferno",
+          "Me First",
+          "Memento",
           "Mimic",
+          "Nasty Plot",
           "Natural Gift",
           "Nightmare",
+          "Ominous Wind",
+          "Psywave",
+          "Screech",
           "Secret Power",
+          "Shadow Sneak",
+          "Skill Swap",
+          "Spite",
+          "Sucker Punch",
           "Swift",
+          "Wonder Room",
           "Zap Cannon"
         ],
         "tmMoves7": [
@@ -360,7 +359,65 @@
           "Nightmare"
         ],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Charm",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Icy Wind",
+          "Draining Kiss",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Snowscape",
+          "Psyshock",
+          "Foul Play",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Skill Swap",
+          "Power Gem",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Nasty Plot",
+          "Phantom Force",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast",
+          "Spite",
+          "Burning Jealousy",
+          "Poltergeist",
+          "Pain Split",
+          "Psych Up",
+          "Future Sight",
+          "Curse"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -841,7 +898,65 @@
           "Nightmare"
         ],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Charm",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Icy Wind",
+          "Draining Kiss",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Snowscape",
+          "Psyshock",
+          "Foul Play",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Skill Swap",
+          "Power Gem",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Nasty Plot",
+          "Phantom Force",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast",
+          "Spite",
+          "Burning Jealousy",
+          "Poltergeist",
+          "Pain Split",
+          "Psych Up",
+          "Future Sight",
+          "Curse"
+        ]
       },
       "abilities": {
         "abilities": [

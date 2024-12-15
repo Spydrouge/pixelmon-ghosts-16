@@ -320,18 +320,22 @@
           "conditions": [],
           "evoType": "trade"
         },
-         {
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
           "to": "Accelgor",
           "conditions": [
-            {
-              "withPokemon": [
-                "Karrablast"
-              ],
-              "withTypes": [],
-              "evoConditionType": "party"
-            }
+              {
+                "withPokemon": [
+                  "Karrablast",
+                  "Escavalier"
+                ],
+                "withTypes": [],
+                "evoConditionType": "party"
+              }
           ],
-          "evoType": "leveling"
+          "evoType": "interact"
         }
       ],
       "evYields": {

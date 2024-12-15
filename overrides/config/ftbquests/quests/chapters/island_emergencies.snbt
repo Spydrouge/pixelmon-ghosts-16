@@ -14,7 +14,7 @@
 			icon: "minecraft:dirt"
 			x: 0.0d
 			y: 3.0d
-			shape: "rsquare"
+			shape: "circle"
 			subtitle: "I either lost my dirt, or used it poorly"
 			description: ["Make an offering to Arceus, and plead for a single piece of dirt. "]
 			optional: true
@@ -52,6 +52,7 @@
 			icon: "minecraft:grass_block"
 			x: 1.5d
 			y: 3.0d
+			shape: "circle"
 			subtitle: "It was dumb, and I know it was dumb."
 			description: [
 				"What happened? Did you plant a sapling on it? Did you till it? Whatever you did, there may be a way to get it back. Place a dirt or coarse dirt block down exactly in the location it used to be, make an offering to Arceus, and pray he helps."
@@ -80,6 +81,7 @@
 			title: "I lost the Master Ball"
 			x: 3.0d
 			y: 3.0d
+			shape: "circle"
 			subtitle: "Um."
 			description: [
 				"Accepting this quest will delete any Master Ball or Pokemon, and give you a second chance to pray at the Altar."
@@ -116,6 +118,7 @@
 		{
 			x: 3.5d
 			y: 2.5d
+			shape: "diamond"
 			subtitle: "You have caught a Pokemon!"
 			description: ["You've caught a Pokemon! As a result, you cannot tell Arceus you 'lost' your Master Ball in the hopes of recieving another."]
 			hide_text_until_complete: true
@@ -149,6 +152,7 @@
 			icon: "minecraft:end_portal_frame"
 			x: 4.5d
 			y: 3.0d
+			shape: "circle"
 			description: [
 				"This prayer is for when you've placed down an end portal frame in an inadvisable location."
 				""
@@ -165,19 +169,14 @@
 			id: "760FB813BC88486B"
 			tasks: [
 				{
-					id: "4B4D0884E175C9D1"
-					type: "item"
-					item: "minecraft:ender_eye"
-				}
-				{
-					id: "5884AD8B98DEDC09"
-					type: "item"
-					item: "ends_delight:chorus_flower_pie"
-				}
-				{
 					id: "0786AD3F8C93862F"
 					type: "item"
 					item: "minecraft:end_stone"
+				}
+				{
+					id: "4A791BE714C266F7"
+					type: "item"
+					item: "thermal:enderium_nugget"
 				}
 			]
 			rewards: [{
@@ -187,6 +186,32 @@
 				icon: "minecraft:end_portal_frame"
 				command: "/function ghosts:remove_end_portal_frame"
 				player_command: false
+			}]
+		}
+		{
+			title: "I Planted Trees Foolishly!"
+			icon: "pixelmon:pink_apricorn"
+			x: 6.0d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "The text was in bright colors, mate!"
+			description: [
+				"Did you plant a bunch of berry trees instead of an Apricorn tree like the quest recommended? Well, it happens to some people. Fortunately, the quests should have given you a peice of dirt, which you can place away from your existing trees to plant an Apricorn."
+				""
+				"Oh no, did you waste that peice of dirt? Drop it into the void? Place it too close to your other trees? Grow another berry on top of it? Well, then you're going to be reliant on your Pokemon to forage new Apricorns until you can complete the quest. You should only need two of the same color. You can also get a single piece of dirt in exchange for a skull, on this very chapter of your journal, and skulls can be foraged!"
+				""
+				"Oh no, did you knock your Drifloon unconcious trying to fight things of a much too high level? Well the quests should give you some healing medicine like a revive or revival powder. Did you waste those? Well... I mean, you could start over, now that you know better. But you could also run frantically back and forward over every inch of your platform. You see, after a certain amount of steps, Drifloon has a chance of reviving with 1 hp, and even slowly passively healing over time. If you can get your Drifloon up again, you can resume foraging."
+			]
+			optional: true
+			id: "2AE1BDC0FFEBE613"
+			tasks: [{
+				id: "2E40254B28CD9031"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "05430272AF5563DC"
+				type: "item"
+				item: "pixelmon:revival_herb"
 			}]
 		}
 	]

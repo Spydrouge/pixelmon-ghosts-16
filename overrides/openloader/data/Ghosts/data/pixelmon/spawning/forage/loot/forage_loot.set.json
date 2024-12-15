@@ -418,7 +418,7 @@
                   "condition":{
                       "baseBlocks": [
                             "minecraft:ice",
-                          "minecraft:packed_ice"
+                          "minecraft:packed_ice",
                            "minecraft:blue_ice"
                         ]   
                   }

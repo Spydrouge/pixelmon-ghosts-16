@@ -20,6 +20,7 @@
           {
             "level": 0,
             "attacks": [
+              "Diamond Storm",
               "Harden",
               "Tackle"
             ]
@@ -94,12 +95,6 @@
             "level": 84,
             "attacks": [
               "Stone Edge"
-            ]
-          },
-          {
-            "level": 91,
-            "attacks": [
-              "Diamond Storm"
             ]
           }
         ],
@@ -265,7 +260,63 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Protect",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Rock Tomb",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Snowscape",
+          "Psyshock",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Spikes",
+          "Flash Cannon",
+          "Skill Swap",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Psychic",
+          "Encore",
+          "Play Rough",
+          "Amnesia",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Earth Power",
+          "Stone Edge",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Tera Blast",
+          "Sand Tomb",
+          "Gravity",
+          "Smack Down",
+          "Gyro Ball",
+          "Misty Explosion",
+          "Psych Up",
+          "Endeavor",
+          "Scorching Sands",
+          "Meteor Beam"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -326,7 +377,9 @@
                 "transparency2": 0.5,
                 "yRotation": 27
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.diancie"
+              ]
             },
             {
               "name": "shiny",

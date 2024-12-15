@@ -20,20 +20,10 @@
           {
             "level": 0,
             "attacks": [
-              "Astonish",
-              "Bite",
               "Bulldoze",
-              "Crunch",
-              "Dig",
               "Dragon Breath",
               "Dragon Claw",
-              "Dragon Dance",
-              "Feint",
-              "Fissure",
-              "Fury Cutter",
-              "Laser Focus",
               "Sand Attack",
-              "Superpower",
               "Supersonic"
             ]
           },
@@ -70,7 +60,7 @@
           {
             "level": 32,
             "attacks": [
-              "Uproar"
+              "Sandstorm"
             ]
           },
           {
@@ -88,7 +78,7 @@
           {
             "level": 52,
             "attacks": [
-              "Megahorn"
+              "Uproar"
             ]
           },
           {
@@ -111,13 +101,20 @@
           "Scorching Sands"
         ],
         "eggMoves": [
+          "Astonish",
+          "Bite",
           "Bug Bite",
+          "Crunch",
+          "Dig",
+          "Dragon Dance",
           "Feint",
           "First Impression",
+          "Fissure",
           "Flail",
           "Fury Cutter",
           "Gust",
-          "Quick Attack"
+          "Quick Attack",
+          "Superpower"
         ],
         "tmMoves8": [
           "Mega Punch",
@@ -175,28 +172,40 @@
           "Stone Edge",
           "Throat Chop"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Aerial Ace",
           "Air Cutter",
+          "Astonish",
           "Bide",
+          "Bite",
+          "Bug Bite",
           "Captivate",
           "Confide",
+          "Crunch",
           "Defog",
+          "Dig",
           "Double Team",
           "Double-Edge",
+          "Dragon Dance",
+          "Feint",
           "Feint Attack",
+          "First Impression",
+          "Fissure",
+          "Flail",
           "Frustration",
+          "Fury Cutter",
+          "Gust",
           "Headbutt",
           "Hidden Power",
           "Hone Claws",
           "Incinerate",
+          "Laser Focus",
           "Mimic",
           "Natural Gift",
           "Ominous Wind",
           "Power-Up Punch",
+          "Quick Attack",
           "Return",
           "Rock Smash",
           "Roost",
@@ -206,6 +215,7 @@
           "Sonic Boom",
           "Strength",
           "Struggle Bug",
+          "Superpower",
           "Swagger",
           "Tailwind",
           "Toxic",
@@ -386,23 +396,76 @@
           "Attract",
           "Steel Wing"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Struggle Bug",
+          "Fire Spin",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Swift",
+          "Mud Shot",
+          "Rock Tomb",
+          "Air Cutter",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Dig",
+          "U-turn",
+          "Air Slash",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Sleep Talk",
+          "Dragon Claw",
+          "Rest",
+          "Rock Slide",
+          "Fly",
+          "Dragon Dance",
+          "Substitute",
+          "Crunch",
+          "Giga Drain",
+          "Tailwind",
+          "Dragon Pulse",
+          "Stealth Rock",
+          "Heat Wave",
+          "Flamethrower",
+          "Helping Hand",
+          "Earth Power",
+          "Fire Blast",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Bug Buzz",
+          "Hyper Beam",
+          "Solar Beam",
+          "Draco Meteor",
+          "Tera Blast",
+          "Sand Tomb",
+          "Bug Bite",
+          "Vacuum Wave",
+          "Uproar",
+          "Dual Wingbeat",
+          "Scale Shot",
+          "Double-Edge",
+          "Scorching Sands",
+          "Throat Chop",
+          "Breaking Swipe"
         ]
       },
       "abilities": {
         "abilities": [
           "Levitate"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -466,9 +529,7 @@
         "specialDefense": 80,
         "speed": 100
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 197,
         "baseFriendship": 70,
@@ -511,9 +572,7 @@
                 "rotateAngleX": 0,
                 "yRotation": 27
               },
-              "sounds": [
-
-              ]
+              "sounds": []
             },
             {
               "name": "shiny",
@@ -554,12 +613,8 @@
         "Trapinch"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -568,9 +623,7 @@
       "weight": 82.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 1,
         "speed": 2

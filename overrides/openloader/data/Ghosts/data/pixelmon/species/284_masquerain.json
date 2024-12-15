@@ -20,32 +20,11 @@
           {
             "level": 0,
             "attacks": [
-              "Bubble",
-              "Bug Buzz",
-              "Ominous Wind",
               "Quick Attack",
-              "Quiver Dance",
+              "Soak",
               "Sweet Scent",
-              "Water Sport",
+              "Water Gun",
               "Whirlwind"
-            ]
-          },
-          {
-            "level": 6,
-            "attacks": [
-              "Quick Attack"
-            ]
-          },
-          {
-            "level": 9,
-            "attacks": [
-              "Sweet Scent"
-            ]
-          },
-          {
-            "level": 14,
-            "attacks": [
-              "Water Sport"
             ]
           },
           {
@@ -70,25 +49,19 @@
           {
             "level": 32,
             "attacks": [
-              "Silver Wind"
+              "Air Slash"
             ]
           },
           {
             "level": 38,
             "attacks": [
-              "Air Slash"
+              "Giga Drain"
             ]
           },
           {
-            "level": 42,
+            "level": 44,
             "attacks": [
               "Bug Buzz"
-            ]
-          },
-          {
-            "level": 48,
-            "attacks": [
-              "Whirlwind"
             ]
           },
           {
@@ -112,34 +85,46 @@
         "eggMoves": [
           "Aqua Jet",
           "Bug Bite",
-          "Endure",
           "Fell Stinger",
-          "Foresight",
           "Hydro Pump",
           "Lunge",
-          "Mind Reader",
           "Mud Shot",
           "Power Split",
-          "Psybeam",
-          "Signal Beam"
+          "Psybeam"
         ],
         "tmMoves8": [],
         "trMoves": [],
         "hmMoves": [],
         "transferMoves": [
+          "Aqua Jet",
+          "Bubble",
+          "Bug Bite",
           "Captivate",
           "Double-Edge",
+          "Endure",
+          "Fell Stinger",
           "Flash",
+          "Foresight",
+          "Hydro Pump",
+          "Lunge",
           "Mimic",
+          "Mind Reader",
+          "Mud Shot",
           "Mud Sport",
           "Mud-Slap",
           "Natural Gift",
           "Nightmare",
+          "Ominous Wind",
+          "Power Split",
+          "Psybeam",
           "Secret Power",
+          "Signal Beam",
+          "Silver Wind",
           "String Shot",
           "Struggle Bug",
           "Swift",
-          "Twister"
+          "Twister",
+          "Water Sport"
         ],
         "tmMoves7": [
           "Toxic",
@@ -299,7 +284,62 @@
         ],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Water Pulse",
+          "Acrobatics",
+          "Struggle Bug",
+          "Psybeam",
+          "Thief",
+          "Pounce",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Icy Wind",
+          "Mud Shot",
+          "Air Cutter",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "U-turn",
+          "Foul Play",
+          "Air Slash",
+          "Sleep Talk",
+          "Waterfall",
+          "Rest",
+          "Leech Life",
+          "Substitute",
+          "Liquidation",
+          "Giga Drain",
+          "Tailwind",
+          "Shadow Ball",
+          "Energy Ball",
+          "Surf",
+          "Helping Hand",
+          "Baton Pass",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hurricane",
+          "Bug Buzz",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast",
+          "Haze",
+          "Bug Bite",
+          "Lunge",
+          "Weather Ball",
+          "Dual Wingbeat",
+          "Psych Up",
+          "Skitter Smack"
+        ]
       },
       "abilities": {
         "abilities": [

@@ -20,7 +20,6 @@
           {
             "level": 0,
             "attacks": [
-              "Flash",
               "Tackle"
             ]
           },
@@ -63,47 +62,41 @@
           {
             "level": 26,
             "attacks": [
-              "Signal Beam"
+              "Protect"
             ]
           },
           {
             "level": 29,
             "attacks": [
-              "Protect"
+              "Zen Headbutt"
             ]
           },
           {
             "level": 33,
             "attacks": [
-              "Zen Headbutt"
+              "Helping Hand"
             ]
           },
           {
             "level": 36,
             "attacks": [
-              "Helping Hand"
+              "Bug Buzz"
             ]
           },
           {
             "level": 40,
             "attacks": [
-              "Bug Buzz"
+              "Play Rough"
             ]
           },
           {
             "level": 43,
             "attacks": [
-              "Play Rough"
-            ]
-          },
-          {
-            "level": 47,
-            "attacks": [
               "Double-Edge"
             ]
           },
           {
-            "level": 50,
+            "level": 47,
             "attacks": [
               "Infestation"
             ]
@@ -126,25 +119,27 @@
           "Zen Headbutt"
         ],
         "eggMoves": [
-          "Baton Pass",
-          "Bug Buzz",
-          "Dizzy Punch",
-          "Encore",
-          "Lunge",
+          "Counter",
+          "Roost",
           "Seismic Toss",
-          "Silver Wind",
-          "Trick"
+          "Swagger"
         ],
         "tmMoves8": [],
         "trMoves": [],
         "hmMoves": [],
         "transferMoves": [
           "Air Cutter",
+          "Baton Pass",
           "Body Slam",
+          "Bug Buzz",
           "Captivate",
           "Counter",
+          "Dizzy Punch",
           "Dynamic Punch",
+          "Encore",
           "Endure",
+          "Flash",
+          "Lunge",
           "Mega Kick",
           "Mega Punch",
           "Metronome",
@@ -153,9 +148,15 @@
           "Natural Gift",
           "Ominous Wind",
           "Power-Up Punch",
+          "Roost",
           "Secret Power",
+          "Seismic Toss",
+          "Signal Beam",
+          "Silver Wind",
           "String Shot",
-          "Swift"
+          "Swagger",
+          "Swift",
+          "Trick"
         ],
         "tmMoves7": [
           "Toxic",
@@ -330,7 +331,62 @@
         ],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Acrobatics",
+          "Struggle Bug",
+          "Confuse Ray",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Chilling Water",
+          "Charge Beam",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Air Cutter",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Brick Break",
+          "Zen Headbutt",
+          "U-turn",
+          "Air Slash",
+          "Body Slam",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Substitute",
+          "Trick",
+          "Giga Drain",
+          "Tailwind",
+          "Shadow Ball",
+          "Encore",
+          "Play Rough",
+          "Helping Hand",
+          "Baton Pass",
+          "Bug Buzz",
+          "Thunder",
+          "Solar Beam",
+          "Tera Blast",
+          "Bug Bite",
+          "Lunge",
+          "Focus Punch",
+          "Double-Edge",
+          "Endeavor",
+          "Skitter Smack"
+        ]
       },
       "abilities": {
         "abilities": [

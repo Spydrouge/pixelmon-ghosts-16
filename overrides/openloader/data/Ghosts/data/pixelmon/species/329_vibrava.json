@@ -20,18 +20,10 @@
           {
             "level": 0,
             "attacks": [
-              "Astonish",
               "Bite",
-              "Bulldoze",
-              "Crunch",
               "Dig",
               "Dragon Breath",
-              "Fissure",
-              "Fury Cutter",
-              "Laser Focus",
-              "Sand Attack",
-              "Superpower",
-              "Supersonic"
+              "Sand Attack"
             ]
           },
           {
@@ -67,7 +59,7 @@
           {
             "level": 32,
             "attacks": [
-              "Uproar"
+              "Sandstorm"
             ]
           },
           {
@@ -85,7 +77,7 @@
           {
             "level": 50,
             "attacks": [
-              "Megahorn"
+              "Uproar"
             ]
           },
           {
@@ -107,13 +99,19 @@
           "Scorching Sands"
         ],
         "eggMoves": [
+          "Astonish",
           "Bug Bite",
+          "Bulldoze",
+          "Crunch",
           "Feint",
           "First Impression",
+          "Fissure",
           "Flail",
           "Fury Cutter",
           "Gust",
-          "Quick Attack"
+          "Quick Attack",
+          "Superpower",
+          "Supersonic"
         ],
         "tmMoves8": [
           "Fly",
@@ -157,24 +155,34 @@
           "Earth Power",
           "Throat Chop"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Air Cutter",
+          "Astonish",
           "Bide",
+          "Bug Bite",
+          "Bulldoze",
           "Captivate",
           "Confide",
+          "Crunch",
           "Defog",
           "Double Team",
           "Double-Edge",
+          "Feint",
           "Feint Attack",
+          "First Impression",
+          "Fissure",
+          "Flail",
           "Frustration",
+          "Fury Cutter",
+          "Gust",
           "Headbutt",
           "Hidden Power",
+          "Laser Focus",
           "Mimic",
           "Natural Gift",
           "Ominous Wind",
+          "Quick Attack",
           "Return",
           "Rock Smash",
           "Roost",
@@ -184,6 +192,8 @@
           "Sonic Boom",
           "Strength",
           "Struggle Bug",
+          "Superpower",
+          "Supersonic",
           "Swagger",
           "Tailwind",
           "Toxic",
@@ -326,23 +336,64 @@
           "Attract",
           "Steel Wing"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Struggle Bug",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Swift",
+          "Mud Shot",
+          "Rock Tomb",
+          "Air Cutter",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Dig",
+          "U-turn",
+          "Air Slash",
+          "Body Slam",
+          "Sleep Talk",
+          "Dragon Claw",
+          "Rest",
+          "Rock Slide",
+          "Fly",
+          "Substitute",
+          "Crunch",
+          "Giga Drain",
+          "Tailwind",
+          "Dragon Pulse",
+          "Stealth Rock",
+          "Heat Wave",
+          "Earth Power",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Bug Buzz",
+          "Hyper Beam",
+          "Solar Beam",
+          "Draco Meteor",
+          "Tera Blast",
+          "Sand Tomb",
+          "Bug Bite",
+          "Uproar",
+          "Dual Wingbeat",
+          "Scorching Sands",
+          "Throat Chop"
         ]
       },
       "abilities": {
         "abilities": [
           "Levitate"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -406,9 +457,7 @@
         "specialDefense": 50,
         "speed": 70
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 126,
         "baseFriendship": 70,
@@ -466,12 +515,8 @@
         "Trapinch"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -484,9 +529,7 @@
         {
           "level": 45,
           "to": "Flygon",
-          "conditions": [
-
-          ],
+          "conditions": [],
           "evoType": "leveling",
           "moves": [
             "Dragon Claw"

@@ -1,0 +1,60 @@
+{
+	id: "0A059707CA2DF06C"
+	order_index: 51
+	title: "Piece of Garbage"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Koffing Egg"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/109_koffing/all/base/none/sprite.png"
+				}
+			}
+			command: "/pokegive koffing n:bold ivhp:31 ivdef:31 ivspdef:31 move1:pain_split move2:grudge move3:curse move4:spite egg shiny"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Trubbish Egg"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/568_trubbish/all/base/none/sprite.png"
+				}
+			}
+			command: "/pokegive @p trubbish n:careful ivhp:31 ivdef:31 ivspdef:31 move1:autotomize move2:curse move3:haze move4:rollout ab:aftermath egg shiny"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Grimer Egg"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/088_grimer/all/base/none/sprite.png"
+				}
+			}
+			command: "/say Hi, @p!"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "Other Grimer Egg"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/088_grimer/all/alolan/none/sprite.png"
+				}
+			}
+			command: "/say Hi, @p!"
+			player_command: false
+			type: "command"
+		}
+	]
+}

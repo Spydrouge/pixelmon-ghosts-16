@@ -315,19 +315,7 @@
         "rideable": false,
         "canFly": true,
         "canSurf": false,
-        "canRideShoulder": false,
-        "flyingParameters": {
-          "flyHeightMin": 0,
-          "flyHeightMax": 7,
-          "flySpeedModifier": -0.2,
-          "flyRefreshRateY": 80,
-          "flyRefreshRateXZ": 80,
-          "flyRefreshRateSpeed": 100,
-          "flightTimeMin": 0,
-          "flightTimeMax": 20,
-          "flapRate": 5,
-          "landingMaterials": "LEAVES_AND_GRASS"
-        }
+        "canRideShoulder": false
       },
       "aggression": {
         "timid": 80,
@@ -374,7 +362,9 @@
                 "movementThreshold": 0.02,
                 "rotateAngleX": 0
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.shedinja"
+              ]
             },
             {
               "name": "shiny",

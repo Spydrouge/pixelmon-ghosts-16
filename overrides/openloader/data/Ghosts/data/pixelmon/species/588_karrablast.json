@@ -329,18 +329,22 @@
           "conditions": [],
           "evoType": "trade"
         },
-         {
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
           "to": "Escavalier",
           "conditions": [
-            {
-              "withPokemon": [
-                "Shelmet"
-              ],
-              "withTypes": [],
-              "evoConditionType": "party"
-            }
+              {
+                "withPokemon": [
+                  "Shelmet",
+                  "Accelgor"
+                ],
+                "withTypes": [],
+                "evoConditionType": "party"
+              }
           ],
-          "evoType": "leveling"
+          "evoType": "interact"
         }
       ],
       "evYields": {

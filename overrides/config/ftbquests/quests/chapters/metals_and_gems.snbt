@@ -71,11 +71,18 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "50C9B6E52D3A52C0"
-			tasks: [{
-				id: "13C3C676F8F9CE12"
-				type: "item"
-				item: "minecraft:gold_ingot"
-			}]
+			tasks: [
+				{
+					id: "13C3C676F8F9CE12"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "105ADB2BE3534BD2"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+			]
 			rewards: [
 				{
 					id: "485BABD70487017A"
@@ -193,11 +200,25 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "01E96079B026844C"
-			tasks: [{
-				id: "305AE310E535EDC0"
-				type: "item"
-				item: "pixelmon:aluminium_ingot"
-			}]
+			tasks: [
+				{
+					id: "305AE310E535EDC0"
+					type: "item"
+					item: "pixelmon:aluminium_ingot"
+				}
+				{
+					id: "29C3D2411F4B7117"
+					type: "item"
+					title: "Any #forge:nuggets/aluminum"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/aluminum"
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "207C5396D338769A"
 				type: "item"
@@ -593,11 +614,25 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "058F909B68C1C5F9"
-			tasks: [{
-				id: "6123B225CD2AC2AD"
-				type: "item"
-				item: "pixelmon:silver_ingot"
-			}]
+			tasks: [
+				{
+					id: "6123B225CD2AC2AD"
+					type: "item"
+					item: "pixelmon:silver_ingot"
+				}
+				{
+					id: "1E5B2BE116063E21"
+					type: "item"
+					title: "Any #forge:nuggets/silver"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/silver"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "55B124BF78D4A368"
@@ -622,11 +657,18 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "63F3FF1C30FD35E1"
-			tasks: [{
-				id: "3BEA9BDCB9A817C6"
-				type: "item"
-				item: "pixelmon:platinum_ingot"
-			}]
+			tasks: [
+				{
+					id: "3BEA9BDCB9A817C6"
+					type: "item"
+					item: "pixelmon:platinum_ingot"
+				}
+				{
+					id: "7CB54C3062C7140C"
+					type: "item"
+					item: "contenttweaker:platinum_nugget"
+				}
+			]
 			rewards: [
 				{
 					id: "74CEC4A1E0B26A46"
@@ -816,18 +858,32 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "3592ED1650D172B7"
-			tasks: [{
-				id: "7792E3475B2A07AA"
-				type: "item"
-				title: "Any #forge:ingots/copper"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ingots/copper"
+			tasks: [
+				{
+					id: "7792E3475B2A07AA"
+					type: "item"
+					title: "Any #forge:ingots/copper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
 					}
 				}
-			}]
+				{
+					id: "5A0EF14700478471"
+					type: "item"
+					title: "Any #forge:nuggets/copper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "7760E6D8C0A9310B"
@@ -883,11 +939,18 @@
 			dependencies: ["6F2DD5CDB657D547"]
 			hide: true
 			id: "0D248812DE33472B"
-			tasks: [{
-				id: "044AD350874C5B79"
-				type: "item"
-				item: "contenttweaker:brass_ingot"
-			}]
+			tasks: [
+				{
+					id: "044AD350874C5B79"
+					type: "item"
+					item: "contenttweaker:brass_ingot"
+				}
+				{
+					id: "7819894D50A9B989"
+					type: "item"
+					item: "contenttweaker:brass_nugget"
+				}
+			]
 			rewards: [
 				{
 					id: "28A27AC8BB60242E"
@@ -915,11 +978,18 @@
 			]
 			hide: true
 			id: "4744A42F4A75A1ED"
-			tasks: [{
-				id: "74C3A56F245B2BD4"
-				type: "item"
-				item: "thermal:bronze_ingot"
-			}]
+			tasks: [
+				{
+					id: "74C3A56F245B2BD4"
+					type: "item"
+					item: "thermal:bronze_ingot"
+				}
+				{
+					id: "094F2F6F577C1135"
+					type: "item"
+					item: "thermal:bronze_nugget"
+				}
+			]
 			rewards: [
 				{
 					id: "0E20036BDBDE23AF"
@@ -996,11 +1066,18 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "6F2DD5CDB657D547"
-			tasks: [{
-				id: "16C5C3B50FE617E7"
-				type: "item"
-				item: "contenttweaker:zinc_ingot"
-			}]
+			tasks: [
+				{
+					id: "16C5C3B50FE617E7"
+					type: "item"
+					item: "contenttweaker:zinc_ingot"
+				}
+				{
+					id: "41805BCA5479D6AF"
+					type: "item"
+					item: "contenttweaker:zinc_nugget"
+				}
+			]
 			rewards: [
 				{
 					id: "4702294F42573578"
@@ -1036,11 +1113,25 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "315C1FDD60FC635A"
-			tasks: [{
-				id: "24E03D91FD56A1AA"
-				type: "item"
-				item: "thermal:lead_ingot"
-			}]
+			tasks: [
+				{
+					id: "24E03D91FD56A1AA"
+					type: "item"
+					item: "thermal:lead_ingot"
+				}
+				{
+					id: "5DBEB5D195ACF4DC"
+					type: "item"
+					title: "Any #forge:nuggets/lead"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/lead"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "2F67E64A0F25F886"
@@ -1355,11 +1446,25 @@
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
 			id: "0C025DDF5CAA04EF"
-			tasks: [{
-				id: "1CB9792831725E75"
-				type: "item"
-				item: "thermal:electrum_ingot"
-			}]
+			tasks: [
+				{
+					id: "1CB9792831725E75"
+					type: "item"
+					item: "thermal:electrum_ingot"
+				}
+				{
+					id: "0FD28387DEC78C2C"
+					type: "item"
+					title: "Any #forge:nuggets/electrum"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/electrum"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "6367BF1CAB219F42"
@@ -1952,11 +2057,18 @@
 			]
 			dependencies: ["16AECF01A7853FED"]
 			id: "6C7756D44E8B93BB"
-			tasks: [{
-				id: "27B8BD0491F11342"
-				type: "item"
-				item: "immersiveengineering:ingot_steel"
-			}]
+			tasks: [
+				{
+					id: "27B8BD0491F11342"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "3D05AB62BF530B3D"
+					type: "item"
+					item: "immersiveengineering:nugget_steel"
+				}
+			]
 			rewards: [
 				{
 					id: "128A1ED838DB4EE2"
@@ -1991,11 +2103,18 @@
 				type: "item"
 				item: "astralsorcery:aquamarine"
 			}]
-			rewards: [{
-				id: "55C456394041780E"
-				type: "choice"
-				table_id: 6443510782262151491L
-			}]
+			rewards: [
+				{
+					id: "55C456394041780E"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "54FC675ED8A93438"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -2021,11 +2140,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6C31848C9C51320E"
-				type: "choice"
-				table_id: 6443510782262151491L
-			}]
+			rewards: [
+				{
+					id: "6C31848C9C51320E"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "534A86A2DBEEFD84"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -2063,6 +2189,120 @@
 					type: "item"
 					item: "pixelmon:white_shard"
 					count: 2
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			description: ["Starmetal nuggets drop from a rare few Pokemon on the Space Layer."]
+			dependencies: ["744C6C546BC0DDD7"]
+			id: "5FF86BF4B5CE1126"
+			tasks: [
+				{
+					id: "139981A3BFF183A8"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "705954A31137A739"
+					type: "item"
+					item: "contenttweaker:starmetal_nugget"
+				}
+			]
+			rewards: [
+				{
+					id: "3204AEB97237214E"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "0B0DB83D0F300A6B"
+					type: "item"
+					item: "pixelmon:sweet_star"
+				}
+				{
+					id: "2E7C5E85C6230347"
+					type: "item"
+					item: "pixelmon:stardust"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["Manasteel nuggest drop from a variety of psychic, steel, and fairy Pokemon."]
+			dependencies: ["542EFBDFBABB8B13"]
+			id: "362DC1E7018DD206"
+			tasks: [
+				{
+					id: "5DEE2A71F5286068"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "6A563AC9C800E263"
+					type: "item"
+					item: "botania:manasteel_nugget"
+				}
+			]
+			rewards: [
+				{
+					id: "579ABCC905C68577"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "3B3BEF46813465D6"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 72
+						}
+					}
+				}
+				{
+					id: "7726A015C7D7F426"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Terrasteel is almost impossible to find- but there might be some interesting conditions under which a Ralts might spawn."]
+			dependencies: ["362DC1E7018DD206"]
+			id: "5A4C2600BA674E87"
+			tasks: [
+				{
+					id: "52D97061F2B56367"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "2FA76F87DBCA889B"
+					type: "item"
+					item: "botania:terrasteel_nugget"
+				}
+			]
+			rewards: [
+				{
+					id: "1D0D02567FB0A46E"
+					type: "random"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "678A8C204D457828"
+					type: "choice"
+					table_id: 1147001027504067605L
+				}
+				{
+					id: "235E96CCE5C03535"
+					type: "item"
+					item: "pixelmon:green_shard"
 				}
 			]
 		}

@@ -22,7 +22,6 @@
             "attacks": [
               "Brick Break",
               "Fake Out",
-              "Feint",
               "Focus Energy",
               "Helping Hand",
               "Low Sweep",
@@ -50,7 +49,7 @@
           {
             "level": 16,
             "attacks": [
-              "Revenge"
+              "Sucker Punch"
             ]
           },
           {
@@ -68,6 +67,7 @@
           {
             "level": 28,
             "attacks": [
+              "Feint",
               "Mind Reader"
             ]
           },
@@ -94,6 +94,12 @@
             "attacks": [
               "High Jump Kick"
             ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Axe Kick"
+            ]
           }
         ],
         "tutorMoves": [
@@ -105,7 +111,6 @@
           "Feint",
           "High Jump Kick",
           "Mach Punch",
-          "Mind Reader",
           "Rapid Spin",
           "Vacuum Wave"
         ],
@@ -159,31 +164,39 @@
         "hmMoves": [],
         "transferMoves": [
           "Bide",
+          "Bullet Punch",
           "Captivate",
           "Confide",
+          "Counter",
           "Covet",
           "Curse",
           "Detect",
           "Double Team",
           "Double-Edge",
           "Dynamic Punch",
+          "Feint",
           "Focus Punch",
           "Foresight",
           "Frustration",
           "Headbutt",
           "Hidden Power",
+          "High Jump Kick",
           "Jump Kick",
           "Knock Off",
           "Laser Focus",
+          "Mach Punch",
           "Meditate",
           "Mimic",
+          "Mind Reader",
           "Mud-Slap",
           "Natural Gift",
           "Power-Up Punch",
           "Pursuit",
           "Rage",
+          "Rapid Spin",
           "Refresh",
           "Return",
+          "Revenge",
           "Rock Smash",
           "Role Play",
           "Rolling Kick",
@@ -195,7 +208,8 @@
           "Sucker Punch",
           "Swagger",
           "Take Down",
-          "Toxic"
+          "Toxic",
+          "Vacuum Wave"
         ],
         "tmMoves7": [
           "Work Up",
@@ -386,7 +400,54 @@
           "Rest",
           "Substitute"
         ],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Brick Break",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Metronome",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Substitute",
+          "Aura Sphere",
+          "Helping Hand",
+          "Baton Pass",
+          "Reversal",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Focus Blast",
+          "Close Combat",
+          "Tera Blast",
+          "Knock Off",
+          "Vacuum Wave",
+          "Lunge",
+          "Uproar",
+          "Double-Edge",
+          "Endeavor",
+          "Coaching",
+          "Throat Chop"
+        ]
       },
       "abilities": {
         "abilities": [

@@ -323,7 +323,58 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Charm",
+          "Fake Tears",
+          "Protect",
+          "Psybeam",
+          "Thief",
+          "Facade",
+          "Swift",
+          "Rock Tomb",
+          "Low Sweep",
+          "Stored Power",
+          "Fling",
+          "Endure",
+          "Rain Dance",
+          "Psyshock",
+          "Brick Break",
+          "Zen Headbutt",
+          "Foul Play",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Metronome",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Shadow Ball",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Psychic Terrain",
+          "Nasty Plot",
+          "Giga Impact",
+          "Focus Blast",
+          "Trick Room",
+          "Hyper Beam",
+          "Tera Blast",
+          "Gravity",
+          "Psych Up",
+          "Future Sight",
+          "Expanding Force"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -382,7 +433,9 @@
                   "pixelmon:pokemon/576_gothitelle/all/base/none/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.gothitelle"
+              ]
             },
             {
               "name": "shiny",

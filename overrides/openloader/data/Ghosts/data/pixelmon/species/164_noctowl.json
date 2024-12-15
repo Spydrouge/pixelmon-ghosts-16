@@ -40,12 +40,6 @@
             ]
           },
           {
-            "level": 15,
-            "attacks": [
-              "Psycho Shift"
-            ]
-          },
-          {
             "level": 18,
             "attacks": [
               "Air Slash"
@@ -98,7 +92,6 @@
           "Dual Wingbeat"
         ],
         "eggMoves": [
-          "Defog",
           "Feather Dance",
           "Night Shade",
           "Supersonic",
@@ -144,18 +137,18 @@
           "Work Up",
           "Hurricane"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Aerial Ace",
           "Air Cutter",
           "Captivate",
           "Confide",
           "Curse",
+          "Defog",
           "Detect",
           "Double Team",
           "Double-Edge",
+          "Feather Dance",
           "Feint Attack",
           "Flash",
           "Foresight",
@@ -168,19 +161,24 @@
           "Mirror Move",
           "Mud-Slap",
           "Natural Gift",
+          "Night Shade",
           "Nightmare",
           "Ominous Wind",
           "Pluck",
           "Psych Up",
+          "Psycho Shift",
           "Recycle",
           "Return",
           "Secret Power",
           "Silver Wind",
+          "Supersonic",
           "Swagger",
           "Synchronoise",
           "Tailwind",
           "Toxic",
-          "Twister"
+          "Twister",
+          "Whirlwind",
+          "Wing Attack"
         ],
         "tmMoves7": [
           "Work Up",
@@ -352,11 +350,58 @@
           "Steel Wing",
           "Nightmare"
         ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Acrobatics",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Air Cutter",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Zen Headbutt",
+          "Air Slash",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Rest",
+          "Imprison",
+          "Fly",
+          "Skill Swap",
+          "Substitute",
+          "Tailwind",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Heat Wave",
+          "Psychic",
+          "Amnesia",
+          "Calm Mind",
+          "Nasty Plot",
+          "Giga Impact",
+          "Hurricane",
+          "Hyper Beam",
+          "Brave Bird",
+          "Tera Blast",
+          "Haze",
+          "Spite",
+          "Uproar",
+          "Dual Wingbeat",
+          "Psych Up",
+          "Double-Edge",
+          "Feather Dance",
+          "Future Sight",
+          "Curse"
         ]
       },
       "abilities": {
@@ -430,9 +475,7 @@
         "specialDefense": 96,
         "speed": 70
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 162,
         "baseFriendship": 70,
@@ -493,12 +536,8 @@
         "Hoothoot"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -507,9 +546,7 @@
       "weight": 40.8,
       "catchRate": 90,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 2
       }

@@ -37,15 +37,9 @@
             ]
           },
           {
-            "level": 9,
-            "attacks": [
-              "Draining Kiss"
-            ]
-          },
-          {
             "level": 13,
             "attacks": [
-              "Lucky Chant"
+              "Wish"
             ]
           },
           {
@@ -63,7 +57,7 @@
           {
             "level": 22,
             "attacks": [
-              "Heart Stamp"
+              "Draining Kiss"
             ]
           },
           {
@@ -87,7 +81,7 @@
           {
             "level": 37,
             "attacks": [
-              "Captivate"
+              "Baby-Doll Eyes"
             ]
           },
           {
@@ -124,27 +118,33 @@
         ],
         "eggMoves": [
           "Aqua Jet",
-          "Aqua Ring",
-          "Brine",
-          "Captivate",
           "Entrainment",
-          "Heal Pulse",
-          "Mud Sport",
           "Splash",
-          "Supersonic",
-          "Water Sport"
+          "Supersonic"
         ],
         "tmMoves8": [],
         "trMoves": [],
         "hmMoves": [],
         "transferMoves": [
+          "Aqua Jet",
+          "Aqua Ring",
+          "Brine",
+          "Captivate",
           "Dive",
           "Double-Edge",
           "Endure",
+          "Entrainment",
+          "Heal Pulse",
+          "Heart Stamp",
+          "Lucky Chant",
           "Mimic",
+          "Mud Sport",
           "Natural Gift",
           "Secret Power",
+          "Splash",
+          "Supersonic",
           "Swift",
+          "Water Sport",
           "Whirlpool"
         ],
         "tmMoves7": [
@@ -263,7 +263,35 @@
         ],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Facade",
+          "Icy Wind",
+          "Draining Kiss",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Sleep Talk",
+          "Waterfall",
+          "Rest",
+          "Substitute",
+          "Liquidation",
+          "Surf",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Tera Blast",
+          "Flip Turn",
+          "Scale Shot",
+          "Psych Up",
+          "Endeavor",
+          "Whirlpool"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -340,7 +368,9 @@
                   "pixelmon:pokemon/370_luvdisc/all/base/none/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.luvdisc"
+              ]
             },
             {
               "name": "shiny",

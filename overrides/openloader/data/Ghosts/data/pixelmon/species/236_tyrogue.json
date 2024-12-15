@@ -34,7 +34,6 @@
           "Feint",
           "High Jump Kick",
           "Mach Punch",
-          "Mind Reader",
           "Rapid Spin",
           "Vacuum Wave"
         ],
@@ -72,22 +71,29 @@
         ],
         "hmMoves": [],
         "transferMoves": [
+          "Bullet Punch",
           "Captivate",
           "Confide",
+          "Counter",
           "Covet",
           "Curse",
           "Detect",
           "Double Team",
           "Double-Edge",
+          "Feint",
           "Foresight",
           "Frustration",
           "Headbutt",
           "Hidden Power",
+          "High Jump Kick",
           "Laser Focus",
+          "Mach Punch",
           "Mimic",
+          "Mind Reader",
           "Mud-Slap",
           "Natural Gift",
           "Pursuit",
+          "Rapid Spin",
           "Return",
           "Rock Smash",
           "Role Play",
@@ -95,7 +101,8 @@
           "Seismic Toss",
           "Strength",
           "Swagger",
-          "Toxic"
+          "Toxic",
+          "Vacuum Wave"
         ],
         "tmMoves7": [
           "Work Up",
@@ -242,7 +249,31 @@
           "Thief"
         ],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Low Kick",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Low Sweep",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Brick Break",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Rest",
+          "Rock Slide",
+          "Substitute",
+          "Helping Hand",
+          "Tera Blast",
+          "Vacuum Wave",
+          "Uproar"
+        ]
       },
       "abilities": {
         "abilities": [

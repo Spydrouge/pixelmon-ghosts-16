@@ -52,12 +52,7 @@
           {
             "level": 20,
             "attacks": [
-              "Charm"
-            ]
-          },
-          {
-            "level": 20,
-            "attacks": [
+              "Charm",
               "Covet"
             ]
           }
@@ -356,7 +351,50 @@
           "Nightmare"
         ],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Protect",
+          "Disarming Voice",
+          "Trailblaze",
+          "Facade",
+          "Swift",
+          "Icy Wind",
+          "Draining Kiss",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Substitute",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Psychic",
+          "Encore",
+          "Flamethrower",
+          "Play Rough",
+          "Helping Hand",
+          "Misty Terrain",
+          "Fire Blast",
+          "Wild Charge",
+          "Solar Beam",
+          "Tera Blast",
+          "Gravity",
+          "Pain Split",
+          "Psych Up",
+          "Double-Edge",
+          "Endeavor"
+        ]
       },
       "abilities": {
         "abilities": [

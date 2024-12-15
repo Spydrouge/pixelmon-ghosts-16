@@ -290,19 +290,7 @@
         "rideable": false,
         "canFly": true,
         "canSurf": false,
-        "canRideShoulder": false,
-        "flyingParameters": {
-          "flyHeightMin": 0,
-          "flyHeightMax": 15,
-          "flySpeedModifier": 0.01,
-          "flyRefreshRateY": 80,
-          "flyRefreshRateXZ": 400,
-          "flyRefreshRateSpeed": 400,
-          "flightTimeMin": 0,
-          "flightTimeMax": 20,
-          "flapRate": 5,
-          "landingMaterials": "LEAVES_AND_GRASS"
-        }
+        "canRideShoulder": false
       },
       "aggression": {
         "timid": 80,
@@ -347,7 +335,9 @@
                   "pixelmon:pokemon/351_castform/all/base/none/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.castform"
+              ]
             },
             {
               "name": "shiny",
@@ -359,7 +349,7 @@
               "name": "christmas",
               "texture": "pixelmon:pokemon/351_castform/all/base/christmas/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/base/christmas/sprite.png",
-              "particle": "arcanery:shiny"
+              "particle": ""
             }
           ]
         }
@@ -390,6 +380,9 @@
     },
     {
       "name": "ice",
+      "tags": [
+        "temp"
+      ],
       "types": [
         "ICE"
       ],
@@ -416,6 +409,12 @@
               "texture": "pixelmon:pokemon/351_castform/all/ice/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/ice/shiny/sprite.png",
               "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/351_castform/all/ice/none/texture.png",
+              "sprite": "pixelmon:pokemon/351_castform/all/ice/none/sprite.png",
+              "particle": ""
             }
           ]
         }
@@ -423,6 +422,9 @@
     },
     {
       "name": "rain",
+      "tags": [
+        "temp"
+      ],
       "types": [
         "WATER"
       ],
@@ -449,6 +451,12 @@
               "texture": "pixelmon:pokemon/351_castform/all/rain/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/rain/shiny/sprite.png",
               "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/351_castform/all/rain/none/texture.png",
+              "sprite": "pixelmon:pokemon/351_castform/all/rain/none/sprite.png",
+              "particle": ""
             }
           ]
         }
@@ -456,6 +464,9 @@
     },
     {
       "name": "sun",
+      "tags": [
+        "temp"
+      ],
       "types": [
         "FIRE"
       ],
@@ -482,6 +493,12 @@
               "texture": "pixelmon:pokemon/351_castform/all/sun/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/sun/shiny/sprite.png",
               "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/351_castform/all/sun/none/texture.png",
+              "sprite": "pixelmon:pokemon/351_castform/all/sun/none/sprite.png",
+              "particle": ""
             }
           ]
         }

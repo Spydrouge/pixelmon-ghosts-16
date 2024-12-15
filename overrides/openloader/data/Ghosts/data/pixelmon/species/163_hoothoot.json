@@ -51,7 +51,7 @@
           {
             "level": 15,
             "attacks": [
-              "Psycho Shift"
+              "Defog"
             ]
           },
           {
@@ -107,7 +107,6 @@
           "Dual Wingbeat"
         ],
         "eggMoves": [
-          "Defog",
           "Feather Dance",
           "Night Shade",
           "Supersonic",
@@ -157,9 +156,11 @@
           "Captivate",
           "Confide",
           "Curse",
+          "Defog",
           "Detect",
           "Double Team",
           "Double-Edge",
+          "Feather Dance",
           "Feint Attack",
           "Flash",
           "Foresight",
@@ -171,20 +172,25 @@
           "Mirror Move",
           "Mud-Slap",
           "Natural Gift",
+          "Night Shade",
           "Nightmare",
           "Ominous Wind",
           "Pluck",
           "Psych Up",
+          "Psycho Shift",
           "Recycle",
           "Return",
           "Secret Power",
           "Silver Wind",
           "Sky Attack",
+          "Supersonic",
           "Swagger",
           "Synchronoise",
           "Tailwind",
           "Toxic",
-          "Twister"
+          "Twister",
+          "Whirlwind",
+          "Wing Attack"
         ],
         "tmMoves7": [
           "Work Up",
@@ -347,7 +353,51 @@
           "Nightmare"
         ],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Acrobatics",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Air Cutter",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Zen Headbutt",
+          "Air Slash",
+          "Sleep Talk",
+          "Reflect",
+          "Rest",
+          "Imprison",
+          "Fly",
+          "Skill Swap",
+          "Substitute",
+          "Tailwind",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Heat Wave",
+          "Psychic",
+          "Amnesia",
+          "Calm Mind",
+          "Nasty Plot",
+          "Hurricane",
+          "Brave Bird",
+          "Tera Blast",
+          "Haze",
+          "Spite",
+          "Uproar",
+          "Dual Wingbeat",
+          "Psych Up",
+          "Feather Dance"
+        ]
       },
       "abilities": {
         "abilities": [

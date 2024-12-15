@@ -33,7 +33,7 @@
           {
             "level": 10,
             "attacks": [
-              "Lucky Chant"
+              "Safeguard"
             ]
           },
           {
@@ -69,7 +69,7 @@
           {
             "level": 33,
             "attacks": [
-              "Aromatherapy"
+              "Synthesis"
             ]
           },
           {
@@ -112,17 +112,23 @@
           "Worry Seed"
         ],
         "eggMoves": [
-          "Camouflage",
-          "Captivate",
           "Copycat",
+          "Endeavor",
           "Tearful Look"
         ],
         "tmMoves8": [],
         "trMoves": [],
         "hmMoves": [],
         "transferMoves": [
+          "Aromatherapy",
+          "Camouflage",
+          "Captivate",
+          "Copycat",
+          "Endeavor",
           "Flash",
-          "Secret Power"
+          "Lucky Chant",
+          "Secret Power",
+          "Tearful Look"
         ],
         "tmMoves7": [
           "Calm Mind",
@@ -185,7 +191,42 @@
         "tmMoves3": [],
         "tmMoves2": [],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Charm",
+          "Protect",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Draining Kiss",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Rest",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Pollen Puff",
+          "Baton Pass",
+          "Grassy Terrain",
+          "Misty Terrain",
+          "Solar Beam",
+          "Tera Blast",
+          "Endeavor",
+          "Petal Blizzard"
+        ]
       },
       "abilities": {
         "abilities": [
@@ -243,7 +284,9 @@
                   "pixelmon:pokemon/669_flabebe/all/base/red/model.pqc"
                 ]
               },
-              "sounds": []
+              "sounds": [
+                "pixelmon.mob.flabebe"
+              ]
             },
             {
               "name": "redshiny",

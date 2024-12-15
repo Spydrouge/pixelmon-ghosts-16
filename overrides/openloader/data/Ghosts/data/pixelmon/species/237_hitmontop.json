@@ -24,7 +24,6 @@
               "Feint",
               "Focus Energy",
               "Helping Hand",
-              "Rapid Spin",
               "Tackle",
               "Triple Kick"
             ]
@@ -50,7 +49,7 @@
           {
             "level": 16,
             "attacks": [
-              "Revenge"
+              "Rapid Spin"
             ]
           },
           {
@@ -107,7 +106,6 @@
           "Feint",
           "High Jump Kick",
           "Mach Punch",
-          "Mind Reader",
           "Rapid Spin",
           "Vacuum Wave"
         ],
@@ -156,22 +154,30 @@
         "hmMoves": [],
         "transferMoves": [
           "Aerial Ace",
+          "Bullet Punch",
           "Captivate",
           "Confide",
+          "Counter",
           "Covet",
           "Curse",
           "Double Team",
           "Double-Edge",
+          "Feint",
           "Foresight",
           "Frustration",
           "Headbutt",
           "Hidden Power",
+          "High Jump Kick",
           "Laser Focus",
+          "Mach Punch",
           "Mimic",
+          "Mind Reader",
           "Mud-Slap",
           "Natural Gift",
           "Pursuit",
+          "Rapid Spin",
           "Return",
+          "Revenge",
           "Rock Smash",
           "Role Play",
           "Rolling Kick",
@@ -181,7 +187,8 @@
           "Strength",
           "Swagger",
           "Toxic",
-          "Twister"
+          "Twister",
+          "Vacuum Wave"
         ],
         "tmMoves7": [
           "Work Up",
@@ -350,7 +357,49 @@
           "Thief"
         ],
         "tmMoves1": [],
-        "tmMoves": []
+        "tmMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Low Kick",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Bulldoze",
+          "Swift",
+          "Low Sweep",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Brick Break",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Rest",
+          "Rock Slide",
+          "Substitute",
+          "Drill Run",
+          "Ice Spinner",
+          "Helping Hand",
+          "Baton Pass",
+          "Reversal",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Focus Blast",
+          "Close Combat",
+          "Tera Blast",
+          "Gyro Ball",
+          "Vacuum Wave",
+          "Uproar",
+          "Double-Edge",
+          "Endeavor",
+          "Triple Axel",
+          "Coaching"
+        ]
       },
       "abilities": {
         "abilities": [

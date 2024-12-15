@@ -3424,6 +3424,7 @@
 				"Some of these are more common if you forage on the right blocks."
 			]
 			hide_dependency_lines: true
+			dependencies: ["391C3D6A40B4349B"]
 			hide: true
 			size: 2.0d
 			id: "46493C1D480BB630"
@@ -3486,6 +3487,11 @@
 					type: "item"
 					item: "pixelmon:black_apricorn"
 				}
+				{
+					id: "67DD7B3791B07F7B"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
@@ -3531,11 +3537,18 @@
 				type: "item"
 				item: "tconstruct:stray_head"
 			}]
-			rewards: [{
-				id: "40C4EAA54A14E2E9"
-				type: "item"
-				item: "pixelmon:ice_stone_ore"
-			}]
+			rewards: [
+				{
+					id: "40C4EAA54A14E2E9"
+					type: "item"
+					item: "pixelmon:ice_stone_ore"
+				}
+				{
+					id: "21E7B9C257239862"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -3619,6 +3632,11 @@
 					type: "item"
 					item: "biomesoplenty:flesh"
 				}
+				{
+					id: "02CDDA11603DE265"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
@@ -3646,12 +3664,19 @@
 					item: "pixelmon:leaf_stone_shard"
 				}
 			]
-			rewards: [{
-				id: "06AD63742ED4B581"
-				type: "item"
-				item: "byg:ebony_leaves"
-				count: 20
-			}]
+			rewards: [
+				{
+					id: "06AD63742ED4B581"
+					type: "item"
+					item: "byg:ebony_leaves"
+					count: 20
+				}
+				{
+					id: "0E8411FF07B6ADD1"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
 		}
 		{
 			title: "Seed Kit"
@@ -3771,15 +3796,10 @@
 				{
 					id: "7E267C2E50C2AC09"
 					type: "item"
-					item: "pixelmon:mint"
+					item: "pixelmon:mint_seeds"
 				}
 			]
 			rewards: [
-				{
-					id: "136025A922C84851"
-					type: "item"
-					item: "pixelmon:mint"
-				}
 				{
 					id: "0363E126D4950367"
 					type: "item"
@@ -3789,6 +3809,16 @@
 					id: "407B5B7C6D293516"
 					type: "item"
 					item: "biomesoplenty:umbran_sapling"
+				}
+				{
+					id: "2737A24E4CE1CC4C"
+					type: "item"
+					item: "pixelmon:mint_seeds"
+				}
+				{
+					id: "03F0D5DD90B8C614"
+					type: "item"
+					item: "minecraft:soul_soil"
 				}
 			]
 		}
@@ -3822,6 +3852,11 @@
 					id: "1B85272519F74728"
 					type: "item"
 					item: "minecraft:light_gray_glazed_terracotta"
+				}
+				{
+					id: "00DA1E6A979FC2D2"
+					type: "item"
+					item: "minecraft:soul_soil"
 				}
 			]
 		}

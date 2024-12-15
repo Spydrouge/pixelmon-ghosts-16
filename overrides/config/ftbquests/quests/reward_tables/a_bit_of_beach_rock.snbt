@@ -1,0 +1,34 @@
+{
+	id: "270DA7468CD0D27E"
+	order_index: 53
+	title: "A Bit of Beach Rock"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Binacle Egg"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/688_binacle/all/base/none/sprite.png"
+				}
+			}
+			command: "/pokegive @p binacle ab:pickpocket move1:mud-slap move2:scratch move3:switcheroo move4:sand_attack ball:dream_ball egg g:male"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "A Dwebble Egg"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/557_dwebble/all/base/none/sprite.png"
+				}
+			}
+			command: "/pokegive @p dwebble ab:sturdy n:brave move1:curse move2:block move3:counter move4:knock_off ivatk:31 ivdef:31 ivspd:0 ivhp:31 ivspdef:31 ball:dream_ball untradable g:male egg"
+			player_command: false
+			type: "command"
+		}
+	]
+}

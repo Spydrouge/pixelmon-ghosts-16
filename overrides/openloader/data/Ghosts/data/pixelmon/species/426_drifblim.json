@@ -54,12 +54,6 @@
               "Swallow"
             ]
           },
-         {
-             "level":27,
-             "attacks":[
-              "Fling"
-              ]
-         },
           {
             "level": 31,
             "attacks": [
@@ -91,9 +85,7 @@
             ]
           }
         ],
-        "tutorMoves": [
-
-        ],
+        "tutorMoves": [],
         "eggMoves": [
           "Clear Smog",
           "Defog",
@@ -126,8 +118,7 @@
           "Hex",
           "Acrobatics",
           "Phantom Force",
-          "Brutal Swing",
-          "Fling"
+          "Brutal Swing"
         ],
         "trMoves": [
           "Body Slam",
@@ -336,17 +327,59 @@
           "Swagger",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": [],
+        "tmMoves9": [
+          "Protect",
+          "Acrobatics",
+          "Psybeam",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Hex",
+          "Swift",
+          "Icy Wind",
+          "Air Cutter",
+          "Stored Power",
+          "Night Shade",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Air Slash",
+          "Body Slam",
+          "Sleep Talk",
+          "Thunder Wave",
+          "Rest",
+          "Imprison",
+          "Fly",
+          "Skill Swap",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Tailwind",
+          "Shadow Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Amnesia",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Phantom Force",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast",
+          "Haze",
+          "Spite",
+          "Gyro Ball",
+          "Knock Off",
+          "Weather Ball",
+          "Pain Split",
+          "Curse"
         ]
       },
       "abilities": {
@@ -366,13 +399,13 @@
         "ridingOffsets": {
           "standing": {
             "x": 0.0,
-            "y": 0.0,
-            "z": -1.3
+            "y": -1.3,
+            "z": -0.3
           },
           "moving": {
             "x": 0.0,
-            "y": 0.0,
-            "z": -1.3
+            "y": -3.7,
+            "z": -0.3
           }
         },
         "flyingParameters": {
@@ -400,7 +433,7 @@
           "turn_rate": 0.5,
           "pitch_rate": 0.8,
           "stays_horizontal_flying": true,
-          "gravity_drop_per_tick": 0.05,
+          "gravity_drop_per_tick": 0.005,
           "continuous_forward_motion": true,
           "continuous_forward_motion_ticks": 5,
           "flying_stamina_charges": 3,
@@ -420,9 +453,7 @@
         "specialDefense": 54,
         "speed": 80
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 204,
         "baseFriendship": 70,
@@ -491,12 +522,8 @@
         "Drifloon"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -505,9 +532,7 @@
       "weight": 15.0,
       "catchRate": 60,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 2
       }

@@ -304,6 +304,11 @@
 					type: "item"
 					item: "inspirations:heartbeet"
 				}
+				{
+					id: "374E2C0D5D287908"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
 			]
 		}
 		{
@@ -1586,6 +1591,7 @@
 			subtitle: "\"Useful Gifts\""
 			description: ["Your Drifloon sure brings you a lot of junk! Well. Not junk, exactly. But it's filling up your inventory! You need to build some chests so you can organize this all!"]
 			dependencies: ["1461900BEAD0C38E"]
+			hide: true
 			optional: true
 			id: "02AB152380DFC150"
 			tasks: [{
@@ -1728,10 +1734,10 @@
 			x: -5.0d
 			y: 4.5d
 			shape: "circle"
-			subtitle: "???"
+			subtitle: "Wait a Minute..."
 			description: ["... W-Wait a Minute, This thing is Alive!!!"]
 			hide_dependency_lines: true
-			dependencies: ["32135E257A5EC812"]
+			dependencies: ["391C3D6A40B4349B"]
 			hide: true
 			hide_text_until_complete: true
 			id: "61D6EDCFA99AB6CC"
@@ -1917,6 +1923,8 @@
 				"Oh dear, these aren't incredibly useful."
 				""
 				"Maybe you can put them under your pillow at night and the Immersive Engineering fairy will take them away?"
+				""
+				"Try looking in Offerings to Arceus after this."
 			]
 			hide_dependency_lines: true
 			dependencies: ["391C3D6A40B4349B"]

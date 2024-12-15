@@ -2616,7 +2616,6 @@
 			dependencies: ["5DD5BF266D98926B"]
 			hide: true
 			optional: true
-			secret: true
 			id: "5644454AECD3778A"
 			tasks: [
 				{
@@ -2835,7 +2834,6 @@
 			dependencies: ["5DD5BF266D98926B"]
 			hide: true
 			optional: true
-			secret: true
 			repeatable: true
 			id: "3487C03E7FBEC3A6"
 			tasks: [
@@ -6225,23 +6223,49 @@
 				"Arceus has apparently decided you deserve constant acess to the /checkspawns command, which can be used to check which Pokemon spawn in any given area."
 				""
 				"This is true regardless of whether you have commands enabled by more conventional means."
+				""
+				"(NOTE! These don't work. The first one can't run in a cheats-disabled world. The second bypasses the permissions issue in a cheats disabled world, but the execute command eats the output instead of displaying it to the player. You can see this if you put the same command in a command block. If you want people on your server to be able to use checkspawns, use a plugin to give them the relevant permissions. Unfortunately, it's just not possible to do the same in singleplayer.)"
 			]
 			hide_dependency_lines: false
-			dependencies: ["11A73D9EAEEDF61B"]
+			dependencies: ["1461900BEAD0C38E"]
+			hide: true
 			optional: true
+			secret: true
 			repeatable: true
 			id: "6648BD855A6F7435"
 			tasks: [{
 				id: "07CD43F84FA83915"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "31EA47D0F7B01AB4"
-				type: "command"
-				auto: "enabled"
-				command: "/execute as @p run checkspawns"
-				player_command: true
-			}]
+			rewards: [
+				{
+					id: "31EA47D0F7B01AB4"
+					type: "command"
+					auto: "enabled"
+					command: "/gamemode creative @p"
+					player_command: true
+				}
+				{
+					id: "669DF87C39FD6221"
+					type: "command"
+					auto: "enabled"
+					command: "/checkspawns"
+					player_command: true
+				}
+				{
+					id: "4C2261EF79E71E51"
+					type: "command"
+					auto: "enabled"
+					command: "/gamemode survival @p"
+					player_command: false
+				}
+				{
+					id: "7CBA51ACBB3D4C7B"
+					type: "command"
+					command: "/execute as @p run checkspawns"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Check Spawns Legendary"
@@ -6257,7 +6281,9 @@
 			shape: "circle"
 			description: ["You also have the ability to check an area for its legendary spawns."]
 			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
 			optional: true
+			secret: true
 			repeatable: true
 			id: "69A48E1F95100DB2"
 			tasks: [{

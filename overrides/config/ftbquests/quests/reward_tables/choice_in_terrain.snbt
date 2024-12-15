@@ -1,0 +1,44 @@
+{
+	id: "0FEAF75B81635415"
+	order_index: 50
+	title: "Choice in Terrain"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 136
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 137
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 138
+				}
+			}
+		}
+		{
+			item: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 139
+				}
+			}
+		}
+	]
+}

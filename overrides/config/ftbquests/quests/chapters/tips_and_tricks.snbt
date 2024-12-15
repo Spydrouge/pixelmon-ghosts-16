@@ -273,7 +273,7 @@
 			title: "The Perils of Placing Spawners"
 			icon: "pixelmon:pixelmon_spawner"
 			x: -0.5d
-			y: -1.5d
+			y: -3.0d
 			subtitle: "Be Very Careful..."
 			description: [
 				"Spawners given to you by Arceus must be handled carefully, as they &ccannot be moved or broken once placed down&r"
@@ -1519,7 +1519,7 @@
 		}
 		{
 			x: -0.5d
-			y: -3.0d
+			y: -4.5d
 			description: [
 				"An End Portal Frame block? You... might be able to do something with this. If you can collect twelve of these blocks, you might be able to lay out an End Portal Frame, fill it with Eyes of Ender, and travel to the End. "
 				""
@@ -1531,7 +1531,7 @@
 				""
 				"If you place one down in the incorrect location, or place in all the eyes of ender before they're rotated correctly, you will have to use a prayer to pick them up again. Consult the \"Offerings to Arceus\" chapter."
 			]
-			dependencies: ["11D7E67ED0EFE75A"]
+			dependencies: ["1183D242FD8FAF87"]
 			hide: true
 			secret: true
 			id: "42EC53C495F34D33"
@@ -2581,6 +2581,63 @@
 				id: "217A3527800B41C9"
 				type: "item"
 				item: "minecraft:string"
+			}]
+		}
+		{
+			title: "Harvesting Apricorns and Berries"
+			x: -0.5d
+			y: -1.5d
+			description: ["To harvest an apricorn or berry from a tree, you must first wait until one grows. Each berry/apricorn leaf has 3 stages: Nothing, Flowering, and Fruiting. During the Fruiting stage, you can right click on the Apricorn/Berry to pick it, but you must &cuse an empty hand&r. One the apricorn/berry is picked, the leaf will again have nothing for awhile before it flowers and fruits again."]
+			dependencies: [
+				"1183D242FD8FAF87"
+				"391C3D6A40B4349B"
+			]
+			hide: true
+			id: "18E51A380CC824BA"
+			tasks: [{
+				id: "738034C1BE8B65E3"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:white_apricorn"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:pink_apricorn"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:black_apricorn"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:oran_berry"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:nomel_berry"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:rabuta_berry"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:leppa_berry"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "433B55BF40045F7A"
+				type: "item"
+				item: "inspirations:heartbeet"
 			}]
 		}
 	]

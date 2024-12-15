@@ -1,0 +1,34 @@
+{
+	id: "7F1233A3141368E2"
+	order_index: 52
+	title: "Pearl"
+	loot_size: 1
+	rewards: [
+		{
+			title: "A Clamperl who Wants to be Huntail"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/367_huntail/all/base/none/sprite.png"
+				}
+			}
+			command: "/pokegive @p clamperl n:naughty ab:rattled ivatk:31 ivspatk:31 ivspd:31 ivdef:31 ball:dream_ball move1:clamp move2:iron_defense move3:whirlpool move4:shell_smash egg"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "A Clamperl who wants to be Gorebyss"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/368_gorebyss/all/base/none/sprite.png"
+				}
+			}
+			command: "/pokegive @p clamperl n:rash ab:shellarmor ivatk:31 ivspatk:31 ivspd:31 ivdef:31 ball:dream_ball move1:clamp move2:iron_defense move3:whirlpool move4:shell_smash egg"
+			player_command: false
+			type: "command"
+		}
+	]
+}
