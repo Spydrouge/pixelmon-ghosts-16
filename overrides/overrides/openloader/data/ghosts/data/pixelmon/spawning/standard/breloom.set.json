@@ -1,0 +1,155 @@
+{
+  "id": "Breloom",
+  "spawnInfos": [
+       {
+      "spec": "species:Breloom palette:spirit",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+        "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 23,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+            "byg:withering_woods"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Breloom",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 23,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warped_forest",
+          "byg:crimson_gardens",
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 6.0
+    },
+      {
+      "spec": "species:Breloom palette:spirit",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+        "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "minLevel": 23,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Breloom",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY",
+          "DAWN"
+        ],
+        "stringBiomes": [
+          "mushroom",
+          "roofed"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:mushroom_stem"
+            ]
+          }
+        }
+      ],
+      "rarity": 6.0
+    },
+    {
+      "spec": "species:Breloom palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

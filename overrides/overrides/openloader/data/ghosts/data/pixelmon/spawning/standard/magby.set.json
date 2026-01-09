@@ -1,0 +1,84 @@
+{
+  "id": "Magby",
+  "spawnInfos": [
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Land",
+                "Underground",
+                "Manmade",
+                "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "byg:magma_wastes",
+          "byg:embur_bog"
+        ]
+      },
+      "rarity": 20
+    },
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 120
+    },
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ],
+        "neededNearbyBlocks": [
+              "minecraft:lava"
+            ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "byg:subzero_hypogeal"
+            
+        ]
+      },
+      "rarity": 80
+    }
+  ]
+}

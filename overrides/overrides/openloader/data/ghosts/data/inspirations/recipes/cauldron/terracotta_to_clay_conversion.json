@@ -1,0 +1,33 @@
+{
+  "type": "inspirations:cauldron",
+  "conditions": [
+    {
+      "prop": "recipes_module",
+      "type": "inspirations:config"
+    },
+    {
+      "prop": "cauldron_fluids",
+      "type": "inspirations:config"
+    }
+  ],
+  "input": {
+    "item": {
+      "tag": "inspirations:terracotta"
+    },
+    "contents": {
+      "type": "inspirations:fluid",
+      "name": "minecraft:water"
+    },
+    "level": {
+      "min": 12
+    }
+  },
+  "output": {
+    "item": {
+      "item": "minecraft:clay"
+    },
+    "level": {
+      "add": -12
+    }
+  }
+}

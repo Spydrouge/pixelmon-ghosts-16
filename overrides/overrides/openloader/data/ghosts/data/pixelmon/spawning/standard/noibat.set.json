@@ -1,0 +1,176 @@
+{
+  "id": "Noibat",
+  "spawnInfos": [
+    {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:yache_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 40
+    },
+    {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade",
+        "Headbutt",
+        "Underground",
+        "Sweet Scent",
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:crimson_forest",
+            "byg:crimson_gardens",
+            "byg:weeping_mire",	
+            "byg:weeping_mire_clearing",	
+            "byg:weeping_mire_forest",	
+            "byg:withering_woods"
+            
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    
+     {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:yache_berry",
+          "percentChance": 100
+        }
+      ],
+      "rarity": 40
+    },      
+      {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 31,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "hills",
+          "jungles",
+          "redwoods"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 31,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "hills",
+          "jungles",
+          "redwoods"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 31,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Noibat",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 31,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "maxLightLevel": 0
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ultra space",
+          "hellish"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

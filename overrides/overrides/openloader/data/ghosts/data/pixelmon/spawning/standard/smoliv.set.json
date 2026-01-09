@@ -1,0 +1,71 @@
+{
+  "id": "Smoliv",
+  "spawnInfos": [
+    {
+      "spec": "species:Smoliv",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:strib_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:wheat_seeds",
+          "percentChance": 10
+        }
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "plains"
+        ]
+      },
+      "rarity": 200.0
+    },
+    {
+      "spec": "species:Smoliv",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:strib_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:wheat_seeds",
+          "percentChance": 10
+        }
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "times": [
+          "NIGHT",
+          "DUSK"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}
+
+

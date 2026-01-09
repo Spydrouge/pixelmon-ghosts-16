@@ -1,0 +1,97 @@
+{
+  "id": "Charjabug",
+  "spawnInfos": [
+    {
+      "spec": "species:Charjabug",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 10
+        },
+           {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:glowstone_dust",
+          "percentChance": 40
+        }
+
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      
+      "groupSpawnSettings": [
+        {
+          "spec": "Grubbin",
+          "amount": {
+            "min_value": 1,
+            "max_value": 3
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.8
+        }
+      ],
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Charjabug",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 10
+        },
+        {
+          "itemID": "pixelmon:micle_berry",
+          "percentChance": 50
+        },
+        {
+          "itemID": "minecraft:glowstone_dust",
+          "percentChance": 40
+        }
+
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "jungles"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

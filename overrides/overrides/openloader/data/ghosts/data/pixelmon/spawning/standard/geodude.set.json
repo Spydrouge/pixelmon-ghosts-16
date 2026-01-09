@@ -1,0 +1,312 @@
+{
+  "id": "Geodude",
+  "spawnInfos": [
+    {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand",
+             
+          "minecraft:sandstone",
+          "minecraft:red_sandstone",
+          "biomesoplenty:white_sandstone",
+          "biomesoplenty:orange_sandstone",
+          "biomesoplenty:black_sandstone",
+          "byg:white_sandstone",
+          "byg:blue_sandstone",
+          "byg:purple_sandstone",
+          "byg:pink_sandstone",
+            
+          "minecraft:quartz_block",
+          "botania:mana_quartz",
+          "botania:red_quartz",
+          "botania:lavendar_quartz",
+          "botania:sunny_quartz",
+          "botania:dark_quartz",
+        
+          "biomesoplenty:dried_salt",
+          "thermal:niter_block",
+          "thermal:sulfur_block"
+        ],
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 120.0
+    },
+     {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+        "biomesoplenty:undergrowth"
+        ]
+      },
+      "anticondition":{
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 120.0
+    },
+     {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:quartz_desert",
+          "biomesoplenty:undergrowth",
+          "biomesoplenty:crystaline_chasm"
+        ],
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Underground",
+        "Rock Smash",
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 64,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "nearbyBlocks":[
+            "minecraft:redstone_wire"
+        ]
+      },
+      "anticondition":{
+         "baseBlocks": [
+          "minecraft:sand",
+          "minecraft:red_sand",
+          "biomesoplenty:white_sand",
+          "biomesoplenty:orange_sand",
+          "biomesoplenty:black_sand",
+          "byg:white_sand",
+          "byg:blue_sand",
+          "byg:purple_sand",
+          "byg:pink_sand",
+          "pixelmon:poke_sand",
+          "minecraft:soul_sand",
+          "byg:nylium_soul_sand",
+          "byg:quartzite_sand",
+          "byg:end_sand",
+             
+          "minecraft:sandstone",
+          "minecraft:red_sandstone",
+          "biomesoplenty:white_sandstone",
+          "biomesoplenty:orange_sandstone",
+          "biomesoplenty:black_sandstone",
+          "byg:white_sandstone",
+          "byg:blue_sandstone",
+          "byg:purple_sandstone",
+          "byg:pink_sandstone",
+            
+          "minecraft:quartz_block",
+          "botania:mana_quartz",
+          "botania:red_quartz",
+          "botania:lavendar_quartz",
+          "botania:sunny_quartz",
+          "botania:dark_quartz",
+        
+          "biomesoplenty:dried_salt",
+          "thermal:niter_block",
+          "thermal:sulfur_block"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "mountainous",
+          "mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ],
+        "anticondition": {
+            "stringBiomes": [
+              "ghosts",
+              "hellish",
+              "minecraft:gravelly_mountains",
+              "minecraft:shattered_savanna",
+              "minecraft:shattered_savanna_plateau",
+              "pixelmon:ultra_deep_sea"
+            ]
+          },
+        "maxY": 80
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:gravelly_mountains",
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Geodude",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 70
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "mountainous",
+          "savannas",
+          "freezing mountains",
+          "hellish", 
+          "end"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": "species:Geodude form:alolan",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:cell_battery",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "mountainous",
+          "savannas",
+          "freezing mountains"
+        ],
+        "maxY": 70
+      },
+      
+      "rarity": 250.0
+    }
+  ]
+}

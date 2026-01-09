@@ -1,0 +1,184 @@
+{
+    "id": "Umbreon",
+    "spawnInfos": [
+        {
+            "spec": "species:Umbreon",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 45,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:adamant_crystal",
+                    "percentChance": 5
+                }
+            ],
+            "condition": {
+                "times": [
+                    "MIDNIGHT"
+                ],
+                "stringBiomes": [
+                    "plains",
+                    "evil"
+                ]
+            },
+            "rarity": 0.5
+        },
+        {
+            "spec": "species:Umbreon",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 45,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:adamant_crystal",
+                    "percentChance": 5
+                }
+            ],
+            "condition": {
+                "times": [
+                    "NIGHT"
+                ],
+                "stringBiomes": [
+                    "pixelmon:ultra_desert"
+                ]
+            },
+            "rarity": 25
+        },
+        {
+            "spec": "species:Umbreon palette:ashen",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 45,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:adamant_crystal",
+                    "percentChance": 5
+                }
+            ],
+            "condition": {
+                "times": [
+                    "AFTERNOON"
+                ],
+                "stringBiomes": [
+                    "pixelmon:ultra_desert"
+                ]
+            },
+            "rarity": 1
+        },
+        {
+            "spec": "species:Umbreon palette:strike",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 45,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:adamant_crystal",
+                    "percentChance": 5
+                }
+            ],
+            "condition": {
+                "times": [
+                    "NIGHT"
+                ],
+                "stringBiomes": [
+                    "pixelmon:ultra_plant"
+                ]
+            },
+            "rarity": 1
+        },
+        {
+            "spec": "species:Umbreon palette:spirit",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 45,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:adamant_crystal",
+                    "percentChance": 5
+                }
+            ],
+            "condition": {
+                "times": [
+                    "NIGHT"
+                ],
+                "structures": [
+                    "pixelmon:graveyard"
+                ]
+            },
+            "rarity": 0.05
+        },
+        {
+            "spec": "species:Umbreon",
+            "stringLocationTypes": [
+                "Land",
+                "Underground"
+            ],
+            "minLevel": 45,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:adamant_crystal",
+                    "percentChance": 5
+                }
+            ],
+            "condition": {
+                "stringBiomes": [
+                    "biomesoplenty:withered_abyss"
+                ]
+            },
+            "rarity": 5
+        },
+        {
+            "spec": "species:Umbreon palette:ashen",
+            "stringLocationTypes": [
+              "Land",
+              "Underground",
+              "Indoors",
+              "Manmade"
+            ],
+            "minLevel": 25,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "condition": {
+               "structures": [
+                "byg:nightshade_forest"
+              ]
+            },
+            "rarityMultipliers": [
+              {
+                "multiplier": 2,
+                "condition": {
+                  "neededNearbyBlocks": [
+                    "byg:subzero_ash_block"
+                  ]
+                }
+              },
+              {
+                "multiplier": 2,
+                "condition": {
+                  "neededNearbyBlocks": [
+                    "biomesoplenty:umbran_log"
+                  ]
+                }
+              }
+            ],
+            "rarity": 5.0
+          }
+    ]
+}

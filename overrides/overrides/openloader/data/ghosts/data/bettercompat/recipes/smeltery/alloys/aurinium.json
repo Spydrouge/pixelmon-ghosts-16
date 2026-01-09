@@ -1,0 +1,26 @@
+{  
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "materialis:molten_starmetal",
+      "amount": 576
+    },
+    {
+      "name": "materialis:molten_elementium",
+      "amount": 576
+    },
+    {
+      "name": "tconstruct:molten_manyullyn",
+      "amount": 576
+    },
+    {
+      "name": "tconstruct:molten_enderium",
+      "amount": 576
+    }
+  ],
+  "result": {
+    "fluid": "bettercompat:molten_aurinium",
+    "amount": 288
+  },
+  "temperature": 1500
+}

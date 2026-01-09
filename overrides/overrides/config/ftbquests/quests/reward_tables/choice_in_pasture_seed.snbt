@@ -1,0 +1,15 @@
+{
+	id: "49FFFFE455A35ABA"
+	order_index: 58
+	title: "Choice in Pasture Seed"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:grass_seeds" }
+		{ item: "botania:podzol_seeds" }
+		{ item: "botania:dry_seeds" }
+		{ item: "botania:golden_seeds" }
+		{ item: "botania:vivid_seeds" }
+		{ item: "botania:scorched_seeds" }
+		{ item: "botania:infused_seeds" }
+	]
+}

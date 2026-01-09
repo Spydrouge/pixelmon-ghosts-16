@@ -1,0 +1,43 @@
+{
+  "id": "Conkeldurr",
+  "spawnInfos": [
+    {
+      "spec": "species:Conkeldurr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Conkeldurr",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warped_forest",
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 5.0
+    }
+  ]
+}
+

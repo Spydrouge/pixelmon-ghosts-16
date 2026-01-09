@@ -1,0 +1,147 @@
+{
+  "id": "Dragonite",
+  "spawnInfos": [
+      {
+      "spec": "species:Dragonite form:base palette:ashen",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 55,
+      "maxLevel": 70,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Dragonite",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 55,
+      "maxLevel": 70,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Dragonite form:creator",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 55,
+      "maxLevel": 70,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:deep_ocean"
+        ]
+      },
+      "rarity": 0.01
+    },
+    {
+      "spec": "species:Dragonite form:base palette:ashen",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 55,
+      "maxLevel": 70,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Dragonite palette:ashen",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+         "structures": [
+          "byg:purpur_peaks",
+          "byg:end_highlands"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:subzero_ash_block"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+          }
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}

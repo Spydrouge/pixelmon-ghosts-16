@@ -1,0 +1,3929 @@
+{
+	id: "063C46B4F62D89D3"
+	group: "5CC2B36466F88246"
+	order_index: 1
+	filename: "a_new_type_of_forage"
+	title: "Types of Forage"
+	icon: {
+		id: "minecraft:fishing_rod"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["From headbutt to rock smash to... explosion?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Some Time Alone with the Fish"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"You've never seen a \"Vanilla\" fishing rod before, but they seem simple enough to make. It most probably can't catch Pokemon, but you might be able to fish up some useful junk."
+				""
+				"Additionally, the fishing pole is one of the few items that can move Pixelmon, and-more importantly-other people, around. This is true even with people who normally cannot be pushed, like villagers!"
+				""
+				"Foraging takes a lot of your time, and being able to fish while external moves are on cooldown should at least help keep you busy."
+			]
+			dependencies: ["02D3224F5FF97681"]
+			hide: true
+			size: 2.0d
+			id: "5C031B33E5E01602"
+			tasks: [{
+				id: "58F758ED2F6854F0"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F74C97194951EE4"
+				type: "item"
+				item: "pixelmon:purple_water_float"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Forage without the seeds and berries."
+			description: ["The water is filled with dead and crumbling things. You can supplement your Pokemon's forage by fishing for many of the same materials."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "13E59C447B347A7C"
+			tasks: [
+				{
+					id: "05770124759815F3"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "081DD61DA49AEA1D"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "184A7A01884052F7"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+				}
+				{
+					id: "6E03AA04F38B6524"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "6AF32731A0DCF07F"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+			]
+			rewards: [
+				{
+					id: "1D3EC4E1EDA435C2"
+					type: "item"
+					item: "minecraft:bowl"
+				}
+				{
+					id: "74CBFA7B43D54A06"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+				{
+					id: "46AA60AD843309E5"
+					type: "item"
+					item: "pixelmon:clever_feather"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "For the other type of \"Boo!\""
+			description: [
+				"If you fish up a rotten tomato, resist the temptation to throw it! This is the only way you can get tomato seeds, which will boost the number of recipes available to you."
+				""
+				"Carefully craft the rotten tomato into tomato seeds and plant on farmland near water."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "0EA8B5C7A1DAFFF3"
+			tasks: [{
+				id: "7E38397731DE99BE"
+				type: "item"
+				item: "farmersdelight:rotten_tomato"
+			}]
+			rewards: [
+				{
+					id: "421A084931D6E624"
+					type: "item"
+					item: "farmersdelight:rotten_tomato"
+					count: 3
+				}
+				{
+					id: "43029E3DAAE02BB6"
+					type: "item"
+					item: "farmersdelight:tomato_sauce"
+				}
+				{
+					id: "00B33221C108C5DD"
+					type: "item"
+					item: "pixelmon:clever_feather"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "Reverse Engineering"
+			description: ["It's definitely not the best way to farm leather, but you can craft damaged leather boots together to get undamaged boots, and then tear them apart on a cutting board with a knife or shears."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			optional: true
+			id: "7C554F2E38E01DD7"
+			tasks: [{
+				id: "6DA677A317F705DE"
+				type: "item"
+				item: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "5A0814EB7939FC73"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "6074513F4098E156"
+					type: "item"
+					item: {
+						id: "constructsarmory:mail"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:leather"
+						}
+					}
+				}
+				{
+					id: "5FFA693EBB270964"
+					type: "item"
+					item: "pixelmon:muscle_feather"
+				}
+			]
+		}
+		{
+			title: "Skull Collection"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Braiiinnnns"
+			description: [
+				"There's quite a lot of other dead stuff in this water as well. Every skull can be placed in a melter to render it into a liquid. The Drowned skull, for instance, is a source of water."
+				""
+				"You believe there is a way to transform these skulls into specialized helmets or emblems that grant unique abilities, but you haven't discovered the ingredients for doing so just yet."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "0967CC03963F4642"
+			tasks: [
+				{
+					id: "04E7BAC264331B40"
+					type: "item"
+					item: "tconstruct:stray_head"
+				}
+				{
+					id: "620BA6BE416380B4"
+					type: "item"
+					item: "minecraft:zombie_head"
+				}
+				{
+					id: "1997514E188C85F7"
+					type: "item"
+					item: "tconstruct:husk_head"
+				}
+				{
+					id: "21F23BF50583A0BD"
+					type: "item"
+					item: "tconstruct:drowned_head"
+				}
+			]
+			rewards: [
+				{
+					id: "102EE9E7524BF78D"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "4AEABBEE883719EA"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "7EFD3E5144EF08A3"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "0033477C72164C63"
+					type: "item"
+					item: "pixelmon:genius_feather"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "AH!"
+			description: ["You're living in the aftermath of a giant explosion, you just fished up a creepy head, and now Drifloon has brought you a box of TNT!"]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			id: "199EF29352C78C68"
+			tasks: [{
+				id: "6DC0A28080049E4B"
+				type: "item"
+				item: "minecraft:creeper_head"
+			}]
+			rewards: [
+				{
+					id: "510FAB98D7590DC8"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "61AC18CCFAE7843C"
+					type: "item"
+					title: "Drifloon, that is NOT helping!"
+					item: "minecraft:tnt"
+				}
+				{
+					id: "23218BDF7E765754"
+					type: "item"
+					item: "pixelmon:swift_feather"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Making the most of nothing."
+			description: [
+				"Well this seems mostly useless. You suppose you can cook it into bricks and use it for building manmade structures. "
+				""
+				"Unless! Perhaps a certain skull-and-crossbones themed salamander might possibly have eggs hidden inside this mud?"
+				""
+				"You should find out. If Wooper were going to spawn anywhere, it would be on the Murk Layers, between Y levels 96 and 128. You should collect mud, and build a habitat there near water, in the hopes of luring it out."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			id: "3499FE59C4B4FC1F"
+			tasks: [{
+				id: "27BF5175A14272E2"
+				type: "item"
+				item: "biomesoplenty:mud_ball"
+			}]
+			rewards: [{
+				id: "536066A450768D7E"
+				type: "item"
+				item: "biomesoplenty:mud"
+			}]
+		}
+		{
+			icon: "biomesoplenty:mud"
+			x: -3.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "???"
+			description: [
+				"That wasn't a ball of mud."
+				""
+				"That was a Pokemon Egg."
+			]
+			dependencies: ["3499FE59C4B4FC1F"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			id: "28A996E1F73821FD"
+			tasks: [
+				{
+					id: "1D4680AAC85BA63F"
+					type: "item"
+					item: "biomesoplenty:mud"
+					count: 16L
+				}
+				{
+					id: "031E147841F7DBFC"
+					type: "item"
+					item: "biomesoplenty:mud_ball"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6F9C32D2D91E94B8"
+				type: "command"
+				title: "Unknown"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+				}
+				command: "/pokegive @p Wooper form:paldean untradeable egg ball:cherish_ball ab:unaware iv_hp:31 iv_spdef:31 iv_def:31 g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "Brown Dye, Brown Flower"
+			description: ["It appears this can be made into brown dye. That would make it the only source of brown dye you know of. This may be useful for some application reliant on color. However, reeds do not appear to be farmable."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			optional: true
+			id: "1FC5941FD186854D"
+			tasks: [{
+				id: "4D4DA1DB6EAAD1A0"
+				type: "item"
+				item: "byg:reeds"
+			}]
+			rewards: [
+				{
+					id: "7947FD66B9DBE35F"
+					type: "item"
+					item: "botania:livingwood_twig"
+				}
+				{
+					id: "310A9CE50927A07B"
+					type: "item"
+					item: "pixelmon:brown_umbrella"
+				}
+				{
+					id: "37B88960406AF733"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "16E94A409101C4F2"
+					type: "item"
+					item: "pixelmon:health_feather"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "Completionism"
+			description: ["Well this sure is a load of odds and ends..."]
+			dependencies: ["5C031B33E5E01602"]
+			hide: true
+			optional: true
+			id: "1E0087DD805B425B"
+			tasks: [
+				{
+					id: "42897EE26A410FCD"
+					type: "item"
+					item: "minecraft:lily_pad"
+				}
+				{
+					id: "09281F86C10FDDA9"
+					type: "item"
+					item: "byg:hanging_bones"
+				}
+				{
+					id: "1AC7E2855DA594D0"
+					type: "item"
+					item: "tconstruct:spider_head"
+				}
+				{
+					id: "2778DE87DC734DEA"
+					type: "item"
+					item: "pixelmon:trash_can"
+				}
+			]
+			rewards: [
+				{
+					id: "492795502742C54B"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "71A61FDE1E848C49"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "053D575127D29DC5"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 13
+						}
+					}
+				}
+				{
+					id: "7D4C46C92191B67F"
+					type: "item"
+					item: "pixelmon:focus_sash"
+				}
+				{
+					id: "2FE222D5C079F5DF"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 64
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Catch (or Hatch) a Pokemon who Knows Rock Smash"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Use Carefully, and never on Ores! Try on Cobblstone, first!"
+			description: [
+				"&c[WARNING]&r Rock Smash is bugged. It will not work as described on the Pixelmon Wiki. All Blocks 'mined' by RockSmash will be DESTROYED. &c[Warning]&r"
+				""
+				"You've discovered a Pokemon who can learn Rock Smash! And it appears to have come to you bearing the TM!"
+				""
+				"Rock Smash is a difficult-to-use move that nevertheless can supply you with an additional line of Forage. Items foraged will change depending on altitude."
+				""
+				"Every time Rock Smash is used, it will permenantly destroy the block it is used on. DO NOT USE ON ORE. Roughly 50-60% of the time, an item will be discovered in the debris of the destroyed block."
+			]
+			dependencies: ["0472B9420814A15E"]
+			hide: true
+			hide_text_until_complete: true
+			size: 2.0d
+			min_required_tasks: 1
+			id: "5AEE30E608B577CD"
+			tasks: [
+				{
+					id: "070AB7C785CBE208"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "species:falinks"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4C40310252D91EF6"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "species:wimpod"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "7BB950D976C78245"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "species:clobbopus"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "655447752B82778C"
+					type: "pixelmon:hatch_egg"
+					pokemon: "species:cufant"
+					count: 1
+					invert: false
+				}
+			]
+			rewards: [{
+				id: "417D8B34D1243EA4"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen6"
+					Count: 1b
+					tag: {
+						tm: 94
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["Fossil Blocks can be obtained by Rock Smashing Blocks in the Deep Dark Layer."]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			id: "123AC748C0135883"
+			tasks: [{
+				id: "7E52AF39C9E01096"
+				type: "item"
+				item: "pixelmon:fossil"
+			}]
+			rewards: [{
+				id: "1F9683A44C03433F"
+				type: "item"
+				item: "pixelmon:black_shard"
+			}]
+		}
+		{
+			title: "Uncleaned Fossil"
+			x: -1.5d
+			y: -6.0d
+			description: [
+				"Two fossil types can be found at each layer of altitude as described in the Explore section of your Diary. Some fossils are more prevalant than others"
+				""
+				"The Deep Dark Layer is the only layer that has only a single covered fossil- but it also has fossil blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			id: "4AC7701A4A1A6D1D"
+			tasks: [{
+				id: "4E3C827D42DA204F"
+				type: "item"
+				title: "Any #pixelmon:uncleaned_fossils"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "pixelmon:uncleaned_fossils"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D07D08559E97D09"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "576302600D94A4C2"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 500
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			description: [
+				"Different stone shards can be found with Rock Smash at different altitude levels."
+				""
+				"For example, the shard available at the Soil Layer is the Leaf Stone shard."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			id: "7FFF74D894781226"
+			tasks: [{
+				id: "3289D85C02FCF6A8"
+				type: "item"
+				item: "pixelmon:leaf_stone_shard"
+			}]
+			rewards: [
+				{
+					id: "3F07D4FC6DE78DD7"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "19CD65412F2B5928"
+					type: "pixelmon:pokedollars"
+					title: "Drifloon found some spare change!"
+					count: 500
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			description: ["Rock Smash can yield different treasure items at different Layers of altitude. The comet and star peices, found at the higher altitudes, may have some astral value."]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			id: "578714F5CA6ED6D0"
+			tasks: [{
+				id: "5D9D44BA6EE6573E"
+				type: "item"
+				title: "Treasure Item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:relic_copper"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_silver"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_gold"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:nugget"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:big_nugget"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:comet_shard"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:stardust"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:star_piece"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:rare_bone"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_vase"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_statue"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_crown"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_band"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E7935215631FEBD"
+				type: "item"
+				item: "pixelmon:silver_bottle_cap"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["Slime Crystals, for repairing slime tools, can be found at a few altitudes. The skyslime one is of especial interest- you know of no other way of getting access to skyslime-anything."]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			optional: true
+			id: "407B38EFA573F097"
+			tasks: [
+				{
+					id: "5D6CECAA73550D0B"
+					type: "item"
+					item: "tconstruct:earth_slime_crystal"
+				}
+				{
+					id: "521A0B4F989F0E3E"
+					type: "item"
+					item: "tconstruct:sky_slime_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "72CB33D53222BABA"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "1EFFE47EF9A78BC7"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			title: "Completionist"
+			x: 0.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["An unknown amount of other interesting materials can be found by using Rock Smash on assorted layers. Do you really have the patience to find them all?"]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			optional: true
+			id: "29DA49F499CB67D2"
+			tasks: [
+				{
+					id: "3D23A1F3FF80070D"
+					type: "item"
+					item: "thermal:slag"
+				}
+				{
+					id: "38325F513A6A902C"
+					type: "item"
+					item: "thermal:rich_slag"
+				}
+				{
+					id: "5B031637D0CE2654"
+					type: "item"
+					item: "thermal:cinnabar"
+				}
+				{
+					id: "011715E4B8294329"
+					type: "item"
+					item: "thermal:sulfur"
+				}
+				{
+					id: "31DB3DBF8BE29491"
+					type: "item"
+					item: "thermal:niter"
+				}
+				{
+					id: "3C8E2B1A041FDF8C"
+					type: "item"
+					item: "thermal:tar"
+				}
+				{
+					id: "03D9D3704491AB3E"
+					type: "item"
+					item: "thermal:bitumen"
+				}
+				{
+					id: "6FEC307AFD758771"
+					type: "item"
+					item: "byg:lignite"
+				}
+				{
+					id: "069A48B70D18343D"
+					type: "item"
+					item: "byg:subzero_crystal_shard"
+				}
+				{
+					id: "02D3C2D57FF92558"
+					type: "item"
+					item: "byg:therium_shard"
+				}
+				{
+					id: "68F3C3DB7B9A7627"
+					type: "item"
+					item: "thermal:rosin"
+				}
+			]
+			rewards: [
+				{
+					id: "78839941A9E7236E"
+					type: "item"
+					item: {
+						id: "pixelmon:mineral_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for Excellence in\",\"italic\":false}]"
+									"[{\"text\":\"Smashing Many, Many Rocks\",\"italic\":false}]"
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "74B3540F37F7AE8F"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "314BD744A67587D1"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+				{
+					id: "65A6766051ABACE8"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Astral Ores"
+			x: -1.5d
+			y: -7.0d
+			description: ["Aquamarine can be found at the highest heights; Rock crystal can be found at the deepest depths. Both can be found through Rock Smash."]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			id: "4F5F256C352DFE1B"
+			tasks: [
+				{
+					id: "06AB1FC6A9E03471"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "2EB895B3ECC3F948"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "7429F29507016E04"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "38CFFA2ED2CF4068"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["Interesting elemental substances can be found at different altitudes. It's unfortunate they don't seem to include Blaze Rods."]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			id: "2B123CF4CD37A610"
+			tasks: [
+				{
+					id: "4FEC7DBEF9E7C072"
+					type: "item"
+					item: "thermal:basalz_rod"
+				}
+				{
+					id: "0DA944A6B0C939B3"
+					type: "item"
+					item: "thermal:blizz_rod"
+				}
+				{
+					id: "6C086CCE13DC3781"
+					type: "item"
+					item: "thermal:blitz_rod"
+				}
+			]
+			rewards: [
+				{
+					id: "68CD6DDF39CEFE8F"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "5389B11ED685A630"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "20D0DF58F67A0CD6"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			title: "Fossil Collection"
+			x: -2.5d
+			y: -6.0d
+			shape: "circle"
+			subtitle: "Impressive"
+			description: ["What a Collection!"]
+			dependencies: ["4AC7701A4A1A6D1D"]
+			hide: true
+			optional: true
+			id: "5901F4973C303F47"
+			tasks: [
+				{
+					id: "06E0E9E6A70C4204"
+					type: "item"
+					item: "pixelmon:helix_fossil"
+				}
+				{
+					id: "2969014B36FE9AF5"
+					type: "item"
+					item: "pixelmon:dome_fossil"
+				}
+				{
+					id: "41993570BD6587EE"
+					type: "item"
+					item: "pixelmon:root_fossil"
+				}
+				{
+					id: "47793BEC5613C9FD"
+					type: "item"
+					item: "pixelmon:claw_fossil"
+				}
+				{
+					id: "3CE9E0AB9EE54DC0"
+					type: "item"
+					item: "pixelmon:skull_fossil"
+				}
+				{
+					id: "06130ED7D49BB970"
+					type: "item"
+					item: "pixelmon:armor_fossil"
+				}
+				{
+					id: "3162DDA3FF68DA69"
+					type: "item"
+					item: "pixelmon:cover_fossil"
+				}
+				{
+					id: "62FBF86A4FF33393"
+					type: "item"
+					item: "pixelmon:plume_fossil"
+				}
+				{
+					id: "5F99BA7F49627308"
+					type: "item"
+					item: "pixelmon:jaw_fossil"
+				}
+				{
+					id: "7A6E32490B0D6886"
+					type: "item"
+					item: "pixelmon:sail_fossil"
+				}
+				{
+					id: "0BD35F26AE1AC4EE"
+					type: "item"
+					item: "pixelmon:bird_fossil"
+				}
+				{
+					id: "76699A19E363FC55"
+					type: "item"
+					item: "pixelmon:dino_fossil"
+				}
+				{
+					id: "294DE35C14F83C7D"
+					type: "item"
+					item: "pixelmon:drake_fossil"
+				}
+				{
+					id: "0BFC72FEF71FE9DF"
+					type: "item"
+					item: "pixelmon:fish_fossil"
+				}
+			]
+			rewards: [{
+				id: "713C967496AF23BE"
+				type: "item"
+				item: {
+					id: "pixelmon:cliff_badge"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Awarded for Excellent\",\"italic\":false}]"
+								"[{\"text\":\"Fossil Collection\",\"italic\":false}]"
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["Bottles o' Enchanting can be found using Rock Smash on the Murk and Dazzle Levels."]
+			hide_dependency_lines: true
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			optional: true
+			id: "3833E305089D2E3A"
+			tasks: [{
+				id: "4590B245DFE013F7"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
+			rewards: [
+				{
+					id: "327BD34CF554E105"
+					type: "choice"
+					table_id: 8717960779849246681L
+				}
+				{
+					id: "38FF719361617D66"
+					type: "item"
+					item: "pixelmon:rare_candy"
+				}
+			]
+		}
+		{
+			title: "Rock Collection"
+			x: 2.5d
+			y: -6.0d
+			shape: "circle"
+			dependencies: ["7FFF74D894781226"]
+			hide: true
+			optional: true
+			id: "2079DCFE4807C7C4"
+			tasks: [
+				{
+					id: "13C750DBB3C362FB"
+					type: "item"
+					item: "pixelmon:fire_stone"
+				}
+				{
+					id: "7C1676BB20405931"
+					type: "item"
+					item: "pixelmon:water_stone"
+				}
+				{
+					id: "63BEFC35576CCFEF"
+					type: "item"
+					item: "pixelmon:moon_stone"
+				}
+				{
+					id: "73AD1253CAF3A286"
+					type: "item"
+					item: "pixelmon:thunder_stone"
+				}
+				{
+					id: "2C8551F662CDCAC5"
+					type: "item"
+					item: "pixelmon:leaf_stone"
+				}
+				{
+					id: "27366E3B9C54D530"
+					type: "item"
+					item: "pixelmon:sun_stone"
+				}
+				{
+					id: "2B39434B9B42CB4E"
+					type: "item"
+					item: "pixelmon:dawn_stone"
+				}
+				{
+					id: "39666E20AA5531A0"
+					type: "item"
+					item: "pixelmon:dusk_stone"
+				}
+				{
+					id: "381CCC5C54A44317"
+					type: "item"
+					item: "pixelmon:ice_stone"
+				}
+				{
+					id: "747B5ADEFFF697BB"
+					type: "item"
+					item: "pixelmon:shiny_stone"
+				}
+			]
+			rewards: [{
+				id: "1C4805C47D211C4E"
+				type: "item"
+				item: {
+					id: "pixelmon:stone_badge"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Awarded for Excellent\",\"italic\":false}]"
+								"[{\"text\":\"Evolutionary Stone Collection\",\"italic\":false}]"
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			subtitle: "Catch a Castform or 'Waste' a move slot on Drifloon?"
+			description: [
+				"You've brought the rain! Summoning the rain is a great way to replenish water storage, although it's not advisable to try and let it rain forever."
+				""
+				"Some Pokemon behave differently during the Rain, such as Burmy no longer appearing out of doors and instead appearing indoors."
+				""
+				"On the other hand, so few Pokemon survived the apolcaypse that the competition isn't fierce, and some Pokemon like Sunflora, which would ordinarily never come out in anything other than sunny weather, now drink their fill of the rain."
+			]
+			dependencies: ["4CCDFB9994946597"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7A14B86EECDF05E4"
+			tasks: [{
+				id: "782E13DD4D4A88E7"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "rain_dance"
+			}]
+			rewards: [
+				{
+					id: "6179B3C18BBB31F9"
+					type: "item"
+					item: "pixelmon:fresh_water"
+					count: 5
+				}
+				{
+					id: "1322CF92196C54E9"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["Excellent! You are ready to search for items!"]
+			dependencies: ["5AEE30E608B577CD"]
+			hide: true
+			id: "4EED2B4BBCB23E7D"
+			tasks: [{
+				id: "5CC7D8B3647F7013"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "rock_smash"
+			}]
+			rewards: [
+				{
+					id: "66A2E112C11F7809"
+					type: "item"
+					title: "How... Did Drifloon carry this much granite?"
+					item: "minecraft:granite"
+					count: 16
+				}
+				{
+					id: "7567FFFB5625F8E1"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 14
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			shape: "circle"
+			description: ["Relic Artifacts, when placed on the ground, will very rarely attract Legendary Pokemon. These Legendary Pokemon cannot be caught, and are very difficult to defeat. If you defeat them, they will be transformed into an egg, and given to you to hatch."]
+			dependencies: ["578714F5CA6ED6D0"]
+			optional: true
+			id: "0FFB4F2F31FCCCC3"
+			tasks: [
+				{
+					id: "46ED0978756CBDCE"
+					type: "item"
+					item: "pixelmon:relic_copper"
+				}
+				{
+					id: "48B18E9E05CB0224"
+					type: "item"
+					item: "pixelmon:relic_silver"
+				}
+				{
+					id: "36931D91B588514C"
+					type: "item"
+					item: "pixelmon:relic_gold"
+				}
+				{
+					id: "59E438185024BF5E"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "7CD2B8A91523B52A"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "33524D099F3E63DF"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "41431E22220F4196"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+			]
+			rewards: [
+				{
+					id: "70C7E2FE417322B1"
+					type: "item"
+					item: {
+						id: "pixelmon:relic_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for Excellence in\",\"italic\":false}]"
+									"[{\"text\":\"Archaeology\",\"italic\":false}]"
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "5912B9E23E52D02E"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			description: ["If you have a Pokemon that has Ember, Incinerate, Inferno, or Burn Up, these moves can be use to power a Furnace without coal. Higher power moves will cause items in the furnace to smelt instantaneously. "]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "00E707243834C44B"
+			tasks: [{
+				id: "5B4E933320BD1F24"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "smelt"
+			}]
+			rewards: [
+				{
+					id: "2C6D9EBCEF1673C6"
+					type: "item"
+					item: "thermal:coal_coke"
+					count: 16
+				}
+				{
+					id: "415509BDD838B618"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen6"
+						Count: 1b
+						tag: {
+							tm: 59
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -11.5d
+			description: [
+				"Cut can, as the name suggests, be used to break wood blocks. But did you know that it breaks more wood blocks than one? Cut can take down whole trees- if the Pokemon using it is strong enough."
+				""
+				"Practice using cut on a variety of Pokemon, and a variety of tree sizes"
+				""
+				"Keep your best cutters away from any wood houses!"
+				""
+			]
+			dependencies: ["4BBB224E88B3F750"]
+			hide: true
+			id: "139888ADA26C5124"
+			tasks: [{
+				id: "27244B534E72CD42"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "cut"
+			}]
+			rewards: [
+				{
+					id: "0DC9B336D3001763"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
+					}
+				}
+				{
+					id: "6D5B953CB6F0E54F"
+					type: "item"
+					item: "biomesoplenty:redwood_sapling"
+				}
+			]
+		}
+		{
+			title: "Cutter"
+			x: 0.5d
+			y: -12.5d
+			description: [
+				"Gather saplings and plant your next redwood in a 2x2 to increase the tree size."
+				""
+				"(These redwood saplings, like some other BYG saplings, will only grow above Y = 72)"
+			]
+			dependencies: ["139888ADA26C5124"]
+			hide: true
+			id: "2F65123D8C4EA748"
+			tasks: [{
+				id: "1C95952A9480A8BC"
+				type: "item"
+				item: "biomesoplenty:redwood_log"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "13CD852EDD563F4C"
+					type: "item"
+					item: "byg:redwood_sapling"
+				}
+				{
+					id: "4A5FF7F7D2257E66"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 40
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cut-est"
+			x: 0.5d
+			y: -13.5d
+			description: ["Uh oh. This is already bigger than the other redwood species as a 1x21 What happens if you plant a 2x2?"]
+			dependencies: ["2F65123D8C4EA748"]
+			hide: true
+			id: "28099EE648CD4FA4"
+			tasks: [{
+				id: "400EBF6D52A8AAEA"
+				type: "item"
+				item: "byg:redwood_log"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "0409E6215CC76EBF"
+					type: "item"
+					item: "byg:baobab_sapling"
+					count: 4
+				}
+				{
+					id: "59AC2DE2F82B7188"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 69
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cutter-est"
+			x: 0.5d
+			y: -14.5d
+			description: ["The Baobab tree, like many other (but not all!) Biomes-You'll-Go trees, will only grow above Y = 72. It also will only grow in a 2x2 configuration."]
+			dependencies: ["28099EE648CD4FA4"]
+			hide: true
+			id: "6981A63436A0C904"
+			tasks: [{
+				id: "77785E473FEB29D8"
+				type: "item"
+				item: "byg:baobab_log"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "4B0AF3ED574A885A"
+					type: "item"
+					item: "byg:baobab_fruit"
+					count: 16
+				}
+				{
+					id: "4D581040CDDF2A79"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+				{
+					id: "5456CC1957C6299F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 94
+						}
+					}
+				}
+				{
+					id: "627172408AF60E06"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Steal an Item!"
+			x: -6.5d
+			y: -11.0d
+			description: [
+				"Thief, Covet, Trick, and Switcheroo are moves that can be used to take items from wild Pokemon."
+				""
+				"Wild Pokemon often hold berries, and some can hold other materials such as power enhancing items."
+				""
+				"In general, if a Pokemon drops a berry, it is much easier to obtain that berry with Thief than to wait for it to drop. Pokemon with a 5% drop chance of a berry may have a 25% chance to hold it."
+			]
+			dependencies: [
+				"4EE5504B5C31D047"
+				"16D13FBB3BBF2133"
+				"44C10B51CAAF3718"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			min_required_tasks: 1
+			id: "2C0BD8E345FD832F"
+			tasks: [
+				{
+					id: "39182446E0D67BE2"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "thief"
+					moveType: 0b
+				}
+				{
+					id: "5627FF1D22B1FC63"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "covet"
+					moveType: 0b
+				}
+				{
+					id: "2259B9EF2B839CEF"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "switcheroo"
+					moveType: 0b
+				}
+				{
+					id: "4188FCC9CC8A2131"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "trick"
+					moveType: 0b
+				}
+			]
+			rewards: [
+				{
+					id: "75C22E172382B25F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 68
+						}
+					}
+				}
+				{
+					id: "6DD5A96F4BBF34A7"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
+				}
+				{
+					id: "3C30E50177A473C0"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Covet"
+			x: -6.0d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"Covet is the easiest move to find among the Pokemon you still have. It is common among baby Pokemon."
+				""
+				"Happiny and Munchlax will all learn it naturally if they don't evolve too early. Smoochum will learn it whether she evolves or not."
+				""
+				"Igglybuff must evolve before or at level 8, when Jigglypuff learns Covet, or else must wait all the way till level 24 without evolving to pick it up."
+				""
+				"Some Pokemon, like Skitty and Illumise, can learn it, but they learn it much later, at levels 34 and 47 respectively."
+				""
+				"Eevee can learn it, but only at level 1, making it important not to catch a high-level Eevee so that later moves don't overwrite earlier ones."
+			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "44C10B51CAAF3718"
+			tasks: [
+				{
+					id: "53B7CE7E63D945EF"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Happiny"
+					count: 1
+					invert: false
+				}
+				{
+					id: "511B1194259955AD"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Smoochum"
+					count: 1
+					invert: false
+				}
+				{
+					id: "44178B8B9E277C3E"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Skitty"
+					count: 1
+					invert: false
+				}
+				{
+					id: "3DC90A57D768EBD2"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Igglybuff"
+					count: 1
+					invert: false
+				}
+				{
+					id: "5D5FDED0D50D5B9D"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "zigzagoon"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4CD9118193ECCCCD"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "slakoth"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "0B213D4A89D9668E"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "espurr"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "24637686509AF91A"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "skwovet"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "6958BE61D8288465"
+					type: "pixelmon:hatch_egg"
+					pokemon: "munchlax"
+					count: 1
+					invert: false
+				}
+				{
+					id: "69CE9C47154B4231"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "teddiursa"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "02B8FAD08D3D4993"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "eevee"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2489E73275FEF7F9"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "mankey"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "3F4BCE298852627E"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "jigglypuff"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [
+				{
+					id: "32D62E684FCBB6DF"
+					type: "item"
+					item: "pixelmon:relic_gold"
+				}
+				{
+					id: "0164A1167B2B85A7"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 29
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Thief"
+			x: -8.0d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"Obtain a \"Thief\" TM or a Pokemon who Learns it Naturally"
+				""
+				"If you haven't already found a TM for Thief, Nikkit is the only Pokemon you can think of that might have survived this apocalypse that has access to Thief on evolving. Foxes are always more in tune with the spirit world, and have crafty ways of surviving even the worst calamities."
+			]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "4EE5504B5C31D047"
+			tasks: [
+				{
+					id: "6ED28FC523BD0077"
+					type: "item"
+					title: "Obtain a Thief TM"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
+				}
+				{
+					id: "1620238EBF4BD7E4"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+				{
+					id: "1105AE26E3350BD2"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "399709C1734BB903"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen6"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "58E1D76A73693CED"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen5"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "135A7372BA2D20E7"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1444693643CEF9A8"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen3"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1EA359516E2E9D10"
+					type: "item"
+					secret: true
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "1D1BDC66B343D221"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "nickit"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "61115DE236752A08"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "thievul"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "1C46FAAD55CB1B9C"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "poochyena"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "79A8695E0ED5CD76"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "mightyena"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2089444ABEBADA3A"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "kecleon"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [
+				{
+					id: "58A285E3E2A8D900"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
+					}
+				}
+				{
+					id: "6FD80EABEA95CCB5"
+					type: "item"
+					item: "pixelmon:nugget"
+				}
+			]
+		}
+		{
+			title: "Switcheroo"
+			x: -7.0d
+			y: -9.5d
+			shape: "circle"
+			description: ["Catch a Pokemon that can naturally learn Switcheroo. Dhelmise might be alive in the depths of the world, and Inkay may be somewhere at either the top or bottom of everything."]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "16D13FBB3BBF2133"
+			tasks: [
+				{
+					id: "446F26AD7B313657"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "inkay"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "5575B9DB10404442"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "malamar"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "2D7606C3470DD08D"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "persian"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "341E957F969D36B9"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "minun"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "037B2CD7C701EEB1"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "cutiefly"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "7F8E8B66DB778DE7"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "ribombee"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "6A8AEC1517E1DDE6"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "dhelmise"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [
+				{
+					id: "47756FEE034D071A"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 83
+						}
+					}
+				}
+				{
+					id: "0EFC86B643A72886"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 47
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: [
+				"Headbutt isn't the most important move, but you might still want to hatch or find a Pokemon who can naturally learn Headbutt."
+				""
+				"You can hatch a few Pokemon capable of learning Headbut. Cranidos learns it immediately. Mantyke learns it at level 28."
+				""
+				"Castform, if you caught one to use rain Dance, learns it at level 15. There are many other options."
+				""
+				"Headbutt is used on trees and can either start an encounter or drop an item."
+				""
+				"It's item pool is not as diverse as Rock Smash's."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 2.0d
+			id: "402AAEEB3DE48E6F"
+			tasks: [{
+				id: "1EE593EAAED1C585"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "headbutt"
+			}]
+			rewards: [{
+				id: "1B2DE7E2296D0F2F"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 69
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.5d
+			description: [
+				"Sweet Scent starts an encounter. This move pulls from a different encounter table than usual, and has the ability to bring in more flying type Pokemon. Watch out! You have no idea what the level of the enemy  Pokemon will be!"
+				""
+				"It is learned by Oddish, Surskit, Milcery, Gossifleur, and Illumise at fairly low levels. Spritzee starts with it. Bounsweet, Comfey, and Foongus learn it much later on."
+				""
+				"The only Pokemon you can hatch, which can learn it, is Budew, and only if it evovles to Roselia in time for level 25."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "0142505D0FCC05E1"
+			tasks: [{
+				id: "333A7E0D5A1CABBF"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "sweet_scent"
+			}]
+			rewards: [
+				{
+					id: "57B81E8B94656CE2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 12
+						}
+					}
+				}
+				{
+					id: "2F610E44779223E7"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 91
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"Ummm.... Wait. What?"
+				""
+				"This is not a normal egg. It's not a Pokemon egg, either."
+			]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			optional: true
+			secret: true
+			id: "69351F58AC8A6A4B"
+			tasks: [{
+				id: "61EA746490FD4253"
+				type: "item"
+				item: "minecraft:slime_spawn_egg"
+			}]
+			rewards: [{
+				id: "7584D8DCAD17AF25"
+				type: "item"
+				item: "pixelmon:lucky_egg"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"Huh."
+				""
+				"These seem more common in the Space and Ice layers, where they aren't competing as heavily with normal eggs."
+			]
+			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
+			optional: true
+			id: "5FEF15A09D699E2E"
+			tasks: [{
+				id: "1CCB390270449F91"
+				type: "item"
+				item: "tconstruct:sky_slime_spawn_egg"
+			}]
+			rewards: [
+				{
+					id: "43CE369C94852AEF"
+					type: "item"
+					item: "tconstruct:sky_slime_ball"
+				}
+				{
+					id: "7D66D1FB3D77B966"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "6065C4377F8F0B8E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 37
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Skeleton Animal Egg"
+			x: -8.5d
+			y: -2.0d
+			shape: "circle"
+			description: ["What you've seen in the deep dark, falling out of the trees there, is a little disturbing. These are definitely not normal eggs."]
+			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
+			optional: true
+			id: "736534A8DE471CD8"
+			tasks: [
+				{
+					id: "6B12C640C7D74812"
+					type: "item"
+					item: "bones:skeleton_chicken_spawn_egg"
+				}
+				{
+					id: "6FD4956DB93169CD"
+					type: "item"
+					item: "bones:skeleton_cow_spawn_egg"
+				}
+				{
+					id: "2C91CF61D5B88FD5"
+					type: "item"
+					item: "bones:skeleton_pig_spawn_egg"
+				}
+				{
+					id: "43D4B5C830F65AF8"
+					type: "item"
+					item: "bones:skeleton_sheep_spawn_egg"
+				}
+				{
+					id: "56527F89F609F234"
+					type: "item"
+					item: "minecraft:skeleton_horse_spawn_egg"
+				}
+			]
+			rewards: [
+				{
+					id: "49C2D7BE3D37F33A"
+					type: "item"
+					item: "pixelmon:max_revive"
+				}
+				{
+					id: "226806E470FDAB96"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 81
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			shape: "circle"
+			description: ["Headbutting trees can yield eggs and feathers, although the rate of eggs improves on the Air layer."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			optional: true
+			id: "72A9F96F7914AF72"
+			tasks: [
+				{
+					id: "1684EF63DA43E299"
+					type: "item"
+					item: "minecraft:egg"
+				}
+				{
+					id: "579A615C7E37322D"
+					type: "item"
+					item: "minecraft:feather"
+				}
+			]
+			rewards: [{
+				id: "48A01F96959B1708"
+				type: "item"
+				item: "pixelmon:eggant_berry"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			shape: "circle"
+			description: ["Something strange is raining out of trees on the Stone Layer."]
+			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
+			optional: true
+			id: "3BFE02F0A2B6E15A"
+			tasks: [{
+				id: "3C2BFB1D3B7AA25B"
+				type: "item"
+				item: "minecraft:stray_spawn_egg"
+			}]
+			rewards: [{
+				id: "2ADA875F83445D2B"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			shape: "circle"
+			description: ["You might find a rare new sapling."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			optional: true
+			id: "3D41A2C5F71DC468"
+			tasks: [
+				{
+					id: "56753FB49DE731AF"
+					type: "item"
+					item: "byg:lament_sapling"
+				}
+				{
+					id: "1960B85B2F74CCEE"
+					type: "item"
+					item: "byg:ebony_sapling"
+				}
+			]
+			rewards: [{
+				id: "5A7E11A299AAB744"
+				type: "item"
+				item: "byg:holly_sapling"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			shape: "circle"
+			description: ["An ecclectic assortment of items can be found this way."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "035AA7EA40AFEAAF"
+			tasks: [
+				{
+					id: "27AA9B9E13FCD6F5"
+					type: "item"
+					item: "pixelmon:leek"
+				}
+				{
+					id: "0176B26E2EFA7CEC"
+					type: "item"
+					item: "pixelmon:sharp_beak"
+				}
+				{
+					id: "2A6109C9965163D1"
+					type: "item"
+					item: "pixelmon:big_root"
+				}
+			]
+			rewards: [{
+				id: "3213E8FDD13BF3B8"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen1"
+					Count: 1b
+					tag: {
+						tm: 39
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			shape: "circle"
+			description: ["Pretty Feathers, as well as Health, Muscle, Etc feathers, can occasionally drop from headbutting a tree."]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			optional: true
+			id: "1419BDF64C61DE5F"
+			tasks: [{
+				id: "5D2B48DF650B123D"
+				type: "item"
+				item: "pixelmon:pretty_feather"
+			}]
+			rewards: [{
+				id: "6BF7B3C1640FDB3C"
+				type: "choice"
+				table_id: 6443510782262151491L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"Getting the TM Headbutt... from using Headbutt?"
+				""
+				"Well, the more the merrier."
+			]
+			dependencies: ["402AAEEB3DE48E6F"]
+			hide: true
+			optional: true
+			id: "17600F77E1AE6E27"
+			tasks: [{
+				id: "790C97FFC1233B75"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen2"
+					Count: 1b
+					tag: {
+						tm: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D4F311907A6B21B"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 59
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "Are you supposed to have this?"
+			description: [
+				"You appear to have found an, eh-heh, Easter Egg."
+				""
+				"It is possible you've found this before you should have access to Ender Slime. If so, Enjoy."
+			]
+			hide_dependency_lines: true
+			dependencies: ["69351F58AC8A6A4B"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			secret: true
+			id: "07E139B36C92A3D5"
+			tasks: [{
+				id: "715FFCF7FCB80905"
+				type: "item"
+				item: "tconstruct:ender_slime_spawn_egg"
+			}]
+			rewards: [{
+				id: "42FAA3A111AD7894"
+				type: "item"
+				item: "tconstruct:ender_slime_ball"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			description: [
+				"A Pokemon who knows Ember, Fire Spin, Flame Burst, Flame Wheel, Heat Wave, or Will-O-Wisp can use the External move Ignite."
+				""
+				"Ignite starts a fire, like with Flint and Steel. Sadly, it cannot be used to cook Curry."
+				""
+				"Some Pokemon with more powerful fire moves can ignite more blocks. These include Fire Blast, Incinerate, Inferno, and Sacred Fire."
+				""
+				"It can be used to light a nether portal."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "1643FE18CF6D0466"
+			tasks: [{
+				id: "3AB9C5978A5D8D13"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "ignite"
+			}]
+			rewards: [{
+				id: "49F9D6230A282208"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen8"
+					Count: 1b
+					tag: {
+						tm: 13
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			description: [
+				"Tired of begging for lenses to determine a Pokemon's stats before you try to catch it? You need analyze. Analyze can be used by any Pokemon that knows Mind Reader or Foresight."
+				""
+				"Mind Reader is learned fairly late by Nincada, Ninjask, and Shedinja. Foresight is one of Venonat's starting moves. Skitty learns Foresight at Level 4."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "6E369A23A37D1561"
+			tasks: [{
+				id: "2D123F56C7DD27A6"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "analyse_pokemon"
+			}]
+			rewards: [
+				{
+					id: "3DA5915F1501B35E"
+					type: "item"
+					item: {
+						id: "pixelmon:lens_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5821A263138743A4"
+					type: "item"
+					item: "pixelmon:ability_capsule"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			description: [
+				"Ground Birds can help you initiate combat with air Pokemon before they leave your island and head off into the void."
+				""
+				"The only two moves that allow you to learn Ground Birds are Smack Down and Gravity. If you replace Smack Down with a better rock move, you will lose access to it."
+				""
+				"The only Pokemon you can hatch to get access to Smack Down are some of the fossil Pokemon, like Tirouga and Anorith. If you want to hatch these Pokemon, you must go the Rock Smash route and grind out fossils. To get access to Gravity, you must hatch a Cleffa and evolve it into Clefairy in time to learn Gravity."
+				""
+				"Carbink, Geodude, Rolycoly, Roggenrola, and Dweble all gain access to Smackdown. Some Pokemon like Siglyph and Stonejourner have Gravity, but you must catch them at the righ levels. Rhyhorn has Smackdown, but may be difficult to catch without better balls."
+				""
+				"Neither move can be taught with TMs."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "3AE65172A39A66D0"
+			tasks: [{
+				id: "3BABC38EB4FAB874"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "ground"
+			}]
+			rewards: [
+				{
+					id: "05CA928C08D573A2"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 76
+						}
+					}
+				}
+				{
+					id: "096C37E066D66D15"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -11.5d
+			description: [
+				"You aren't sure if this will ever be useful, exactly, but Pokemon who know certain electric moves can call down Lightning. These moves are Spark, Discharge, Thunder, Thunder Shock, and Thunderbolt."
+				""
+				"If you want to use lightning bolt, the fastest way is to hatch an Elekid."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "7622C8175BC28B3D"
+			tasks: [{
+				id: "5C83AF918E4BAC72"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "lightning_bolt"
+			}]
+			rewards: [
+				{
+					id: "6CF95122FC65AF25"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 8
+						}
+					}
+				}
+				{
+					id: "44A0AFE30FF19D26"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 14
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			description: [
+				"Dig is fairly useless to you. It can only harvest certain, soft blocks that you could already mine by hand. It does mine a wide 3x3, 5x5 or 7x7 area, depending on the attack state of the user."
+				""
+				"Unlike with rock smash, no unique items can be found this way."
+				""
+				"The fastest way for you to gain acess to Dig is to level up Nincada to level 40 prior to evolving it. If that is undesirable, Trapiinch naturally learns it at level 24, Silcobra at 30, and Grubbin at level 40. If you were lucky enough to gain acces to Cufant, it learns it at level 30."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "54F4EB9852C40527"
+			tasks: [{
+				id: "11CFFA0173155CDB"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "dig"
+			}]
+			rewards: [{
+				id: "5C4DF5DE454F18BB"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen8"
+					Count: 1b
+					tag: {
+						tm: 15
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.5d
+			description: ["To use fly (or teleport) you must first have a healer. If you do not have a healer, you will not be able to use the external move. Fly (and teleport) return you to the last healer you used."]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			size: 0.5d
+			id: "4ACCFABA278B9A50"
+			tasks: [{
+				id: "3E74601307FE5910"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "fly"
+			}]
+			rewards: [{
+				id: "2F4510F724D6E967"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen7"
+					Count: 1b
+					tag: {
+						tm: 58
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			description: [
+				"Did you level up Happiny? If you now have a Chansey at level 44, you may have learned the move Soft-Boiled. You then have access to the Heal move outside of battle."
+				""
+				"In battle, Softboiled heals the user. But out of battle, Softboiled transfers health from Chansy to the target Pokemon. It transfers 20% of Chansey's Maximum health, and she can faint from overdoing it."
+				""
+				"Chansey can even heal a human; however, most of the healing effect will be wasted, as you have far fewer hitpoints than 20% of her maximum health."
+				""
+				"The TM Softboiled is fairly useless; it can only be used on Chansey."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3C1A4FC9A80E076B"
+				"2C25AE5D7E72F34A"
+				"1B33709ACD196577"
+				"7A14B86EECDF05E4"
+			]
+			hide: true
+			id: "6DB65486837DB39E"
+			tasks: [{
+				id: "707F57B0162EC181"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "heal_other"
+			}]
+			rewards: [
+				{
+					id: "75DB94F45751DFFC"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
+				}
+				{
+					id: "02A11A3EDC827D63"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 18
+						}
+					}
+				}
+				{
+					id: "136A00317340C7E5"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 28
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -12.5d
+			subtitle: "Rain, rain, go away..."
+			description: ["You can turn the rain off. Can you turn it back on?"]
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			id: "580376CDC47FC099"
+			tasks: [{
+				id: "0A104638A44D5B8C"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "sunny_day"
+			}]
+			rewards: [
+				{
+					id: "266DD322981EA20B"
+					type: "choice"
+					table_id: 1116397309631527027L
+				}
+				{
+					id: "0F3E82257A107698"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 34
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"If you do manage to find an appropriate Pokeball, you might want to try creating an Old Rod."
+				""
+				"Old Rods facilitate a type of fishing you're much more comfortable with! Although the item pool might not be the same..."
+				""
+				"And you do kinda want those tomatos..."
+			]
+			dependencies: ["5C031B33E5E01602"]
+			id: "326E4AC1B60897F6"
+			tasks: [{
+				id: "7EEC0E8546847155"
+				type: "item"
+				item: {
+					id: "pixelmon:old_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "118E5FD69618A106"
+				type: "item"
+				title: "Drifloon is helping!"
+				item: "immersiveengineering:stick_aluminum"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"Um. Hmm."
+				""
+				"Is it unethical if it's exactly what the Pokemon would do in the wild? The move has more PP than one for a reason."
+				""
+				"Both Pokemon who know \"Self-Destruct\" and \"Explosion\" can use the skill \"Explode\" out of battle."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7A14B86EECDF05E4"]
+			hide: true
+			repeatable: true
+			id: "57A4AC900945E4DC"
+			tasks: [{
+				id: "429BA403ED63A08A"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "explode"
+			}]
+			rewards: [{
+				id: "3876C45E6D1F7E05"
+				type: "random"
+				auto: "enabled"
+				table_id: 1466409087990806994L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			description: [
+				"These appear to be the skeletons of Mareep and Wooloo. They have an unhealthy interest in rotten flesh and mutton. You aren't entirely sure what to do with them. Can they perhaps produce shearable meat from rotten flesh?"
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+				""
+				"You are unnerved by the possibility you might be able to use raw mutton to breed it."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "61A7538CF5AE1DB9"
+			tasks: [{
+				id: "3B1105D4F667496B"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_sheep"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "636B03AC5A9C814C"
+				type: "item"
+				item: "pixelmon:protein"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.0d
+			description: [
+				"You cannot think up any use for this undead Tauros at all. It doesn't give milk. It has no leather. It can't be used for beef. It's just bones."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+				""
+				"You are unnerved by the possibility you might be able to use raw beef to breed it."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "388726E0128C6160"
+			tasks: [{
+				id: "7F2BFC0474D31D44"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_cow"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "46AA77AE82BBB8BE"
+				type: "item"
+				item: "pixelmon:calcium"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			description: [
+				"This Undead Oinkologne can be ridden, although it shows no interest in carrots on a stick. A porkchop on a stick might be more usable. You can't see any reason this is better than riding a normal Pokemon."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "60C936E55BED6199"
+			tasks: [{
+				id: "210C681359BB61B7"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_pig"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "50F76351C9A49273"
+				type: "item"
+				item: "pixelmon:carbos"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			description: [
+				"This skeletal bird Pokemon may be the most useful of the bunch. It appears to be capable of producing a small number of drops in very low quantities, like normal birds produce eggs. You might be able to feed two of them \"Chicken\" to get them to breed."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+			]
+			hide_dependency_lines: true
+			hide: true
+			secret: true
+			id: "11E65E41A6500FEB"
+			tasks: [{
+				id: "5E6C3DAA87A0C286"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_chicken"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "00768CCFF69AE306"
+				type: "item"
+				item: "pixelmon:zinc"
+				count: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -0.5d
+			description: [
+				"This skeleton horse can be ridden with a saddle. It's not necessarily better than a normal Pokemon mount, but at least you won't be unsaddled if your Pokemon enters a battle."
+				""
+				"Unlike other Undead Pokemon, it doesn't appear catchable, and ignores your instructions."
+			]
+			secret: true
+			id: "3AFB107F4EC7CD1C"
+			tasks: [{
+				id: "0113879F6A46BDEF"
+				type: "questsadditions:interaction"
+				entity: "minecraft:skeleton_horse"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "3FC918647EF08363"
+				type: "item"
+				item: "pixelmon:iron"
+				count: 5
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"Wait wait wait wait wait. Can you actually milk the milktank... tauros... whatever it is?"
+				""
+				"Make sure you are holding only one bucket, and that the bucket doesn't have anything in it. Otherwise, you'll throw out whatever liquid's already inside."
+			]
+			dependencies: ["388726E0128C6160"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "00F4512AFD3C5F79"
+			tasks: [{
+				id: "3711C466F8FBD72F"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_cow"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: "ceramics:clay_bucket"
+			}]
+			rewards: [{
+				id: "6B47BF6955D95BD0"
+				type: "command"
+				title: "Uh. This isn't milk. Is this... bone?"
+				icon: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:calcium"
+					}
+				}
+				auto: "enabled"
+				command: "/execute as @p if entity @s[nbt={SelectedItem:{id:\"ceramics:clay_bucket\",Count:1b}}] run replaceitem entity @s weapon.mainhand ceramics:clay_bucket{fluid:\"contenttweaker:calcium\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Calcium"
+			x: -13.0d
+			y: -3.5d
+			shape: "circle"
+			subtitle: "This currently wont run because i need to duplicate these quests, one for first time completion, another for repetitive completion."
+			description: [
+				"Well. This. Isn't milk. But. There might be something you can do with it? Create bonemeal, or something?"
+				""
+				"It's not clear where the \"milk\" is coming from, and you are pretty sure something magical is afoot."
+				""
+				"It looks like no matter how many cows you have, you can only get 'milk' once every minute or so."
+			]
+			dependencies: ["00F4512AFD3C5F79"]
+			hide: true
+			optional: true
+			id: "6A2AAAD6DE72A578"
+			tasks: [{
+				id: "49B9D5EFC8D7B72A"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:calcium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2768A91DF983700D"
+				type: "item"
+				item: "farmersdelight:milk_bottle"
+			}]
+		}
+		{
+			title: "Feed a Skeleton Pig a bucket of protein"
+			x: -12.0d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead pig a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["60C936E55BED6199"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "248069926DB4A9E8"
+			tasks: [{
+				id: "48945815BB7A9067"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_pig"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2174F06EF76D7A3F"
+				type: "command"
+				title: "This will cause a lightning strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/pig/pig.png"
+					}
+				}
+				auto: "enabled"
+				command: "/execute as @p at @p run function ghosts:skeleton_to_pig_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton Sheep a bucket of protein"
+			x: -12.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead sheep a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["61A7538CF5AE1DB9"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4912933741A31D90"
+			tasks: [{
+				id: "0EEB681C9094D98C"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_sheep"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06DBB92A3713CD39"
+				type: "command"
+				title: "This will cause a lightning strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/sheep/sheep.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_sheep_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton Cow a bucket of protein"
+			x: -12.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead cow a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["388726E0128C6160"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5737D7EE8C0DCD88"
+			tasks: [{
+				id: "76DCA56542725F36"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_cow"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "12179DA3656C0477"
+				type: "command"
+				title: "Will summon a lightning bolt."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/cow/cow.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_cow_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton chicken a bucket of protein"
+			x: -12.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead chicken a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["11E65E41A6500FEB"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "11F15A3165B25C0B"
+			tasks: [{
+				id: "4BDA2EA29E88753C"
+				type: "questsadditions:interaction"
+				entity: "bones:skeleton_chicken"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "49B8E4F333D0E050"
+				type: "command"
+				title: "Lightning will strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/chicken.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_chicken_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			title: "Feed a Skeleton Horse a bucket of protein"
+			x: -12.0d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"You have had an intrusitve thought. What would happen if you fed an undead horse a slop bucket full of protein?"
+				""
+				"[&dWARNING&r this will cause something of an explosion.]"
+			]
+			dependencies: ["3AFB107F4EC7CD1C"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "166DCA7B3269A9FB"
+			tasks: [{
+				id: "57FC114AD438DD16"
+				type: "questsadditions:interaction"
+				entity: "minecraft:skeleton_horse"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "contenttweaker:protein"
+					}
+				}
+			}]
+			rewards: [{
+				id: "471117139E50FE2E"
+				type: "command"
+				title: "Lightning will strike."
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/horse/horse_brown.png"
+					}
+				}
+				command: "/execute as @p at @p run function ghosts:skeleton_to_horse_ceramic"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			shape: "circle"
+			description: ["Trick is a higher level move, and therefore less ideal to pursue than one of the other moves. Almost all Pokemon learn it at level 40 or later, with the exception of Mime Jr, which learns it at level 36."]
+			dependencies: ["2C0BD8E345FD832F"]
+			hide: true
+			optional: true
+			id: "7A656122E8CBEE9F"
+			tasks: [
+				{
+					id: "694665928D284402"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 108
+						}
+					}
+				}
+				{
+					id: "5B721859A6709DD9"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 38
+						}
+					}
+				}
+				{
+					id: "09372237A721D59A"
+					type: "pixelmon:hatch_egg"
+					pokemon: "Mimejr"
+					count: 1
+					invert: false
+				}
+				{
+					id: "3A935999676AB3E8"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "shuppet"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4268359F878A7B4E"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "banette"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "245E20D7F2EAE2B7"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "pumpkaboo"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "605213ADE9633D83"
+					type: "pixelmon:catch_pokemon"
+					secret: true
+					pokemon: "gourgeist"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "334FA89E22704084"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "rotom"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [{
+				id: "2460C6F28B344FC7"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 38
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -12.5d
+			description: ["One reason to master the usage of calling down lightning is because lightning bolts used on plain stone will cause Thunder Stone Ore to form where the stone is struck by the lightning."]
+			dependencies: ["7622C8175BC28B3D"]
+			hide: true
+			id: "2E75C21160C9CD52"
+			tasks: [{
+				id: "410F793C2AE21892"
+				type: "item"
+				item: "pixelmon:thunder_stone_ore"
+			}]
+			rewards: [
+				{
+					id: "0F4A769299204942"
+					type: "item"
+					item: "pixelmon:thunder_badge"
+				}
+				{
+					id: "75226707576DF048"
+					type: "item"
+					item: "thermal:blitz_spawn_egg"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "pixelmon:super_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"This here is a rod you're going to want to get mending on, because it cannot be crafted."
+				""
+				"But what's the best route to mending? You can try to fish for the book, for certain, but no villager is ever going to trade it to you."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0EA8B5C7A1DAFFF3"
+				"3499FE59C4B4FC1F"
+				"199EF29352C78C68"
+				"1E0087DD805B425B"
+				"1FC5941FD186854D"
+				"0967CC03963F4642"
+				"326E4AC1B60897F6"
+				"7C554F2E38E01DD7"
+				"13E59C447B347A7C"
+				"2B9ED464CADE5D1C"
+			]
+			hide: true
+			id: "60BE5F3143D6FFDA"
+			tasks: [{
+				id: "6147DB3A7A5A99C4"
+				type: "checkmark"
+				title: "All Fishing Tasks"
+			}]
+			rewards: [{
+				id: "42FEC97EBFBB46DF"
+				type: "item"
+				item: {
+					id: "pixelmon:super_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["You don't have the ultra ball necessary to make the good rod yet, but it's possible you might discover one."]
+			dependencies: ["326E4AC1B60897F6"]
+			id: "2B9ED464CADE5D1C"
+			tasks: [{
+				id: "4D04234F1FB2A716"
+				type: "item"
+				item: {
+					id: "pixelmon:good_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "15A9AA6E8B5D2023"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			description: [
+				"Forage can be used both in the broken void world you live in, and in other dimensions. In other dimensions, it behaves normally according to regular spawning rules. But in the void, there is only a small list of items that can be foraged."
+				""
+				"Some of these are more common if you forage on the right blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["391C3D6A40B4349B"]
+			hide: true
+			size: 2.0d
+			id: "46493C1D480BB630"
+			tasks: [{
+				id: "1855BF27A1E449A1"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "forage"
+			}]
+			rewards: [{
+				id: "438CD3E9E92F7D26"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			shape: "circle"
+			description: [
+				"These are common from any block, but extremely common if you forage from a berry log or umbran log. That should help you out if you planted a less-than-helpful tree."
+				""
+				"You don't see many materials for making Pokeballs, but if you did find any, the pink are probably the most valuable, and the white the second-most-valuable. You can't make anything with black unless you somehow find other colors, too."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "6857E9468CE83B3A"
+			tasks: [
+				{
+					id: "2D368A9613353841"
+					type: "item"
+					item: "pixelmon:pink_apricorn"
+				}
+				{
+					id: "3A6CD6EE042C153B"
+					type: "item"
+					item: "pixelmon:white_apricorn"
+				}
+				{
+					id: "6812DC93902516E1"
+					type: "item"
+					item: "pixelmon:black_apricorn"
+				}
+			]
+			rewards: [
+				{
+					id: "2D3B8B3B11D1D79D"
+					type: "item"
+					item: "pixelmon:pink_apricorn"
+				}
+				{
+					id: "53B1AA4FE2F4AEBD"
+					type: "item"
+					item: "pixelmon:white_apricorn"
+				}
+				{
+					id: "4713024046C3081C"
+					type: "item"
+					item: "pixelmon:black_apricorn"
+				}
+				{
+					id: "67DD7B3791B07F7B"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"These are more common if you forage on a soul soil block."
+				""
+				"Soul soil will suppress normal bone drops."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "13B4A54544CDC6F6"
+			tasks: [{
+				id: "5BF79055B816C4B3"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+			rewards: [
+				{
+					id: "6D6D45EB48949E51"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "68BD724340805C8C"
+					type: "item"
+					item: "minecraft:soul_torch"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			shape: "circle"
+			description: ["Forage in ice, packed ice, or blue ice, and you may find a stray skull."]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "5E476D67247F6061"
+			tasks: [{
+				id: "45278123B2034444"
+				type: "item"
+				item: "tconstruct:stray_head"
+			}]
+			rewards: [
+				{
+					id: "40C4EAA54A14E2E9"
+					type: "item"
+					item: "pixelmon:ice_stone_ore"
+				}
+				{
+					id: "21E7B9C257239862"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			shape: "circle"
+			description: [
+				"These are more common if you forage on a soul sand block. Keep in mind that soul sand and soul soil are two different blocks."
+				""
+				"Soul sand will suppress normal bone drops."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "675AA7D8B58C33C0"
+			tasks: [
+				{
+					id: "14DE16E185FA90C2"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+				}
+				{
+					id: "456EF2BC684DEFB1"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+			rewards: [
+				{
+					id: "0F2695A99C9234EC"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "2AB5CC6B4671C6E2"
+					type: "item"
+					item: "minecraft:soul_torch"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"If you want to forage more bones, make a bone block and forage from it."
+				""
+				"If you want to forage more rotten flesh, make a flesh block and forage from it."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "56E9ECCC657AC93C"
+			tasks: [
+				{
+					id: "3A6C1D7E7A5FCA56"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "7E0FC0BFE1D0E0F7"
+					type: "item"
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "40FDD6CAE12734B4"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "070654567397AF41"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+			]
+			rewards: [
+				{
+					id: "3C59DFE04B026882"
+					type: "item"
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "62DAAFBEA53C988F"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+				{
+					id: "02CDDA11603DE265"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			shape: "circle"
+			description: ["These stones can be found during foraging on any block, although the dusk and dawn stones can only be found at dusk and dawn."]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "7F5FCE0B507878E3"
+			tasks: [
+				{
+					id: "582E8328F6423DEE"
+					type: "item"
+					item: "pixelmon:dawn_stone_shard"
+				}
+				{
+					id: "4A932A6CA4F693B6"
+					type: "item"
+					item: "pixelmon:dusk_stone_shard"
+				}
+				{
+					id: "4A94C753654736FF"
+					type: "item"
+					item: "pixelmon:leaf_stone_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "06AD63742ED4B581"
+					type: "item"
+					item: "byg:ebony_leaves"
+					count: 20
+				}
+				{
+					id: "0E8411FF07B6ADD1"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			title: "Seed Kit"
+			x: -5.5d
+			y: 5.0d
+			shape: "circle"
+			subtitle: "Drifloon found a berry!"
+			description: ["It looks like you've found several species of seeds. You know you can make soup from &cbeetroot&r and &ewood bowls&r but &6pumpkin&r might be a little complicated to turn into food."]
+			dependencies: [
+				"391C3D6A40B4349B"
+				"46493C1D480BB630"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "448A0C530B692090"
+			tasks: [
+				{
+					id: "389FAE312E38A644"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+				}
+				{
+					id: "1E2F7DD58DF3C93E"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "4C246C5802211284"
+					type: "item"
+					item: "pixelmon:rabuta_berry"
+				}
+				{
+					id: "2EB2ADA2980A936B"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+				{
+					id: "00A8057E35A6E652"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			title: "Berry Kit"
+			x: -4.5d
+			y: 5.0d
+			shape: "circle"
+			subtitle: "Drifloon found a berry!"
+			description: [
+				"It looks like there are two berries to be found here, &9Oran Berries&r, which can heal 10HP when used on or held by a Pokemon, and &cLeppa Berries&r, which can restore 10PP to a single move."
+				""
+				"You can use berries directly on Pokemon, or give them to the Pokemon to hold and use during battle."
+			]
+			dependencies: [
+				"391C3D6A40B4349B"
+				"46493C1D480BB630"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "538F287C91F715DC"
+			tasks: [
+				{
+					id: "289A6C669F102E1A"
+					type: "item"
+					item: "pixelmon:oran_berry"
+				}
+				{
+					id: "2C3658B7FE683F56"
+					type: "item"
+					item: "pixelmon:leppa_berry"
+				}
+			]
+			rewards: [
+				{
+					id: "4C4A9251C509FE44"
+					type: "item"
+					item: "pixelmon:rabuta_berry"
+				}
+				{
+					id: "26A8151F543B7626"
+					type: "item"
+					item: "inspirations:heartbeet"
+				}
+				{
+					id: "4BAAA3E8271C64AD"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"To get your first 'proper' tree, you will have to forage. There are other ways to get wither roses, such as bonemealing large patches of grass, but the easiest way to get one is to forage."
+				""
+				"Mint is very rare, but valuable as a crop. Once planted and grown, it will turn into a randomly selected specific breed of mint, which can be used to change a Pokemon's nature. Very helpful if you have, for isntance, a modest Gyarados."
+			]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "681A75489161C16F"
+			tasks: [
+				{
+					id: "6A01F04590B92A9E"
+					type: "item"
+					item: "biomesoplenty:umbran_sapling"
+				}
+				{
+					id: "3E2C1AEDAA6920FB"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "7E267C2E50C2AC09"
+					type: "item"
+					item: "pixelmon:mint_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "0363E126D4950367"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "407B5B7C6D293516"
+					type: "item"
+					item: "biomesoplenty:umbran_sapling"
+				}
+				{
+					id: "2737A24E4CE1CC4C"
+					type: "item"
+					item: "pixelmon:mint_seeds"
+				}
+				{
+					id: "03F0D5DD90B8C614"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			shape: "circle"
+			description: ["Some other junk can be found among the refuse. For now, the most distinctive peices are the pots."]
+			dependencies: ["46493C1D480BB630"]
+			optional: true
+			id: "61677BBC98EE3409"
+			tasks: [
+				{
+					id: "5C78A161D30D9593"
+					type: "item"
+					item: "pixelmon:cracked_pot"
+				}
+				{
+					id: "095FD445E5987CE5"
+					type: "item"
+					item: "pixelmon:chipped_pot"
+				}
+			]
+			rewards: [
+				{
+					id: "44AAD51A495F8BED"
+					type: "item"
+					item: "minecraft:cracked_stone_bricks"
+				}
+				{
+					id: "1B85272519F74728"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+				}
+				{
+					id: "00DA1E6A979FC2D2"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Fire stones can be foraged in most of the nether, and moon stones can be forged in the end."
+				""
+				"In general, you can expect foraging to be 'normal' in worlds and biomes other than the ominous void in which you began your journey."
+			]
+			dependencies: ["46493C1D480BB630"]
+			id: "1A10F04587255E81"
+			tasks: [
+				{
+					id: "621C367BF98A6195"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "43169E3187602140"
+					type: "item"
+					item: "pixelmon:moon_stone_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "1D4FF2ACDAF89D3E"
+					type: "item"
+					item: "pixelmon:fire_stone_ore"
+				}
+				{
+					id: "06653BD67C4760CD"
+					type: "item"
+					item: "pixelmon:moon_stone_ore"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["A valuable item that can be used to immediate start a raid at a raid den."]
+			dependencies: ["4EED2B4BBCB23E7D"]
+			hide: true
+			optional: true
+			id: "2B903371F753BED7"
+			tasks: [{
+				id: "5CE4F46C90EA6DEA"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+			rewards: [{
+				id: "251903206EFB5BB3"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+		}
+	]
+}

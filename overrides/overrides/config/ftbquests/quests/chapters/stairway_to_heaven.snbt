@@ -1,0 +1,867 @@
+{
+	id: "5531FA2CC3718029"
+	group: "4A96B64D5627EDC5"
+	order_index: 6
+	filename: "stairway_to_heaven"
+	title: "Stairway to Heaven"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "pixelmon:textures/pokemon/493_arceus/all/base/none/sprite.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Plates of Knowledge"
+			x: 9.5d
+			y: -12.5d
+			description: [
+				"You must assemble all the plates of knowledge in order to better understand the world you've been tasked with repairing."
+				""
+				"The plates are not easy to find. They are scattered throughout the remains of the world in chests and pokeloots. Some you may find in the nether; others, you will need to scour Ultra Space for."
+				""
+				"(WARNING: Make sure you are ready to fight a level 100 Arceus when you do this. Otherwise you will lose your investment, and be very upset.)"
+			]
+			dependencies: [
+				"0D6589EBAC0B4BDC"
+				"4920A2C49276A35E"
+			]
+			hide: true
+			size: 2.0d
+			id: "29850ED5F97E5377"
+			tasks: [
+				{
+					id: "419FC720F60B181A"
+					type: "item"
+					item: "pixelmon:blank_plate"
+				}
+				{
+					id: "5F8238BF5515B2C0"
+					type: "item"
+					item: "pixelmon:meadow_plate"
+				}
+				{
+					id: "112DA48F34E5EBC2"
+					type: "item"
+					item: "pixelmon:flame_plate"
+				}
+				{
+					id: "48B98976CDB8E245"
+					type: "item"
+					item: "pixelmon:splash_plate"
+				}
+				{
+					id: "05F41F4450AF8ACB"
+					type: "item"
+					item: "pixelmon:sky_plate"
+				}
+				{
+					id: "75C6DAD4E1C86F8D"
+					type: "item"
+					item: "pixelmon:insect_plate"
+				}
+				{
+					id: "350D27AE59E6740C"
+					type: "item"
+					item: "pixelmon:toxic_plate"
+				}
+				{
+					id: "7ED4264B9EC36E99"
+					type: "item"
+					item: "pixelmon:zap_plate"
+				}
+				{
+					id: "0A64B131E5276C98"
+					type: "item"
+					item: "pixelmon:mind_plate"
+				}
+				{
+					id: "58D417C05712DAAD"
+					type: "item"
+					item: "pixelmon:stone_plate"
+				}
+				{
+					id: "1D213E8698A9E6C7"
+					type: "item"
+					item: "pixelmon:dread_plate"
+				}
+				{
+					id: "226751803A0AF151"
+					type: "item"
+					item: "pixelmon:spooky_plate"
+				}
+				{
+					id: "6EFAA0609BAD809E"
+					type: "item"
+					item: "pixelmon:iron_plate"
+				}
+				{
+					id: "741BFF0D85ADA522"
+					type: "item"
+					item: "pixelmon:fist_plate"
+				}
+				{
+					id: "0B7C9B1C022A9667"
+					type: "item"
+					item: "pixelmon:icicle_plate"
+				}
+				{
+					id: "48BAA7F93AA9A963"
+					type: "item"
+					item: "pixelmon:draco_plate"
+				}
+				{
+					id: "44BD7D3C2100D9C7"
+					type: "item"
+					item: "pixelmon:pixie_plate"
+				}
+			]
+			rewards: [{
+				id: "553F438C03E1B8A9"
+				type: "item"
+				item: "pixelmon:arc_chalice"
+			}]
+		}
+		{
+			title: "Investigate the Nether"
+			x: 9.5d
+			y: 1.5d
+			description: ["There may be something important here for you to find. You should try to visit all possible Biomes, and keep an eye out for legendary Pokemon."]
+			dependencies: ["4E56184BCCE2B715"]
+			hide: true
+			id: "723F108EFF27DD19"
+			tasks: [{
+				id: "5E0094DE9261D7E5"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Investigate the End"
+			x: 10.5d
+			y: 1.5d
+			description: ["There may be something important here for you to find. You should try to visit all possible Biomes, and keep an eye out for legendary Pokemon."]
+			dependencies: ["4E56184BCCE2B715"]
+			id: "7D0EF0D289D56CC6"
+			tasks: [{
+				id: "480226E7D1644F1A"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity/end_portal.png"
+					}
+				}
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			description: [
+				"Lustrous Orbs are rare objects, even in the End Cities that guard them. You can think of three ways to obtain one."
+				""
+				"First, you can of course search end city after end city, but these are few and far between, and may have been raided long before you get there."
+				""
+				"Second, you can wait until an Ultimate Boss appears, and attempt to defeat it in combat."
+				""
+				"Thirdly, you can continue to explore the &dEvil Forces questline&r. You have a premenition it will offer you not one but two different ways to obtain the Lustrous orb."
+				""
+				"(WARNING: Make sure you are ready to fight a level 100 legendary)"
+			]
+			dependencies: ["7FD98E8A79BA348B"]
+			hide: true
+			id: "65C48F69CBF3B9F9"
+			tasks: [{
+				id: "7454EEB080186161"
+				type: "item"
+				item: "pixelmon:lustrous_orb"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			description: [
+				"Azelf, Uxie, and Mesprit can each create a different kind of enchanted Ruby."
+				""
+				"They must be max happiness and at least level 60. Then, click on them with a Ruby."
+				""
+				"Their level with drop, and you will recieve a ruby of one of the above types. Each spirit creates a different type of Ruby."
+				""
+				"(WARNING! Each Spirit can enchant a total of 4 rubies. This means if you mess up and fail to defeat or capture legendary Pokemon you've summoned from the Time-Space Altar, you'll have to get yourself a new set of legendary sprites."
+			]
+			dependencies: [
+				"738A1F5123BD71E3"
+				"53B1E58E21889741"
+				"6B57C8BB49CEF332"
+			]
+			hide: true
+			id: "471C7EBA31BDA7B9"
+			tasks: [
+				{
+					id: "5C6C83926748ABF6"
+					type: "item"
+					item: "pixelmon:ruby_mesprit"
+				}
+				{
+					id: "6DB4C839F79D9DAF"
+					type: "item"
+					item: "pixelmon:ruby_azelf"
+				}
+				{
+					id: "64E993FE2962F85A"
+					type: "item"
+					item: "pixelmon:ruby_uxie"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			description: ["Azelf is the \"Being of Willpower.\" They have hidden in the remaining water of the world."]
+			dependencies: ["671023BA826B94A5"]
+			id: "738A1F5123BD71E3"
+			tasks: [{
+				id: "2F5A7B6F3013BC2E"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Azelf"
+				pokemon: "azelf"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "3BC0B51BE26F8AF2"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 34
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			description: ["Uxie is the Being of Knowledge. It has fled to the moon, away from all that once was."]
+			dependencies: ["7D0EF0D289D56CC6"]
+			id: "6B57C8BB49CEF332"
+			tasks: [{
+				id: "1585CC8354D22CA0"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Uxie"
+				pokemon: "uxie"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "781C22E0FF6B053C"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 34
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			description: ["Mesprit is the \"Being of Emotion.\" They have hidden in the remaining lava of the world."]
+			dependencies: ["723F108EFF27DD19"]
+			id: "53B1E58E21889741"
+			tasks: [{
+				id: "6D85BD0C8FBAFF0C"
+				type: "pixelmon:submit_pokemon"
+				title: "Have Mesprit"
+				pokemon: "mesprit"
+				count: 1
+				invert: false
+				party: 0b
+				consumePokemon: false
+			}]
+			rewards: [{
+				id: "05DAD8AB9935559C"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 34
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			description: ["The Red Chain is made from the three rubies. You must use one on a Timespace Altar prior to attempting to summon anything with that Altar."]
+			dependencies: ["471C7EBA31BDA7B9"]
+			id: "7FD98E8A79BA348B"
+			tasks: [{
+				id: "78C89DCAA9BFAFFB"
+				type: "item"
+				item: "pixelmon:red_chain"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			description: ["Either defeat or capture Palkia."]
+			dependencies: ["65C48F69CBF3B9F9"]
+			hide: true
+			id: "22FBDBCBCB926124"
+			tasks: [{
+				id: "27329C7726656645"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Palkia"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "20C8C4DDA0020A0B"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p palkia egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			title: "Investigate the Drowned World"
+			x: 8.5d
+			y: 1.5d
+			description: ["There may be something important here for you to find. You should try to visit all possible Biomes, and keep an eye out for legendary Pokemon."]
+			dependencies: ["4E56184BCCE2B715"]
+			id: "671023BA826B94A5"
+			tasks: [{
+				id: "2C6AB4C4207684E5"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/zombie/drowned.png"
+					}
+				}
+				dimension: "pixelmon:drowned_world"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			description: ["Either defeat or capture Palkia."]
+			dependencies: ["65C48F69CBF3B9F9"]
+			hide: true
+			id: "4B258A6E344CDA1B"
+			tasks: [{
+				id: "5C1C4CDF2C327A2E"
+				type: "pixelmon:catch_pokemon"
+				pokemon: "Palkia"
+				count: 1
+				invert: false
+				catchType: 1b
+			}]
+			rewards: [{
+				id: "1ED34AA322E809D8"
+				type: "xp"
+				xp: 5000
+			}]
+		}
+		{
+			x: 9.5d
+			y: -18.0d
+			description: ["You will need to seek out Dialga, to complete the Creation Trio. Perhaps then, you will find out who has been helping you. Who sent you Drifloon? And the Masterball? And the altar itself?"]
+			dependencies: ["0B46C963433030C9"]
+			hide: true
+			id: "0172A933830B60E0"
+			tasks: [{
+				id: "274C2C24C3B4ABD4"
+				type: "item"
+				item: "pixelmon:adamant_orb"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -19.0d
+			dependencies: ["0172A933830B60E0"]
+			hide: true
+			id: "00EA4BFDD10D9E98"
+			tasks: [{
+				id: "6E7A749A61F3C912"
+				type: "pixelmon:catch_pokemon"
+				pokemon: "Dialga"
+				count: 1
+				invert: false
+				catchType: 1b
+			}]
+			rewards: [{
+				id: "456AAA8F13A2C82E"
+				type: "xp"
+				xp: 2000
+			}]
+		}
+		{
+			title: "Ascend to Ultra Space"
+			x: 9.5d
+			y: -8.5d
+			description: ["Although Ultra Space is in absolute tatters, it still has more blocks than your home dimension, and many of them are quite pleasant to the eye. Here, they spawn Pokemon according to the Ultra Space biomes, but back home, you can use them to construct more ordinary habitats."]
+			dependencies: ["19EC4CC69BB39C30"]
+			hide: true
+			size: 2.0d
+			id: "4920A2C49276A35E"
+			tasks: [{
+				id: "419F2D0C8A3D7196"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/gui/overlay/externalmoves/wormhole.png"
+					}
+				}
+				dimension: "pixelmon:ultra_space"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.0d
+			description: ["It is time to ascend. Have Palkia open a wormhole to the Ultra Space dimension. You do this by assigning 'Open Wormhole' to the pokemon's external move, the same way as you would for Forage, Dig, Rock Smash, or Rain Dance."]
+			dependencies: [
+				"22FBDBCBCB926124"
+				"4B258A6E344CDA1B"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "19EC4CC69BB39C30"
+			tasks: [{
+				id: "3452712BA8777E30"
+				type: "pixelmon:external_move"
+				pokemon: ""
+				count: 1
+				invert: false
+				move: "open_wormhole"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -19.0d
+			dependencies: ["0172A933830B60E0"]
+			hide: true
+			id: "61134D1745752A3E"
+			tasks: [{
+				id: "0373EE9F5111098E"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Dialga"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "566AB2EB498559A1"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p dialga egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			description: ["Hmm, not yet implemented! Surprise, you found something unfinished!"]
+			hide: true
+			secret: true
+			id: "65A8D0E17306053F"
+			tasks: [{
+				id: "0E2F19A4565C8373"
+				type: "pixelmon:catch_pokemon"
+				pokemon: "cosmog"
+				count: 1
+				invert: false
+				catchType: 1b
+			}]
+			rewards: [{
+				id: "259D3A68CE5965F2"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 9.0d
+			y: -15.5d
+			description: ["Do you think yourself worthy to challenge God? "]
+			dependencies: ["177FE63567F70CDB"]
+			hide: true
+			id: "35CC394A04B01B1B"
+			tasks: [{
+				id: "7E2AB8DC664AD866"
+				type: "pixelmon:catch_pokemon"
+				pokemon: "arceus"
+				count: 1
+				invert: false
+				catchType: 1b
+			}]
+			rewards: [{
+				id: "5FFFA44FEE5DF11D"
+				type: "xp"
+				xp: 10000
+			}]
+		}
+		{
+			x: 10.0d
+			y: -15.5d
+			description: ["Do you think yourself worthy to challenge God? "]
+			dependencies: ["177FE63567F70CDB"]
+			hide: true
+			id: "124B25573077BF17"
+			tasks: [{
+				id: "6D3A8828999FBCD6"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "arceus"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "6F5C5D5C600A20DF"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p arceus egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 9.5d
+			y: -21.0d
+			description: [
+				"..."
+				""
+			]
+			dependencies: ["5E586B0A4B6B677C"]
+			hide: true
+			id: "413FF0BFDEEFA4E5"
+			tasks: [{
+				id: "3F667445B4F60DF5"
+				type: "item"
+				item: "pixelmon:griseous_orb"
+			}]
+		}
+		{
+			title: "Doubt"
+			x: 9.5d
+			y: -16.5d
+			subtitle: "Finish to Reveal Hidden Text"
+			description: ["... You have Arceus. But the god seems curious, as if meeting you for the very first time."]
+			dependencies: [
+				"35CC394A04B01B1B"
+				"124B25573077BF17"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: true
+			id: "0B46C963433030C9"
+			tasks: [{
+				id: "20F999A771F5BE15"
+				type: "checkmark"
+				title: "Confusion"
+			}]
+		}
+		{
+			title: "Epiphany"
+			x: 9.5d
+			y: -20.0d
+			description: [
+				"You have realized there is only one voice left. One Pokemon who could have been responsible for aiding you, from the very beginning:"
+				""
+				"The God of Emptiness."
+			]
+			dependencies: [
+				"61134D1745752A3E"
+				"00EA4BFDD10D9E98"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "5E586B0A4B6B677C"
+			tasks: [{
+				id: "76E3C04C157FECF3"
+				type: "checkmark"
+				title: "Trepidation"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -22.0d
+			description: ["&dCome little one. You have grown. Let us see how you and your Drifloon fare.&r"]
+			dependencies: ["413FF0BFDEEFA4E5"]
+			hide: true
+			id: "568A1B045822501D"
+			tasks: [{
+				id: "39E2AD68FE3B6F53"
+				type: "pixelmon:catch_pokemon"
+				pokemon: "Giratina"
+				count: 1
+				invert: false
+				catchType: 1b
+			}]
+			rewards: [{
+				id: "1E61C1B77DCF4779"
+				type: "xp_levels"
+				xp_levels: 20000
+			}]
+		}
+		{
+			x: 10.0d
+			y: -22.0d
+			description: ["&dCome little one. You have grown. Let us see how you and your Drifloon fare.&r"]
+			dependencies: ["413FF0BFDEEFA4E5"]
+			hide: true
+			id: "7A1274813895820A"
+			tasks: [{
+				id: "74C402900BAAB86D"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Giratina"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "3BAA67A629853805"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p giratina egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/487_giratina/all/origin/none/sprite.png"
+				}
+			}
+			x: 9.5d
+			y: -24.5d
+			description: [
+				"It is fitting that the end should be filled with ghosts, just as was the beginning."
+				""
+				"You have come full circle, and completed the closest thing to a 'Pokemon Journey' as was possible in this ruined world."
+				""
+				"But is it so ruined, anymore? Cluttered, maybe, but you are young and your skill with building will improve. There are Pokemon everywhere, on this Ark you've created. You've saved people, too, and brought plants back from extinction."
+				""
+				"You have done well, and both Arceus and Giratina have decided to accompany you and aid you, until the day you no longer need them."
+			]
+			dependencies: [
+				"568A1B045822501D"
+				"7A1274813895820A"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 3.0d
+			id: "534D6277A54CE5BB"
+			tasks: [{
+				id: "5A242D8858379DD7"
+				type: "checkmark"
+				title: "The End"
+			}]
+			rewards: [
+				{
+					id: "3FD5A3D510D11BCA"
+					type: "xp"
+					xp: 1000000
+				}
+				{
+					id: "1810BC3ADFDDDB00"
+					type: "pixelmon:pokedollars"
+					count: 1000000
+				}
+				{
+					id: "2E9F415BED12112E"
+					type: "item"
+					item: "pixelmon:bike_voucher"
+				}
+				{
+					id: "58308A43A9F23E54"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 169
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -22.0d
+			description: ["You actually chose to fight Giratina with your original Shiny Drifloon, and defeated them rather than caught them! You answered Giratina's challenge!"]
+			secret: true
+			id: "5068DD34D8694EC9"
+			tasks: [{
+				id: "3C6559CF7EE31056"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "Giratina"
+				count: 1
+				invert: false
+				usedPokemonSpec: "Drifloon shiny"
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "51F6AD1D6B9E3F52"
+					type: "item"
+					item: "pixelmon:griseous_orb"
+				}
+				{
+					id: "25926ACCA291694A"
+					type: "item"
+					item: "pixelmon:lustrous_orb"
+				}
+				{
+					id: "08F69878899D5BE3"
+					type: "item"
+					item: "pixelmon:adamant_orb"
+				}
+				{
+					id: "32ECECBE32F9053F"
+					type: "item"
+					item: {
+						id: "pixelmon:ghost_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for your complete\",\"italic\":false}]"
+									"[{\"text\":\"Pokemon Journey\",\"italic\":false}]"
+								]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -22.0d
+			description: ["You actually chose to fight Giratina with your original Shiny Drifloon, and defeated them rather than caught them! You answered Giratina's challenge!"]
+			secret: true
+			id: "04FBD9BFA7DB6DB8"
+			tasks: [{
+				id: "257FC1E4CE6B4A2F"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "giratina"
+				count: 1
+				invert: false
+				usedPokemonSpec: "drifblim shiny"
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "3F3574846140E191"
+					type: "item"
+					item: "pixelmon:griseous_orb"
+				}
+				{
+					id: "7D87DFAE89696927"
+					type: "item"
+					item: "pixelmon:lustrous_orb"
+				}
+				{
+					id: "08E982BE710E6538"
+					type: "item"
+					item: "pixelmon:adamant_orb"
+				}
+				{
+					id: "539DE7846EE5BB4B"
+					type: "item"
+					item: {
+						id: "pixelmon:ghost_badge"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"[{\"text\":\"Awarded for your complete\",\"italic\":false}]"
+									"[{\"text\":\"Pokemon Journey\",\"italic\":false}]"
+								]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -14.5d
+			description: ["You must put one of each plate into the chalice to recieve the Azure Flute"]
+			dependencies: ["29850ED5F97E5377"]
+			hide: true
+			id: "177FE63567F70CDB"
+			tasks: [{
+				id: "060A18D0DBBC7C61"
+				type: "item"
+				item: "pixelmon:azure_flute"
+			}]
+			rewards: [{
+				id: "130CB8326891CFF5"
+				type: "choice"
+				table_id: 7824737088415623131L
+			}]
+		}
+		{
+			title: "Stairway to Heaven"
+			x: 9.5d
+			y: 3.0d
+			description: [
+				"By now you've made a tour of everything left of your home planet: The moon, the molten core of the earth, and the remaining water."
+				""
+				"But there might be one place left to go, to harvest resources for rebuilding your world. You remember tales of Space and Time, Sun and Moon, and the image of the altar to Arceus keeps coming back to you."
+				""
+				"You believe there may be a way to visit &dUltra Space&r, home of the gods, and it has to do with the altar."
+				""
+				"But to get there will be an intense and difficult journey. First, you will have to track down &athree legendary spirits&r hiding among the remains of the world. These spirits may not be willing to join you, but defeating them in combat may lead to them bestowing upon you an egg. "
+				""
+				"Your ultimate goal will be to find and harness the power of Palkia, God of Space. Either you must convince them to join your team, or show your capabilities by defeating them in battle. &dPalkia&r should be able to show you the way to Ultra Space, where... ultimately... you may be able to find Arceus himself."
+			]
+			dependencies: [
+				"721C7720EB194EAE"
+				"5742DF95648CAE94"
+				"26B77E6C4944C144"
+			]
+			hide: true
+			size: 2.0d
+			id: "4E56184BCCE2B715"
+			tasks: [{
+				id: "39B370EEAFF1DF97"
+				type: "observation"
+				title: "Pray at the Time Space Altar"
+				icon: "pixelmon:timespace_altar"
+				timer: 60L
+				observe_type: 0
+				to_observe: "pixelmon:timespace_altar"
+			}]
+		}
+	]
+}

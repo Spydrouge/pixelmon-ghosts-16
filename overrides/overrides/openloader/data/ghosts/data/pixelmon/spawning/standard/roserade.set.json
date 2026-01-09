@@ -1,0 +1,90 @@
+{
+  "id": "Roserade",
+  "spawnInfos": [
+    {
+      "spec": "species:Roserade",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "flowery",
+          "magical"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Roserade palette:ashen",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Roserade palette:ashen",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+         "structures": [
+          "byg:shulkren_forest"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:subzero_ash_block"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "biomesoplenty:bramble"
+            ]
+          }
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}

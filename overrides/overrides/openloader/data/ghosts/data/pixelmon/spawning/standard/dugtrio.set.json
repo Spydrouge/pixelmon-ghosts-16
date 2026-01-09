@@ -1,0 +1,213 @@
+{
+  "id": "Dugtrio",
+  "spawnInfos": [
+    {
+      "spec": "species:Dugtrio",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ],
+        "minY": 50
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Dugtrio form:alolan",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+            "beaches",
+            "oceanic",
+            "lakes"
+        ],
+        "minY": 50
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tag:blocks:forge:sand"
+            ]
+          }
+        }
+      ],
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Dugtrio",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minY": 50
+      },
+    "anticondition": {
+        "stringBiomes": [
+          "ghosts",
+          "beaches",
+          "hellish",
+          "end",
+          "oceanic",
+          "lakes"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Dugtrio form:alolan",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+            "beaches",
+            "oceanic",
+            "lakes"
+        ],
+        "minY": 50
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "neededNearbyBlocks": [
+              "tag:blocks:forge:sand"
+            ]
+          }
+        }
+      ],
+      "rarity": 10
+    },
+    {
+      "spec": "species:Dugtrio form:base palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 2.5
+    },
+    {
+      "spec": "species:Dugtrio form:alolan palette:pink",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+       "condition": {
+        "stringBiomes": [
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 2.6
+    },
+    {
+      "spec": "species:Dugtrio form:base",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:undergrowth"
+        ]
+      },
+      "rarity": 2.5
+    },
+    {
+      "spec": "species:Dugtrio form:alolan",
+      "stringLocationTypes": [
+        "Underground",
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+       "condition": {
+        "stringBiomes": [
+          "byg:warped_desert"
+        ]
+      },
+      "rarity": 2.6
+    }
+  ]
+}

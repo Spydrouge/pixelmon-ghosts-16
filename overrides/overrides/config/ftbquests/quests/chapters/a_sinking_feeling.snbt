@@ -1,0 +1,8483 @@
+{
+	id: "3B988F27D43099A1"
+	group: "4A96B64D5627EDC5"
+	order_index: 3
+	filename: "a_sinking_feeling"
+	title: "A Sinking Feeling"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Sinking Feeling..."
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"You've looked high and low for any sign that anybody but you survived the End of the World."
+				""
+				"You've found so many Pokemon, hatched so many eggs, and brought so much life back to the world!"
+				""
+				"But you're still lonely. And after a great deal of contemplation, you've had an idea."
+				""
+				"You might know where everyone's gone. You're going to try and reach the Nether."
+			]
+			dependencies: ["47107D60FD080A18"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "46CDAE65E15099AC"
+			tasks: [{
+				id: "03C325A6707C99F0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0920BFFB2962104F"
+				type: "item"
+				item: "pixelmon:fire_stone_shard"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"You've thought about this long and hard, and you keep coming back to the same problem: There's no Lava."
+				""
+				"No lava to run your smeltery. No lava to create obsidian. No lava means no Nether, right?"
+				""
+				"Wrong. There's one thing that can save you, one overlooked interaction that was never important until now: &cTools made of Fire Stones&r can turn &bWater&r into &dObsidian&r."
+				""
+				"To get fire stone shards, you will have to decide where you want to farm: Although the ice layer has both Vulpix and Duramaka, both are very rare, and you will likely be better off harassing Litwik, which you can lure out with Weak Lures and light sources."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			id: "4BC87BF4CE26F9AC"
+			tasks: [{
+				id: "60D9052C04ED21D7"
+				type: "item"
+				item: "pixelmon:fire_stone"
+			}]
+			rewards: [
+				{
+					id: "5EC4A2F10A0ED4BF"
+					type: "item"
+					item: "pixelmon:fire_gem"
+				}
+				{
+					id: "6BE5CF0F0D6E64A7"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Any Fire Stone Tool"
+			x: 0.0d
+			y: -5.5d
+			description: [
+				"Any tool made of fire stone should do the trick. Obviously there is more utility to a fire stone pickaxe than a shovel, but the former will take much longer to obtain, and you probably have a good Tinkeirng pickaxe anyway!"
+				""
+				"[&dBUG ALERT&r: The fire-tools-water interaction is Vanilla Pixelmon, but is currently bugged. To get around that, we've introduced a similar interaction, where the tools can turn &bIce&r and &bSnow&r to obsidian.]"
+			]
+			dependencies: ["4BC87BF4CE26F9AC"]
+			hide: true
+			id: "1C9B797225BDD9D5"
+			tasks: [{
+				id: "5D441824982B94F3"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:fire_stone_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_hoe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_shovel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pixelmon:fire_stone_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17952865CB021183"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "7A96FCB6A600708F"
+					type: "choice"
+					table_id: 1689588629867739314L
+				}
+			]
+		}
+		{
+			title: "Snow and Ice"
+			x: 0.0d
+			y: -6.5d
+			description: [
+				"Your tool can present turn both snow and ice into Obsidian by right clicking on either. "
+				""
+				"Ice is at risk of melting, and since you have no way of re-freezing it, snow might be the smarter option."
+				""
+				"You can obtain snow from Pokemon on the Ice layer, or you can create it yourself by placing a pure daisy near water. "
+			]
+			dependencies: ["1C9B797225BDD9D5"]
+			hide: true
+			repeatable: true
+			min_required_tasks: 1
+			id: "43A58C1AE7891B53"
+			tasks: [
+				{
+					id: "460C5EE9D7E46047"
+					type: "observation"
+					icon: "minecraft:snow_block"
+					timer: 1L
+					observe_type: 0
+					to_observe: "minecraft:snow_block"
+				}
+				{
+					id: "70C24E3D051366E4"
+					type: "observation"
+					icon: "minecraft:ice"
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:ice"
+				}
+			]
+			rewards: [
+				{
+					id: "3D270A84858A750B"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "2B6BB064110C2E42"
+					type: "item"
+					item: "minecraft:snow_block"
+				}
+				{
+					id: "01C52F8FFE82BA75"
+					type: "item"
+					item: "minecraft:ice"
+				}
+				{
+					id: "51685BFD97C267CE"
+					type: "item"
+					item: "pixelmon:ice_stone_shard"
+				}
+				{
+					id: "58A7801B22F2AC2F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 51
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Obsidian"
+			x: 0.0d
+			y: -7.5d
+			description: ["Set up your snow into the shape of a Nether Portal frame, and get to work right cilcking!"]
+			dependencies: ["43A58C1AE7891B53"]
+			hide: true
+			incompatible: ["5AB1C0099C0A02E2"]
+			id: "30E49862081FA059"
+			tasks: [{
+				id: "1207B356061DBBFB"
+				type: "observation"
+				icon: "minecraft:obsidian"
+				timer: 1L
+				observe_type: 0
+				to_observe: "minecraft:obsidian"
+			}]
+			rewards: [
+				{
+					id: "740AC6F0A565E2E3"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "0605C7416D1BFA74"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"It's time to get brewing. First make sure your cauldron is over a fire, and filled with water."
+				""
+				"You will need to throw Nether Wart into boiling water to make an Awkward Potion. After it has brewed, you will need to add Magma Cream."
+				""
+				"Lastly, add in Redstone to increase duration."
+			]
+			dependencies: ["23B01C3A73733282"]
+			hide: true
+			optional: true
+			id: "19C0F6AFD3E7D54A"
+			tasks: [{
+				id: "748B663BEECA50A8"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "49620A7CCAE768BA"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			icon: "minecraft:cauldron"
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"Before this plan gets off the ground, you need to do some prep work."
+				""
+				"Most importantly, you need a source of Fire Resistance. And the best fire resistance you can get? Can be brewed in a cauldron"
+			]
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			id: "25991FF1BD725FC2"
+			tasks: [{
+				id: "2FB2280D2F9520B7"
+				type: "observation"
+				icon: "minecraft:cauldron"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:cauldron"
+			}]
+			rewards: [{
+				id: "622CE34DA82118A8"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"Make sure you have all the ingredients you need to make long-lasting fire resistance potions. If you fall into lava, one could save your life."
+				""
+				"Anyone under the effect of a fire resistence potion can simply swim through lava."
+				""
+				"You will need Nether Wart, Magma Cream- which you can make with Slime and Blaze Powder- and Redstone."
+				""
+				"Lastly, add in Redstone to increase duration."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			optional: true
+			id: "23B01C3A73733282"
+			tasks: [
+				{
+					id: "4FC1C7BAC7A5AC4F"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "3474BE04595F49E9"
+					type: "item"
+					item: "minecraft:magma_cream"
+				}
+				{
+					id: "1A234CC8FFDFEF28"
+					type: "item"
+					title: "Any #forge:slimeballs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:slimeballs"
+						}
+					}
+				}
+				{
+					id: "318EE4770E371010"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "5FE9E8630C977792"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "55091868F776B689"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "770E1B74BDA6009B"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: [
+				"You're heading into the Nether in search of people, but those people might not be as you remember them."
+				""
+				"You need to prepare for the fact the Nether may have changed them."
+				""
+				"Golden Apples are expensive, there's no doubt about that. Cofagrigus, the evolved form of Yamask, is guarenteed to drop an ingot, and one in ten will drop a block. Add that to the nugget from Yamask, and you'll eventually have your apple."
+				""
+				"Alternatively, you can try your hand at harassing Applin while keeping an eye to the sky for any Flapple, on the Ice layer. One in three Flapple is guaranteed to drop the apple."
+				""
+				"Lastly, you can of course go into the Nether and try to mine Nether Gold. But this is risky, as you expect the Nether to be hostile."
+			]
+			dependencies: ["233A4CA77468B5E7"]
+			hide: true
+			id: "516D659D933811A7"
+			tasks: [{
+				id: "6DD4764EC0768E29"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+			rewards: [
+				{
+					id: "1BE220E069AD6A68"
+					type: "item"
+					item: "pixelmon:full_restore"
+				}
+				{
+					id: "5A8BF2EB8EEB5CC9"
+					type: "item"
+					title: "Your team saw how hard you were working, and made another one for you!"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			description: ["Heat up a full cauldron of water over a fire. Add the fermented spider eye. When it is finished brewing, add the gunpowder."]
+			dependencies: ["2A453BBCB7F09F0E"]
+			hide: true
+			id: "233A4CA77468B5E7"
+			tasks: [{
+				id: "635B1AEEAB758300"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B8630FEC69FD9F1"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: [
+				"You're heading into the Nether in search of people, but those people might not be as you remember them."
+				""
+				"You need to prepare for the fact the Nether may have changed them."
+				""
+				"The first thing you'll need to do to prepare is create a Splash Potion of Weakness. The ingredients are simple. Spinerak is attracted to Tree Tops on the soil layer and Dewpider to water. Sugar will require ascending to the Dazzle Layer, or even higher, to the Space layer, to confront some Clefairy."
+				""
+				"Gunpowder drops from Koffing and Weezing on the Murk layer, and can be crafted from Sulfur and Niter, if available."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			id: "2A453BBCB7F09F0E"
+			tasks: [
+				{
+					id: "5BC09A34CB0BB96D"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+				}
+				{
+					id: "27D23842A95CE23E"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "79CDC60BB6F21623"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "6D7A6FC071D09D21"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			title: "Fire Stone Gear"
+			x: -2.0d
+			y: -4.5d
+			shape: "circle"
+			description: ["A full set of Fire Stone armor can also provide Fire Protection III, but you would be silly to farm so many fire shards here while on the verge of entering the Nether. Presumably, fire shards will be more common in the Nether."]
+			hide_dependency_lines: true
+			dependencies: [
+				"19C0F6AFD3E7D54A"
+				"46CDAE65E15099AC"
+				"4BC87BF4CE26F9AC"
+			]
+			hide: true
+			optional: true
+			id: "4A6BA8093D9ACC9A"
+			tasks: [
+				{
+					id: "4241F4D3CC4D289D"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5268E81D5B1859A6"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_plate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6663FDD332220CF5"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2590563861442115"
+					type: "item"
+					item: {
+						id: "pixelmon:fire_stone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3AE45D307F03FC07"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
+					}
+				}
+				{
+					id: "2B91D5515C910F28"
+					type: "item"
+					item: "charms:fire_resistance_charm"
+				}
+				{
+					id: "2AC77482C2BCAE3E"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Nether Ready Arms and Armor"
+			x: -2.0d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"You are expecting the Nether to be hostile. Whatever's down there, your life in the world of Pokemon has not entirely prepared you for it."
+				""
+				"You need to suit up and arm yourself."
+			]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			id: "069CD564264B33E5"
+			tasks: [
+				{
+					id: "53861AC517B409E0"
+					type: "item"
+					title: "Any #tconstruct:modifiable/melee/primary"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/melee/primary"
+						}
+					}
+				}
+				{
+					id: "2F4F3F490D05DFEF"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/chestplate"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/chestplate"
+						}
+					}
+				}
+				{
+					id: "7669D70260F41814"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/helmets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/helmets"
+						}
+					}
+				}
+				{
+					id: "1BC30EC2FD465B07"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/leggings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/leggings"
+						}
+					}
+				}
+				{
+					id: "0A29AD300B22FCD7"
+					type: "item"
+					title: "Any #tconstruct:modifiable/armor/boots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:modifiable/armor/boots"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "18B0C7B77D5B2518"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 48
+					}
+				}
+			}]
+		}
+		{
+			title: "Go to the Nether"
+			x: 0.0d
+			y: -12.0d
+			description: ["Take a deep breath. You don't know what's waiting on the other side."]
+			dependencies: ["276006B5AE6F0F6B"]
+			hide: true
+			size: 3.0d
+			id: "5742DF95648CAE94"
+			tasks: [{
+				id: "41D7C7E913B4763E"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "7136C76D29ADEEEE"
+				type: "command"
+				title: "Secure the Portal After Entry and Check your Diary"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/gui/quests/exclamation_mark.png"
+					}
+				}
+				command: "/function ghosts:nether_first_visit"
+				player_command: false
+			}]
+		}
+		{
+			title: "Supplies to Secure the Portal"
+			icon: "minecraft:stone_bricks"
+			x: 2.0d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"You aren't sure what kind of horrors the nether might bring, but basic Nether safety includes bringing some blocks to protect the portal.  You should arm yourself with stone or stone bricks, and maybe a door."
+				""
+				"[TIP: You can do either the bricks or the stone; you do not need to do both]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			min_required_tasks: 2
+			id: "05975C437BC372C2"
+			tasks: [
+				{
+					id: "225AEB96CC29A496"
+					type: "item"
+					title: "Any #minecraft:stone_bricks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:stone_bricks"
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "7BFE3CFCECEB5E38"
+					type: "item"
+					title: "Any #tconstruct:stoneshields"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:stoneshields"
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "71340F92252FB4C4"
+					type: "item"
+					title: "Any #minecraft:doors"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:doors"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4DD685001FB561D8"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["You will need some way of lighting the portal. If you choose to go with the fire charge, make sure you bring enough that you can re-light the portal if it, for any reason, goes out."]
+			dependencies: [
+				"30E49862081FA059"
+				"5AB1C0099C0A02E2"
+			]
+			hide: true
+			id: "20DFFD70A562A237"
+			tasks: [
+				{
+					id: "4C863D40985FFD19"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0114CE65B3CDBEAB"
+					type: "item"
+					item: {
+						id: "tconstruct:flint_and_bronze"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 100.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:fiery"
+									level: 1s
+								}
+								{
+									name: "tconstruct:firestarter_hidden"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								upgrades: 1
+							}
+						}
+					}
+				}
+				{
+					id: "329BF3390649CE7C"
+					type: "item"
+					item: "minecraft:fire_charge"
+				}
+				{
+					id: "69888F5332BBD2F0"
+					type: "pixelmon:external_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					move: "ignite"
+				}
+			]
+			rewards: [{
+				id: "37A6583A5B9B301D"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 36
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"You may want to create a Sojourner's sash, or use a Tinker's Station to apply Leaping to your Leggings (not Boots, Leggings), a recipe that requires five rabbit feet."
+				""
+				"Leaping requires no maintance, but even at maximum strength it will only allow you to jump 1.5 blocks, requiring the usage of slabs. The sojourner's sash consumes mana, but will allow you to jump a full two blocks. "
+				""
+				"If the two are combined, you can jump a total of three blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			min_required_tasks: 1
+			id: "52A5DDF00D4AB41B"
+			tasks: [
+				{
+					id: "309EE559D1C9D73D"
+					type: "item"
+					item: {
+						id: "botania:travel_belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6AA282B831A25F7E"
+					type: "item"
+					item: "minecraft:rabbit_foot"
+					count: 5L
+				}
+				{
+					id: "4A2E8EBBB442F4FD"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1AD8674E70EC2107"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 29
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Perhaps because they already died once, villagers can't be punched, pushed, boated, mine-carted, or even killed. They will burn in lava eternally without taking damage. The only way to get rid of one is to drop them into the void."
+				""
+				"Worse: They &dcannot be taken through Nether Portals.&r If you want to bring people back to your island, you must do while they are still Zombies."
+				""
+				"At this point it's vital to review the tools you do have for moving around villagers. "
+				""
+				"You can push them with an ichor slingshot, pull them with a fishing rod, and send them flying with a well positioned movement plate."
+				""
+				"Plan things out so you don't end up swarmed in villagers you can't use, or, worse, chasing them around a burning hellscape."
+			]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			id: "30BACF8D1458565E"
+			tasks: [
+				{
+					id: "5211ADAD7D284A70"
+					type: "item"
+					item: {
+						id: "tconstruct:ichor_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "089220A6A6E6C9FB"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "765251E7A60A1627"
+					type: "item"
+					item: "pixelmon:movement_plate"
+				}
+			]
+			rewards: [
+				{
+					id: "6E69E5CAE5DEE0F8"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "4F0EE0BF272ACC19"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			title: "Are you Ready?"
+			x: 0.0d
+			y: -9.5d
+			description: [
+				"Have you checked you have everything? Torches? Food? Pokeballs? Potions of speed or regeneration? Perhaps wither protection?"
+				""
+			]
+			dependencies: ["20DFFD70A562A237"]
+			hide: true
+			id: "276006B5AE6F0F6B"
+			tasks: [{
+				id: "0E0995EFC3EFBE5C"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			shape: "circle"
+			description: ["Although you're mostly in the Nether looking for people, you suspect you might also find Pokemon. Pokemon of the fiery persuasion. You should probably ensure you have some form of healing for burns."]
+			dependencies: ["19C0F6AFD3E7D54A"]
+			hide: true
+			optional: true
+			id: "6CDE3DAD436F65E8"
+			tasks: [
+				{
+					id: "68EB5190848A9D56"
+					type: "item"
+					item: "pixelmon:burn_heal"
+					count: 3L
+				}
+				{
+					id: "20B93A62F08717EE"
+					type: "item"
+					item: "pixelmon:rawst_berry"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "07C594799E16A2C6"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -12.0d
+			description: [
+				"This is a terrible, terrible place. There are zombies everywhere, some meaner than others. There are skeletons. You think- you think you might have even seen a Creeper. A Creeper!"
+				""
+				"It is imperative that no creeper ever gets through this portal and back into your world. The devestation it could wreck on your fragile island...!"
+				""
+				"You think you can turn some of these zombies back into people, but to do that you first need to get them safely back to your world, and contained someplace away from the sun."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			id: "771B9CD4AD759C44"
+			tasks: [{
+				id: "43D83FED585246EE"
+				type: "kill"
+				entity: "minecraft:zombie_villager"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7D5999CDAFAFC01D"
+				type: "item"
+				item: "byg:emeraldite_shards"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			shape: "circle"
+			description: ["Even if you don't find any survivors, the Nether is an important milestone on your journey to rebuild. You need to get enough lava to start work on your smeltery. One bucket can also be used to make a Cobblestone generator."]
+			hide_dependency_lines: true
+			dependencies: ["46CDAE65E15099AC"]
+			hide: true
+			optional: true
+			id: "4209AE346D267DA3"
+			tasks: [
+				{
+					id: "415265E5FB15D908"
+					type: "item"
+					item: "ceramics:clay_bucket"
+					count: 4L
+				}
+				{
+					id: "76F9ED498C85A724"
+					type: "item"
+					title: "Any #tconstruct:tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tanks"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0C79C26C798F79DF"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "6B728B16DDB02563"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			description: [
+				"This place may be filled with danger, but it's also sprinkled with Pokemon. You &dneed to be careful&r. While battling, you will be completely vulnerable to attack by enemy monsters, and you won't be able to escape the battle to fight them!"
+				""
+				"Use an assortment of tools, from Ichor slings to fishing rods, to get Pokemon someplace its safe to battle them."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			id: "72323BB863524756"
+			tasks: [{
+				id: "5DF617D59FE733BE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "slugma"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "2BF9F1735FB38AA0"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "03A62F7ACFF86443"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
+		}
+		{
+			title: "Light Her Up"
+			x: 3.5d
+			y: -12.5d
+			shape: "circle"
+			description: [
+				"Most of the monsters of the Nether seem repulsed by light. Only Magma Cubes, Striders, and Zombie Pigmen seem indifferent to the lava itself."
+				""
+				"This means you can build a small base and light it up in order to prevent monsters from spawning within. You can also reduce spawns in outdoor areas with the same trick."
+				""
+				"A boat can be used to temporarily keep a zombie villager in one place. You can technically row the boat through the Nether Portal with the Zombie in the back seat, but be prepared for it to smack you quite a bit if you try."
+			]
+			dependencies: ["771B9CD4AD759C44"]
+			hide: true
+			optional: true
+			id: "0B5B30FE8A0F79EF"
+			tasks: [{
+				id: "4FEB3F970E360E12"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "6B0DC68397496E84"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "380FB5B8D1DCB9BA"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 38
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Hell"
+			x: 3.0d
+			y: -20.5d
+			description: [
+				"The Nether exists. The nether has land. The nether has blocks! On one hand, this place is terrifying. On the other hand, it has so many ingredients for rebuilding your home!"
+				""
+				"Netherrack is easy to mine, and can be smelted down to created Nether Bricks, a process with a higher output if you use starlight to do it. Additionally, it can be turned to cobblestone by Pure Daisies."
+				""
+				"Soul Sand can be turned to regular sand by a pure daisy or melted down into liquid soul for crafting certain alloys."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "77D2E05704317920"
+			tasks: [
+				{
+					id: "7721EA1D36183141"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 32L
+				}
+				{
+					id: "250CC74B0CDE1703"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 8L
+				}
+				{
+					id: "0200DB6BEFCB8048"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 8L
+				}
+				{
+					id: "17744DAE2F1DF3BE"
+					type: "biome"
+					biome: "minecraft:nether_wastes"
+				}
+			]
+			rewards: [
+				{
+					id: "36564DA226262ABD"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "2B18209B366BCDEE"
+					type: "item"
+					item: "pixelmon:fire_stone_ore"
+					count: 9
+				}
+				{
+					id: "0670E9F16D68441E"
+					type: "item"
+					item: "pixelmon:raw_tumblestone"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -20.5d
+			description: [
+				"Gold, Quartz, and Cobalt are the most common ores to find in the Nether, although they may be difficult to find if you started in a particularly exotic biome. Search for the Nether Wastes to find the most vanilla of vanilla nether Biomes."
+				""
+				"With silk touch, you can carry home intact ores for processing. These ores can have their output increased in a Smelter, or can produce byproducts in a Foundary."
+			]
+			dependencies: ["77D2E05704317920"]
+			hide: true
+			id: "726A002639B3DA8C"
+			tasks: [
+				{
+					id: "5F3F532B7E6F6ED4"
+					type: "item"
+					item: "minecraft:nether_gold_ore"
+					count: 16L
+				}
+				{
+					id: "70DA1084D5B32F68"
+					type: "item"
+					item: "minecraft:nether_quartz_ore"
+					count: 16L
+				}
+				{
+					id: "26935AD7334FA104"
+					type: "item"
+					item: "tconstruct:cobalt_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "4BA0BA0CD67C5741"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "0B22C6EBA7BD4FFC"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "6E9C13298E22C45B"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "4557FCFA4604E47E"
+					type: "item"
+					item: "pixelmon:fire_stone_ore"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"What... is... this?"
+				""
+				"You need to get this home and research it."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			optional: true
+			secret: true
+			min_required_tasks: 1
+			id: "10C74E8A0021E21D"
+			tasks: [
+				{
+					id: "5809436C09B42DFB"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+				}
+				{
+					id: "152C90018CB7855F"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard_nether"
+				}
+			]
+			rewards: [
+				{
+					id: "18904E2F8B5D505B"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "0CE424796C1FFC2B"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "5496CC4A71F2C1DD"
+					type: "choice"
+					table_id: 7555106132649824680L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -20.5d
+			description: [
+				"You cannot make traditional netherite gear because you do not have diamond gear."
+				""
+				"But you don't need to. You are going to alloy Netherite with another metal. You just have to find some, and bring it back to your Smeltery, where it will produce the highest yield."
+				""
+				"Netherite can be found at the lowest Y levels of the nether, where lava pools are common and the risk of immolation is highest."
+			]
+			dependencies: ["726A002639B3DA8C"]
+			hide: true
+			min_required_tasks: 1
+			id: "5FA9DB52F1253BB6"
+			tasks: [
+				{
+					id: "2F288F93706E2C9A"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+				{
+					id: "03AE305410043FE8"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "41F5A64834454249"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "2E8340C516F2DFEF"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "11004AEADE3536E3"
+					type: "item"
+					item: "pixelmon:fossil"
+				}
+				{
+					id: "2FFD323A554813DF"
+					type: "item"
+					item: "pixelmon:dusk_stone_ore"
+				}
+				{
+					id: "69993FBB35ADF069"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 67
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Defeat a Slugma of a different color."
+			x: 3.5d
+			y: -10.0d
+			description: ["Oh... My. It... it doesn't appear this Slugma is actually different from a normal Slugma. It's certainly an interesting color, though!"]
+			dependencies: ["72323BB863524756"]
+			hide: true
+			min_required_tasks: 1
+			id: "30EF9F11CDC70452"
+			tasks: [
+				{
+					id: "10B07E8FD1538E42"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Copper_sulfate"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4ACEF11DF9C54F58"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Cupric_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0BB1629D71B8F47D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Lithium_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2D08B642DB846855"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Magnesium_sulfide"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "1F7A508628135B3A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Manganese_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "49901065FD1B1D37"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Potassium_chloride"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7658152FFEA3CFED"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Sodium_carbonate"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7E3D36F6D0F9DCD4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Calcium_carbonate"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [{
+				id: "77CEDFEDF4A0B035"
+				type: "choice"
+				table_id: 7555106132649824680L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -11.5d
+			description: [
+				"Can you cure a villager? Don't try it until you've gotten them safely back in your world, and protected from sunlight!"
+				""
+				"Remember: Hit them with a splash potion of weakness, feed them an apple, and then wait. You should hear a sound effect, and the zombie should begin shaking, but then it does take quite some time for them to be fully cured."
+			]
+			dependencies: ["771B9CD4AD759C44"]
+			hide: true
+			id: "0D06E969FA2BCE84"
+			tasks: [{
+				id: "0446778EFD56368C"
+				type: "advancement"
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5C328AA712E592F1"
+					type: "item"
+					item: {
+						id: "pixelmon:lens_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BD8DCD5040B9294"
+					type: "item"
+					item: "byg:emeraldite_shards"
+				}
+			]
+		}
+		{
+			title: "Boats!"
+			x: 1.0d
+			y: -6.5d
+			description: [
+				"A boat can be used to temporarily keep a zombie villager in one place. You can technically row the boat through the Nether Portal with the Zombie in the back seat, but be prepared for it to smack you quite a bit if you try."
+				""
+				"A better plan would likely be to use boats to keep Zombie villagers motionless, and then break the boats and employ ichor slingshots to propel them through the portal."
+			]
+			dependencies: ["516D659D933811A7"]
+			hide: true
+			id: "4AAB7A17B81A90B2"
+			tasks: [{
+				id: "07C671BF248F78F8"
+				type: "item"
+				title: "Any #minecraft:boats"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7042B5720392D2C8"
+				type: "item"
+				item: "byg:emeraldite_shards"
+			}]
+		}
+		{
+			title: "Explore the Nether"
+			x: 0.0d
+			y: -20.5d
+			description: ["Now that multiple biomes are available, you're going to want to craft a nature's compass. The nature's compass will allow you to track down different Nether Biomes, which is useful in an environment that's so very hard to traverse."]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			id: "51A51EA666E1500F"
+			tasks: [{
+				id: "20BE31C1CD175079"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "04C9BC670550E1F6"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 96
+						}
+					}
+				}
+				{
+					id: "3D490216D55DC7FF"
+					type: "item"
+					item: "pixelmon:xs_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Wailing Garth"
+			x: -1.0d
+			y: -23.5d
+			description: [
+				"Emeraldite, embedded in Scorio Stone, can only be found in the Biome called the \"Wailing Garth.\""
+				""
+				"Emeraldite can be made into emeralds, or used as an ingredient in Pendorite."
+				""
+				"Blackstone is also available in the Wailing Garth, if you haven't yet managed to find a Bastion."
+				""
+				"The Wailing Nylium fits the aesthetic of your home biome but... whether you want to feed into that aesthetic is up to you."
+				""
+				"You've heard tale a fearsome Pokemon called \"Obstagoon\" might be found there."
+				""
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "6301625B36CF2B82"
+			tasks: [
+				{
+					id: "776FC9FC046E9F80"
+					type: "item"
+					item: "byg:emeraldite_ore"
+				}
+				{
+					id: "5C07E064F6EC61BB"
+					type: "item"
+					item: "byg:emeraldite_shards"
+					count: 8L
+				}
+				{
+					id: "0B8A80047846DF2A"
+					type: "item"
+					item: "byg:scoria_stone"
+					count: 32L
+				}
+				{
+					id: "0B6DA8B2784C32A8"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 32L
+				}
+				{
+					id: "035A08AD04D6C728"
+					type: "item"
+					item: "byg:overgrown_crimson_blackstone"
+				}
+				{
+					id: "528720EB52D1B74D"
+					type: "item"
+					item: "byg:wailing_bell_blossom"
+				}
+				{
+					id: "3327693EFF619BA5"
+					type: "item"
+					item: "byg:wailing_nylium"
+				}
+				{
+					id: "2DB1E901E95111AB"
+					type: "biome"
+					biome: "byg:wailing_garth"
+				}
+			]
+			rewards: [
+				{
+					id: "5EE7E3FEC83FE2D0"
+					type: "item"
+					item: "byg:emeraldite_shards"
+				}
+				{
+					id: "2E98E1A342C3DDFA"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+					count: 3
+				}
+				{
+					id: "3E0C9AFD336FFBAE"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5C0C36C632B7E55C"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			title: "Embur Bog"
+			x: 3.0d
+			y: -22.5d
+			description: [
+				"Pendorite ore can be found in the Embur Bog. Pendorite is a tier above Netherite, when crafting vanilla tools."
+				""
+				"Pendorite cannot be tinkered with. Although Tinkering has many benefits, Pendorite can benefit from vanilla enchantments, and that includes rare enchantments like Mending."
+				""
+				"The Embur Bog is also a source of blue Netherrack, which otherwise must be crafted."
+				""
+				"Ember Lilies grow here, which can be used to create pathways on lava, similar to regular lily pads with water. Embur Gel block can be used as a road surface and increases your speed."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "314BB398D5858F0F"
+			tasks: [
+				{
+					id: "1DEC346FCFCEFF59"
+					type: "item"
+					item: "byg:pendorite_ore"
+				}
+				{
+					id: "3D42B3746ED68EA4"
+					type: "item"
+					item: "byg:blue_netherrack"
+					count: 32L
+				}
+				{
+					id: "051234A096201C3B"
+					type: "item"
+					item: "byg:blue_nether_bricks"
+					count: 8L
+				}
+				{
+					id: "67B34F2973AB51FE"
+					type: "item"
+					item: "byg:embur_lily"
+					count: 8L
+				}
+				{
+					id: "573BDE5B32E99676"
+					type: "item"
+					item: "byg:blue_nether_gold_ore"
+					count: 16L
+				}
+				{
+					id: "27824C5821EC878C"
+					type: "item"
+					item: "byg:blue_nether_quartz_ore"
+					count: 16L
+				}
+				{
+					id: "759AFD7ADE08FF04"
+					type: "biome"
+					biome: "byg:embur_bog"
+				}
+				{
+					id: "6C60AA071002529D"
+					type: "item"
+					item: "byg:embur_gel_block"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "1A423C1DCC7B609C"
+					type: "item"
+					item: "byg:raw_pendorite"
+				}
+				{
+					id: "35659B3559D6260D"
+					type: "item"
+					item: "pixelmon:sun_stone_ore"
+					count: 9
+				}
+				{
+					id: "0C9DE3E79C19AE0F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			title: "Soul Sand Valley"
+			x: 2.0d
+			y: -23.5d
+			description: [
+				"Soul Glass acts like glass, and Pokemon cannot spawn on it. It does not block light."
+				""
+				"You can find large amounts of soul sand in the soul sand valley. Watch out, expect it to be plagued by ghasts and skeletons."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "2263D5C951CA3589"
+			tasks: [
+				{
+					id: "678BB54FC3ADDA83"
+					type: "item"
+					item: "tconstruct:soul_glass"
+					count: 8L
+				}
+				{
+					id: "4C88C1E54814EB17"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 32L
+				}
+				{
+					id: "066812C13774C445"
+					type: "biome"
+					biome: "minecraft:soul_sand_valley"
+				}
+			]
+			rewards: [
+				{
+					id: "6DE375BFE3AD4B54"
+					type: "item"
+					item: "nethers_delight:soul_compost"
+					count: 16
+				}
+				{
+					id: "0FA9E1972EBE36E4"
+					type: "item"
+					item: "pixelmon:black_flute"
+				}
+				{
+					id: "12DB160C59440686"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			title: "Brimstone Caverns"
+			x: 1.0d
+			y: -23.5d
+			description: [
+				"The Brimstone Caverns Biome is predictably filled with Brimstone."
+				""
+				"Brimstone can be smelted into yellow netherbrick, and used in Boric flames and camp fires."
+				""
+				"Anthracite, the primary ore here, can be used like coal."
+				""
+				"When Processed in a Foundary, the Byproducts from Brimstone Quartz and Gold are Zinc and Uranium, respectively."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "25D8FDB8CE08B946"
+			tasks: [
+				{
+					id: "6B5675316F985B4B"
+					type: "item"
+					item: "byg:brimstone"
+					count: 32L
+				}
+				{
+					id: "749628B0B43C1A6E"
+					type: "item"
+					item: "byg:yellow_nether_bricks"
+					count: 8L
+				}
+				{
+					id: "0F14AD63085BC071"
+					type: "item"
+					item: "byg:boric_campfire"
+				}
+				{
+					id: "1B2B450CD290928E"
+					type: "item"
+					item: "byg:brimstone_nether_gold_ore"
+					count: 16L
+				}
+				{
+					id: "7FB72C99EF57D41A"
+					type: "item"
+					item: "byg:brimstone_nether_quartz_ore"
+					count: 16L
+				}
+				{
+					id: "0560C9F0902E0DBE"
+					type: "item"
+					title: "anthracite"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "byg:anthracite"
+									Count: 1b
+								}
+								{
+									id: "byg:anthracite_ore"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "1586156BC72D5E42"
+					type: "biome"
+					biome: "byg:brimstone_caverns"
+				}
+			]
+			rewards: [
+				{
+					id: "7F285E5AC6F38EE2"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "5FFF9EC3C393D029"
+					type: "item"
+					item: "botania:green_mushroom"
+				}
+				{
+					id: "39AC800ED87C30E9"
+					type: "item"
+					item: "astralsorcery:glow_flower"
+				}
+				{
+					id: "721DC6ED0EC2E700"
+					type: "item"
+					item: "pixelmon:green_flute"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			shape: "circle"
+			description: ["You think it might be wise to bring a silk-touch pickaxe, rather than a Luck one. This is because ores like Nether Gold ore can be smelted down for higher yields at a smeltery, and ores like Cobalt can be smelted for an iron byproduct in a Foundary."]
+			hide_dependency_lines: true
+			dependencies: ["25991FF1BD725FC2"]
+			hide: true
+			optional: true
+			id: "4E23DE3FB0ABF1E3"
+			tasks: [{
+				id: "05E4CDA1EDF67341"
+				type: "item"
+				item: "tconstruct:silky_cloth"
+			}]
+			rewards: [{
+				id: "05DCDE8467AFD31D"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 6
+			}]
+		}
+		{
+			title: "Subzero Hypogeal"
+			x: 3.0d
+			y: -21.5d
+			description: [
+				"Travertine is a lovely block for building with, but more impressive than Travertine are the subzero crystals. When grown and put into a Hypogeal Imperium, they can be used to freeze lava in the Nether."
+				""
+				"You expect the Pokemon here to be quite different from anywhere else in the Nether. You wonder if Sneasel may have survived down here."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "2479E34FEA23C056"
+			tasks: [
+				{
+					id: "04334CC78F657E9F"
+					type: "item"
+					item: "byg:travertine"
+					count: 32L
+				}
+				{
+					id: "7245A838E36B4F7E"
+					type: "item"
+					item: "byg:subzero_crystal_block"
+				}
+				{
+					id: "2EEBEFA1EA6D057B"
+					type: "item"
+					item: "byg:subzero_crystal_shard"
+					count: 32L
+				}
+				{
+					id: "5BA82633AD96F2D7"
+					type: "item"
+					item: "byg:subzero_ash_block"
+					count: 32L
+				}
+				{
+					id: "34E9EFFC9E88B947"
+					type: "item"
+					item: "byg:frost_magma"
+					count: 32L
+				}
+				{
+					id: "4EBF6E51DE4CE9FF"
+					type: "biome"
+					biome: "byg:subzero_hypogeal"
+				}
+			]
+			rewards: [
+				{
+					id: "377A23EEC6E15CE6"
+					type: "item"
+					item: "byg:black_ice"
+					count: 16
+				}
+				{
+					id: "2435B01B3152E40F"
+					type: "item"
+					item: "pixelmon:ice_stone_ore"
+					count: 9
+				}
+				{
+					id: "71C529CDFA52E4D0"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -21.5d
+			description: ["A Hypogeal Imperium can be used to freeze lava in the nether, creating Obsidian. This can be useful for creating long Obsidian bridges for easier Nether traversal."]
+			dependencies: [
+				"2479E34FEA23C056"
+				"5FA9DB52F1253BB6"
+			]
+			hide: true
+			id: "77E7A3F9D5A5D43B"
+			tasks: [{
+				id: "077AAE02EE129DCC"
+				type: "item"
+				item: "byg:hypogeal_imperium"
+			}]
+			rewards: [{
+				id: "0DD0016F1CA2699A"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 6
+					}
+				}
+			}]
+		}
+		{
+			title: "Warped Desert"
+			x: 3.0d
+			y: -18.5d
+			description: ["You aren't sure if there's anything meaningful you can extract from the Warped Desert, aside from a new color scheme."]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "129D405E0E1B6AE9"
+			tasks: [
+				{
+					id: "367FD76F26E2F36F"
+					type: "item"
+					item: "byg:nylium_soul_sand"
+					count: 16L
+				}
+				{
+					id: "7C4DF4B5F7596D7D"
+					type: "item"
+					item: "byg:nylium_soul_soil"
+					count: 16L
+				}
+				{
+					id: "3FBD3B63C4A86695"
+					type: "item"
+					item: "byg:warped_coral_block"
+					count: 16L
+				}
+				{
+					id: "7E1565C608400393"
+					type: "item"
+					item: "byg:warped_coral"
+				}
+				{
+					id: "504A2BF9DFA5810C"
+					type: "item"
+					item: "byg:warped_coral_fan"
+				}
+				{
+					id: "03812B864C2FE9F3"
+					type: "item"
+					item: "byg:warped_cactus"
+					count: 16L
+				}
+				{
+					id: "6FF73D37022DD2FD"
+					type: "biome"
+					biome: "byg:warped_desert"
+				}
+			]
+			rewards: [
+				{
+					id: "1C8B6192D4CEBF6D"
+					type: "item"
+					item: "minecraft:heart_of_the_sea"
+				}
+				{
+					id: "039206B45FE6F2FF"
+					type: "item"
+					item: "pixelmon:dawn_stone_ore"
+					count: 9
+				}
+				{
+					id: "3A5362FB988CC4C1"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			title: "Quartz Desert"
+			x: 0.0d
+			y: -17.5d
+			description: [
+				"The Quartz Desert is an interesting place that underscores why quartz ores mined elsewhere in the Nether are best used for their byproducts."
+				""
+				"The Quartz Crystals in the quest are the sheared structures taken from the ground of the desert, which can be used as traps, similarly to Wither Roses."
+				""
+				"Quartzite Sand is a lovely block, especially for sparkling white beaches."
+				""
+				""
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "42BD80F9E7138707"
+			tasks: [
+				{
+					id: "437EA869D9B01E9D"
+					type: "item"
+					item: "byg:quartzite_sand"
+					count: 32L
+				}
+				{
+					id: "6C224C0069EE22F2"
+					type: "item"
+					item: "byg:raw_quartz_block"
+					count: 32L
+				}
+				{
+					id: "6B167B01902B0282"
+					type: "item"
+					item: "byg:hanging_bones"
+					count: 8L
+				}
+				{
+					id: "395575C667201B99"
+					type: "item"
+					item: "byg:quartz_crystal"
+					count: 8L
+				}
+				{
+					id: "473ECF7E8225A23A"
+					type: "biome"
+					biome: "byg:quartz_desert"
+				}
+			]
+			rewards: [
+				{
+					id: "5EDE999EF8960D1B"
+					type: "item"
+					item: "pixelmon:shiny_stone_ore"
+					count: 9
+				}
+				{
+					id: "4FE92FFF5F988C9D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "59AF7CCF82CCCC7C"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
+		}
+		{
+			title: "Withered Abyss"
+			x: -3.0d
+			y: -19.5d
+			description: [
+				"The Withered Abyss is a very dark, foggy, and dangerous biome. It's a place you can find Blackstone and crying obsidian."
+				""
+				"Endermen and Wither Skeletrons congregate there. "
+				""
+				"You heard tale a species of Tauros might be found in this place. "
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "6523D16DB583E809"
+			tasks: [
+				{
+					id: "442011E7FBFF1276"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 32L
+				}
+				{
+					id: "15527E4E28A24848"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+					count: 8L
+				}
+				{
+					id: "19B8CEAB325E9309"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tauros"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6CC71A6B24EE4265"
+					type: "biome"
+					biome: "biomesoplenty:withered_abyss"
+				}
+				{
+					id: "55C2E9027791D1A2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "umbreon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "271E9916BE8A00BD"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "1956E3AD291F5581"
+					type: "item"
+					item: "minecraft:coal_ore"
+					count: 9
+				}
+				{
+					id: "0E6322FA174C90C6"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "2749C59C17B0CBBF"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Visceral Heap"
+			x: 3.0d
+			y: -19.5d
+			description: ["The visceral heap is a disgusting place made of flesh. But it might attract Pokemon very unlike any other part of the nether. You've heard that a small, tumor-like digging Pokemon-- possible a variant of Diglett?-- can be found here, as well as a number of pigs."]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "51784E425F3315F2"
+			tasks: [
+				{
+					id: "218C4D8FB8D22980"
+					type: "item"
+					item: "biomesoplenty:flesh"
+					count: 32L
+				}
+				{
+					id: "18C2781995BE50A2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lechonk"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "10696ABB46E626F8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tepig"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "621C4BB4668FC67E"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 4L
+				}
+				{
+					id: "64AD585F06B3A8DA"
+					type: "item"
+					item: "minecraft:shroomlight"
+					count: 4L
+				}
+				{
+					id: "0E95CFD2E7CB7550"
+					type: "biome"
+					icon: "biomesoplenty:flesh"
+					biome: "biomesoplenty:visceral_heap"
+				}
+				{
+					id: "71F4B53833062C82"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "Spoink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "109C6B6004E1BD01"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "596C1AC16A87AA18"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "diglett palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "2C47DB515E9F3403"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen3"
+						Count: 1b
+						tag: {
+							tm: 45
+						}
+					}
+				}
+				{
+					id: "34DCE5A1232FFFE7"
+					type: "item"
+					item: "pixelmon:moon_stone_ore"
+					count: 9
+				}
+				{
+					id: "03896FB1324B107F"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "189403721B418443"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Undergrowth"
+			x: -2.0d
+			y: -17.5d
+			description: ["The Undergrowth is a terrible place, with difficult-to-cut thorns everywhere making traversing the biome almost impossible. No one would want to come here, except, you think Pokemon such as Roselia and Ferrothorn might be found here. "]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "616C1ED7D1BFA863"
+			tasks: [
+				{
+					id: "6A5E01DB345B51BF"
+					type: "item"
+					item: "biomesoplenty:bramble"
+					count: 32L
+				}
+				{
+					id: "5B83A58DA4D955F8"
+					type: "item"
+					item: "byg:cyan_rose"
+				}
+				{
+					id: "57400BE8B4320933"
+					type: "biome"
+					biome: "biomesoplenty:undergrowth"
+				}
+			]
+			rewards: [
+				{
+					id: "7DA1BF4E2BEDB48B"
+					type: "item"
+					item: "pixelmon:leaf_stone_ore"
+					count: 9
+				}
+				{
+					id: "353AEB9FABE7D7A4"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "4547DADC98937DBA"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Crystalline Chasm"
+			x: -3.0d
+			y: -20.5d
+			description: [
+				"You're not quite sure what you can gain from the Crystalline Chasm, other than a stylist new crystal block. There may be some Pokemon here of interest. "
+				""
+				"Just as with in your home dimension, you think you can lure alolan geodude here with redstone dust."
+			]
+			dependencies: ["51A51EA666E1500F"]
+			hide: true
+			id: "4F973D931BE56AAF"
+			tasks: [
+				{
+					id: "6D082CC6E3E6BAFC"
+					type: "item"
+					item: "biomesoplenty:nether_crystal_block"
+					count: 8L
+				}
+				{
+					id: "6B92B88DD9173A7B"
+					type: "item"
+					item: "biomesoplenty:nether_crystal"
+					count: 32L
+				}
+				{
+					id: "3939B46829A44AD7"
+					type: "biome"
+					biome: "biomesoplenty:crystaline_chasm"
+				}
+			]
+			rewards: [
+				{
+					id: "65DA479980AD5D48"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+					count: 9
+				}
+				{
+					id: "4A930BA4D5283FB3"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "710E9E49F3565FAC"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			title: "Glowstone Gardens"
+			x: -3.0d
+			y: -21.5d
+			dependencies: ["51A51EA666E1500F"]
+			id: "72F57B021C12A754"
+			tasks: [
+				{
+					id: "610624DA7DF0B431"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 16L
+				}
+				{
+					id: "42C75BAC61F32808"
+					type: "biome"
+					biome: "byg:glowstone_gardens"
+				}
+			]
+			rewards: [
+				{
+					id: "11ED36681647169E"
+					type: "item"
+					item: "pixelmon:thunder_stone_ore"
+					count: 9
+				}
+				{
+					id: "4B7A8E70E64FD213"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "00563DEF1A150E52"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			title: "Withering Woods"
+			x: -3.0d
+			y: -22.5d
+			dependencies: ["51A51EA666E1500F"]
+			id: "6614354254E167F1"
+			tasks: [
+				{
+					id: "55F528B41E819A8A"
+					type: "biome"
+					biome: "byg:weeping_woods"
+				}
+				{
+					id: "5F0052F36B96C0A8"
+					type: "item"
+					item: "byg:withering_oak_sapling"
+				}
+				{
+					id: "64FF1EFC1707D8F9"
+					type: "item"
+					item: "byg:withering_oak_log"
+					count: 16L
+				}
+				{
+					id: "3F0965AE3BB603CF"
+					type: "item"
+					item: "byg:arisian_bloom_branch"
+				}
+			]
+			rewards: [
+				{
+					id: "2FFC5ED4C9E4E236"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "202EBEF6E1949C2E"
+					type: "item"
+					item: "minecraft:emerald_ore"
+					count: 9
+				}
+				{
+					id: "01046A0197BD87AD"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			title: "Weeping Mire"
+			x: -2.0d
+			y: -23.5d
+			dependencies: ["51A51EA666E1500F"]
+			id: "4C418D250E3F85DB"
+			tasks: [
+				{
+					id: "3D4DA9FF1CBD4713"
+					type: "biome"
+					biome: "byg:weeping_mire"
+				}
+				{
+					id: "383618FA3801767F"
+					type: "item"
+					item: "byg:lament_sapling"
+				}
+				{
+					id: "50EC294232E67B4B"
+					type: "item"
+					item: "byg:lament_log"
+					count: 16L
+				}
+				{
+					id: "7411AECB3F23D92C"
+					type: "item"
+					item: "byg:lament_sprouts"
+				}
+			]
+			rewards: [
+				{
+					id: "02F031EDD4028C6B"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "0F8F1822FD5C708B"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 47
+						}
+					}
+				}
+				{
+					id: "4EC852EB6C97B845"
+					type: "item"
+					item: "pixelmon:water_stone_ore"
+					count: 9
+				}
+				{
+					id: "3EF45835CDB782A9"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			title: "Find a Raid Den"
+			x: -3.5d
+			y: -11.0d
+			description: [
+				"Nether raid dens are extremely rare, but the do exist and can be found."
+				""
+				"Under Offerings to Arceus, you will find a repeatable offering you can make to locate the nearest den. Keep in mind the nearest den may be one you've already found."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			id: "11202FEECCC5400B"
+			tasks: [{
+				id: "4292F8F7328A7BBF"
+				type: "questsadditions:interaction"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/gui/raids/watermark.png"
+					}
+				}
+				entity: "pixelmon:den"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "09AB62011B6E66D6"
+				type: "item"
+				item: "pixelmon:den_spawner"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -11.0d
+			description: [
+				"Arceus has blessed you!"
+				""
+				"This Device can be used to spawn a Max Raid Den anywhere you are currently standing. Since they are larger than you, you should make sure to stand in an open area, exactly where you want the den to be placed. "
+				""
+				"Ideally, you should place the Den at your Island, in the Overworld."
+				""
+				"[TIP: Biomes in Jars is installed suggesting you will one day be able to change the Biome of an area. As such, you may want to plan to place your Den in an area you are comfortable changing the biome in the future, when you want diferrent Raid Bosses to spawn there."
+			]
+			dependencies: ["11202FEECCC5400B"]
+			id: "1F695D5EB64071E6"
+			tasks: [{
+				id: "54AB70061D35E55B"
+				type: "item"
+				item: "pixelmon:den_spawner"
+			}]
+			rewards: [{
+				id: "3DE752B530071B6F"
+				type: "item"
+				item: "pixelmon:wishing_piece"
+			}]
+		}
+		{
+			title: "Find Nether Grotto"
+			x: -3.5d
+			y: -13.0d
+			description: [
+				"Grottos are locations where Masterball Tier loot can be found. The Nether Grotto is of especial significance. "
+				""
+				"If you can find one, and it hasn't already been looted by Piglins, there is usually a cracked or damaged Anvil inside. "
+				""
+				"Regardless, Masterball tier loot is always worth searching for."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			id: "11DB1EACBE7114B3"
+			tasks: [{
+				id: "600E59D5D3C54355"
+				type: "structure"
+				structure: "pixelmon:grotto_nether"
+			}]
+			rewards: [{
+				id: "30071480853E893B"
+				type: "item"
+				item: {
+					id: "pixelmon:tr_gen8"
+					Count: 1b
+					tag: {
+						tm: 31
+					}
+				}
+			}]
+		}
+		{
+			title: "Got to Defeat Them All"
+			x: 4.5d
+			y: -10.0d
+			description: [
+				"Well now that you've seen one, you need to take the grand Nether tour, see them all."
+				""
+				"Can all of them be found in the nether? Do you have to fish for some of them?"
+			]
+			dependencies: ["30EF9F11CDC70452"]
+			hide: true
+			id: "1F34187FE45E1D45"
+			tasks: [
+				{
+					id: "51258F1B4636E322"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Copper_sulfate"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "610D290AE4E7C68C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Cupric_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2D6A15C774B6EA50"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Lithium_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "63E7FC4C063A4004"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Magnesium_sulfide"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "11CB26F5230CC995"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Manganese_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "520834EC6E6E3D52"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Potassium_chloride"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "490F1910450C2B80"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Sodium_carbonate"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "420CD20B1DA3A91A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "slugma palette:Calcium_carbonate"
+					count: 1
+					invert: false
+					wild: true
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "1560F645D22EB414"
+					type: "choice"
+					table_id: 6892037364409430550L
+				}
+				{
+					id: "3E6E37F3CDA408FC"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "1C31D6B4CBDA1216"
+					type: "choice"
+					table_id: 9093306389108564916L
+				}
+				{
+					id: "042B8BD82CA95A9F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 144
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Chemical Surplus"
+			x: 5.5d
+			y: -10.0d
+			description: ["If you end up with a surplus of Pokeballs, maybe you could even catch them all."]
+			dependencies: ["1F34187FE45E1D45"]
+			id: "00028F6F5B2DEE0B"
+			tasks: [
+				{
+					id: "6E9221370A73F593"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Copper_sulfate"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "6BF6C5AB93A87F83"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Cupric_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "5E3BE181E5F5E1D0"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Lithium_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "0ACCCB26E00BB3E9"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Magnesium_sulfide"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "4A06E4000B34B1F6"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Manganese_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "7BC6244908057B39"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Potassium_chloride"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "55C5336EF16C3C7A"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Sodium_carbonate"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "3720E977862613C1"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "slugma palette:Calcium_carbonate"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+			]
+			rewards: [
+				{
+					id: "72ABABC83B45BEB2"
+					type: "item"
+					item: {
+						id: "immersiveengineering:chemthrower"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "67B1991A849CAC9E"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball"
+						Count: 1b
+						tag: {
+							PokeBallID: "repeat_ball"
+						}
+					}
+					count: 9
+				}
+				{
+					id: "676F5991C389CDFD"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 78
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -13.0d
+			description: [
+				"(Get one lava bucket or the other; you do not need both)"
+				""
+				"One of the primary reasons to come to the Nether is Lava. You don't have Lava in your world anymore, and it's necessary for everything from Cobblestone and Sand generators to powering a Smeltery or Foundary."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			min_required_tasks: 1
+			id: "1F726DDAD5A9AAF6"
+			tasks: [
+				{
+					id: "5132480D0D4C0DBA"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "183E69DD7C936CED"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "098C865AE287B973"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+				{
+					id: "0CBC8FF5BDFCF050"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+				{
+					id: "05178B1611C06932"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "09A6D2E7FAC59B11"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -12.0d
+			description: [
+				"You feel as though you should tap all possible resources prior to leaving the Nether. This includes summoning and defeating the Wither. You should already have the ingredients to do so- but you must first prepare a safe arena to fight it in."
+				""
+				"Obtaining a Nether Star will allow you to create a beacon, which is vital for high-end Botanical magic."
+				""
+				"Nether Stars can also be spent on Blank TMs. In specific, they can be spent on the types of TMs which can permenantly record powerful moves like \"Thunder.\""
+				""
+				"(Note: The Wither is banned from spawning in the Overworld.)"
+			]
+			dependencies: ["5742DF95648CAE94"]
+			size: 2.0d
+			id: "4619F76929CB2A2D"
+			tasks: [{
+				id: "1D4F5FBCD0E6A526"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/wither/wither_invulnerable.png"
+					}
+				}
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1F65E8090D0FB703"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "38BF0E342E313931"
+					type: "item"
+					item: "tconstruct:netherite_item_frame"
+				}
+				{
+					id: "54A78F201997A85A"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 55
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Alternate Lava"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/block/lava_still.png"
+				}
+			}
+			x: 1.0d
+			y: -7.5d
+			description: [
+				"Someone who carefully studied the recipes available to them might realize that lava can be created a small number of other ways. "
+				""
+				"Lava can enable you to jump tiers without traveling to the Nether, but the Nether is a good place to head for a variety of reasons."
+			]
+			hide: true
+			secret: true
+			min_required_tasks: 1
+			incompatible: ["30E49862081FA059"]
+			id: "5AB1C0099C0A02E2"
+			tasks: [
+				{
+					id: "128E97E587D7AC52"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "77F1BD604326411D"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "41A69657A45D33ED"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "7548D7C0D407F81B"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+				}
+				{
+					id: "4DE7CCB9CEFDE349"
+					type: "choice"
+					table_id: 6443510782262151491L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -12.0d
+			description: [
+				"The explorer's compass can be used to locate any structure in the game. This includes Nether Fortresses and Bastions, of course, but also includes Raid Dens and Grottos. "
+				""
+				"Given the Master Ball Tier loot available in Grottos, this may be a vital tool in your arsenal, and worth the price of paying for it. Regular compasses can occasionally be looted directly from Nosepass."
+				""
+			]
+			dependencies: ["5742DF95648CAE94"]
+			id: "6424801FB80E98E4"
+			tasks: [{
+				id: "484D9A93C080CE6E"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "13D3E165A3BB1E94"
+					type: "choice"
+					table_id: 6887887404997572042L
+				}
+				{
+					id: "650625239BE800E4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "134C73DDC24803A8"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/481_mesprit/all/base/none/sprite.png"
+				}
+			}
+			x: 0.0d
+			y: -28.5d
+			description: [
+				"A spirit has been spying on you since you entered the Nether. Perhaps you should confront it?"
+				""
+				"(Warning: Make sure you feel capable of defeating a level 100 legendary Pokemon. If you fail, and have to leave so that it despawns, you'll be left relying on it to spawn again naturally.)"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4C418D250E3F85DB"
+				"6614354254E167F1"
+				"72F57B021C12A754"
+				"4F973D931BE56AAF"
+				"616C1ED7D1BFA863"
+				"42BD80F9E7138707"
+				"129D405E0E1B6AE9"
+				"51784E425F3315F2"
+				"6523D16DB583E809"
+				"77D2E05704317920"
+				"2479E34FEA23C056"
+				"2263D5C951CA3589"
+				"25D8FDB8CE08B946"
+				"314BB398D5858F0F"
+				"6301625B36CF2B82"
+				"3D2BDA8F247D5314"
+				"10C281C742D52579"
+				"2A8F9B0B4E66A172"
+				"2161B2224BA66607"
+				"552A8CA6673FAA7B"
+			]
+			size: 1.5d
+			id: "47FAA3580FFAC11D"
+			tasks: [{
+				id: "08D414039DF4BE38"
+				type: "checkmark"
+				title: "Meet Mesprit"
+			}]
+			rewards: [{
+				id: "215D9DB189279638"
+				type: "command"
+				title: "Meet Mesprit"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/481_mesprit/all/base/none/sprite.png"
+					}
+				}
+				command: "/function ghosts:spawn_mesprit"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -22.5d
+			dependencies: ["314BB398D5858F0F"]
+			id: "380D46B90B5FBE8E"
+			tasks: [
+				{
+					id: "2B37CF6F5BD28F79"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5032E306BA2B9E27"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torkoal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "667D64F09F9D80FD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2FF6741D42AA53D8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salandit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3128C1E430CB5F6D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magby"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "3D0412F8CF5DE33E"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "79FF58B5DC9FCB1A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 195
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -24.5d
+			dependencies: ["25D8FDB8CE08B946"]
+			id: "6924B97E8FB51629"
+			tasks: [
+				{
+					id: "6C084E09533DC9B0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "elgyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "090A948C12CF4A1D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "586F3EF2C95F1FB5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salandit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "26B41E19B665B809"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0C207DAE6203AF1A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "68EDB301B2DE527B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torkoal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "7F29AC1CE3FDDF67"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "53497AA5B17C0269"
+					type: "item"
+					item: "pixelmon:green_apricorn"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -24.5d
+			description: ["The above Pokemon can be found in a variety of circumstances. Gothita, in particular, will only spawn indoors, which means a structure must be manmade; Paras is the opposite."]
+			dependencies: ["4C418D250E3F85DB"]
+			id: "6B1C849E86D2B974"
+			tasks: [
+				{
+					id: "5598BCC4FE210245"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gastly"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0BAEEBF0F0E18A53"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "woobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0B80CBD512B732B0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "litwick"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3ECBD776D2528AAD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noibat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4DC90C16035E2CAE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7AC10BEFB9C1150C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morelull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2C171B8284DF9C72"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "misdreavus"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "47DB5A742B3769A0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "52756D35A1F9229F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sneasel form:hisuian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "01A8580502F39952"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimer"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5684BAD48ADA5115"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6C0788098E643FD8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "paras palette:valencian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "39C2DAD736B09370"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothita"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "766518B04AE70D8A"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 97
+						}
+					}
+				}
+				{
+					id: "39B011FBFBE65636"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -25.5d
+			dependencies: ["4C418D250E3F85DB"]
+			id: "484C037BB8F36865"
+			tasks: [
+				{
+					id: "72E9FEAA215A450B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rapidash form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "58CC40F639A9D448"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sneasler"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1EC68DD068DB61EC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothorita"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1413BFE4E0935370"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "79753821BAF17781"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shiinotic"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0436349D2FDCBBC8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lampent"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "14A100A7B43C4E9C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "swoobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7EAE75A892552265"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golbat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1D45D13EE4F2B0C9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "haunter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "609D3DD4EE1B5E50"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morgrem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "47D97C8958213CCD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "parasect palette:valencian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "3BCA105530496740"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 25
+						}
+					}
+				}
+				{
+					id: "04957E922FD22F92"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -26.5d
+			dependencies: ["484C037BB8F36865"]
+			id: "53C8708B8954C615"
+			tasks: [
+				{
+					id: "6ADB2887390FE7DC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noivern"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5878382D6680B27F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothitelle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6ED7FDB3F6E69202"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7A8A8D1A332F32EC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "chandelure"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2369BEEA4CCEF1DE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "crobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "72E99BC268F659FA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gengar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5111DB6739447822"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimmsnarl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "2CD1FBBDA4433087"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 50
+						}
+					}
+				}
+				{
+					id: "6E4D77C36449CC50"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "59E8D60A12B88AAE"
+					type: "item"
+					item: "pixelmon:spell_tag"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -24.0d
+			min_required_dependencies: 1
+			dependencies: [
+				"6B1C849E86D2B974"
+				"573CEC8B127A4EEA"
+			]
+			id: "29FF833FE83FD2EB"
+			tasks: [{
+				id: "7E2342E3AD5FE898"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "ceruledge"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "3DAF5158BDF7D74D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "12331B3545A7604B"
+					type: "item"
+					item: {
+						id: "tconstruct:sword"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.5f
+								"tconstruct:durability": 1.1f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:attack_damage": 4.5f
+								"tconstruct:harvest_level": 2.0f
+								"tconstruct:durability": 411.4f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "materialis:nocturnal"
+									level: 3s
+								}
+								{
+									name: "tconstruct:silky_shears"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"materialis:starmetal"
+								"materialis:starmetal"
+								"materialis:starmetal"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -22.5d
+			dependencies: ["380D46B90B5FBE8E"]
+			id: "3ACF03264B328D88"
+			tasks: [
+				{
+					id: "5344E06E9E54902C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salazzle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "02769FB2E340DF1C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4F5082E4827A1579"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "338763BAE0D57D00"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magmar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "61A062BADA0DE998"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "264434167E0B3235"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -25.5d
+			dependencies: ["6924B97E8FB51629"]
+			id: "6B77B41FE4CEF32D"
+			tasks: [
+				{
+					id: "63F4B64713B0D3E5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salazzle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "63D8ED7832E2269B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "beheeyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7A0AA2909EB428E7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1E2967DD82132502"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "2C908DF4BD65930D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "4A2D19EAC0F01F64"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 61
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -26.5d
+			dependencies: ["6B77B41FE4CEF32D"]
+			id: "23C7A08D43859B59"
+			tasks: [{
+				id: "4A0B632AC9FB6A60"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "dusknoir"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "3A42C4BA1BF44DC6"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "3DA8C280CAC5F487"
+					type: "item"
+					item: "thermal:sulfur_ore"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Wailing Garth: "
+			x: -1.0d
+			y: -26.5d
+			dependencies: ["6ED5781C34D9E825"]
+			id: "6608DEA7EF40DE67"
+			tasks: [
+				{
+					id: "668C383706361FB8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "obstagoon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "63C8F769904C7794"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "typhlosion form:hisuian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "31A48B05AE7F66DC"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 9
+				}
+				{
+					id: "20435CDD6A28DC38"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "26C6911FEEBA4A3E"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 44
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Wailing Garth: "
+			x: -1.0d
+			y: -24.5d
+			dependencies: ["6301625B36CF2B82"]
+			id: "48683B2EA60747C5"
+			tasks: [
+				{
+					id: "72F616ADF3D6733B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4F0F37FC974EA53F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7D26B8158BC45D1B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rockruff"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "709AE18C04F4E69E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zigzagoon form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "3B9FD95F84A932A1"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 37
+						}
+					}
+				}
+				{
+					id: "0DDAD0F37B3255B1"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Wailing Garth: "
+			x: -1.0d
+			y: -25.5d
+			dependencies: ["48683B2EA60747C5"]
+			id: "6ED5781C34D9E825"
+			tasks: [
+				{
+					id: "19265FCF24E21745"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lycanroc form:midnight"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3BCDDE4E7EA0370D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "linoone form:galarian "
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "06DF95B3488388D1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tauros form:paldean_blaze"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "6F701579E7DD1583"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 41
+						}
+					}
+				}
+				{
+					id: "0D899D62C98C40DD"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -25.5d
+			dependencies: ["6924B97E8FB51629"]
+			id: "1D311B5544399AFC"
+			tasks: [{
+				id: "0BE0336DC17CB1EE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "rapidash palette:drowned"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "3DD4B1B86E85EAB6"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1F13DA4E17F68BA8"
+					type: "item"
+					item: "pixelmon:swift_feather"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -22.5d
+			dependencies: ["6614354254E167F1"]
+			id: "573CEC8B127A4EEA"
+			tasks: [
+				{
+					id: "4149574E9583C408"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gastly"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0CFA53BA47170AAB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zubat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5CEC9E4542FEBF4D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "woobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "69A7865D7EF049AA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noibat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7ACF2CCE0E3F81D6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torkoal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "110A5E14DF6521DF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "litwick"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2E80FF04D1D99853"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6AA2759225A8C5AC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shroomish palette:spirit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "23665D8E527B65C7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7D97C486BFA45D30"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5809BCA9285C74AC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "poochyena"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6FA4ECA1EAB000B7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothita"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "29374F834B126D3E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gligar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3BBE05B26AF70DC6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "4783607BF5450019"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 30
+						}
+					}
+				}
+				{
+					id: "56283D1A5AEE2F7B"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Wailing Garth: Starter Alert"
+			x: -2.0d
+			y: -25.5d
+			description: ["Only found in the company of Hisuian Typhlosion."]
+			dependencies: ["48683B2EA60747C5"]
+			id: "3B18A26F7B9DF423"
+			tasks: [{
+				id: "4F24D49CEDF0D548"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "cyndaquil"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "4373C9A94BF52808"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "7E61F9FC4A9CD163"
+					type: "item"
+					item: "pixelmon:muscle_feather"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -22.5d
+			dependencies: ["573CEC8B127A4EEA"]
+			id: "5B4EFFE2DA7906FA"
+			tasks: [
+				{
+					id: "27AA7FEC47F9BB4F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "haunter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "255EAB94CB19E76F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golbat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "75AADD22AFA25048"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "swoobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0A8CF153FC56259D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lampent"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "688F97E894EDFA73"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "breloom palette:spirit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "705644094F6A2C92"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1BFBE54C4837C5C6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rapidash form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "14955CCDAAF43E9F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mightyena"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2F503D290B5EE8E9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothorita"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1414937E1F37D7C9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gliscor"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1689CAC4818D9053"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morgrem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "6DCCE80DCC305651"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
+				}
+				{
+					id: "024B2CE29475E8B1"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -22.5d
+			dependencies: ["5B4EFFE2DA7906FA"]
+			id: "49ED65607FEAD675"
+			tasks: [
+				{
+					id: "15AC07A9476A9D79"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noivern"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "51B1DAB1C786C3DD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gengar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "24F87C59B48F649E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "crobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "42247CBC8E0228FC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "chandelure"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "74F3BCBC260071A6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5227BC680AD15AB0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gothitelle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "05E1E6A031796299"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimmsnarl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "1BE20E78A3DA693B"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+				{
+					id: "683A97B5D2A38D09"
+					type: "item"
+					item: "minecraft:wither_skeleton_spawn_egg"
+				}
+				{
+					id: "6DC83BA9D92BCFEB"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 91
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -21.5d
+			dependencies: ["72F57B021C12A754"]
+			id: "0C7621840A6208C1"
+			tasks: [
+				{
+					id: "36216EE5CB4B32FB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torkoal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "35C4709FFE62E784"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6614D5BC8D2637E0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morelull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "35D9AC7CC8FF7A4E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "misdreavus"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2B42F00EF5D3D6BC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morpeko"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "23FA7E6F93FE2A87"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "pincurchin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "76AD93D0592F3BE8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rotom"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "794F2F08E4A5F33A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sneasel form:hisuian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1AAD7AF82006E53D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6B457700274F5AA3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "paras palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "24409561A942381A"
+					type: "item"
+					item: "pixelmon:yellow_apricorn"
+				}
+				{
+					id: "32CCC2FF486ED512"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "77D5E02E4E8FE61C"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -21.5d
+			dependencies: ["0C7621840A6208C1"]
+			id: "1193A24D58D57AC8"
+			tasks: [
+				{
+					id: "7B2EB686D0D5AB0B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2578FAD7E9F811D0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shiinotic"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "47095CE5A8485457"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mismagius"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "254FF5CA61E79DA7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sneasler"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4F64E459975544C3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morgrem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7148C55F9BC3824F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "parasect palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "00617EDE422E2FDA"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen4"
+						Count: 1b
+						tag: {
+							tm: 34
+						}
+					}
+				}
+				{
+					id: "2F83F47F3EDDCB4E"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -21.5d
+			dependencies: ["1193A24D58D57AC8"]
+			id: "731A9FBF284D9941"
+			tasks: [{
+				id: "1055C76C6EF60DC8"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "grimmsnarl"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "4C425C96E1F9B923"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 90
+						}
+					}
+				}
+				{
+					id: "72FC53BE11FDAE38"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -24.5d
+			dependencies: ["2263D5C951CA3589"]
+			id: "419C590B82F37CBD"
+			tasks: [
+				{
+					id: "5D04D76F84CD7486"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gastly"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "76F7BF95CFDB983C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6B3B0C814B194A28"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2E311D6D00A85906"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "67BD37D43E86D689"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "misdreavus"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2C1116D61C68AFBD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sandile"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "668DACA4DF5953EE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "skorupi"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "342AFC849A1823C1"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "5E9AEFC06ECABA5F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 32
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -24.0d
+			min_required_dependencies: 1
+			dependencies: [
+				"419C590B82F37CBD"
+				"380D46B90B5FBE8E"
+			]
+			id: "2A95170A1F9DF762"
+			tasks: [{
+				id: "63C2231208094E49"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "marowak form:alolan"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "79BA9830A0B44F8D"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "24A9A4EFB5E66FE7"
+					type: "item"
+					item: "pixelmon:genius_feather"
+				}
+				{
+					id: "01F38D3FF32FBB88"
+					type: "item"
+					item: "pixelmon:clever_feather"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -25.5d
+			dependencies: ["419C590B82F37CBD"]
+			id: "27504514FA93AB54"
+			tasks: [
+				{
+					id: "2E4B0FCF1C95F583"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "drapion"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0B04AB541675EAF8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "haunter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6B3BB2D13D43A1FE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "62D8352CA237E8BD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6147B4D0E24F0391"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mismagius"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2E9103EF1E6CD30C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "krokorok"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "5C898BC503600078"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5B567654A094672B"
+					type: "item"
+					item: "pixelmon:orb"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -26.5d
+			dependencies: ["27504514FA93AB54"]
+			id: "1E6520FCC4A95CF0"
+			tasks: [
+				{
+					id: "4A1480141624A429"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gengar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "23982C317841D13F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "krookodile"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "257A72F3C0AF3D8F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "3736F61973F1A7E1"
+					type: "item"
+					item: "minecraft:ghast_spawn_egg"
+				}
+				{
+					id: "4A947F53940BC997"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "6292502D5808960E"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 33
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -21.5d
+			description: ["Here, hell has frozen over, and many ice Pokemon can be found. Vanillite can only be found indoors or on manmade structures, and thus will not spawn unless you prepare a habitat for it. Sneasle is the opposite."]
+			dependencies: ["2479E34FEA23C056"]
+			id: "2143511735F0BB8E"
+			tasks: [
+				{
+					id: "57DF5FBF86D89D70"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vulpix form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "45DD259DD71D4842"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0D5F88A832C5BFF8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "carbink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6EEBEC9DB4365D4C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sneasel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "02AECEAD565582AC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mrmime form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1AE968C0489E83CA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "darumaka form:galarian"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "071CC64EE69FEA7E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vanillite"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6EF9DB2765FC8FDC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cryogonal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "75CEB17436E1DB29"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+				{
+					id: "30796E67C6A2914D"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -21.5d
+			dependencies: ["2143511735F0BB8E"]
+			id: "5C2E6B496AA54163"
+			tasks: [
+				{
+					id: "4BA5629C0B9AB8D0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "froslass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "78A1081EB0E357D0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "glalie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3B2FF3D3BAC3714F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "47D081E6604D1AF1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ninetales form:Alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0DDF03ED55E7D17F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mrrime"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0D07F1B9E3ED9459"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "weavile"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5703E92DE2299CA3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vanillish"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "5EFD24FAAE1D882A"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5BB210E8F543DCA6"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 27
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -21.5d
+			dependencies: ["5C2E6B496AA54163"]
+			id: "2A7FDF56D9FB4DEE"
+			tasks: [
+				{
+					id: "17D95066F7540DC2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6B8ACC64D46DACC0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vanilluxe"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "30356D90CFB3B421"
+					type: "item"
+					item: "thermal:blizz_spawn_egg"
+				}
+				{
+					id: "1B3AA0874254CBF2"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+					count: 2
+				}
+				{
+					id: "27A123604108BF6D"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 124
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -20.5d
+			dependencies: ["4F973D931BE56AAF"]
+			id: "4324E7EFEB7C0278"
+			tasks: [
+				{
+					id: "28950F5C5B6B24B9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tinkatink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5C3CC1FC967CD2AF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gastly"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "211FC9FA56B75DBB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "geodude form:Alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "30F79259925581D6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1AC640F4FA326873"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "misdreavus palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6658DD9A54474EAA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "carbink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "14A14A4A67DB0340"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mareep palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "25BC36DF779FA74C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mareep palette:magenta"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1C8387DB3C248CD4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mareep palette:red"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4A2D098397B9441C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "32739A1DDB02C19F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen9"
+						Count: 1b
+						tag: {
+							tm: 19
+						}
+					}
+				}
+				{
+					id: "53E61CA359882BD4"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -20.5d
+			dependencies: ["4324E7EFEB7C0278"]
+			id: "5BF4761F0F120890"
+			tasks: [
+				{
+					id: "0DE22F142A3A38D4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tinkatuff"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4F45A9DF10AC138C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "haunter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7B7E726DB90FFBB1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "graveler form:Alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4B28353FE78E2B4B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mismagius palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "113C3D41DE2923D4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "flaaffy"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "372AA4403F02776F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 92
+						}
+					}
+				}
+				{
+					id: "1CF17C05975EF72A"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -20.5d
+			dependencies: ["5BF4761F0F120890"]
+			id: "3D57E615EE4838CA"
+			tasks: [
+				{
+					id: "744418A71666510A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tinkaton"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4068CC453EBE734E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gengar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4226E43CD2546C9D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golem form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6791EFFD66862AAE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "43E2AEC3CD65AF04"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ampharos"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "1FCB18F0B70DABE1"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "530216512C8B1EFE"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 63
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -19.5d
+			dependencies: ["51784E425F3315F2"]
+			id: "52DF97D325105C05"
+			tasks: [
+				{
+					id: "50F66E2BD69F3FFC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "129882CC64C84724"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "504838225941E95F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "diglett palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1B30C97B5E44D9A7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "spoink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2A4AB8CE0002E43D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lechonk"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4769330B8B18D46C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimer form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "29995FB4D6E5C773"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "timburr"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "7FA620E2E7AA525C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 1
+						}
+					}
+				}
+				{
+					id: "1DB9CFDCEB017627"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			title: "Crimson Forest"
+			x: 1.0d
+			y: -17.5d
+			description: ["You may already have these fungi, but you expect to run into the Crimson Gardens. They are common locations to find Hoglin."]
+			dependencies: ["51A51EA666E1500F"]
+			id: "2A8F9B0B4E66A172"
+			tasks: [
+				{
+					id: "741FAE785D17D05E"
+					type: "biome"
+					biome: "minecraft:crimson_forest"
+				}
+				{
+					id: "2E7B3A8BA7ED253F"
+					type: "item"
+					item: "minecraft:nether_wart_block"
+					count: 16L
+				}
+				{
+					id: "12F104D4932ABF00"
+					type: "item"
+					item: "minecraft:crimson_nylium"
+				}
+				{
+					id: "544A61D9EFB45410"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+			]
+			rewards: [
+				{
+					id: "7B7A274A0ACDB5BD"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "1DC4D8D158FF7C6C"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "01C20BAB913E7110"
+					type: "item"
+					item: "pixelmon:ruby_ore"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Warped Forest"
+			x: 2.0d
+			y: -17.5d
+			description: ["You already have these fungi, but you expect to run into warped forests. They are common places to find Endermen."]
+			dependencies: ["51A51EA666E1500F"]
+			id: "2161B2224BA66607"
+			tasks: [
+				{
+					id: "0636BAB2A265DFE0"
+					type: "biome"
+					biome: "minecraft:warped_forest"
+				}
+				{
+					id: "567480C20BB7BA59"
+					type: "item"
+					item: "minecraft:warped_wart_block"
+					count: 16L
+				}
+				{
+					id: "121FB7096C85E388"
+					type: "item"
+					item: "minecraft:warped_nylium"
+				}
+				{
+					id: "17A354AF06376E52"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+			]
+			rewards: [
+				{
+					id: "21930410E9ADA51C"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "0565DCD912A79FE2"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "49D0FFAC584767F4"
+					type: "item"
+					item: "pixelmon:sapphire_ore"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Crimson Gardens"
+			x: -1.0d
+			y: -17.5d
+			description: ["The crimson gardens are a mix of both types of fungi, despite their name."]
+			dependencies: ["51A51EA666E1500F"]
+			id: "3D2BDA8F247D5314"
+			tasks: [
+				{
+					id: "42E3DF84008DE0A1"
+					type: "biome"
+					biome: "byg:crimson_gardens"
+				}
+				{
+					id: "3431F4BD25F9944A"
+					type: "item"
+					item: "minecraft:warped_wart_block"
+					count: 16L
+				}
+				{
+					id: "0B734CFF1C8B589C"
+					type: "item"
+					item: "minecraft:nether_wart_block"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "76E3EFDA2DB3D95B"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "162FA289F5AFCC42"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "674CA8248C36DD8E"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -16.5d
+			dependencies: ["2A8F9B0B4E66A172"]
+			id: "201EB9D53623A65A"
+			tasks: [
+				{
+					id: "1FE02E86AB09AC55"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3F66DBC468BA0F99"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "roggenrola"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "65BE9BB26053509B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zubat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "07BF1EB44EAAF945"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "woobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "603F8D3C35DF5C8F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noibat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5F8E5C20E099A296"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "scyther"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "45B6976106C3A983"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 16
+						}
+					}
+				}
+				{
+					id: "4FD6A131AA109677"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -16.5d
+			dependencies: ["42BD80F9E7138707"]
+			id: "3E1919A4A8A738EC"
+			tasks: [
+				{
+					id: "3AF335B5070686C3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:zombie"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7C1C80E262F7BEC3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "68AFA7D0E4487195"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7BD8735B2EDB9459"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "13F3FFD66782CC3E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "540B3288DB75A435"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "geodude form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "380012C1EBAF23A4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vulpix form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "534449A34CFC6C6A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "28CD92A45F8E9F22"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "bramblin"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2CBE5E2F08CCD84E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nacli"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5CC1B61837CE9546"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "carbink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "790AC9EC59CD52A9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "koffing"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "36CFE4BE1ADF1A85"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "cubone"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "36BB2543A92F6307"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 76
+						}
+					}
+				}
+				{
+					id: "0AC97CA9DEFAE736"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -16.5d
+			dependencies: ["616C1ED7D1BFA863"]
+			id: "472AD406D73BF478"
+			tasks: [
+				{
+					id: "2B74A61AB19460CD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "roselia"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1C8D1193955681BC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ferroseed"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "34CD56F94984387D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "carnivine"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0D5FBC3C12215348"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "bramblin palette:tangela"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "28C6842F87256AF9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "diglett form:base"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7D657700D956A695"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shroomish"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "41FC4E29A3046C7A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "5832493805BAE097"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 72
+						}
+					}
+				}
+				{
+					id: "7A33FDDAF6C5B73A"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -15.5d
+			dependencies: [
+				"5EFFBBF1C563686A"
+				"472AD406D73BF478"
+			]
+			id: "7F1D7E6FE6319945"
+			tasks: [
+				{
+					id: "1C2D86FC09820C98"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ferrothorn"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0E2C84F283F3DC4F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "brambleghast palette:tangela"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5196C43B90E77923"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dugtrio form:base"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0DDE7B2125A5201D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "breloom"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "304AE3603D8969C5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morgrem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "422CD8C9374B52E7"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 77
+						}
+					}
+				}
+				{
+					id: "7E13A41401A23B05"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -17.5d
+			dependencies: ["129D405E0E1B6AE9"]
+			id: "2C746EA1BCD8D2AA"
+			tasks: [
+				{
+					id: "0A9CCBC1F7F62B3C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1B848A0121B3FBB3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "79B01F220BE6271C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "diglett form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "392244BCAEFBBB40"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gastly"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7C3A0F0BE9ADBF1D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0FDD4C3822C0A9C3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0B2B0A3E2FB3C60B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "010D6D6479313770"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nacli"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0540E0FC6BE05044"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nosepass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "212FD4BF71E09358"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sandile"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3F1456CDA5892EDB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "skorupi"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "7E8372FFD7F9659F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 53
+						}
+					}
+				}
+				{
+					id: "196D96F5C2F5CDF6"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -16.5d
+			dependencies: ["2161B2224BA66607"]
+			id: "13BCE5B0A362D0BF"
+			tasks: [
+				{
+					id: "7584CC86D9284149"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0C8DFD0395DBB275"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0C6047CBB931B1A2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shroomish palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "723DBB73259C3460"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "42ABC6D084E91A4C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "elgyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "69A4073DA294E398"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "214D1A369E671136"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "pinsir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0BFF77DB0AE34D8D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "heracross"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4834891050373762"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "timburr"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "3A8096DC9896A0FD"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 19
+						}
+					}
+				}
+				{
+					id: "443390CC36EEBC3E"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -19.5d
+			dependencies: ["6523D16DB583E809"]
+			id: "36A278065264BFEB"
+			tasks: [
+				{
+					id: "05932263B4C4E8B4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "61FF06BC22BBE5FA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "366C5A157D9626BD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gastly"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "100EEDE653CAA204"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "588909D6839EF4B0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "shroomish palette:spirit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0F8DD0CDCFA2D3B8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "duskull"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6FC56EBEDB284B30"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "tauros form:paldean_blaze"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0E714DE2F07DEE95"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nosepass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "43A9F38FB6CF70DA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "elgyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "5316B5AEE959A14F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 85
+						}
+					}
+				}
+				{
+					id: "5006AA132D3A1CEF"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -16.5d
+			dependencies: ["3D2BDA8F247D5314"]
+			id: "770D6D96C05E4E67"
+			tasks: [
+				{
+					id: "063522F9CBAAB1C1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye palette:drowned"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1FF36504DB02D5E3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zubat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7AD497256CFD5BD7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "woobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1B872A531118CA4F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noibat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "69D8748F64969861"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5CE5C8F464F643E6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "vulpix"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1B44173EAD0E6177"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "misdreavus"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5BC72125DFB8CDCB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "impidimp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "65618149FB026F7C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "paras"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "26C32192B0C26C20"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "431750003E258602"
+					type: "item"
+					item: "pixelmon:wide_lens"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -14.5d
+			description: ["Iron Thorns is only attracted to manmade and indoor habitats, which means you must construct one appropriate for them."]
+			dependencies: ["7F1D7E6FE6319945"]
+			id: "3B2C224E12EE38AD"
+			tasks: [
+				{
+					id: "414222D9C8C1D502"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ironthorns"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "272D5DC219735E3F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimmsnarl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "4E69D902CFE8627B"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 74
+						}
+					}
+				}
+				{
+					id: "2AD921AC87011D20"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -15.5d
+			dependencies: ["3E1919A4A8A738EC"]
+			id: "5C5641291BDC5FB2"
+			tasks: [
+				{
+					id: "4589F97D35883813"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "weezing"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "788684FFE9FF3008"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lairon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "782A9351D9A65C2F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "72229140412CBC31"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "graveler form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "414468E090BFA84B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ninetales form:Alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "26931CF24B7B8C53"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1FBB4F29812ABEB7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "naclstack"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2BA4810C365463D6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "marowak form:base"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "40807E41173E57E1"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "2F2240BE801505DC"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 23
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -18.5d
+			min_required_dependencies: 1
+			dependencies: [
+				"36A278065264BFEB"
+				"1033D1DDE7949409"
+			]
+			id: "08EF3A7749C1A8FD"
+			tasks: [{
+				id: "011F322CE639FE2B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "marowak form:Alolan"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "30A320CA03848476"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "3373971BAF94DCC3"
+					type: "item"
+					item: "pixelmon:clever_feather"
+				}
+				{
+					id: "0ECCB52D1C275ABA"
+					type: "item"
+					item: "pixelmon:genius_feather"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -14.5d
+			dependencies: ["5C5641291BDC5FB2"]
+			id: "544CEA4075D45BBD"
+			tasks: [
+				{
+					id: "7EAAD4801A61D6AE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aggron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7B3F78ED959B3CEC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "garganacl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "4E67390DDE4AE54A"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "3607E762DA14E71C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 10
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -19.5d
+			dependencies: ["36A278065264BFEB"]
+			id: "2C7A87EA3F9A1FF8"
+			tasks: [
+				{
+					id: "2117D6FDFED1A810"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lairon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4EF0A0AD3A8866EB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "haunter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "11ED929CAD82852C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5569D7466038AC5C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "breloom palette:spirit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "56990BCFDA0FAC24"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0795CF162416F686"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "umbreon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "75959BA361E5DB64"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "probopass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "17B1A9CE22902FB0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "beheeyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "233E188A7F5833BC"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 93
+						}
+					}
+				}
+				{
+					id: "068D27833C400150"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -19.5d
+			dependencies: ["2C7A87EA3F9A1FF8"]
+			id: "2EBC55C58FB41BC0"
+			tasks: [
+				{
+					id: "282BCB63BC8F796E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aggron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "31489D523A92F9C2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gengar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6B48109E4AD4F465"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "25CAE76D88E83006"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 58
+						}
+					}
+				}
+				{
+					id: "28EF7C7B058A4434"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -15.5d
+			dependencies: ["770D6D96C05E4E67"]
+			id: "7A9BDBB38541FB9C"
+			tasks: [
+				{
+					id: "4DD882300BEF917E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golbat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "318B55F261F51CEB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "swoobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "614FD15B37B903C0"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7FE16039D533C9E3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ninetales"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7435F3A65D82C74D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "mismagius"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1E3B0534B96DB072"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morgrem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3DB45461B0F1B598"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "parasect palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "2AEB29A1AB7473E0"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5F8092D58164F885"
+					type: "item"
+					item: "pixelmon:zoom_lens"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -14.5d
+			dependencies: ["7A9BDBB38541FB9C"]
+			id: "5F82020AF6A0B7B4"
+			tasks: [
+				{
+					id: "3D1F7BA8839C8BE4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "crobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2F408222A4646F54"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noivern"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "294C967D7DF348FA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimmsnarl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "2AD7C8311D280045"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "58B9DF7969A15BBF"
+					type: "item"
+					item: "pixelmon:fairy_wand"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -15.5d
+			dependencies: ["201EB9D53623A65A"]
+			id: "14493FC914A83B39"
+			tasks: [
+				{
+					id: "5E3AAE609C5D1486"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "boldore"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "39D52CD7D05D7F04"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "golbat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2BCA7914100C5E75"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "swoobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5DF9C7A51060A4A6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "scizor"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "5E6C944EC92AB3BD"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 76
+						}
+					}
+				}
+				{
+					id: "54BA5E507315E39B"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -14.5d
+			dependencies: ["14493FC914A83B39"]
+			id: "0252D4F16D1B6688"
+			tasks: [
+				{
+					id: "4995BF94BDD3E559"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gigalith"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "46819F6313392473"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "crobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4AD0A66502195C71"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "noivern"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "7C9D69D34CC9BEA1"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+				{
+					id: "4F86E4A5CEE2F324"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -15.5d
+			dependencies: ["13BCE5B0A362D0BF"]
+			id: "2C953872514A6CA7"
+			tasks: [
+				{
+					id: "7B462B5DD44B07C3"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4A780419C4D5A007"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "breloom palette:none"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5F6D718C4B5D7DD6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "72A14EB68AF0B20C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "beheeyem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "76A5679B9662497F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "morgrem"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5A22686ADC2F8F2F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gurdurr"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "29AFC2F27628FFC1"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "39AB7366E457339F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 60
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -14.5d
+			dependencies: ["2C953872514A6CA7"]
+			id: "4886FC467A59DFD8"
+			tasks: [
+				{
+					id: "26CFC33139D75262"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "crobat"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6D417A940EB05FEF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grimmsnarl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "1A093012DBF65D19"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "211D23101C5ED0C4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "conkeldurr"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "222BF8FD69413037"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 21
+						}
+					}
+				}
+				{
+					id: "6F5DF9E0A0977B56"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "72989DFDCF4B9F28"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -16.5d
+			dependencies: ["2C746EA1BCD8D2AA"]
+			id: "0957F72738BD3416"
+			tasks: [
+				{
+					id: "17880C3C1E54EBFC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lairon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "284FAEA32F3430EC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dugtrio form:Alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "133AF5CF78876C9C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "haunter"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "13021339FC24B437"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "469C5CCF341DBF7D"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "73C78D8B0B886D8E"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusclops"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0C1286C032DCA561"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "naclstack"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4ACBC3F37E9AF3CF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "probopass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6E3AA95A1EDDEE8C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "krokorok"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0E7A834ACAEAA6A4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "drapion"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "4E74EF5B0EE43718"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
+					}
+				}
+				{
+					id: "18F134A1F6BABA70"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "0581C69541DCD322"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -15.5d
+			dependencies: ["0957F72738BD3416"]
+			id: "04CB6A3957712ECB"
+			tasks: [
+				{
+					id: "6394614E5060C4A6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aggron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2A938E41CAF85375"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gengar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "32B327754BEFF1CE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dusknoir"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "217F57289228B490"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "garganacl"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3D60E0992F5838EA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "krookodile"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "20C82AB81CF3C334"
+					type: "item"
+					item: "minecraft:heart_of_the_sea"
+				}
+				{
+					id: "54A6AF30063B2B3D"
+					type: "item"
+					item: "pixelmon:xl_exp_candy"
+				}
+				{
+					id: "5F0A79BA3F062EDA"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 55
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -19.5d
+			dependencies: ["52DF97D325105C05"]
+			id: "7889E8ADD03C9814"
+			tasks: [
+				{
+					id: "556F6E42D40328FC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lairon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6CB81A7D54AEE347"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "dugtrio palette:pink"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "593509B44DE36F24"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "grumpig"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "599D2CFE4ECFF704"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "oinkologne"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2E5C7C3F3D6B59AA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "muk form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3E90EC39313ED958"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gurdurr"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "215FD510F375F6B1"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 7
+						}
+					}
+				}
+				{
+					id: "45D11E1B47976216"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "60215185FEB73301"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -19.5d
+			dependencies: ["7889E8ADD03C9814"]
+			id: "4A7FCEAD57638A02"
+			tasks: [
+				{
+					id: "083601E191A3D2AA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aggron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "70E6C42B532F4E47"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "conkeldurr"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "654110292871EFE2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 75
+						}
+					}
+				}
+				{
+					id: "5009F0B64FD3D1A6"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -18.5d
+			dependencies: ["52DF97D325105C05"]
+			id: "7CE11EF54C9C8714"
+			tasks: [{
+				id: "152886320AEA8908"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "tepig"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "7CB351E1A6C8F55C"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "1837B85D1BE4C4A1"
+					type: "item"
+					item: "pixelmon:muscle_feather"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -23.5d
+			dependencies: ["380D46B90B5FBE8E"]
+			id: "4E348D848796C063"
+			tasks: [{
+				id: "6F044D1DFE518314"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "fuecoco"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+		}
+		{
+			title: "Magma Wastes"
+			x: -3.0d
+			y: -18.5d
+			dependencies: ["51A51EA666E1500F"]
+			id: "10C281C742D52579"
+			tasks: [
+				{
+					id: "51B5AB23489E561A"
+					type: "biome"
+					biome: "byg:magma_wastes"
+				}
+				{
+					id: "09E109D640D25D6F"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 16L
+				}
+				{
+					id: "299E671BE4E2FCAE"
+					type: "item"
+					item: "byg:magmatic_stone"
+					count: 16L
+				}
+				{
+					id: "604C65CB53044151"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 8L
+				}
+				{
+					id: "6DF23A7776584AC1"
+					type: "item"
+					item: "byg:scorched_bush"
+				}
+			]
+			rewards: [
+				{
+					id: "7032DE2A0C22A087"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7C46BE6F506B9528"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "543CFBC4C2C71D4A"
+					type: "item"
+					item: "pixelmon:silicon_ore"
+					count: 9
+				}
+				{
+					id: "7582C58DB572C10C"
+					type: "item"
+					item: "biomesoplenty:dead_sapling"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -17.5d
+			dependencies: ["10C281C742D52579"]
+			id: "1033D1DDE7949409"
+			tasks: [
+				{
+					id: "17ACA8A1489EE00C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "roggenrola"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "25E929996DFBE984"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2338C112D066D05B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torkoal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7D711BEE044DF4A5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salandit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5AD102CFB4493D49"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "turtonator"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4AF30A352123AF95"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta form:base"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "21656805F7A21E58"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magby"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4D6AEAA07B74E131"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "deino"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "7092B87652D71534"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "603762FD1659B8C2"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen2"
+						Count: 1b
+						tag: {
+							tm: 4
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -16.5d
+			dependencies: ["1033D1DDE7949409"]
+			id: "0BA23831E5337D28"
+			tasks: [
+				{
+					id: "0B1EE3E3C8F7E0DA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "boldore"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "5B59A9E8C44FC749"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "110A0F2E2D0D577C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salazzle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "04AA431DF608DD87"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rapidash form:base"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "42E26FA6B2982CAB"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "marowak form:alolan"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0EB97BA4D42CBDA6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magmar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6A5168498B7C7D07"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "zweilous"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "6676EF1EED84DF8F"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7E895B68B00C7248"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 99
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -15.5d
+			dependencies: ["0BA23831E5337D28"]
+			id: "25716BE7CEA9A704"
+			tasks: [
+				{
+					id: "10607D9756714922"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gigalith"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "726E9E5E8BD7C3BA"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magmortar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "6519EBA52CA474B6"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "hydreigon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "6885686D5C9C3536"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "024046ECDBE1DD56"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 24
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -23.5d
+			dependencies: ["51A51EA666E1500F"]
+			id: "552A8CA6673FAA7B"
+			tasks: [
+				{
+					id: "4CFE3866FFFE066F"
+					type: "biome"
+					biome: "minecraft:basalt_deltas"
+				}
+				{
+					id: "616650213EB290D2"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "5EA8E38650C362A5"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "717C5A7E39DC45B2"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "215B3D03B55C2146"
+					type: "item"
+					item: "pixelmon:raw_black_tumblestone"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -24.5d
+			dependencies: ["552A8CA6673FAA7B"]
+			id: "011B2778971DE43E"
+			tasks: [
+				{
+					id: "554E8898C8997F7C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "machop"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "14E2EDAB6F6A1D93"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "67356FE7E76840F7"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "roggenrola"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3F7AC4FDD91D2CAE"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "02F5D9D3C9512119"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salandit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2454E14540567F96"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "74644E4D266E6D35"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rockruff"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0AB04952BA3BE59B"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magby"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "00DC761CEAF21C23"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "nosepass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "0287BE73DF90E0B7"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5A620C0D52942A32"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 18
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -25.5d
+			dependencies: ["011B2778971DE43E"]
+			id: "05343F90E85FF4FD"
+			tasks: [
+				{
+					id: "481C5B78FED7057C"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "machoke"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "249F7AD43B3454CC"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lairon"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3ACE10DDA0A94E9F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "boldore"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "726A7C73F6D5A712"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2010A9039E693B58"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salandit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "256404EECC59DD7A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "lycanroc form:midnight"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0CC0B89A73BE5AF9"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magmar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "499F99519CB288A8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "probopass"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "259C21B0E4B99772"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "kleavor"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "65E1C3B6E77A3DFF"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5B8413110B78585C"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 17
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -26.5d
+			dependencies: ["05343F90E85FF4FD"]
+			id: "0138C842AD84DB4F"
+			tasks: [
+				{
+					id: "2905A10AE1EF7DE8"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "gigalith"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "11F1781A73B3CDFF"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "machamp"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4AB7E268D4598D30"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "aggron"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3FA24BE08212F2CD"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magmortar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "239C39512034D61C"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 53
+						}
+					}
+				}
+				{
+					id: "09BD522F36D0F236"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+				{
+					id: "5D76819B0E76C2A6"
+					type: "item"
+					item: "pixelmon:l_exp_candy"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -22.5d
+			dependencies: ["3ACF03264B328D88"]
+			id: "5CF2DA96D53BCF66"
+			tasks: [{
+				id: "37B289C2BC2F5254"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "magmortar"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "7B5193D638693923"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7FDEC235C4028B25"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 2
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -20.5d
+			dependencies: ["77D2E05704317920"]
+			id: "3085CD0DB56BB8B4"
+			tasks: [
+				{
+					id: "38C908AB2DBE8279"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "numel"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "2CCC86AD09D1CB14"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "torkoal"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "3E76E9FD016260E2"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sizzlipede"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "043199AE0B1499E1"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salandit"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "41AA4420137E2403"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "sableye"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "71BAC42D6B700F23"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "ponyta"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "030CD6B6D15AA29A"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magby"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "56E96B3FDB704531"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "litleo"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "4CE5C76A1C85C6CB"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "6444F7BB9C90577F"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 49
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -20.5d
+			dependencies: ["3085CD0DB56BB8B4"]
+			id: "64F81BA0DC344902"
+			tasks: [
+				{
+					id: "2A7A7F7DB173E33F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "camerupt"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "7B82464E4E5DDC54"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "magmar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0C6BE03E19EFC20F"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "centiskorch"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "326A44D2A4AA41C4"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "salazzle"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "0FA7EB3C78EE3F68"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "rapidash"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+				{
+					id: "4CB12916FFE81ED5"
+					type: "pixelmon:defeat_pokemon"
+					pokemon: "pyroar"
+					count: 1
+					invert: false
+					usedPokemonSpec: ""
+					invertUsed: false
+				}
+			]
+			rewards: [
+				{
+					id: "31A1AC9BBC833867"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "7EB15D21E3DA2E6F"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen7"
+						Count: 1b
+						tag: {
+							tm: 77
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -20.5d
+			dependencies: ["64F81BA0DC344902"]
+			id: "4B406FD04F199FB0"
+			tasks: [{
+				id: "0C665F8C8875733B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "magmortar"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "7425DE3224F310FA"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "58533FA0B3AA924B"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 34
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	id: "489545F400F088D5"
+	order_index: 48
+	title: "Choice in Pumpkaboo Gender"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Microscopic Female"
+			spec: "pumpkaboo form:jackolanternsmall shiny ab:flashfire g:female gr:microscopic ivatk:31 ivdef:31 ivhp:31 ivspdef:31 ivspd:31"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			title: "Ordinary Female"
+			spec: "pumpkaboo form:jackolantern shiny ab:flashfire g:female gr:ordinary ivatk:31 ivdef:31 ivhp:31 ivspdef:31 ivspd:31"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			title: "Ginormous Female"
+			spec: "pumpkaboo form:jackolantern shiny ab:flashfire g:female gr:ginormous ivatk:31 ivdef:31 ivhp:31 ivspdef:31 ivspd:0"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			title: "Microscopic Male"
+			spec: "pumpkaboo form:jackolantern shiny ab:flashfire g:male gr:microscopic ivatk:31 ivdef:31 ivhp:31 ivspdef:31 ivspd:31"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			title: "Ordinary Male"
+			spec: "pumpkaboo form:jackolantern shiny ab:flashfire g:male gr:ordinary ivatk:31 ivdef:31 ivhp:31 ivspdef:31 ivspd:31"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+		{
+			title: "Ginormous Male"
+			spec: "pumpkaboo form:jackolantern shiny ab:flashfire g:male gr:ginormous ivatk:31 ivdef:31 ivhp:31 ivspdef:31 ivspd:0"
+			count: 1
+			shinyChance: 4096s
+			type: "pixelmon:pokemon"
+		}
+	]
+}

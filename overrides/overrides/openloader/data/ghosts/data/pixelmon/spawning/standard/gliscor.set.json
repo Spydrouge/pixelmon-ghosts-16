@@ -1,0 +1,58 @@
+{
+  "id": "Gliscor",
+  "spawnInfos": [
+    {
+      "spec": "species:Gligar",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:withering_woods"
+        ]
+      },
+      "rarity": 25
+    },
+    {
+      "spec": "species:Gliscor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "redwoods"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Gliscor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

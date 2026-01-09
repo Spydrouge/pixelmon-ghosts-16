@@ -1,0 +1,1150 @@
+{
+	id: "222E4CF0E17B4936"
+	group: "5FC8A49184E12989"
+	order_index: 1
+	filename: "legendaries"
+	title: "Legendary Encounters"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "pixelmon:textures/pokemon/491_darkrai/all/base/none/sprite.png"
+		}
+	}
+	subtitle: ["Most legendaries are not caught; they're hatched."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["596680D791AC22B8"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "11C71ABC37BE78FD"
+			tasks: [{
+				id: "5DC02185571C8D74"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:darkrai"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "4911441C56F99F60"
+				type: "command"
+				title: "Recieve a Pokemon Egg...?"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p darkrai egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."
+				""
+			]
+			dependencies: ["395FF1A6F8319736"]
+			hide: true
+			id: "5416D5487B9A64EE"
+			tasks: [{
+				id: "27B45918B395CCA4"
+				type: "item"
+				item: "pixelmon:relic_vase"
+			}]
+			rewards: [
+				{
+					id: "075A9A7722CE3E46"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "55F7853BB0895397"
+					type: "item"
+					item: "pixelmon:super_potion"
+				}
+				{
+					id: "719DCF96E2688829"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			dependencies: ["395FF1A6F8319736"]
+			hide: true
+			id: "3AB868505E770726"
+			tasks: [{
+				id: "317885B1DC5B056E"
+				type: "item"
+				item: "pixelmon:relic_statue"
+			}]
+			rewards: [
+				{
+					id: "0ACC8198A82655BB"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "3512D3382084DFD3"
+					type: "item"
+					item: "pixelmon:hyper_potion"
+				}
+				{
+					id: "0246F074B662E195"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			dependencies: ["395FF1A6F8319736"]
+			hide: true
+			id: "267F6D9673FBD7CA"
+			tasks: [{
+				id: "17772DA1D548C388"
+				type: "item"
+				item: "pixelmon:relic_crown"
+			}]
+			rewards: [
+				{
+					id: "7446D531E7A74FE0"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "3D9B9963D6FC58B6"
+					type: "item"
+					item: "pixelmon:max_potion"
+				}
+				{
+					id: "2ADDDCB9FEABD070"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Place the Relic Vase on the ground to attract a certain type of Legendary Pokemon..."]
+			dependencies: ["395FF1A6F8319736"]
+			hide: true
+			id: "77BC1579747BAB59"
+			tasks: [{
+				id: "416CB78E41E9A107"
+				type: "item"
+				item: "pixelmon:relic_band"
+			}]
+			rewards: [
+				{
+					id: "71759DEB27B11A3F"
+					type: "item"
+					item: "minecraft:light_gray_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "4ADCE628004AA8DD"
+					type: "item"
+					item: "pixelmon:potion"
+				}
+				{
+					id: "57F76F879D74A501"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["7DAE272571897CFE"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6B9BCFAC5AE87068"
+			tasks: [{
+				id: "4DA33346CD040767"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:marshadow"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "311CF2A7CFF7B91E"
+				type: "command"
+				title: "Recieve a Pokemon Egg."
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p marshadow egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["01385E2B571F8B52"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "50C26BF3F172183D"
+			tasks: [{
+				id: "1DFF196FF586655E"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:spectrier"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "60469A6AAD8C8CA5"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p spectrier egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["Furious and angry with the destruction of its world, this Pokemon must be soothed and reborn through combat."]
+			dependencies: ["4B52AFEFBEFB62B6"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "37BCB26E57584CEB"
+			tasks: [{
+				id: "7785F1822B8E7420"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "species:yveltal"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "6E9993B3AD249C45"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p yveltal egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			title: "Obtain Carbink (Non Repeatable)"
+			x: 0.5d
+			y: -3.0d
+			description: [
+				"What would happen if..."
+				""
+				"You had a Carbink that knew fairy and rock type moves... "
+				""
+				"You maximized its friendship..."
+				""
+				"... and you presented it with an entire block of mana diamond, just like an evolutionary stone...?"
+			]
+			secret: true
+			id: "1CD239123DE32885"
+			tasks: [
+				{
+					id: "25A6AED732CB9F0B"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "species:carbink"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "5356967D74B63FFF"
+					type: "item"
+					item: "botania:mana_diamond_block"
+				}
+			]
+			rewards: [{
+				id: "442A4D3E5E96E180"
+				type: "item"
+				title: "Penny for your thoughts..."
+				item: "pixelmon:relic_copper"
+			}]
+		}
+		{
+			title: "Obtain Diance (Non Repeatable)"
+			x: 0.5d
+			y: -4.0d
+			subtitle: "Drifloon brought celebratory decorations!"
+			description: ["Beautiful."]
+			dependencies: ["1CD239123DE32885"]
+			secret: true
+			id: "22BBB64E12FD3300"
+			tasks: [{
+				id: "3282B6542D67173E"
+				type: "pixelmon:evolve_pokemon"
+				pokemon: "species:diancie"
+				count: 1
+				invert: false
+				evolution_type: 0b
+			}]
+			rewards: [
+				{
+					id: "6ED20B73D750AC7D"
+					type: "item"
+					item: "byg:glowcelium_block"
+					count: 88
+				}
+				{
+					id: "75984DBB299EAFB9"
+					type: "item"
+					item: "byg:pink_glowcane"
+				}
+				{
+					id: "3E44E4A63930421E"
+					type: "item"
+					item: "byg:purple_glowshroom"
+				}
+				{
+					id: "74280604C8DA1D1D"
+					type: "item"
+					item: "biomesoplenty:pink_cherry_sapling"
+				}
+				{
+					id: "27AEC72EB39D592C"
+					type: "item"
+					item: "byg:pink_cherry_sapling"
+				}
+				{
+					id: "52A0887DE5C46643"
+					type: "item"
+					item: "byg:pink_orchid"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			shape: "circle"
+			description: ["This Pokemon is not currently feeling playful. It's filled with sorrow and loss, and looking for someone who can handle its grief."]
+			dependencies: ["6D3B04C6338A1908"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "35AA281D16DB8914"
+			tasks: [{
+				id: "3ABCE60209B0A7FA"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "mew uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "79D2609B22ED5054"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p mew egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			shape: "circle"
+			description: ["This Pokemon will not bend to a Trainer, but it may be convinced to bequeath them an egg."]
+			dependencies: ["3A20DCDFBBC2645F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2A4EB6F77761A50B"
+			tasks: [{
+				id: "481965572FCA1C6C"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "volcanion uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "65D3CB5A66BB9004"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p volcanion egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Wo-Chien can only be found in the Brimstone Caverns of the Nether, or anywhere outside of the Nether that you have transported Anthracite blocks."
+			]
+			dependencies: ["5437096EC001288C"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "37D023E68C2A85FA"
+			tasks: [{
+				id: "77334D627CE76B0D"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "wo-chien uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "0C1E88C00A0B4D77"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p wo-chien egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Chi-Yu can only be found in the Glowstone gardens, or anywhere glowstone and lava have both been setup outside of the nether."
+			]
+			dependencies: ["03EE801152DBA79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "053A8DCA7D90779F"
+			tasks: [{
+				id: "40E7BCBA3C1A36D2"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chi-yu uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "267B553BA3AC2F55"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p chi-wu egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Ting-Lu can only be found in the Warped Deserts of the Nether, or any place outside of the Nether where you have transplanted Nylium Soul Sand."
+			]
+			dependencies: ["7427679A42B7A2D4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "55C8167B43AC942B"
+			tasks: [{
+				id: "586946B7D7812559"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "ting-lu"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "23FA374D2A4C9624"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p ting-lu egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"One of the four harbringers of the Apocalypse, this Pokemon can only be defeated, not caught."
+				""
+				"Chien-Pao can be found in the Subzero Hypogeal of the Nether, or around a Hypogeal Imperium any place outside of the Nether."
+			]
+			dependencies: ["54C9D8C9D49FA8E2"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "54F0E4EB8AB45710"
+			tasks: [{
+				id: "1555D68610297A7A"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "chien-pao uncatchable"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "74052B679CA9E5AA"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p chien-pao egg ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			title: "Incoming Island (Non Repeatable)"
+			icon: "pixelmon:ilex_shrine"
+			x: 1.5d
+			y: -4.0d
+			description: [
+				"(Note: This quest will consume the pylon, and the reward will auto-run the moment you submit it.)"
+				""
+				"You've had a vision that another broken island is about to collide with your base."
+				""
+				"Your awareness of natural energy has shown you exactly where it will arrive. Start from the bedrock you began your life in the void on, and count -20 on the X, +40 on the Y, and -20 on the Z."
+				""
+				"When it arrives, it will &cpermenantly destroy&r everything in its path. The island will be 13 wide by 13 long, and 9 high, and will appear above and to the Northeast of the location specified above."
+				""
+				"Don't leave anything important in its path!"
+			]
+			dependencies: ["266E3F1EAD7CBE38"]
+			hide: true
+			incompatible: ["481372884EECB507"]
+			id: "5F08AE2781CED7DE"
+			tasks: [{
+				id: "22FF80ABEF877B7C"
+				type: "item"
+				item: "botania:gaia_pylon"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0FA2D274328FDE59"
+					type: "command"
+					icon: "pixelmon:ilex_shrine"
+					auto: "enabled"
+					command: "/function ghosts:spawn_ilex_shrine"
+					player_command: false
+				}
+				{
+					id: "46FF8B3F12EF0088"
+					type: "command"
+					icon: "minecraft:andesite"
+					auto: "enabled"
+					command: "/function ghosts:clean_ilex_shrine"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "(Alternative) Shrine Without Island (Still Non Repeatable)"
+			icon: "pixelmon:ilex_shrine"
+			x: 1.5d
+			y: -3.25d
+			description: [
+				"There could be a very good reason you do not want the island to appear. Maybe you had the extreme misfortune of putting something equally unmovable in the location it's about to inhabit."
+				""
+				"Instead of summoning the island, you can use this quest to recieve just the shrine. This will prevent you from ever summoning the island in the future."
+			]
+			min_required_dependencies: 1
+			dependencies: ["266E3F1EAD7CBE38"]
+			hide: true
+			size: 0.5d
+			incompatible: ["5F08AE2781CED7DE"]
+			id: "481372884EECB507"
+			tasks: [{
+				id: "6C34D36D6956AE9B"
+				type: "item"
+				item: "botania:gaia_pylon"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4B6F667ECF60FB86"
+				type: "item"
+				item: "pixelmon:ilex_shrine"
+			}]
+		}
+		{
+			title: "Offering of Fire"
+			icon: "pixelmon:moltres_shrine"
+			x: 4.5d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"Show Arceus that you have found appropriate habitat materials for a great fire Pokemon, and that you've been working to understand the world better."
+				""
+				"(Note: This quest will consume its requested items, and the reward will auto-run the moment you submit the last ingredient.)"
+				""
+				"This will cause an island to appear. It is rougly 20x20x20 in size. To figure out where it will appear, first stand on the bedrock you started your void life on. Then travel -20 on the X, -20 on the Y, and -50 on the Z. The island will appear to the northeast and above this location."
+				""
+				"It will destroy every block in its path. It may also rain lava onto any blocks below."
+			]
+			dependencies: [
+				"51A51EA666E1500F"
+				"6FC729AFFCF2E513"
+			]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "734B36C1018ED317"
+			tasks: [
+				{
+					id: "1C43CDB61B751BAA"
+					type: "item"
+					item: "byg:embur_gel_block"
+					consume_items: true
+				}
+				{
+					id: "1AE902F560FC9C92"
+					type: "item"
+					item: "pixelmon:fire_stone"
+					consume_items: true
+				}
+				{
+					id: "5B456231E9C3532D"
+					type: "item"
+					item: "byg:embur_nylium"
+					consume_items: true
+				}
+				{
+					id: "26AAC8B434A6CE64"
+					type: "item"
+					item: {
+						id: "botania:lava_pendant"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: true
+				}
+				{
+					id: "3EA245B4ECF558DA"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1430E1B1EBE591F6"
+					type: "item"
+					item: "minecraft:basalt"
+					consume_items: true
+				}
+				{
+					id: "6BD0A7F7830595F4"
+					type: "item"
+					item: "minecraft:blackstone"
+					consume_items: true
+				}
+				{
+					id: "5CF9D460D20376BD"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "31DB88CD01568132"
+				type: "command"
+				icon: "pixelmon:moltres_shrine"
+				command: "/execute as @p at @p run function ghosts:spawn_fire_shrine"
+				player_command: false
+			}]
+		}
+		{
+			title: "Offering of Ice"
+			icon: "pixelmon:articuno_shrine"
+			x: 3.5d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"Show Arceus that you have found appropriate habitat materials for a great ice Pokemon, and that you've been working to understand the world better."
+				""
+				"(Note: This quest will consume its requested items, and the reward will auto-run the moment you submit the last ingredient.)"
+				""
+				"This will cause an island to appear. It is rougly 20x20x20 in size. To figure out where it will appear, first stand on the bedrock you started your void life on. Then travel +40 on the X, +140 on the Y, and +60 on the Z. The island will appear to the northeast and above this location."
+				""
+				"It will destroy every block in its path. It may also rain water onto any blocks below."
+			]
+			dependencies: [
+				"51A51EA666E1500F"
+				"6FC729AFFCF2E513"
+			]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "61A09C9C55C4B99C"
+			tasks: [
+				{
+					id: "0CCAC8A6FCDE0905"
+					type: "item"
+					item: "pixelmon:ice_stone"
+					consume_items: true
+				}
+				{
+					id: "4E031DB8023FD0C9"
+					type: "item"
+					item: "byg:subzero_ash_block"
+					consume_items: true
+				}
+				{
+					id: "1D3EE5843AF16B1E"
+					type: "item"
+					item: "byg:warped_coral_block"
+					consume_items: true
+				}
+				{
+					id: "60B2174CDB1E2047"
+					type: "item"
+					item: "byg:warped_cactus"
+					consume_items: true
+				}
+				{
+					id: "29547932A8B799D0"
+					type: "item"
+					item: "byg:subzero_crystal_block"
+					consume_items: true
+				}
+				{
+					id: "6E7F0076F840E77F"
+					type: "item"
+					item: "astralsorcery:perk_gem_sky"
+					consume_items: true
+				}
+				{
+					id: "6A27488E039039CB"
+					type: "item"
+					item: {
+						id: "ceramics:clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:water"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "76410EA9B5FB56E0"
+				type: "command"
+				icon: "pixelmon:articuno_shrine"
+				command: "/execute as @p at @p run function ghosts:spawn_ice_shrine"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:zapdos_shrine"
+			x: 5.5d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"Show Arceus that you have found appropriate habitat materials for a great electric Pokemon, and that you've been working to understand the world better."
+				""
+				"(Note: This quest will consume its requested items, and the reward will auto-run the moment you submit the last ingredient.)"
+				""
+				"This will cause an island to appear. It is rougly 20x20x20 in size. To figure out where it will appear, first stand on the bedrock you started your void life on. Then travel +40 on the X, +100 on the Y, and -50 on the Z. The island will appear to the northeast and above this location."
+				""
+				"It will destroy every block in its path."
+			]
+			dependencies: [
+				"51A51EA666E1500F"
+				"6FC729AFFCF2E513"
+			]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7CAA89F400B39810"
+			tasks: [
+				{
+					id: "31F84E3AE4933545"
+					type: "item"
+					item: "minecraft:glowstone"
+					consume_items: true
+				}
+				{
+					id: "33452A921EB26E4B"
+					type: "item"
+					item: "biomesoplenty:nether_crystal_block"
+					consume_items: true
+				}
+				{
+					id: "66D1185D59A68303"
+					type: "item"
+					item: "byg:quartzite_sand"
+					consume_items: true
+				}
+				{
+					id: "71D03F835D97402C"
+					type: "item"
+					item: "pixelmon:thunder_stone"
+					consume_items: true
+				}
+				{
+					id: "26FF176B0319337C"
+					type: "item"
+					item: "minecraft:chiseled_sandstone"
+					consume_items: true
+				}
+				{
+					id: "4480DB94515943FD"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2707DF69A64912FE"
+				type: "command"
+				icon: "pixelmon:zapdos_shrine"
+				command: "/execute as @p at @p run function ghosts:spawn_thunder_shrine"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: [
+				"Once you have an orb, you must turn it into an Orb of Frozen Souls, Fiery Souls, or Static Souls."
+				""
+				"The Orb can be used to summon one legendary bird, but only if you have access to their shrine."
+				""
+				"Since the Orb is single-use, you may find yourself in need of another orb. Dragonair and Dragonite have a chance to drop one, and you may obtain one from Ultimate Bosses."
+				""
+				"Dragonair may appear in very, very small quantities in Underground Water on the Soil Layer. You have had no luck finding Dragonite of yet."
+			]
+			dependencies: ["58C0758097E330F9"]
+			hide: true
+			id: "6FC729AFFCF2E513"
+			tasks: [{
+				id: "5F5AAD332FD7054C"
+				type: "item"
+				item: "pixelmon:orb"
+			}]
+			rewards: [{
+				id: "52C9DF79C9F3B205"
+				type: "choice"
+				table_id: 6415968833340347326L
+			}]
+		}
+		{
+			title: "Defeat Uxie"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/480_uxie/all/base/none/sprite.png"
+				}
+			}
+			x: 5.5d
+			y: -1.5d
+			shape: "circle"
+			description: ["Uxie has fled the world following its destruction and is hidden somewhere in the End."]
+			dependencies: ["26B77E6C4944C144"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "03AE8BF4A446E5CA"
+			tasks: [{
+				id: "535A98EFE253377B"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "uxie"
+				count: 1
+				invert: false
+				wild: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "5AB542F27F256178"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p uxie untradeable egg ball:cherish_ball"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			shape: "circle"
+			description: ["Mesprit has fled the world following its destruction and is hidden somewhere in the Nether."]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7465BA271E5B4658"
+			tasks: [{
+				id: "7E4FBF26E8E283BE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "mesprit"
+				count: 1
+				invert: false
+				wild: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "47B5DAB30AFA252B"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p mesprit untradeable egg ball:cherish_ball"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			shape: "circle"
+			description: ["Azelf has fled the world following its destruction and is hidden somewhere in the Drowned World."]
+			dependencies: ["721C7720EB194EAE"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2399346D75F07D8C"
+			tasks: [{
+				id: "3C8C5AA95425CDB6"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "azelf"
+				count: 1
+				invert: false
+				wild: true
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [{
+				id: "1B29542680A4A5D9"
+				type: "command"
+				title: "Legendary Egg"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				command: "/pokegive @p azelf untradeable egg ball:cherish_ball"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"Mew may show up around the cloning machine. However, the chances are very low, as the area considered to be 'around' the cloning machine is very small. "
+				""
+				"You may want to take the cloning machine to a place with no legendaries, like the end island, and work and wait there for quite some time."
+				""
+				"Astute, long-time minecraft players may whip out a trick to lower the number of spaces a legendary can try to spawn by reducing the number of loaded chunks or available blocks."
+			]
+			secret: true
+			id: "677EBB09F3535099"
+			tasks: [{
+				id: "756A99E52DADD28B"
+				type: "item"
+				item: "pixelmon:cloning_machine"
+			}]
+			rewards: [
+				{
+					id: "7E6E336DAE01D5BF"
+					type: "item"
+					item: "minecraft:orange_glazed_terracotta"
+					count: 16
+				}
+				{
+					id: "78CAD373A4E61071"
+					type: "item"
+					item: "minecraft:green_glazed_terracotta"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"If you destroy one of these rare and precious memories, you can cause a furious Silvally to spawn. It will not be catchable, but defeating it will leave you with an egg."
+				""
+				"You do not know how to obtain more of these memories."
+			]
+			dependencies: ["693B20671B53FA31"]
+			optional: true
+			repeatable: true
+			id: "005B4E21B3D5DE69"
+			tasks: [{
+				id: "69D202FA58477531"
+				type: "item"
+				title: "Destroy a Memory"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:fire_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:water_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:flying_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:bug_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:poison_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:electric_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:psychic_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:rock_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:fairy_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:dragon_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ice_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:fighting_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:steel_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ghost_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:dark_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ground_memory"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:grass_memory"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C7C8E1B1D5D6F4A"
+				type: "command"
+				title: "FIGHT Silvally"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/773_silvally/all/base/none/sprite.png"
+					}
+				}
+				command: "/pokespawn Silvally lvl:100 uncatchable shiny"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			shape: "circle"
+			description: ["If you can quell the rage of this Silvally, it may leave you with an egg."]
+			dependencies: ["693B20671B53FA31"]
+			optional: true
+			repeatable: true
+			id: "3E59658E19AE49F4"
+			tasks: [{
+				id: "1AAA49DED34E43AE"
+				type: "pixelmon:defeat_pokemon"
+				pokemon: "silvally shiny"
+				count: 1
+				invert: false
+				usedPokemonSpec: ""
+				invertUsed: false
+			}]
+			rewards: [
+				{
+					id: "32D6EE5F9659DEAF"
+					type: "command"
+					title: "Recieve Legendary Egg"
+					icon: "ends_delight:non_hatchable_dragon_egg"
+					command: "/pokegive @p TypeNull egg ball:cherish_ball g:female"
+					player_command: false
+				}
+				{
+					id: "02D9533403307649"
+					type: "choice"
+					table_id: 4899658134518644666L
+				}
+			]
+		}
+	]
+}

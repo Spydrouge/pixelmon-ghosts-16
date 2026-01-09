@@ -1,0 +1,220 @@
+{
+  "id": "Parasect",
+  "spawnInfos": [
+    {
+      "spec": "species:Parasect",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+          "minY":96,
+          "maxY":128,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10.0
+    },
+     {
+      "spec": "species:Parasect",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:crimson_gardens",
+          "minecraft:crimson_forest",
+          "byg:glowstone_gardens"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Parasect palette:valencian",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:weeping_mire",	"byg:weeping_mire_clearing",	"byg:weeping_mire_forest"
+        ]
+      },
+      "rarity":10.0
+    },
+    {
+      "spec": "species:Parasect",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "mushroom",
+          "roofed"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Parasect palette:valencian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Paras",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Parasect palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "mushroom",
+          "roofed"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Paras",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

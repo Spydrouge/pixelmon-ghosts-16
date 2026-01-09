@@ -1,0 +1,71 @@
+030 Nidorina: Given the ability to breed
+031 Nidoqueen: Given the ability to breed
+037 Vulpix: Extended strike palette to alolan form
+038 Ninetales: Extended Strike palette to alolan form
+106 Hitmonlee: 10% Female
+107 Hitmonchan: 10% Female
+109 Koffing: Made Galarian Form
+129 Magikarp: Added Drowned Skin
+163 Hoothoot: Made to not fly so it sits on the damn tree
+164 Noctowl: Made it Psychic Type
+174 Igglybuff: Gave it Covet
+191 Sunkern: Fire type, has access to some fire moves
+192 Sunflora: Fire type, has access to some fire moves
+200 Misdreavus: Added 'Retrograde' form
+222 Corsola: Galarian Corsola is now type Rock
+236 Tyrogue: 10% Female
+237 Hitmontop: 10% Female
+286 Masquerain: Bug/Water instead of Bug/Flying. Can Fly. 
+292 Shedinja: Two forms created so that one can be flight enabled and the other stays firmly where it spawned.
+313 Volbeat: Added Fairy Type
+314 Illumise: Added Fairy Type
+329 Vibrava: Bug/Dragon instead of Ground/Dragon
+330 Flygon: Bug/Dragon instead of Ground/Dragon
+350 Milotic: Added Fairy Type
+353 Shuppet: Added Voodoo form, which has Prankster, access to a very large variety of physical attacking and utility moves, and has high attack and speed but low special attack. Many of its new moves are pin, needle, roleplay, imprisonment, and mimicry themed. It gains access to claw moves even before evolving into Banette, because it, in its entirity, is a hand puppet.
+354 Banette: Added Voodoo form, which has Prankster, access to a very large variety of physical attacking and utility moves, and has high attack and speed but low special attack. Many of its new moves are pin, needle, roleplay, imprisonment, and mimicry themed. It gains access to claw moves.
+355 Duskull: Added Bloodborne form, which has Strength Sap, Bone Club, Bone Rush, Bonemarang, Shadow Bone, and Skull Bash
+356 Dusclops: Added Bloodborne form, which has Strength Sap, Bone Club, Bone Rush, Bonemarang, Shadow Bone, and Skull Bash
+351 Castform: Added Flying
+353 Chimecho: Part normal type, gains access to Conversion, Conversion 2, Reflect Type, and Super Luck as a HA
+370 Luvdisc: Can Evolve. Evolves into Alomomola. Yes I know they have nothing in common. 
+425 Drifloon: Can Fly, can Fling
+426 Drifblim: Can Fly, can Fling
+433 Chingling: Part Normal Type, gains access to Conversion, and Super Luck as an HA
+477 Dusknoir: Added Bloodborne form, which has Strength Sap, Bone Club, Bone Rush, Bonemarang, Shadow Bone, and Skull Bash, Stockpile, Spit Up, and Swallow. The Bloodborne form also has a very different stat distribution, making it an exceptional tank.
+519 Pidove: Made to not fly so it sits on the damn tree
+510 Tanquil: Made to not fly so it sits on the damn tree
+574 Gothita: Added Dark Type
+575 Gothorita: Added Dark Type
+576 Gothitella: Added Dark Type
+582 Vanillite: Added Steel Type? I don't know what I was drinking.
+583 Vanillish: Added Steel Type? I don't know what I was drinking.
+584 Vanilluxe: Added Steel Type? I don't know what I was drinking.
+588 Karrablast: Added Spirit Form for Continuity
+589 Escavalier: Added Spirit Form
+594 Alomomola: Adds Luvdisc as Pre-Evolution
+616 Shelmet: Added Spirit Form
+617 Accelgor: Added Spirit Form for Continuity
+661 Fletchling: Made to not fly so it sits on the damn tree
+669 Flabebe: Added Grass Type
+670 Floette: Added Grass Type
+671 Florges: Added Grass Type
+672 Skiddo: Added Ground Type
+673 Gogoat: Added Ground Type
+699 Aurorus: Naturallly Learns Meteor Beam at level 72 
+703 Carbink: Can Evolve into Diance
+710 Pumpkaboo: Has Jack O' Lantern Form with new abilities, as well as fire and fighting type moves, including Body Press and Heat Crash. This form also has three weight categories, with slightly different stat spreads.
+711 Gourgeist: Has Jack O' Lanterm Form with new abilities, as well as fire and fighting type moves. This form also has three weight categories, with slightly different stat spreads. The heaviest category is 1000kg. Unlike Pumpkaboo, it has arms and gains access to punching moves. 
+719 Diancie: Evolves from Carbink
+864 Cursola: Added Rock Type
+880 Dracozolt: Has Gender
+881 Arctozolt: Has Gender
+882 Dracovish: Has Gender
+883 Arctovish: Has Gender
+971 Greavard: Added Rock Type
+972 Houndstone: Added Rock Type
+
+
+
+
+

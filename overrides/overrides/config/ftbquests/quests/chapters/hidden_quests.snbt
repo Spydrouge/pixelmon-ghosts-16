@@ -1,0 +1,1326 @@
+{
+	id: "5E4475FD3D81C12D"
+	group: "44341255860549FC"
+	order_index: 3
+	filename: "hidden_quests"
+	title: "Hidden Quests"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "3EC2C40138D33F79"
+			tasks: [{
+				id: "3D9AC861B28D9A71"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "6E0F7398E1EA821A"
+				type: "command"
+				auto: "no_toast"
+				command: "/function ghosts:fortell_invasion_wave_1"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			secret: true
+			id: "36FD8B74304A58EA"
+			tasks: [{
+				id: "58071F733283D6EC"
+				type: "item"
+				item: {
+					id: "constructsarmory:mail"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:wood"
+					}
+				}
+			}]
+		}
+		{
+			icon: "pixelmon:fog_badge"
+			x: -7.5d
+			y: 2.5d
+			secret: true
+			id: "5063C10459F24517"
+			tasks: [{
+				id: "0C80991A66802AA6"
+				type: "checkmark"
+				title: "Holding onto Badges"
+			}]
+			rewards: [
+				{
+					id: "172F5A8E5DAF65CA"
+					type: "item"
+					item: "pixelmon:ghost_badge"
+				}
+				{
+					id: "701399326E309B9B"
+					type: "item"
+					item: "pixelmon:relic_badge"
+				}
+				{
+					id: "3D1ADADFD133608C"
+					type: "item"
+					item: "pixelmon:kurai_badge"
+				}
+				{
+					id: "428E588CB8225D89"
+					type: "item"
+					item: "pixelmon:seishin_badge"
+				}
+				{
+					id: "706E1A65C4A567C2"
+					type: "item"
+					item: "pixelmon:dark_badge"
+				}
+				{
+					id: "2565D2D05B058941"
+					type: "item"
+					item: "pixelmon:fairy_badge_galar"
+				}
+				{
+					id: "7C3B4AD1B10719E3"
+					type: "item"
+					item: "pixelmon:fairy_badge"
+				}
+				{
+					id: "4472B7A7F0E96803"
+					type: "item"
+					item: "pixelmon:bug_badge"
+				}
+				{
+					id: "491C7E7C5B254B89"
+					type: "item"
+					item: "pixelmon:insect_badge"
+				}
+				{
+					id: "0E07EF0797A40108"
+					type: "item"
+					item: "pixelmon:yosei_badge"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			id: "444A90F376AD5CFA"
+			tasks: [{
+				id: "5B5A8C77395782D6"
+				type: "questsadditions:interaction"
+				title: "Right Click Pineco"
+				icon: {
+					id: "pixelmon:pixelmon_sprite"
+					Count: 1b
+					tag: {
+						ndex: 204s
+						palette: "none"
+						form: -1b
+						gender: 0b
+						Shiny: 0b
+					}
+				}
+				entity: "pixelmon:pixelmon"
+				nbt: {
+					ndex: 204
+				}
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Observe Darkrai"
+			x: -6.0d
+			y: -3.0d
+			id: "596680D791AC22B8"
+			tasks: [{
+				id: "30EFB496EC5BE9B2"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/491_darkrai/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:491}"
+			}]
+			rewards: [{
+				id: "2EA4A8F5AF50F4B4"
+				type: "command"
+				command: "/function ghosts:challenge_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "Observe Marshadow"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/802_marshadow/all/base/none/sprite.png"
+				}
+			}
+			x: -5.0d
+			y: -3.0d
+			id: "7DAE272571897CFE"
+			tasks: [{
+				id: "6A53930D62D3B811"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/802_marshadow/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:802}"
+			}]
+			rewards: [{
+				id: "3A277D18DEC23C98"
+				type: "command"
+				command: "/function ghosts:challenge_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "Observe Spectrier"
+			x: -4.0d
+			y: -3.0d
+			id: "01385E2B571F8B52"
+			tasks: [{
+				id: "0891856EA1459905"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/897_spectrier/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:897}"
+			}]
+			rewards: [{
+				id: "470D5CEE87976F0E"
+				type: "command"
+				command: "/function ghosts:challenge_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "Observe Yveltal"
+			x: -3.0d
+			y: -3.0d
+			id: "4B52AFEFBEFB62B6"
+			tasks: [{
+				id: "26426F43ADC36E97"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/717_yveltal/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:717}"
+			}]
+			rewards: [{
+				id: "55BCD35E61FE904A"
+				type: "command"
+				command: "/function ghosts:challenge_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: ["Helps get the Duskull quest going"]
+			dependencies: ["391C3D6A40B4349B"]
+			id: "32135E257A5EC812"
+			tasks: [{
+				id: "70D9EB02D003F239"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			title: "FAIL Detecting Pixelmon"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/pokemon/355_duskull/all/base/shiny/sprite.png"
+				}
+			}
+			x: -8.5d
+			y: 4.0d
+			description: [
+				"It was not possible to execute a command only if Duskull was the first pokemon in the party. The followign command does check whether it's in the first position, and outputs a message, but always stores 1 and therefore cannot be chained."
+				""
+				"/execute store success score @p DuskullCheck run poketest 1 duskull"
+				""
+				"/scoreboard players get VampireKyn DuskullCheck"
+			]
+			id: "469C3F49D936E927"
+			tasks: [{
+				id: "7A99D4E1584E12AC"
+				type: "checkmark"
+				title: "It was not possible to execute commands only if duskull is the first pokemon in the party. "
+			}]
+		}
+		{
+			title: "FAIL Moving Blocks"
+			x: -7.5d
+			y: 4.0d
+			description: ["Much to my surprise, it is not possible to break pixelmon spawners by any means, not by any command, so that the player can pick them up again. I was going to make a reusable quest for that."]
+			id: "1A64EA7A856D9426"
+			tasks: [
+				{
+					id: "4AAAF59349B257A6"
+					type: "item"
+					item: "pixelmon:incense_burner"
+				}
+				{
+					id: "2849925F9521A98C"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+				}
+				{
+					id: "60556CECD5EDB299"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+			]
+			rewards: [{
+				id: "1A7235456182BAB4"
+				type: "command"
+				command: "/say Hi, @p!"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:pixelmon_spawner"
+			x: -8.5d
+			y: 1.0d
+			description: ["Gives Tester a pixelmon spawner to test at the beginning, without creative mode, to see if it can be 'carried on' or moved with special wands"]
+			id: "3F6CF60E3FD71B80"
+			tasks: [{
+				id: "0D71B617E3A28A27"
+				type: "checkmark"
+				title: "DEBUGGING"
+			}]
+			rewards: [
+				{
+					id: "7087BD9EA007A42B"
+					type: "item"
+					item: {
+						id: "pixelmon:pixelmon_spawner"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								spawnLocation: 0s
+								fireOnTick: 0b
+								maxSpawns: 1s
+								aggression: 0s
+								bossRatio: 100.0f
+								unbattleable: 0b
+								levelMax: 19s
+								specs: [{
+									pokemon: {
+										SpecificationData: "Castform g:male"
+									}
+									rarity: 1
+								}]
+								gmaxRatio: 512.0f
+								shinyRatio: 2000.0f
+								spawnRadius: 3s
+								uncatchable: 0b
+								id: "pixelmon:pixelmon_spawner"
+								spawnTick: 200
+								levelMin: 16s
+								unbreedable: 0b
+							}
+							display: {
+								Name: "[{\"text\":\"Castform Spawner(Redstone Pulse)\",\"italic\":false}]"
+							}
+						}
+					}
+				}
+				{
+					id: "22CD6B192697C98C"
+					type: "command"
+					command: "/xp add @p 24 levels"
+					player_command: false
+				}
+				{
+					id: "7A270EC15E5B2F45"
+					type: "item"
+					item: "notenoughwands:swapping_wand"
+				}
+				{
+					id: "5F3D907C30184645"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Hidden: Vending Machien"
+			x: 2.5d
+			y: -3.0d
+			id: "564F4DBFD169B8E3"
+			tasks: [{
+				id: "05F52863065DB18E"
+				type: "item"
+				title: "Any #pixelmon:vending_machines"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "pixelmon:vending_machines"
+					}
+				}
+			}]
+		}
+		{
+			title: "Hidden: Cocoa"
+			x: 3.5d
+			y: -3.0d
+			id: "0C1950B46A377106"
+			tasks: [{
+				id: "7BA60BAC506B4E0A"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+			}]
+		}
+		{
+			title: "Hidden: Slowpoke Tail"
+			x: -0.5d
+			y: -2.0d
+			min_required_tasks: 1
+			id: "2C5AC123096B6545"
+			tasks: [
+				{
+					id: "38B174F67441020A"
+					type: "item"
+					item: "pixelmon:slowpoke_tail"
+				}
+				{
+					id: "303B5EF934B4E6A0"
+					type: "item"
+					item: "pixelmon:curry_smoke_poke"
+				}
+			]
+		}
+		{
+			title: "Hidden: Beef"
+			x: 0.5d
+			y: -2.0d
+			min_required_tasks: 1
+			id: "431B048A4AFEE200"
+			tasks: [
+				{
+					id: "60A18A18CD7808C3"
+					type: "item"
+					title: "Any #forge:cooked_beef"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cooked_beef"
+						}
+					}
+				}
+				{
+					id: "01F7E5CCF064A586"
+					type: "item"
+					item: "pixelmon:curry_burger"
+				}
+			]
+		}
+		{
+			title: "Hidden: Moomoo Cheese"
+			x: 1.5d
+			y: -2.0d
+			id: "5A28C07FACF26220"
+			tasks: [{
+				id: "09379A601C53F3B9"
+				type: "item"
+				item: "pixelmon:curry_cheese"
+			}]
+		}
+		{
+			title: "Hidden: Large Leek"
+			x: 2.5d
+			y: -2.0d
+			id: "1E270CD382538720"
+			tasks: [{
+				id: "2056AED952728301"
+				type: "item"
+				item: "pixelmon:curry_leek"
+			}]
+		}
+		{
+			title: "Hidden: Slime Wood"
+			x: 4.5d
+			y: -3.0d
+			id: "5F2C866ED23D2A45"
+			tasks: [{
+				id: "2FECFA0A28E4C6B0"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:bloodshroom_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_bloodshroom_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_bloodshroom_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:bloodshroom_planks"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:bloodshroom_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:greenheart_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:greenheart_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_greenheart_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_greenheart_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:greenheart_planks"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:skyroot_planks"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_skyroot_wood"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:skyroot_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:stripped_skyroot_log"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:skyroot_wood"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Hidden: Any Slime Ball"
+			x: 5.5d
+			y: -3.0d
+			id: "6E27F5F8086AC949"
+			tasks: [{
+				id: "7C0812C0585A5D7B"
+				type: "item"
+				title: "Any #forge:slimeballs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:slimeballs"
+					}
+				}
+			}]
+		}
+		{
+			title: "Use a Low Level Water Move"
+			x: -6.5d
+			y: 4.0d
+			description: ["In a world where water is scarce, it's worth noting that using some water moves in battle produces collectable water."]
+			dependencies: [
+				"7A14B86EECDF05E4"
+				"5063C10459F24517"
+			]
+			hide: true
+			repeatable: true
+			min_required_tasks: 1
+			id: "6C0D9782EAD424C9"
+			tasks: [
+				{
+					id: "39BF2FE772915521"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "water_gun"
+					moveType: 0b
+				}
+				{
+					id: "5D71FD7F64EF0E16"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "bubble"
+					moveType: 0b
+				}
+				{
+					id: "621F0A16460684A1"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "aqua_jet"
+					moveType: 0b
+				}
+				{
+					id: "7AD04429A58519CC"
+					type: "pixelmon:battle_move"
+					disable_toast: true
+					secret: true
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "chilling_water"
+					moveType: 0b
+				}
+				{
+					id: "7F3658DCD39343A2"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "hydro_pump"
+					moveType: 0b
+				}
+				{
+					id: "051754EE6B479363"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "life_dew"
+					moveType: 0b
+				}
+				{
+					id: "1913E49C542FCC39"
+					type: "pixelmon:battle_move"
+					pokemon: ""
+					count: 1
+					invert: false
+					attack: "aqua_ring"
+					moveType: 0b
+				}
+			]
+			rewards: [
+				{
+					id: "18E45348A87A7256"
+					type: "command"
+					title: "Fills one Glass Bottle with Water in Inventory"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					auto: "no_toast"
+					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run give @s minecraft:potion{Potion:\"minecraft:water\"} 1"
+					player_command: false
+				}
+				{
+					id: "22E022BCC408328C"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p if data entity @s Inventory[{\"id\":\"minecraft:glass_bottle\"}] run clear @s minecraft:glass_bottle 1"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: [
+				"00E707243834C44B"
+				"11F689A8DC3A4BE2"
+				"16AECF01A7853FED"
+			]
+			min_required_tasks: 1
+			id: "47D35EBDBFD8A938"
+			tasks: [
+				{
+					id: "0C1B981541F6E75C"
+					type: "pixelmon:catch_pokemon"
+					pokemon: "type:fire"
+					count: 1
+					invert: false
+					catchType: 1b
+				}
+				{
+					id: "683030B43EBBFE1D"
+					type: "pixelmon:hatch_egg"
+					pokemon: "type:fire"
+					count: 1
+					invert: false
+				}
+			]
+		}
+		{
+			title: "Ancient Power"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["5AF0C36E42A5FFB3"]
+			id: "6D21C5C41517388D"
+			tasks: [{
+				id: "169C16199127D427"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [{
+				id: "1B10FACF56DD71D6"
+				type: "command"
+				command: "/function ghosts:ancient_power_all"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ancient Power"
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["239207D5068640A8"]
+			id: "337A559DA2425B31"
+			tasks: [{
+				id: "1BEDDD69F71B85A9"
+				type: "questsadditions:time"
+				elapsedTime: 60L
+			}]
+			rewards: [{
+				id: "127D1D8E8A6FAB59"
+				type: "command"
+				command: "/function ghosts:ancient_power_all"
+				player_command: false
+			}]
+		}
+		{
+			title: "In the Overworld"
+			x: -1.0d
+			y: 2.0d
+			id: "6CD40EBE7040B1A1"
+			tasks: [{
+				id: "3A496E3F5D2647C8"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "4FBE2FDE723963B0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+					player_command: false
+				}
+				{
+					id: "1A4FEEEEED69AB69"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6AD2B6C1CAE18D18"
+					player_command: false
+				}
+				{
+					id: "5E40533F5209054D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 014EBF683B756A5D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "In the Nether"
+			x: 0.0d
+			y: 2.0d
+			id: "3418656E436AEEAD"
+			tasks: [{
+				id: "118FCE632D2A5687"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "4AB68FF762328C81"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+					player_command: false
+				}
+				{
+					id: "2CA63C838DC603FD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6AD2B6C1CAE18D18"
+					player_command: false
+				}
+				{
+					id: "79E76D5AB8260B91"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 014EBF683B756A5D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Botania Fancy Generating Flower Timer"
+			x: 1.0d
+			y: 0.5d
+			dependencies: [
+				"6F10ADDBC73438E9"
+				"5C36AA7A30CA6209"
+				"69C2B4CDD7BC8095"
+			]
+			min_required_tasks: 1
+			id: "671596726F46F911"
+			tasks: [{
+				id: "475F48D7D0C0C97E"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+		}
+		{
+			title: "Observe Volcanion"
+			x: -6.0d
+			y: -4.0d
+			id: "3A20DCDFBBC2645F"
+			tasks: [{
+				id: "00EB4508E906E8DD"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:721}"
+			}]
+		}
+		{
+			title: "Observe Mew"
+			x: -5.0d
+			y: -4.0d
+			id: "6D3B04C6338A1908"
+			tasks: [{
+				id: "5686F155C73688EE"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:151}"
+			}]
+		}
+		{
+			title: "Observe Wo-Chien"
+			x: -6.0d
+			y: -2.0d
+			id: "5437096EC001288C"
+			tasks: [{
+				id: "457CC5DF542B1C63"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1001_wo-chien/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "pixelmon:pixelmon {ndex:1001}"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			id: "54C9D8C9D49FA8E2"
+			tasks: [{
+				id: "5D15E0D40C1EB2AD"
+				type: "observation"
+				title: "Observe Chien-Pao"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1002_chien-pao/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "pixelmon:pixelmon {ndex:1002}"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "7427679A42B7A2D4"
+			tasks: [{
+				id: "5E7A8C82562AF860"
+				type: "observation"
+				title: "Observe Ting-Lu"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1003_ting-lu/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "pixelmon:pixelmon {ndex:1003}"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "03EE801152DBA79E"
+			tasks: [{
+				id: "176C82A8B56F8B59"
+				type: "observation"
+				title: "Observe Chi-Yu"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/pokemon/1004_chi-yu/all/base/none/sprite.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "pixelmon:pixelmon {ndex:1004}"
+			}]
+		}
+		{
+			title: "Hidden: Orb"
+			x: -7.5d
+			y: -2.0d
+			secret: true
+			id: "58C0758097E330F9"
+			tasks: [{
+				id: "48C9448C2C256A82"
+				type: "item"
+				item: "pixelmon:orb"
+			}]
+		}
+		{
+			title: "Hidden: End Portal Frame"
+			x: 3.5d
+			y: -2.0d
+			id: "4D6D5830E816D5AB"
+			tasks: [{
+				id: "690787A1FE89BEB8"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "433A6C6FE6FD464B"
+			tasks: [{
+				id: "4668CEDF9EFE23A6"
+				type: "item"
+				item: "ends_delight:non_hatchable_dragon_egg"
+			}]
+		}
+		{
+			title: "Hidden: Eat a Shulker"
+			x: 5.5d
+			y: -2.0d
+			id: "6191AC5578B8A3D2"
+			tasks: [{
+				id: "4D70EBFDF7631F40"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ends_delight:roasted_shulker_meat"
+								Count: 1b
+							}
+							{
+								id: "ends_delight:shulker_meat"
+								Count: 1b
+							}
+							{
+								id: "ends_delight:roasted_shulker_meat_slice"
+								Count: 1b
+							}
+							{
+								id: "ends_delight:shulker_meat_slice"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Hidden: Plate"
+			x: -8.5d
+			y: -2.0d
+			id: "0D6589EBAC0B4BDC"
+			tasks: [{
+				id: "3FD4296ECD74FA1E"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:stone_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:earth_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:dread_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:spooky_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:iron_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:fist_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:icicle_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:draco_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:pixie_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:mind_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:zap_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:toxic_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:insect_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:sky_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:splash_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:flame_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:meadow_plate"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:blank_plate"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Get a colored Spruce Tree"
+			x: 6.5d
+			y: -2.0d
+			id: "1D4BBFA8D3484EBD"
+			tasks: [{
+				id: "258887DB578B9251"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "byg:orange_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:red_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:yellow_spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "byg:blue_spruce_sapling"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Hidden: Relic Items"
+			x: -9.5d
+			y: -2.0d
+			id: "395FF1A6F8319736"
+			tasks: [{
+				id: "4B73C36F3EBEC716"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:relic_crown"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_vase"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_statue"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_band"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "In the Drowned World"
+			x: 1.0d
+			y: 2.0d
+			id: "6AD2B6C1CAE18D18"
+			tasks: [{
+				id: "538D9A7A94363EAE"
+				type: "dimension"
+				dimension: "pixelmon:drowned_world"
+			}]
+			rewards: [
+				{
+					id: "184F244DC0A6BC32"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+					player_command: false
+				}
+				{
+					id: "45486C5837CE3FBB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+					player_command: false
+				}
+				{
+					id: "36D51CB41F781474"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 014EBF683B756A5D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "In the End"
+			x: 2.0d
+			y: 2.0d
+			id: "014EBF683B756A5D"
+			tasks: [{
+				id: "50922D35B7DEC8B9"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "7F96FC1940796289"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6CD40EBE7040B1A1"
+					player_command: false
+				}
+				{
+					id: "6730262E6F552C4D"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3418656E436AEEAD"
+					player_command: false
+				}
+				{
+					id: "0F7306FE983F4F75"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6AD2B6C1CAE18D18"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			secret: true
+			id: "52E5149E236EDF60"
+			tasks: [
+				{
+					id: "6FA83B6457836707"
+					type: "item"
+					item: "byg:red_glowcane_block"
+				}
+				{
+					id: "7EDA969369314DFA"
+					type: "item"
+					item: "byg:blue_glowcane_block"
+				}
+				{
+					id: "604800497229B7BF"
+					type: "item"
+					item: "byg:pink_glowcane_block"
+				}
+				{
+					id: "0650ED788A667D90"
+					type: "item"
+					item: "byg:purple_glowcane_block"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			repeatable: true
+			id: "70AC38749EA42CA3"
+			tasks: [
+				{
+					id: "1E3074E3A9069FA0"
+					type: "questsadditions:time"
+					elapsedTime: 1L
+				}
+				{
+					id: "744B14C582A4A5AD"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "6A46E98D017DB3E8"
+				type: "command"
+				auto: "enabled"
+				command: "/execute as @a[tag=dInitializedIsland, limit=1] run function ghosts:spawn_balloons"
+				player_command: false
+			}]
+		}
+		{
+			title: "Hidden Epic Shader Grab Bag"
+			x: 7.5d
+			y: -2.0d
+			id: "78519AB5CDD50FC1"
+			tasks: [{
+				id: "22601BCF30FF628B"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			optional: true
+			repeatable: true
+			id: "27E008F7A31D8102"
+			tasks: [{
+				id: "38C2AACDFBD5C471"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "494140CDB440FEEA"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "immersiveengineering:plantoil"
+							Amount: 100
+						}
+					}
+				}
+			}]
+		}
+	]
+}

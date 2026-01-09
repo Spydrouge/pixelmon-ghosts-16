@@ -1,0 +1,58 @@
+{
+  "id": "Skorupi",
+  "spawnInfos": [
+    {
+      "spec": "species:Skorupi",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley",
+          "byg:sythian_torrids",
+          "byg:warped_desert"
+        ]
+      },
+      "rarity": 80.0
+    },
+    {
+      "spec": "species:Skorupi",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "swamps",
+          "mesas"
+        ]
+      },
+      "rarity": 170.0
+    }
+  ]
+}

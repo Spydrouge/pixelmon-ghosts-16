@@ -1,0 +1,138 @@
+{
+  "id": "Hydreigon",
+  "spawnInfos": [
+    {
+      "spec": "species:Hydreigon",
+      "stringLocationTypes": [
+        "Land",
+                "Underground",
+                "Manmade",
+                "Indoors",
+                "Air",
+                "Sweet Scent"
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:magma_wastes"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": "species:Hydreigon",
+      "stringLocationTypes": [
+        "Air",
+        "Sweet Scent"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:roseli_berry",
+          "percentChance": 100
+        }
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 10
+    },
+    {
+      "spec": "species:Hydreigon",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:roseli_berry",
+          "percentChance": 100
+        }
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Hydreigon palette:ashen",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:roseli_berry",
+          "percentChance": 100
+        }
+      ],
+      "minLevel": 65,
+      "maxLevel": 71,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDDAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": "species:Hydreigon palette:ashen",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+         "structures": [
+          "byg:viscal_isles",
+          "byg:shattered_viscal_isles"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "byg:subzero_ash_block"
+            ]
+          }
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "thermal:sulfur_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 5.0
+    }
+  ]
+}

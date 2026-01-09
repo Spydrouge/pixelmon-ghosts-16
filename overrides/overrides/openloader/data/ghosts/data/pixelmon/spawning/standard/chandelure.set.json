@@ -1,0 +1,289 @@
+{
+  "id": "Chandelure",
+  "spawnInfos": [
+    {
+      "spec": "species:Chandelure",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:blaze_rod",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:fire_stone_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:dusk_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 160,
+        "minY": 32,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+      {
+        "conditions": 
+        [
+          {
+            "neededNearbyBlocks": [
+              "pixelmon:street_light"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "minecraft:lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "minecraft:soul_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "immersiveengineering:lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "immersiveengineering:electric_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "byg:glowstone_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "byg:therium_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "tconstruct:seared_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "tconstruct:scorched_lantern"
+            ]
+          }
+        ]
+      },
+      "rarity": 2
+    },
+    {
+      "spec": "species:Chandelure",
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:blaze_rod",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:fire_stone_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:dusk_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:weeping_mire",
+            "byg:weeping_mire_clearing",
+            "byg:weeping_mire_forest",
+            "byg:withering_woods",
+            "byg:wailing_garth"
+        ]
+      },
+      "compositeCondition":
+      {
+        "conditions": 
+        [
+          {
+            "neededNearbyBlocks": [
+              "pixelmon:street_light"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "minecraft:lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "minecraft:soul_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "immersiveengineering:lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "immersiveengineering:electric_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "byg:glowstone_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "byg:therium_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "tconstruct:seared_lantern"
+            ]
+          },
+          {
+            "neededNearbyBlocks": [
+              "tconstruct:scorched_lantern"
+            ]
+          }
+        ]
+      },
+      "rarity": 2
+    },
+    {
+      "spec": "species:Chandelure",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:blaze_rod",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:fire_stone_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:dusk_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:torch"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Chandelure",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:blaze_rod",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:fire_stone_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:dusk_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "MIDNIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Chandelure boss:haunted",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:blaze_rod",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:fire_stone_shard",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:dusk_stone_shard",
+          "percentChance": 25
+        }
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}

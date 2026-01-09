@@ -1,0 +1,118 @@
+{
+  "id": "Beheeyem",
+  "spawnInfos": [
+      {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 43,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 50
+        }
+      ],
+     "condition": {
+        "stringBiomes": [
+          "byg:brimstone_caverns",
+          "minecraft:warped_forest",
+          "biomesoplenty:withered_abyss"
+        ]
+      },
+      "rarity": 9.0
+    },
+      {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 43,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 50
+        }
+      ],
+     "condition": {
+        "stringBiomes": [
+          "ghosts"
+        ],
+        "minY": 224
+      },
+      "rarity": 9.0
+    },
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "byg:ivis_fields",
+          "byg:shattered_desert",
+          "byg:shattered_desert_isles",
+          "byg:viscal_isles",
+          "byg:shattered_viscal_isles"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 25.0
+    }
+  ]
+}

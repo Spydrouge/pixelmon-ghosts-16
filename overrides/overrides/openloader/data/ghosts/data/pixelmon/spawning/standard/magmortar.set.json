@@ -1,0 +1,56 @@
+{
+    "id": "Magmortar",
+    "spawnInfos": [
+        {
+            "spec": "species:Magmortar",
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 35,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:magmarizer",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "times": [
+                    "DAY"
+                ],
+                "stringBiomes": [
+                    "pixelmon:ultra_desert"
+                ]
+            },
+            "rarity": 10
+        },
+        {
+            "spec": "species:Magmortar",
+            "stringLocationTypes": [
+                "Land",
+                "Underground",
+                "Manmade",
+                "Indoors"
+            ],
+            "minLevel": 35,
+            "maxLevel": 50,
+            "typeID": "pokemon",
+            "heldItems": [
+                {
+                    "itemID": "pixelmon:magmarizer",
+                    "percentChance": 25
+                }
+            ],
+            "condition": {
+                "stringBiomes": [
+                    "minecraft:nether_wastes",
+                    "minecraft:basalt_deltas",
+                    "byg:magma_wastes",
+                    "byg:embur_bog"
+                ]
+            },
+            "rarity": 5
+        }
+    ]
+}

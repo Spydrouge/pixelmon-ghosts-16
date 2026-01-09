@@ -1,0 +1,103 @@
+{
+  "id": "Tynamo",
+  "spawnInfos": [
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:glowstone_dust",
+          "percentChance": 100
+        }
+
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY":96,
+        "minY":64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:glowstone_dust",
+          "percentChance": 100
+        }
+
+      ],
+      "minLevel": 24,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 35
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:glowstone_dust",
+          "percentChance": 100
+        }
+
+      ],
+      "minLevel": 24,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Tynamo",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "heldItems": [
+        {
+          "itemID": "minecraft:glowstone_dust",
+          "percentChance": 100
+        }
+
+      ],
+      "minLevel": 24,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "anticondition": {
+        "stringBiomes": [
+          "drowned",
+          "ghosts"
+        ]
+      },
+      "rarity": 100.0
+    }
+  ]
+}

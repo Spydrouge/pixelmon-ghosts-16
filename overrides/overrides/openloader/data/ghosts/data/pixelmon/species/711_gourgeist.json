@@ -1,0 +1,960 @@
+{
+  "name": "Gourgeist",
+  "dex": 711,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confuse Ray",
+              "Explosion",
+              "Moonblast",
+              "Shadow Sneak",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Razor Leaf",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Shadow Ball",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Trick"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Phantom Force"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Destiny Bond",
+          "Disable"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Bullet Seed",
+          "Trick Room",
+          "Round",
+          "Hex",
+          "Phantom Force",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Gyro Ball",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Focus Blast",
+          "Energy Ball",
+          "Nasty Plot",
+          "Power Whip",
+          "Grass Knot",
+          "Foul Play",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Flame Charge",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Magic Coat",
+          "Nature Power",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Spite",
+          "Swagger",
+          "Synthesis",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Gyro Ball",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Pickup",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Insomnia"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 85,
+        "defense": 122,
+        "specialAttack": 58,
+        "specialDefense": 75,
+        "speed": 99
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 0,
+        "spawnLevel": 25,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/711_gourgeist/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/711_gourgeist/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/711_gourgeist/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/711_gourgeist/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/711_gourgeist/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Pumpkaboo"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    },
+     {
+      "name": "JackOLantern",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confuse Ray",
+              "Explosion",
+              "Moonblast",
+              "Shadow Sneak",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 2,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Shadow Sneak",
+              "Ember"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Confuse Ray",
+              "Flash"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Razor Leaf",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Leech Seed",
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Seismic Toss"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed",
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Rolling Kick"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Worry Seed",
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Seed Bomb",
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Drain Punch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Shadow Ball",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Trick",
+              "Facade"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Wake-Up Slap"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Pain Split",
+              "Fire Lash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Phantom Force",
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Shadow Punch"
+              
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Heat Crash"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Body Press"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Destiny Bond",
+          "Disable",
+          "Night Slash",
+          "Slash"
+        ],
+        "tmMoves9": [
+          "Thief",
+          "Dark Pulse",
+          "Charge Beam",
+          "Eerie Impulse",
+          "Brick Break",
+          "Flame Charge",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Flamethrower",
+          "Fire Blast",
+          "Flare Blitz",
+          "Confuse Ray",
+          "Shadow Ball",
+          "Phantom Force",
+          "Trailblaze",
+          "Bullet Seed",
+          "Seed Bomb",
+          "Grass Knot",
+          "Giga Drain",
+          "Energy Ball",
+          "Grassy Terrain",
+          "Frenzy Plant",
+          "Mud-Slap",
+          "Mud Shot",
+          "Spikes",
+          "Take Down",
+          "Protect",
+          "Scary Face",
+          "Facade",
+          "Body Slam",
+          "Substitute",
+          "Metronome",
+          "Baton Pass",
+          "Giga Impact",
+          "Tera Blast",
+          "Sludge Bomb",
+          "Reflect",
+          "Light Screen",
+          "Rest",
+          "Skill Swap",
+          "Trick",
+          "Amnesia",
+          "Psychic",
+          "Trick Room",
+          "Rock Slide",
+          "Heavy Slam",
+          "Rain Dance",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Drain Punch"
+
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Bullet Seed",
+          "Trick Room",
+          "Round",
+          "Hex",
+          "Phantom Force",
+          "Mystical Fire",
+          "Brutal Swing",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Drain Punch",
+          "Mega Punch"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Gyro Ball",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Focus Blast",
+          "Energy Ball",
+          "Nasty Plot",
+          "Power Whip",
+          "Grass Knot",
+          "Foul Play",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Flame Charge",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Magic Coat",
+          "Nature Power",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Spite",
+          "Swagger",
+          "Synthesis",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Gyro Ball",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide",
+          "Power-Up Punch"
+        ],
+        "tmMoves5": [
+          "Thief",
+          "Rock Smash",
+          "Sunny Day",
+          "Flamethrower",
+          "Fire Blast",
+          "Flame Charge",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Shadow Ball",
+          "Solar Beam",
+          "Grass Knot",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Round",
+          "Explosion",
+          "Flash",
+          "Swagger",
+          "Substitute",
+          "Toxic",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Light Screen",
+          "Telekinesis",
+          "Psychic",
+          "Reflect",
+          "Dream Eater",
+          "Trick Rom",
+          "Smack Down",
+          "Rock Slide",
+          "Gyro Ball",
+          "Hidden Power"
+        ],
+        "tmMoves4": [
+          "Thief",
+          "Snatch",
+          "Dark Pulse",
+          "Sunny Day",
+          "Flamethrower",
+          "Fire Blast",
+          "Will-O-Wisp",
+          "Shadow Ball",
+          "Bullet Seed",
+          "Giga Drain",
+          "Solar Beam",
+          "Grass Knot",
+          "Toxic",
+          "Sludge Bomb",
+          "Light Screen",
+          "Psychic",
+          "Reflect",
+          "Skill Swap",
+          "Dream Eater",
+          "Trick Room",
+          "Rock Slide",
+          "Gyro Ball",
+          "Hidden Power",
+          "Natural Gift",
+          "Rain Dance",
+          "Focus Punch",
+          "Drain Punch"
+        ],
+        "tmMoves3": [
+          "Thief",
+          "Snatch",
+          "Sunny Day",
+          "Flamethrower",
+          "Fire Blast",
+          "Shadow Ball",
+          "Bullet Seed",
+          "Giga Drain",
+          "Solar Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Toxic",
+          "Sludge Bomb",
+          "Light Screen",
+          "Reflect",
+          "Psychic",
+          "Skill Swap",
+          "Rest",
+          "Hidden Power",
+          "Rain Dance",
+          "Focus Punch"
+
+
+        ],
+        "tmMoves2": [
+          "Thief",
+          "Sunny Day",
+          "Fire Blast",
+          "Curse",
+          "Shadow Ball",
+          "Giga Dreain",
+          "Solar Beam",
+          "Mud Slap",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Defense Curl",
+          "Toxic",
+          "Sludge Bomb",
+          "Psychic",
+          "Dream Eater",
+          "Rollout",
+          "Hidden Power",
+          "Rain Dance",
+          "Rock Smash",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Dynamic Punch"
+
+        ],
+        "tmMoves1": [
+          "Fire Blast",
+          "Mega Drain",
+          "Solar Beam",
+          "Body Slam",
+          "Take Down",
+          "Double Edge",
+          "Double Team",
+          "Mimic",
+          "Bide",
+          "Metronome",
+          "Swift",
+          "Explosion",
+          "Self-Destruct",
+          "Substitute",
+          "Toxic",
+          "Reflect",
+          "Rock Slide",
+          "Mega Punch"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "FlashFire"
+        ]
+      },
+      "battleStats": {
+        "hp": 77,
+        "attack": 99,
+        "defense": 122,
+        "specialAttack": 44,
+        "specialDefense": 77,
+        "speed": 77
+      }
+    },
+    {
+      "name":"JackOLanternSmall",
+      "moves":{"levelUpMoves":[{"level":0,"attacks":["Astonish","Confuse Ray","Explosion","Moonblast","Shadow Sneak","Trick-or-Treat"]},{"level":2,"attacks":["Rock Smash"]},{"level":4,"attacks":["Shadow Sneak","Ember"]},{"level":8,"attacks":["Confuse Ray","Flash"]},{"level":10,"attacks":["Bulk Up"]},{"level":12,"attacks":["Razor Leaf","Trick-or-Treat"]},{"level":16,"attacks":["Leech Seed","Will-O-Wisp"]},{"level":18,"attacks":["Seismic Toss"]},{"level":20,"attacks":["Bullet Seed","Flame Charge"]},{"level":24,"attacks":["Scary Face","Trick-or-Treat"]},{"level":26,"attacks":["Rolling Kick"]},{"level":28,"attacks":["Worry Seed","Flame Wheel"]},{"level":32,"attacks":["Seed Bomb","Incinerate"]},{"level":34,"attacks":["Drain Punch"]},{"level":36,"attacks":["Shadow Ball","Trick-or-Treat"]},{"level":40,"attacks":["Trick","Facade"]},{"level":42,"attacks":["Wake-Up Slap"]},{"level":44,"attacks":["Pain Split","Fire Lash"]},{"level":48,"attacks":["Phantom Force","Flare Blitz"]},{"level":52,"attacks":["Shadow Punch"]},{"level":56,"attacks":["Heat Crash"]},{"level":62,"attacks":["Body Press"]}],"tutorMoves":["Grassy Glide","Poltergeist","Skitter Smack"],"eggMoves":["Curse","Destiny Bond","Disable","Night Slash"],"tmMoves9":["Thief","Dark Pulse","Charge Beam","Eerie Impulse","Brick Break","Flame Charge","Sunny Day","Will-O-Wisp","Flamethrower","Fire Blast","Flare Blitz","Confuse Ray","Shadow Ball","Phantom Force","Trailblaze","Bullet Seed","Seed Bomb","Grass Knot","Giga Drain","Energy Ball","Grassy Terrain","Frenzy Plant","Mud-Slap","Mud Shot","Spikes","Take Down","Protect","Scary Face","Facade","Body Slam","Substitute","Metronome","Baton Pass","Giga Impact","Tera Blast","Sludge Bomb","Reflect","Light Screen","Rest","Skill Swap","Trick","Amnesia","Psychic","Trick Room","Rock Slide","Heavy Slam","Rain Dance","Thunder Punch","Fire Punch","Ice Punch","Drain Punch"],"tmMoves8":["Hyper Beam","Giga Impact","Solar Beam","Light Screen","Safeguard","Rest","Rock Slide","Thief","Snore","Protect","Scary Face","Giga Drain","Attract","Sunny Day","Will-O-Wisp","Facade","Imprison","Bullet Seed","Trick Room","Round","Hex","Phantom Force","Mystical Fire","Brutal Swing","Thunder Punch","Fire Punch","Ice Punch","Drain Punch","Mega Punch"],"trMoves":["Flamethrower","Psychic","Fire Blast","Substitute","Sludge Bomb","Endure","Sleep Talk","Shadow Ball","Trick","Skill Swap","Gyro Ball","Dark Pulse","Seed Bomb","Focus Blast","Energy Ball","Nasty Plot","Power Whip","Grass Knot","Foul Play","Ally Switch"],"hmMoves":[],"transferMoves":["Bestow","Charge Beam","Confide","Double Team","Dream Eater","Flame Charge","Flash","Frustration","Hidden Power","Incinerate","Magic Coat","Nature Power","Return","Rock Smash","Role Play","Secret Power","Spite","Swagger","Synthesis","Telekinesis","Toxic"],"tmMoves7":["Toxic","Hidden Power","Sunny Day","Hyper Beam","Light Screen","Protect","Safeguard","Frustration","Solar Beam","Return","Psychic","Shadow Ball","Double Team","Flamethrower","Sludge Bomb","Fire Blast","Facade","Flame Charge","Rest","Attract","Thief","Round","Focus Blast","Energy Ball","Charge Beam","Will-O-Wisp","Explosion","Giga Impact","Gyro Ball","Rock Slide","Dream Eater","Grass Knot","Swagger","Sleep Talk","Substitute","Trick Room","Nature Power","Dark Pulse","Confide"],"tmMoves6":["Toxic","Hidden Power","Sunny Day","Hyper Beam","Light Screen","Protect","Safeguard","Frustration","Solar Beam","Return","Psychic","Shadow Ball","Double Team","Flamethrower","Sludge Bomb","Fire Blast","Facade","Flame Charge","Rest","Attract","Thief","Round","Focus Blast","Energy Ball","Charge Beam","Incinerate","Will-O-Wisp","Explosion","Giga Impact","Flash","Gyro Ball","Rock Slide","Dream Eater","Grass Knot","Swagger","Sleep Talk","Substitute","Trick Room","Secret Power","Nature Power","Dark Pulse","Confide","Power-Up Punch"],"tmMoves5":["Thief","Rock Smash","Sunny Day","Flamethrower","Fire Blast","Flame Charge","Incinerate","Will-O-Wisp","Shadow Ball","Solar Beam","Grass Knot","Protect","Safeguard","Frustration","Return","Double Team","Facade","Round","Explosion","Flash","Swagger","Substitute","Toxic","Sludge Wave","Sludge Bomb","Light Screen","Telekinesis","Psychic","Reflect","Dream Eater","Trick Rom","Smack Down","Rock Slide","Gyro Ball","Hidden Power"],"tmMoves4":["Thief","Snatch","Dark Pulse","Sunny Day","Flamethrower","Fire Blast","Will-O-Wisp","Shadow Ball","Bullet Seed","Giga Drain","Solar Beam","Grass Knot","Toxic","Sludge Bomb","Light Screen","Psychic","Reflect","Skill Swap","Dream Eater","Trick Room","Rock Slide","Gyro Ball","Hidden Power","Natural Gift","Rain Dance","Focus Punch","Drain Punch"],"tmMoves3":["Thief","Snatch","Sunny Day","Flamethrower","Fire Blast","Shadow Ball","Bullet Seed","Giga Drain","Solar Beam","Protect","Safeguard","Frustration","Return","Double Team","Facade","Secret Power","Toxic","Sludge Bomb","Light Screen","Reflect","Psychic","Skill Swap","Rest","Hidden Power","Rain Dance","Focus Punch"],"tmMoves2":["Thief","Sunny Day","Fire Blast","Curse","Shadow Ball","Giga Dreain","Solar Beam","Mud Slap","Protect","Frustration","Return","Double Team","Swagger","Sleep Talk","Substitute","Defense Curl","Toxic","Sludge Bomb","Psychic","Dream Eater","Rollout","Hidden Power","Rain Dance","Rock Smash","Thunder Punch","Fire Punch","Ice Punch","Dynamic Punch"],"tmMoves1":["Fire Blast","Mega Drain","Solar Beam","Body Slam","Take Down","Double Edge","Double Team","Mimic","Bide","Metronome","Swift","Explosion","Self-Destruct","Substitute","Toxic","Reflect","Rock Slide","Mega Punch"],"tmMoves":[]},
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "FlashFire"
+        ]
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 99,
+        "defense": 122,
+        "specialAttack": 44,
+        "specialDefense": 77,
+        "speed": 99
+      },
+      "weight": 9.5
+    },
+    {
+      "name":"JackOLanternBig",
+      "moves":{"levelUpMoves":[{"level":0,"attacks":["Astonish","Confuse Ray","Explosion","Moonblast","Shadow Sneak","Trick-or-Treat"]},{"level":2,"attacks":["Rock Smash"]},{"level":4,"attacks":["Shadow Sneak","Ember"]},{"level":8,"attacks":["Confuse Ray","Flash"]},{"level":10,"attacks":["Bulk Up"]},{"level":12,"attacks":["Razor Leaf","Trick-or-Treat"]},{"level":16,"attacks":["Leech Seed","Will-O-Wisp"]},{"level":18,"attacks":["Seismic Toss"]},{"level":20,"attacks":["Bullet Seed","Flame Charge"]},{"level":24,"attacks":["Scary Face","Trick-or-Treat"]},{"level":26,"attacks":["Rolling Kick"]},{"level":28,"attacks":["Worry Seed","Flame Wheel"]},{"level":32,"attacks":["Seed Bomb","Incinerate"]},{"level":34,"attacks":["Drain Punch"]},{"level":36,"attacks":["Shadow Ball","Trick-or-Treat"]},{"level":40,"attacks":["Trick","Facade"]},{"level":42,"attacks":["Wake-Up Slap"]},{"level":44,"attacks":["Pain Split","Fire Lash"]},{"level":48,"attacks":["Phantom Force","Flare Blitz"]},{"level":52,"attacks":["Shadow Punch"]},{"level":56,"attacks":["Heat Crash"]},{"level":62,"attacks":["Body Press"]}],"tutorMoves":["Grassy Glide","Poltergeist","Skitter Smack"],"eggMoves":["Curse","Destiny Bond","Disable","Night Slash"],"tmMoves9":["Thief","Dark Pulse","Charge Beam","Eerie Impulse","Brick Break","Flame Charge","Sunny Day","Will-O-Wisp","Flamethrower","Fire Blast","Flare Blitz","Confuse Ray","Shadow Ball","Phantom Force","Trailblaze","Bullet Seed","Seed Bomb","Grass Knot","Giga Drain","Energy Ball","Grassy Terrain","Frenzy Plant","Mud-Slap","Mud Shot","Spikes","Take Down","Protect","Scary Face","Facade","Body Slam","Substitute","Metronome","Baton Pass","Giga Impact","Tera Blast","Sludge Bomb","Reflect","Light Screen","Rest","Skill Swap","Trick","Amnesia","Psychic","Trick Room","Rock Slide","Heavy Slam","Rain Dance","Thunder Punch","Fire Punch","Ice Punch","Drain Punch"],"tmMoves8":["Hyper Beam","Giga Impact","Solar Beam","Light Screen","Safeguard","Rest","Rock Slide","Thief","Snore","Protect","Scary Face","Giga Drain","Attract","Sunny Day","Will-O-Wisp","Facade","Imprison","Bullet Seed","Trick Room","Round","Hex","Phantom Force","Mystical Fire","Brutal Swing","Thunder Punch","Fire Punch","Ice Punch","Drain Punch","Mega Punch"],"trMoves":["Flamethrower","Psychic","Fire Blast","Substitute","Sludge Bomb","Endure","Sleep Talk","Shadow Ball","Trick","Skill Swap","Gyro Ball","Dark Pulse","Seed Bomb","Focus Blast","Energy Ball","Nasty Plot","Power Whip","Grass Knot","Foul Play","Ally Switch"],"hmMoves":[],"transferMoves":["Bestow","Charge Beam","Confide","Double Team","Dream Eater","Flame Charge","Flash","Frustration","Hidden Power","Incinerate","Magic Coat","Nature Power","Return","Rock Smash","Role Play","Secret Power","Spite","Swagger","Synthesis","Telekinesis","Toxic"],"tmMoves7":["Toxic","Hidden Power","Sunny Day","Hyper Beam","Light Screen","Protect","Safeguard","Frustration","Solar Beam","Return","Psychic","Shadow Ball","Double Team","Flamethrower","Sludge Bomb","Fire Blast","Facade","Flame Charge","Rest","Attract","Thief","Round","Focus Blast","Energy Ball","Charge Beam","Will-O-Wisp","Explosion","Giga Impact","Gyro Ball","Rock Slide","Dream Eater","Grass Knot","Swagger","Sleep Talk","Substitute","Trick Room","Nature Power","Dark Pulse","Confide"],"tmMoves6":["Toxic","Hidden Power","Sunny Day","Hyper Beam","Light Screen","Protect","Safeguard","Frustration","Solar Beam","Return","Psychic","Shadow Ball","Double Team","Flamethrower","Sludge Bomb","Fire Blast","Facade","Flame Charge","Rest","Attract","Thief","Round","Focus Blast","Energy Ball","Charge Beam","Incinerate","Will-O-Wisp","Explosion","Giga Impact","Flash","Gyro Ball","Rock Slide","Dream Eater","Grass Knot","Swagger","Sleep Talk","Substitute","Trick Room","Secret Power","Nature Power","Dark Pulse","Confide","Power-Up Punch"],"tmMoves5":["Thief","Rock Smash","Sunny Day","Flamethrower","Fire Blast","Flame Charge","Incinerate","Will-O-Wisp","Shadow Ball","Solar Beam","Grass Knot","Protect","Safeguard","Frustration","Return","Double Team","Facade","Round","Explosion","Flash","Swagger","Substitute","Toxic","Sludge Wave","Sludge Bomb","Light Screen","Telekinesis","Psychic","Reflect","Dream Eater","Trick Rom","Smack Down","Rock Slide","Gyro Ball","Hidden Power"],"tmMoves4":["Thief","Snatch","Dark Pulse","Sunny Day","Flamethrower","Fire Blast","Will-O-Wisp","Shadow Ball","Bullet Seed","Giga Drain","Solar Beam","Grass Knot","Toxic","Sludge Bomb","Light Screen","Psychic","Reflect","Skill Swap","Dream Eater","Trick Room","Rock Slide","Gyro Ball","Hidden Power","Natural Gift","Rain Dance","Focus Punch","Drain Punch"],"tmMoves3":["Thief","Snatch","Sunny Day","Flamethrower","Fire Blast","Shadow Ball","Bullet Seed","Giga Drain","Solar Beam","Protect","Safeguard","Frustration","Return","Double Team","Facade","Secret Power","Toxic","Sludge Bomb","Light Screen","Reflect","Psychic","Skill Swap","Rest","Hidden Power","Rain Dance","Focus Punch"],"tmMoves2":["Thief","Sunny Day","Fire Blast","Curse","Shadow Ball","Giga Dreain","Solar Beam","Mud Slap","Protect","Frustration","Return","Double Team","Swagger","Sleep Talk","Substitute","Defense Curl","Toxic","Sludge Bomb","Psychic","Dream Eater","Rollout","Hidden Power","Rain Dance","Rock Smash","Thunder Punch","Fire Punch","Ice Punch","Dynamic Punch"],"tmMoves1":["Fire Blast","Mega Drain","Solar Beam","Body Slam","Take Down","Double Edge","Double Team","Mimic","Bide","Metronome","Swift","Explosion","Self-Destruct","Substitute","Toxic","Reflect","Rock Slide","Mega Punch"],"tmMoves":[]},
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "FlashFire"
+        ]
+      },
+      "battleStats": {
+        "hp": 99,
+        "attack": 99,
+        "defense": 122,
+        "specialAttack": 44,
+        "specialDefense": 77,
+        "speed": 55
+      },
+      "weight": 1000
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,274 @@
+{
+  "id": "Duskull",
+  "spawnInfos": [
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 6,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+               "DUSK",
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 6,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+    "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+               "DUSK",
+              "NIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:wooded_badlands_plateau",
+          "minecraft:badlands_plateau",
+          "evil",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley"
+        ]
+      },
+      "rarity": 160.0
+    },
+     {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+          "byg:warped_desert",
+          "byg:subzero_hypogeal",
+          "byg:sythian_torrids",
+          "byg:brimstone_caverns",
+          "byg:quartz_desert",
+          "byg:withering_woods"
+        ]
+      },
+      "rarity": 120.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:withered_abyss",
+          "byg:warped_desert",
+          "byg:subzero_hypogeal",
+          "byg:sythian_torrids",
+          "byg:brimstone_caverns",
+          "byg:quartz_desert",
+          "byg:withering_woods"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Duskull",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

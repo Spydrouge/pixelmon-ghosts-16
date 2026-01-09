@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixelmon:ever_stone"
+    }
+  ],
+  "result": {
+    "item": "byg:cobbled_ether_stone",
+    "count": 1
+  }
+}

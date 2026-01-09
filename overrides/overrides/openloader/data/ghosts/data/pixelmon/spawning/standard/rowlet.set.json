@@ -1,0 +1,102 @@
+{
+  "id": "Rowlet",
+  "spawnInfos": [
+    {
+      "spec": "species:Rowlet",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Indoors"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DUSK",
+          "DAWN"
+        ],
+        "maxY": 192,
+        "minY": 160,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Rowlet",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Rowlet",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Rowlet",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Rowlet",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

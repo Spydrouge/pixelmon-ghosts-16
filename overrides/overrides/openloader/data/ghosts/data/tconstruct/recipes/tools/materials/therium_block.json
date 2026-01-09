@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": [
+    {
+      "item": "byg:therium_block"
+    },
+    {
+      "item": "byg:chiseled_therium"
+    }
+  ],
+  "value": 4,
+  "needed": 1,
+  "material": "tconstruct:therium"
+}

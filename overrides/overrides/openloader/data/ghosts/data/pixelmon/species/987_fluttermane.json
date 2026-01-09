@@ -1,0 +1,786 @@
+{
+  "name": "FlutterMane",
+  "dex": 987,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.1,
+        "length": 1.1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confuse Ray",
+              "Spite"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Wish"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Mystical Fire"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Perish Song"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Sunny Day"
+        ],
+        "tmMoves9": [
+          "Charm",
+          "Fake Tears",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Disarming Voice",
+          "Charge Beam",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Icy Wind",
+          "Draining Kiss",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Psyshock",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Power Gem",
+          "Substitute",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Energy Ball",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Misty Terrain",
+          "Phantom Force",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast",
+          "Spite",
+          "Poltergeist",
+          "Pain Split"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Sunny Day"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 55,
+        "specialAttack": 135,
+        "specialDefense": 135,
+        "speed": 135
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/987_fluttermane/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/987_fluttermane/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/987_fluttermane/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.fluttermane"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/987_fluttermane/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/987_fluttermane/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "FAIRY"
+      ],
+      "preEvolutions": ["Misdreavus"],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 4.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 1,
+        "speed": 1,
+        "specialDefense": 1
+      }
+    },
+     {
+      "name": "retrograde",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.1,
+        "length": 1.1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confuse Ray",
+              "Spite"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Psybeam",
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Mean Look",
+              "Astonish"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Memento",
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Wish",
+              "Hex"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dazzling Gleam",
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Shadow Ball",
+              "Payback"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Mystical Fire",
+              "Perish Song"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Power Gem",
+              "Grudge"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Moonblast"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Foul Play",
+          "Heal Bell",
+          "Hyper Voice",
+          "Icy Wind",
+          "Magic Coat",
+          "Magic Room",
+          "Pain Split",
+          "Shock Wave",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Telekinesis",
+          "Trick",
+          "Uproar",
+          "Wonder Room"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Destiny Bond",
+          "Imprison",
+          "Me First",
+          "Memento",
+          "Nasty Plot",
+          "Ominous Wind",
+          "Screech",
+          "Shadow Sneak",
+          "Skill Swap",
+          "Spite",
+          "Sucker Punch",
+          "Wonder Room",
+          "Sunny Day"
+        ],
+             
+        "tmMoves9": [
+          "Charm",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Disarming Voice",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Icy Wind",
+          "Draining Kiss",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Snowscape",
+          "Psyshock",
+          "Foul Play",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Imprison",
+          "Dark Pulse",
+          "Power Gem",
+          "Substitute",
+          "Will-O-Wisp",
+          "Trick",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Nasty Plot",
+          "Misty Terrain",
+          "Phantom Force",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast",
+          "Spite",
+          "Burning Jealousy",
+          "Poltergeist",
+          "Pain Split",
+          "Psych Up",
+          "Future Sight",
+          "Curse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Sunny Day",
+          "Captivate",
+          "Defense Curl",
+          "Double-Edge",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Inferno",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Secret Power",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Charge Beam",
+          "Endure",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Dream Eater",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 55,
+        "specialAttack": 135,
+        "specialDefense": 135,
+        "speed": 135
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/987_fluttermane/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/987_fluttermane/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/987_fluttermane/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.fluttermane"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/987_fluttermane/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/987_fluttermane/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "FAIRY"
+      ],
+      "preEvolutions": ["Misdreavus"],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 4.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 1,
+        "speed": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 9
+}

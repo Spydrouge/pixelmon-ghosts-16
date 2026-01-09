@@ -1,0 +1,7861 @@
+{
+	id: "1BF149092183C72D"
+	group: "5FC8A49184E12989"
+	order_index: 0
+	filename: "repeatable_quests"
+	title: "Offering to Arceus"
+	icon: "pixelmon:incense_burner"
+	subtitle: ["Repeatable quests for items and eggs"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Offerings for Eggs"
+			description: [
+				"&dIncense&r can be offered to Arceus, and may lead to the miraculous appearance of a Pokemon &aegg!&r"
+				""
+				"To make an incense, you will need to place an &6Incense Burner &rand three &9special berries&r of a single type into an Infuser."
+				""
+				"Reference this Questline to see what berries produce which incenses."
+				""
+				"Eggs rcan only be hatched by walking around in the world. You can walk in between foraging and other tasks to promote growth."
+				""
+				"You think you can made new &6Incrense Burners&r using ghast tears, skulls, and deathbloom. Check the recipes in the JEI."
+			]
+			hide: true
+			secret: true
+			id: "2003FDACA2AA72A4"
+			tasks: [{
+				id: "4E74984DC5982534"
+				type: "item"
+				item: "pixelmon:incense_burner"
+			}]
+			rewards: [
+				{
+					id: "7F336FF08F7CCAB8"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "1D66C958A1F55C1D"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+			]
+		}
+		{
+			icon: "pixelmon:magost_berry"
+			x: -0.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bMagost Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aWave Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "708068A11CAAA084"
+			tasks: [{
+				id: "4C43FC0E631215CA"
+				type: "item"
+				item: "pixelmon:wave_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10D4501E773FEFD5"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				auto: "disabled"
+				command: "/pokegive @p Azurill untradeable iv_atk:31 iv_spatk:31 iv_spd:31 ab:SapSipper egg ball:cherish_ball move1:belly_drum move2:aqua_jet move3:soak move4:perish_song"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:spelon_berry"
+			x: 1.0d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bSpelon Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aRock Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6C65838AA698E89E"
+			tasks: [{
+				id: "0AFBC7BA637C0914"
+				type: "item"
+				item: "pixelmon:rock_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "535CA1A768749A18"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Bonsly shiny untradeable iv_hp:31 iv_atk:31 iv_def:31 iv_spd:31 iv_spatk:31 iv_spdef:31 ev_spdef:50 ev_atk:50 egg ball:cherish_ball move1:curse move2:headbutt move3:rollout move4:copycat"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:watmel_berry"
+			x: 1.5d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bWatmel Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aSea Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "569087313063044E"
+			tasks: [{
+				id: "58FA91D70816FD3D"
+				type: "item"
+				item: "pixelmon:sea_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "779EA98167AFB63A"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Mantyke untradeable n:calm ab:WaterVeil egg ball:cherish_ball iv_def:31 iv_spdef:31 iv_hp:31 move1:confuse_ray move2:water_gun move3:tailwind move4:haze"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:rabuta_berry"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bRebuta Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aRose Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7E182218245068D3"
+			tasks: [{
+				id: "499BF71141784B52"
+				type: "item"
+				item: "pixelmon:rose_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4B677C2778D9FF2F"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Budew untradeable egg sp_atk:31 n:modest ball:cherish_ball move1:worry_seed move2:extrasensory move3:sleep_powder move4:life_dew"
+				player_command: false
+			}]
+		}
+		{
+			title: "Offer Odd Incense"
+			icon: "pixelmon:belue_berry"
+			x: 1.0d
+			y: 1.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bBelue Berries&r with a &eIncense Burner&r in an &bInfuser&r to make an &aOdd Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "402F6465281560F7"
+			tasks: [{
+				id: "5BCB536CC5FA7B2B"
+				type: "item"
+				item: "pixelmon:odd_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A0821A7A2C9B901"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p MimeJr untradeable iv_hp:31 iv_spdef:31 n:calm egg ball:cherish_ball move1:power_split move2:fake_out move3:confuse_ray move4:copycat"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:nomel_berry"
+			x: -2.0d
+			y: 1.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bNomel Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aPure Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "43F51A9C1CFA834D"
+			tasks: [{
+				id: "08E4B5922B472F68"
+				type: "item"
+				item: "pixelmon:pure_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "307DBB26803BEB3A"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Chingling untradeable n:timid ab:superluck shiny iv_hp:31 iv_atk:31 iv_def:31 iv_spatk:31 iv_spdef:31 iv_spd:31 egg ball:cherish_ball move1:stored_power move2:cosmic_power move3:skill_swap move4:recover"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:durin_berry"
+			x: -2.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bDurin Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aFull Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4376D71DA3660C19"
+			tasks: [{
+				id: "10631BD363D8C589"
+				type: "item"
+				item: "pixelmon:full_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73B637C587A640A5"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Munchlax untradeable iv_hp:31 egg ball:cherish_ball move1:lick move2:tackle move3:belch"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:pamtre_berry"
+			x: -2.5d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bPamtre Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aLuck Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6D81ADF56E6F895D"
+			tasks: [{
+				id: "347B8C836DC3426C"
+				type: "item"
+				item: "pixelmon:luck_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F416544D8497D75"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Happiny untradeable egg ball:cherish_ball iv_def:31 move1:copycat move2:minimize move3:seismic_toss move3:gravity"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:cornn_berry"
+			x: -2.0d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "Incense Brings New Life"
+			description: ["You can combine 3 &bCornn Berries&r with a &eIncense Burner&r in an &bInfuser&r to make a &aLax Incense&r"]
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4493914323547D3B"
+			tasks: [{
+				id: "14A982426CB3103C"
+				type: "item"
+				item: "pixelmon:lax_incense"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0C2CCDFE02590A11"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Wynaut untradeable egg ball:cherish_ball ab:Telepathy iv_hp:31 iv_spdef:31 iv_def:31 iv_spd:31 iv_atk:0 iv_spatk:0 move1:amnesia move2:counter move3:destiny_bond move4:tickle"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:shed_shell"
+			x: -0.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "Pray to find another egg in a Shed Shell"
+			description: ["It appears that Shedinja have mysterious begun procreating, or perhaps rising from the ashes like a Phoenix."]
+			dependencies: ["50CA105AAB978921"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "52BF4D33946465A1"
+			tasks: [
+				{
+					id: "56F4AFFF256B0C8B"
+					type: "item"
+					item: "pixelmon:shed_shell"
+					consume_items: true
+				}
+				{
+					id: "124A0D3FC61724F5"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "56A16271BBCFF973"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Nincada egg ball:premier_ball iv_spd:31 iv_atk:31 n:jolly move1:scratch move2:sand_attack move3:bug_bite"
+				player_command: false
+			}]
+		}
+		{
+			title: "Evolutionary Eves"
+			x: -8.5d
+			y: -0.5d
+			description: [
+				"You have found your first shard of an evolutionary stone, and immediatley you had a vision from Arceus!"
+				""
+				"Arceus wants you to respect the power of &5Death&r and &bChange&r."
+				""
+				"If you offer him the &5remains&r of the departed and one &bShard&r from an Evolutionary Stone up to Arceus, he will bless you with a corresponding baby pokemon &aegg&r"
+				""
+				"(Pokemon claimed through this quest will always be the same gender, and may share other things like nature, stats, or ablities. They are typically not tradeable.)"
+			]
+			hide: true
+			secret: true
+			id: "5DD5BF266D98926B"
+			tasks: [{
+				id: "55E0B77CDEA71609"
+				type: "item"
+				title: "Any #ghosts:evo_stone_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:evo_stone_shards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "554466710E92DA37"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "6CA796698147D65B"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+			]
+		}
+		{
+			icon: "pixelmon:dusk_stone"
+			x: -7.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from a Dusk Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "75411DBA54BBB705"
+			tasks: [
+				{
+					id: "60B0E16085DFE907"
+					type: "item"
+					item: "pixelmon:dusk_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "722652E2F0978AC0"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "609FD598D83B8A65"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Litwick ab:Infiltrator egg ball:cherish_ball iv_spd:31 n:timid g:female untradeable move1:clear_smog move2:acid_armor move3:smog move4:astonish"
+				player_command: false
+			}]
+		}
+		{
+			title: "Offerings for One Time Use Items"
+			disable_toast: true
+			x: -0.5d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide: true
+			secret: true
+			id: "587C2FF777BFD574"
+			tasks: [{
+				id: "4F087E7D72962BCD"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C52B2101924F996"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "pixelmon:power_herb"
+			x: -2.5d
+			y: -8.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Muscle herbs are single use items that let Pokemon skip the charging turn of a move."
+				""
+				"Power Herbs can also rarely be held by wild members of the Seedot family. They may be stolen from them, or may drop naturally from Nuzleaf or Shiftry."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "725158796BFAB4D1"
+			tasks: [
+				{
+					id: "605D54A9CA177846"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "6395ACC21AC31E73"
+					type: "item"
+					item: "minecraft:sunflower"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "11F849832730FCAE"
+				type: "item"
+				icon: "pixelmon:power_herb"
+				item: "pixelmon:power_herb"
+				count: 5
+			}]
+		}
+		{
+			title: "Mental Herb"
+			icon: "pixelmon:mental_herb"
+			x: -3.0d
+			y: -7.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Mental herbs are single-use held items that can prevent certain volatile statuses, which can be useful against certain bosses."
+				""
+				"Mental Herbs can also rarely be held by wild Swadloon and Sewaddle, and you will need to use a move to steal it from them."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2F7FB933D8D00B07"
+			tasks: [
+				{
+					id: "46349814FA8F7E6E"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "09D040DFCACC2777"
+					type: "item"
+					item: "inspirations:heartbeet"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2862F13C0E40E1FF"
+				type: "item"
+				item: "pixelmon:mental_herb"
+				count: 5
+			}]
+		}
+		{
+			title: "White Herb"
+			icon: "pixelmon:white_herb"
+			x: -2.5d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: ["White herbs are single-use held items that can prevent stat drops, which can be useful against certain bosses."]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "008B5C1BC71EFC40"
+			tasks: [
+				{
+					id: "5CD9F7C2A629CEF3"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "364203A2B937FBFA"
+					type: "item"
+					item: "minecraft:white_dye"
+				}
+			]
+			rewards: [{
+				id: "36941BD158596D9F"
+				type: "item"
+				item: "pixelmon:white_herb"
+				count: 5
+			}]
+		}
+		{
+			title: "Battery Cell"
+			icon: "pixelmon:cell_battery"
+			x: -0.5d
+			y: -5.0d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: ["This item can be harvested from wild Rotom, Klang, and Klinklang, but you can also assemble it with a bit of rubbish."]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "41F6AC911D9A4BC1"
+			tasks: [
+				{
+					id: "19C8A4F5DB219B73"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "3976759C5AB9157C"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					consume_items: true
+				}
+				{
+					id: "03C4379419B30FCB"
+					type: "item"
+					item: "minecraft:redstone"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "667870C00C932A95"
+				type: "item"
+				item: "pixelmon:cell_battery"
+				count: 5
+			}]
+		}
+		{
+			title: "Iron Ball"
+			icon: "pixelmon:iron_ball"
+			x: -0.5d
+			y: -10.0d
+			shape: "circle"
+			subtitle: "Bombs Away!"
+			description: [
+				"Iron Balls turn the move Fling into a &a130BP&r single use dark physical attacking move. This can be valuable on Pokemon who need to hit very, very hard, and may only have a single turn to do it. "
+				""
+				"Some Pokemon like Drifloon with Unburden, benefit from losing an item in combat. Others, like Snorlax, can couple it with Last Resort or Crunch."
+				""
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0176883FB57EFC1A"
+			tasks: [
+				{
+					id: "02679B2A272516C0"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "5256FD85AD51DDA5"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "70BEE963A2F319A8"
+				type: "item"
+				item: "pixelmon:iron_ball"
+				count: 5
+			}]
+		}
+		{
+			icon: "pixelmon:luminous_moss"
+			x: 0.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Single use item that boosts special defense if hit by a water attack."
+				""
+				"Luminous moss can also be farmed in the wild off Corsola and Bonsly."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0AF21B88AE2D144A"
+			tasks: [
+				{
+					id: "548E846C697D360D"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "7A18D8EE2C31311D"
+					type: "item"
+					item: "biomesoplenty:spanish_moss"
+				}
+			]
+			rewards: [{
+				id: "3F9EB215358BF6AA"
+				type: "item"
+				item: "pixelmon:luminous_moss"
+				count: 5
+			}]
+		}
+		{
+			title: "Weakness Policy"
+			icon: "pixelmon:weakness_policy"
+			x: 1.5d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"These policies were created by people, so it stands to reason you can do it. You roll up your sleeves and put your 12-year-old mind hard to work writing contract law..."
+				""
+				"Single use item that benefits Pokemon hit by a super-effective move."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5034EB8E67520061"
+			tasks: [
+				{
+					id: "557BEB7A982A594C"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "4C4BB78A9C314B99"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "7EB020E1F91A694D"
+					type: "item"
+					item: "minecraft:writable_book"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "461481DA6BC45C8C"
+				type: "item"
+				item: "pixelmon:weakness_policy"
+				count: 5
+			}]
+		}
+		{
+			title: "Focus Sash"
+			icon: "pixelmon:focus_sash"
+			x: 2.0d
+			y: -7.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: ["To your parents, the Focus Sash was a vital item for taking down difficult bosses. You believe you remember how to knit one, but you might need a little magical help for it to actually be any good..."]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "55442ED22A550973"
+			tasks: [
+				{
+					id: "3BA0A8B6BCC99EB8"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "6415EE6CAA7F8BA6"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "4306E26768B62E1E"
+					type: "item"
+					item: "botania:mana_string"
+					consume_items: true
+				}
+				{
+					id: "47F51269C40AFC23"
+					type: "item"
+					item: "minecraft:stick"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "5C062CB68E1810AD"
+				type: "item"
+				item: "pixelmon:focus_sash"
+				count: 5
+			}]
+		}
+		{
+			title: "Blunder Policy"
+			icon: "pixelmon:blunder_policy"
+			x: 1.5d
+			y: -8.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"These policies were created by people, so it stands to reason you can do it. You roll up your sleeves and put your 12-year-old mind hard to work writing contract law..."
+				""
+				"Single use item that benefits pokemon with inaccurate moves."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "1BE78DF56B79FB22"
+			tasks: [
+				{
+					id: "3DE1A7111106EE60"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "4B7B98A977D8E7C9"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "0C5501B4F4F7DE98"
+					type: "item"
+					item: "minecraft:writable_book"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27B1627B4DEC015D"
+				type: "item"
+				item: "pixelmon:blunder_policy"
+				count: 5
+			}]
+		}
+		{
+			title: "Offerings for Husbandry"
+			disable_toast: true
+			x: 7.5d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide: true
+			secret: true
+			id: "5AE3A8615EDE4B47"
+			tasks: [{
+				id: "6860B5200C018450"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+		}
+		{
+			icon: "pixelmon:silver_hourglass"
+			x: 5.0d
+			y: -7.5d
+			shape: "circle"
+			subtitle: "To hurry things along..."
+			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "374C7B514CCB1CEC"
+			tasks: [
+				{
+					id: "3FD59126FF34924B"
+					type: "item"
+					title: "Yellow Shards"
+					item: "pixelmon:yellow_shard"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "157549F463270352"
+					type: "item"
+					title: "Silver Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1FF0A5EF087C469D"
+					type: "item"
+					title: "Any sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:sand"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "408296176E1C086D"
+					type: "item"
+					title: "Any glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5BCB6C57CE90C27F"
+				type: "item"
+				item: "pixelmon:silver_hourglass"
+			}]
+		}
+		{
+			icon: "pixelmon:copper_hourglass"
+			x: 5.5d
+			y: -8.5d
+			shape: "circle"
+			subtitle: "To hurry things along..."
+			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "050929C9E0069C4D"
+			tasks: [
+				{
+					id: "52B63F453D941D7D"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "5CB8D39CBC30DCA9"
+					type: "item"
+					title: "Copper Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "453F5EDE1E3E9F50"
+					type: "item"
+					item: "minecraft:soul_sand"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1756C49AC70A15E4"
+				type: "item"
+				icon: "pixelmon:copper_hourglass"
+				item: "pixelmon:iron_ball"
+			}]
+		}
+		{
+			icon: "pixelmon:gold_hourglass"
+			x: 5.5d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "To hurry things along..."
+			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. Typically, it is used on the mate who is benefiting from the environment the least."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5580C0D0392D97BB"
+			tasks: [
+				{
+					id: "59B59B2916E93FEB"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5283F809D705374E"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					consume_items: true
+				}
+				{
+					id: "23118D70F443031B"
+					type: "item"
+					item: "byg:end_sand"
+					consume_items: true
+				}
+				{
+					id: "72E3ECFBD41A71D5"
+					type: "item"
+					item: "botania:hourglass"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "614CED9203B327F4"
+				type: "item"
+				item: "pixelmon:gold_hourglass"
+			}]
+		}
+		{
+			icon: "pixelmon:diamond_hourglass"
+			x: 6.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "To hurry things along..."
+			description: ["Hourglasses can be used to hurry along the progression of a mating Pokemon. This hourglass affects both Pokemon."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "677ED0D1060D61E8"
+			tasks: [
+				{
+					id: "550E761AC9217017"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "08E9313886F861B8"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "570684A7C7950F2C"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "51FC59432E703678"
+					type: "item"
+					item: "minecraft:diamond"
+					consume_items: true
+				}
+				{
+					id: "19F7F62EBB2D5A6B"
+					type: "item"
+					item: "pixelmon:ultra_desert_sand"
+					consume_items: true
+				}
+				{
+					id: "1EDF4B2734E16EC5"
+					type: "item"
+					item: "botania:hourglass"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "45F71A550AEA6782"
+				type: "item"
+				item: "pixelmon:diamond_hourglass"
+			}]
+		}
+		{
+			icon: {
+				id: "pixelmon:lens_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: -5.0d
+			shape: "circle"
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5591EAFDB125C2C2"
+			tasks: [
+				{
+					id: "0A9665EAC117A091"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "129E2CC65F42B127"
+					type: "item"
+					item: "astralsorcery:colored_lens_break"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3B3555CD3252F5D8"
+				type: "item"
+				item: {
+					id: "pixelmon:lens_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			icon: "pixelmon:lens_silver"
+			x: 8.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "To get a closer look..."
+			description: ["Lenses can be used to study the properties of a Pokemon before committing to catching them."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2ABDDBCFF4C84DCE"
+			tasks: [
+				{
+					id: "128368B542754948"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "32C28BA8932D4BD1"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "43144DE43CF3850C"
+				type: "item"
+				item: "pixelmon:lens_silver"
+				count: 5
+			}]
+		}
+		{
+			title: "Offerings for Evolutionary Items"
+			disable_toast: true
+			x: -8.5d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide: true
+			secret: true
+			id: "57278538BF47E89A"
+			tasks: [{
+				id: "11CB18C722CB3F62"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "529BF831F256514E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "pixelmon:protector"
+			x: -8.5d
+			y: -5.0d
+			shape: "circle"
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4DAB443208B87D6C"
+			tasks: [
+				{
+					id: "531D992FF50EABEF"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "08383CF63E76C8AF"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3E4F3BAB6A16B2A5"
+					type: "item"
+					item: "pixelmon:hard_stone"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7CC3DB3FB3CBEFB3"
+				type: "item"
+				item: "pixelmon:protector"
+			}]
+		}
+		{
+			icon: "pixelmon:magmarizer"
+			x: -1.5d
+			y: -12.5d
+			shape: "circle"
+			description: ["Magmar is a difficult Pokemon to evolve. You believe that if you can get ahold of it's famous 'Magmerizer', you can find a way to evolve it without trading."]
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "024C0A0E288FB8E8"
+			tasks: [
+				{
+					id: "673DD6816EC36504"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "47C741D2D0F90673"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "7F73EDEF842BD651"
+					type: "item"
+					item: "minecraft:magma_cream"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "7D6576EFAA427EA5"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "5CAA7C4E3E249AC2"
+				type: "item"
+				icon: "pixelmon:magmarizer"
+				item: "pixelmon:iron_ball"
+			}]
+		}
+		{
+			title: "Razor Fang"
+			icon: "pixelmon:razor_fang"
+			x: -10.5d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "In Search of Evolution..."
+			description: ["You would like a Razor Fang, useful for evolving Gligar. Perhaps offering something else related to Gligar will earn you such a gift?"]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6A64A61E6F45B3C7"
+			tasks: [
+				{
+					id: "23EDF147D4B37FC6"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "0C03A6314AED542B"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "117EA48051C7081F"
+					type: "item"
+					item: "pixelmon:quick_claw"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4B346C6F87D6FCD3"
+				type: "item"
+				icon: "pixelmon:razor_fang"
+				item: "pixelmon:iron_ball"
+			}]
+		}
+		{
+			icon: "pixelmon:ice_rock"
+			x: -9.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "In Search of Evolution..."
+			description: ["Perhaps if you are able to gather an Ice Stone, you will find some way of transmuting it into an Icy Rock..."]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5288D425AFD1E44C"
+			tasks: [
+				{
+					id: "1A242277D373A489"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "50DC9B8EEA2D7FCF"
+					type: "item"
+					item: "pixelmon:ice_stone"
+					consume_items: true
+				}
+				{
+					id: "47B7FC1E975F20FB"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2EED1FEE067CB766"
+				type: "item"
+				item: "pixelmon:ice_rock"
+			}]
+		}
+		{
+			icon: "pixelmon:porygon_head"
+			x: -0.5d
+			y: -11.5d
+			shape: "circle"
+			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "29E5A8E09B554AFB"
+			tasks: [
+				{
+					id: "2C42C5604B4D4972"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "5F5B58B3321559FC"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "093E66F0EE852CD0"
+					type: "item"
+					item: "pixelmon:silicon_block"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "57249D99A325DD0F"
+				type: "item"
+				item: "pixelmon:porygon_head"
+			}]
+		}
+		{
+			icon: "pixelmon:moss_rock"
+			x: -7.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "In Search of Evolution..."
+			description: ["Perhaps if you are able to secure a Leaf Stone, you will find some way of transmuting it into a Mossy Rock."]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7571B73E1FEAA780"
+			tasks: [
+				{
+					id: "563709994D6DA19A"
+					type: "item"
+					item: "pixelmon:leaf_stone"
+					consume_items: true
+				}
+				{
+					id: "76F95B9F6FFC8E22"
+					type: "item"
+					item: "pixelmon:green_shard"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "22B7BE191F857A60"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "62562ED9E5D460AF"
+				type: "item"
+				item: "pixelmon:moss_rock"
+			}]
+		}
+		{
+			icon: "pixelmon:oval_stone"
+			x: -10.5d
+			y: -8.5d
+			shape: "circle"
+			subtitle: "In Search of Evolution..."
+			description: [
+				"Graveler, Geodude, Roggenrola, Boldore, and Gigalith all have a 5% chance of holding an everstone. You will need to teach a Pokemon \"Thief,\" \"Covet,\" or \"Switcheroo\" to steal one from them."
+				""
+				"You believe if you can find one, you can shape it into an Oval Stone, which can be used to evolve &dHappiny&r into &dChansey&r."
+			]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7CAC6FEBAC7D7CF1"
+			tasks: [
+				{
+					id: "225B377F2E4BE3E4"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "57B263B242163725"
+					type: "item"
+					item: "pixelmon:ever_stone"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0E7399951C3C6EE1"
+				type: "item"
+				item: "pixelmon:oval_stone"
+			}]
+		}
+		{
+			icon: "pixelmon:prism_scale"
+			x: -11.0d
+			y: -7.5d
+			shape: "circle"
+			subtitle: "Beautiful Inside and Out"
+			description: [
+				"A Prisim Scale can be used to make a Feebas feel Beautiful. Since Feebas only evolves during trades, you will need a Linking Cable, too."
+				""
+				"You know you'll need to offer something related to prisims and an equal symbol of beauty. Perhaps a Pretty Feather will do? "
+				""
+				"To find a pretty feather, you would normally have to find a Wingull, but none seem to have survived. Instead, look for Swoobat or Woobat, who only nest in pitch black darkness. They sometimes gather the feathers for lining their colony nests."
+			]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2F14819C54F0C63F"
+			tasks: [
+				{
+					id: "4DC792AA33612AA2"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "1618F7C7CA7B3578"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3AC9A8BAB1529006"
+					type: "item"
+					item: "pixelmon:pretty_feather"
+					consume_items: true
+				}
+				{
+					id: "5126D11E3ECCA090"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3B98BA7443D6F9FF"
+				type: "item"
+				item: "pixelmon:prism_scale"
+			}]
+		}
+		{
+			icon: "pixelmon:electirizer"
+			x: 0.5d
+			y: -12.5d
+			shape: "circle"
+			description: ["Electabuzz is a difficult Pokemon to evolve. You believe that if you can get ahold of it's famous 'Magmerizer', you can find a way to evolve it without trading."]
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "1D386FB41B5D9A49"
+			tasks: [
+				{
+					id: "70F8C0D24806B4E7"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "69F3490FA27D1C83"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "227889DE3C2E40B0"
+					type: "item"
+					item: "rftoolsbase:machine_base"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "61EA516A5106B8F2"
+					type: "item"
+					item: "minecraft:redstone_lamp"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "2C80A559D62DD6DF"
+				type: "item"
+				item: "pixelmon:electirizer"
+			}]
+		}
+		{
+			title: "Swap Basic Abilities"
+			icon: "pixelmon:ability_capsule"
+			x: 9.5d
+			y: -8.5d
+			shape: "circle"
+			subtitle: "A change in resume"
+			description: ["Not every Pokemon starts off with exactly the right tools to get things done. Offer Arceus an assortment of blended opposites; perhaps he'll help you find a way to change a Pokemon's Ability."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5F0F3D9A88632FDA"
+			tasks: [
+				{
+					id: "78A37BCD88B81709"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "4ACBBDAA0AADBB21"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6063C2000A956D9C"
+					type: "item"
+					item: "pixelmon:sapphire"
+					consume_items: true
+				}
+				{
+					id: "339ACC147B402971"
+					type: "item"
+					item: "pixelmon:ruby"
+					consume_items: true
+				}
+				{
+					id: "04F630AB4391C942"
+					type: "item"
+					item: "pixelmon:amethyst"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "540C3B63CA4CBAB8"
+				type: "item"
+				item: "pixelmon:ability_capsule"
+			}]
+		}
+		{
+			icon: "pixelmon:ability_patch"
+			x: 10.0d
+			y: -7.5d
+			shape: "circle"
+			subtitle: "A bigger change in resume"
+			description: ["Hidden Abilities are difficult to access, but now and then you find treasures from the before floating past your island. Perhaps the correct offering might help you find an Ability Patch?"]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2CE5F5CD6C21532B"
+			tasks: [
+				{
+					id: "7FB93C1AB62E2DCF"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "0091D1BF3A533C94"
+					type: "item"
+					item: "pixelmon:ability_capsule"
+					consume_items: true
+				}
+				{
+					id: "38FD6F8408C2C612"
+					type: "item"
+					item: "botania:loonium"
+					consume_items: true
+				}
+				{
+					id: "3C918B83D6662A96"
+					type: "item"
+					item: {
+						id: "pixelmon:lure_ha_strong"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "448F9EEEAD6F9787"
+				type: "item"
+				item: "pixelmon:ability_patch"
+			}]
+		}
+		{
+			icon: "pixelmon:mint"
+			x: 9.5d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "A new point of view"
+			description: ["Pokemon natures can be modified if you feed them the correct type of mint. However, mint is unpredictable, and you have to plant a great deal of mint in the hopes the type you want will eventually take root."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "20FAA059E80BCB51"
+			tasks: [
+				{
+					id: "0E8C42721B6C1C4F"
+					type: "item"
+					icon: "pixelmon:green_shard"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "0FB6D77F3E45D9DC"
+					type: "item"
+					item: "minecraft:grass"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4A403112B85C0B88"
+				type: "item"
+				item: "pixelmon:mint"
+				count: 5
+			}]
+		}
+		{
+			icon: "pixelmon:porygon_leg"
+			x: -2.5d
+			y: -13.5d
+			shape: "circle"
+			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "683D4EA4FCB31C45"
+			tasks: [
+				{
+					id: "4B6C6CEFC6458A02"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "7B9780012A195CDE"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "48B6306735780167"
+					type: "item"
+					item: "pixelmon:silicon_block"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "75194AF60E0D8763"
+				type: "item"
+				item: "pixelmon:porygon_leg"
+			}]
+		}
+		{
+			icon: "pixelmon:porygon_tail"
+			x: 1.5d
+			y: -13.5d
+			shape: "circle"
+			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "04DC75F788084048"
+			tasks: [
+				{
+					id: "5275DB7BB67E6C71"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "1E1B373D7BFDDB54"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "679D02F27CFAB3FE"
+					type: "item"
+					item: "pixelmon:silicon_block"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3F9442CEBB7811D2"
+				type: "item"
+				item: "pixelmon:porygon_tail"
+			}]
+		}
+		{
+			icon: "pixelmon:porygon_body"
+			x: -0.5d
+			y: -15.5d
+			shape: "circle"
+			description: ["There are porygon spawning around your island. You wonder if you could make one too, out of the right parts."]
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "7D6FA4C9D374B6A6"
+			tasks: [
+				{
+					id: "347A139F5C232E72"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "3041947F97446851"
+					type: "item"
+					item: "pixelmon:silicon_block"
+					consume_items: true
+				}
+				{
+					id: "0DD9F82027482C2E"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0FC4103E8B3AA579"
+				type: "item"
+				item: "pixelmon:porygon_body"
+			}]
+		}
+		{
+			title: "Synthetic Offerings"
+			x: -0.5d
+			y: -13.5d
+			subtitle: "Offer Arceus the buried shards of your destroyed world in return for blessings."
+			hide: true
+			secret: true
+			id: "65966CE2BBB0D943"
+			tasks: [{
+				id: "4E0ED2F0D3E17412"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C62FAD887BBC713"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "pixelmon:dubious_disc"
+			x: 0.5d
+			y: -14.5d
+			shape: "circle"
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "71AA63BA2C153936"
+			tasks: [
+				{
+					id: "06F4977650DA25AB"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 3L
+				}
+				{
+					id: "15D89ED4A76F4703"
+					type: "item"
+					item: "pixelmon:full_heal"
+				}
+				{
+					id: "23D539B6D464C071"
+					type: "item"
+					item: "contenttweaker:fairy_gear"
+				}
+			]
+			rewards: [{
+				id: "4D79D2D4D5CCBAB8"
+				type: "item"
+				item: "pixelmon:dubious_disc"
+			}]
+		}
+		{
+			icon: "pixelmon:up_grade"
+			x: -1.5d
+			y: -14.5d
+			shape: "circle"
+			dependencies: ["65966CE2BBB0D943"]
+			optional: true
+			repeatable: true
+			id: "4A490FA513CC896C"
+			tasks: [
+				{
+					id: "6FE6A6D4D3D7F68A"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "775B1746E2F9CD0F"
+					type: "item"
+					item: "pixelmon:burn_heal"
+				}
+				{
+					id: "3A260DE8731846BF"
+					type: "item"
+					item: "pixelmon:ice_heal"
+				}
+				{
+					id: "0B69620886E5541D"
+					type: "item"
+					item: "pixelmon:paralyze_heal"
+				}
+				{
+					id: "420E04604AD7346B"
+					type: "item"
+					item: "thermal:electrum_gear"
+				}
+			]
+			rewards: [{
+				id: "5EC51F0840DEC7E3"
+				type: "item"
+				item: "pixelmon:up_grade"
+			}]
+		}
+		{
+			title: "Fossilized Eves"
+			x: 7.5d
+			y: -0.5d
+			description: [
+				"You've found a fossil! And it's no more dead than anything else. Perhaps Arceus will see fit to return some of these creatures to life?"
+				""
+				"(All Pokemon Eggs rewarded from this Quest will be Female and may share other features like stats, natures, or abilities. They are typically not tradeable.)"
+				""
+				"Eggs take time to hatch, and are not as convenient as simply taking fossils from a fossil machine, but this is magic, not science, and babies hatched from eggs have strong bonds with you!"
+			]
+			hide: true
+			secret: true
+			id: "7678A17A7714A3FD"
+			tasks: [{
+				id: "0264CCC07E03EEFF"
+				type: "item"
+				title: "Any #pixelmon:uncleaned_fossils"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "pixelmon:uncleaned_fossils"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1DD48A167214D167"
+					type: "item"
+					item: "pixelmon:sweet_heart"
+				}
+				{
+					id: "547128CCDFE05C8B"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+			]
+		}
+		{
+			title: "Lord Helix"
+			icon: "pixelmon:helix_fossil"
+			x: 7.5d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Make an offering to Lord Helix"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "70AD061C93BCFB0C"
+			tasks: [
+				{
+					id: "38E798C6F2C46D11"
+					type: "item"
+					item: "pixelmon:helix_fossil"
+					consume_items: true
+				}
+				{
+					id: "1F0C5E2887F38D4E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "21621732FA498D6D"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Omanyte ab:WeakArmor egg ball:cherish_ball iv_spatk:31 g:female n:modest move1:reflect_type move2:withdraw move3:aurora_eam move4:water_pulse"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:dome_fossil"
+			x: 7.5d
+			y: 3.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Dare you make an offering to the Heretic Dome?"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "51BB87F0D1276FB2"
+			tasks: [
+				{
+					id: "1BF9F409A1D03876"
+					type: "item"
+					item: "pixelmon:dome_fossil"
+					consume_items: true
+				}
+				{
+					id: "0E93CDEB7DFD2A37"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "105B71804A41BAF8"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Kabuto ab:WeakArmor egg ball:cherish_ball iv_atk:31 g:female n:adamant move1:fury_cutter move2:false_swipe move3:scratch move4:night_slash"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:root_fossil"
+			x: 6.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Root Fossil and tears of the lost to Arceus."]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "064FF18EDA886E67"
+			tasks: [
+				{
+					id: "0127874C3AE532EB"
+					type: "item"
+					item: "pixelmon:root_fossil"
+					consume_items: true
+				}
+				{
+					id: "4139203DDCD76871"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4BD58B60670BC075"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Lileep ab:StormDrain egg ball:cherish_ball iv_hp:31 iv_spd:0 iv_def:31 iv_spdef:31 g:female n:modest move1:wrap move2:strength_sap move3:recover move4:mirror_coat"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:claw_fossil"
+			x: 8.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Claw Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "171FD7B198CC67F3"
+			tasks: [
+				{
+					id: "2970D7E0022CF869"
+					type: "item"
+					item: "pixelmon:claw_fossil"
+					consume_items: true
+				}
+				{
+					id: "44EA2EC87AC35B4F"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6D2B76A7CD5D7150"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Anorith ab:SwiftSwim egg ball:cherish_ball iv_atk:31 g:female n:adamant move1:fury_cutter move2:harden move3:aqua_jet move4:rapid_spin"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:armor_fossil"
+			x: 5.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Armor Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "73D8900C4160C3C0"
+			tasks: [
+				{
+					id: "15583D113D539B9E"
+					type: "item"
+					item: "pixelmon:armor_fossil"
+					consume_items: true
+				}
+				{
+					id: "6D4DF0097832E6F9"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "74DFC047EC020CF4"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Shieldon ab:Soundproof egg ball:cherish_ball iv_spdef:31 iv_def:31 iv_hp:31 g:female move1:protect move2:tackle move3:stealth_rock move4:wide_guard"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:skull_fossil"
+			x: 10.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Skull Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0E89FEA9F32757D5"
+			tasks: [
+				{
+					id: "74084C3A08A0C6D4"
+					type: "item"
+					item: "pixelmon:skull_fossil"
+					consume_items: true
+				}
+				{
+					id: "1415F903BD8B1352"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0E4A881D54F98365"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Cranidos ab:SheerForce egg ball:cherish_ball iv_atk:31 g:female n:adamant move1:headbutt move2:leer move3:iron_head"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:cover_fossil"
+			x: 5.5d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Cover Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7C0629A9CDD649B5"
+			tasks: [
+				{
+					id: "1DA33A3416C0F37F"
+					type: "item"
+					item: "pixelmon:cover_fossil"
+					consume_items: true
+				}
+				{
+					id: "52B18E70A7115805"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "282182C925397924"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Tirtouga egg ball:cherish_ball iv_def:31 iv_spdef:31 iv_hp:31 iv_atk:31 g:female move1:water_gun move2:withdraw move3:rollout"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:plume_fossil"
+			x: 5.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Plume Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "76634A615E9CB622"
+			tasks: [
+				{
+					id: "3B8C8374647F27E1"
+					type: "item"
+					item: "pixelmon:plume_fossil"
+					consume_items: true
+				}
+				{
+					id: "1BDFDBF79B54F472"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "689A874C9B66389E"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Archen egg ball:cherish_ball iv_atk:31 iv_spatk:31 iv_spd:31 g:female n:naive move1:leer move2:quick_attack move3:defog move4:skill_swap"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:sail_fossil"
+			x: 9.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Sail Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "664745DF3E5FADF1"
+			tasks: [
+				{
+					id: "7E67B2D0DD60FC69"
+					type: "item"
+					item: "pixelmon:sail_fossil"
+					consume_items: true
+				}
+				{
+					id: "3923621910D23EAC"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "001E7D34703D72B2"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "pokegive @p Amaura egg ball:cherish_ball iv_spatk:31 iv_hp:31 iv_def:31 iv_spdef:31 iv_spd:31 ab:SnowWarning g:female n:modest shiny untradable move1:powder_snow move2:aurora_veil move3:discharge move4:meteor_beam"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:jaw_fossil"
+			x: 9.5d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Jaw Fossil and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "10ED0367D2B86A79"
+			tasks: [
+				{
+					id: "22A373BA7063D76C"
+					type: "item"
+					item: "pixelmon:jaw_fossil"
+					consume_items: true
+				}
+				{
+					id: "58E3190D34B58EEF"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1CEC29FBA275BB10"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Tyrunt egg ball:cherish_ball iv_atk:31 ab:Sturdy g:female n:adamant move1:tackle move2:tail_whip move3:poison_fang"
+				player_command: true
+			}]
+		}
+		{
+			icon: "pixelmon:old_amber"
+			x: 10.0d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: ["Offer a cleaned Old Amber and tears of the lost to Arceus"]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5116C863A2A52304"
+			tasks: [
+				{
+					id: "47BA5A9C782661A8"
+					type: "item"
+					item: "pixelmon:old_amber"
+					consume_items: true
+				}
+				{
+					id: "282972559234164A"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5EF0E654E5935BA7"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Aerodactyl ab:Unnerve egg ball:cherish_ball g:female n:jolly move1:ancient_power move2:bite move3:roost move4:tailwind"
+				player_command: false
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: [
+				"These aren't going to fit together right, are they...?"
+				""
+				"Surely this wont be able to procreate? Perhaps it is simply a companion."
+			]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3AB756BBD130AAC4"
+			tasks: [
+				{
+					id: "5C374077A4B33079"
+					type: "item"
+					item: "pixelmon:fish_fossil"
+					consume_items: true
+				}
+				{
+					id: "40492B6ADAB4DAD8"
+					type: "item"
+					item: "pixelmon:dino_fossil"
+					consume_items: true
+				}
+				{
+					id: "143C0E936C25E229"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "30A78B9D26BE1F1A"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Arctovish egg a:SlushRush ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: [
+				"These aren't going to fit together right, are they...?"
+				""
+				"Surely this wont be able to procreate? Perhaps it is simply a companion."
+			]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6693B625FE97406A"
+			tasks: [
+				{
+					id: "41F635EBE534CA1C"
+					type: "item"
+					item: "pixelmon:fish_fossil"
+					consume_items: true
+				}
+				{
+					id: "7CFE8C60A666B7C2"
+					type: "item"
+					item: "pixelmon:drake_fossil"
+					consume_items: true
+				}
+				{
+					id: "568A030EF31EDB95"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5BB2F357D004DEAF"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Dracovish egg a:SandRush ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: [
+				"These aren't going to fit together right, are they...?"
+				""
+				"Surely this wont be able to procreate? Perhaps it is simply a companion."
+			]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7CE815B1934BC1D9"
+			tasks: [
+				{
+					id: "12567013137EF467"
+					type: "item"
+					item: "pixelmon:bird_fossil"
+					consume_items: true
+				}
+				{
+					id: "4E8A2642DB4F7154"
+					type: "item"
+					item: "pixelmon:drake_fossil"
+					consume_items: true
+				}
+				{
+					id: "5C686FE9782CCBDD"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "64A6C12C3AABC196"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Dracozolt egg a:SandRush ball:cherish_ball g:female"
+				player_command: true
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "When all you have is bones..."
+			description: [
+				"These aren't going to fit together right, are they...?"
+				""
+				"Surely this wont be able to procreate? Perhaps it is simply a companion."
+			]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "21CD887D0D50DCDA"
+			tasks: [
+				{
+					id: "516843B1A99D9F6B"
+					type: "item"
+					item: "pixelmon:bird_fossil"
+					consume_items: true
+				}
+				{
+					id: "2ED3644F1B0BCCB4"
+					type: "item"
+					item: "pixelmon:dino_fossil"
+					consume_items: true
+				}
+				{
+					id: "4B9B565D5968C73E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "441E2A7454E5C1FA"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Dracozolt egg a:SlushRush ball:cherish_ball g:female"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:lens_silver"
+			x: 9.25d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "To get a closer look..."
+			description: [
+				"Lenses can be used to study the properties of a Pokemon before committing to catching them."
+				""
+			]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			size: 0.5d
+			optional: true
+			repeatable: true
+			id: "261A9E1F063E1CD9"
+			tasks: [
+				{
+					id: "2BA372411AED1DC8"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "5D813E6A1C9DBBEF"
+					type: "item"
+					item: "minecraft:glass_pane"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "386A46E04A49EE73"
+				type: "item"
+				item: "pixelmon:lens_silver"
+			}]
+		}
+		{
+			icon: "pixelmon:water_stone"
+			x: -6.5d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: [
+				"Offer a Shard from a Water Stone and the Remains of the Departed to Arceus."
+				""
+				"You can't think of any baby Water Pokemon attached to a Water Stone. Perhaps this egg will surprise you?"
+			]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "76703A8C94AC0AC6"
+			tasks: [
+				{
+					id: "0A68F2D174148151"
+					type: "item"
+					item: "pixelmon:water_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "5AA668F9F594B6FB"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7A332A57BF354C35"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Poliwag untradeable iv_atk:31 iv_spatk:31 egg ball:cherish_ball g:female move1:hypnosis move2:water_gun move3:endeavor move4:mist"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:sun_stone"
+			x: -10.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from a Sun Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3734A1E40D99EA32"
+			tasks: [
+				{
+					id: "11FF68C54169FB0E"
+					type: "item"
+					item: "pixelmon:sun_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "08C421F3CE652A23"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "445E6EC2C4889DBC"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Sunkern egg shiny untradeable n:modest pokerus ball:cherish_ball iv_atk:31 iv_def:31 iv_hp:31 iv_spatk:31 iv_spdef:31 iv_spd:31 ev_spatk:252 ab:EarlyBird g:female untradeable move1:sweet_scent move2:morning_sun move3:nature_power move4:ember"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:dawn_stone"
+			x: -9.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from a Dawn Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7D4829EEE4BADA22"
+			tasks: [
+				{
+					id: "211792E76FF6EDE2"
+					type: "item"
+					item: "pixelmon:dawn_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "1540E8BD90A0E14B"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3E44B4810EEBD621"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Snorunt ab:Moody egg iv_spd:31 iv_spatk:31 iv_atk:31 ball:cherish_ball untradeable g:female move1:icicle_crash move2:powder_snow move3:switcheroo move4:rollout"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:shiny_stone"
+			x: -8.5d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from a Shiny Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			id: "5644454AECD3778A"
+			tasks: [
+				{
+					id: "56BE7211D2C61216"
+					type: "item"
+					item: "pixelmon:shiny_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "53A031F216F37A33"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3C7891290A4EC212"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Togepi egg ball:cherish_ball ab:SuperLuck untradeable move1:peck move2:psycho_shift move3:morning_sun move4:pound"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:moon_stone"
+			x: -9.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: [
+				"Offer a Shard from a Moon Stone and the Remains of the Departed to Arceus."
+				""
+				"Sprinkle in something attractive to a Feline."
+			]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3E744757060901D5"
+			tasks: [
+				{
+					id: "4B13E5B2C82CC36D"
+					type: "item"
+					item: "pixelmon:moon_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "344B4D190B976425"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1524E01890184668"
+					type: "item"
+					item: "minecraft:pink_wool"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "636D9CD88F6A9C33"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Skitty egg untradeable ab:WonderSkin n:jolly iv_spd:31 iv_hp:31 g:male move1:fake_out move2:simple_beam move3:baton_pass move4:bulk_up"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:thunder_stone"
+			x: -10.5d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from a Thunder Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3CEC162D18B11097"
+			tasks: [
+				{
+					id: "55DA23FC40608FAC"
+					type: "item"
+					item: "pixelmon:thunder_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "3F8B8F2E344D9290"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "79757F07FAA2A8AF"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Elekid egg ball:cherish_ball iv_atk:31 iv_spatk:31 untradeable g:female move1:quick_attack move2:cross_chop move3:dynamic_punch move4:feint"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:leaf_stone"
+			x: -6.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: [
+				"Offer a Shard from a Leaf Stone and the Remains of the Departed to Arceus."
+				""
+				"You can't think of many baby Pokemon affiliated with a Leaf Stone. Perhaps this Egg with Surprise you?"
+			]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0146489E9A4E5391"
+			tasks: [
+				{
+					id: "68A0E40A9AFF8C43"
+					type: "item"
+					item: "pixelmon:leaf_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "37149FD86D163AA1"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5C29D132A238D33B"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Exeggcute untradeable iv_atk:31 iv_spatk:31 egg ball:cherish_ball g:female palette:pink move1:ancient_power move2:moonlight move3:sleep_powder move4:absorb"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:ice_stone"
+			x: -11.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from an Ice Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4B3C21BF8C2AFA63"
+			tasks: [
+				{
+					id: "7EB3CF82CD4C8D9E"
+					type: "item"
+					item: "pixelmon:ice_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "482B41043D0182D0"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1944935F5B1230AF"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Smoochum ab:Hydration egg ball:cherish_ball iv_atk:31 iv_spatk:31 iv_spdef:31 untradable move1:fake_out move2:lick move3:nasty_plot move4:wish"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:fire_stone"
+			x: -6.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: ["Offer a Shard from a Fire Stone and the Remains of the Departed to Arceus."]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3487C03E7FBEC3A6"
+			tasks: [
+				{
+					id: "288E48CCD6E279CB"
+					type: "item"
+					item: "pixelmon:fire_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "7E50838A2415FFBA"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5EE7CEE17FD0AD31"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Magby egg ball:cherish_ball iv_atk:31 iv_spatk:31 g:female untradeable move1:smog move2:belch move3:mach_punch move4:dynamic_punch"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			shape: "circle"
+			subtitle: "Reflecting on the Seasons of Love..."
+			description: [
+				"If only crafting Pokeballs could be done by putting together two lids, without the need for modern metal working. You fondly think of Valentines Day, only to find your \"offering\" has &dcuriously disappeared...&r"
+				""
+				"Hopefully, the Great Arceus doesn't think you need a Luvdisk..."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5E57A83CB786BDF1"
+			tasks: [
+				{
+					id: "679BC9E54CE50AB2"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball_lid"
+						Count: 1b
+						tag: {
+							PokeBallID: "love_ball"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6836E1165E152852"
+					type: "item"
+					item: {
+						id: "pixelmon:poke_ball_lid"
+						Count: 1b
+						tag: {
+							PokeBallID: "heal_ball"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3EC25B0B01309F1E"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "443C8F7F66BB68DE"
+				type: "command"
+				title: "A Pokemon Egg that smells of Sugar and Spice and Everything Nice."
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Tyrogue egg ab:VitalSpirit ball:love_ball iv_atk:31 iv_def:31 iv_spd:31 g:female n:jolly untradeable move1:mach_punch move2:bullet_punch move3:high_jump_kick move4:rapid_spin"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:linking_cord"
+			x: -6.5d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "For When You're All Alone..."
+			description: ["Linking Cords can be used to evolve Pokemon that would normally only evolve through trading."]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "51D8B4F9800B917A"
+			tasks: [{
+				id: "53888727EB76D8C4"
+				type: "item"
+				item: "pixelmon:black_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4FEA618F0CDBD66B"
+				type: "item"
+				item: "pixelmon:linking_cord"
+			}]
+		}
+		{
+			icon: "pixelmon:moon_stone"
+			x: -8.5d
+			y: 2.0d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: [
+				"Offer a Shard from a Moon Stone and the Remains of the Departed to Arceus."
+				""
+				"Add in a sad balloon."
+			]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "1E5EDCAC84B3F7D2"
+			tasks: [
+				{
+					id: "4B467CC6A377ACA7"
+					type: "item"
+					item: "pixelmon:moon_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "3786C472D738004C"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6D789121F0C3D781"
+					type: "item"
+					item: "pixelmon:air_balloon"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "17E86AA6357092C2"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Igglybuff egg untradeable ab:Frisk n:brave iv_atk:31 iv_def:31 iv_spdef:31 g:male move1:rollout move2:last_resort move3:perish_song move4:sing"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pixelmon:moon_stone"
+			x: -7.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "Death and Change..."
+			description: [
+				"Offer a Shard from a Moon Stone and the Remains of the Departed to Arceus."
+				""
+				"Add a symbol for the stars."
+			]
+			dependencies: ["5DD5BF266D98926B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4CDADE8A74B55D7D"
+			tasks: [
+				{
+					id: "5D64F9077DF9E6D4"
+					type: "item"
+					item: "pixelmon:moon_stone_shard"
+					consume_items: true
+				}
+				{
+					id: "217388FC633E7678"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rotten_flesh"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5EAB569206AED592"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0C2B60A8ABD6C4E5"
+				type: "command"
+				title: "Recieve a Pokemon Egg"
+				icon: "minecraft:turtle_egg"
+				command: "/pokegive @p Cleffa egg untradeable n:modest iv_spatk:31 iv_spd:31 g:male move1:aromatherapy move2:wish move3:copycat move4:pound"
+				player_command: false
+			}]
+		}
+		{
+			title: "Rock n' Roll"
+			x: 0.0d
+			y: 2.5d
+			shape: "circle"
+			description: ["You need to spend a little time jamming out with your Pokemon and some Music."]
+			hide_dependency_lines: true
+			dependencies: ["2003FDACA2AA72A4"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "102BF0870CA402C8"
+			tasks: [
+				{
+					id: "67C267CB9932BC99"
+					type: "observation"
+					title: "Find a Jukebox and pay tribute to the Gods of Rock and Roll."
+					icon: "minecraft:jukebox"
+					timer: 60L
+					observe_type: 0
+					to_observe: "minecraft:juke_box"
+				}
+				{
+					id: "14E39956377A3CEC"
+					type: "item"
+					item: "pixelmon:rock_gem"
+					consume_items: true
+				}
+				{
+					id: "2B427C1BCC778A06"
+					type: "item"
+					item: "pixelmon:rock_incense"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0786E1B5328DCFBE"
+					type: "command"
+					title: "Recieve a Pokemon Egg"
+					icon: "minecraft:turtle_egg"
+					command: "/pokegive @p Toxel ab:Rattled egg ball:cherish_ball iv_atk:31 iv_spatk:31 untradeable move1:nuzzle move2:acid move3:metal_sound move4:power_up_punch"
+					player_command: false
+				}
+				{
+					id: "69F62AC2BCA3705E"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 35
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Red Card"
+			icon: "pixelmon:red_card"
+			x: 0.5d
+			y: -9.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"some Pokemon used to carry Red Cards, but it doesn't look like any have survived. You might be able to make one yourself with some rubbish."
+				""
+				"Red cards are held items that switch out their holder if they take damage in battle. They are single use, so it's important the Pokemon does what it needs to do that turn before being hit!"
+			]
+			dependencies: ["587C2FF777BFD574"]
+			optional: true
+			repeatable: true
+			id: "5D97AD982DF27ED1"
+			tasks: [
+				{
+					id: "74213302E922AE24"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "295EE0557948555B"
+					type: "item"
+					item: "minecraft:paper"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1D1AAEB625E46E5B"
+				type: "item"
+				item: "pixelmon:red_card"
+				count: 5
+			}]
+		}
+		{
+			title: "Absorb Bulb"
+			icon: "pixelmon:absorb_bulb"
+			x: -1.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Absorb bulbs raise a Pokemon's special attack if they are hit by a water move. They can be harvested from a variety of plants, including Ferroseed and Oddish. They are most advantageous when baiting out a water move during a switch."
+				""
+			]
+			dependencies: ["587C2FF777BFD574"]
+			optional: true
+			repeatable: true
+			id: "776B5EF4F3B1FCCD"
+			tasks: [
+				{
+					id: "444AFBE0A8B36F54"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "5D3771C1758096A2"
+					type: "item"
+					item: "biomesoplenty:willow_vine"
+				}
+			]
+			rewards: [{
+				id: "157DB7998E48EB35"
+				type: "item"
+				item: "pixelmon:absorb_bulb"
+			}]
+		}
+		{
+			title: "Mirror Herb"
+			icon: "pixelmon:mirror_herb"
+			x: 6.5d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"Mirror Herbs are a single use item that lets the holder copy stat changes in an enemy Pokemon."
+				""
+				"They can also be used in a day care to transfer egg moves. If a Pokemon holding a mirror herb with an empty move slot is placed in a day care with a Pokemon who already knows that egg move, the pokemon holding the Mirror Herb will learn that egg move."
+			]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "076ED3510C570AE2"
+			tasks: [
+				{
+					id: "6B9FB78FA7DCC4B3"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "1E17401B459BD483"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7C2030C907AC3182"
+				type: "item"
+				item: "pixelmon:mirror_herb"
+			}]
+		}
+		{
+			title: "Throat Spray"
+			icon: "pixelmon:throat_spray"
+			x: -1.5d
+			y: -9.5d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Throat spray is a single-use item that increases a Pokemon's stats when it uses a sound-based move."
+				""
+				"These can be harvested in the wild by stealing it from the Whismur family, or Loudred or Exploud will drop it naturally."
+				""
+				"You think you can make one with some time and the power of song."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			optional: true
+			repeatable: true
+			id: "305BDA0C84AD466F"
+			tasks: [
+				{
+					id: "7FE5CD0BE35D5ED0"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "1D63334E63261587"
+					type: "item"
+					item: "minecraft:note_block"
+					consume_items: true
+				}
+				{
+					id: "2D6F181DDD75CE98"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "60B1A4356F6EE013"
+				type: "item"
+				item: "pixelmon:throat_spray"
+				count: 5
+			}]
+		}
+		{
+			title: "Electric Seed"
+			icon: "pixelmon:electric_seed"
+			x: -3.0d
+			y: -10.0d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Electric seed cannot be planted. They are a held item consumed to boost a Pokemon's stats if they are on Electric Terrain."
+				""
+				"You can harvest them in the wild by stealing them from Rotom Mow."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "104D9C4DDAA537AB"
+			tasks: [
+				{
+					id: "2760863B094EBDFC"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "36B0870EE66F489E"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "00DB2536254A5133"
+				type: "item"
+				item: "pixelmon:electric_seed"
+				count: 5
+			}]
+		}
+		{
+			title: "Grassy Seed"
+			icon: "pixelmon:grassy_seed"
+			x: 2.0d
+			y: -10.0d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: [
+				"Grassy Seeds cannot be planted. They are held by a Pokemon and are consumed to increase their stats on Grassy Terrain."
+				""
+				"Can be stolen in the wild from the Oddish family."
+			]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "263C894C59DEAC91"
+			tasks: [
+				{
+					id: "6068E1F5C1FEA9A1"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "4AD19907DCBDBD1F"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7ECF57E83893A5D9"
+				type: "item"
+				item: "pixelmon:grassy_seed"
+				count: 5
+			}]
+		}
+		{
+			title: "Misty Seed"
+			icon: "pixelmon:misty_seed"
+			x: -3.0d
+			y: -5.0d
+			shape: "circle"
+			subtitle: "Some things are hard to replace..."
+			description: ["Misty Seeds cannot be planted. They are held by a Pokemon and are consumed to increase their stats on Misty Terrain."]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6B0436F9848E01A3"
+			tasks: [
+				{
+					id: "32296DC3578F3F28"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "696D9D09C226FD1C"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3BDC14E79A4EEFA5"
+				type: "item"
+				item: "pixelmon:misty_seed"
+				count: 5
+			}]
+		}
+		{
+			title: "Psychic Seed"
+			icon: "pixelmon:psychic_seed"
+			x: 2.0d
+			y: -5.0d
+			subtitle: "Some things are hard to replace..."
+			description: ["Psychic Seeds cannot be planted. They are held by a Pokemon and are consumed to increase their stats on Psychic Terrain."]
+			dependencies: ["587C2FF777BFD574"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "013FAE5D2D9EF71C"
+			tasks: [
+				{
+					id: "43832BC3CD564C43"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "1F8AFD3233893129"
+					type: "item"
+					item: "minecraft:melon_seeds"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "77285D2BD210BC87"
+				type: "item"
+				item: "pixelmon:psychic_seed"
+				count: 5
+			}]
+		}
+		{
+			title: "Destiny Knot"
+			icon: "pixelmon:destiny_knot"
+			x: 7.5d
+			y: -10.0d
+			shape: "circle"
+			subtitle: "For Weaving a Family Tapestry..."
+			description: ["Destiny Knots are useful items that look no different from a ball of red yarn a kitten might play with. They can be held to mirror infatuation moves, and also during breeding to ensure more of a parent's IVs pass on to offspring."]
+			dependencies: ["5AE3A8615EDE4B47"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0B48AF763B9B6AAF"
+			tasks: [
+				{
+					id: "68C4676690589158"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "431C9C36C3B9CD88"
+					type: "item"
+					item: "botania:red_string"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5F22FF87F0EB17D4"
+				type: "item"
+				item: "pixelmon:destiny_knot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
+			secret: true
+			repeatable: true
+			id: "612160239CFDE4AB"
+			tasks: [{
+				id: "535B6902A67B64F0"
+				type: "item"
+				item: "pixelmon:burn_drive"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
+			secret: true
+			repeatable: true
+			id: "0C87D09490E61694"
+			tasks: [{
+				id: "35CF2199E8E80F2F"
+				type: "item"
+				item: "pixelmon:chill_drive"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
+			secret: true
+			repeatable: true
+			id: "6B454BBB9011A8DF"
+			tasks: [{
+				id: "1EB02851C41AD287"
+				type: "item"
+				item: "pixelmon:douse_drive"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["65966CE2BBB0D943"]
+			hide: true
+			secret: true
+			repeatable: true
+			id: "3A08AFD893FD9EFB"
+			tasks: [{
+				id: "7FAD2D60E0CE3315"
+				type: "item"
+				item: "pixelmon:shock_drive"
+			}]
+		}
+		{
+			title: "PC Access"
+			icon: "pixelmon:red_pc"
+			x: -0.5d
+			y: 4.5d
+			shape: "circle"
+			subtitle: "Please God, Can I Use the Internet?"
+			description: [
+				"You... really need to organize your eggs. Some of these Pokemon are more helpful to you than others, and you may have taken on more than you can handle."
+				""
+				"&d(This repeatable quest gives you temporary access to the PC network. Make sure you do everything you need to before closing the PC, as you will need to make another offering to access the digital space again.)"
+				""
+				"(WARNING: Do not immediately open any interface after accepting this, or the PC will fail to open!)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			size: 3.0d
+			optional: true
+			id: "2CCEEA76B9CF481A"
+			tasks: [{
+				id: "6F56C26532E4288C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:ghast_tear"
+								Count: 1b
+							}
+							{
+								id: "minecraft:rotten_flesh"
+								Count: 1b
+							}
+							{
+								id: "minecraft:spider_eye"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7545A5D295A8BCED"
+				type: "command"
+				title: "You enter a digital trance..."
+				icon: {
+					id: "rftoolsutility:computer_module"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "enabled"
+				command: "/execute as @p run closeguiscreen"
+				player_command: false
+			}]
+		}
+		{
+			title: "Unusual Fossil"
+			icon: "pixelmon:fossil"
+			x: 5.0d
+			y: -3.0d
+			shape: "circle"
+			description: ["That's odd... This fossil seems to be from a more... mammalian period of history. It's not any of the fossil types you remember learning about in school..."]
+			dependencies: ["7678A17A7714A3FD"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4187329CB0D31669"
+			tasks: [
+				{
+					id: "51F1B701CE26FA75"
+					type: "item"
+					item: "pixelmon:fossil"
+					consume_items: true
+				}
+				{
+					id: "60605B6FA0191A27"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0DFF3FFBB88444C4"
+				type: "random"
+				table_id: 3326367320772814356L
+			}]
+		}
+		{
+			title: "Offerings for Building Blocks"
+			disable_toast: true
+			x: -16.5d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide_dependency_lines: true
+			dependency_requirement: "one_started"
+			secret: true
+			id: "43BCB30C316A703D"
+			tasks: [{
+				id: "735DBD75174F422D"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "08777618E5C2B734"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "minecraft:black_glazed_terracotta"
+			x: -16.5d
+			y: -4.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "17B1956876B42718"
+			tasks: [{
+				id: "73A9EE88C425C699"
+				type: "item"
+				item: "pixelmon:black_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "566048154683F560"
+				type: "item"
+				item: "minecraft:black_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:white_glazed_terracotta"
+			x: -16.5d
+			y: -10.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "533C9C5ED846238B"
+			tasks: [{
+				id: "78FEB95F511384CC"
+				type: "item"
+				item: "pixelmon:white_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78F7DBC66695BC1A"
+				type: "item"
+				item: "minecraft:white_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:yellow_glazed_terracotta"
+			x: -15.5d
+			y: -5.0d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "66F19FAE2E33C91F"
+			tasks: [{
+				id: "733B192A5BDC9AB8"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "476DD94AB152BDC9"
+				type: "item"
+				item: "minecraft:yellow_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:green_glazed_terracotta"
+			x: -17.5d
+			y: -10.0d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "132D9D464D801765"
+			tasks: [{
+				id: "0D10104F387B1BC5"
+				type: "item"
+				item: "pixelmon:green_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F0DCA14F5C5E26B"
+				type: "item"
+				item: "minecraft:green_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:red_glazed_terracotta"
+			x: -15.5d
+			y: -10.0d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "381FFBF57151688E"
+			tasks: [{
+				id: "3ABF801FC74786F3"
+				type: "item"
+				item: "pixelmon:red_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "69C40C9A52AA770F"
+				type: "item"
+				item: "minecraft:red_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:blue_glazed_terracotta"
+			x: -17.5d
+			y: -5.0d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "56A89927BE8ED376"
+			tasks: [{
+				id: "28EB43BD43E0DCD2"
+				type: "item"
+				item: "pixelmon:blue_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4D9E74527BEE1F15"
+				type: "item"
+				item: "minecraft:blue_glazed_terracotta"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:light_blue_glazed_terracotta"
+			x: -19.0d
+			y: -6.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "410B539BDFEABDCF"
+			tasks: [
+				{
+					id: "010894E83EF4F8D1"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "037D8BC94E93F951"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "73D41FC4D259CC9A"
+				type: "item"
+				item: "minecraft:light_blue_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:cyan_glazed_terracotta"
+			x: -18.5d
+			y: -5.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "22E4A622A41F978D"
+			tasks: [
+				{
+					id: "01DB4BE4DD804FCC"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "7507D27EE7B225B5"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "375BB0AA8D17F88D"
+				type: "item"
+				item: "minecraft:cyan_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:pink_glazed_terracotta"
+			x: -14.5d
+			y: -9.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3B40BA8E558CB1CA"
+			tasks: [
+				{
+					id: "54D683C86C63D0DD"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "6F3624F994636F85"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "028F65C683D36AE0"
+				type: "item"
+				item: "minecraft:pink_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:light_gray_glazed_terracotta"
+			x: -19.0d
+			y: -8.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "340AF5002442E7DD"
+			tasks: [
+				{
+					id: "74D14E3E74631719"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "0F676C7A05FF83E5"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6780D90261FD958B"
+				type: "item"
+				item: "minecraft:light_gray_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:gray_glazed_terracotta"
+			x: -19.5d
+			y: -7.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "651074A877AD0BE5"
+			tasks: [
+				{
+					id: "0FA39F332DE11CF8"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "4F5246B80D36AAB6"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "46E8CD7211736D83"
+				type: "item"
+				item: "minecraft:gray_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:brown_glazed_terracotta"
+			x: -14.0d
+			y: -6.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5A27BABB86151FF3"
+			tasks: [
+				{
+					id: "5DEF78D40B298ACC"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "1611935B6E725984"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "454B2569A1DB27E7"
+				type: "item"
+				item: "minecraft:brown_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:orange_glazed_terracotta"
+			x: -14.5d
+			y: -5.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5DC58A10A4F214F9"
+			tasks: [
+				{
+					id: "6258DEAF4FD00F28"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "3225E3AE35306DE3"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6ABA79D09C1B8CCD"
+				type: "item"
+				item: "minecraft:orange_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:magenta_glazed_terracotta"
+			x: -14.0d
+			y: -8.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "66DE2D1F9C988943"
+			tasks: [
+				{
+					id: "2D671456EBD24606"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "5E4482F98613A8F1"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "062C638918E26DD3"
+				type: "item"
+				item: "minecraft:magenta_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:purple_glazed_terracotta"
+			x: -13.5d
+			y: -7.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6502D06AB79B858A"
+			tasks: [
+				{
+					id: "19C299CABD369DB2"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "248E99E60583D9EF"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "520164775210BC85"
+				type: "item"
+				item: "minecraft:purple_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:lime_glazed_terracotta"
+			x: -18.5d
+			y: -9.5d
+			shape: "circle"
+			description: ["Recover beautiful terracotta from your broken world."]
+			dependencies: ["43BCB30C316A703D"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7706D44DC78EFE11"
+			tasks: [
+				{
+					id: "0CD3A03C45096CAD"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "254A8F4A423DEDC7"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4881FEDFCF401976"
+				type: "item"
+				item: "minecraft:lime_glazed_terracotta"
+				count: 32
+			}]
+		}
+		{
+			title: "Offerings for Building Blocks"
+			disable_toast: true
+			x: 15.0d
+			y: -7.5d
+			description: ["Offer Arceus the buried shards of your destroyed world in return for blessings."]
+			hide_dependency_lines: true
+			secret: true
+			id: "72EFF20CBF4AB83F"
+			tasks: [{
+				id: "219110AA8961E615"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D80AC3C94967AA6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "minecraft:white_concrete"
+			x: 15.0d
+			y: -10.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5ACD17FB3638B7BC"
+			tasks: [{
+				id: "0A93C8F462D6CB2B"
+				type: "item"
+				item: "pixelmon:white_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "561B5BADDF6EB5E3"
+				type: "item"
+				item: "minecraft:white_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:black_concrete"
+			x: 15.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "069CC2C89DAD4D5C"
+			tasks: [{
+				id: "0DEBC897870C969E"
+				type: "item"
+				item: "pixelmon:black_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15AEDAAC8D7B37DF"
+				type: "item"
+				item: "minecraft:black_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:blue_concrete"
+			x: 14.0d
+			y: -5.0d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2A0B45B0415D6EFE"
+			tasks: [{
+				id: "16C6B9522D7E32A3"
+				type: "item"
+				item: "pixelmon:blue_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "55DE7876972940E8"
+				type: "item"
+				item: "minecraft:blue_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:yellow_concrete"
+			x: 16.0d
+			y: -5.0d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "7DF029EA70D0B57D"
+			tasks: [{
+				id: "51AE3B9D30141FA5"
+				type: "item"
+				item: "pixelmon:yellow_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "011E9F0739756B84"
+				type: "item"
+				item: "minecraft:yellow_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:green_concrete"
+			x: 14.0d
+			y: -10.0d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "056FA5810D432D9B"
+			tasks: [{
+				id: "28039762D15D65AB"
+				type: "item"
+				item: "pixelmon:green_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "734EEEE1E079EB50"
+				type: "item"
+				item: "minecraft:green_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:red_concrete"
+			x: 16.0d
+			y: -10.0d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "147FE028C13C7C80"
+			tasks: [{
+				id: "6203F1C16E2470FB"
+				type: "item"
+				item: "pixelmon:red_shard"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1DE7B903D35051FB"
+				type: "item"
+				item: "minecraft:red_concrete"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:pink_concrete"
+			x: 17.0d
+			y: -9.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4437BFBB287FC76E"
+			tasks: [
+				{
+					id: "4B8E099E651BEE36"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "1AF579A6A5C7BCAF"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "00DF63A854E1366F"
+				type: "item"
+				item: "minecraft:pink_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:magenta_concrete"
+			x: 17.5d
+			y: -8.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "23C85A1B43906640"
+			tasks: [
+				{
+					id: "235214016F2D474F"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "124663205D5D368A"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4E8CB689FE5A75E8"
+				type: "item"
+				item: "minecraft:magenta_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:purple_concrete"
+			x: 18.0d
+			y: -7.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2C5F977F0ABE442A"
+			tasks: [
+				{
+					id: "2B8B71D977142E1B"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "23030264EBCA826F"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40F8FA62BC51CBF2"
+				type: "item"
+				item: "minecraft:purple_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:brown_concrete"
+			x: 17.5d
+			y: -6.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "55EFD8B4ED3619B2"
+			tasks: [
+				{
+					id: "4BFD832A073205C1"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "40366995DFE32197"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "264D675D1F7CB1E6"
+				type: "item"
+				item: "minecraft:brown_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:orange_concrete"
+			x: 17.0d
+			y: -5.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2AE33876942A5BF0"
+			tasks: [
+				{
+					id: "4754B052EDBA01C0"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "60E5763DBC8A2835"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "06FF34CA5732A481"
+				type: "item"
+				item: "minecraft:orange_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:lime_concrete"
+			x: 13.0d
+			y: -9.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6208BA83DA5A9237"
+			tasks: [
+				{
+					id: "27FE80F0146A0A4A"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "0FCD81DE4764729B"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "65F55491D8A1BFA5"
+				type: "item"
+				item: "minecraft:lime_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:light_gray_concrete"
+			x: 12.5d
+			y: -8.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "0B3920A31C3C61BE"
+			tasks: [
+				{
+					id: "614055AFB27E0054"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "5201FCB86B638520"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "66BC85FACC8D7734"
+				type: "item"
+				item: "minecraft:light_gray_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:gray_concrete"
+			x: 12.0d
+			y: -7.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "586AB8C9E085DA55"
+			tasks: [
+				{
+					id: "22410BF76C988F05"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "348E6608D3FE3979"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "08CDFA1B89B1E8A5"
+				type: "item"
+				item: "minecraft:gray_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:light_blue_concrete"
+			x: 12.5d
+			y: -6.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "30B51998B87E469C"
+			tasks: [
+				{
+					id: "1033BF350B8027D9"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "23558EA2BC0A29B2"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "72D8211BDA5160E0"
+				type: "item"
+				item: "minecraft:light_blue_concrete"
+				count: 32
+			}]
+		}
+		{
+			icon: "minecraft:cyan_concrete"
+			x: 13.0d
+			y: -5.5d
+			shape: "circle"
+			dependencies: ["72EFF20CBF4AB83F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "1C017B33434405F6"
+			tasks: [
+				{
+					id: "7F403BFC742FEA67"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "610437D07677F397"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "41C981E9388D05C2"
+				type: "item"
+				item: "minecraft:cyan_concrete"
+				count: 32
+			}]
+		}
+		{
+			title: "Assistance in the Nether"
+			icon: "inspirations:dimension_compass"
+			x: -0.5d
+			y: 11.0d
+			description: ["Any of these offerings can be made to locate structures in the Nether. Make sure you claim them while in the Nether dimension, or they will fail and your resources will not be refunded."]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			id: "25C4F6BF87A5D9B9"
+			tasks: [{
+				id: "7F2C1E4F79D3F563"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "332C481A04FB6648"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Where is the nearest Nether Den?"
+			x: -0.5d
+			y: 12.5d
+			shape: "circle"
+			description: ["Where is the nearest Max Raid Den? Make an offering to Arceus in hope of answers."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "043B5DABE875EF76"
+			tasks: [
+				{
+					id: "4A1616FD33DF87F7"
+					type: "item"
+					item: {
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
+						tag: {
+							fluid: "minecraft:lava"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "17403D9DCA2F088B"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					consume_items: true
+				}
+				{
+					id: "4A745B767D51E9DC"
+					type: "item"
+					item: "minecraft:magma_block"
+					consume_items: true
+				}
+				{
+					id: "2BCE65FFD4D12384"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2541846CE6F7964C"
+				type: "command"
+				title: "Find nearest Den"
+				icon: "pixelmon:den_spawner"
+				command: "/execute at @p as @p run locate pixelmon:nether_den"
+				player_command: true
+			}]
+		}
+		{
+			title: "I wish to go to the roof of the Nether"
+			x: 0.5d
+			y: 12.0d
+			shape: "circle"
+			description: [
+				"The surface of the planet is long gone, but with all the layers stripped away there still seems to be a cooling core of bedrock that can be walked on. You may wish to travel up there and look for Hidden Pokeloot chests or to gain better control over spawning conditions."
+				""
+				"The Nether Roof can also be reached from the Quartz Desert, which has spires of quartz that pierce the bedrock surface."
+			]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6C4A1905D55D5E1E"
+			tasks: [
+				{
+					id: "7A6CDA8C325CDFFF"
+					type: "item"
+					item: "minecraft:sticky_piston"
+					consume_items: true
+				}
+				{
+					id: "0F1E12F45C2BA73C"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "1194995D1B5A57E8"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					consume_items: true
+				}
+				{
+					id: "25BF19FA10A1A041"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6B1E8F1712FE1060"
+				type: "command"
+				title: "Teleport to the roof of the Nether"
+				icon: "minecraft:bedrock"
+				command: "/execute at @p as @p run tp ~ 128 ~"
+				player_command: false
+			}]
+		}
+		{
+			title: "The Nether Fortress"
+			x: 1.0d
+			y: 11.0d
+			shape: "circle"
+			description: ["Where is the nearest Fortress? Make an offering to Arceus in hope of answers."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "275BCC637C419586"
+			tasks: [
+				{
+					id: "6730F92511B0DB07"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "52BD09E667AD300E"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					consume_items: true
+				}
+				{
+					id: "6D49729E5ECCF032"
+					type: "item"
+					item: "minecraft:nether_wart"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40EB80E353B186CC"
+				type: "command"
+				title: "Finds the nearest Fortress"
+				icon: "minecraft:nether_bricks"
+				command: "/execute at @p as @p run locate fortress"
+				player_command: false
+			}]
+		}
+		{
+			title: "Where is the Nearest Bastion?"
+			x: -1.5d
+			y: 12.0d
+			shape: "circle"
+			description: ["Where is the nearest Bastion? Make an offering to Arceus in hope of answers."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6CA694CDB003633E"
+			tasks: [
+				{
+					id: "60522808206E4455"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					consume_items: true
+				}
+				{
+					id: "1356BBC805AB7C9E"
+					type: "item"
+					item: "minecraft:porkchop"
+					consume_items: true
+				}
+				{
+					id: "4314FAF0CBA4FA3F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "61DCF4645D61687B"
+				type: "command"
+				title: "Find nearest Bastion."
+				icon: "minecraft:gilded_blackstone"
+				command: "/execute at @p as @p run locate bastion_remnant"
+				player_command: false
+			}]
+		}
+		{
+			title: "Where is the Nearest Thether Grotto?"
+			x: -2.0d
+			y: 11.0d
+			shape: "circle"
+			description: ["There are many good reasons to find a Nether Grotto, but where is the nearest one to you right now? Keep in mind that the nearest nether grotto may be one you've already found."]
+			dependencies: ["25C4F6BF87A5D9B9"]
+			optional: true
+			repeatable: true
+			id: "002929F34948509F"
+			tasks: [
+				{
+					id: "0EBDEE946E509872"
+					type: "item"
+					item: "minecraft:purple_glazed_terracotta"
+					consume_items: true
+				}
+				{
+					id: "65F63E54860ACDAA"
+					type: "item"
+					item: "minecraft:white_glazed_terracotta"
+					consume_items: true
+				}
+				{
+					id: "00CA3CA0C9897083"
+					type: "item"
+					item: "minecraft:iron_bars"
+					consume_items: true
+				}
+				{
+					id: "5C9804441A51E362"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2CDEF5AC92B6C243"
+				type: "command"
+				title: "Find the Nearest Nether Grotto"
+				icon: "pixelmon:master_chest"
+				command: "/execute at @p as @p run locate pixelmon:grotto_nether"
+				player_command: false
+			}]
+		}
+		{
+			title: "Blank TR"
+			icon: {
+				id: "pixelmon:tr8_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+			x: -9.5d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"Blank TRs allow you to copy some of the most powerful Pokemon moves from one Pokemon to another. You have to practice a move over and over again while the blank is attached to a Pokemon. Once the move has been practiced enough times, the TR will record that move, and you can remove it and teach it to another Pokemon."
+				""
+				"TRs are single use items!"
+			]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "5A8D1269CE405C73"
+			tasks: [
+				{
+					id: "71A167B0E4DA440C"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "28EBA4CA7DD65DE7"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "66DF8F887ACB21AD"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "70295F49044CCA9E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "114F5A50814349F5"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "4539892E378C68C9"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "4EE9803622FDA799"
+					type: "item"
+					item: "pixelmon:stardust"
+				}
+			]
+			rewards: [{
+				id: "3E71765B425F71C1"
+				type: "item"
+				item: {
+					id: "pixelmon:tr8_blank"
+					Count: 1b
+					tag: {
+						tm: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Galarian TM"
+			icon: {
+				id: "pixelmon:tm8_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+			x: -8.5d
+			y: -10.0d
+			shape: "circle"
+			description: [
+				"Many of the best Galarian moves can only be found in TR form. For instance, there is no Galarian TM for \"Thunder.\" There's a single-use Galarian TR for Thunder instead."
+				""
+				"That said, there are plenty of good TM moves you might want to copy from one Pokemon to another. Check your options for Galarian TMs before deciding to pray for a blank one."
+			]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2050CFE9A93EA51F"
+			tasks: [
+				{
+					id: "4DE288ECE3B0270F"
+					type: "item"
+					title: "Any #minecraft:music_discs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:music_discs"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3562123A3FE80A24"
+					type: "item"
+					title: "Any #ghosts:underground_shards"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ghosts:underground_shards"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5559CDA76F19ACA7"
+				type: "item"
+				item: {
+					id: "pixelmon:tm8_blank"
+					Count: 1b
+					tag: {
+						tm: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Other TMs"
+			icon: {
+				id: "pixelmon:tm9_blank"
+				Count: 1b
+				tag: {
+					tm: { }
+				}
+			}
+			x: -7.5d
+			y: -9.5d
+			shape: "circle"
+			description: ["Most places other than Galar have stronger TMs. For instance, an Alolan TM can contain the move \"Thunder,\" and a Galarian one cannot. For this reason, you expect non-Galarian TMs to be much more valuable, and difficult to obtain. You are ready to make quite an offering to try and get one!"]
+			dependencies: ["57278538BF47E89A"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "31545E39BE6C0C9A"
+			tasks: [
+				{
+					id: "25A36CCE803786BE"
+					type: "item"
+					title: "Any #minecraft:music_discs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:music_discs"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2531BCAF77DC9015"
+					type: "item"
+					title: "Any #forge:nether_stars"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nether_stars"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "254F9E1B9019F0B6"
+					type: "item"
+					item: "pixelmon:comet_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1E298CB34B819683"
+				type: "choice"
+				table_id: 5426868279948745664L
+			}]
+		}
+		{
+			title: "Relic Items"
+			x: 7.5d
+			y: 8.0d
+			description: [
+				"Relic Items can be used to help in spawning Legendary Pokemon, but they cover such a small area, and are so difficult to obtain, that it would be nearly impossible to summon Legendaries with just one of each."
+				""
+				"You will just have to whip out some art skills and try to make copies of each of them! "
+			]
+			dependencies: ["395FF1A6F8319736"]
+			hide: true
+			id: "0D3D98B62D27A023"
+			tasks: [{
+				id: "491AE807E17E19E1"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pixelmon:relic_crown"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_vase"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_statue"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:relic_band"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E6D13279D1B561A"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["If you already have a relic band, you can spend a relic copper and some other resources to obtain more Relic Bands."]
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "284EEE848EE0AEFD"
+			tasks: [
+				{
+					id: "393017F2E903FFD7"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "0FA3150FE49A6841"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "0B1E01AB20E8F17B"
+					type: "item"
+					title: "A Non-Relic Band"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:mana_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "botania:aura_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "pixelmon:choice_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:muscle_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:power_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:focus_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:binding_band"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2060A6996490EDA5"
+				type: "item"
+				item: "pixelmon:relic_band"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			shape: "circle"
+			description: ["If you already have a relic band, you can spend a relic gold and some other resources to obtain more Relic Bands."]
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "23AAEF8BF519FFFF"
+			tasks: [
+				{
+					id: "6A8C56E0F195498C"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "71520D2F288C8EE8"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "3BFABAB1D24704ED"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:mana_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "botania:aura_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "pixelmon:choice_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:muscle_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:power_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:focus_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:binding_band"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27348B812305EF6B"
+				type: "item"
+				item: "pixelmon:relic_band"
+				count: 7
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			shape: "circle"
+			description: ["If you already have a relic band, you can spend a relic silver and some other resources to obtain more Relic Bands."]
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "0942AC033532EA57"
+			tasks: [
+				{
+					id: "3808F49D85F22139"
+					type: "item"
+					item: "pixelmon:relic_band"
+				}
+				{
+					id: "540140C4E55B1AD9"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "414A448781A10C0D"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:mana_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "botania:aura_ring"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "pixelmon:choice_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:muscle_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:power_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:focus_band"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:binding_band"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "679614E80F9C940B"
+				type: "item"
+				item: "pixelmon:relic_band"
+				count: 3
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "6A62A36CC2D92F86"
+			tasks: [
+				{
+					id: "6CEF9EED12DAFF27"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "10667A4B795FA8E1"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "29EB5C7F7D167EF0"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:dusk_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:fire_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:chainmail_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:diamond_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:golden_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherite_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:dawn_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:moon_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:manasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:elementium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:terrasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ceramics:clay_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:water_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:leaf_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:thunder_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:sun_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tconstruct:plate_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:armor_toughness": 2.0f
+											"tconstruct:knockback_resistance": 0.1f
+											"tconstruct:durability": 330.0f
+											"tconstruct:armor": 2.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 4
+											upgrades: 1
+										}
+									}
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1000518BE59E0409"
+				type: "item"
+				item: "pixelmon:relic_crown"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "040F6491966B84B6"
+			tasks: [
+				{
+					id: "092E6396415314EF"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "1B7A1E94726ED188"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "301C9341A2BC955E"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:dusk_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:fire_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:chainmail_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:diamond_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:golden_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherite_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:dawn_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:moon_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:manasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:elementium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:terrasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ceramics:clay_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:water_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:leaf_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:thunder_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:sun_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tconstruct:plate_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:armor_toughness": 2.0f
+											"tconstruct:knockback_resistance": 0.1f
+											"tconstruct:durability": 330.0f
+											"tconstruct:armor": 2.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 4
+											upgrades: 1
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "394A776611DACAB7"
+				type: "item"
+				item: "pixelmon:relic_crown"
+				count: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "248E9656E4040B9B"
+			tasks: [
+				{
+					id: "32A1E0F5EBF24BD4"
+					type: "item"
+					item: "pixelmon:relic_crown"
+				}
+				{
+					id: "6E2744CBAA60B6D5"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "2C27162536B4899B"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:dusk_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:fire_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:chainmail_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:diamond_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:golden_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherite_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:dawn_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:moon_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:manasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:elementium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:terrasteel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ceramics:clay_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:water_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:leaf_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:thunder_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "pixelmon:sun_stone_helm"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tconstruct:plate_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:armor_toughness": 2.0f
+											"tconstruct:knockback_resistance": 0.1f
+											"tconstruct:durability": 330.0f
+											"tconstruct:armor": 2.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 4
+											upgrades: 1
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "15A0E28B7B435379"
+				type: "item"
+				item: "pixelmon:relic_crown"
+				count: 7
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "41EAED4B47B0CE77"
+			tasks: [
+				{
+					id: "677BC09D8DCBEF4C"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "123A3D73F2C08B4F"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "7AF04AA2133B30FB"
+					type: "item"
+					item: "ceramics:unfired_porcelain"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "5D0CBC4662BD17ED"
+					type: "observation"
+					title: "Observe a Kiln"
+					icon: "ceramics:kiln"
+					timer: 0L
+					observe_type: 0
+					to_observe: "ceramics:kiln"
+				}
+			]
+			rewards: [{
+				id: "4DB13E13B296A205"
+				type: "item"
+				item: "pixelmon:relic_statue"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "03908DF9CEB62FE9"
+			tasks: [
+				{
+					id: "2A50691CEA0B6566"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "233CD72B483A7075"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "40E238169C6AF8E7"
+					type: "item"
+					item: "ceramics:unfired_porcelain"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "3BD23033FFBAFC95"
+					type: "observation"
+					title: "Observe a Kiln"
+					icon: "ceramics:kiln"
+					timer: 0L
+					observe_type: 0
+					to_observe: "ceramics:kiln"
+				}
+			]
+			rewards: [{
+				id: "20BDA16058D7292E"
+				type: "item"
+				item: "pixelmon:relic_statue"
+				count: 3
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "03BF38AB2D757502"
+			tasks: [
+				{
+					id: "06BD30BD34572C82"
+					type: "item"
+					item: "pixelmon:relic_statue"
+				}
+				{
+					id: "7081BD8DBF14D5CC"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "5E0A8F605AA924AC"
+					type: "item"
+					item: "ceramics:unfired_porcelain"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "057340D5D03EEE85"
+					type: "observation"
+					title: "Observe a Kiln"
+					icon: "ceramics:kiln"
+					timer: 0L
+					observe_type: 0
+					to_observe: "ceramics:kiln"
+				}
+			]
+			rewards: [{
+				id: "30FCBBE37C83A4C7"
+				type: "item"
+				item: "pixelmon:relic_statue"
+				count: 7
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "1038487B8E6AE539"
+			tasks: [
+				{
+					id: "77E29633E2CC9CD7"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+				{
+					id: "2E1ABA60F662D65A"
+					type: "item"
+					item: "pixelmon:relic_copper"
+					consume_items: true
+				}
+				{
+					id: "285FB6FDD3A7E46A"
+					type: "item"
+					item: "byg:silver_vase_flower"
+					consume_items: true
+				}
+				{
+					id: "282E525E13BB1CCF"
+					type: "item"
+					item: "minecraft:flower_pot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "324995B95B6C173D"
+				type: "item"
+				item: "pixelmon:relic_vase"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "6BFDE8E54490C3B3"
+			tasks: [
+				{
+					id: "153851BEC91306A5"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+				{
+					id: "5F32020A2EF07B4A"
+					type: "item"
+					item: "pixelmon:relic_silver"
+					consume_items: true
+				}
+				{
+					id: "1995696294C03E42"
+					type: "item"
+					item: "byg:silver_vase_flower"
+					consume_items: true
+				}
+				{
+					id: "6EF25C59A4841A8E"
+					type: "item"
+					item: "minecraft:flower_pot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3E46AE40662275A3"
+				type: "item"
+				item: "pixelmon:relic_vase"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: 11.0d
+			shape: "circle"
+			dependencies: ["0D3D98B62D27A023"]
+			optional: true
+			repeatable: true
+			id: "07D5E2AB848053A7"
+			tasks: [
+				{
+					id: "1322AEA33F7456E0"
+					type: "item"
+					item: "pixelmon:relic_vase"
+				}
+				{
+					id: "09FEC5775D512C8D"
+					type: "item"
+					item: "pixelmon:relic_gold"
+					consume_items: true
+				}
+				{
+					id: "4EB1494AED8B9BDC"
+					type: "item"
+					item: "byg:silver_vase_flower"
+					consume_items: true
+				}
+				{
+					id: "611297FD2D69AA6C"
+					type: "item"
+					item: "minecraft:flower_pot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7F54B9C5E278DE05"
+				type: "item"
+				item: "pixelmon:relic_vase"
+				count: 7
+			}]
+		}
+		{
+			title: "Spawner"
+			icon: "minecraft:spawner"
+			x: -2.5d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"You have been encountering 'spawn eggs' and you are reluctant to use them because you know they are so very rare, and precious."
+				""
+				"If you could get access to a spawner, you could change its spawn type by touching it with a spawn egg."
+				""
+				"You could use this to create monsters to fight, or to summon categories of Pokemon, such as 'pig' Pokemon, or 'cow' Pokemon."
+				""
+				"Keep in mind that spawners will not produce many entities if there are already too many Pokemon in an area. For passive monster types like 'pigs', well, remember 'pigs' will only spawn on grass."
+			]
+			dependencies: ["5742DF95648CAE94"]
+			hide: true
+			repeatable: true
+			id: "3029B49CD228E600"
+			tasks: [
+				{
+					id: "4C8F343D5B25CC4C"
+					type: "item"
+					item: "tconstruct:drowned_head"
+					consume_items: true
+				}
+				{
+					id: "2252EF2BE1E6B02F"
+					type: "item"
+					item: "tconstruct:enderman_head"
+					consume_items: true
+				}
+				{
+					id: "0848EC1370FBEBD7"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					consume_items: true
+				}
+				{
+					id: "5FF31973FD52294F"
+					type: "item"
+					title: "Any #ghosts:underground_shards"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ghosts:underground_shards"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6ACE12D494025A5A"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "circle"
+			description: ["In case you lose track of an end portal frame, you might need to beg for more."]
+			dependencies: [
+				"437215A2580227C5"
+				"2172C595ED6DC0C2"
+				"63CE7C5AFECCED30"
+				"713C246CB5C66BC9"
+			]
+			hide: true
+			repeatable: true
+			id: "3F64BB3B7435ECC9"
+			tasks: [
+				{
+					id: "3FBABD9596455E1B"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "419E250AE335D1AC"
+					type: "item"
+					item: "thermal:enderium_ingot"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4CB5CD0069C162B7"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["These aren't very useful, but maybe the a fairy will take them away."]
+			dependencies: ["307D4E7B70929C18"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "61AF150EAC82681B"
+			tasks: [{
+				id: "047FE24E858E33AE"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "16E7D87F3BE50C44"
+				type: "pixelmon:pokedollars"
+				count: 40
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["These aren't very useful, but maybe the a fairy will take them away."]
+			dependencies: ["307D4E7B70929C18"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "3CB3D5024CF30014"
+			tasks: [{
+				id: "3938686213CD7282"
+				type: "item"
+				item: "immersiveengineering:shader_bag_epic"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2FD8EE7B0E33CA8E"
+				type: "pixelmon:pokedollars"
+				auto: "enabled"
+				count: 356
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			description: [
+				"This chapter of your journal describes many possible offerings you can make to Arceus. "
+				""
+				"Every quest here is optional and repeatable."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"307D4E7B70929C18"
+				"11A73D9EAEEDF61B"
+				"5DD5BF266D98926B"
+				"2003FDACA2AA72A4"
+				"7678A17A7714A3FD"
+			]
+			hide: true
+			id: "786F174A21F75F06"
+			tasks: [{
+				id: "1F26AB2580A8CC17"
+				type: "checkmark"
+				icon: "ftbquests:book"
+			}]
+			rewards: [{
+				id: "6683DF5EF98C8D3D"
+				type: "item"
+				item: "pixelmon:heal_powder"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			shape: "circle"
+			description: ["You may want to keep this as a memento, or use it to trade for a bike. After all, it is worth more than the money cap!"]
+			dependencies: ["534D6277A54CE5BB"]
+			optional: true
+			id: "0B19371720BF8859"
+			tasks: [{
+				id: "689659173DB8412F"
+				type: "item"
+				item: "pixelmon:bike_voucher"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3716CB5FD86F9A56"
+				type: "choice"
+				table_id: 6054085672611887539L
+			}]
+		}
+		{
+			title: "Check Spawns"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/items/pokedex.png"
+				}
+			}
+			x: 1.5d
+			y: 5.5d
+			shape: "circle"
+			description: [
+				"Arceus has apparently decided you deserve constant acess to the /checkspawns command, which can be used to check which Pokemon spawn in any given area."
+				""
+				"This is true regardless of whether you have commands enabled by more conventional means."
+				""
+				"(NOTE! These don't work. The first one can't run in a cheats-disabled world. The second bypasses the permissions issue in a cheats disabled world, but the execute command eats the output instead of displaying it to the player. You can see this if you put the same command in a command block. If you want people on your server to be able to use checkspawns, use a plugin to give them the relevant permissions. Unfortunately, it's just not possible to do the same in singleplayer.)"
+			]
+			hide_dependency_lines: false
+			dependencies: ["1461900BEAD0C38E"]
+			hide: true
+			optional: true
+			secret: true
+			repeatable: true
+			id: "6648BD855A6F7435"
+			tasks: [{
+				id: "07CD43F84FA83915"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "31EA47D0F7B01AB4"
+					type: "command"
+					command: "/gamemode creative @p"
+					player_command: true
+				}
+				{
+					id: "669DF87C39FD6221"
+					type: "command"
+					command: "/checkspawns"
+					player_command: true
+				}
+				{
+					id: "4C2261EF79E71E51"
+					type: "command"
+					command: "/gamemode survival @p"
+					player_command: false
+				}
+				{
+					id: "7CBA51ACBB3D4C7B"
+					type: "command"
+					command: "/execute as @p run checkspawns"
+					player_command: false
+				}
+				{
+					id: "492F92B4D270A0F4"
+					type: "command"
+					command: "/execute as @p run say hi"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Check Spawns Legendary"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixelmon:textures/gui/pokedex/star.png"
+				}
+			}
+			x: 2.5d
+			y: 5.5d
+			shape: "circle"
+			description: ["You also have the ability to check an area for its legendary spawns."]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			optional: true
+			secret: true
+			repeatable: true
+			id: "69A48E1F95100DB2"
+			tasks: [{
+				id: "14F7195AA7B4FD1D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2E89E6082FD152C7"
+				type: "command"
+				auto: "enabled"
+				command: "/execute as @p run checkspawns legendary"
+				player_command: true
+			}]
+		}
+		{
+			icon: "byg:scoria_stone"
+			x: -16.5d
+			y: -2.5d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "14A7D9066CCD3773"
+			tasks: [
+				{
+					id: "45DC63B7A47D79C3"
+					type: "item"
+					item: "byg:scoria_stone"
+					consume_items: true
+				}
+				{
+					id: "4FE71E9A3FB1D7FE"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3BB4C9F96F56AF1A"
+				type: "item"
+				item: "byg:scoria_stone"
+				count: 17
+			}]
+		}
+		{
+			icon: "minecraft:blackstone"
+			x: -15.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "606B9254CAE66778"
+			tasks: [
+				{
+					id: "5FA237ABC7820416"
+					type: "item"
+					item: "minecraft:blackstone"
+					consume_items: true
+				}
+				{
+					id: "04C4F0561803F2D8"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0EACEDB4A970E31A"
+				type: "item"
+				item: "minecraft:blackstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "biomesoplenty:black_sandstone"
+			x: -19.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "259276B8E5862B89"
+			tasks: [
+				{
+					id: "6F4C891420ECAF1E"
+					type: "item"
+					item: "biomesoplenty:black_sandstone"
+					consume_items: true
+				}
+				{
+					id: "61EC2F982146413E"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6FEB6EF4748DFA59"
+				type: "item"
+				item: "biomesoplenty:black_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "biomesoplenty:white_sandstone"
+			x: -18.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "62E0F1999DF5EDB4"
+			tasks: [
+				{
+					id: "64A92018A53D5655"
+					type: "item"
+					item: "biomesoplenty:white_sandstone"
+					consume_items: true
+				}
+				{
+					id: "0BFE5B231BE2831C"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4168CAEE3E78A45E"
+				type: "item"
+				item: "biomesoplenty:white_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "byg:dacite"
+			x: -17.5d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "71A93637A8D17F2D"
+			tasks: [
+				{
+					id: "0D643BB371256E0F"
+					type: "item"
+					item: "byg:dacite"
+					consume_items: true
+				}
+				{
+					id: "5B489E9402AAE046"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "29207B6F532EF0C7"
+					type: "item"
+					item: "byg:dacite"
+					count: 16
+				}
+				{
+					id: "13B5CA24E876F6DF"
+					type: "item"
+					item: "byg:overgrown_dacite"
+				}
+			]
+		}
+		{
+			icon: "byg:purple_sandstone"
+			x: -17.5d
+			y: 2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4D66D678C9B5954A"
+			tasks: [
+				{
+					id: "32D6C6488F59465B"
+					type: "item"
+					item: "byg:purple_sandstone"
+					consume_items: true
+				}
+				{
+					id: "1FBA8DA6191D7B41"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "368E3C767C1BCD44"
+				type: "item"
+				item: "byg:purple_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "byg:pink_sandstone"
+			x: -14.5d
+			y: 1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "206EAFE1FBB6D89F"
+			tasks: [
+				{
+					id: "0A8142B6A1010789"
+					type: "item"
+					item: "byg:pink_sandstone"
+					consume_items: true
+				}
+				{
+					id: "0766E8D464966271"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5090BFD2115081EC"
+				type: "item"
+				item: "byg:pink_sandstone"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:red_sandstone"
+			x: -14.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "4A29C3C6D4815921"
+			tasks: [
+				{
+					id: "548FD30CAD2B0728"
+					type: "item"
+					item: "minecraft:red_sandstone"
+					consume_items: true
+				}
+				{
+					id: "50DBFCF285F131C0"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "19E3F5A05E8C8D50"
+				type: "item"
+				item: "minecraft:red_sandstone"
+				count: 17
+			}]
+		}
+		{
+			icon: "biomesoplenty:orange_sandstone"
+			x: -15.5d
+			y: 2.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6656B38B952C76D3"
+			tasks: [
+				{
+					id: "6412DFEE24AA561E"
+					type: "item"
+					item: "biomesoplenty:orange_sandstone"
+					consume_items: true
+				}
+				{
+					id: "1334A6AA7DB92D8E"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5F215BF314B393AC"
+				type: "item"
+				item: "biomesoplenty:orange_sandstone"
+				count: 16
+			}]
+		}
+		{
+			icon: "minecraft:basalt"
+			x: -18.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "662F55F871E3B010"
+			tasks: [
+				{
+					id: "1B1D5955DCF5F9FF"
+					type: "item"
+					item: "minecraft:basalt"
+					consume_items: true
+				}
+				{
+					id: "46AE0B0B10A5B167"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "47E0DA30D0BF9493"
+				type: "item"
+				item: "minecraft:basalt"
+				count: 17
+			}]
+		}
+		{
+			icon: "byg:red_rock"
+			x: -14.5d
+			y: -1.0d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "06F968800C6BE0DD"
+			tasks: [
+				{
+					id: "68077D0D5D448A81"
+					type: "item"
+					item: "byg:red_rock"
+					consume_items: true
+				}
+				{
+					id: "3F9DCFAC10C407E5"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "47358044E164D5BA"
+				type: "item"
+				item: "byg:red_rock"
+				count: 17
+			}]
+		}
+		{
+			title: "Offerings for Natural Building Blocks"
+			disable_toast: true
+			x: -16.5d
+			y: 0.0d
+			description: [
+				"These blocks are good for 'Underground' and 'Outside' or 'Land' habitats."
+				""
+				"You'll have to find at least one representative of each first, though!"
+			]
+			hide_dependency_lines: true
+			secret: true
+			id: "59EBC8F05D52CE1F"
+			tasks: [{
+				id: "16A32E54499D8CD9"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AC7A467397483CB"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "byg:mossy_stone"
+			x: -16.5d
+			y: 2.5d
+			shape: "circle"
+			dependencies: ["59EBC8F05D52CE1F"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "12E437202B228F89"
+			tasks: [
+				{
+					id: "5D1D0534D1259F8B"
+					type: "item"
+					item: "byg:mossy_stone"
+					consume_items: true
+				}
+				{
+					id: "3F508F20A047A0A1"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "54E88FD68F2A6BB1"
+				type: "item"
+				item: "byg:mossy_stone"
+				count: 17
+			}]
+		}
+		{
+			title: "Helpful NPCs"
+			icon: "pixelmon:trainer_editor"
+			x: -8.5d
+			y: 8.0d
+			description: [
+				"You may be able to do something to get Arceus to lead you to zombie villagers with specific skills..."
+				""
+				"(WARNING: Remember that it is hard to move NPCs after placing them. Ensure you are standing in the desired final location for the Shopkeeper.)"
+				""
+				"(WARNING: Files only exist for the English version. These commands will fail if you are in other languages, because their files have not been translated yet.)"
+			]
+			hide_dependency_lines: false
+			dependencies: ["0D06E969FA2BCE84"]
+			hide: true
+			id: "2F8EDE5691D1B79E"
+			tasks: [{
+				id: "47AF4184E56BA4C8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3F91F5B9C323B1F4"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Apricorn Smithy"
+			x: -8.5d
+			y: 6.0d
+			shape: "circle"
+			description: ["Arceus will help revive a Pokeball saleswoman. They will be limited to using the Apricorns and Tumblestones available in your world, but buying balls is faster than crafting them."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "18066B4BB7953724"
+			tasks: [
+				{
+					id: "1CF9FF5909A1CE34"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "21A78BA8B5164953"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "16E4201B8B9BF530"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "6FA44A86E3170AB0"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "love_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "heal_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_poke_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_great_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_ultra_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "ancient_heavy_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "leaden_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "gigaton_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "feather_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "wing_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "jet_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "poke_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "dive_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "net_ball"
+									}
+								}
+								{
+									id: "pixelmon:poke_ball"
+									Count: 1b
+									tag: {
+										PokeBallID: "dusk_ball"
+									}
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "45F358FD76F3DDFC"
+				type: "command"
+				title: "Spawn a Ghostly Apricorn Smithy"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"pixelmon:heal_ball\",ItemVar:0.9f},{ItemName:\"pixelmon:love_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:ancient_heavy_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:gigaton_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:wing_ball\",ItemVar:1.0f},{ItemName:\"pixelmon:luxury_ball\",ItemVar:1.1f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_apricorn_smithy\",NameIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[3.1017666f,-3.1869152f],HandItems:[{},{}],ChatIndex:4,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8234.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shoplady3.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Baker"
+			x: -7.5d
+			y: 6.5d
+			shape: "circle"
+			description: ["Arceus will help revive an eccentric baker, who has a variety of foods for you and your Pokemon."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "76ED8FC9690EA257"
+			tasks: [
+				{
+					id: "5F2AECC05510BDB0"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "25965D73694BF5E2"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5480774AC93126B9"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "34FBCB2703CE8673"
+					type: "item"
+					item: "ceramics:milk_clay_bucket"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0E945B2844FDB44D"
+					type: "command"
+					title: "Summon a Baker"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "pixelmon:textures/items/npceditor.png"
+						}
+					}
+					command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"minecraft:cookie\",ItemVar:1.0f},{ItemName:\"minecraft:cake\",ItemVar:0.9f},{ItemName:\"pixelmon:rage_candy_bar\",ItemVar:0.9f},{ItemName:\"pixelmon:lumiose_galette\",ItemVar:1.1f},{ItemName:\"pixelmon:casteliacone\",ItemVar:1.0f},{ItemName:\"pixelmon:lava_cookie\",ItemVar:0.9f},{ItemName:\"pixelmon:shalour_sable\",ItemVar:1.0f},{ItemName:\"pixelmon:moomoo_milk\",ItemVar:1.0f},{ItemName:\"minecraft:apple\",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_food_shop\",NameIndex:3,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[1.097685f,-2.5686007f],HandItems:[{},{}],ChatIndex:3,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8236.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shopman3.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+					player_command: false
+				}
+				{
+					id: "7D680F8052E953EA"
+					type: "item"
+					item: "ceramics:clay_bucket"
+				}
+			]
+		}
+		{
+			title: "Curry Ingredient Guy"
+			x: -7.0d
+			y: 7.5d
+			shape: "circle"
+			description: ["Arceus will help revive a curry vendor. This curry vendor won't have every rare ingredient out there, but he will have some."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "6AA698E5B89C62CA"
+			tasks: [
+				{
+					id: "7A79E4279FB2D00B"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "2F0B7E6815CF22EC"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2F324CD764386B2E"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "0606C28EC6E8035A"
+					type: "item"
+					title: "Any #pixelmon:curry_ingredient"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "pixelmon:curry_ingredient"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27017097C8B38607"
+				type: "command"
+				title: "Summon a Curry Ingredient Vendor"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"pixelmon:moomoo_milk\",ItemVar:1.0f},{ItemName:\"pixelmon:curry_coconut\",ItemVar:0.9f},{ItemName:\"pixelmon:curry_juicy\",ItemVar:1.0f},{ItemName:\"pixelmon:curry_cheese\",ItemVar:1.0f},{ItemName:\"pixelmon:curry_cream\",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_curry_shop\",NameIndex:2,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[6.2076545f,-3.523868f],HandItems:[{},{}],ChatIndex:0,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8236.5d,71.0d,-27.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shopman.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Herbal Medicine Shop"
+			x: -7.0d
+			y: 8.5d
+			shape: "circle"
+			description: ["Arceus will help revive a herbal medicine woman. This herbal medicine vendor can only make the same medicines you can. However,  it's sometimes faster to buy than to craft medicines."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "616FCBB017F8404D"
+			tasks: [
+				{
+					id: "14E5AF6A9AA31528"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "2341403BEC366E5F"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1C84DE99A35846A0"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "20CAA063D25FE394"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pixelmon:heal_powder"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:energy_root"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:energy_powder"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:revival_herb"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "317F5870ED5C4D94"
+				type: "command"
+				title: "Summon Herbal Medicine Shop Owner"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_shopkeeper ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_shopkeeper\",ShopItems:[{ItemName:\"pixelmon:heal_powder\",ItemVar:1.0f},{ItemName:\"pixelmon:energy_powder\",ItemVar:1.0f},{ItemName:\"pixelmon:energy_root\",ItemVar:1.0f},{ItemName:\"pixelmon:revival_herb\",ItemVar:0.9f},{ItemName:\"pixelmon:oran_berry\",ItemVar:1.1f},{ItemName:\"pixelmon:leppa_berry\",ItemVar:1.0f}],trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,TrainerIndex:\"ghost_medicine_shop\",NameIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[2.352991f,-2.6242344f],HandItems:[{},{}],ChatIndex:1,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8237.5d,71.0d,-26.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"shoplady4.png\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:2s}"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			description: ["This Fisherman probably won't stick around, even if you rescue him. Although perhaps you can call him back later?"]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			id: "66957FCCA0550E81"
+			tasks: [
+				{
+					id: "1430CB08CC0233E5"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "4B6F940FEC5E8DEA"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1617D50A5E99DB11"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "1B74DAA0F3FD8E53"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "40A5D571322E5D3A"
+				type: "command"
+				title: "Arceus Revives a Fisherman!"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				command: "/execute at @p run summon pixelmon:npc_oldfisherman"
+				player_command: false
+			}]
+		}
+		{
+			title: "A Move Relearner"
+			x: -9.5d
+			y: 6.5d
+			shape: "circle"
+			description: ["Will this person stick around permenantly, or will it be like move relearners before the apocalypse? You aren't sure! From the looks of things, it seems he plans to hang around..."]
+			dependencies: ["2F8EDE5691D1B79E"]
+			optional: true
+			repeatable: true
+			id: "6810A3DE6C9EE953"
+			tasks: [
+				{
+					id: "23EF560217599794"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "6A4140335A396233"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "290F4A0A8723A026"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "5478552FF91B9073"
+					type: "item"
+					item: "pixelmon:heart_scale"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1C27864E6D618716"
+				type: "command"
+				title: "Summon Move Relearner"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				auto: "disabled"
+				command: "/execute at @p run summon pixelmon:npc_relearner ~ ~ ~ {Brain:{memories:{}},HurtByTimestamp:0,Attributes:[{Base:0.699999988079071d,Name:\"minecraft:generic.movement_speed\"},{Base:0.08d,Name:\"forge:entity_gravity\"}],Invulnerable:0b,FallFlying:0b,PortalCooldown:0,AbsorptionAmount:0.0f,Name:\"Move Relearner\",FallDistance:0.0f,CanUpdate:1b,DeathTime:0s,Commands:{interactCommands:[]},ForgeCaps:{},HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,id:\"pixelmon:npc_relearner\",trainerLocation:2,Motion:[0.0d,-0.0784000015258789d,0.0d],TextureIndex:0,Health:20.0f,LeftHanded:0b,Air:300s,OnGround:1b,Rotation:[0.01336107f,-1.756395f],HandItems:[{},{}],ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],Profession:-1s,Pos:[8241.5d,71.0d,-22.5d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,CustomSteveTexture:\"youngster1\",HurtTime:0s,BaseTrainer:\"Steve\",Inventory:[],AIMode:0s}"
+				player_command: false
+			}]
+		}
+		{
+			title: "Re-Summon Fisherman"
+			x: -6.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["There's already a Fisherman lurking somewhere around your world... maybe waggling around a rod will bring him back?"]
+			dependencies: ["66957FCCA0550E81"]
+			hide: true
+			optional: true
+			id: "453A6A8299CD658A"
+			tasks: [{
+				id: "152BB3558CF925F0"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D591C385DA79795"
+				type: "command"
+				title: "Summon back that silly Fisherman"
+				icon: "pixelmon:trainer_editor"
+				auto: "enabled"
+				command: "/execute at @p run summon pixelmon:npc_oldfisherman"
+				player_command: false
+			}]
+		}
+		{
+			title: "A Move Tutor"
+			x: -8.5d
+			y: 10.0d
+			description: ["This Tutor probably won't stick around, even if you rescue him. Although perhaps you can call him back later?"]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			id: "077636E336111F18"
+			tasks: [
+				{
+					id: "67DEFE1F6947C54C"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "444A7B42ECD49A6C"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "53E9D7C60CFE673F"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "0C783F74E69D8B37"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:emerald"
+									Count: 1b
+								}
+								{
+									id: "byg:emeraldite_shards"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:amethyst"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:sapphire"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:silicon"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:crystal"
+									Count: 1b
+								}
+								{
+									id: "pixelmon:ruby"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "30BB5714C69498CA"
+				type: "command"
+				title: "Summon a Move Tutor"
+				icon: "pixelmon:trainer_editor"
+				command: "/execute at @p run summon pixelmon:npc_tutor"
+				player_command: false
+			}]
+		}
+		{
+			title: "Countdown to Next Fisherman"
+			x: -5.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["There's only so often you can call on that poor Fisherman, he has work to do!"]
+			dependencies: ["453A6A8299CD658A"]
+			optional: true
+			repeatable: true
+			id: "7E1C11CFD235661A"
+			tasks: [{
+				id: "118B7F6409A7673A"
+				type: "questsadditions:time"
+				elapsedTime: 3600L
+			}]
+			rewards: [{
+				id: "4817514ECC52A118"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 453A6A8299CD658A"
+				player_command: false
+			}]
+		}
+		{
+			title: "Re-Summon Move Tutor"
+			x: -8.5d
+			y: 11.0d
+			shape: "circle"
+			description: ["There's already a Move Tutor lurking somewhere around your world... maybe waggling around a rod will bring him back?"]
+			dependencies: ["077636E336111F18"]
+			hide: true
+			optional: true
+			id: "303967068BFFEC32"
+			tasks: [{
+				id: "2C8328E60891E140"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:emerald"
+								Count: 1b
+							}
+							{
+								id: "byg:emeraldite_shards"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:amethyst"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:sapphire"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:silicon"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:crystal"
+								Count: 1b
+							}
+							{
+								id: "pixelmon:ruby"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6273C9643EE3D672"
+				type: "command"
+				title: "Resummon Move Tutor"
+				icon: "pixelmon:trainer_editor"
+				auto: "enabled"
+				command: "/execute at @p run summon pixelmon:npc_tutor"
+				player_command: false
+			}]
+		}
+		{
+			title: "Countdown to Next Tutor"
+			x: -7.5d
+			y: 11.0d
+			shape: "circle"
+			dependencies: ["303967068BFFEC32"]
+			optional: true
+			repeatable: true
+			id: "03BC1949842FDF3E"
+			tasks: [{
+				id: "0DCF5D084CD1E26C"
+				type: "questsadditions:time"
+				elapsedTime: 3600L
+			}]
+			rewards: [{
+				id: "7EE66FAC669797B4"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 303967068BFFEC32"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: 9.5d
+			description: [
+				"Arceus can help you bring back a Pokemon Collector. He's willing to trade Pokemon from the old world for Pokemon you've collected from this one."
+				""
+				"He Probably won't stick around, but there might be a way to call him back after awhile?"
+			]
+			dependencies: ["2F8EDE5691D1B79E"]
+			hide: true
+			id: "3D3AD436D9CD40A4"
+			tasks: [
+				{
+					id: "0DCA3A555A7C8C4B"
+					type: "item"
+					item: "minecraft:golden_apple"
+					consume_items: true
+				}
+				{
+					id: "28AEA8D4FF561D6E"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3616D6CBBF958A9B"
+					type: "item"
+					item: "minecraft:zombie_head"
+					consume_items: true
+				}
+				{
+					id: "161BC43C97DDF8FE"
+					type: "item"
+					item: "pixelmon:linking_cord"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "689A71A030B09B97"
+				type: "command"
+				title: "Summon Pokemon Collector"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				command: "/execute at @p run summon pixelmon:npc_trader"
+				player_command: false
+			}]
+		}
+		{
+			title: "Re-Summon the Collector"
+			x: -10.5d
+			y: 9.5d
+			shape: "circle"
+			description: ["Summon back the collector by waving around a painting of your new Pokemon and seeing if he shows up."]
+			dependencies: ["3D3AD436D9CD40A4"]
+			hide: true
+			optional: true
+			id: "6E79CCE340EC1757"
+			tasks: [{
+				id: "2183323A33269F1B"
+				type: "item"
+				item: "minecraft:painting"
+			}]
+			rewards: [{
+				id: "2799789019680C3A"
+				type: "command"
+				title: "Re-Summon Collector"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "pixelmon:textures/items/npceditor.png"
+					}
+				}
+				auto: "enabled"
+				command: "/execute at @p run summon pixelmon:npc_trader"
+				player_command: false
+			}]
+		}
+		{
+			title: "Countdown to Next Collector"
+			x: -10.5d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["6E79CCE340EC1757"]
+			optional: true
+			repeatable: true
+			id: "34866A6C595DAB57"
+			tasks: [{
+				id: "3806A478275197FB"
+				type: "questsadditions:time"
+				elapsedTime: 360L
+			}]
+			rewards: [{
+				id: "46E8C2787FD995F0"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 6E79CCE340EC1757"
+				player_command: false
+			}]
+		}
+		{
+			title: "Gambling Light"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixeltweaks:textures/gui/pokeloot/1.png"
+				}
+			}
+			x: -1.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["Gambling for an item is Poke Loot chests is usually less wise than obtaining the item through other means."]
+			dependencies: ["11A73D9EAEEDF61B"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "655AF4B456A8B73E"
+			tasks: [{
+				id: "3ADE0F7A4891F07D"
+				type: "item"
+				title: "Any #ghosts:underground_shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ghosts:underground_shards"
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "028A6B0B2586BD8A"
+				type: "pixelmon:pokeloot"
+				count: 1
+				play_sound: true
+				loot_tier: 0b
+			}]
+		}
+		{
+			title: "Gambling Medium"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixeltweaks:textures/gui/pokeloot/2.png"
+				}
+			}
+			x: -0.5d
+			y: 9.0d
+			shape: "circle"
+			dependencies: ["2B903371F753BED7"]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "527A2111FBA231F2"
+			tasks: [
+				{
+					id: "7367BE36F00072A1"
+					type: "item"
+					item: "pixelmon:red_shard"
+					consume_items: true
+				}
+				{
+					id: "555818957540C397"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					consume_items: true
+				}
+				{
+					id: "7CC4E2DACC916FCD"
+					type: "item"
+					item: "pixelmon:green_shard"
+					consume_items: true
+				}
+				{
+					id: "76737E077E16791F"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					consume_items: true
+				}
+				{
+					id: "6B43825E1B95F8AB"
+					type: "item"
+					item: "pixelmon:white_shard"
+					consume_items: true
+				}
+				{
+					id: "2F7A91541587A8EA"
+					type: "item"
+					item: "pixelmon:black_shard"
+					consume_items: true
+				}
+				{
+					id: "699621F360471AFC"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0E2C59C06D62DEE4"
+				type: "pixelmon:pokeloot"
+				count: 1
+				play_sound: true
+				loot_tier: 1b
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "pixeltweaks:textures/gui/pokeloot/3.png"
+				}
+			}
+			x: 0.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["Most likely, anything you can get via this method can be got elsewhere by other, easier means."]
+			dependencies: [
+				"2B903371F753BED7"
+				"26B77E6C4944C144"
+			]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "2C027761C762F21E"
+			tasks: [
+				{
+					id: "3101E0CE8C445912"
+					type: "item"
+					item: "minecraft:nether_star"
+					consume_items: true
+				}
+				{
+					id: "3AA61C85AA887CFD"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+				{
+					id: "5EFE6AEC6D791962"
+					type: "item"
+					item: "pixelmon:red_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "1821BC56240F9257"
+					type: "item"
+					item: "pixelmon:blue_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "31DDCF82EAA3668C"
+					type: "item"
+					item: "pixelmon:green_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "2FA717129F68A849"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "3024A3BCC86E86BB"
+					type: "item"
+					item: "pixelmon:white_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "646815E959C1A2F8"
+					type: "item"
+					item: "pixelmon:black_shard"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "154277B5341955A7"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+					consume_items: true
+				}
+				{
+					id: "736A946C6AD5A640"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3668E8B2489826C0"
+					type: "pixelmon:release_pokemon"
+					title: "Release One Pokemon"
+					pokemon: ""
+					count: 1
+					invert: false
+				}
+			]
+			rewards: [{
+				id: "5251B19500890BA4"
+				type: "pixelmon:pokeloot"
+				count: 1
+				play_sound: true
+				loot_tier: 2b
+			}]
+		}
+		{
+			title: "PC Reached!"
+			x: 1.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["2CCEEA76B9CF481A"]
+			optional: true
+			secret: true
+			repeatable: true
+			id: "597E9E9A0E2A33DB"
+			tasks: [{
+				id: "2099AD953F309BAB"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [
+				{
+					id: "402A0EDEDCF597EB"
+					type: "command"
+					auto: "no_toast"
+					command: "/execute as @p run pc"
+					player_command: false
+				}
+				{
+					id: "08AC124446052BAF"
+					type: "command"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 2CCEEA76B9CF481A"
+					player_command: false
+				}
+			]
+		}
+	]
+}

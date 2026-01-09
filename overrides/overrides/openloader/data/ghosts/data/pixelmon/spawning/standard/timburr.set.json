@@ -1,0 +1,43 @@
+{
+  "id": "Timburr",
+  "spawnInfos": [
+    {
+      "spec": "species:Timburr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "hills"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": "species:Timburr",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warped_forest",
+          "biomesoplenty:visceral_heap"
+        ]
+      },
+      "rarity": 80.0
+    }
+  ]
+}
