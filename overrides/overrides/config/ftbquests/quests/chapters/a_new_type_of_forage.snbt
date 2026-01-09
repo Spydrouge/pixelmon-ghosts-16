@@ -1,7 +1,7 @@
 {
 	id: "063C46B4F62D89D3"
 	group: "5CC2B36466F88246"
-	order_index: 1
+	order_index: 2
 	filename: "a_new_type_of_forage"
 	title: "Types of Forage"
 	icon: {
@@ -3923,6 +3923,29 @@
 				id: "251903206EFB5BB3"
 				type: "item"
 				item: "pixelmon:wishing_piece"
+			}]
+		}
+		{
+			title: "What to Steal?"
+			x: -6.5d
+			y: -12.5d
+			description: [
+				"What kinds of items can be stolen from Pokemon? Well, typically, Pokemon have a high chance of holding an item that is a rare drop for them. A Shedinja has a small chance of dropping a Kelpsy berry, but it has a higher chance of holding one. "
+				""
+				"Here and there, however, you'll find Pokemon holding something unique, that is not in their drop list. For instance, Pineco may hold Pine leaves, and stealing them is the only way to obtain Pine Saplings."
+			]
+			dependencies: ["2C0BD8E345FD832F"]
+			hide: true
+			id: "2483BBED9E164EAE"
+			tasks: [{
+				id: "13EE943E6B543D7F"
+				type: "item"
+				item: "byg:pine_leaves"
+			}]
+			rewards: [{
+				id: "54BBFC9E7BD60E76"
+				type: "item"
+				item: "pixelmon:green_shard"
 			}]
 		}
 	]

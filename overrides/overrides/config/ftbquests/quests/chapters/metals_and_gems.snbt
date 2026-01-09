@@ -1,7 +1,7 @@
 {
 	id: "2A8EAA6D4AB88D9B"
 	group: "5CC2B36466F88246"
-	order_index: 0
+	order_index: 1
 	filename: "metals_and_gems"
 	title: "Metals and Gems"
 	icon: "minecraft:iron_block"
@@ -12,6 +12,7 @@
 			icon: "minecraft:iron_block"
 			x: 0.0d
 			y: -1.5d
+			subtitle: "Use this to figure out how to get materials."
 			description: [
 				"You've decided to use this chapter of your diary to keep track of your observations regarding where certain materials can be found, such as iron, and silicon."
 				""
@@ -574,7 +575,6 @@
 				"Once you have sand, you should endeavor to create deserts (away from water) and beaches (close to water) to attract more Pokemon of a sandy persuasion. They will often carry additional sand, which you can collect from them."
 			]
 			dependencies: ["235A1662F6418DC0"]
-			hide: true
 			id: "55E3A0A953258FC9"
 			tasks: [
 				{
@@ -970,7 +970,6 @@
 				"Alternatively, it can be harvested directly from Chingling, which can be attracted to numerous habitats in the Space layer."
 			]
 			dependencies: ["6F2DD5CDB657D547"]
-			hide: true
 			id: "0D248812DE33472B"
 			tasks: [
 				{
@@ -1009,7 +1008,6 @@
 				"3592ED1650D172B7"
 				"2256A2C44A963EC5"
 			]
-			hide: true
 			id: "4744A42F4A75A1ED"
 			tasks: [
 				{
@@ -1292,7 +1290,7 @@
 				""
 				"Niter can be found from Nacli, which you have already discovered on the Stone layer. Nacli is attracted to water and sandstone."
 				""
-				"Although you don't foresee a need to blow up anything- you're typically attempt to do the very opposite- gunpowder is valuable in brewing."
+				"Although you don't foresee a need to blow up anything- you're typically attempt to do the very opposite- gunpowder is valuable in brewing splash potions."
 			]
 			dependencies: ["542EFBDFBABB8B13"]
 			hide: true
@@ -1477,7 +1475,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["542EFBDFBABB8B13"]
-			hide: true
 			id: "0C025DDF5CAA04EF"
 			tasks: [
 				{
@@ -1521,7 +1518,6 @@
 				"It cannot be melted without lava."
 			]
 			dependencies: ["47607815AA13CD41"]
-			hide: true
 			min_required_tasks: 1
 			id: "10FA5D943BCB7467"
 			tasks: [
@@ -1608,7 +1604,6 @@
 				"47607815AA13CD41"
 				"3592ED1650D172B7"
 			]
-			hide: true
 			min_required_tasks: 9
 			id: "433F2B694D1B6F35"
 			tasks: [
@@ -2171,7 +2166,6 @@
 				"Crystal Onix is attracted to a mixture of boulder blocks and crystal blocks. Crystal Steelix is attracted to a mixture of boulder blocks and sapphire blocks."
 			]
 			dependencies: ["744C6C546BC0DDD7"]
-			hide: true
 			id: "69AAAAA22D771772"
 			tasks: [{
 				id: "406C9D099E09E56E"
@@ -2241,7 +2235,6 @@
 			y: -3.0d
 			description: ["Starmetal nuggets drop from a rare few Pokemon on the Space Layer."]
 			dependencies: ["744C6C546BC0DDD7"]
-			hide: true
 			id: "5FF86BF4B5CE1126"
 			tasks: [
 				{

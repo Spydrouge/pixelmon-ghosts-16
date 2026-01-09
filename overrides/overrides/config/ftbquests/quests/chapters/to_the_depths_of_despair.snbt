@@ -9,13 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Go to the Drowned World"
 			x: 0.5d
 			y: 1.5d
 			dependencies: [
 				"1779EF948DEA19BE"
 				"1859EC8D20B5BCA6"
 			]
-			hide: true
 			size: 2.0d
 			min_required_tasks: 1
 			id: "721C7720EB194EAE"
@@ -55,6 +55,7 @@
 			]
 		}
 		{
+			title: "The Endless Water"
 			icon: "tconstruct:drowned_head"
 			x: 0.5d
 			y: 4.5d
@@ -67,6 +68,7 @@
 			]
 			dependencies: ["0D06E969FA2BCE84"]
 			hide: true
+			size: 2.0d
 			id: "7E30FA3CA57A8E18"
 			tasks: [{
 				id: "74B1D8E8BFD08923"
@@ -75,7 +77,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 3.0d
 			description: [
 				"There are two ways to enter the Drowned World. The first is by simply crafting a teleporter."
 				""
@@ -104,7 +106,7 @@
 				tag: { }
 			}
 			x: 1.0d
-			y: 3.5d
+			y: 3.0d
 			description: [
 				"There are two ways to enter the Drowned World. The best way is by waiting for a townsperson to give you the quest to go to the Drowned World and ultimately defeat the Legendary Pokemon there."
 				""
@@ -119,7 +121,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 4.5d
 			description: [
 				"The Drowned world is a torturous purgatory. It dangles ores at Y values lower than Y = 10. Attempting to go to the ores and extract them will result in being shunted from the Drowned World."
@@ -128,7 +130,7 @@
 				""
 				"There are also Raid Dens on the very bottom of the world, and you will encounter the same problem in interacting with them. They sit just out of reach, to torment you."
 				""
-				"Lastly, there are moon stone ores scattered infrequently throughout the Drowned World. They seem more common in the Drowned Dark. While this is not an ideal way to mine Moonstone, you might as well bring a pick just in case."
+				"Lastly, there are moon stone ores scattered infrequently throughout the Drowned World. They seem more common in the Drowned Dark. While this is not an ideal way to mine Moonstone, you might as well bring a pick just in case. It's probably best to get silk touch on it, if you don't yet have access to fortune."
 			]
 			dependencies: ["7E30FA3CA57A8E18"]
 			hide: true
@@ -169,6 +171,8 @@
 				"Water breathing potions are a cheap, portable means of extending your time under water."
 				""
 				"If you are already dabbling in Botanical Magic, you may want to use some of the better tools it makes available."
+				""
+				"(NOTE: You only need to complete one of the tasks for this quest, not all four of them.)"
 			]
 			dependencies: ["767CAB0D72D81280"]
 			hide: true
@@ -243,7 +247,6 @@
 				"453E6BCA95B12B38"
 				"5218C2453E6FD731"
 			]
-			hide: true
 			dependency_requirement: "one_completed"
 			id: "4F8954EB72F7E4AC"
 			tasks: [
@@ -317,7 +320,7 @@
 			]
 		}
 		{
-			title: "Respiration"
+			title: "Enchanted Book: Respiration"
 			x: 3.0d
 			y: 7.5d
 			description: ["Respiration cannot permit you to breath forever, but, if coupled with other sources of water breathing, it may be enough to keep you going."]
@@ -464,7 +467,7 @@
 		}
 		{
 			title: "Aqua Affinity"
-			x: 1.5d
+			x: 2.0d
 			y: 4.5d
 			description: ["Aqua Affinity can be placed on a helmet and will make it easier to work under water."]
 			dependencies: ["7E30FA3CA57A8E18"]
@@ -560,11 +563,19 @@
 					item: "minecraft:seagrass"
 				}
 			]
-			rewards: [{
-				id: "1F044E2DCB0EC265"
-				type: "item"
-				item: "pixelmon:leaf_stone"
-			}]
+			rewards: [
+				{
+					id: "1F044E2DCB0EC265"
+					type: "item"
+					item: "pixelmon:leaf_stone"
+				}
+				{
+					id: "5A1F3EE59732F5C9"
+					type: "item"
+					item: "minecraft:horn_coral_block"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -740,6 +751,7 @@
 			]
 		}
 		{
+			title: "Tinkers' Scuba Gear"
 			x: 4.0d
 			y: 7.5d
 			description: ["Tinkers construct can add Respiration to a helmet, but to do that you must first find kelp."]
@@ -861,7 +873,6 @@
 				"1A3FCD0F5F15A950"
 				"71D3743F9C412C16"
 			]
-			hide: true
 			id: "663689FE13190454"
 			tasks: [
 				{
@@ -1000,6 +1011,12 @@
 						}
 					}
 				}
+				{
+					id: "62F9DB489355B165"
+					type: "item"
+					item: "minecraft:tube_coral_block"
+					count: 16
+				}
 			]
 		}
 		{
@@ -1052,6 +1069,12 @@
 					id: "164A3767DA124A4F"
 					type: "item"
 					item: "minecraft:drowned_spawn_egg"
+				}
+				{
+					id: "56518CBF2F4CF0AC"
+					type: "item"
+					item: "minecraft:brain_coral_block"
+					count: 16
 				}
 			]
 		}
@@ -1106,6 +1129,12 @@
 					id: "46BCF7194CDC2B65"
 					type: "item"
 					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "231BB148BE46454D"
+					type: "item"
+					item: "minecraft:fire_coral_block"
+					count: 16
 				}
 			]
 		}
@@ -1163,6 +1192,7 @@
 			y: -0.5d
 			description: ["Learn not to Drown!"]
 			dependencies: ["721C7720EB194EAE"]
+			hide: true
 			id: "290EB41C0734059E"
 			tasks: [
 				{
@@ -1328,17 +1358,118 @@
 					invertUsed: false
 				}
 			]
-			rewards: [{
-				id: "6E6B981922667D2D"
-				type: "item"
-				item: {
-					id: "pixelmon:tr_gen8"
-					Count: 1b
-					tag: {
-						tm: 4
+			rewards: [
+				{
+					id: "6E6B981922667D2D"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 4
+						}
 					}
 				}
+				{
+					id: "306FC303BA879865"
+					type: "item"
+					item: "minecraft:dead_tube_coral_block"
+					count: 8
+				}
+				{
+					id: "4F2E31AA8D92A16A"
+					type: "item"
+					item: "minecraft:dead_brain_coral_block"
+					count: 8
+				}
+				{
+					id: "4930CCC7FD75E7E0"
+					type: "item"
+					item: "minecraft:dead_bubble_coral_block"
+					count: 8
+				}
+				{
+					id: "3C3C29B1759750FF"
+					type: "item"
+					item: "minecraft:dead_fire_coral_block"
+					count: 8
+				}
+				{
+					id: "404A72461C421CF6"
+					type: "item"
+					item: "minecraft:dead_horn_coral_block"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 9.0d
+			description: [
+				"The Bubbel is a bizarre flower that, when supplied mana, will keep a 24 block diameter sphere clear of water."
+				""
+				"By using the Bubbel, a mana pool, and a mana tablet or ring, you can create either a comfortable area to mine underwater in, or to block out an area to live in without having to worry about breathing."
+				""
+				"When Bubbels are removed or run out of mana, most of the space they cleared will remain air, but about 10% will convert back into water. If you've built a dome in that time, you can use a variety of tricks to deal with the 10% water reoccurance, and make your bubbel-induced bubble permenant. "
+			]
+			dependencies: ["7E30FA3CA57A8E18"]
+			hide: true
+			id: "6FEC940599A7E945"
+			tasks: [{
+				id: "466487DDDF1E0A06"
+				type: "item"
+				item: "botania:bubbell"
 			}]
+			rewards: [
+				{
+					id: "3B25921530612824"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+				{
+					id: "765C3D16634C3DC1"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen1"
+						Count: 1b
+						tag: {
+							tm: 11
+						}
+					}
+				}
+				{
+					id: "7BA59F259068382F"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "69DBC9C874DAA024"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+				{
+					id: "1169CB475B9A6F19"
+					type: "item"
+					item: "minecraft:sponge"
+				}
+				{
+					id: "6C2F3B1F7DC6493A"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 46
+						}
+					}
+				}
+				{
+					id: "52806D663AFF4D73"
+					type: "item"
+					item: "minecraft:bubble_coral_block"
+					count: 16
+				}
+			]
 		}
 	]
 }

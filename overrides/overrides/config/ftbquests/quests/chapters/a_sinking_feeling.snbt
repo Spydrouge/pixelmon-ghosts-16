@@ -12,7 +12,7 @@
 			title: "A Sinking Feeling..."
 			icon: "minecraft:netherrack"
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 			description: [
 				"You've looked high and low for any sign that anybody but you survived the End of the World."
 				""
@@ -22,7 +22,11 @@
 				""
 				"You might know where everyone's gone. You're going to try and reach the Nether."
 			]
-			dependencies: ["47107D60FD080A18"]
+			min_required_dependencies: 1
+			dependencies: [
+				"47107D60FD080A18"
+				"58C8937CFE8894DA"
+			]
 			hide: true
 			dependency_requirement: "one_completed"
 			size: 2.0d
@@ -39,7 +43,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.5d
+			y: -3.5d
 			description: [
 				"You've thought about this long and hard, and you keep coming back to the same problem: There's no Lava."
 				""
@@ -80,7 +84,10 @@
 				""
 				"[&dBUG ALERT&r: The fire-tools-water interaction is Vanilla Pixelmon, but is currently bugged. To get around that, we've introduced a similar interaction, where the tools can turn &bIce&r and &bSnow&r to obsidian.]"
 			]
-			dependencies: ["4BC87BF4CE26F9AC"]
+			dependencies: [
+				"4BC87BF4CE26F9AC"
+				"0C44FC86107D369A"
+			]
 			hide: true
 			id: "1C9B797225BDD9D5"
 			tasks: [{
@@ -163,7 +170,6 @@
 			]
 			dependencies: ["1C9B797225BDD9D5"]
 			hide: true
-			repeatable: true
 			min_required_tasks: 1
 			id: "43A58C1AE7891B53"
 			tasks: [
@@ -250,7 +256,7 @@
 		}
 		{
 			x: -1.0d
-			y: -4.5d
+			y: -3.5d
 			shape: "circle"
 			description: [
 				"It's time to get brewing. First make sure your cauldron is over a fire, and filled with water."
@@ -275,17 +281,25 @@
 				}
 				count: 3L
 			}]
-			rewards: [{
-				id: "49620A7CCAE768BA"
-				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "49620A7CCAE768BA"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 6
+				}
+				{
+					id: "1D6B5203B1C59D45"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+			]
 		}
 		{
+			title: "Make or Observe a Cauldron"
 			icon: "minecraft:cauldron"
 			x: 0.0d
-			y: -2.0d
+			y: -1.0d
 			description: [
 				"Before this plan gets off the ground, you need to do some prep work."
 				""
@@ -293,15 +307,25 @@
 			]
 			dependencies: ["46CDAE65E15099AC"]
 			hide: true
+			min_required_tasks: 1
 			id: "25991FF1BD725FC2"
-			tasks: [{
-				id: "2FB2280D2F9520B7"
-				type: "observation"
-				icon: "minecraft:cauldron"
-				timer: 0L
-				observe_type: 0
-				to_observe: "minecraft:cauldron"
-			}]
+			tasks: [
+				{
+					id: "2FB2280D2F9520B7"
+					type: "observation"
+					title: "Observe a Cauldron you've already made. Or...."
+					icon: "minecraft:cauldron"
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:cauldron"
+				}
+				{
+					id: "0D6163B6F8B50AD0"
+					type: "item"
+					title: "Make a Cauldron"
+					item: "minecraft:cauldron"
+				}
+			]
 			rewards: [{
 				id: "622CE34DA82118A8"
 				type: "item"
@@ -310,7 +334,7 @@
 		}
 		{
 			x: -1.0d
-			y: -3.5d
+			y: -2.5d
 			shape: "circle"
 			description: [
 				"Make sure you have all the ingredients you need to make long-lasting fire resistance potions. If you fall into lava, one could save your life."
@@ -365,16 +389,23 @@
 					count: 3L
 				}
 			]
-			rewards: [{
-				id: "770E1B74BDA6009B"
-				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "770E1B74BDA6009B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 6
+				}
+				{
+					id: "788667B4BF4A1032"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
 		}
 		{
 			x: 1.0d
-			y: -5.5d
+			y: -4.5d
 			description: [
 				"You're heading into the Nether in search of people, but those people might not be as you remember them."
 				""
@@ -406,11 +437,16 @@
 					title: "Your team saw how hard you were working, and made another one for you!"
 					item: "minecraft:golden_apple"
 				}
+				{
+					id: "79F82E3068FECD7B"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
 			]
 		}
 		{
 			x: 1.0d
-			y: -4.5d
+			y: -3.5d
 			description: ["Heat up a full cauldron of water over a fire. Add the fermented spider eye. When it is finished brewing, add the gunpowder."]
 			dependencies: ["2A453BBCB7F09F0E"]
 			hide: true
@@ -426,16 +462,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6B8630FEC69FD9F1"
-				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "6B8630FEC69FD9F1"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 6
+				}
+				{
+					id: "2DA4931C8D3724E8"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 		{
 			x: 1.0d
-			y: -3.5d
+			y: -2.5d
 			description: [
 				"You're heading into the Nether in search of people, but those people might not be as you remember them."
 				""
@@ -466,17 +509,24 @@
 					count: 3L
 				}
 			]
-			rewards: [{
-				id: "6D7A6FC071D09D21"
-				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "6D7A6FC071D09D21"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 6
+				}
+				{
+					id: "215026272A794538"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
 		}
 		{
 			title: "Fire Stone Gear"
 			x: -2.0d
-			y: -4.5d
+			y: -3.5d
 			shape: "circle"
 			description: ["A full set of Fire Stone armor can also provide Fire Protection III, but you would be silly to farm so many fire shards here while on the verge of entering the Nether. Presumably, fire shards will be more common in the Nether."]
 			hide_dependency_lines: true
@@ -556,12 +606,17 @@
 					type: "item"
 					item: "pixelmon:xl_exp_candy"
 				}
+				{
+					id: "26758EEDE5AFC6E3"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
 			]
 		}
 		{
 			title: "Nether Ready Arms and Armor"
 			x: -2.0d
-			y: -3.5d
+			y: -2.5d
 			shape: "circle"
 			description: [
 				"You are expecting the Nether to be hostile. Whatever's down there, your life in the world of Pokemon has not entirely prepared you for it."
@@ -635,17 +690,24 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "18B0C7B77D5B2518"
-				type: "item"
-				item: {
-					id: "pixelmon:tr_gen8"
-					Count: 1b
-					tag: {
-						tm: 48
+			rewards: [
+				{
+					id: "18B0C7B77D5B2518"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 48
+						}
 					}
 				}
-			}]
+				{
+					id: "521C1A1B36C9FDDA"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 		{
 			title: "Go to the Nether"
@@ -680,7 +742,7 @@
 			title: "Supplies to Secure the Portal"
 			icon: "minecraft:stone_bricks"
 			x: 2.0d
-			y: -3.5d
+			y: -2.5d
 			shape: "circle"
 			description: [
 				"You aren't sure what kind of horrors the nether might bring, but basic Nether safety includes bringing some blocks to protect the portal.  You should arm yourself with stone or stone bricks, and maybe a door."
@@ -741,14 +803,20 @@
 			}]
 		}
 		{
+			title: "Starting a Fire"
 			x: 0.0d
 			y: -8.5d
-			description: ["You will need some way of lighting the portal. If you choose to go with the fire charge, make sure you bring enough that you can re-light the portal if it, for any reason, goes out."]
+			description: [
+				"You will need some way of lighting the portal. If you choose to go with the fire charge, make sure you bring enough that you can re-light the portal if it, for any reason, goes out."
+				""
+				"(NOTE: You only need to complete one of the tasks for this quest, not all four.)"
+			]
 			dependencies: [
 				"30E49862081FA059"
 				"5AB1C0099C0A02E2"
 			]
 			hide: true
+			min_required_tasks: 1
 			id: "20DFFD70A562A237"
 			tasks: [
 				{
@@ -820,7 +888,7 @@
 		}
 		{
 			x: -2.0d
-			y: -5.5d
+			y: -4.5d
 			shape: "circle"
 			description: [
 				"You may want to create a Sojourner's sash, or use a Tinker's Station to apply Leaping to your Leggings (not Boots, Leggings), a recipe that requires five rabbit feet."
@@ -863,21 +931,28 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "1AD8674E70EC2107"
-				type: "item"
-				item: {
-					id: "pixelmon:tr_gen8"
-					Count: 1b
-					tag: {
-						tm: 29
+			rewards: [
+				{
+					id: "1AD8674E70EC2107"
+					type: "item"
+					item: {
+						id: "pixelmon:tr_gen8"
+						Count: 1b
+						tag: {
+							tm: 29
+						}
 					}
 				}
-			}]
+				{
+					id: "20AA965FAAF8CD21"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
 		}
 		{
 			x: 2.0d
-			y: -5.5d
+			y: -4.5d
 			shape: "circle"
 			description: [
 				"Perhaps because they already died once, villagers can't be punched, pushed, boated, mine-carted, or even killed. They will burn in lava eternally without taking damage. The only way to get rid of one is to drop them into the void."
@@ -955,7 +1030,7 @@
 		}
 		{
 			x: -1.0d
-			y: -5.5d
+			y: -4.5d
 			shape: "circle"
 			description: ["Although you're mostly in the Nether looking for people, you suspect you might also find Pokemon. Pokemon of the fiery persuasion. You should probably ensure you have some form of healing for burns."]
 			dependencies: ["19C0F6AFD3E7D54A"]
@@ -1009,7 +1084,7 @@
 		}
 		{
 			x: 2.0d
-			y: -4.5d
+			y: -3.5d
 			shape: "circle"
 			description: ["Even if you don't find any survivors, the Nether is an important milestone on your journey to rebuild. You need to get enough lava to start work on your smeltery. One bucket can also be used to make a Cobblestone generator."]
 			hide_dependency_lines: true
@@ -1469,7 +1544,7 @@
 		{
 			title: "Boats!"
 			x: 1.0d
-			y: -6.5d
+			y: -5.5d
 			description: [
 				"A boat can be used to temporarily keep a zombie villager in one place. You can technically row the boat through the Nether Portal with the Zombie in the back seat, but be prepared for it to smack you quite a bit if you try."
 				""
@@ -1490,16 +1565,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7042B5720392D2C8"
-				type: "item"
-				item: "byg:emeraldite_shards"
-			}]
+			rewards: [
+				{
+					id: "7042B5720392D2C8"
+					type: "item"
+					item: "byg:emeraldite_shards"
+				}
+				{
+					id: "44AF3138EA2CDC47"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+			]
 		}
 		{
 			title: "Explore the Nether"
 			x: 0.0d
 			y: -20.5d
+			subtitle: "Use this to determine what spawns where."
 			description: ["Now that multiple biomes are available, you're going to want to craft a nature's compass. The nature's compass will allow you to track down different Nether Biomes, which is useful in an environment that's so very hard to traverse."]
 			dependencies: ["5742DF95648CAE94"]
 			hide: true
@@ -1852,7 +1935,7 @@
 		}
 		{
 			x: -2.0d
-			y: -6.5d
+			y: -5.5d
 			shape: "circle"
 			description: ["You think it might be wise to bring a silk-touch pickaxe, rather than a Luck one. This is because ores like Nether Gold ore can be smelted down for higher yields at a smeltery, and ores like Cobalt can be smelted for an iron byproduct in a Foundary."]
 			hide_dependency_lines: true
@@ -1865,12 +1948,19 @@
 				type: "item"
 				item: "tconstruct:silky_cloth"
 			}]
-			rewards: [{
-				id: "05DCDE8467AFD31D"
-				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "05DCDE8467AFD31D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 6
+				}
+				{
+					id: "3D53D41C8532AE30"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
 		}
 		{
 			title: "Subzero Hypogeal"
@@ -2386,6 +2476,7 @@
 			x: -3.0d
 			y: -21.5d
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "72F57B021C12A754"
 			tasks: [
 				{
@@ -2424,6 +2515,7 @@
 			x: -3.0d
 			y: -22.5d
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "6614354254E167F1"
 			tasks: [
 				{
@@ -2472,6 +2564,7 @@
 			x: -2.0d
 			y: -23.5d
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "4C418D250E3F85DB"
 			tasks: [
 				{
@@ -2536,6 +2629,7 @@
 				"Under Offerings to Arceus, you will find a repeatable offering you can make to locate the nearest den. Keep in mind the nearest den may be one you've already found."
 			]
 			dependencies: ["5742DF95648CAE94"]
+			hide: true
 			id: "11202FEECCC5400B"
 			tasks: [{
 				id: "4292F8F7328A7BBF"
@@ -2595,6 +2689,7 @@
 				"Regardless, Masterball tier loot is always worth searching for."
 			]
 			dependencies: ["5742DF95648CAE94"]
+			hide: true
 			id: "11DB1EACBE7114B3"
 			tasks: [{
 				id: "600E59D5D3C54355"
@@ -2970,7 +3065,7 @@
 				}
 			}
 			x: 1.0d
-			y: -7.5d
+			y: -7.0d
 			description: [
 				"Someone who carefully studied the recipes available to them might realize that lava can be created a small number of other ways. "
 				""
@@ -3027,6 +3122,7 @@
 				""
 			]
 			dependencies: ["5742DF95648CAE94"]
+			hide: true
 			id: "6424801FB80E98E4"
 			tasks: [{
 				id: "484D9A93C080CE6E"
@@ -5521,6 +5617,7 @@
 			y: -17.5d
 			description: ["You may already have these fungi, but you expect to run into the Crimson Gardens. They are common locations to find Hoglin."]
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "2A8F9B0B4E66A172"
 			tasks: [
 				{
@@ -5570,6 +5667,7 @@
 			y: -17.5d
 			description: ["You already have these fungi, but you expect to run into warped forests. They are common places to find Endermen."]
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "2161B2224BA66607"
 			tasks: [
 				{
@@ -5619,6 +5717,7 @@
 			y: -17.5d
 			description: ["The crimson gardens are a mix of both types of fungi, despite their name."]
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "3D2BDA8F247D5314"
 			tasks: [
 				{
@@ -7616,12 +7715,25 @@
 				usedPokemonSpec: ""
 				invertUsed: false
 			}]
+			rewards: [
+				{
+					id: "2C42684AB118DA73"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "5056F361CB72FA90"
+					type: "item"
+					item: "pixelmon:clever_feather"
+				}
+			]
 		}
 		{
 			title: "Magma Wastes"
 			x: -3.0d
 			y: -18.5d
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "10C281C742D52579"
 			tasks: [
 				{
@@ -7921,6 +8033,7 @@
 			x: 0.0d
 			y: -23.5d
 			dependencies: ["51A51EA666E1500F"]
+			hide: true
 			id: "552A8CA6673FAA7B"
 			tasks: [
 				{
@@ -8476,6 +8589,37 @@
 							tm: 34
 						}
 					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"To make Fire Stone tools, you will need steel rods. But making a Blast Furnace seems difficult prior to traveling the Nether. Fortunately, you can harvest steel from some steel Pokemon! The Metals and Gems chapter likely has a quest for that, after the Iron quest."
+				""
+				"Unfortunately, Steel is hard to melt without lava. But don't give up! There's probably a quest in Metals and Gems to melt steel without lava. It won't be easy, but it'll let you pour the rods you need."
+				""
+				"You may have to dabble around with the Druidism chapter, to get ahold of that much-needed Mana Powder."
+			]
+			dependencies: ["25991FF1BD725FC2"]
+			id: "0C44FC86107D369A"
+			tasks: [{
+				id: "18592D9E6C01CD95"
+				type: "item"
+				item: "immersiveengineering:stick_steel"
+			}]
+			rewards: [
+				{
+					id: "17577A7DBD339D34"
+					type: "item"
+					item: "pixelmon:steel_gem"
+				}
+				{
+					id: "2B63687BC448BCE7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 3
 				}
 			]
 		}

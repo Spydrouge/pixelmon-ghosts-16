@@ -162,7 +162,7 @@
 			x: 1.5d
 			y: 0.0d
 			shape: "circle"
-			description: ["Mattocks do not work as axes, because Tinker's Construct and Flint Not Wood/No Tree Punching do not get along. You may notice this version of Tinker's construct also lacks shovels. That is because mattocks are exclusively a hoe/shovel replacement, and they cannot do some of the things that hoes and shovels can."]
+			description: ["Mattocks do not work as axes, because Tinker's Construct and Flint Not Wood/No Tree Punching do not get along. You may notice this version of Tinker's construct also lacks shovels. That is because mattocks are exclusively a hoe/shovel replacement, even though they cannot do some of the things that hoes and shovels can."]
 			dependencies: ["5AC483C5AC12BFD7"]
 			optional: true
 			id: "5CB88A0A4E6FC2A3"
@@ -227,11 +227,7 @@
 			x: -2.5d
 			y: 2.0d
 			shape: "circle"
-			description: [
-				"Astral sorcery is supposed to allow datapacks to change/ade/remove liquid interactions, such as between liquid starlight and water."
-				""
-				"However, we struggled to get this feature working. The JEI would display our interaction recipe, but Astral Sorcery kept making packed ice. Worse, Vanilla Astral Sorcery's JEI entry didn't even say it made packed ice to begin with! We updated the JEI to match and have worked around this limitation."
-			]
+			description: ["Don't Mistake the 'Liquid Interactions' tab to be for interactions of fluids in the real world. These are entirely for interactions between liquids in a block called a \"Containment Chalice.\""]
 			dependencies: ["5AC483C5AC12BFD7"]
 			optional: true
 			id: "76BCA4BE3F5DF4C1"
@@ -289,7 +285,7 @@
 				""
 				"Sadly, when they began creating passive flowers that decay, they didn't include a server option to toggle this functionality. Since we have non-infinte water, power-from-water isn't infinite/passive, and it would be really nice to have the option to turn off flower decay."
 				""
-				"Instead, we had to invent a convoluted workaround involving pure daisies."
+				"Instead, we had to invent a convoluted workaround involving pure daisies and motif flowers."
 			]
 			dependencies: ["5AC483C5AC12BFD7"]
 			optional: true
@@ -334,6 +330,7 @@
 			}]
 		}
 		{
+			title: "Broken MouseTweaks Integration"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -344,7 +341,7 @@
 			x: 3.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["Broken MouseTweaks Integration. MouseTweaks will only work in non-Pixemon interfaces. This means it will work in crafting grids and chests, but not in your inventory, because Pixelmon changes the vanilla inventory GUI. This is very irritating and adds inconsistency to the game, but the alternative is to cut it from the pack and not have it available at all."]
+			description: ["MouseTweaks will only work in non-Pixemon interfaces. This means it will work in crafting grids and chests, but not in your inventory, because Pixelmon changes the vanilla inventory GUI. This is very irritating and adds inconsistency to the game, but the alternative is to cut it from the pack and not have it available at all."]
 			dependencies: ["42CC2E8CEC8EADD1"]
 			optional: true
 			id: "665218912E79B332"
@@ -359,6 +356,7 @@
 			}]
 		}
 		{
+			title: "Broken JEI integration. "
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -369,7 +367,7 @@
 			x: 4.5d
 			y: 1.0d
 			shape: "circle"
-			description: ["Broken JEI integration. The button to move ingredients for a recipe into a crafting grid says \"JEI not installed on server\" even in singleplayer. To get around this, use JEI to plan out recipes, and the Vanilla Recipe Book to actually move them into the crafting grid."]
+			description: ["The button to move ingredients for a recipe into a crafting grid says \"JEI not installed on server\" even in singleplayer. To get around this, use JEI to plan out recipes, and the Vanilla Recipe Book to actually move them into the crafting grid."]
 			dependencies: ["42CC2E8CEC8EADD1"]
 			optional: true
 			id: "5357EA820D9C973C"
@@ -403,6 +401,7 @@
 			}]
 		}
 		{
+			title: "Rock Smash Annihilation"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -428,6 +427,7 @@
 			}]
 		}
 		{
+			title: "Bugged Tunes"
 			icon: "pixelmon:music_block"
 			x: 7.5d
 			y: 1.0d

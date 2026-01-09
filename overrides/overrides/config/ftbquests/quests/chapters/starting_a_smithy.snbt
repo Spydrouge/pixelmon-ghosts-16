@@ -562,14 +562,14 @@
 			}]
 			rewards: [
 				{
-					id: "0F8876A36BBAD90A"
-					type: "item"
-					item: "minecraft:soul_soil"
-				}
-				{
 					id: "3A5B5CD146D6F59A"
 					type: "choice"
 					table_id: 6737182399749106212L
+				}
+				{
+					id: "1926A50F6128A57C"
+					type: "item"
+					item: "minecraft:soul_sand"
 				}
 			]
 		}
@@ -667,7 +667,7 @@
 				""
 				"Bloodbone isn't the only Tier 2 Composite. There's also &dWhitestone&r, which is Aluminum poured over stone tools."
 				""
-				"Make one tool or weapon peice using either of the composites above."
+				"(NOTE: You only have to complete one of the above tasks, not all of them.)"
 			]
 			dependencies: ["15FA67EAB413D40A"]
 			hide: true
@@ -812,7 +812,7 @@
 			x: 5.0d
 			y: -4.0d
 			description: [
-				"Most metals can be cast directly into different tool shapes. In the future, you will be able to create reusable gold casts, but for right now, you will need to make due with sand."
+				"Most metals can be cast directly into different tool shapes. In the future, you will be able to create reusable gold casts, but for right now, you will need to make due with sand. &cSoul Sand will work for now&r. You have notes on where to find Soul Sand AND &aregular sand&r under Metals and Gems. "
 				""
 				"To create a single-use cast, the first step is to place any type of sand into a crafting grid, to produce four blank sand cast molds."
 				""
@@ -4897,6 +4897,7 @@
 		{
 			x: -2.0d
 			y: -2.0d
+			shape: "circle"
 			description: [
 				"Most Steel type Pokemon are already made of steel, which is strong and tough. Iron on its own is brittle and weak. You probably won't find much use for a blast furnace, but you might want to build one to prove something to the universe."
 				""
@@ -4908,6 +4909,7 @@
 			]
 			dependencies: ["3ADDDE4CCB80BA89"]
 			hide: true
+			optional: true
 			id: "30B7A65016D2C0FD"
 			tasks: [{
 				id: "49C801C03230E5B6"
@@ -4977,7 +4979,6 @@
 				"You should likely use bronze instead of iron for the hub. In fact, it is clear you are going to have to use a lot of replacement materials if you hope to have enough metal to build any of the structures in this book."
 			]
 			dependencies: ["1E02A2B1EC220016"]
-			hide: true
 			id: "034061A64DFB739A"
 			tasks: [
 				{
@@ -5041,7 +5042,6 @@
 				"Tynamo, as the name might suggest, is itself a miniature Dynamo, but it is too small to use for this purpose. You are uncertain about its evolved forms, Elektrik and Elektross. Tynamo does have a chance to drop copper coils, which can be crafted into Kinetic Dynamos if you have enough Aluminum."
 			]
 			dependencies: ["034061A64DFB739A"]
-			hide: true
 			dependency_requirement: "one_started"
 			id: "279AB6F00EF33DFC"
 			tasks: [{
@@ -5100,7 +5100,6 @@
 				"You may struggle to afford the iron mechanical component, but can harass Klink on the Stone Layer until one drops one."
 			]
 			dependencies: ["228942B06DB4B061"]
-			hide: true
 			id: "2127E58685636654"
 			tasks: [{
 				id: "2C976B9E5F4BC5B3"
@@ -5134,7 +5133,6 @@
 				"You will need to use alternative sheet metal whenever possible to make the most of all your materials."
 			]
 			dependencies: ["228942B06DB4B061"]
-			hide: true
 			min_required_tasks: 1
 			id: "4534E57B2ECCAE5F"
 			tasks: [
@@ -5185,7 +5183,6 @@
 				"228942B06DB4B061"
 				"0AB6B07E4EC09194"
 			]
-			hide: true
 			min_required_tasks: 1
 			id: "3B5EE68C9A94B23C"
 			tasks: [
@@ -5216,6 +5213,7 @@
 			y: -4.0d
 			description: ["Conveyor Belts do not require power, and can be used to automate the transportation of items or entities."]
 			dependencies: ["3ADDDE4CCB80BA89"]
+			hide: true
 			id: "0AB6B07E4EC09194"
 			tasks: [{
 				id: "167CDA8AE16EDDC6"
@@ -5232,8 +5230,10 @@
 		{
 			x: -4.0d
 			y: -5.0d
+			shape: "circle"
 			description: ["Extracting conveyor belts are expensive, and you may want to stick with Wooden Hoppers, which are much cheaper, if slower."]
 			dependencies: ["0AB6B07E4EC09194"]
+			optional: true
 			id: "16CFCAD74C613F1E"
 			tasks: [{
 				id: "23AC3DC5AC747A0A"
@@ -5267,7 +5267,6 @@
 				"Plant oil can be mixed with calcium mash in order to produce a milk substitute. The result can be used in cooking, and it may be more convenient to passively produce milk in the background than to go hunt down another Milcery."
 			]
 			dependencies: ["4534E57B2ECCAE5F"]
-			hide: true
 			id: "21C6195FF8C6AAE2"
 			tasks: [{
 				id: "43F91790BCF2496F"
@@ -5301,6 +5300,7 @@
 		{
 			x: -2.0d
 			y: -4.0d
+			shape: "circle"
 			description: [
 				"Are you more confident in your engineering skills, or your botanical ones?"
 				""
@@ -5312,6 +5312,7 @@
 				"3ADDDE4CCB80BA89"
 				"671596726F46F911"
 			]
+			optional: true
 			id: "12C11032D4DF024F"
 			tasks: [{
 				id: "13CF71A00688E098"
@@ -5382,7 +5383,6 @@
 				"It is slightly attractive to Magneton."
 			]
 			dependencies: ["2E943AC7831B7D2F"]
-			hide: true
 			id: "5CADE6A95E631F8E"
 			tasks: [{
 				id: "76073E1EA5874891"
@@ -5421,7 +5421,6 @@
 				"It is slightly attractive to Magnezone."
 			]
 			dependencies: ["5CADE6A95E631F8E"]
-			hide: true
 			id: "0A414E8D40C006D3"
 			tasks: [{
 				id: "2C63CB8F123DE382"
@@ -5450,7 +5449,6 @@
 				"The book says this station is for recharging tools that run off of RF, but the only tool it lists as an example is a Rail Gun."
 			]
 			dependencies: ["2E943AC7831B7D2F"]
-			hide: true
 			id: "471B0E2EF46C30C6"
 			tasks: [{
 				id: "0EC765960472DDA2"
@@ -5484,7 +5482,6 @@
 				""
 			]
 			dependencies: ["471B0E2EF46C30C6"]
-			hide: true
 			id: "01550F09D31E56C8"
 			tasks: [{
 				id: "22701A5BA6A1F95F"
@@ -5506,6 +5503,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
+			shape: "circle"
 			description: [
 				"The railgun is an expensive upgrade to the revolver. Technically, none of its components require raw, brittle, cast iron. You may be able to make it from leftover metal, especially if you have been recieving a lot of steel or lead."
 				""
@@ -5516,6 +5514,7 @@
 				"5CADE6A95E631F8E"
 			]
 			hide: true
+			optional: true
 			id: "1DF1175D245899F3"
 			tasks: [{
 				id: "27DA19EECCE78299"
@@ -5572,7 +5571,6 @@
 			y: 2.0d
 			description: ["Will this attract Magneton?"]
 			dependencies: ["5CADE6A95E631F8E"]
-			hide: true
 			id: "6838B9B5005A06E5"
 			tasks: [{
 				id: "5028DCD25F963535"
@@ -5596,7 +5594,6 @@
 			y: 3.0d
 			description: ["Will this attract Magnezone?"]
 			dependencies: ["0A414E8D40C006D3"]
-			hide: true
 			id: "10723F7054F3E2D3"
 			tasks: [{
 				id: "46547AECEADF2005"
@@ -5630,7 +5627,6 @@
 				"6838B9B5005A06E5"
 				"01550F09D31E56C8"
 			]
-			hide: true
 			min_required_tasks: 1
 			id: "2ED59DA2C7464A7B"
 			tasks: [
@@ -5664,6 +5660,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
+			shape: "circle"
 			description: [
 				"Even with the simplest of ammunition, the revolver can kill most enemies in two hits. Loading bullets is a manual process during which the player must shift right click and expel old cartridges. Various customizations can be added at the Engineer's workbench."
 				""
@@ -5674,6 +5671,8 @@
 				"Remember that in order to make bullets for the revolver, one will require an engineering table."
 			]
 			dependencies: ["3ADDDE4CCB80BA89"]
+			hide: true
+			optional: true
 			id: "09DD0640D0B03DF2"
 			tasks: [{
 				id: "19F97D0D51B3281B"
@@ -5707,12 +5706,14 @@
 		{
 			x: -3.0d
 			y: -5.0d
+			shape: "circle"
 			description: [
 				"Item routers can accept input directly from conveyer belts without the need for hoppers or other equipment. It will sort the input it recieves based on the instructions you give it, and output in one of six directions. "
 				""
 				"It is useful for creating simple sorting systems for automated setups."
 			]
 			dependencies: ["0AB6B07E4EC09194"]
+			optional: true
 			id: "7DBA9B04709E4735"
 			tasks: [{
 				id: "24C62D218CAE433B"
@@ -5734,7 +5735,6 @@
 				"Sails can be added directly to the windmill in the world."
 			]
 			dependencies: ["034061A64DFB739A"]
-			hide: true
 			id: "653E09E8E3DE6FEE"
 			tasks: [{
 				id: "6C9D22EBA0CC7007"
@@ -6209,7 +6209,6 @@
 				"It is likely this structure will only be made possible once iron is more freely available, perhaps after the construction of a Lightning Rod."
 			]
 			dependencies: ["7DBA96C004556EF3"]
-			hide: true
 			min_required_tasks: 1
 			id: "30901F0FC60D31FE"
 			tasks: [
@@ -6261,6 +6260,7 @@
 				"The Arc Furnace doubles ores when processed, can mix alloys, and produces a byproduct called 'slag' which can be used in the creation of concrete."
 			]
 			dependencies: ["4534E57B2ECCAE5F"]
+			hide: true
 			min_required_tasks: 1
 			id: "7DBA96C004556EF3"
 			tasks: [
@@ -6295,7 +6295,6 @@
 			y: -4.0d
 			description: ["Slag can be used to create concrete. There are two varieties of concrete available: The normal, colored concrete you are used to, and a recipe for a plain concrete specific to engineering."]
 			dependencies: ["7DBA96C004556EF3"]
-			hide: true
 			id: "5AB73C72AF53859B"
 			tasks: [
 				{
@@ -6480,8 +6479,11 @@
 		{
 			x: -3.0d
 			y: -2.0d
+			shape: "circle"
 			description: ["The Alloy Kiln is a structure dedicated to producing alloys. It can be automated more simply than any Melter or Smeltery, and with less of a mess."]
 			dependencies: ["3ADDDE4CCB80BA89"]
+			hide: true
+			optional: true
 			id: "65FEEBEEF7609759"
 			tasks: [{
 				id: "3B106B9EDFD19220"

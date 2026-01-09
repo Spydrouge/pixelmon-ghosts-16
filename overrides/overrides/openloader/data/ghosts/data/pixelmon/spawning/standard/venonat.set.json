@@ -59,7 +59,8 @@
             "typeID": "pokemon",
             "condition": {
                 "times": [
-                    "DAY"
+                    "DAY",
+                    "DAWN"
                 ],
                 "maxY": 128,
                 "minY": 92,

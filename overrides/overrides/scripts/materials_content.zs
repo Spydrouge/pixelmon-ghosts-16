@@ -89,12 +89,20 @@ val nonRodThermalMetals =
 	"nickel",
 	"signalum",
 	"lumium",
-	"enderium"
+	"enderium",
+	"bronze"
 ];
 
 var nonRodVanillaMetals =
 [
 	"gold"
+];
+
+var tinkersArcheryMetals =
+[
+	"tantalum",
+	"cobalt_tantalum",
+	"galaxy_alloy"
 ];
 
 //LOAD THE ARRAYS
@@ -158,6 +166,13 @@ for i in nonRodVanillaMetals{
 for i in astralMetals{
 	allNuggets.add(i);
 	allGears.add(i);
+	allPlates.add(i);
+	allRods.add(i);
+}
+
+for i in tinkersArcheryMetals{
+	allGears.add(i);
+	allDusts.add(i);
 	allPlates.add(i);
 	allRods.add(i);
 }

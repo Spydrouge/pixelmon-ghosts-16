@@ -262,6 +262,7 @@
 			title: "Obtain Carbink (Non Repeatable)"
 			x: 0.5d
 			y: -3.0d
+			shape: "circle"
 			description: [
 				"What would happen if..."
 				""
@@ -271,6 +272,7 @@
 				""
 				"... and you presented it with an entire block of mana diamond, just like an evolutionary stone...?"
 			]
+			optional: true
 			secret: true
 			id: "1CD239123DE32885"
 			tasks: [
@@ -299,9 +301,11 @@
 			title: "Obtain Diance (Non Repeatable)"
 			x: 0.5d
 			y: -4.0d
+			shape: "circle"
 			subtitle: "Drifloon brought celebratory decorations!"
 			description: ["Beautiful."]
 			dependencies: ["1CD239123DE32885"]
+			optional: true
 			secret: true
 			id: "22BBB64E12FD3300"
 			tasks: [{
@@ -541,6 +545,7 @@
 			icon: "pixelmon:ilex_shrine"
 			x: 1.5d
 			y: -4.0d
+			shape: "circle"
 			description: [
 				"(Note: This quest will consume the pylon, and the reward will auto-run the moment you submit it.)"
 				""
@@ -554,6 +559,7 @@
 			]
 			dependencies: ["266E3F1EAD7CBE38"]
 			hide: true
+			optional: true
 			incompatible: ["481372884EECB507"]
 			id: "5F08AE2781CED7DE"
 			tasks: [{
@@ -586,6 +592,7 @@
 			icon: "pixelmon:ilex_shrine"
 			x: 1.5d
 			y: -3.25d
+			shape: "circle"
 			description: [
 				"There could be a very good reason you do not want the island to appear. Maybe you had the extreme misfortune of putting something equally unmovable in the location it's about to inhabit."
 				""
@@ -595,6 +602,7 @@
 			dependencies: ["266E3F1EAD7CBE38"]
 			hide: true
 			size: 0.5d
+			optional: true
 			incompatible: ["5F08AE2781CED7DE"]
 			id: "481372884EECB507"
 			tasks: [{

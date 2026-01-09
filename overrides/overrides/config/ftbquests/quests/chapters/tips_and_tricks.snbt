@@ -669,12 +669,21 @@
 				type: "item"
 				item: "tconstruct:materials_and_you"
 			}]
-			rewards: [{
-				id: "417C1E94C9CAB31F"
-				type: "item"
-				item: "minecraft:paper"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "417C1E94C9CAB31F"
+					type: "item"
+					item: "minecraft:paper"
+					count: 3
+				}
+				{
+					id: "6061C9E259928039"
+					type: "item"
+					auto: "invisible"
+					item: "minecraft:charcoal"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "Guides"
@@ -858,14 +867,15 @@
 			}]
 			rewards: [
 				{
-					id: "6D54D9D0AEEF8579"
+					id: "184D2C9D07491FF7"
 					type: "item"
-					item: "farmersdelight:hot_cocoa"
+					item: "pixelmon:white_shard"
 				}
 				{
-					id: "324DA9832087A9BC"
+					id: "2210D59D1E93FEB5"
 					type: "item"
-					item: "pixelmon:tapu_cocoa"
+					item: "minecraft:clay"
+					count: 4
 				}
 			]
 		}
@@ -1168,8 +1178,8 @@
 				}
 			}
 			x: -2.0d
-			y: 3.0d
-			subtitle: "Poor Little Guy..."
+			y: 4.5d
+			subtitle: "Wait a minute, this isn't a skull!"
 			description: [
 				"Duskull is not the fighter Drifloon is. It's speed, attack, and special attack are all rock bottom, and as you watch it float around and struggling with even the lightest of weights, you feel these stats might be low even among other members of its species."
 				""
@@ -1456,7 +1466,7 @@
 				""
 				"However, some other ghost pokemon are also attracted to soul torches, soul camp fires, and soul lanterns. Therefore, if you are specifically targeting the Litwik line, it may pay to use regular torches, and regular lanterns, to weed out the other ghost Pokemon."
 				""
-				"The Pokemon who also like soul torches appear to include Misdreavus, Duskull, Shuppet, Froslass, Mimikyu, and Phantump."
+				"The Pokemon who also like soul torches appear to include Misdreavus, Duskull, Shuppet, Froslass, Mimikyu, and Phantump, although many of these are on different layers of the void altogether."
 			]
 			dependencies: ["7F8E0B072E55E538"]
 			id: "5AA5BA4D758C3D9D"
@@ -1587,6 +1597,11 @@
 				id: "0C55731FF53C9433"
 				type: "checkmark"
 				title: "Upgrades and Modifiers"
+			}]
+			rewards: [{
+				id: "5F0E62A8E9EC118D"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -1769,7 +1784,7 @@
 			x: 12.5d
 			y: -0.5d
 			description: [
-				"The prismarine can be added to increase tool speed under water or in the rain. Given that Pokemon can control the rain, this can be used to your advantage."
+				"Prismarine can be added to increase tool speed under water or in the rain. Given that Pokemon can control the rain, this can be used to your advantage."
 				""
 				"Prismarine shards can be harvested in especially large quantities from Staryu."
 			]
@@ -2279,8 +2294,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -1.5d
+			x: -6.5d
+			y: 4.5d
 			description: [
 				"It is a good idea to build an arena for handling invasions. Enemies won't automatically know where you are, so you will need to find a way to lure them to you."
 				""
@@ -2385,16 +2400,28 @@
 				type: "item"
 				item: "astralsorcery:tome"
 			}]
-			rewards: [{
-				id: "179681716DBC74EA"
-				type: "choice"
-				table_id: 6887887404997572042L
-			}]
+			rewards: [
+				{
+					id: "179681716DBC74EA"
+					type: "choice"
+					table_id: 6887887404997572042L
+				}
+				{
+					id: "6AF095B85664AC5F"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+				{
+					id: "41F55BDB31D72AEB"
+					type: "item"
+					item: "astralsorcery:parchment"
+				}
+			]
 		}
 		{
 			title: "Understanding Relic Spawns"
-			x: -2.0d
-			y: -7.5d
+			x: -8.0d
+			y: 4.5d
 			description: [
 				"Every thirty minutes, there is a chance a Legendary Pokemon will spawn. However, there are a lot of checks and conditions that must be made for this to happen."
 				""
@@ -2448,7 +2475,8 @@
 		}
 		{
 			x: -2.0d
-			y: 4.5d
+			y: 6.0d
+			subtitle: "Maybe a quest one day will have you make a bed?"
 			description: [
 				"Munna is slow like Duskull but with good defenses and a powerful special attack. If Duskull can set up Trick Room, Munna can blast the enemy away."
 				""
@@ -2490,7 +2518,8 @@
 		}
 		{
 			x: -2.0d
-			y: 6.0d
+			y: 7.5d
+			subtitle: "You should examine the shed skins of Shedinja"
 			description: [
 				"Nincada is a rare bug/ground type. It is the only Pokemon to split into two when it evolves, producing both a Ninjask and a Shedinja."
 				""
@@ -2536,7 +2565,8 @@
 		}
 		{
 			x: -2.0d
-			y: 7.5d
+			y: 9.0d
+			subtitle: "You should forage for old ceramic goods."
 			description: [
 				"Sinistea can only evolve if you give it a special tea pot. While you can evolve Sinistea at any time, it's best to &await until level 13&r, or it will miss out on some important low level moves. The evolved form is a big upgrade in power and special defense, but is weak to physical attacks."
 				""
@@ -2552,7 +2582,6 @@
 			]
 			hide: true
 			hide_text_until_complete: true
-			secret: true
 			id: "335AA0AF611AB874"
 			tasks: [{
 				id: "117111678BE9E157"
@@ -2658,6 +2687,7 @@
 			}]
 		}
 		{
+			title: "Mob Spawners"
 			icon: "minecraft:spawner"
 			x: -0.5d
 			y: -4.5d
@@ -2785,6 +2815,177 @@
 				type: "item"
 				title: "One of the most valuable things Drifloon has ever brought you...!"
 				item: "pixelmon:exp_share"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			description: ["This is for Tier 3 tools, tools that require alloying."]
+			dependencies: ["0C705A15D93CC039"]
+			id: "48EA1F5FA3049237"
+			tasks: [{
+				id: "67A1F871E4F9A19F"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+			rewards: [
+				{
+					id: "04F6FA30B3DEC325"
+					type: "item"
+					item: "tconstruct:seared_stone"
+					count: 4
+				}
+				{
+					id: "5ABEA882A7FBA1EF"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			description: ["This is for Tier 4 tools--tools that require Blazing Blood."]
+			dependencies: ["48EA1F5FA3049237"]
+			id: "5F4D5EF24DD48E4C"
+			tasks: [{
+				id: "1C6C2AB277CD5017"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+			rewards: [
+				{
+					id: "01F3FEC5FEAA0309"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "201E93AFC4B90009"
+					type: "item"
+					item: "minecraft:magma_cube_spawn_egg"
+				}
+				{
+					id: "5BEC0E7AA0DBB615"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 0.0d
+			description: ["This is an encyclopedia of everything Tinkerable."]
+			dependencies: ["5F4D5EF24DD48E4C"]
+			id: "1319A58ACED60158"
+			tasks: [{
+				id: "2253CEB9A19E25A0"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [
+				{
+					id: "5A3A45F92E10A4FF"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+				{
+					id: "7E1A1C4134D59CF7"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "69CD4D6485244727"
+					type: "random"
+					table_id: 3001743523227994534L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			description: [
+				"This is a book of many little things that can be created in Tinkers Construct."
+				""
+				"You might be able to find the sky slime ball on the space layer; Sun and Moon shellos spawn up there."
+			]
+			dependencies: ["2D371D41E27A8496"]
+			id: "353C17AF032C049A"
+			tasks: [{
+				id: "1248B9723BE3D8AF"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+			rewards: [
+				{
+					id: "2E8059CB8213194B"
+					type: "item"
+					item: "tconstruct:sky_congealed_slime"
+					count: 16
+				}
+				{
+					id: "14A988863778C115"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			description: [
+				"When it comes to making beaches and deserts, many different kinds of sand will do. You can rely on good old fashioned soul sand, or you can look for any of the other sands in the JEI. The easiest 'normal' sand to get is probably from Dunsparce, which shows up in underground Biomes in the Deep Dark layer. "
+				""
+				"Blue, purple, pink, white, red, and at least one of two forms of black sand are also harvestable from Pokemon."
+			]
+			dependencies: ["7F8E0B072E55E538"]
+			id: "40BCE7EE2CE2123F"
+			tasks: [{
+				id: "68421D7E1348258F"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "58B397099DFAEADC"
+				type: "choice"
+				table_id: 2357067282096749785L
+			}]
+		}
+		{
+			icon: "minecraft:turtle_egg"
+			x: -2.0d
+			y: 3.0d
+			description: [
+				"Pokeballs are going to be scarce in this world. You don't have many, and you don't have the materials to make may. That'll have to change how you go about getting Pokemon."
+				""
+				"To begin with, you'll need to take advantage of every chance to get a Pokemon egg. From incenses to elemental stones and fossils, all sorts of things can lead to getting an egg. Make sure you don't miss getting the infuser in first chapter!"
+				""
+				"Next, you'll have to strategize carefully over how to make your Pokeballs count. You'll need to pick Pokemon who are easy to capture (skip hard catches like starters and dragons), and train Pokemon who can use False Swipe, like Nincada, or put enemies to sleep, like Munna."
+				""
+				"Since all hatched Pokemon will be a very low level, you'll probably want to find a quest that can give an EXP share, and make use of candies."
+			]
+			dependencies: [
+				"5998CB1BDA3E4109"
+				"1461900BEAD0C38E"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "66683519178E0936"
+			tasks: [{
+				id: "212AA764E7BD0414"
+				type: "questsadditions:time"
+				elapsedTime: 1L
+			}]
+			rewards: [{
+				id: "4265813007BFC19B"
+				type: "item"
+				item: "pixelmon:xs_exp_candy"
 			}]
 		}
 	]

@@ -315,8 +315,10 @@
 			]
 		}
 		{
+			title: "Lengthened Regeneration"
 			x: 4.5d
 			y: 1.0d
+			shape: "circle"
 			description: [
 				"Many times, having a regeneration potion that works slowly over a longer period of time is totally sufficient for your needs."
 				""
@@ -360,8 +362,10 @@
 			]
 		}
 		{
+			title: "Potent Regeneration"
 			x: 4.5d
 			y: -1.0d
+			shape: "circle"
 			description: [
 				"Sometimes, the rate of a normal regeneration potion is not strong enough. Regeneration II potions last a very short period of time, but restore health much more rapidly. This can counteract heavy damage, bad poison, or higher-leveled Wither."
 				""
@@ -383,6 +387,7 @@
 							Potion: "minecraft:strong_regeneration"
 						}
 					}
+					count: 3L
 				}
 				{
 					id: "702B5E45D278216A"
@@ -2387,6 +2392,7 @@
 		{
 			x: 6.0d
 			y: -1.0d
+			shape: "circle"
 			description: [
 				"(Note: You only need to make one of the above potions, not all of them)"
 				""
@@ -2394,6 +2400,7 @@
 			]
 			dependencies: ["6F3BFE4C00F60E85"]
 			hide: true
+			optional: true
 			min_required_tasks: 1
 			id: "3DEEF3AA8384F101"
 			tasks: [
@@ -2456,12 +2463,14 @@
 		{
 			x: 7.0d
 			y: -1.0d
+			shape: "circle"
 			description: [
 				"You can weaponize wither by using it in splash potions."
 				""
 				"(Note: You only need to make one of the above potions, not all of them)"
 			]
 			dependencies: ["6F3BFE4C00F60E85"]
+			optional: true
 			min_required_tasks: 1
 			id: "5123F5E894567347"
 			tasks: [
@@ -2503,6 +2512,7 @@
 		{
 			x: 10.0d
 			y: 1.0d
+			shape: "circle"
 			description: [
 				"Necronium bones can be made from pouring uranium on necrotic bones."
 				""
@@ -2512,6 +2522,7 @@
 				"6A6226031EF48604"
 				"616C1ED7D1BFA863"
 			]
+			optional: true
 			id: "5EFFBBF1C563686A"
 			tasks: [{
 				id: "5AA39F4F6406DB19"

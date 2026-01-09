@@ -64,6 +64,8 @@
 				"As such, you should be prepared for battle immediately upon entering."
 				""
 				"Additionally, you may find you want to ensure you are prepped to harvest certain materials during the Dragon fight. For instance, you may want glass bottles to harvest Dragon's Breath."
+				""
+				"Avoid going to the end until you are adequately prepared, or you could lose out on certain quest rewards that deal with killing the dragon."
 			]
 			dependencies: ["1EFDA9F2770EB444"]
 			hide: true
@@ -83,7 +85,7 @@
 				""
 				"Obviously this can become very irritating if you get it wrong more than once."
 			]
-			dependencies: ["1BE4319B0030C714"]
+			dependencies: ["65AB4D7EDCBF7AF6"]
 			id: "51DB3CAD50A324D7"
 			tasks: [{
 				id: "0C336258A42713AD"
@@ -902,6 +904,7 @@
 			icon: "pixelmon:master_chest"
 			x: -2.5d
 			y: -6.5d
+			shape: "circle"
 			description: [
 				"End Grottos are almost impossible to see because they are typically buried under the ground."
 				""
@@ -909,6 +912,7 @@
 			]
 			dependencies: ["26B77E6C4944C144"]
 			hide: true
+			optional: true
 			id: "55938FAA92DBB114"
 			tasks: [{
 				id: "463E4888BD4E5BA3"
@@ -1103,9 +1107,11 @@
 			icon: "minecraft:purpur_block"
 			x: -2.5d
 			y: -5.5d
+			shape: "circle"
 			description: ["If you visit an end city, you will realize different Pokemon spawn on man-made blocks in the end than on natural blocks. Perhaps you should create a location, out in the void of the end somewhere, devoted to manman blocks and the Pokemon who call them home?"]
 			dependencies: ["26B77E6C4944C144"]
 			hide: true
+			optional: true
 			id: "56A3417C158934E7"
 			tasks: [{
 				id: "32A950DD35737B9B"
@@ -1280,10 +1286,10 @@
 		}
 		{
 			title: "Prepare for the Egg"
-			x: 1.0d
-			y: -1.5d
+			x: -1.0d
+			y: -0.5d
 			description: ["To break the Dragon Egg, you are going to need to remember to bring a Piston and lever."]
-			dependencies: ["64D1186894E6393E"]
+			dependencies: ["1BE4319B0030C714"]
 			hide: true
 			id: "183192BCE732E77F"
 			tasks: [
@@ -1331,14 +1337,13 @@
 		{
 			title: "Knife of Ender"
 			x: 1.0d
-			y: -2.5d
+			y: -1.5d
 			description: [
 				"If you kill the Dragon using a knife, you may be able to harvest additional drops, such as dragon legs and dragon teeth."
 				""
 				"You aren't sure if a normal knife will work, or if you need a knife made from end materials."
 			]
-			dependencies: ["183192BCE732E77F"]
-			hide: true
+			dependencies: ["64D1186894E6393E"]
 			id: "206A390AE925FAC2"
 			tasks: [{
 				id: "51F5404DD2F741B8"
@@ -1402,7 +1407,6 @@
 				"25A4E1D43D53265C"
 				"0DA1548771CFFDA2"
 			]
-			hide: true
 			id: "39F73EDF6AD77295"
 			tasks: [{
 				id: "62C69C664371FE0B"
@@ -1448,13 +1452,15 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: 2.0d
 			y: -0.5d
-			shape: "circle"
-			description: ["You aren't sure if the End will have Endermen, but there are a few techniques you can employ to avoid angering any of them in the fight against the Dragon. One is by wearing a pumpkin on your head. You will have to decide if this is better or worse than wearing a protective helmet but risking their anger."]
+			description: [
+				"You aren't sure if the End will have Endermen, but there are a few techniques you can employ to avoid angering any of them in the fight against the Dragon. One is by wearing a pumpkin on your head. You will have to decide if this is better or worse than wearing a protective helmet but risking their anger."
+				""
+				"To get a carved pumpkin, use a pair of shears on a regular pumpkin."
+			]
 			dependencies: ["1BE4319B0030C714"]
 			hide: true
-			optional: true
 			id: "69EB6C82E3C863D6"
 			tasks: [{
 				id: "44CA43230485A484"
@@ -1471,31 +1477,32 @@
 				{
 					id: "2BCE02A3EF39E4A2"
 					type: "command"
+					title: "Unexpected Pokemon Egg Aquisition"
+					icon: "minecraft:turtle_egg"
 					command: "/pokegive @p Pumpkaboo untradeable egg ball:cherish_ball nature:adamant iv_hp:31 iv_atk:31 iv_spdef:31 iv_def:31 iv_spd:31 g:female ab:pickup"
 					player_command: false
 				}
 			]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
-			shape: "circle"
+			title: "Arceus has a Warning For You"
+			x: 0.0d
+			y: -0.5d
 			description: [
 				"As you contemplate how to kill the Ender Dragon, you suddenly and with great certainty feel an intense dislike of beds."
 				""
-				"You have a feeling that the End Dragon might be &aImmune to Bed-splosions&r. That would be consistent with all your other bad luck."
+				"You have a feeling that the End Dragon might be &aImmune to Bed-splosions&r. That would be consistent with all your other bad luck. That means you'll have to actually fight the dragon."
 				""
-				"You decide to &asacrifice a bed&r to Arceus in aknowledgement of this certainty."
+				"You decide to &asacrifice a bed&r to Arceus to acknowledge you understood his warning."
 			]
-			dependencies: ["69EB6C82E3C863D6"]
+			dependencies: ["1BE4319B0030C714"]
 			hide: true
-			optional: true
 			id: "65AB4D7EDCBF7AF6"
 			tasks: [
 				{
 					id: "076EF9B6B6A876E5"
 					type: "item"
-					title: "Burn a Bed in Honor of this Warning"
+					title: "Obtain a Bed you Plan to Burn in Honor of this Warning"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1591,7 +1598,6 @@
 			title: "Poor Man's Fall Protection"
 			x: -2.0d
 			y: -0.5d
-			shape: "circle"
 			description: [
 				"You believe you can count on your Pokemon to rescue you from the void in the End-- the same as they'd rescue you here. However, that doesn't mean they can guarentee you a safe landing."
 				""
@@ -1601,7 +1607,6 @@
 			]
 			dependencies: ["1BE4319B0030C714"]
 			hide: true
-			optional: true
 			id: "42251DE84967D886"
 			tasks: [{
 				id: "7290B8B1D6E3708C"
@@ -1653,15 +1658,14 @@
 		}
 		{
 			x: -2.0d
-			y: -2.5d
+			y: -1.5d
 			shape: "circle"
 			description: [
 				"An alternative to the water bucket, that's more reliable and won't fail you in a pinch, are slime boots."
 				""
 				"Slime boots will negate all fall damage and bounce you back up into the air."
 			]
-			dependencies: ["61C88B635CDA7788"]
-			hide: true
+			dependencies: ["42251DE84967D886"]
 			optional: true
 			id: "04FDA8409A72ABCE"
 			tasks: [{
@@ -1726,7 +1730,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -1.0d
 			y: -1.5d
 			shape: "circle"
 			description: [
@@ -1735,7 +1739,6 @@
 				"Phantom Membranes can be found on a number of bat pokemon, as well as Dreepy."
 			]
 			dependencies: ["42251DE84967D886"]
-			hide: true
 			optional: true
 			id: "61C88B635CDA7788"
 			tasks: [
@@ -1805,6 +1808,7 @@
 				"732ED95D9F84E6B7"
 				"5A992B2A4637044D"
 			]
+			hide: false
 			size: 1.5d
 			id: "32C2D997DFA2B24B"
 			tasks: [{
@@ -2112,6 +2116,7 @@
 			icon: "pixelmon:sacredash"
 			x: -3.5d
 			y: -6.0d
+			shape: "circle"
 			description: ["In the ashes of these Pokemon, you find a strange bell..."]
 			hide_dependency_lines: true
 			dependencies: [

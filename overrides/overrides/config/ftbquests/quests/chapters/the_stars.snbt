@@ -38,6 +38,7 @@
 			]
 		}
 		{
+			title: "Start with Marble"
 			x: 4.0d
 			y: -0.5d
 			description: [
@@ -287,7 +288,6 @@
 		{
 			x: 4.5d
 			y: 6.0d
-			shape: "circle"
 			description: [
 				"Obtain lava in either a ceramic or iron bucket. (This may not be feasible until the Nether is unlocked.)"
 				""
@@ -301,7 +301,6 @@
 			]
 			dependencies: ["3B4055303F7C3CF9"]
 			hide: true
-			optional: true
 			min_required_tasks: 2
 			id: "20EEE33BB3D58776"
 			tasks: [
@@ -803,6 +802,7 @@
 			}
 			x: 8.5d
 			y: 6.5d
+			shape: "circle"
 			description: [
 				"The easiest way to modify a crystal is to add one level of the 'Size' property (to a max of III), by leving it to soak up a bucket of liquid starlight."
 				""
@@ -816,6 +816,7 @@
 				"47A21D5B311AB95C"
 			]
 			hide: true
+			optional: true
 			id: "05A38CD874CD956A"
 			tasks: [{
 				id: "0DA88AF416845C26"
@@ -1453,7 +1454,6 @@
 				"First, you will need to create Constellation papers and read them. Each will show you about a different constellation, as well as the phases of the lunar cycle in which the constellation will be visible."
 			]
 			dependencies: ["080E8EAE3A6E6330"]
-			hide: true
 			id: "2172C595ED6DC0C2"
 			tasks: [{
 				id: "708005DEB20B4AFB"
@@ -1524,7 +1524,7 @@
 			x: 3.0d
 			y: -4.0d
 			description: [
-				"The observatory is expensive, and can only be calculated when a specific Constellation is in the sky. That Constellation can be seen in its JEI and Astral Tome recipes."
+				"The observatory is expensive, and can only be created when a specific Constellation is in the sky, and the Altar is attuned to that constellation. That Constellation can be seen in its JEI and Astral Tome recipes."
 				""
 				"You will need the Observatory to find the dimmest of Constellations."
 			]
@@ -1944,9 +1944,9 @@
 				""
 				"Vicio is movement speed and experience is obtained through moving around."
 				""
-				"Aevitas is Maximum life. Experience is gained through placing blocks."
+				"Aevitas is health. Experience is gained through placing blocks."
 				""
-				"Amara is more armor. Experience is gained through taking damage."
+				"Amara is armor. Experience is gained through taking damage."
 				""
 				"Evorsio is additional reach and experience is gained through breaking blocks."
 				""
@@ -2478,6 +2478,42 @@
 				type: "item"
 				item: "pixelmon:black_glasses"
 			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			shape: "circle"
+			description: [
+				"The containment chalice is something of a 'cobblestone generator,' altough it can create many, many more blocks than just cobblestone, including every color of sand. "
+				""
+				"It basically allows two liquids to interact within it, and creates whatever they would output. There is a small chance of consuming one of the fluids used in the interaction, so they must be supplied with that fluid to continue working unabated."
+			]
+			dependencies: ["080E8EAE3A6E6330"]
+			hide: true
+			optional: true
+			id: "3F4785C4E127F766"
+			tasks: [{
+				id: "3676F937199DBEC5"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [
+				{
+					id: "41290F5CCDA45AB2"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "1028DDA9DC10C7DE"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "66C3D12782B21312"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 	]
 }

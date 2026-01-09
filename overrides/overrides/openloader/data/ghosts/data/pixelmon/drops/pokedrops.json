@@ -10344,7 +10344,7 @@
                 "chance": 0.1
             },
             {
-                "item": "botania:metamorphic_fungal_stone",
+                "item": "botania:metamorphic_fungal_cobblestone",
                 "min": 1,
                 "max": 2,
                 "chance": 0.5

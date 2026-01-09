@@ -4,12 +4,15 @@
   "key": {
     "#": {
       "item": "tconstruct:seared_brick"
+    },
+    "o": {
+      "item": "ceramics:porcelain_brick"
     }
   },
   "pattern": [
     "# #",
     "# #",
-    "###"
+    "ooo"
   ],
   "result": {
     "item": "minecraft:cauldron"

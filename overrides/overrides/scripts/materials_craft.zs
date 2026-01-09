@@ -62,6 +62,7 @@ var astralMetals =
 	"starmetal"
 ];
 
+
 val nonRodImmersiveMetals = 
 [
 	"constantan",
@@ -78,12 +79,20 @@ val nonRodThermalMetals =
 	"invar",
 	"signalum",
 	"lumium",
-	"enderium"
+	"enderium",
+	"bronze"
 ];
 
 var nonRodVanillaMetals =
 [
 	"gold"
+];
+
+var tinkersArcheryMetals =
+[
+	"tantalum",
+	"cobalt_tantalum",
+	"galaxy_alloy"
 ];
 
 
@@ -160,6 +169,13 @@ for i in astralMetals{
 	allRods.add(i);
 }
 
+for i in tinkersArcheryMetals{
+	allGears.add(i);
+	allDusts.add(i);
+	allPlates.add(i);
+	allRods.add(i);
+}
+
 var lavaMetals =
 [
 	"cobalt",
@@ -185,7 +201,8 @@ var blazingMetals =
 	"netherite",
 	"signalum",
 	"lumium",
-	"enderium"
+	"enderium",
+	"galaxy_alloy"
 ];
 
 
@@ -220,6 +237,10 @@ for i in allNuggets{
 	if(i == "silicon_bronze")
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 16;
+	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 16;
 	}
 	else if(i == "fairy" ||i == "starmetal" )
 	{
@@ -267,6 +288,10 @@ for i in allBlocks{
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 296;
 	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 296;
+	}
 	else if(i == "fairy" ||i == "starmetal" )
 	{
 		molt = <fluid:materialis:molten_${i}> * 296;
@@ -311,6 +336,10 @@ for i in allIngots{
 	if(i == "silicon_bronze")
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 144;
+	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 144;
 	}
 	else if(i == "fairy" ||i == "starmetal" )
 	{
@@ -358,6 +387,10 @@ for i in allGears{
 	if(i == "silicon_bronze")
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 576;
+	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 576;
 	}
 	else if(i == "fairy" ||i == "starmetal" )
 	{
@@ -411,6 +444,10 @@ for i in allPlates{
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 144;
 	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 144;
+	}
 	else if(i == "fairy" || i == "starmetal" )
 	{
 		molt = <fluid:materialis:molten_${i}> * 144;
@@ -463,6 +500,10 @@ for i in allDusts{
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 144;
 	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 144;
+	}
 	else if(i == "fairy" ||i == "starmetal" )
 	{
 		molt = <fluid:materialis:molten_${i}> * 144;
@@ -505,6 +546,10 @@ for i in allRods{
 	if(i == "silicon_bronze")
 	{
 		molt = <fluid:tconstruct:molten_tinkers_bronze> * 72;
+	}
+	else if(i in tinkersArcheryMetals)
+	{
+		molt = <fluid:tinkersarchery:molten_${i}> * 72;
 	}
 	else if(i == "fairy" ||i == "starmetal" )
 	{

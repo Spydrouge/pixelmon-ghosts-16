@@ -389,17 +389,29 @@
 					item: "botania:livingrock"
 				}
 			]
-			rewards: [{
-				id: "3C4BC4980B5266AD"
-				type: "item"
-				item: {
-					id: "tconstruct:tool_handle"
-					Count: 1b
-					tag: {
-						Material: "materialis:livingwood"
+			rewards: [
+				{
+					id: "3C4BC4980B5266AD"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "materialis:livingwood"
+						}
 					}
 				}
-			}]
+				{
+					id: "70F5D1F162DF2DBB"
+					type: "item"
+					item: "pixelmon:white_shard"
+				}
+				{
+					id: "4FCD1FC15E3FEF2B"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 		{
 			title: "The Hydroangeas Plan"
@@ -2042,6 +2054,7 @@
 			]
 		}
 		{
+			title: "Making a Tree Farm: Start with Sapling"
 			x: 5.0d
 			y: 3.0d
 			description: [
@@ -2372,6 +2385,7 @@
 			]
 		}
 		{
+			title: "Finishing the Tree Farm"
 			x: 8.5d
 			y: 3.0d
 			subtitle: "Maybe Watch a Tutorial?"
@@ -2416,7 +2430,7 @@
 		{
 			x: 7.5d
 			y: 4.0d
-			description: ["You'll want a special type of mana spreader called a Pulse Mana Spreader so you can control it with redstone."]
+			description: ["You'll want a special type of mana spreader called a Pulse Mana Spreader so you can control it with redstone. This will make sure it only fires when the tree is planted."]
 			dependencies: ["21946EC36480B44A"]
 			id: "13CB64100C63C861"
 			tasks: [{
@@ -2440,6 +2454,7 @@
 		{
 			x: 7.5d
 			y: 2.0d
+			shape: "circle"
 			description: [
 				"Whenever the tree is grown, you're going to want to fire a special mana burst to break it. But how will you detect when the tree is grown?"
 				""
@@ -2448,6 +2463,7 @@
 				"But a smarter way would be to place an observer one block off the ground and use it to detect the tree trunk."
 			]
 			dependencies: ["583A00B319F47DCF"]
+			optional: true
 			id: "4087528C341F08C4"
 			tasks: [{
 				id: "6F96631E7D66EE46"
@@ -2475,6 +2491,7 @@
 		{
 			x: 10.0d
 			y: 2.5d
+			shape: "circle"
 			description: [
 				"If you find yourself building tree farms or cooking a lot of charcoal, you might decide to use an Exoflame to power your Furnaces."
 				""
@@ -2487,6 +2504,7 @@
 				"632A099041D13A82"
 			]
 			hide: true
+			optional: true
 			id: "5D9540190EA484BC"
 			tasks: [{
 				id: "20CECBD36BEFBBA2"
@@ -2906,6 +2924,11 @@
 					type: "item"
 					item: "pixelmon:leftovers"
 				}
+				{
+					id: "2A7265CD35BB21C6"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
 			]
 		}
 		{
@@ -2914,7 +2937,7 @@
 			description: [
 				"The narslimmus has no use case. It is meant to kill and consume green slimes, and for that reason is usually planted on slime chunks."
 				""
-				"But you have never seen a \"Green Slime Monster\" and you aren't sure you'd get much mana out of it if you did."
+				"But you have never seen a \"Slime Monster\" and you aren't sure you'd get much mana out of it if you did."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7D6D8D32D5F2DA1C"]
@@ -2953,6 +2976,11 @@
 					type: "item"
 					item: "pixelmon:green_shard"
 				}
+				{
+					id: "0E77CFCF336280DD"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
 			]
 		}
 		{
@@ -2969,7 +2997,7 @@
 				""
 				"The petals of Mystical Flowers can be planted and bonemealed to propagate them. They are much more convenient than Mushrooms."
 				""
-				"Additionally, you will now be able to craft Floral Fertilizer."
+				"Additionally, you will now be able to use a quest to craft Floral Fertilizer."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5C31D9BDA3B13E9D"]
@@ -5070,6 +5098,23 @@
 				type: "item"
 				item: "botania:spawner_mover"
 			}]
+			rewards: [
+				{
+					id: "38073BA0530177B7"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "14F8524C090E26E7"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "364A8C85CB5FDDE6"
+					type: "item"
+					item: "pixelmon:wishing_piece"
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -6351,6 +6396,7 @@
 		{
 			x: -4.0d
 			y: 4.5d
+			description: ["Useful for Pure Daisies. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "537DFAF27BB2819C"
 			tasks: [{
@@ -6367,7 +6413,7 @@
 		{
 			x: -4.0d
 			y: 5.5d
-			description: ["Mystical flowers are renewable in a way mushrooms aren't."]
+			description: ["Useful in the Thermalily and several valuable flowers for automation."]
 			dependencies: ["3030D7449023D68D"]
 			id: "4E3CCA0750F2EBB1"
 			tasks: [{
@@ -6384,6 +6430,7 @@
 		{
 			x: -4.0d
 			y: 6.5d
+			description: ["Useful in some defensive flowers that can help you defeat invasions and gateway pearls in \"Evil Forces.\""]
 			dependencies: ["3030D7449023D68D"]
 			id: "236944C0906624D9"
 			tasks: [{
@@ -6400,6 +6447,7 @@
 		{
 			x: -4.0d
 			y: 7.5d
+			description: ["Useful in Manastars, which show how much mana is actually in a pool, and in the Bubbel flower."]
 			dependencies: ["3030D7449023D68D"]
 			id: "52334B3660F4C355"
 			tasks: [{
@@ -6416,6 +6464,7 @@
 		{
 			x: -4.0d
 			y: 8.5d
+			description: ["Useful for a variety of exotic flowers like the Creeper-herding Tiger's Eye, the Gourmarylis, and the Daffomil."]
 			dependencies: ["3030D7449023D68D"]
 			id: "2733D30C180B41C7"
 			tasks: [{
@@ -6432,6 +6481,7 @@
 		{
 			x: -4.0d
 			y: 9.5d
+			description: ["Useful for Rosa Arcana. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "7FC3FEA31B5455B5"
 			tasks: [{
@@ -6448,6 +6498,7 @@
 		{
 			x: -4.0d
 			y: 10.5d
+			description: ["Useful for Rosa Arcana. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "5FFC7E1497C4D54E"
 			tasks: [{
@@ -6464,6 +6515,7 @@
 		{
 			x: -4.0d
 			y: 11.5d
+			description: ["Beneficial for Hopperhocks."]
 			dependencies: ["3030D7449023D68D"]
 			id: "09647E0BA9B56311"
 			tasks: [{
@@ -6480,6 +6532,7 @@
 		{
 			x: -5.0d
 			y: 4.5d
+			description: ["Useful for Endoflames. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "6E7CD8425E0375AA"
 			tasks: [{
@@ -6496,6 +6549,7 @@
 		{
 			x: -5.0d
 			y: 5.5d
+			description: ["Useful for Hydroangeas, although make sure you don't make too many! Passive energy is always inferior to active energy. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "6300AAC8A53E5113"
 			tasks: [{
@@ -6512,6 +6566,7 @@
 		{
 			x: -5.0d
 			y: 6.5d
+			description: ["Useful for Rosa Arcana. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "1CCF3162CC685715"
 			tasks: [{
@@ -6528,6 +6583,7 @@
 		{
 			x: -5.0d
 			y: 7.5d
+			description: ["Useful for Hydroangeas, although make sure you don't make too many! Passive energy is always inferior to active energy. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "24C9854D2846EC51"
 			tasks: [{
@@ -6544,6 +6600,7 @@
 		{
 			x: -5.0d
 			y: 8.5d
+			description: ["Useful for Endoflames. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "1D5E26AC6CB7748D"
 			tasks: [{
@@ -6560,6 +6617,7 @@
 		{
 			x: -5.0d
 			y: 9.5d
+			description: ["Useful for Endoflames. "]
 			dependencies: ["3030D7449023D68D"]
 			id: "653774A8178DD9CF"
 			tasks: [{
@@ -6576,6 +6634,7 @@
 		{
 			x: -5.0d
 			y: 10.5d
+			description: ["Useful in a number of flowers designed to help you deal with invasions and gateway pearls in the \"Evil Forces\" chapter."]
 			dependencies: ["3030D7449023D68D"]
 			id: "774843C609D73986"
 			tasks: [{
@@ -6630,6 +6689,7 @@
 					}
 				}
 				count: 2L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "531A03A214CADE90"
@@ -6639,6 +6699,249 @@
 					Count: 1b
 					tag: {
 						tm: 28
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			description: [
+				"Daffomils can be used to make the magical equivalent of a conveyor belt. Drop items to the ground using a dropper or open crate, Set the Daffomil up to blow items in a direction. Put a wooden hopper or hopperhock at the end to catch the items or sort them according to item frames."
+				""
+				"(NOTE: If you are playing on an online server with scripted auto-clear, this can of course be dangerous.)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5AE35114536AEF17"]
+			hide: true
+			id: "6BFE3729AC39AC08"
+			tasks: [{
+				id: "1DB6C15CD95723C6"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [
+				{
+					id: "696E34C7F61BD3B2"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+				{
+					id: "472F80D07845E635"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			description: ["The hopperhock is a metal-free alternative to the hopper, and comes with the benefit of being able to sort items. If provided with an unmarked inventory, it will put every dropped item it finds in that inventory. But if an inventory has an item frame on it, the hopperhock will only place whatever's in that item frame into the chest. Magical sorting!"]
+			hide_dependency_lines: true
+			dependencies: ["5AE35114536AEF17"]
+			hide: true
+			id: "1CF97400E05A91CA"
+			tasks: [{
+				id: "2AD5D52C8A533875"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [
+				{
+					id: "29741740B045344E"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+				{
+					id: "6CE949E9B843E3D1"
+					type: "item"
+					item: "minecraft:item_frame"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			description: ["Your world seems to have 'creeper griefing' disabled, which is good because you live on top of a void and have many precious items to lose. However, the tigerseye can be used in conjunction with pearl gateways and evil invasions, too. "]
+			hide_dependency_lines: true
+			dependencies: ["49A645741741B096"]
+			hide: true
+			id: "2CD775533E13F6BF"
+			tasks: [{
+				id: "29AC3025D5FEF4BF"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [
+				{
+					id: "45B6A2C0A269FC4C"
+					type: "item"
+					item: "minecraft:creeper_spawn_egg"
+				}
+				{
+					id: "52CB395963C8C3FB"
+					type: "item"
+					item: "pixelmon:yellow_shard"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 11.5d
+			description: ["Useful in exotic flowers like the Munchdew and Narslimmus."]
+			dependencies: ["3030D7449023D68D"]
+			id: "6556F6CBA74E12E6"
+			tasks: [{
+				id: "20B0CED4DE2B2DD7"
+				type: "item"
+				item: "botania:green_mystical_flower"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			description: ["Throw any one of a variety of materials, from sugar to dye, can be thrown in the mana pool to create mana powder. This will be crucial in getting early access to some otherwise impossible molten metals, like molten steel, without lava."]
+			dependencies: ["58C8937CFE8894DA"]
+			id: "03764AFD57982F5B"
+			tasks: [{
+				id: "55537C844657CC06"
+				type: "item"
+				item: "botania:mana_powder"
+			}]
+			rewards: [
+				{
+					id: "5FFBFFBBB67085F6"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "39E0395EE935ECD0"
+					type: "item"
+					item: "pixelmon:blue_shard"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 8.0d
+			description: ["The munchdrew can produce mana from eating leaves. If you have a tree that's producing plenty of saplings, you can use this to supplement a tree-farm."]
+			hide_dependency_lines: true
+			dependencies: ["58F9F7B403DB35AC"]
+			hide: true
+			id: "29C2BC5D76EA9135"
+			tasks: [{
+				id: "6F7D17B7012AB069"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [
+				{
+					id: "5404B07A32F4FB27"
+					type: "item"
+					item: "pixelmon:green_shard"
+				}
+				{
+					id: "0A1D038FE9E38F03"
+					type: "item"
+					item: "pixelmon:leftovers"
+				}
+				{
+					id: "5FC77ACC1B7FEB21"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 8.0d
+			description: [
+				"If you make it to the Nether one day, the Thermalily is a direct upgrade to the Hyrdroangeas. It doesn't decay and consumes lava to produce Mana. However, the Thermalily is greedy and will consume lava it doesn't need while it's still digesting an old body of lava. "
+				""
+				"If you want to automate it, such as with dispensers and iron buckets, you should do so on a timer."
+			]
+			hide_dependency_lines: true
+			dependencies: ["157B8D287148120C"]
+			hide: true
+			id: "41FA7E6CBF417FE4"
+			tasks: [{
+				id: "4C1ED9C5019F2FA7"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [
+				{
+					id: "69CCA623ED0D041A"
+					type: "item"
+					item: "pixelmon:red_shard"
+				}
+				{
+					id: "362D92B8950B8254"
+					type: "item"
+					item: "ceramics:lava_bricks"
+					count: 16
+				}
+				{
+					id: "390FA54A87F0BA73"
+					type: "item"
+					item: "tconstruct:lavawood"
+					count: 16
+				}
+				{
+					id: "2137AE3C90F06367"
+					type: "item"
+					item: "pixelmon:lava_cookie"
+				}
+				{
+					id: "2208A3B536CEB544"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+			]
+		}
+		{
+			title: "Catch them All: Petal Edition"
+			icon: {
+				id: "pixelmon:tm_gen9"
+				Count: 1b
+				tag: {
+					tm: 206
+				}
+			}
+			x: -4.5d
+			y: 12.5d
+			description: ["A reward for your hard work!"]
+			dependencies: [
+				"6E7CD8425E0375AA"
+				"6300AAC8A53E5113"
+				"1CCF3162CC685715"
+				"24C9854D2846EC51"
+				"1D5E26AC6CB7748D"
+				"653774A8178DD9CF"
+				"774843C609D73986"
+				"6556F6CBA74E12E6"
+				"09647E0BA9B56311"
+				"5FFC7E1497C4D54E"
+				"7FC3FEA31B5455B5"
+				"2733D30C180B41C7"
+				"52334B3660F4C355"
+				"236944C0906624D9"
+				"4E3CCA0750F2EBB1"
+				"537DFAF27BB2819C"
+			]
+			id: "156BD9E24B376CE5"
+			tasks: [{
+				id: "26801CC41FAE603D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "39B60F121F995CD9"
+				type: "item"
+				item: {
+					id: "pixelmon:tm_gen9"
+					Count: 1b
+					tag: {
+						tm: 206
 					}
 				}
 			}]

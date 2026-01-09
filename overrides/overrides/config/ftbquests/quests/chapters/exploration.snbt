@@ -1,9 +1,9 @@
 {
 	id: "691A8B05A09AC93A"
 	group: "5CC2B36466F88246"
-	order_index: 2
+	order_index: 0
 	filename: "exploration"
-	title: "Vertical Exploration"
+	title: "Vertical Pokédex"
 	icon: {
 		id: "minecraft:elytra"
 		Count: 1b
@@ -15,6 +15,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Habitats Needed...!"
 			icon: {
 				id: "minecraft:elytra"
 				Count: 1b
@@ -24,8 +25,9 @@
 			}
 			x: 0.0d
 			y: 0.0d
+			subtitle: "Use this to find where Pokemon Spawn!"
 			description: [
-				"It appears that your world is evenly divided into layers, each of which spans 32 blocks vertically. Each appears to hve different Pokemon, thus giving you access to different resources. You'll need to explore them all!"
+				"It appears that your world is evenly divided into layers, each of which spans 32 blocks vertically. Each appears to have different Pokemon, thus giving you access to different resources. You'll need to explore them all!"
 				""
 				"You haven't visited all the layers yet, but you've assigned them named based on what you anticipate will be in them, based on what little you know of Pokemon habitats."
 				""
@@ -36,7 +38,7 @@
 				"Air Layer: 160 - 192"
 				"Dazzle Layer: 128 - 160"
 				"Murk Layer: 96 - 128"
-				"Soil Layer: 64 - 96 <-- You are here"
+				"Soil Layer: 64 - 96 &c<-- You are here&r"
 				"Stone Layer: 32 - 64"
 				"Deep Dark Layer: 0 - 32"
 			]
@@ -54,27 +56,39 @@
 			x: 0.0d
 			y: 7.5d
 			subtitle: "Into the depths..."
-			description: ["Head below Y = 32."]
+			description: [
+				"Head below Y = 32."
+				""
+				"In the deep dark layers of the earth you primarily find Pokemon that would make an Archaeologist or Paleontologist giddy! Dinosaurs and ancient relics abound."
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["4D61D20EF0182AE0"]
 			hide: true
 			id: "71F569F2FA23FEBD"
-			tasks: [{
-				id: "75857DD7C99A38F8"
-				type: "location"
-				title: "Travel down below Y = 32"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					-1073741823
-					16
-					-1073741823
-				]
-				size: [I;
-					2147483647
-					16
-					2147483647
-				]
-			}]
+			tasks: [
+				{
+					id: "75857DD7C99A38F8"
+					type: "location"
+					title: "Travel down below Y = 32"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						-1073741823
+						16
+						-1073741823
+					]
+					size: [I;
+						2147483647
+						16
+						2147483647
+					]
+				}
+				{
+					id: "37DAC704256FA499"
+					type: "checkmark"
+				}
+			]
 			rewards: [
 				{
 					id: "643F7A9FE78E4846"
@@ -92,26 +106,38 @@
 			title: "The Stone Layer"
 			x: 0.0d
 			y: 3.5d
-			description: ["Head between Y Levels 32 and 64"]
+			description: [
+				"Head between Y Levels 32 and 64."
+				""
+				"This layer is primarily filled with rocks, minerals, and the leftovers of mines. "
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["30EB23683E1A1D4C"]
 			hide: true
 			id: "4D61D20EF0182AE0"
-			tasks: [{
-				id: "628EFE53BD2A853B"
-				type: "location"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					-1073741823
-					48
-					-1073741823
-				]
-				size: [I;
-					2147483647
-					16
-					2147483647
-				]
-			}]
+			tasks: [
+				{
+					id: "628EFE53BD2A853B"
+					type: "location"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						-1073741823
+						48
+						-1073741823
+					]
+					size: [I;
+						2147483647
+						16
+						2147483647
+					]
+				}
+				{
+					id: "4E398E87979BDD72"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "67E61C9146C12EB5"
 				type: "item"
@@ -121,27 +147,39 @@
 		{
 			x: 0.0d
 			y: -4.5d
-			description: ["This layer is thick with garbage, refuse, and poison pokemon. Inside, you can find the remains of children's toys. A smog hangs over it. Sturdy bug Pokemon like the cocoons of moths and spiders have survived on it."]
+			description: [
+				"Between Y levels 96 and 128."
+				""
+				"This layer is thick with garbage, refuse, and poison pokemon. Inside, you can find the remains of children's toys. A smog hangs over it. Sturdy bug Pokemon, like the cocoons of moths and spiders, have survived on it."
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["30EB23683E1A1D4C"]
 			hide: true
 			id: "07738E3566B31309"
-			tasks: [{
-				id: "0822C3E88FF87E75"
-				type: "location"
-				title: "The Murk Layer"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					-1073741823
-					112
-					-1073741823
-				]
-				size: [I;
-					2147483647
-					16
-					2147483647
-				]
-			}]
+			tasks: [
+				{
+					id: "0822C3E88FF87E75"
+					type: "location"
+					title: "The Murk Layer"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						-1073741823
+						112
+						-1073741823
+					]
+					size: [I;
+						2147483647
+						16
+						2147483647
+					]
+				}
+				{
+					id: "3F31049C68DBE4EF"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "75B240103571FBDF"
 				type: "item"
@@ -151,7 +189,13 @@
 		{
 			x: 0.0d
 			y: -8.0d
-			description: ["This layer is filled with fey energy. Sturdy but plesant bug Pokemon, like the cocoons of butterflies, can be found. Indoors you find childrens toys, in better condition. You find many fluffy remnants of a destroyed civilization."]
+			description: [
+				"This layer is between Y levels 128 and 160."
+				""
+				"This layer is filled with fey energy. Sturdy but plesant bug Pokemon, like the cocoons of butterflies, can be found. Indoors you find childrens toys, in better condition. You find many fluffy remnants of a destroyed civilization."
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["07738E3566B31309"]
 			hide: true
 			id: "68656D2ECD70A4C9"
@@ -181,27 +225,39 @@
 		{
 			x: 0.0d
 			y: -11.5d
-			description: ["This is the air layer. Light flowers blow on the wind. A number of birds affiliated with the spiritual have survived."]
+			description: [
+				"Between Y levels 160 and 192."
+				""
+				"This is the air layer. Light flowers blow on the wind. A number of birds affiliated with the spiritual have survived."
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["68656D2ECD70A4C9"]
 			hide: true
 			id: "0BD06157B3F599CB"
-			tasks: [{
-				id: "7CA3EF6B2154A01B"
-				type: "location"
-				title: "The Air Layer"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					-1073741823
-					176
-					-1073741823
-				]
-				size: [I;
-					2147483647
-					16
-					2147483647
-				]
-			}]
+			tasks: [
+				{
+					id: "7CA3EF6B2154A01B"
+					type: "location"
+					title: "The Air Layer"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						-1073741823
+						176
+						-1073741823
+					]
+					size: [I;
+						2147483647
+						16
+						2147483647
+					]
+				}
+				{
+					id: "17792C0EFA2F8F31"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "5948BF78D8A19CE2"
 				type: "item"
@@ -211,27 +267,39 @@
 		{
 			x: 0.0d
 			y: -15.0d
-			description: ["This is the ice layer. You can find many light, snowy Pokemon, goats and foxes. Indoors, curled up around the embers of destroyed hearths, you can find the remnants of a few fire Pokemon, persevering agains the cold. There are some enimatic feminine spirits here, as well."]
+			description: [
+				"Between Y levels 192 and 224"
+				""
+				"This is the ice layer. You can find many light, snowy Pokemon, goats and foxes. Indoors, curled up around the embers of destroyed hearths, you can find the remnants of a few fire Pokemon, persevering agains the cold. There are some enimatic feminine spirits here, as well."
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["0BD06157B3F599CB"]
 			hide: true
 			id: "7EEAD69FE49927AB"
-			tasks: [{
-				id: "0CF017BC3D2994FA"
-				type: "location"
-				title: "The Ice Layer"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					-1073741823
-					208
-					-1073741823
-				]
-				size: [I;
-					2147483647
-					16
-					2147483647
-				]
-			}]
+			tasks: [
+				{
+					id: "0CF017BC3D2994FA"
+					type: "location"
+					title: "The Ice Layer"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						-1073741823
+						208
+						-1073741823
+					]
+					size: [I;
+						2147483647
+						16
+						2147483647
+					]
+				}
+				{
+					id: "636990B08F43D61F"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "684869929587AB77"
 				type: "item"
@@ -241,27 +309,39 @@
 		{
 			x: 0.0d
 			y: -18.5d
-			description: ["This layer is open to the End above, and is close to the stars, moon, and sun. Pokemon here have some relationship with these celestial bodies."]
+			description: [
+				"Includes Y levels greater than 224."
+				""
+				"This layer is open to the End above, and is close to the stars, moon, and sun. Pokemon here have some relationship with these celestial bodies."
+				""
+				"Visit and click the checkmark to see all Pokemon for this layer."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
 			hide: true
 			id: "3632E0C47BD3B5DE"
-			tasks: [{
-				id: "0D4D3F22EAF8A659"
-				type: "location"
-				title: "The Space Layer"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					-1073741823
-					240
-					-1073741823
-				]
-				size: [I;
-					2147483647
-					16
-					2147483647
-				]
-			}]
+			tasks: [
+				{
+					id: "0D4D3F22EAF8A659"
+					type: "location"
+					title: "The Space Layer"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						-1073741823
+						240
+						-1073741823
+					]
+					size: [I;
+						2147483647
+						16
+						2147483647
+					]
+				}
+				{
+					id: "565462AA329B17F2"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "232142245D915885"
 				type: "item"
@@ -372,8 +452,11 @@
 				"Burmy is only present when it is raining."
 				""
 				"The remaining Pokemon appear to be made form the broken and discarded debries from the cataclysm."
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
 			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "03DF0C6FF8136840"
 			tasks: [
 				{
@@ -427,8 +510,11 @@
 				"Burmy is only out when it's not raining."
 				""
 				"Duskull is a good source of fabric materials, skulls, and bones. Misdreavus carries pearls, especially ender pearls, and can be occasionally found with shards of a Dusk stone."
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
 			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "6A4C19A6EEA69DE0"
 			tasks: [
 				{
@@ -562,8 +648,11 @@
 				"Pineco and Phantump can both have their spawn rates increased if one grows their favorite tree. Pineco likes Spruce and Pine, where Phantump likes Dark Oak, Umbran Trees, and Ebony Trees."
 				""
 				"Burmy is only out when it's not raining."
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
 			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "326621C2EC6FED12"
 			tasks: [
 				{
@@ -799,8 +888,11 @@
 				"Here you will find Vullaby, who wears the skull of another. "
 				""
 				"Burmy will only be found here when it rains"
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
 			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "50701BB7967BB4A6"
 			tasks: [
 				{
@@ -953,8 +1045,13 @@
 			title: "Soil, Water: Basic Pokemon"
 			x: 10.0d
 			y: 0.0d
-			description: ["Dewpider and Surskit change spawn rates depending on time of day. Both are sources of Fresh Water."]
+			description: [
+				"Dewpider and Surskit change spawn rates depending on time of day. Both are sources of Fresh Water."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "3A785C8996F3C21E"
 			tasks: [
 				{
@@ -1073,8 +1170,13 @@
 			title: "Soil, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: 0.0d
-			description: ["Tynamo is a Pokemon famously found deeply underwater. It is one of the Pokemon people originally studied to understand how to build engines. You should certianly try to find some."]
+			description: [
+				"Tynamo is a Pokemon famously found deeply underwater. It is one of the Pokemon people originally studied to understand how to build engines. You should certianly try to find some."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "1B808CB153DB3F25"
 			tasks: [
 				{
@@ -1187,8 +1289,11 @@
 				"Flying Pokemon can appear in the air above almost any spawnable block. "
 				""
 				"The first two here are self-explanatory, but Nincada are dropped to the earth sometimes when Shedinja appears, typically in small groups."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
 			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "7D972935B3B39DC3"
 			tasks: [
 				{
@@ -1294,8 +1399,13 @@
 			title: "Soil, Beach: Basic Pokemon"
 			x: -13.5d
 			y: 0.0d
-			description: ["Burmy will only spawn if it is not raining"]
+			description: [
+				"Burmy will only spawn if it is not raining"
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "21FB59EEB6CE2027"
 			tasks: [
 				{
@@ -1343,8 +1453,13 @@
 			title: "Soil, Desert: Basic Pokemon"
 			x: -15.5d
 			y: 0.0d
-			description: ["Burmy will only spawn if it is not raining."]
+			description: [
+				"Burmy will only spawn if it is not raining."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "7A5648EAA0C64986"
 			tasks: [
 				{
@@ -1436,8 +1551,13 @@
 			title: "Soil, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: 0.0d
-			description: ["These pokemon spawn in the treetops, on leaves. You can use shears to create leaf habitats to increase the spawn area. Burmy will only spawn if it is not raining."]
+			description: [
+				"These pokemon spawn in the treetops, on leaves. You can use shears to create leaf habitats to increase the spawn area. Burmy will only spawn if it is not raining."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
+			]
 			dependencies: ["30EB23683E1A1D4C"]
+			hide: true
 			id: "26E8FEA03877DF1C"
 			tasks: [
 				{
@@ -1537,8 +1657,13 @@
 			title: "Stone, Outside: Basic Pokemon"
 			x: -3.0d
 			y: 3.5d
-			description: ["The Roggenrola family is attracted to Jukeboxes."]
+			description: [
+				"The Roggenrola family is attracted to Jukeboxes."
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "273B41CC35A1FF11"
 			tasks: [
 				{
@@ -1695,8 +1820,13 @@
 			title: "Stone, Manmade Basic Pokemon"
 			x: -7.0d
 			y: 3.5d
-			description: ["To increase the ratio of Rolycoly spawning, you can place down a coal block or rails."]
+			description: [
+				"To increase the ratio of Rolycoly spawning, you can place down a coal block or rails."
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "770DFC94B9270463"
 			tasks: [
 				{
@@ -1805,7 +1935,13 @@
 			title: "Stone, Flying: Basic Pokemon"
 			x: -9.5d
 			y: 3.5d
+			description: [
+				"Zubat appears to be the only low leveled flying Pokemon on the stone layer."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "3A70CBA2EA3FD4EE"
 			tasks: [{
 				id: "69CFC779A63A7EE4"
@@ -1895,8 +2031,11 @@
 				"Charjabug is ironically more prevalant than Grubbin, because it was more resilient in the face of the apocalypse, but often it will appear with a small contingent of Grubbin around it, seeking protection."
 				""
 				"Grubbin is an excellent source of dirt."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
 			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "52AAD6B652F9C011"
 			tasks: [
 				{
@@ -1944,8 +2083,13 @@
 			title: "Stone, Beach: Basic Pokemon"
 			x: -13.5d
 			y: 3.5d
-			description: ["On beaches down here, you can find Pokemon who seem to have crawled straight out of the rocks themselves."]
+			description: [
+				"On beaches down here, you can find Pokemon who seem to have crawled straight out of the rocks themselves."
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "148CC9E8BB3FA4F4"
 			tasks: [
 				{
@@ -2070,8 +2214,13 @@
 			title: "Stone, Desert: Basic Pokemon"
 			x: -15.5d
 			y: 3.5d
-			description: ["The deserts here are barren and rocky."]
+			description: [
+				"The deserts here are barren and rocky."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "43EECFD2D02772DA"
 			tasks: [
 				{
@@ -2153,8 +2302,11 @@
 				"To increase the ratio of Rolycoly spawning, you can place down a coal block or rails."
 				""
 				"The Roggenrola family is attracted to Jukeboxes."
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
 			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "45826C37A818648D"
 			tasks: [
 				{
@@ -2430,8 +2582,13 @@
 			title: "Stone, Indoor: Basic Pokemon"
 			x: 6.5d
 			y: 3.5d
-			description: ["These Pokemon appear to be leftover and broken peices from the basements of all the missing houses."]
+			description: [
+				"These Pokemon appear to be leftover and broken peices from the basements of all the missing houses."
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "73CDC278AECD0847"
 			tasks: [
 				{
@@ -2508,8 +2665,13 @@
 			title: "Stone, Water: Basic Pokemon"
 			x: 10.0d
 			y: 3.5d
-			description: ["These Pokemon all seem sturdy for some reason."]
+			description: [
+				"These Pokemon all seem sturdy for some reason."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "62B2801CFAF251C7"
 			tasks: [
 				{
@@ -2597,8 +2759,13 @@
 			title: "Stone, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: 3.5d
-			description: ["Clamperl are hardy by nature, but Feebas appears to have survived being so deep under the water when the cataclysm happened. The Corsola appear to be the haunted remains of destroyed coral reefs."]
+			description: [
+				"Clamperl are hardy by nature, but Feebas appears to have survived being so deep under the water when the cataclysm happened. The Corsola appear to be the haunted remains of destroyed coral reefs."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["4D61D20EF0182AE0"]
+			hide: true
 			id: "1D4BCC0EF390707F"
 			tasks: [
 				{
@@ -2702,8 +2869,13 @@
 			title: "Deep Dark, Land: Basic Pokemon"
 			x: -3.0d
 			y: 7.5d
-			description: ["The most common of these are  Lileep and Cranidos. Rhyhorn and Shieldon are of a moderate rarity. "]
+			description: [
+				"The most common of these are  Lileep and Cranidos. Rhyhorn and Shieldon are of a moderate rarity. "
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "209118D09A8F9B6B"
 			tasks: [
 				{
@@ -2874,8 +3046,13 @@
 			title: "Deep Dark, Underground: Basic Pokemon"
 			x: 3.0d
 			y: 7.5d
-			description: ["All three of these Pokemon drop valuable resources, but the most valuable is likely the iron dropped occasionally by aron."]
+			description: [
+				"All three of these Pokemon drop valuable resources, but the most valuable is likely the iron dropped occasionally by aron."
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "3B78C82ABB42D156"
 			tasks: [
 				{
@@ -3047,8 +3224,11 @@
 				"Although zubat is the most common flying Pokemon, Aerodactyl is a close second. It is still very hard to initiate combat with, because it spawns midair and flys off into the void. "
 				""
 				"Zubat, who is blind, appears to be repelled by the noises given off by note blocks."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
 			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "0FEEF944331F0C73"
 			tasks: [
 				{
@@ -3120,8 +3300,13 @@
 			title: "Deep Dark, Treetops:  Basic Pokemon"
 			x: -11.5d
 			y: 7.5d
-			description: ["Only one fossil Pokemon lurks in these trees."]
+			description: [
+				"Only one fossil Pokemon lurks in these trees."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "5CF74CADD99868B6"
 			tasks: [{
 				id: "6276BA0815647A79"
@@ -3178,8 +3363,13 @@
 			title: "Deep Dark, Beach: Basic Pokemon"
 			x: -13.5d
 			y: 7.5d
-			description: ["Fossil Pokemon seem to wash up on these beaches."]
+			description: [
+				"Fossil Pokemon seem to wash up on these beaches."
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "298A26052EF4AF20"
 			tasks: [
 				{
@@ -3322,8 +3512,13 @@
 			title: "Deep Dark, Desert: Basic Pokemon"
 			x: -15.5d
 			y: 7.5d
-			description: ["Deserts in the deep dark are an excellent place to find ancient world serpents. "]
+			description: [
+				"Deserts in the deep dark are an excellent place to find ancient world serpents. "
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "3B379686E677013A"
 			tasks: [
 				{
@@ -3454,8 +3649,13 @@
 			title: "Deep Dark, Manmade: Basic Pokemon"
 			x: -7.0d
 			y: 7.5d
-			description: ["The Pokemon down here make you feel like you are on an archaeological dig!"]
+			description: [
+				"The Pokemon down here make you feel like you are on an archaeological dig!"
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "36EB6BB9F7538A21"
 			tasks: [
 				{
@@ -3655,8 +3855,13 @@
 			title: "Deep Dark, Indoor: Basic Pokemon"
 			x: 6.5d
 			y: 7.5d
-			description: ["The Pokemon down here are like a great archaeological find!"]
+			description: [
+				"The Pokemon down here are like a great archaeological find!"
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "4F4B3AF752C88FF5"
 			tasks: [
 				{
@@ -3791,8 +3996,13 @@
 			title: "Deep Dark, Water: Basic Pokemon"
 			x: 10.0d
 			y: 7.5d
-			description: ["There are some eldrich things down here. It seems Chinchou may have also survived in the abyss, although there is no sign of Lanturn."]
+			description: [
+				"There are some eldrich things down here. It seems Chinchou may have also survived in the abyss, although there is no sign of Lanturn."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "2E53653E66E481C2"
 			tasks: [
 				{
@@ -3899,8 +4109,13 @@
 			title: "Deep Dark, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: 7.5d
-			description: ["These amazing rock-and-water type fossil Pokemon appear to have been released from places in deep underground water during the cataclysm."]
+			description: [
+				"These amazing rock-and-water type fossil Pokemon appear to have been released from places in deep underground water during the cataclysm."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["71F569F2FA23FEBD"]
+			hide: true
 			id: "1D36FE37DDEB3FD1"
 			tasks: [
 				{
@@ -4012,8 +4227,11 @@
 				"Watch out, however, as venonat is attracted to torches, campfires, and lanterns, and may overwhelm other spawns."
 				""
 				"Spoink appears to have survived by being lightweight and landing successfully on its spring."
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
 			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "4512B71AE44630DD"
 			tasks: [
 				{
@@ -4210,8 +4428,11 @@
 				"These Pokemon appear to be the leftover trash from human civilization, floating around after the cataclysm."
 				""
 				"It seems different Grimer emerge at different times of day."
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
 			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "10C1770E9630053B"
 			tasks: [
 				{
@@ -4357,8 +4578,13 @@
 			title: "Murk, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -4.5d
-			description: ["These insects are the children of the surviving cocoon bugs on this layer."]
+			description: [
+				"These insects are the children of the surviving cocoon bugs on this layer."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "1C5CB4D2BC4A6663"
 			tasks: [
 				{
@@ -4415,8 +4641,13 @@
 			title: "Murk, Flying: Basic Pokemon"
 			x: -9.5d
 			y: -4.5d
-			description: ["There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."]
+			description: [
+				"There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "0FDFFCBD2F374E6F"
 			tasks: [{
 				id: "25FBB351D971F8C3"
@@ -4508,8 +4739,13 @@
 			title: "Murk, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -4.5d
-			description: ["It seems different Grimer emerge at different times of day on beaches on this layer."]
+			description: [
+				"It seems different Grimer emerge at different times of day on beaches on this layer."
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "44B4C233C9A661E4"
 			tasks: [
 				{
@@ -4658,8 +4894,13 @@
 			title: "Murk, : Basic Pokemon"
 			x: -15.5d
 			y: -4.5d
-			description: ["The deserts here are barren and full of bones."]
+			description: [
+				"The deserts here are barren and full of bones."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "3C29F2568554A621"
 			tasks: [
 				{
@@ -4726,8 +4967,11 @@
 				"Additionally you can find Mimikyu buried underground."
 				""
 				"The hellish-looking Sableye is a source of valuable gemstones."
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
 			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "39FFD21ED5C990A0"
 			tasks: [
 				{
@@ -4880,8 +5124,13 @@
 			title: "Murk, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -4.5d
-			description: ["These are the lost companions of missing children, discovered in the wreckage."]
+			description: [
+				"These are the lost companions of missing children, discovered in the wreckage."
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "6EA84F435C5B661E"
 			tasks: [
 				{
@@ -5031,8 +5280,13 @@
 			title: "Murk, Water: Basic Pokemon"
 			x: 10.0d
 			y: -4.5d
-			description: ["These pokemon were light or durable enough to survive the cataclysm, and appear to have settled on the Murk Layer."]
+			description: [
+				"These pokemon were light or durable enough to survive the cataclysm, and appear to have settled on the Murk Layer."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "77E6B00837F32052"
 			tasks: [
 				{
@@ -5112,8 +5366,13 @@
 			title: "Murk, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -4.5d
-			description: ["Neither of these Pokemon are looking especially good."]
+			description: [
+				"Neither of these Pokemon are looking especially good."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["07738E3566B31309"]
+			hide: true
 			id: "47E689A6C4C6F150"
 			tasks: [
 				{
@@ -5185,8 +5444,11 @@
 				"Jigglypuff is an extremely light Pokemon; the most balloon-like Pokemon other than Drifloon!"
 				""
 				"You also see hardy bug Pokemon cocoons, who appear a bit cuter than the bugs on the Murk Layer. You can also still find ghostly Eevee."
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
 			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "1B115B26C7FD264E"
 			tasks: [
 				{
@@ -5360,8 +5622,11 @@
 				"Spritzee and Swirlix spawn at opposite times of day. Both seem to be found in the ruins of fancy houses and bakeries."
 				""
 				"There appears to be a strange... Galarian? Koffing. Presumably, it evovles into Galarian Weezing."
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
 			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "131107FDD5C49B06"
 			tasks: [
 				{
@@ -5480,8 +5745,11 @@
 				"Morelull is out during the night, and Shroomish during the day. How they tell the time underground is a mystery only mushrooms know."
 				""
 				"Wynaut appears to have survived by virtue of being indestructable."
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
 			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "085F0C92CC99BE19"
 			tasks: [
 				{
@@ -5682,8 +5950,11 @@
 				"All of these Pokemon are associated with evening, and perhaps that is why all of them are equally present day and night."
 				""
 				"All appear to have survived in crumbled and broken houses."
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
 			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "15749C752A54ED85"
 			tasks: [
 				{
@@ -5780,8 +6051,13 @@
 			title: "Dazzle, Water: Basic Pokemon"
 			x: 10.0d
 			y: -8.0d
-			description: ["Amazing! You have found a small pool of tadpoles! It appears that these creatures were able to survive in egg form despite all adversity, and sprung to life once introduced back to water."]
+			description: [
+				"Amazing! You have found a small pool of tadpoles! It appears that these creatures were able to survive in egg form despite all adversity, and sprung to life once introduced back to water."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "483F41D04037B42C"
 			tasks: [
 				{
@@ -5887,8 +6163,13 @@
 			title: "Dazzle, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -8.0d
-			description: ["These soaked dolls are unsettling."]
+			description: [
+				"These soaked dolls are unsettling."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "3E920BE183F9DCAF"
 			tasks: [{
 				id: "3E220585D1150B49"
@@ -5949,8 +6230,13 @@
 			title: "Dazzle : Basic Pokemon"
 			x: -9.5d
 			y: -8.0d
-			description: ["There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."]
+			description: [
+				"There are many evolved bug Pokemon here, but the only unevolved Pokemon appears to be Murkrow."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
+			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "5F34EFAB3F8B4C47"
 			tasks: [{
 				id: "4A1DBFC8CA99B31E"
@@ -6041,8 +6327,13 @@
 			title: "Dazzle, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -8.0d
-			description: ["Among the insects who are children of the hardy cocoon bugs who've survived on this layer, you can also find a rare fruit Pokemon growing among the branches: Bounsweet."]
+			description: [
+				"Among the insects who are children of the hardy cocoon bugs who've survived on this layer, you can also find a rare fruit Pokemon growing among the branches: Bounsweet."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
+			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "2894EBA5A6D54DC6"
 			tasks: [
 				{
@@ -6092,8 +6383,13 @@
 			title: "Dazzle, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -8.0d
-			description: ["These beaches may be the only reliable source of lapis."]
+			description: [
+				"These beaches may be the only reliable source of lapis."
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "6559153FFF3D780E"
 			tasks: [
 				{
@@ -6181,8 +6477,13 @@
 			title: "Dazzle, Desert: Basic Pokemon"
 			x: -15.5d
 			y: -8.0d
-			description: ["The deserts here are barren and full of bones."]
+			description: [
+				"The deserts here are barren and full of bones."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["68656D2ECD70A4C9"]
+			hide: true
 			id: "62B28D48CCEDE16E"
 			tasks: [
 				{
@@ -6243,8 +6544,13 @@
 			title: "Air : Basic Pokemon"
 			x: -3.0d
 			y: -11.5d
-			description: ["A number of light and flowery Pokemon seem to have survived on this layer, along with two spiritual birds."]
+			description: [
+				"A number of light and flowery Pokemon seem to have survived on this layer, along with two spiritual birds."
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "533743F769D87C04"
 			tasks: [
 				{
@@ -6421,8 +6727,13 @@
 			title: "Air, Manmade: Basic Pokemon"
 			x: -7.0d
 			y: -11.5d
-			description: ["Two spiritual birds can be found presiding over the ruins here."]
+			description: [
+				"Two spiritual birds can be found presiding over the ruins here."
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "48693D9F9DDB70AF"
 			tasks: [
 				{
@@ -6648,8 +6959,13 @@
 			title: "Air, Flying: Basic Pokemon"
 			x: -9.5d
 			y: -11.5d
-			description: ["There are a few common evolved bug Pokemon here, but the only unevolved Pokemon appears to be Hoppip, which is so light and evasive it seems to have survived the Cataclysm."]
+			description: [
+				"There are a few common evolved bug Pokemon here, but the only unevolved Pokemon appears to be Hoppip, which is so light and evasive it seems to have survived the Cataclysm."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "24EB4B379FF9B753"
 			tasks: [{
 				id: "3FD3B5373298F2DE"
@@ -6868,8 +7184,11 @@
 				"Taillow is a pokemon that never needs to land. That seems to have saved it. "
 				""
 				"Fletchling seems to have risen from the ashes, and Hoothoot appears to have survived because of its relationship with the spiritual."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
 			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "496E4CCAC47AA511"
 			tasks: [
 				{
@@ -7016,8 +7335,11 @@
 				"These beaches are interesting! The antlion Pokemon Trapinch either survived by being insulated by sand and gravel, or else there must be a Flygon somewhere."
 				""
 				"Bramblin are haunted sticks blown here by the breeze."
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
 			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "37065D461958B53F"
 			tasks: [
 				{
@@ -7122,8 +7444,13 @@
 			title: "Air, Desert: Basic Pokemon"
 			x: -15.5d
 			y: -11.5d
-			description: ["The deserts here are more desolate than the beaches. You won't find Shelgon, but you may find Vullaby."]
+			description: [
+				"The deserts here are more desolate than the beaches. You won't find Shelgon, but you may find Vullaby."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "195BAA48092A38AC"
 			tasks: [
 				{
@@ -7175,8 +7502,11 @@
 				"You've found some kind of hybernating locust Pokemon here, called Nymble, but also a large number of beautiful bat Pokemon."
 				""
 				"The blind zubat is repelled by note blocks, but other bats appear attracted to them."
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
 			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "66DA9BA11F31144E"
 			tasks: [
 				{
@@ -7275,7 +7605,13 @@
 			title: "Air, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -11.5d
+			description: [
+				"Indoors you can find Oricorio giving performances to an audience of no one. Hoot hoot appears tied to the spiritual world, and Pidove is famous for surviving world-ending calamities. "
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "15865566F6B62448"
 			tasks: [
 				{
@@ -7483,8 +7819,13 @@
 			title: "Air, Water: Basic Pokemon"
 			x: 10.0d
 			y: -11.5d
-			description: ["Both of these Pokemon are both aquatic and air-affiliated. They seem to have survived by 'swimming' through the void until they found water."]
+			description: [
+				"Both of these Pokemon are both aquatic and air-affiliated. They seem to have survived by 'swimming' through the void until they found water."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "4864359B0A662B6F"
 			tasks: [
 				{
@@ -7565,7 +7906,13 @@
 			title: "Air, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -11.5d
+			description: [
+				"Finneon and its evolved form are flying fish Pokemon, which explains why there are found there. However, they do not look like they are doing especially well. "
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["0BD06157B3F599CB"]
+			hide: true
 			id: "596D4F30EDA75B30"
 			tasks: [{
 				id: "5249D35492345464"
@@ -7633,8 +7980,13 @@
 			title: "Ice, Outside: Basic Pokemon"
 			x: -3.0d
 			y: -15.0d
-			description: ["As far as you can see, it is a barren tundra of rocky debris. Wait! Is that... a goat of some kind? Skiddo! It's survived by jumping from crumbling rock to crumbling rock!"]
+			description: [
+				"As far as you can see, it is a barren tundra of rocky debris. Wait! Is that... a goat of some kind? Skiddo! It's survived by jumping from crumbling rock to crumbling rock!"
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "12C0C86715880B3C"
 			tasks: [
 				{
@@ -7853,8 +8205,13 @@
 			title: "Ice, Manmade: Basic Pokemon"
 			x: -7.0d
 			y: -15.0d
-			description: ["An assortment of winter wonderland Pokemon can be found in the ice where settlements used to be. Little snowmen and bits of wrapping paper can be found among the debries."]
+			description: [
+				"An assortment of winter wonderland Pokemon can be found in the ice where settlements used to be. Little snowmen and bits of wrapping paper can be found among the debries."
+				""
+				"\"Manmade\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a direct open line of sight to the sky."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "7FD37A6A804043CB"
 			tasks: [
 				{
@@ -7931,8 +8288,13 @@
 			title: "Ice, Underground: Basic Pokemon"
 			x: 3.0d
 			y: -15.0d
-			description: ["An assortment of sturdy Pokemon have survive in underground habitats here. There is the icy Sandshrew, the durable Ferroseed, and the depressing Cubone, which may have survived only thanks to the sacrifice of its elders. Or perhaps Marowak still linger to guard it?"]
+			description: [
+				"An assortment of sturdy Pokemon have survive in underground habitats here. There is the icy Sandshrew, the durable Ferroseed, and the depressing Cubone, which may have survived only thanks to the sacrifice of its elders. Or perhaps Marowak still linger to guard it?"
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "4C4C1980855957CB"
 			tasks: [
 				{
@@ -8114,8 +8476,13 @@
 			title: "Ice, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -15.0d
-			description: ["Here it seems you can find fox pokemon, lingering in the remains of human buildings. The Nickit and Zorua has likely survived on its lonesome through trickery, but the Vulpix appear to all be recent offspring of fiery Ninetales glowing in abandoned hearths."]
+			description: [
+				"Here it seems you can find fox pokemon, lingering in the remains of human buildings. The Nickit and Zorua has likely survived on its lonesome through trickery, but the Vulpix appear to all be recent offspring of fiery Ninetales glowing in abandoned hearths."
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "009AAC33D3460FE8"
 			tasks: [
 				{
@@ -8345,8 +8712,13 @@
 			title: "Ice, Flying: Basic Pokemon"
 			x: -9.5d
 			y: -15.0d
-			description: ["The only Pokemon flying here are all very impressive. You think their young may be found in treetops nearby."]
+			description: [
+				"The only Pokemon flying here are all very impressive. You think their young may be found in treetops nearby."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "68C93CA5A467D6E9"
 			tasks: [
 				{
@@ -8422,8 +8794,13 @@
 			title: "Ice, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -15.0d
-			description: ["These appear to be the young of flying Pokemon in the area."]
+			description: [
+				"These appear to be the young of flying Pokemon in the area."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "1CD5DDAC444AF7B7"
 			tasks: [
 				{
@@ -8480,8 +8857,13 @@
 			title: "Ice, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -15.0d
-			description: ["Strong, durable, icy Pokemon have survived with the help of their shells or exterior coating."]
+			description: [
+				"Strong, durable, icy Pokemon have survived with the help of their shells or exterior coating."
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "16FE3D38A9F04081"
 			tasks: [
 				{
@@ -8574,8 +8956,13 @@
 			title: "Ice, Desert: Basic Pokemon"
 			x: -15.5d
 			y: -15.0d
-			description: ["The desert Sandshrew appear to be the rare oddball offspring of the icy Sandslash nearby. Togedemaru dominates the desert here."]
+			description: [
+				"The desert Sandshrew appear to be the rare oddball offspring of the icy Sandslash nearby. Togedemaru dominates the desert here."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "0B87B6C647B3A058"
 			tasks: [
 				{
@@ -8614,8 +9001,13 @@
 			title: "Ice, Water: Basic Pokemon"
 			x: 10.0d
 			y: -15.0d
-			description: ["The most common water Pokemon is Bergmite."]
+			description: [
+				"The most common water Pokemon on the Ice layer is Bergmite."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "438C3FDD01721767"
 			tasks: [{
 				id: "598DC7362BC1C22B"
@@ -8725,8 +9117,13 @@
 			title: "Ice, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -15.0d
-			description: ["As they say, what you see on top of the water is only the tip of the iceberg. There's more underneath."]
+			description: [
+				"As they say, what you see on top of the water is only the tip of the iceberg. There's more underneath."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["7EEAD69FE49927AB"]
+			hide: true
 			id: "62B283578DF528E1"
 			tasks: [{
 				id: "06F5C28AC467C688"
@@ -8787,8 +9184,13 @@
 			title: "Space, Outside: Basic Pokemon"
 			x: -3.0d
 			y: -18.5d
-			description: ["Here you find a few durable Pokemon that may have fallen from space."]
+			description: [
+				"Here you find a few durable Pokemon that may have fallen from space."
+				""
+				"\"Outside\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. There must be a direct line of sight to the open sky."
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "45E586D0FBA5CFD5"
 			tasks: [
 				{
@@ -8829,6 +9231,7 @@
 			y: -18.5d
 			description: ["You find the ancient ruins of a giant sundial, a Pokemon of light and dark that symbolizes destruction, and light, brassy little bells."]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "4591C6E893504E01"
 			tasks: [
 				{
@@ -8905,8 +9308,13 @@
 			title: "Space, Flying: Basic Pokemon"
 			x: -9.5d
 			y: -18.5d
-			description: ["The only Pokemon flying up here are truly alien or have embraced the stars."]
+			description: [
+				"The only Pokemon flying up here are truly alien or have embraced the stars."
+				""
+				"\"Flying\" Pokemon seem to be able to spawn over almost any block. They appear high in the air, and it is very difficult to notice they've spawned. They cannot spawn over the void. They will become easier to engage with as your island grows in size. You can initiate fights by accurately throwing your Pokemon out with R, or by using a Pokemon with the moves \"Smaok Down\" or \"Gravity\" to use \"Ground Birds\" outside of battle. "
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "6B69C239498A36E4"
 			tasks: [
 				{
@@ -8955,8 +9363,13 @@
 			title: "Space, Treetops: Basic Pokemon"
 			x: -11.5d
 			y: -18.5d
-			description: ["These appear to be the young of some other Pokemon on this layer."]
+			description: [
+				"These appear to be the young of some other Pokemon on this layer."
+				""
+				"\"Treetop\" Pokemon will only spawn on leaves. Of course, player-placed leaves don't despawn, so you can build flat, managable habitats with gathered leaf blocks. It is probably best to give them an ininterupted line of sight to the sky."
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "7C5BF38CA3062A20"
 			tasks: [
 				{
@@ -9068,8 +9481,13 @@
 			title: "Space, Beach: Basic Pokemon"
 			x: -13.5d
 			y: -18.5d
-			description: ["You are unsurprised to see Staryu has somehow survived close to the stars, but what is Wimpod doing here? How did it 'hide' from the end of the world?"]
+			description: [
+				"You are unsurprised to see Staryu has somehow survived close to the stars, but what is Wimpod doing here? How did it 'hide' from the end of the world?"
+				""
+				"\"Beach\" habitats are made of some type of sand, and have a water block nearby. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "2349C3BFE5C65871"
 			tasks: [
 				{
@@ -9108,8 +9526,13 @@
 			title: "Space, Desert: Basic Pokemon"
 			x: -15.5d
 			y: -18.5d
-			description: ["Sigilyph reigns over this lonely desert, where dung beetles roam the dunes."]
+			description: [
+				"Sigilyph reigns over this lonely desert, where dung beetles roam the dunes."
+				""
+				"\"Desert\" habitats are made of some type of sand, and must be far away from any water. Presumably, they should have an uninterrupted view of the sky. Sandstone does not count, but Soul Sand might.  "
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "1C8781A807735F76"
 			tasks: [
 				{
@@ -9148,8 +9571,13 @@
 			title: "Space, Underground: Basic Pokemon"
 			x: 3.0d
 			y: -18.5d
-			description: ["This tiny Pokemon appears to have fallen from the stars!"]
+			description: [
+				"This tiny Pokemon appears to have fallen from the stars!"
+				""
+				"\"Underground\" means the Pokemon spawn on naturally occuring blocks like dirt, grass, gravel, stone, sandstone, and even terracotta. The habitat must have some kind of solid roof or ceiling. You may use wool or half slabs as ceiling materials to prevent spawns on the ceiling if desired."
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "0D5FFE8FA710B015"
 			tasks: [{
 				id: "7B79579F2EDA9AEA"
@@ -9239,8 +9667,13 @@
 			title: "Space, Indoors: Basic Pokemon"
 			x: 6.5d
 			y: -18.5d
-			description: ["Strange little aliens wobble about in between light brassy bells."]
+			description: [
+				"Strange little aliens wobble about in between light brassy bells."
+				""
+				"\"Indoors\" means the Pokemon spawn on manmade structures like planks, stone bricks, chiseled sandstone, and glazed terracotta. The habitat must have a non-transparent block overhead as a roof. Half slabs and wool blocks can be used to discourage spawns on the ceiling if desired."
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "491557CA149D0887"
 			tasks: [
 				{
@@ -9369,8 +9802,13 @@
 			title: "Space, Water: Basic Pokemon"
 			x: 10.0d
 			y: -18.5d
-			description: ["You are unsurprised to find Staryu close to the stars. There are also some strange alien creatures, and perplexingly, Luvdisc."]
+			description: [
+				"You are unsurprised to find Staryu close to the stars. There are also some strange alien creatures, and perplexingly, Luvdisc."
+				""
+				"\"Water\" habitats can be made with any type of water: source or flowing. Some Pokemon have a preference for the water surface or floor, but most will spawn in any water regardless. Water habitats must have an uninterrupted open line of sight to the sky.  "
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "376071EF31B83B39"
 			tasks: [
 				{
@@ -9467,8 +9905,13 @@
 			title: "Space, Underground Water: Basic Pokemon"
 			x: 13.5d
 			y: -18.5d
-			description: ["These two rare sea slugs appear to have a bond with the sun and moon. One will appear during the day, and the other during the night."]
+			description: [
+				"These two rare sea slugs appear to have a bond with the sun and moon. One will appear during the day, and the other during the night."
+				""
+				"\"Under Water\" habitats can be made with any type of water block: source or flowing.  They must have a non-transparent roof or ceiling overhead. This ceiling can be made of half slabs or wool if it's desirable to prevent spawns on it."
+			]
 			dependencies: ["3632E0C47BD3B5DE"]
+			hide: true
 			id: "01283C4C81F73992"
 			tasks: [
 				{

@@ -25,7 +25,10 @@
 			dependencies: ["11A73D9EAEEDF61B"]
 			hide: true
 			size: 3.0d
-			incompatible: ["3418656E436AEEAD"]
+			incompatible: [
+				"3418656E436AEEAD"
+				"357FD61A7AA813A9"
+			]
 			id: "2CD5260731F941D8"
 			tasks: [{
 				id: "100C587F5D941C66"
@@ -306,11 +309,18 @@
 				id: "5A45BC79889E4764"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "5CE143374BA0DFF6"
-				type: "item"
-				item: "pixelmon:dish_curry_pasta"
-			}]
+			rewards: [
+				{
+					id: "5CE143374BA0DFF6"
+					type: "item"
+					item: "pixelmon:dish_curry_pasta"
+				}
+				{
+					id: "06490F9F863926D2"
+					type: "item"
+					item: "pixelmon:black_shard"
+				}
+			]
 		}
 		{
 			title: "Second Invasion"
@@ -325,7 +335,10 @@
 			dependencies: ["3EC2C40138D33F79"]
 			hide: true
 			size: 3.0d
-			incompatible: ["3418656E436AEEAD"]
+			incompatible: [
+				"3418656E436AEEAD"
+				"357FD61A7AA813A9"
+			]
 			id: "65550A21575C805E"
 			tasks: [{
 				id: "5E43E73A6C4797FA"
@@ -474,6 +487,11 @@
 				id: "6559B2AA7DCF6A21"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "7ADC4AC144119140"
+				type: "item"
+				item: "pixelmon:green_shard"
+			}]
 		}
 		{
 			title: "Construct's Armory"
@@ -555,13 +573,18 @@
 			title: "Countdown Till Next Invasion: Spiders"
 			x: 3.0d
 			y: -1.5d
-			description: ["You have a bad feeling that won't be the only wave of invaders..."]
+			description: [
+				"You have a bad feeling that won't be the only wave of invaders..."
+				""
+				"(NOTE: The invasions will stop if you either A) Complete the 'Kill 1 Spider' quest, or B) Progress enough in other quest lines that a new, non-spider invasion begins.)"
+			]
 			dependencies: ["2CD5260731F941D8"]
 			hide: true
 			incompatible: [
 				"65550A21575C805E"
 				"3418656E436AEEAD"
 				"79141F0BCCFD0B34"
+				"357FD61A7AA813A9"
 			]
 			id: "49513B4A84704CE1"
 			tasks: [{
@@ -587,12 +610,25 @@
 		}
 		{
 			title: "One Minute Warning: Spiders"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/spider/spider.png"
+				}
+			}
 			x: 5.0d
 			y: -1.5d
 			description: ["Something is incoming!"]
 			dependencies: ["49513B4A84704CE1"]
 			hide: true
 			repeatable: true
+			incompatible: [
+				"357FD61A7AA813A9"
+				"3418656E436AEEAD"
+				"79141F0BCCFD0B34"
+				"65550A21575C805E"
+			]
 			id: "65744C5BC023C19A"
 			tasks: [{
 				id: "74E7A122E07EE63D"
@@ -630,13 +666,18 @@
 			title: "Countdown Until Next Invasion: Husks"
 			x: 3.0d
 			y: -9.0d
-			description: ["Based on how things were with the spiders, there will be an invasion of Husks every 30 minutes."]
+			description: [
+				"Based on how things were with the spiders, there will be an invasion of Husks every 30 minutes."
+				""
+				"(NOTE: The invasions will stop if you either A) Complete the 'Kill 1 Spider' quest, or B) Progress enough in other quest lines that a new, non-spider invasion begins.)"
+			]
 			dependencies: ["65550A21575C805E"]
 			hide: true
 			incompatible: [
 				"3418656E436AEEAD"
 				"50B056A20ABA85CE"
 				"1B6F5CF88BB9E7CC"
+				"357FD61A7AA813A9"
 			]
 			id: "2D594738DAC1DECF"
 			tasks: [{
@@ -675,7 +716,12 @@
 			dependencies: ["2D594738DAC1DECF"]
 			hide: true
 			repeatable: true
-			incompatible: ["50B056A20ABA85CE"]
+			incompatible: [
+				"50B056A20ABA85CE"
+				"3418656E436AEEAD"
+				"1B6F5CF88BB9E7CC"
+				"357FD61A7AA813A9"
+			]
 			id: "66A33F4B931C2068"
 			tasks: [{
 				id: "138C24216FFA6D99"
@@ -725,6 +771,10 @@
 			]
 			hide: true
 			size: 3.0d
+			incompatible: [
+				"357FD61A7AA813A9"
+				"3418656E436AEEAD"
+			]
 			id: "50B056A20ABA85CE"
 			tasks: [{
 				id: "0229C87E35B17F32"
@@ -868,13 +918,18 @@
 			title: "Countdown Until Next Invasion: Skeletons"
 			x: 3.0d
 			y: -16.5d
-			description: ["It seems like there will be an invasion of Skeletons every 30 minutes."]
+			description: [
+				"It seems like there will be an invasion of Skeletons every 30 minutes."
+				""
+				"(NOTE: The invasions will stop if you either A) Complete the 'Kill 1 Spider' quest, or B) Progress enough in other quest lines that a new, non-spider invasion begins.)"
+			]
 			dependencies: ["50B056A20ABA85CE"]
 			hide: true
 			incompatible: [
 				"01270D270F5C62C2"
 				"3418656E436AEEAD"
 				"143F7F648B55C492"
+				"357FD61A7AA813A9"
 			]
 			id: "3803708B24B90027"
 			tasks: [{
@@ -899,6 +954,12 @@
 			description: ["Something is incoming!"]
 			dependencies: ["3803708B24B90027"]
 			hide: true
+			incompatible: [
+				"01270D270F5C62C2"
+				"3418656E436AEEAD"
+				"143F7F648B55C492"
+				"357FD61A7AA813A9"
+			]
 			id: "7357031D24D34358"
 			tasks: [{
 				id: "48C809E3D9D4AE42"
@@ -949,6 +1010,11 @@
 			tasks: [{
 				id: "190B302D374ACC0A"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4525255AABCFE3D6"
+				type: "item"
+				item: "pixelmon:white_shard"
 			}]
 		}
 		{
@@ -1149,6 +1215,10 @@
 			dependencies: ["50B056A20ABA85CE"]
 			hide: true
 			size: 3.0d
+			incompatible: [
+				"3418656E436AEEAD"
+				"357FD61A7AA813A9"
+			]
 			id: "01270D270F5C62C2"
 			tasks: [{
 				id: "2508AFDEEAC90611"
@@ -1266,14 +1336,34 @@
 					table_id: 9093306389108564916L
 				}
 				{
-					id: "3BF8E62907B952A9"
+					id: "156CA51584FCC3D8"
+					type: "item"
+					item: "pixelmon:boss_music_disc"
+				}
+				{
+					id: "37240F5DC263F681"
 					type: "choice"
 					table_id: 4524191137701651332L
 				}
 				{
-					id: "156CA51584FCC3D8"
-					type: "item"
-					item: "pixelmon:boss_music_disc"
+					id: "6A67DD4314E2767D"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "57C17884084098D0"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "422D1D88D1CE1FB8"
+					type: "choice"
+					table_id: 4524191137701651332L
+				}
+				{
+					id: "5EE71E3F66F9FB3B"
+					type: "choice"
+					table_id: 4524191137701651332L
 				}
 			]
 		}
@@ -1281,12 +1371,17 @@
 			title: "Countdown Until Next Invasion: Creeper"
 			x: 3.0d
 			y: -24.0d
-			description: ["It seems like there will be an invasion of Cave Spiders and a Creeper Captain every 30 minutes."]
+			description: [
+				"It seems like there will be an invasion of Cave Spiders and a Creeper Captain every 30 minutes."
+				""
+				"(NOTE: The invasions will stop if you either A) Complete the 'Kill 1 Spider' quest, or B) Progress enough in other quest lines that a new, non-spider invasion begins.)"
+			]
 			dependencies: ["01270D270F5C62C2"]
 			hide: true
 			incompatible: [
 				"3401F501A8F4A859"
 				"3418656E436AEEAD"
+				"357FD61A7AA813A9"
 			]
 			id: "743E0BC19073395A"
 			tasks: [{
@@ -1311,6 +1406,11 @@
 			description: ["Something is incoming!"]
 			dependencies: ["743E0BC19073395A"]
 			hide: true
+			incompatible: [
+				"3418656E436AEEAD"
+				"3401F501A8F4A859"
+				"357FD61A7AA813A9"
+			]
 			id: "5CFDEFEB187C6AE3"
 			tasks: [{
 				id: "74C707E5539CC88A"
@@ -1366,7 +1466,10 @@
 				"You use pearls by clicking the ground with them in the middle of an acceptably sized arena. Combat persists for five waves, or until the player flees or is killed. Each wave is harder than the last!"
 			]
 			hide_dependency_lines: true
-			dependencies: ["3401F501A8F4A859"]
+			dependencies: [
+				"3401F501A8F4A859"
+				"26B77E6C4944C144"
+			]
 			hide: true
 			size: 2.0d
 			id: "0E26E5EC25105609"
@@ -2257,9 +2360,11 @@
 		{
 			x: -9.5d
 			y: -18.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "6D6D0B54EC65147F"
 			tasks: [{
@@ -2278,9 +2383,11 @@
 		{
 			x: -4.5d
 			y: -18.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "6705EF90CA453ED1"
 			tasks: [{
@@ -2299,9 +2406,11 @@
 		{
 			x: -6.5d
 			y: -18.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "54E26A43B78DC046"
 			tasks: [{
@@ -2320,9 +2429,11 @@
 		{
 			x: -8.5d
 			y: -18.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "436A2FB5842A9C74"
 			tasks: [{
@@ -2341,9 +2452,11 @@
 		{
 			x: -5.5d
 			y: -18.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "64E35E1DB4C625C2"
 			tasks: [{
@@ -2362,9 +2475,11 @@
 		{
 			x: -7.5d
 			y: -18.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "11A9A77BD0340894"
 			tasks: [{
@@ -2383,9 +2498,12 @@
 		{
 			x: -9.0d
 			y: -19.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "310C5477CA12A1A9"
 			tasks: [{
 				id: "3733EC8E91792E75"
@@ -2444,6 +2562,7 @@
 			icon: "pixelmon:griseous_orb"
 			x: -7.0d
 			y: -8.0d
+			shape: "circle"
 			description: [
 				"Make an offering to... ... to Giratina, and summon a Griseous Boss Pokemon. This Pokemon will be slightly weaker than an Ultimate Boss, and is guarenteed to drop the Griseous Orb."
 				""
@@ -2457,6 +2576,7 @@
 			]
 			hide: true
 			dependency_requirement: "one_completed"
+			optional: true
 			repeatable: true
 			id: "76C33B11BE8F789E"
 			tasks: [
@@ -2528,12 +2648,14 @@
 			icon: "pixelmon:adamant_orb"
 			x: -7.0d
 			y: -9.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AB3F1D2F7F6E83D"
 				"2DF90FCB71029B41"
 			]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "58A43A6E7C47118F"
 			tasks: [
@@ -2606,6 +2728,7 @@
 			icon: "pixelmon:lustrous_orb"
 			x: -7.0d
 			y: -10.0d
+			shape: "circle"
 			description: [
 				"Make an offering to Arceus, and summon a Lustrous Boss Pokemon. This Pokemon will be slightly weaker than an Ultimate Boss, and is guarenteed to drop the Lustrous Orb."
 				""
@@ -2620,6 +2743,7 @@
 				"7FD98E8A79BA348B"
 			]
 			hide: true
+			optional: true
 			repeatable: true
 			id: "04E48CB0FEA717BF"
 			tasks: [
@@ -2682,9 +2806,12 @@
 		{
 			x: -8.0d
 			y: -19.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "3FBB9D6114EAE7D2"
 			tasks: [
 				{
@@ -2718,9 +2845,12 @@
 		{
 			x: -7.0d
 			y: -19.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "001CFF9D1415ED7A"
 			tasks: [{
 				id: "28B0C03C02CB8307"
@@ -2738,9 +2868,12 @@
 		{
 			x: -6.0d
 			y: -19.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "4816B14E5D867A73"
 			tasks: [{
 				id: "1338DCD8A07B75F4"
@@ -2758,9 +2891,12 @@
 		{
 			x: -5.0d
 			y: -19.5d
+			shape: "circle"
 			description: ["Are you struggling to take down higher tier gateways? Make an offering."]
 			dependencies: ["0E26E5EC25105609"]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "03548BF1CCE91E7D"
 			tasks: [{
 				id: "0B2D8A76A249BE55"
@@ -2779,12 +2915,15 @@
 			title: "Spawn Common Boss"
 			x: -10.5d
 			y: -14.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"52BEB888192EAEC6"
 				"009394F19D70F361"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "2F4F3636DA26088C"
 			tasks: [{
 				id: "618D2257A1087718"
@@ -2838,12 +2977,15 @@
 			title: "Summon Uncommon Boss"
 			x: -10.5d
 			y: -13.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"52BEB888192EAEC6"
 				"009394F19D70F361"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "7CF360BDC94BC569"
 			tasks: [{
 				id: "580B2F120B147D4B"
@@ -2862,12 +3004,15 @@
 			title: "Summon Epic Boss"
 			x: -4.0d
 			y: -14.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AB3F1D2F7F6E83D"
 				"2DF90FCB71029B41"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "263D8C31C311044A"
 			tasks: [{
 				id: "2331890334BE39D5"
@@ -2921,12 +3066,15 @@
 			title: "Summon Legendary Boss"
 			x: -4.0d
 			y: -13.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AB3F1D2F7F6E83D"
 				"2DF90FCB71029B41"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "06FD4F5EAC14104E"
 			tasks: [{
 				id: "1C3A51242B7F3367"
@@ -2945,12 +3093,15 @@
 			title: "Summon Rare Boss"
 			x: -10.5d
 			y: -12.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"52BEB888192EAEC6"
 				"009394F19D70F361"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "0974132CFA76F6A4"
 			tasks: [{
 				id: "799B726097E641A9"
@@ -2969,12 +3120,15 @@
 			title: "Summon Ultimate Boss"
 			x: -4.0d
 			y: -12.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AB3F1D2F7F6E83D"
 				"2DF90FCB71029B41"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "54BB53184421675D"
 			tasks: [{
 				id: "1BF87DF5933C7F91"
@@ -2993,12 +3147,15 @@
 			title: "Summon Haunted Boss"
 			x: -10.5d
 			y: -11.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"52BEB888192EAEC6"
 				"009394F19D70F361"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "552813A85E0DA63B"
 			tasks: [{
 				id: "1CAA169C97D41281"
@@ -3016,12 +3173,15 @@
 		{
 			x: -4.0d
 			y: -11.0d
+			shape: "circle"
 			hide_dependency_lines: true
 			dependencies: [
 				"4AB3F1D2F7F6E83D"
 				"2DF90FCB71029B41"
 			]
 			hide: true
+			optional: true
+			repeatable: true
 			id: "10CBE45F6B7B78FE"
 			tasks: [{
 				id: "795E4743879F74B5"
@@ -3034,6 +3194,67 @@
 				type: "command"
 				title: "Summon Haunted Boss"
 				command: "/execute at @p run pokespawn random boss:haunted"
+				player_command: false
+			}]
+		}
+		{
+			title: "Invasion Shut Off Valve"
+			x: 1.5d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Cool pack sis, but I do NOT dig being assaulted by zombies in my own home."
+			description: [
+				"(&cWARNING&r: This Quest &cDisables a Game Mechanic&r. Do Not Complete Unless You Want That!)"
+				""
+				"Do you absolutely hate the invasion mechanic? Is it ruining your Pokemon adventure?"
+				""
+				"First of all, know that you can stop each invasion by defeating it and doing the relevant quest. These quests start off easy and get harder as the invasions increase. There are 4 total invasions."
+				""
+				"If you really can't stand the mechanic at all, then this quest will allow you to turn off the Invasions. You won't gain access to any of their rewards, and you will miss on some of the world building, but your void world will no longer be invaded by mobs."
+				""
+				"Play the way you want to play!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["223712476666DABC"]
+			size: 0.5d
+			optional: true
+			id: "357FD61A7AA813A9"
+			tasks: [{
+				id: "6F7AF462F1BDC1CC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4E06F1E68D2944B1"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 7CAB333F14694ED5"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"If you were just mindlessly clicking check boxes without reading you could easily have disabled the invasion mechanic without meaning to. This quest will start up the invasions again. "
+				""
+				"Keep in mind that if it's been awhile since you disabled them, you might have missed some, defeating the Creeper Captain for Toxic is arguably the most important one; and that one can't be missed."
+				""
+				"(&cWARNING&r: By the time you click this button, any timers have probably already run down their count which... will mean you might immediately get jumped by monsters.)"
+			]
+			dependencies: ["357FD61A7AA813A9"]
+			optional: true
+			id: "7CAB333F14694ED5"
+			tasks: [{
+				id: "059F86072686B3F0"
+				type: "checkmark"
+				title: "Wait I Didn't Mean To-"
+			}]
+			rewards: [{
+				id: "6E5FEB4D6214644C"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @p reset 357FD61A7AA813A9"
 				player_command: false
 			}]
 		}

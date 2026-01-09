@@ -16,7 +16,7 @@
 			y: 0.0d
 			subtitle: "Everything has been destroyed."
 			description: [
-				"&5DO NOT CLAIM QUESTS AWAY FROM YOUR HOME ISLAND. QUESTS CANNOT AFFECT YOUR ISLAND IF YOUR ISLAND IS NOT CHUNK-LOADED."
+				"&aDO NOT CLAIM QUESTS AWAY FROM YOUR HOME ISLAND. QUESTS CANNOT AFFECT YOUR ISLAND IF YOUR ISLAND IS NOT CHUNK-LOADED.&r"
 				""
 				"The last thing you remember, the earth was shaking. You and your parents had been watching a broadcast about a maniac who wanted to \"make the world &4beautiful&r.\""
 				""
@@ -25,6 +25,8 @@
 				"Remembering the stories and tricks of your relatives from &bThe Skyblock Worlds&r you look frantically around for water, lava, a tree, anything..."
 				""
 				"But there is nothing. Nothing but ash and &5ghosts&r."
+				""
+				"&cNOTE: This pack is in beta. If you encounter problems, make sure you play with cheats enabled!&r"
 			]
 			size: 2.0d
 			id: "5F8B7F9A4B55D6A4"
@@ -72,7 +74,7 @@
 				icon: "pixelmon:timespace_altar"
 				auto: "enabled"
 				command: "/execute as @p at @p run function ghosts:pray_at_altar"
-				player_command: true
+				player_command: false
 			}]
 		}
 		{
@@ -150,15 +152,17 @@
 			y: 3.5d
 			subtitle: "Maybe you aren't alone."
 			description: [
-				"You &5aren't&r alone anymore. If all that's left is &5ghosts&r, well, then it'll be you and the ghosts, together, from here on out!"
+				"You aren't alone anymore. If all that's left is &5ghosts&r, well, then it'll be you and the ghosts, together, from here on out!"
 				""
-				"You feel &6inspired&r! You are ready to find a way to survive! The trick is to start making &bsomething&r from &5nothing&r."
+				"You feel inspired! You are ready to find a way to survive! The trick is to start making &bsomething&r from &5nothing&r."
 				""
-				"Hmm. You have a plan. It's called &aForage&r and it's an external move any pokemon can use. Send them out with 'R', press 'G' to forage, and be mindful of the cooldown. (If these Keys don't work, check your keybinds under options on the minecraft game menu! You may have something else on G and R)"
+				"Hmm. You have a plan. It's called &aForage&r and it's an external move any pokemon can use. Send them out with 'R', press 'G' to forage, and be mindful of the cooldown. (If these Keys don't work, check your keybinds under options on the minecraft game menu! You may have something else on G and R). "
 				""
 				"All blocks can be foraged from. Some have slightly different drops than others. To prevent drops from &cfalling into the void&r forage from something a little higher up."
 				""
 				"(WARNING: Any ground that's only 1 block thick is dangerous to forage from. Foraged items will tend to drop straight down--and into the void.)"
+				""
+				"(NOTE: The interface for foraging is in the upper right hand corner. If you want to see it clearly, you might want to turn off the Minimap for a bit.)"
 			]
 			dependencies: ["3F42095ED0007728"]
 			hide: true
@@ -191,11 +195,11 @@
 			y: 4.5d
 			subtitle: "Time to grind"
 			description: [
-				"You have relatives from the &bSkyblocks&r and you know that &awood&r is a vital first ingredient. You think you can forage up a woody plant, whether it be a &aberry tree&r, &aappricorn&r, or &asapling&r. Any of them can be planted for wood, but planting &cApricons might make the best&r starting tree."
+				"You have relatives from the &bSkyblocks&r and you know that &awood&r is a vital first ingredient. You think you can forage up a woody plant, whether it be a &aberry tree&r, &aapricorn&r, or &asapling&r. Any of them can be planted for wood, but planting &cApricons might make the best&r starting tree."
 				""
 				"While you wait, you will need to keep Drifloon healthy so it can continue to Forage. As tempting as it is to have your first Pokemon Battle, the only thing worse than the &along Forage cooldown&r would be no Forage at all!"
 				""
-				"&5Drifloon is only level 2. Like any Youngster's Rattata, it is very fragile. Avoid combat until you have collected more healing items."
+				"&cDrifloon is only level 2. Like any Youngster's Rattata, it is very fragile. Avoid combat until you have collected more healing items."
 				""
 				"(WARNING: Although apricorns and berries can be placed on soul soil, this is strictly ornamental. They will not grow in such inhospitable conditions)"
 			]
@@ -279,6 +283,7 @@
 			dependencies: ["391C3D6A40B4349B"]
 			hide: true
 			hide_text_until_complete: true
+			optional: true
 			id: "50CA105AAB978921"
 			tasks: [{
 				id: "70868CEEB1D5E8B8"
@@ -322,6 +327,7 @@
 			dependencies: ["391C3D6A40B4349B"]
 			hide: true
 			hide_text_until_complete: true
+			optional: true
 			id: "2533ABFFBF895CC8"
 			tasks: [{
 				id: "36F01F1D5E2A2E1B"
@@ -591,7 +597,11 @@
 			x: 0.0d
 			y: 5.5d
 			subtitle: "Dabbing won't help"
-			description: ["Now that you have a woody plant sapling or seed, you need to grow it. Fortunately, forage has been giving you a lot of bones for bonemeal."]
+			description: [
+				"Now that you have an apricorn, berry, or sapling, you need to grow it. Fortunately, forage has been giving you a lot of bones for bonemeal."
+				""
+				"You should continue foraging to see what other goodies you can dig up. Or maybe some of these extra apricorns can be crafted into something.."
+			]
 			dependencies: ["27A55C15A80B857A"]
 			hide: true
 			incompatible: ["7581474A9B9C18F7"]
@@ -1304,9 +1314,12 @@
 				""
 				"On the other hand, you could try to catch another species of Pokemon, and still get x2 the catch rate as long as they're of the opposite gender. This might diversify your team, or give you access to a move like &9Rain Dance&r. "
 				""
-				"Plan out your ball usage carefully, so you do not waste it! Remember that Pokemon always have a chance to break out of one, and to weaken them in battle, and apply any status effects you can, first!"
+				"Plan out your ball usage carefully, so you do not waste it! Remember that Pokemon always have a chance to break out of one, and to weaken them in battle, and apply any status effects you can, first! "
+				""
+				"If you fail to catch a second Pokemon, don't panic! There should still be a way around any roadblocks."
 			]
 			hide_dependency_lines: true
+			optional: true
 			secret: true
 			id: "2C9C36AE9630F192"
 			tasks: [{
@@ -1750,6 +1763,7 @@
 			dependencies: ["391C3D6A40B4349B"]
 			hide: true
 			hide_text_until_complete: true
+			optional: true
 			id: "61D6EDCFA99AB6CC"
 			tasks: [{
 				id: "7EFCB04FDB135EB1"
@@ -1963,13 +1977,10 @@
 		{
 			x: 3.0d
 			y: 7.5d
-			shape: "circle"
 			description: ["These appear to be dropped by Pineco. You think you can either build with these (they should be a valid tree habitat, right?) or break them in search of a spruce sapling."]
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
 			hide: true
-			optional: true
-			secret: true
 			id: "1DF5C038AB870912"
 			tasks: [{
 				id: "21DC49EF0C31D495"
@@ -1985,7 +1996,6 @@
 		{
 			x: 5.0d
 			y: 8.5d
-			shape: "circle"
 			subtitle: "Myrtle ebony is a beautiful wood"
 			description: [
 				"Ebony saplings can be obtained from breaking ebony leaves. However, you will need to obtain four, as ebony trees will only grow in a 2x2 pattern."
@@ -1996,7 +2006,6 @@
 			]
 			dependencies: ["1C490FC0CAEFBA62"]
 			hide: true
-			optional: true
 			id: "4FA6792040A4D34B"
 			tasks: [{
 				id: "0187BE42DD12F22C"
@@ -2022,10 +2031,9 @@
 		{
 			x: 3.0d
 			y: 8.5d
-			shape: "circle"
 			description: ["Spurce trees attract Pineco. There is also a small chance Pineco may be holding Pine leaves, which can be stolen with a move like Thief."]
 			dependencies: ["1DF5C038AB870912"]
-			optional: true
+			hide: true
 			id: "65F7C33E059934E4"
 			tasks: [{
 				id: "1458445A8B6D18A8"
@@ -2048,7 +2056,6 @@
 		{
 			x: 5.0d
 			y: 7.5d
-			shape: "circle"
 			description: [
 				"These appear to be dropped by Phantump."
 				""
@@ -2057,8 +2064,6 @@
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
 			hide: true
-			optional: true
-			secret: true
 			id: "1C490FC0CAEFBA62"
 			tasks: [{
 				id: "5506BFB34AAD1145"
@@ -2072,16 +2077,12 @@
 			}]
 		}
 		{
-			disable_toast: true
 			x: 4.0d
 			y: 7.5d
-			shape: "circle"
 			description: ["These appear to be dropped by Phantump. You think you can either build with these (they should be a valid tree habitat, right?) or break them in search of a dark oak sapling."]
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
 			hide: true
-			optional: true
-			secret: true
 			id: "414F14B64F6C8708"
 			tasks: [{
 				id: "2F4375C77D6BD920"
@@ -2097,11 +2098,10 @@
 		{
 			x: 4.0d
 			y: 8.5d
-			shape: "circle"
 			subtitle: "Dark and Mysterious"
 			description: ["Dark Oak saplings can be obtained from breaking ebony leaves. However, you will need to obtain four, as dark oak trees will only grow in a 2x2 pattern."]
 			dependencies: ["414F14B64F6C8708"]
-			optional: true
+			hide: true
 			id: "6DE28276E87E704A"
 			tasks: [{
 				id: "14D3305E08B40E32"
@@ -2126,13 +2126,10 @@
 		{
 			x: 3.0d
 			y: 10.0d
-			shape: "circle"
 			description: ["Lament leaves are an uncommon drop from Cherbui and Cherrim. You can use them as building materials or compost, or break them to try and obtain a sapling."]
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
 			hide: true
-			optional: true
-			secret: true
 			id: "47D7DC198A2F4C04"
 			tasks: [{
 				id: "6C2264AA734279FE"
@@ -2148,7 +2145,7 @@
 		{
 			x: 3.0d
 			y: 11.0d
-			shape: "circle"
+			shape: "rsquare"
 			subtitle: "Grief For a Broken World"
 			description: [
 				"The lament tree has beautiful rich violet wood, that is much bluer than Umbran wood."
@@ -2156,7 +2153,7 @@
 				"(WARNING: Lament trees notoriously grow roots, and those roots will destroy blocks. Be careful to plan for this when planting your sapling, so that nothing important is destroyed. Typically, the dirt the sapling is planted on will be fine.)"
 			]
 			dependencies: ["47D7DC198A2F4C04"]
-			optional: true
+			hide: true
 			id: "1D91E082FE4D900F"
 			tasks: [{
 				id: "0AF68E2F7ACCB721"
@@ -2179,13 +2176,11 @@
 		{
 			x: 4.0d
 			y: 10.0d
-			shape: "circle"
+			shape: "rsquare"
 			description: ["Nightshade leaves are a rare drop from Pumpkaboo. You can use them as building materials or break them to try and obtain a sapling."]
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
 			hide: true
-			optional: true
-			secret: true
 			id: "4528921453CEC87E"
 			tasks: [{
 				id: "42AF89805A9C17E6"
@@ -2201,7 +2196,7 @@
 		{
 			x: 4.0d
 			y: 11.0d
-			shape: "circle"
+			shape: "rsquare"
 			subtitle: "This is Halloween, Everybody Make a Scene...!"
 			description: [
 				"Nightshade grow in absolutely bizarre shapes. "
@@ -2211,7 +2206,7 @@
 				"They also produce a rich orange wood, good for Halloween builds."
 			]
 			dependencies: ["4528921453CEC87E"]
-			optional: true
+			hide: true
 			id: "70E9F24C3CA135B9"
 			tasks: [{
 				id: "580285EB066CCB90"
@@ -2234,7 +2229,7 @@
 		{
 			x: 5.0d
 			y: 10.0d
-			shape: "circle"
+			shape: "rsquare"
 			description: [
 				"Leaves from two species of Pink Cherry are a common drop from Cherbui and Cherrim. You can use them as building materials or compost, or break them to try and obtain a sapling."
 				""
@@ -2243,8 +2238,6 @@
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
 			hide: true
-			optional: true
-			secret: true
 			id: "307C0255D70B8BE6"
 			tasks: [
 				{
@@ -2274,11 +2267,11 @@
 		{
 			x: 5.0d
 			y: 11.0d
-			shape: "circle"
+			shape: "rsquare"
 			subtitle: "Sakura everywhere!"
 			description: ["The two species of cherry tree have different growth patterns and slightly different colored wood. The Biomes You'll Go Cherry tree has an incredibly rich red that looks good in Gothic, red and black structures. The Biomes O' Plenty Cherry tree has a slightly softer and more natural wood color, that looks more natural alongside pastels."]
 			dependencies: ["307C0255D70B8BE6"]
-			optional: true
+			hide: true
 			id: "39BC2DB9965D4CD9"
 			tasks: [
 				{
@@ -2309,9 +2302,11 @@
 		{
 			x: -2.0d
 			y: 7.5d
+			shape: "circle"
 			subtitle: "You've got a low-tech way to make these!"
-			description: ["In the olden times, incenses had to be made with iron. But you now have a special recipe for incense that uses a skull, a wither rose, and a ghast tear!"]
+			description: ["In the olden times, incenses had to be made with iron. But you now have a special recipe for an incense burner that uses a skull, a wither rose, and a ghast tear!"]
 			dependencies: ["5D686823475CC38F"]
+			optional: true
 			id: "709305853FB713C5"
 			tasks: [{
 				id: "5F15C805851DD231"
@@ -2327,12 +2322,11 @@
 		{
 			x: 6.0d
 			y: 10.0d
-			shape: "circle"
+			shape: "rsquare"
 			description: ["Pine leaves can be stolen from Pineco, and are very few in number. Still, you may be able to get something out of them."]
 			hide_dependency_lines: true
 			dependencies: ["509830B8EDE46BCD"]
-			optional: true
-			secret: true
+			hide: true
 			id: "44A28EF9FEBC125C"
 			tasks: [{
 				id: "2A379EC49381D1AD"
@@ -2348,10 +2342,10 @@
 		{
 			x: 6.0d
 			y: 11.0d
-			shape: "circle"
+			shape: "rsquare"
 			description: ["Pine makes a pale, dull wood that looks good in subdued builds."]
 			dependencies: ["44A28EF9FEBC125C"]
-			optional: true
+			hide: true
 			id: "4E4262B73694C24F"
 			tasks: [{
 				id: "62656C55DA180E01"
@@ -2381,7 +2375,7 @@
 				}
 			}
 			x: 3.0d
-			y: 13.0d
+			y: 12.5d
 			description: ["You seem to be an expert in obtaining leaves for saplings"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2393,7 +2387,6 @@
 				"414F14B64F6C8708"
 				"1C490FC0CAEFBA62"
 			]
-			hide: true
 			id: "710AD842A6E406D3"
 			tasks: [{
 				id: "3D78728B6CB4E109"

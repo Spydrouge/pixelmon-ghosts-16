@@ -117,7 +117,9 @@
 				""
 				"If your rain tank has not filled yet, you can either wait around for it to rain, or you can take matters into your own hands: Get access to a Pokemon that can learn &9Rain Dance&r, and use 'Rain Dance' outside of battle, the same way you use 'Forage.'"
 				""
-				"Drifloon can learn Rain Dance, but it might be a waste of a move slot on your primary battling Pokemon. If you've found a Pokeball, you might be able to catch a Castform, which can learn both Rain Dance and Sunny Day."
+				"Drifloon can learn Rain Dance, but it might be a waste of a move slot on your primary battling Pokemon. If you've found a Pokeball, you might be able to catch a Castform, which can learn both Rain Dance and Sunny Day naturally. Or you can catch a second Drifloon which can learn it by TM."
+				""
+				"Is there a third way? Sure! If you got a Watmel berry from the bucket quest in Starting a Smithy, you can grow the berry, collect three, make an incense, and submit that incense for an Azurill egg. Level up the friendship of Azurill with Kelpsy berries, and evolve it into Marill, which will naturally learn Rain dance as it levels up."
 			]
 			dependencies: ["4CCDFB9994946597"]
 			id: "02D3224F5FF97681"
@@ -249,7 +251,6 @@
 				"30EB23683E1A1D4C"
 				"5AE3A8615EDE4B47"
 			]
-			hide: true
 			id: "4037E692772EC7FE"
 			tasks: [
 				{
@@ -575,16 +576,28 @@
 			x: 4.0d
 			y: 0.5d
 			subtitle: "Underground Wheat"
-			description: ["If you find enough Grubbin or Nincada, both burrowing insects, you know you will eventually find one holding a wild potato. But an easier treck might be up to a cold and icy altitude where the sturdy Ferroseed is likely to have survived. They are the very definition of an armored potato. "]
+			description: [
+				"If you find enough Grubbin or Nincada, both burrowing insects, you know you will eventually find one holding a wild potato. But an easier treck might be up to a cold and icy altitude where the sturdy Ferroseed is likely to have survived. They are the very definition of an armored potato. "
+				""
+				"(You only need the 16 potatoes OR the wild potato. Not both.)"
+			]
 			dependencies: ["2D3AE7D61C1C477F"]
 			hide: true
+			min_required_tasks: 1
 			id: "63335CEF4021A430"
-			tasks: [{
-				id: "01BBB0EF7F9DEF28"
-				type: "item"
-				item: "minecraft:potato"
-				count: 16L
-			}]
+			tasks: [
+				{
+					id: "01BBB0EF7F9DEF28"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16L
+				}
+				{
+					id: "4923DB8B2E8018A9"
+					type: "item"
+					item: "farmersdelight:wild_potatoes"
+				}
+			]
 			rewards: [
 				{
 					id: "7C6A2FE7E8AFF77D"
@@ -864,7 +877,7 @@
 			description: [
 				"Pecha Berries can be used to cure the Poison status on a Pokemon. Pokemon can also hold them to recover from poison automatically without wasting a turn to use an item."
 				""
-				"Pecha are commonly carried by Venonat, which spawns somewhere on the soil layer around you."
+				"Pecha are commonly carried by Venonat, which spawns somewhere on the murk layer."
 			]
 			dependencies: ["2D3AE7D61C1C477F"]
 			hide: true
@@ -898,7 +911,6 @@
 			y: -2.5d
 			description: ["The Chesto can be stolen from Mimikyu, which prowls habitats on the Murk layer."]
 			dependencies: ["516B913EB8DF470E"]
-			hide: true
 			id: "25AA921A80A10032"
 			tasks: [{
 				id: "61D8B134E055A973"
@@ -929,7 +941,6 @@
 			y: -2.5d
 			description: ["The Rawst Berry can be found in the possession of Alolan Vulpixes, which you expect to be attracted to some type of habitat on the Ice layer."]
 			dependencies: ["516B913EB8DF470E"]
-			hide: true
 			id: "62D63BEF9A0A406D"
 			tasks: [{
 				id: "68413DDBCDC77EFD"
@@ -966,7 +977,6 @@
 				"You think if you start messing around planting normal Spruce trees on the Ice layer, they might attract Drampa. Just make sure you're looking in an underground cave habitat nearby. "
 			]
 			dependencies: ["516B913EB8DF470E"]
-			hide: true
 			id: "5909A3FCAD9DC6B8"
 			tasks: [{
 				id: "0C0038AF423904A9"
@@ -1218,6 +1228,17 @@
 					type: "item"
 					item: "pixelmon:s_exp_candy"
 				}
+				{
+					id: "29352DF675B23EB4"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 83
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1381,7 +1402,6 @@
 				"07738E3566B31309"
 				"7B9D7ABCC4AC4243"
 			]
-			hide: true
 			id: "384484786387AEB7"
 			tasks: [{
 				id: "2E9D7408F4329A77"
@@ -1410,12 +1430,11 @@
 		{
 			x: -11.0d
 			y: -2.5d
-			description: ["\"Rabbit\" is not altogether uncommon as a source of protein. Elusive Fox Pokemon like Eevee and Nikit may have survived, and will often drop a peice. Maril, which spawns on beaches in the Dazzle layer, can be eaten directly."]
+			description: ["\"Rabbit\" is not altogether uncommon as a source of protein. Elusive Fox Pokemon like Eevee and Nikit may have survived, and will often drop a peice. Marill, which spawns on beaches in the Dazzle layer, can be eaten directly."]
 			dependencies: [
 				"68656D2ECD70A4C9"
 				"7B9D7ABCC4AC4243"
 			]
-			hide: true
 			id: "2DC584B87FD79330"
 			tasks: [{
 				id: "215E348817A8F8FD"
@@ -1457,13 +1476,12 @@
 			description: [
 				"Not all Pokemon taste equally good. Some produce meat that's just like chicken. Some... not so much. Mukrow is gamey and will only rarely drop viable 'chicken.' The best 'chicken' will come in the form of pidgeon pie. It'll come from Pidove, up in the Air Layer."
 				""
-				"How did Pidove survive the cataclysm? Well, they survived a great flood... why not this, too?"
+				"How did Pidove survive the cataclysm? Well, they allegedly survived a great flood... why not this, too?"
 			]
 			dependencies: [
 				"0BD06157B3F599CB"
 				"7B9D7ABCC4AC4243"
 			]
-			hide: true
 			id: "3C032892477EC615"
 			tasks: [{
 				id: "6018DE69C4AEE98D"
@@ -1743,7 +1761,6 @@
 				"In addition to spreading, bonemealing the nylium will spawn grass to shear and, if you're lucky and do it often enough, an elusive and very special type of mushroom will spawn. Stock up on bonemeal! Find that mushroom!"
 			]
 			dependencies: ["1609DE2F423052F2"]
-			hide: true
 			hide_text_until_complete: true
 			id: "09EA3E3879D92F55"
 			tasks: [{
@@ -1875,7 +1892,6 @@
 				"There's enough rubble floating around this abyss, they'll find someplace reasonable to reside until you're ready for them."
 			]
 			dependencies: ["7E197FCD844FF182"]
-			hide: true
 			id: "3C1A4FC9A80E076B"
 			tasks: [{
 				id: "020A12A83C3AF8F1"
@@ -1910,6 +1926,7 @@
 		{
 			x: -4.5d
 			y: -12.5d
+			shape: "circle"
 			subtitle: "Boing! Boing! Boing!"
 			description: [
 				"Every time you bump into congealed blocks, it sends you flying in the opposite direction! Very nice for jumping on, and the ichor one also gives off a small amount of light."
@@ -1917,8 +1934,8 @@
 				"The blood block is similar to a slime block, but is only bouncy, not sticky."
 			]
 			dependencies: ["7E197FCD844FF182"]
-			hide: true
 			dependency_requirement: "one_completed"
+			optional: true
 			id: "1B33709ACD196577"
 			tasks: [
 				{
@@ -1959,6 +1976,7 @@
 			title: "Slimewood tools"
 			x: -4.5d
 			y: -10.5d
+			shape: "circle"
 			subtitle: "Yummy?"
 			description: [
 				"Slimewood tool rods or extras grant objects a second durability bar, which is consumed before the main durability is.  This durability bar is called the tool's \"Overslime.\""
@@ -1970,36 +1988,36 @@
 				"Typically, the best part of a tool to make of Slimewood is the binding. This is because the tool rod decreases tool speed at the cost of durability."
 			]
 			dependencies: ["7E197FCD844FF182"]
-			hide: true
 			dependency_requirement: "one_completed"
+			optional: true
+			min_required_tasks: 1
 			id: "2C25AE5D7E72F34A"
-			tasks: [{
-				id: "1DCA98263A08E06C"
-				type: "item"
-				title: "Slimewood tool rod or extra"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "tconstruct:tool_handle"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "tconstruct:tool_binding"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-						]
+			tasks: [
+				{
+					id: "434CF207842502AD"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
 					}
+					match_nbt: true
 				}
-			}]
+				{
+					id: "40B8C44956344EAD"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
+					}
+					match_nbt: true
+				}
+			]
 			rewards: [
 				{
 					id: "10CCC75F13D5C727"
@@ -2024,7 +2042,6 @@
 			subtitle: "Must be Crafted"
 			description: ["You need egg, glowstone, blood slime, and the slimy grass you previously collected in order to make this kind of cake. But oh what a cake it is! Packed with protein and able to heal you up!"]
 			dependencies: ["5F4F72FBCEB01161"]
-			hide: true
 			id: "330426CA27EEECFA"
 			tasks: [{
 				id: "6927E64C2C54A061"
@@ -2102,7 +2119,6 @@
 				"7EEAD69FE49927AB"
 				"7B9D7ABCC4AC4243"
 			]
-			hide: true
 			id: "093FDF760049900A"
 			tasks: [{
 				id: "78EC3C2FBD6D1F07"
@@ -2133,7 +2149,6 @@
 			y: -2.5d
 			description: ["The Cheri berry drops from Cherubi, which is found on Treetops in the Soil layer."]
 			dependencies: ["516B913EB8DF470E"]
-			hide: true
 			id: "020F0E8E6FEF8F50"
 			tasks: [{
 				id: "73881C8E989EA2C3"
@@ -2292,7 +2307,6 @@
 				"The warped roots you need to craft this soil can most probably be harvested from Lileep on the Deep Dark Layer."
 			]
 			dependencies: ["7E633685856802A3"]
-			hide: true
 			id: "0940C009E9B6F828"
 			tasks: [
 				{
@@ -2513,7 +2527,6 @@
 				"Sugar and eggs drop from a large number of Pokemon, but you can get both from Spritzee and Swirlix on the Dazzle layer if you haven't found an alternative source."
 			]
 			dependencies: ["0AFC5CFCC609E0F4"]
-			hide: true
 			id: "1090DB05C86E19B5"
 			tasks: [{
 				id: "2692D806CD79E789"
@@ -2652,7 +2665,6 @@
 				"772CDFA5C215FF82"
 				"6C44EC48FE059DA0"
 			]
-			hide: true
 			id: "720F713ED2463204"
 			tasks: [{
 				id: "6E7E9736C9F12368"
@@ -2726,6 +2738,7 @@
 			title: "Slimewood Armor"
 			x: 2.5d
 			y: -10.5d
+			subtitle: "(You only need one of these items)"
 			description: [
 				"Slime wood armor can be created using the materials harvested from giant Bloodshrooms or Greenheart slimy saplings. While they grant less armor than necrotic bone or blood bone, Plated Slimewood has equal toughness and much higher durability and knockback resistance."
 				""
@@ -2739,69 +2752,65 @@
 				"5F2C866ED23D2A45"
 				"772CDFA5C215FF82"
 			]
-			hide: true
+			min_required_tasks: 1
 			id: "7A82734BD0579ED0"
-			tasks: [{
-				id: "14009BDE99DDC339"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "constructsarmory:head_plate"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "constructsarmory:body_plate"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "constructsarmory:legs_plate"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "constructsarmory:feet_plate"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "constructsarmory:mail"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "tconstruct:tool_binding"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-							{
-								id: "tconstruct:tool_handle"
-								Count: 1b
-								tag: {
-									Material: "tconstruct:slimewood"
-								}
-							}
-						]
+			tasks: [
+				{
+					id: "6C6BDE307DBAFA78"
+					type: "item"
+					item: {
+						id: "constructsarmory:body_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
 					}
 				}
-			}]
+				{
+					id: "7249F4F6957387E6"
+					type: "item"
+					item: {
+						id: "constructsarmory:legs_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
+					}
+				}
+				{
+					id: "5977DF885CDAF0D7"
+					type: "item"
+					item: {
+						id: "constructsarmory:feet_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
+					}
+				}
+				{
+					id: "4EF23F97CE100F9A"
+					type: "item"
+					item: {
+						id: "constructsarmory:head_plate"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
+					}
+				}
+				{
+					id: "518FD5B61A8E4E55"
+					type: "item"
+					item: {
+						id: "constructsarmory:mail"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "7C18204E17040369"
@@ -2826,7 +2835,6 @@
 			y: -12.5d
 			description: ["There are two different types of blocks made from slime. One, the traditional slime block, is best used with pistons and redstone machinery. The second, the congealed slime block, is bouncier, and you can easily scale two meter high surfaces with it."]
 			dependencies: ["772CDFA5C215FF82"]
-			hide: true
 			id: "7B37CC7081EF2253"
 			tasks: [
 				{
@@ -2990,7 +2998,6 @@
 				"However, it's also much less powerful."
 			]
 			dependencies: ["357163CAC553523E"]
-			hide: true
 			id: "4265E3B649CD0E54"
 			tasks: [{
 				id: "4A423A9CE1200D31"
@@ -3026,7 +3033,6 @@
 				"However, given that silmesteel has properties similar to regular steel, you might decide that getting two slimesteel ingots per iron ingot is a good way to 'stretch out' your iron."
 			]
 			dependencies: ["357163CAC553523E"]
-			hide: true
 			id: "3C967DE130D49A81"
 			tasks: [{
 				id: "09FB5A7EFC7D8C2C"
@@ -3053,7 +3059,6 @@
 			y: -17.0d
 			description: ["Like previous slimes, congealed slimes are incredibly bouncy. The Skyslime block sticks to both slime and honey, making it useful in redstone contraptions."]
 			dependencies: ["357163CAC553523E"]
-			hide: true
 			id: "5D4C997CD1931EAA"
 			tasks: [
 				{
@@ -3093,6 +3098,7 @@
 				"You can still create the pot and set it aside to remind yourself: A Flint and Steel might seem a \"Waste\" of an iron ingot, or it might seem like an excellent way to level up and nourish your Pokemon."
 			]
 			dependencies: ["1455941647C48282"]
+			hide: true
 			id: "60B52B00C9D932FC"
 			tasks: [{
 				id: "46283680D001E2E8"
@@ -3128,7 +3134,6 @@
 			y: -2.5d
 			description: ["The Aspear Berry can be found in the possession of fire element Vulpixes, which you expect to be attracted to some type of habitat on the Ice layer. Probably indoors."]
 			dependencies: ["516B913EB8DF470E"]
-			hide: true
 			id: "0B4EC16A21612E29"
 			tasks: [{
 				id: "26594F27BB8A76EB"
@@ -3163,7 +3168,6 @@
 				"Mimicarnations, when heated up in a cooking pot with other plants, can double or even triple those plants. This can be used to duplicate Dark Oak saplings, if you've finally secured one but not the other three, or to duplicate a selection of small flowers that can't be bonemealed."
 			]
 			dependencies: ["0940C009E9B6F828"]
-			hide: true
 			id: "4B1822BBB0D17F60"
 			tasks: [{
 				id: "21629DC6EF6BD9A9"
@@ -4318,7 +4322,6 @@
 				"You might have to visit the Nether, or learn how to bring something back from the dead. Perhaps you should shelve this project until a better idea occures to you."
 			]
 			dependencies: ["7B9D7ABCC4AC4243"]
-			hide: true
 			id: "4EC5E7D5A0734618"
 			tasks: [{
 				id: "7ECEEAD68FFDD2E0"
@@ -4354,7 +4357,7 @@
 				""
 				"To do this, you'd have to travel to a freezing cold level of the void, and try to lure the spirit out with everything reminiscent of Christmas: A safe indoor home, with a spruce tree might do it."
 				""
-				"Even if you find Cocoa, you will not be able to grow it owed to the lack of Jungle trees. But you might be able to get those trees through some kind of Botanical Magic."
+				"Even if you find Cocoa, you will not be able to grow it owed to the lack of Jungle trees. Later, you might be able to get those trees (and cocoa itself!) through some kind of Botanical Magic."
 				""
 			]
 			hide_dependency_lines: true
@@ -4392,11 +4395,24 @@
 				type: "item"
 				item: "minecraft:cactus"
 			}]
-			rewards: [{
-				id: "525AA47FD2619736"
-				type: "item"
-				item: "pixelmon:s_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "525AA47FD2619736"
+					type: "item"
+					item: "pixelmon:s_exp_candy"
+				}
+				{
+					id: "15BBE3E6B599182D"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 7
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -4571,11 +4587,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6E76580399EEF592"
-				type: "item"
-				item: "pixelmon:m_exp_candy"
-			}]
+			rewards: [
+				{
+					id: "6E76580399EEF592"
+					type: "item"
+					item: "pixelmon:m_exp_candy"
+				}
+				{
+					id: "5ACA80F88E228BAB"
+					type: "item"
+					item: {
+						id: "pixelmon:tm_gen8"
+						Count: 1b
+						tag: {
+							tm: 7
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 0.5d

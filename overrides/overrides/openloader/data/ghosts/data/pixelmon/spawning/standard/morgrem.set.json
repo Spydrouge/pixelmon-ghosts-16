@@ -29,7 +29,11 @@
     {
       "spec": "species:Morgrem",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Underground",
+        "Sweet Scent",
+        "Indoors",
+        "Manmade"
       ],
       "minLevel": 32,
       "maxLevel": 40,
@@ -47,7 +51,7 @@
       "rarity": 25.0
     },
      {
-      "spec": "species:Ralts palette:strike",
+      "spec": "species:Morgrem",
       "stringLocationTypes": [
         "Indoors",
         "Underground"
@@ -67,6 +71,6 @@
         
       },
       "rarity": 4
-    },
+    }
   ]
 }

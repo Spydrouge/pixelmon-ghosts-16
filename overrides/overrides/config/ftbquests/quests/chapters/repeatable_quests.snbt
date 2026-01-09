@@ -4774,7 +4774,7 @@
 			}]
 		}
 		{
-			title: "Where is the Nearest Thether Grotto?"
+			title: "Where is the Nearest Nether Grotto?"
 			x: -2.0d
 			y: 11.0d
 			shape: "circle"
@@ -7086,7 +7086,7 @@
 			x: -7.0d
 			y: 8.5d
 			shape: "circle"
-			description: ["Arceus will help revive a herbal medicine woman. This herbal medicine vendor can only make the same medicines you can. However,  it's sometimes faster to buy than to craft medicines."]
+			description: ["Arceus will help revive a herbal medicine woman. This herbal medicine vendor can only make the same medicines you can. However,  it's sometimes faster to buy than to craft medicines, owed to the tedium of tracking down ingredients."]
 			dependencies: ["2F8EDE5691D1B79E"]
 			hide: true
 			optional: true
@@ -7418,7 +7418,7 @@
 			x: -8.5d
 			y: 11.0d
 			shape: "circle"
-			description: ["There's already a Move Tutor lurking somewhere around your world... maybe waggling around a rod will bring him back?"]
+			description: ["There's already a Move Tutor lurking somewhere around your world... maybe waggling around a gem will bring him back?"]
 			dependencies: ["077636E336111F18"]
 			hide: true
 			optional: true
@@ -7500,7 +7500,7 @@
 			x: -9.5d
 			y: 9.5d
 			description: [
-				"Arceus can help you bring back a Pokemon Collector. He's willing to trade Pokemon from the old world for Pokemon you've collected from this one."
+				"Arceus can help you bring back a Pokemon Collector. The collector will be willing to trade Pokemon from the old world for Pokemon you've collected from this one."
 				""
 				"He Probably won't stick around, but there might be a way to call him back after awhile?"
 			]
@@ -7658,6 +7658,7 @@
 			x: -0.5d
 			y: 9.0d
 			shape: "circle"
+			description: ["Most likely, anything you can get via this method can be got elsewhere by other, easier means."]
 			dependencies: ["2B903371F753BED7"]
 			hide: true
 			optional: true
@@ -7716,6 +7717,7 @@
 			}]
 		}
 		{
+			title: "Gambling High"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
