@@ -30,6 +30,8 @@ refresh_dimensions = []
 refresh_modids = []
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
 randomise_seed = true
+#lootr chests can be modified (opened, etc.) even within spawn protected areas
+bypass_spawn_protection = true
 #the maximum age for containers; entries above this age will be discarded [default: 180 * 20, 3 minutes]
 #Range: > 0
 maximum_age = 3600

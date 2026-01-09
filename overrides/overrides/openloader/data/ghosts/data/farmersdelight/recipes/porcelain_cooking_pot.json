@@ -10,7 +10,7 @@
       "item": "tconstruct:seared_brick"
     },
     "S": {
-      "item": "minecraft:wooden_shovel"
+      "tag": "forge:tools/shovels"
     },
     "b": {
       "item": "ceramics:clay_bucket"

@@ -10,7 +10,7 @@
       "tag": "forge:ingots/iron"
     },
     "S": {
-      "item": "minecraft:wooden_shovel"
+      "tag": "forge:tools/shovels"
     },
     "b": {
       "item": "minecraft:bucket"

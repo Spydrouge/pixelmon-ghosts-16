@@ -12,6 +12,7 @@
 			title: "Go to the Drowned World"
 			x: 0.5d
 			y: 1.5d
+			description: ["Unlike in regular worlds, the Drowned dimension should be available all times of year."]
 			dependencies: [
 				"1779EF948DEA19BE"
 				"1859EC8D20B5BCA6"
@@ -78,6 +79,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			subtitle: "Yes, that's 100 Buckets. Not Millibuckets. Buckets."
 			description: [
 				"There are two ways to enter the Drowned World. The first is by simply crafting a teleporter."
 				""
@@ -100,6 +102,7 @@
 			}]
 		}
 		{
+			title: "Drowned world Quest"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b

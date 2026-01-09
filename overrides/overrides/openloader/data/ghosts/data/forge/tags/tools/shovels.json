@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "astralsorcery:crystal_shovel",
+    "astralsorcery:infused_crystal_shovel",
+    "botania:manasteel_shovel",
+    "botania:elementium_shovel",
+    "immersiveengineering:shovel_steel",
+    "byg:pendorite_shovel",
+    "pixelmon:aluminium_shovel",
+    "pixelmon:silver_shovel",
+    "pixelmon:platinum_shovel",
+    "pixelmon:ruby_shovel",
+    "pixelmon:sapphire_shovel",
+    "pixelmon:amethyst_shovel",
+    "pixelmon:crystal_shovel",
+    "pixelmon:fire_stone_shovel",
+    "pixelmon:water_stone_shovel",
+    "pixelmon:leaf_stone_shovel",
+    "pixelmon:thunder_stone_shovel",
+    "pixelmon:sun_stone_shovel",
+    "pixelmon:moon_stone_shovel",
+    "pixelmon:dawn_stone_shovel",
+    "pixelmon:dusk_stone_shovel"
+  ]
+}
