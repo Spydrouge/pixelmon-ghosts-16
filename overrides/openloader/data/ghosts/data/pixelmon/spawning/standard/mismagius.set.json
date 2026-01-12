@@ -1,0 +1,335 @@
+{
+  "id": "Mismagius",
+  "spawnInfos": [
+      {
+      "spec": "species:Mismagius",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:crimson_forest",
+            "minecraft:warped_forest",
+          "biomesoplenty:withered_abyss",
+          "biomesoplenty:crystaline_chasm",
+          "byg:glowstone_gardens",
+            "byg:crimson_gardens",
+          "byg:weeping_mire",
+            "byg:weeping_mire_clearing",
+            "byg:weeping_mire_forest"
+        ]
+      },
+      "rarity": 4.0
+    },
+    {
+      "spec": "species:Mismagius",
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+         "minecraft:crimson_forest",
+            "minecraft:warped_forest",
+          "biomesoplenty:withered_abyss",
+          "biomesoplenty:crystaline_chasm",
+          "byg:glowstone_gardens",
+            "byg:crimson_gardens",
+          "byg:weeping_mire",
+            "byg:weeping_mire_clearing",
+            "byg:weeping_mire_forest"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarity": 2.0
+    },
+    {
+      "spec": "species:Mismagius",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+              "DAWN",
+              "DAY"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    },
+    {
+      "spec": "species:Mismagius palette:pink",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+              "MIDDAY",
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Mismagius",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+              "DAWN",
+              "DAY"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    },
+    {
+      "spec": "species:Mismagius palette:pink",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 96,
+        "minY": 64,
+        "stringBiomes": [
+          "ghosts"
+        ]
+      },
+      "compositeCondition":
+        {
+             "conditions": 
+            [
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_torch"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_lantern"
+                    ]
+                },
+                {
+                    "neededNearbyBlocks": [
+                        "minecraft:soul_campfire"
+                    ]
+                }
+            ]
+        },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "times": [
+              "MIDDAY",
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Mismagius",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "evil"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Mismagius palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Mismagius",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": "species:Mismagius boss:haunted",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 1.0
+    }
+  ]
+}
