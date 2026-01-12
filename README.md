@@ -20,14 +20,13 @@ Think about it: Pokemon can drop almost any block or item you can think of, like
 
 ### Version Stuff
 
-#### Why isn't it in 1.20.2?
-As of the time of writing, most mods haven't made the jump to 1.20.1, much less 1.20.2. I could do a 1.20.2, but it'd be a budget version. Let's wait for the 1.20+ mod scene to get a little more diverse, first.
-
-#### Even the 1.16.5 version isn't up to date!
-You are correct, and I don't recommend you update it manually! The latest version of Pixelmon's 1.16.5 branch broke catching Pokemon outside of battle. Considering you need to catch your very first Pokemon this way, that's a game-breaking bug. 
+#### Why isn't it in 1.20.X?
+As of the time of writing, most mods haven't made the jump to even 1.20.1. Trying to remake this pack in a newer version would give us a watered down, budget version of what can be done in 1.16.5. Let's wait for the 1.20+ mod scene to get a little more diverse, first.
 
 ### Is it Multiplayer?
 In theory, yes. It uses Skyblock builder, and all island-based generation code runs relative to the player's island. However like most Skyblocks, it's designed with the Singleplayer experience in mind. People who want to run a Ghosts server need to consider how they want to handle certain issues. For example: Rain. Water is finite and players need to control the weather to obtain water in the early game. The server owner needs to know how they plan to handle this (or just not handle it and watch the ensuing duel between the Rain Dancers and Sunny Dayers; bring popcorn).
+
+Note: avoid ever running \kill @e, as you will murder the invisible magical armor stands the modpack depends on to place islands and stuff, and then your whole game will be broken, and you'll waddle miserable and scared into the discord asking me for fixes. Yes, it can be fixed, by changing a bunch of scoreboard data and running some functions. No, you will likely not enjoy figuring it out.
 
 ## Creative Info
 ### The Story
